@@ -1,0 +1,13 @@
+{
+	"info" : {
+		"name" : "português(BR)",
+		"version" : 3
+	},
+	"mixintos" : {
+		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+	},
+	"overrides" : {
+		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR.json)",
+		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR.json)"
+	}
+}
