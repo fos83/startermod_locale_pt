@@ -60,7 +60,7 @@
 		"game" : {
 			"game_speed" : {
 				"pause_title" : "Pausa",
-				"pause_description" : "Pause the game",
+				"pause_description" : "Pausa o Jogo",
 				"play_title" : "Play",
 				"play_description" : "Run the game at normal speed",
 				"ff_title" : "Fast Forward",
@@ -1239,7 +1239,7 @@
 			},
 			"error_dialog_js" : {
 				"title" : "UI Error",
-				"reset_hint" : "Press F5 to Reset the UI.",
+				"reset_hint" : "Pressione F5 to Reset the UI.",
 				"copy_button" : "Copy to Clipboard"
 			}
 		},
