@@ -1056,9 +1056,9 @@
 				"regenerate_map" : "Roll new map",
 				"world_seed" : "World Seed: ",
 				"terrain_stats" : {
-					"trees_and_plants_title" : "Árvores e plantas",
+					"trees_and_plants_title" : "Vegetação",
 					"trees_and_plants_description" : "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
-					"wildlife_title" : "Animais selvagens",
+					"wildlife_title" : "Vida selvagem",
 					"wildlife_description" : "Local wildlife can be hunted for food and raw crafting materials.",
 					"minerals_title" : "Minerais",
 					"minerals_description" : "You will need minerals if you plan on building things from stone or metal."
@@ -1321,7 +1321,7 @@
 				},
 				"body" : {
 					"display_name" : "Corpo",
-					"description" : "Competence at physical activities. Hearthlings with a high Body stat will move a bit faster, attack harder, and live longer. Influences Muscle, Speed, Stamina."
+					"description" : "A Competencia em atividades fisicas. Hearthlings com um elevado status do corpo vai se mover mais rapido. Influencias muscular, velocidade e resistencia."
 				},
 				"edibles" : {
 					"display_name" : "Edibles",
@@ -1330,7 +1330,7 @@
 				},
 				"mind" : {
 					"display_name" : "Mente",
-					"description" : "The ability to think intelligently. A high Mind stat allows a hearthling to excel in complex mental activities such as crafting. Influences Diligence, Curiosity, Inventiveness."
+					"description" : "A Capacidade de pensar de forma inteligente. A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas. Influencias Concentração, Curiosidade e Inventividade."
 				},
 				"curiosity" : {
 					"display_name" : "Curiosidade",
@@ -1340,8 +1340,8 @@
 					}
 				},
 				"spirit" : {
-					"display_name" : "Alma",
-					"description" : "Faith in other people. A high Spirit hearthling will easily befriend animals and stand strong against enemies. Influences Courage, Willpower, Compassion."
+					"display_name" : "Espirito",
+					"description" : "A fe em outras pessoas. Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos. Influencia Coragem, Força de Vontade e Compaixão ."
 				},
 				"safety" : {
 					"display_name" : "Safety",
@@ -1399,7 +1399,7 @@
 		"biome" : {
 			"temperate" : {
 				"display_name" : "Temperado",
-				"description" : "Forests, rivers and mountains. Default home of the Ascendancy.",
+				"description" : "Florestas, rios e montanhas. Bioma Padrão da Supremacia.",
 				"random_location_names" : {
 					"000" : "Darkmoor Forest"
 				}
@@ -1413,7 +1413,7 @@
 			},
 			"desert" : {
 				"display_name" : "Deserto",
-				"description" : "Dry and sandy, with chunky hills and sparse vegetation. Default home of Rayya's Children.",
+				"description" : "Seco e arenoso, com montes pesado e vegetação excassa. Bioma padão do Filhos de Rayya.",
 				"random_location_names" : {
 					"000" : "The Desert of Pal'Mum"
 				}
