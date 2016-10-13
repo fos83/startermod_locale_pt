@@ -501,7 +501,7 @@
 							"tip_description" : "Use the commands in the unit frame to direct the people in the party."
 						},
 						"party" : {
-							"required_job_text" : "Requires a footman"
+							"required_job_text" : "Requires a combat job"
 						}
 					}
 				},
@@ -7373,10 +7373,6 @@
 				"display_name" : "Arqueiro",
 				"description" : "A ranged combat unit that shoots foes with arrows",
 				"requirements" : "A level 3 footman and an Archer's Bow, crafted by the Carpenter",
-				"level_0_data" : {
-					"perk_000_name" : "Bow Proficiency",
-					"perk_000_description" : "The archer is able to use a bow to shoot arrows at enemies"
-				},
 				"level_1_data" : {
 					"perk_000_name" : "Increased Draw Strength",
 					"perk_000_description" : "The archer's damage is increased"
@@ -7385,17 +7381,21 @@
 					"perk_000_name" : "Armor Piercing Arrows",
 					"perk_000_description" : "The archer's shots ignore 50% of the target's armor"
 				},
+				"level_0_data" : {
+					"perk_000_name" : "Bow Proficiency",
+					"perk_000_description" : "The archer is able to use a bow to shoot arrows at enemies"
+				},
 				"level_3_data" : {
 					"perk_000_name" : "Range Increase",
 					"perk_000_description" : "The Archer can attack enemies from further away"
 				},
-				"level_4_data" : {
-					"perk_000_name" : "Draw Speed Up",
-					"perk_000_description" : "The archer shoots arrows with greater speed"
-				},
 				"level_5_data" : {
 					"perk_000_name" : "Range Increase (Rank 2)",
 					"perk_000_description" : "The Archer can attack enemies from very far away"
+				},
+				"level_4_data" : {
+					"perk_000_name" : "Draw Speed Up",
+					"perk_000_description" : "The archer shoots arrows with greater speed"
 				},
 				"level_6_data" : {
 					"perk_000_name" : "Double Shot",
@@ -7451,26 +7451,26 @@
 				"display_name" : "Ferreiro",
 				"description" : "The Blacksmith refines raw ore into metal bars, then uses those bars to craft weapons, armor, and building parts like gates.",
 				"requirements" : "Blacksmith's Hammer, crafted by the Mason",
-				"level_1_data" : {
-					"perk_000_name" : "Bronze Age!",
-					"perk_000_description" : "The secrets of bronze are now available to the blacksmith."
+				"level_6_data" : {
+					"title" : "Mestre Ferreiro",
+					"perk_000_name" : "The Armory",
+					"perk_000_description" : "The blacksmith's mastery of his trade allows him to create the finest weapons and armors seen since the forgotten Phoenix Empire."
 				},
 				"level_2_data" : {
 					"perk_000_name" : "Iron Age!",
 					"perk_000_description" : "The blacksmith is now skilled enough to forge heavy items made of iron."
 				},
-				"level_3_data" : {
-					"perk_000_name" : "Artistic Inspiration",
-					"perk_000_description" : "When inspiration strikes, the blacksmith may embellish his works in unexpected ways."
-				},
 				"level_4_data" : {
 					"perk_000_name" : "Cold Steel",
 					"perk_000_description" : "Long hours at the forge have unlocked the secret of steel: sharper weapons and lighter armor."
 				},
-				"level_6_data" : {
-					"title" : "Mestre Ferreiro",
-					"perk_000_name" : "The Armory",
-					"perk_000_description" : "The blacksmith's mastery of his trade allows him to create the finest weapons and armors seen since the forgotten Phoenix Empire."
+				"level_1_data" : {
+					"perk_000_name" : "Bronze Age!",
+					"perk_000_description" : "The secrets of bronze are now available to the blacksmith."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Artistic Inspiration",
+					"perk_000_description" : "When inspiration strikes, the blacksmith may embellish his works in unexpected ways."
 				}
 			},
 			"blacksmith_forge" : {
@@ -7708,26 +7708,26 @@
 				"display_name" : "Carpinteiro",
 				"description" : "The carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
 				"requirements" : "Carpenter's saw, crafted by the Blacksmith.",
-				"level_1_data" : {
-					"perk_000_name" : "Standard Catalog",
-					"perk_000_description" : "The carpenter can now make a solid array of basic furniture."
+				"level_6_data" : {
+					"title" : "Mestre Carpinteiro",
+					"perk_000_name" : "10,000 Hours",
+					"perk_000_description" : "The carpenter's mastery of his trade allows him access to recipes that expand your town's opportunities."
 				},
 				"level_2_data" : {
 					"perk_000_name" : "Collaborative Insight",
 					"perk_000_description" : "The carpenter is now skillful enough to use materials created by other crafters."
 				},
-				"level_3_data" : {
-					"perk_000_name" : "Artistic Inspiration",
-					"perk_000_description" : "When inspiration strikes, the carpenter may embellish his works in unexpected ways."
-				},
 				"level_4_data" : {
 					"perk_000_name" : "Extended Catalog",
 					"perk_000_description" : "The carpenter now has the courage to try more elaborate projects."
 				},
-				"level_6_data" : {
-					"title" : "Mestre Carpinteiro",
-					"perk_000_name" : "10,000 Hours",
-					"perk_000_description" : "The carpenter's mastery of his trade allows him access to recipes that expand your town's opportunities."
+				"level_1_data" : {
+					"perk_000_name" : "Standard Catalog",
+					"perk_000_description" : "The carpenter can now make a solid array of basic furniture."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Artistic Inspiration",
+					"perk_000_description" : "When inspiration strikes, the carpenter may embellish his works in unexpected ways."
 				}
 			},
 			"carpenter_outfit" : {
@@ -8037,26 +8037,26 @@
 					"name" : "Stone Cauldron",
 					"long_description" : "Humongous, heavy pot, suitable for cooking up a feast at a time!"
 				},
-				"level_1_data" : {
-					"perk_000_name" : "Camp Cooking",
-					"perk_000_description" : "The cook can make basic, nutritious recipes."
-				},
+				"level_6_data" : {
+					"title" : "Mestre Cozinheiro",
+					"perk_000_name" : "10,000 Hours (not implemented)",
+					"perk_000_description" : "The cook's dishes are now so good for you they have unexpected effects."
+				}
 				"level_2_data" : {
 					"perk_000_name" : "Kitchen Chemistry",
 					"perk_000_description" : "The cook has learned to make slightly fancier recipes."
-				},
-				"level_3_data" : {
-					"perk_000_name" : "Artistic Inspiration",
-					"perk_000_description" : "When inspiration strikes, the cook may embellish his works in unexpected ways."
 				},
 				"level_4_data" : {
 					"perk_000_name" : "Ingenuity Enhancements (not implemented)",
 					"perk_000_description" : "The cook adds new levels of functionality to classic recipes."
 				},
-				"level_6_data" : {
-					"title" : "Mestre Cozinheiro",
-					"perk_000_name" : "10,000 Hours (not implemented)",
-					"perk_000_description" : "The cook's dishes are now so good for you they have unexpected effects."
+				"level_1_data" : {
+					"perk_000_name" : "Camp Cooking",
+					"perk_000_description" : "The cook can make basic, nutritious recipes."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Artistic Inspiration",
+					"perk_000_description" : "When inspiration strikes, the cook may embellish his works in unexpected ways."
 				}
 			},
 			"cook_outfit" : {
@@ -8188,9 +8188,14 @@
 				"display_name" : "Engenheiro",
 				"description" : "The engineer creates advanced contraptions and defensive weaponry.",
 				"requirements" : "A level 1 Blacksmith and a wrench, crafted by the Blacksmith.",
-				"level_0_data" : {
-					"perk_000_name" : "Handyman",
-					"perk_000_description" : "The engineer can repair broken doors, gates and other fixable structures."
+				"level_6_data" : {
+					"title" : "Mestre Engenheiro",
+					"perk_000_name" : "General of Defense",
+					"perk_000_description" : "This engineer can place up to twelve traps and eight turrets"
+				},
+				"level_2_data" : {
+					"perk_000_name" : "Improved Inventiveness",
+					"perk_000_description" : "The engineer can repair broken doors and gates more efficiently"
 				},
 				"level_1_data" : {
 					"perk_000_name" : "Standard Catalog",
@@ -8198,22 +8203,17 @@
 					"perk_000_description" : "The engineer can now make basic gadgets and decorations.",
 					"perk_001_description" : "This engineer can place up to four traps and two turrets"
 				},
-				"level_2_data" : {
-					"perk_000_name" : "Improved Inventiveness",
-					"perk_000_description" : "The engineer can repair broken doors and gates more efficiently"
-				},
-				"level_3_data" : {
-					"perk_000_name" : "Town Defender",
-					"perk_000_description" : "This engineer can place up to eight traps and four turrets"
-				},
 				"level_4_data" : {
 					"perk_000_name" : "Extended Catalog",
 					"perk_000_description" : "The engineer now has the courage to create more complex gadgets."
 				},
-				"level_6_data" : {
-					"title" : "Mestre Engenheiro",
-					"perk_000_name" : "General of Defense",
-					"perk_000_description" : "This engineer can place up to twelve traps and eight turrets"
+				"level_0_data" : {
+					"perk_000_name" : "Handyman",
+					"perk_000_description" : "The engineer can repair broken doors, gates and other fixable structures."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Town Defender",
+					"perk_000_description" : "This engineer can place up to eight traps and four turrets"
 				}
 			},
 			"engineer_wrench" : {
@@ -8297,6 +8297,11 @@
 				"display_name" : "Agricultor",
 				"description" : "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
 				"requirements" : "Farmer's Hoe, crafted by the Carpenter.",
+				"level_6_data" : {
+					"perk_000_name" : "Nature's Surprise (not implemented)",
+					"perk_000_description" : "Occasionally, the farmer's special touch yields... special results.",
+					"title" : "Mestre Agricultor"
+				},
 				"level_1_data" : {
 					"perk_000_name" : "Speed Up",
 					"perk_000_description" : "Running fresh food from field to table has increased the farmer's footspeed."
@@ -8308,11 +8313,6 @@
 				"level_3_data" : {
 					"perk_000_name" : "Bountiful Harvest",
 					"perk_000_description" : "The farmer coaxes greater yield from each plant."
-				},
-				"level_6_data" : {
-					"perk_000_name" : "Nature's Surprise (not implemented)",
-					"perk_000_description" : "Occasionally, the farmer's special touch yields... special results.",
-					"title" : "Mestre Agricultor"
 				}
 			},
 			"farmer_buffs" : {
@@ -8347,29 +8347,29 @@
 				"display_name" : "Footman",
 				"description" : "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
 				"requirements" : "Wooden Practice Sword, crafted by the Carpenter.",
+				"level_4_data" : {
+					"perk_000_name" : "Damage Up 40%",
+					"perk_000_description" : "The footman is now practiced at optimizing the effect of each blow."
+				},
 				"level_1_data" : {
 					"perk_000_name" : "Damage Up 20%",
 					"perk_000_description" : "The footman knows that all combats may have mortal consequences, and attacks with renewed determination."
-				},
-				"level_2_data" : {
-					"perk_000_name" : "First Responder",
-					"perk_000_description" : "The footman charges into battle with speed"
 				},
 				"level_3_data" : {
 					"perk_000_name" : "Power Spike",
 					"perk_000_description" : "This powerful, overhead swing deals double damage."
 				},
-				"level_4_data" : {
-					"perk_000_name" : "Damage Up 40%",
-					"perk_000_description" : "The footman is now practiced at optimizing the effect of each blow."
+				"level_6_data" : {
+					"perk_000_name" : "Damage Up 60%",
+					"perk_000_description" : "Maxiumum damage!"
+				},
+				"level_2_data" : {
+					"perk_000_name" : "First Responder",
+					"perk_000_description" : "The footman charges into battle with speed"
 				},
 				"level_5_data" : {
 					"perk_000_name" : "Cleave",
 					"perk_000_description" : "A slashing strike that deals damage to up to 4 enemies around the footman's target"
-				},
-				"level_6_data" : {
-					"perk_000_name" : "Damage Up 60%",
-					"perk_000_description" : "Maxiumum damage!"
 				}
 			},
 			"footman_buffs" : {
@@ -8418,26 +8418,26 @@
 					"description" : "insert description here",
 					"long_description" : "The Mason crafts building materials and decorative items from stone."
 				},
-				"level_1_data" : {
-					"perk_000_name" : "Standard Catalog",
-					"perk_000_description" : "The mason can now make a solid array of basic furniture."
+				"level_6_data" : {
+					"title" : "Mestre Pedreiro",
+					"perk_000_name" : "10,000 Hours (not implemented)",
+					"perk_000_description" : "The mason's mastery of his trade allows him to come up with completely new ways of using wood."
 				},
 				"level_2_data" : {
 					"perk_000_name" : "Fancy Rocks",
 					"perk_000_description" : "The mason can now make more elaborate items froms stone."
 				},
-				"level_3_data" : {
-					"perk_000_name" : "Artistic Inspiration",
-					"perk_000_description" : "When inspiration strikes, the mason may embellish his works in unexpected ways."
-				},
 				"level_4_data" : {
 					"perk_000_name" : "Extended Catalog",
 					"perk_000_description" : "The mason ventures from the realm of the functional into... art."
 				},
-				"level_6_data" : {
-					"title" : "Mestre Pedreiro",
-					"perk_000_name" : "10,000 Hours (not implemented)",
-					"perk_000_description" : "The mason's mastery of his trade allows him to come up with completely new ways of using wood."
+				"level_1_data" : {
+					"perk_000_name" : "Standard Catalog",
+					"perk_000_description" : "The mason can now make a solid array of basic furniture."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Artistic Inspiration",
+					"perk_000_description" : "When inspiration strikes, the mason may embellish his works in unexpected ways."
 				}
 			},
 			"mason_chisel" : {
@@ -8618,26 +8618,26 @@
 					"description" : "insert description here",
 					"long_description" : "The Potter crafts useful goods and decorative items from clay."
 				},
-				"level_1_data" : {
-					"perk_000_name" : "Standard Catalog",
-					"perk_000_description" : "The potter can now make basic furniture and building adornments."
-				},
-				"level_2_data" : {
-					"perk_000_name" : "Art for Sale",
-					"perk_000_description" : "The potter can now make decorative items to liven up the town or sell for money."
-				},
 				"level_3_data" : {
 					"perk_000_name" : "Artistic Inspiration",
 					"perk_000_description" : "When inspiration strikes, the potter may embellish his/her works in unexpected ways."
-				},
-				"level_4_data" : {
-					"perk_000_name" : "Collaborative Insight",
-					"perk_000_description" : "The potter can now add precious metals to vases and tiles."
 				},
 				"level_6_data" : {
 					"title" : "Mestre Oleiro",
 					"perk_000_name" : "Master Potter",
 					"perk_000_description" : "The potter has rediscovered ancient secrets of the Phoenix..."
+				},
+				"level_2_data" : {
+					"perk_000_name" : "Art for Sale",
+					"perk_000_description" : "The potter can now make decorative items to liven up the town or sell for money."
+				},
+				"level_4_data" : {
+					"perk_000_name" : "Collaborative Insight",
+					"perk_000_description" : "The potter can now add precious metals to vases and tiles."
+				},
+				"level_1_data" : {
+					"perk_000_name" : "Standard Catalog",
+					"perk_000_description" : "The potter can now make basic furniture and building adornments."
 				}
 			},
 			"recipes" : {
@@ -8860,6 +8860,10 @@
 				"display_name" : "Pastor",
 				"description" : "Domesticates wild animals and harvests them for food and materials.",
 				"requirements" : "A level 2 Trapper and a Shepherd's Crook, crafted by the Carpenter.",
+				"level_4_data" : {
+					"perk_000_name" : "Animal Magnetism",
+					"perk_000_description" : "Wild animals are more likely to appear whenever the shepherd is looking for them."
+				},
 				"level_1_data" : {
 					"perk_000_name" : "Speed Up",
 					"perk_000_description" : "The shepherd is now more adept at getting the flock to walk a tiny bit faster."
@@ -8867,10 +8871,6 @@
 				"level_3_data" : {
 					"perk_000_name" : "Extra Bonuses",
 					"perk_000_description" : "The shepherd's skill produces greater yields in animal products."
-				},
-				"level_4_data" : {
-					"perk_000_name" : "Animal Magnetism",
-					"perk_000_description" : "Wild animals are more likely to appear whenever the shepherd is looking for them."
 				},
 				"level_6_data" : {
 					"title" : "Master Shepherd"
@@ -8913,28 +8913,28 @@
 					"perk_000_name" : "Speed Up",
 					"perk_000_description" : "Long walks have increased the trapper's foot speed."
 				},
+				"level_3_data" : {
+					"perk_000_name" : "Efficient Cuts",
+					"perk_000_description" : "Long practice helps the trapper salvage more from each animal."
+				},
 				"level_2_data" : {
 					"perk_000_name" : "Charm Pet",
 					"perk_001_name" : "Job Opportunities",
 					"perk_000_description" : "The trapper will occasionally choose to turn a particulary fine animal into a pet!",
 					"perk_001_description" : "The trapper now qualifies for advanced jobs. Click the promote command for details."
 				},
-				"level_3_data" : {
-					"perk_000_name" : "Efficient Cuts",
-					"perk_000_description" : "Long practice helps the trapper salvage more from each animal."
-				},
-				"level_4_data" : {
-					"perk_000_name" : "Backpack Size +8",
-					"perk_000_description" : "The trapper has become more efficient at packing in the loot."
-				},
-				"level_5_data" : {
-					"perk_000_name" : "Toothier Traps",
-					"perk_000_description" : "Better trap arming skills increase the trapper's chance for capturing prey by 25%."
-				},
 				"level_6_data" : {
 					"perk_000_name" : "The Deadliest Catch (Not Implemented!)",
 					"perk_000_description" : "Lay special trapping zones to 'deter' acquisitive neighbors.",
 					"title" : "Master Trapper"
+				},
+				"level_5_data" : {
+					"perk_000_name" : "Toothier Traps",
+					"perk_000_description" : "Better trap arming skills increase the trapper's chance for capturing prey by 25%."
+				}
+				"level_4_data" : {
+					"perk_000_name" : "Backpack Size +8",
+					"perk_000_description" : "The trapper has become more efficient at packing in the loot."
 				}
 			},
 			"snare_trap" : {
@@ -8995,26 +8995,26 @@
 				"display_name" : "Tecelão",
 				"description" : "The Weaver makes thread, fabrics and hangings from fiber and dye.",
 				"requirements" : "Weaver's Spindle, crafted by the Carpenter.",
-				"level_1_data" : {
-					"perk_000_name" : "Standard Catalog",
-					"perk_000_description" : "The weaver can now make basic hangings and decor."
+				"level_6_data" : {
+					"title" : "Mestre Tecelão",
+					"perk_000_name" : "10,000 Hours (not implemented)",
+					"perk_000_description" : "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
 				},
 				"level_2_data" : {
 					"perk_000_name" : "Collaborative Insight",
 					"perk_000_description" : "The weaver is now skillful enough to use materials created by other crafters."
 				},
-				"level_3_data" : {
-					"perk_000_name" : "Artistic Inspiration",
-					"perk_000_description" : "When inspiration strikes, the weaver may embellish his works in unexpected ways."
-				},
 				"level_4_data" : {
 					"perk_000_name" : "Ingenuity Enhancements (not implemented)",
 					"perk_000_description" : "The weaver adds new levels of functionality to classic recipes."
 				},
-				"level_6_data" : {
-					"title" : "Mestre Tecelão",
-					"perk_000_name" : "10,000 Hours (not implemented)",
-					"perk_000_description" : "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
+				"level_1_data" : {
+					"perk_000_name" : "Standard Catalog",
+					"perk_000_description" : "The weaver can now make basic hangings and decor."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Artistic Inspiration",
+					"perk_000_description" : "When inspiration strikes, the weaver may embellish his works in unexpected ways."
 				}
 			},
 			"recipes" : {
@@ -9211,10 +9211,6 @@
 					"description" : "Allows the Herbalist to craft healing balms and bandages.",
 					"long_description" : "Allows the Herbalist to craft healing balms and bandages."
 				},
-				"level_0_data" : {
-					"perk_000_name" : "Junior Practitioner",
-					"perk_000_description" : "The herbalist can attend to 2 hurt hearthlings at a time."
-				},
 				"level_1_data" : {
 					"perk_000_name" : "Natural Regeneration",
 					"perk_000_description" : "The herbalist channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased."
@@ -9223,13 +9219,17 @@
 					"perk_000_name" : "Collaborative Insight",
 					"perk_000_description" : "The herbalist is now skillful enough to use materials created by the other crafters."
 				},
-				"level_3_data" : {
-					"perk_000_name" : "Item Proficiency",
-					"perk_000_description" : "The herbalist's medical prowess increases the effectiveness of healing items by 50%."
-				},
 				"level_4_data" : {
 					"perk_000_name" : "Power Medic",
 					"perk_000_description" : "The herbalist can now attend to up to 4 hearthlings at a time."
+				},
+				"level_0_data" : {
+					"perk_000_name" : "Junior Practitioner",
+					"perk_000_description" : "The herbalist can attend to 2 hurt hearthlings at a time."
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Item Proficiency",
+					"perk_000_description" : "The herbalist's medical prowess increases the effectiveness of healing items by 50%."
 				},
 				"level_6_data" : {
 					"title" : "Master Herbalist"
@@ -9336,6 +9336,10 @@
 					"perk_000_name" : "Heal Aura (Rank 2)",
 					"perk_000_description" : "Healing aura power and radius increased"
 				},
+				"level_6_data" : {
+					"perk_000_name" : "Healing Master",
+					"perk_000_description" : "The cleric has mastered the art of healing. Compassion greatly increased."
+				},
 				"level_4_data" : {
 					"perk_000_name" : "Heal Aura (Rank 3)",
 					"perk_000_description" : "Healing Aura range increased"
@@ -9343,10 +9347,6 @@
 				"level_5_data" : {
 					"perk_000_name" : "Major Strength",
 					"perk_000_description" : "The cleric's presence greatly improves the muscle of those around them"
-				},
-				"level_6_data" : {
-					"perk_000_name" : "Healing Master",
-					"perk_000_description" : "The cleric has mastered the art of healing. Compassion greatly increased."
 				}
 			},
 			"cleric_tome" : {
@@ -9443,29 +9443,29 @@
 				"display_name" : "Cavaleiro",
 				"description" : "A defensive combatant focused on protecting allies from harm.",
 				"requirements" : "Requires a level 3 footman and a Knight's Shield, crafted by the Blacksmith",
-				"level_0_data" : {
-					"perk_000_name" : "Fortify",
-					"perk_000_description" : "Increases Stamina, Courage, and draws attention from monsters"
-				},
 				"level_1_data" : {
 					"perk_000_name" : "Damage Reduction Rank 1",
 					"perk_000_description" : "The knight gains an additional 10% defense from equipment"
-				},
-				"level_2_data" : {
-					"perk_000_name" : "Shout",
-					"perk_000_description" : "The knight intimidates the opponent, drawing the attention of nearby enemies."
-				},
-				"level_3_data" : {
-					"perk_000_name" : "Fortify (Rank 2)",
-					"perk_000_description" : "Stamina and Courage increased greatly"
 				},
 				"level_4_data" : {
 					"perk_000_name" : "Damage Reduction Rank 2",
 					"perk_000_description" : "The knight gains an additional 20% armor from equipment"
 				},
+				"level_0_data" : {
+					"perk_000_name" : "Fortify",
+					"perk_000_description" : "Increases Stamina, Courage, and draws attention from monsters"
+				},
+				"level_3_data" : {
+					"perk_000_name" : "Fortify (Rank 2)",
+					"perk_000_description" : "Stamina and Courage increased greatly"
+				},
 				"level_5_data" : {
 					"perk_000_name" : "Inspiring Presence",
 					"perk_000_description" : "The knight boosts courage of everyone around"
+				},
+				"level_2_data" : {
+					"perk_000_name" : "Shout",
+					"perk_000_description" : "The knight intimidates the opponent, drawing the attention of nearby enemies."
 				},
 				"level_6_data" : {
 					"perk_000_name" : "Hero's Horn",
@@ -9574,21 +9574,21 @@
 				"create_stockpile" : {
 					"ui_steps" : {
 						"set1" : {
-							"step000" : {
-								"title" : "We've harvested some wood",
-								"description" : "Now we need someplace to store it"
-							},
 							"step001" : {
 								"title" : "Click the Zones button",
 								"description" : "Zones define what happens where in your town"
 							},
-							"step002" : {
-								"title" : "Click the Create Stockpile button",
-								"description" : "Hearthlings store your items in stockpiles"
-							}
+							"step000" : {
+								"title" : "We've harvested some wood",
+								"description" : "Now we need someplace to store it"
+							},
 							"step003" : {
 								"title" : "Click the check to confirm",
 								"description" : "Use the filters to determine what type of items you want to go into the stockpile"
+							},
+							"step002" : {
+								"title" : "Click the Create Stockpile button",
+								"description" : "Hearthlings store your items in stockpiles"
 							}
 						}
 					}
@@ -9602,13 +9602,13 @@
 					},
 					"ui_steps" : {
 						"set1" : {
-							"step000" : {
-								"title" : "Click the Harvest menu button",
-								"description" : "Use the Harvest menu to gather resources from the world"
-							},
 							"step001" : {
 								"title" : "Click the Gather button",
 								"description" : "Use the gather button to chop down trees"
+							},
+							"step000" : {
+								"title" : "Click the Harvest menu button",
+								"description" : "Use the Harvest menu to gather resources from the world"
 							}
 						}
 					}
@@ -9616,33 +9616,33 @@
 				"promote_carpenter" : {
 					"ui_steps" : {
 						"set1" : {
-							"step000" : {
-								"title" : "Promote a Hearthling to a Carpenter",
-								"description" : "We have logs and a place to store goods, but the town is looking pretty empty. Fortunately, we've brought a saw along with us. Let's promote a citizen to a Carpenter!"
+							"step006" : {
+								"title" : "Click stamper to approve the promotion"
+							},
+							"step005" : {
+								"title" : "Click the Carpenter job button."
+							},
+							"step004" : {
+								"title" : "Click Change Jobs to promote this hearthling to a different job"
 							},
 							"step001" : {
 								"title" : "Open the Citizens manager",
 								"description" : "Use this pane to manage all your citizens, view their stats, and set their task orders."
 							},
-							"step002" : {
-								"title" : "Escolha um cidadão para promover"
+							"step000" : {
+								"title" : "Promote a Hearthling to a Carpenter",
+								"description" : "We have logs and a place to store goods, but the town is looking pretty empty. Fortunately, we've brought a saw along with us. Let's promote a citizen to a Carpenter!"
+							},
+							"step007" : {
+								"title" : "Town Crafters",
+								"description" : "Carpenters and other crafters can create various goods to help your settlement, from beds, to building materials, to weapons."
 							},
 							"step003" : {
 								"title" : "Mouse over the numbers to learn what each attribute does",
 								"description" : "Each hearthling has a Mind, Body, and Spirit attribute that affects how well they do certain things."
 							},
-							"step004" : {
-								"title" : "Click Change Jobs to promote this hearthling to a different job"
-							},
-							"step005" : {
-								"title" : "Click the Carpenter job button."
-							},
-							"step006" : {
-								"title" : "Click stamper to approve the promotion"
-							},
-							"step007" : {
-								"title" : "Town Crafters",
-								"description" : "Carpenters and other crafters can create various goods to help your settlement, from beds, to building materials, to weapons."
+							"step002" : {
+								"title" : "Escolha um cidadão para promover"
 							}
 						}
 					}
