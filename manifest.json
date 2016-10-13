@@ -8,6 +8,17 @@
 	},
 	"overrides" : {
 		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR.json)",
-		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR.json)"
+		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR.json)",
+		"stonehearth/release_notes/release_notes.html" : "file(release_notes/release_notes.html)",
+
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/pt-BR/AutourOne-Regular-webfont.eot)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/pt-BR/AutourOne-Regular-webfont.svg)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/pt-BR/AutourOne-Regular-webfont.ttf)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/pt-BR/AutourOne-Regular-webfont.woff)",
+		"stonehearth/ui/root/css/fonts/grobold/GROBOLD.ttf" : "file(fonts/pt-BR/GROBOLD.ttf)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/pt-BR/grobold-webfont.eot)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/pt-BR/grobold-webfont.svg)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/pt-BR/grobold-webfont.ttf)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/pt-BR/grobold-webfont.woff)"
 	}
 }

@@ -162,10 +162,10 @@
 			"save_view" : {
 				"title" : "Jogos Salvos",
 				"confim_delete_title" : "Confirm Delete",
-				"confirm_delete_message" : "Do you really want to delete this save game?",
+				"confirm_delete_message" : "Voce tem certesa que quer apagar o jogo salvo?",
 				"confim_overwrite_title" : "Confirm Save Overwrite",
-				"confirm_overwrite_message" : "Do you really want to completely, unrevokably overwrite this save game?",
-				"save_autosave" : "Automatically save periodically",
+				"confirm_overwrite_message" : "Voce tem certesa que quer Sobscrever o jogo salvo?",
+				"save_autosave" : "Salvar Altomatucamente",
 				"auto_save_prefix" : "Auto save: ",
 				"save_in_progress" : "Salvando...",
 				"opt_title" : "Help us make Stonehearth better!",
@@ -175,8 +175,8 @@
 				"opt_thanks" : "Obrigado!",
 				"save_delete" : "Deletar",
 				"save_overwrite" : "Sobscrever",
-				"save_new" : "Novo Jogo Salvo",
-				"load_game" : "Carregar Jogo",
+				"save_new" : "Salvar",
+				"load_game" : "Carregar",
 				"game_different_version" : "Versão do Save Incompatível",
 				"delete_incompatible_saves" : "Deletar Saves Incompatíveis",
 				"save_time" : "Salvo em [str(save_time)]",
@@ -304,22 +304,22 @@
 			},
 			"esc_menu" : {
 				"title" : "Stonehearth",
-				"resume" : "Resumo",
-				"save" : "Salvar Ou Carregar Jogo",
+				"resume" : "Voltar a Jogar",
+				"save" : "Salvar/Carregar",
 				"settings" : "Configurações",
 				"about" : "Sobre",
-				"quit_to_menu" : "Sair para o Menu Principal",
+				"quit_to_menu" : "Menu Principal",
 				"exit_game" : "Sair do Jogo",
 				"post_bug" : "Postar um Bug",
 				"exit_confirm_dialog" : {
 					"title" : "Sair do Jogo",
-					"message" : "Completely exit the game? Any unsaved changes will be lost.",
+					"message" : "Deseja realmente Sair do jogo? todo progresso nao salvo sera perdido.",
 					"yes_button" : "Sim",
 					"cancel_button" : "Cancelar"
 				},
 				"return_to_menu_dialog" : {
 					"title" : "Reotrnar para o menu principal",
-					"message" : "Quit this game and return to main menu?",
+					"message" : "Deseja Retorna ao Menu Principal? todo progresso nao salvo sera perdido.",
 					"yes_button" : "Sim",
 					"cancel_button" : "Cancelar"
 				}
@@ -1154,7 +1154,7 @@
 			},
 			"title_screen" : {
 				"exit" : "Sair",
-				"settings" : "Configurações",
+				"settings" : "configuração",
 				"about" : "Sobre",
 				"kingdom_of" : "O Reino de",
 				"continue_game" : "Continue",
