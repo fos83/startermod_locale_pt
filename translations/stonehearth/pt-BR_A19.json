@@ -52,7 +52,8 @@
 				"healing" : "treating wounds",
 				"healing_target" : "healing [name(data.target)]",
 				"dig_foundation" : "digging foundation",
-				"unit_hold_location" : "Defendendo localização"
+				"unit_hold_location" : "Defendendo localização",
+				"execute_conversation" : "socializing"
 			}
 		}
 	},
@@ -199,7 +200,7 @@
 				"create_party" : "Criar Grupo",
 				"edit_party" : "Editar",
 				"add_party_member" : "Adicionar Membro",
-				"remove_members" : "Remover Todos os Membros",
+				"remove_members" : "Remover todos os Membros",
 				"add_party_member_title" : "Manage Roster",
 				"done_adding_members" : "Done",
 				"add_party_member_button" : "Adicionar",
@@ -259,7 +260,6 @@
 					"mine" : "Minerar",
 					"job" : "Trabalho",
 					"current_activity" : "Current Activity...",
-					"militia" : "Militia",
 					"status" : "Status"
 				},
 				"show_character_sheet" : "Mais informações",
@@ -1017,7 +1017,8 @@
 					"028" : "Posicionando Brinquedos...",
 					"029" : "Regulando o Jogo...",
 					"030" : "sheering sheep...",
-					"031" : "percolating brain..."
+					"031" : "percolating brain...",
+					"032" : "poking poyos..."
 				},
 				"tips" : {
 					"000" : "If your workers get stuck in a mine, you can build a ladder to get them out!",
@@ -1150,6 +1151,21 @@
 					"auto_loot_description" : "When an enemy drops loot, automatically mark it for pick up.",
 					"building_auto_queue_crafters" : "Auto Queue Crafting For Building",
 					"building_auto_queue_crafters_description" : "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters."
+				},
+				"mods" : "Módulos",
+				"mods_tab" : {
+					"title" : "Módulos Instalado",
+					"note" : "Abilitar Ou Desabilitar um Módulo requer reload.",
+					"invalid_manifest" : "Manifest Invalido",
+					"out_of_date" : "Desatualizado",
+					"deferred_load" : "Modulo carregado Altomaticamente",
+					"required" : "Necessário",
+					"mods_changed_dialog" : {
+						"title" : "Modules Changed",
+						"message" : "The game needs to reload to apply module changes. Reload now?",
+						"accept" : "Ok",
+						"cancel" : "Cancelar"
+					}
 				}
 			},
 			"title_screen" : {
@@ -1383,7 +1399,8 @@
 				"fiber_resource_name" : "Bundle of Fiber",
 				"ingot_resource_name" : "Metal Ingot",
 				"herb_resource_name" : "Erva",
-				"ore_resource_name" : "Minédio"
+				"ore_resource_name" : "Minédio",
+				"dirt_resource_name" : "Pile of Dirt"
 			}
 		}
 	},
@@ -1533,7 +1550,8 @@
 						"text" : "Satisfy any of the following requirements to qualify for township status:",
 						"military_requirement_title" : "Cid's Valor",
 						"church_requirement_title" : "Church of Plenty",
-						"crafting_requirement_title" : "Crafter's Approval"
+						"crafting_requirement_title" : "Crafter's Approval",
+						"summon_text" : "Summon Herald!"
 					},
 					"herald_dialog" : {
 						"dialog_tree_info" : {
@@ -3264,10 +3282,14 @@
 					"#4E555C" : "Trout",
 					"#864E31" : "Korma",
 					"#644F46" : "Congo Brown",
+					"#97775E" : "Roserock",
+					"#A7855A" : "Fawn",
+					"#9E7F56" : "Coffee Cake",
 					"#927923" : "Lemon Ginger"
 				},
 				"patterns" : {
 					"gold_clay_wall" : "A Pattern of Pavlova, Raffia, Winter Hazel, and Ecru",
+					"tan_clay_wall" : "A pattern of Roserock, Coffee Cake, and Fawn",
 					"wooden_wall" : "A Pattern of Punga, and Tobacco Brown",
 					"red_clay_slat_roof" : "A roof made of Korma colored clay and Cocoa Brown wood",
 					"cobblestone" : "A Pattern of Hillary, Granite Green, and Pale Oyster",
@@ -3351,6 +3373,10 @@
 			"remove_ladder" : {
 				"display_name" : "Remove",
 				"description" : "Remove this ladder."
+			},
+			"restore_terrain" : {
+				"display_name" : "Restore Terrain",
+				"description" : "Restore the terrain to its original state."
 			},
 			"show_workshop" : {
 				"display_name" : "Show Workshop",
@@ -6361,6 +6387,14 @@
 				"display_name" : "Chest of Gold Coins",
 				"description" : "It's [str(self.stonehearth:stacks.stacks)] coins!",
 				"label" : "gold"
+			},
+			"dusty_tome" : {
+				"display_name" : "Dusty Tome",
+				"description" : "An ancient text preserving knowledge of the past"
+			},
+			"old_scroll" : {
+				"display_name" : "Old Scroll",
+				"description" : "Covered in faded ink and inscrutable symbols"
 			}
 		},
 		"monsters" : {
@@ -6668,6 +6702,18 @@
 				"display_name" : "Pear Cactus",
 				"description" : "Harvest carefully for prickley pears.",
 				"unripe_description" : "It's the invisible spines that really hurt"
+			},
+			"foxlily_plant" : {
+				"foxlily_plant_ghost" : {
+					"display_name" : "Fox Lily",
+					"description" : "Orange flowers bearing resemblance to fox tails"
+				}
+			},
+			"sunflower_plant" : {
+				"sunflower_plant_ghost" : {
+					"display_name" : "Sunflower",
+					"description" : "Bright and happy like the sun"
+				}
 			}
 		},
 		"rabbit" : {
@@ -6815,6 +6861,16 @@
 					"description" : "Heavy and cool to the touch"
 				}
 			},
+			"dirt" : {
+				"dirt_pile" : {
+					"display_name" : "Pile of Dirt",
+					"description" : "Looks dirty"
+				},
+				"terrain_dirt" : {
+					"display_name" : "Large Pile of Dirt",
+					"description" : "A huge mound of dirt excavated from the land"
+				}
+			},
 			"tin" : {
 				"tin_ore" : {
 					"display_name" : "Tin Ore",
@@ -6859,6 +6915,10 @@
 				"cactus_flower" : {
 					"display_name" : "Cactus Flower",
 					"description" : "A beautiful desert bloom with healing properties"
+				},
+				"summer_jasmine" : {
+					"display_name" : "Summer Jasmine Flower",
+					"description" : "Vibrant yellow flower that blooms in summer"
 				}
 			},
 			"skin" : {
