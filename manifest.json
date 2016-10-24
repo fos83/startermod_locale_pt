@@ -1,15 +1,16 @@
 {
 	"info" : {
 		"name" : "MOD Traslater português(BR)",
-		"version" : 3
+		"version" : 3,
+		"default_enabled" : true
 	},
 	"mixintos" : {
 		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
 	},
 	"overrides" : {
-		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR_A18.json)",
-		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR_A18.json)",
-		"stonehearth/release_notes/release_notes.html" : "file(release_notes/release_notes.html)",
+		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR_A19.json)",
+		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR_A19.json)",
+		"debugtools/locales/pt-BR.json" : "file(translations/debugtools/pt-BR_A19.json)",
 		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/pt-BR/AutourOne-Regular-webfont.eot)",
 		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/pt-BR/AutourOne-Regular-webfont.svg)",
 		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/pt-BR/AutourOne-Regular-webfont.ttf)",
