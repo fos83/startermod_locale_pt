@@ -1,0 +1,124 @@
+{
+	"ai" : {
+		"actions" : {
+			"status_text" : {
+				"execute_conversation" : "socializing"
+			}
+		}
+	},
+	"ui" : {
+		"shell" : {
+			"loading_screen" : {
+				"loading_map_flavor_text" : {
+					"032" : "poking poyos..."
+				}
+			},
+			"settings" : {
+				"mods" : "Módulos",
+				"mods_tab" : {
+					"title" : "Módulos Instalado",
+					"note" : "Abilitar Ou Desabilitar um Módulo requer reload.",
+					"invalid_manifest" : "Manifest Invalido",
+					"out_of_date" : "Desatualizado",
+					"deferred_load" : "Modulo carregado Altomaticamente",
+					"required" : "Necessário",
+					"mods_changed_dialog" : {
+						"title" : "Modules Changed",
+						"message" : "The game needs to reload to apply module changes. Reload now?",
+						"accept" : "Ok",
+						"cancel" : "Cancelar"
+					}
+				}
+			},
+			"title_screen" : {
+				"patch_notes" : "Ver Notas de Atualização</br>Modulo Idioma pt-BR v0.1 (A18 e A19)"
+			}
+		},
+		"data" : {
+			"tooltips" : {
+				"constants" : {
+					"dirt_resource_name" : "Pile of Dirt"
+				}
+			}
+		}
+	},
+	"data" : {
+		"gm" : {
+			"trader" : {
+				"ascendancy_town_tier_quest" : {
+					"summon_text" : "Summon Herald!"
+				}
+			}
+		},
+		"build" : {
+			"building_brushes" : {
+				"colors" : {
+					"#97775E" : "Roserock",
+					"#A7855A" : "Fawn",
+					"#9E7F56" : "Coffee Cake"
+				},
+				"patterns" : {
+					"tan_clay_wall" : "A pattern of Roserock, Coffee Cake, and Fawn"
+				}
+			}
+		},
+		"commands" : {
+			"restore_terrain" : {
+				"display_name" : "Restaurar o Terreno",
+				"description" : "Restaura o Terreno ao Estado Original."
+			}
+		}
+	},
+	"entities" : {
+		"loot" : {
+			"dusty_tome" : {
+				"display_name" : "Dusty Tome",
+				"description" : "An ancient text preserving knowledge of the past"
+			}
+		},
+		"plants" : {
+			"foxlily_plant" : {
+				"foxlily_plant_ghost" : {
+					"display_name" : "Fox Lily",
+					"description" : "Orange flowers bearing resemblance to fox tails"
+				}
+			},
+			"sunflower_plant" : {
+				"sunflower_plant_ghost" : {
+					"display_name" : "Sunflower",
+					"description" : "Bright and happy like the sun"
+				}
+			}
+		},
+		"resources" : {
+			"dirt" : {
+				"dirt_pile" : {
+					"display_name" : "Pile of Dirt",
+					"description" : "Looks dirty"
+				},
+				"terrain_dirt" : {
+					"display_name" : "Large Pile of Dirt",
+					"description" : "A huge mound of dirt excavated from the land"
+				}
+			}
+		}
+	},
+	"jobs" : {
+		"potter" : {
+			"recipies" : {
+				"potted_cactus_recipe" : {
+					"flavor" : "YOWCH! --Every cactus potter, ever"
+				},
+				"unfired_clay_vase_recipe" : {
+					"flavor" : "'The First Pot was formed together by wind, earth, and fire, connecting the people to Hearth' --Master Orlen"
+				},
+				"clay_tunnel_door_recipe" : {
+					"flavor" : "Speak friend and enter.... oh no wait it's not locked. - Eber, Potter's Apprentice"
+				},
+				"wooden_sign_potter_recipe" : {
+					"flavor" : "Less fragile and easier than hanging a real pot!"
+				}
+			}
+		}
+	}
+}

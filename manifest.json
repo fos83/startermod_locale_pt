@@ -5,11 +5,13 @@
 		"default_enabled" : true
 	},
 	"mixintos" : {
-		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)",
+		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/patch_A19_3181.json)",
+		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/patch_A19_3181.json)"
 	},
 	"overrides" : {
-		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR_A19.json)",
-		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR_A19.json)",
+		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR_A18.json)",
+		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR_A18.json)",
 		"debugtools/locales/pt-BR.json" : "file(translations/debugtools/pt-BR_A19.json)",
 		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/pt-BR/AutourOne-Regular-webfont.eot)",
 		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/pt-BR/AutourOne-Regular-webfont.svg)",

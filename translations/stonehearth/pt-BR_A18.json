@@ -113,18 +113,18 @@
 			"citizen_character_sheet" : {
 				"title" : "Informações do Personagem",
 				"health" : "Saúde",
-				"morale" : "morale",
+				"morale" : "Moral",
 				"experience" : "Experiência",
 				"max_level" : "Nivel Maximo!!!",
 				"level_text" : "Nivel ",
 				"level_abbreviation" : "Lvl",
-				"locked_status" : " (Travado)",
+				"locked_status" : "</br></br>(Travado)",
 				"apprentice" : "Aprendiz",
-				"journal" : "Journal",
+				"journal" : "Jornal",
 				"attributes" : "Atributos",
 				"equipment" : "Equipamentos",
 				"abilities" : "Habilidades",
-				"morale_title" : "Morale",
+				"morale_title" : "Moral",
 				"overall_morale" : "Overall Morale",
 				"morale_food" : "Comida",
 				"morale_shelter" : "Shelter",
@@ -197,7 +197,7 @@
 			"party" : {
 				"title" : "Grupos",
 				"create_party" : "Criar Grupo",
-				"edit_party" : "Editar",
+				"edit_party" : "Editr",
 				"add_party_member" : "Adicionar Membro",
 				"remove_members" : "Remover Todos os Membros",
 				"add_party_member_title" : "Manage Roster",
@@ -257,14 +257,14 @@
 					"haul" : "Haul",
 					"build" : "Construir",
 					"mine" : "Minerar",
-					"job" : "Trabalho",
+					"job" : "Trabalhar",
 					"current_activity" : "Current Activity...",
 					"militia" : "Militia",
 					"status" : "Status"
 				},
 				"show_character_sheet" : "Mais informações",
-				"button_suspend" : "suspend",
-				"button_resume" : "resume",
+				"button_suspend" : "suspender",
+				"button_resume" : "resumir",
 				"tab" : {
 					"tasks" : "Afazeres",
 					"groups" : "Groups"
@@ -1161,7 +1161,7 @@
 				"new_game" : "Novo Jogo",
 				"load_game" : "Carregar Jogo",
 				"quick_start" : "Novo Jogo Rapido",
-				"patch_notes" : "Ver Notas de Atualização ( pt-BR v0.1 )",
+				"patch_notes" : "Ver Notas de Atualização</br>Modulo Idioma pt-BR v0.1 (A18)",
 				"alpha_welcome_dialog" : {
 					"title" : "Bem vindo a Stonehearth!",
 					"message" : "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
@@ -1427,7 +1427,7 @@
 						"update_title" : "Daily Update",
 						"sub_title" : "Immigration Report",
 						"food_label" : "Food ",
-						"morale_label" : "Morale ",
+						"morale_label" : "Moral ",
 						"net_worth_label" : "Net Worth ",
 						"conclusion_positive" : "A new settler would like to join your town!",
 						"conclusion_negative" : "The road remains empty. Maybe tomorrow!",
@@ -4301,14 +4301,14 @@
 		},
 		"prototypes" : {
 			"party" : {
-				"display_name" : "Party",
+				"display_name" : "Grupo",
 				"display_names" : {
-					"party_1" : "Party No.1",
-					"party_2" : "Party No.2",
-					"party_3" : "Party No.3",
-					"party_4" : "Party No.4"
+					"party_1" : "Grupo No.1",
+					"party_2" : "Grupo No.2",
+					"party_3" : "Grupo No.3",
+					"party_4" : "Grupo No.4"
 				},
-				"description" : "Organizes troops into groups for combat"
+				"description" : "Organizar tropas em Grupo Para o Combate"
 			}
 		},
 		"shops" : {
@@ -4384,25 +4384,25 @@
 				"craft_carpenter_workbench" : {
 					"ui_steps" : {
 						"set1" : {
-							"step000" : {
-								"title" : "Set Up a Workbench",
-								"description" : "Our carpenter needs a crafting station in order to craft items for the town. Let's make a workbench!"
+							"step003" : {
+								"title" : "Click the Carpenter's Workshop"
+							},
+							"step002" : {
+								"title" : "Open the Carpenter's Craft Menu"
+							},
+							"step005" : {
+								"title" : "Click no X para fechar a Janela"
+							},
+							"step004" : {
+								"title" : "Click the Craft button to craft the workshop"
 							},
 							"step001" : {
 								"title" : "Open the workshop menu",
 								"description" : "Use this menu to manage the various crafting workshops of your citizens. "
 							},
-							"step002" : {
-								"title" : "Open the Carpenter's Craft Menu"
-							},
-							"step003" : {
-								"title" : "Click the Carpenter's Workshop"
-							},
-							"step004" : {
-								"title" : "Click the Craft button to craft the workshop"
-							},
-							"step005" : {
-								"title" : "Click X to close this window"
+							"step000" : {
+								"title" : "Set Up a Workbench",
+								"description" : "Our carpenter needs a crafting station in order to craft items for the town. Let's make a workbench!"
 							}
 						}
 					}
@@ -4410,20 +4410,20 @@
 				"place_carpenter_workbench" : {
 					"ui_steps" : {
 						"set1" : {
-							"step000" : {
-								"title" : "Place the Carpenter's Workbench",
-								"description" : "Now that we've crafted the workbench, we need to place it in town for the Carpenter to use."
-							},
 							"step001" : {
 								"title" : "Open the Build Menu",
 								"description" : "Use this menu to build structures and place items in your town."
 							},
-							"step002" : {
-								"title" : "Open the Place Item pane"
+							"step000" : {
+								"title" : "Place the Carpenter's Workbench",
+								"description" : "Now that we've crafted the workbench, we need to place it in town for the Carpenter to use."
 							},
 							"step003" : {
 								"title" : "Click the Carpenter's Workshop item",
 								"description" : "Select the workshop and click to place it somewhere in town."
+							},
+							"step002" : {
+								"title" : "Open the Place Item pane"
 							}
 						},
 						"set2" : {
@@ -7570,7 +7570,7 @@
 				"weapons_name" : "Armas",
 				"smelt_name" : "Smelting",
 				"armor_name" : "Armor",
-				"tools_name" : "Tools",
+				"tools_name" : "Ferramentas",
 				"short_sword_recipe" : {
 					"description" : "Stubby, but its steel blade keeps an edge.",
 					"recipe_name" : "Steel Short Sword",
@@ -8298,7 +8298,7 @@
 				"description" : "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
 				"requirements" : "Farmer's Hoe, crafted by the Carpenter.",
 				"level_6_data" : {
-					"perk_000_name" : "Nature's Surprise (not implemented)",
+					"perk_000_name" : "Nature's Surprise</br></br>(not implemented)",
 					"perk_000_description" : "Occasionally, the farmer's special touch yields... special results.",
 					"title" : "Mestre Agricultor"
 				},
@@ -8322,14 +8322,14 @@
 				}
 			},
 			"farmer_hoe" : {
-				"display_name" : "Farmer's Hoe",
+				"display_name" : "Enxada do Fazendeiro",
 				"description" : "Used to till fields.",
 				"farmer_hoe_iconic" : {
-					"display_name" : "Farmer's Hoe",
+					"display_name" : "Enxada do Fazendeiro",
 					"description" : "Required to promote a hearthling into a Farmer."
 				},
 				"farmer_hoe_talisman" : {
-					"display_name" : "Farmer's Hoe",
+					"display_name" : "Enxada do Fazendeiro",
 					"description" : "Required to promote a hearthling into a Farmer."
 				}
 			},
