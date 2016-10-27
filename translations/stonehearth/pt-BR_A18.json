@@ -128,7 +128,7 @@
 				"overall_morale" : "Overall Morale",
 				"morale_food" : "Comida",
 				"morale_shelter" : "Shelter",
-				"morale_safety" : "Safety",
+				"morale_safety" : "Porteção",
 				"attack_abbreviation" : "Atk",
 				"defense_abbreviation" : "Def",
 				"backpack_tab_name" : "Mochila",
@@ -245,12 +245,12 @@
 				"placed" : "placed",
 				"placement_tags" : {
 					"turret" : "Turrets",
-					"trap" : "Traps"
+					"trap" : "Armadilhas"
 				}
 			},
 			"citizens" : {
-				"title" : "Citizens",
-				"work_orders_title" : "Citizens",
+				"title" : "Cidadãos",
+				"work_orders_title" : "Cidadãos",
 				"worker_details" : "Detalhes",
 				"workers_list_headers" : {
 					"name" : "Nome",
@@ -330,7 +330,7 @@
 				"item_categories" : {
 					"food" : "Comida",
 					"cooking_ingredient" : "Cooking Ingredients",
-					"resources" : "Resources",
+					"resources" : "Recursos",
 					"furniture" : "Mobília",
 					"armor" : "Armadura",
 					"decoration" : "Decoração",
@@ -648,7 +648,7 @@
 					"draw_wall_tool" : "Free Standing Walls",
 					"draw_road_tool" : "Roads",
 					"place_furniture_tool" : "Furniture",
-					"place_decoration_tool" : "Decorations",
+					"place_decoration_tool" : "Decoraçoes",
 					"erase_tool" : "Erase",
 					"draw_stairs_tool" : "Stairs"
 				},
@@ -846,7 +846,7 @@
 						"resources" : "Recursos",
 						"construction" : "Construction",
 						"goods" : "Tools & Goods",
-						"gear" : "Weapons & Armor",
+						"gear" : "Armas & Armaduras",
 						"food_and_drink" : "Food & Drink",
 						"wealth" : "Wealth",
 						"tooltip_tools" : "Talismans and Workbenches",
@@ -861,12 +861,12 @@
 						"tooltip_furniture" : "Furniture",
 						"tooltip_defense" : "Defenses",
 						"tooltip_light" : "torches & lights",
-						"tooltip_decoration" : "Decorations",
+						"tooltip_decoration" : "Decoraçoes",
 						"tooltip_refined_weaver" : "Thread, Cloth, and Leather",
 						"tooltip_refined_craftables" : "Refined Craftables",
 						"tooltip_refined_animal_part" : "goods produced from bits of animals",
 						"tooltip_refined_ore" : "Metal Bars",
-						"tooltip_weapons" : "Weapons",
+						"tooltip_weapons" : "Armas",
 						"tooltip_ranged_weapon" : "ranged weapons",
 						"tooltip_equipment" : "Armor and Other Equipment",
 						"tooltip_heavy_armor" : "heavy armor",
@@ -957,16 +957,16 @@
 					}
 				},
 				"score" : {
-					"net_worth" : "Net worth",
-					"buildings" : "Buildings",
+					"net_worth" : "Patrimônio Líquido",
+					"buildings" : "Construções",
 					"inventory" : "Inventario",
 					"agriculture" : "Agricultura",
 					"edibles" : "Edibles",
 					"overall_morale" : "Overall Morale",
-					"food" : "Food",
-					"shelter" : "Shelter",
-					"safety" : "Safety",
-					"military_strength" : "Military Strength"
+					"food" : "Alimento",
+					"shelter" : "Abrigo",
+					"safety" : "Proteção",
+					"military_strength" : "Força Militar"
 				},
 				"inventory" : {
 					"item_count" : "Items:"
@@ -1098,7 +1098,7 @@
 			"settings" : {
 				"title" : "Configurações",
 				"graphics" : "Gráficos",
-				"gameplay" : "Gameplay",
+				"gameplay" : "Jogabilidade",
 				"card" : "Placa de Video: ",
 				"gfx_cardinfo" : "[str(gpuRenderer)] ([str(gpuDriver)])",
 				"gfx_enable_shadows" : "Habilitar Sombras",
@@ -1133,7 +1133,7 @@
 				"send_anon_data" : "Mande FeedBack Anonimo para melhorar o Stonehearth!",
 				"language_select" : "Idioma",
 				"gameplay_tab" : {
-					"title" : "Gameplay",
+					"title" : "Jogabilidade",
 					"experimental" : "Experimental",
 					"experimental_description" : "These settings are still under development and may not be stable! Enable at your own risk!",
 					"enable_speed_3" : "Enable Game Speed 3 (Requires UI Refresh)",
@@ -1344,7 +1344,7 @@
 					"description" : "A fe em outras pessoas. Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos. Influencia Coragem, Força de Vontade e Compaixão ."
 				},
 				"safety" : {
-					"display_name" : "Safety",
+					"display_name" : "Proteção",
 					"description" : "Protect your town from raiders and make your citizens feel safe by assigning guards.",
 					"town_description" : "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
 				},
@@ -1365,7 +1365,7 @@
 					"description" : "The value of farming fields and pastures in your town. Each planted crop and each pasture animal contributes to the score."
 				},
 				"military_strength" : {
-					"display_name" : "Military Strength",
+					"display_name" : "Força Militar",
 					"description" : "A value that reflects how strong your town is militarily. Combat units and equipped weapons and armor contribute to this score."
 				}
 			},
@@ -1428,7 +1428,7 @@
 						"sub_title" : "Immigration Report",
 						"food_label" : "Food ",
 						"morale_label" : "Moral ",
-						"net_worth_label" : "Net Worth ",
+						"net_worth_label" : "Patrimônio Líquido ",
 						"conclusion_positive" : "A new settler would like to join your town!",
 						"conclusion_negative" : "The road remains empty. Maybe tomorrow!",
 						"success_title" : "[name(i18n_data.citizen)] has joined [str(i18n_data.town_name)]!",
@@ -5163,7 +5163,7 @@
 				}
 			},
 			"pumpkin_crop" : {
-				"display_name" : "Pumpkin",
+				"display_name" : "Abobora",
 				"description" : "Big, round, and fast-growing, but tasty it is not.",
 				"growth_stage" : {
 					"003" : {
@@ -5881,7 +5881,7 @@
 			},
 			"pumpkin" : {
 				"pumpkin_basket" : {
-					"display_name" : "Pumpkin Basket",
+					"display_name" : "Cesta de Abobora",
 					"description" : "Ready for eating"
 				},
 				"pumpkin_serving" : {
@@ -7182,14 +7182,14 @@
 				}
 			},
 			"wooden_sword" : {
-				"display_name" : "Wooden Sword",
+				"display_name" : "Espada de Madeira",
 				"description" : "Thacks thine enemies with oaken might",
 				"wooden_sword_iconic" : {
-					"display_name" : "Wooden Sword",
-					"description" : "Basic wooden sword."
+					"display_name" : "Espada de Madeira",
+					"description" : "Espada Basica de Madeira."
 				},
 				"wooden_sword_talisman" : {
-					"display_name" : "Wooden Sword",
+					"display_name" : "Espada de Madeira",
 					"description" : "Required to promote a hearthling into a Footman."
 				}
 			},
@@ -7291,7 +7291,7 @@
 					"description" : "Learn to grow carrots."
 				},
 				"pumpkin_seeds" : {
-					"display_name" : "Pumpkin Seeds",
+					"display_name" : "Semente de Abobora",
 					"description" : "Learn to grow pumpkins."
 				},
 				"golden_gourd_seeds" : {
@@ -7640,7 +7640,7 @@
 					"description" : "Increase armor and blocks attacks!",
 					"recipe_name" : "Bronze Shield"
 				},
-				"decoration_name" : "Decorations",
+				"decoration_name" : "Decoraçoes",
 				"steel_shield_recipe" : {
 					"recipe_name" : "Steel Plated Shield",
 					"description" : "Grants the ability to completely block attacks.",
@@ -7823,7 +7823,7 @@
 					"recipe_name" : "Picket Fence",
 					"flavor" : "If it's not white, is our life unfulfilled?"
 				},
-				"tools_weapons_name" : "Tools & Weapons",
+				"tools_weapons_name" : "Ferramentas & Armas",
 				"storage_name" : "Storage",
 				"building_parts_name" : "Building Parts",
 				"armor_name" : "Weapons and Armor",
@@ -8159,7 +8159,7 @@
 					"description" : "Corn ground into a fine powder",
 					"recipe_name" : "Corn Meal"
 				},
-				"decoration_name" : "Decorations",
+				"decoration_name" : "Decoraçoes",
 				"roast_mutton_recipe" : {
 					"recipe_name" : "Roasted Rack of Mutton",
 					"description" : "Nutritious and delicious"
@@ -8275,7 +8275,7 @@
 					"description" : "Thick, sturdy iron door. Also comes with a thick, sturdy lock.",
 					"recipe_name" : "Ironclad Door"
 				},
-				"decorations_name" : "Decorations",
+				"decorations_name" : "Decoraçoes",
 				"wooden_sign_engineer_recipe" : {
 					"description" : "A sign with the mark of the Engineer.",
 					"recipe_name" : "Engineer's Wall-Mounted Sign"
@@ -8504,11 +8504,11 @@
 					"recipe_name" : "Wall-Mounted Decorative Gargoyle",
 					"flavor" : "Remnants of the servants of Brelor, Crownless King."
 				},
-				"tools_name" : "Tools",
+				"tools_name" : "Ferramentas",
 				"storage_name" : "Storage",
 				"signage_decoration_name" : "Signage & Decoration",
 				"building_parts_name" : "Building Parts",
-				"weapons_name" : "Weapons",
+				"weapons_name" : "Armas",
 				"furniture_name" : "Furniture",
 				"stone_bench_recipe" : {
 					"description" : "Outdoor seating for moments of relaxation.",
@@ -8669,7 +8669,7 @@
 					"flavor" : "Designed by Grandmaster crafter The_M"
 				},
 				"furniture_name" : "Furniture and Decoration",
-				"decoration_name" : "Decorations",
+				"decoration_name" : "Decoraçoes",
 				"utility_name" : "Utility",
 				"potter_workbench_recipe" : {
 					"description" : "Helps the potter create simple items from clay",
@@ -9070,7 +9070,7 @@
 				},
 				"clothing_armor_name" : "Clothing & Armor",
 				"toys_name" : "Toys",
-				"decorations_name" : "Decorations",
+				"decorations_name" : "Decoraçoes",
 				"crafting_materials_name" : "Crafting Materials",
 				"spool_of_thread_recipe" : {
 					"description" : "Needed for cloth. Warm and fluffy",
@@ -9297,12 +9297,12 @@
 					"description" : "This tonic will make your town citizens less sleepy and move faster for a short while.",
 					"recipe_name" : "Energy Tonic"
 				},
-				"decorations_name" : "Decorations",
+				"decorations_name" : "Decoraçoes",
 				"cleric_tome_recipe" : {
 					"recipe_name" : "Cleric's Tome",
 					"description" : "Required to promote a hearthling to a cleric"
 				},
-				"tools_name" : "Tools"
+				"tools_name" : "Ferramentas"
 			},
 			"herbalist_buffs" : {
 				"willpower_1_buff" : {

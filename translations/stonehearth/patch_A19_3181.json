@@ -2,7 +2,7 @@
 	"ai" : {
 		"actions" : {
 			"status_text" : {
-				"execute_conversation" : "socializing"
+				"execute_conversation" : "socialização"
 			}
 		}
 	},
@@ -45,6 +45,13 @@
 	"data" : {
 		"gm" : {
 			"trader" : {
+				"simple_caravan_encounter" : {
+					"message" : "Hello [str(i18n_data.town_name)]! I come bearing goods for trade. Would you like to give me <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> in exchange for <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?"
+				},
+				"returning_trader_encounter" : {
+					"trade_details" : "Hello [str(i18n_data.town_name)]! I'm just passing through, but I'd be willing to make a trade or two, if you're interested. If you make me <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, I'll be back in [str(i18n_data.num_days)] days and might be able to get you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> in exchange. Sound good?",
+					"waiting_text" : "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> ready for him!"
+				},
 				"ascendancy_town_tier_quest" : {
 					"summon_text" : "Summon Herald!"
 				}
