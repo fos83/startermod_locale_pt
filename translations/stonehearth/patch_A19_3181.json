@@ -2,7 +2,7 @@
 	"ai" : {
 		"actions" : {
 			"status_text" : {
-				"execute_conversation" : "socialização"
+				"execute_conversation" : "Socialização"
 			}
 		}
 	},

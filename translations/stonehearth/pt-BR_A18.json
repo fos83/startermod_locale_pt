@@ -5089,7 +5089,7 @@
 				}
 			},
 			"corn_crop" : {
-				"display_name" : "Corn",
+				"display_name" : "Milho",
 				"description" : "Slow-growing, but super nutritious crop.",
 				"growth_stage" : {
 					"003" : {
@@ -5137,7 +5137,7 @@
 				}
 			},
 			"gingercap_crop" : {
-				"display_name" : "Turnip",
+				"display_name" : "Nabo",
 				"description" : "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage" : {
 					"003" : {
@@ -5189,7 +5189,7 @@
 				}
 			},
 			"watermelon_crop" : {
-				"display_name" : "Watermelon",
+				"display_name" : "Melancia",
 				"description" : "Takes a while to grow, but very fun to eat!",
 				"growth_stage" : {
 					"003" : {
@@ -5310,7 +5310,7 @@
 				}
 			},
 			"turnip_crop" : {
-				"display_name" : "Turnip",
+				"display_name" : "Nabo",
 				"description" : "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage" : {
 					"003" : {
@@ -5831,7 +5831,7 @@
 		"food" : {
 			"berries" : {
 				"berry_basket" : {
-					"display_name" : "Basket of Berries",
+					"display_name" : "Cesta de Bagas",
 					"description" : "Creme of the caveman diet."
 				},
 				"berry_serving" : {
@@ -5849,7 +5849,7 @@
 					"description" : "Heavenly nutritious."
 				},
 				"corn_basket" : {
-					"display_name" : "Basket of Corn",
+					"display_name" : "Cesta de Milho",
 					"description" : "Sweet and crunchy."
 				},
 				"corn_serving" : {
@@ -6615,11 +6615,11 @@
 			},
 			"carrot" : {
 				"carrot_basket" : {
-					"display_name" : "Basket of Carrots",
+					"display_name" : "Cesta de Cenoura",
 					"description" : "Lined up in neat rows."
 				},
 				"carrot_serving" : {
-					"display_name" : "A carrot",
+					"display_name" : "Cenoura",
 					"description" : "Tiny. Bitter."
 				}
 			},
@@ -6647,11 +6647,11 @@
 			},
 			"turnip" : {
 				"turnip_basket" : {
-					"display_name" : "Basket of Turnips",
+					"display_name" : "Cesta de Nabos",
 					"description" : "Juicy and exciting!"
 				},
 				"turnip_serving" : {
-					"display_name" : "A Turnip",
+					"display_name" : "Nabo",
 					"description" : "Tiny. Bitter."
 				}
 			},
@@ -7475,19 +7475,19 @@
 			},
 			"blacksmith_forge" : {
 				"blacksmith_forge_ghost" : {
-					"display_name" : "Forge",
+					"display_name" : "Forja",
 					"description" : "A stone oven for heating metal"
 				}
 			},
 			"blacksmith_hammer" : {
-				"display_name" : "Blacksmith's Hammer",
+				"display_name" : "Martelo do Ferreiro",
 				"description" : "Tools of the trade for a blacksmith.",
 				"blacksmith_hammer_iconic" : {
-					"display_name" : "Blacksmith's Hammer",
+					"display_name" : "Martelo do Ferreiro",
 					"description" : "Tools of the trade for a blacksmith."
 				},
 				"blacksmith_hammer_talisman" : {
-					"display_name" : "Blacksmith's Hammer",
+					"display_name" : "Martelo do Ferreiro",
 					"description" : "Required to promote a hearthling to a blacksmith."
 				}
 			},
@@ -7497,7 +7497,7 @@
 			},
 			"blacksmith_workbench" : {
 				"blacksmith_workbench_ghost" : {
-					"display_name" : "Blacksmith Anvil",
+					"display_name" : "Bigorna do Ferreiro",
 					"description" : "Used by the Blacksmith for crafting."
 				}
 			},
@@ -7598,7 +7598,7 @@
 				},
 				"trapper_knife_recipe" : {
 					"description" : "Required to promote a hearthling into a Trapper.",
-					"recipe_name" : "Trapper's Knife",
+					"recipe_name" : "Faca do Caçador",
 					"flavor" : "Keep your edge whisker sharp, boy, and cut quick. --Willard Foxghost"
 				},
 				"two_handed_sword_recipe" : {
@@ -8958,14 +8958,14 @@
 				}
 			},
 			"trapper_knife" : {
-				"display_name" : "Trapper's Knife",
+				"display_name" : "Faca do Caçador",
 				"description" : "A trapper's knife",
 				"trapper_knife_iconic" : {
-					"display_name" : "Trapper's Knife",
+					"display_name" : "Faca do Caçador",
 					"description" : "Basic trapper's knife."
 				},
 				"trapper_knife_talisman" : {
-					"display_name" : "Trapper's Knife",
+					"display_name" : "Faca do Caçador",
 					"description" : "Required to promote a hearthling into a Trapper."
 				}
 			},
