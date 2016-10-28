@@ -335,7 +335,7 @@
 					"armor" : "Armadura",
 					"decoration" : "Decoração",
 					"construction" : "Construção",
-					"door" : "Porttas",
+					"door" : "Portas",
 					"window" : "Janelas",
 					"plants" : "Plantas",
 					"weapons" : "Armas",
@@ -406,7 +406,7 @@
 							"tip_description" : "Right click to exit this mode",
 							"confirm_title" : "Are you really sure you want to clear these items?",
 							"confirm_message" : "Usable items in the area will be permanently destroyed",
-							"confirm_clear" : "Yes, destroy!",
+							"confirm_clear" : "Sim, destruir!",
 							"confirm_clear_no" : "No! I need that stuff!"
 						}
 					}
@@ -436,7 +436,7 @@
 							"tip_description" : "Trappers catch critters for food and resources in this zone"
 						},
 						"create_pasture" : {
-							"display_name" : "Pastor de Animais",
+							"display_name" : "Pasto de Animais",
 							"description" : "O Pastor vai trazer Animais para Pastar aqui.",
 							"required_job_text" : "Precisa de um Pastor",
 							"tip_title" : "Click and drag to create an animal pasture",
@@ -445,19 +445,19 @@
 					}
 				},
 				"build_menu" : {
-					"display_name" : "Build & Design",
+					"display_name" : "Construção & Projeto",
 					"description" : "Build structures like houses and city walls.",
 					"items" : {
 						"building_templates" : {
-							"display_name" : "Place Building",
+							"display_name" : "Colocar Construção",
 							"description" : "Choose to construct a building from a pre-designed template"
 						},
 						"custom_building" : {
-							"display_name" : "Design Building",
+							"display_name" : "Projetar Construção",
 							"description" : "Design your own one-of-a-kind building"
 						},
 						"place_item" : {
-							"display_name" : "Place Item",
+							"display_name" : "Colocar Item",
 							"description" : "Place items like furniture and decoration",
 							"tip_title" : "Click to place this item",
 							"tip_description" : "Rotate with , and . keys"
@@ -467,7 +467,7 @@
 							"tip_description" : "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
 						},
 						"build_ladder" : {
-							"display_name" : "Construct Ladder",
+							"display_name" : "Construir escada",
 							"description" : "Build a ladder to access hard to reach places",
 							"tip_title" : "Click on a wall to build ladders",
 							"tip_description" : "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
@@ -475,7 +475,7 @@
 					}
 				},
 				"fight_menu" : {
-					"display_name" : "Fight & Defend",
+					"display_name" : "Lutar & Defender",
 					"description" : "Manage your combat forces",
 					"items" : {
 						"party_manager" : {
@@ -510,32 +510,32 @@
 					"description" : "Build and manage crafting workshops",
 					"items" : {
 						"carpenter" : {
-							"display_name" : "Carpenter Craft Menu",
+							"display_name" : "Menu de Criação do Carpinteiro",
 							"description" : "Build wooden furniture and decor.",
 							"required_job_text" : "Requires a carpenter"
 						},
 						"weaver" : {
-							"display_name" : "Weaver Craft Menu",
+							"display_name" : "Menu de Criação do Tecelão",
 							"description" : "Create clothes, fabrics, and decor.",
 							"required_job_text" : "Requires a weaver"
 						},
 						"mason" : {
-							"display_name" : "Mason Craft Menu",
+							"display_name" : "Menu de Criação do Pedreiro",
 							"description" : "Chisel stone weapons and furniture.",
 							"required_job_text" : "Requires a mason"
 						},
 						"blacksmith" : {
-							"display_name" : "Blacksmith Craft Menu",
+							"display_name" : "Menu de Criação do Ferreiro",
 							"description" : "Smelt ore for weapons and armor.",
 							"required_job_text" : "Requires a blacksmith"
 						},
 						"cook" : {
-							"display_name" : "Cook Craft Menu",
+							"display_name" : "Menu de Criação do Cozinheiro",
 							"description" : "Makes food taste better and last longer.",
 							"required_job_text" : "Requires a cook"
 						},
 						"potter" : {
-							"display_name" : "Potter Craft Menu",
+							"display_name" : "Menu de Criação do Oleiro",
 							"description" : "Makes bricks and goods from clay.",
 							"required_job_text" : "Requires a potter"
 						},
@@ -545,7 +545,7 @@
 							"required_job_text" : "Requires an herbalist"
 						},
 						"engineer" : {
-							"display_name" : "Engineer Craft Menu",
+							"display_name" : "Menu de Criação do Engenheiro",
 							"description" : "Make contraptions and defensive weaponry",
 							"required_job_text" : "Requires an engineer"
 						}
@@ -655,7 +655,7 @@
 				"overhead_tips" : {
 					"wall_segment_tip_title" : "Click to place freestanding wall segments",
 					"wall_segment_tip_description" : "Hold down SHIFT while clicking to draw connected walls",
-					"build_title_building_designer" : "Building Designer",
+					"build_title_building_designer" : "Projetar Construção",
 					"build_floor_tip_title" : "Click and drag to place floor tiles",
 					"build_floor_tip_description" : "Right click to exit",
 					"build_slab_tip_title" : "Click and drag to build a slab",
@@ -679,18 +679,18 @@
 					"required_item" : "Needed Items"
 				},
 				"overview" : {
-					"title" : "Building Designer - [str(building_name)]",
-					"building_name" : "Building Name",
+					"title" : "Projetar Construção - [str(building_name)]",
+					"building_name" : "Nome da Construção",
 					"building_cost" : "Materials Needed",
-					"start_building" : "Build!",
-					"pause_building" : "Pause building",
-					"continue_building" : "Continue building",
+					"start_building" : "Construir!",
+					"pause_building" : "Pause Construção",
+					"continue_building" : "Continue Construção",
 					"save_building_template" : "Save",
-					"finished_editing" : "Finished Editing",
-					"start_editing" : "Edit",
-					"build_complete_title" : "Congratulations!",
+					"finished_editing" : "Finalizar Edição",
+					"start_editing" : "Editar",
+					"build_complete_title" : "Parabéns!",
 					"build_complete_description" : "this building is complete",
-					"compute_scaffolding" : "Building Planning"
+					"compute_scaffolding" : "Planejar Construção"
 				},
 				"roof_shape" : {
 					"title" : "Slope, Direction, & Size",
@@ -709,7 +709,7 @@
 					"hollow_stairs" : "Hollow Stairs"
 				},
 				"building_templates" : {
-					"title" : "Building Templates",
+					"title" : "Modelos de Construção",
 					"design_custom_building" : "Design Custom Building",
 					"template_names" : {
 						"tiny_cottage" : "Tiny Cottage",
@@ -721,7 +721,7 @@
 						"clay_dining_room" : "Clay Dining Room",
 						"clay_dormitory" : "Clay Dormitory"
 					},
-					"set_template_name_title" : "Template Name",
+					"set_template_name_title" : "Nome do modelo",
 					"template_default_name" : "My new building template",
 					"set_template_name_prompt" : "Enter a name for this template",
 					"remove_template_confirm" : {
@@ -730,7 +730,7 @@
 						"keep_template" : "Keep this template",
 						"remove_template" : "Delete it!"
 					},
-					"remove_template_button" : "Delete Template",
+					"remove_template_button" : "excluir modelo",
 					"build_template_button" : "Build"
 				},
 				"place_item" : {
@@ -7607,12 +7607,12 @@
 				},
 				"blacksmith_forge_recipe" : {
 					"description" : "Smelt metals into ingots.",
-					"recipe_name" : "Blacksmith's Forge",
+					"recipe_name" : "Forja do Ferreiro",
 					"flavor" : "In flame, purity, in purity, strength. -Lucan Varius, Artifex Ignis"
 				},
 				"blacksmith_workbench_recipe" : {
 					"description" : "Used to create weapons and armor out of ingots.",
-					"recipe_name" : "Blacksmith's Anvil",
+					"recipe_name" : "Bigorna do Ferreiro",
 					"flavor" : "It is no coincidence that the metaphors of good character descend from work of the smith. -Lucan Varius, Artifex Ignis"
 				},
 				"workbenches_name" : "Workbenches",
@@ -8476,7 +8476,7 @@
 				},
 				"blacksmith_hammer_recipe" : {
 					"description" : "Required to promote a hearthling into a Blacksmith.",
-					"recipe_name" : "Blacksmith's Hammer",
+					"recipe_name" : "Martelo do Ferreiro",
 					"flavor" : "From the dragon that lives in the forge, weapons and armor, defense and conquest."
 				},
 				"potter_cutter_recipe" : {
