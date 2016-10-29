@@ -445,7 +445,7 @@
 					}
 				},
 				"build_menu" : {
-					"display_name" : "Construção & Projeto",
+					"display_name" : "Construir & Projetar",
 					"description" : "Build structures like houses and city walls.",
 					"items" : {
 						"building_templates" : {
@@ -580,7 +580,7 @@
 				}
 			},
 			"bulletin" : {
-				"bulletin_list_title" : "Notifications",
+				"bulletin_list_title" : "Notificações",
 				"shop" : {
 					"buy_1" : "1",
 					"buy_10" : "10",
@@ -854,7 +854,7 @@
 						"tooltip_stone" : "Stone",
 						"tooltip_clay" : "Clay",
 						"tooltip_ore" : "Ore",
-						"tooltip_animal_part" : "Animal Pelts and Skins",
+						"tooltip_animal_part" : "Pele e couro de animais",
 						"tooltip_resource_pile" : "resource piles",
 						"tooltip_plant" : "Plants",
 						"tooltip_portal" : "Doors & Windows",
@@ -5881,7 +5881,7 @@
 			},
 			"pumpkin" : {
 				"pumpkin_basket" : {
-					"display_name" : "Cesta de Abobora",
+					"display_name" : "Cesta de Aboboras",
 					"description" : "Ready for eating"
 				},
 				"pumpkin_serving" : {
@@ -5891,7 +5891,7 @@
 			},
 			"watermelon" : {
 				"watermelon_basket" : {
-					"display_name" : "Watermelon Basket",
+					"display_name" : "Cesta de Melancias",
 					"description" : "Ready for eating"
 				},
 				"watermelon_serving" : {
@@ -6615,7 +6615,7 @@
 			},
 			"carrot" : {
 				"carrot_basket" : {
-					"display_name" : "Cesta de Cenoura",
+					"display_name" : "Cesta de Cenouras",
 					"description" : "Lined up in neat rows."
 				},
 				"carrot_serving" : {
@@ -6777,23 +6777,23 @@
 			},
 			"pelt" : {
 				"rabbit_pelt" : {
-					"display_name" : "Rabbit Pelt",
+					"display_name" : "Pele de Coelho",
 					"description" : "Soft, supple, and quite dead."
 				},
 				"racoon_pelt" : {
-					"display_name" : "Racoon pelt",
+					"display_name" : "Pele de guaxinim",
 					"description" : "Soft, supple, and quite dead"
 				},
 				"red_fox_pelt" : {
-					"display_name" : "Fox pelt",
+					"display_name" : "Pele de raposa",
 					"description" : "Soft, supple, and quite dead"
 				},
 				"squirrel_pelt" : {
-					"display_name" : "Squirrel pelt",
+					"display_name" : "Pele de esquilo",
 					"description" : "Soft, supple, and quite dead"
 				},
 				"wolf_pelt" : {
-					"display_name" : "Wolf pelt",
+					"display_name" : "Pele de Lobo",
 					"description" : "From the hide of a terrifying creature"
 				}
 			},
@@ -7852,7 +7852,7 @@
 				},
 				"weaver_spindle_recipe" : {
 					"description" : "Required to promote a hearthling into a Weaver.",
-					"recipe_name" : "Weaver's Spindle",
+					"recipe_name" : "Carrtel do Tecelão",
 					"flavor" : "From fiber, thread, from thread, fabric, from fabric, civilization."
 				},
 				"window_box_brightbell_recipe" : {
@@ -9154,7 +9154,7 @@
 					"description" : "For spinning fiber into thread"
 				},
 				"weaver_spindle_talisman" : {
-					"display_name" : "Weaver's Spindle",
+					"display_name" : "Carretel do Tecelão",
 					"description" : "Required to promote a hearthling into a Weaver"
 				}
 			},
