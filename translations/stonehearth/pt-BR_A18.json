@@ -279,8 +279,8 @@
 				"new_game_place_banner" : "Click me to place your town banner",
 				"click_banner_tip" : "Click the banner to choose your settlement's location",
 				"select_camp_tip" : "Now click somewhere in the world",
-				"name_camp_title" : "Name your settlement",
-				"name_camp_prompt" : "Type a name for your settlement!"
+				"name_camp_title" : "Nome da sua Cidade",
+				"name_camp_prompt" : "Digite um nome para a sua Cidade!"
 			},
 			"calendar" : {
 				"months" : {
@@ -319,7 +319,7 @@
 				},
 				"return_to_menu_dialog" : {
 					"title" : "Reotrnar para o menu principal",
-					"message" : "Deseja Retorna ao Menu Principal? todo progresso nao salvo sera perdido.",
+					"message" : "Deseja Retorna ao Menu Principal? todo progresso não salvo sera perdido.",
 					"yes_button" : "Sim",
 					"cancel_button" : "Cancelar"
 				}
@@ -342,7 +342,7 @@
 					"tools" : "Ferramentas",
 					"wealth" : "Wealth",
 					"refined" : "Refined",
-					"uncategorized" : "Uncategorized",
+					"uncategorized" : "Sem categoria",
 					"workshops" : "Workshops",
 					"consumable" : "Consumables",
 					"storage" : "Storage",
@@ -353,7 +353,7 @@
 				"tooltip_combat_base_damage" : "Atk:",
 				"tooltip_combat_base_damage_reduction" : "Def:",
 				"tooltip_num_undeployed" : "Undeployed: [str(num_undeployed)]",
-				"death_notification" : "[name(i18n_data.entity)] has died.",
+				"death_notification" : "[name(i18n_data.entity)] esta morto.",
 				"imminent_death_notification" : "[name(i18n_data.citizen)] is severely low on health!"
 			},
 			"menu" : {
@@ -1135,9 +1135,9 @@
 				"gameplay_tab" : {
 					"title" : "Jogabilidade",
 					"experimental" : "Experimental",
-					"experimental_description" : "These settings are still under development and may not be stable! Enable at your own risk!",
-					"enable_speed_3" : "Enable Game Speed 3 (Requires UI Refresh)",
-					"enable_speed_3_note" : "Note: Game performance might be slow with larger towns on speed 3. Be warned!",
+					"experimental_description" : "Estas definições estão em desenvolvimento e pode não esta estavel! Ative a seu provrio risco!",
+					"enable_speed_3" : "Ativar velocidade 3 (Requer reiniciar UI)",
+					"enable_speed_3_note" : "Noto: Game performance might be slow with larger towns on speed 3. Be warned!",
 					"enable_speed_3_description" : "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
 					"default_storage_filter_none" : "Storage filter defaults to None",
 					"default_storage_filter_none_description" : "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
