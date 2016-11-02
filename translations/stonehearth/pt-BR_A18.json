@@ -9105,7 +9105,7 @@
 				"workbenches_name" : "Workbenches",
 				"weaver_loom_recipe" : {
 					"description" : "Add thread to thread till cloth results.",
-					"recipe_name" : "Taer",
+					"recipe_name" : "Tear",
 					"flavor" : "Patient Spider, weaver, writer, draws the tapestry of fate tighter. --Rayya's Rhyme"
 				},
 				"weaver_spinning_wheel_recipe" : {
