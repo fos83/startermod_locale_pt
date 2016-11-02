@@ -1141,7 +1141,7 @@
 					"enable_speed_3_description" : "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
 					"default_storage_filter_none" : "Storage filter defaults to None",
 					"default_storage_filter_none_description" : "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
-					"show_hearthling_paths" : "Show Hearthling paths",
+					"show_hearthling_paths" : "Mostra o caminho dos Hearthling",
 					"show_hearthling_paths_description" : "Display the path your hearthlings are following.",
 					"max_citizens" : "Numero maximo de cidadãos",
 					"randomize_attributes" : "Randomize Hearthling Attributes",
@@ -9105,12 +9105,12 @@
 				"workbenches_name" : "Workbenches",
 				"weaver_loom_recipe" : {
 					"description" : "Add thread to thread till cloth results.",
-					"recipe_name" : "Loom",
+					"recipe_name" : "Taer",
 					"flavor" : "Patient Spider, weaver, writer, draws the tapestry of fate tighter. --Rayya's Rhyme"
 				},
 				"weaver_spinning_wheel_recipe" : {
 					"description" : "Spins prickly, scratchy, chaos into thread.",
-					"recipe_name" : "Spinning Wheel",
+					"recipe_name" : "Roca de Fiar",
 					"flavor" : "Spider smiles; all eight eyes glitter, 'Something from nothing, some sweet and some bitter.'"
 				},
 				"weaver_workbench_recipe" : {
@@ -9138,7 +9138,7 @@
 			},
 			"weaver_loom" : {
 				"weaver_loom_ghost" : {
-					"display_name" : "Loom",
+					"display_name" : "Tear",
 					"description" : "Used to weave thread into cloth."
 				}
 			},
@@ -9160,7 +9160,7 @@
 			},
 			"weaver_spinning_wheel" : {
 				"weaver_spinning_wheel_ghost" : {
-					"display_name" : "Spinning Wheel",
+					"display_name" : "Roca de Fiar",
 					"description" : "Used to spin fiber into thread."
 				}
 			},
