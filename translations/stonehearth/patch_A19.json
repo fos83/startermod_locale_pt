@@ -17,14 +17,14 @@
 				"mods" : "Módulos",
 				"mods_tab" : {
 					"title" : "Módulos Instalado",
-					"note" : "Abilitar Ou Desabilitar um Módulo requer reload.",
+					"note" : "Abilitar Ou Desabilitar um Módulo Requer Reinicio.",
 					"invalid_manifest" : "Manifest Invalido",
 					"out_of_date" : "Desatualizado",
 					"deferred_load" : "Modulo carregado Altomaticamente",
 					"required" : "Necessário",
 					"mods_changed_dialog" : {
-						"title" : "Modules Changed",
-						"message" : "The game needs to reload to apply module changes. Reload now?",
+						"title" : "Mudar Modulo",
+						"message" : "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
 						"accept" : "Ok",
 						"cancel" : "Cancelar"
 					}

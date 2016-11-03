@@ -6,8 +6,8 @@
 	},
 	"mixintos" : {
 		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)",
-		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/patch_A19_3181.json)",
-		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/patch_A19_3181.json)"
+		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/patch_A19.json)",
+		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/patch_A19.json)"
 	},
 	"overrides" : {
 		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR_A18.json)",
