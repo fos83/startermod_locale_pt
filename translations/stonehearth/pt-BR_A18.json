@@ -5137,7 +5137,7 @@
 				}
 			},
 			"gingercap_crop" : {
-				"display_name" : "Nabo",
+				"display_name" : "Gengibre",
 				"description" : "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage" : {
 					"003" : {
@@ -5157,7 +5157,7 @@
 						"description" : "A unrealized turnip."
 					},
 					"011" : {
-						"name" : "Rotten Turnip",
+						"name" : "Gengibre Estragado",
 						"description" : "Moldy and disgusting."
 					}
 				}
@@ -5167,11 +5167,11 @@
 				"description" : "Big, round, and fast-growing, but tasty it is not.",
 				"growth_stage" : {
 					"003" : {
-						"name" : "Ripe pumpkin",
+						"name" : "Abobora Madura",
 						"description" : "Delicious!"
 					},
 					"002" : {
-						"name" : "Baby pumpkin",
+						"name" : "Abobora Pequena",
 						"description" : "Not edible yet!"
 					},
 					"001" : {
@@ -5183,7 +5183,7 @@
 						"description" : "A unrealized pumpkin."
 					},
 					"011" : {
-						"name" : "Rotten pumpkin",
+						"name" : "Abobora Estragada",
 						"description" : "Moldy and disgusting."
 					}
 				}
@@ -5193,23 +5193,23 @@
 				"description" : "Takes a while to grow, but very fun to eat!",
 				"growth_stage" : {
 					"003" : {
-						"name" : "Ripe watermelon",
+						"name" : "Melancia Madura",
 						"description" : "Delicious!"
 					},
 					"002" : {
-						"name" : "Baby watermelon",
+						"name" : "Melancia Pequena",
 						"description" : "Not edible yet!"
 					},
 					"001" : {
-						"name" : "Watermelon Sprout",
+						"name" : "Broto de Melancia",
 						"description" : "Not edible yet!"
 					},
 					"000" : {
-						"name" : "Watermelon Seedling",
+						"name" : "Muda de Melancia",
 						"description" : "A unrealized watermelon."
 					},
 					"011" : {
-						"name" : "Rotten watermelon",
+						"name" : "Melancia Estragada",
 						"description" : "Moldy and disgusting."
 					}
 				}
@@ -5330,7 +5330,7 @@
 						"description" : "A unrealized turnip."
 					},
 					"011" : {
-						"name" : "Rotten Turnip",
+						"name" : "Nabo Estragado",
 						"description" : "Moldy and disgusting."
 					}
 				}
