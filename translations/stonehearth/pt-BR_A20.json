@@ -1195,7 +1195,7 @@
 					"cancel": "Não, Obrigado."
 				},
 				"mod_conflic_dialog": {
-					"title": "Module Conflicts Detected!",
+					"title": "Detectado Modulos em Conflito!",
 					"message": "Atenção: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
 					"accept": "Sim, Prosseguir."
 				}
