@@ -1,26 +1,34 @@
 {
 	"info" : {
-		"name" : "MOD Traslater português(BR)",
-		"version" : 3,
-		"default_enabled" : true
+		"name" : "MOD Traslater português",
+		"version" : 3
 	},
+	"default_locale": "en",
 	"mixintos" : {
-		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)",
-		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/patch_A19.json)",
-		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/patch_A19.json)"
+		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
 	},
 	"overrides" : {
-		"stonehearth/locales/pt-BR.json" : "file(translations/stonehearth/pt-BR_A18.json)",
-		"rayyas_children/locales/pt-BR.json" : "file(translations/rayyas_children/pt-BR_A18.json)",
-		"debugtools/locales/pt-BR.json" : "file(translations/debugtools/pt-BR_A19.json)",
-		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/pt-BR/AutourOne-Regular-webfont.eot)",
-		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/pt-BR/AutourOne-Regular-webfont.svg)",
-		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/pt-BR/AutourOne-Regular-webfont.ttf)",
-		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/pt-BR/AutourOne-Regular-webfont.woff)",
-		"stonehearth/ui/root/css/fonts/grobold/GROBOLD.ttf" : "file(fonts/pt-BR/GROBOLD.ttf)",
-		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/pt-BR/grobold-webfont.eot)",
-		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/pt-BR/grobold-webfont.svg)",
-		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/pt-BR/grobold-webfont.ttf)",
-		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/pt-BR/grobold-webfont.woff)"
+		//Portugues Brasil
+		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR_A20.json)",
+		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR_A20.json)",
+		"debugtools/locales/pt-BR.json": "file(translations/debugtools/pt-BR_A20.json)",
+		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR_A20.json)",
+		"frostfeast/locales/pt-BR.json": "file(translations/frostfeast/pt-BR_A20.json)",
+		//Portugues Portugal
+		"stonehearth/locales/pt-PT.json": "file(translations/stonehearth/pt-PT_A20.json)",
+		"rayyas_children/locales/pt-PT.json": "file(translations/rayyas_children/pt-PT_A20.json)",
+		"debugtools/locales/pt-PT.json": "file(translations/debugtools/pt-PT_A20.json)",
+		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT_A20.json)",
+		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT_A20.json)",
+
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot": "file(fonts/AutourOne-Regular-webfont.eot)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg": "file(fonts/AutourOne-Regular-webfont.svg)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf": "file(fonts/AutourOne-Regular-webfont.ttf)",
+		"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff": "file(fonts/AutourOne-Regular-webfont.woff)",
+		"stonehearth/ui/root/css/fonts/grobold/GROBOLD.ttf": "file(fonts/GROBOLD.ttf)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot": "file(fonts/grobold-webfont.eot)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg": "file(fonts/grobold-webfont.svg)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf": "file(fonts/grobold-webfont.ttf)",
+		"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff": "file(fonts/grobold-webfont.woff)"
 	}
 }
