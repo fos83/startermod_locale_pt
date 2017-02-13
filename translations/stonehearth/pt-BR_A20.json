@@ -283,10 +283,10 @@
 				}
 			},
 			"create_camp": {
-				"new_game_place_banner": "Click me to place your town banner",
-				"click_banner_tip": "Click the banner to choose your settlement's location",
-				"select_camp_tip": "Now click somewhere in the world",
-				"name_camp_title": "Name your settlement",
+				"new_game_place_banner": "Clique em mim para posicionar sua bandeira",
+				"click_banner_tip": "Clique na bandeira para escolher o local do acampamento",
+				"select_camp_tip": "Agora clique em algum lugar do mundo",
+				"name_camp_title": "Nomeie seu acampamento",
 				"name_camp_prompt": "Digite um nome para a sua Cidade!"
 			},
 			"calendar": {
@@ -1060,35 +1060,35 @@
 				}
 			},
 			"select_settlement": {
-				"title": "Click the map to choose your settlement's location",
-				"loading": "Carregando...",
+				"title": "Clique no mapa para escolher o local do seu acampamento",
+				"loading": "Carregando",
 				"settle_at_this_location": "Estabelecer aqui!",
 				"clear_selection": "Escolher outro local",
-				"regenerate_map": "Roll new map",
-				"world_seed": "World Seed: ",
+				"regenerate_map": "Gerar novo mapa",
+				"world_seed": "Número do mundo: ",
 				"terrain_stats": {
-					"trees_and_plants_title": "Trees & Plants",
+					"trees_and_plants_title": "Árvores e Plantas",
 					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
-					"wildlife_title": "Wildlife",
+					"wildlife_title": "Vida selvagem",
 					"wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
-					"minerals_title": "Minerals",
+					"minerals_title": "Minerais",
 					"minerals_description": "You will need minerals if you plan on building things from stone or metal."
 				},
 				"terrain_codes": {
-					"water": "Water",
-					"plains_1": "Plains",
-					"plains_2": "Plains",
-					"foothills_1": "Foothills",
-					"foothills_2": "Foothills",
-					"foothills_3": "Foothills",
-					"mountains_1": "Mountains",
-					"mountains_2": "Mountains",
-					"mountains_3": "Mountains",
-					"mountains_4": "Mountain Peak",
-					"mountains_5": "Mountain Peak",
-					"mountains_6": "Mountain Peak",
-					"mountains_7": "Mountain Peak",
-					"mountains_8": "Mountain Peak",
+					"water": "Água",
+					"plains_1": "Planice",
+					"plains_2": "Planice",
+					"foothills_1": "Pé da montanha",
+					"foothills_2": "Pé da montanha",
+					"foothills_3": "Pé da montanha",
+					"mountains_1": "Montanhas",
+					"mountains_2": "Montanhas",
+					"mountains_3": "Montanhas",
+					"mountains_4": "Pico da montanha",
+					"mountains_5": "Pico da montanha",
+					"mountains_6": "Pico da montanha",
+					"mountains_7": "Pico da montanha",
+					"mountains_8": "Pico da montanha",
 					"vegetation_0": "Nary a weed",
 					"vegetation_1": "Sparse",
 					"vegetation_2": "Average",
@@ -1203,10 +1203,10 @@
 			"select_game_story": {
 				"title": "Escolha a sua Aventura",
 				"story_start": "Esta é a história de ...",
-				"kingdom_section_start": "... Um bravo grupo de colonos Os ",
+				"kingdom_section_start": "... Um bravo grupo de colonos, os ",
 				"select_button": "?",
-				"kingdom_picker_title": "Selecione O Reino",
-				"biome_section_start": "Em busca de novas terras e aventura, eles partem para ",
+				"kingdom_picker_title": "Selecione o Reino",
+				"biome_section_start": "Em busca de novas terras e aventuras, eles partem para ",
 				"biome_picker_title": "Selecione o Bioma",
 				"game_mode_select_start": ", Um local que é certeza de ser",
 				"game_mode_picker_title": "Selecione A Dificuldade",
@@ -1218,7 +1218,7 @@
 					},
 					"peaceful": {
 						"display_name": "Pacífico",
-						"description": "A sandbox-mode, where you're free to build your town without worrying about invaders whatsoever.",
+						"description": "Um modo de criação, onde você está livre para construir sua cidade sem se preocupar com quaisquers invasores.",
 						"post_selection_text": "um lugar tranquilo para começar de novo."
 					},
 					"hard": {
@@ -1230,12 +1230,12 @@
 				"begin_button": "Iniciar"
 			},
 			"embark": {
-				"title": "Prepare to embark",
-				"citizen_info": "Expedition Roster",
-				"reroll_citizens": "Roll new citizens",
-				"shop_title": "Traveller's Store",
-				"shop_gold_label": "Gold",
-				"shop_sold": "SOLD!",
+				"title": "Preparar para embarcar",
+				"citizen_info": "Lista da expedição",
+				"reroll_citizens": "Gerar novos cidadãos",
+				"shop_title": "Loja do Viajante",
+				"shop_gold_label": "Ouro",
+				"shop_sold": "VENDIDO!",
 				"shop_reset_button": "Reset",
 				"finished": "Embarcar!",
 				"no_talisman_confirm_dialog": {
@@ -1433,18 +1433,18 @@
 	"data": {
 		"population": {
 			"ascendancy": {
-				"display_name": "The Ascendancy",
+				"display_name": "Ascendência",
 				"quote": "Sheep? Check. Hoe? Check. Swords? Check. Embark!",
-				"description": "Earnest and hardworking, loyal and well-rounded. Citizens of the Ascendancy chop, build and farm, confident that the known world is theirs to inhabit.",
-				"post_selection_description": ", a prosperous and industrious kingdom."
+				"description": "Sérios e trabalhadores, leais e bem equilibrados. Cidadãos da Ascendência cortam, constroem e cultivam, confiantes de que o mundo conhecido é deles para habitar.",
+				"post_selection_description": ", um reino próspero e industrioso."
 			}
 		},
 		"biome": {
 			"temperate": {
 				"display_name": "Temperado",
-				"description": "Florestas, rios e montanhas. Bioma Padrão da Supremacia.",
+				"description": "Florestas, rios e montanhas. Bioma padrão da Ascendência.",
 				"random_location_names": {
-					"000": "Darkmoor Forest"
+					"000": "Floresta Darkmoor"
 				}
 			},
 			"arctic": {
@@ -6134,7 +6134,7 @@
 					"description": "Heavenly nutritious."
 				},
 				"corn_basket": {
-					"display_name": "Basket of Corn",
+					"display_name": "Cesta de Milho",
 					"description": "Sweet and crunchy."
 				},
 				"corn_serving": {
@@ -6166,7 +6166,7 @@
 			},
 			"pumpkin": {
 				"pumpkin_basket": {
-					"display_name": "Pumpkin Basket",
+					"display_name": "Cesta de Abóbora",
 					"description": "Ready for eating"
 				},
 				"pumpkin_serving": {
@@ -7502,14 +7502,14 @@
 				}
 			},
 			"wooden_sword": {
-				"display_name": "Wooden Sword",
+				"display_name": "Espada de Madeira",
 				"description": "Thacks thine enemies with oaken might",
 				"wooden_sword_iconic": {
-					"display_name": "Wooden Sword",
-					"description": "Basic wooden sword."
+					"display_name": "Espada de Madeira",
+					"description": "Espada de Madeira básica."
 				},
 				"wooden_sword_talisman": {
-					"display_name": "Wooden Sword",
+					"display_name": "Espada de Madeira",
 					"description": "Required to promote a hearthling into a Footman."
 				}
 			},
@@ -9572,14 +9572,14 @@
 				"description": "Traditional robes of the Herbalist"
 			},
 			"herbalist_staff": {
-				"display_name": "Herbalist Staff",
+				"display_name": "Cajado do herbalista",
 				"description": "Required to promote a hearthling into an Herbalist",
 				"herbalist_staff_iconic": {
-					"display_name": "Herbalist Staff",
+					"display_name": "Cajado do herbalista",
 					"description": "Required to promote a hearthling into an Herbalist"
 				},
 				"herbalist_staff_talisman": {
-					"display_name": "Herbalist's Staff",
+					"display_name": "Cajado do herbalista",
 					"description": "Required to promote a hearthling into an Herbalist"
 				}
 			},
