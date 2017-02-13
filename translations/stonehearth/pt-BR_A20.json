@@ -1213,7 +1213,7 @@
 				"game_modes": {
 					"normal": {
 						"display_name": "Normal",
-						"description": "Adventure forth in a world fraught with danger. Your town will be subject to raiding enemies.",
+						"description": "Aventure-se em um mundo repleto de perigo. Sua cidade estará sujeita a ataques de inimigos.",
 						"post_selection_text": "um lugar inspirador para começar de novo."
 					},
 					"peaceful": {
@@ -1223,7 +1223,7 @@
 					},
 					"hard": {
 						"display_name": "Difícil",
-						"description": "Face more difficult monsters than normal mode",
+						"description": "Enfrente monstros mais difíceis do que o modo normal",
 						"post_selection_text": "um lugar assustador para começar de novo."
 					}
 				},
@@ -1456,9 +1456,9 @@
 			},
 			"desert": {
 				"display_name": "Deserto",
-				"description": "Dry and sandy, with chunky hills and sparse vegetation. Default home of Rayya's Children.",
+				"description": "Seco e arenoso, com grandes colinas e vegetação escassa. Ambiente padrão dos Filhos de Rayya.",
 				"random_location_names": {
-					"000": "The Desert of Pal'Mum"
+					"000": "O Deserto de Pal'Mum"
 				},
 				"sandy_poyo": {
 					"display_name": "Sandy Poyo"
