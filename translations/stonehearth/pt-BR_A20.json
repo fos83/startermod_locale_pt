@@ -66,9 +66,9 @@
 				"pause_title": "Pausa",
 				"pause_description": "Pausa o Jogo",
 				"play_title": "Play",
-				"play_description": "Run the game at normal speed",
+				"play_description": "Rodar Jogo na velocidade normal",
 				"ff_title": "Fast Forward",
-				"ff_description": "Run the game at 2x speed",
+				"ff_description": "Rodar jogo na veocidade 2x",
 				"speedThree_title": "Super Speed",
 				"speedThree_description": "Run the game at high speed",
 				"pause_overlay": "Pausado"
@@ -351,7 +351,7 @@
 					"refined": "Refined",
 					"uncategorized": "Sem categoria",
 					"workshops": "Workshops",
-					"consumable": "Consumables",
+					"consumable": "consumíveis",
 					"storage": "Storage",
 					"defense": "Defense",
 					"trophy": "Trophies",
@@ -974,7 +974,7 @@
 					"food": "Alimento",
 					"shelter": "Shelter",
 					"safety": "Safety",
-					"military_strength": "Military Strength"
+					"military_strength": "Força Militar"
 				},
 				"inventory": {
 					"item_count": "Items:"
@@ -5348,7 +5348,7 @@
 				}
 			},
 			"carrot_crop": {
-				"display_name": "Carrot",
+				"display_name": "Cenoura",
 				"description": "Fast-growing, but pretty bland on its own.",
 				"growth_stage": {
 					"003": {
