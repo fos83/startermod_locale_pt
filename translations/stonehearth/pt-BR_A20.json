@@ -3301,7 +3301,7 @@
 					"description": "Keeps feet clean"
 				},
 				"ladder": {
-					"display_name": "Ladder",
+					"display_name": "Escada",
 					"description": "Used to reach high places"
 				},
 				"patch_wall": {
@@ -5278,21 +5278,21 @@
 				}
 			},
 			"rabbit": {
-				"display_name": "Rabbit",
+				"display_name": "Coelho",
 				"description": "Om nom nom",
 				"rabbit_jerky": {
 					"display_name": "Rabbit jerky"
 				}
 			},
 			"racoon": {
-				"display_name": "Racoon",
+				"display_name": "Guaxinim",
 				"description": "Small forest creature",
 				"racoon_jerky": {
 					"display_name": "Racoon jerky"
 				}
 			},
 			"red_fox": {
-				"display_name": "Fox",
+				"display_name": "Raposa",
 				"description": "Small forest creature",
 				"red_fox_jerky": {
 					"display_name": "Fox jerky"
@@ -5309,18 +5309,18 @@
 				"renewable_harvest_status_text": "shearing sheep"
 			},
 			"squirrel": {
-				"display_name": "Squirrel",
+				"display_name": "Esquilo",
 				"description": "Small forest creature",
 				"squirrel_jerky": {
 					"display_name": "Squirrel jerky"
 				}
 			},
 			"wolf": {
-				"display_name": "A wolf",
+				"display_name": "Lobo",
 				"description": "Grrr! Rwar!"
 			},
 			"woodchuck": {
-				"display_name": "Woodchuck",
+				"display_name": "Marmota",
 				"description": "A voracious eater of almost everything, especially logs."
 			}
 		},
@@ -5352,23 +5352,23 @@
 				"description": "Fast-growing, but pretty bland on its own.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Carrot",
+						"name": "Cenoura (Madura)",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby Carrot",
+						"name": "Cenoura (Pequena)",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Carrot Sprout",
+						"name": "Cenoura (Broto)",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Carrot Seedling",
+						"name": "Cenoura (Muda)",
 						"description": "A unrealized carrot."
 					},
 					"011": {
-						"name": "Rotten Carrot",
+						"name": "Cenoura (Estragada)",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -5378,23 +5378,23 @@
 				"description": "Slow-growing, but super nutritious crop.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Corn",
+						"name": "Milho (Maduro)",
 						"description": "Eat me! Eat Me!"
 					},
 					"002": {
-						"name": "Green Corn",
+						"name": "Milho (Verde)",
 						"description": "Extremely unsatisfying to eat."
 					},
 					"001": {
-						"name": "Corn Sprout",
+						"name": "Milho (Broto)",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Corn Seedling",
+						"name": "Milho (Muda)",
 						"description": "Slow-mo, high-stakes gambling."
 					},
 					"011": {
-						"name": "Corn Husk",
+						"name": "Casca de milho",
 						"description": "It's dead."
 					}
 				}
@@ -5426,23 +5426,23 @@
 				"description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Turnip",
+						"name": "Gengibre (Maduro)",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby Turnip",
+						"name": "Gengibre (Pequeno)",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Turnip Sprout",
+						"name": "Gengibre (Broto)",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Turnip Seedling",
+						"name": "Gengibre (Muda)",
 						"description": "A unrealized turnip."
 					},
 					"011": {
-						"name": "Gengibre Estragado",
+						"name": "Gengibre (Estragado)",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -5452,23 +5452,23 @@
 				"description": "Big, round, and fast-growing, but tasty it is not.",
 				"growth_stage": {
 					"003": {
-						"name": "Abobora Madura",
+						"name": "Abobora (Madura)",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Abobora Pequena",
+						"name": "Abobora (Pequena)",
 						"description": "Not edible yet!"
 					},
 					"001": {
-						"name": "Pumpkin Sprout",
+						"name": "Abobora (Broto)",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Pumpkin Seedling",
+						"name": "Abobora (Muda)",
 						"description": "A unrealized pumpkin."
 					},
 					"011": {
-						"name": "Abobora Estragada",
+						"name": "Abobora (Estragada)",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -5478,23 +5478,23 @@
 				"description": "Takes a while to grow, but very fun to eat!",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe watermelon",
+						"name": "Melancia (Madura)",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby watermelon",
+						"name": "Melancia (Pequena)",
 						"description": "Not edible yet!"
 					},
 					"001": {
-						"name": "Watermelon Sprout",
+						"name": "Melancia (Broto)",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Watermelon Seedling",
+						"name": "Melancia (Muda)",
 						"description": "A unrealized watermelon."
 					},
 					"011": {
-						"name": "Rotten watermelon",
+						"name": "Melancia (Estragada)",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -5599,23 +5599,23 @@
 				"description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Turnip",
+						"name": "Nabo (Maduro)",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Baby Turnip",
+						"name": "Nabo (Pequeno)",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Turnip Sprout",
+						"name": "Nabo (Broto)",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Turnip Seedling",
+						"name": "Nabo (Muda)",
 						"description": "A unrealized turnip."
 					},
 					"011": {
-						"name": "Rotten Turnip",
+						"name": "Nabo (Estragado)",
 						"description": "Moldy and disgusting."
 					}
 				}
