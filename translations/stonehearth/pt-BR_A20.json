@@ -1187,7 +1187,7 @@
 				"new_game": "Novo Jogo",
 				"load_game": "Carregar Jogo",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização</br>Modulo Idioma pt-BR v0.3 (A20)",
+				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.3 (A20)",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
 					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
@@ -8359,7 +8359,7 @@
 				},
 				"level_6_data": {
 					"title": "Cozinheiro (Mestre)",
-					"perk_000_name": "10,000 Hours (not implemented)",
+					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
 					"perk_000_description": "The cook's dishes are now so good for you they have unexpected effects."
 				},
 				"level_2_data": {
@@ -8367,7 +8367,7 @@
 					"perk_000_description": "The cook has learned to make slightly fancier recipes."
 				},
 				"level_4_data": {
-					"perk_000_name": "Ingenuity Enhancements (not implemented)",
+					"perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
 					"perk_000_description": "The cook adds new levels of functionality to classic recipes."
 				},
 				"level_1_data": {
@@ -8623,7 +8623,7 @@
 				"description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
 				"requirements": "Farmer's Hoe, crafted by the Carpenter.",
 				"level_6_data": {
-					"perk_000_name": "Nature's Surprise (not implemented)",
+					"perk_000_name": "Nature's Surprise <br><br>(não implementado)",
 					"perk_000_description": "Occasionally, the farmer's special touch yields... special results.",
 					"title": "Agricultor (Mestre)"
 				},
@@ -8745,7 +8745,7 @@
 				},
 				"level_6_data": {
 					"title": "Pedreiro (Mestre)",
-					"perk_000_name": "10,000 Hours (not implemented)",
+					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
 					"perk_000_description": "The mason's mastery of his trade allows him to come up with completely new ways of using wood."
 				},
 				"level_2_data": {
@@ -9255,7 +9255,7 @@
 					"perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
 				},
 				"level_6_data": {
-					"perk_000_name": "The Deadliest Catch (Not Implemented!)",
+					"perk_000_name": "The Deadliest Catch <br><br>(não implementado!)",
 					"perk_000_description": "Lay special trapping zones to 'deter' acquisitive neighbors.",
 
 					"title": "Caçador (Mestre)"
@@ -9329,7 +9329,7 @@
 				"requirements": "Weaver's Spindle, crafted by the Carpenter.",
 				"level_6_data": {
 					"title": "Tecelão (Mestre)",
-					"perk_000_name": "10,000 Hours (not implemented)",
+					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
 					"perk_000_description": "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
 				},
 				"level_2_data": {
@@ -9337,7 +9337,7 @@
 					"perk_000_description": "The weaver is now skillful enough to use materials created by other crafters."
 				},
 				"level_4_data": {
-					"perk_000_name": "Ingenuity Enhancements (not implemented)",
+					"perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
 					"perk_000_description": "The weaver adds new levels of functionality to classic recipes."
 				},
 				"level_1_data": {
