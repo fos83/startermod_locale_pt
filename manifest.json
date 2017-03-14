@@ -9,7 +9,7 @@
 	},
 	"overrides" : {
 		//Portugues Brasil
-		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR_A20.json)",
+		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR_A21.json)",
 		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR_A20.json)",
 		"debugtools/locales/pt-BR.json": "file(translations/debugtools/pt-BR_A20.json)",
 		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR_A20.json)",
