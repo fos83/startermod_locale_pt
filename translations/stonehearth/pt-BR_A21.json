@@ -1194,7 +1194,7 @@
 				"new_game": "Novo Jogo",
 				"load_game": "Carregar Jogo",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.3 (A20)",
+				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.3 (A21)",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
 					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
@@ -1241,17 +1241,17 @@
 			"select_roster": {
 				"reroll_citizens": "Roll all Citizens",
 				"citizen_info": "Lista da expedição",
-				"accept_roster": "Accept Roster",
+				"accept_roster": "Aceitar lista",
 				"randomize": "Randomize",
 				"hair_style": "Hair Style",
 				"skin_color": "Skin Color",
 				"facial_hair": "Facial Hair",
 				"hair_color": "Hair Color",
-				"coming_soon": "Coming Soon!"
+				"coming_soon": "Em breve!"
 			},
 			"loadout": {
-				"title": "Select starting resources",
-				"start": "Start"
+				"title": "Selecionar recursos iniciais",
+				"start": "Iniciar"
 			}
 		},
 		"debug": {
@@ -4592,7 +4592,7 @@
 		"loadouts": {
 			"food_for_days": {
 				"description": "The large amount of food crammed into the back of the caravan should keep the hearthlings going for a handful of days while they get their settlement up and running.",
-				"display_name": "Food for Days",
+				"display_name": "Comida para Dias",
 				"tooltip": "A safe option for new players, though lacking in defense."
 			},
 			"merchant_caravan": {
@@ -4602,28 +4602,28 @@
 			},
 			"money_solves_all_problems": {
 				"description": "Anything that the town needs they should be able to purchase from a trader.  That is, presuming one finds them and has the proper goods for sale...",
-				"display_name": "Money Solves All Problems",
+				"display_name": "Dinheiro resolve todos os problemas",
 				"tooltip": "A risky but potentially very beneficial choice.  It all depends on when and what traders arrive."
 			},
 			"items": {
-				"gold": "Gold",
+				"gold": "Ouro",
 				"food": "Food",
 				"berries": "Berries",
-				"carrots": "Carrots",
+				"carrots": "Cenouras",
 				"jerky": "Jerky"
 			},
-			"coming_soon": "Coming Soon"
+			"coming_soon": "Em breve"
 		},
 		"traits": {
 			"herbivore": {
 				"herbivore_trait": {
-					"display_name": "Herbivore",
+					"display_name": "Herbívoro",
 					"description": "[name(i18n_data.entity)] is a friend to all animals! Plants, less so."
 				}
 			},
 			"carnivore": {
 				"carnivore_trait": {
-					"display_name": "Carnivore",
+					"display_name": "Carnívoro",
 					"description": "[name(i18n_data.entity)] just LOVES animals! Especially with hot sauce."
 				}
 			},
@@ -4671,19 +4671,19 @@
 			},
 			"optimistic": {
 				"optimistic_trait": {
-					"display_name": "Optimistic",
+					"display_name": "Otimista",
 					"description": "[name(i18n_data.entity)] always looks on the bright side, and sees a silver lining in almost everything."
 				}
 			},
 			"passion_job": {
 				"passion_job_trait": {
-					"display_name": "Passionate [str(i18n_data.passion_job)]",
+					"display_name": "Apaixonado por [str(i18n_data.passion_job)]",
 					"description": "[name(i18n_data.entity)] always dreamed of being a [str(i18n_data.passion_job)], maybe now they'll get their chance?"
 				}
 			},
 			"pessimistic": {
 				"pessimistic_trait": {
-					"display_name": "Pessimistic",
+					"display_name": "Pessimista",
 					"description": "[name(i18n_data.entity)] is a glass half-empty kinda person."
 				}
 			},
