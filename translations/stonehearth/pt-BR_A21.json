@@ -120,7 +120,7 @@
 				"morale": "Moral",
 				"experience": "Experiência",
 				"max_level": "Nivel Maximo!!!",
-				"no_levels": "No Lvl Up",
+				"no_levels": "Sem subir de nível",
 				"level_text": "Nivel ",
 				"level_abbreviation": "Lvl",
 				"locked_status": "<br><br>(Bloqueado)",
@@ -607,7 +607,7 @@
 					"sell_tab": "Vender",
 					"shop_gold_label": "Ouro",
 					"shopkeeper_gold_label": "Merchant gold",
-					"not_enough_gold_tooltip": "Not enough gold",
+					"not_enough_gold_tooltip": "Não há ouro suficiente",
 					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
 				},
 				"city_dialog": {
@@ -1483,8 +1483,8 @@
 				"encounters": {
 					"daily_report_encounter": {
 						"title": "A traveller approaches your town.",
-						"update_title": "Daily Update",
-						"sub_title": "Immigration Report",
+						"update_title": "Atualização diária",
+						"sub_title": "Relatório de Imigração",
 						"food_label": "Food ",
 						"morale_label": "Moral ",
 						"net_worth_label": "Net Worth ",
@@ -4623,18 +4623,42 @@
 					"description": "[name(i18n_data.entity)] is a friend to all animals! Plants, less so."
 				}
 			},
+         "callous": {
+            "callous_trait": {
+               "display_name": "Callous",
+               "description": "[name(i18n_data.entity)]  keeps everyone at arms length. This helps them to not be as hurt when tragedy occurs around them, but their constant guarded composure makes them slow to make friends."
+            }
+         },
 			"carnivore": {
 				"carnivore_trait": {
 					"display_name": "Carnívoro",
 					"description": "[name(i18n_data.entity)] just LOVES animals! Especially with hot sauce."
 				}
 			},
+         "courageous": {
+            "courageous_trait": {
+               "display_name": "Courageous",
+               "description": "[name(i18n_data.entity)] loves to save others, and puts the safety of the town as paramount."
+            }
+         },
 			"excitable": {
 				"excitable_trait": {
 					"display_name": "Excitable",
 					"description": "[name(i18n_data.entity)] can never seem to keep their emotions in check, so they become happy or sad much faster than normal."
 				}
 			},
+         "green_thumb": {
+            "green_thumb_trait": {
+               "display_name": "Green Thumb",
+               "description": "[name(i18n_data.entity)] seems to have a way with plants that is somewhat indescribable."
+            }
+         },
+         "heart_of_a_crafter": {
+            "heart_of_a_crafter_trait": {
+               "display_name": "Heart of a Crafter",
+               "description": "[name(i18n_data.entity)] loves crafting things for others. If they don't make at least one thing a day, they feel the day is wasted."
+            }
+         },
 			"professor": {
 				"professor_trait": {
 					"display_name": "Professor",
@@ -4872,6 +4896,26 @@
 						}
 					}
 				},
+            "traits": {
+               "values": {
+                  "plant_lover": {
+                     "display_name": "Plant Lover",
+                     "tooltip": "Everytime I interact with plants I feel a bit calmer."
+                  },
+                  "fruitful_labors": {
+                     "display_name": "Fruitful Labors",
+                     "tooltip": "It always feels good to make something with one's own hands. It helps clear my mind."
+                  },
+                  "idle_hands": {
+                     "display_name": "Idle Hands",
+                     "tooltip": "I've not made anything in awhile and feel like a layabout. Isn't there something I can craft?"
+                  },
+                  "protected_the_town": {
+                     "display_name": "Protected the Town",
+                     "tooltip": "We fended off a group of nasties recently, it really got my blood pumping!"
+                  }
+               }
+            },
 				"violence": {
 					"values": {
 						"townmember_died": {
