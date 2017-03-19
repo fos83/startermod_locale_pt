@@ -1241,7 +1241,7 @@
 				"begin_button": "Iniciar"
 			},
 			"select_roster": {
-				"reroll_citizens": "Roll all Citizens",
+				"reroll_citizens": "Novos cidadãos",
 				"citizen_info": "Lista da expedição",
 				"accept_roster": "Aceitar lista",
 				"randomize": "Aleatório",
@@ -1484,9 +1484,9 @@
 						"title": "A traveller approaches your town.",
 						"update_title": "Atualização diária",
 						"sub_title": "Relatório de Imigração",
-						"food_label": "Food ",
+						"food_label": "Alimento ",
 						"morale_label": "Moral ",
-						"net_worth_label": "Net Worth ",
+						"net_worth_label": "Riqueza ",
 						"conclusion_positive": "A new settler would like to join your town!",
 						"conclusion_negative": "The road remains empty. Maybe tomorrow!",
 						"success_title": "[name(i18n_data.citizen)] has joined [str(i18n_data.town_name)]!",
@@ -4608,7 +4608,7 @@
 			},
 			"items": {
 				"gold": "Ouro",
-				"food": "Food",
+				"food": "Alimeto",
 				"berries": "Berries",
 				"carrots": "Cenouras",
 				"jerky": "Jerky"
@@ -4767,19 +4767,19 @@
 				},
 				"health": {
 					"pain_mild": {
-						"display_name": "Pain (Mild)",
+						"display_name": "Dor (Suave)",
 						"tooltip": "Ow ow ow!"
 					},
 					"pain_moderate": {
-						"display_name": "Pain (Moderate)",
+						"display_name": "Dor (Moderada)",
 						"tooltip": "Agh, I'm in rough shape!"
 					},
 					"pain_scratched": {
-						"display_name": "Pain (Scratched)",
+						"display_name": "Dor (Arranhado)",
 						"tooltip": "I'm a little worse for wear."
 					},
 					"pain_severe": {
-						"display_name": "Pain (Severe)",
+						"display_name": "Dor (Severe)",
 						"tooltip": "!!!"
 					}
 				},
@@ -6379,7 +6379,7 @@
 			},
 			"watermelon": {
 				"watermelon_basket": {
-					"display_name": "Watermelon Basket",
+					"display_name": "Cesta de Melancia",
 					"description": "Ready for eating"
 				},
 				"watermelon_serving": {
@@ -7148,7 +7148,7 @@
 			},
 			"turnip": {
 				"turnip_basket": {
-					"display_name": "Basket of Turnips",
+					"display_name": "Cesta de Nabos",
 					"description": "Juicy and exciting!"
 				},
 				"turnip_serving": {
@@ -9851,7 +9851,7 @@
 				"description": "Holy garb worn by the devout few"
 			},
 			"cleric_description": {
-				"display_name": "Cleric",
+				"display_name": "clérigo",
 				"description": "A combat healer",
 				"requirements": "A level 2 Herbalist and a Cleric's Tome, crafted by the Herbalist",
 				"level_0_data": {
