@@ -1244,11 +1244,11 @@
 				"reroll_citizens": "Roll all Citizens",
 				"citizen_info": "Lista da expedição",
 				"accept_roster": "Aceitar lista",
-				"randomize": "Randomize",
-				"hair_style": "Hair Style",
-				"skin_color": "Skin Color",
-				"facial_hair": "Facial Hair",
-				"hair_color": "Hair Color"
+				"randomize": "Aleatório",
+				"hair_style": "Penteado",
+				"skin_color": "Cor da Pele",
+				"facial_hair": "Barba",
+				"hair_color": "Cor do Cabelo"
 			},
 			"loadout": {
 				"title": "Selecionar recursos iniciais",
@@ -4648,7 +4648,7 @@
 			},
 			"green_thumb": {
 				"green_thumb_trait": {
-					"display_name": "Green Thumb",
+					"display_name": "Dedo Verde",
 					"description": "[name(i18n_data.entity)] seems to have a way with plants that is somewhat indescribable."
 				}
 			},
@@ -4672,13 +4672,13 @@
 			},
 			"pack_mule": {
 				"pack_mule_trait": {
-					"display_name": "Pack Mule",
+					"display_name": "Burro de Carga",
 					"description": "This hearthling can move mountains! They can carry more in their pack, but walk slightly slower when it's full due to the weight."
 				}
 			},
 			"glutton": {
 				"glutton_trait": {
-					"display_name": "Glutton",
+					"display_name": "Glutão",
 					"description": "[name(i18n_data.entity)]'s stomach might as well be a portal to another world for as much as they're able to eat. Maybe that explains a bit of their resilience, though."
 				}
 			},
@@ -4702,7 +4702,7 @@
 			},
 			"passion_job": {
 				"passion_job_trait": {
-					"display_name": "Apaixonado por [str(i18n_data.passion_job)]",
+					"display_name": "Apaixonado pelo Trabalho de [str(i18n_data.passion_job)]",
 					"description": "[name(i18n_data.entity)] always dreamed of being a [str(i18n_data.passion_job)], maybe now they'll get their chance?"
 				}
 			},
