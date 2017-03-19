@@ -352,7 +352,7 @@
 					"plants": "Plantas",
 					"weapons": "Armas",
 					"tools": "Ferramentas",
-					"wealth": "Wealth",
+					"wealth": "Riqueza",
 					"refined": "Refined",
 					"uncategorized": "Sem categoria",
 					"workshops": "Workshops",
@@ -620,12 +620,12 @@
 					"summon_herald": "Summon Herald!"
 				},
 				"level_up_bulletin": {
-					"title": "[name(i18n_data.entity)] has Leveled Up!",
+					"title": "[name(i18n_data.entity)] Subiu de Nivel!",
 					"show_char_sheet": "Character Sheet"
 				},
 				"immigration_report": {
-					"title": "Daily Update",
-					"immigration_report_title": "Immigration Report",
+					"title": "Atualização diária",
+					"immigration_report_title": "Relatório de Imigração",
 					"population_label": "[str(town_name)] population",
 					"next_requirements_label": "Next hearthling requirements...",
 					"tooltips": {
@@ -864,7 +864,7 @@
 						"goods": "Tools & Goods",
 						"gear": "Armas & Armaduras",
 						"food_and_drink": "Food & Drink",
-						"wealth": "Wealth",
+						"wealth": "Riqueza",
 						"tooltip_tools": "Talismans and Workbenches",
 						"tooltip_wood": "Wood",
 						"tooltip_stone": "Stone",
@@ -978,7 +978,7 @@
 					"buildings": "Construções",
 					"inventory": "Inventario",
 					"agriculture": "Agricultura",
-					"edibles": "Edibles",
+					"edibles": "Comestíveis",
 					"overall_morale": "Overall Morale",
 					"food": "Alimento",
 					"shelter": "Shelter",
@@ -1332,7 +1332,7 @@
 					"description": "A reflection of the prosperity of your town. Buildings, inventory, and agriculture combine to form this score."
 				},
 				"courage": {
-					"display_name": "Courage",
+					"display_name": "Coragem",
 					"description": "How brave this hearthling is in the face of combat.",
 					"bullet_points": {
 						"000": "Determines chance to flee in combat"
@@ -1359,7 +1359,7 @@
 					"description": "A Competencia em atividades fisicas. Hearthlings com um elevado status do corpo vai se mover mais rapido. Influencias muscular, velocidade e resistencia."
 				},
 				"edibles": {
-					"display_name": "Edibles",
+					"display_name": "Comestíveis",
 					"description": "The gold value of all the food in the town's inventory.",
 					"town_description": "The gold value of all the food in the town's inventory"
 				},
@@ -4611,7 +4611,7 @@
 				"food": "Alimeto",
 				"berries": "Berries",
 				"carrots": "Cenouras",
-				"jerky": "Jerky"
+				"jerky": "Carne Seca"
 			},
 			"coming_soon": "Em breve"
 		},
@@ -5484,21 +5484,21 @@
 				"display_name": "Coelho",
 				"description": "Om nom nom",
 				"rabbit_jerky": {
-					"display_name": "Rabbit jerky"
+					"display_name": "Carne seca (Coelho)"
 				}
 			},
 			"racoon": {
 				"display_name": "Guaxinim",
 				"description": "Small forest creature",
 				"racoon_jerky": {
-					"display_name": "Racoon jerky"
+					"display_name": "Carne seca (Guaxinim)"
 				}
 			},
 			"red_fox": {
 				"display_name": "Raposa",
 				"description": "Small forest creature",
 				"red_fox_jerky": {
-					"display_name": "Fox jerky"
+					"display_name": "Carne Seca (Raposa)"
 				}
 			},
 			"sheep": {
@@ -5515,7 +5515,7 @@
 				"display_name": "Esquilo",
 				"description": "Small forest creature",
 				"squirrel_jerky": {
-					"display_name": "Squirrel jerky"
+					"display_name": "Carne seca (Esquilo)"
 				}
 			},
 			"wolf": {
@@ -5824,7 +5824,7 @@
 				}
 			},
 			"wheat_crop": {
-				"display_name": "Wheat",
+				"display_name": "Trigo",
 				"description": "Amber wave of grain.",
 				"growth_stage": {
 					"003": {
@@ -6554,15 +6554,15 @@
 				}
 			},
 			"rotten_basket": {
-				"display_name": "Rotten Food Basket",
+				"display_name": "Cesta de Comida (Estragada)",
 				"description": "So rotten that it's lost all form and function."
 			},
 			"rotten_egg": {
-				"display_name": "Rotten Egg",
+				"display_name": "Ovo (Estragado)",
 				"description": "Disgusting"
 			},
 			"rotten_jerky": {
-				"display_name": "Rotten Jerky",
+				"display_name": "Carne seca (Estragada)",
 				"description": "Even jerky will rot eventually. It's true"
 			},
 			"mutton": {
@@ -10078,7 +10078,7 @@
 				}
 			},
 			"jerky": {
-				"display_name": "Jerky",
+				"display_name": "Carne Seca",
 				"description": "Stringy, but nutritious!"
 			}
 		},
