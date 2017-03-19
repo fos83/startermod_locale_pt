@@ -2,109 +2,109 @@
 	"ai": {
 		"actions": {
 			"status_text": {
-				"chase_entity": "indo até [name(data.target)]",
-				"eat_item": "comendo [name(data.target)]",
-				"fill_storage": "preenchendo [name(data.target)]",
-				"harvest_crop": "colhendo [name(data.target)]",
-				"harvest_resource": "recolhendo [name(data.target)]",
-				"harvest_resource_node": "recolhendo [name(data.target)]",
-				"light_firepit": "acendendo [name(data.target)]",
-				"place_item_on_structure": "colocando [name(data.target)]",
-				"work_at_workshop": "fazendo [str(data.craftable_name)]",
-				"attack_melee_adjacent": "atacando [name(data.target)]",
-				"heal_ranged_in_sight": "curando [name(data.target)]",
-				"wait_at_safety_point": "esperando no banner de segurança",
-				"repair_entity": "consertando [name(data.target)]",
-				"resting_by_fire": "Dormindo perto do fogo",
-				"claiming_animal": "Reivindicando animal",
-				"looking_for_animals": "Procurando por Animais",
-				"collect_ingredient": "Coletando Ingredientes",
-				"build_workshop": "Construindo mesa de trabalho",
-				"death": "Morrendo",
-				"eat": "Pegando Comida",
-				"find_stray_animal": "procurando rastros",
-				"harvest_field": "Colhendo Campos",
-				"idle": "Inativo",
-				"patrol": "Patrulhando",
-				"plant_crop": "Plantando Sementes",
-				"return_animals": "Retornando ao Pasto",
-				"combat": "Concentrado no Combate",
-				"cower": "Agachado",
-				"flee": "Fugindo",
-				"panic": "Em Pânico",
-				"mine": "Minerando",
-				"sleep_in_bed": "Dormindo",
-				"sleep_on_ground": "Dormindo no Chao",
-				"check_bait_trap": "Checando Armadilhas",
-				"set_bait_trap": "Colocando Armadilhas",
-				"survey_trapping_grounds": "inspecionando armadilhas",
-				"steal_bait": "Roubando Isca",
-				"build_ladder": "Construindo Escada...",
-				"promote": "Promovendo...",
-				"move_item_to_storage": "guardando um item",
-				"teardown_ladder": "Removendo Escada...",
-				"drop_item_near_workshop": "limpando a mesa de trabalho",
-				"fabricate_structure": "Construindo...",
-				"teardown_structure": "Destruindo Estruturas...",
-				"feed_pasture_animals": "alimentando animais",
-				"restock": "reabastecendo itens",
-				"resting_from_injuries": "precisando de atenção médica",
-				"healing": "tratando feridas",
-				"healing_target": "curando [name(data.target)]",
-				"dig_foundation": "cavando fundação",
-				"unit_hold_location": "Defendendo localização",
-				"execute_conversation": "socializando",
-				"incapacitated": "incapacitado",
-				"rescue_citizen": "resgatando [name(data.target)]",
-				"recuperating": "recuperando"
+				"chase_entity": "chasing [name(data.target)]",
+				"eat_item": "eating [name(data.target)]",
+				"fill_storage": "filling [name(data.target)]",
+				"harvest_crop": "harvesting [name(data.target)]",
+				"harvest_resource": "harvesting [name(data.target)]",
+				"harvest_resource_node": "harvesting [name(data.target)]",
+				"light_firepit": "lighting [name(data.target)]",
+				"place_item_on_structure": "placing [name(data.target)]",
+				"work_at_workshop": "crafting [str(data.craftable_name)]",
+				"attack_melee_adjacent": "attacking [name(data.target)]",
+				"heal_ranged_in_sight": "healing [name(data.target)]",
+				"wait_at_safety_point": "waiting at safety banner",
+				"repair_entity": "repairing [name(data.target)]",
+				"resting_by_fire": "resting by the fire",
+				"claiming_animal": "claiming animal",
+				"looking_for_animals": "looking for animals",
+				"collect_ingredient": "collecting ingredients",
+				"build_workshop": "building workshop",
+				"death": "dying",
+				"eat": "getting food",
+				"find_stray_animal": "finding strays",
+				"harvest_field": "harvesting field",
+				"idle": "idle",
+				"patrol": "patrolling",
+				"plant_crop": "planting crop",
+				"return_animals": "returning to pasture",
+				"combat": "engaged in combat",
+				"cower": "cowering",
+				"flee": "fleeing",
+				"panic": "panicking",
+				"mine": "mining",
+				"sleep_in_bed": "sleeping",
+				"sleep_on_ground": "sleeping on the ground",
+				"check_bait_trap": "checking traps",
+				"set_bait_trap": "setting traps",
+				"survey_trapping_grounds": "survey trapping grounds",
+				"steal_bait": "stealing bait",
+				"build_ladder": "building ladder",
+				"promote": "promoting",
+				"move_item_to_storage": "moving item to storage",
+				"teardown_ladder": "removing ladder",
+				"drop_item_near_workshop": "clearing workshop",
+				"fabricate_structure": "building",
+				"teardown_structure": "tearing down structures",
+				"feed_pasture_animals": "feeding animals",
+				"restock": "restocking items",
+				"resting_from_injuries": "requiring medical attention",
+				"healing": "treating wounds",
+				"healing_target": "healing [name(data.target)]",
+				"dig_foundation": "digging foundation",
+				"unit_hold_location": "defending location",
+				"execute_conversation": "socializing",
+				"incapacitated": "incapacitated",
+				"rescue_citizen": "rescuing [name(data.target)]",
+				"recuperating": "recuperating"
 			}
 		}
 	},
 	"ui": {
 		"game": {
 			"game_speed": {
-				"pause_title": "Pausa",
-				"pause_description": "Pausa o Jogo",
+				"pause_title": "Pause",
+				"pause_description": "Pause the game",
 				"play_title": "Play",
-				"play_description": "Rodar Jogo na velocidade normal",
-				"ff_title": "Avanço Rápido",
-				"ff_description": "Rodar jogo na velocidade 2x",
-				"speedThree_title": "Super Velocidade",
-				"speedThree_description": "Roda o jogo super rapido",
-				"pause_overlay": "Pausado"
+				"play_description": "Run the game at normal speed",
+				"ff_title": "Fast Forward",
+				"ff_description": "Run the game at 2x speed",
+				"speedThree_title": "Super Speed",
+				"speedThree_description": "Run the game at high speed",
+				"pause_overlay": "Paused"
 			},
 			"visions": {
-				"building_vision": "Visão de Construção",
-				"building_vision_description": "Muda a visibilidade das paredes, permitindo ver dentro das construções.",
-				"terrain_slice_vision": "Visão de Terreno Fatiado",
+				"building_vision": "Building vision",
+				"building_vision_description": "Changes the visibility of walls, allowing you to see inside buildings.",
+				"terrain_slice_vision": "Terrain slice vision",
 				"terrain_slice_vision_icon_name": "slice",
-				"terrain_slice_vision_description": "Corte o terreno, permitindo que você veja estruturas subterrâneas. Altere a elevação para ver diferentes fatias.",
-				"terrain_slice_vision_up": "Subir corte",
-				"terrain_slice_vision_down": "Descer corte",
+				"terrain_slice_vision_description": "Slice the terrain, allowing you to see underground structures. Change the elevation to see different slices.",
+				"terrain_slice_vision_up": "Raise slice",
+				"terrain_slice_vision_down": "Lower slice",
 				"terrain_xray_vision_icon_name": "x-ray",
-				"terrain_xray_vision": "Visão de Terreno Raio-X",
-				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
-				"terrain_xray_vision_flat": "plano",
-				"terrain_xray_vision_full": "completo"
+				"terrain_xray_vision": "Terrain x-ray vision",
+				"terrain_xray_vision_description": "See through the terrain. Change between full and flat view to show underground walls.",
+				"terrain_xray_vision_flat": "flat",
+				"terrain_xray_vision_full": "full"
 			},
 			"promotion_tree": {
-				"title": "Escolha um Trabalho",
-				"promotion_title": "Promover a [str(job_name)]",
-				"text_1": "Em honra de esforços firmes e de resiliência,",
-				"choose": "escolha um hearthling...",
-				"text_2": "nesse dia, [str(date)]",
-				"approve": "APROVAR",
-				"approved": "APROVADO",
-				"denied": "NEGADO! Requisitos não atendidos",
-				"stamper_top_text": "CLIQUE PARA",
-				"stamper_bottom_text": "APROVAR",
-				"requires": "Requer"
+				"title": "Choose a Job",
+				"promotion_title": "Promotion to [str(job_name)]",
+				"text_1": "In honor of steadfast efforts and resilience, we hereby advance",
+				"choose": "choose a hearthling...",
+				"text_2": "this day of, [str(date)]",
+				"approve": "APPROVE",
+				"approved": "APPROVED",
+				"denied": "DENIED! Requirements not met",
+				"stamper_top_text": "CLICK TO",
+				"stamper_bottom_text": "APPROVE",
+				"requires": "Requires"
 			},
 			"people_picker": {
-				"title": "Escolha um Hearthling",
-				"select_person": "Selecionar",
-				"ownership_current_owner_tooltip": "Dono Atual",
-				"ownership_owns_another_tooltip": "Já possui um objeto similar"
+				"title": "Choose a Hearthling",
+				"select_person": "Select",
+				"ownership_current_owner_tooltip": "Current Owner",
+				"ownership_owns_another_tooltip": "Already Owns a Similar Object"
 			},
 			"build_workshop": {
 				"title": "Build Workshop",
@@ -115,32 +115,31 @@
 				"page2_subtitle2": "Click and drag on the ground to place the stockpile"
 			},
 			"citizen_character_sheet": {
-				"title": "Informações do Personagem",
-				"health": "Saúde",
-				"morale": "Moral",
-				"experience": "Experiência",
-				"max_level": "Nivel Maximo!!!",
-				"no_levels": "Sem subir de nível",
-				"level_text": "Nivel ",
+				"title": "Character Info",
+				"health": "health",
+				"morale": "morale",
+				"experience": "experience",
+				"max_level": "Max Level!!!",
+				"level_text": "Level ",
 				"level_abbreviation": "Lvl",
-				"locked_status": "<br><br>(Bloqueado)",
-				"apprentice": "Aprendiz",
-				"journal": "Diário",
-				"thoughts": "Pensamentos",
-				"morale_meter": "Medidor de Moral",
-				"attributes": "Atributos",
-				"equipment": "Equipamentos",
-				"abilities": "Habilidades",
-				"morale_title": "Moral",
-				"overall_morale": "Moral Geral",
-				"morale_food": "Comida",
-				"morale_shelter": "Abrigo",
-				"morale_safety": "Proteção",
+				"locked_status": " (Locked)",
+				"apprentice": "Apprentice",
+				"journal": "Journal",
+				"thoughts": "Thoughts",
+				"morale_meter": "Morale Meter",
+				"attributes": "Attributes",
+				"equipment": "Equipment",
+				"abilities": "Job Abilities",
+				"morale_title": "Morale",
+				"overall_morale": "Overall Morale",
+				"morale_food": "Food",
+				"morale_shelter": "Shelter",
+				"morale_safety": "Safety",
 				"attack_abbreviation": "Atk",
 				"defense_abbreviation": "Def",
-				"backpack_tab_name": "Mochila",
-				"journal_no_entries": "sem registros",
-				"retired": "Aposentado em:"
+				"backpack_tab_name": "Backpack",
+				"journal_no_entries": "no entries",
+				"retired": "Retired at:"
 			},
 			"pet_character_sheet": {
 				"title": "Pet Info",
@@ -163,60 +162,56 @@
 					"camera_orbit_2": "Q and E work too",
 					"camera_zoom_title": "To zoom in and out",
 					"camera_zoom_1": "Use the mouse scroll wheel",
-					"camera_zoom_2": "Or use the + and - keys",
-					"camera_follow_title": "To follow a Hearthling",
-					"camera_follow_1": "Select the Hearthling you wish to follow",
-					"camera_follow_2": "Press the J key"
+					"camera_zoom_2": "Or use the + and - keys"
 				}
 			},
 			"save_view": {
-				"title": "Jogos Salvos",
-				"confim_delete_title": "Confirmar Eliminar",
-				"confirm_delete_message": "Você tem certeza que quer apagar o jogo salvo?",
-				"confim_overwrite_title": "Confirmar Sobrescrever",
-				"confirm_overwrite_message": "Você tem certeza que quer sobrescrever o jogo salvo?",
-				"save_autosave": "Salve automaticamente periodicamente",
-				"auto_save_prefix": "Salvamento automático: ",
-				"save_in_progress": "Salvando...",
-				"opt_title": "Ajude-nos a melhorar Stonehearth!",
-				"opt_text": "Você nos permitirá coletar dados de desempenho e de jogo anônimos para nos ajudar a ajustar futuras versões do jogo?",
-				"opt_in_button": "Sim, vou ajudar",
-				"opt_out_button": "Melhor não",
-				"opt_thanks": "Obrigado!",
-				"save_delete": "Deletar",
-				"save_overwrite": "Sobrescrever",
-				"save_new": "Salvar",
-				"load_game": "Carregar",
-				"game_different_version": "Versão do Save Incompatível",
-				"delete_incompatible_saves": "Deletar Saves Incompatíveis",
-				"save_time": "Salvo em [str(save_time)]",
-				"save_tooltip_description": "Nome da Pasta: [str(folder_name)]"
+				"title": "Saved Games",
+				"confim_delete_title": "Confirm Delete",
+				"confirm_delete_message": "Do you really want to delete this save game?",
+				"confim_overwrite_title": "Confirm Save Overwrite",
+				"confirm_overwrite_message": "Do you really want to completely, unrevokably overwrite this save game?",
+				"save_autosave": "Automatically save periodically",
+				"auto_save_prefix": "Auto save: ",
+				"save_in_progress": "Saving...",
+				"opt_title": "Help us make Stonehearth better!",
+				"opt_text": "Will you allow us to collect anonymous performance and gameplay data to help us tune future versions of the game?",
+				"opt_in_button": "Yes, I'll help",
+				"opt_out_button": "Nah",
+				"opt_thanks": "Thanks!",
+				"save_delete": "Delete",
+				"save_overwrite": "Overwrite",
+				"save_new": "New Save",
+				"load_game": "Load Game",
+				"game_different_version": "incompatible save version",
+				"delete_incompatible_saves": "Delete Incompatible Saves",
+				"save_time": "Saved [str(save_time)]",
+				"save_tooltip_description": "Folder Name: [str(folder_name)]"
 			},
 			"common": {
 				"ok": "OK",
-				"cancel": "Cancelar",
-				"yes": "Sim",
-				"no": "Não",
-				"accept": "Aceitar",
-				"decline": "Recusar",
-				"next": "Próximo",
-				"continue": "Continue",
-				"hotkey": "Tecla de Atalho: ",
-				"remove": "Remover",
-				"input_text_tooltip": "Click para Editar",
+				"cancel": "Cancel",
+				"yes": "Yes",
+				"no": "No",
+				"accept": "Accept",
+				"decline": "Decline",
+				"next": "Next",
+				"hotkey": "key: ",
+				"remove": "Remove",
+				"input_text_tooltip": "Click to edit",
 				"days": "d",
 				"hours": "h"
 			},
 			"party": {
-				"title": "Grupos",
-				"create_party": "Criar Grupo",
-				"edit_party": "Editar",
-				"add_party_member": "Adicionar Membro",
-				"remove_members": "Remover Todos os Membros",
+				"title": "Parties",
+				"create_party": "Create Party",
+				"edit_party": "Edit",
+				"add_party_member": "Add Member",
+				"remove_members": "Remove All Members",
 				"add_party_member_title": "Manage Roster",
 				"done_adding_members": "Done",
-				"add_party_member_button": "Adicionar",
-				"remove_party_member_button": "Remover",
+				"add_party_member_button": "Add",
+				"remove_party_member_button": "Remove",
 				"not_in_party": "Not in a party",
 				"party_help": "Party members will travel together and can be directed on the battlefield.",
 				"party_editor_help": "Use this screen to add and remove hearthlings to the party.",
@@ -258,27 +253,27 @@
 				"placed": "placed",
 				"placement_tags": {
 					"turret": "Turrets",
-					"trap": "Armadilhas"
+					"trap": "Traps"
 				}
 			},
 			"citizens": {
 				"title": "Citizens",
 				"work_orders_title": "Citizens",
-				"worker_details": "Detalhes",
+				"worker_details": "Details",
 				"workers_list_headers": {
-					"name": "Nome",
+					"name": "Name",
 					"haul": "Haul",
-					"build": "Construir",
-					"mine": "Minerar",
-					"job": "Trabalhar",
+					"build": "Build",
+					"mine": "Mine",
+					"job": "Job",
 					"current_activity": "Current Activity...",
 					"status": "Status"
 				},
-				"show_character_sheet": "Mais informações",
-				"button_suspend": "suspender",
-				"button_resume": "resumir",
+				"show_character_sheet": "More Info",
+				"button_suspend": "suspend",
+				"button_resume": "resume",
 				"tab": {
-					"tasks": "Afazeres",
+					"tasks": "Tasks",
 					"groups": "Groups"
 				},
 				"enrollment": {
@@ -288,11 +283,11 @@
 				}
 			},
 			"create_camp": {
-				"new_game_place_banner": "Clique em mim para posicionar sua bandeira",
-				"click_banner_tip": "Clique na bandeira para escolher o local do acampamento",
-				"select_camp_tip": "Agora clique em algum lugar do mundo",
-				"name_camp_title": "Nomeie seu acampamento",
-				"name_camp_prompt": "Digite um nome para a sua Cidade!"
+				"new_game_place_banner": "Click me to place your town banner",
+				"click_banner_tip": "Click the banner to choose your settlement's location",
+				"select_camp_tip": "Now click somewhere in the world",
+				"name_camp_title": "Name your settlement",
+				"name_camp_prompt": "Type a name for your settlement!"
 			},
 			"calendar": {
 				"months": {
@@ -310,53 +305,53 @@
 					"12": "Northmun"
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-				"date_format_long": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
-				"date_time_long_format": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
+				"date_format_long": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+				"date_time_long_format": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]"
 			},
 			"esc_menu": {
 				"title": "Stonehearth",
-				"resume": "Voltar a Jogar",
-				"save": "Salvar/Carregar",
-				"settings": "Configurações",
-				"about": "Sobre",
-				"quit_to_menu": "Menu Principal",
-				"exit_game": "Sair do Jogo",
-				"post_bug": "Postar um Bug",
+				"resume": "Resume",
+				"save": "Save or Load Game",
+				"settings": "Settings",
+				"about": "About",
+				"quit_to_menu": "Quit to Main Menu",
+				"exit_game": "Exit Game",
+				"post_bug": "Post a bug",
 				"exit_confirm_dialog": {
-					"title": "Sair do Jogo",
-					"message": "Deseja realmente Sair do jogo? Todo progresso não salvo será perdido.",
-					"yes_button": "Sim",
-					"cancel_button": "Cancelar"
+					"title": "Exit Game",
+					"message": "Completely exit the game? Any unsaved changes will be lost.",
+					"yes_button": "Yes",
+					"cancel_button": "Cancel"
 				},
 				"return_to_menu_dialog": {
-					"title": "Reotrnar para o menu principal",
-					"message": "Deseja Retorna ao Menu Principal? Todo progresso não salvo será perdido.",
-					"yes_button": "Sim",
-					"cancel_button": "Cancelar"
+					"title": "Return to Main Menu",
+					"message": "Quit this game and return to main menu?",
+					"yes_button": "Yes",
+					"cancel_button": "Cancel"
 				}
 			},
 			"entities": {
 				"custom_name": "[str(self.stonehearth:unit_info.custom_name)]",
 				"unknown_name": "Unknown",
 				"item_categories": {
-					"food": "Comida",
+					"food": "Food",
 					"cooking_ingredient": "Cooking Ingredients",
-					"resources": "Recursos",
-					"furniture": "Mobília",
-					"armor": "Armadura",
-					"decoration": "Decoração",
-					"construction": "Construção",
-					"door": "Portas",
-					"window": "Janelas",
-					"plants": "Plantas",
-					"weapons": "Armas",
-					"tools": "Ferramentas",
-					"wealth": "Riqueza",
+					"resources": "Resources",
+					"furniture": "Furniture",
+					"armor": "Armor",
+					"decoration": "Decorations",
+					"construction": "Construction",
+					"door": "Doors",
+					"window": "Windows",
+					"plants": "Plants",
+					"weapons": "Weapons",
+					"tools": "Tools",
+					"wealth": "Wealth",
 					"refined": "Refined",
-					"uncategorized": "Sem categoria",
+					"uncategorized": "Uncategorized",
 					"workshops": "Workshops",
-					"consumable": "consumíveis",
+					"consumable": "Consumables",
 					"storage": "Storage",
 					"defense": "Defense",
 					"trophy": "Trophies",
@@ -365,15 +360,12 @@
 				"tooltip_combat_base_damage": "Atk:",
 				"tooltip_combat_base_damage_reduction": "Def:",
 				"tooltip_num_undeployed": "Undeployed: [str(num_undeployed)]",
-				"death_notification": "[name(i18n_data.entity)] esta morto.",
-				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
-				"starving_notification": "[name(i18n_data.citizen)] is starving!",
-				"health_status_normal": "Normal",
-				"health": "HP"
+				"death_notification": "[name(i18n_data.entity)] has died.",
+				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!"
 			},
 			"menu": {
 				"town_menu": {
-					"display_name": "Informações Sobre a Cidade",
+					"display_name": "Town Info",
 					"description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
 				},
 				"citizen_manager": {
@@ -381,24 +373,24 @@
 					"description": "Manage your hearthlings and promote them to new jobs."
 				},
 				"harvest_menu": {
-					"display_name": "Coletar",
+					"display_name": "Harvest",
 					"description": "Harvest resources or mine into the earth.",
 					"items": {
 						"harvest": {
-							"display_name": "Obter",
+							"display_name": "Gather",
 							"description": "Gather trees, plants, and stones from the surface of the land",
 							"tip_title": "Click and drag to harvest resources",
 							"tip_description": "Right click to exit this mode"
 						},
 						"mining_ui": {
-							"display_name": "Minerar Tunel",
-							"description": "Minerar Tuneis e Cavernas",
+							"display_name": "Mine Tunnel",
+							"description": "Mine out tunnels and caves",
 							"tip_title": "Click and drag to dig downward",
 							"tip_description": "Right click to exit"
 						},
 						"mine_block": {
-							"display_name": "Minerar Bloco",
-							"description": "Minerar Bloco individual",
+							"display_name": "Mine Block",
+							"description": "Mine individual blocks",
 							"tip_title": "Click and drag to dig downward",
 							"tip_description": "Right click to exit"
 						},
@@ -421,7 +413,7 @@
 							"tip_description": "Right click to exit this mode",
 							"confirm_title": "Are you really sure you want to clear these items?",
 							"confirm_message": "Usable items in the area will be permanently destroyed",
-							"confirm_clear": "Sim, destruir!",
+							"confirm_clear": "Yes, destroy!",
 							"confirm_clear_no": "No! I need that stuff!"
 						}
 					}
@@ -437,42 +429,42 @@
 							"tip_description": "Right click to exit this mode"
 						},
 						"create_farm": {
-							"display_name": "Fazenda",
-							"description": "Coloque uma Fazenda no Terreno.",
-							"required_job_text": "Precisa de um Fazendeiro",
+							"display_name": "Farm",
+							"description": "Place a farm on the terrain.",
+							"required_job_text": "Requires a farmer",
 							"tip_title": "Click and drag to designate a new field",
 							"tip_description": "Farmers will break ground and plant crops here"
 						},
 						"create_trapping_grounds": {
-							"display_name": "Area de Caça",
-							"description": "Coloque Armadilhar para capturar pequenos bichos.",
-							"required_job_text": "Precisa de um Caçador",
+							"display_name": "Trapping Ground",
+							"description": "Place traps to capture small critters.",
+							"required_job_text": "Requires a trapper",
 							"tip_title": "Click and drag to create trapping grounds",
 							"tip_description": "Trappers catch critters for food and resources in this zone"
 						},
 						"create_pasture": {
-							"display_name": "Pasto de Animais",
-							"description": "O Pastor vai trazer Animais para Pastar aqui.",
-							"required_job_text": "Precisa de um Pastor",
+							"display_name": "Animal Pasture",
+							"description": "The shepherd will bring animals here to graze.",
+							"required_job_text": "Requires a shepherd",
 							"tip_title": "Click and drag to create an animal pasture",
 							"tip_description": "Shepherds bring animals to this region and tend to their needs here."
 						}
 					}
 				},
 				"build_menu": {
-					"display_name": "Construir & Projetar",
+					"display_name": "Build & Design",
 					"description": "Build structures like houses and city walls.",
 					"items": {
 						"building_templates": {
-							"display_name": "Colocar Construção",
+							"display_name": "Place Building",
 							"description": "Choose to construct a building from a pre-designed template"
 						},
 						"custom_building": {
-							"display_name": "Projetar Construção",
+							"display_name": "Design Building",
 							"description": "Design your own one-of-a-kind building"
 						},
 						"place_item": {
-							"display_name": "Colocar Item",
+							"display_name": "Place Item",
 							"description": "Place items like furniture and decoration",
 							"tip_title": "Click to place this item",
 							"tip_description": "Rotate with , and . keys"
@@ -482,7 +474,7 @@
 							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construir escada",
+							"display_name": "Construct Ladder",
 							"description": "Build a ladder to access hard to reach places",
 							"tip_title": "Click on a wall to build ladders",
 							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
@@ -490,7 +482,7 @@
 					}
 				},
 				"fight_menu": {
-					"display_name": "Lutar & Defender",
+					"display_name": "Fight & Defend",
 					"description": "Manage your combat forces",
 					"items": {
 						"party_manager": {
@@ -525,44 +517,44 @@
 					"description": "Build and manage crafting workshops",
 					"items": {
 						"carpenter": {
-							"display_name": "Menu de Criação (Carpinteiro)",
+							"display_name": "Carpenter Craft Menu",
 							"description": "Build wooden furniture and decor.",
-							"required_job_text": "Requer um Carpinteiro"
+							"required_job_text": "Requires a carpenter"
 						},
 						"weaver": {
-							"display_name": "Menu de Criação (Tecelão)",
+							"display_name": "Weaver Craft Menu",
 							"description": "Create clothes, fabrics, and decor.",
-							"required_job_text": "Requer um Tecelão"
+							"required_job_text": "Requires a weaver"
 						},
 						"mason": {
-							"display_name": "Menu de Criação (Pedreiro)",
+							"display_name": "Mason Craft Menu",
 							"description": "Chisel stone weapons and furniture.",
-							"required_job_text": "Requer um Pedreiro"
+							"required_job_text": "Requires a mason"
 						},
 						"blacksmith": {
-							"display_name": "Menu de Criação (Ferreiro)",
+							"display_name": "Blacksmith Craft Menu",
 							"description": "Smelt ore for weapons and armor.",
-							"required_job_text": "Requer um Ferreiro"
+							"required_job_text": "Requires a blacksmith"
 						},
 						"cook": {
-							"display_name": "Menu de Criação (Cozinheiro)",
+							"display_name": "Cook Craft Menu",
 							"description": "Makes food taste better and last longer.",
-							"required_job_text": "Requer um Cozinheiro"
+							"required_job_text": "Requires a cook"
 						},
 						"potter": {
-							"display_name": "Menu de Criação (Oleiro)",
+							"display_name": "Potter Craft Menu",
 							"description": "Makes bricks and goods from clay.",
-							"required_job_text": "Requer um Oleiro"
+							"required_job_text": "Requires a potter"
 						},
 						"herbalist": {
-							"display_name": "Menu de Criação (Herbalist)",
+							"display_name": "Herbalist Craft Menu",
 							"description": "Makes healing items from herbs.",
-							"required_job_text": "Requer Um Herbalist"
+							"required_job_text": "Requires an herbalist"
 						},
 						"engineer": {
-							"display_name": "Menu de Criação (Engenheiro)",
+							"display_name": "Engineer Craft Menu",
 							"description": "Make contraptions and defensive weaponry",
-							"required_job_text": "Requer um Engenheiro"
+							"required_job_text": "Requires an engineer"
 						}
 					}
 				},
@@ -587,15 +579,15 @@
 						"trapping": "Trapping"
 					},
 					"percent_full": "[str(percent)] Percent Full",
-					"active": "Ativo",
-					"paused": "Pausado"
+					"active": "active",
+					"paused": "paused"
 				},
 				"warnings": {
 					"town_inventory_full": "Town Items Full"
 				}
 			},
 			"bulletin": {
-				"bulletin_list_title": "Notificações",
+				"bulletin_list_title": "Notifications",
 				"shop": {
 					"buy_1": "Buy 1",
 					"buy_10": "Buy 10",
@@ -603,11 +595,10 @@
 					"sell_1": "Sell 1",
 					"sell_10": "Sell 10",
 					"sell_all": "Sell All",
-					"buy_tab": "Comprar",
-					"sell_tab": "Vender",
-					"shop_gold_label": "Ouro",
+					"buy_tab": "Buy",
+					"sell_tab": "Sell",
 					"shopkeeper_gold_label": "Merchant gold",
-					"not_enough_gold_tooltip": "Não há ouro suficiente",
+					"not_enough_gold_tooltip": "Not enough gold",
 					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
 				},
 				"city_dialog": {
@@ -620,12 +611,12 @@
 					"summon_herald": "Summon Herald!"
 				},
 				"level_up_bulletin": {
-					"title": "[name(i18n_data.entity)] Subiu de Nivel!",
+					"title": "[name(i18n_data.entity)] has Leveled Up!",
 					"show_char_sheet": "Character Sheet"
 				},
 				"immigration_report": {
-					"title": "Atualização diária",
-					"immigration_report_title": "Relatório de Imigração",
+					"title": "Daily Update",
+					"immigration_report_title": "Immigration Report",
 					"population_label": "[str(town_name)] population",
 					"next_requirements_label": "Next hearthling requirements...",
 					"tooltips": {
@@ -671,7 +662,7 @@
 				"overhead_tips": {
 					"wall_segment_tip_title": "Click to place freestanding wall segments",
 					"wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
-					"build_title_building_designer": "Projetar Construção",
+					"build_title_building_designer": "Building Designer",
 					"build_floor_tip_title": "Click and drag to place floor tiles",
 					"build_floor_tip_description": "Right click to exit",
 					"build_slab_tip_title": "Click and drag to build a slab",
@@ -695,18 +686,18 @@
 					"required_item": "Needed Items"
 				},
 				"overview": {
-					"title": "Projetar Construção - [str(building_name)]",
-					"building_name": "Nome da Construção",
+					"title": "Building Designer - [str(building_name)]",
+					"building_name": "Building Name",
 					"building_cost": "Materials Needed",
-					"start_building": "Construir!",
-					"pause_building": "Pause Construção",
-					"continue_building": "Continue Construção",
+					"start_building": "Build!",
+					"pause_building": "Pause building",
+					"continue_building": "Continue building",
 					"save_building_template": "Save",
-					"finished_editing": "Finalizar Edição",
-					"start_editing": "Editar",
-					"build_complete_title": "Parabéns!",
+					"finished_editing": "Finished Editing",
+					"start_editing": "Edit",
+					"build_complete_title": "Congratulations!",
 					"build_complete_description": "this building is complete",
-					"compute_scaffolding": "Planejar Construção"
+					"compute_scaffolding": "Building Planning"
 				},
 				"roof_shape": {
 					"title": "Slope, Direction, & Size",
@@ -725,7 +716,7 @@
 					"hollow_stairs": "Hollow Stairs"
 				},
 				"building_templates": {
-					"title": "Modelos de Construção",
+					"title": "Building Templates",
 					"design_custom_building": "Design Custom Building",
 					"template_names": {
 						"tiny_cottage": "Tiny Cottage",
@@ -737,7 +728,7 @@
 						"clay_dining_room": "Clay Dining Room",
 						"clay_dormitory": "Clay Dormitory"
 					},
-					"set_template_name_title": "Nome do modelo",
+					"set_template_name_title": "Template Name",
 					"template_default_name": "My new building template",
 					"set_template_name_prompt": "Enter a name for this template",
 					"remove_template_confirm": {
@@ -746,7 +737,7 @@
 						"keep_template": "Keep this template",
 						"remove_template": "Delete it!"
 					},
-					"remove_template_button": "excluir modelo",
+					"remove_template_button": "Delete Template",
 					"build_template_button": "Build"
 				},
 				"place_item": {
@@ -857,32 +848,32 @@
 					"help": "Click the icons to choose what to store in this stockpile.",
 					"used_space": "Used space:",
 					"filters": {
-						"all": "Todos",
-						"none": "Nenhum",
-						"resources": "Recursos",
-						"construction": "Construção",
-						"goods": "Ferramentas & Objetos",
-						"gear": "Armas & Armaduras",
-						"food_and_drink": "Comidas & Bebidas",
-						"wealth": "Riqueza",
+						"all": "All",
+						"none": "None",
+						"resources": "Resources",
+						"construction": "Construction",
+						"goods": "Tools & Goods",
+						"gear": "Weapons & Armor",
+						"food_and_drink": "Food & Drink",
+						"wealth": "Wealth",
 						"tooltip_tools": "Talismans and Workbenches",
-						"tooltip_wood": "Madeira",
-						"tooltip_stone": "Pedra",
-						"tooltip_clay": "Barro",
-						"tooltip_ore": "Mineios",
-						"tooltip_animal_part": "Pele e couro de animais",
+						"tooltip_wood": "Wood",
+						"tooltip_stone": "Stone",
+						"tooltip_clay": "Clay",
+						"tooltip_ore": "Ore",
+						"tooltip_animal_part": "Animal Pelts and Skins",
 						"tooltip_resource_pile": "resource piles",
-						"tooltip_plant": "Plantas",
-						"tooltip_portal": "Portas & Janelas",
-						"tooltip_furniture": "Mobília",
+						"tooltip_plant": "Plants",
+						"tooltip_portal": "Doors & Windows",
+						"tooltip_furniture": "Furniture",
 						"tooltip_defense": "Defenses",
 						"tooltip_light": "torches & lights",
-						"tooltip_decoration": "Decorações",
+						"tooltip_decoration": "Decorations",
 						"tooltip_refined_weaver": "Thread, Cloth, and Leather",
 						"tooltip_refined_craftables": "Refined Craftables",
 						"tooltip_refined_animal_part": "goods produced from bits of animals",
 						"tooltip_refined_ore": "Metal Bars",
-						"tooltip_weapons": "Armas",
+						"tooltip_weapons": "Weapons",
 						"tooltip_ranged_weapon": "ranged weapons",
 						"tooltip_equipment": "Armor and Other Equipment",
 						"tooltip_heavy_armor": "heavy armor",
@@ -911,11 +902,11 @@
 				"craft_requirements": "Requirements:",
 				"unlock_text": "To Unlock:",
 				"crafting_status": "crafting...",
-				"crafting_status_queued": "Enfileiradas",
-				"workshop_paused_status": "Pausado...",
-				"workshop_remove_confirm": "Remover?",
-				"workshop_open": "Aberto!",
-				"workshop_closed": "Fechado",
+				"crafting_status_queued": "Queued",
+				"workshop_paused_status": "paused...",
+				"workshop_remove_confirm": "Remove?",
+				"workshop_open": "Open!",
+				"workshop_closed": "Closed",
 				"maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
 				"craft": "Craft!",
 				"craft_queue_full": "Orders Full!",
@@ -930,8 +921,8 @@
 				"too_many_symbol": "lots",
 				"requirements_unmet_general": "Craft Requirements Unmet!",
 				"queue_anyway": "Queue Order Anyway",
-				"recipe_tab": "Receitas",
-				"orders_tab": "Encomendas",
+				"recipe_tab": "Recipes",
+				"orders_tab": "Orders",
 				"missing_ingredients": "Missing ingredients: "
 			},
 			"town_overview": {
@@ -975,15 +966,15 @@
 				},
 				"score": {
 					"net_worth": "Net worth",
-					"buildings": "Construções",
-					"inventory": "Inventario",
-					"agriculture": "Agricultura",
-					"edibles": "Comestíveis",
+					"buildings": "Buildings",
+					"inventory": "Inventory",
+					"agriculture": "Agriculture",
+					"edibles": "Edibles",
 					"overall_morale": "Overall Morale",
-					"food": "Alimento",
+					"food": "Food",
 					"shelter": "Shelter",
 					"safety": "Safety",
-					"military_strength": "Força Militar"
+					"military_strength": "Military Strength"
 				},
 				"inventory": {
 					"item_count": "Items:"
@@ -997,12 +988,12 @@
 		},
 		"shell": {
 			"about": {
-				"title": "Sobre Stonehearth",
+				"title": "About Stonehearth",
 				"attributions": "The following is a list of OpenSource Software that is used in Stonehearth:"
 			},
 			"loading_screen": {
-				"initial_load_game_text": "Carregando",
-				"initial_load_map_text": "Gerando Mundo",
+				"initial_load_game_text": "Loading",
+				"initial_load_map_text": "Generating World",
 				"loading_map_flavor_text": {
 					"001": "sharpening right angles...",
 					"002": "decompressing voxels...",
@@ -1069,35 +1060,35 @@
 				}
 			},
 			"select_settlement": {
-				"title": "Clique no mapa para escolher o local do seu acampamento",
-				"loading": "Carregando",
-				"settle_at_this_location": "Estabelecer aqui!",
-				"clear_selection": "Escolher outro local",
-				"regenerate_map": "Gerar novo mapa",
-				"world_seed": "Número do mundo: ",
+				"title": "Click the map to choose your settlement's location",
+				"loading": "Loading",
+				"settle_at_this_location": "Settle here!",
+				"clear_selection": "Choose another location",
+				"regenerate_map": "Roll new map",
+				"world_seed": "World Seed: ",
 				"terrain_stats": {
-					"trees_and_plants_title": "Árvores e Plantas",
+					"trees_and_plants_title": "Trees & Plants",
 					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
-					"wildlife_title": "Vida selvagem",
+					"wildlife_title": "Wildlife",
 					"wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
-					"minerals_title": "Minerais",
+					"minerals_title": "Minerals",
 					"minerals_description": "You will need minerals if you plan on building things from stone or metal."
 				},
 				"terrain_codes": {
-					"water": "Água",
-					"plains_1": "Planice",
-					"plains_2": "Planice",
-					"foothills_1": "Pé da montanha",
-					"foothills_2": "Pé da montanha",
-					"foothills_3": "Pé da montanha",
-					"mountains_1": "Montanhas",
-					"mountains_2": "Montanhas",
-					"mountains_3": "Montanhas",
-					"mountains_4": "Pico da montanha",
-					"mountains_5": "Pico da montanha",
-					"mountains_6": "Pico da montanha",
-					"mountains_7": "Pico da montanha",
-					"mountains_8": "Pico da montanha",
+					"water": "Water",
+					"plains_1": "Plains",
+					"plains_2": "Plains",
+					"foothills_1": "Foothills",
+					"foothills_2": "Foothills",
+					"foothills_3": "Foothills",
+					"mountains_1": "Mountains",
+					"mountains_2": "Mountains",
+					"mountains_3": "Mountains",
+					"mountains_4": "Mountain Peak",
+					"mountains_5": "Mountain Peak",
+					"mountains_6": "Mountain Peak",
+					"mountains_7": "Mountain Peak",
+					"mountains_8": "Mountain Peak",
 					"vegetation_0": "Nary a weed",
 					"vegetation_1": "Sparse",
 					"vegetation_2": "Average",
@@ -1116,47 +1107,47 @@
 				}
 			},
 			"settings": {
-				"title": "Configurações",
-				"graphics": "Gráficos",
-				"gameplay": "Jogabilidade",
-				"card": "Placa de Video: ",
+				"title": "Settings",
+				"graphics": "Graphics",
+				"gameplay": "Gameplay",
+				"card": "Display Adapter: ",
 				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
-				"gfx_enable_shadows": "Habilitar Sombras",
-				"gfx_enable_vsync": "Habilitar VSync",
-				"gfx_enable_fullscreen": "Tela Cheia (Requer Reinicio)",
-				"gfx_msaa": "Nivel de Anti-Aliasing",
-				"gfx_shadows": "Detalhes de Sombra",
-				"gfx_max_lights": "Nº Maximo de Luzes",
-				"gfx_max_shadows": "Nº Maximo de Sombras",
-				"gfx_drawdistance": "Campo de Visao",
-				"gfx_enable_ssao": "Habilitar Oclusao do Ambiente",
-				"gfx_use_high_quality": "Habilitar Graficos de Alta Qualidade",
-				"shadow_0": "Desabilitado",
-				"shadow_1": "Apenas um Toque",
-				"shadow_2": "Um pouco",
-				"shadow_3": "Um pouco mais",
-				"shadow_4": "Muito",
-				"shadow_5": "Muito Mesmo!",
-				"aa_slider_0": "Desabilitado",
-				"aa_slider_1": "Um pouco",
-				"aa_slider_2": "Um pouco mais",
-				"aa_slider_3": "Muito",
-				"aa_slider_4": "Muito Mesmo!",
-				"sound": "Som",
-				"background_music_volume": "Volume da Musica",
-				"effects_volume": "Volume dos Efeitos",
-				"system": "Sistema",
-				"force_32_bit": "* Forcar 32-bit (Requer Reinicio)",
-				"force_32_bit_note": "* Force 32-bit apenas se for absolutamente necessario.64-bit e mais rapido e suporta grandes cidades.",
+				"gfx_enable_shadows": "Enable Shadows",
+				"gfx_enable_vsync": "Enable Vertical Sync",
+				"gfx_enable_fullscreen": "Fullscreen (Requires Restart)",
+				"gfx_msaa": "Anti-Aliasing Level",
+				"gfx_shadows": "Shadow Detail",
+				"gfx_max_lights": "Maximum Number of Lights",
+				"gfx_max_shadows": "Maximum Number of Shadows",
+				"gfx_drawdistance": "Draw Distance",
+				"gfx_enable_ssao": "Enable Ambient Occlusion",
+				"gfx_use_high_quality": "Enable High Quality Graphics",
+				"shadow_0": "off",
+				"shadow_1": "just a touch",
+				"shadow_2": "a little",
+				"shadow_3": "a little more",
+				"shadow_4": "a lot",
+				"shadow_5": "a whole lot!",
+				"aa_slider_0": "off",
+				"aa_slider_1": "a little",
+				"aa_slider_2": "a little more",
+				"aa_slider_3": "a lot",
+				"aa_slider_4": "a whole lot!",
+				"sound": "Sound",
+				"background_music_volume": "Music Volume",
+				"effects_volume": "Effects Volume",
+				"system": "System",
+				"force_32_bit": "* Force 32-bit (Requires Restart)",
+				"force_32_bit_note": "* Force 32-bit only if absolutely necessary. 64-bit is faster and supports larger towns.",
 				"collect_profile": "Collect profile",
 				"enable_lua_jit": "Use Lua JIT (Requires Restart)",
-				"send_anon_data": "Mande FeedBack Anonimo para ajudar a melhorar o Stonehearth!",
-				"language_select": "Idioma",
+				"send_anon_data": "Send anonymous feedback to help improve Stonehearth!",
+				"language_select": "Language",
 				"gameplay_tab": {
-					"title": "Jogabilidade",
+					"title": "Gameplay",
 					"experimental": "Experimental",
-					"experimental_description": "Estas definições estão em desenvolvimento e pode não esta estavel! Ative a seu provrio risco!",
-					"enable_speed_3": "Ativar velocidade 3 (Requer Reiniciar UI)",
+					"experimental_description": "These settings are still under development and may not be stable! Enable at your own risk!",
+					"enable_speed_3": "Enable Game Speed 3 (Requires UI Refresh)",
 					"enable_speed_3_note": "Note: Game performance might be slow with larger towns on speed 3. Be warned!",
 					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
 					"default_storage_filter_none": "Storage filter defaults to None",
@@ -1171,88 +1162,88 @@
 					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
 					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters."
 				},
-				"mods": "Módulos",
+				"mods": "Mods",
 				"mods_tab": {
-					"title": "Módulos Instalado",
-					"note": "Abilitar Ou Desabilitar um Módulo Requer Reinicio.",
-					"invalid_manifest": "Manifest Invalido",
-					"out_of_date": "Desatualizado",
-					"deferred_load": "Modulo carregado Altomaticamente",
-					"required": "Necessário",
+					"title": "Installed Modules",
+					"note": "Enabling or disabling a module requires a game reload.",
+					"invalid_manifest": "Invalid Manifest",
+					"out_of_date": "Out of Date",
+					"deferred_load": "Automatically Loaded by Other Mods",
+					"required": "Required",
 					"mods_changed_dialog": {
-						"title": "Mudar Modulo",
-						"message": "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
+						"title": "Modules Changed",
+						"message": "The game needs to reload to apply module changes. Reload now?",
 						"accept": "Ok",
-						"cancel": "Cancelar"
+						"cancel": "Cancel"
 					}
 				}
 			},
 			"title_screen": {
-				"exit": "Sair",
-				"settings": "configuração",
-				"about": "Sobre",
-				"kingdom_of": "O Reino de",
+				"exit": "exit",
+				"settings": "settings",
+				"about": "about",
+				"kingdom_of": "The Kingdom of",
 				"continue_game": "Continue",
-				"new_game": "Novo Jogo",
-				"load_game": "Carregar Jogo",
-				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.3 (A21)",
+				"new_game": "New Game",
+				"load_game": "Load Game",
+				"quick_start": "Quick Start",
+				"patch_notes": "Show Patch Notes",
 				"alpha_welcome_dialog": {
-					"title": "Bem vindo a Stonehearth!",
-					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
-					"accept": "Sim, eu quero ajudar!",
-					"cancel": "Não, Obrigado."
+					"title": "Welcome to Stonehearth!",
+					"message": "Warning: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
+					"accept": "Yes, I want to help!",
+					"cancel": "No, thanks."
 				},
 				"mod_conflic_dialog": {
-					"title": "Detectado Modulos em Conflito!",
-					"message": "Atenção: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
-					"accept": "Sim, Prosseguir."
+					"title": "Module Conflicts Detected!",
+					"message": "Warning: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
+					"accept": "Yes, proceed."
 				}
 			},
 			"select_game_story": {
-				"title": "Escolha a sua Aventura",
-				"story_start": "Esta é a história de ...",
-				"kingdom_section_start": "... Um bravo grupo de colonos, os ",
+				"title": "Choose your adventure",
+				"story_start": "This is the story of ...",
+				"kingdom_section_start": "... a brave band of settlers from ",
 				"select_button": "?",
-				"kingdom_picker_title": "Selecione o Reino",
-				"biome_section_start": "Em busca de novas terras e aventuras, eles partem para ",
-				"biome_picker_title": "Selecione o Bioma",
-				"game_mode_select_start": ", Um local que é certeza de ser",
-				"game_mode_picker_title": "Selecione A Dificuldade",
+				"kingdom_picker_title": "Select a Kingdom",
+				"biome_section_start": "Seeking new lands and adventure, they set off to ",
+				"biome_picker_title": "Select a Biome",
+				"game_mode_select_start": ", a location that is sure to be",
+				"game_mode_picker_title": "Select a Difficulty",
 				"game_modes": {
 					"normal": {
 						"display_name": "Normal",
-						"description": "Aventure-se em um mundo repleto de perigo. Sua cidade estará sujeita a ataques de inimigos.",
-						"post_selection_text": "um lugar inspirador para começar de novo."
+						"description": "Adventure forth in a world fraught with danger. Your town will be subject to raiding enemies.",
+						"post_selection_text": "an inspiring place to start anew."
 					},
 					"peaceful": {
-						"display_name": "Pacífico",
-						"description": "Um modo de criação, onde você está livre para construir sua cidade sem se preocupar com quaisquers invasores.",
-						"post_selection_text": "um lugar tranquilo para começar de novo."
+						"display_name": "Peaceful",
+						"description": "A sandbox-mode, where you're free to build your town without worrying about invaders whatsoever.",
+						"post_selection_text": "a tranquil place to start anew."
 					},
 					"hard": {
-						"display_name": "Difícil",
-						"description": "Enfrente monstros mais difíceis do que o modo normal",
-						"post_selection_text": "um lugar assustador para começar de novo."
+						"display_name": "Hard",
+						"description": "Face more difficult monsters than normal mode",
+						"post_selection_text": "a daunting place to start anew."
 					}
 				},
-				"biome_warning_title": "Beware, Traveler...",
-				"biome_warning_text": "Crafting resources can be hard to find when choosing The Ascendancy to settle in the Desert Biome or Rayya?s Children in the Temperate Biome. An issue we hope to fix soon.<br><br>Do you still want to continue with your current selection?",
-				"begin_button": "Iniciar"
+				"begin_button": "Begin"
 			},
-			"select_roster": {
-				"reroll_citizens": "Novos cidadãos",
-				"citizen_info": "Lista da expedição",
-				"accept_roster": "Aceitar lista",
-				"randomize": "Aleatório",
-				"hair_style": "Penteado",
-				"skin_color": "Cor da Pele",
-				"facial_hair": "Barba",
-				"hair_color": "Cor do Cabelo"
-			},
-			"loadout": {
-				"title": "Selecionar recursos iniciais",
-				"start": "Iniciar"
+			"embark": {
+				"title": "Prepare to embark",
+				"citizen_info": "Expedition Roster",
+				"reroll_citizens": "Roll new citizens",
+				"shop_title": "Traveller's Store",
+				"shop_gold_label": "Gold",
+				"shop_sold": "SOLD!",
+				"shop_reset_button": "Reset",
+				"finished": "Embark!",
+				"no_talisman_confirm_dialog": {
+					"title": "Embark",
+					"message": "Are you sure you want to embark without choosing a tool from the shop? As always, you will still get the starting talisman for your faction.",
+					"accept": "Yes, I want the gold",
+					"cancel": "Wait!"
+				}
 			}
 		},
 		"debug": {
@@ -1266,10 +1257,10 @@
 			},
 			"error_browser": {
 				"title": "Engine Error",
-				"filename_label": "Nome do arquivo",
+				"filename_label": "filename",
 				"close_permanently_button": "Close Permanently",
-				"prev_button": "Anterior",
-				"next_button": "Proximo",
+				"prev_button": "Prev",
+				"next_button": "Next",
 				"copy_button": "Copy to Clipboard"
 			},
 			"error_dialog_js": {
@@ -1300,7 +1291,7 @@
 					"town_description": "How your citizens feel about their lodging situation. Are there beds to sleep in?"
 				},
 				"compassion": {
-					"display_name": "Compaixão",
+					"display_name": "Compassion",
 					"description": "How likely this hearthling will help out a fellow villager or befriend others.",
 					"bullet_points": {
 						"000": "Determines maximum trapper pet count",
@@ -1309,7 +1300,7 @@
 					}
 				},
 				"food": {
-					"display_name": "Comida",
+					"display_name": "Food",
 					"description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
 					"town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
 				},
@@ -1321,7 +1312,7 @@
 					}
 				},
 				"willpower": {
-					"display_name": "Força de vontade",
+					"display_name": "Willpower",
 					"description": "How likely this hearthling is to resist enemy charms.",
 					"bullet_points": {
 						"000": "Determines health regeneration"
@@ -1332,14 +1323,14 @@
 					"description": "A reflection of the prosperity of your town. Buildings, inventory, and agriculture combine to form this score."
 				},
 				"courage": {
-					"display_name": "Coragem",
+					"display_name": "Courage",
 					"description": "How brave this hearthling is in the face of combat.",
 					"bullet_points": {
 						"000": "Determines chance to flee in combat"
 					}
 				},
 				"muscle": {
-					"display_name": "Músculo",
+					"display_name": "Muscle",
 					"description": "This hearthling's brawn.",
 					"bullet_points": {
 						"000": "Every 10 muscle increases weapon damage by 1"
@@ -1351,52 +1342,52 @@
 					"town_description": "How happy your citizens are overall."
 				},
 				"speed": {
-					"display_name": "Velocidade",
+					"display_name": "Speed",
 					"description": "How fast this hearthling moves."
 				},
 				"body": {
-					"display_name": "Corpo",
-					"description": "A Competencia em atividades fisicas. Hearthlings com um elevado status do corpo vai se mover mais rapido. Influencias muscular, velocidade e resistencia."
+					"display_name": "Body",
+					"description": "Competence at physical activities. Hearthlings with a high Body stat will move a bit faster, attack harder, and live longer. Influences Muscle, Speed, Stamina."
 				},
 				"edibles": {
-					"display_name": "Comestíveis",
+					"display_name": "Edibles",
 					"description": "The gold value of all the food in the town's inventory.",
 					"town_description": "The gold value of all the food in the town's inventory"
 				},
 				"mind": {
-					"display_name": "Mente",
-					"description": "A Capacidade de pensar de forma inteligente. A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas. Influencias Concentração, Curiosidade e Inventividade."
+					"display_name": "Mind",
+					"description": "The ability to think intelligently. A high Mind stat allows a hearthling to excel in complex mental activities such as crafting. Influences Diligence, Curiosity, Inventiveness."
 				},
 				"curiosity": {
-					"display_name": "Curiosidade",
+					"display_name": "Curiosity",
 					"description": "How much this hearthling enjoys new experiences.",
 					"bullet_points": {
 						"000": "Every 10 curiosity increases bonus experience earned by 1"
 					}
 				},
 				"spirit": {
-					"display_name": "Espirito",
-					"description": "A fe em outras pessoas. Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos. Influencia Coragem, Força de Vontade e Compaixão ."
+					"display_name": "Spirit",
+					"description": "Faith in other people. A high Spirit hearthling will easily befriend animals and stand strong against enemies. Influences Courage, Willpower, Compassion."
 				},
 				"safety": {
-					"display_name": "Proteção",
+					"display_name": "Safety",
 					"description": "Protect your town from raiders and make your citizens feel safe by assigning guards.",
 					"town_description": "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
 				},
 				"inventory": {
-					"display_name": "Inventário",
+					"display_name": "Inventory",
 					"description": "The gold value of all non-Resource and non-Edible items in the town inventory."
 				},
 				"buildings": {
-					"display_name": "Construções",
+					"display_name": "Buildings",
 					"description": "The value of all the buildings constructed your town. Large buildings will have slightly higher score contributions than small ones."
 				},
 				"agriculture": {
-					"display_name": "Agricultura",
+					"display_name": "Agriculture",
 					"description": "The value of farming fields and pastures in your town. Each planted crop and each pasture animal contributes to the score."
 				},
 				"military_strength": {
-					"display_name": "Força Militar",
+					"display_name": "Military Strength",
 					"description": "A value that reflects how strong your town is militarily. Combat units and equipped weapons and armor contribute to this score."
 				},
 				"content": {
@@ -1442,32 +1433,32 @@
 	"data": {
 		"population": {
 			"ascendancy": {
-				"display_name": "Ascendência",
+				"display_name": "The Ascendancy",
 				"quote": "Sheep? Check. Hoe? Check. Swords? Check. Embark!",
-				"description": "Sérios e trabalhadores, leais e bem equilibrados. Cidadãos da Ascendência cortam, constroem e cultivam, confiantes de que o mundo conhecido é deles para habitar.",
-				"post_selection_description": ", um reino próspero e industrioso."
+				"description": "Earnest and hardworking, loyal and well-rounded. Citizens of the Ascendancy chop, build and farm, confident that the known world is theirs to inhabit.",
+				"post_selection_description": ", a prosperous and industrious kingdom."
 			}
 		},
 		"biome": {
 			"temperate": {
-				"display_name": "Temperado",
-				"description": "Florestas, rios e montanhas. Bioma padrão da Ascendência.",
+				"display_name": "Temperate",
+				"description": "Forests, rivers and mountains. Default home of the Ascendancy.",
 				"random_location_names": {
-					"000": "Floresta Darkmoor"
+					"000": "Darkmoor Forest"
 				}
 			},
 			"arctic": {
-				"display_name": "Ártico",
+				"display_name": "Arctic",
 				"description": "Snowy, with tall mountains and large water bodies. Default home of the Northern Alliance.",
 				"random_location_names": {
 					"000": "Valkyrie Tundra"
 				}
 			},
 			"desert": {
-				"display_name": "Deserto",
-				"description": "Seco e arenoso, com grandes colinas e vegetação escassa. Ambiente padrão dos Filhos de Rayya.",
+				"display_name": "Desert",
+				"description": "Dry and sandy, with chunky hills and sparse vegetation. Default home of Rayya's Children.",
 				"random_location_names": {
-					"000": "O Deserto de Pal'Mum"
+					"000": "The Desert of Pal'Mum"
 				},
 				"sandy_poyo": {
 					"display_name": "Sandy Poyo"
@@ -1482,11 +1473,11 @@
 				"encounters": {
 					"daily_report_encounter": {
 						"title": "A traveller approaches your town.",
-						"update_title": "Atualização diária",
-						"sub_title": "Relatório de Imigração",
-						"food_label": "Alimento ",
-						"morale_label": "Moral ",
-						"net_worth_label": "Riqueza ",
+						"update_title": "Daily Update",
+						"sub_title": "Immigration Report",
+						"food_label": "Food ",
+						"morale_label": "Morale ",
+						"net_worth_label": "Net Worth ",
 						"conclusion_positive": "A new settler would like to join your town!",
 						"conclusion_negative": "The road remains empty. Maybe tomorrow!",
 						"success_title": "[name(i18n_data.citizen)] has joined [str(i18n_data.town_name)]!",
@@ -1524,8 +1515,8 @@
 					},
 					"returning_trader_encounter": {
 						"title": "A trader approaches your town.",
-						"days": " dias",
-						"hours": " horas",
+						"days": " days",
+						"hours": " hours",
 						"trade_details": "Hello [str(i18n_data.town_name)]! I'm just passing through, but I'd be willing to make a trade or two, if you're interested. If you make me <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, I'll be back in [str(i18n_data.num_days)] days and might be able to get you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> in exchange. Sound good?",
 						"waiting_title": "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "The trader will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> ready for him!",
@@ -3254,26 +3245,26 @@
 			"mood": {
 				"forlorn": {
 					"forlorn_mood_buff": {
-						"display_name": "Desamparado",
+						"display_name": "Forlorn",
 						"description": "It's been incredibly hard going of late."
 					}
 				},
 				"glum": {
 					"glum_mood_buff": {
-						"display_name": "Mal-Humorado",
-						"description": "As coisas não estão saindo como eu gostaria. "
+						"display_name": "Glum",
+						"description": "Stuff hasn't been turning out as I would like. "
 					}
 				},
 				"content": {
 					"content_mood_buff": {
-						"display_name": "Contente",
+						"display_name": "Content",
 						"description": "All things considered, I'm doing okay."
 					}
 				},
 				"merry": {
 					"merry_mood_buff": {
-						"display_name": "Alegre",
-						"description": "Hoje é um bom dia."
+						"display_name": "Merry",
+						"description": "Today is a good day."
 					}
 				},
 				"jubilant": {
@@ -3291,21 +3282,6 @@
 				"town_alert_banner_buff": {
 					"display_name": "Town Alert Banner Buff",
 					"description": "Emits a stacking courage buff every 5 minutes"
-				}
-			},
-			"scratched": {
-				"scratched_buff": {
-					"display_name": "Scratched"
-				}
-			},
-			"hothead": {
-				"winded_buff": {
-					"display_name": "Winded",
-					"description": "-5% Damage"
-				},
-				"furious_buff": {
-					"display_name": "Furious",
-					"description": "+15% Damage. Will not flee or cower for a short time"
 				}
 			}
 		},
@@ -3325,7 +3301,7 @@
 					"description": "Keeps feet clean"
 				},
 				"ladder": {
-					"display_name": "Escada",
+					"display_name": "Ladder",
 					"description": "Used to reach high places"
 				},
 				"patch_wall": {
@@ -3341,7 +3317,7 @@
 					"description": "Keeps the rain out"
 				},
 				"scaffolding": {
-					"display_name": "Andaime",
+					"display_name": "Scaffolding",
 					"description": "Construction support structure"
 				},
 				"wall": {
@@ -3349,7 +3325,7 @@
 					"description": "Keeps roofs up"
 				},
 				"stairs": {
-					"display_name": "Escada",
+					"display_name": "Stairs",
 					"description": "Go up and down"
 				}
 			},
@@ -3478,7 +3454,7 @@
 				}
 			},
 			"promote_to_job": {
-				"display_name": "Mudar de emprego",
+				"display_name": "Change Jobs",
 				"description": "Give this hearthling a new job."
 			},
 			"raze_crop": {
@@ -3494,8 +3470,8 @@
 				"description": "Remove this ladder."
 			},
 			"restore_terrain": {
-				"display_name": "Restaurar o Terreno",
-				"description": "Restaura o Terreno ao Estado Original."
+				"display_name": "Restore Terrain",
+				"description": "Restore the terrain to its original state."
 			},
 			"show_workshop": {
 				"display_name": "Show Workshop",
@@ -4450,14 +4426,14 @@
 		},
 		"prototypes": {
 			"party": {
-				"display_name": "Grupo",
+				"display_name": "Party",
 				"display_names": {
-					"party_1": "Grupo No.1",
-					"party_2": "Grupo No.2",
-					"party_3": "Grupo No.3",
-					"party_4": "Grupo No.4"
+					"party_1": "Party No.1",
+					"party_2": "Party No.2",
+					"party_3": "Party No.3",
+					"party_4": "Party No.4"
 				},
-				"description": "Organizar tropas em Grupo Para o Combate"
+				"description": "Organizes troops into groups for combat"
 			}
 		},
 		"shops": {
@@ -4507,6 +4483,9 @@
 					"black_forest_inn": {
 						"display_name": "Black Forest Inn"
 					},
+					"blacksmith_house": {
+						"display_name": "Blacksmith House"
+					},
 					"corner_house": {
 						"display_name": "Corner House"
 					},
@@ -4522,9 +4501,6 @@
 				},
 				"carpenter_house": {
 					"display_name": "Carpenter House"
-				},
-				"blacksmith_house": {
-					"display_name": "Blacksmith House"
 				}
 			}
 		},
@@ -4540,7 +4516,7 @@
 								"title": "Open the Carpenter's Craft Menu"
 							},
 							"step005": {
-								"title": "Click no X para fechar a Janela"
+								"title": "Click X to close this window"
 							},
 							"step004": {
 								"title": "Click the Craft button to craft the workshop"
@@ -4590,135 +4566,6 @@
 				}
 			}
 		},
-		"loadouts": {
-			"food_for_days": {
-				"description": "The large amount of food crammed into the back of the caravan should keep the hearthlings going for a handful of days while they get their settlement up and running.",
-				"display_name": "Comida para Dias",
-				"tooltip": "A safe option for new players, though lacking in defense."
-			},
-			"merchant_caravan": {
-				"description": "A collection of trade tools should give the settlement a leg up in the wilderness.",
-				"display_name": "Merchant Caravan",
-				"tooltip": "A good collection of craft skills, but short on food."
-			},
-			"money_solves_all_problems": {
-				"description": "Anything that the town needs they should be able to purchase from a trader.  That is, presuming one finds them and has the proper goods for sale...",
-				"display_name": "Dinheiro resolve todos os problemas",
-				"tooltip": "A risky but potentially very beneficial choice.  It all depends on when and what traders arrive."
-			},
-			"items": {
-				"gold": "Ouro",
-				"food": "Alimeto",
-				"berries": "Berries",
-				"carrots": "Cenouras",
-				"jerky": "Carne Seca"
-			},
-			"coming_soon": "Em breve"
-		},
-		"traits": {
-			"herbivore": {
-				"herbivore_trait": {
-					"display_name": "Herbívoro",
-					"description": "[name(i18n_data.entity)] is a friend to all animals! Plants, less so."
-				}
-			},
-			"callous": {
-				"callous_trait": {
-					"display_name": "Insensível",
-					"description": "[name(i18n_data.entity)]  keeps everyone at arms length. This helps them to not be as hurt when tragedy occurs around them, but their constant guarded composure makes them slow to make friends."
-				}
-			},
-			"carnivore": {
-				"carnivore_trait": {
-					"display_name": "Carnívoro",
-					"description": "[name(i18n_data.entity)] just LOVES animals! Especially with hot sauce."
-				}
-			},
-			"courageous": {
-				"courageous_trait": {
-					"display_name": "Corajoso",
-					"description": "[name(i18n_data.entity)] loves to save others, and puts the safety of the town as paramount."
-				}
-			},
-			"excitable": {
-				"excitable_trait": {
-					"display_name": "Excitable",
-					"description": "[name(i18n_data.entity)] can never seem to keep their emotions in check, so they become happy or sad much faster than normal."
-				}
-			},
-			"green_thumb": {
-				"green_thumb_trait": {
-					"display_name": "Dedo Verde",
-					"description": "[name(i18n_data.entity)] seems to have a way with plants that is somewhat indescribable."
-				}
-			},
-			"heart_of_a_crafter": {
-				"heart_of_a_crafter_trait": {
-					"display_name": "Heart of a Crafter",
-					"description": "[name(i18n_data.entity)] loves crafting things for others. If they don't make at least one thing a day, they feel the day is wasted."
-				}
-			},
-			"professor": {
-				"professor_trait": {
-					"display_name": "Professor",
-					"description": "[name(i18n_data.entity)] always likes to give advice to others based on their observations, whether the receiver wants it or not."
-				}
-			},
-			"featherweight": {
-				"featherweight_trait": {
-					"display_name": "Featherweight",
-					"description": "[name(i18n_data.entity)] is always light on their feet, though they tend to carry less as a result."
-				}
-			},
-			"pack_mule": {
-				"pack_mule_trait": {
-					"display_name": "Burro de Carga",
-					"description": "This hearthling can move mountains! They can carry more in their pack, but walk slightly slower when it's full due to the weight."
-				}
-			},
-			"glutton": {
-				"glutton_trait": {
-					"display_name": "Glutão",
-					"description": "[name(i18n_data.entity)]'s stomach might as well be a portal to another world for as much as they're able to eat. Maybe that explains a bit of their resilience, though."
-				}
-			},
-			"hothead": {
-				"hothead_trait": {
-					"display_name": "Hothead",
-					"description": "[name(i18n_data.entity)] never voluntarily backs down from a fight. Even from ones they probably should..."
-				}
-			},
-			"night_owl": {
-				"night_owl_trait": {
-					"display_name": "Night Owl",
-					"description": "The day only really begins once the sun has set."
-				}
-			},
-			"optimistic": {
-				"optimistic_trait": {
-					"display_name": "Otimista",
-					"description": "[name(i18n_data.entity)] always looks on the bright side, and sees a silver lining in almost everything."
-				}
-			},
-			"passion_job": {
-				"passion_job_trait": {
-					"display_name": "Apaixonado pelo Trabalho de [str(i18n_data.passion_job)]",
-					"description": "[name(i18n_data.entity)] always dreamed of being a [str(i18n_data.passion_job)], maybe now they'll get their chance?"
-				}
-			},
-			"pessimistic": {
-				"pessimistic_trait": {
-					"display_name": "Pessimista",
-					"description": "[name(i18n_data.entity)] is a glass half-empty kinda person."
-				}
-			},
-			"cultist": {
-				"cultist_trait": {
-					"display_name": "Cultist",
-					"description": "This hearthling keeps mumbling about some sort of secret \"bunny god\" sleeping eternally. What's that about?"
-				}
-			}
-		},
 		"happiness": {
 			"thoughts": {
 				"hunger": {
@@ -4755,31 +4602,21 @@
 						"tooltip": "This place is suffocating! There's barely room to breathe!"
 					}
 				},
-				"darkness": {
-					"very_dark": {
-						"display_name": "Very Dark Environment",
-						"tooltip": "I can hardly see anything!"
-					},
-					"dark": {
-						"display_name": "Dark Environment",
-						"tooltip": "This area isn't very well lit."
-					}
-				},
 				"health": {
 					"pain_mild": {
-						"display_name": "Dor (Suave)",
+						"display_name": "Pain (Mild)",
 						"tooltip": "Ow ow ow!"
 					},
 					"pain_moderate": {
-						"display_name": "Dor (Moderada)",
+						"display_name": "Pain (Moderate)",
 						"tooltip": "Agh, I'm in rough shape!"
 					},
 					"pain_scratched": {
-						"display_name": "Dor (Arranhado)",
+						"display_name": "Pain (Scratched)",
 						"tooltip": "I'm a little worse for wear."
 					},
 					"pain_severe": {
-						"display_name": "Dor (Severe)",
+						"display_name": "Pain (Severe)",
 						"tooltip": "!!!"
 					}
 				},
@@ -4792,32 +4629,12 @@
 						"display_name": "Slept in a shared bed",
 						"tooltip": "I'm sharing my bed with someone else right now. It's not the worst, but I really wish I had my own."
 					},
-					"slept_in_shared_room": {
-						"display_name": "Slept in a shared room",
-						"tooltip": "I'm sharing my room with someone else right now. I could use a little more privacy."
-					},
-					"slept_outside": {
-						"display_name": "Slept outside",
-						"tooltip": "I wish I had some shelter and protection from the elements."
-					},
 					"slept_in_comfy_bed": {
 						"display_name": "Slept in a comfy bed",
 						"tooltip": "My bed is really comfortable. I felt refreshed when I woke up!"
 					}
 				},
 				"eating": {
-					"ate_unpalatable": {
-						"display_name": "Ate something awful",
-						"tooltip": "Eating [str(foodname)] was one of the poorer choices I made today."
-					},
-					"herbivore_ate_meat": {
-						"display_name": "I ate meat! NOOOO!",
-						"tooltip": "I can't believe I ate a [str(foodname)].  I can just imagine how cute it must have looked... before..."
-					},
-					"carnivore_ate_veggies": {
-						"display_name": "I ate a plant! Bleh!",
-						"tooltip": "There's been a mistake.  I've accidentally eaten food that my food eats."
-					},
 					"ate_fine": {
 						"display_name": "Ate a fine meal",
 						"tooltip": "My recent meal was amazing! Whoever made the [str(foodname)] really put their heart into it."
@@ -4892,26 +4709,6 @@
 						"panicked": {
 							"display_name": "Feared for their life",
 							"tooltip": "I'm not proud of how I acted when the monsters came, but it's all I could think to do."
-						}
-					}
-				},
-				"traits": {
-					"values": {
-						"plant_lover": {
-							"display_name": "Plant Lover",
-							"tooltip": "Everytime I interact with plants I feel a bit calmer."
-						},
-						"fruitful_labors": {
-							"display_name": "Fruitful Labors",
-							"tooltip": "It always feels good to make something with one's own hands. It helps clear my mind."
-						},
-						"idle_hands": {
-							"display_name": "Idle Hands",
-							"tooltip": "I've not made anything in awhile and feel like a layabout. Isn't there something I can craft?"
-						},
-						"protected_the_town": {
-							"display_name": "Protected the Town",
-							"tooltip": "We fended off a group of nasties recently, it really got my blood pumping!"
 						}
 					}
 				},
@@ -5481,24 +5278,24 @@
 				}
 			},
 			"rabbit": {
-				"display_name": "Coelho",
+				"display_name": "Rabbit",
 				"description": "Om nom nom",
 				"rabbit_jerky": {
-					"display_name": "Carne seca (Coelho)"
+					"display_name": "Rabbit jerky"
 				}
 			},
 			"racoon": {
-				"display_name": "Guaxinim",
+				"display_name": "Racoon",
 				"description": "Small forest creature",
 				"racoon_jerky": {
-					"display_name": "Carne seca (Guaxinim)"
+					"display_name": "Racoon jerky"
 				}
 			},
 			"red_fox": {
-				"display_name": "Raposa",
+				"display_name": "Fox",
 				"description": "Small forest creature",
 				"red_fox_jerky": {
-					"display_name": "Carne Seca (Raposa)"
+					"display_name": "Fox jerky"
 				}
 			},
 			"sheep": {
@@ -5512,18 +5309,18 @@
 				"renewable_harvest_status_text": "shearing sheep"
 			},
 			"squirrel": {
-				"display_name": "Esquilo",
+				"display_name": "Squirrel",
 				"description": "Small forest creature",
 				"squirrel_jerky": {
-					"display_name": "Carne seca (Esquilo)"
+					"display_name": "Squirrel jerky"
 				}
 			},
 			"wolf": {
-				"display_name": "Lobo",
+				"display_name": "A wolf",
 				"description": "Grrr! Rwar!"
 			},
 			"woodchuck": {
-				"display_name": "Marmota",
+				"display_name": "Woodchuck",
 				"description": "A voracious eater of almost everything, especially logs."
 			}
 		},
@@ -5551,53 +5348,53 @@
 				}
 			},
 			"carrot_crop": {
-				"display_name": "Cenoura",
+				"display_name": "Carrot",
 				"description": "Fast-growing, but pretty bland on its own.",
 				"growth_stage": {
 					"003": {
-						"name": "Cenoura (Madura)",
+						"name": "Ripe Carrot",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Cenoura (Pequena)",
+						"name": "Baby Carrot",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Cenoura (Broto)",
+						"name": "Carrot Sprout",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Cenoura (Muda)",
+						"name": "Carrot Seedling",
 						"description": "A unrealized carrot."
 					},
 					"011": {
-						"name": "Cenoura (Estragada)",
+						"name": "Rotten Carrot",
 						"description": "Moldy and disgusting."
 					}
 				}
 			},
 			"corn_crop": {
-				"display_name": "Milho",
+				"display_name": "Corn",
 				"description": "Slow-growing, but super nutritious crop.",
 				"growth_stage": {
 					"003": {
-						"name": "Milho (Maduro)",
+						"name": "Ripe Corn",
 						"description": "Eat me! Eat Me!"
 					},
 					"002": {
-						"name": "Milho (Verde)",
+						"name": "Green Corn",
 						"description": "Extremely unsatisfying to eat."
 					},
 					"001": {
-						"name": "Milho (Broto)",
+						"name": "Corn Sprout",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Milho (Muda)",
+						"name": "Corn Seedling",
 						"description": "Slow-mo, high-stakes gambling."
 					},
 					"011": {
-						"name": "Casca de milho",
+						"name": "Corn Husk",
 						"description": "It's dead."
 					}
 				}
@@ -5625,79 +5422,79 @@
 				}
 			},
 			"gingercap_crop": {
-				"display_name": "Gengibre",
+				"display_name": "Turnip",
 				"description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage": {
 					"003": {
-						"name": "Gengibre (Maduro)",
+						"name": "Ripe Turnip",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Gengibre (Pequeno)",
+						"name": "Baby Turnip",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Gengibre (Broto)",
+						"name": "Turnip Sprout",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Gengibre (Muda)",
+						"name": "Turnip Seedling",
 						"description": "A unrealized turnip."
 					},
 					"011": {
-						"name": "Gengibre (Estragado)",
+						"name": "Rotten Turnip",
 						"description": "Moldy and disgusting."
 					}
 				}
 			},
 			"pumpkin_crop": {
-				"display_name": "Abobora",
+				"display_name": "Pumpkin",
 				"description": "Big, round, and fast-growing, but tasty it is not.",
 				"growth_stage": {
 					"003": {
-						"name": "Abobora (Madura)",
+						"name": "Ripe pumpkin",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Abobora (Pequena)",
+						"name": "Baby pumpkin",
 						"description": "Not edible yet!"
 					},
 					"001": {
-						"name": "Abobora (Broto)",
+						"name": "Pumpkin Sprout",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Abobora (Muda)",
+						"name": "Pumpkin Seedling",
 						"description": "A unrealized pumpkin."
 					},
 					"011": {
-						"name": "Abobora (Estragada)",
+						"name": "Rotten pumpkin",
 						"description": "Moldy and disgusting."
 					}
 				}
 			},
 			"watermelon_crop": {
-				"display_name": "Melancia",
+				"display_name": "Watermelon",
 				"description": "Takes a while to grow, but very fun to eat!",
 				"growth_stage": {
 					"003": {
-						"name": "Melancia (Madura)",
+						"name": "Ripe watermelon",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Melancia (Pequena)",
+						"name": "Baby watermelon",
 						"description": "Not edible yet!"
 					},
 					"001": {
-						"name": "Melancia (Broto)",
+						"name": "Watermelon Sprout",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Melancia (Muda)",
+						"name": "Watermelon Seedling",
 						"description": "A unrealized watermelon."
 					},
 					"011": {
-						"name": "Melancia (Estragada)",
+						"name": "Rotten watermelon",
 						"description": "Moldy and disgusting."
 					}
 				}
@@ -5798,33 +5595,33 @@
 				}
 			},
 			"turnip_crop": {
-				"display_name": "Nabo",
+				"display_name": "Turnip",
 				"description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
 				"growth_stage": {
 					"003": {
-						"name": "Nabo (Maduro)",
+						"name": "Ripe Turnip",
 						"description": "Delicious!"
 					},
 					"002": {
-						"name": "Nabo (Pequeno)",
+						"name": "Baby Turnip",
 						"description": "Small. Bitter."
 					},
 					"001": {
-						"name": "Nabo (Broto)",
+						"name": "Turnip Sprout",
 						"description": "Not edible yet!"
 					},
 					"000": {
-						"name": "Nabo (Muda)",
+						"name": "Turnip Seedling",
 						"description": "A unrealized turnip."
 					},
 					"011": {
-						"name": "Nabo (Estragado)",
+						"name": "Rotten Turnip",
 						"description": "Moldy and disgusting."
 					}
 				}
 			},
 			"wheat_crop": {
-				"display_name": "Trigo",
+				"display_name": "Wheat",
 				"description": "Amber wave of grain.",
 				"growth_stage": {
 					"003": {
@@ -6337,7 +6134,7 @@
 					"description": "Heavenly nutritious."
 				},
 				"corn_basket": {
-					"display_name": "Cesta de Milho",
+					"display_name": "Basket of Corn",
 					"description": "Sweet and crunchy."
 				},
 				"corn_serving": {
@@ -6369,7 +6166,7 @@
 			},
 			"pumpkin": {
 				"pumpkin_basket": {
-					"display_name": "Cesta de Abóbora",
+					"display_name": "Pumpkin Basket",
 					"description": "Ready for eating"
 				},
 				"pumpkin_serving": {
@@ -6379,7 +6176,7 @@
 			},
 			"watermelon": {
 				"watermelon_basket": {
-					"display_name": "Cesta de Melancia",
+					"display_name": "Watermelon Basket",
 					"description": "Ready for eating"
 				},
 				"watermelon_serving": {
@@ -6408,7 +6205,7 @@
 				"description": "Ready for use"
 			},
 			"egg": {
-				"display_name": "Ovo",
+				"display_name": "Egg",
 				"description": "An eggcellent ingredient for cooking."
 			},
 			"corn_bread": {
@@ -6554,15 +6351,15 @@
 				}
 			},
 			"rotten_basket": {
-				"display_name": "Cesta de Comida (Estragada)",
+				"display_name": "Rotten Food Basket",
 				"description": "So rotten that it's lost all form and function."
 			},
 			"rotten_egg": {
-				"display_name": "Ovo (Estragado)",
+				"display_name": "Rotten Egg",
 				"description": "Disgusting"
 			},
 			"rotten_jerky": {
-				"display_name": "Carne seca (Estragada)",
+				"display_name": "Rotten Jerky",
 				"description": "Even jerky will rot eventually. It's true"
 			},
 			"mutton": {
@@ -7116,11 +6913,11 @@
 			},
 			"carrot": {
 				"carrot_basket": {
-					"display_name": "Cesta de Cenouras",
+					"display_name": "Basket of Carrots",
 					"description": "Lined up in neat rows."
 				},
 				"carrot_serving": {
-					"display_name": "Cenoura",
+					"display_name": "Carrot",
 					"description": "Tiny. Bitter."
 				}
 			},
@@ -7148,7 +6945,7 @@
 			},
 			"turnip": {
 				"turnip_basket": {
-					"display_name": "Cesta de Nabos",
+					"display_name": "Basket of Turnips",
 					"description": "Juicy and exciting!"
 				},
 				"turnip_serving": {
@@ -7290,23 +7087,23 @@
 			},
 			"pelt": {
 				"rabbit_pelt": {
-					"display_name": "Pele de Coelho",
+					"display_name": "Rabbit Pelt",
 					"description": "Soft, supple, and quite dead."
 				},
 				"racoon_pelt": {
-					"display_name": "Pele de Guaxinim",
+					"display_name": "Racoon pelt",
 					"description": "Soft, supple, and quite dead"
 				},
 				"red_fox_pelt": {
-					"display_name": "Pele de Raposa",
+					"display_name": "Fox pelt",
 					"description": "Soft, supple, and quite dead"
 				},
 				"squirrel_pelt": {
-					"display_name": "Pele de Esquilo",
+					"display_name": "Squirrel pelt",
 					"description": "Soft, supple, and quite dead"
 				},
 				"wolf_pelt": {
-					"display_name": "Pele de Lobo",
+					"display_name": "Wolf pelt",
 					"description": "From the hide of a terrifying creature"
 				}
 			},
@@ -7705,14 +7502,14 @@
 				}
 			},
 			"wooden_sword": {
-				"display_name": "Espada de Madeira",
+				"display_name": "Wooden Sword",
 				"description": "Thacks thine enemies with oaken might",
 				"wooden_sword_iconic": {
-					"display_name": "Espada de Madeira",
-					"description": "Espada de Madeira básica."
+					"display_name": "Wooden Sword",
+					"description": "Basic wooden sword."
 				},
 				"wooden_sword_talisman": {
-					"display_name": "Espada de Madeira",
+					"display_name": "Wooden Sword",
 					"description": "Required to promote a hearthling into a Footman."
 				}
 			},
@@ -7810,11 +7607,11 @@
 					"description": "Learn to grow the mighty turnip."
 				},
 				"carrot_seeds": {
-					"display_name": "Semente de Cenoura",
+					"display_name": "Carrot Seeds",
 					"description": "Learn to grow carrots."
 				},
 				"pumpkin_seeds": {
-					"display_name": "Semente de Abobora",
+					"display_name": "Pumpkin Seeds",
 					"description": "Learn to grow pumpkins."
 				},
 				"golden_gourd_seeds": {
@@ -7893,7 +7690,7 @@
 				}
 			},
 			"archer_description": {
-				"display_name": "Arqueiro",
+				"display_name": "Archer",
 				"description": "A ranged combat unit that shoots foes with arrows",
 				"requirements": "A level 3 footman and an Archer's Bow, crafted by the Carpenter",
 				"level_1_data": {
@@ -7971,11 +7768,11 @@
 		},
 		"blacksmith": {
 			"blacksmith_description": {
-				"display_name": "Ferreiro",
+				"display_name": "Blacksmith",
 				"description": "The Blacksmith refines raw ore into metal bars, then uses those bars to craft weapons, armor, and building parts like gates.",
 				"requirements": "Blacksmith's Hammer, crafted by the Mason",
 				"level_6_data": {
-					"title": "Ferreiro (Mestre)",
+					"title": "Master Blacksmith",
 					"perk_000_name": "The Armory",
 					"perk_000_description": "The blacksmith's mastery of his trade allows him to create the finest weapons and armors seen since the forgotten Phoenix Empire."
 				},
@@ -7998,19 +7795,19 @@
 			},
 			"blacksmith_forge": {
 				"blacksmith_forge_ghost": {
-					"display_name": "Forja",
+					"display_name": "Forge",
 					"description": "A stone oven for heating metal"
 				}
 			},
 			"blacksmith_hammer": {
-				"display_name": "Martelo do Ferreiro",
+				"display_name": "Blacksmith's Hammer",
 				"description": "Tools of the trade for a blacksmith.",
 				"blacksmith_hammer_iconic": {
-					"display_name": "Martelo do Ferreiro",
+					"display_name": "Blacksmith's Hammer",
 					"description": "Tools of the trade for a blacksmith."
 				},
 				"blacksmith_hammer_talisman": {
-					"display_name": "Martelo do Ferreiro",
+					"display_name": "Blacksmith's Hammer",
 					"description": "Required to promote a hearthling to a blacksmith."
 				}
 			},
@@ -8020,7 +7817,7 @@
 			},
 			"blacksmith_workbench": {
 				"blacksmith_workbench_ghost": {
-					"display_name": "Bigorna do Ferreiro",
+					"display_name": "Blacksmith Anvil",
 					"description": "Used by the Blacksmith for crafting."
 				}
 			},
@@ -8090,10 +7887,10 @@
 					"recipe_name": "Long Sword",
 					"flavor": "'Hah! The only weapon worthy of specialization. --Lady Giest"
 				},
-				"weapons_name": "Armas",
+				"weapons_name": "Weapons",
 				"smelt_name": "Smelting",
 				"armor_name": "Armor",
-				"tools_name": "Ferramentas",
+				"tools_name": "Tools",
 				"short_sword_recipe": {
 					"description": "Stubby, but its steel blade keeps an edge.",
 					"recipe_name": "Steel Short Sword",
@@ -8121,7 +7918,7 @@
 				},
 				"trapper_knife_recipe": {
 					"description": "Required to promote a hearthling into a Trapper.",
-					"recipe_name": "Faca do Caçador",
+					"recipe_name": "Trapper's Knife",
 					"flavor": "Keep your edge whisker sharp, boy, and cut quick. --Willard Foxghost"
 				},
 				"two_handed_sword_recipe": {
@@ -8130,12 +7927,12 @@
 				},
 				"blacksmith_forge_recipe": {
 					"description": "Smelt metals into ingots.",
-					"recipe_name": "Forja do Ferreiro",
+					"recipe_name": "Blacksmith's Forge",
 					"flavor": "In flame, purity, in purity, strength. -Lucan Varius, Artifex Ignis"
 				},
 				"blacksmith_workbench_recipe": {
 					"description": "Used to create weapons and armor out of ingots.",
-					"recipe_name": "Bigorna do Ferreiro",
+					"recipe_name": "Blacksmith's Anvil",
 					"flavor": "It is no coincidence that the metaphors of good character descend from work of the smith. -Lucan Varius, Artifex Ignis"
 				},
 				"workbenches_name": "Workbenches",
@@ -8228,11 +8025,11 @@
 		},
 		"carpenter": {
 			"carpenter_description": {
-				"display_name": "Carpinteiro",
+				"display_name": "Carpenter",
 				"description": "The carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
 				"requirements": "Carpenter's saw, crafted by the Blacksmith.",
 				"level_6_data": {
-					"title": "Carpinteiro (Mestre)",
+					"title": "Master Carpenter",
 					"perk_000_name": "10,000 Hours",
 					"perk_000_description": "The carpenter's mastery of his trade allows him access to recipes that expand your town's opportunities."
 				},
@@ -8309,7 +8106,7 @@
 				},
 				"hoe_recipe": {
 					"description": "Required to promote a hearthling into a Farmer.",
-					"recipe_name": "Enxada do agricultor",
+					"recipe_name": "Farmer's Hoe",
 					"flavor": "Hoedown time!!!!"
 				},
 				"large_crate_recipe": {
@@ -8346,7 +8143,7 @@
 					"recipe_name": "Picket Fence",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
-				"tools_weapons_name": "Ferramentas & Armas",
+				"tools_weapons_name": "Tools & Weapons",
 				"storage_name": "Storage",
 				"building_parts_name": "Building Parts",
 				"armor_name": "Weapons and Armor",
@@ -8375,7 +8172,7 @@
 				},
 				"weaver_spindle_recipe": {
 					"description": "Required to promote a hearthling into a Weaver.",
-					"recipe_name": "Carrtel do Tecelão",
+					"recipe_name": "Weaver's Spindle",
 					"flavor": "From fiber, thread, from thread, fabric, from fabric, civilization."
 				},
 				"window_box_brightbell_recipe": {
@@ -8553,7 +8350,7 @@
 		},
 		"cook": {
 			"cook_description": {
-				"display_name": "Cozinheiro",
+				"display_name": "Cook",
 				"description": "The cook makes delicious, hearty meals from base vegetables and meats.",
 				"requirements": "A level 2 Farmer and a Stoneware Spoon, crafted by the Mason.",
 				"workshop": {
@@ -8561,8 +8358,8 @@
 					"long_description": "Humongous, heavy pot, suitable for cooking up a feast at a time!"
 				},
 				"level_6_data": {
-					"title": "Cozinheiro (Mestre)",
-					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
+					"title": "Master Cook",
+					"perk_000_name": "10,000 Hours (not implemented)",
 					"perk_000_description": "The cook's dishes are now so good for you they have unexpected effects."
 				},
 				"level_2_data": {
@@ -8570,7 +8367,7 @@
 					"perk_000_description": "The cook has learned to make slightly fancier recipes."
 				},
 				"level_4_data": {
-					"perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
+					"perk_000_name": "Ingenuity Enhancements (not implemented)",
 					"perk_000_description": "The cook adds new levels of functionality to classic recipes."
 				},
 				"level_1_data": {
@@ -8713,11 +8510,11 @@
 		},
 		"engineer": {
 			"engineer_description": {
-				"display_name": "Engenheiro",
+				"display_name": "Engineer",
 				"description": "The engineer creates advanced contraptions and defensive weaponry.",
 				"requirements": "A level 1 Blacksmith and a wrench, crafted by the Blacksmith.",
 				"level_6_data": {
-					"title": "Engenheiro (Mestre)",
+					"title": "Master Engineer",
 					"perk_000_name": "General of Defense",
 					"perk_000_description": "This engineer can place up to twelve traps and eight turrets"
 				},
@@ -8822,13 +8619,13 @@
 		},
 		"farmer": {
 			"farmer_description": {
-				"display_name": "Agricultor",
+				"display_name": "Farmer",
 				"description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
 				"requirements": "Farmer's Hoe, crafted by the Carpenter.",
 				"level_6_data": {
-					"perk_000_name": "Nature's Surprise <br><br>(não implementado)",
+					"perk_000_name": "Nature's Surprise (not implemented)",
 					"perk_000_description": "Occasionally, the farmer's special touch yields... special results.",
-					"title": "Agricultor (Mestre)"
+					"title": "Master Farmer"
 				},
 				"level_1_data": {
 					"perk_000_name": "Speed Up",
@@ -8850,14 +8647,14 @@
 				}
 			},
 			"farmer_hoe": {
-				"display_name": "Enxada do Fazendeiro",
+				"display_name": "Farmer's Hoe",
 				"description": "Used to till fields.",
 				"farmer_hoe_iconic": {
-					"display_name": "Enxada do Fazendeiro",
+					"display_name": "Farmer's Hoe",
 					"description": "Required to promote a hearthling into a Farmer."
 				},
 				"farmer_hoe_talisman": {
-					"display_name": "Enxada do Fazendeiro",
+					"display_name": "Farmer's Hoe",
 					"description": "Required to promote a hearthling into a Farmer."
 				}
 			},
@@ -8938,7 +8735,7 @@
 		},
 		"mason": {
 			"mason_description": {
-				"display_name": "Pedreiro",
+				"display_name": "Mason",
 				"description": "The Mason crafts building materials and decorative items from stone.",
 				"requirements": "A Chisel, crafted by the Carpenter.",
 				"workshop": {
@@ -8947,8 +8744,8 @@
 					"long_description": "The Mason crafts building materials and decorative items from stone."
 				},
 				"level_6_data": {
-					"title": "Pedreiro (Mestre)",
-					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
+					"title": "Master Mason",
+					"perk_000_name": "10,000 Hours (not implemented)",
 					"perk_000_description": "The mason's mastery of his trade allows him to come up with completely new ways of using wood."
 				},
 				"level_2_data": {
@@ -9004,7 +8801,7 @@
 				},
 				"blacksmith_hammer_recipe": {
 					"description": "Required to promote a hearthling into a Blacksmith.",
-					"recipe_name": "Martelo do Ferreiro",
+					"recipe_name": "Blacksmith's Hammer",
 					"flavor": "From the dragon that lives in the forge, weapons and armor, defense and conquest."
 				},
 				"potter_cutter_recipe": {
@@ -9032,11 +8829,11 @@
 					"recipe_name": "Wall-Mounted Decorative Gargoyle",
 					"flavor": "Remnants of the servants of Brelor, Crownless King."
 				},
-				"tools_name": "Ferramentas",
+				"tools_name": "Tools",
 				"storage_name": "Storage",
 				"signage_decoration_name": "Signage & Decoration",
 				"building_parts_name": "Building Parts",
-				"weapons_name": "Armas",
+				"weapons_name": "Weapons",
 				"furniture_name": "Furniture",
 				"stone_bench_recipe": {
 					"description": "Outdoor seating for moments of relaxation.",
@@ -9138,7 +8935,7 @@
 		},
 		"potter": {
 			"potter_description": {
-				"display_name": "Oleiro",
+				"display_name": "Potter",
 				"description": "Makes useful goods from clay. Upgradeable to the Mason",
 				"requirements": "A level 4 Mason and a Potter's Cutter, crafted by the Mason",
 				"workshop": {
@@ -9151,7 +8948,7 @@
 					"perk_000_description": "When inspiration strikes, the potter may embellish his/her works in unexpected ways."
 				},
 				"level_6_data": {
-					"title": "Oleiro (Mestre)",
+					"title": "Master Potter",
 					"perk_000_name": "Master Potter",
 					"perk_000_description": "The potter has rediscovered ancient secrets of the Phoenix..."
 				},
@@ -9391,7 +9188,7 @@
 		},
 		"shepherd": {
 			"shepherd_description": {
-				"display_name": "Pastor",
+				"display_name": "Shepherd",
 				"description": "Domesticates wild animals and harvests them for food and materials.",
 				"requirements": "A level 2 Trapper and a Shepherd's Crook, crafted by the Carpenter.",
 				"level_4_data": {
@@ -9407,7 +9204,7 @@
 					"perk_000_description": "The shepherd's skill produces greater yields in animal products."
 				},
 				"level_6_data": {
-					"title": "Pastor(Mestre)"
+					"title": "Master Shepherd"
 				}
 			},
 			"shepherd_crook": {
@@ -9440,7 +9237,7 @@
 		},
 		"trapper": {
 			"trapper_description": {
-				"display_name": "Caçador",
+				"display_name": "Trapper",
 				"description": "The Trapper's snares capture and (ahem) &quot;harvest&quot; small critters for a reliable source of food and supplies.",
 				"requirements": "Trapper's Knife, crafted by the Mason",
 				"level_1_data": {
@@ -9458,9 +9255,9 @@
 					"perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
 				},
 				"level_6_data": {
-					"perk_000_name": "The Deadliest Catch <br><br>(não implementado!)",
+					"perk_000_name": "The Deadliest Catch (Not Implemented!)",
 					"perk_000_description": "Lay special trapping zones to 'deter' acquisitive neighbors.",
-					"title": "Caçador (Mestre)"
+					"title": "Master Trapper"
 				},
 				"level_5_data": {
 					"perk_000_name": "Toothier Traps",
@@ -9492,14 +9289,14 @@
 				}
 			},
 			"trapper_knife": {
-				"display_name": "Faca do Caçador",
+				"display_name": "Trapper's Knife",
 				"description": "A trapper's knife",
 				"trapper_knife_iconic": {
-					"display_name": "Faca do Caçador",
+					"display_name": "Trapper's Knife",
 					"description": "Basic trapper's knife."
 				},
 				"trapper_knife_talisman": {
-					"display_name": "Faca do Caçador",
+					"display_name": "Trapper's Knife",
 					"description": "Required to promote a hearthling into a Trapper."
 				}
 			},
@@ -9526,12 +9323,12 @@
 		},
 		"weaver": {
 			"weaver_description": {
-				"display_name": "Tecelão",
+				"display_name": "Weaver",
 				"description": "The Weaver makes thread, fabrics and hangings from fiber and dye.",
 				"requirements": "Weaver's Spindle, crafted by the Carpenter.",
 				"level_6_data": {
-					"title": "Tecelão (Mestre)",
-					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
+					"title": "Master Weaver",
+					"perk_000_name": "10,000 Hours (not implemented)",
 					"perk_000_description": "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
 				},
 				"level_2_data": {
@@ -9539,7 +9336,7 @@
 					"perk_000_description": "The weaver is now skillful enough to use materials created by other crafters."
 				},
 				"level_4_data": {
-					"perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
+					"perk_000_name": "Ingenuity Enhancements (not implemented)",
 					"perk_000_description": "The weaver adds new levels of functionality to classic recipes."
 				},
 				"level_1_data": {
@@ -9639,12 +9436,12 @@
 				"workbenches_name": "Workbenches",
 				"weaver_loom_recipe": {
 					"description": "Add thread to thread till cloth results.",
-					"recipe_name": "Tear",
+					"recipe_name": "Loom",
 					"flavor": "Patient Spider, weaver, writer, draws the tapestry of fate tighter. --Rayya's Rhyme"
 				},
 				"weaver_spinning_wheel_recipe": {
 					"description": "Spins prickly, scratchy, chaos into thread.",
-					"recipe_name": "Roca de Fiar",
+					"recipe_name": "Spinning Wheel",
 					"flavor": "Spider smiles; all eight eyes glitter, 'Something from nothing, some sweet and some bitter.'"
 				},
 				"weaver_workbench_recipe": {
@@ -9672,7 +9469,7 @@
 			},
 			"weaver_loom": {
 				"weaver_loom_ghost": {
-					"display_name": "Tear",
+					"display_name": "Loom",
 					"description": "Used to weave thread into cloth."
 				}
 			},
@@ -9688,13 +9485,13 @@
 					"description": "For spinning fiber into thread"
 				},
 				"weaver_spindle_talisman": {
-					"display_name": "Carretel do Tecelão",
+					"display_name": "Weaver's Spindle",
 					"description": "Required to promote a hearthling into a Weaver"
 				}
 			},
 			"weaver_spinning_wheel": {
 				"weaver_spinning_wheel_ghost": {
-					"display_name": "Roca de Fiar",
+					"display_name": "Spinning Wheel",
 					"description": "Used to spin fiber into thread."
 				}
 			},
@@ -9707,11 +9504,11 @@
 		},
 		"worker": {
 			"worker_description": {
-				"display_name": "Trabalhador",
+				"display_name": "Worker",
 				"description": "Workers perform basic tasks like harvesting resources, hauling stuff around, and constructing buildings.",
 				"requirements": "None, just hard work and guts.",
 				"level_0_data": {
-					"title": "Trabalhador"
+					"title": "Worker"
 				}
 			},
 			"winter_worker_outfit": {
@@ -9774,14 +9571,14 @@
 				"description": "Traditional robes of the Herbalist"
 			},
 			"herbalist_staff": {
-				"display_name": "Cajado do herbalista",
+				"display_name": "Herbalist Staff",
 				"description": "Required to promote a hearthling into an Herbalist",
 				"herbalist_staff_iconic": {
-					"display_name": "Cajado do herbalista",
+					"display_name": "Herbalist Staff",
 					"description": "Required to promote a hearthling into an Herbalist"
 				},
 				"herbalist_staff_talisman": {
-					"display_name": "Cajado do herbalista",
+					"display_name": "Herbalist's Staff",
 					"description": "Required to promote a hearthling into an Herbalist"
 				}
 			},
@@ -9836,7 +9633,7 @@
 					"recipe_name": "Cleric's Tome",
 					"description": "Required to promote a hearthling to a cleric"
 				},
-				"tools_name": "Ferramentas"
+				"tools_name": "Tools"
 			},
 			"herbalist_buffs": {
 				"willpower_1_buff": {
@@ -9851,7 +9648,7 @@
 				"description": "Holy garb worn by the devout few"
 			},
 			"cleric_description": {
-				"display_name": "clérigo",
+				"display_name": "Cleric",
 				"description": "A combat healer",
 				"requirements": "A level 2 Herbalist and a Cleric's Tome, crafted by the Herbalist",
 				"level_0_data": {
@@ -9974,7 +9771,7 @@
 				"description": "Metal armor worn by a knight"
 			},
 			"knight_description": {
-				"display_name": "Cavaleiro",
+				"display_name": "Knight",
 				"description": "A defensive combatant focused on protecting allies from harm.",
 				"requirements": "Requires a level 3 footman and a Knight's Shield, crafted by the Blacksmith",
 				"level_1_data": {
@@ -10054,9 +9851,9 @@
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
 			"description": "Citizen of your town",
 			"job": {
-				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)] (Aprendiz)",
-				"default_level_title": "[str(self.stonehearth:job.curr_job_name)] (Nivel [str(self.stonehearth:job.curr_job_level)])",
-				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
+				"starting_level_title": "Apprentice [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_title": "Level [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_announcement": "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
 				"level_up_perk_description": "Max Health +10",
 				"attribute_up_desc": "All attributes increased!"
 			}
@@ -10078,15 +9875,15 @@
 				}
 			},
 			"jerky": {
-				"display_name": "Carne Seca",
+				"display_name": "Jerky",
 				"description": "Stringy, but nutritious!"
 			}
 		},
 		"monster": {
 			"job": {
-				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)] (Aprendiz)",
-				"default_level_title": "[str(self.stonehearth:job.curr_job_name)] (Nivel [str(self.stonehearth:job.curr_job_level)])",
-				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
+				"starting_level_title": "Apprentice [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_title": "Level [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_announcement": "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
 				"general_description_desc": "Max Health increased!",
 				"attribute_up_desc": "All attributes increased!"
 			}

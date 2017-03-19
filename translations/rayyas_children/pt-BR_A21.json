@@ -1,0 +1,399 @@
+{
+	"kingdom": {
+		"kingdom_name": "Filhos de Rayya",
+		"quote": "Meditação, mediação, medicação: Ordem em si traz ordem aos outros traz saúde a todos.",
+		"long_description": "Os povos do deserto aprenderam cedo que para sobreviver, precisavam uns dos outros, e de quantos mais pudessem alcançar. Agora, visitantes os acham anfitriões generosos com acesso a produtos de todo o mundo.",
+		"post_selection_description": ", uma sociedade de comerciantes encantadores e astutos."
+	},
+	"jobs": {
+		"potter": {
+			"potter_description": {
+				"requirements": "Requer um cortador de oleiro."
+			},
+			"recipes": {
+				"mason_clay_chisel_recipe": {
+					"description": "Requerido para promover um hearthling em um pedreiro",
+					"recipe_name": "Cinzel de argila do pedreiro",
+					"flavor": "\"Uma ferramenta usada para fazer pedras grandes em rochas menores, mais bonitas, mais funcionais.\" "
+				},
+				"trading_post_monument_recipe": {
+					"recipe_name": "Monumento de Trocas de Mercadoria",
+					"description": "Identifica sua cidade como um posto de comércio respeitável"
+				},
+				"monkey_shrine_monument_recipe": {
+					"description": "Um lugar para prestar homenagem ao Macaco e ao Seu Mistério",
+					"recipe_name": "Monumento do santuário do macaco"
+				},
+				"exotic_trade_monument_recipe": {
+					"description": "Um tributo à habilidade de sua cidade no comércio exótico",
+					"recipe_name": "Monumento da Tapeçaria"
+				},
+				"herbalist_clay_staff_recipe": {
+					"flavor": "'Essas flores cuidam de seu jardineiro como o jardineiro cuida deles.' -Zale, Mestre herborista"
+				}
+			}
+		},
+		"herbalist": {
+			"herbalist_description": {
+				"requirements": "Bastão do Herborista, criado pelo Oleiro"
+			}
+		},
+		"mason": {
+			"mason_description": {
+				"requirements": "Requer um oleiro do nível 2 e um cinzel de pedreiro, criado pelo oleiro."
+			}
+		},
+		"cook": {
+			"recipes": {
+				"golden_gourd_curry_recipe": {
+					"description": "As cabaças são mais comestíveis quando cozidas?",
+					"recipe_name": "Curry de Cabaça Dourado",
+					"flavor": ""
+				},
+				"flat_bread_recipe": {
+					"description": "Pão sem fermento feito de farinha de milho",
+					"recipe_name": "Pão simples"
+				},
+				"meat_tagine_recipe": {
+					"description": "Carne e legumes cozido em um pote de barro",
+					"recipe_name": "Tagine de guisado de carne"
+				},
+				"vegetable_tagine_recipe": {
+					"description": "Legumes cozido em um pote de barro",
+					"recipe_name": "Tagine de guisado de legumes"
+				}
+			}
+		}
+	},
+	"data": {
+		"rayyas_children_population": {
+			"display_name": "Filhos de Rayya"
+		},
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"iskender_caravan_1": {
+						"shop_info": {
+							"name": "Iskender Trading Caravan",
+							"title": "The Iskender Trading Caravan returns!"
+						}
+					},
+					"iskender_caravan_2": {
+						"shop_info": {
+							"name": "Iskender Trading Caravan",
+							"title": "The Iskender Trading Caravan returns with more things!"
+						}
+					},
+					"iskender_caravan_3": {
+						"shop_info": {
+							"name": "Iskender Trading Caravan",
+							"title": "The Iskender Trading Caravan returns!"
+						}
+					},
+					"starting_food_donation": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"000": "Haha, there's nothing like the sight of a brand new outpost, eh? With your hard work, this desolate land will soon be a nexus of wealth and prosperity! We'll be back tomorrow with the whole store, but in the meantime, here's the starting stake your families sent along:",
+										"001": "Monkey keep you, friends! It's always a pleasure to see a party make it to their designated tradepoint. As per your contract, we'll be back with the whole store tomorrow. In the meantime, here are the starting supplies your families ordered for you:",
+										"002": "Iskender Traders is always looking for a new place to rest between routes. We're pleased to see you out here, friends! We'll be back with the store tomorrow, but in the meantime, have a sample of our goods, to get you started:",
+										"003": "All ready to start a new outpost, eh! My friends, the desert welcomes all its children. We'll be back tomorrow to check on you, but in the meantime, your parents sent these supplies, to get you started:",
+										"004": "Aha, a new potential partner for Iskender Traders! We must return tomorrow with the whole store, but tell you what: take this seed investment, and see what you can turn it into for us, eh?"
+									},
+									"bulletin_title": "An Iskender Agent Approaches",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Many thanks, Honored Elder!"
+								}
+							}
+						}
+					},
+					"stonecutter_shop": {
+						"shop_info": {
+							"name": "Vosker Saji's Polished Earths",
+							"title": "A master mason's cart draws near"
+						}
+					},
+					"tannery_shop": {
+						"shop_info": {
+							"name": "Rin's Fine Pelts and Rugs",
+							"title": "A wagon of fine animal goods approaches"
+						}
+					},
+					"woodcutter_shop": {
+						"shop_info": {
+							"name": "Rajin's Goods of the Distant West",
+							"title": "An exotic shop of rare woods arrives"
+						}
+					},
+					"food_shop": {
+						"shop_info": {
+							"name": "Farmer Gem's Farm Supplies",
+							"title": "Farmer Gem's supply cart rolls into town"
+						}
+					},
+					"naryal_tier_2_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"rewards": {
+									"bulletin_message": {
+										"000": "Well, in addition to being distinguished as an official township, you will gain recognition from traders and travelers from all over Hearth. We shall also offer you architectural blueprints we've collected through our trades with other Rayya's Children settlements."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Ok then!"
+								},
+								"shrine_reqs": {
+									"bulletin_message": {
+										"000": "The Church of Rayya, more commonly known as Her Mystery, can designate an outpost as an official Church waypoint. In order to be eligible, your town must provide a shrine where travelers and weary wanderers can give offerings to Monkey and pay homage to Guildmother Rayya."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Sounds good!",
+									"choice_001": "How else can I gain renown?"
+								},
+								"details": {
+									"bulletin_message": {
+										"000": "Well, getting to the point, I believe we can both benefit from an agreement of sorts. We at the Iskender Agency strive to create the most comprehensive maps of Hearth, and so we wish to detail any notable establishments and outposts such as yours. With your permission, of course!"
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "What do I get in return?"
+								},
+								"requirements": {
+									"bulletin_message": {
+										"000": "Great! Let us get this process rolling then. First of all, how would you like to be known? We can put you on the map as a place renowned for its: Trading Post, Shrine of Her Mystery, or Exotic Goods."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Trading Post!",
+									"choice_001": "Shrine!",
+									"choice_002": "Exotic Goods!"
+								},
+								"repeat_reqs": {
+									"bulletin_message": {
+										"000": "How would you like to be known? We can put you on the map as a place renowned for its: Trading Post, Shrine of Her Mystery, or Exotic Goods."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Trading Post!",
+									"choice_001": "Shrine!",
+									"choice_002": "Exotic Goods!"
+								},
+								"naryal_approaches": {
+									"bulletin_message": {
+										"000": "Greetings, friends of [str(i18n_data.town_name)]! It's been some time since we've last visited this outpost. Looks like you've been making good use of the starting supplies we delivered."
+									},
+									"bulletin_title": "Iskender Agent Naryal Approaches",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "What are you doing here?"
+								},
+								"exotic_goods_reqs": {
+									"bulletin_message": {
+										"000": "In order to gain renown in Exotic Trade, your town must engage in trades with visitors from faraway lands and thus gain access to a variety of goods that would be otherwise unobtainable in your area."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Sounds good!",
+									"choice_001": "How else can I gain renown?"
+								},
+								"conclusion2": {
+									"bulletin_message": {
+										"000": "Monkey be with you, [str(i18n_data.town_name)]! I shall leave you a bird, so you may summon me to evaluate your progress!"
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Farewell!"
+								},
+								"map_of_hearth": {
+									"bulletin_message": {
+										"000": "Why, our cartographers are making preparations for the next printing iteration of the Iskender Map of Hearth. While we at Iskender Trading Agency are known for trade, we also pride ourselves for the accuracy and utility of our maps. Settlements and routes from across the world are depicted in the finest detail."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender"
+								},
+								"trading_post_reqs": {
+									"bulletin_message": {
+										"000": "In order to gain renown as a Trading Post for the Masses, it is important that your city be a welcoming place for traders and travelers to visit and trade goods amongst each other. I shall give your potter a recipe; build a monument which can act as a grand and inviting display at the heart of your settlement."
+									},
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Sounds good!",
+									"choice_001": "How else can I gain renown?"
+								},
+								"conclusion": {
+									"bulletin_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender",
+									"choice_000": "Thank you, Honored Elder!",
+									"bulletin_message": {
+										"000": "Excellent! In addition to an appropriate monument, your town will also need to have accumulated a certain level of worth. I shall leave the requirements with you, should you wish to consult with them again, or should a different path come to appeal more than your initial chosen road."
+									}
+								},
+								"shrine_reqs_ctd": {
+									"bulletin_message": {
+										"000": "I will give your potter a sacred shrine recipe, passed down from Her Mystery's most Elite Officers. They say the ingredients are found in ancient structures and loot chests; build the monument and I shall return to verify if it meets the specifications of the Church Elders."
+									}
+								},
+								"exotic_goods_reqs_ctd": {
+									"bulletin_message": {
+										"000": "I will give your potter a recipe. You can obtain the ingredients from traveling merchants and trading caravans, but note that not many travelers carry them. Build a monument that incorporates these ingredients to demonstrate your excellence in trading exotic goods."
+									}
+								}
+							}
+						}
+					},
+					"unlock_exotic_trade_monument": {
+						"bulletin_title": "Potter Recipe Unlocked: Tapestry Monument"
+					},
+					"unlock_monkey_shrine_monument": {
+						"bulletin_title": "Potter Recipe Unlocked: Monkey Shrine Monument"
+					},
+					"unlock_trading_post_monument": {
+						"bulletin_title": "Potter Recipe Unlocked: Trading Goods Monument"
+					},
+					"trading_post_tier_2_reached": {
+						"title": "Iskender Agent Naryal Returns",
+						"speaker_name": "Naryal Iskender",
+						"message": "Congratulations, [str(i18n_data.town_name)]! Your town is eligible to be officially recognized as a township! I have brought building materials and trade agreements, as is customary.",
+						"accept": "Woohoo!",
+						"dialog_title": "Township Achieved!",
+						"tier_title": "Township",
+						"reward_message": "By honorary decree of Rayya's Children, we recognize:",
+						"reward_message_ctd": "For its excellence as a world-class trading post. The town is hereby eligible for:",
+						"tier_2_bldg_template": "Tier 2 Building Templates",
+						"tier_2_shops": "Tier 2 Shops",
+						"tier_2_BGM": "Tier 2 BGM"
+					},
+					"rayyas_children_town_tier_quest": {
+						"title": "Quest for a township",
+						"dialog_title": "Quest for a township",
+						"text": "Satisfy any of the following requirements to gain sufficient reknown to qualify for township status:",
+						"summon_text": "Summon Iskender!"
+					},
+					"exotic_trade_tier_2_reached": {
+						"reward_message_ctd": "For excellence in foreign and exotic trade. The town is hereby eligible for:"
+					},
+					"shrine_tier_2_reached": {
+						"reward_message_ctd": "For its hospitality and iconic shrine to Her Mystery. The town is hereby eligible for:"
+					},
+					"arcs": {
+						"encounters": {
+							"tier_2_shops": {
+								"bakery_shop": {
+									"shop_info": {
+										"name": "Areff Tigri's Breads and Stews",
+										"title": "A chef's cart of breads and stews rolls into town"
+									}
+								},
+								"container_shop": {
+									"shop_info": {
+										"name": "Elia Boxen's Container Hut",
+										"title": "Elia Boxen arrives with a box of crates"
+									}
+								},
+								"door_shop": {
+									"shop_info": {
+										"name": "Radien's Exotic Doors and Signs",
+										"title": "Radien has arrived with exotic doors and signs for sale"
+									}
+								},
+								"farming_supplies_shop": {
+									"shop_info": {
+										"name": "Farmer Makabi's Farm Supplies",
+										"title": "Farmer Makabi's supply cart rolls into town"
+									}
+								},
+								"weapon_armor_shop": {
+									"shop_info": {
+										"name": "Zadok's Armory Shop",
+										"title": "A wagon carrying an assortment of armor approaches"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"rayyas_children": {
+						"display_name": "Rayya's",
+						"categories": {
+							"outpost": "Outpost Templates",
+							"settlement": "Settlement Templates"
+						}
+					}
+				}
+			},
+			"building_templates": {
+				"pottery_studio": {
+					"display_name": "Pottery Studio"
+				},
+				"weavers_hut": {
+					"display_name": "Weaver's Hut"
+				},
+				"communal_kitchen": {
+					"display_name": "Communal Kitchen"
+				},
+				"masons_workshop": {
+					"display_name": "Mason's Workshop"
+				},
+				"tier2": {
+					"desert_lodge": {
+						"display_name": "Desert Lodge"
+					},
+					"little_red_hut": {
+						"display_name": "Little Red Hut"
+					},
+					"rayyas_shadow": {
+						"display_name": "Rayya's Shadow"
+					},
+					"red_clay_homes": {
+						"display_name": "Red Clay Homes"
+					},
+					"engineers_workshop": {
+						"display_name": "Engineer's Workshop"
+					}
+				},
+				"blacksmiths_workshop": {
+					"display_name": "The Forge"
+				},
+				"herbalists_workshop": {
+					"display_name": "Herbalist's Workshop"
+				}
+			}
+		}
+	},
+	"entities": {
+		"gizmos": {
+			"rc_camp_standard": {
+				"rc_camp_standard_ghost": {
+					"display_name": "Banner do Acampamento",
+					"description": "Como você sabe que você chegou em casa"
+				}
+			}
+		},
+		"decoration": {
+			"monkey_shrine_monument": {
+				"monkey_shrine_monument_ghost": {
+					"display_name": "Monumento do santuário do macaco",
+					"description": "Um lugar para prestar homenagem ao Macaco e ao Seu Mistério"
+				}
+			},
+			"exotic_trade_monument": {
+				"exotic_trade_monument_ghost": {
+					"display_name": "Monumento da Tapeçaria",
+					"description": "Um tributo à habilidade de sua cidade no comércio exótico"
+				}
+			},
+			"trading_post_monument": {
+				"trading_post_monument_ghost": {
+					"display_name": "Monumento de Trocas de Mercadoria",
+					"description": "Identifica sua cidade como um posto de comércio respeitável"
+				}
+			}
+		}
+	}
+}
