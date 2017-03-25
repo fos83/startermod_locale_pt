@@ -1,13 +1,13 @@
 {
-	"info" : {
-		"name" : "MOD Traslater português",
-		"version" : 3
+	"info": {
+		"name": "MOD Traslater português",
+		"version": 3
 	},
 	"default_locale": "en",
-	"mixintos" : {
-		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+	"mixintos": {
+		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
 	},
-	"overrides" : {
+	"overrides": {
 		//Portugues Brasil
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR_A21.json)",
 		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR_A21.json)",

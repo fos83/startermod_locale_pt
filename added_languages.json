@@ -1,10 +1,10 @@
 {
-	"languages" : {
-		"pt-BR" : {
-			"display_name" : "Português (BR)"
+	"languages": {
+		"pt-BR": {
+			"display_name": "Português (BR)"
 		},
-		"pt-PT" : {
-			"display_name" : "Português (PT)"
+		"pt-PT": {
+			"display_name": "Português (PT)"
 		}
 	}
 }

@@ -597,16 +597,16 @@
 			"bulletin": {
 				"bulletin_list_title": "Notificações",
 				"shop": {
-					"buy_1": "Buy 1",
-					"buy_10": "Buy 10",
-					"buy_all": "Buy All",
-					"sell_1": "Sell 1",
-					"sell_10": "Sell 10",
-					"sell_all": "Sell All",
+					"buy_1": "1",
+					"buy_10": "10",
+					"buy_all": "Tudo",
+					"sell_1": "1",
+					"sell_10": "10",
+					"sell_all": "Tudo",
 					"buy_tab": "Comprar",
 					"sell_tab": "Vender",
 					"shop_gold_label": "Ouro",
-					"shopkeeper_gold_label": "Merchant gold",
+					"shopkeeper_gold_label": "Ouro (Mercador)",
 					"not_enough_gold_tooltip": "Não há ouro suficiente",
 					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
 				},
@@ -701,7 +701,7 @@
 					"start_building": "Construir!",
 					"pause_building": "Pause Construção",
 					"continue_building": "Continue Construção",
-					"save_building_template": "Save",
+					"save_building_template": "Salvar",
 					"finished_editing": "Finalizar Edição",
 					"start_editing": "Editar",
 					"build_complete_title": "Parabéns!",
@@ -906,8 +906,8 @@
 				"craft_number_left": "Craft",
 				"craft_number_right": "right now.",
 				"craft_up_to_left": "Maintain",
-				"craft_up_to_right": "in inventory.",
-				"craft_ingredients": "Ingredients:",
+				"craft_up_to_right": "no inventário.",
+				"craft_ingredients": "Ingredientes:",
 				"craft_requirements": "Requirements:",
 				"unlock_text": "To Unlock:",
 				"crafting_status": "crafting...",
@@ -4521,10 +4521,10 @@
 					}
 				},
 				"carpenter_house": {
-					"display_name": "Carpenter House"
+					"display_name": "Casa do Carpinteiro"
 				},
 				"blacksmith_house": {
-					"display_name": "Blacksmith House"
+					"display_name": "Casa do Ferreiro"
 				}
 			}
 		},
@@ -4690,7 +4690,7 @@
 			},
 			"night_owl": {
 				"night_owl_trait": {
-					"display_name": "Night Owl",
+					"display_name": "Coruja Noturna",
 					"description": "The day only really begins once the sun has set."
 				}
 			},
@@ -4918,12 +4918,12 @@
 				"violence": {
 					"values": {
 						"townmember_died": {
-							"display_name": "Townmember has died",
+							"display_name": "A townmember has died",
 							"tooltip": "A fellow townmember has died. If only we had been more watchful!"
 						},
 						"pet_died": {
 							"display_name": "My pet died",
-							"tooltip": "My poor [str(pet)] died recently. I'll miss them quite a bit."
+							"tooltip": "My poor [str(pet_name)] passed away recently. I'll miss them quite a bit."
 						}
 					}
 				}
@@ -4934,10 +4934,10 @@
 		"armor": {
 			"knights_shield": {
 				"shield_talisman": {
-					"display_name": "Knight's Shield",
+					"display_name": "Rscudo do Cavaleiro",
 					"description": "Required to promote a hearthling to a knight"
 				},
-				"display_name": "Knight's Shield",
+				"display_name": "Escudo do Cavaleiro",
 				"description": "For defending one's allies"
 			},
 			"iron_shield": {
@@ -5009,10 +5009,10 @@
 				}
 			},
 			"bronze_shield": {
-				"display_name": "Bronze Shield",
+				"display_name": "Escudo de Bronze",
 				"description": "Useful for blocking attacks",
 				"bronze_shield_iconic": {
-					"display_name": "Bronze Shield",
+					"display_name": "Escudo de Bronze",
 					"description": "Useful for blocking attacks"
 				}
 			},
@@ -5041,7 +5041,7 @@
 				}
 			},
 			"steel_shield": {
-				"display_name": "Steel Shield",
+				"display_name": "Escudo de Aço",
 				"description": "A sturdy shield made from steel"
 			},
 			"iron_helm": {
@@ -7278,13 +7278,13 @@
 			},
 			"gold": {
 				"gold_ore": {
-					"display_name": "Gold Ore",
+					"display_name": "Minerio(Ouro)",
 					"description": "A chunk of raw gold"
 				}
 			},
 			"iron": {
 				"iron_ore": {
-					"display_name": "Iron Ore",
+					"display_name": "Minerio(Ferro)",
 					"description": "A chunk of raw iron"
 				}
 			},
@@ -7312,7 +7312,7 @@
 			},
 			"silver": {
 				"silver_ore": {
-					"display_name": "Silver Ore",
+					"display_name": "Minerio(Prata)",
 					"description": "A chunk of raw silver"
 				}
 			},
@@ -8028,7 +8028,7 @@
 				"iron_shield_recipe": {
 					"description": "Heavy, but effective.",
 					"flavor": "'Buck up, recruit! Better the shield dent than you!' -Thredd, Man at Arms",
-					"recipe_name": "Iron Shield"
+					"recipe_name": "Escudo de Ferro"
 				},
 				"bronze_breastplate_recipe": {
 					"description": "Partial but sturdy coverage against blunt and edged weapons.",
@@ -8161,9 +8161,9 @@
 				},
 				"bronze_shield_recipe": {
 					"description": "Increase armor and blocks attacks!",
-					"recipe_name": "Bronze Shield"
+					"recipe_name": "Escudo de (Bronze)"
 				},
-				"decoration_name": "Decorations",
+				"decoration_name": "Decoração",
 				"steel_shield_recipe": {
 					"recipe_name": "Steel Plated Shield",
 					"description": "Grants the ability to completely block attacks.",
@@ -9152,7 +9152,7 @@
 				},
 				"level_6_data": {
 					"title": "Oleiro (Mestre)",
-					"perk_000_name": "Master Potter",
+					"perk_000_name": "Oleiro (Mestre)",
 					"perk_000_description": "The potter has rediscovered ancient secrets of the Phoenix..."
 				},
 				"level_2_data": {
@@ -9467,7 +9467,7 @@
 					"perk_000_description": "Better trap arming skills increase the trapper's chance for capturing prey by 25%."
 				},
 				"level_4_data": {
-					"perk_000_name": "Backpack Size +8",
+					"perk_000_name": "Backpack Size +2",
 					"perk_000_description": "The trapper has become more efficient at packing in the loot."
 				}
 			},
@@ -9831,7 +9831,7 @@
 					"description": "This tonic will make your town citizens less sleepy and move faster for a short while.",
 					"recipe_name": "Energy Tonic"
 				},
-				"decorations_name": "Decorations",
+				"decorations_name": "Decoração",
 				"cleric_tome_recipe": {
 					"recipe_name": "Cleric's Tome",
 					"description": "Required to promote a hearthling to a cleric"
@@ -9851,7 +9851,7 @@
 				"description": "Holy garb worn by the devout few"
 			},
 			"cleric_description": {
-				"display_name": "clérigo",
+				"display_name": "Clérigo",
 				"description": "A combat healer",
 				"requirements": "A level 2 Herbalist and a Cleric's Tome, crafted by the Herbalist",
 				"level_0_data": {
