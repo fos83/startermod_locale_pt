@@ -249,8 +249,8 @@
 					"description": "Cancels active combat orders."
 				},
 				"level": "Lv: ",
-				"class_lv_title": "Class and Level Requirements",
-				"no_requirements": "None!",
+				"class_lv_title": "Requisitos de Classe e Nível",
+				"no_requirements": "Nenhum!",
 				"equipment_description": "Equippable by: [str(class_list)]",
 				"level_description": "of Level [str(level_req)]",
 				"or": " or ",
@@ -271,7 +271,7 @@
 					"build": "Construir",
 					"mine": "Minerar",
 					"job": "Trabalhar",
-					"current_activity": "Current Activity...",
+					"current_activity": "Atividade atual...",
 					"status": "Status"
 				},
 				"show_character_sheet": "Mais informações",
@@ -1163,7 +1163,7 @@
 					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
 					"show_hearthling_paths": "Show Hearthling paths",
 					"show_hearthling_paths_description": "Display the path your hearthlings are following.",
-					"max_citizens": "Max Citizens",
+					"max_citizens": "Nº Maximo de Cidadãos",
 					"randomize_attributes": "Randomize Hearthling Attributes",
 					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
 					"auto_loot": "Auto Loot",
@@ -7197,7 +7197,7 @@
 		},
 		"refined": {
 			"bronze_ingot": {
-				"display_name": "Bronze Ingot",
+				"display_name": "Lingote(Bronze)",
 				"description": "A bar of pure bronze."
 			},
 			"cloth_bolt": {
@@ -7205,15 +7205,15 @@
 				"description": "Soft and comforting."
 			},
 			"copper_ingot": {
-				"display_name": "Copper Ingot",
+				"display_name": "Lingote(Cobre)",
 				"description": "A bar of pure copper.  "
 			},
 			"gold_ingot": {
-				"display_name": "Gold Ingot",
+				"display_name": "Lingote(Ouro)",
 				"description": "A bar of pure gold. A suitable material for crafted goods."
 			},
 			"iron_ingot": {
-				"display_name": "Iron Ingot",
+				"display_name": "Lingote(Ferro)",
 				"description": "A bar of pure iron."
 			},
 			"leather_bolt": {
@@ -7221,11 +7221,11 @@
 				"description": "Supple but durable."
 			},
 			"silver_ingot": {
-				"display_name": "Silver Ingot",
+				"display_name": "Lingote(Prata)",
 				"description": "A bar of pure silver."
 			},
 			"steel_ingot": {
-				"display_name": "Steel Ingot",
+				"display_name": "Lingote(Aço)",
 				"description": "A bar of pure steel."
 			},
 			"stone_bricks": {
@@ -7237,7 +7237,7 @@
 				"description": "Spun from the wool of sheep. Or plants."
 			},
 			"tin_ingot": {
-				"display_name": "Tin Ingot",
+				"display_name": "Lingote(Estanho)",
 				"description": "A bar of pure tin.  "
 			},
 			"bronze_gear": {
@@ -7258,7 +7258,7 @@
 			},
 			"copper": {
 				"copper_ore": {
-					"display_name": "Copper Ore",
+					"display_name": "Minerio(Cobre)",
 					"description": "A chunk of raw copper"
 				}
 			},
@@ -7340,7 +7340,7 @@
 			},
 			"tin": {
 				"tin_ore": {
-					"display_name": "Tin Ore",
+					"display_name": "Minerio(Estanho)",
 					"description": "A chunk of raw tin"
 				}
 			},
