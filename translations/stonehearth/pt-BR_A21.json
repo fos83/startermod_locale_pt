@@ -7198,7 +7198,7 @@
 		"refined": {
 			"bronze_ingot": {
 				"display_name": "Lingote(Bronze)",
-				"description": "A bar of pure bronze."
+				"description": "Uma barra de bronze puro."
 			},
 			"cloth_bolt": {
 				"display_name": "Bolt of Cloth",
@@ -7206,15 +7206,15 @@
 			},
 			"copper_ingot": {
 				"display_name": "Lingote(Cobre)",
-				"description": "A bar of pure copper.  "
+				"description": "Uma barra de cobre puro.  "
 			},
 			"gold_ingot": {
 				"display_name": "Lingote(Ouro)",
-				"description": "A bar of pure gold. A suitable material for crafted goods."
+				"description": "Uma barra de ouro puro. Um material adequado para produtos artesanais."
 			},
 			"iron_ingot": {
 				"display_name": "Lingote(Ferro)",
-				"description": "A bar of pure iron."
+				"description": "Uma barra de ferro puro."
 			},
 			"leather_bolt": {
 				"display_name": "Bolt of Leather",
@@ -7222,11 +7222,11 @@
 			},
 			"silver_ingot": {
 				"display_name": "Lingote(Prata)",
-				"description": "A bar of pure silver."
+				"description": "Uma barra de prata pura."
 			},
 			"steel_ingot": {
 				"display_name": "Lingote(Aço)",
-				"description": "A bar of pure steel."
+				"description": "Uma barra de aço puro."
 			},
 			"stone_bricks": {
 				"display_name": "Stack of Stone Bricks",
@@ -7238,14 +7238,14 @@
 			},
 			"tin_ingot": {
 				"display_name": "Lingote(Estanho)",
-				"description": "A bar of pure tin.  "
+				"description": "Uma barra de estanho puro.  "
 			},
 			"bronze_gear": {
-				"display_name": "Bronze Gear",
+				"display_name": "Engrenagem(Bronze)",
 				"description": "Used to craft basic gadgetry"
 			},
 			"iron_gear": {
-				"display_name": "Iron Gear",
+				"display_name": "Engrenagem(Ferro)",
 				"description": "Used to craft intermediate gadgetry"
 			}
 		},
