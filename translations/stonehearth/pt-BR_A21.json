@@ -7197,7 +7197,7 @@
 		},
 		"refined": {
 			"bronze_ingot": {
-				"display_name": "Lingote(Bronze)",
+				"display_name": "Lingote de (Bronze)",
 				"description": "Uma barra de bronze puro."
 			},
 			"cloth_bolt": {
@@ -7205,15 +7205,15 @@
 				"description": "Soft and comforting."
 			},
 			"copper_ingot": {
-				"display_name": "Lingote(Cobre)",
+				"display_name": "Lingote de (Cobre)",
 				"description": "Uma barra de cobre puro.  "
 			},
 			"gold_ingot": {
-				"display_name": "Lingote(Ouro)",
+				"display_name": "Lingote de (Ouro)",
 				"description": "Uma barra de ouro puro. Um material adequado para produtos artesanais."
 			},
 			"iron_ingot": {
-				"display_name": "Lingote(Ferro)",
+				"display_name": "Lingote de (Ferro)",
 				"description": "Uma barra de ferro puro."
 			},
 			"leather_bolt": {
@@ -7221,11 +7221,11 @@
 				"description": "Supple but durable."
 			},
 			"silver_ingot": {
-				"display_name": "Lingote(Prata)",
+				"display_name": "Lingote de (Prata)",
 				"description": "Uma barra de prata pura."
 			},
 			"steel_ingot": {
-				"display_name": "Lingote(Aço)",
+				"display_name": "Lingote de (Aço)",
 				"description": "Uma barra de aço puro."
 			},
 			"stone_bricks": {
@@ -7237,15 +7237,15 @@
 				"description": "Spun from the wool of sheep. Or plants."
 			},
 			"tin_ingot": {
-				"display_name": "Lingote(Estanho)",
+				"display_name": "Lingote de (Estanho)",
 				"description": "Uma barra de estanho puro.  "
 			},
 			"bronze_gear": {
-				"display_name": "Engrenagem(Bronze)",
+				"display_name": "Engrenagem de (Bronze)",
 				"description": "Used to craft basic gadgetry"
 			},
 			"iron_gear": {
-				"display_name": "Engrenagem(Ferro)",
+				"display_name": "Engrenagem de (Ferro)",
 				"description": "Used to craft intermediate gadgetry"
 			}
 		},
@@ -7278,13 +7278,13 @@
 			},
 			"gold": {
 				"gold_ore": {
-					"display_name": "Minerio(Ouro)",
+					"display_name": "Minerio de (Ouro)",
 					"description": "A chunk of raw gold"
 				}
 			},
 			"iron": {
 				"iron_ore": {
-					"display_name": "Minerio(Ferro)",
+					"display_name": "Minerio de (Ferro)",
 					"description": "A chunk of raw iron"
 				}
 			},
@@ -7312,7 +7312,7 @@
 			},
 			"silver": {
 				"silver_ore": {
-					"display_name": "Minerio(Prata)",
+					"display_name": "Minerio de (Prata)",
 					"description": "A chunk of raw silver"
 				}
 			},
@@ -7340,7 +7340,7 @@
 			},
 			"tin": {
 				"tin_ore": {
-					"display_name": "Minerio(Estanho)",
+					"display_name": "Minerio de (Estanho)",
 					"description": "A chunk of raw tin"
 				}
 			},
@@ -8037,7 +8037,7 @@
 				},
 				"bronze_ingot_recipe": {
 					"description": "A bar of pure bronze. A suitable material for crafted goods.",
-					"recipe_name": "Bronze Ingot",
+					"recipe_name": "Lingote de (Bronze)",
 					"flavor": "The masters of old considered its production, evidence of our triumph over the earth."
 				},
 				"bronze_mace_recipe": {
@@ -8057,17 +8057,17 @@
 				},
 				"copper_ingot_recipe": {
 					"description": "A bar of pure copper. A suitable material for crafted goods.",
-					"recipe_name": "Copper Ingot",
+					"recipe_name": "Lingote de (Cobre)",
 					"flavor": "Smooth and silky to the touch"
 				},
 				"gold_ingot_recipe": {
 					"description": "A bar of pure gold. A suitable material for crafted goods.",
-					"recipe_name": "Gold Ingot",
+					"recipe_name": "Lingote de (Ouro)",
 					"flavor": "The most expensive bludgeon ever."
 				},
 				"iron_ingot_recipe": {
 					"description": "A bar of pure Iron. A suitable material for crafted goods.",
-					"recipe_name": "Iron Ingot",
+					"recipe_name": "Lingote de (Ferro)",
 					"flavor": "To both swords and plowshares, what an egg is to a chicken."
 				},
 				"iron_mace_recipe": {
@@ -8101,12 +8101,12 @@
 				},
 				"silver_ingot_recipe": {
 					"description": "A bar of pure silver. A suitable material for crafted goods.",
-					"recipe_name": "Silver Ingot",
+					"recipe_name": "Lingote de (Prata)",
 					"flavor": "A pair of silver shoes once started a Phoenix war over currency."
 				},
 				"steel_ingot_recipe": {
 					"description": "A bar of pure steel. A suitable material for crafted goods.",
-					"recipe_name": "Steel Ingot",
+					"recipe_name": "Lingote de (Aço)",
 					"flavor": "The beginning of the modern age."
 				},
 				"steel_mail_recipe": {
@@ -8116,7 +8116,7 @@
 				},
 				"tin_ingot_recipe": {
 					"description": "A bar of pure tin. A suitable material for crafted goods.",
-					"recipe_name": "Tin Ingot",
+					"recipe_name": "Lingote de (Estanho)",
 					"flavor": "Step 1: Beat thin. Step 2: Use to cover roof of town hall."
 				},
 				"trapper_knife_recipe": {
