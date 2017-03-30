@@ -7206,11 +7206,11 @@
 			},
 			"copper_ingot": {
 				"display_name": "Lingote de (Cobre)",
-				"description": "Uma barra de cobre puro.  "
+				"description": "Uma barra de cobre puro."
 			},
 			"gold_ingot": {
 				"display_name": "Lingote de (Ouro)",
-				"description": "Uma barra de ouro puro. Um material adequado para produtos artesanais."
+				"description": "Uma barra de ouro puro."
 			},
 			"iron_ingot": {
 				"display_name": "Lingote de (Ferro)",
@@ -8036,7 +8036,7 @@
 					"flavor": "Design reminiscent of the Phoenix's Legions."
 				},
 				"bronze_ingot_recipe": {
-					"description": "A bar of pure bronze. A suitable material for crafted goods.",
+					"description": "Uma barra de bronze puro. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Bronze)",
 					"flavor": "The masters of old considered its production, evidence of our triumph over the earth."
 				},
@@ -8056,17 +8056,17 @@
 					"flavor": "Now the circle can begin anew."
 				},
 				"copper_ingot_recipe": {
-					"description": "A bar of pure copper. A suitable material for crafted goods.",
+					"description": "Uma barra de cobre puro. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Cobre)",
 					"flavor": "Smooth and silky to the touch"
 				},
 				"gold_ingot_recipe": {
-					"description": "A bar of pure gold. A suitable material for crafted goods.",
+					"description": "Uma barra de ouro puro. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Ouro)",
 					"flavor": "The most expensive bludgeon ever."
 				},
 				"iron_ingot_recipe": {
-					"description": "A bar of pure Iron. A suitable material for crafted goods.",
+					"description": "Uma barra de ferro puro. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Ferro)",
 					"flavor": "To both swords and plowshares, what an egg is to a chicken."
 				},
