@@ -8100,12 +8100,12 @@
 					"flavor": "But, does it glow when orcs are near?"
 				},
 				"silver_ingot_recipe": {
-					"description": "A bar of pure silver. A suitable material for crafted goods.",
+					"description": "Uma barra de prata pura. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Prata)",
 					"flavor": "A pair of silver shoes once started a Phoenix war over currency."
 				},
 				"steel_ingot_recipe": {
-					"description": "A bar of pure steel. A suitable material for crafted goods.",
+					"description": "Uma barra de aço puro. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Aço)",
 					"flavor": "The beginning of the modern age."
 				},
@@ -8115,7 +8115,7 @@
 					"flavor": "Full Metal Jacket"
 				},
 				"tin_ingot_recipe": {
-					"description": "A bar of pure tin. A suitable material for crafted goods.",
+					"description": "Uma barra de estanho puro. Um material adequado para produtos artesanais.",
 					"recipe_name": "Lingote de (Estanho)",
 					"flavor": "Step 1: Beat thin. Step 2: Use to cover roof of town hall."
 				},
