@@ -91,6 +91,7 @@
 				"title": "Escolha um Trabalho",
 				"promotion_title": "Promover a [str(job_name)]",
 				"text_1": "Em honra de esforços firmes e de resiliência,",
+				"text_current": "This is the hearthling's current job.",
 				"choose": "escolha um hearthling...",
 				"text_2": "nesse dia, [str(date)]",
 				"approve": "APROVAR",
@@ -98,7 +99,8 @@
 				"denied": "NEGADO! Requisitos não atendidos",
 				"stamper_top_text": "CLIQUE PARA",
 				"stamper_bottom_text": "APROVAR",
-				"requires": "Requer"
+				"requires": "Requer",
+				"parent_level": "A level [str(parent_level)] [str(parent_name)]"
 			},
 			"people_picker": {
 				"title": "Escolha um Hearthling",
@@ -140,7 +142,8 @@
 				"defense_abbreviation": "Def",
 				"backpack_tab_name": "Mochila",
 				"journal_no_entries": "sem registros",
-				"retired": "Aposentado em:"
+				"retired": "Aposentado em:",
+				"traits": "Traços"
 			},
 			"pet_character_sheet": {
 				"title": "Pet Info",
@@ -273,6 +276,7 @@
 					"job": "Trabalhar",
 					"current_activity": "Atividade atual...",
 					"status": "Status"
+					"morale": "Morale"
 				},
 				"show_character_sheet": "Mais informações",
 				"button_suspend": "suspender",
@@ -311,6 +315,7 @@
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
 				"date_format_long": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+				"date_format_long_ordinal": "[str(ord_day)] Day of i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
 				"date_time_long_format": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]"
 			},
@@ -1418,6 +1423,15 @@
 				"glum": {
 					"display_name": "Glum",
 					"town_description": "Your citizens aren't feeling great, overall."
+				},
+				"exp_bar": {
+					"description": "This hearthling's progress to next level."
+				},
+				"health_status": {
+					"description": "This hearthling's current health status."
+				},
+				"suspend_button": {
+					"description": "Pause or resume a work type"
 				}
 			},
 			"constants": {
@@ -1470,10 +1484,12 @@
 					"000": "O Deserto de Pal'Mum"
 				},
 				"sandy_poyo": {
-					"display_name": "Sandy Poyo"
+					"display_name": "Sandy Poyo",
+					"species": "poyo"
 				},
 				"fennec_fox": {
-					"display_name": "Fennec Fox"
+					"display_name": "Fennec Fox",
+					"species": "fox"
 				}
 			}
 		},
@@ -3498,12 +3514,12 @@
 				"description": "Restaura o Terreno ao Estado Original."
 			},
 			"show_workshop": {
-				"display_name": "Show Workshop",
+				"display_name": "Workshop",
 				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
 			"show_workshop_from_crafter": {
-				"display_name": "Show Workshop",
+				"display_name": "Workshop",
 				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
@@ -4616,6 +4632,13 @@
 			"coming_soon": "Em breve"
 		},
 		"traits": {
+			"animal_companion": {
+				"animal_companion_trait": {
+					"display_name": "Animal Companion",
+					"description": "Ever since [name(i18n_data.savior)] saved their [str(i18n_data.species)] from mortal danger, they've been inseparable.",
+					"default_species": "companion"
+				}
+			},
 			"herbivore": {
 				"herbivore_trait": {
 					"display_name": "Herbívoro",
@@ -4667,7 +4690,7 @@
 			"featherweight": {
 				"featherweight_trait": {
 					"display_name": "Featherweight",
-					"description": "[name(i18n_data.entity)] is always light on their feet, though they tend to carry less as a result."
+					"description": "[name(i18n_data.entity)] likes to walk a bit faster than others, though they tend to carry less as a result."
 				}
 			},
 			"pack_mule": {
@@ -4897,6 +4920,14 @@
 				},
 				"traits": {
 					"values": {
+						"misses_pet": {
+							"display_name": "Misses Companion",
+							"tooltip": "Although it's been awhile since they died, I still catch myself sometimes looking for my pet, [str(pet_name)]."
+						},
+						"nuzzled": {
+							"display_name": "Nuzzled",
+							"tooltip": "Aww, [str(pet_name)] always manages to cheer me up."
+						},
 						"plant_lover": {
 							"display_name": "Plant Lover",
 							"tooltip": "Everytime I interact with plants I feel a bit calmer."
@@ -4912,6 +4943,10 @@
 						"protected_the_town": {
 							"display_name": "Protected the Town",
 							"tooltip": "We fended off a group of nasties recently, it really got my blood pumping!"
+						},
+						"loves_their_job": {
+							"display_name": "Loves Their Job",
+							"tooltip": "This is the perfect job for me! I love what I do day to day."
 						}
 					}
 				},
@@ -5478,28 +5513,32 @@
 				"young": {
 					"display_name": "Poyo Chick",
 					"description": "Peep Peep!"
-				}
+				},
+				"species": "poyo"
 			},
 			"rabbit": {
 				"display_name": "Coelho",
 				"description": "Om nom nom",
 				"rabbit_jerky": {
 					"display_name": "Carne seca (Coelho)"
-				}
+				},
+				"species": "rabbit"
 			},
 			"racoon": {
 				"display_name": "Guaxinim",
 				"description": "Small forest creature",
 				"racoon_jerky": {
 					"display_name": "Carne seca (Guaxinim)"
-				}
+				},
+				"species": "racoon"
 			},
 			"red_fox": {
 				"display_name": "Raposa",
 				"description": "Small forest creature",
 				"red_fox_jerky": {
 					"display_name": "Carne Seca (Raposa)"
-				}
+				},
+				"species": "fox"
 			},
 			"sheep": {
 				"display_name": "A sheep",
@@ -5509,22 +5548,26 @@
 					"display_name": "A Lamb",
 					"description": "Awww!"
 				},
-				"renewable_harvest_status_text": "shearing sheep"
+				"renewable_harvest_status_text": "shearing sheep",
+				"species": "sheep"
 			},
 			"squirrel": {
 				"display_name": "Esquilo",
 				"description": "Small forest creature",
 				"squirrel_jerky": {
 					"display_name": "Carne seca (Esquilo)"
-				}
+				},
+				"species": "squirrel"
 			},
 			"wolf": {
 				"display_name": "Lobo",
-				"description": "Grrr! Rwar!"
+				"description": "Grrr! Rwar!",
+				"species": "wolf"
 			},
 			"woodchuck": {
 				"display_name": "Marmota",
-				"description": "A voracious eater of almost everything, especially logs."
+				"description": "A voracious eater of almost everything, especially logs.",
+				"species": "woodchuck"
 			}
 		},
 		"crops": {
@@ -7085,22 +7128,31 @@
 				}
 			}
 		},
+		"peoples": {
+			"hearthling": {
+				"species": "Hearthling"
+			}
+		},
 		"pets": {
 			"collie": {
 				"display_name": "Collie",
-				"description": "So brave!"
+				"description": "So brave!",
+				"species": "dog"
 			},
 			"dragon_whelp": {
 				"display_name": "Dragon Whelp",
-				"description": "A baby dragon"
+				"description": "A baby dragon",
+				"species": "dragon"
 			},
 			"kitten": {
 				"display_name": "Kitten",
-				"description": "He's so cute!"
+				"description": "He's so cute!",
+				"species": "cat"
 			},
 			"mammoth": {
 				"display_name": "Baby Mammoth",
-				"description": "So furry!"
+				"description": "So furry!",
+				"species": "mammoth"
 			}
 		},
 		"plants": {
@@ -7895,7 +7947,7 @@
 			"archer_description": {
 				"display_name": "Arqueiro",
 				"description": "A ranged combat unit that shoots foes with arrows",
-				"requirements": "A level 3 footman and an Archer's Bow, crafted by the Carpenter",
+				"requirements": "Crafted by Carpenter",
 				"level_1_data": {
 					"perk_000_name": "Increased Draw Strength",
 					"perk_000_description": "The archer's damage is increased"
@@ -8555,7 +8607,7 @@
 			"cook_description": {
 				"display_name": "Cozinheiro",
 				"description": "The cook makes delicious, hearty meals from base vegetables and meats.",
-				"requirements": "A level 2 Farmer and a Stoneware Spoon, crafted by the Mason.",
+				"requirements": "Crafted by Mason",
 				"workshop": {
 					"name": "Stone Cauldron",
 					"long_description": "Humongous, heavy pot, suitable for cooking up a feast at a time!"
@@ -8715,7 +8767,7 @@
 			"engineer_description": {
 				"display_name": "Engenheiro",
 				"description": "The engineer creates advanced contraptions and defensive weaponry.",
-				"requirements": "A level 1 Blacksmith and a wrench, crafted by the Blacksmith.",
+				"requirements": "Crafted by Blacksmith",
 				"level_6_data": {
 					"title": "Engenheiro (Mestre)",
 					"perk_000_name": "General of Defense",
@@ -8824,7 +8876,7 @@
 			"farmer_description": {
 				"display_name": "Agricultor",
 				"description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
-				"requirements": "Farmer's Hoe, crafted by the Carpenter.",
+				"requirements": "Crafted by Carpenter",
 				"level_6_data": {
 					"perk_000_name": "Nature's Surprise <br><br>(não implementado)",
 					"perk_000_description": "Occasionally, the farmer's special touch yields... special results.",
@@ -8874,7 +8926,7 @@
 			"footman_description": {
 				"display_name": "Footman",
 				"description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
-				"requirements": "Wooden Practice Sword, crafted by the Carpenter.",
+				"requirements": "Crafted by Carpenter",
 				"level_4_data": {
 					"perk_000_name": "Damage Up 40%",
 					"perk_000_description": "The footman is now practiced at optimizing the effect of each blow."
@@ -8940,7 +8992,7 @@
 			"mason_description": {
 				"display_name": "Pedreiro",
 				"description": "The Mason crafts building materials and decorative items from stone.",
-				"requirements": "A Chisel, crafted by the Carpenter.",
+				"requirements": "Crafted by Carpenter",
 				"workshop": {
 					"name": "Mason's Workshop",
 					"description": "insert description here",
@@ -9140,7 +9192,7 @@
 			"potter_description": {
 				"display_name": "Oleiro",
 				"description": "Makes useful goods from clay. Upgradeable to the Mason",
-				"requirements": "A level 4 Mason and a Potter's Cutter, crafted by the Mason",
+				"requirements": "Crafted by Mason",
 				"workshop": {
 					"name": "Potter's Wheel",
 					"description": "insert description here",
@@ -9393,7 +9445,7 @@
 			"shepherd_description": {
 				"display_name": "Pastor",
 				"description": "Domesticates wild animals and harvests them for food and materials.",
-				"requirements": "A level 2 Trapper and a Shepherd's Crook, crafted by the Carpenter.",
+				"requirements": "Crafted by Carpenter",
 				"level_4_data": {
 					"perk_000_name": "Animal Magnetism",
 					"perk_000_description": "Wild animals are more likely to appear whenever the shepherd is looking for them."
@@ -9442,7 +9494,7 @@
 			"trapper_description": {
 				"display_name": "Caçador",
 				"description": "The Trapper's snares capture and (ahem) &quot;harvest&quot; small critters for a reliable source of food and supplies.",
-				"requirements": "Trapper's Knife, crafted by the Mason",
+				"requirements": "Crafted by Mason",
 				"level_1_data": {
 					"perk_000_name": "Speed Up",
 					"perk_000_description": "Long walks have increased the trapper's foot speed."
@@ -9528,7 +9580,7 @@
 			"weaver_description": {
 				"display_name": "Tecelão",
 				"description": "The Weaver makes thread, fabrics and hangings from fiber and dye.",
-				"requirements": "Weaver's Spindle, crafted by the Carpenter.",
+				"requirements": "Crafted by Carpenter",
 				"level_6_data": {
 					"title": "Tecelão (Mestre)",
 					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
@@ -9739,7 +9791,7 @@
 			"herbalist_description": {
 				"display_name": "Herbalist",
 				"description": "Heals units with crafted balms and bandages.",
-				"requirements": "Herbalist's Staff, crafted by the Carpenter",
+				"requirements": "Crafted by Carpenter",
 				"workshop": {
 					"name": "Herbalist Lab",
 					"description": "Allows the Herbalist to craft healing balms and bandages.",
@@ -9853,7 +9905,7 @@
 			"cleric_description": {
 				"display_name": "Clérigo",
 				"description": "A combat healer",
-				"requirements": "A level 2 Herbalist and a Cleric's Tome, crafted by the Herbalist",
+				"requirements": "Crafted by Herbalist",
 				"level_0_data": {
 					"perk_000_name": "Healing Aura",
 					"perk_000_description": "The cleric's presence heals everyone around them periodically"
@@ -9976,7 +10028,7 @@
 			"knight_description": {
 				"display_name": "Cavaleiro",
 				"description": "A defensive combatant focused on protecting allies from harm.",
-				"requirements": "Requires a level 3 footman and a Knight's Shield, crafted by the Blacksmith",
+				"requirements": "Crafted by Blacksmith",
 				"level_1_data": {
 					"perk_000_name": "Damage Reduction Rank 1",
 					"perk_000_description": "The knight gains an additional 10% defense from equipment"
