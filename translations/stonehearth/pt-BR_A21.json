@@ -265,8 +265,8 @@
 				}
 			},
 			"citizens": {
-				"title": "Citizens",
-				"work_orders_title": "Citizens",
+				"title": "Cidadãos",
+				"work_orders_title": "Cidadãos",
 				"worker_details": "Detalhes",
 				"workers_list_headers": {
 					"name": "Nome",
@@ -276,7 +276,7 @@
 					"job": "Trabalhar",
 					"current_activity": "Atividade atual...",
 					"status": "Status",
-					"morale": "Morale"
+					"morale": "Moral"
 				},
 				"show_character_sheet": "Mais informações",
 				"button_suspend": "suspender",
@@ -315,7 +315,7 @@
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
 				"date_format_long": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
-				"date_format_long_ordinal": "[str(ord_day)] Day of i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
+				"date_format_long_ordinal": "Dia [str(ord_day)] de i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
 				"date_time_long_format": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]"
 			},
@@ -382,7 +382,7 @@
 					"description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
 				},
 				"citizen_manager": {
-					"display_name": "Citizens",
+					"display_name": "Cidadãos",
 					"description": "Manage your hearthlings and promote them to new jobs."
 				},
 				"harvest_menu": {
@@ -1437,7 +1437,7 @@
 			"constants": {
 				"food_meat_raw_name": "Raw Meat",
 				"food_veggie_raw_name": "Raw Vegetable",
-				"stone_resource_name": "Stone",
+				"stone_resource_name": "Pedra",
 				"pelt_resource_name": "Fur Pelt",
 				"cloth_resource_name": "Bolt of Cloth",
 				"wood_resource_name": "Wood Log",
@@ -1448,7 +1448,7 @@
 				"fiber_resource_name": "Bundle of Fiber",
 				"ingot_resource_name": "Metal Ingot",
 				"herb_resource_name": "Herb",
-				"ore_resource_name": "Ore",
+				"ore_resource_name": "Minério",
 				"dirt_resource_name": "Pile of Dirt"
 			}
 		}
@@ -1489,7 +1489,7 @@
 				},
 				"fennec_fox": {
 					"display_name": "Fennec Fox",
-					"species": "fox"
+					"species": "Raposa"
 				}
 			}
 		},
@@ -1518,13 +1518,13 @@
 				"trader": {
 					"simple_caravan_encounter": {
 						"message": "Hello [str(i18n_data.town_name)]! I come bearing goods for trade. Would you like to give me <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> in exchange for <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
-						"title": "A caravan approaches!"
+						"title": "Uma caravana se aproxima!"
 					},
 					"starting_food_donation": {
 						"donation_dialog_info": {
 							"dialog_nodes": {
 								"simple_message": {
-									"choice_000": "Thank goodness!",
+									"choice_000": "Obrigado Senhor!",
 									"bulletin_message": {
 										"000": "Welcome to the area, folks! Goodness, you people look starved. Here's something to help:",
 										"001": "Just celebrated Embarcation Day, eh? Buck up! You look like you'd really benefit from something tasty. How about I give you:",
@@ -2888,7 +2888,7 @@
 													},
 													"bulletin_title": "Camp goblin",
 													"dialog_title": "Camp goblin",
-													"choice_000": "I see"
+													"choice_000": "Entendo"
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -2896,8 +2896,8 @@
 													},
 													"bulletin_title": "Some familiar looking goblins begin building huts near your town",
 													"dialog_title": "Camp goblin",
-													"choice_000": "Maybe",
-													"choice_001": "No?"
+													"choice_000": "Talvez",
+													"choice_001": "Não?"
 												},
 												"msg2": {
 													"bulletin_message": {
@@ -2906,7 +2906,7 @@
 													},
 													"bulletin_title": "Camp goblin",
 													"dialog_title": "Camp goblin",
-													"choice_000": "Why?"
+													"choice_000": "Por quê?"
 												}
 											}
 										}
@@ -3014,7 +3014,7 @@
 													},
 													"bulletin_title": "A troop of orcs walk towards you in perfect synchrony",
 													"dialog_title": "Orc troop",
-													"choice_000": "Thank you"
+													"choice_000": "Obrigado"
 												}
 											}
 										}
@@ -3365,7 +3365,7 @@
 					"description": "Keeps roofs up"
 				},
 				"stairs": {
-					"display_name": "Escada",
+					"display_name": "Escadas",
 					"description": "Go up and down"
 				}
 			},
@@ -4957,7 +4957,7 @@
 							"tooltip": "A fellow townmember has died. If only we had been more watchful!"
 						},
 						"pet_died": {
-							"display_name": "My pet died",
+							"display_name": "Meu animal de estimação morreu",
 							"tooltip": "My poor [str(pet_name)] passed away recently. I'll miss them quite a bit."
 						}
 					}
@@ -5207,7 +5207,7 @@
 			},
 			"wooden_door": {
 				"wooden_door_ghost": {
-					"display_name": "Wooden Door",
+					"display_name": "Porta de madeira",
 					"description": "Privacy at last!"
 				}
 			},
@@ -5223,7 +5223,7 @@
 			},
 			"wooden_double_door": {
 				"wooden_double_door_ghost": {
-					"display_name": "Wooden Double Door",
+					"display_name": "Porta dupla de madeira",
 					"description": "A larger door. It makes quite an impression."
 				}
 			},
@@ -5522,7 +5522,7 @@
 				"rabbit_jerky": {
 					"display_name": "Carne seca (Coelho)"
 				},
-				"species": "rabbit"
+				"species": "Coelho"
 			},
 			"racoon": {
 				"display_name": "Guaxinim",
@@ -5530,7 +5530,7 @@
 				"racoon_jerky": {
 					"display_name": "Carne seca (Guaxinim)"
 				},
-				"species": "racoon"
+				"species": "Guaxinim"
 			},
 			"red_fox": {
 				"display_name": "Raposa",
@@ -5538,18 +5538,18 @@
 				"red_fox_jerky": {
 					"display_name": "Carne Seca (Raposa)"
 				},
-				"species": "fox"
+				"species": "Raposa"
 			},
 			"sheep": {
-				"display_name": "A sheep",
+				"display_name": "Ovelha",
 				"description": "So fluffy!",
 				"unripe_description": "This sheep is still quite naked.",
 				"sheep_young": {
-					"display_name": "A Lamb",
+					"display_name": "Cordeiro",
 					"description": "Awww!"
 				},
 				"renewable_harvest_status_text": "shearing sheep",
-				"species": "sheep"
+				"species": "Ovelha"
 			},
 			"squirrel": {
 				"display_name": "Esquilo",
@@ -5557,17 +5557,17 @@
 				"squirrel_jerky": {
 					"display_name": "Carne seca (Esquilo)"
 				},
-				"species": "squirrel"
+				"species": "Esquilo"
 			},
 			"wolf": {
 				"display_name": "Lobo",
 				"description": "Grrr! Rwar!",
-				"species": "wolf"
+				"species": "Lobo"
 			},
 			"woodchuck": {
 				"display_name": "Marmota",
 				"description": "A voracious eater of almost everything, especially logs.",
-				"species": "woodchuck"
+				"species": "Marmota"
 			}
 		},
 		"crops": {
@@ -7304,7 +7304,7 @@
 		"resources": {
 			"coal": {
 				"lump_of_coal": {
-					"display_name": "Lump 'o Coal",
+					"display_name": "Pedaço de carvão",
 					"description": "A sizable chunk of solid coal."
 				}
 			},
@@ -7370,7 +7370,7 @@
 			},
 			"stone": {
 				"hunk_of_stone": {
-					"display_name": "Hunk 'o Stone",
+					"display_name": "Pedaço de pedra",
 					"description": "A heavy, ordinary rock"
 				}
 			},
@@ -7773,7 +7773,7 @@
 				"description": "Preferred weapon for reaping"
 			},
 			"bow": {
-				"display_name": "Bow",
+				"display_name": "Arco",
 				"description": "Used by an archer for shooting arrows",
 				"bow_talisman": {
 					"display_name": "Archer's Bow",
@@ -7785,11 +7785,11 @@
 				"description": "Slows targets that it hits"
 			},
 			"recurve_bow": {
-				"display_name": "Recurve Bow",
+				"display_name": "Arco recurvo",
 				"description": "Curved for faster and stronger shots"
 			},
 			"crude_metal_axe": {
-				"display_name": "Crude Metal Axe",
+				"display_name": "Machado de metal bruto",
 				"description": "Simple but effective."
 			},
 			"crude_wooden_club": {
@@ -7994,7 +7994,7 @@
 		},
 		"architect": {
 			"architect_description": {
-				"display_name": "Architect",
+				"display_name": "Arquiteto",
 				"description": "???",
 				"requirements": "???",
 				"level_0_data": {
