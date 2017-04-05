@@ -376,7 +376,7 @@
 				"health_status_normal": "Normal",
 				"health": "HP",
 				"gender": {
-					"male": "Homen",
+					"male": "Homem",
 					"female": "Mulher"
 				}
 			},
