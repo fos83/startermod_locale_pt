@@ -271,10 +271,10 @@
 				"workers_list_headers": {
 					"name": "Nome",
 					"haul": "Haul",
-					"build": "Construir",
-					"mine": "Minerar",
-					"job": "Trabalhar",
-					"current_activity": "Atividade atual...",
+					"build": "Build",
+					"mine": "Mine",
+					"job": "Job",
+					"current_activity": "Atividade",
 					"status": "Status",
 					"morale": "Moral"
 				},
@@ -1441,12 +1441,12 @@
 					"description": "Pause or resume a work type."
 				},
 				"current_gender": {
-					"display_name": "Gender",
+					"display_name": "Gênero",
 					"description": "This hearthling identifies as [str(gender)]."
 				},
 				"change_gender": {
-					"display_name": "Gender",
-					"description": "Click to change this hearthling's identified gender to [str(gender)]."
+					"display_name": "Gênero",
+					"description": "Clique para mudar o género identificado deste hearthling para [str(gender)]."
 				},
 				"customization_lock": {
 					"description": "This hearthling's [str(customization)] will be saved during trait and stat rerolls."
@@ -4654,7 +4654,7 @@
 				"animal_companion_trait": {
 					"display_name": "Animal Companion",
 					"description": "Ever since [name(i18n_data.savior)] saved their [str(i18n_data.species)] from mortal danger, they've been inseparable.",
-					"default_species": "companion"
+					"default_species": "Companheiro"
 				}
 			},
 			"herbivore": {
