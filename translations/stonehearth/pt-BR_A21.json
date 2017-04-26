@@ -270,10 +270,10 @@
 				"worker_details": "Detalhes",
 				"workers_list_headers": {
 					"name": "Nome",
-					"haul": "Haul",
-					"build": "Build",
-					"mine": "Mine",
-					"job": "Job",
+					"haul": "Carregar",
+					"build": "Construir",
+					"mine": "Minerar",
+					"job": "Trabalhar",
 					"current_activity": "Atividade",
 					"status": "Status",
 					"morale": "Moral"

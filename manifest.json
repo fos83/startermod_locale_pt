@@ -2,8 +2,12 @@
 	"info": {
 		"name": "MOD Traslater português",
 		"version": 3
-	},
+	},	
 	"default_locale": "en",
+	
+	"ui":{
+		"less":["file(ui/game/citizens/citizens.less)"]
+	},
 	"mixintos": {
 		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
 	},
@@ -12,13 +16,13 @@
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR_A21.json)",
 		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR_A21.json)",
 		"debugtools/locales/pt-BR.json": "file(translations/debugtools/pt-BR_A21.json)",
-		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR_A20.json)",
-		"frostfeast/locales/pt-BR.json": "file(translations/frostfeast/pt-BR_A20.json)",
+		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR_A21.json)",
+		"frostfeast/locales/pt-BR.json": "file(translations/frostfeast/pt-BR_A21.json)",
 		//Portugues Portugal
 		"stonehearth/locales/pt-PT.json": "file(translations/stonehearth/pt-PT_A21.json)",
 		"rayyas_children/locales/pt-PT.json": "file(translations/rayyas_children/pt-PT_A21.json)",
 		"debugtools/locales/pt-PT.json": "file(translations/debugtools/pt-PT_A21.json)",
-		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT_A20.json)",
-		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT_A20.json)"
+		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT_A21.json)",
+		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT_A21.json)"
 	}
 }

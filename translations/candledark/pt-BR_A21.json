@@ -1,0 +1,427 @@
+{
+	"ui": {
+		"game": {
+			"candledark": {
+				"uh_what": "Uh..What?",
+				"such_as": "Please explain!",
+				"dejavu": "Déjà vu?",
+				"berry_wine": "Have you been on the Berry Wine again?",
+				"urm_thanks": "Urm..Thanks!",
+				"last_year": "We did all this last year!",
+				"pause": "...",
+				"urm_thanks2": "Urm..What!?",
+				"dialog_nodes": {
+					"bulletin_message": {
+						"000": "Here's a few supplies to get you started! Your Carpenter can turn them in to wards against the undead.",
+						"001": "A haggard old man appears at the edge of your town. The only thing more crooked than his back are his teeth...",
+						"002": "'Why hello there! The eve of Candledark fast approaches yet ye haven't even begun to prepare!'",
+						"003": "'You know? Candledark! Strange things a-happenin' at this time of year.'",
+						"004": "'It's.. the dead.. they start stirring. Ye best heed Old Elbezar's warnings and start your preparations!'",
+						"005": "'Bah! Mock all you wish. You best start building your wards, else there'll be trouble!'",
+						"006": "'I'll be back in a few days with my wagon to sell you some goods, but in the meanwhile I'll teach your crafters all I know.'",
+						"007": "'Well I'll be. You made it! You survived Candledark II. I've been saving a few trinkets for a special occasion and this counts as good as any. Enjoy your success!....Till next year....",
+						"008": "Here's a few supplies to get you started! You'll need a Mason to turn them in to wards against the undead.",
+						"009": "'What? No. It's EL-BEEE-ZAAR. I knew a Déjà-vu once. Funny little man with a glass eye....or was he called Dave?..'",
+						"010": "'I might be old, but I'm not senile! I'd remember being here; or my name isn't Elzebard Grimesock!'",
+						"011": "'Okay maybe you're right... hmm, so we did zombies last year eh? Hah! I know what I'll summon! Lets see how well you do against these things that go bump in the night... You'll be needing these recipes if you want to survive the night.'",
+						"012": "'Well I'll be. You made it! You survived Candledark III. I've been saving a few trinkets for a special occasion and this counts as good as any. Enjoy your success!....Till next year...."
+					},
+					"bulletin_title": "Before I Go!",
+					"bulletin_title2": "A Haggard Old Man Approaches",
+					"bulletin_title3": "It's finally over!",
+					"dialog_title": "A Haggard Old Man",
+					"crafting_unlock1": "Advanced Smithing techniques learned!",
+					"crafting_unlock2": "Advanced Cooking techniques learned!",
+					"crafting_unlock3": "Advanced Weaving techniques learned!",
+					"crafting_unlock4": "Advanced Masonary techniques learned!",
+					"crafting_unlock5": "Advanced Carpentry techniques learned!",
+					"crafting_unlock6": "Advanced Herbalism techniques learned!"
+				}
+			},
+			"entities": {
+				"bite_notification": "[name(i18n_data.entity)] has been bitten.",
+				"turn_notification": "[name(i18n_data.entity)] has succumb to their bite."
+			}
+		}
+	},
+	"data": {
+		"names": {
+			"plagued": {
+				"male_name": "A Mindless Wight",
+				"female_name": "A Mindless Wight"
+			}
+		},
+		"buffs": {
+			"plagued": {
+				"display_name": "Plagued",
+				"description": "Not very well at all!"
+			}
+		},
+		"commands": {
+			"smash_pinata": {
+				"display_name": "Smash the Piñata",
+				"description": "It's filled with candy!"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"candledark_shop": {
+						"shop_info": {
+							"name": "Assorted Candledark Trinkets",
+							"title": "Elbezar Grimrock returns with his cart!"
+						}
+					}
+				},
+				"darkness": {
+					"mission": {
+						"sighted_bulletin": {
+							"title": "The Undead errupt from the ground!"
+						}
+					}
+				},
+				"darknessIII": {
+					"mission": {
+						"sighted_bulletin": {
+							"title": "Evil bursts from the shadows!"
+						}
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"critters": {
+			"black_cat": {
+				"display_name": "A Black Cat",
+				"description": "There's something eerie about it."
+			}
+		},
+		"construction": {
+			"cobblestone_fence_rail": {
+				"cobblestone_fence_rail": {
+					"display_name": "Cobblestone Wall",
+					"description": "Now with added protection."
+				},
+				"cobblestone_fence_rail_ghost": {
+					"display_name": "Cobblestone Wall",
+					"description": "Now with added protection."
+				}
+			},
+			"cobblestone_fence_brazier": {
+				"cobblestone_fence_brazier": {
+					"display_name": "Cobblestone Wall",
+					"description": "Now with added protection."
+				},
+				"cobblestone_fence_brazier_ghost": {
+					"display_name": "Cobblestone Wall",
+					"description": "Now with added protection."
+				}
+			},
+			"spooky_fence_gate": {
+				"spooky_fence_gate": {
+					"display_name": "Candledark Gate",
+					"description": "Heavily Reinforced Spooky Gate!"
+				},
+				"spooky_fence_gate_ghost": {
+					"display_name": "Candledark Gate",
+					"description": "Heavily Reinforced Spooky Gate!"
+				}
+			}
+		},
+		"consumables": {
+			"ancient_healing_tonic": {
+				"display_name": "Ancient Healing Tonic",
+				"description": "Great against Vampire, Zombie and Insect bites."
+			}
+		},
+		"costume": {
+			"clown_mask": {
+				"display_name": "Clown Mask",
+				"description": "A traditional Candledark costume"
+			},
+			"monster_mask": {
+				"display_name": "Monster Mask",
+				"description": "A fancy Candledark costume!"
+			},
+			"pumpkin_hat": {
+				"display_name": "Pumpkin Hat",
+				"description": "A traditional Candledark costume",
+				"flavor": "When have absolutely nothing else to wear!"
+			},
+			"scream_mask": {
+				"display_name": "Spooky Mask",
+				"description": "Very Spooky!",
+				"flavor": "Hello Sidney!"
+			},
+			"witches_hat": {
+				"display_name": "Witches Hat",
+				"description": "A traditional Candledark costume"
+			}
+		},
+		"decoration": {
+			"ankh_ward": {
+				"ankh_ward": {
+					"display_name": "Ankh Ward",
+					"description": "For warding against Vampires"
+				}
+			},
+			"scarecrow": {
+				"scarecrow_ghost": {
+					"display_name": "A Simple Scarecrow",
+					"description": "Scary!"
+				},
+				"scarecrow_iconic": {
+					"display_name": "A Simple Scarecrow",
+					"description": "Some assembly required."
+				}
+			},
+			"commemorative_tower_brazier_15": {
+				"commemorative_tower_brazier_ghost": {
+					"display_name": "Commemorative Brazier",
+					"description": "You Survived Candledark II"
+				},
+				"commemorative_tower_brazier_15_iconic": {
+					"display_name": "Commemorative Brazier",
+					"description": "You Survived Candledark II"
+				}
+			},
+			"commemorative_tower_brazier_16": {
+				"commemorative_tower_brazier_ghost": {
+					"display_name": "Commemorative Brazier",
+					"description": "You Survived Candledark III"
+				},
+				"commemorative_tower_brazier_16_iconic": {
+					"display_name": "Commemorative Brazier",
+					"description": "You Survived Candledark III"
+				}
+			},
+			"pinata": {
+				"pinata_ghost": {
+					"display_name": "A Candledark Piñata",
+					"description": "Filled with treats!"
+				},
+				"pinata_iconic": {
+					"display_name": "A Candledark Piñata",
+					"description": "Some assembly required."
+				}
+			},
+			"pumpkin_ward": {
+				"pumpkin_ward": {
+					"display_name": "Carved Pumpkin Ward",
+					"description": "A ward a day keeps the zombies away"
+				},
+				"pumpkin_ward_lantern": {
+					"display_name": "Pumpkin Lantern",
+					"description": "Keeps the undead away"
+				},
+				"pumpkin_ward_hanging_lantern": {
+					"display_name": "Hanging Pumpkin Lantern",
+					"description": "Keeps the undead away"
+				}
+			},
+			"decorative_burial_mound": {
+				"decorative_burial_mound": {
+					"description": "'Here lies...' You cant quite make out the name",
+					"display_name": "A Decorative Burial Mound"
+				}
+			}
+		},
+		"food": {
+			"candy_basket": {
+				"candy_basket": {
+					"display_name": "Basket of Candy",
+					"description": "C'mon, it's Candy!"
+				},
+				"candy_serving": {
+					"display_name": "Candy",
+					"description": "C'mon, it's Candy!"
+				}
+			},
+			"pumpkin_soup": {
+				"pumpkin_soup": {
+					"display_name": "A Bowl of Pumpkin Soup",
+					"description": "A mushed up bowl of Pumpkin!"
+				},
+				"pumpkin_soup_serving": {
+					"display_name": "A Portion of Pumpkin Soup",
+					"description": "Delicious."
+				}
+			},
+			"pumpkin_pie": {
+				"pumpkin_pie": {
+					"display_name": "A Pumpkin Pie",
+					"description": "Best left on a window sill!"
+				},
+				"pumpkin_pie_serving": {
+					"display_name": "A Slice of Pumpkin Pie",
+					"description": "Sweet and delicious."
+				}
+			}
+		},
+		"monsters": {
+			"vampires": {
+				"hell_hound": {
+					"display_name": "Hell Hound",
+					"description": "A vicious servant of the undead"
+				},
+				"vampires": {
+					"display_name": "Vampire",
+					"description": "A vicious servant of the undead"
+				},
+				"vampires_bride": {
+					"display_name": "Vampire Bride",
+					"description": "A vicious servant of the undead"
+				}
+			}
+		},
+		"tools": {
+			"pinata_stick": {
+				"display_name": "A Plushie Toy Ghost",
+				"description": "Awww.. cute"
+			}
+		},
+		"toys": {
+			"plushie_toy_ghost": {
+				"plushie_toy_ghost": {
+					"display_name": "A Plushie Toy Ghost",
+					"description": "Awww.. cute"
+				}
+			},
+			"plushie_toy_hanging_ghost": {
+				"plushie_toy_hanging_ghost": {
+					"display_name": "A Plushie Toy Hanging Ghost",
+					"description": "Awww.. cute"
+				}
+			}
+		},
+		"pets": {
+			"bat": {
+				"display_name": "A Bat",
+				"description": "...!"
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"costumes_name": "Costumes",
+				"clown_mask_recipe": {
+					"recipe_name": "Clown Mask",
+					"description": "A traditional Candledark costume",
+					"flavor": "Nothing creepy about a clown! Right!"
+				},
+				"monster_mask_recipe": {
+					"recipe_name": "Monster Mask",
+					"description": "A fancy Candledark costume!",
+					"flavor": "Braaaaaaaaainz!"
+				},
+				"pumpkin_hat_recipe": {
+					"recipe_name": "Pumpkin Hat",
+					"description": "A traditional Candledark costume",
+					"flavor": "When you have absolutely nothing else to wear!"
+				},
+				"scream_mask_recipe": {
+					"recipe_name": "Spooky Mask",
+					"description": "Very Spooky!",
+					"flavor": "Hello Sidney!"
+				},
+				"witches_hat_recipe": {
+					"recipe_name": "Witches Hat",
+					"description": "A traditional Candledark costume",
+					"flavor": "Hello my pretty!"
+				},
+				"plushie_toy_ghost_recipe": {
+					"description": "A traditional Candledark toy.",
+					"recipe_name": "A Plushie Toy Ghost"
+				},
+				"plushie_toy_hanging_ghost_recipe": {
+					"description": "A traditional Candledark toy.",
+					"recipe_name": "A Plushie Toy Hanging Ghost"
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"ankh_ward_recipe": {
+					"description": "For warding against Vampires",
+					"recipe_name": "Ankh Ward"
+				},
+				"decorative_burial_mound_recipe": {
+					"description": "A traditional Candledark decoration.",
+					"recipe_name": "Decorative Burial Mound"
+				},
+				"cobblestone_fence_brazier_recipe": {
+					"description": "Helps light up those dark nights",
+					"recipe_name": "Cobblestone Fence with Brazier"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"ancient_healing_tonic_recipe": {
+					"recipe_name": "Ancient Healing Tonic",
+					"description": "A Soothing Balm for Vampire, Zombie and Insect bites.",
+					"flavor": "Apply liberally to bite area. If undead state persists, refer to GP."
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"candledark_name": "Defences",
+				"cobblestone_fence_rail_recipe": {
+					"description": "Now with added protection.",
+					"recipe_name": "A Reinforced Cobblestone Wall"
+				},
+				"cobblestone_tripple_fence_rail_recipe": {
+					"description": "Now with added protection.",
+					"recipe_name": "A Reinforced Tripple Cobblestone Wall"
+				},
+				"spooky_fence_gate_recipe": {
+					"description": "Heavily Reinforced Spooky Gate!",
+					"recipe_name": "A Candledark Gate"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"candledark_name": "Decorations",
+				"scarecrow_recipe": {
+					"description": "A traditional Candledark decoration.",
+					"recipe_name": "A Simple Scarecrow"
+				},
+				"pinata_recipe": {
+					"description": "Filled with treats!",
+					"recipe_name": "A Candledark Piñata"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"holiday_recipes": {
+					"candledark_name": "Holiday Recipes"
+				},
+				"pumpkin_ward_recipe": {
+					"description": "A traditional Candledark decoration.",
+					"recipe_name": "Candledark Carved Pumpkin Ward"
+				},
+				"pumpkin_soup_recipe": {
+					"description": "A Pumpkin based dish.",
+					"recipe_name": "Pumpkin Soup"
+				},
+				"pumpkin_pie_recipe": {
+					"description": "Pumpkin and Pie. What's not to like?",
+					"recipe_name": "Pumpkin Pie"
+				},
+				"pumpkin_ward_lantern_recipe": {
+					"description": "A traditional Candledark decoration. Now with extra pizzazz",
+					"recipe_name": "Candledark Pumpkin Lantern"
+				},
+				"pumpkin_ward_hanging_lantern_recipe": {
+					"description": "A traditional Candledark decoration. Placeable on walls!",
+					"recipe_name": "Candledark Hanging Pumpkin Lantern"
+				}
+			}
+		}
+	}
+}

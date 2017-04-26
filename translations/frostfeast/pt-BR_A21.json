@@ -1,0 +1,1136 @@
+{
+	"ui": {
+		"game": {
+			"common": {
+				"ilgn": "I like great news!",
+				"fttoya": "Frostfeast? Is it that time of year already?",
+				"iiabn": "It is a bit...nippy!",
+				"yes_please": "Yes please!",
+				"no_thanks": "No thanks!",
+				"idlg": "I do like gifts!",
+				"sharing": "Sharing?",
+				"cold": "We haven't even begun to prepare!",
+				"aeisk": "Anything else I should know about?",
+				"yup": "Yup!",
+				"great": "Great!",
+				"huh": "Huh?",
+				"theend": "The End.",
+				"letsdothis": "Let's do this!",
+				"sowhatsnext": "So what's next?",
+				"toodles": "Toodles!",
+				"wai": "We are indeed!",
+				"ohnoes": "How terrible!",
+				"greetings": "Hello again!",
+				"i_said_bah_humbug": "I SAID Bah Humbug!!",
+				"changed_mind": "Okay.. Tell me more",
+				"hello": "Greetings!",
+				"and": "And?",
+				"oh": "Oh?",
+				"ill": "I've seen greener trees'",
+				"pastey": "There was this one chap...but he seemed so nice!",
+				"interesting": "Oh! How interesting!",
+				"countonus": "You can count on us!",
+				"keep_in_mind": "I'll keep that in mind!"
+			},
+			"special": {
+				"zebra": "Bah! Humbug!"
+			},
+			"zones_mode": {
+				"pasture": {
+					"pig_pen_name": "Pig Pen",
+					"pig_pen_description": "Pigs are a great source of low maintenance meat"
+				},
+				"stockpile": {
+					"filters": {
+						"tooltip_offerings": "Offerings"
+					}
+				}
+			},
+			"entities": {
+				"item_categories": {
+					"offerings": "Offerings",
+					"gifts": "Gifts"
+				}
+			}
+		},
+		"data": {
+			"constants": {
+				"food_resource_name": "Food"
+			},
+			"gm": {
+				"campaigns": {
+					"frostfeast": {
+						"dialog_nodes": {
+							"bulletin_message": {
+								"000": "Greetings and Salutations most venerable one. I am Brother Landon, and I bring great news!",
+								"001": "Frostfeast is almost upon us yet again!",
+								"002": "Yes! The nights are now much longer, and the temperatures colder! You should invest in some heat sources and additional light sources immediately!",
+								"003": "Indeed! As you know; Frostfeast is a festival of giving. If you're a little rusty I can give you a reminder.",
+								"004": "Well, every year at Frostfeast, villages from around the realm send donations to the Church of Plenty. In exchange for these offerings, the Church will grant you a gift.",
+								"004a": "Frostfeast, isn't just about presents though! It's about the importance of sharing with others less fortunate.",
+								"004b": "It's now beginning to get very cold and very dark. A poor summer harvest could mean the collapse of a small village like yours. Not to mention those villages ill prepared for the cold.",
+								"004c": "I noticed! The colder your villagers get, the less capable they become. It's hard work trudging though all this snow when you're cold. It's very important that you start building heat sources to stop your villagers from freezing!",
+								"004d": "Lights! Lights are important. You wont be able to see very far, and it's terribly gloomy without them. I think that's all - Are you ready?",
+								"005": "Excellent! Expect Sister Jenna shortly. She has been assigned this area of the realm and will carry with her a list of the most requested donations.",
+								"006": "Should you accept this task and succeed, you will in turn be rewarded with a gift from the Church. Goodbye for now.",
+								"007": "It's going to start to get very cold. Your Hearthlings will suffer if they aren't kept warm. It wouldn't be very charitable if I didnt offer a hand. Please accept this small token.",
+								"008": "Greetings and Salutations most venerable one. I am Sister Jenna and I am told you are expecting me.",
+								"009": "There is great concern amongst the High Order this year. This Frostfeast is the coldest on record and the scholars fear that unless we do something about it the cold may never end!",
+								"009b": "Indeed! But I am afraid I'm getting ahead of myself... We need villages to be part of an ancient ceremony that may help break the cold. I know you're only starting out, but is this something you'd be interested in?",
+								"009c": "Excellent! I hope you understand that we can't just rely on your word for something this important. I will set you a trivial task. Once completed we can talk more about your special mission. As I have many villages to visit my courier will carry our requests.",
+								"009d": "I understand. It is a great task to ask of anyone, yet alone a fledgling village like this one. Are you sure you're not interested? (WARNING: Saying you are sure will discontinue the campaign for a more sandbox experience!)",
+								"010": "Greetings and Salutations most venerable one.",
+								"011": "I'm afraid the situation is dire. This winter is much colder than expected and we require more from you than before. Of course... the greater the challenge, the greater the reward.",
+								"012": "Oh.. I'm very sorry to hear that. Are you sure you're not interested in helping the poor unfortunate orphans of this realm? (WARNING: Repeating Bah Humbug will discontinue the campaign for a more sandbox experience!)",
+								"013": "Well.. I never!.. We shall not bother you again. Blessings upon you... most venerable one.",
+								"014": "Greetings and Salutations most venerable one. I am Achernar.",
+								"015": "I've set up my monument camp just over the way there and couldn't help notice your recent stream of visitors..",
+								"016": "Our Order is an ancient branch of the Church and while we don't often see eye to eye on long term plans... we do both enjoy this time of year!",
+								"017": "I'll pop in on you every now and check in on you. Perhaps we might even be able to help each other out? Quid pro quo, so to speak.",
+								"018": "Excellent! Whether succeed or fail, trying is what truly matters! The trivial task is complete and you've proven that we can rely on you.",
+								"019": "Now to the mission at hand. It's imperative that we invoke the ancient ritual of Balh if we hope to break this frost. It involes the placing of magically runed wards and monuments throughout the realm. The High Order insist that this is the only way this frost will break...",
+								"020": "Over the next few trials I will deliver some very important artifacts. It's <i>very important</i> that you place them <i>outside straight away</i>, and be mindful of where you place them. A strong magical force protects the tether, and you will not be able to move them once they are in position.",
+								"021": "Oh WOW! I never in my wildest dreams expected that to happen! It's magnificent!",
+								"022": "Well, this is all theory! We've never had to invoke this ceremony - or at least no one is alive today to remember the last time.",
+								"023": "Hmmm, not sure what's next. This is new territory! Hmm... well.... there's only one thing to do with a tree.. wait till it grows and then decorate it! We'll search through the archives and see if there are any appropriate trinkets lying around.",
+								"024": "Amazing! It looks beautiful! What a magnificent homage to the Sun. This will surely break the frost.",
+								"025": "In recognition of your efforts we shall record this day in our chronicles as Frostbreak. You and your village will be praised by generations to come!",
+								"026": "FIN. Thank you for playing Frostfeast 2016",
+								"027": "Curses! You and your insufferable Frostfeast cheer! Gah! You have only delayed the inevitable. Winter is coming, and next time I will not allow you to stop it. He shall be reborn!",
+								"028": "Greetings! I've come to see how your tree is coming... erm...along? Hmm.. Pretty sure it's not supposed to look like that. And what's with the cold? It's so much colder here.. Jenna assured us that this would break the frost!",
+								"029": "<Peers closely at the tree> It's as if someone, or something is actively trying to sabotage the ritual. <Peers closely at his notes> Closer inspection of the archives suggests that during the ceremony, the tree feeds from the actual act of charity...",
+								"030": "You're not selling the items we ask for, are you? Or worse, giving them to someone entirely unworthy - and possibly slightly creepy? No... no one would be that cruel during Frostfeast, nor would they knowingly help that mad man. Besides, he's supposedly dead!",
+								"031": "Still, if you have been selling them it's never too late for redemption! If you start to perform more charitable acts I'm at least 50% sure the tree will recover!"
+							},
+							"bulletin_title": "The Church of Plenty",
+							"bulletin_title1": "Before I go!",
+							"bulletin_title3": "The Obsidian Order",
+							"dialog_title": "A Cleric",
+							"dialog_title1": "Brother Landon",
+							"dialog_title2": "Sister Jenna",
+							"dialog_title3": "Achernar",
+							"dialog_title4": "Church of Plenty Courier",
+							"trade_details_1": "Hello [str(i18n_data.town_name)]!<br>The Church of Plenty makes the following request.",
+							"trade_details_2": "If you provide us with [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s, I'll be back tomorrow and will present the following tokens of our appreciation: [str(i18n_data.reward_number)]&nbsp;[str(i18n_data.reward_item)]s.",
+							"trade_details_3": "If you can get us another [str(i18n_data.optional_want_number)]&nbsp;[str(i18n_data.optional_want_item)]s, you will receive an additional [str(i18n_data.optional_reward_number)]&nbsp;[str(i18n_data.optional_reward_item)].",
+							"trade_details_1a": "Excellent news [str(i18n_data.town_name)]!<br> While searching the archives we found something quite interesting!",
+							"trade_details_2a": "If you provide us with [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s, we'll be back in tomorrow and present you with an artifact from our archives.",
+							"waiting_title": "A Courier will return in [str(i18n_data.hour_counter)] hours!",
+							"waiting_text_1": "A Courier will return in [str(i18n_data.hour_counter)] hours.",
+							"waiting_text_2": "They will give you [str(i18n_data.reward_number)]&nbsp;[str(i18n_data.reward_item)]s if you have [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s ready for them!",
+							"waiting_text_3": "Should you get an additional [str(i18n_data.optional_want_number)]&nbsp;[str(i18n_data.optional_want_item)], they will also give you [str(i18n_data.optional_reward_number)]&nbsp;[str(i18n_data.optional_reward_item)]s!",
+							"accepted_title": "The Church of Plenty",
+							"accepted_text": "Fantastic! I'll return in [str(i18n_data.hour_counter)] hours to collect the gifts. See you later!",
+							"accepted_text2": "Fantastic! I'll send a courier in [str(i18n_data.hour_counter)] hours to collect the gifts. See you later!",
+							"declined_title": "The Church of Plenty",
+							"declined_text": "Oh no! You don't have the offerings? What a shame. I'll report back to the Church immediately.",
+							"rejected_title": "The Church of Plenty",
+							"rejected_text": "Perhaps asking for [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s was too much? I understand. It can be difficult for a young settlement to find something extra to give. I will return another time.",
+							"return_title": "The Church of Plenty returns!",
+							"return_greetings_positive": "Excellent! It looks like you've made me the [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s we require. Are you still willing to trade them to me? I'll give you [str(i18n_data.reward_number)]&nbsp;[str(i18n_data.reward_item)]s in exchange. Still sounds good?",
+							"return_greetings_excellent": "Amazing! It looks like you've made me the [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s we require. You've even got the additional [str(i18n_data.optional_want_number)]&nbsp;[str(i18n_data.optional_want_item)]s! Are you still willing to trade them to me? I'll give you [str(i18n_data.reward_number)]&nbsp;[str(i18n_data.reward_item)]s and an additional [str(i18n_data.optional_reward_number)]&nbsp;[str(i18n_data.optional_reward_item)]s in exchange. Still sounds good?",
+							"return_greetings_negative": "I'm back, but it doesn't look like you've got the [str(i18n_data.want_number)] [str(i18n_data.want_item)]s we asked for. Oh well, the poor orphaned and homeless children will understand... I'm sure...",
+							"requests_title": "Requests",
+							"rewards_title": "Rewards",
+							"required_text": "Required:",
+							"optional_text": "Stretchgoal:",
+							"trade_for": "for",
+							"waiting_dialog_title": "Achernar will return in [str(i18n_data.hour_counter)] hours!",
+							"waiting_message_1": "You agreed to give the offerings to Achernar instead, who seems in dire need for them.",
+							"waiting_message_2": "If you give him this, he'll give you that.",
+							"waiting_message_3": "If you also manage to give him that, he'll give you the other thing.",
+							"message_positive": "Excellent. I'll be taking that. Assuming the deal still stands?...",
+							"message_excellent": "How truly, unbelievably... My brain trembles. If you are still up for, it, here's the deal.",
+							"achernar_return_title": "Achernar returns!",
+							"achernar_failed_message": "You did not manage to craft the items? You truly are slothful... I shall remember your failure..",
+							"achernar_declined_message": "How unfortunate... but I understand that you might have better use of these items. I eagerly await our next meeting...",
+							"achernar_title": "Achernar appears",
+							"achernar_message_1": ["How wonderful of you to listen to my request!"],
+							"achernar_message_2": "If you deliver us the [str(i18n_data.want_number)]&nbsp;[str(i18n_data.want_item)]s instead, we shall reward you with [str(i18n_data.reward_number)]&nbsp;[str(i18n_data.reward_item)]s.",
+							"achernar_message_3": "If you can get us the other [str(i18n_data.optional_want_number)]&nbsp;[str(i18n_data.optional_want_item)]s too, you will receive an additional [str(i18n_data.optional_reward_number)]&nbsp;[str(i18n_data.optional_reward_item)].",
+							"achernar_accept_message": "Ah, how diligent of you to support our cause. I will send someone to pick up the gifts at the date you previously agreed on.",
+							"achernar_decline_message": "Ah, what a shame. Until next time?",
+							"achernar_accept_ok": "Okay!",
+							"achernar_decline_ok": "Sorry!",
+							"achernar_excuse_1": "Greetings, firm believer in festivity. What an amazing coincidence! Those items are also just the items WE need! Small world huh? I mean, sure.. the children will get a gift eventually! But for now, our rewards are far greater!",
+							"achernar_excuse_2": "Greetings. You'll never guess!? Yup, We have a sudden lack of those specific items. We can make it worth your while. ",
+							"achernar_excuse_3": "Me again! With all the drones working for the Church, they wouldn't even notice if you gave those items to us instead. Your efforts would be far more greatly rewarded! You're only delaying the gift I intend to give the whole of Hearth if you dont!",
+							"achernar_continue": "I'm listening..."
+						}
+					}
+				}
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"winter_desert": {
+				"display_name": "Winter Desert",
+				"description": "A Desert in Winter. Dry and sandy, with chunky hills, sparse vegetation and a generous helping of frost.....feast."
+			},
+			"winter_temperate": {
+				"display_name": "Winter Temperate",
+				"description": "Snow-topped Forests, and mountains, interweaved with rivers. A Majestic Winter Wonderland!"
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#E43334": "Cinnabar",
+					"#FFE701": "Turbo",
+					"#7CAE21": "Citron",
+					"#1483C6": "Denim",
+					"#9A388F": "Plum",
+					"#F58816": "Ecstasy",
+					"#29443C": "Plantation",
+					"#2B5648": "Plantation Green",
+					"#643B2B": "Quincy",
+					"#49362F": "Rock",
+					"#D6E5EB": "Botticelli",
+					"#D6E5EC": "Botticelli",
+					"#C2D5DC": "Jungle Mist",
+					"#C2D5DD": "Jungle Mist",
+					"#CADBE3": "Light Botticelli",
+					"#CADBE2": "Light Botticelli"
+				},
+				"patterns": {
+					"snow_covered_roof": "Topped with a fresh layer of snow."
+				}
+			}
+		},
+		"buffs": {
+			"shivering": {
+				"sniffles": {
+					"display_name": "Sniffles",
+					"description": "Has a terrible cold"
+				},
+				"shivering_buff_1": {
+					"display_name": "Shivering",
+					"description": "Brrrr!"
+				},
+				"shivering_buff_2": {
+					"display_name": "Cold",
+					"description": "It's getting uncomfortably cold"
+				},
+				"shivering_buff_3": {
+					"display_name": "Freezing",
+					"description": "Almost frozen. Get some warmth soon!"
+				}
+			},
+			"vapour_buff": {
+				"vapour_buff": {
+					"display_name": "Vapour Rub",
+					"description": "Tingly!"
+				}
+			},
+			"comfy_clothes": {
+				"comfy_clothes_buff": {
+					"display_name": "Comfy Clothes",
+					"description": "Wearing comfy clothes that protect from the cold"
+				}
+			},
+			"warm_food": {
+				"warm_food_buff": {
+					"display_name": "Warm Food",
+					"description": "Recently got a warm meal which protects a bit from the cold"
+				}
+			}
+		},
+		"commands": {
+			"open_present": {
+				"display_name": "Unwrap offering",
+				"description": "Open the present and receive your well-earned gift!"
+			}
+		}
+	},
+	"jobs": {
+		"generic": {
+			"offering": "Offerings",
+			"decorations": "Decorations",
+			"building_parts": "Building Parts"
+		},
+		"blacksmith": {
+			"winter_blacksmith_outfit": {
+				"display_name": "Winter Blacksmith Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_blacksmith_outfit_iconic": {
+					"display_name": "Winter Blacksmith Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_iron_double_door_recipe": {
+					"recipe_name": "Frostfeast Iron Double Door",
+					"description": "A Festive Iron Double Door",
+					"flavor": ""
+				},
+				"frostfeast_iron_door_recipe": {
+					"recipe_name": "Frostfeast Iron Door",
+					"description": "A Festive Iron Door",
+					"flavor": ""
+				},
+				"frostfeast_candle_recipe": {
+					"recipe_name": "Frostfeast Candle",
+					"description": "An ornate festive candle",
+					"flavor": ""
+				},
+				"festive_fighting_shield_recipe": {
+					"recipe_name": "Festive Fighting Shield",
+					"description": "Because war never changes..",
+					"flavor": "The forge heat still radiates"
+				}
+			}
+		},
+		"carpenter": {
+			"winter_carpenter_outfit": {
+				"display_name": "Winter Carpenter Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_carpenter_outfit_iconic": {
+					"display_name": "Winter Carpenter Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_present_pile_recipe": {
+					"recipe_name": "Frostfeast Present Pile",
+					"description": "A decorative pile of presents",
+					"flavor": ""
+				},
+				"frostfeast_present_pile_tree_recipe": {
+					"recipe_name": "Frostfeast Present Pile",
+					"description": "A decorative pile of presents for your tree",
+					"flavor": ""
+				},
+				"frostfeast_wreath_recipe": {
+					"recipe_name": "A Festive Wreath",
+					"description": "A traditional Frostfeast decoration",
+					"flavor": ""
+				},
+				"frostfeast_wooden_window_frame_recipe": {
+					"recipe_name": "Frostfeast Wooden Window Frame",
+					"description": "A Festive Wooden Window Frame",
+					"flavor": ""
+				},
+				"frostfeast_wooden_door_recipe": {
+					"recipe_name": "Frostfeast Wooden Door",
+					"description": "A Festive Wooden Door",
+					"flavor": ""
+				},
+				"frostfeast_wooden_double_door_recipe": {
+					"recipe_name": "Frostfeast Wooden Double Door",
+					"description": "A Festive Wooden Double Door",
+					"flavor": ""
+				},
+				"frostfeast_tree_recipe": {
+					"recipe_name": "A Frostfeast Decorative Tree",
+					"description": "A traditional Frostfeast decoration",
+					"flavor": ""
+				},
+				"frostfeast_comfy_bed_recipe": {
+					"recipe_name": "A Luxurious Comfy Bed",
+					"description": "A very warm and stylish bed",
+					"flavor": ""
+				}
+			}
+		},
+		"cook": {
+			"winter_cook_outfit": {
+				"display_name": "Winter Cook Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_cook_outfit_iconic": {
+					"display_name": "Winter Cook Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"pig_feed_recipe": {
+					"recipe_name": "Pig Feed",
+					"description": "If it's edible they'll eat it",
+					"flavor": ""
+				}
+			}
+		},
+		"engineer": {
+			"winter_engineer_outfit": {
+				"display_name": "Winter Engineer Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_engineer_outfit_iconic": {
+					"display_name": "Winter Engineer Outfit",
+					"description": "So warm..."
+				}
+			},
+			"winter_engineer_helm": {
+				"display_name": "Winter Engineering Safety Googles",
+				"description": "Winter protection for expert eyes",
+				"winter_engineer_helm_iconic": {
+					"display_name": "Winter Engineering Safety Googles",
+					"description": "Beware condensation.."
+				}
+			},
+			"recipes": {
+				"frostfeast_lights_recipe": {
+					"recipe_name": "Frostfeast Lights",
+					"description": "Spent Ore and a sliver of wire makes this shiny festive decoration.",
+					"flavor": ""
+				},
+				"clockwork_engine_recipe": {
+					"recipe_name": "Clockwork Engine",
+					"description": "An Ornate Clockwork Engine.",
+					"flavor": "Imagine if I built this ten times as big!"
+				}
+			}
+		},
+		"farmer": {
+			"farmer_helm": {
+				"display_name": "A Farmer's Hat",
+				"description": "Keeps the sun out of the eyes and off of the face."
+			},
+			"winter_farmer_outfit": {
+				"display_name": "Winter Farmer Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_farmer_outfit_iconic": {
+					"display_name": "Winter Farmer Outfit",
+					"description": "So warm..."
+				}
+			}
+		},
+		"mason": {
+			"winter_mason_outfit": {
+				"display_name": "Winter Mason Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_mason_outfit_iconic": {
+					"display_name": "Winter Mason Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_stone_window_frame_recipe": {
+					"recipe_name": "Frostfeast Stone Window Frame",
+					"description": "A Festive Stone Window Frame",
+					"flavor": ""
+				},
+				"frostfeast_mosiac_2_recipe": {
+					"recipe_name": "A Frostfeast Bell Mosaic",
+					"description": "A beautiful Frostfeast Mosaic",
+					"flavor": "Features a selection of Frostfeast Bells"
+				},
+				"frostfeast_mosiac_recipe": {
+					"recipe_name": "A Frostfeast Tree Mosaic",
+					"description": "A beautiful Frostfeast Mosaic",
+					"flavor": "Features a Frostfeast Tree"
+				},
+				"stone_heater_recipe": {
+					"recipe_name": "A Stone Heater",
+					"description": "A source of warmth",
+					"flavor": ""
+				},
+				"decorative_stone_chimney_recipe": {
+					"recipe_name": "A Decorative Stone Chimney",
+					"description": "Warm those winter nights",
+					"flavor": "For decoration only"
+				},
+				"frostfeast_stone_chimney_recipe": {
+					"recipe_name": "A Stone Fireplace",
+					"description": "Warm those winter nights",
+					"flavor": "Definitely not a Stone Hearth.."
+				}
+			}
+		},
+		"herbalist": {
+			"winter_herbalist_outfit": {
+				"display_name": "Winter Herbalist Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_mason_outfit_iconic": {
+					"display_name": "Winter Herbalist Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"cough_syrup_recipe": {
+					"recipe_name": "Cough Syrup",
+					"description": "A Cure for the common cold?!",
+					"flavor": ""
+				},
+				"vapour_rub_recipe": {
+					"recipe_name": "Victor's Vapour Rub",
+					"description": "Protection against the sniffles",
+					"flavor": ""
+				}
+			}
+		},
+		"potter": {
+			"winter_potter_outfit": {
+				"display_name": "Winter Potter Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_potter_outfit_iconic": {
+					"display_name": "Winter Potter Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_floor_tile_recipe": {
+					"recipe_name": "Tree Floor Tile",
+					"description": "A decorative floor tile depicting a Tree",
+					"flavor": ""
+				},
+				"frostfeast_floor_tile_2_recipe": {
+					"recipe_name": "Bell Floor Tile",
+					"description": "A decorative floor tile depicting a Bell",
+					"flavor": ""
+				},
+				"frostfeast_floor_tile_3_recipe": {
+					"recipe_name": "Candy Cane Floor Tile",
+					"description": "A decorative floor tile depicting a Candy Cane",
+					"flavor": ""
+				},
+				"frostfeast_wall_tile_recipe": {
+					"recipe_name": "Bell Wall Tile",
+					"description": "A decorative wall tile depicting multiple Bells ",
+					"flavor": ""
+				},
+				"frostfeast_wall_tile_2_recipe": {
+					"recipe_name": "Tree Wall Tile",
+					"description": "A decorative wall tile depicting multiple Trees ",
+					"flavor": ""
+				}
+			}
+		},
+		"shepherd": {
+			"winter_shepherd_outfit": {
+				"display_name": "Winter Shepherd Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_shepherd_outfit_iconic": {
+					"display_name": "Winter Shepherd Outfit",
+					"description": "So warm..."
+				}
+			}
+		},
+		"trapper": {
+			"winter_trapper_outfit": {
+				"display_name": "Winter Trapper Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_trapper_outfit_iconic": {
+					"display_name": "Winter Trapper Outfit",
+					"description": "So warm..."
+				}
+			}
+		},
+		"weaver": {
+			"winter_weaver_outfit": {
+				"display_name": "Winter Weaver Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_weaver_outfit_iconic": {
+					"display_name": "Winter Weaver Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"plushie_toy_snowling_recipe": {
+					"recipe_name": "Plushie Toy Snowling",
+					"description": "♫ Do you wanna build a Snowling? ♫",
+					"flavor": ""
+				},
+				"frostfeast_stocking_recipe": {
+					"recipe_name": "Frostfeast Stocking",
+					"description": "A Stocking to hang on the wall",
+					"flavor": "Have you been naughty or nice?"
+				},
+				"frostfeast_rug": {
+					"recipe_name": "Frostfeast Rug",
+					"description": "A cheery and festive Rug",
+					"flavor": ""
+				},
+				"hunters_hat_recipe": {
+					"recipe_name": "Hunter's Style Hat",
+					"description": "A Snuggly Hat suitable for all.",
+					"flavor": ""
+				},
+				"bobble_hat_recipe": {
+					"recipe_name": "Bobble Hat",
+					"description": "A Snuggly Hat suitable for all.",
+					"flavor": ""
+				},
+				"reindeer_hat_recipe": {
+					"recipe_name": "Novelty Reindeer Hat",
+					"description": "A Snuggly Hat with added joviality",
+					"flavor": ""
+				},
+				"blacksmith_outfit_winter_recipe": {
+					"recipe_name": "Winter Blacksmith Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Blacksmith who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"carpenter_outfit_winter_recipe": {
+					"recipe_name": "Winter Carpenter Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Carpenter who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"cook_outfit_winter_recipe": {
+					"recipe_name": "Winter Cook Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Cook who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"engineer_helm_winter_recipe": {
+					"recipe_name": "Winter Engineer Helm",
+					"description": "A heavy wool helm with Googles. The Engineer who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"engineer_outfit_winter_recipe": {
+					"recipe_name": "Winter Engineer Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Engineer who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"farmer_outfit_winter_recipe": {
+					"recipe_name": "Winter Farmer Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Farmer who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"herbalist_outfit_winter_recipe": {
+					"recipe_name": "Winter Herbalist Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Herbalist who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"mason_outfit_winter_recipe": {
+					"recipe_name": "Winter Mason Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Mason who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"potter_outfit_winter_recipe": {
+					"recipe_name": "Winter Potter Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Potter who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"shepherd_outfit_winter_recipe": {
+					"recipe_name": "Winter Shepherd Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Shepherd who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"trapper_outfit_winter_recipe": {
+					"recipe_name": "Winter Trapper Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Trapper who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"weaver_outfit_winter_recipe": {
+					"recipe_name": "Winter Weaver Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Weaver who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				}
+			}
+		}
+	},
+	"entities": {
+		"consumables": {
+			"cough_syrup": {
+				"description": "Cures winter ailments",
+				"display_name": "Cough Syrup"
+			},
+			"vapour_rub": {
+				"description": "Protection against the sniffles",
+				"display_name": "Victor's Vapour Rub"
+			}
+		},
+		"monsters": {
+			"goblins": {
+				"goblin_light_pole": {
+					"description": "Bright Lights! Bright Lights!",
+					"display_name": "A Goblin Light Pole"
+				},
+				"goblin_loot_chest": {
+					"description": "You wouldn't steal these would you?",
+					"display_name": "A Big Pile of Presents"
+				}
+			},
+			"cultists": {
+				"cultist": {
+					"display_name": "Cultist",
+					"description": "Kinda indistinguishable."
+				}
+			}
+		},
+		"toys": {
+			"plushie_toy_snowling": {
+				"plushie_toy_snowling_ghost": {
+					"description": "♫ Do you wanna build a Snowling? ♫",
+					"display_name": "Plushie Toy Snowling"
+				}
+			},
+			"frostfeast_present_pile": {
+				"frostfeast_present_pile_ghost": {
+					"description": "A decorative pile of presents",
+					"display_name": "Frostfeast Presents Pile"
+				}
+			},
+			"clockwork_engine": {
+				"clockwork_engine_ghost": {
+					"description": "Choo Choo!",
+					"display_name": "Clockwork Engine"
+				}
+			},
+			"frostfeast_present_pile_tree_ring": {
+				"frostfeast_present_pile_tree_ring_ghost": {
+					"description": "A decorative pile of presents for your tree",
+					"display_name": "Frostfeast Presents Pile (Tree)"
+				}
+			}
+		},
+		"construction": {
+			"frostfeast_wooden_double_door": {
+				"frostfeast_wooden_double_door_ghost": {
+					"description": "A Festive Wooden Door",
+					"display_name": "Frostfeast Wooden Double Door"
+				}
+			},
+			"frostfeast_iron_double_door": {
+				"frostfeast_iron_double_door_ghost": {
+					"description": "A Festive Iron Door",
+					"display_name": "Frostfeast Iron Double Door"
+				}
+			},
+			"frostfeast_wooden_door": {
+				"frostfeast_wooden_door_ghost": {
+					"description": "A Festive Wooden Double Door",
+					"display_name": "Frostfeast Wooden Door"
+				}
+			},
+			"frostfeast_iron_door": {
+				"frostfeast_iron_door_ghost": {
+					"description": "A Festive Iron Door",
+					"display_name": "Frostfeast Iron Door"
+				}
+			},
+			"frostfeast_wooden_window_frame": {
+				"frostfeast_wooden_window_frame_ghost": {
+					"description": "A Festive Wooden Window Frame",
+					"display_name": "Frostfeast Wooden Window Frame"
+				}
+			},
+			"frostfeast_stone_window_frame": {
+				"frostfeast_stone_window_frame_ghost": {
+					"description": "A Festive Stone Window Frame",
+					"display_name": "Frostfeast Stone Window Frame"
+				}
+			},
+			"frostfeast_stone_chimney": {
+				"frostfeast_stone_chimney_ghost": {
+					"description": "A warm home starts with a warm hearth",
+					"display_name": "Frostfeast Stone Chimney"
+				}
+			}
+		},
+		"furniture": {
+			"frostfeast_comfy_bed": {
+				"description": "A very warm and stylish bed",
+				"display_name": "Luxurious Comfy Bed"
+			}
+		},
+		"armor": {
+			"hunter_hat": {
+				"description": "A warm Hunter's style hat",
+				"display_name": "Hunter's Hat"
+			},
+			"bobble_hat": {
+				"description": "A warm Bobble hat",
+				"display_name": "Bobble Hat"
+			},
+			"reindeer_hat": {
+				"description": "A Novelty Reindeer Hat",
+				"display_name": "Novelty Reindeer Hat"
+			},
+			"fhois_hat": {
+				"description": "The Frostfeast Hat of Impossible Spendor",
+				"display_name": "'FHOIS' Hat",
+				"flavor": "You have just won the internet."
+			},
+			"festive_fighting_shield": {
+				"description": "Because War never changes...",
+				"display_name": "Festive Fighting Shield"
+			}
+		},
+		"critters": {
+			"pig": {
+				"pig_description": "A low maintenance food vacuum",
+				"pig_display_name": "A Pig"
+			}
+		},
+		"wealth": {
+			"offering": {
+				"bauble_description": "A Gift prepared by the Church of Plenty",
+				"bauble_display_name": "Ancient Bauble",
+				"blacksmith_description": "A Gift prepared by the Blacksmith",
+				"blacksmith_display_name": "Blacksmith's Offering",
+				"carpenter_description": "A Gift prepared by the Carpenter",
+				"carpenter_display_name": "Carpenter's Offering",
+				"cook_description": "A Gift prepared by the Cook",
+				"cook_display_name": "Cook's Offering",
+				"engineer_description": "A Gift prepared by the Engineer",
+				"engineer_display_name": "Engineer's Offering",
+				"herbalist_description": "A Gift prepared by the Herbalist",
+				"herbalist_display_name": "Herbalists Offering",
+				"mason_description": "A Gift prepared by the Mason",
+				"mason_display_name": "Mason's Offering",
+				"potter_description": "A Gift prepared by the Potter",
+				"potter_display_name": "Potter's Offering",
+				"plentiful_description": "A Gift prepared by the Church of Plenty",
+				"plentiful_display_name": "Plentiful Offering",
+				"sublime_plentiful_description": "A Gift prepared by the Church of Plenty",
+				"sublime_plentiful_display_name": "Sublime Plentiful Offering",
+				"achernar_plentiful_description": "A Gift prepared by the Church of Plenty",
+				"achernar_plentiful_display_name": "Plentiful Offering",
+				"achernar_sublime_plentiful_description": "A Gift prepared by the Church of Plenty",
+				"achernar_sublime_plentiful_display_name": "Sublime Plentiful Offering",
+				"weaver_description": "A Gift prepared by the Weaver",
+				"weaver_display_name": "Weaver's Offering"
+			}
+		},
+		"food": {
+			"figgy_pudding": {
+				"figgy_pudding": {
+					"display_name": "Figgy Pudding",
+					"description": "Delicious and Warming",
+					"flavor": "Yummy!"
+				},
+				"figgy_pudding_serving": {
+					"display_name": "Figgy Pudding",
+					"description": "Delicious and Warming"
+				}
+			},
+			"frostfeast_cake": {
+				"frostfeast_cake": {
+					"display_name": "Frostfeast Cake",
+					"description": "A rich Fruitcake encased in frosting",
+					"flavor": "Will be around longer than your Hearthlings"
+				},
+				"frostfeast_cake_serving": {
+					"display_name": "Frostfeast Cake",
+					"description": "A rich Fruitcake encased in frosting"
+				}
+			},
+			"frostfeast_ham": {
+				"frostfeast_ham": {
+					"display_name": "Frostfeast Ham",
+					"description": "Succulent and Tender",
+					"flavor": "A Traditional Frostfeast Roast!"
+				},
+				"frostfeast_ham_serving": {
+					"display_name": "Frostfeast Ham",
+					"description": "Succulent and Tender"
+				}
+			},
+			"pig_meat": {
+				"display_name": "Pig Meat",
+				"description": "Perfect for a winter roast"
+			},
+			"ginger": {
+				"display_name": "Ginger",
+				"description": "A Winter Cooking Ingredient"
+			},
+			"pig_feed": {
+				"pig_feed": {
+					"display_name": "Pig Feed",
+					"description": "For feeding Pigs."
+				},
+				"pig_feed_ground": {
+					"display_name": "Pig Feed",
+					"description": "Pigs love to eat this stuff."
+				}
+			},
+			"ginger_bread": {
+				"ginger_bread": {
+					"display_name": "Ginger Bread",
+					"description": "Delicious and Warming",
+					"flavor": "A warming winter treat"
+				},
+				"ginger_bread_serving": {
+					"display_name": "Ginger Bread",
+					"description": "Delicious and Warming"
+				}
+			},
+			"pumpkin_soup": {
+				"pumpkin_soup": {
+					"display_name": "Bowl of Pumpkin Soup",
+					"description": "A mushed up bowl of Pumpkin!",
+					"flavor": ""
+				},
+				"pumpkin_soup_serving": {
+					"display_name": "A Portion of Pumpkin Soup",
+					"description": "Delicious."
+				}
+			},
+			"pumpkin_pie": {
+				"pumpkin_pie": {
+					"display_name": "Pumpkin Pie",
+					"description": "Best left on a window sill!",
+					"flavor": "Sweet and Tasty"
+				},
+				"pumpkin_pie_serving": {
+					"display_name": "A Slice of Pumpkin Pie",
+					"description": "Sweet and delicious."
+				}
+			}
+		},
+		"plants": {
+			"fig": {
+				"fig_basket": {
+					"display_name": "Basket of Figs",
+					"description": "Juicy"
+				},
+				"fig_serving": {
+					"display_name": "Handful of Figs",
+					"description": "Juicy"
+				}
+			}
+		},
+		"decoration": {
+			"frostfeast_monument": {
+				"frostfeast_monument_tree": {
+					"stages": {
+						"seedling": {
+							"display_name": "Festive Seedling",
+							"description": "The shape of things to come"
+						},
+						"sapling": {
+							"display_name": "Festive Sapling",
+							"description": "Awww, look at the widdle tree!"
+						},
+						"pole": {
+							"display_name": "Festive Pole",
+							"description": "A young festive tree!"
+						},
+						"tree": {
+							"substages": {
+								"super_healthy": {
+									"display_name": "Monument Tree",
+									"description": "Emits a warm festive aura"
+								},
+								"healthy": {
+									"display_name": "Festive Tree",
+									"description": "The shape of things to come"
+								},
+								"waning": {
+									"display_name": "Waning Festive Tree",
+									"description": "The tree is troubled and is starting to wane"
+								},
+								"buggered": {
+									"display_name": "Dying Festive Tree",
+									"description": "What a horrible thing to witness"
+								}
+							}
+						}
+					}
+				},
+				"frostfeast_monument_ghost": {
+					"display_name": "Frostfeast Monument",
+					"description": "A Magical Shrine from the Church Of Plenty"
+				},
+				"frostfeast_monument_bauble": {
+					"display_name": "Frostfeast Bauble",
+					"description": "A Magical Bauble"
+				},
+				"pillar_1": {
+					"pillar_1_ghost": {
+						"display_name": "Stone Hearth",
+						"description": "Desperately they huddled in the cold"
+					}
+				},
+				"pillar_2": {
+					"pillar_2_ghost": {
+						"display_name": "Traveller Stone",
+						"description": "An old man asking for charity"
+					}
+				},
+				"pillar_3": {
+					"pillar_3_ghost": {
+						"display_name": "Phoenix Stone",
+						"description": "The conjured flame"
+					}
+				},
+				"pillar_4": {
+					"pillar_4_ghost": {
+						"display_name": "Bounty Stone",
+						"description": "And their packs were full"
+					}
+				}
+			},
+			"frostfeast_obsidian_monument": {
+				"frostfeast_obsidian_monument_ghost": {
+					"display_name": "Frozen Monument",
+					"description": "The pillars seem out of sequence..."
+				},
+				"pillar": {
+					"pillar_ghost": {
+						"display_name": "Frozen Obsidian PIllar"
+					}
+				}
+			},
+			"frostfeast_snowling": {
+				"frostfeast_snowling": {
+					"display_name": "Snowling",
+					"description": "♫ Do you wanna build a Snowling? ♫"
+				}
+			},
+			"frostfeast_candle": {
+				"frostfeast_candle_ghost": {
+					"display_name": "Frostfeast Candle",
+					"description": "An ornate Frostfeast candle"
+				}
+			},
+			"frostfeast_mosiac": {
+				"frostfeast_mosiac_ghost": {
+					"display_name": "Frostfeast Tree Mosaic",
+					"description": "A beautiful Frostfeast Mosaic"
+				}
+			},
+			"frostfeast_mosiac_2": {
+				"frostfeast_mosiac_2_ghost": {
+					"display_name": "Frostfeast Bell Mosaic",
+					"description": "A beautiful Frostfeast Mosaic"
+				}
+			},
+			"frostfeast_wreath": {
+				"frostfeast_wreath_ghost": {
+					"display_name": "Frostfeast Wreath",
+					"description": "A traditional Frostfeast decoration"
+				}
+			},
+			"frostfeast_stocking": {
+				"frostfeast_stocking_ghost": {
+					"display_name": "Frostfeast Stocking",
+					"description": "Have you been naughty or nice?"
+				}
+			},
+			"frostfeast_lights": {
+				"frostfeast_lights": {
+					"display_name": "Frostfeast Lights",
+					"description": "Brighten up that gloom!",
+					"iconic_description": "How are they tangled up already?"
+				}
+			},
+			"frostfeast_rug": {
+				"frostfeast_rug_ghost": {
+					"display_name": "Frostfeast Rug",
+					"description": "A cheery and festive Rug"
+				}
+			},
+			"frostfeast_tree": {
+				"frostfeast_tree": {
+					"display_name": "Frostfeast Tree",
+					"description": "Brighten up that gloom!",
+					"iconic_description": "♫ Oh..it's beginning to look a lot like Frostfeast! ♫"
+				}
+			},
+			"stone_heater": {
+				"stone_heater": {
+					"display_name": "Stone Heater",
+					"description": "A Source of warmth",
+					"iconic_description": "A Source of warmth"
+				}
+			},
+			"decorative_chimney_stack": {
+				"decorative_chimney_stack": {
+					"display_name": "Decorative Stone Chimney Stack",
+					"description": "A Decorative Chimney Stack",
+					"iconic_description": "Decorative Chimney Stack"
+				}
+			},
+			"frostfeast_floor_tile": {
+				"frostfeast_floor_tile_ghost": {
+					"display_name": "Tree Floor Tile",
+					"description": "A decorative floor tile depicting a Tree",
+					"flavor": ""
+				}
+			},
+			"frostfeast_floor_tile_2": {
+				"frostfeast_floor_tile_2_ghost": {
+					"display_name": "Bell Floor Tile",
+					"description": "A decorative floor tile depicting a Bell",
+					"flavor": ""
+				}
+			},
+			"frostfeast_floor_tile_3": {
+				"frostfeast_floor_tile_3_ghost": {
+					"display_name": "Candy Cane Floor Tile",
+					"description": "A decorative floor tile depicting a Candy Cane ",
+					"flavor": ""
+				}
+			},
+			"frostfeast_wall_tile": {
+				"frostfeast_wall_tile_ghost": {
+					"display_name": "Bell Wall Tile",
+					"description": "A decorative wall tile depicting multiple Bells ",
+					"flavor": ""
+				}
+			},
+			"frostfeast_wall_tile_2": {
+				"frostfeast_wall_tile_2_ghost": {
+					"display_name": "Tree Wall Tile",
+					"description": "A decorative wall tile depicting multiple Trees ",
+					"flavor": ""
+				}
+			}
+		},
+		"crops": {
+			"fig_crop": {
+				"display_name": "Figs",
+				"description": "An edible fruit",
+				"growth_stage": {
+					"003": {
+						"name": "Ripe Figs",
+						"description": "Ready for harvest!"
+					},
+					"002": {
+						"name": "Immature Figs",
+						"description": "Not ready for harvest"
+					},
+					"001": {
+						"name": "Fig Shrub",
+						"description": "Not ready for harvest"
+					},
+					"000": {
+						"name": "Fig Shrub",
+						"description": "Not ready for harvest"
+					},
+					"011": {
+						"name": "Rotten Figs",
+						"description": "It's dead."
+					}
+				}
+			},
+			"ginger_crop": {
+				"display_name": "Ginger",
+				"description": "A Frostfeast cooking ingredient",
+				"growth_stage": {
+					"003": {
+						"name": "Ripe Ginger",
+						"description": "Ready for harvest!"
+					},
+					"002": {
+						"name": "Ginger Bulb",
+						"description": "Not ready for harvest"
+					},
+					"001": {
+						"name": "Ginger Bulb",
+						"description": "Not ready for harvest"
+					},
+					"000": {
+						"name": "Ginger Seedling",
+						"description": "Not ready for harvest"
+					},
+					"011": {
+						"name": "Rotten Ginger",
+						"description": "It's dead."
+					}
+				}
+			}
+		},
+		"weapons": {
+			"cultist_dagger": {
+				"display_name": "Achernar's Fist",
+				"description": "A Cultist Dagger forged in Frostfire."
+			},
+			"fire_ball": {
+				"display_name": "Fireball",
+				"description": "Warning: Hot."
+			}
+		}
+	}
+}
