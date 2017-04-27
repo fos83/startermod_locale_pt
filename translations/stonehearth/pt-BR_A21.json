@@ -1438,15 +1438,15 @@
 					"description": "This hearthling's current health status."
 				},
 				"suspend_button": {
-					"description": "Pause or resume a work type."
+					"description": "Pausar ou resumir o Tipo de Trabalho."
 				},
 				"current_gender": {
 					"display_name": "Gênero",
-					"description": "This hearthling identifies as [str(gender)]."
+					"description": "Este hearthling e [str(gender)]."
 				},
 				"change_gender": {
 					"display_name": "Gênero",
-					"description": "Clique para mudar o género identificado deste hearthling para [str(gender)]."
+					"description": "Clique para mudar o género deste hearthling para [str(gender)]."
 				},
 				"customization_lock": {
 					"description": "This hearthling's [str(customization)] will be saved during trait and stat rerolls."

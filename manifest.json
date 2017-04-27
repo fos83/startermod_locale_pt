@@ -2,15 +2,19 @@
 	"info": {
 		"name": "MOD Traslater português",
 		"version": 3
-	},	
+	},
 	"default_locale": "en",
 	
-	"ui":{
-		"less":["file(ui/game/citizens/citizens.less)"]
+	"ui": {
+		"less": [
+			"file(ui/game/citizens/citizens.less)"
+		]
 	},
+	
 	"mixintos": {
 		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
 	},
+	
 	"overrides": {
 		//Portugues Brasil
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR_A21.json)",
