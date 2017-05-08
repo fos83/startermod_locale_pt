@@ -13,13 +13,13 @@
 				"work_at_workshop": "fazendo [str(data.craftable_name)]",
 				"attack_melee_adjacent": "atacando [name(data.target)]",
 				"heal_ranged_in_sight": "curando [name(data.target)]",
-				"wait_at_safety_point": "esperando no banner de segurança",
+				"wait_at_safety_point": "esperando no <br>banner de segurança",
 				"repair_entity": "consertando [name(data.target)]",
-				"resting_by_fire": "Dormindo perto do fogo",
+				"resting_by_fire": "Dormindo <br>perto do fogo",
 				"claiming_animal": "Reivindicando animal",
-				"looking_for_animals": "Procurando por Animais",
+				"looking_for_animals": "Procurando <br>por Animais",
 				"collect_ingredient": "Coletando Ingredientes",
-				"build_workshop": "Construindo mesa de trabalho",
+				"build_workshop": "Construindo <br>mesa de trabalho",
 				"death": "Morrendo",
 				"eat": "Pegando Comida",
 				"find_stray_animal": "procurando rastros",
@@ -43,12 +43,12 @@
 				"promote": "Promovendo...",
 				"move_item_to_storage": "guardando um item",
 				"teardown_ladder": "Removendo Escada...",
-				"drop_item_near_workshop": "limpando a mesa de trabalho",
+				"drop_item_near_workshop": "limpando <br>a mesa de trabalho",
 				"fabricate_structure": "Construindo...",
 				"teardown_structure": "Destruindo Estruturas...",
 				"feed_pasture_animals": "alimentando animais",
 				"restock": "reabastecendo itens",
-				"resting_from_injuries": "precisando de atenção médica",
+				"resting_from_injuries": "precisando de <br>atenção médica",
 				"healing": "tratando feridas",
 				"healing_target": "curando [name(data.target)]",
 				"dig_foundation": "cavando fundação",
@@ -110,7 +110,7 @@
 			},
 			"build_workshop": {
 				"title": "Build Workshop",
-				"requirements": "Requirements",
+				"requirements": "Requisitos",
 				"create_stockpile": "Crafter's Stockpile",
 				"create_stockpile_description": "The crafter will store crafted goods in this stockpile.<p>You probably want to place it near the workbench, but hey, it's your decision.",
 				"page1_subtitle2": "Click on the ground to place the workshop",
@@ -151,7 +151,7 @@
 					"title": "Release Pet",
 					"message": "Are you sure you want to release this pet back into the wild? You won't be able to get it back.",
 					"accept": "I don't want this pet.",
-					"cancel": "Wait!"
+					"cancel": "Espere!"
 				},
 				"befriended_pet_description": "Befriended by [name(self.stonehearth:pet.owner)]"
 			},
@@ -947,7 +947,7 @@
 				"title": "Town Overview",
 				"town_morale": "Town Morale",
 				"journal": {
-					"default_message": "No journal entries yet!",
+					"default_message": "Ainda não existem entradas no diário!",
 					"signature": "--[name(entry.person)]",
 					"today": "Today",
 					"town_log": "Town Log",
@@ -985,7 +985,7 @@
 				"score": {
 					"net_worth": "Net worth",
 					"buildings": "Construções",
-					"inventory": "Inventario",
+					"inventory": "Inventário",
 					"agriculture": "Agricultura",
 					"edibles": "Comestíveis",
 					"overall_morale": "Overall Morale",
@@ -999,8 +999,8 @@
 				},
 				"tab": {
 					"town_overview": "Town Overview",
-					"inventory": "Inventory",
-					"journal": "Journal"
+					"inventory": "Inventário",
+					"journal": "Diario"
 				}
 			}
 		},
@@ -1166,7 +1166,7 @@
 					"experimental": "Experimental",
 					"experimental_description": "Estas definições estão em desenvolvimento e pode não esta estavel! Ative a seu provrio risco!",
 					"enable_speed_3": "Ativar velocidade 3 (Requer Reiniciar UI)",
-					"enable_speed_3_note": "Note: Game performance might be slow with larger towns on speed 3. Be warned!",
+					"enable_speed_3_note": "Nota: O desempenho pode ser comprometido com as cidades maiores. esteja avisado!",
 					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
 					"default_storage_filter_none": "Storage filter defaults to None",
 					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
