@@ -91,7 +91,7 @@
 				"title": "Escolha um Trabalho",
 				"promotion_title": "Promover a [str(job_name)]",
 				"text_1": "Em honra de esforços firmes e de resiliência,",
-				"text_current": "This is the hearthling's current job.",
+				"text_current": "Este é o trabalho atual do hearthling.",
 				"choose": "escolha um hearthling...",
 				"text_2": "nesse dia, [str(date)]",
 				"approve": "APROVAR",
@@ -146,11 +146,11 @@
 				"traits": "Traços"
 			},
 			"pet_character_sheet": {
-				"title": "Pet Info",
+				"title": "Informações sobre este animal",
 				"release_pet_confirm_dialog": {
-					"title": "Release Pet",
-					"message": "Are you sure you want to release this pet back into the wild? You won't be able to get it back.",
-					"accept": "I don't want this pet.",
+					"title": "Soltar o animal de estimação",
+					"message": "Tem certeza de que deseja liberar este animal de estimação de volta ao estado selvagem? Você não será capaz de recuperá-lo.",
+					"accept": "Eu não quero mais este animal.",
 					"cancel": "Espere!"
 				},
 				"befriended_pet_description": "Befriended by [name(self.stonehearth:pet.owner)]"
@@ -4743,7 +4743,7 @@
 			},
 			"passion_job": {
 				"passion_job_trait": {
-					"display_name": "Apaixonado pelo Trabalho de [str(i18n_data.passion_job)]",
+					"display_name": "Apaixonado pelo Trabalho de <br><br>[str(i18n_data.passion_job)]",
 					"description": "[name(i18n_data.entity)] always dreamed of being a [str(i18n_data.passion_job)], maybe now they'll get their chance?"
 				}
 			},
@@ -5475,7 +5475,7 @@
 			},
 			"log_pile": {
 				"log_pile_ghost": {
-					"display_name": "Log Pile",
+					"display_name": "Pilha de Tora",
 					"description": "Harvest for a large number of logs"
 				},
 				"log_pile_iconic": {
@@ -6041,7 +6041,7 @@
 			},
 			"firepit": {
 				"firepit_ghost": {
-					"display_name": "Fire Pit",
+					"display_name": "Fogueira",
 					"description": "Provides warmth and light"
 				}
 			},
@@ -7416,28 +7416,28 @@
 			},
 			"wood": {
 				"juniper_log": {
-					"display_name": "Juniper Log",
-					"description": "A log. Made of wood."
+					"display_name": "Tora de (Junipero)",
+					"description": "Uma Tora. Feita de Madeira."
 				},
 				"oak_log": {
-					"display_name": "Oak Log",
-					"description": "A log. Made of wood."
+					"display_name": "Tora de (Carvalho)",
+					"description": "Uma Tora. Feita de Madeira."
 				},
 				"pine_log": {
-					"display_name": "Pine Log",
-					"description": "A log. Made of wood."
+					"display_name": "Tora de (Pinho)",
+					"description": "Uma Tora. Feita de Madeira."
 				},
 				"cactus_log": {
-					"display_name": "Cactus Log",
-					"description": "A log. Made of wood."
+					"display_name": "Tora de (Cacto)",
+					"description": "Uma Tora. Feita de Madeira."
 				},
 				"palm_log": {
-					"display_name": "Palm Log",
-					"description": "A log. Made of wood."
+					"display_name": "Tora de (Palma)",
+					"description": "Uma Tora. Feita de Madeira."
 				},
 				"acacia_log": {
-					"display_name": "Acacia Log",
-					"description": "A log. Made of wood."
+					"display_name": "Tora de (Acácia)",
+					"description": "Uma Tora. Feita de Madeira."
 				}
 			},
 			"herb": {
