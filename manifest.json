@@ -1,6 +1,7 @@
 {
 	"info": {
 		"name": "startermod_locale_pt",
+		"name": "startermod_locale_pt-master",
 		"display_name": "MOD Traslater português",
 		"version": 3,
 		"default_enabled": true
