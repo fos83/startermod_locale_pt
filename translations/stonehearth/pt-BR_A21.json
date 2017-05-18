@@ -999,7 +999,7 @@
 				},
 				"tab": {
 					"town_overview": "Town Overview",
-					"inventory": "Inventário",
+					"inventory": "Inventario",
 					"journal": "Diario"
 				}
 			}
@@ -1205,7 +1205,7 @@
 				"new_game": "Novo Jogo",
 				"load_game": "Carregar Jogo",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A21-707)",
+				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A21-r707)",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
 					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
@@ -3189,7 +3189,7 @@
 					"description": "Starving hearthling needs food badly!"
 				},
 				"starving_animal_buff": {
-					"display_name": "Hungry",
+					"display_name": "com fome",
 					"description": "This animal is hungry! Have a cook create some feed so your shepherd can feed it."
 				}
 			},
@@ -4683,7 +4683,7 @@
 			},
 			"excitable": {
 				"excitable_trait": {
-					"display_name": "Excitable",
+					"display_name": "Emotivo",
 					"description": "[name(i18n_data.entity)] can never seem to keep their emotions in check, so they become happy or sad much faster than normal."
 				}
 			},
@@ -4725,7 +4725,7 @@
 			},
 			"hothead": {
 				"hothead_trait": {
-					"display_name": "Hothead",
+					"display_name": "Cabeça quente",
 					"description": "[name(i18n_data.entity)] never voluntarily backs down from a fight. Even from ones they probably should..."
 				}
 			},
@@ -4764,7 +4764,7 @@
 			"thoughts": {
 				"hunger": {
 					"hungry": {
-						"display_name": "Hungry",
+						"display_name": "com fome",
 						"tooltip": "I could really go for a good meal."
 					},
 					"famished": {
@@ -4826,7 +4826,7 @@
 				},
 				"sleeping": {
 					"slept_on_ground": {
-						"display_name": "Slept on ground",
+						"display_name": "Dormi no chão",
 						"tooltip": "My back is killing me from having slept on the ground. When are we going to get some decent beds?"
 					},
 					"slept_in_shared_bed": {
@@ -4856,15 +4856,15 @@
 						"tooltip": "I can't believe I ate a [str(foodname)].  I can just imagine how cute it must have looked... before..."
 					},
 					"carnivore_ate_veggies": {
-						"display_name": "I ate a plant! Bleh!",
+						"display_name": "Eu comi uma planta! Bleh!",
 						"tooltip": "There's been a mistake.  I've accidentally eaten food that my food eats."
 					},
 					"ate_fine": {
-						"display_name": "Ate a fine meal",
+						"display_name": "Comeu uma boa refeição",
 						"tooltip": "My recent meal was amazing! Whoever made the [str(foodname)] really put their heart into it."
 					},
 					"ate_tasty": {
-						"display_name": "Ate a tasty meal",
+						"display_name": "Comeu uma refeição saborosa",
 						"tooltip": "The [str(foodname)] I ate was pretty tasty! I still remember the combination of flavors."
 					},
 					"ate_raw": {
@@ -4872,7 +4872,7 @@
 						"tooltip": "I recently ate a raw [str(foodname)].  I can only imagine how much better it would have tasted were it cooked."
 					},
 					"ate_bland": {
-						"display_name": "Ate a bland meal",
+						"display_name": "Comeu uma refeição sem graça",
 						"tooltip": "I remember eating a bland [str(foodname)]. It gave me the strength to keep going, but the meal was so boring."
 					},
 					"values": {
@@ -7538,16 +7538,16 @@
 		},
 		"tools": {
 			"mining_pick": {
-				"display_name": "Mining Pick",
+				"display_name": "Picareta de Mineração",
 				"description": "For mining and picking"
 			},
 			"worker_axe": {
-				"display_name": "Worker's Axe",
+				"display_name": "Machado do Trabalhador",
 				"description": "..."
 			},
 			"worker_hammer": {
-				"display_name": "Worker's Hammer",
-				"description": "Everything looks like a nail when all you have is a hammer"
+				"display_name": "Martelo do Trabalhador",
+				"description": "Tudo parece um prego quando tudo o que você tem é um martelo"
 			}
 		},
 		"toys": {
