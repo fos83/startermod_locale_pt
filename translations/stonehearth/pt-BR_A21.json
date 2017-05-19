@@ -1259,8 +1259,8 @@
 				"facial_hair": "Barba",
 				"hair_color": "Cor do Cabelo",
 				"name": "Nome",
-				"name_and_appearance": "name and appearance",
-				"appearance": "appearance"
+				"name_and_appearance": "Nome e aparência",
+				"appearance": "aparência"
 			},
 			"loadout": {
 				"title": "Selecionar recursos iniciais",
