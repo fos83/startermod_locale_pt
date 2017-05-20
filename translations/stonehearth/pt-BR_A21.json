@@ -999,8 +999,8 @@
 				},
 				"tab": {
 					"town_overview": "Town Overview",
-					"inventory": "Inventario",
-					"journal": "Diario"
+					"inventory": "Inventário",
+					"journal": "Diário"
 				}
 			}
 		},
@@ -8942,7 +8942,7 @@
 		},
 		"footman": {
 			"footman_description": {
-				"display_name": "Footman",
+				"display_name": "Soldado",
 				"description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
 				"requirements": "Crafted by Carpenter",
 				"level_4_data": {
