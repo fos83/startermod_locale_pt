@@ -861,10 +861,10 @@
 				},
 				"stockpile": {
 					"default_stockpile_name": "Stockpile",
-					"contents": "Contents",
-					"filter": "Filter",
+					"contents": "Conteúdo",
+					"filter": "Filtro",
 					"help": "Click the icons to choose what to store in this stockpile.",
-					"used_space": "Used space:",
+					"used_space": "Espaço utilizado:",
 					"filters": {
 						"all": "Todos",
 						"none": "Nenhum",
