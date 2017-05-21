@@ -1602,7 +1602,7 @@
 					},
 					"valor_tier_2_reached": {
 						"title": "The Princess's Herald Returns",
-						"speaker_name": "The Honorable Anwyn Redelm",
+						"speaker_name": "O honorável Anwyn Redelm",
 						"message": "Congratulations, [str(i18n_data.town_name)]! Word has spread of your martial prowess. Your town officially qualifies as a township! I have brought building materials and trade agreements, as is customary!",
 						"accept": "Woohoo!",
 						"dialog_title": "Township Achieved!",
@@ -1636,7 +1636,7 @@
 										"000": "By order of Princess Dania, First Lady of the Ascendancy, and in whose dimenses you settle, and with the blessings of the Church of Plenty, in whose wisdom we all prosper..."
 									},
 									"bulletin_title": "Anwyn Clears her Throat",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Wow, a proclamation!",
 									"choice_001": "Zzz..."
 								},
@@ -1645,16 +1645,16 @@
 										"000": "The Royal Craftmasters honor those with an eye for excellence. Have your mason create a statue to their exacting specifications, and you shall be one of the few to impress them."
 									},
 									"bulletin_title": "Anwyn looks back at the scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Masons ho!",
-									"choice_001": "How else can I gain reknown?"
+									"choice_001": "De que outra forma posso ganhar conhecimento?"
 								},
 								"proc_details": {
 									"bulletin_message": {
 										"000": "All settlements that attain local reknown will be hereby recognized as official Ascendancy Townships, with the rights, priviledges, and rewards thereof."
 									},
 									"bulletin_title": "Anwyn Reads",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Huh?",
 									"choice_001": "Rewards?"
 								},
@@ -1663,7 +1663,7 @@
 										"000": "What does that actually mean? Well, mostly that we write you down in a ledger somewhere, in case we ever remember to come back and collect taxes."
 									},
 									"bulletin_title": "Anwyn Grins",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Never mind then!",
 									"choice_001": "Taxes? Seriously?"
 								},
@@ -1672,7 +1672,7 @@
 										"000": "Indeed! By the Princess's order, eligible towns that have proven their worth shall win access to architectural learning and wealthier caravans for trade."
 									},
 									"bulletin_title": "Anwyn Nods",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Ok. What comes next?"
 								},
 								"military_reqs": {
@@ -1680,16 +1680,16 @@
 										"000": "To gain reknown with the Order of Cid, you must display courage and valor! I shall give your mason a recipe; quest for the ingredients to craft a monument worthy of your swordarm."
 									},
 									"bulletin_title": "Anwyn looks back at the scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
-									"choice_000": "Sounds good!",
-									"choice_001": "How else can I gain reknown?"
+									"dialog_title": "O honorável Anwyn Redelm",
+									"choice_000": "Parece bom!",
+									"choice_001": "De que outra forma posso ganhar conhecimento?"
 								},
 								"herald_announcement": {
 									"bulletin_message": {
 										"000": "Excellent! Messire Burlyhands said you'd be out here, but it's always a bit touch and go in the early days. Shall we get started?"
 									},
 									"bulletin_title": "Anwyn unrolls a scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Started with what?"
 								},
 								"requirements": {
@@ -1697,7 +1697,7 @@
 										"000": "You may gain sufficient reknown to advance to a township in any of three ways: Military Glory, Favor with the Church, or The Approval of the Craftsmasters. Which sounds most interesting to you?"
 									},
 									"bulletin_title": "Anwyn looks back at the scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Military!",
 									"choice_001": "Church!",
 									"choice_002": "Craftmasters!"
@@ -1707,7 +1707,7 @@
 										"000": "I'm just joking! The Royal Accountants have their hands full right now with the coronation and everything. Anyway, Township status really means that you get a host of rewards and benefits."
 									},
 									"bulletin_title": "Anwyn Grins",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Rewards and benefits?"
 								},
 								"church_reqs": {
@@ -1715,25 +1715,25 @@
 										"000": "The Church of Plenty favors those who share their wealth with those in need. I shall give recipes to your mason and your cook; build a Fountain of Plenty and I shall be back to celebrate your achievements."
 									},
 									"bulletin_title": "Anwyn looks back at the scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
-									"choice_000": "We can do that!",
-									"choice_001": "How else can I gain reknown?"
+									"dialog_title": "O honorável Anwyn Redelm",
+									"choice_000": "nós podemos fazer isso!",
+									"choice_001": "De que outra forma posso ganhar conhecimento?"
 								},
 								"herald_approaches": {
 									"bulletin_message": {
 										"000": "Ho there! Is this the new settlement of [str(i18n_data.town_name)]?  Messire Burlyhands said you'd be out here, but it's always a bit touch and go in the early days. Shall we get started with the Proclamation?"
 									},
 									"bulletin_title": "A Royal Herald Approaches",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Welcome, Milady!",
-									"choice_001": "That's us!"
+									"choice_001": "Somos nós!"
 								},
 								"conclusion": {
 									"bulletin_message": {
 										"000": "Excellent! In addition to an appropriate monument, your town will also need to have accumulated a certain level of worth. I shall leave the requirements with you, should you wish to consult with them again, or should a different path come to appeal more than your initial chosen road."
 									},
 									"bulletin_title": "Anwyn rolls up the scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Thank you, Milady!"
 								},
 								"conclusion2": {
@@ -1741,7 +1741,7 @@
 										"000": "Cid's bounty be upon you, [str(i18n_data.town_name)]. I shall leave you a bird, so you may summon me to evaluate your progress!"
 									},
 									"bulletin_title": "Anwyn rolls up the scroll",
-									"dialog_title": "The Honorable Anwyn Redelm",
+									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Farewell!"
 								}
 							}
@@ -5062,10 +5062,10 @@
 				}
 			},
 			"bronze_shield": {
-				"display_name": "Escudo de Bronze",
+				"display_name": "Escudo de (Bronze)",
 				"description": "Useful for blocking attacks",
 				"bronze_shield_iconic": {
-					"display_name": "Escudo de Bronze",
+					"display_name": "Escudo de (Bronze)",
 					"description": "Useful for blocking attacks"
 				}
 			},
@@ -5094,7 +5094,7 @@
 				}
 			},
 			"steel_shield": {
-				"display_name": "Escudo de Aço",
+				"display_name": "Escudo de (Aço)",
 				"description": "A sturdy shield made from steel"
 			},
 			"iron_helm": {
@@ -7328,7 +7328,7 @@
 			},
 			"copper": {
 				"copper_ore": {
-					"display_name": "Minerio(Cobre)",
+					"display_name": "Minerio de (Cobre)",
 					"description": "A chunk of raw copper"
 				}
 			},
@@ -8050,7 +8050,7 @@
 					"perk_000_description": "The blacksmith's mastery of his trade allows him to create the finest weapons and armors seen since the forgotten Phoenix Empire."
 				},
 				"level_2_data": {
-					"perk_000_name": "Iron Age!",
+					"perk_000_name": "Idade do (Ferro)!",
 					"perk_000_description": "The blacksmith is now skilled enough to forge heavy items made of iron."
 				},
 				"level_4_data": {
@@ -8058,7 +8058,7 @@
 					"perk_000_description": "Long hours at the forge have unlocked the secret of steel: sharper weapons and lighter armor."
 				},
 				"level_1_data": {
-					"perk_000_name": "Bronze Age!",
+					"perk_000_name": "Idade do (Bronze)!",
 					"perk_000_description": "The secrets of bronze are now available to the blacksmith."
 				},
 				"level_3_data": {
@@ -8098,7 +8098,7 @@
 				"iron_shield_recipe": {
 					"description": "Heavy, but effective.",
 					"flavor": "'Buck up, recruit! Better the shield dent than you!' -Thredd, Man at Arms",
-					"recipe_name": "Escudo de Ferro"
+					"recipe_name": "Escudo de (Ferro)"
 				},
 				"bronze_breastplate_recipe": {
 					"description": "Partial but sturdy coverage against blunt and edged weapons.",
@@ -8112,17 +8112,17 @@
 				},
 				"bronze_mace_recipe": {
 					"description": "Heavy, it packs a wallop.",
-					"recipe_name": "Bronze Mace",
+					"recipe_name": "Maça de (Bronze)",
 					"flavor": "The good news: there is no pointy end."
 				},
 				"bronze_sword_recipe": {
 					"description": "Basic, but better than fighting with a sharpened stick!",
-					"recipe_name": "Bronze Sword",
+					"recipe_name": "Espada de (Bronze)",
 					"flavor": "Made in the shape of Braun's own blade."
 				},
 				"carpenter_saw_recipe": {
 					"description": "Required to promote a hearthling into a Carpenter.",
-					"recipe_name": "Carpenter's Saw",
+					"recipe_name": "Serrote do carpinteiro",
 					"flavor": "Now the circle can begin anew."
 				},
 				"copper_ingot_recipe": {
@@ -8142,7 +8142,7 @@
 				},
 				"iron_mace_recipe": {
 					"description": "Heavy, it packs a wallop.",
-					"recipe_name": "Iron Mace",
+					"recipe_name": "Maça de (Ferro)",
 					"flavor": "And Erin rested her forehead upon it, and the iron stole away enchantment and memory, together."
 				},
 				"iron_mail_recipe": {
@@ -8157,7 +8157,7 @@
 				},
 				"long_sword_recipe": {
 					"description": "Sharp, with extra reach. A faithful weapon.",
-					"recipe_name": "Long Sword",
+					"recipe_name": "Espada Longa",
 					"flavor": "'Hah! The only weapon worthy of specialization. --Lady Giest"
 				},
 				"weapons_name": "Armas",
@@ -8196,7 +8196,7 @@
 				},
 				"two_handed_sword_recipe": {
 					"description": "Double the hands, double the trouble.",
-					"recipe_name": "Two Handed Sword"
+					"recipe_name": "Espada de duas mãos"
 				},
 				"blacksmith_forge_recipe": {
 					"description": "Smelt metals into ingots.",
@@ -8240,11 +8240,11 @@
 					"flavor": "Incredibly protective. Small children play turtle underneath."
 				},
 				"knights_shield_recipe": {
-					"recipe_name": "Knight's Shield",
+					"recipe_name": "Escudo do Cavaleiro",
 					"description": "Required to promote a hearthling into a Knight"
 				},
 				"iron_helm_recipe": {
-					"recipe_name": "Iron Helm",
+					"recipe_name": "Elmo de (Ferro)",
 					"description": "Protection for one's head"
 				},
 				"iron_circlet_recipe": {
@@ -8328,14 +8328,14 @@
 				"description": "Uniform for all carpenters"
 			},
 			"carpenter_saw": {
-				"display_name": "Carpenter's Saw",
+				"display_name": "Serrote do carpinteiro",
 				"description": "Tools of the trade for a Carpenter.",
 				"carpenter_saw_iconic": {
-					"display_name": "Carpenter's Saw",
+					"display_name": "Serrote do carpinteiro",
 					"description": "Basic level carpenter's saw."
 				},
 				"carpenter_saw_talisman": {
-					"display_name": "Carpenter's Saw",
+					"display_name": "Serrote do carpinteiro",
 					"description": "Required to promote a hearthling into a Carpenter."
 				}
 			},
@@ -8445,7 +8445,7 @@
 				},
 				"weaver_spindle_recipe": {
 					"description": "Required to promote a hearthling into a Weaver.",
-					"recipe_name": "Carrtel do Tecelão",
+					"recipe_name": "Carretel do Tecelão",
 					"flavor": "From fiber, thread, from thread, fabric, from fabric, civilization."
 				},
 				"window_box_brightbell_recipe": {
@@ -8519,7 +8519,7 @@
 				},
 				"wooden_sword_recipe": {
 					"description": "Required to promote a hearthling into a Footman.",
-					"recipe_name": "Wooden Practice Sword",
+					"recipe_name": "Espada de Treinamento (Madeira)",
 					"flavor": "Just pointy enough to get the job done."
 				},
 				"wooden_wall_lantern_recipe": {
@@ -8816,10 +8816,10 @@
 			},
 			"engineer_wrench": {
 				"engineer_wrench_talisman": {
-					"display_name": "Engineer's Wrench",
+					"display_name": "Chave inglesa do (Engenheiro)",
 					"description": "Required to promote a hearthling into an Engineer"
 				},
-				"display_name": "Engineer's Wrench",
+				"display_name": "Chave inglesa do (Engenheiro",
 				"description": "Tools of the trade for an Engineer"
 			},
 			"engineer_workbench": {
