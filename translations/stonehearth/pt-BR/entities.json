@@ -2238,7 +2238,7 @@
 					"description": "Juicy and exciting!"
 				},
 				"turnip_serving": {
-					"display_name": "Turnip",
+					"display_name": "Nabo",
 					"description": "Tiny. Bitter."
 				}
 			},
@@ -2315,7 +2315,7 @@
 				"description": "Uma barra de aço puro."
 			},
 			"stone_bricks": {
-				"display_name": "Stack of Stone Bricks",
+				"display_name": "Pilha de tijolos de pedra",
 				"description": "A key component of stone buildings"
 			},
 			"thread": {

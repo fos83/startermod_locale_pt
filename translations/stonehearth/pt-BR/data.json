@@ -3181,7 +3181,7 @@
 			"animal_companion": {
 				"animal_companion_trait": {
 					"display_name": "Animal Companion",
-					"description": "Ever since [name(i18n_data.savior)] saved their [str(i18n_data.species)] from mortal danger, they've been inseparable.",
+					"description": "Ever since [name(i18n_data.savior)] saved their [str(i18n_data.species)], [name(i18n_data.savee)], from mortal danger, they've been inseparable.",
 					"default_species": "Companheiro"
 				}
 			},

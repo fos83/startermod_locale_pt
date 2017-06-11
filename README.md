@@ -1,5 +1,5 @@
 # startermod_locale_pt (BR/PT)
-Stonehearth(Alpha 21) Portuguese translation 
+Stonehearth(Alpha 22) Portuguese translation 
 * [Download](https://www.4shared.com/file/Ro6duSUaei/startermod_locale_pt.html)
 
 ## Utilizado 
