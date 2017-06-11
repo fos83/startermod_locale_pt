@@ -1,0 +1,62 @@
+{
+	"jobs": {
+		"potter": {
+			"potter_description": {
+				"requirements": "Requer um cortador de oleiro."
+			},
+			"recipes": {
+				"mason_clay_chisel_recipe": {
+					"description": "Requerido para promover um hearthling em um pedreiro",
+					"recipe_name": "Cinzel de argila do pedreiro",
+					"flavor": "\"Uma ferramenta usada para fazer pedras grandes em rochas menores, mais bonitas, mais funcionais.\" "
+				},
+				"trading_post_monument_recipe": {
+					"recipe_name": "Monumento de Trocas de Mercadoria",
+					"description": "Identifica sua cidade como um posto de comércio respeitável"
+				},
+				"monkey_shrine_monument_recipe": {
+					"description": "Um lugar para prestar homenagem ao Macaco e ao Seu Mistério",
+					"recipe_name": "Monumento do santuário do macaco"
+				},
+				"exotic_trade_monument_recipe": {
+					"description": "Um tributo à habilidade de sua cidade no comércio exótico",
+					"recipe_name": "Monumento da Tapeçaria"
+				},
+				"herbalist_clay_staff_recipe": {
+					"flavor": "'Essas flores cuidam de seu jardineiro como o jardineiro cuida deles.' -Zale, Mestre herborista"
+				}
+			}
+		},
+		"herbalist": {
+			"herbalist_description": {
+				"requirements": "Bastão do Herborista, criado pelo Oleiro"
+			}
+		},
+		"mason": {
+			"mason_description": {
+				"requirements": "Requer um oleiro do nível 2 e um cinzel de pedreiro, criado pelo oleiro."
+			}
+		},
+		"cook": {
+			"recipes": {
+				"golden_gourd_curry_recipe": {
+					"description": "As cabaças são mais comestíveis quando cozidas?",
+					"recipe_name": "Curry de Cabaça Dourado",
+					"flavor": ""
+				},
+				"flat_bread_recipe": {
+					"description": "Pão sem fermento feito de farinha de milho",
+					"recipe_name": "Pão simples"
+				},
+				"meat_tagine_recipe": {
+					"description": "Carne e legumes cozido em um pote de barro",
+					"recipe_name": "Tagine de guisado de carne"
+				},
+				"vegetable_tagine_recipe": {
+					"description": "Legumes cozido em um pote de barro",
+					"recipe_name": "Tagine de guisado de legumes"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,517 @@
+{
+	"entities": {
+		"consumables": {
+			"cough_syrup": {
+				"description": "Cures winter ailments",
+				"display_name": "Cough Syrup"
+			},
+			"vapour_rub": {
+				"description": "Protection against the sniffles",
+				"display_name": "Victor's Vapour Rub"
+			}
+		},
+		"monsters": {
+			"goblins": {
+				"goblin_light_pole": {
+					"description": "Bright Lights! Bright Lights!",
+					"display_name": "A Goblin Light Pole"
+				},
+				"goblin_loot_chest": {
+					"description": "You wouldn't steal these would you?",
+					"display_name": "A Big Pile of Presents"
+				}
+			},
+			"cultists": {
+				"cultist": {
+					"display_name": "Cultist",
+					"description": "Kinda indistinguishable."
+				}
+			}
+		},
+		"toys": {
+			"plushie_toy_snowling": {
+				"plushie_toy_snowling_ghost": {
+					"description": "♫ Do you wanna build a Snowling? ♫",
+					"display_name": "Plushie Toy Snowling"
+				}
+			},
+			"frostfeast_present_pile": {
+				"frostfeast_present_pile_ghost": {
+					"description": "A decorative pile of presents",
+					"display_name": "Frostfeast Presents Pile"
+				}
+			},
+			"clockwork_engine": {
+				"clockwork_engine_ghost": {
+					"description": "Choo Choo!",
+					"display_name": "Clockwork Engine"
+				}
+			},
+			"frostfeast_present_pile_tree_ring": {
+				"frostfeast_present_pile_tree_ring_ghost": {
+					"description": "A decorative pile of presents for your tree",
+					"display_name": "Frostfeast Presents Pile (Tree)"
+				}
+			}
+		},
+		"construction": {
+			"frostfeast_wooden_double_door": {
+				"frostfeast_wooden_double_door_ghost": {
+					"description": "A Festive Wooden Door",
+					"display_name": "Frostfeast Wooden Double Door"
+				}
+			},
+			"frostfeast_iron_double_door": {
+				"frostfeast_iron_double_door_ghost": {
+					"description": "A Festive Iron Door",
+					"display_name": "Frostfeast Iron Double Door"
+				}
+			},
+			"frostfeast_wooden_door": {
+				"frostfeast_wooden_door_ghost": {
+					"description": "A Festive Wooden Double Door",
+					"display_name": "Frostfeast Wooden Door"
+				}
+			},
+			"frostfeast_iron_door": {
+				"frostfeast_iron_door_ghost": {
+					"description": "A Festive Iron Door",
+					"display_name": "Frostfeast Iron Door"
+				}
+			},
+			"frostfeast_wooden_window_frame": {
+				"frostfeast_wooden_window_frame_ghost": {
+					"description": "A Festive Wooden Window Frame",
+					"display_name": "Frostfeast Wooden Window Frame"
+				}
+			},
+			"frostfeast_stone_window_frame": {
+				"frostfeast_stone_window_frame_ghost": {
+					"description": "A Festive Stone Window Frame",
+					"display_name": "Frostfeast Stone Window Frame"
+				}
+			},
+			"frostfeast_stone_chimney": {
+				"frostfeast_stone_chimney_ghost": {
+					"description": "A warm home starts with a warm hearth",
+					"display_name": "Frostfeast Stone Chimney"
+				}
+			}
+		},
+		"furniture": {
+			"frostfeast_comfy_bed": {
+				"description": "A very warm and stylish bed",
+				"display_name": "Luxurious Comfy Bed"
+			}
+		},
+		"armor": {
+			"hunter_hat": {
+				"description": "A warm Hunter's style hat",
+				"display_name": "Hunter's Hat"
+			},
+			"bobble_hat": {
+				"description": "A warm Bobble hat",
+				"display_name": "Bobble Hat"
+			},
+			"reindeer_hat": {
+				"description": "A Novelty Reindeer Hat",
+				"display_name": "Novelty Reindeer Hat"
+			},
+			"fhois_hat": {
+				"description": "The Frostfeast Hat of Impossible Spendor",
+				"display_name": "'FHOIS' Hat",
+				"flavor": "You have just won the internet."
+			},
+			"festive_fighting_shield": {
+				"description": "Because War never changes...",
+				"display_name": "Festive Fighting Shield"
+			}
+		},
+		"critters": {
+			"pig": {
+				"pig_description": "A low maintenance food vacuum",
+				"pig_display_name": "A Pig"
+			}
+		},
+		"wealth": {
+			"offering": {
+				"bauble_description": "A Gift prepared by the Church of Plenty",
+				"bauble_display_name": "Ancient Bauble",
+				"blacksmith_description": "A Gift prepared by the Blacksmith",
+				"blacksmith_display_name": "Blacksmith's Offering",
+				"carpenter_description": "A Gift prepared by the Carpenter",
+				"carpenter_display_name": "Carpenter's Offering",
+				"cook_description": "A Gift prepared by the Cook",
+				"cook_display_name": "Cook's Offering",
+				"engineer_description": "A Gift prepared by the Engineer",
+				"engineer_display_name": "Engineer's Offering",
+				"herbalist_description": "A Gift prepared by the Herbalist",
+				"herbalist_display_name": "Herbalists Offering",
+				"mason_description": "A Gift prepared by the Mason",
+				"mason_display_name": "Mason's Offering",
+				"potter_description": "A Gift prepared by the Potter",
+				"potter_display_name": "Potter's Offering",
+				"plentiful_description": "A Gift prepared by the Church of Plenty",
+				"plentiful_display_name": "Plentiful Offering",
+				"sublime_plentiful_description": "A Gift prepared by the Church of Plenty",
+				"sublime_plentiful_display_name": "Sublime Plentiful Offering",
+				"achernar_plentiful_description": "A Gift prepared by the Church of Plenty",
+				"achernar_plentiful_display_name": "Plentiful Offering",
+				"achernar_sublime_plentiful_description": "A Gift prepared by the Church of Plenty",
+				"achernar_sublime_plentiful_display_name": "Sublime Plentiful Offering",
+				"weaver_description": "A Gift prepared by the Weaver",
+				"weaver_display_name": "Weaver's Offering"
+			}
+		},
+		"food": {
+			"figgy_pudding": {
+				"figgy_pudding": {
+					"display_name": "Figgy Pudding",
+					"description": "Delicious and Warming",
+					"flavor": "Yummy!"
+				},
+				"figgy_pudding_serving": {
+					"display_name": "Figgy Pudding",
+					"description": "Delicious and Warming"
+				}
+			},
+			"frostfeast_cake": {
+				"frostfeast_cake": {
+					"display_name": "Frostfeast Cake",
+					"description": "A rich Fruitcake encased in frosting",
+					"flavor": "Will be around longer than your Hearthlings"
+				},
+				"frostfeast_cake_serving": {
+					"display_name": "Frostfeast Cake",
+					"description": "A rich Fruitcake encased in frosting"
+				}
+			},
+			"frostfeast_ham": {
+				"frostfeast_ham": {
+					"display_name": "Frostfeast Ham",
+					"description": "Succulent and Tender",
+					"flavor": "A Traditional Frostfeast Roast!"
+				},
+				"frostfeast_ham_serving": {
+					"display_name": "Frostfeast Ham",
+					"description": "Succulent and Tender"
+				}
+			},
+			"pig_meat": {
+				"display_name": "Pig Meat",
+				"description": "Perfect for a winter roast"
+			},
+			"ginger": {
+				"display_name": "Ginger",
+				"description": "A Winter Cooking Ingredient"
+			},
+			"pig_feed": {
+				"pig_feed": {
+					"display_name": "Pig Feed",
+					"description": "For feeding Pigs."
+				},
+				"pig_feed_ground": {
+					"display_name": "Pig Feed",
+					"description": "Pigs love to eat this stuff."
+				}
+			},
+			"ginger_bread": {
+				"ginger_bread": {
+					"display_name": "Ginger Bread",
+					"description": "Delicious and Warming",
+					"flavor": "A warming winter treat"
+				},
+				"ginger_bread_serving": {
+					"display_name": "Ginger Bread",
+					"description": "Delicious and Warming"
+				}
+			},
+			"pumpkin_soup": {
+				"pumpkin_soup": {
+					"display_name": "Bowl of Pumpkin Soup",
+					"description": "A mushed up bowl of Pumpkin!",
+					"flavor": ""
+				},
+				"pumpkin_soup_serving": {
+					"display_name": "A Portion of Pumpkin Soup",
+					"description": "Delicious."
+				}
+			},
+			"pumpkin_pie": {
+				"pumpkin_pie": {
+					"display_name": "Pumpkin Pie",
+					"description": "Best left on a window sill!",
+					"flavor": "Sweet and Tasty"
+				},
+				"pumpkin_pie_serving": {
+					"display_name": "A Slice of Pumpkin Pie",
+					"description": "Sweet and delicious."
+				}
+			}
+		},
+		"plants": {
+			"fig": {
+				"fig_basket": {
+					"display_name": "Basket of Figs",
+					"description": "Juicy"
+				},
+				"fig_serving": {
+					"display_name": "Handful of Figs",
+					"description": "Juicy"
+				}
+			}
+		},
+		"decoration": {
+			"frostfeast_monument": {
+				"frostfeast_monument_tree": {
+					"stages": {
+						"seedling": {
+							"display_name": "Festive Seedling",
+							"description": "The shape of things to come"
+						},
+						"sapling": {
+							"display_name": "Festive Sapling",
+							"description": "Awww, look at the widdle tree!"
+						},
+						"pole": {
+							"display_name": "Festive Pole",
+							"description": "A young festive tree!"
+						},
+						"tree": {
+							"substages": {
+								"super_healthy": {
+									"display_name": "Monument Tree",
+									"description": "Emits a warm festive aura"
+								},
+								"healthy": {
+									"display_name": "Festive Tree",
+									"description": "The shape of things to come"
+								},
+								"waning": {
+									"display_name": "Waning Festive Tree",
+									"description": "The tree is troubled and is starting to wane"
+								},
+								"buggered": {
+									"display_name": "Dying Festive Tree",
+									"description": "What a horrible thing to witness"
+								}
+							}
+						}
+					}
+				},
+				"frostfeast_monument_ghost": {
+					"display_name": "Frostfeast Monument",
+					"description": "A Magical Shrine from the Church Of Plenty"
+				},
+				"frostfeast_monument_bauble": {
+					"display_name": "Frostfeast Bauble",
+					"description": "A Magical Bauble"
+				},
+				"pillar_1": {
+					"pillar_1_ghost": {
+						"display_name": "Stone Hearth",
+						"description": "Desperately they huddled in the cold"
+					}
+				},
+				"pillar_2": {
+					"pillar_2_ghost": {
+						"display_name": "Traveller Stone",
+						"description": "An old man asking for charity"
+					}
+				},
+				"pillar_3": {
+					"pillar_3_ghost": {
+						"display_name": "Phoenix Stone",
+						"description": "The conjured flame"
+					}
+				},
+				"pillar_4": {
+					"pillar_4_ghost": {
+						"display_name": "Bounty Stone",
+						"description": "And their packs were full"
+					}
+				}
+			},
+			"frostfeast_obsidian_monument": {
+				"frostfeast_obsidian_monument_ghost": {
+					"display_name": "Frozen Monument",
+					"description": "The pillars seem out of sequence..."
+				},
+				"pillar": {
+					"pillar_ghost": {
+						"display_name": "Frozen Obsidian PIllar"
+					}
+				}
+			},
+			"frostfeast_snowling": {
+				"frostfeast_snowling": {
+					"display_name": "Snowling",
+					"description": "♫ Do you wanna build a Snowling? ♫"
+				}
+			},
+			"frostfeast_candle": {
+				"frostfeast_candle_ghost": {
+					"display_name": "Frostfeast Candle",
+					"description": "An ornate Frostfeast candle"
+				}
+			},
+			"frostfeast_mosiac": {
+				"frostfeast_mosiac_ghost": {
+					"display_name": "Frostfeast Tree Mosaic",
+					"description": "A beautiful Frostfeast Mosaic"
+				}
+			},
+			"frostfeast_mosiac_2": {
+				"frostfeast_mosiac_2_ghost": {
+					"display_name": "Frostfeast Bell Mosaic",
+					"description": "A beautiful Frostfeast Mosaic"
+				}
+			},
+			"frostfeast_wreath": {
+				"frostfeast_wreath_ghost": {
+					"display_name": "Frostfeast Wreath",
+					"description": "A traditional Frostfeast decoration"
+				}
+			},
+			"frostfeast_stocking": {
+				"frostfeast_stocking_ghost": {
+					"display_name": "Frostfeast Stocking",
+					"description": "Have you been naughty or nice?"
+				}
+			},
+			"frostfeast_lights": {
+				"frostfeast_lights": {
+					"display_name": "Frostfeast Lights",
+					"description": "Brighten up that gloom!",
+					"iconic_description": "How are they tangled up already?"
+				}
+			},
+			"frostfeast_rug": {
+				"frostfeast_rug_ghost": {
+					"display_name": "Frostfeast Rug",
+					"description": "A cheery and festive Rug"
+				}
+			},
+			"frostfeast_tree": {
+				"frostfeast_tree": {
+					"display_name": "Frostfeast Tree",
+					"description": "Brighten up that gloom!",
+					"iconic_description": "♫ Oh..it's beginning to look a lot like Frostfeast! ♫"
+				}
+			},
+			"stone_heater": {
+				"stone_heater": {
+					"display_name": "Stone Heater",
+					"description": "A Source of warmth",
+					"iconic_description": "A Source of warmth"
+				}
+			},
+			"decorative_chimney_stack": {
+				"decorative_chimney_stack": {
+					"display_name": "Decorative Stone Chimney Stack",
+					"description": "A Decorative Chimney Stack",
+					"iconic_description": "Decorative Chimney Stack"
+				}
+			},
+			"frostfeast_floor_tile": {
+				"frostfeast_floor_tile_ghost": {
+					"display_name": "Tree Floor Tile",
+					"description": "A decorative floor tile depicting a Tree",
+					"flavor": ""
+				}
+			},
+			"frostfeast_floor_tile_2": {
+				"frostfeast_floor_tile_2_ghost": {
+					"display_name": "Bell Floor Tile",
+					"description": "A decorative floor tile depicting a Bell",
+					"flavor": ""
+				}
+			},
+			"frostfeast_floor_tile_3": {
+				"frostfeast_floor_tile_3_ghost": {
+					"display_name": "Candy Cane Floor Tile",
+					"description": "A decorative floor tile depicting a Candy Cane ",
+					"flavor": ""
+				}
+			},
+			"frostfeast_wall_tile": {
+				"frostfeast_wall_tile_ghost": {
+					"display_name": "Bell Wall Tile",
+					"description": "A decorative wall tile depicting multiple Bells ",
+					"flavor": ""
+				}
+			},
+			"frostfeast_wall_tile_2": {
+				"frostfeast_wall_tile_2_ghost": {
+					"display_name": "Tree Wall Tile",
+					"description": "A decorative wall tile depicting multiple Trees ",
+					"flavor": ""
+				}
+			}
+		},
+		"crops": {
+			"fig_crop": {
+				"display_name": "Figs",
+				"description": "An edible fruit",
+				"growth_stage": {
+					"003": {
+						"name": "Ripe Figs",
+						"description": "Ready for harvest!"
+					},
+					"002": {
+						"name": "Immature Figs",
+						"description": "Not ready for harvest"
+					},
+					"001": {
+						"name": "Fig Shrub",
+						"description": "Not ready for harvest"
+					},
+					"000": {
+						"name": "Fig Shrub",
+						"description": "Not ready for harvest"
+					},
+					"011": {
+						"name": "Rotten Figs",
+						"description": "It's dead."
+					}
+				}
+			},
+			"ginger_crop": {
+				"display_name": "Ginger",
+				"description": "A Frostfeast cooking ingredient",
+				"growth_stage": {
+					"003": {
+						"name": "Ripe Ginger",
+						"description": "Ready for harvest!"
+					},
+					"002": {
+						"name": "Ginger Bulb",
+						"description": "Not ready for harvest"
+					},
+					"001": {
+						"name": "Ginger Bulb",
+						"description": "Not ready for harvest"
+					},
+					"000": {
+						"name": "Ginger Seedling",
+						"description": "Not ready for harvest"
+					},
+					"011": {
+						"name": "Rotten Ginger",
+						"description": "It's dead."
+					}
+				}
+			}
+		},
+		"weapons": {
+			"cultist_dagger": {
+				"display_name": "Achernar's Fist",
+				"description": "A Cultist Dagger forged in Frostfire."
+			},
+			"fire_ball": {
+				"display_name": "Fireball",
+				"description": "Warning: Hot."
+			}
+		}
+	}
+}

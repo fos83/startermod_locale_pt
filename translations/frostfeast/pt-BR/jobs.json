@@ -1,0 +1,377 @@
+{
+	"jobs": {
+		"generic": {
+			"offering": "Offerings",
+			"decorations": "Decorations",
+			"building_parts": "Building Parts"
+		},
+		"blacksmith": {
+			"winter_blacksmith_outfit": {
+				"display_name": "Winter Blacksmith Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_blacksmith_outfit_iconic": {
+					"display_name": "Winter Blacksmith Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_iron_double_door_recipe": {
+					"recipe_name": "Frostfeast Iron Double Door",
+					"description": "A Festive Iron Double Door",
+					"flavor": ""
+				},
+				"frostfeast_iron_door_recipe": {
+					"recipe_name": "Frostfeast Iron Door",
+					"description": "A Festive Iron Door",
+					"flavor": ""
+				},
+				"frostfeast_candle_recipe": {
+					"recipe_name": "Frostfeast Candle",
+					"description": "An ornate festive candle",
+					"flavor": ""
+				},
+				"festive_fighting_shield_recipe": {
+					"recipe_name": "Festive Fighting Shield",
+					"description": "Because war never changes..",
+					"flavor": "The forge heat still radiates"
+				}
+			}
+		},
+		"carpenter": {
+			"winter_carpenter_outfit": {
+				"display_name": "Winter Carpenter Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_carpenter_outfit_iconic": {
+					"display_name": "Winter Carpenter Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_present_pile_recipe": {
+					"recipe_name": "Frostfeast Present Pile",
+					"description": "A decorative pile of presents",
+					"flavor": ""
+				},
+				"frostfeast_present_pile_tree_recipe": {
+					"recipe_name": "Frostfeast Present Pile",
+					"description": "A decorative pile of presents for your tree",
+					"flavor": ""
+				},
+				"frostfeast_wreath_recipe": {
+					"recipe_name": "A Festive Wreath",
+					"description": "A traditional Frostfeast decoration",
+					"flavor": ""
+				},
+				"frostfeast_wooden_window_frame_recipe": {
+					"recipe_name": "Frostfeast Wooden Window Frame",
+					"description": "A Festive Wooden Window Frame",
+					"flavor": ""
+				},
+				"frostfeast_wooden_door_recipe": {
+					"recipe_name": "Frostfeast Wooden Door",
+					"description": "A Festive Wooden Door",
+					"flavor": ""
+				},
+				"frostfeast_wooden_double_door_recipe": {
+					"recipe_name": "Frostfeast Wooden Double Door",
+					"description": "A Festive Wooden Double Door",
+					"flavor": ""
+				},
+				"frostfeast_tree_recipe": {
+					"recipe_name": "A Frostfeast Decorative Tree",
+					"description": "A traditional Frostfeast decoration",
+					"flavor": ""
+				},
+				"frostfeast_comfy_bed_recipe": {
+					"recipe_name": "A Luxurious Comfy Bed",
+					"description": "A very warm and stylish bed",
+					"flavor": ""
+				}
+			}
+		},
+		"cook": {
+			"winter_cook_outfit": {
+				"display_name": "Winter Cook Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_cook_outfit_iconic": {
+					"display_name": "Winter Cook Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"pig_feed_recipe": {
+					"recipe_name": "Pig Feed",
+					"description": "If it's edible they'll eat it",
+					"flavor": ""
+				}
+			}
+		},
+		"engineer": {
+			"winter_engineer_outfit": {
+				"display_name": "Winter Engineer Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_engineer_outfit_iconic": {
+					"display_name": "Winter Engineer Outfit",
+					"description": "So warm..."
+				}
+			},
+			"winter_engineer_helm": {
+				"display_name": "Winter Engineering Safety Googles",
+				"description": "Winter protection for expert eyes",
+				"winter_engineer_helm_iconic": {
+					"display_name": "Winter Engineering Safety Googles",
+					"description": "Beware condensation.."
+				}
+			},
+			"recipes": {
+				"frostfeast_lights_recipe": {
+					"recipe_name": "Frostfeast Lights",
+					"description": "Spent Ore and a sliver of wire makes this shiny festive decoration.",
+					"flavor": ""
+				},
+				"clockwork_engine_recipe": {
+					"recipe_name": "Clockwork Engine",
+					"description": "An Ornate Clockwork Engine.",
+					"flavor": "Imagine if I built this ten times as big!"
+				}
+			}
+		},
+		"farmer": {
+			"farmer_helm": {
+				"display_name": "A Farmer's Hat",
+				"description": "Keeps the sun out of the eyes and off of the face."
+			},
+			"winter_farmer_outfit": {
+				"display_name": "Winter Farmer Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_farmer_outfit_iconic": {
+					"display_name": "Winter Farmer Outfit",
+					"description": "So warm..."
+				}
+			}
+		},
+		"mason": {
+			"winter_mason_outfit": {
+				"display_name": "Winter Mason Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_mason_outfit_iconic": {
+					"display_name": "Winter Mason Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_stone_window_frame_recipe": {
+					"recipe_name": "Frostfeast Stone Window Frame",
+					"description": "A Festive Stone Window Frame",
+					"flavor": ""
+				},
+				"frostfeast_mosiac_2_recipe": {
+					"recipe_name": "A Frostfeast Bell Mosaic",
+					"description": "A beautiful Frostfeast Mosaic",
+					"flavor": "Features a selection of Frostfeast Bells"
+				},
+				"frostfeast_mosiac_recipe": {
+					"recipe_name": "A Frostfeast Tree Mosaic",
+					"description": "A beautiful Frostfeast Mosaic",
+					"flavor": "Features a Frostfeast Tree"
+				},
+				"stone_heater_recipe": {
+					"recipe_name": "A Stone Heater",
+					"description": "A source of warmth",
+					"flavor": ""
+				},
+				"decorative_stone_chimney_recipe": {
+					"recipe_name": "A Decorative Stone Chimney",
+					"description": "Warm those winter nights",
+					"flavor": "For decoration only"
+				},
+				"frostfeast_stone_chimney_recipe": {
+					"recipe_name": "A Stone Fireplace",
+					"description": "Warm those winter nights",
+					"flavor": "Definitely not a Stone Hearth.."
+				}
+			}
+		},
+		"herbalist": {
+			"winter_herbalist_outfit": {
+				"display_name": "Winter Herbalist Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_mason_outfit_iconic": {
+					"display_name": "Winter Herbalist Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"cough_syrup_recipe": {
+					"recipe_name": "Cough Syrup",
+					"description": "A Cure for the common cold?!",
+					"flavor": ""
+				},
+				"vapour_rub_recipe": {
+					"recipe_name": "Victor's Vapour Rub",
+					"description": "Protection against the sniffles",
+					"flavor": ""
+				}
+			}
+		},
+		"potter": {
+			"winter_potter_outfit": {
+				"display_name": "Winter Potter Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_potter_outfit_iconic": {
+					"display_name": "Winter Potter Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"frostfeast_floor_tile_recipe": {
+					"recipe_name": "Tree Floor Tile",
+					"description": "A decorative floor tile depicting a Tree",
+					"flavor": ""
+				},
+				"frostfeast_floor_tile_2_recipe": {
+					"recipe_name": "Bell Floor Tile",
+					"description": "A decorative floor tile depicting a Bell",
+					"flavor": ""
+				},
+				"frostfeast_floor_tile_3_recipe": {
+					"recipe_name": "Candy Cane Floor Tile",
+					"description": "A decorative floor tile depicting a Candy Cane",
+					"flavor": ""
+				},
+				"frostfeast_wall_tile_recipe": {
+					"recipe_name": "Bell Wall Tile",
+					"description": "A decorative wall tile depicting multiple Bells ",
+					"flavor": ""
+				},
+				"frostfeast_wall_tile_2_recipe": {
+					"recipe_name": "Tree Wall Tile",
+					"description": "A decorative wall tile depicting multiple Trees ",
+					"flavor": ""
+				}
+			}
+		},
+		"shepherd": {
+			"winter_shepherd_outfit": {
+				"display_name": "Winter Shepherd Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_shepherd_outfit_iconic": {
+					"display_name": "Winter Shepherd Outfit",
+					"description": "So warm..."
+				}
+			}
+		},
+		"trapper": {
+			"winter_trapper_outfit": {
+				"display_name": "Winter Trapper Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_trapper_outfit_iconic": {
+					"display_name": "Winter Trapper Outfit",
+					"description": "So warm..."
+				}
+			}
+		},
+		"weaver": {
+			"winter_weaver_outfit": {
+				"display_name": "Winter Weaver Outfit",
+				"description": "A heavy wool coat, for cold winter nights",
+				"winter_weaver_outfit_iconic": {
+					"display_name": "Winter Weaver Outfit",
+					"description": "So warm..."
+				}
+			},
+			"recipes": {
+				"plushie_toy_snowling_recipe": {
+					"recipe_name": "Plushie Toy Snowling",
+					"description": "♫ Do you wanna build a Snowling? ♫",
+					"flavor": ""
+				},
+				"frostfeast_stocking_recipe": {
+					"recipe_name": "Frostfeast Stocking",
+					"description": "A Stocking to hang on the wall",
+					"flavor": "Have you been naughty or nice?"
+				},
+				"frostfeast_rug": {
+					"recipe_name": "Frostfeast Rug",
+					"description": "A cheery and festive Rug",
+					"flavor": ""
+				},
+				"hunters_hat_recipe": {
+					"recipe_name": "Hunter's Style Hat",
+					"description": "A Snuggly Hat suitable for all.",
+					"flavor": ""
+				},
+				"bobble_hat_recipe": {
+					"recipe_name": "Bobble Hat",
+					"description": "A Snuggly Hat suitable for all.",
+					"flavor": ""
+				},
+				"reindeer_hat_recipe": {
+					"recipe_name": "Novelty Reindeer Hat",
+					"description": "A Snuggly Hat with added joviality",
+					"flavor": ""
+				},
+				"blacksmith_outfit_winter_recipe": {
+					"recipe_name": "Winter Blacksmith Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Blacksmith who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"carpenter_outfit_winter_recipe": {
+					"recipe_name": "Winter Carpenter Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Carpenter who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"cook_outfit_winter_recipe": {
+					"recipe_name": "Winter Cook Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Cook who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"engineer_helm_winter_recipe": {
+					"recipe_name": "Winter Engineer Helm",
+					"description": "A heavy wool helm with Googles. The Engineer who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"engineer_outfit_winter_recipe": {
+					"recipe_name": "Winter Engineer Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Engineer who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"farmer_outfit_winter_recipe": {
+					"recipe_name": "Winter Farmer Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Farmer who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"herbalist_outfit_winter_recipe": {
+					"recipe_name": "Winter Herbalist Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Herbalist who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"mason_outfit_winter_recipe": {
+					"recipe_name": "Winter Mason Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Mason who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"potter_outfit_winter_recipe": {
+					"recipe_name": "Winter Potter Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Potter who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"shepherd_outfit_winter_recipe": {
+					"recipe_name": "Winter Shepherd Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Shepherd who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"trapper_outfit_winter_recipe": {
+					"recipe_name": "Winter Trapper Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Trapper who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				},
+				"weaver_outfit_winter_recipe": {
+					"recipe_name": "Winter Weaver Outfit",
+					"description": "A heavy wool coat, for cold winter nights. The Weaver who dons this upgrade outfit will move 10% faster and suffer the cold less.",
+					"flavor": "Winter is coming!"
+				}
+			}
+		}
+	}
+}

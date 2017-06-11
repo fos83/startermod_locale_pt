@@ -1,0 +1,83 @@
+{
+	"data": {
+		"biome": {
+			"winter_desert": {
+				"display_name": "Winter Desert",
+				"description": "A Desert in Winter. Dry and sandy, with chunky hills, sparse vegetation and a generous helping of frost.....feast."
+			},
+			"winter_temperate": {
+				"display_name": "Winter Temperate",
+				"description": "Snow-topped Forests, and mountains, interweaved with rivers. A Majestic Winter Wonderland!"
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"#E43334": "Cinnabar",
+					"#FFE701": "Turbo",
+					"#7CAE21": "Citron",
+					"#1483C6": "Denim",
+					"#9A388F": "Plum",
+					"#F58816": "Ecstasy",
+					"#29443C": "Plantation",
+					"#2B5648": "Plantation Green",
+					"#643B2B": "Quincy",
+					"#49362F": "Rock",
+					"#D6E5EB": "Botticelli",
+					"#D6E5EC": "Botticelli",
+					"#C2D5DC": "Jungle Mist",
+					"#C2D5DD": "Jungle Mist",
+					"#CADBE3": "Light Botticelli",
+					"#CADBE2": "Light Botticelli"
+				},
+				"patterns": {
+					"snow_covered_roof": "Topped with a fresh layer of snow."
+				}
+			}
+		},
+		"buffs": {
+			"shivering": {
+				"sniffles": {
+					"display_name": "Sniffles",
+					"description": "Has a terrible cold"
+				},
+				"shivering_buff_1": {
+					"display_name": "Shivering",
+					"description": "Brrrr!"
+				},
+				"shivering_buff_2": {
+					"display_name": "Cold",
+					"description": "It's getting uncomfortably cold"
+				},
+				"shivering_buff_3": {
+					"display_name": "Freezing",
+					"description": "Almost frozen. Get some warmth soon!"
+				}
+			},
+			"vapour_buff": {
+				"vapour_buff": {
+					"display_name": "Vapour Rub",
+					"description": "Tingly!"
+				}
+			},
+			"comfy_clothes": {
+				"comfy_clothes_buff": {
+					"display_name": "Comfy Clothes",
+					"description": "Wearing comfy clothes that protect from the cold"
+				}
+			},
+			"warm_food": {
+				"warm_food_buff": {
+					"display_name": "Warm Food",
+					"description": "Recently got a warm meal which protects a bit from the cold"
+				}
+			}
+		},
+		"commands": {
+			"open_present": {
+				"display_name": "Unwrap offering",
+				"description": "Open the present and receive your well-earned gift!"
+			}
+		}
+	}
+}

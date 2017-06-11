@@ -1,0 +1,1419 @@
+{
+	"ui": {
+		"game": {
+			"game_speed": {
+				"pause_title": "Pause",
+				"pause_description": "Pause the game",
+				"play_title": "Play",
+				"play_description": "Run the game at normal speed",
+				"ff_title": "Fast Forward",
+				"ff_description": "Run the game at 2x speed",
+				"speedThree_title": "Super Speed",
+				"speedThree_description": "Run the game at high speed",
+				"pause_overlay": "Paused"
+			},
+			"visions": {
+				"building_vision": "Building vision",
+				"building_vision_description": "Changes the visibility of walls, allowing you to see inside buildings.",
+				"terrain_slice_vision": "Terrain slice vision",
+				"terrain_slice_vision_icon_name": "slice",
+				"terrain_slice_vision_description": "Slice the terrain, allowing you to see underground structures. Change the elevation to see different slices.",
+				"terrain_slice_vision_up": "Raise slice",
+				"terrain_slice_vision_down": "Lower slice",
+				"terrain_xray_vision_icon_name": "x-ray",
+				"terrain_xray_vision": "Terrain x-ray vision",
+				"terrain_xray_vision_description": "See through the terrain. Change between full and flat view to show underground walls.",
+				"terrain_xray_vision_flat": "flat",
+				"terrain_xray_vision_full": "full"
+			},
+			"promotion_tree": {
+				"title": "Change Job -",
+				"promotion_title": "Promote to [str(job_name)]",
+				"text_1": "In honor of steadfast efforts and resilience, we hereby advance:",
+				"text_current": "This is the hearthling's current job.",
+				"choose": "choose a hearthling...",
+				"text_2": "[str(date)]",
+				"approve": "APPROVE",
+				"approved": "APPROVED",
+				"denied": "DENIED! Requirements not met",
+				"stamper_top_text": "CLICK TO",
+				"stamper_bottom_text": "APPROVE",
+				"requires": "Requires",
+				"parent_level": "A level [str(parent_level)] [str(parent_name)]"
+			},
+			"people_picker": {
+				"title": "Choose a Hearthling",
+				"select_person": "Select",
+				"ownership_current_owner_tooltip": "Current Owner",
+				"ownership_owns_another_tooltip": "Already Owns a Similar Object"
+			},
+			"build_workshop": {
+				"title": "Build Workshop",
+				"requirements": "Requirements",
+				"create_stockpile": "Crafter's Stockpile",
+				"create_stockpile_description": "The crafter will store crafted goods in this stockpile.<p>You probably want to place it near the workbench, but hey, it's your decision.",
+				"page1_subtitle2": "Click on the ground to place the workshop",
+				"page2_subtitle2": "Click and drag on the ground to place the stockpile"
+			},
+			"citizen_character_sheet": {
+				"title": "Character Info",
+				"health": "HP",
+				"morale": "morale",
+				"experience": "experience",
+				"max_level": "Max",
+				"no_levels": "No Lvl Up",
+				"level_text": "Level ",
+				"level_abbreviation": "Lvl",
+				"locked_status": " (Locked)",
+				"apprentice": "Apprentice",
+				"journal": "Journal",
+				"thoughts": "Thoughts",
+				"morale_meter": "Morale Meter",
+				"attributes": "Attributes",
+				"equipment": "Equipment",
+				"abilities": "Job Abilities",
+				"morale_title": "Morale",
+				"overall_morale": "Overall Morale",
+				"morale_food": "Food",
+				"morale_shelter": "Shelter",
+				"morale_safety": "Safety",
+				"attack_abbreviation": "Atk",
+				"defense_abbreviation": "Def",
+				"backpack_tab_name": "Backpack",
+				"journal_no_entries": "no entries",
+				"retired": "Retired at:",
+				"traits": "Traits"
+			},
+			"pet_character_sheet": {
+				"title": "Pet Info",
+				"release_pet_confirm_dialog": {
+					"title": "Release Pet",
+					"message": "Are you sure you want to release this pet back into the wild? You won't be able to get it back.",
+					"accept": "I don't want this pet.",
+					"cancel": "Wait!"
+				},
+				"befriended_pet_description": "Befriended by [name(self.stonehearth:pet.owner)]"
+			},
+			"tutorials": {
+				"camera": {
+					"camera_pan_title": "To move the camera",
+					"camera_pan_1": "Hold down the space bar, then move the mouse",
+					"camera_pan_2": "Or use the WASD keys",
+					"camera_pan_3": "Or press the mouse wheel and move the mouse",
+					"camera_orbit_title": "To rotate the camera",
+					"camera_orbit_1": "Right click and drag to rotate the camera",
+					"camera_orbit_2": "Q and E work too",
+					"camera_zoom_title": "To zoom in and out",
+					"camera_zoom_1": "Use the mouse scroll wheel",
+					"camera_zoom_2": "Or use the + and - keys",
+					"camera_follow_title": "To follow a Hearthling",
+					"camera_follow_1": "Select the Hearthling you wish to follow",
+					"camera_follow_2": "Press the J key"
+				}
+			},
+			"save_view": {
+				"title": "Saved Games",
+				"confim_delete_title": "Confirm Delete",
+				"confirm_delete_message": "Do you really want to delete this save game?",
+				"confim_overwrite_title": "Confirm Save Overwrite",
+				"confirm_overwrite_message": "Do you really want to completely, unrevokably overwrite this save game?",
+				"save_autosave": "Automatically save periodically",
+				"auto_save_prefix": "Auto save: ",
+				"save_in_progress": "Saving...",
+				"opt_title": "Help us make Stonehearth better!",
+				"opt_text": "Will you allow us to collect anonymous performance and gameplay data to help us tune future versions of the game?",
+				"opt_in_button": "Yes, I'll help",
+				"opt_out_button": "Nah",
+				"opt_thanks": "Thanks!",
+				"save_delete": "Delete",
+				"save_overwrite": "Overwrite",
+				"save_new": "New Save",
+				"load_game": "Load Game",
+				"game_different_version": "incompatible save version",
+				"delete_incompatible_saves": "Delete Incompatible Saves",
+				"save_time": "Saved [str(save_time)]",
+				"save_tooltip_description": "Folder Name: [str(folder_name)]"
+			},
+			"common": {
+				"ok": "OK",
+				"cancel": "Cancel",
+				"yes": "Yes",
+				"no": "No",
+				"accept": "Accept",
+				"decline": "Decline",
+				"next": "Next",
+				"continue": "Continue",
+				"hotkey": "key: ",
+				"remove": "Remove",
+				"input_text_tooltip": "Click to edit",
+				"days": "d",
+				"hours": "h"
+			},
+			"party": {
+				"title": "Parties",
+				"create_party": "Create Party",
+				"edit_party": "Edit",
+				"add_party_member": "Add Member",
+				"remove_members": "Remove All Members",
+				"add_party_member_title": "Manage Roster",
+				"done_adding_members": "Done",
+				"add_party_member_button": "Add",
+				"remove_party_member_button": "Remove",
+				"not_in_party": "Not in a party",
+				"party_help": "Party members will travel together and can be directed on the battlefield.",
+				"party_editor_help": "Use this screen to add and remove hearthlings to the party.",
+				"attack_banner_button": "Attack Order",
+				"attack_banner_button_help": "Tell the party to assault a location",
+				"defend_banner_button": "Rally & Defend Order",
+				"defend_banner_button_help": "Tell the party to rally to a location when Town Defense Mode is activated"
+			},
+			"unit_frame": {
+				"show_character_sheet": "Show character sheet",
+				"focus_camera": "Focus camera on this unit",
+				"attack_target": {
+					"display_name": "Attack Move",
+					"description": "Attack a specific target or location."
+				},
+				"defend_location": {
+					"display_name": "Defend Location",
+					"description": "Defend a location from enemies."
+				},
+				"move_unit": {
+					"display_name": "Move to Location",
+					"description": "Move to a location without attacking."
+				},
+				"manage_party": {
+					"display_name": "Manage Party",
+					"description": "Add and remove combat units from the party."
+				},
+				"cancel_order": {
+					"display_name": "Cancel Combat Order",
+					"description": "Cancels active combat orders."
+				},
+				"level": "Lv: ",
+				"class_lv_title": "Class and Level Requirements",
+				"no_requirements": "None!",
+				"equipment_description": "Equippable by: [str(class_list)]",
+				"level_description": "of Level [str(level_req)]",
+				"or": " or ",
+				"num_uses": "Uses",
+				"placed": "placed",
+				"placement_tags": {
+					"turret": "Turrets",
+					"trap": "Traps"
+				}
+			},
+			"citizens": {
+				"title": "Citizens",
+				"work_orders_title": "Citizens",
+				"worker_details": "Details",
+				"workers_list_headers": {
+					"name": "Name",
+					"haul": "Haul",
+					"build": "Build",
+					"mine": "Mine",
+					"job": "Job",
+					"current_activity": "Activity",
+					"status": "Status",
+					"morale": "Morale"
+				},
+				"show_character_sheet": "Character Sheet",
+				"button_suspend": "suspend",
+				"button_resume": "resume",
+				"tab": {
+					"tasks": "Tasks",
+					"groups": "Groups"
+				},
+				"enrollment": {
+					"enrolled": "Enrolled",
+					"not_enrolled": "Not enrolled",
+					"cannot_enroll": "Cannot enroll"
+				}
+			},
+			"create_camp": {
+				"new_game_place_banner": "Click me to place your town banner",
+				"click_banner_tip": "Click the banner to choose your settlement's location",
+				"select_camp_tip": "Now click somewhere in the world",
+				"name_camp_title": "Name your settlement",
+				"name_camp_prompt": "Type a name for your settlement!"
+			},
+			"calendar": {
+				"months": {
+					"1": "Bittermun",
+					"2": "Deepmun",
+					"3": "Dewmun",
+					"4": "Rainmun",
+					"5": "Growmun",
+					"6": "Goldmun",
+					"7": "Feastmun",
+					"8": "Warmun",
+					"9": "Newmun",
+					"10": "Azuremun",
+					"11": "Hearthmun",
+					"12": "Northmun"
+				},
+				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
+				"date_format_long": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+				"date_format_long_ordinal": "[str(ord_day)] Day of i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
+				"date_time_long_format": "Day [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
+				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]"
+			},
+			"esc_menu": {
+				"title": "Stonehearth",
+				"resume": "Resume",
+				"save": "Save or Load Game",
+				"settings": "Settings",
+				"about": "About",
+				"quit_to_menu": "Quit to Main Menu",
+				"exit_game": "Exit Game",
+				"post_bug": "Post a bug",
+				"exit_confirm_dialog": {
+					"title": "Exit Game",
+					"message": "Completely exit the game? Any unsaved changes will be lost.",
+					"yes_button": "Yes",
+					"cancel_button": "Cancel"
+				},
+				"return_to_menu_dialog": {
+					"title": "Return to Main Menu",
+					"message": "Quit this game and return to main menu?",
+					"yes_button": "Yes",
+					"cancel_button": "Cancel"
+				}
+			},
+			"entities": {
+				"custom_name": "[str(self.stonehearth:unit_info.custom_name)]",
+				"unknown_name": "Unknown",
+				"item_categories": {
+					"food": "Food",
+					"cooking_ingredient": "Cooking Ingredients",
+					"resources": "Resources",
+					"furniture": "Furniture",
+					"armor": "Armor",
+					"decoration": "Decorations",
+					"construction": "Construction",
+					"door": "Doors",
+					"window": "Windows",
+					"plants": "Plants",
+					"weapons": "Weapons",
+					"tools": "Tools",
+					"wealth": "Wealth",
+					"refined": "Refined",
+					"uncategorized": "Uncategorized",
+					"workshops": "Workshops",
+					"consumable": "Consumables",
+					"storage": "Storage",
+					"defense": "Defense",
+					"trophy": "Trophies",
+					"none": "None"
+				},
+				"tooltip_combat_base_damage": "Atk:",
+				"tooltip_combat_base_damage_reduction": "Def:",
+				"tooltip_num_undeployed": "Undeployed: [str(num_undeployed)]",
+				"death_notification": "[name(i18n_data.entity)] has died.",
+				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
+				"starving_notification": "[name(i18n_data.citizen)] is starving!",
+				"health_status_normal": "Normal",
+				"health": "HP",
+				"gender": {
+					"male": "Male",
+					"female": "Female"
+				}
+			},
+			"menu": {
+				"town_menu": {
+					"display_name": "Town Info",
+					"description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
+				},
+				"citizen_manager": {
+					"display_name": "Citizens",
+					"description": "Manage your hearthlings and promote them to new jobs."
+				},
+				"harvest_menu": {
+					"display_name": "Harvest",
+					"description": "Harvest resources or mine into the earth.",
+					"items": {
+						"harvest": {
+							"display_name": "Gather",
+							"description": "Gather trees, plants, and stones from the surface of the land",
+							"tip_title": "Click and drag to harvest resources",
+							"tip_description": "Right click to exit this mode"
+						},
+						"mining_ui": {
+							"display_name": "Mine Tunnel",
+							"description": "Mine out tunnels and caves",
+							"tip_title": "Click and drag to dig downward",
+							"tip_description": "Right click to exit"
+						},
+						"mine_block": {
+							"display_name": "Mine Block",
+							"description": "Mine individual blocks",
+							"tip_title": "Click and drag to dig downward",
+							"tip_description": "Right click to exit"
+						},
+						"loot_item": {
+							"display_name": "Loot",
+							"description": "Take items from enemies",
+							"tip_title": "Click and drag to loot items from the world",
+							"tip_description": "Right click to exit this mode"
+						},
+						"cancel_task": {
+							"display_name": "Cancel Task",
+							"description": "Cancel tasks on this object",
+							"tip_title": "Click and drag to remove various commands",
+							"tip_description": "Right click to exit this mode"
+						},
+						"clear_item": {
+							"display_name": "Clear",
+							"description": "Clear items out of the world",
+							"tip_title": "Click and drag to permanently clear items from the world",
+							"tip_description": "Right click to exit this mode",
+							"confirm_title": "Are you really sure you want to clear these items?",
+							"confirm_message": "Usable items in the area will be permanently destroyed",
+							"confirm_clear": "Yes, destroy!",
+							"confirm_clear_no": "No! I need that stuff!"
+						}
+					}
+				},
+				"zone_menu": {
+					"display_name": "Designate Zones",
+					"description": "Designate areas of the ground for storage, farming, etc.",
+					"items": {
+						"create_stockpile": {
+							"display_name": "Stockpile",
+							"description": "Place a stockpile for storing resources.",
+							"tip_title": "Click and drag to create your stockpile",
+							"tip_description": "Right click to exit this mode"
+						},
+						"create_farm": {
+							"display_name": "Farm",
+							"description": "Place a farm on the terrain.",
+							"required_job_text": "Requires a farmer",
+							"tip_title": "Click and drag to designate a new field",
+							"tip_description": "Farmers will break ground and plant crops here"
+						},
+						"create_trapping_grounds": {
+							"display_name": "Trapping Ground",
+							"description": "Place traps to capture small critters.",
+							"required_job_text": "Requires a trapper",
+							"tip_title": "Click and drag to create trapping grounds",
+							"tip_description": "Trappers catch critters for food and resources in this zone"
+						},
+						"create_pasture": {
+							"display_name": "Animal Pasture",
+							"description": "The shepherd will bring animals here to graze.",
+							"required_job_text": "Requires a shepherd",
+							"tip_title": "Click and drag to create an animal pasture",
+							"tip_description": "Shepherds bring animals to this region and tend to their needs here."
+						}
+					}
+				},
+				"build_menu": {
+					"display_name": "Build & Design",
+					"description": "Build structures like houses and city walls.",
+					"items": {
+						"building_templates": {
+							"display_name": "Place Building",
+							"description": "Choose to construct a building from a pre-designed template"
+						},
+						"custom_building": {
+							"display_name": "Design Building",
+							"description": "Design your own one-of-a-kind building"
+						},
+						"place_item": {
+							"display_name": "Place Item",
+							"description": "Place items like furniture and decoration",
+							"tip_title": "Click to place this item",
+							"tip_description": "Rotate with , and . keys"
+						},
+						"cannot_place_item": {
+							"tip_title": "Cannot place this item",
+							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+						},
+						"build_ladder": {
+							"display_name": "Construct Ladder",
+							"description": "Build a ladder to access hard to reach places",
+							"tip_title": "Click on a wall to build ladders",
+							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+						}
+					}
+				},
+				"fight_menu": {
+					"display_name": "Fight & Defend",
+					"description": "Manage your combat forces",
+					"items": {
+						"party_manager": {
+							"display_name": "Parties",
+							"description": "Organize your troops into groups"
+						},
+						"town_alert": {
+							"display_name": "Town Alert Mode!",
+							"description": "Rally your hearthlings to prepare for intruders!",
+							"activated_title": "Town Alert Mode Activated!",
+							"activated_text": "Your hearthlings are vigilantly watching for intruders. Non-combat hearthlings will run to safety points."
+						},
+						"party_1": {
+							"display_name": "Combat Party 1",
+							"description": "Direct hearthlings with combat jobs into battle! Promoted combat units are automatically added here.",
+							"tip_title": "The party is selected in the unit frame.",
+							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+						},
+						"party_2": {
+							"display_name": "Combat Party",
+							"description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
+							"tip_title": "The party is selected in the unit frame.",
+							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+						},
+						"party": {
+							"required_job_text": "Requires a combat job"
+						}
+					}
+				},
+				"crafter_menu": {
+					"display_name": "Crafters",
+					"description": "Build and manage crafting workshops",
+					"items": {
+						"carpenter": {
+							"display_name": "Carpenter Craft Menu",
+							"description": "Build wooden furniture and decor.",
+							"required_job_text": "Requires a carpenter"
+						},
+						"weaver": {
+							"display_name": "Weaver Craft Menu",
+							"description": "Create clothes, fabrics, and decor.",
+							"required_job_text": "Requires a weaver"
+						},
+						"mason": {
+							"display_name": "Mason Craft Menu",
+							"description": "Chisel stone weapons and furniture.",
+							"required_job_text": "Requires a mason"
+						},
+						"blacksmith": {
+							"display_name": "Blacksmith Craft Menu",
+							"description": "Smelt ore for weapons and armor.",
+							"required_job_text": "Requires a blacksmith"
+						},
+						"cook": {
+							"display_name": "Cook Craft Menu",
+							"description": "Makes food taste better and last longer.",
+							"required_job_text": "Requires a cook"
+						},
+						"potter": {
+							"display_name": "Potter Craft Menu",
+							"description": "Makes bricks and goods from clay.",
+							"required_job_text": "Requires a potter"
+						},
+						"herbalist": {
+							"display_name": "Herbalist Craft Menu",
+							"description": "Makes healing items from herbs.",
+							"required_job_text": "Requires an herbalist"
+						},
+						"engineer": {
+							"display_name": "Engineer Craft Menu",
+							"description": "Make contraptions and defensive weaponry",
+							"required_job_text": "Requires an engineer"
+						}
+					}
+				},
+				"bulletin_manager": {
+					"display_name": "Bulletins",
+					"description": "Important notifications about the world and your town"
+				},
+				"tasks_manager": {
+					"display_name": "Manage Tasks",
+					"description": "Do task stuff.",
+					"remove_stockpile": "Remove Stockpile",
+					"pause_stockpile": "Pause",
+					"resume_stockpile": "Resume",
+					"group": {
+						"stockpiles": "Stockpiles",
+						"building": "Building",
+						"placement": "Placed Items",
+						"maintenance": "General Maintenance",
+						"farming": "Farming",
+						"harvesting": "Harvesting",
+						"mining": "Mining",
+						"trapping": "Trapping"
+					},
+					"percent_full": "[str(percent)] Percent Full",
+					"active": "active",
+					"paused": "paused"
+				},
+				"warnings": {
+					"town_inventory_full": "Town Items Full"
+				}
+			},
+			"bulletin": {
+				"bulletin_list_title": "Notifications",
+				"shop": {
+					"buy_1": "Buy 1",
+					"buy_10": "Buy 10",
+					"buy_all": "Buy All",
+					"sell_1": "Sell 1",
+					"sell_10": "Sell 10",
+					"sell_all": "Sell All",
+					"buy_tab": "Buy",
+					"sell_tab": "Sell",
+					"shop_gold_label": "Gold",
+					"shopkeeper_gold_label": "Merchant gold",
+					"not_enough_gold_tooltip": "Not enough gold",
+					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
+				},
+				"city_dialog": {
+					"proclamation": "PROCLAMATION OF"
+				},
+				"city_tier_dialog": {
+					"build_and_place": "Build & Place",
+					"attain_net_worth": "Attain Net Worth:",
+					"check_requirements": "Check Requirements",
+					"summon_herald": "Summon Herald!"
+				},
+				"level_up_bulletin": {
+					"title": "[name(i18n_data.entity)] has Leveled Up!",
+					"show_char_sheet": "Character Sheet"
+				},
+				"immigration_report": {
+					"title": "Daily Update",
+					"immigration_report_title": "Immigration Report",
+					"population_label": "[str(town_name)] population",
+					"next_requirements_label": "Next hearthling requirements...",
+					"tooltips": {
+						"food": "Higher quality food provides higher food scores.",
+						"morale": "Keep your hearthlings safe, well-fed, and comfortable to improve morale.",
+						"net_worth": "Estimated value of your town. Collect items, accumulate gold and build buildings to increase your net worth."
+					}
+				},
+				"collection_quest": {
+					"pay": "Here you go!",
+					"cancel": "I've changed my mind"
+				},
+				"inventory_full": {
+					"title": "Town Items Full",
+					"message": "You've reached the maxiumum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+				}
+			},
+			"build_mode": {
+				"tooltips": {
+					"building_tools": "Building Tools",
+					"erase": "Erase Tool",
+					"voxel_tools": "Voxel Tools",
+					"voxel_add": "Add Voxel",
+					"voxel_paint": "Paint Voxel",
+					"voxel_remove": "Remove Voxel",
+					"selection": "Selection",
+					"delete": "Delete",
+					"undo": "Undo (Ctrl + Z)",
+					"draw_slab_tool": "Slabs",
+					"draw_floor_tool": "Foundations",
+					"grow_floor_tool": "Floors",
+					"grow_roof_tool": "Roofs",
+					"draw_door_tool": "Doors",
+					"draw_window_tool": "Windows",
+					"grow_wall_tool": "Walls",
+					"draw_wall_tool": "Free Standing Walls",
+					"draw_road_tool": "Roads",
+					"place_furniture_tool": "Furniture",
+					"place_decoration_tool": "Decorations",
+					"erase_tool": "Erase",
+					"draw_stairs_tool": "Stairs"
+				},
+				"overhead_tips": {
+					"wall_segment_tip_title": "Click to place freestanding wall segments",
+					"wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
+					"build_title_building_designer": "Building Designer",
+					"build_floor_tip_title": "Click and drag to place floor tiles",
+					"build_floor_tip_description": "Right click to exit",
+					"build_slab_tip_title": "Click and drag to build a slab",
+					"build_slab_tip_description": "Right click to exit",
+					"erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
+					"erase_structure_tip_description": "Right click to exit",
+					"roof_tip_title": "Click a walled floorplan to place the roof",
+					"roof_tip_description": "Right click to exit",
+					"raise_walls_tip_title": "Click a floorplan to add walls",
+					"raise_walls_tip_description": "Right click to exit",
+					"doodad_tip_title": "Click a wall to place the door or window",
+					"doodad_tip_description": "Right click to exit",
+					"draw_template_title": "Click to build template",
+					"draw_template_description": "Rotate with , and . keys",
+					"build_road_tip_title": "Click and drag to build road",
+					"build_road_tip_description": "Right click to exit",
+					"stairs_tip_title": "Click to place stairs",
+					"stairs_tip_description": "Right click to exit. Rotate with , and . keys"
+				},
+				"building_cost": {
+					"required_item": "Needed Items"
+				},
+				"overview": {
+					"title": "Building Designer - [str(building_name)]",
+					"building_name": "Building Name",
+					"building_cost": "Materials Needed",
+					"start_building": "Build!",
+					"pause_building": "Pause building",
+					"continue_building": "Continue building",
+					"save_building_template": "Save",
+					"finished_editing": "Finished Editing",
+					"start_editing": "Edit",
+					"build_complete_title": "Congratulations!",
+					"build_complete_description": "this building is complete",
+					"compute_scaffolding": "Building Planning"
+				},
+				"roof_shape": {
+					"title": "Slope, Direction, & Size",
+					"max_height": "Max Height",
+					"rise_slope": "Rise Slope",
+					"y_offset": "Roof Offset",
+					"show_gradient": "Slope",
+					"show_margin": "Overhang"
+				},
+				"stairs_shape": {
+					"shape_title": "Stairs Shape",
+					"options_title": "Stairs Options",
+					"max_height": "Free-standing Height",
+					"width": "Width",
+					"solid_stairs": "Solid Stairs",
+					"hollow_stairs": "Hollow Stairs"
+				},
+				"building_templates": {
+					"title": "Building Templates",
+					"design_custom_building": "Design Custom Building",
+					"template_names": {
+						"tiny_cottage": "Tiny Cottage",
+						"cottage_for_two": "Cottage for Two",
+						"shared_sleeping_quarters": "Shared Sleeping Quarters",
+						"dining_hall": "Dining Hall",
+						"little_clay_house": "Little Clay House",
+						"clay_house_for_two": "Clay House for Two",
+						"clay_dining_room": "Clay Dining Room",
+						"clay_dormitory": "Clay Dormitory"
+					},
+					"set_template_name_title": "Template Name",
+					"template_default_name": "My new building template",
+					"set_template_name_prompt": "Enter a name for this template",
+					"remove_template_confirm": {
+						"title": "Delete Template",
+						"message": "Are you sure you want to delete this building template?",
+						"keep_template": "Keep this template",
+						"remove_template": "Delete it!"
+					},
+					"remove_template_button": "Delete Template",
+					"build_template_button": "Build"
+				},
+				"place_item": {
+					"title": "Place an Item"
+				},
+				"materials": {
+					"wall": {
+						"material": "Wall Material",
+						"wood_resource": "Wooden Wall",
+						"stone_resource": "Stone Wall",
+						"clay_resource": "Clay Wall",
+						"clay_brick_resource": "Clay Brick Wall"
+					},
+					"foundation": {
+						"material": "Foundation Material",
+						"wood_resource": "Wooden Foundation",
+						"stone_resource": "Stone Foundation",
+						"clay_resource": "Clay Foundation",
+						"clay_brick_resource": "Clay Brick Foundation"
+					},
+					"slab": {
+						"material": "Slab Material",
+						"wood_resource": "Wooden Slab",
+						"stone_resource": "Stone Slab",
+						"clay_resource": "Clay Slab",
+						"clay_brick_resource": "Clay Brick Slab"
+					},
+					"floor": {
+						"material": "Floor Material",
+						"wood_resource": "Wooden Floor",
+						"stone_resource": "Stone Floor",
+						"clay_resource": "Clay Floor",
+						"clay_brick_resource": "Clay Brick Floor"
+					},
+					"roof": {
+						"material": "Roof Material",
+						"wood_resource": "Wooden Roof",
+						"stone_resource": "Stone Roof",
+						"clay_resource": "Clay Roof",
+						"clay_brick_resource": "Clay Brick Roof"
+					},
+					"column": {
+						"material": "Column Material",
+						"wood_resource": "Wooden Column",
+						"stone_resource": "Stone Column",
+						"clay_resource": "Clay Column",
+						"clay_brick_resource": "Clay Brick Column"
+					},
+					"road": {
+						"material": "Road Material",
+						"wood_resource": "Wooden Road",
+						"stone_resource": "Stone Road",
+						"clay_resource": "Clay Road",
+						"clay_brick_resource": "Clay Brick Road"
+					},
+					"stairs": {
+						"material": "Stairs Material",
+						"wood_resource": "Wooden Stairs",
+						"stone_resource": "Stone Stairs",
+						"clay_resource": "Clay Stairs",
+						"clay_brick_resource": "Clay Brick Stairs"
+					}
+				},
+				"start_building_confirm": {
+					"title": "Really start building?",
+					"message": "Once you begin building this structure cannot be edited or removed! Are you sure you want to build now?",
+					"yes": "Yes, start building!",
+					"no": "Not yet"
+				},
+				"remove_building_confirm": {
+					"title": "Really remove this building",
+					"message": "Are you sure you want to remove this entire building?",
+					"keep_building": "Keep this building",
+					"remove_building": "Remove this building"
+				}
+			},
+			"zones_mode": {
+				"farm": {
+					"choose_crop": "Choose a Crop",
+					"fallow_name": "Fallow",
+					"fallow_description": "Plant no crop and let the soil renew itself."
+				},
+				"mining": {
+					"help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
+					"disable": "Suspend Mining",
+					"enable": "Resume Mining"
+				},
+				"trapping_grounds": {
+					"help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
+					"disable": "Suspend Trapping",
+					"enable": "Resume Trapping"
+				},
+				"pasture": {
+					"help": "Shepherds bring animals to this region and tend to their needs here.",
+					"choose_pasture_type": "Choose Pasture Type",
+					"sheep_pasture_name": "Sheep Pasture",
+					"rabbit_pasture_name": "Rabbit Pen",
+					"poyo_pasture_name": "Poyo Coop",
+					"sheep_pasture_description": "Sheep produce wool, used by the weaver. Slaughtering sheep will produce mutton, a raw cooking ingredient",
+					"rabbit_pasture_description": "Rabbits reproduce quickly and can be slaughtered for jerky and pelts",
+					"poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient. Slaughtering poyo will yield meat and, occasionally, feathers for crafting",
+					"num_animals": "Animals:"
+				},
+				"stockpile": {
+					"default_stockpile_name": "Stockpile",
+					"contents": "Contents",
+					"filter": "Filter",
+					"help": "Click the icons to choose what to store in this stockpile.",
+					"used_space": "Used space:",
+					"filters": {
+						"all": "All",
+						"none": "None",
+						"resources": "Resources",
+						"construction": "Construction",
+						"goods": "Tools & Goods",
+						"gear": "Weapons & Armor",
+						"food_and_drink": "Food & Drink",
+						"wealth": "Wealth",
+						"tooltip_tools": "Talismans and Workbenches",
+						"tooltip_wood": "Wood",
+						"tooltip_stone": "Stone",
+						"tooltip_clay": "Clay",
+						"tooltip_ore": "Ore",
+						"tooltip_animal_part": "Animal Pelts and Skins",
+						"tooltip_resource_pile": "resource piles",
+						"tooltip_plant": "Plants",
+						"tooltip_portal": "Doors & Windows",
+						"tooltip_furniture": "Furniture",
+						"tooltip_defense": "Defenses",
+						"tooltip_light": "torches & lights",
+						"tooltip_decoration": "Decorations",
+						"tooltip_refined_weaver": "Thread, Cloth, and Leather",
+						"tooltip_refined_craftables": "Refined Craftables",
+						"tooltip_refined_animal_part": "goods produced from bits of animals",
+						"tooltip_refined_ore": "Metal Bars",
+						"tooltip_weapons": "Weapons",
+						"tooltip_ranged_weapon": "ranged weapons",
+						"tooltip_equipment": "Armor and Other Equipment",
+						"tooltip_heavy_armor": "heavy armor",
+						"tooltip_exotic_gear": "exotic gear",
+						"tooltip_drink": "tasty beverages",
+						"tooltip_gold": "Gold Chests",
+						"tooltip_trophy": "Trophies",
+						"tooltip_raw_food": "Raw Foods",
+						"tooltip_prepared_food": "Cooked Foods",
+						"tooltip_cooking_ingredients": "Cooking Ingredients and Animal Feed",
+						"tooltip_consumables": "Healing Items and Other Consumables"
+					}
+				}
+			},
+			"show_workshop": {
+				"workshop_title": "[str(job_name)] Crafting Orders",
+				"placeholder": "Type to search",
+				"show_workshop_description": "Owned by [name(owner)]",
+				"unclaimed_workshop_description": "Unclaimed",
+				"workshop_entity_claimed_description": "Owned by [name(self.stonehearth:workshop.crafter)]",
+				"craft_number_left": "Craft",
+				"craft_number_right": "right now.",
+				"craft_up_to_left": "Maintain",
+				"craft_up_to_right": "in inventory.",
+				"craft_ingredients": "Ingredients:",
+				"craft_requirements": "Requirements:",
+				"unlock_text": "To Unlock:",
+				"crafting_status": "crafting...",
+				"crafting_status_queued": "Queued",
+				"workshop_paused_status": "paused...",
+				"workshop_remove_confirm": "Remove?",
+				"workshop_open": "Open!",
+				"workshop_closed": "Closed",
+				"maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
+				"craft": "Craft!",
+				"craft_queue_full": "Orders Full!",
+				"craftable_locked": "Unlocked at Level: [str(level)]",
+				"workshop_requirement_title": "Workshop",
+				"workshop_none_required": "None required!",
+				"workshop_required": "Requires a placed ",
+				"level_requirement_title": "Level Requirement",
+				"level_requirement_none": "None Required!",
+				"level_requirement_needed": "Requires a ",
+				"level_requirement_level": " of Level ",
+				"too_many_symbol": "lots",
+				"requirements_unmet_general": "Craft Requirements Unmet!",
+				"queue_anyway": "Queue Order Anyway",
+				"recipe_tab": "Recipes",
+				"orders_tab": "Orders",
+				"missing_ingredients": "Missing ingredients: "
+			},
+			"town_overview": {
+				"title": "Town Overview",
+				"town_morale": "Town Morale",
+				"journal": {
+					"default_message": "No journal entries yet!",
+					"signature": "--[name(entry.person)]",
+					"today": "Today",
+					"town_log": "Town Log",
+					"praises": "Praises",
+					"gripes": "Gripes",
+					"praise_empty": "Nothing praiseworthy happened today.",
+					"gripe_empty": "Whoa. I guess nobody has anything to gripe about."
+				},
+				"networth": {
+					"town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
+					"size": {
+						"camp": "Camp",
+						"settlement": "Settlement",
+						"hamlet": "Hamlet",
+						"village": "Village",
+						"town": "Town",
+						"county": "County",
+						"kingdom": "Kingdom",
+						"empire": "Empire"
+					},
+					"morale_descriptor": {
+						"0": "Wretched",
+						"1": "Miserable",
+						"2": "Dejected",
+						"3": "Listless",
+						"4": "Fair",
+						"5": "Good",
+						"6": "Contented",
+						"7": "Merry",
+						"8": "Joyous",
+						"9": "Buoyant",
+						"10": "Incandescent"
+					}
+				},
+				"score": {
+					"net_worth": "Net worth",
+					"buildings": "Buildings",
+					"inventory": "Inventory",
+					"agriculture": "Agriculture",
+					"edibles": "Edibles",
+					"overall_morale": "Overall Morale",
+					"food": "Food",
+					"shelter": "Shelter",
+					"safety": "Safety",
+					"military_strength": "Military Strength"
+				},
+				"inventory": {
+					"item_count": "Items:"
+				},
+				"tab": {
+					"town_overview": "Town Overview",
+					"inventory": "Inventory",
+					"journal": "Journal"
+				}
+			}
+		},
+		"shell": {
+			"about": {
+				"title": "About Stonehearth",
+				"attributions": "The following is a list of OpenSource Software that is used in Stonehearth:"
+			},
+			"loading_screen": {
+				"initial_load_game_text": "Loading",
+				"initial_load_map_text": "Generating World",
+				"loading_map_flavor_text": {
+					"001": "sharpening right angles...",
+					"002": "decompressing voxels...",
+					"003": "synthesizing fauna...",
+					"004": "redistributing redistributables...",
+					"005": "terracing terrain...",
+					"006": "stocking piles...",
+					"007": "inflating trees...",
+					"008": "rising sun...",
+					"009": "floating clouds...",
+					"010": "burlying hands...",
+					"011": "bushing berries...",
+					"012": "confabulating childhood...",
+					"013": "resolving determinism...",
+					"014": "cubulating companionship...",
+					"015": "existentializing dilemmas...",
+					"016": "improvising morals...",
+					"017": "splining reticulators..",
+					"018": "diversifying gender...",
+					"019": "homogenizing motivation...",
+					"020": "deriving history...",
+					"021": "indexing bugs...",
+					"022": "compiling truth...",
+					"023": "recollecting marbles...",
+					"024": "effecting mass...",
+					"025": "experiencing higher math...",
+					"026": "proliferating flowers...",
+					"027": "escaping realism...",
+					"028": "positioning plushies...",
+					"029": "regulating hairbobs...",
+					"030": "shearing sheep...",
+					"031": "percolating brain...",
+					"032": "poking poyos..."
+				},
+				"tips": {
+					"000": "If your workers get stuck in a mine, you can build a ladder to get them out!",
+					"001": "Your hearthlings will get a better night's sleep if you provide beds for them.",
+					"002": "Build pens around your pastures to make sure shepherded animals stay put.",
+					"003": "Stockpiles can be changed to hold specific kinds of items.",
+					"004": "You can farm silkweed for a steady supply of thread fiber.",
+					"005": "A well fed town is a happy town.",
+					"006": "Use the < and > keys to rotate an item or building before placing it.",
+					"007": "Your hearthlings move faster on roads.",
+					"008": "The weaver can craft new uniforms that increases the effectiveness of your workers.",
+					"009": "Sitting during a meal helps with digestion. Build tables and chairs for your hearthlings.",
+					"010": "Shepherds will automatically find sheep to fill a pasture.",
+					"011": "If you want a higher net worth, try selling your items to a merchant for gold.",
+					"012": "Resources and Food do not contribute to your town net worth.",
+					"013": "The curiosity attribute increases experience gain.",
+					"014": "Fine items have a higher net worth than their normal versions.",
+					"015": "The net worth of an item is its sell value.",
+					"016": "You can use a tunnel door to block off your mining tunnel entrances.",
+					"017": "Don't want your hearthlings to leave town? The Engineer can make a lockable door.",
+					"018": "Settlers with a high Mind attribute will make good crafters.",
+					"019": "Place food stockpiles closer to work areas so it's easier for your hearthlings to access food.",
+					"020": "Trappers can set traps in the mountains and the desert, but there are fewer critters there.",
+					"021": "You can disable a combat unit's job in the Citizens panel to force them to take a rest from fighting.",
+					"022": "Mining dirt will occasionally yield clay and stone.",
+					"023": "You can visually see ore veins in the side of mountains.",
+					"024": "Need a starting food source? Move Berry Bushes or Prickly Pear Cacti closer to your town.",
+					"025": "After defeating the Goblin Chieftain, you can claim Bluebell the sheep as your own.",
+					"026": "Your hearthlings don't like being in cramped spaces for too long.",
+					"027": "Farm animals can reproduce if there are at least 2 of the same animals in a pen."
+				}
+			},
+			"select_settlement": {
+				"title": "Click the map to choose your settlement's location",
+				"loading": "Loading",
+				"settle_at_this_location": "Settle here!",
+				"clear_selection": "Choose another location",
+				"regenerate_map": "Roll new map",
+				"world_seed": "World Seed: ",
+				"terrain_stats": {
+					"trees_and_plants_title": "Trees & Plants",
+					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
+					"wildlife_title": "Wildlife",
+					"wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
+					"minerals_title": "Minerals",
+					"minerals_description": "You will need minerals if you plan on building things from stone or metal."
+				},
+				"terrain_codes": {
+					"water": "Water",
+					"plains_1": "Plains",
+					"plains_2": "Plains",
+					"foothills_1": "Foothills",
+					"foothills_2": "Foothills",
+					"foothills_3": "Foothills",
+					"mountains_1": "Mountains",
+					"mountains_2": "Mountains",
+					"mountains_3": "Mountains",
+					"mountains_4": "Mountain Peak",
+					"mountains_5": "Mountain Peak",
+					"mountains_6": "Mountain Peak",
+					"mountains_7": "Mountain Peak",
+					"mountains_8": "Mountain Peak",
+					"vegetation_0": "Nary a weed",
+					"vegetation_1": "Sparse",
+					"vegetation_2": "Average",
+					"vegetation_3": "Dense",
+					"vegetation_4": "Lush",
+					"wildlife_0": "Desolate",
+					"wildlife_1": "Scarce",
+					"wildlife_2": "Common",
+					"wildlife_3": "Plentiful",
+					"wildlife_4": "Abundant",
+					"mineral_0": "None",
+					"mineral_1": "Sparse",
+					"mineral_2": "Infrequent",
+					"mineral_3": "Common",
+					"mineral_4": "Ample"
+				}
+			},
+			"settings": {
+				"title": "Settings",
+				"graphics": "Graphics",
+				"gameplay": "Gameplay",
+				"card": "Display Adapter: ",
+				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
+				"gfx_enable_shadows": "Enable Shadows",
+				"gfx_enable_vsync": "Enable Vertical Sync",
+				"gfx_enable_fullscreen": "Fullscreen (Requires Restart)",
+				"gfx_msaa": "Anti-Aliasing Level",
+				"gfx_shadows": "Shadow Detail",
+				"gfx_max_lights": "Maximum Number of Lights",
+				"gfx_max_shadows": "Maximum Number of Shadows",
+				"gfx_drawdistance": "Draw Distance",
+				"gfx_enable_ssao": "Enable Ambient Occlusion",
+				"gfx_use_high_quality": "Enable High Quality Graphics",
+				"shadow_0": "off",
+				"shadow_1": "just a touch",
+				"shadow_2": "a little",
+				"shadow_3": "a little more",
+				"shadow_4": "a lot",
+				"shadow_5": "a whole lot!",
+				"aa_slider_0": "off",
+				"aa_slider_1": "a little",
+				"aa_slider_2": "a little more",
+				"aa_slider_3": "a lot",
+				"aa_slider_4": "a whole lot!",
+				"sound": "Sound",
+				"background_music_volume": "Music Volume",
+				"effects_volume": "Effects Volume",
+				"system": "System",
+				"force_32_bit": "* Force 32-bit (Requires Restart)",
+				"force_32_bit_note": "* Force 32-bit only if absolutely necessary. 64-bit is faster and supports larger towns.",
+				"collect_profile": "Collect profile",
+				"enable_lua_jit": "Use Lua JIT (Requires Restart)",
+				"send_anon_data": "Send anonymous feedback to help improve Stonehearth!",
+				"language_select": "Language",
+				"gameplay_tab": {
+					"title": "Gameplay",
+					"experimental": "Experimental",
+					"experimental_description": "These settings are still under development and may not be stable! Enable at your own risk!",
+					"enable_speed_3": "Enable Game Speed 3 (Requires UI Refresh)",
+					"enable_speed_3_note": "Note: Game performance might be slow with larger towns on speed 3. Be warned!",
+					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
+					"default_storage_filter_none": "Storage filter defaults to None",
+					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
+					"show_hearthling_paths": "Show Hearthling paths",
+					"show_hearthling_paths_description": "Display the path your hearthlings are following.",
+					"max_citizens": "Max Citizens",
+					"randomize_attributes": "Randomize Hearthling Attributes",
+					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
+					"auto_loot": "Auto Loot",
+					"auto_loot_description": "When an enemy drops loot, automatically mark it for pick up.",
+					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
+					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters."
+				},
+				"mods": "Mods",
+				"mods_tab": {
+					"title": "Installed Modules",
+					"note": "Enabling or disabling a module requires a game reload.",
+					"invalid_manifest": "Invalid Manifest",
+					"out_of_date": "Out of Date",
+					"deferred_load": "Automatically Loaded by Other Mods",
+					"required": "Required",
+					"mods_changed_dialog": {
+						"title": "Modules Changed",
+						"message": "The game needs to reload to apply module changes. Reload now?",
+						"accept": "Ok",
+						"cancel": "Cancel"
+					}
+				}
+			},
+			"title_screen": {
+				"exit": "exit",
+				"settings": "settings",
+				"about": "about",
+				"kingdom_of": "The Kingdom of",
+				"continue_game": "Continue",
+				"new_game": "New Game",
+				"load_game": "Load Game",
+				"quick_start": "Quick Start",
+				"patch_notes": "Show Patch Notes",
+				"alpha_welcome_dialog": {
+					"title": "Welcome to Stonehearth!",
+					"message": "Warning: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
+					"accept": "Yes, I want to help!",
+					"cancel": "No, thanks."
+				},
+				"mod_conflic_dialog": {
+					"title": "Module Conflicts Detected!",
+					"message": "Warning: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
+					"accept": "Yes, proceed."
+				}
+			},
+			"select_game_story": {
+				"title": "Choose your adventure",
+				"story_start": "This is the story of ...",
+				"kingdom_section_start": "... a brave band of settlers from ",
+				"select_button": "?",
+				"kingdom_picker_title": "Select a Kingdom",
+				"biome_section_start": "Seeking new lands and adventure, they set off to ",
+				"biome_picker_title": "Select a Biome",
+				"game_mode_select_start": ", a location that is sure to be",
+				"game_mode_picker_title": "Select a Difficulty",
+				"game_modes": {
+					"normal": {
+						"display_name": "Normal",
+						"description": "Adventure forth in a world fraught with danger. Your town will be subject to raiding enemies.",
+						"post_selection_text": "an inspiring place to start anew."
+					},
+					"peaceful": {
+						"display_name": "Peaceful",
+						"description": "A sandbox-mode, where you're free to build your town without worrying about invaders whatsoever.",
+						"post_selection_text": "a tranquil place to start anew."
+					},
+					"hard": {
+						"display_name": "Hard",
+						"description": "Face more difficult monsters than normal mode",
+						"post_selection_text": "a daunting place to start anew."
+					}
+				},
+				"biome_warning_title": "Beware, Traveler...",
+				"biome_warning_text": "Crafting resources can be hard to find when choosing The Ascendancy to settle in the Desert Biome or Rayya?s Children in the Temperate Biome. An issue we hope to fix soon.<br><br>Do you still want to continue with your current selection?",
+				"begin_button": "Select Roster"
+			},
+			"select_roster": {
+				"reroll_citizens": "Roll all Citizens",
+				"citizen_info": "Customize your party",
+				"accept_roster": "Accept Roster",
+				"randomize": "Randomize Appearance",
+				"hair_style": "Hair Style",
+				"skin_color": "Skin Color",
+				"facial_hair": "Facial Hair",
+				"hair_color": "Hair Color",
+				"name": "name",
+				"name_and_appearance": "name and appearance",
+				"appearance": "appearance"
+			},
+			"loadout": {
+				"title": "Select starting resources",
+				"start": "Start"
+			}
+		},
+		"debug": {
+			"post_bug": {
+				"title": "Filing bugs",
+				"message": "Thanks for participating in the Stonehearth Alpha! Here's how you can file a bug.",
+				"file_bug_step_1": "Go to http://discourse.stonehearth.net/c/support/bug-reports",
+				"file_bug_step_2": "Check the list of active topics, and if your bug hasn't already been reported, create a new topic",
+				"file_bug_step_3": "When filing bugs, please be sure to include all the information requested in the report, and copy the text of all engine errors. Screenshots for visual bugs are also helpful.",
+				"file_bug_step_4": "If you're encountering a crashing bug, please check out http://discourse.stonehearth.net/t/13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
+			},
+			"error_browser": {
+				"title": "Engine Error",
+				"filename_label": "filename",
+				"close_permanently_button": "Close Permanently",
+				"prev_button": "Prev",
+				"next_button": "Next",
+				"copy_button": "Copy to Clipboard"
+			},
+			"error_dialog_js": {
+				"title": "UI Error",
+				"reset_hint": "Press F5 to Reset the UI.",
+				"copy_button": "Copy to Clipboard"
+			}
+		},
+		"data": {
+			"tooltips": {
+				"stamina": {
+					"display_name": "Stamina",
+					"description": "This hearthling's physical endurance.",
+					"bullet_points": {
+						"000": "Each point increases max health by 1"
+					}
+				},
+				"inventiveness": {
+					"display_name": "Inventiveness",
+					"description": "How good this hearthling is at creating things. Good inventors are more likely to create fine craftables.",
+					"bullet_points": {
+						"000": "Every 2 points increases chance to craft a fine item by 1%"
+					}
+				},
+				"shelter": {
+					"display_name": "Shelter",
+					"description": "Make sure your hearthlings have a comfortable bed to sleep in.",
+					"town_description": "How your citizens feel about their lodging situation. Are there beds to sleep in?"
+				},
+				"compassion": {
+					"display_name": "Compassion",
+					"description": "How likely this hearthling will help out a fellow villager or befriend others.",
+					"bullet_points": {
+						"000": "Determines maximum trapper pet count",
+						"001": "Increases shepherd animal happiness",
+						"002": "Every 10 points increases direct healing amount by 1"
+					}
+				},
+				"food": {
+					"display_name": "Food",
+					"description": "Make sure foods of different variety and quality are available. Cooked foods are more liked than raw foods.",
+					"town_description": "How your citizens feel about the town's food situation. Is there enough to eat? Try to obtain a variety of foods!"
+				},
+				"diligence": {
+					"display_name": "Diligence",
+					"description": "How long this hearthling can work before needing rest.",
+					"bullet_points": {
+						"000": "Determines sleep duration"
+					}
+				},
+				"willpower": {
+					"display_name": "Willpower",
+					"description": "How likely this hearthling is to resist enemy charms.",
+					"bullet_points": {
+						"000": "Determines health regeneration"
+					}
+				},
+				"net_worth": {
+					"display_name": "Net Worth",
+					"description": "A reflection of the prosperity of your town. Buildings, inventory, and agriculture combine to form this score."
+				},
+				"courage": {
+					"display_name": "Courage",
+					"description": "How brave this hearthling is in the face of combat.",
+					"bullet_points": {
+						"000": "Determines chance to flee in combat"
+					}
+				},
+				"muscle": {
+					"display_name": "Muscle",
+					"description": "This hearthling's brawn.",
+					"bullet_points": {
+						"000": "Every 10 muscle increases weapon damage by 1"
+					}
+				},
+				"happiness": {
+					"display_name": "Overall Moral",
+					"description": "This hearthling's overall happiness",
+					"town_description": "How happy your citizens are overall."
+				},
+				"speed": {
+					"display_name": "Speed",
+					"description": "How fast this hearthling moves."
+				},
+				"body": {
+					"display_name": "Body",
+					"description": "Competence at physical activities. Hearthlings with a high Body stat will move a bit faster, attack harder, and live longer. Influences Muscle, Speed, Stamina."
+				},
+				"edibles": {
+					"display_name": "Edibles",
+					"description": "The gold value of all the food in the town's inventory.",
+					"town_description": "The gold value of all the food in the town's inventory"
+				},
+				"mind": {
+					"display_name": "Mind",
+					"description": "The ability to think intelligently. A high Mind stat allows a hearthling to excel in complex mental activities such as crafting. Influences Diligence, Curiosity, Inventiveness."
+				},
+				"curiosity": {
+					"display_name": "Curiosity",
+					"description": "How much this hearthling enjoys new experiences.",
+					"bullet_points": {
+						"000": "Every 10 curiosity increases bonus experience earned by 1"
+					}
+				},
+				"spirit": {
+					"display_name": "Spirit",
+					"description": "Faith in other people. A high Spirit hearthling will easily befriend animals and stand strong against enemies. Influences Courage, Willpower, Compassion."
+				},
+				"safety": {
+					"display_name": "Safety",
+					"description": "Protect your town from raiders and make your citizens feel safe by assigning guards.",
+					"town_description": "How your citizens feel about the town's security. Is the town well protected or getting pillaged by goblins?"
+				},
+				"inventory": {
+					"display_name": "Inventory",
+					"description": "The gold value of all non-Resource and non-Edible items in the town inventory."
+				},
+				"buildings": {
+					"display_name": "Buildings",
+					"description": "The value of all the buildings constructed your town. Large buildings will have slightly higher score contributions than small ones."
+				},
+				"agriculture": {
+					"display_name": "Agriculture",
+					"description": "The value of farming fields and pastures in your town. Each planted crop and each pasture animal contributes to the score."
+				},
+				"military_strength": {
+					"display_name": "Military Strength",
+					"description": "A value that reflects how strong your town is militarily. Combat units and equipped weapons and armor contribute to this score."
+				},
+				"content": {
+					"display_name": "Content",
+					"town_description": "Your citizens are satisfied with the way things have been going."
+				},
+				"jubilant": {
+					"display_name": "Jubilant",
+					"town_description": "Your citizens are incredibly happy living here!"
+				},
+				"forlorn": {
+					"display_name": "Forlorn",
+					"town_description": "Your citizens have been having an incredibly hard time lately."
+				},
+				"merry": {
+					"display_name": "Merry",
+					"town_description": "Your citizens are generally happy."
+				},
+				"glum": {
+					"display_name": "Glum",
+					"town_description": "Your citizens aren't feeling great, overall."
+				},
+				"exp_bar": {
+					"description": "This hearthling's progress to next level."
+				},
+				"health_status": {
+					"description": "This hearthling's current health status."
+				},
+				"suspend_button": {
+					"description": "Pause or resume a work type."
+				},
+				"current_gender": {
+					"display_name": "Gender",
+					"description": "This hearthling identifies as [str(gender)]."
+				},
+				"change_gender": {
+					"display_name": "Gender",
+					"description": "Click to change this hearthling's identified gender to [str(gender)]."
+				},
+				"customization_lock": {
+					"description": "This hearthling's [str(customization)] will be saved during trait and stat rerolls."
+				},
+				"customization_lock_all": {
+					"description": "Click to lock all name and appearance options."
+				},
+				"customization_unlock_all": {
+					"description": "Click to unlock all name and appearance options."
+				}
+			},
+			"constants": {
+				"food_meat_raw_name": "Raw Meat",
+				"food_veggie_raw_name": "Raw Vegetable",
+				"stone_resource_name": "Stone",
+				"pelt_resource_name": "Fur Pelt",
+				"cloth_resource_name": "Bolt of Cloth",
+				"wood_resource_name": "Wood Log",
+				"clay_resource_name": "Mound of Clay",
+				"clay_brick_resource_name": "Clay Bricks",
+				"thread_resource_name": "Thread",
+				"leather_resource_name": "Bolt of Leather",
+				"fiber_resource_name": "Bundle of Fiber",
+				"ingot_resource_name": "Metal Ingot",
+				"herb_resource_name": "Herb",
+				"ore_resource_name": "Ore",
+				"dirt_resource_name": "Pile of Dirt"
+			}
+		}
+	}
+}

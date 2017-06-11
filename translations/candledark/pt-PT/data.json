@@ -1,0 +1,48 @@
+{
+	"data": {
+		"names": {
+			"plagued": {
+				"male_name": "A Mindless Wight",
+				"female_name": "A Mindless Wight"
+			}
+		},
+		"buffs": {
+			"plagued": {
+				"display_name": "Plagued",
+				"description": "Not very well at all!"
+			}
+		},
+		"commands": {
+			"smash_pinata": {
+				"display_name": "Smash the Piñata",
+				"description": "It's filled with candy!"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"candledark_shop": {
+						"shop_info": {
+							"name": "Assorted Candledark Trinkets",
+							"title": "Elbezar Grimrock returns with his cart!"
+						}
+					}
+				},
+				"darkness": {
+					"mission": {
+						"sighted_bulletin": {
+							"title": "The Undead errupt from the ground!"
+						}
+					}
+				},
+				"darknessIII": {
+					"mission": {
+						"sighted_bulletin": {
+							"title": "Evil bursts from the shadows!"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"costumes_name": "Costumes",
+				"clown_mask_recipe": {
+					"recipe_name": "Clown Mask",
+					"description": "A traditional Candledark costume",
+					"flavor": "Nothing creepy about a clown! Right!"
+				},
+				"monster_mask_recipe": {
+					"recipe_name": "Monster Mask",
+					"description": "A fancy Candledark costume!",
+					"flavor": "Braaaaaaaaainz!"
+				},
+				"pumpkin_hat_recipe": {
+					"recipe_name": "Pumpkin Hat",
+					"description": "A traditional Candledark costume",
+					"flavor": "When you have absolutely nothing else to wear!"
+				},
+				"scream_mask_recipe": {
+					"recipe_name": "Spooky Mask",
+					"description": "Very Spooky!",
+					"flavor": "Hello Sidney!"
+				},
+				"witches_hat_recipe": {
+					"recipe_name": "Witches Hat",
+					"description": "A traditional Candledark costume",
+					"flavor": "Hello my pretty!"
+				},
+				"plushie_toy_ghost_recipe": {
+					"description": "A traditional Candledark toy.",
+					"recipe_name": "A Plushie Toy Ghost"
+				},
+				"plushie_toy_hanging_ghost_recipe": {
+					"description": "A traditional Candledark toy.",
+					"recipe_name": "A Plushie Toy Hanging Ghost"
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"ankh_ward_recipe": {
+					"description": "For warding against Vampires",
+					"recipe_name": "Ankh Ward"
+				},
+				"decorative_burial_mound_recipe": {
+					"description": "A traditional Candledark decoration.",
+					"recipe_name": "Decorative Burial Mound"
+				},
+				"cobblestone_fence_brazier_recipe": {
+					"description": "Helps light up those dark nights",
+					"recipe_name": "Cobblestone Fence with Brazier"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"ancient_healing_tonic_recipe": {
+					"recipe_name": "Ancient Healing Tonic",
+					"description": "A Soothing Balm for Vampire, Zombie and Insect bites.",
+					"flavor": "Apply liberally to bite area. If undead state persists, refer to GP."
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"candledark_name": "Defences",
+				"cobblestone_fence_rail_recipe": {
+					"description": "Now with added protection.",
+					"recipe_name": "A Reinforced Cobblestone Wall"
+				},
+				"cobblestone_tripple_fence_rail_recipe": {
+					"description": "Now with added protection.",
+					"recipe_name": "A Reinforced Tripple Cobblestone Wall"
+				},
+				"spooky_fence_gate_recipe": {
+					"description": "Heavily Reinforced Spooky Gate!",
+					"recipe_name": "A Candledark Gate"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"candledark_name": "Decorations",
+				"scarecrow_recipe": {
+					"description": "A traditional Candledark decoration.",
+					"recipe_name": "A Simple Scarecrow"
+				},
+				"pinata_recipe": {
+					"description": "Filled with treats!",
+					"recipe_name": "A Candledark Piñata"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"holiday_recipes": {
+					"candledark_name": "Holiday Recipes"
+				},
+				"pumpkin_ward_recipe": {
+					"description": "A traditional Candledark decoration.",
+					"recipe_name": "Candledark Carved Pumpkin Ward"
+				},
+				"pumpkin_soup_recipe": {
+					"description": "A Pumpkin based dish.",
+					"recipe_name": "Pumpkin Soup"
+				},
+				"pumpkin_pie_recipe": {
+					"description": "Pumpkin and Pie. What's not to like?",
+					"recipe_name": "Pumpkin Pie"
+				},
+				"pumpkin_ward_lantern_recipe": {
+					"description": "A traditional Candledark decoration. Now with extra pizzazz",
+					"recipe_name": "Candledark Pumpkin Lantern"
+				},
+				"pumpkin_ward_hanging_lantern_recipe": {
+					"description": "A traditional Candledark decoration. Placeable on walls!",
+					"recipe_name": "Candledark Hanging Pumpkin Lantern"
+				}
+			}
+		}
+	}
+}

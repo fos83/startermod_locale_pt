@@ -1,0 +1,32 @@
+{
+	"entities": {
+		"gizmos": {
+			"rc_camp_standard": {
+				"rc_camp_standard_ghost": {
+					"display_name": "Banner do Acampamento",
+					"description": "Como você sabe que você chegou em casa"
+				}
+			}
+		},
+		"decoration": {
+			"monkey_shrine_monument": {
+				"monkey_shrine_monument_ghost": {
+					"display_name": "Monumento do santuário do macaco",
+					"description": "Um lugar para prestar homenagem ao Macaco e ao Seu Mistério"
+				}
+			},
+			"exotic_trade_monument": {
+				"exotic_trade_monument_ghost": {
+					"display_name": "Monumento da Tapeçaria",
+					"description": "Um tributo à habilidade de sua cidade no comércio exótico"
+				}
+			},
+			"trading_post_monument": {
+				"trading_post_monument_ghost": {
+					"display_name": "Monumento de Trocas de Mercadoria",
+					"description": "Identifica sua cidade como um posto de comércio respeitável"
+				}
+			}
+		}
+	}
+}

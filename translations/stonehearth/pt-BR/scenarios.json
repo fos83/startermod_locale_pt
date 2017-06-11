@@ -1,0 +1,84 @@
+{
+	"scenarios": {
+		"tutorial": {
+			"tutorial_steps": {
+				"create_stockpile": {
+					"ui_steps": {
+						"set1": {
+							"step001": {
+								"title": "Click the Zones button",
+								"description": "Zones define what happens where in your town"
+							},
+							"step000": {
+								"title": "We've harvested some wood",
+								"description": "Now we need someplace to store it"
+							},
+							"step003": {
+								"title": "Click the check to confirm",
+								"description": "Use the filters to determine what type of items you want to go into the stockpile"
+							},
+							"step002": {
+								"title": "Click the Create Stockpile button",
+								"description": "Hearthlings store your items in stockpiles"
+							}
+						}
+					}
+				},
+				"harvest_logs": {
+					"scenario_data": {
+						"message": "If we're going to get this town off the ground, we'll need wood, and lots of it! Chop down some nearby trees to get logs.",
+						"completed_message": "Congratulations! We've got some wood resources now. Logs and other natural resources can be used to construct buildings and craft items. They're the first building blocks for advancing your town.",
+						"title": "[str(i18n_data.town_name)] Town: Initial Supplies",
+						"resource_display_name": "Wooden logs"
+					},
+					"ui_steps": {
+						"set1": {
+							"step001": {
+								"title": "Click the Gather button",
+								"description": "Use the gather button to chop down trees"
+							},
+							"step000": {
+								"title": "Click the Harvest menu button",
+								"description": "Use the Harvest menu to gather resources from the world"
+							}
+						}
+					}
+				},
+				"promote_carpenter": {
+					"ui_steps": {
+						"set1": {
+							"step006": {
+								"title": "Click stamper to approve the promotion"
+							},
+							"step005": {
+								"title": "Click the Carpenter job button."
+							},
+							"step004": {
+								"title": "Click Change Jobs to promote this hearthling to a different job"
+							},
+							"step001": {
+								"title": "Open the Citizens manager",
+								"description": "Use this pane to manage all your citizens, view their stats, and set their task orders."
+							},
+							"step000": {
+								"title": "Promote a Hearthling to a Carpenter",
+								"description": "We have logs and a place to store goods, but the town is looking pretty empty. Fortunately, we've brought a saw along with us. Let's promote a citizen to a Carpenter!"
+							},
+							"step007": {
+								"title": "Town Crafters",
+								"description": "Carpenters and other crafters can create various goods to help your settlement, from beds, to building materials, to weapons."
+							},
+							"step003": {
+								"title": "Mouse over the numbers to learn what each attribute does",
+								"description": "Each hearthling has a Mind, Body, and Spirit attribute that affects how well they do certain things."
+							},
+							"step002": {
+								"title": "Choose a citizen to promote"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
