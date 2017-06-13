@@ -20,8 +20,8 @@
 	},
 
 	"mixintos": {
-		//Portugues Brasil
 		"stonehearth/locales/supported_languages.json": "file(added_languages.json)",
+		//Portugues Brasil
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR/ai.json)",
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR/ui.json)",
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR/data.json)",
@@ -59,10 +59,10 @@
 		"rayyas_children/locales/pt-PT.json": "file(translations/rayyas_children/pt-PT/data.json)",
 		"rayyas_children/locales/pt-PT.json": "file(translations/rayyas_children/pt-PT/entities.json)",
 
-		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-BR/ui.json)",
-		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-BR/data.json)",
-		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-BR/jobs.json)",
-		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-BR/entities.json)",
+		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT/ui.json)",
+		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT/data.json)",
+		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT/jobs.json)",
+		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT/entities.json)",
 
 		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT/ui.json)",
 		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT/data.json)",

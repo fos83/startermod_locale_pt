@@ -1,8 +1,8 @@
 {
-	"kingdom": {
-		"kingdom_name": "Rayya's Children",
-		"quote": "Meditation, mediation, medication: Order in self brings order to others brings health to all.",
-		"long_description": "The people of the desert learned early that to survive, they needed each other, and preferably as many others as they could reach. Now, visitors find them generous hosts with access to goods from all over the world.",
-		"post_selection_description": ", a society of charming, wily traders."
-	}
+   "kingdom": {
+      "kingdom_name": "Rayya's Children",
+      "quote": "Meditation, mediation, medication: Order in self brings order to others brings health to all.",
+      "long_description": "The people of the desert learned early that to survive, they needed each other, and preferably as many others as they could reach. Now, visitors find them generous hosts with access to goods from all over the world.",
+      "post_selection_description": ", a society of charming, wily traders."
+   }
 }

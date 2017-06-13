@@ -3295,20 +3295,20 @@
 			},
 			"charismatic": {
 				"charismatic_trait": {
-					"display_name": "Charismatic",
+					"display_name": "Carismático",
 					"description": "When [name(i18n_data.entity)] walks into a room, people always take notice."
 				}
 			},
 			"gregarious": {
 				"gregarious_trait": {
-					"display_name": "Gregarious",
-					"description": "[name(i18n_data.entity)] loves interacting with others, though they do get lonely pretty quickly."
+					"display_name": "Gregário",
+					"description": "Os [name(i18n_data.entity)] adoram interagir com os outros, embora eles se deixem solitários muito rapidamente."
 				}
 			},
 			"loner": {
 				"loner_trait": {
-					"display_name": "Loner",
-					"description": "[name(i18n_data.entity)] doesn't really care for the company of others. They prefer to be by themselves."
+					"display_name": "Solitário",
+					"description": "O [name(i18n_data.entity)] realmente não se importa com a companhia dos outros. Eles preferem estar sozinhos."
 				}
 			}
 		},

@@ -53,6 +53,7 @@
 				"healing_target": "curando [name(data.target)]",
 				"dig_foundation": "cavando fundação",
 				"unit_hold_location": "Defendendo localização",
+				"execute_conversation": "socializando",
 				"talk": "Conversando com [name(data.target)]",
 				"incapacitated": "incapacitado",
 				"rescue_citizen": "resgatando [name(data.target)]",
