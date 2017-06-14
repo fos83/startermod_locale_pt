@@ -3420,7 +3420,7 @@
 						"tooltip": "The [str(foodname)] I ate was pretty tasty! I still remember the combination of flavors."
 					},
 					"ate_raw": {
-						"display_name": "My meal was raw",
+						"display_name": "Minha refeição estava crua",
 						"tooltip": "I recently ate a raw [str(foodname)].  I can only imagine how much better it would have tasted were it cooked."
 					},
 					"ate_bland": {
@@ -3467,15 +3467,15 @@
 				"sleepiness": {
 					"values": {
 						"tired": {
-							"display_name": "Tired",
+							"display_name": "Cansado",
 							"tooltip": "It's been awhile since I've slept."
 						},
 						"exhausted": {
-							"display_name": "Exhausted",
+							"display_name": "Exausto",
 							"tooltip": "It feels like forever since I've slept.. I can barely keep my eyes open."
 						},
 						"fatigued": {
-							"display_name": "Fatigued",
+							"display_name": "Fatigado",
 							"tooltip": "I've been on my feet for too long. I really need some time to sleep."
 						}
 					}
