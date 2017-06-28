@@ -3310,6 +3310,12 @@
 					"display_name": "Solitário",
 					"description": "O [name(i18n_data.entity)] realmente não se importa com a companhia dos outros. Eles preferem estar sozinhos."
 				}
+			},
+			"empathetic": {
+				"empathetic_trait": {
+					"display_name": "Empático",
+					"description": "[name(i18n_data.entity)] is really sensitive to the mood of the town, and it always seems to rub off on them."
+				}
 			}
 		},
 		"happiness": {
@@ -3483,7 +3489,7 @@
 				"combat": {
 					"values": {
 						"panicked": {
-							"display_name": "Feared for their life",
+							"display_name": "Feared for my life",
 							"tooltip": "I'm not proud of how I acted when the monsters came, but it's all I could think to do."
 						}
 					}
@@ -3548,6 +3554,18 @@
 							"alone_with_thoughts": {
 								"display_name": "Alone with my own thoughts",
 								"tooltip": "Being away from others has given me the time to reflect and clear my mind."
+							}
+						}
+					},
+					"empathetic": {
+						"values": {
+							"everyone_worse_off": {
+								"display_name": "Everyone seems worse off",
+								"tooltip": "Seeing everyone else in worse spirits just brings me down."
+							},
+							"everyone_happier": {
+								"display_name": "Everyone seems happier",
+								"tooltip": "Everyone else seems to be in a better mood than me. Maybe I should look at things differently."
 							}
 						}
 					}

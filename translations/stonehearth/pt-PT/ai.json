@@ -53,7 +53,7 @@
 				"healing_target": "healing [name(data.target)]",
 				"dig_foundation": "digging foundation",
 				"unit_hold_location": "defending location",
-				"execute_conversation": "socializing",
+				"execute_conversation": "socializing",						   
 				"talk": "talking to [name(data.target)]",
 				"incapacitated": "incapacitated",
 				"rescue_citizen": "rescuing [name(data.target)]",
