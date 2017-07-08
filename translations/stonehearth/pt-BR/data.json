@@ -3181,7 +3181,7 @@
 			"animal_companion": {
 				"animal_companion_trait": {
 					"display_name": "Animal Companion",
-					"description": "Ever since [name(i18n_data.savior)] saved their [str(i18n_data.species)], [name(i18n_data.savee)], from mortal danger, they've been inseparable.",
+					"description": "Ever since [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] saved their [str(i18n_data.savee_species)], [name(i18n_data.savee)], from mortal danger, they've been inseparable.",
 					"default_species": "Companheiro"
 				}
 			},
@@ -3230,7 +3230,7 @@
 			"professor": {
 				"professor_trait": {
 					"display_name": "Professor",
-					"description": "[name(i18n_data.entity)] always likes to give advice to others based on their observations, whether the receiver wants it or not."
+					"description": "[name(i18n_data.entity)] will help people gain experience in the basics of their class, though their explanations tend to be a bit... long winded."
 				}
 			},
 			"featherweight": {
@@ -3315,6 +3315,12 @@
 				"empathetic_trait": {
 					"display_name": "Empático",
 					"description": "[name(i18n_data.entity)] is really sensitive to the mood of the town, and it always seems to rub off on them."
+				}
+			},
+			"opinionated": {
+				"opinionated_trait": {
+					"display_name": "Opinionated",
+					"description": "[name(i18n_data.entity)] has an opinion on everything, and isn't shy about sharing it."
 				}
 			}
 		},
@@ -3607,6 +3613,18 @@
 						"tough_crowd": {
 							"display_name": "Tough crowd",
 							"tooltip": "[str(target_name)] didn't laugh at my joke. Was it really that bad?"
+						}
+					},
+					"animal": {
+						"values": {
+							"nuzzled": {
+								"display_name": "Nuzzled",
+								"tooltip": "Awww, my pet [str(target_name)] always manages to cheer me up."
+							},
+							"booped": {
+								"display_name": "Booped",
+								"tooltip": "A cute [str(species)] booped me today. It made me feel warm and fuzzy inside."
+							}
 						}
 					}
 				}

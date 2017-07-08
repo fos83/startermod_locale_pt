@@ -147,7 +147,9 @@
 				"remove": "Remove",
 				"input_text_tooltip": "Click to edit",
 				"days": "d",
-				"hours": "h"
+				"hours": "h",
+				"the": "the",
+				"empty_string": ""
 			},
 			"party": {
 				"title": "Parties",

@@ -108,7 +108,7 @@
 					"camera_zoom_2": "Or use the + and - keys",
 					"camera_follow_title": "To follow a Hearthling",
 					"camera_follow_1": "Select the Hearthling you wish to follow",
-					"camera_follow_2": "Press the J key"
+					"camera_follow_2": "pressione a tecla J "
 				}
 			},
 			"save_view": {
@@ -147,7 +147,9 @@
 				"remove": "Remover",
 				"input_text_tooltip": "Click para Editar",
 				"days": "d",
-				"hours": "h"
+				"hours": "h",
+				"the": "the",
+				"empty_string": ""
 			},
 			"party": {
 				"title": "Grupos",
@@ -156,7 +158,7 @@
 				"add_party_member": "Adicionar Membro",
 				"remove_members": "Remover Todos os Membros",
 				"add_party_member_title": "Manage Roster",
-				"done_adding_members": "Done",
+				"done_adding_members": "Feito",
 				"add_party_member_button": "Adicionar",
 				"remove_party_member_button": "Remover",
 				"not_in_party": "Not in a party",
