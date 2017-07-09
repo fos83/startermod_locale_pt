@@ -1,6 +1,7 @@
 # startermod_locale_pt (BR/PT)
 Stonehearth(Alpha 22) Portuguese translation 
-* [Download](https://www.4shared.com/file/Ro6duSUaei/startermod_locale_pt.html)
+* [Download 4shared](https://www.4shared.com/file/Ro6duSUaei/startermod_locale_pt.html)
+* [Download MEGA](https://mega.nz/#!oHx3nLjL!csCBMS2lJZ-6BiUu3quBsl4_6WDEPJi6jQUY1NfU7vE)
 
 ## Utilizado 
 
