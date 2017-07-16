@@ -16,11 +16,11 @@
 				"building_vision": "Visão de Construção",
 				"building_vision_description": "Muda a visibilidade das paredes, permitindo ver dentro das construções.",
 				"terrain_slice_vision": "Visão de Terreno Fatiado",
-				"terrain_slice_vision_icon_name": "slice",
+				"terrain_slice_vision_icon_name": "Camadas",
 				"terrain_slice_vision_description": "Corte o terreno, permitindo que você veja estruturas subterrâneas. Altere a elevação para ver diferentes fatias.",
 				"terrain_slice_vision_up": "Subir corte",
 				"terrain_slice_vision_down": "Descer corte",
-				"terrain_xray_vision_icon_name": "x-ray",
+				"terrain_xray_vision_icon_name": "Raio-X",
 				"terrain_xray_vision": "Visão de Terreno Raio-X",
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
 				"terrain_xray_vision_flat": "plano",
@@ -48,10 +48,10 @@
 				"ownership_owns_another_tooltip": "Já possui um objeto similar"
 			},
 			"build_workshop": {
-				"title": "Build Workshop",
+				"title": "Construir Mesa de Trabalho",
 				"requirements": "Requisitos",
 				"create_stockpile": "Crafter's Stockpile",
-				"create_stockpile_description": "The crafter will store crafted goods in this stockpile.<p>You probably want to place it near the workbench, but hey, it's your decision.",
+				"create_stockpile_description": "O artesão vai colocar seus itens em um armazém.<p>Você provavelmente quer colocar o armazém perto da mesa de trabalho, mas é sua decisão.",
 				"page1_subtitle2": "Click on the ground to place the workshop",
 				"page2_subtitle2": "Click and drag on the ground to place the stockpile"
 			},
@@ -96,19 +96,19 @@
 			},
 			"tutorials": {
 				"camera": {
-					"camera_pan_title": "To move the camera",
-					"camera_pan_1": "Hold down the space bar, then move the mouse",
-					"camera_pan_2": "Or use the WASD keys",
-					"camera_pan_3": "Or press the mouse wheel and move the mouse",
-					"camera_orbit_title": "To rotate the camera",
-					"camera_orbit_1": "Right click and drag to rotate the camera",
-					"camera_orbit_2": "Q and E work too",
-					"camera_zoom_title": "To zoom in and out",
-					"camera_zoom_1": "Use the mouse scroll wheel",
-					"camera_zoom_2": "Or use the + and - keys",
-					"camera_follow_title": "To follow a Hearthling",
-					"camera_follow_1": "Select the Hearthling you wish to follow",
-					"camera_follow_2": "pressione a tecla J "
+					"camera_pan_title": "Para mover a câmera",
+					"camera_pan_1": "Segure a barra de espaço e mova o cursor",
+					"camera_pan_2": "Ou use as teclas WASD",
+					"camera_pan_3": "Ou pressione a roda do mouse e mova o cursor",
+					"camera_orbit_title": "Para girar a câmera",
+					"camera_orbit_1": "Clique com o botão direito e mova o cursor para girar a câmera",
+					"camera_orbit_2": "As teclas Q e E funcionam também",
+					"camera_zoom_title": "Para aumentar e diminuir o zoom",
+					"camera_zoom_1": "Use a roda do mouse",
+					"camera_zoom_2": "Ou use as teclas + e -",
+					"camera_follow_title": "Para seguir um Cidadão",
+					"camera_follow_1": "Clique no Cidadão que quer seguir",
+					"camera_follow_2": "E pressione a tecla J "
 				}
 			},
 			"save_view": {
