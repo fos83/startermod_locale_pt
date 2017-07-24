@@ -1,4 +1,4 @@
-{
+a{
 	"data": {
 		"names": {
 			"plagued": {
@@ -8,14 +8,14 @@
 		},
 		"buffs": {
 			"plagued": {
-				"display_name": "Plagued",
-				"description": "Not very well at all!"
+				"display_name": "Infectado",
+				"description": "Não está muito bem!"
 			}
 		},
 		"commands": {
 			"smash_pinata": {
-				"display_name": "Smash the Piñata",
-				"description": "It's filled with candy!"
+				"display_name": "Quebre a Pinhata!",
+				"description": "Está cheia de doces!"
 			}
 		},
 		"gm": {
@@ -24,14 +24,14 @@
 					"candledark_shop": {
 						"shop_info": {
 							"name": "Assorted Candledark Trinkets",
-							"title": "Elbezar Grimrock returns with his cart!"
+							"title": "Elbezar Grimrock retorna com suas coisas!"
 						}
 					}
 				},
 				"darkness": {
 					"mission": {
 						"sighted_bulletin": {
-							"title": "The Undead errupt from the ground!"
+							"title": "Os mortos-vivos ressurgem do solo!"
 						}
 					}
 				},
