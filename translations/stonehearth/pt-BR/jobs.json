@@ -1597,17 +1597,7 @@
 			},
 			"snare_trap": {
 				"display_name": "Snare Trap",
-				"description": "Safely immobilizes its prey",
-				"commands": {
-					"harvest_trapped_beast": {
-						"display_name": "Harvest Beast",
-						"description": "Slay the trapped beast and harvest him for materials!"
-					},
-					"tame_trapped_beast": {
-						"display_name": "Tame Beast",
-						"description": "Make friends! Befriend the trapped beast and make it your pet."
-					}
-				}
+				"description": "Safely immobilizes its prey"
 			},
 			"trapper_buffs": {
 				"speed_1_buff": {

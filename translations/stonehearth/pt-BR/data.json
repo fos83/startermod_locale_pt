@@ -3322,6 +3322,30 @@
 					"display_name": "Opinionated",
 					"description": "[name(i18n_data.entity)] has an opinion on everything, and isn't shy about sharing it."
 				}
+			},
+			"magnificent_beard": {
+				"magnificent_beard_trait": {
+					"display_name": "Magnificent Beard",
+					"description": "This hearthling has a truly magnificent beard."
+				}
+			},
+			"stoic": {
+				"stoic_trait": {
+					"display_name": "Stoic",
+					"description": "Due to their even temperament, it takes a lot to make this Hearthling happy or sad."
+				}
+			},
+			"gourmand": {
+				"gourmand_trait": {
+					"display_name": "Gourmand",
+					"description": "Only the tastiest of foods are welcome to [name(i18n_data.entity)]'s palate. They benefit more from tasty and cooked food, but become more unhappy when their food is raw and bland."
+				}
+			},
+			"goat": {
+				"goat_trait": {
+					"display_name": "Goat",
+					"description": "[name(i18n_data.entity)] will basically eat anything presented to them. They are not picky at all, sometimes to the disgust of those around them."
+				}
 			}
 		},
 		"happiness": {
@@ -3401,13 +3425,17 @@
 						"display_name": "Slept in a shared room",
 						"tooltip": "I'm sharing my room with someone else right now. I could use a little more privacy."
 					},
+					"well_rested": {
+						"display_name": "Well rested",
+						"tooltip": "Ahh, sleeping in my own bed without hearing other people snoring always leaves me refreshed."
+					},
 					"slept_outside": {
 						"display_name": "Slept outside",
 						"tooltip": "I wish I had some shelter and protection from the elements."
 					},
 					"slept_in_comfy_bed": {
 						"display_name": "Slept in a comfy bed",
-						"tooltip": "My bed is really comfortable. I felt refreshed when I woke up!"
+						"tooltip": "My bed is really comfortable. I almost didn't want to leave it!"
 					}
 				},
 				"eating": {
@@ -3422,6 +3450,14 @@
 					"carnivore_ate_veggies": {
 						"display_name": "Eu comi uma planta! Bleh!",
 						"tooltip": "There's been a mistake.  I've accidentally eaten food that my food eats."
+					},
+					"offended_palate": {
+						"display_name": "Offended Palate",
+						"tooltip": "Bleh, I hate eating stuff like [str(foodname)]. There's just no \"zazz\" to it!"
+					},
+					"pleased_palate": {
+						"display_name": "Pleased Palate",
+						"tooltip": "Mmm, my my. I really should tell the others how good [str(foodname)] was today!"
 					},
 					"ate_fine": {
 						"display_name": "Comeu uma boa refeição",
@@ -3506,10 +3542,6 @@
 							"display_name": "Misses Companion",
 							"tooltip": "Although it's been awhile since they died, I still catch myself sometimes looking for my pet, [str(pet_name)]."
 						},
-						"nuzzled": {
-							"display_name": "Nuzzled",
-							"tooltip": "Aww, [str(pet_name)] always manages to cheer me up."
-						},
 						"plant_lover": {
 							"display_name": "Plant Lover",
 							"tooltip": "Everytime I interact with plants I feel a bit calmer."
@@ -3537,6 +3569,10 @@
 						"discouraged": {
 							"display_name": "Discouraged",
 							"tooltip": "Sheesh, [str(target_name)] is no fun when they're in a bad mood."
+						},
+						"deeper_understanding": {
+							"display_name": "A deeper understanding",
+							"tooltip": "[str(target_name)] really has his priorities straight."
 						}
 					},
 					"gregarious": {
@@ -3572,6 +3608,18 @@
 							"everyone_happier": {
 								"display_name": "Everyone seems happier",
 								"tooltip": "Everyone else seems to be in a better mood than me. Maybe I should look at things differently."
+							}
+						}
+					},
+					"goat": {
+						"values": {
+							"ate_not_bad_food": {
+								"display_name": "Mmm, not bad",
+								"tooltip": "My [str(foodname)] today was a little tasty, but didn't seem that different from what I normally eat."
+							},
+							"ate_some_food": {
+								"display_name": "Ate some food",
+								"tooltip": "I had some [str(foodname)] today. It was alright, but I don't see what the big deal is."
 							}
 						}
 					}

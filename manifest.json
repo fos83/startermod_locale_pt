@@ -14,7 +14,8 @@
 			"file(ui/root/css/variables.less)",
 			"file(ui/game/citizens/citizens.less)",
 			"file(ui/game/modes/zones_mode/stockpile/stockpile.less)",
-			"file(ui/game/bulletin/bulletin_dialog/dialog_tree_bulletin_dialog/dialog_tree_bulletin_dialog.less)"
+			"file(ui/game/bulletin/bulletin_dialog/dialog_tree_bulletin_dialog/dialog_tree_bulletin_dialog.less)",
+			"file(ui/shell/settings/settings.less)"
 		]
 	},
 
