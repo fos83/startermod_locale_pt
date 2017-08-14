@@ -1107,8 +1107,8 @@
 				"send_anon_data": "Mande FeedBack Anonimo para ajudar a melhorar o Stonehearth!",
 				"language_select": "Idioma",
 				"unsaved_changes_dialog": {
-					"title": "Discard Changes?",
-					"message": "Do you want to discard unsaved changes?"
+					"title": "Descartar alteraçoes?",
+					"message": "Deseja descartar as alterações não salvas?"
 				},
 				"gameplay_tab": {
 					"title": "Jogabilidade",
