@@ -3633,6 +3633,10 @@
 						"pet_died": {
 							"display_name": "Meu animal de estimação morreu",
 							"tooltip": "My poor [str(pet_name)] passed away recently. I'll miss them quite a bit."
+						},
+						"saved_from_mortal_wounds": {
+							"display_name": "Saved from mortal wounds",
+							"tooltip": "I would have died back there were it not for those around me! I'm grateful for this second chance."
 						}
 					}
 				},
@@ -3675,6 +3679,73 @@
 							}
 						}
 					}
+				}
+			}
+		},
+		"hotkeys": {
+			"keys": {
+				"build_roof": {
+					"display_name": "Roof Tool"
+				},
+				"build_slab": {
+					"display_name": "Slab Tool"
+				},
+				"build_erase": {
+					"display_name": "Erase Tool"
+				},
+				"ui_character": {
+					"display_name": "Character Sheet"
+				},
+				"fight_move": {
+					"display_name": "Move to Location"
+				},
+				"ui_move_place_item": {
+					"display_name": "Move/Place Item"
+				},
+				"fight_cancelOrders": {
+					"display_name": "Cancel Combat Order"
+				},
+				"build_wall": {
+					"display_name": "Free Standing Wall Tool"
+				},
+				"fight_defend": {
+					"display_name": "Defend Location"
+				},
+				"build_floor_grow": {
+					"display_name": "Floor Tool"
+				},
+				"build_decoration": {
+					"display_name": "Decoration Tool"
+				},
+				"build_furniture": {
+					"display_name": "Furniture Tool"
+				},
+				"build_stair": {
+					"display_name": "Stair Tool"
+				},
+				"build_window": {
+					"display_name": "Window Tool"
+				},
+				"build_floor": {
+					"display_name": "Foundation Tool"
+				},
+				"build_road": {
+					"display_name": "Road Tool"
+				},
+				"build_door": {
+					"display_name": "Door Tool"
+				},
+				"build_wall_grow": {
+					"display_name": "Wall Tool"
+				},
+				"fight_attack": {
+					"display_name": "Attack Move"
+				},
+				"ui_notification_popup": {
+					"display_name": "Open Notification Popup"
+				},
+				"ui_undeploy_item": {
+					"display_name": "Undeploy Item"
 				}
 			}
 		}

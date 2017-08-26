@@ -1346,7 +1346,7 @@
 			},
 			"error_dialog_js": {
 				"title": "UI Error",
-				"reset_hint": "Press F5 to Reset the UI.",
+				"reset_button": "Reload UI",
 				"copy_button": "Copy to Clipboard"
 			}
 		},
