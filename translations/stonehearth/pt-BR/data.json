@@ -3271,8 +3271,8 @@
 			},
 			"passion_job": {
 				"passion_job_trait": {
-					"display_name": "Apaixonado pelo Trabalho de <br><br>[str(i18n_data.passion_job)]",
-					"description": "[name(i18n_data.entity)] always dreamed of being a [str(i18n_data.passion_job)], maybe now they'll get their chance?"
+					"display_name": "Apaixonado pelo Trabalho de [str(i18n_data.passion_job)]",
+					"description": "[name(i18n_data.entity)] sempre sonhou ser um [str(i18n_data.passion_job)], talvez ele tenha a chance dele?"
 				}
 			},
 			"pessimistic": {
