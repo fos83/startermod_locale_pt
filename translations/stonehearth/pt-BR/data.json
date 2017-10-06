@@ -280,107 +280,107 @@
 							"tier_2_shops": {
 								"weapon_armor_shop": {
 									"shop_info": {
-										"name": "Sark Blackhammer's Armory Shop",
-										"title": "Sark Blackhammer has arrived with equipment to sell"
+										"name": "Arsenal do Sark Blackhammer",
+										"title": "Sark Blackhammer chegou com equipamentos para vender"
 									}
 								},
 								"farming_supplies_shop": {
 									"shop_info": {
-										"name": "Farmer Gem's Farm Supplies",
-										"title": "Farmer Gem's supply cart rolls into town"
+										"name": "Suprimentos Agrícolas do Farmer Gem",
+										"title": "Farmer Gem chega ao vilarejo com sua carroça"
 									}
 								},
 								"bakery_shop": {
 									"shop_info": {
-										"name": "Jordan Sugarcane's Breads and Soups",
-										"title": "Jordan Sugarcane has arrived with baked goods for sale"
+										"name": "Jordan Sugarcane's Pães e Sopas",
+										"title": "Jordan Sugarcane chegou com produtos cozidos para vender"
 									}
 								},
 								"container_shop": {
 									"shop_info": {
-										"name": "Jo Boxen's Container Barn",
-										"title": "Jo Boxen arrives with a box of crates"
+										"name": "Depósitos de Jo Boxen",
+										"title": "Jo Boxen chegou com uma caixa cheia de caixas"
 									}
 								},
 								"door_shop": {
 									"shop_info": {
-										"name": "Edgar Planckton's Door Store",
-										"title": "Edgar Planckton has arrived with doors for sale"
+										"name": "Loja de Portas do Edgar Planckton",
+										"title": "Edgar Planckton chegou com portas para vender"
 									}
 								}
 							}
 						}
 					},
 					"unlock_craftsman_statue_recipe": {
-						"bulletin_title": "Mason Recipe Unlocked: The Guildmaster's Skill"
+						"bulletin_title": "Receita do Maçom desbloqueada: A Perícia Artesã"
 					},
 					"unlock_roadside_shrine_recipe": {
-						"bulletin_title": "Mason Recipe Unlocked: Fountain of Plenty"
+						"bulletin_title": "Receita do Maçom desbloqueada: Fonte da Abundância"
 					},
 					"unlock_valor_statue_recipe": {
-						"bulletin_title": "Mason Recipe Unlocked: The Valor of Cid"
+						"bulletin_title": "Receita do Maçom desbloqueada: A Bravura de Cid"
 					}
 				},
 				"goblin_war": {
 					"unlock_windchimes": {
-						"bulletin_title": "The Carpenter has unlocked the Windchime recipe!"
+						"bulletin_title": "O Carpinteiro desbloqueou a receita de Carrilhão de Vento!"
 					},
 					"erdenes_help": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"erdene_appears": {
-									"choice_000": "No way!",
-									"choice_001": "Well... yes.",
+									"choice_000": "Sem chance!",
+									"choice_001": "Bem... sim.",
 									"bulletin_message": {
-										"000": "Are you afraid, valiant town? Ogo so-called-chief will be here soon. For you."
+										"000": "Estão com medo, óh valente vilarejo? Ogo o-então-chefe estará aqui em breve. Por vocês."
 									},
-									"bulletin_title": "A figure with a sibilant voice appears beside your fire",
+									"bulletin_title": "Uma entidade com voz sibilante aparece ao lado de sua fogueira",
 									"dialog_title": "???"
 								},
 								"erdenes_help": {
 									"choice_000": "Uh... okay?",
-									"choice_001": "Confused. Sorry.",
+									"choice_001": "Estou confuso. Desculpa.",
 									"bulletin_message": {
-										"000": "To borrow strength to rise means to fall when strength fails. Ogo borrows his power not from his so-called-sayer, but from the babe he stole."
+										"000": "Emprestar força para a ascenção, significa a queda quando a força falha. Ogo não recebe seu poder de seu porta-voz, mas sim do bebê que ele roubou."
 									},
-									"bulletin_title": "The figure tilts her head",
+									"bulletin_title": "A figura balança a cabeça",
 									"dialog_title": "???"
 								},
 								"erdene_description": {
-									"choice_000": "Cool!",
-									"choice_001": "Sounds ominous.",
+									"choice_000": "Legal!",
+									"choice_001": "Parece sinistro.",
 									"bulletin_message": {
-										"000": "Me? I am the one who watches. You. Him. For the star. For fate.",
-										"001": "I? I am of the Red Kiln. We would have been your saviours, but your Cid parlayed hard in your stead. So now we watch. And wait for the day when your star rises.",
-										"002": "Me! I suppose you've earned your bit. I am an ember in the forge, a spark in the air. I watch, so that I may know when it is time for the fire to engulf us all.",
-										"003": "Me? Today, it matters not. Tomorrow, if you still live, you may call me Erdene, of the Red Kiln."
+										"000": "Eu? Eu sou o que observa. Você. Ele. Pela estrela. Pelo destino.",
+										"001": "Eu? Eu sou da Fornalha Vermelha. Nós poderíamos ser seus salvadores, mas seu Cid apostou alto em seu lugar. Então agora observaremos. E esperaremos pelo dia que sua estrela ascenderá.",
+										"002": "Eu! Suponho que você tenha ganhado sua parte. Eu sou uma brasa na forja, uma faísca no ar. Eu observo, para que eu saiba quando for o momento do fogo engulir todos nós.",
+										"003": "Eu? Hoje, isso não importa. Amanhã, caso você ainda esteja vivo, você poderá me chamar de Erderne, da Fornalha Vermelha."
 									},
-									"bulletin_title": "She smiles with a glint of teeth",
+									"bulletin_title": "Ela sorri com um brilho em seus dentes",
 									"dialog_title": "???"
 								},
 								"accept_offer": {
-									"choice_000": "Wait! Who are you?",
+									"choice_000": "Espere! Quem é você?",
 									"choice_001": "Huh.",
 									"bulletin_message": {
-										"000": "Fight hard, little town. Fate is meaningless. But were it not, yours would be to rise."
+										"000": "Lutem com o máximo de sí, pequeno vilarejo. Não há sentido no destino. Mas se existisse, o seu seria ascender."
 									},
-									"bulletin_title": "She nods firmly",
+									"bulletin_title": "Ela ascena firmemente",
 									"dialog_title": "???"
 								},
 								"flute_description": {
-									"choice_000": "Sounds good!",
-									"choice_001": "No. Thanks.",
+									"choice_000": "Soa bem!",
+									"choice_001": "Não. Obrigado.",
 									"bulletin_message": {
-										"000": "Upon this paper, you shall find the lullabye to sooth the Mountain's soul. Find a stolen flute. Bid your wood-worker pitch it to this melody. Place it in Ogo's great ogre's path, and watch self-importance meet its just reward."
+										"000": "Neste papel, você deve escontrar a canção de ninar para acalmar a alma da Montanha. Ache a Flauta Roubada. Ofereça seu carpinteiro para esta melodia. Coloque-a no caminho de Ogo, o grande ogro, e observe a auto-importância achar sua única recompensa."
 									},
-									"bulletin_title": "She offers a scrap of paper",
+									"bulletin_title": "Ela oferece um pedaço de papel",
 									"dialog_title": "???"
 								},
 								"departure": {
 									"bulletin_message": {
-										"000": "Well then. Fight hard, little town."
+										"000": "Lutem com o máximo de sí, pequeno vilarejo."
 									},
-									"bulletin_title": "She shrugs",
+									"bulletin_title": "Ela se encolhe",
 									"dialog_title": "???"
 								}
 							}
