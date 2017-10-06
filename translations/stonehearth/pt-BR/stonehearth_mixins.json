@@ -2,34 +2,34 @@
 	"stonehearth_mixins": {
 		"base_human": {
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-			"description": "Citizen of your town",
+			"description": "Cidadão de sua cidade",
 			"job": {
 				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)] (Aprendiz)",
 				"default_level_title": "[str(self.stonehearth:job.curr_job_name)] (Nivel [str(self.stonehearth:job.curr_job_level)])",
 				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
-				"level_up_perk_description": "Max Health +10",
-				"attribute_up_desc": "All attributes increased!"
+				"level_up_perk_description": "+10 pontos de saúde",
+				"attribute_up_desc": "Todos os atributos incrementados!"
 			}
 		},
 		"food": {
 			"food_decay": {
 				"food_decay": {
 					"decay_1": {
-						"description": "Starting to Rot. Better eat it fast."
+						"description": "Começando a apodrecer. É melhor comê-lo rápido."
 					},
 					"decay_2": {
-						"description": "Rotten. Ew."
+						"description": "Podre. Eca."
 					}
 				},
 				"egg": {
 					"decay_1": {
-						"description": "Starting to go bad. Better cook it soon."
+						"description": "Começando a estragar. Melhor cozinhar logo."
 					}
 				}
 			},
 			"jerky": {
 				"display_name": "Carne Seca",
-				"description": "Stringy, but nutritious!"
+				"description": "Fibroso, mas nutritivo!"
 			}
 		},
 		"monster": {
@@ -37,19 +37,19 @@
 				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)] (Aprendiz)",
 				"default_level_title": "[str(self.stonehearth:job.curr_job_name)] (Nivel [str(self.stonehearth:job.curr_job_level)])",
 				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
-				"general_description_desc": "Max Health increased!",
-				"attribute_up_desc": "All attributes increased!"
+				"general_description_desc": "Saúde máxima aumentada!",
+				"attribute_up_desc": "Todos os atributos incrementados!"
 			}
 		},
 		"resources": {
 			"fur_pelt": {
-				"display_name": "Fur pelt",
-				"description": "Soft, supple, and quite dead"
+				"display_name": "Pele",
+				"description": "Suave, flexível e bem morto"
 			}
 		},
 		"base_human_npc": {
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-			"description": "A guest of your town"
+			"description": "Um visitante na sua cidade"
 		}
 	}
 }
