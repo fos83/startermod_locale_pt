@@ -507,6 +507,15 @@
 					"description": "Harvestable for stone when placed"
 				}
 			},
+			"ore_pile": {
+				"ore_pile": {
+					"description": "Harvest for many hunks of ore",
+					"display_name": "Ore Pile"
+				},
+				"ore_pile_iconic": {
+					"description": "Harvestable for ore when placed"
+				}
+			},
 			"clay_pile": {
 				"display_name": "Clay Pile",
 				"description": "Harvest for a large amount of clay",

@@ -21,16 +21,14 @@
 				"description": "A ranged combat unit that shoots foes with arrows",
 				"requirements": "Crafted by Carpenter",
 				"level_1_data": {
-					"perk_000_name": "Increased Draw Strength",
-					"perk_000_description": "The archer's damage is increased"
+					"perk_000_name": "Bow Proficiency",
+					"perk_001_name": "Increased Draw Strength",
+					"perk_000_description": "The archer is able to use a bow to shoot arrows at enemies",
+					"perk_001_description": "The archer's damage is increased"
 				},
 				"level_2_data": {
 					"perk_000_name": "Armor Piercing Arrows",
 					"perk_000_description": "The archer's shots ignore 50% of the target's armor"
-				},
-				"level_0_data": {
-					"perk_000_name": "Bow Proficiency",
-					"perk_000_description": "The archer is able to use a bow to shoot arrows at enemies"
 				},
 				"level_3_data": {
 					"perk_000_name": "Range Increase",
@@ -69,13 +67,11 @@
 				"display_name": "Arquiteto",
 				"description": "???",
 				"requirements": "???",
-				"level_0_data": {
-					"perk_000_name": "Fast Construction",
-					"perk_000_description": "Build faster!"
-				},
 				"level_1_data": {
-					"perk_000_name": "Conservation of Materials",
-					"perk_000_description": "Have a chance every fabrication to not consume a stack of building material."
+					"perk_000_name": "Fast Construction",
+					"perk_001_name": "Conservation of Materials",
+					"perk_000_description": "Build faster!",
+					"perk_001_description": "Have a chance every fabrication to not consume a stack of building material."
 				}
 			}
 		},
@@ -118,6 +114,10 @@
 				"level_3_data": {
 					"perk_000_name": "Inspiração Artística",
 					"perk_000_description": "When inspiration strikes, the blacksmith may embellish his works in unexpected ways."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Blacksmith can now create items of Excellent quality, and will make Fine quality items more often.  (Not implemented for equipment yet!)"
 				}
 			},
 			"blacksmith_forge": {
@@ -375,6 +375,10 @@
 				"level_3_data": {
 					"perk_000_name": "Artistic Inspiration",
 					"perk_000_description": "When inspiration strikes, the carpenter may embellish his works in unexpected ways."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Carpenter can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
 			"carpenter_outfit": {
@@ -704,6 +708,10 @@
 				"level_3_data": {
 					"perk_000_name": "Artistic Inspiration",
 					"perk_000_description": "When inspiration strikes, the cook may embellish his works in unexpected ways."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence (not implemented for food)",
+					"perk_000_description": "The Cook can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for food yet!)"
 				}
 			},
 			"cook_outfit": {
@@ -852,20 +860,20 @@
 				"level_1_data": {
 					"perk_000_name": "Standard Catalog",
 					"perk_001_name": "Junior Defender",
+					"perk_002_name": "Handyman",
 					"perk_000_description": "The engineer can now make basic gadgets and decorations.",
-					"perk_001_description": "This engineer can place up to four traps and two turrets"
-				},
-				"level_4_data": {
-					"perk_000_name": "Extended Catalog",
-					"perk_000_description": "The engineer now has the courage to create more complex gadgets."
-				},
-				"level_0_data": {
-					"perk_000_name": "Handyman",
-					"perk_000_description": "The engineer can repair broken doors, gates and other fixable structures."
+					"perk_001_description": "This engineer can place up to four traps and two turrets",
+					"perk_002_description": "The engineer can repair broken doors, gates and other fixable structures."
 				},
 				"level_3_data": {
 					"perk_000_name": "Town Defender",
-					"perk_000_description": "This engineer can place up to eight traps and four turrets"
+					"perk_000_description": "This engineer can place up to eight traps and four turrets. ",
+					"perk_001_name": "Artistic Inspiration",
+					"perk_001_description": "When inspiration strikes, the Engineer may now craft an especially Fine quality of item."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Engineer can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
 			"engineer_wrench": {
@@ -1090,6 +1098,10 @@
 				"level_3_data": {
 					"perk_000_name": "Artistic Inspiration",
 					"perk_000_description": "When inspiration strikes, the mason may embellish his works in unexpected ways."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Mason can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
 			"mason_chisel": {
@@ -1272,7 +1284,11 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Artistic Inspiration",
-					"perk_000_description": "When inspiration strikes, the potter may embellish his/her works in unexpected ways."
+					"perk_000_description": "When inspiration strikes, the Potter may now craft an especially Fine quality of item."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Potter can now create items of Excellent quality, and will make Fine quality items more often."
 				},
 				"level_6_data": {
 					"title": "Oleiro (Mestre)",
@@ -1663,6 +1679,10 @@
 				"level_3_data": {
 					"perk_000_name": "Artistic Inspiration",
 					"perk_000_description": "When inspiration strikes, the weaver may embellish his works in unexpected ways."
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Weaver can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for clothing yet!)"
 				}
 			},
 			"recipes": {
@@ -1860,8 +1880,10 @@
 					"long_description": "Allows the Herbalist to craft healing balms and bandages."
 				},
 				"level_1_data": {
-					"perk_000_name": "Natural Regeneration",
-					"perk_000_description": "The herbalist channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased."
+					"perk_000_name": "Junior Practitioner",
+					"perk_001_name": "Natural Regeneration",
+					"perk_000_description": "The Herbalist can attend to 2 hurt hearthlings at a time.",
+					"perk_001_description": "The herbalist channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased."
 				},
 				"level_2_data": {
 					"perk_000_name": "Collaborative Insight",
@@ -1871,13 +1893,15 @@
 					"perk_000_name": "Power Medic",
 					"perk_000_description": "The herbalist can now attend to up to 4 hearthlings at a time."
 				},
-				"level_0_data": {
-					"perk_000_name": "Junior Practitioner",
-					"perk_000_description": "The herbalist can attend to 2 hurt hearthlings at a time."
-				},
 				"level_3_data": {
 					"perk_000_name": "Item Proficiency",
 					"perk_000_description": "The herbalist's medical prowess increases the effectiveness of healing items by 50%."
+					"perk_001_name": "Artistic Inspiration",
+					"perk_001_description": "When inspiration strikes, the Herbalist may now craft an especially Fine quality of item.  (Not implemented for healing items yet!)"
+				},
+				"level_5_data": {
+					"perk_000_name": "Artistic Excellence",
+					"perk_000_description": "The Herbalist can now create items of Excellent quality, and will make Fine quality items more often.  (Not implemented for healing items yet!)"
 				},
 				"level_6_data": {
 					"title": "Master Herbalist"
@@ -1968,13 +1992,11 @@
 				"display_name": "Clérigo",
 				"description": "A combat healer",
 				"requirements": "Crafted by Herbalist",
-				"level_0_data": {
-					"perk_000_name": "Healing Aura",
-					"perk_000_description": "The cleric's presence heals everyone around them periodically"
-				},
 				"level_1_data": {
-					"perk_000_name": "Minor Strength",
-					"perk_000_description": "The cleric's presence improves the muscle of those around them"
+					"perk_000_name": "Healing Aura",
+					"perk_001_name": "Minor Strength",
+					"perk_000_description": "The cleric's presence heals everyone around them periodically",
+					"perk_001_description": "The cleric's presence improves the muscle of those around them"
 				},
 				"level_2_data": {
 					"perk_000_name": "Compassion Up",
@@ -2092,16 +2114,14 @@
 				"description": "A defensive combatant focused on protecting allies from harm.",
 				"requirements": "Crafted by Blacksmith",
 				"level_1_data": {
-					"perk_000_name": "Damage Reduction Rank 1",
-					"perk_000_description": "The knight gains an additional 10% defense from equipment"
+					"perk_000_name": "Fortify",
+					"perk_001_name": "Damage Reduction Rank 1",
+					"perk_000_description": "Increases Stamina, Courage, and draws attention from monsters",
+					"perk_001_description": "The knight gains an additional 10% defense from equipment"
 				},
 				"level_4_data": {
 					"perk_000_name": "Damage Reduction Rank 2",
 					"perk_000_description": "The knight gains an additional 20% armor from equipment"
-				},
-				"level_0_data": {
-					"perk_000_name": "Fortify",
-					"perk_000_description": "Increases Stamina, Courage, and draws attention from monsters"
 				},
 				"level_3_data": {
 					"perk_000_name": "Fortify (Rank 2)",
@@ -2156,7 +2176,7 @@
 				"npc_thief_description": {
 					"display_name": "Ladrão",
 					"description": "Rouba itens de estoques",
-					"level_0_data": {
+					"level_1_data": {
 						"title": "Ladrão"
 					}
 				}

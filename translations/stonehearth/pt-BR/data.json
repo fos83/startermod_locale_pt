@@ -97,7 +97,7 @@
 					},
 					"returning_crop_trader_encounter": {
 						"title": "Um mercante trás sementes de uma terra distante.",
-						"trade_details": "Olá [str(i18n_data.town_name)]! Estava apenas passando por aqui, mas pensei em fazer uma troca ou duas, caso estejam interessados. Caso me façam [str(i18n_data.want_number)] [str(i18n_data.want_item)], estarei de volta em [str(i18n_data.num_days)] dias e poderei lhes trazer [str(i18n_data.reward_item)] em troca. O que achas?",
+						"trade_details": "Olá [str(i18n_data.town_name)]! Estava apenas passando por aqui, mas pensei em fazer uma troca ou duas, caso estejam interessados. Caso me façam <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, estarei de volta em [str(i18n_data.num_days)] dias e poderei lhes trazer [str(i18n_data.reward_item)] em troca. O que achas?",
 						"waiting_title": "O mercante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "O mercante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] caso tenham [str(i18n_data.want_number)] [str(i18n_data.want_item)] prontos para ele.",
 						"return_title": "O mercante retornou!",
@@ -3677,6 +3677,34 @@
 								"display_name": "Booped",
 								"tooltip": "A cute [str(species)] booped me today. It made me feel warm and fuzzy inside."
 							}
+						}
+					}
+				},
+				"appeal": {
+					"thresholds": {
+						"horrendous": {
+							"display_name": "Horrid Aesthetics",
+							"tooltip": "Everywhere I look I see something terrible!"
+						},
+						"beautiful": {
+							"display_name": "Beautiful Aesthetics",
+							"tooltip": "The decor around here is really great. A lot of hard work must have gone into making it look this nice."
+						},
+						"ugly": {
+							"display_name": "Ugly Aesthetics",
+							"tooltip": "Sheesh, it's really ugly around here. We definitely can make this look better!"
+						},
+						"awe_inspiring": {
+							"display_name": "Awe-Inspiring Aesthetics",
+							"tooltip": "This place... it's... beautiful..."
+						},
+						"pleasing": {
+							"display_name": "Pleasing Aesthetics",
+							"tooltip": "It's pretty nice looking around here."
+						},
+						"breathtaking": {
+							"display_name": "Breath-Taking Aesthetics",
+							"tooltip": "Wow, everywhere I look is gorgeous! The attention to detail is amazing!"
 						}
 					}
 				}

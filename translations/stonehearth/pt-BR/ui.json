@@ -72,6 +72,8 @@
 				"attributes": "Atributos",
 				"equipment": "Equipamentos",
 				"abilities": "Habilidades",
+				"appeal": "Appeal",
+				"unknown_item": "Undiscovered Preference",
 				"morale_title": "Moral",
 				"overall_morale": "Moral Geral",
 				"morale_food": "Comida",
@@ -87,7 +89,14 @@
 				"below": "below",
 				"currently": "Currently:",
 				"no_unhappy_thoughts": "No unhappy thoughts so far!",
-				"no_happy_thoughts": "No happy thoughts yet!"
+				"no_happy_thoughts": "No happy thoughts yet!",
+				"appeal_headings": {
+					"like": "Like",
+					"love": "Love",
+					"dislike": "Dislike",
+					"current_and_target_bar": "Overall Opinion",
+					"item_preferences": "[str(self.stonehearth:unit_info.custom_name)]'s Tastes"
+				}
 			},
 			"pet_character_sheet": {
 				"title": "Informações sobre este animal",
@@ -578,6 +587,10 @@
 					"title": "[name(i18n_data.entity)] Subiu de Nivel!",
 					"show_char_sheet": "Character Sheet"
 				},
+				"promote_bulletin": {
+					"title": "[name(i18n_data.entity)] has been Promoted!",															
+					"show_char_sheet": "Character Sheet"
+				},
 				"immigration_report": {
 					"title": "Atualização diária",
 					"immigration_report_title": "Relatório de Imigração",
@@ -682,6 +695,7 @@
 				"building_templates": {
 					"title": "Modelos de Construção",
 					"design_custom_building": "Design Custom Building",
+					"search_placeholder": "Search templates...",							 
 					"template_names": {
 						"tiny_cottage": "Tiny Cottage",
 						"cottage_for_two": "Cottage for Two",
@@ -696,6 +710,8 @@
 					"set_template_name_title": "Nome do modelo",
 					"template_default_name": "My new building template",
 					"set_template_name_prompt": "Enter a name for this template",
+					"ignore_quality": "Ignore Quality",
+					"ignore_quality_tooltip": "Treat all items in the template as standard quality (rather than Fine, Excellent, etc.).",																									  
 					"remove_template_confirm": {
 						"title": "Delete Template",
 						"message": "Are you sure you want to delete this building template?",
@@ -888,7 +904,8 @@
 				"queue_anyway": "Queue Order Anyway",
 				"recipe_tab": "Receitas",
 				"orders_tab": "Encomendas",
-				"missing_ingredients": "Missing ingredients: "
+				"missing_ingredients": "Missing ingredients: ",
+				"tooltip_appeal_stat": "Appeal"				   
 			},
 			"town_overview": {
 				"title": "Town Overview",
@@ -1268,7 +1285,7 @@
 				"new_game": "Novo Jogo",
 				"load_game": "Carregar Jogo",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A22)",
+				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A23)",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
 					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
