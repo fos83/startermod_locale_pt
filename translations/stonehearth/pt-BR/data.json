@@ -2023,6 +2023,10 @@
 				"description": "Move this thing somewhere else in the world.",
 				"disabled_description": "This item is in use. Try moving it later."
 			},
+			"open_character_sheet": {
+				"display_name": "Character Sheet",
+				"description": "Get a closer look at this hearthling"
+			},
 			"place_item": {
 				"display_name": "Place item",
 				"description": "Place this item in the world."
@@ -2220,7 +2224,7 @@
 							"003": "Top reason chopping trees is fun: perfecting the swing of the axe. May be useful one day!",
 							"004": "Top reason carrying wood is fun: can't think of one.",
 							"005": "I wonder how much I could sell this wood for back home. ...Nothing, probably.",
-							"006": "I wonder if I could get out of chopping wood by pretending to have a splinter? Oh right, it woudln't be pretending.",
+							"006": "I wonder if I could get out of chopping wood by pretending to have a splinter? Oh right, it wouldn't be pretending.",
 							"007": "Ow! Blister! Why am I doing this to myself? An at-will employment contract is pretty much beside the point when you're OUT IN THE MIDDLE OF NOWHERE.",
 							"008": "Splinters! Everywhere! Ok, calming breath. Calming breath. Anyone got tweezers?"
 						},
@@ -3690,6 +3694,9 @@
 							"display_name": "Beautiful Aesthetics",
 							"tooltip": "The decor around here is really great. A lot of hard work must have gone into making it look this nice."
 						},
+						"neutral": {
+							"display_name": "Neutral Aesthetics"
+						},
 						"ugly": {
 							"display_name": "Ugly Aesthetics",
 							"tooltip": "Sheesh, it's really ugly around here. We definitely can make this look better!"
@@ -3705,6 +3712,74 @@
 						"breathtaking": {
 							"display_name": "Breath-Taking Aesthetics",
 							"tooltip": "Wow, everywhere I look is gorgeous! The attention to detail is amazing!"
+						}
+					}
+				},
+				"appeal_crafting": {
+					"values": {
+						"breathtaking": {
+							"display_name": "Breath-Taking Workshop",
+							"tooltip": "I love crafting in my workshop; it's so well decorated!"
+						},
+						"pleasing": {
+							"display_name": "Pleasant Workshop",
+							"tooltip": "A well-maintained work space brightens my mood."
+						},
+						"beautiful": {
+							"display_name": "Beautiful Workshop",
+							"tooltip": "The area around my workbench is looking good, everything is in its place."
+						},
+						"ugly": {
+							"display_name": "Unkempt Workshop",
+							"tooltip": "It's frustrating that my work space is so grungy."
+						},
+						"awe_inspiring": {
+							"display_name": "Awe-Inspiring Workshop",
+							"tooltip": "My workshop looks so amazing! It's an inspiration!"
+						}
+					}
+				},
+				"appeal_bedroom": {
+					"values": {
+						"pleasing": {
+							"display_name": "Pleasant Bedroom",
+							"tooltip": "Where I slept last night was pretty nice."
+						},
+						"beautiful": {
+							"display_name": "Beautiful Bedroom",
+							"tooltip": "My bedroom is really shaping up; I like it!"
+						},
+						"breathtaking": {
+							"display_name": "Breath-Taking Bedroom",
+							"tooltip": "I love sleeping in such a wonderful bedroom!"
+						},
+						"awe_inspiring": {
+							"display_name": "Awe-Inspiring Bedroom",
+							"tooltip": "When I went to bed last night, I felt like royalty."
+						}
+					}
+				},
+				"appeal_dining": {
+					"values": {
+						"beautiful": {
+							"display_name": "Beautiful Dining",
+							"tooltip": "I was happy to eat in such an attractive spot!"
+						},
+						"breathtaking": {
+							"display_name": "Breath-Taking Dining",
+							"tooltip": "Someone really spent some effort decorating our dining room!"
+						},
+						"awe_inspiring": {
+							"display_name": "Awe-Inspiring Dining",
+							"tooltip": "The decor was so great, dinner was a feast for both my eyes and my stomach!"
+						},
+						"pleasing": {
+							"display_name": "Pleasant Dining",
+							"tooltip": "It was nice to eat my meal in a comfortable space."
+						},
+						"ugly": {
+							"display_name": "Dreary Dining",
+							"tooltip": "The ugly surroundings made it difficult to enjoy my last meal."
 						}
 					}
 				}

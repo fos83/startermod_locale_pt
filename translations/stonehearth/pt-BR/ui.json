@@ -24,7 +24,10 @@
 				"terrain_xray_vision": "Visão de Terreno Raio-X",
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
 				"terrain_xray_vision_flat": "plano",
-				"terrain_xray_vision_full": "completo"
+				"terrain_xray_vision_full": "completo",
+				"appeal_vision_icon_name": "appeal",
+				"appeal_vision": "Appeal Vision",
+				"appeal_vision_description": "See how appealing hearthlings find the world."
 			},
 			"promotion_tree": {
 				"title": "Escolha um Trabalho",
@@ -66,6 +69,8 @@
 				"level_abbreviation": "Lvl",
 				"locked_status": "<br><br>(Bloqueado)",
 				"apprentice": "Aprendiz",
+				"journeyman": "Journeyman",
+				"master": "Master",
 				"journal": "Diário",
 				"thoughts": "Pensamentos",
 				"morale_meter": "Medidor de Moral",
@@ -92,9 +97,15 @@
 				"no_happy_thoughts": "No happy thoughts yet!",
 				"appeal_headings": {
 					"like": "Like",
+					"like_tooltip": "A space is viewed as more beautiful for every liked item present, up to three.",
 					"love": "Love",
+					"love_tooltip": "Seeing one of these loved items will drastically improve [str(self.stonehearth:unit_info.custom_name)]'s opinion of an area.",
 					"dislike": "Dislike",
+					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] dislikes these items and will always find them unappealing, regardless of quality.",
 					"current_and_target_bar": "Overall Opinion",
+					"current_and_target_bar_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s opinion of their surroundings and recently visited areas.",
+					"current_arrow_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s overall opinion of the town's appeal. This affects their mood.",
+					"target_arrow_tooltip": "How [str(self.stonehearth:unit_info.custom_name)] views their immediate surroundings.  This affects their overall opinion of the town with time.",
 					"item_preferences": "[str(self.stonehearth:unit_info.custom_name)]'s Tastes"
 				}
 			},
@@ -190,6 +201,8 @@
 					"display_name": "Attack Move",
 					"description": "Attack a specific target or location."
 				},
+				"crafted_by": "Crafted by [str(author_name)]",
+				"crafted_in": "Crafted in [str(author_name)]",
 				"defend_location": {
 					"display_name": "Defend Location",
 					"description": "Defend a location from enemies."
@@ -207,6 +220,7 @@
 					"description": "Cancels active combat orders."
 				},
 				"level": "Lv: ",
+				"Lvl": "Lvl",
 				"class_lv_title": "Requisitos de Classe e Nível",
 				"no_requirements": "Nenhum!",
 				"equipment_description": "Equippable by: [str(class_list)]",
@@ -217,6 +231,11 @@
 				"placement_tags": {
 					"turret": "Turrets",
 					"trap": "Armadilhas"
+				},
+				"quality": {
+					"quality-2": "Fine Quality",
+					"quality-3": "Excellent Quality",
+					"quality-4": "Master Quality!"
 				}
 			},
 			"citizens": {
@@ -325,6 +344,7 @@
 				"tooltip_combat_base_damage": "Atk:",
 				"tooltip_combat_base_damage_reduction": "Def:",
 				"tooltip_num_undeployed": "Undeployed: [str(num_undeployed)]",
+				"tooltip_deprecated": "Legacy Item: this item is no longer obtainable in the game.",
 				"death_notification": "[name(i18n_data.entity)] esta morto.",
 				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
 				"starving_notification": "[name(i18n_data.citizen)] is starving!",
@@ -368,7 +388,7 @@
 						},
 						"loot_item": {
 							"display_name": "Loot",
-							"description": "Steal items from another player.",
+							"description": "Take items from enemies",
 							"tip_title": "Click and drag to loot items from the world",
 							"tip_description": "Right click to exit this mode"
 						},
@@ -827,6 +847,7 @@
 					"contents": "Conteúdo",
 					"filter": "Filtro",
 					"help": "Click the icons to choose what to store in this stockpile.",
+					"help_single_filter": "Click an icon to choose the item type to store in this container.",
 					"used_space": "Espaço utilizado:",
 					"filters": {
 						"all": "Todos",
@@ -865,7 +886,9 @@
 						"tooltip_raw_food": "Raw Foods",
 						"tooltip_prepared_food": "Cooked Foods",
 						"tooltip_cooking_ingredients": "Cooking Ingredients and Animal Feed",
-						"tooltip_consumables": "Healing Items and Other Consumables"
+						"tooltip_cooking": "Cooking",
+						"tooltip_consumables": "Healing Items and Other Consumables",
+						"tooltip_animal_parts": "Animal Parts"
 					}
 				}
 			},
@@ -1208,6 +1231,7 @@
 						"vision_slice_toggle": "Toggle Terrain Slice Vision",
 						"vision_slice_up": "Terrain Slice Up",
 						"vision_slice_down": "Terrain Slice Down",
+						"vision_appeal_toggle": "Toggle Appeal Vision",
 						"speed_pause": "Pause",
 						"speed_toggle_pause": "Toggle Pause",
 						"speed_play": "Normal Speed",
@@ -1386,6 +1410,14 @@
 						"000": "Every 2 points increases chance to craft a fine item by 1%"
 					}
 				},
+				"inspiration": {
+					"display_name": "Inspiration",
+					"description": "A flat modifier to this hearthing's chance to create items with Fine and Excellent quality.",
+					"bullet_points": {
+						"000": "A hearthling must be at least a Journeyman to create Fine quality items, and a Master to create Excellent items</br>",
+						"001": "Ranges from -2% to +3%, based on the hearthling's Spirit"
+					}
+				},
 				"shelter": {
 					"display_name": "Shelter",
 					"description": "Make sure your hearthlings have a comfortable bed to sleep in.",
@@ -1409,7 +1441,8 @@
 					"display_name": "Diligence",
 					"description": "How long this hearthling can work before needing rest.",
 					"bullet_points": {
-						"000": "Determines sleep duration"
+						"000": "Determines sleep duration",
+						"001": "Determines Engineer repair speed"
 					}
 				},
 				"willpower": {

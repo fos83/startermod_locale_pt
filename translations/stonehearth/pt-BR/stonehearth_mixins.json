@@ -33,6 +33,10 @@
 			"jerky": {
 				"display_name": "Carne Seca",
 				"description": "Fibroso, mas nutritivo!"
+			},
+			"bug_meat": {
+				"description": "Sticky, but nutritious!",
+				"display_name": "Bug Meat"
 			}
 		},
 		"monster": {

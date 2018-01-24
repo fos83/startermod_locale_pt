@@ -93,15 +93,15 @@
 			"blacksmith_description": {
 				"display_name": "Ferreiro",
 				"description": "The Blacksmith refines raw ore into metal bars, then uses those bars to craft weapons, armor, and building parts like gates.",
-				"requirements": "Blacksmith's Hammer, crafted by the Mason",
+				"requirements": "Crafted by Mason",
 				"level_6_data": {
 					"title": "Ferreiro (Mestre)",
 					"perk_000_name": "The Armory",
-					"perk_000_description": "The blacksmith's mastery of his trade allows him to create the finest weapons and armors seen since the forgotten Phoenix Empire."
+					"perk_000_description": "The Blacksmith's mastery of their trade allows them to create the finest weapons and armors seen since the forgotten Phoenix Empire."
 				},
 				"level_2_data": {
 					"perk_000_name": "Idade do (Ferro)!",
-					"perk_000_description": "The blacksmith is now skilled enough to forge heavy items made of iron."
+					"perk_000_description": "The Blacksmith is now skilled enough to forge heavy items made of iron."
 				},
 				"level_4_data": {
 					"perk_000_name": "Cold Steel",
@@ -109,14 +109,14 @@
 				},
 				"level_1_data": {
 					"perk_000_name": "Idade do (Bronze)!",
-					"perk_000_description": "The secrets of bronze are now available to the blacksmith."
+					"perk_000_description": "The secrets of bronze are now available to the Blacksmith."
 				},
 				"level_3_data": {
 					"perk_000_name": "Inspiração Artística",
-					"perk_000_description": "When inspiration strikes, the blacksmith may embellish his works in unexpected ways."
+					"perk_000_description": "When inspiration strikes, the Blacksmith may now craft an especially Fine quality of item.  (Not implemented for equipment yet!)"
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Blacksmith can now create items of Excellent quality, and will make Fine quality items more often.  (Not implemented for equipment yet!)"
 				}
 			},
@@ -347,37 +347,52 @@
 				"engineer_wrench_recipe": {
 					"description": "Required to promote a hearthling into an Engineer",
 					"recipe_name": "Engineer's Wrench"
+				},
+				"input_bin_iron_recipe": {
+					"recipe_name": "Iron-Banded Supply Bin",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_table_ground_iron_recipe": {
+					"recipe_name": "Iron-Studded Supply Table",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_corner_ground_iron_recipe": {
+					"recipe_name": "Iron-Framed Corner Supply Shelf",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				}
 			}
 		},
 		"carpenter": {
 			"carpenter_description": {
 				"display_name": "Carpinteiro",
-				"description": "The carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
-				"requirements": "Carpenter's saw, crafted by the Blacksmith.",
+				"description": "The Carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
+				"requirements": "Crafted by Blacksmith",
 				"level_6_data": {
 					"title": "Carpinteiro (Mestre)",
 					"perk_000_name": "10,000 Hours",
-					"perk_000_description": "The carpenter's mastery of his trade allows him access to recipes that expand your town's opportunities."
+					"perk_000_description": "The Carpenter's mastery of his trade allows them access to recipes that expand your town's opportunities."
 				},
 				"level_2_data": {
 					"perk_000_name": "Collaborative Insight",
-					"perk_000_description": "The carpenter is now skillful enough to use materials created by other crafters."
+					"perk_000_description": "The Carpenter is now skillful enough to use materials created by other crafters."
 				},
 				"level_4_data": {
 					"perk_000_name": "Extended Catalog",
-					"perk_000_description": "The carpenter now has the courage to try more elaborate projects."
+					"perk_000_description": "The Carpenter now has the courage to try more elaborate projects."
 				},
 				"level_1_data": {
 					"perk_000_name": "Standard Catalog",
-					"perk_000_description": "The carpenter can now make a solid array of basic furniture."
+					"perk_000_description": "The Carpenter can now make a solid array of basic furniture."
 				},
 				"level_3_data": {
-					"perk_000_name": "Artistic Inspiration",
-					"perk_000_description": "When inspiration strikes, the carpenter may embellish his works in unexpected ways."
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Carpenter may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Carpenter can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
@@ -618,12 +633,12 @@
 					"recipe_name": "Herbalist's Staff"
 				},
 				"safety_standard_recipe": {
-					"description": "Use to designate a safety point",
+					"description": "Use to designate a safety point.",
 					"recipe_name": "Wooden Safety Standard"
 				},
 				"wooden_tunnel_door_recipe": {
 					"recipe_name": "Wooden Tunnel Door",
-					"description": "Useful for blocking off tunnels"
+					"description": "Useful for blocking off tunnels."
 				},
 				"wooden_sign_cook_recipe": {
 					"description": "A sign with the mark of the Cook.",
@@ -676,13 +691,132 @@
 					"recipe_name": "Poyo Weathervane",
 					"description": "A weathervane in the image of a friendly yardbird",
 					"flavor": "TODO"
+				},
+				"ornate_leather_bound_chest_recipe": {
+					"recipe_name": "Ornate Leather Bound Chest",
+					"description": "Stylishly stores up to 64 items.",
+					"flavor": "Like the one my granda had!"
+				},
+				"ornate_table_for_one_recipe": {
+					"recipe_name": "Ornate Table for One",
+					"description": "Better than eating standing up. Unless you're watching your weight.",
+					"flavor": "Dining furniture for introverts."
+				},
+				"ornate_dining_table_recipe": {
+					"recipe_name": "Ornate Dining Table",
+					"description": "Allows a group of people to all eat together. Like grown-ups.",
+					"flavor": "Sitting down to eat is a sign of civilization."
+				},
+				"ornate_comfy_bed_recipe": {
+					"recipe_name": "Ornate Comfy Bed",
+					"description": "Eight hours will leave you as refreshed as the day you were born.",
+					"flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
+				},
+				"ornate_dresser_recipe": {
+					"recipe_name": "Ornate Wooden Dresser",
+					"description": "A chest of drawers for storing clothing and personal possessions.",
+					"flavor": "Step 2: acquire personal possessions..."
+				},
+				"bench_recipe": {
+					"recipe_name": "Wooden Park Bench",
+					"description": "Outdoor seating for moments of relaxation.",
+					"flavor": "Life is like a plate of berries."
+				},
+				"ornate_bench_recipe": {
+					"recipe_name": "Ornate Wooden Park Bench",
+					"description": "Outdoor seating for moments of relaxation.",
+					"flavor": "Life is like a plate of berries."
+				},
+				"ornate_writing_desk_recipe": {
+					"recipe_name": "Ornate Writing Desk",
+					"description": "Not at all like a raven.",
+					"flavor": "...Except it can produce a few notes, tho they are very flat."
+				},
+				"ornate_comfy_chair_recipe": {
+					"recipe_name": "Ornate Comfy Chair",
+					"description": "Its padded seat guarantees a 98% reduction in awkward splinters!",
+					"flavor": "If pillows are good for the head, surely they're even better for the butt and back!"
+				},
+				"ornate_wooden_tunnel_door_recipe": {
+					"recipe_name": "Ornate Wooden Tunnel Door",
+					"description": "Useful for blocking off tunnels in style."
+				},
+				"ornate_picket_fence_gate_recipe": {
+					"recipe_name": "Ornate Picket Fence Gate",
+					"description": "Lets people through your picket fence.",
+					"flavor": "Hope you like your neighbors!"
+				},
+				"ornate_picket_fence_recipe": {
+					"recipe_name": "Ornate Picket Fence",
+					"description": "Keeps people off your property.",
+					"flavor": "If it's not white, is our life unfulfilled?"
+				},
+				"ornate_wooden_garden_lantern_recipe": {
+					"recipe_name": "Ornate Wooden Garden Lantern",
+					"description": "A small lantern that's placed on the ground. Suitable for lighting paths or small gardens.",
+					"flavor": "Practical and romantic!"
+				},
+				"ornate_wooden_wall_lantern_recipe": {
+					"flavor": "So comfortinzzzzzzzz...",
+					"recipe_name": "Wooden Wall-Mounted Lantern",
+					"description": "A simple lantern. Place on buildings to provide light at night."
+				},
+				"ornate_wooden_double_door_recipe": {
+					"recipe_name": "Ornate Wooden Double Door",
+					"description": "Two doors are better than one.",
+					"flavor": "Some people want to make an entrance... every day."
+				},
+				"ornate_wooden_door_recipe": {
+					"recipe_name": "Ornate Reinforced Wooden Door",
+					"description": "Stronger than your average door.",
+					"flavor": "This here pattern, I learned from the Squarefolk."
+				},
+				"wooden_chair_recipe": {
+					"description": "When sitting, food is 20% more satisfying.",
+					"flavor": "Ten thousand years of research culminated in this four-legged design.",
+					"recipe_name": "Wooden Chair"
+				},
+				"ornate_wooden_chair_recipe": {
+					"description": "When sitting, food is 20% more satisfying.",
+					"flavor": "Ten thousand years of research culminated in this four-legged design.",
+					"recipe_name": "Ornate Wooden Chair"
+				},
+				"output_box_wood_recipe": {
+					"recipe_name": "Wood Finished Work Shelf",
+					"description": "Temporary storage for freshly-crafted items.",
+					"flavor": "Crafters love to show off their work!"
+				},
+				"input_bin_wood_recipe": {
+					"recipe_name": "Wooden Supply Crate",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_shelf_ground_wood_recipe": {
+					"recipe_name": "Wooden Supply Rack",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_shelf_wall_wood_recipe": {
+					"recipe_name": "Wooden Wall Supply Shelf",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_corner_ground_wood_recipe": {
+					"recipe_name": "Wooden Corner Supply Rack",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_table_ground_wood_recipe": {
+					"recipe_name": "Wooden Supply Table",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				}
 			}
 		},
 		"cook": {
 			"cook_description": {
 				"display_name": "Cozinheiro",
-				"description": "The cook makes delicious, hearty meals from base vegetables and meats.",
+				"description": "The Cook makes delicious, hearty meals from base vegetables and meats.",
 				"requirements": "Crafted by Mason",
 				"workshop": {
 					"name": "Stone Cauldron",
@@ -691,7 +825,7 @@
 				"level_6_data": {
 					"title": "Cozinheiro (Mestre)",
 					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
-					"perk_000_description": "The cook's dishes are now so good for you they have unexpected effects."
+					"perk_000_description": "The Cook's dishes are now so good for you that they may have unexpected effects."
 				},
 				"level_2_data": {
 					"perk_000_name": "Kitchen Chemistry",
@@ -699,18 +833,18 @@
 				},
 				"level_4_data": {
 					"perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
-					"perk_000_description": "The cook adds new levels of functionality to classic recipes."
+					"perk_000_description": "The Cook adds new levels of functionality to classic recipes."
 				},
 				"level_1_data": {
 					"perk_000_name": "Camp Cooking",
-					"perk_000_description": "The cook can make basic, nutritious recipes."
+					"perk_000_description": "The Cook can make basic, nutritious recipes."
 				},
 				"level_3_data": {
-					"perk_000_name": "Artistic Inspiration",
-					"perk_000_description": "When inspiration strikes, the cook may embellish his works in unexpected ways."
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Cook may now craft an especially Fine quality of item. (Not implemented for food yet!)"
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence (not implemented for food)",
+					"perk_000_name": "Master's Insight (not implemented for food)",
 					"perk_000_description": "The Cook can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for food yet!)"
 				}
 			},
@@ -846,33 +980,33 @@
 		"engineer": {
 			"engineer_description": {
 				"display_name": "Engenheiro",
-				"description": "The engineer creates advanced contraptions and defensive weaponry.",
+				"description": "The Engineer creates advanced contraptions and defensive weaponry.",
 				"requirements": "Crafted by Blacksmith",
 				"level_6_data": {
 					"title": "Engenheiro (Mestre)",
 					"perk_000_name": "General of Defense",
-					"perk_000_description": "This engineer can place up to twelve traps and eight turrets"
+					"perk_000_description": "This Engineer can place up to twelve traps and eight turrets"
 				},
 				"level_2_data": {
-					"perk_000_name": "Improved Inventiveness",
-					"perk_000_description": "The engineer can repair broken doors and gates more efficiently"
+					"perk_000_name": "Improved Diligence",
+					"perk_000_description": "The Engineer can repair broken doors and gates more efficiently"
 				},
 				"level_1_data": {
 					"perk_000_name": "Standard Catalog",
 					"perk_001_name": "Junior Defender",
 					"perk_002_name": "Handyman",
-					"perk_000_description": "The engineer can now make basic gadgets and decorations.",
-					"perk_001_description": "This engineer can place up to four traps and two turrets",
-					"perk_002_description": "The engineer can repair broken doors, gates and other fixable structures."
+					"perk_000_description": "The Engineer can now make basic gadgets and decorations.",
+					"perk_001_description": "This Engineer can place up to four traps and two turrets",
+					"perk_002_description": "The Engineer can repair broken doors, gates and other fixable structures."
 				},
 				"level_3_data": {
 					"perk_000_name": "Town Defender",
-					"perk_000_description": "This engineer can place up to eight traps and four turrets. ",
-					"perk_001_name": "Artistic Inspiration",
+					"perk_000_description": "This Engineer can place up to eight traps and four turrets. ",
+					"perk_001_name": "Journeyman's Knowledge",
 					"perk_001_description": "When inspiration strikes, the Engineer may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Engineer can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
@@ -942,8 +1076,8 @@
 				}
 			},
 			"engineer_buffs": {
-				"inventiveness_2_buff": {
-					"display_name": "Inventiveness +50",
+				"diligence_2_buff": {
+					"display_name": "Diligence +50",
 					"description": "The engineer can repair doors more efficiently"
 				}
 			},
@@ -1081,26 +1215,26 @@
 				"level_6_data": {
 					"title": "Pedreiro (Mestre)",
 					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
-					"perk_000_description": "The mason's mastery of his trade allows him to come up with completely new ways of using wood."
+					"perk_000_description": "The Mason's mastery of their trade allows them to come up with completely new ways of using stone."
 				},
 				"level_2_data": {
 					"perk_000_name": "Fancy Rocks",
-					"perk_000_description": "The mason can now make more elaborate items froms stone."
+					"perk_000_description": "The Mason can now make more elaborate items froms stone."
 				},
 				"level_4_data": {
 					"perk_000_name": "Extended Catalog",
-					"perk_000_description": "The mason ventures from the realm of the functional into... art."
+					"perk_000_description": "The Mason ventures from the realm of the functional into... art."
 				},
 				"level_1_data": {
 					"perk_000_name": "Standard Catalog",
-					"perk_000_description": "The mason can now make a solid array of basic furniture."
+					"perk_000_description": "The Mason can now make a solid array of basic furniture."
 				},
 				"level_3_data": {
-					"perk_000_name": "Artistic Inspiration",
-					"perk_000_description": "When inspiration strikes, the mason may embellish his works in unexpected ways."
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Mason may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Mason can now create items of Excellent quality, and will make Fine quality items more often."
 				}
 			},
@@ -1133,6 +1267,13 @@
 				}
 			},
 			"recipes": {
+				"tools_name": "Ferramentas",
+				"storage_name": "Storage",
+				"signage_decoration_name": "Signage & Decoration",
+				"building_parts_name": "Building Parts",
+				"weapons_name": "Armas",
+				"furniture_name": "Furniture",
+				"refined_name": "Refinement",
 				"bird_bath_recipe": {
 					"description": "A decorative stone vase with water for the birdies.",
 					"recipe_name": "Bird Bath",
@@ -1168,12 +1309,6 @@
 					"recipe_name": "Wall-Mounted Decorative Gargoyle",
 					"flavor": "Remnants of the servants of Brelor, Crownless King."
 				},
-				"tools_name": "Ferramentas",
-				"storage_name": "Storage",
-				"signage_decoration_name": "Signage & Decoration",
-				"building_parts_name": "Building Parts",
-				"weapons_name": "Armas",
-				"furniture_name": "Furniture",
 				"stone_bench_recipe": {
 					"description": "Outdoor seating for moments of relaxation.",
 					"recipe_name": "Stone Bench",
@@ -1262,6 +1397,51 @@
 					"recipe_name": "The Guildmaster's Skill",
 					"description": "Shows each craftsman at their best",
 					"flavor": "A good crafter never blames his tools, only the people who make his tools. --Otto Crankfrown, Guildmaster Emeritus"
+				},
+				"gold_flakes_recipe": {
+					"recipe_name": "Gold Flakes",
+					"description": "Used when crafting furniture to make it really pretty!",
+					"flavor": "So Shine!"
+				},
+				"gold_flakes_times_three_recipe": {
+					"recipe_name": "Gold Flakes (x3)",
+					"description": "Smash up a Gold Bar to get the Flakes back out of it!",
+					"flavor": "So many Shine!"
+				},
+				"wet_stone_recipe": {
+					"recipe_name": "Wet Stone",
+					"flavor": "This stone has been blessed with the tears of Rayya!",
+					"description": "This stone will shed water around itself."
+				},
+				"output_box_stone_recipe": {
+					"recipe_name": "Stone Finished Work Shelf",
+					"description": "Temporary storage for freshly-crafted items.",
+					"flavor": "Crafters love to show off their work!"
+				},
+				"input_bin_stone_recipe": {
+					"recipe_name": "Stonework Supply Bin",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_shelf_wall_stone_recipe": {
+					"recipe_name": "Stonework Wall Supply Shelf",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_shelf_ground_stone_recipe": {
+					"recipe_name": "Stonework Supply Rack",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_corner_ground_stone_recipe": {
+					"recipe_name": "Stonework Corner Supply Rack",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_table_ground_stone_recipe": {
+					"recipe_name": "Stonework Supply Table",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				}
 			}
 		},
@@ -1283,29 +1463,29 @@
 					"long_description": "The Potter crafts useful goods and decorative items from clay."
 				},
 				"level_3_data": {
-					"perk_000_name": "Artistic Inspiration",
+					"perk_000_name": "Journeyman's Knowledge",
 					"perk_000_description": "When inspiration strikes, the Potter may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Potter can now create items of Excellent quality, and will make Fine quality items more often."
 				},
 				"level_6_data": {
 					"title": "Oleiro (Mestre)",
 					"perk_000_name": "Oleiro (Mestre)",
-					"perk_000_description": "The potter has rediscovered ancient secrets of the Phoenix..."
+					"perk_000_description": "The Potter has rediscovered ancient secrets of the Phoenix..."
 				},
 				"level_2_data": {
 					"perk_000_name": "Art for Sale",
-					"perk_000_description": "The potter can now make decorative items to liven up the town or sell for money."
+					"perk_000_description": "The Potter can now make decorative items to liven up the town or sell for money."
 				},
 				"level_4_data": {
 					"perk_000_name": "Collaborative Insight",
-					"perk_000_description": "The potter can now add precious metals to vases and tiles."
+					"perk_000_description": "The Potter can now add precious metals to vases and tiles."
 				},
 				"level_1_data": {
 					"perk_000_name": "Standard Catalog",
-					"perk_000_description": "The potter can now make basic furniture and building adornments."
+					"perk_000_description": "The Potter can now make basic furniture and building adornments."
 				}
 			},
 			"recipes": {
@@ -1356,7 +1536,7 @@
 				},
 				"building_parts_name": "Building Parts",
 				"clay_bricks_recipe": {
-					"description": "Used to make structures that stay cool even in great heat.",
+					"description": "A stack of bricks, used to make clay structures.",
 					"recipe_name": "Clay Bricks",
 					"flavor": "'And when Clay emerged from the Kiln, he had become Brick, and no matter how hard Sun blasted him, he remained cheerful.'"
 				},
@@ -1502,6 +1682,46 @@
 				},
 				"wooden_sign_potter_recipe": {
 					"flavor": "Less fragile and easier than hanging a real pot!"
+				},
+				"output_box_clay_recipe": {
+					"recipe_name": "Clay Finished Work Shelf",
+					"description": "Temporary storage for freshly-crafted items.",
+					"flavor": "Crafters love to show off their work!"
+				},
+				"input_bin_clay_recipe": {
+					"recipe_name": "Ceramic Supply Basin",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_shelf_ground_clay_recipe": {
+					"recipe_name": "Ceramic Supply Rack",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_shelf_wall_clay_recipe": {
+					"recipe_name": "Ceramic Wall Supply Shelf",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_table_ground_clay_recipe": {
+					"recipe_name": "Ceramic Supply Table",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_bin_clay_blue_recipe": {
+					"recipe_name": "Blue Ceramic Supply Basin",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_bin_clay_red_recipe": {
+					"recipe_name": "Red Ceramic Supply Basin",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"input_bin_clay_green_recipe": {
+					"recipe_name": "Green Ceramic Supply Basin",
+					"description": "A versatile container for any resource, to help keep crafters supplied.",
+					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				}
 			},
 			"potter_workbench": {
@@ -1662,26 +1882,26 @@
 				"level_6_data": {
 					"title": "Tecelão (Mestre)",
 					"perk_000_name": "10,000 Horas <br><br>(não implementado)",
-					"perk_000_description": "The weaver's mastery of his trade allows him to come up with completely new ways of using wood."
+					"perk_000_description": "The Weaver's mastery of their trade allows them to come up with completely new ways of using cloth and thread."
 				},
 				"level_2_data": {
 					"perk_000_name": "Collaborative Insight",
-					"perk_000_description": "The weaver is now skillful enough to use materials created by other crafters."
+					"perk_000_description": "The Weaver is now skillful enough to use materials created by other crafters."
 				},
 				"level_4_data": {
 					"perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
-					"perk_000_description": "The weaver adds new levels of functionality to classic recipes."
+					"perk_000_description": "The Weaver adds new levels of functionality to classic recipes."
 				},
 				"level_1_data": {
 					"perk_000_name": "Standard Catalog",
-					"perk_000_description": "The weaver can now make basic hangings and decor."
+					"perk_000_description": "The Weaver can now make basic hangings and decor."
 				},
 				"level_3_data": {
-					"perk_000_name": "Artistic Inspiration",
-					"perk_000_description": "When inspiration strikes, the weaver may embellish his works in unexpected ways."
+					"perk_000_name": "Journeyman's Knowledge",
+					"perk_000_description": "When inspiration strikes, the Weaver may now craft an especially Fine quality of item. (Not implemented for clothing yet!)"
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Weaver can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for clothing yet!)"
 				}
 			},
@@ -1738,6 +1958,7 @@
 				},
 				"clothing_armor_name": "Clothing & Armor",
 				"toys_name": "Toys",
+				"storage_name": "Storage",			  
 				"decorations_name": "Decorations",
 				"crafting_materials_name": "Crafting Materials",
 				"spool_of_thread_recipe": {
@@ -1802,6 +2023,26 @@
 					"recipe_name": "Cloth Padded Helmet",
 					"description": "Extra padding for your noggin",
 					"flavor": "Were they phoenix wings, or serpent wings?"
+				},
+				"input_bin_woven_recipe": {
+					"recipe_name": "Woven Supply Basket",
+					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+					"flavor": "Nothing quite like a well-supplied workshop!"
+				},
+				"input_bin_woven_blue_recipe": {
+					"flavor": "Nothing quite like a well-supplied workshop!",
+					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+					"recipe_name": "Blue Woven Supply Basket"
+				},
+				"input_bin_woven_green_recipe": {
+					"flavor": "Nothing quite like a well-supplied workshop!",
+					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+					"recipe_name": "Green Woven Supply Basket"
+				},
+				"input_bin_woven_red_recipe": {
+					"flavor": "Nothing quite like a well-supplied workshop!",
+					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+					"recipe_name": "Red Woven Supply Basket"
 				}
 			},
 			"weaver_loom": {
@@ -1883,24 +2124,24 @@
 					"perk_000_name": "Junior Practitioner",
 					"perk_001_name": "Natural Regeneration",
 					"perk_000_description": "The Herbalist can attend to 2 hurt hearthlings at a time.",
-					"perk_001_description": "The herbalist channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased."
+					"perk_001_description": "The Herbalist channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased."
 				},
 				"level_2_data": {
 					"perk_000_name": "Collaborative Insight",
-					"perk_000_description": "The herbalist is now skillful enough to use materials created by the other crafters."
+					"perk_000_description": "The Herbalist is now skillful enough to use materials created by the other crafters."
 				},
 				"level_4_data": {
 					"perk_000_name": "Power Medic",
-					"perk_000_description": "The herbalist can now attend to up to 4 hearthlings at a time."
+					"perk_000_description": "The Herbalist can now attend to up to 4 hearthlings at a time."
 				},
 				"level_3_data": {
 					"perk_000_name": "Item Proficiency",
-					"perk_000_description": "The herbalist's medical prowess increases the effectiveness of healing items by 50%."
-					"perk_001_name": "Artistic Inspiration",
+					"perk_000_description": "The Herbalist's medical prowess increases the effectiveness of healing items by 50%.",
+					"perk_001_name": "Journeyman's Knowledge",
 					"perk_001_description": "When inspiration strikes, the Herbalist may now craft an especially Fine quality of item.  (Not implemented for healing items yet!)"
 				},
 				"level_5_data": {
-					"perk_000_name": "Artistic Excellence",
+					"perk_000_name": "Master's Insight",
 					"perk_000_description": "The Herbalist can now create items of Excellent quality, and will make Fine quality items more often.  (Not implemented for healing items yet!)"
 				},
 				"level_6_data": {

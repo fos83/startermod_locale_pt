@@ -438,6 +438,34 @@
 					"display_name": "Tall Clay Window",
 					"description": "Still lets in the soft desert air"
 				}
+			},
+			"ornate_picket_fence": {
+				"ornate_picket_fence_ghost": {
+					"display_name": "Ornate Picket Fence",
+					"description": "If it's not white, is our life unfulfilled?"
+				}
+			},
+			"ornate_picket_fence_gate": {
+				"ornate_picket_fence_gate_ghost": {
+					"display_name": "Ornate Picket Fence Gate",
+					"description": "Don't like your neighbors? Don't install."
+				}
+			},
+			"ornate_wooden_door": {
+				"ornate_wooden_door_ghost": {
+					"display_name": "Ornate Wooden Door",
+					"description": "Sturdier than your average door, and such a sweet pattern too."
+				}
+			},
+			"ornate_wooden_double_door": {
+				"ornate_wooden_double_door_ghost": {
+					"display_name": "Ornate Wooden Double Door",
+					"description": "A larger door with some extra style. All your friends will be envious."
+				}
+			},
+			"ornate_wooden_tunnel_door": {
+				"display_name": "Ornate Wooden Tunnel Door",
+				"description": "Useful for blocking off tunnels"
 			}
 		},
 		"containers": {
@@ -509,11 +537,11 @@
 			},
 			"ore_pile": {
 				"ore_pile": {
-					"description": "Harvest for many hunks of ore",
+					"description": "Container for many hunks of ore",
 					"display_name": "Ore Pile"
 				},
 				"ore_pile_iconic": {
-					"description": "Harvestable for ore when placed"
+					"description": "Container for many hunks of ore"
 				}
 			},
 			"clay_pile": {
@@ -542,6 +570,180 @@
 				"leather_bound_chest_fine_ghost": {
 					"display_name": "Fine Leather Bound Chest",
 					"description": "Stores up to 64 items. With style."
+				}	 
+			},	 
+			"ornate_leather_bound_chest": {
+				"ornate_leather_bound_chest_ghost": {
+					"display_name": "Ornate Leather Bound Chest",
+					"description": "Stores up to 64 items. With style."
+				}
+			},
+			"output_box_wood": {
+				"output_box_wood_ghost": {
+					"display_name": "Wood Finished Work Shelf",
+					"description": "Temporary storage for crafted items."
+				}
+			},
+			"output_box_clay": {
+				"output_box_clay_ghost": {
+					"description": "Temporary storage for crafted items.",
+					"display_name": "Clay Finished Work Shelf"
+				}
+			},	 
+			"output_box_stone": {
+				"output_box_stone_ghost": {
+					"description": "Temporary storage for crafted items.",
+					"display_name": "Stone Finished Work Shelf"
+				}
+			},
+			"input_bin_clay": {
+				"input_bin_clay_ghost": {
+					"display_name": "Ceramic Supply Basin",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_woven": {
+				"input_bin_woven_ghost": {
+					"display_name": "Woven Supply Basket",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_wood": {
+				"input_bin_wood_ghost": {
+					"display_name": "Wooden Supply Crate",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_stone": {
+				"input_bin_stone_ghost": {
+					"display_name": "Stonework Supply Bin",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_iron": {
+				"input_bin_iron_ghost": {
+					"display_name": "Iron-Banded Supply Bin",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_shelf_wall_clay": {
+				"input_shelf_wall_clay_ghost": {
+					"display_name": "Ceramic Wall Supply Shelf",
+					"description": "Make sure it's within reach!"
+				}
+			},
+			"input_shelf_wall_stone": {
+				"input_shelf_wall_stone_ghost": {
+					"display_name": "Stonework Wall Supply Shelf",
+					"description": "Make sure it's within reach!"
+				}
+			},
+			"input_shelf_ground_clay": {
+				"input_shelf_ground_clay_ghost": {
+					"display_name": "Ceramic Supply Rack",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_shelf_ground_stone": {
+				"input_shelf_ground_stone_ghost": {
+					"description": "A supply container, for quicker crafting.",
+					"display_name": "Stonework Supply Rack"
+				}
+			},
+			"input_shelf_ground_wood": {
+				"input_shelf_ground_wood_ghost": {
+					"display_name": "Wooden Supply Rack",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_shelf_wall_wood": {
+				"input_shelf_wall_wood_ghost": {
+					"display_name": "Wooden Wall Supply Shelf",
+					"description": "Make sure it's within reach!"
+				}
+			},
+			"input_table_ground_iron": {
+				"input_table_ground_iron_ghost": {
+					"display_name": "Iron-Studded Supply Table",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_corner_ground_wood": {
+				"input_corner_ground_wood_ghost": {
+					"display_name": "Wooden Corner Supply Rack",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_corner_ground_stone": {
+				"input_corner_ground_stone_ghost": {
+					"display_name": "Stonework Corner Supply Rack",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_table_ground_wood": {
+				"input_table_ground_wood_ghost": {
+					"display_name": "Wooden Supply Table",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_table_ground_stone": {
+				"input_table_ground_stone_ghost": {
+					"display_name": "Stonework Supply Table",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_table_ground_clay": {
+				"input_table_ground_clay_ghost": {
+					"display_name": "Ceramic Supply Table",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_corner_ground_clay": {
+				"input_corner_ground_clay_ghost": {
+					"display_name": "Ceramic Corner Supply Rack",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_clay_blue": {
+				"input_bin_clay_blue_ghost": {
+					"display_name": "Blue Ceramic Supply Basin",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_clay_green": {
+				"input_bin_clay_green_ghost": {
+					"description": "A supply container, for quicker crafting.",
+					"display_name": "Green Ceramic Supply Basin"
+				}
+			},
+			"input_bin_clay_red": {
+				"input_bin_clay_red_ghost": {
+					"description": "A supply container, for quicker crafting.",
+					"display_name": "Red Ceramic Supply Basin"
+				}
+			},
+			"input_bin_woven_blue": {
+				"input_bin_woven_blue_ghost": {
+					"display_name": "Blue Woven Supply Basket",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_woven_green": {
+				"input_bin_woven_green_ghost": {
+					"display_name": "Green Woven Supply Basket",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_woven_red": {
+				"input_bin_woven_red_ghost": {
+					"display_name": "Red Woven Supply Basket",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_corner_ground_iron": {
+				"input_corner_ground_iron_ghost": {
+					"display_name": "Iron Corner Supply Shelf",
+					"description": "A supply container, for quicker crafting."
 				}
 			}
 		},
@@ -611,8 +813,50 @@
 				"display_name": "Marmota",
 				"description": "A voracious eater of almost everything, especially logs.",
 				"species": "Marmota"
-			}
-		},
+			},
+			"deer": {
+				"deer_jerky": {
+					"display_name": "Deer Jerky"
+				},
+				"species": "deer",
+				"description": "Om nom nom",
+				"display_name": "Deer"
+			},
+			"boar": {
+				"display_name": "A boar",
+				"species": "boar",
+				"description": "Smells like something.."
+			},
+			"beetle": {
+				"species": "beetle",
+				"display_name": "Beetle",
+				"description": "Cute little insect",
+				"beetle_jerky": {
+					"display_name": "Beetle Bug Meat"
+				}
+			},
+			"bitsy_ant": {
+				"description": "Cute little insect",
+				"display_name": "Bitsy Ant",
+				"species": "bitsy ant",
+				"bitsy_ant_jerky": {
+					"display_name": "Small Ant Bug Meat"
+				}
+			},
+			"doodles": {
+				"display_name": "Doodles",
+				"description": "Cute little insect",
+				"species": "doodles",
+				"doodles_jerky": {
+					"display_name": "Doodles Bug Meat"
+				}
+			},
+			"red_fox_wolf": {
+				"species": "fox",
+				"description": "Small forest creature",
+				"display_name": "Fox"
+			}	
+		},	
 		"crops": {
 			"brightbell_crop": {
 				"display_name": "Brightbell Flower",
@@ -1400,8 +1644,32 @@
 					"display_name": "Poyo Weathervane",
 					"description": "A weathervane in the image of a friendly yardbird"
 				}
+			},
+			"ornate_wooden_garden_lantern": {
+				"ornate_wooden_garden_lantern_ghost": {
+					"description": "A compact source of light, with a little bit of flair.",
+					"display_name": "Ornate Wooden Garden Lantern"
+				}
+			},
+			"ornate_wooden_wall_lantern": {
+				"ornate_wooden_wall_lantern_ghost": {
+					"description": "Easily attached to walls",
+					"display_name": "Ornate Wooden Wall Lantern"
+				}
+			},
+			"wet_stone": {
+				"wet_stone_ghost": {
+					"display_name": "Wet Stone",
+					"description": "This stone has been blessed by the tears of Rayya!"
+				}
+			},
+			"dry_stone": {
+				"dry_stone_ghost": {
+					"description": "This stone has been blessed by the heat of Pal'Mum!",
+					"display_name": "Dry Stone"
+				}
 			}
-		},
+		},	
 		"food": {
 			"berries": {
 				"berry_basket": {
@@ -1679,6 +1947,14 @@
 					"display_name": "Kibble",
 					"description": "Attracts cats"
 				}
+			},
+			"pork": {
+				"display_name": "Raw Pork",
+				"description": "Raw meat from a boar"
+			},
+			"rotten_bug_meat": {
+				"description": "Bug meat goes bad just like other meat",
+				"display_name": "Rotten Bug Meat"
 			}
 		},
 		"furniture": {
@@ -1745,31 +2021,37 @@
 			"not_much_of_a_bed": {
 				"not_much_of_a_bed_ghost": {
 					"display_name": "Mean Bed",
-					"description": "Mean as in poor, not cruel"
+					"description": "Mean as in poor, not cruel."
 				}
 			},
 			"park_bench": {
 				"park_bench_ghost": {
 					"display_name": "Wooden Park Bench",
-					"description": "Outdoor seating for moments of relaxation"
+					"description": "Outdoor seating for moments of relaxation."
 				}
 			},
 			"park_bench_fine": {
 				"park_bench_fine_ghost": {
 					"display_name": "Fine Park Bench",
-					"description": "Outdoor seating for moments of relaxation"
+					"description": "Outdoor seating for moments of relaxation."
 				}
 			},
+			"ornate_bench": {
+				"ornate_bench_ghost": {
+					"display_name": "Ornate Park Bench",
+					"description": "Outdoor seating for moments of relaxation."
+				}
+			},	 
 			"simple_wooden_chair": {
 				"simple_wooden_chair_ghost": {
 					"display_name": "Simple Wooden Chair",
-					"description": "For sitting"
+					"description": "For sitting."
 				}
 			},
 			"simple_wooden_chair_fine": {
 				"simple_wooden_chair_fine_ghost": {
 					"display_name": "Fine Wooden Chair",
-					"description": "For sitting"
+					"description": "For sitting."
 				}
 			},
 			"stone_bench": {
@@ -1815,7 +2097,7 @@
 			"writing_desk": {
 				"writing_desk_ghost": {
 					"display_name": "Writing Desk",
-					"description": "Furniture"
+					"description": "A peaceful place to write letters to home."
 				}
 			},
 			"writing_desk_fine": {
@@ -1879,6 +2161,60 @@
 				"park_bench_red_ghost": {
 					"display_name": "Red Wooden Park Bench",
 					"description": "Outdoor seating for moments of relaxation"
+				}
+			},
+			"ornate_table_for_one": {
+				"ornate_table_for_one_ghost": {
+					"display_name": "Ornate Table for One",
+					"description": "Dining furniture for introverts."
+				}
+			},
+			"ornate_comfy_bed": {
+				"ornate_comfy_bed_ghost": {
+					"display_name": "Ornate Comfy Bed",
+					"description": "I dreamed... of flying sheep."
+				}
+			},
+			"ornate_dining_table": {
+				"ornate_dining_table_ghost": {
+					"description": "Sitting down to eat is a sign of civilization.",
+					"display_name": "Ornate Dining Table"
+				}
+			},
+			"ornate_dresser": {
+				"ornate_dresser_ghost": {
+					"description": "Decorative in the absence of belongings.",
+					"display_name": "Ornate Dresser"
+				}
+			},
+			"ornate_writing_desk": {
+				"ornate_writing_desk_ghost": {
+					"description": "A stylish place to write letters to home.",
+					"display_name": "Ornate Writing Desk"
+				}
+			},
+			"ornate_comfy_chair": {
+				"ornate_comfy_chair_ghost": {
+					"description": "For comfortable sitting!",
+					"display_name": "Ornate Comfy Chair"
+				}
+			},
+			"bench": {
+				"bench_ghost": {
+					"display_name": "Wooden Park Bench",
+					"description": "Outdoor seating for moments of relaxation."
+				}
+			},
+			"wooden_chair": {
+				"wooden_chair_ghost": {
+					"display_name": "Wooden Chair",
+					"description": "For a little more class while sitting."
+				}
+			},
+			"ornate_wooden_chair": {
+				"ornate_wooden_chair_ghost": {
+					"display_name": "Ornate Wooden Chair",
+					"description": "For even more style while sitting."
 				}
 			}
 		},
@@ -1979,6 +2315,14 @@
 				"wolf": {
 					"display_name": "Feral Wolf",
 					"description": "Grrr! Rwar!"
+				},
+				"zilla": {
+					"display_name": "Zilla",
+					"description": "The ground rumbles when Zilla comes around."
+				},
+				"cougar": {
+					"display_name": "Cougar",
+					"description": "A large cat"
 				}
 			},
 			"goblins": {
@@ -2134,6 +2478,10 @@
 				"necromancer": {
 					"display_name": "Necromancer",
 					"description": "Practitioner of the dark arts"
+				},
+				"wolf_skeleton": {
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"description": "Its animal instincts are all that remain.."
 				}
 			},
 			"rabbit": {
@@ -2168,6 +2516,22 @@
 				"mammoth": {
 					"display_name": "Mammoth",
 					"description": "Large Woolie Beastie"
+				}
+			},
+			"evil": {
+				"loot_chest_fake": {
+					"display_name": "Evil Chest",
+					"description": "Its one of those things that goes bump in the night."
+				}
+			},
+			"avian": {
+				"ostrich": {
+					"display_name": "Ostrich",
+					"description": "Flightless avian"
+				},
+				"duckduck": {
+					"display_name": "DuckDuck",
+					"description": "Flightless avian"
 				}
 			}
 		},
@@ -2276,6 +2640,27 @@
 					"display_name": "Sunflower",
 					"description": "Bright and happy like the sun"
 				}
+			},
+			"brightbell_seed_plant": {
+				"unripe_description": "This seed will grow into a real plant someday",
+				"description": "Can be planted to grow healing herbs",
+				"display_name": "Wild Brightbell Seed"
+			},
+			"berry_bush_seed_plant": {
+				"display_name": "Berry Bush Seed",
+				"description": "Can be planted to grow a meager food supply"
+			},
+			"silkweed_seed_plant": {
+				"description": "Can be planted to grow fiber which can be spun into thread.",
+				"display_name": "Wild Silkweed Seed"
+			},
+			"pear_cactus_seed_plant": {
+				"description": "Can be planted to grow some prickly pears.",
+				"display_name": "Pear Cactus Seed"
+			},
+			"frostsnap_seed_plant": {
+				"display_name": "Wild Frostsnap Seed",
+				"description": "Can be planted to grow healing herbs"
 			}
 		},
 		"rabbit": {
@@ -2403,6 +2788,26 @@
 				"wolf_pelt": {
 					"display_name": "Pele de Lobo",
 					"description": "From the hide of a terrifying creature"
+				},
+				"deer_pelt": {
+					"display_name": "Deer Pelt",
+					"description": "Soft, supple, and quite dead"
+				},
+				"cougar_pelt": {
+					"display_name": "Cougar Pelt",
+					"description": "Soft, supple, and quite dead"
+				},
+				"beetle_pelt": {
+					"display_name": "Beetle Chitin",
+					"description": "Hard, shiny, and quite dead"
+				},
+				"bitsy_ant_pelt": {
+					"description": "Hard, shiny, and quite dead",
+					"display_name": "Small Ant Chitin"
+				},
+				"doodles_pelt": {
+					"description": "Hard, shiny, and quite dead",
+					"display_name": "Doodle Chitin"
 				}
 			},
 			"silver": {
@@ -2493,6 +2898,12 @@
 				"poyo_feathers": {
 					"display_name": "Poyo Feathers",
 					"description": "Feathers from a plump bird"
+				}
+			},
+			"refined": {
+				"gold_flakes": {
+					"display_name": "Gold Flakes",
+					"description": "Use when crafting furniture to make it really pretty!"
 				}
 			}
 		},
