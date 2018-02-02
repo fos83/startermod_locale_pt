@@ -4,12 +4,12 @@
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
 			"description": "Cidadão de sua cidade",
 			"job": {
-				"starting_level_title": "Lvl:[str(self.stonehearth:job.curr_job_level)] Aprendiz: [str(self.stonehearth:job.curr_job_name)]",
-				"mid_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] Journeyman: [str(self.stonehearth:job.curr_job_name)]",
-				"max_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] Mestre: [str(self.stonehearth:job.curr_job_name)]",
+				"starting_level_title": "Lvl:[str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Aprendiz ",
+				"mid_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Journeyman",
+				"max_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Mestre",
 				"default_level_title": "Lvl: [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_announcement": "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
-				"default_promote_announcement": "[name(i18n_data.entity)] is now a Level [str(i18n_data.level_number)] [str(i18n_data.job_name)]!",
+				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
+				"default_promote_announcement": "[name(i18n_data.entity)] é agora um [str(i18n_data.job_name)] de Nivel [str(i18n_data.level_number)]!",
 				"level_up_perk_description": "+10 pontos de saúde",
 				"attribute_up_desc": "Todos os atributos incrementados!"
 			}
@@ -41,10 +41,10 @@
 		},
 		"monster": {
 			"job": {
-				"starting_level_title": "Aprendiz: [str(self.stonehearth:job.curr_job_name)]",
+				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)]: Aprendiz",
 				"default_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
 				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
-				"default_promote_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_promote_announcement)",																									   
+				"default_promote_announcement": "[name(i18n_data.entity)] é agora um [str(i18n_data.job_name)] de Nivel [str(i18n_data.level_number)]!",																									   
 				"general_description_desc": "Saúde máxima aumentada!",
 				"attribute_up_desc": "Todos os atributos incrementados!"
 			}
