@@ -570,8 +570,8 @@
 				"leather_bound_chest_fine_ghost": {
 					"display_name": "Fine Leather Bound Chest",
 					"description": "Stores up to 64 items. With style."
-				}	 
-			},	 
+				}
+			},
 			"ornate_leather_bound_chest": {
 				"ornate_leather_bound_chest_ghost": {
 					"display_name": "Ornate Leather Bound Chest",
@@ -589,7 +589,7 @@
 					"description": "Temporary storage for crafted items.",
 					"display_name": "Clay Finished Work Shelf"
 				}
-			},	 
+			},
 			"output_box_stone": {
 				"output_box_stone_ghost": {
 					"description": "Temporary storage for crafted items.",
@@ -855,8 +855,8 @@
 				"species": "fox",
 				"description": "Small forest creature",
 				"display_name": "Fox"
-			}	
-		},	
+			}
+		},
 		"crops": {
 			"brightbell_crop": {
 				"display_name": "Brightbell Flower",
@@ -1669,7 +1669,7 @@
 					"display_name": "Dry Stone"
 				}
 			}
-		},	
+		},
 		"food": {
 			"berries": {
 				"berry_basket": {
@@ -2041,7 +2041,7 @@
 					"display_name": "Ornate Park Bench",
 					"description": "Outdoor seating for moments of relaxation."
 				}
-			},	 
+			},
 			"simple_wooden_chair": {
 				"simple_wooden_chair_ghost": {
 					"display_name": "Simple Wooden Chair",

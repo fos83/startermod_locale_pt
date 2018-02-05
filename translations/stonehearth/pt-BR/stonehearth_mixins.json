@@ -44,7 +44,7 @@
 				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)]: Aprendiz",
 				"default_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
 				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
-				"default_promote_announcement": "[name(i18n_data.entity)] é agora um [str(i18n_data.job_name)] de Nivel [str(i18n_data.level_number)]!",																									   
+				"default_promote_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_promote_announcement)",
 				"general_description_desc": "Saúde máxima aumentada!",
 				"attribute_up_desc": "Todos os atributos incrementados!"
 			}
