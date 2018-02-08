@@ -738,9 +738,9 @@
 						"keep_template": "Keep this template",
 						"remove_template": "Delete it!"
 					},
-					"template_description_tooltip": "Filename: [str(filename)]",
+					"template_description_tooltip": "Nome do arquivo: [str(filename)]",
 					"remove_template_button": "excluir modelo",
-					"build_template_button": "Build"
+					"build_template_button": "Construir"
 				},
 				"place_item": {
 					"title": "Place an Item"
@@ -748,10 +748,10 @@
 				"materials": {
 					"wall": {
 						"material": "Wall Material",
-						"wood_resource": "Wooden Wall",
-						"stone_resource": "Stone Wall",
-						"clay_resource": "Clay Wall",
-						"clay_brick_resource": "Clay Brick Wall"
+						"wood_resource": "Parede de madeira",
+						"stone_resource": "Parede de pedra",
+						"clay_resource": "Parede de argila",
+						"clay_brick_resource": "Parede de tijolos de argila"
 					},
 					"foundation": {
 						"material": "Foundation Material",
@@ -804,10 +804,10 @@
 					}
 				},
 				"start_building_confirm": {
-					"title": "Really start building?",
+					"title": "Realmente começar a construir?",
 					"message": "Once you begin building this structure cannot be edited or removed! Are you sure you want to build now?",
-					"yes": "Yes, start building!",
-					"no": "Not yet"
+					"yes": "Sim, comece a construir!",
+					"no": "Ainda não"
 				},
 				"remove_building_confirm": {
 					"title": "Really remove this building",
