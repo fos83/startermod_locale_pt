@@ -28,6 +28,11 @@
 					"decay_1": {
 						"description": "Começando a estragar. Melhor cozinhar logo."
 					}
+				},
+				"egg_large": {
+					"decay_1": {
+						"description": "Starting to go bad. Better cook it soon."
+					}
 				}
 			},
 			"jerky": {

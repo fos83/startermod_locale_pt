@@ -951,7 +951,8 @@
 				"decoration_name": "Decorations",
 				"roast_mutton_recipe": {
 					"recipe_name": "Roasted Rack of Mutton",
-					"description": "Nutritious and delicious"
+					"description": "Nutritious and delicious",
+					"flavor": "The traditional meal, excellent with berry sauce!"
 				},
 				"donation_box_recipe": {
 					"recipe_name": "Donation to the Church of Plenty",
@@ -962,7 +963,52 @@
 					"recipe_name": "Kibble Recipe",
 					"description": "For attracting furry friends",
 					"flavor": "There is a hole in my heart the shape of a kitten. "
-				}
+				},
+				"roast_pork_recipe": {
+					"description": "Coming Soon! Carefully created Roasted Boar",
+					"recipe_name": "Leg of Roast Pork",
+					"flavor": "Glazed and roasted"
+				},
+				"bacon_and_eggs_recipe": {
+					"description": "Coming Soon! Pork and eggs just like you like 'em.",
+					"recipe_name": "Bacon and Eggs",
+					"flavor": "The grease just gets into the eggs and tastes so good!"
+				},
+				"fried_eggs_large_recipe": {
+					"description": "Coming Soon! One HUGE egg fried to order.",
+					"recipe_name": "Large Fried Egg",
+					"flavor": "Better like yours sunnyside up!"
+				},
+				"bug_meat_stew_recipe": {
+					"description": "Coming Soon! Stringy, spicy, and perfect to eat on a hot day.",
+					"recipe_name": "Tasty Bug Stew",
+					"flavor": "Just don't ask, you know its made of bugs."
+				},
+				"roast_varanus_recipe": {
+					"description": "Spit roasted lizard meat",
+					"recipe_name": "Slab of Roast Varanus",
+					"flavor": "What a tasty slice of lizard tail!"
+				},
+				"roast_poultry_large_recipe": {
+					"description": "Coming Soon! Giant flightless bird leg",
+					"recipe_name": "Poultry Drumstick",
+					"flavor": "Those legs are good for running.. and eating!"
+				},
+				"roast_venison_recipe": {
+					"description": "Coming Soon! Gamey and greasy.",
+					"recipe_name": "Roasted Portion of Venison",
+					"flavor": "Not a common meal, but tasty when you can find it."
+				},
+				"sugar_recipe": {
+					"description": "A necessary ingredient for all kinds of sweets.",
+					"recipe_name": "Sack of Sugar"
+				},
+				"cake_recipe": {
+					"description": "A tasty Cake made from wheat and sugar.",
+					"recipe_name": "Cake",
+					"flavor": "So delicious with a berry on top!"
+				},
+				"chefs_specials_name": "Chef's Specials"
 			},
 			"cook_mill": {
 				"cook_mill_ghost": {
@@ -2215,7 +2261,83 @@
 					"recipe_name": "Cleric's Tome",
 					"description": "Required to promote a hearthling to a cleric"
 				},
-				"tools_name": "Ferramentas"
+				"tools_name": "Ferramentas",
+				"frostsnap_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Frostsnap Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"cactus_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Wild Cactus Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"brightbell_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Brightbell Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"berry_bush_transmute_recipe": {
+					"description": "Separate seeds from the fruit",
+					"recipe_name": "Berry Bush Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+				},
+				"refined_name": "Refinement",
+				"cactus_tulip_blue_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Tulip Cactus Seeds (Blue x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"cactus_tulip_red_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Tulip Cactus Seeds (Red x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"cactus_tulip_yellow_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Tulip Cactus Seeds (Yellow x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"tulip_cactus_red_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Tulip Cactus Red Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"tulip_cactus_blue_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Tulip Cactus Blue Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"tulip_cactus_yellow_transmute_recipe": {
+					"description": "Separate seeds from the herbs",
+					"recipe_name": "Tulip Cactus Yellow Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"wax_plant_green_transmute_recipe": {
+					"description": "Separate seeds from the plant.",
+					"recipe_name": "Wax Plant Seeds (Green x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+				},
+				"wax_plant_purple_transmute_recipe": {
+					"description": "Separate seeds from the plant.",
+					"recipe_name": "Wax Plant Seeds (Purple x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+				},
+				"foxlily_transmute_recipe": {
+					"description": "Separate seeds from the plant",
+					"recipe_name": "Foxlily Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+				},
+				"sunflower_transmute_recipe": {
+					"description": "Separate seeds from the plant",
+					"recipe_name": "Sunflower Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+				},
+				"pear_cactus_recipe": {
+					"description": "Separate seeds from the fruit",
+					"recipe_name": "Prickly Pear Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+				}
 			},
 			"herbalist_buffs": {
 				"willpower_1_buff": {

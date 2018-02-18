@@ -50,6 +50,35 @@
 				"ownership_current_owner_tooltip": "Dono Atual",
 				"ownership_owns_another_tooltip": "Já possui um objeto similar"
 			},
+			"multiplayer_menu": {
+				"display_name": "Multiplayer Menu",
+				"description": "View and manage other connected players",
+				"host": "host",
+				"client": "client",
+				"online": "online",
+				"offline": "offline",
+				"embarking": "embarking",
+				"player": "Player",
+				"disconnect_player": "Disconnect Player",
+				"erase_player": "Destroy Belongings",
+				"transfer_player": "Transfer Belongings",
+				"confirm": {
+					"cancel": "Cancel",
+					"continue": "Continue",
+					"disconnect_player": {
+						"title": "Disconnect this player",
+						"message": "Are you sure you want to disconnect this player?"
+					},
+					"erase_player": {
+						"title": "Destroy player belongings",
+						"message": "Are you sure you want destroy all of this player's belongings? You cannot undo this action."
+					},
+					"transfer_player": {
+						"title": "Transfer player belongings",
+						"message": "Are you sure you want take all of this player's belongings? You cannot undo this action."
+					}
+				}
+			},
 			"build_workshop": {
 				"title": "Construir Mesa de Trabalho",
 				"requirements": "Requisitos",
@@ -339,6 +368,7 @@
 					"storage": "Storage",
 					"defense": "Defense",
 					"trophy": "Trophies",
+					"seed": "Seeds",
 					"none": "Nenhum"
 				},
 				"tooltip_combat_base_damage": "Atk:",
@@ -1240,6 +1270,7 @@
 						"speed_three": "Super Speed",
 						"town_overview": "Town Info Menu",
 						"citizen_manager": "Citizens Menu",
+						"multiplayer_menu": "Multiplayer Menu",
 						"harvest_menu": "Harvest Menu",
 						"harvest_harvest": "Harvest Tool",
 						"harvest_mine": "Mine Tool",
@@ -1310,7 +1341,7 @@
 				"new_game": "Novo Jogo",
 				"load_game": "Carregar Jogo",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A23)",
+				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A24)",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
 					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
@@ -1527,7 +1558,7 @@
 				},
 				"content": {
 					"display_name": "Content",
-					"town_description": "Your citizens are satisfied with the way things have been going.",
+					"town_description": "Your citizens are generally satisfied with how things are.",
 					"description": "Nothing good, nothing bad."
 				},
 				"jubilant": {
@@ -1537,18 +1568,18 @@
 				},
 				"forlorn": {
 					"display_name": "Forlorn",
-					"town_description": "Your citizens have been having an incredibly hard time lately.",
+					"town_description": "Your citizens have been having an really hard time lately.",
 					"description": "Movement speed is reduced by 10%."
 				},
 				"merry": {
 					"display_name": "Merry",
-					"town_description": "Your citizens are generally happy.",
+					"town_description": "Your citizens are pretty happy on the whole.",
 					"description": "Movement speed is increased by 5%."
 				},
 				"glum": {
 					"display_name": "Glum",
 					"town_description": "Your citizens aren't feeling great, overall.",
-					"description": "Movement speed is increased by 5%."
+					"description": "Movement speed is reduced by 5%."
 				},
 				"exp_bar": {
 					"description": "This hearthling's progress to next level."
@@ -1580,6 +1611,7 @@
 			"constants": {
 				"food_meat_raw_name": "Raw Meat",
 				"food_veggie_raw_name": "Raw Vegetable",
+				"food_bug_meat_raw_name": "Raw Bug Meat",
 				"stone_resource_name": "Pedra",
 				"pelt_resource_name": "Fur Pelt",
 				"cloth_resource_name": "Bolt of Cloth",

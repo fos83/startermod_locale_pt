@@ -855,6 +855,11 @@
 				"species": "fox",
 				"description": "Small forest creature",
 				"display_name": "Fox"
+			},
+			"deer_horned": {
+				"species": "deer",
+				"description": "Om nom nom",
+				"display_name": "Deer"
 			}
 		},
 		"crops": {
@@ -1668,6 +1673,10 @@
 					"description": "This stone has been blessed by the heat of Pal'Mum!",
 					"display_name": "Dry Stone"
 				}
+			},
+			"chest_cheat": {
+				"display_name": "Cheat Chest - Debug Item",
+				"description": "This is a debug item with default cheating items."
 			}
 		},
 		"food": {
@@ -1955,6 +1964,163 @@
 			"rotten_bug_meat": {
 				"description": "Bug meat goes bad just like other meat",
 				"display_name": "Rotten Bug Meat"
+			},
+			"roast_pork": {
+				"roast_pork": {
+					"description": "Tenderly roasted to perfection",
+					"display_name": "Leg of Roast Pork"
+				},
+				"roast_pork_serving": {
+					"display_name": "Roast Pork Slice"
+				}
+			},
+			"egg_large": {
+				"display_name": "Large Egg",
+				"description": "An eggciting ingredient for cooking."
+			},
+			"rotten_egg_large": {
+				"description": "Disgusting",
+				"display_name": "Large Rotten Egg"
+			},
+			"varanus_meat": {
+				"display_name": "Varanus Meat",
+				"description": "Tastes more like Poyo then Poyo does."
+			},
+			"rotten_varanus_meat": {
+				"description": "It actually smells better now",
+				"display_name": "Rotten Varanus Meat"
+			},
+			"roast_varanus": {
+				"roast_varanus": {
+					"description": "Tastily roasted to perfection",
+					"display_name": "Slab of Roast Varanus"
+				},
+				"roast_varanus_serving": {
+					"display_name": "Serving of Roast Varanus"
+				}
+			},
+			"roast_zilla": {
+				"roast_zilla": {
+					"display_name": "Chunk of Roast Zilla",
+					"description": "Transformatively roasted to perfection"
+				},
+				"roast_zilla_serving": {
+					"display_name": "Serving of Roast Zilla"
+				}
+			},
+			"rotten_pork_meat": {
+				"display_name": "Rotten Pork Meat",
+				"description": "This has definitely gone bad"
+			},
+			"rotten_poultry_large_meat": {
+				"display_name": "Rotten Poultry Meat",
+				"description": "Pee-ew!"
+			},
+			"poultry_large": {
+				"display_name": "Raw Poultry",
+				"description": "Raw meat from a large bird"
+			},
+			"roast_poultry": {
+				"roast_poultry": {
+					"display_name": "Poultry Drumstick",
+					"description": "Tediously roasted to perfection"
+				},
+				"roast_poultry_serving": {
+					"display_name": "Roast Drumstick"
+				}
+			},
+			"rotten_sausage_meat": {
+				"display_name": "Rotten Sausages",
+				"description": "Can meat become ripe?"
+			},
+			"sausage": {
+				"display_name": "Raw Sausage",
+				"description": "Raw meat from.. everywhere else"
+			},
+			"roast_sausage": {
+				"roast_sausage": {
+					"display_name": "Roast Sausage",
+					"description": "Tantalisingly roasted to perfection"
+				},
+				"roast_sausage_serving": {
+					"display_name": "Serving of Roast Sausage"
+				}
+			},
+			"bug_meat_stew": {
+				"bug_meat_stew": {
+					"description": "Stringy and Savory",
+					"display_name": "Tasty Bug Stew"
+				},
+				"bug_meat_stew_serving": {
+					"display_name": "Bowl of Tasty Bug Stew"
+				}
+			},
+			"fried_eggs_large": {
+				"fried_eggs_large": {
+					"display_name": "Large Fried Egg",
+					"description": "Fried, delicious, and HUGE"
+				},
+				"fried_eggs_large_serving": {
+					"display_name": "Serving of Large Fried Eggs"
+				}
+			},
+			"bacon_and_eggs": {
+				"bacon_and_eggs": {
+					"display_name": "Bacon and Eggs",
+					"description": "The best breakfast you can get"
+				},
+				"bacon_and_eggs_serving": {
+					"display_name": "Serving of Bacon and Eggs"
+				}
+			},
+			"varanus_jerky": {
+				"display_name": "Varanus Jerky"
+			},
+			"zilla_jerky": {
+				"display_name": "Zilla Jerky"
+			},
+			"ostrich_jerky": {
+				"display_name": "Ostrich Jerky"
+			},
+			"boar_jerky": {
+				"display_name": "Boar Jerky"
+			},
+			"duckduck_jerky": {
+				"display_name": "Duckduck Jerky"
+			},
+			"roast_venison": {
+				"roast_venison": {
+					"display_name": "Chunk of Roast Venison",
+					"description": "Thoughtfully roasted to perfection"
+				},
+				"roast_venison_serving": {
+					"display_name": "Serving of Roast Venison"
+				}
+			},
+			"venison": {
+				"display_name": "Raw Venison",
+				"description": "Raw meat from a deer"
+			},
+			"rotten_venison_meat": {
+				"display_name": "Rotten Venison Meat",
+				"description": "What a waste.."
+			},
+			"sugar": {
+				"sugarbell_basket": {
+					"display_name": "Basket of Sugarbells",
+					"description": "Not really edible in this form, it needs to be processed."
+				},
+				"display_name": "Sack of Sugar",
+				"description": "Perfect for making sweets"
+			},
+			"cake": {
+				"cake": {
+					"display_name": "Sweet Cake",
+					"description": "Sweet and scrumptious."
+				},
+				"cake_serving": {
+					"display_name": "Piece of Sweet Cake"
+				}
 			}
 		},
 		"furniture": {
@@ -2323,6 +2489,10 @@
 				"cougar": {
 					"display_name": "Cougar",
 					"description": "A large cat"
+				},
+				"jacko": {
+					"display_name": "Spirit of Jack-O",
+					"description": "Protector of Light"
 				}
 			},
 			"goblins": {
@@ -2546,32 +2716,94 @@
 				"description": "So brave!",
 				"species": "dog"
 			},
-			"dragon_whelp": {
-				"display_name": "Dragon Whelp",
-				"description": "A baby dragon",
-				"species": "dragon"
-			},
 			"kitten": {
 				"display_name": "Kitten",
 				"description": "He's so cute!",
-				"species": "cat"
+				"species": "cat",
+				"jacko": {
+					"display_name": "Shade of Jack-O",
+					"description": "Walker of Shadows"
+				},
+				"koda": {
+					"display_name": "Spirit of Koda",
+					"description": "Friend to All"
+				}
 			},
 			"mammoth": {
 				"display_name": "Baby Mammoth",
 				"description": "So furry!",
 				"species": "mammoth"
+			},
+			"dragon_whelp_fire": {
+				"display_name": "Flame Dragon Whelp",
+				"description": "A baby dragon, keep it away from flamable materials.",
+				"species": "dragon"
+			},
+			"dragon_whelp_nature": {
+				"display_name": "Forest Dragon Whelp",
+				"description": "A baby dragon, excellent for tending a freshly planted garden.",
+				"species": "dragon"
+			},
+			"dragon_whelp_ice": {
+				"display_name": "Frost Dragon Whelp",
+				"description": "A baby dragon, good for keeping food cold.",
+				"species": "dragon"
 			}
 		},
 		"plants": {
 			"berry_bush": {
 				"display_name": "Berry Bush",
 				"description": "Harvestable for a meager food supply.",
-				"unripe_description": "Not yet ripe for harvest."
+				"unripe_description": "Not yet ripe for harvest.",
+				"seed": {
+					"berry_bush_plant_seed_ghost": {
+						"display_name": "Berry Bush Seed",
+						"description": "Can be planted to grow a meager food supply"
+					}
+				},
+				"bud": {
+					"berry_bush_plant_bud": {
+						"display_name": "Budding Berry Bush",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"sprout": {
+					"berry_bush_plant_sprout": {
+						"display_name": "Berry Bush Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"berry_bush_plant_stem": {
+						"display_name": "Stemming Berry Bush",
+						"description": "Still growing!"
+					}
+				}
 			},
 			"brightbell_plant": {
 				"display_name": "Wild Brightbell",
 				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet"
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"seed": {
+					"brightbell_plant_seed_ghost": {
+						"display_name": "Wild Brightbell Seed",
+						"description": "Once planted, it will grow into healing herbs"
+					},
+					"brightbell_plant_sprout": {
+						"display_name": "Wild Brightbell Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"brightbell_plant_stem": {
+						"display_name": "Wild Brightbell Stemming Plant",
+						"description": "Still growing!"
+					},
+					"brightbell_plant_bud": {
+						"display_name": "Wild Brightbell Budding Plant",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				}
 			},
 			"carrot": {
 				"carrot_basket": {
@@ -2581,18 +2813,108 @@
 				"carrot_serving": {
 					"display_name": "Cenoura",
 					"description": "Tiny. Bitter."
+				},
+				"display_name": "Carrot",
+				"description": "Great for soups",
+				"bud": {
+					"carrot_plant_bud": {
+						"display_name": "Budding Carrot",
+						"description": "Its almost full grown!  But then it has to dry out!"
+					}
+				},
+				"rotten": {
+					"carrot_rotten": {
+						"display_name": "Rotten Carrot",
+						"description": "Not good for eating anymore, but a great source of seeds"
+					}
+				},
+				"sprout": {
+					"carrot_plant_sprout": {
+						"display_name": "Carrot Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"carrot_plant_seed": {
+						"display_name": "Carrot Seed",
+						"description": "Can be planted to grow a tasty orange veggie."
+					},
+					"carrot_plant_seed_ghost": {
+						"display_name": "Carrot Seed",
+						"description": "Can be planted to grow a crunchy orange veggie."
+					}
+				},
+				"stem": {
+					"carrot_plant_stem": {
+						"display_name": "Stemming Carrot",
+						"description": "Still growing!"
+					}
+				},
+				"carrot_ghost": {
+					"display_name": "Carrot",
+					"description": "Great for soups"
 				}
 			},
 			"frostsnap_plant": {
 				"display_name": "Wild Frost Snap",
 				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet"
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"seed": {
+					"frostsnap_plant_seed_ghost": {
+						"display_name": "Wild Frostsnap Seed",
+						"description": "Can be planted to grow healing herbs"
+					},
+					"frostsnap_plant_sprout": {
+						"display_name": "Wild Frostsnap Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"frostsnap_plant_stem": {
+						"display_name": "Wild Frostsnap Stemming Plant",
+						"description": "Still growing!"
+					},
+					"frostsnap_plant_bud": {
+						"display_name": "Wild Frostsnap Budding Plant",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"bud": {
+					"frostsnap_plant_bud": {
+						"display_name": "Wild Frostsnap Budding Plant",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				}
 			},
 			"silkweed": {
 				"silkweed": {
-					"display_name": "Wild silkweed",
+					"display_name": "Wild Silkweed",
 					"description": "This plant's fiber can be spun into thread.",
 					"unripe_description": "This plant has been harvested and hasn't grown back yet."
+				},
+				"seed": {
+					"silkweed_plant_seed_ghost": {
+						"display_name": "Wild Silkweed Seed",
+						"description": "Can be planted to grow fiber which can be spun into thread."
+					}
+				},
+				"bud": {
+					"silkweed_bud": {
+						"display_name": "Budding Silkweed",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"sprout": {
+					"silkweed_plant_sprout": {
+						"display_name": "Silkweed Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"silkweed_stem": {
+						"display_name": "Stemming Silkweed",
+						"description": "Still growing!"
+					}
 				}
 			},
 			"tester": {
@@ -2618,49 +2940,381 @@
 			"cactus_plant": {
 				"display_name": "Wild Cactus",
 				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet"
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"bud": {
+					"cactus_plant_plant_bud": {
+						"display_name": "Budding Wild Cactus",
+						"description": "Its almost here!  Look, it has buds!"
+					}
+				},
+				"seed": {
+					"cactus_plant_seed": {
+						"display_name": "Wild Cactus Seed",
+						"description": "Can be planted to grow healing herbs."
+					},
+					"cactus_plant_seed_ghost": {
+						"display_name": "Wild Cactus Seed",
+						"description": "Can be planted to grow some prickly pears."
+					}
+				},
+				"sprout": {
+					"cactus_plant_plant_sprout": {
+						"display_name": "Wild Cactus Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"cactus_plant_plant_stem": {
+						"display_name": "Stemming Wild Cactus",
+						"description": "Still growing!"
+					}
+				}
 			},
 			"tumbleweed": {
 				"display_name": "Tumbleweed",
-				"description": "Source of coarse fibers"
+				"description": "Source of coarse fibers",
+				"bud": {
+					"tumbleweed_plant_bud": {
+						"display_name": "Budding Tumbleweed",
+						"description": "Its almost full grown!  But then it has to dry out!"
+					}
+				},
+				"seed": {
+					"tumbleweed_plant_seed": {
+						"display_name": "Tumbleweed Seed",
+						"description": "Can be planted to grow a fiber of scratchy quality."
+					},
+					"tumbleweed_plant_seed_ghost": {
+						"display_name": "Tumbleweed Seed",
+						"description": "Can be planted to grow a fiber of scratchy quality."
+					}
+				},
+				"sprout": {
+					"tumbleweed_plant_sprout": {
+						"display_name": "Tumbleweed Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"tumbleweed_plant_stem": {
+						"display_name": "Stemming Tumbleweed",
+						"description": "Still growing!"
+					}
+				}
 			},
 			"pear_cactus": {
 				"display_name": "Pear Cactus",
 				"description": "Harvest carefully for prickly pears.",
-				"unripe_description": "It's the invisible spines that really hurt"
+				"unripe_description": "It's the invisible spines that really hurt",
+				"seed": {
+					"pear_cactus_plant_seed_ghost": {
+						"display_name": "Pear Cactus Seed",
+						"description": "Can be planted to grow some prickly pears."
+					}
+				},
+				"bud": {
+					"pear_cactus_plant_bud": {
+						"display_name": "Budding Pear Cactus",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"sprout": {
+					"pear_cactus_plant_sprout": {
+						"display_name": "Pear Cactus Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"pear_cactus_plant_stem": {
+						"display_name": "Stemming Pear Cactus",
+						"description": "Still growing!"
+					}
+				}
 			},
 			"foxlily_plant": {
 				"foxlily_plant_ghost": {
 					"display_name": "Fox Lily",
 					"description": "Orange flowers bearing resemblance to fox tails"
+				},
+				"bud": {
+					"foxlily_plant_plant_bud": {
+						"display_name": "Budding Foxlily Plant",
+						"description": "Its almost there!  You can see the flowers budding!"
+					}
+				},
+				"seed": {
+					"foxlily_plant_plant_seed_ghost": {
+						"display_name": "Foxlily Seed",
+						"description": "Can be planted to grow a beautiful fox tail flower."
+					},
+					"foxlily_plant_plant_seed": {
+						"display_name": "Foxlily Seed",
+						"description": "Can be planted to grow a beautiful fox tail flower."
+					}
+				},
+				"sprout": {
+					"foxlily_plant_plant_sprout": {
+						"display_name": "Foxlily Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"foxlily_plant_plant_stem": {
+						"display_name": "Stemming Foxlily Plant",
+						"description": "Still growing!"
+					}
 				}
 			},
 			"sunflower_plant": {
 				"sunflower_plant_ghost": {
 					"display_name": "Sunflower",
 					"description": "Bright and happy like the sun"
+				},
+				"bud": {
+					"sunflower_plant_plant_bud": {
+						"display_name": "Budding Sunflower Plant",
+						"description": "Its almost there!  You can see the flowers budding!"
+					}
+				},
+				"stem": {
+					"sunflower_plant_plant_stem": {
+						"display_name": "Stemming Sunflower Plant",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"sunflower_plant_plant_sprout": {
+						"display_name": "Sunflower Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"sunflower_plant_plant_seed_ghost": {
+						"display_name": "Sunflower Seed",
+						"description": "Can be planted to grow a beautiful sunflower."
+
+					},
+					"sunflower_plant_plant_seed": {
+						"display_name": "Sunflower Seed",
+						"description": "Can be planted to grow a beautiful sunflower."
+					}
 				}
 			},
-			"brightbell_seed_plant": {
-				"unripe_description": "This seed will grow into a real plant someday",
-				"description": "Can be planted to grow healing herbs",
-				"display_name": "Wild Brightbell Seed"
+			"tumbleweed_live": {
+				"display_name": "Live Tumbleweed",
+				"description": "Once it dries out, it will be a great source of coarse fibers"
 			},
-			"berry_bush_seed_plant": {
-				"display_name": "Berry Bush Seed",
-				"description": "Can be planted to grow a meager food supply"
+			"sugarbell": {
+				"unripe_description": "Not yet ripe for harvest.",
+				"sugarbell_ghost": {
+					"display_name": "Sugarbell",
+					"description": "Harvestable for a bit of sugar."
+				},
+				"bud": {
+					"sugarbell_plant_bud": {
+						"display_name": "Budding Sugarbell",
+						"description": "Its almost there!  The petals are starting to change!"
+					}
+				},
+				"seed": {
+					"sugarbell_plant_seed": {
+						"display_name": "Sugarbell Seed",
+						"description": "Can be planted to grow a bit of sugar"
+					},
+					"sugarbell_plant_seed_ghost": {
+						"display_name": "Sugarbell Seed",
+						"description": "Can be planted to grow a bit of sugar"
+					}
+				},
+				"sprout": {
+					"sugarbell_plant_sprout": {
+						"display_name": "Sugarbell Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"sugarbell_plant_stem": {
+						"display_name": "Stemming Sugarbell",
+						"description": "Still growing!"
+					}
+				}
 			},
-			"silkweed_seed_plant": {
-				"description": "Can be planted to grow fiber which can be spun into thread.",
-				"display_name": "Wild Silkweed Seed"
+			"cactus_tulip_red_plant": {
+				"cactus_tulip_red_plant_ghost": {
+					"display_name": "Red Tulip Cactus",
+					"description": "Can be harvested for healing herbs"
+				},
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"stem": {
+					"cactus_tulip_red_plant_stem": {
+						"display_name": "Stemming Tulip Cactus Plant",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"cactus_tulip_red_plant_sprout": {
+						"display_name": "Tulip Cactus Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"cactus_tulip_red_plant_seed": {
+						"display_name": "Red Tulip Cactus Seed",
+						"description": "Once planted, it will grow into an healing herb plant"
+					},
+					"cactus_tulip_red_plant_seed_ghost": {
+						"display_name": "Red Cactus Tulip Seed",
+						"description": "Once planted, it will grow into an healing herb plant"
+					}
+				},
+				"bud": {
+					"cactus_tulip_red_plant_bud": {
+						"display_name": "Budding Tulip Cactus Plant",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				}
 			},
-			"pear_cactus_seed_plant": {
-				"description": "Can be planted to grow some prickly pears.",
-				"display_name": "Pear Cactus Seed"
+			"cactus_tulip_blue_plant": {
+				"stem": {
+					"cactus_tulip_blue_plant_stem": {
+						"display_name": "Stemming Tulip Cactus Plant",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"cactus_tulip_blue_plant_sprout": {
+						"display_name": "Tulip Cactus Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"cactus_tulip_blue_plant_seed": {
+						"display_name": "Blue Tulip Cactus Seed",
+						"description": "Once planted, it will grow into an healing herb plant"
+					},
+					"cactus_tulip_blue_plant_seed_ghost": {
+						"display_name": "Blue Cactus Tulip Seed",
+						"description": "Once planted, it will grow into an healing herb plant"
+					}
+				},
+				"bud": {
+					"cactus_tulip_blue_plant_bud": {
+						"display_name": "Budding Tulip Cactus Plant",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"cactus_tulip_blue_plant_ghost": {
+					"display_name": "Blue Tulip Cactus",
+					"description": "Can be harvested for healing herbs"
+				},
+				"unripe_description": "This plant has been harvested and has not grown back yet"
 			},
-			"frostsnap_seed_plant": {
-				"display_name": "Wild Frostsnap Seed",
-				"description": "Can be planted to grow healing herbs"
+			"cactus_tulip_plant": {
+				"yellow": {
+					"stem": {
+						"cactus_tulip_yellow_plant_stem": {
+							"display_name": "Stemming Tulip Cactus Plant",
+							"description": "Still growing!"
+						}
+					},
+					"sprout": {
+						"cactus_tulip_yellow_plant_sprout": {
+							"display_name": "Tulip Cactus Sproutling",
+							"description": "Just needs some time and care."
+						}
+					},
+					"seed": {
+						"cactus_tulip_yellow_plant_seed_ghost": {
+							"display_name": "Yellow Cactus Tulip Seed",
+							"description": "Once planted, it will grow into an healing herb plant"
+						},
+						"cactus_tulip_yellow_plant_seed": {
+							"display_name": "Yellow Tulip Cactus Seed",
+							"description": "Once planted, it will grow into an healing herb plant"
+						}
+					},
+					"bud": {
+						"cactus_tulip_yellow_plant_bud": {
+							"display_name": "Budding Tulip Cactus Plant",
+							"description": "Its almost there!  Look, it has buds!"
+						}
+					},
+					"cactus_tulip_yellow_plant": {
+						"unripe_description": "This plant has been harvested and has not grown back yet"
+					},
+					"cactus_tulip_yellow_plant_ghost": {
+						"display_name": "Yellow Tulip Cactus",
+						"description": "Can be harvested for healing herbs"
+					}
+				}
+			},
+			"wax_plant_purple": {
+				"wax_plant_purple_ghost": {
+					"display_name": "Purple Wax Plant",
+					"description": "Just a cute little plant, can harvest it for seeds."
+				},
+				"bud": {
+					"wax_plant_purple_plant_bud": {
+						"display_name": "Budding Purple Wax Plant",
+						"description": "Its almost there!"
+					}
+				},
+				"seed": {
+					"wax_plant_purple_plant_seed": {
+						"display_name": "Purple Wax Plant Seed",
+						"description": "Can be planted to grow a little cactus."
+					},
+					"wax_plant_purple_plant_seed_ghost": {
+						"display_name": "Purple Wax Plant Seed",
+						"description": "Can be planted to grow a little cactus."
+					}
+				},
+				"sprout": {
+					"wax_plant_purple_plant_sprout": {
+						"display_name": "Purple Wax Plant Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"wax_plant_purple_plant_stem": {
+						"display_name": "Stemming Purple Wax Plant",
+						"description": "Still growing!"
+					}
+				}
+			},
+			"wax_plant_green": {
+				"wax_plant_green_ghost": {
+					"display_name": "Green Wax Plant",
+					"description": "Just a cute little plant, can harvest it for seeds."
+				},
+				"bud": {
+					"wax_plant_green_plant_bud": {
+						"display_name": "Budding Green Wax Plant",
+						"description": "Its almost there!"
+					}
+				},
+				"seed": {
+					"wax_plant_green_plant_seed": {
+						"display_name": "Green Wax Plant Seed",
+						"description": "Can be planted to grow a little cactus."
+					},
+					"wax_plant_green_plant_seed_ghost": {
+						"display_name": "Green Wax Plant Seed",
+						"description": "Can be planted to grow a little cactus."
+					}
+				},
+				"sprout": {
+					"wax_plant_green_plant_sprout": {
+						"display_name": "Green Wax Plant Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"wax_plant_green_plant_stem": {
+						"display_name": "Stemming Green Wax Plant",
+						"description": "Still growing!"
+					}
+				}
 			}
 		},
 		"rabbit": {
@@ -2808,6 +3462,10 @@
 				"doodles_pelt": {
 					"description": "Hard, shiny, and quite dead",
 					"display_name": "Doodle Chitin"
+				},
+				"boar_pelt": {
+					"description": "Soft, supple, and quite dead",
+					"display_name": "Boar Pelt"
 				}
 			},
 			"silver": {
@@ -2882,6 +3540,18 @@
 				"cactus_flower": {
 					"display_name": "Cactus Flower",
 					"description": "A beautiful desert bloom with healing properties"
+				},
+				"cactus_tulip_red": {
+					"display_name": "Red Tulip Cactus Flowers",
+					"description": "An herb commonly used for medicinal purposes"
+				},
+				"cactus_tulip_blue": {
+					"display_name": "Blue Tulip Cactus Flowers",
+					"description": "An herb commonly used for medicinal purposes"
+				},
+				"cactus_tulip_yellow": {
+					"display_name": "Yellow Tulip Cactus Flowers",
+					"description": "An herb commonly used for medicinal purposes"
 				}
 			},
 			"skin": {
@@ -2892,12 +3562,24 @@
 				"ogre_bone": {
 					"display_name": "Ogre Bone",
 					"description": "Dense and strong"
+				},
+				"zilla_skin": {
+					"display_name": "Zilla Skin",
+					"description": "Rough and scaly, its always just a little warm."
 				}
 			},
 			"feathers": {
 				"poyo_feathers": {
 					"display_name": "Poyo Feathers",
 					"description": "Feathers from a plump bird"
+				},
+				"ostrich_feathers": {
+					"description": "Feathers from a large flightless bird",
+					"display_name": "Ostrich Feathers"
+				},
+				"duckduck_feathers": {
+					"description": "Feathers from a flightless bird",
+					"display_name": "Duckduck Feathers"
 				}
 			},
 			"refined": {
@@ -3014,6 +3696,34 @@
 				"small_juniper_tree": {
 					"display_name": "Small Juniper Tree",
 					"description": "Just a sapling."
+				},
+				"stem": {
+					"tree_juniper_plant_stem": {
+						"display_name": "Stemming Juniper Tree",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"tree_juniper_sprout": {
+						"display_name": "Juniper Tree Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"tree_juniper_seed": {
+						"display_name": "Juniper Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					},
+					"tree_juniper_seed_ghost": {
+						"display_name": "Juniper Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				},
+				"bud": {
+					"tree_juniper_plant_bud": {
+						"display_name": "Budding Juniper Tree",
+						"description": "Its almost there!  It's growing its adult leaves!"
+					}
 				}
 			},
 			"palm_tree": {
@@ -3044,12 +3754,68 @@
 					"sapling_acacia_tree_iconic": {
 						"description": "Plant it in the earth and watch it grow."
 					}
+				},
+				"stem": {
+					"tree_acacia_plant_stem": {
+						"display_name": "Stemming Acacia Tree",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"tree_acacia_sprout": {
+						"display_name": "Acacia Tree Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"tree_acacia_seed": {
+						"display_name": "Acacia Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					},
+					"tree_acacia_seed_ghost": {
+						"display_name": "Acacia Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				},
+				"bud": {
+					"tree_acacia_plant_bud": {
+						"display_name": "Budding Acacia Tree",
+						"description": "Its almost there!  It's growing its adult leaves!"
+					}
 				}
 			},
 			"joshua_tree": {
 				"large_joshua_tree": {
 					"display_name": "Large Joshua Tree",
 					"description": "A curious tree"
+				},
+				"stem": {
+					"tree_joshua_plant_stem": {
+						"display_name": "Stemming Joshua Tree",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"tree_joshua_sprout": {
+						"display_name": "Joshua Tree Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"tree_joshua_seed": {
+						"display_name": "Joshua Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					},
+					"tree_joshua_seed_ghost": {
+						"display_name": "Joshua Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				},
+				"bud": {
+					"tree_joshua_plant_bud": {
+						"display_name": "Budding Joshua Tree",
+						"description": "Its almost there!  It's growing its adult leaves!"
+					}
 				}
 			},
 			"pine_tree": {
@@ -3064,6 +3830,34 @@
 				"small_pine_tree": {
 					"display_name": "Small Pine Tree",
 					"description": "Just a sapling."
+				},
+				"stem": {
+					"tree_pine_plant_stem": {
+						"display_name": "Stemming Pine Tree",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"tree_pine_sprout": {
+						"display_name": "Pine Tree Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"tree_pine_seed": {
+						"display_name": "Pine Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					},
+					"tree_pine_seed_ghost": {
+						"display_name": "Pine Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				},
+				"bud": {
+					"tree_pine_plant_bud": {
+						"display_name": "Budding Pine Tree",
+						"description": "Its almost there!  It's growing its adult leaves!"
+					}
 				}
 			},
 			"cactus_tree": {
@@ -3074,6 +3868,34 @@
 				"small_cactus_tree": {
 					"display_name": "Small Cactus",
 					"description": "Small and prickly."
+				},
+				"stem": {
+					"tree_cactus_plant_stem": {
+						"display_name": "Stemming Cactus",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"tree_cactus_sprout": {
+						"display_name": "Cactus Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"tree_cactus_seed": {
+						"display_name": "Giant Cactus Seed",
+						"description": "Can be planted to grow a giant cactus"
+					},
+					"tree_cactus_seed_ghost": {
+						"display_name": "Large Cactus Seed",
+						"description": "Can be planted to grow a giant cactus"
+					}
+				},
+				"bud": {
+					"tree_cactus_plant_bud": {
+						"display_name": "Budding Cactus",
+						"description": "Its almost there!  You can see it plumping up!"
+					}
 				}
 			},
 			"oak_tree": {
@@ -3101,6 +3923,34 @@
 					},
 					"sapling_oak_tree_iconic": {
 						"description": "Plant it in the earth and watch it grow."
+					}
+				},
+				"stem": {
+					"tree_oak_plant_stem": {
+						"display_name": "Stemming Oak Tree",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"tree_oak_sprout": {
+						"display_name": "Oak Tree Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"tree_oak_seed": {
+						"display_name": "Oak Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					},
+					"tree_oak_seed_ghost": {
+						"display_name": "Oak Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				},
+				"bud": {
+					"tree_oak_plant_bud": {
+						"display_name": "Budding Oak Tree",
+						"description": "Its almost there!  It's growing its adult leaves!"
 					}
 				}
 			}

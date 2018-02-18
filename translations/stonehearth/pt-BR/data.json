@@ -3048,6 +3048,9 @@
 			"forest": {
 				"insane_alligator": {
 					"description": "Smaller varanuses tend to flock around them."
+				},
+				"zilla": {
+					"description": "Beware Zilla!"
 				}
 			}
 		},
