@@ -29,6 +29,20 @@
 				"appeal_vision": "Appeal Vision",
 				"appeal_vision_description": "See how appealing hearthlings find the world."
 			},
+			"trade_menu": {
+				"title": "Trade with [str(town_name)]",
+				"you": "[str(town_name)] (You!)",
+				"offering": "You are offering: ",
+				"requesting": "You are requesting:",
+				"give_1": "Give 1",
+				"give_10": "Give 10",
+				"request_1": "Request 1",
+				"request_10": "Request 10",
+				"remove_1": "Remove 1",
+				"remove_10": "Remove 10",
+				"cancel": "Cancel Trade",
+				"send": "Send Trade Request"
+			},
 			"promotion_tree": {
 				"title": "Escolha um Trabalho",
 				"promotion_title": "Promover a [str(job_name)]",
@@ -59,8 +73,13 @@
 				"offline": "offline",
 				"embarking": "embarking",
 				"player": "Player",
+				"players": "Players",		 
 				"disconnect_player": "Disconnect Player",
 				"erase_player": "Destroy Belongings",
+				"remote_connections_disabled": "Multiplayer not enabled",
+				"remote_connections_disabled_description": "Enable multiplayer in settings to allow other players to join your game",
+				"settings": "Settings",
+				"trade": "Trade",
 				"transfer_player": "Transfer Belongings",
 				"confirm": {
 					"cancel": "Cancel",
@@ -204,6 +223,35 @@
 				"hours": "h",
 				"the": "the",
 				"empty_string": ""
+			},
+			"multiplayer_settings": {
+				"create_new_multiplayer_game": "Create new multiplayer game",
+				"open_game_to_multiplayer": "Open game to multiplayer",
+				"allow_remote_connections": "Enable Multiplayer",
+				"allow_remote_connections_description": "Allow other players to join your game",
+				"start": "Start",
+				"settings": "Multiplayer Settings",
+				"max_players": "Max Players",
+				"max_players_description": "Set the maximum number of players that can join"
+			},
+			"multiplayer_status_text": {
+				"status": {
+					"connected": "connected",
+					"disconnected": "disconnected",
+					"removed": "removed from game",
+					"placed_camp": "placed their camp",
+					"changed_town_name": "set their town name to"
+				}
+			},
+			"disconnected": {
+				"disconnected": "You were disconnected",
+				"reasons": {
+					"error": "Something has gone wrong. You've lost connection to the server.",
+					"kick": "You were disconnected by the host.",
+					"shutdown": "The server was shutdown.",
+					"closed": "Server not accepting connections",
+					"full": "Server is full"
+				}
 			},
 			"party": {
 				"title": "Grupos",
@@ -624,6 +672,21 @@
 					"not_enough_gold_tooltip": "Não há ouro suficiente",
 					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
 				},
+				"trade": {
+					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
+					"source_title": "Trade Offer for [str(i18n_data.town_name)]",
+					"offering": "Offering:",
+					"exchange": "In exchange for:",
+					"request": "Requesting:",
+					"cancelled": "[str(i18n_data.town_name)] Cancelled a Trade",
+					"accepted": "[str(i18n_data.town_name)] Accepted a Trade",
+					"declined": "[str(i18n_data.town_name)] Declined a Trade",
+					"fail": {
+						"title": "Trade Couldn't Be Completed",
+						"source": "The other town no longer has enough of the offered resources to complete this trade.",
+						"target": "You don't have enough resources to complete this trade."
+					}
+				},
 				"city_dialog": {
 					"proclamation": "PROCLAMATION OF"
 				},
@@ -640,6 +703,14 @@
 				"promote_bulletin": {
 					"title": "[name(i18n_data.entity)] has been Promoted!",
 					"show_char_sheet": "Character Sheet"
+				},
+				"delivery_quest": {
+					"complete": "Complete",
+					"abandon": "Abandon"
+				},
+				"dispatch_quest": {
+					"abandon": "Abandon",
+					"dispatch": "Dispatch"
 				},
 				"immigration_report": {
 					"title": "Atualização diária",
@@ -1339,6 +1410,8 @@
 				"kingdom_of": "O Reino de",
 				"continue_game": "Continue",
 				"new_game": "Novo Jogo",
+				"singleplayer_game": "Singleplayer",
+				"multiplayer_game": "Multiplayer",
 				"load_game": "Carregar Jogo",
 				"quick_start": "Novo Jogo Rapido",
 				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A24)",
@@ -1623,6 +1696,8 @@
 				"fiber_resource_name": "Bundle of Fiber",
 				"ingot_resource_name": "Metal Ingot",
 				"herb_resource_name": "Herb",
+				"food_container_resource_name": "Food",
+				"gear_resource_name": "Gear",
 				"ore_resource_name": "Minério",
 				"dirt_resource_name": "Pile of Dirt"
 			}

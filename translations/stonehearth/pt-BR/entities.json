@@ -1283,6 +1283,50 @@
 						"description": "Ready for harvesting"
 					}
 				}
+			},
+			"cactus_tree_crop": {
+				"display_name": "Cactus Sapling",
+				"description": "Out of cactus? Get ready to replant that beautiful desert-scape.",
+				"growth_stage": {
+					"001": {
+						"name": "Cactus Seedling",
+						"description": "It's just getting started."
+					},
+					"003": {
+						"name": "Cactus Sapling",
+						"description": "Ready to be transferred to a bigger plot."
+					},
+					"000": {
+						"name": "Pollenated Flower Pod",
+						"description": "Even a mighty cactus has humble beginnings."
+					},
+					"002": {
+						"name": "Cactus Sprout",
+						"description": "Perfect size for a baby lizard."
+					}
+				}
+			},
+			"juniper_tree_crop": {
+				"display_name": "Juniper Sapling",
+				"description": "Forest running thin? Plant some of these gorgeous Juniper trees.",
+				"growth_stage": {
+					"001": {
+						"name": "Juniper Seedling",
+						"description": "It's just getting started."
+					},
+					"003": {
+						"name": "Juniper Sapling",
+						"description": "Ready to be transferred to a bigger plot."
+					},
+					"000": {
+						"name": "Juniper Berry",
+						"description": "Even a mighty juniper has humble beginnings."
+					},
+					"002": {
+						"name": "Juniper Sprout",
+						"description": "Perfect size for a rabbit to hide in."
+					}
+				}
 			}
 		},
 		"decoration": {
@@ -3723,6 +3767,14 @@
 					"tree_juniper_plant_bud": {
 						"display_name": "Budding Juniper Tree",
 						"description": "Its almost there!  It's growing its adult leaves!"
+				"sapling_juniper_tree": {
+					"sapling_juniper_tree_iconic": {
+						"description": "Plant it in the earth and watch it grow."
+					},
+					"description": "Baby Juniper Tree.",
+					"sapling_juniper_tree_ghost": {
+						"display_name": "Juniper Tree Sapling",
+						"description": "Baby Juniper Tree."
 					}
 				}
 			},
@@ -3895,6 +3947,14 @@
 					"tree_cactus_plant_bud": {
 						"display_name": "Budding Cactus",
 						"description": "Its almost there!  You can see it plumping up!"
+				"sapling_cactus_tree": {
+					"description": "Baby Cactus Plant.",
+					"sapling_cactus_tree_iconic": {
+						"description": "Plant it in the earth and watch it grow."
+					},
+					"sapling_cactus_tree_ghost": {
+						"display_name": "Cactus Sapling",
+						"description": "Baby Cactus Plant."
 					}
 				}
 			},
@@ -4208,6 +4268,22 @@
 				"silkweed_seeds": {
 					"display_name": "Silkweed Seeds",
 					"description": "Learn to grow silkweed."
+				},
+				"cactus_tree_seeds": {
+					"cactus_tree_seeds_ghost": {
+						"display_name": "Cactus Seeds",
+						"description": "Learn to grow cactus trees."
+					},
+					"display_name": "Cactus Seeds",
+					"description": "Learn to grow giant cactus."
+				},
+				"juniper_tree_seeds": {
+					"display_name": "Dried Juniper Berries",
+					"description": "Learn to grow juniper trees.",
+					"juniper_tree_seeds_ghost": {
+						"display_name": "Dried Juniper Berries",
+						"description": "Learn to grow juniper trees."
+					}
 				}
 			}
 		},
