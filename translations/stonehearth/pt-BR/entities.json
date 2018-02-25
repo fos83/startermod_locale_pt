@@ -3767,6 +3767,8 @@
 					"tree_juniper_plant_bud": {
 						"display_name": "Budding Juniper Tree",
 						"description": "Its almost there!  It's growing its adult leaves!"
+					}
+				},
 				"sapling_juniper_tree": {
 					"sapling_juniper_tree_iconic": {
 						"description": "Plant it in the earth and watch it grow."
@@ -3947,6 +3949,8 @@
 					"tree_cactus_plant_bud": {
 						"display_name": "Budding Cactus",
 						"description": "Its almost there!  You can see it plumping up!"
+					}
+				},
 				"sapling_cactus_tree": {
 					"description": "Baby Cactus Plant.",
 					"sapling_cactus_tree_iconic": {
