@@ -1,6 +1,31 @@
 {
 	"ui": {
 		"game": {
+			"build2": {
+				"tool_status": {
+					"eraseTool": "Erasing",
+					"roofTool": "Placing Roof",
+					"blocksTool": "Drawing Blocks",
+					"paintTool": "Painting Voxels",
+					"wallTool": "Placing Walls",
+					"stairsTool": "Placing Stairs",
+					"holeTool": "Making Holes",
+					"splitWallTool": "Splitting Walls",
+					"roomTool": "Placing Room"
+				},
+				"place_build_banner": "Place the banner at a hearthling-accessible location next to your building.",
+				"new_building_confirm": {
+					"title": "Create New Building",
+					"message": "Do you want to start a new building project?",
+					"yes": "Yes!",
+					"no": "No"
+				},
+				"plan_job_status": {
+					"COMPLETE": "Construction is already underway!",
+					"INVALID_BLUEPRINTS": "This building contains invalid structures.  Make sure no structures are red!",
+					"PLANNING_ERROR_GENERIC": "Your Hearthlings cannot figure out how to build your building!  Please send your building template to the Stonehearth team for investigation."
+				}
+			},
 			"game_speed": {
 				"pause_title": "Pausa",
 				"pause_description": "Pausa o Jogo",
@@ -73,7 +98,7 @@
 				"offline": "offline",
 				"embarking": "embarking",
 				"player": "Player",
-				"players": "Players",		 
+				"players": "Players",
 				"disconnect_player": "Disconnect Player",
 				"erase_player": "Destroy Belongings",
 				"remote_connections_disabled": "Multiplayer not enabled",
@@ -533,6 +558,10 @@
 							"display_name": "Projetar Construção",
 							"description": "Design your own one-of-a-kind building"
 						},
+						"broken_building": {
+							"display_name": "Old 'n Busted",
+							"description": "Tempt fate with the old building editor!"
+						},
 						"place_item": {
 							"display_name": "Colocar Item",
 							"description": "Place items like furniture and decoration",
@@ -706,11 +735,32 @@
 				},
 				"delivery_quest": {
 					"complete": "Complete",
-					"abandon": "Abandon"
+					"abandon": "Abandon",
+					"happiness_requirement_label": "[str(value)] citizens are at least [str(moodName)]",
+					"happiness_requirement_label_all": "All citizens are at least [str(moodName)]",
+					"happiness_requirement_all": "[str(value)] (all)",
+					"gold_label": {
+						"give": "Gold",
+						"have": "Gold on hand",
+						"spent": "Gold spent via trade",
+						"earned": "Gold earned via trade"
+					},
+					"quality_label": {
+						"quality_2": "Fine quality items owned",
+						"quality_3": "Excellent quality items owned",
+						"quality_4": "Masterwork quality items owned"
+					}
 				},
 				"dispatch_quest": {
 					"abandon": "Abandon",
 					"dispatch": "Dispatch"
+				},
+				"town_founding": {
+					"title": "Official Settlement Founding Declaration",
+					"name_header": "Choose a name for your settlement!",
+					"name_prompt": "Name:",
+					"banner_prompt": "Choose its path:",
+					"complete": "Issue Declaration & Celebrate!"
 				},
 				"immigration_report": {
 					"title": "Atualização diária",
@@ -730,6 +780,35 @@
 				"inventory_full": {
 					"title": "Town Items Full",
 					"message": "You've reached the maxiumum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+				}
+			},
+			"build_mode2": {
+				"tooltips": {
+					"room_tool": "Rooms",
+					"wall_tool": "Walls",
+					"split_wall_tool": "Split Walls",
+					"roof_tool": "Roofs",
+					"blocks_tool": "Blocks",
+					"paint_tool": "Paint",
+					"hole_tool": "Holes",
+					"stairs_tool": "Stairs",
+					"road_tool": "Roads",
+					"fence_tool": "Fences",
+					"terrain_tool": "Terrain",
+					"windows": "Windows",
+					"furniture": "Furniture",
+					"doors": "Doors",
+					"decorations": "Decorations",
+					"erase_tool": "Erase",
+					"undo_tool": "Undo",
+					"redo_tool": "Redo",
+					"new_building": "New Building",
+					"save_building": "Save Building",
+					"template_list": "Templates",
+					"destroy": "Destroy Building",
+					"wood_resource": "Wood",
+					"clay_resource": "Clay",
+					"stone_resource": "Stone"
 				}
 			},
 			"build_mode": {
@@ -796,6 +875,9 @@
 					"build_complete_title": "Parabéns!",
 					"build_complete_description": "this building is complete",
 					"compute_scaffolding": "Planejar Construção"
+				},
+				"roof": {
+					"title": "Roof Menu - [str(building_name)]"
 				},
 				"roof_shape": {
 					"title": "Slope, Direction, & Size",
@@ -1035,6 +1117,7 @@
 			"town_overview": {
 				"title": "Town Overview",
 				"town_morale": "Town Morale",
+				"initial_town_name": "Expedition [str(town_number)]",
 				"journal": {
 					"default_message": "Ainda não existem entradas no diário!",
 					"signature": "--[name(entry.person)]",
@@ -1586,7 +1669,7 @@
 				},
 				"body": {
 					"display_name": "Corpo",
-					"description": "A Competencia em atividades fisicas. Hearthlings com um elevado status do corpo vai se mover mais rapido. Influencias muscular, velocidade e resistencia."
+					"description": "A Competencia em atividades fisicas.</br></br>Hearthlings com um elevado status do corpo vai se mover mais rapido.</br></br>Influencias muscular, velocidade e resistencia."
 				},
 				"edibles": {
 					"display_name": "Comestíveis",
@@ -1595,7 +1678,7 @@
 				},
 				"mind": {
 					"display_name": "Mente",
-					"description": "A Capacidade de pensar de forma inteligente. A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas. Influencias Concentração, Curiosidade e Inventividade."
+					"description": "A Capacidade de pensar de forma inteligente.</br></br>A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas.</br></br>Influencias Concentração, Curiosidade e Inventividade."
 				},
 				"curiosity": {
 					"display_name": "Curiosidade",
@@ -1606,7 +1689,7 @@
 				},
 				"spirit": {
 					"display_name": "Espirito",
-					"description": "A fe em outras pessoas. Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos. Influencia Coragem, Força de Vontade e Compaixão ."
+					"description": "A fe em outras pessoas.</br></br>Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos.</br></br>Influencia Coragem, Força de Vontade e Compaixão ."
 				},
 				"safety": {
 					"display_name": "Proteção",
@@ -1697,6 +1780,8 @@
 				"ingot_resource_name": "Metal Ingot",
 				"herb_resource_name": "Herb",
 				"food_container_resource_name": "Food",
+				"prepared_food_resource_name": "Prepared Food",
+				"prepared_dessert_resource_name": "Prepared Dessert",
 				"gear_resource_name": "Gear",
 				"ore_resource_name": "Minério",
 				"dirt_resource_name": "Pile of Dirt"

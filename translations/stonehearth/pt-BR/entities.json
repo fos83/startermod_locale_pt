@@ -1363,6 +1363,12 @@
 					"description": "Provides warmth and light"
 				}
 			},
+			"firepit_hearth": {
+				"firepit_hearth_ghost": {
+					"display_name": "Hearth",
+					"description": "Provides warmth, light, and comfort"
+				}
+			},
 			"firepit_skulls": {
 				"firepit_skulls_ghost": {
 					"display_name": "Wicked Fire Pit",
@@ -1644,18 +1650,286 @@
 				"valor_statue_ghost": {
 					"display_name": "The Valor of Cid",
 					"description": "A monument to your town's military might"
+				},
+				"brazier_large_ghost": {
+					"display_name": "Large Brazier",
+					"description": "A beacon of light to protect your town."
+				},
+				"window_frame_xlarge": {
+					"window_frame_xlarge_ghost": {
+						"display_name": "Extra Large Stone Window Frame",
+						"description": "For those who enjoy wide expansive views."
+					}
+				},
+				"torch": {
+					"torch_ghost": {
+						"display_name": "Wooden Torch",
+						"description": "Its flame brings a warm feeling of pride in all we have accomplished."
+					}
+				},
+				"portcullis_valor": {
+					"portcullis_valor_ghost": {
+						"display_name": "Castle Portcullis",
+						"description": "For times when only the strongest door will do."
+					}
+				},
+				"window_arrow_tall": {
+					"window_arrow_tall_ghost": {
+						"display_name": "Tall Stone Arrow Slit",
+						"description": "For those who enjoy small compressed views."
+					}
+				},
+				"window_arrow_short": {
+					"window_arrow_short_ghost": {
+						"display_name": "Short Stone Arrow Slit",
+						"description": "For those who enjoy small compressed views."
+					}
+				},
+				"statue_knight": {
+					"statue_knight_ghost": {
+						"display_name": "Knight Statue",
+						"description": "Noble knight of stone"
+					}
+				},
+				"statue_knight_male": {
+					"statue_knight_male_ghost": {
+						"display_name": "Knight Statue",
+						"description": "Noble knight of stone"
+					}
+				},
+				"window_frame_barred": {
+					"window_frame_barred_ghost": {
+						"display_name": "Barred Stone Window Frame",
+						"description": "For those who enjoy safe viewing from behind bars."
+					}
 				}
 			},
 			"roadside_shrine": {
 				"roadside_shrine_ghost": {
 					"display_name": "Fountain of Plenty",
 					"description": "Place to show generosity and faith"
+				},
+				"fountain_wishing": {
+					"fountain_wishing_ghost": {
+						"display_name": "Glittering Basin",
+						"description": "Exchanges gold for wishes"
+					}
+				},
+				"lamppost_upscale": {
+					"lamppost_upscale_ghost": {
+						"display_name": "Iron Lamp Post",
+						"description": "Lovely lighting for any pathway or promenade"
+					}
+				},
+				"lamppost_upscale_double": {
+					"lamppost_upscale_double_ghost": {
+						"display_name": "Twin Iron Lamp Post",
+						"description": "Lovely lighting for any pathway or promenade"
+					}
+				},
+				"lantern_poyo": {
+					"lantern_poyo_ghost": {
+						"display_name": "Poyo Lantern",
+						"description": "Happy bronze lightbirb"
+					}
+				},
+				"pot_goldrose": {
+					"pot_goldrose_ghost": {
+						"display_name": "Goldrose Bush",
+						"description": "Hearty yellow blossoms"
+					}
+				},
+				"pot_moondrop": {
+					"pot_moondrop_ghost": {
+						"display_name": "Moondrop Bush",
+						"description": "Silvery and serene"
+					}
+				},
+				"pot_redbloom": {
+					"pot_redbloom_ghost": {
+						"display_name": "Redbloom Bush",
+						"description": "A rosy shrub"
+					}
+				},
+				"tree_goldrose": {
+					"tree_goldrose_ghost": {
+						"display_name": "Goldrose Tree",
+						"description": "Aglow with golden blossoms"
+					}
+				},
+				"tree_moondrop": {
+					"tree_moondrop_ghost": {
+						"display_name": "Moondrop Tree",
+						"description": "Dazzling in the moment"
+					}
+				},
+				"tree_redbloom": {
+					"tree_redbloom_ghost": {
+						"display_name": "Redbloom Tree",
+						"description": "Meticulously tended, and covered in blooms"
+					}
+				},
+				"weathervane_poyo": {
+					"weathervane_poyo_ghost": {
+						"display_name": "Twirlybird",
+						"description": "A weathervane resembling a poyo"
+					}
 				}
 			},
 			"craftsman_statue": {
 				"craftsman_statue_ghost": {
 					"display_name": "The Guildmaster's Skill",
 					"description": "Place to show skill at crafting"
+				},
+				"candle_iron": {
+					"candle_iron_ghost": {
+						"display_name": "Iron Candle Holder",
+						"description": "let there be light!"
+					}
+				},
+				"candle_iron_double": {
+					"candle_iron_double_ghost": {
+						"display_name": "Iron Candelabra",
+						"description": "Let there be even more light!"
+					}
+				},
+				"door_blacksmith": {
+					"door_blacksmith_ghost": {
+						"display_name": "Blacksmith's door",
+						"description": "Fit for a master blacksmith's workshop"
+					}
+				},
+				"door_carpenter": {
+					"door_carpenter_ghost": {
+						"display_name": "Carpenter's door",
+						"description": "Fit for a master carpenter's woodshop"
+					}
+				},
+				"door_mason": {
+					"door_mason_ghost": {
+						"display_name": "Mason's door",
+						"description": "Fit for a master mason's workshop"
+					}
+				},
+				"fence_brightbell": {
+					"fence_brightbell_ghost": {
+						"display_name": "Pink Flowering Fence",
+						"description": "A fence overtaken by brightbells"
+					}
+				},
+				"fence_frostsnap": {
+					"fence_frostsnap_ghost": {
+						"display_name": "Blue Flowering Fence",
+						"description": "A fence overtaken by frostsnaps"
+					}
+				},
+				"fountain": {
+					"fountain_ghost": {
+						"display_name": "Stone Fountain",
+						"description": "Simple, lively, and bubbly"
+					}
+				},
+				"fountain_garden": {
+					"fountain_garden_ghost": {
+						"display_name": "Lilypad basin",
+						"description": "A tiny, floating garden for a quiet corner"
+					}
+				},
+				"fountain_tiered": {
+					"fountain_tiered_ghost": {
+						"display_name": "Waterfall Basin",
+						"description": "A miniature cascade"
+					}
+				},
+				"gate_iron": {
+					"gate_iron_ghost": {
+						"display_name": "Wrought-iron Gate",
+						"description": "It looks heavy, but you could just squeeze through it if you wanted"
+					}
+				},
+				"lamppost_rustic": {
+					"lamppost_rustic_ghost": {
+						"display_name": "Rustic Lamp Post",
+						"description": "Humbly illuminates any pathway or patio"
+					}
+				},
+				"lamppost_rustic_double": {
+					"lamppost_rustic_double_ghost": {
+						"display_name": "Twin Rustic Lamp Post",
+						"description": "More boldly lights the way"
+					}
+				},
+				"lantern_iron": {
+					"lantern_iron_ghost": {
+						"display_name": "Iron Wall-Mounted Lantern",
+						"description": "Glows like the heart of the forge"
+					}
+				},
+				"pot_berry_bush": {
+					"pot_berry_bush_ghost": {
+						"display_name": "Potted Berry Bush",
+						"description": "A carefully crated friend"
+					}
+				},
+				"sign_blacksmith": {
+					"sign_blacksmith_ghost": {
+						"display_name": "Blacksmith's shop sign",
+						"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop"
+					}
+				},
+				"sign_carpenter": {
+					"sign_carpenter_ghost": {
+						"display_name": "Carpenter's shop sign",
+						"description": "An expertly carved sign, to be displayed outside a carpenter's workshop"
+					}
+				},
+				"sign_mason": {
+					"sign_mason_ghost": {
+						"display_name": "Mason's shop sign",
+						"description": "A sturdy stone sign, to be displayed outside a mason's workshop"
+					}
+				},
+				"statue_rabbit": {
+					"statue_rabbit_ghost": {
+						"display_name": "Wee Stone Rabbit",
+						"description": "Ears up!"
+					}
+				},
+				"statue_rabbit_flat": {
+					"statue_rabbit_flat_ghost": {
+						"display_name": "Flat Stone Rabbit",
+						"description": "Ears down!"
+					}
+				},
+				"topiary_fox": {
+					"topiary_fox_ghost": {
+						"display_name": "Berry Fox",
+						"description": "Fluffy wildlife topiary"
+					}
+				},
+				"topiary_mammoth": {
+					"topiary_mammoth_ghost": {
+						"display_name": "Berry Mammoth",
+						"description": "Massive topiary pachyderm "
+					}
+				},
+				"topiary_rabbit": {
+					"topiary_rabbit_ghost": {
+						"display_name": "Berry Bun",
+						"description": "Fluffy wildlife topiary"
+					}
+				},
+				"wall_hanging_berrywreath": {
+					"wall_hanging_berrywreath_ghost": {
+						"display_name": "Berry Wreath",
+						"description": "Perfect for any occasion"
+					}
+				},
+				"wall_hanging_plaque": {
+					"wall_hanging_plaque_ghost": {
+						"display_name": "Sword and Shield Plaque",
+						"description": "Just like Granddads sword looked!"
+					}
 				}
 			},
 			"wooden_sign_engineer": {
@@ -1718,9 +1992,63 @@
 					"display_name": "Dry Stone"
 				}
 			},
+			"hearth_bunny": {
+				"hearth_bunny_ghost": {
+					"display_name": "The Bunny Hearth",
+					"description": "I am amazing text about this beautiful Hearth"
+				}
+			},
+			"hearth_fountain": {
+				"hearth_fountain_ghost": {
+					"display_name": "The Fountain Hearth",
+					"description": "I am amazing text about this beautiful Hearth"
+				}
+			},
+			"hearth_stump": {
+				"hearth_stump_ghost": {
+					"display_name": "The Stump Hearth",
+					"description": "I am amazing text about this beautiful Hearth"
+				}
+			},
+			"stall_progression": {
+				"stall_progression_ghost": {
+					"display_name": "A Feast Stall",
+					"description": "Hearthlings can grab tasty food here!"
+				}
+			},
 			"chest_cheat": {
 				"display_name": "Cheat Chest - Debug Item",
 				"description": "This is a debug item with default cheating items."
+			},
+			"dirt_stone": {
+				"dirt_stone_ghost": {
+					"display_name": "Dirt Stone",
+					"description": "This stone encases a magic ready to burst out!"
+				},
+				"chimney_rock": {
+					"chimney_rock_ghost": {
+						"display_name": "Chimney Rock Stone",
+						"description": "This stone encases a magic tower of stone ready to burst out!"
+					}
+				},
+				"marking_stones": {
+					"marking_stones_ghost": {
+						"display_name": "Marking Stones",
+						"description": "This stone encases a series of ancient stones ready to burst out!"
+					}
+				},
+				"rabbit": {
+					"rabbit_ghost": {
+						"display_name": "Rabbit Stone",
+						"description": "This stone encases a ancient cuteness ready to burst out!"
+					}
+				}
+			},
+			"void_stone": {
+				"void_stone_ghost": {
+					"display_name": "Void Stone",
+					"description": "This stone encases a magic that hungers for mass!"
+				}
 			}
 		},
 		"food": {
@@ -2483,6 +2811,27 @@
 					"display_name": "Training Dummy",
 					"description": "Its best to practice with this friendly guy."
 				}
+			},
+			"town_banner_guardian": {
+				"town_banner_guardian_ghost": {
+					"display_name": "Banner of Cunning",
+					"description": "How you know you've come home.",
+					"town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+				}
+			},
+			"town_banner_might": {
+				"town_banner_might_ghost": {
+					"display_name": "Banner of Strength",
+					"description": "How you know you've come home",
+					"town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+				}
+			},
+			"town_banner_nature": {
+				"town_banner_nature_ghost": {
+					"display_name": "Banner of Vitality",
+					"description": "How you know you've come home",
+					"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+				}
 			}
 		},
 		"loot": {
@@ -2780,7 +3129,7 @@
 			},
 			"dragon_whelp_fire": {
 				"display_name": "Flame Dragon Whelp",
-				"description": "A baby dragon, keep it away from flamable materials.",
+				"description": "A baby dragon, keep it away from flammable materials.",
 				"species": "dragon"
 			},
 			"dragon_whelp_nature": {
@@ -4308,6 +4657,30 @@
 			"ball_of_wax": {
 				"display_name": "Ball of Ear Wax",
 				"description": "Gross, isn't it?"
+			}
+		},
+		"valor_statue": {
+			"war_horn": {
+				"war_horn_ghost": {
+					"display_name": "Giant Warhorn",
+					"description": "Reminiscent of days gone past."
+				}
+			}
+		},
+		"npc": {
+			"herald": {
+				"female": {
+					"herald_female": {
+						"display_name": "Heraldine Rigby",
+						"description": "This is a Herald of the Ascendancy."
+					}
+				},
+				"male": {
+					"herald_male": {
+						"display_name": "Herald B. Good",
+						"description": "This is a Herald of the Ascendancy."
+					}
+				}
 			}
 		}
 	}

@@ -21,7 +21,7 @@
 				"collect_ingredient": "Coletando Ingredientes",
 				"build_workshop": "Construindo <br>mesa de trabalho",
 				"death": "Morrendo",
-				"away_from_town": "away from town",					   
+				"away_from_town": "away from town",
 				"eat": "Pegando Comida",
 				"find_stray_animal": "procurando rastros",
 				"harvest_field": "Colhendo Campos",
@@ -57,7 +57,8 @@
 				"talk": "Conversando com [name(data.target)]",
 				"incapacitated": "incapacitado",
 				"rescue_citizen": "resgatando [name(data.target)]",
-				"recuperating": "recuperando"
+				"recuperating": "recuperando",
+				"celebrating": "celebrating"
 			}
 		}
 	}

@@ -362,6 +362,80 @@
 					"recipe_name": "Iron-Framed Corner Supply Shelf",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"sign_blacksmith_recipe": {
+					"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop",
+					"recipe_name": "Blacksmith's Shop Sign",
+					"flavor": "It's chains rattle and sing brightly with every hammer strike"
+				},
+				"lantern_iron_recipe": {
+					"description": "Glows like the heart of the forge",
+					"recipe_name": "Iron Wall-mounted Lantern",
+					"flavor": "Reinforced, but still relaxing"
+				},
+				"lamppost_rustic_recipe": {
+					"description": "Humbly illuminates any pathway or patio",
+					"recipe_name": "Rustic Lamppost",
+					"flavor": "Chase away the night"
+				},
+				"lamppost_rustic_double_recipe": {
+					"description": "More boldly lights the way",
+					"recipe_name": "Twin Rustic Lamppost",
+					"flavor": "Two heads are better than one"
+				},
+				"gate_iron_recipe": {
+					"description": "Almost too heavy to move",
+					"recipe_name": "Wrought-Iron gate",
+					"flavor": "Luckily, if you can't swing the doors open, you can just squeeze through them"
+				},
+				"candle_iron_recipe": {
+					"description": "Let there be light!",
+					"recipe_name": "Iron Candle-holder",
+					"flavor": "Never light and leave unattended"
+				},
+				"candle_iron_double_recipe": {
+					"description": "Let there be more light!",
+					"recipe_name": "Iron Candelabra",
+					"flavor": "A stately fixture that belongs wherever Hearthlings gather"
+				},
+				"construction_name": "Construction",
+				"door_blacksmith_recipe": {
+					"description": "Fit for a master blacksmith's workshop",
+					"recipe_name": "Blacksmith's Door",
+					"flavor": "You can feel the heat coming through the door"
+				},
+				"lamppost_upscale_double_recipe": {
+					"description": "Lovely lighting for any pathway or promenade",
+					"recipe_name": "Twin Iron Lamp Post",
+					"flavor": "More light probably means more style. Probably"
+				},
+				"lamppost_upscale_recipe": {
+					"description": "Lovely lighting for any pathway or promenade",
+					"recipe_name": "Iron Lamp Post",
+					"flavor": "Stylish enough to make even the most stubborn poyo think twice about roosting on it"
+				},
+				"lantern_poyo_recipe": {
+					"description": "Happy bronze lightbirb",
+					"recipe_name": "Poyo Lantern",
+					"flavor": "Light as soft and warm as a poyo feather blanket"
+				},
+				"weathervane_poyo_recipe": {
+					"description": "A weathervane resembling a poyo",
+					"recipe_name": "Twirlybird",
+					"flavor": "Spins in the winds and never ever gets dizzy"
+				},
+				"valor_torch_recipe": {
+					"description": "Its flame brings a warm feeling of pride in all we have accomplished.",
+					"recipe_name": "Wooden Torch"
+				},
+				"valor_wall_hanging_plaque_recipe": {
+					"description": "Just like Granddads sword looked!",
+					"recipe_name": "Sword and Shield Plaque"
+				},
+				"valor_war_horn_recipe": {
+					"description": "Reminiscent of days gone past.",
+					"recipe_name": "Giant Warhorn",
+					"flavor": "The sound of a great horn like this should never be taken lightly... thankfully one hasn't sounded in Darkmoor for many years. -- Cid, Knight of the Old Ways"
 				}
 			}
 		},
@@ -810,6 +884,26 @@
 					"recipe_name": "Wooden Supply Table",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"door_carpenter_recipe": {
+					"description": "Fit for a master carpenter's woodshop",
+					"recipe_name": "Carpenter's door",
+					"flavor": "There's somehow always a little sawdust on it"
+				},
+				"sign_carpenter_recipe": {
+					"description": "An expertly carved sign, to be displayed outside a carpenter's workshop",
+					"recipe_name": "Carpenter's Shop Sign",
+					"flavor": "Sways like rustling oak branches in the wind"
+				},
+				"fence_frostsnap_recipe": {
+					"description": "A fence overtaken by frostsnaps",
+					"recipe_name": "Blue Flowering Fence",
+					"flavor": "No amount of pulling seems to put a dent in these flowers. It's best to accept and enjoy them."
+				},
+				"fence_brightbell_recipe": {
+					"description": "A fence overtaken by brightbells",
+					"recipe_name": "Pink Flowering Fence",
+					"flavor": "Farmer Peggy wouldn't suffer a weed on her watch. Either she had a soft spot for the flowering kind, or they just grew back too fast."
 				}
 			}
 		},
@@ -1119,6 +1213,11 @@
 				"wooden_sign_engineer_recipe": {
 					"description": "A sign with the mark of the Engineer.",
 					"recipe_name": "Engineer's Wall-Mounted Sign"
+				},
+				"building_parts_name": "Building Parts",
+				"bronze_portcullis_recipe": {
+					"description": "Useful for fortifying town entrypoints.",
+					"recipe_name": "Bronze Portcullis"
 				}
 			},
 			"engineer_buffs": {
@@ -1488,6 +1587,83 @@
 					"recipe_name": "Stonework Supply Table",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"sign_mason_recipe": {
+					"description": "A heavy stone sign, to be displayed outside a mason's workshop",
+					"recipe_name": "Mason's Shop Sign",
+					"flavor": "Probably wouldn't even swing in a hurricane"
+				},
+				"statue_rabbit_flat_recipe": {
+					"description": "Ears down!!",
+					"recipe_name": "Flat Stone Rabbit",
+					"flavor": "It's considered lucky to stack a vegetable from each harvest on these statues' backs - lucky for the real rabbits, anyway."
+				},
+				"statue_rabbit_recipe": {
+					"description": "Ears up!!",
+					"recipe_name": "Wee Stone Rabbit",
+					"flavor": "Just like the huge stone guardian rabbits, except wee."
+				},
+				"fountain_tiered_recipe": {
+					"description": "A miniature cascade",
+					"recipe_name": "Waterfall Basin",
+					"flavor": "It's fun to watch leaves race down the falls. It's less fun to scoop them all out later."
+				},
+				"fountain_recipe": {
+					"description": "Simple, lively and bubbly",
+					"recipe_name": "Stone Fountain",
+					"flavor": "Tastefully tiered, and remarkably free of algae"
+				},
+				"fountain_garden_recipe": {
+					"description": "A tiny, floating garden for a quiet corner",
+					"recipe_name": "Lilypad Basin",
+					"flavor": "To be small enough to hide away in its blossoms for an afternoon..."
+				},
+				"door_mason_recipe": {
+					"description": "Fit for a master mason's workshop",
+					"recipe_name": "Mason's door",
+					"flavor": "Feels like knocking on a mountainside"
+				},
+				"fountain_wishing_recipe": {
+					"description": "Exchanges gold for wishes",
+					"recipe_name": "Glittering Basin",
+					"flavor": "The exact rate of exchange has never been clear, but who cares it's fun"
+				},
+				"statue_knight_recipe": {
+					"description": "Noble knight of stone",
+					"recipe_name": "Stone Guard",
+					"flavor": "\"...Now quietly the land they keep<br>amid the brightbells echoing.\""
+				},
+				"statue_knight_male_recipe": {
+					"description": "Noble knight of stone",
+					"recipe_name": "Stone Guard",
+					"flavor": "\"Holding back the darkness deep;<br> shaking iron, steel blades ring...\""
+				},
+				"portcullis_valor_recipe": {
+					"description": "For times when only the strongest door will do.",
+					"recipe_name": "Castle Portcullis",
+					"flavor": "Stone for strength, Iron for versatility, Coal to paint fear into our enemy's hearts."
+				},
+				"valor_window_arrow_short_recipe": {
+					"description": "For those who enjoy small compressed views.",
+					"recipe_name": "Short Stone Arrow Slit"
+				},
+				"valor_window_arrow_tall_recipe": {
+					"description": "For those who enjoy small compressed views.",
+					"recipe_name": "Tall Stone Arrow Slit"
+				},
+				"valor_window_frame_barred_recipe": {
+					"description": "For those who enjoy safe viewing from behind bars.",
+					"recipe_name": "Barred Stone Window Frame"
+				},
+				"valor_window_frame_xlarge_recipe": {
+					"description": "For those who enjoy wide expansive views.",
+					"recipe_name": "Extra Large Stone Window Frame",
+					"flavor": "I'm not the sort of person who'd tell you what to do with your window, but when Riley stuck it on the first floor like a door, rabbits poured straight into his kitchen. -- Andie, Berry Farmer"
+				},
+				"valor_brazier_large_recipe": {
+					"description": "A beacon of light to protect your town.",
+					"recipe_name": "Large Brazier",
+					"flavor": "From a tall mountaintop, you can see fires like these all across the Darkmoor."
 				}
 			}
 		},
@@ -2337,6 +2513,60 @@
 					"description": "Separate seeds from the fruit",
 					"recipe_name": "Prickly Pear Seeds (x3)",
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+				},
+				"wall_hanging_berrywreath_recipe": {
+					"description": "Perfect for any occasion",
+					"recipe_name": "Berry Wreath",
+					"flavor": "You could eat the berries, but it'd ruin the wreath."
+				},
+				"topiary_rabbit_recipe": {
+					"description": "Fluffy wildlife topiary",
+					"recipe_name": "Berry Bun",
+					"flavor": "I know it grows back, but I hate to pick it's tail..."
+				},
+				"topiary_mammoth_recipe": {
+					"description": "Massive topiary pachyderm",
+					"recipe_name": "Berry Mammoth",
+					"flavor": "I swear I just saw it blink"
+				},
+				"topiary_fox_recipe": {
+					"description": "Much better for pie than jerky",
+					"recipe_name": "Berry Fox",
+					"flavor": "berry bush"
+				},
+				"pot_berry_bush_recipe": {
+					"description": "A sign with the mark of the Herbalist.",
+					"recipe_name": "Herbalist's Wall-Mounted Sign"
+				},
+				"pot_goldrose_recipe": {
+					"description": "Hearty yellow blossoms",
+					"recipe_name": "Goldrose Bush",
+					"flavor": "Goldrose tea is an old-fashioned pick-me-up. It apparently tastes different for everyone."
+				},
+				"pot_moondrop_recipe": {
+					"description": "Silvery and serene",
+					"recipe_name": "Moondrop Bush",
+					"flavor": "Never press or dry the flowers. Enjoy them now, and look forward to the next ones."
+				},
+				"pot_redbloom_recipe": {
+					"description": "A rosy shrub",
+					"recipe_name": "Redbloom Bush",
+					"flavor": "A Redbloom bouquet invites fortune, the nature of which depends on the number of flowers. Be very careful."
+				},
+				"tree_goldrose_recipe": {
+					"description": "Aglow with golden blossoms",
+					"recipe_name": "Goldrose Tree",
+					"flavor": "Favored among travelers, goldroses carry the warmth of hearth and home"
+				},
+				"tree_moondrop_recipe": {
+					"description": "Dazzling in the moment",
+					"recipe_name": "Moondrop Tree",
+					"flavor": "Moondrops symbolize a journey's close, and new beginnings. They bloom at the turn of the page"
+				},
+				"tree_redbloom_recipe": {
+					"description": "Meticulously well tended",
+					"recipe_name": "Redbloom Tree",
+					"flavor": "Redblooms are for luck. An odd number of petals is especially lucky, though no one's ever seen such a blossom."
 				}
 			},
 			"herbalist_buffs": {
