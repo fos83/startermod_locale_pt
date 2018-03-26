@@ -779,7 +779,7 @@
 				},
 				"inventory_full": {
 					"title": "Town Items Full",
-					"message": "You've reached the maxiumum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+					"message": "You've reached the maximum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
 				}
 			},
 			"build_mode2": {
@@ -1192,7 +1192,7 @@
 					"005": "terracing terrain...",
 					"006": "stocking piles...",
 					"007": "inflating trees...",
-					"008": "rising sun...",
+					"008": "raising sun...",
 					"009": "floating clouds...",
 					"010": "burlying hands...",
 					"011": "bushing berries...",
@@ -1387,9 +1387,9 @@
 						"other": "Other",
 						"camera": "Camera",
 						"vision": "Vision",
-						"speed": "Speed",
+						"speed": "Velocidade",
 						"menus": "Menus",
-						"harvest": "Tools",
+						"harvest": "Ferramentas",
 						"zone": "Zoning",
 						"build": "Building",
 						"craft": "Crafting",

@@ -24,6 +24,139 @@
 				},
 				"herbalist_clay_staff_recipe": {
 					"flavor": "'Essas flores cuidam de seu jardineiro como o jardineiro cuida deles.' -Zale, Mestre herborista"
+				},
+				"jar_green_recipe": {
+					"description": "Small green glass jar with accompanying small fire",
+					"recipe_name": "Green Glass Jar with Candle"
+				},
+				"jar_red_recipe": {
+					"description": "Small red glass jar with accompanying small fire",
+					"recipe_name": "Red Glass Jar with Candle"
+				},
+				"pot_oil_earthen_recipe": {
+					"description": "Small earthen pot with accompanying small fire",
+					"recipe_name": "Earthen Oil Pot"
+				},
+				"pot_oil_green_recipe": {
+					"description": "Small green pot with accompanying small fire",
+					"recipe_name": "Green Oil Pot"
+				},
+				"pot_oil_halfgreen_recipe": {
+					"description": "Small half-glazed pot with accompanying small fire",
+					"recipe_name": "Half-Glazed Oil Pot"
+				},
+				"pot_sunflower_recipe": {
+					"description": "Small earthen pot with a beautiful flower.",
+					"recipe_name": "Potted Sunflower"
+				},
+				"pot_fox_lily_recipe": {
+					"description": "Small earthen pot with a beautiful flower.",
+					"recipe_name": "Potted Fox Lily"
+				},
+				"pot_acacia_recipe": {
+					"description": "Small earthen pot with a beautiful miniature tree.",
+					"recipe_name": "Potted Acacia Bonsai"
+				},
+				"urn_large_recipe": {
+					"description": "Extra large for extra trading!",
+					"recipe_name": "Trading Goods Urn"
+				},
+				"wall_hanging_sunflower_recipe": {
+					"description": "A sunflower decoration for your wall.",
+					"recipe_name": "Wall Flower"
+				},
+				"wall_hanging_sunwreath_recipe": {
+					"description": "A collection of sunflowers to hang on your wall.",
+					"recipe_name": "Sunflower Wreath"
+				},
+				"wind_chime_recipe": {
+					"description": "A magnificent sight and sound to match.",
+					"recipe_name": "Glass Wind Chime"
+				},
+				"window_tall_latticed_recipe": {
+					"description": "The lattice work stops most of the hot sun, and looks pretty too!",
+					"recipe_name": "Tall Latticed Window"
+				},
+				"door_clay_latticed_recipe": {
+					"recipe_name": "Clay Latticed Door",
+					"description": "The lattice work stops most of the hot sun, and looks pretty too!"
+				},
+				"chest_recipe": {
+					"description": "A place to store tribute of Monkey and Her Mystery",
+					"recipe_name": "Clay Chest"
+				},
+				"lamp_gold_recipe": {
+					"description": "Its flame brings a warm glow at night.",
+					"recipe_name": "Golden Oil Lamp"
+				},
+				"lamp_wall_gold_recipe": {
+					"description": "Its flame brings a warm glow at night.",
+					"recipe_name": "Golden Oil Wall Lamp"
+				},
+				"lightbox_recipe": {
+					"description": "Its light splashes patterns across the ground, and on things above it.",
+					"recipe_name": "Clay Lightbox"
+				},
+				"monkey_recipe": {
+					"description": "A tribute to Monkey and her many helpers.",
+					"recipe_name": "Clay Monkey Statue"
+				},
+				"teapot_recipe": {
+					"description": "A reminder of bold entrepreneurs.",
+					"recipe_name": "Finely Crafted Tea Set"
+				},
+				"wall_hanging_key_recipe": {
+					"description": "A wall ornament that reminds us of Monkey.",
+					"recipe_name": "Monkey Shrine Key"
+				},
+				"banner_wall_big_recipe": {
+					"description": "Show your town pride with this banner.",
+					"recipe_name": "Long Wall Banner"
+				},
+				"banner_wall_small_recipe": {
+					"description": "Show your town pride with this banner.",
+					"recipe_name": "Wide Wall Banner"
+				},
+				"pedestal_firepit_recipe": {
+					"description": "Softly glowing coals",
+					"recipe_name": "Firebowl",
+					"flavor": "A little fire lives here"
+				},
+				"pedestal_floral_red_recipe": {
+					"description": "A decorative display of aromatic flowers and herbs",
+					"recipe_name": "Red Floral Pedestal",
+					"flavor": "Breathes flowery sweetness into dry desert breezes"
+				},
+				"pedestal_floral_coral_recipe": {
+					"description": "A decorative display of aromatic flowers and herbs",
+					"recipe_name": "Coral Floral Pedestal",
+					"flavor": "Breathes flowery sweetness into dry desert breezes"
+				},
+				"pedestal_floral_blue_recipe": {
+					"description": "A decorative display of aromatic flowers and herbs",
+					"recipe_name": "Blue Floral Pedestal",
+					"flavor": "Breathes flowery sweetness into dry desert breezes"
+				},
+				"kiln_upgrade_recipe": {
+					"description": "Allows the Potters of your town to work in style.",
+					"recipe_name": "Upgraded Potter's Kiln"
+				},
+				"workbench_upgrade_recipe": {
+					"description": "For the more aesthetically concerned Potter.",
+					"recipe_name": "Upgraded Pottery Wheel",
+					"flavor": "The quality of your work can only be as high as the quality of your equipment -- Khora, Master Potter"
+				}
+			},
+			"potter_kiln_upgrade": {
+				"potter_kiln_upgrade_ghost": {
+					"display_name": "Upgraded Potter's Kiln",
+					"description": "Allows the Potters of your town to work in style."
+				}
+			},
+			"potter_workbench_upgrade": {
+				"potter_workbench_upgrade_ghost": {
+					"display_name": "Upgraded Pottery Wheel",
+					"description": "For the style concerned Potter."
 				}
 			}
 		},
@@ -55,6 +188,84 @@
 				"vegetable_tagine_recipe": {
 					"description": "Legumes cozido em um pote de barro",
 					"recipe_name": "Tagine de guisado de legumes"
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"wall_hanging_suncatcher_recipe": {
+					"description": "Polished to a mirror finish",
+					"recipe_name": "Suncatcher",
+					"flavor": "It doesn't neccessarily catch the sun as well as it hurls the beams directly into your eyeballs, ow..."
+				}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"outfit_worker_goldthread_recipe": {
+					"description": "Fashionably improves worker's speed and efficiency",
+					"recipe_name": "Worker Finery",
+					"flavor": "Red simply never goes out of style"
+				},
+				"banner_gilded_blue_recipe": {
+					"description": "Display your town's pride as an exotic trading post",
+					"recipe_name": "Gilded Blue Banner",
+					"flavor": "Color coursed through the city in streams of fabric and glimmering golden thread"
+				},
+				"banner_gilded_coral_recipe": {
+					"description": "Display your town's pride as an exotic trading post",
+					"recipe_name": "Gilded Coral Banner",
+					"flavor": "Color coursed through the city in streams of fabric and glimmering golden thread"
+				},
+				"banner_gilded_red_recipe": {
+					"description": "Display your town's pride as an exotic trading post",
+					"recipe_name": "Gilded Red Banner",
+					"flavor": "Color coursed through the city in streams of fabric and glimmering golden thread"
+				},
+				"banner_gilded_sage_recipe": {
+					"description": "Display your town's pride as an exotic trading post",
+					"recipe_name": "Gilded Sage Banner",
+					"flavor": "Color coursed through the city in streams of fabric and glimmering golden thread"
+				},
+				"chair_gilded_blue_recipe": {
+					"description": "Luxuriously padded seating",
+					"recipe_name": "Gilded Blue Cushion",
+					"flavor": "It'd be an insult to the cushion to never sit on it!"
+				},
+				"chair_gilded_red_recipe": {
+					"description": "Luxuriously padded seating",
+					"recipe_name": "Gilded Red Cushion",
+					"flavor": "It'd be an insult to the cushion to never sit on it!"
+				},
+				"chair_gilded_sage_recipe": {
+					"description": "Luxuriously padded seating",
+					"recipe_name": "Gilded Sage Cushion",
+					"flavor": "It'd be an insult to the cushion to never sit on it!"
+				},
+				"chair_gilded_coral_recipe": {
+					"description": "Luxuriously padded seating",
+					"recipe_name": "Gilded Coral Cushion",
+					"flavor": "It'd be an insult to the cushion to never sit on it!"
+				},
+				"rug_gilded_blue_recipe": {
+					"description": "Skillfully woven from dyed and golden threads",
+					"recipe_name": "Gilded Blue Throw",
+					"flavor": "The color is milled from precious blue stone found deep within mountains far, far to the frozen north"
+				},
+				"rug_gilded_red_recipe": {
+					"description": "Skillfully woven from dyed and golden threads",
+					"recipe_name": "Gilded Red Throw",
+					"flavor": "The luscious, almost-purple hue comes from berries grown in the foothills surrounding a faraway kingdom"
+				},
+				"rug_gilded_coral_recipe": {
+					"description": "Skillfully woven from dyed and golden threads",
+					"recipe_name": "Gilded Coral Throw",
+					"flavor": "Earth from a long-dried seabed to the south is baked and ground to produce this lively red-orange"
+				},
+				"rug_gilded_sage_recipe": {
+					"description": "Skillfully woven from dyed and golden threads",
+					"recipe_name": "Gilded Sage Throw",
+					"flavor": "Achieving a delicate green requires skill; this stain made from a pulp of potent herbs will rapidly turn anything sour"
 				}
 			}
 		}

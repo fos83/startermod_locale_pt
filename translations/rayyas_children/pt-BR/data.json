@@ -242,6 +242,24 @@
 										"name": "Zadok's Armory Shop",
 										"title": "A wagon carrying an assortment of armor approaches"
 									}
+								},
+								"woodcutter_shop2": {
+									"shop_info": {
+										"name": "Rajin's Goods of the Distant West",
+										"title": "Rajin has brought even more rare woods this time"
+									}
+								},
+								"rugs_shop2": {
+									"shop_info": {
+										"name": "Havaad's Fine Rugs and Garments",
+										"title": "Havaad has arrived with some exceptional wares to sell"
+									}
+								},
+								"stonecutter_shop2": {
+									"shop_info": {
+										"name": "Vosker Saji's Polished Earths",
+										"title": "Master Saji's cart draws near, filled to the brim with wonderful beauties"
+									}
 								}
 							}
 						}
