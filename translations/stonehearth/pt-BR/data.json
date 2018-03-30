@@ -1837,8 +1837,8 @@
 										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
 										"reward_message_ctd": "As a settlement out to prove that its riches and craftsmanship is unmatched.",
 										"achievements": {
-											"001": "Boost your Daily Update value based on Gold",
-											"000": "Generate 5% daily interest on Gold on hand"
+											"001": "Daily Update boosted by Gold Coins",
+											"000": "+5% daily interest on Gold Coins"
 										}
 									},
 									"hearth_upgrade_glory": {
@@ -1848,8 +1848,8 @@
 										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
 										"reward_message_ctd": "As a settlement out to prove that it has unrivaled military strength.",
 										"achievements": {
-											"001": "Boost your Daily Update value based on defeated enemies",
-											"000": "Ability to summon enemies to prove your mettle."
+											"000": "Hearth summons foes to defeat for Glory",
+											"001": "Daily Update boosted by Glory Tier"
 										}
 									},
 									"hearth_upgrade_cheer": {
@@ -1859,7 +1859,34 @@
 										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
 										"reward_message_ctd": "As a settlement out to prove that it has the happiest, most well-fed citizens, and nice places for them to live.",
 										"achievements": {
-											"000": "Boost your Daily Update value based on Morale"
+											"000": "Daily Update boosted by citizen Morale"
+										}
+									},
+									"shrine_upgrade_guildmaster": {
+										"achievements": {
+											"001": "Mason Fountains & Decorations",
+											"003": "Blacksmith Decorations",
+											"000": "Masterwork Craft Quality Unlocked",
+											"002": "Herbalist Topiary & Carpenter Fences",
+											"004": "Tier 3 Music"
+										}
+									},
+									"shrine_upgrade_valor": {
+										"achievements": {
+											"001": "Engineer Portcullis Recipe",
+											"003": "Blacksmith Decoration Recipes",
+											"000": "Legendary Weapon Recipes",
+											"002": "Mason Statues & Windows",
+											"004": "Tier 3 Music"
+										}
+									},
+									"shrine_upgrade_deity": {
+										"achievements": {
+											"001": "Herbalist Shrubberies",
+											"003": "Mason Lucky Fountain",
+											"000": "Lucky Daily Buffs",
+											"002": "Blacksmith Decorations",
+											"004": "Tier 3 Music"
 										}
 									}
 								}
@@ -2316,6 +2343,12 @@
 				"stairs": {
 					"display_name": "Escadas",
 					"description": "Go up and down"
+				},
+				"building2": {
+					"structure": {
+						"display_name": "Structure",
+						"description": "A part of a building"
+					}
 				}
 			},
 			"building_brushes": {

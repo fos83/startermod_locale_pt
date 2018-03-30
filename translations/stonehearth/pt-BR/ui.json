@@ -11,7 +11,8 @@
 					"stairsTool": "Placing Stairs",
 					"holeTool": "Making Holes",
 					"splitWallTool": "Splitting Walls",
-					"roomTool": "Placing Room"
+					"roomTool": "Placing Room",
+					"pointerTool": "Pointer"
 				},
 				"place_build_banner": "Place the banner at a hearthling-accessible location next to your building.",
 				"new_building_confirm": {
@@ -24,6 +25,17 @@
 					"COMPLETE": "Construction is already underway!",
 					"INVALID_BLUEPRINTS": "This building contains invalid structures.  Make sure no structures are red!",
 					"PLANNING_ERROR_GENERIC": "Your Hearthlings cannot figure out how to build your building!  Please send your building template to the Stonehearth team for investigation."
+				},
+				"building_status": {
+					"build_button": "BUILD",
+					"cost_prefix": "Cost:"
+				},
+				"material_list": {
+					"wall": "Wall",
+					"column": "Column",
+					"floor": "Floor",
+					"roof": "Roof",
+					"stairs": "Stairs"
 				}
 			},
 			"game_speed": {
@@ -96,6 +108,7 @@
 				"client": "client",
 				"online": "online",
 				"offline": "offline",
+				"connecting": "connecting",
 				"embarking": "embarking",
 				"player": "Player",
 				"players": "Players",
@@ -262,6 +275,7 @@
 			"multiplayer_status_text": {
 				"status": {
 					"connected": "connected",
+					"connecting": "is connecting",
 					"disconnected": "disconnected",
 					"removed": "removed from game",
 					"placed_camp": "placed their camp",
@@ -276,6 +290,12 @@
 					"shutdown": "The server was shutdown.",
 					"closed": "Server not accepting connections",
 					"full": "Server is full"
+				}
+			},
+			"steam": {
+				"workshop_agreement": {
+					"notice": "By submitting this item, you agree to the workshop",
+					"terms_of_service": "terms of service"
 				}
 			},
 			"party": {
@@ -580,6 +600,28 @@
 						}
 					}
 				},
+				"place_menu": {
+					"display_name": "Place",
+					"description": "Place objects like furniture and ladders.",
+					"items": {
+						"place_item": {
+							"display_name": "Place Item",
+							"description": "Place items like furniture and decoration",
+							"tip_title": "Click to place this item",
+							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+						},
+						"cannot_place_item": {
+							"tip_title": "Cannot place this item",
+							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+						},
+						"build_ladder": {
+							"display_name": "Construct Ladder",
+							"description": "Build a ladder to access hard to reach places",
+							"tip_title": "Click on a wall to build ladders",
+							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+						}
+					}
+				},
 				"fight_menu": {
 					"display_name": "Lutar & Defender",
 					"description": "Manage your combat forces",
@@ -784,6 +826,7 @@
 			},
 			"build_mode2": {
 				"tooltips": {
+					"pointer_tool": "Pointer",
 					"room_tool": "Rooms",
 					"wall_tool": "Walls",
 					"split_wall_tool": "Split Walls",
@@ -1112,7 +1155,8 @@
 				"recipe_tab": "Receitas",
 				"orders_tab": "Encomendas",
 				"missing_ingredients": "Missing ingredients: ",
-				"tooltip_appeal_stat": "Appeal"
+				"tooltip_appeal_stat": "Appeal",
+				"tooltip_net_worth_stat": "Gold Value"
 			},
 			"town_overview": {
 				"title": "Town Overview",
@@ -1362,14 +1406,25 @@
 					"title": "Módulos Instalado",
 					"note": "Abilitar Ou Desabilitar um Módulo Requer Reinicio.",
 					"invalid_manifest": "Manifest Invalido",
+					"invalid_steam_file": "Invalid Steam File Id",
 					"out_of_date": "Desatualizado",
-					"deferred_load": "Modulo carregado Altomaticamente",
+					"deferred_load": "Módulo carregado Altomaticamente",
 					"required": "Necessário",
+					"debug": "Debug Mod",
+					"localization": "Localization Mod",
 					"mods_changed_dialog": {
-						"title": "Mudar Modulo",
+						"title": "Mudar Módulo",
 						"message": "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
 						"accept": "Ok",
 						"cancel": "Cancelar"
+					},
+					"upload_error_dialog": {
+						"title": "Upload failed",
+						"message": "Could not upload \"[str(modname)]\": [str(error)]"
+					},
+					"create_mod_error_dialog": {
+						"title": "Create mod failed",
+						"message": "Could not create mod \"[str(modname)]\": [str(error)]"
 					}
 				},
 				"controls_tab": {
@@ -1496,6 +1551,7 @@
 				"singleplayer_game": "Singleplayer",
 				"multiplayer_game": "Multiplayer",
 				"load_game": "Carregar Jogo",
+				"mods": "Módulos",
 				"quick_start": "Novo Jogo Rapido",
 				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A24)",
 				"alpha_welcome_dialog": {
@@ -1508,6 +1564,134 @@
 					"title": "Detectado Modulos em Conflito!",
 					"message": "Atenção: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
 					"accept": "Sim, Prosseguir."
+				}
+			},
+			"mods_menu": {
+				"title": "Módulos",
+				"note": "Enabling or disabling a module requires a game reload.",
+				"apply": "Aplicar",
+				"open_folder": "Abrir Pasta",
+				"sections": {
+					"base_mods": {
+						"title": "Módulos Base"
+					},
+					"unmanaged_mods": {
+						"title": "Módulos não gerenciados"
+					},
+					"workshop_mods": {
+						"title": "Workshop Mods",
+						"browse_workshop": "Browse Steam Workshop",
+						"unsubscribe": "Unsubscribe",
+						"view_in_workshop": "View in Workshop",
+						"upload": "Upload",
+						"update": "Update",
+						"cancel": "X"
+					},
+					"my_items": {
+						"title": "Steam Uploads",
+						"create_new_mod": "Create New Mod"
+					}
+				},
+				"unsubscribe_dialog": {
+					"title": "Are you sure you want to unsubscribe?",
+					"message": "This will erase the mod from your local machine, but you can find the mod again in the Steam Workshop.",
+					"accept": "Yes, unsubscribe.",
+					"cancel": "No, stay subscribed."
+				},
+				"duplicates_dialog": {
+					"title": "Duplicate Mods Enabled",
+					"message": "You currently have more than one mod with the same name enabled. Make sure you have only one version enabled at a time. Your current duplicates:<br><br>",
+					"ok": "OK"
+				}
+			},
+			"mods_sync": {
+				"stop_title": "Missing Mods",
+				"continue_title": "Ready to Continue to Game",
+				"note": "The game you are trying to join has the following mods.",
+				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
+				"continue": "Continue to Game",
+				"loading": "Loading into game...",
+				"subscribe_all": "Subscribe All",
+				"no_steam_cant_sync": "You are missing one or more of the above mods. Ask your host to send them to you, or connect to Steam and look for them in the Steam workshop.",
+				"not_seen_in_workshop_cant_sync": "One or more of the missing mods is unavailable in the Steam Workshop. They might not be uploaded, or only be viewable by the host. Ask them to upload or change their permissions, then try connecting again.",
+				"mismatched_hash_workshop_cant_sync": "One of your Steam mods does not match the version that the host server is using. The mod's files may have been modified or the host is using a mod that is not up-to-date with the Steam version. Try deleting the mod and re-subscribing to get the Workshop version, or tell the host to update their Steam Workshop mods.",
+				"failed_download_workshop_update_cant_sync": "One or more of your mods doesn't match the version the host server has. Game was unable to download the workshop update for one of the mods because the mod steam file id invalid or you are logged out of steam.",
+				"cancel": "Cancel",
+				"private": "Private mod",
+				"non_workshop": "Not found in workshop",
+				"failed_download": "Cannot download update",
+				"mismatched_workshop_hash": "Does not match steam version",
+				"size": {
+					"bytes": "[str(size)] bytes",
+					"kilobytes": "[str(size)] KB",
+					"megabytes": "[str(size)] MB"
+				}
+			},
+			"mod_upload": {
+				"title": "[str(i18n_data.action)] mod \"[str(i18n_data.modname)]\"",
+				"opt_title": "Steam Mod Title",
+				"opt_title_placeholder": "Title for your steam workshop mod",
+				"opt_description": "Steam Mod Description",
+				"opt_description_placeholder": "Description of your mod",
+				"opt_visibility": "Visibility",
+				"opt_tags": "Tags",
+				"opt_tags_placeholder": "e.g. biome, furniture, animals",
+				"opt_tags_tooltip": "Tags must be separated by commas. Each tag can be at most 255 characters.",
+				"opt_tags_invalid": "Tags cannot contain special characters",
+				"opt_preview_image": "Preview Image",
+				"opt_preview_image_choose_file": "Choose File",
+				"opt_preview_image_placeholder": "No file chosen",
+				"opt_preview_image_info": "(1MB limit)",
+				"opt_preview_image_dialog_title": "Open preview image file",
+				"opt_change_note": "Change Note",
+				"opt_change_note_placeholder": "A brief description of the changes made",
+				"upload": "Upload",
+				"update": "Update",
+				"cancel": "Cancel",
+				"public": "Public",
+				"friends_only": "Friends Only",
+				"private": "Only You",
+				"required": "* required",
+				"optional": "optional",
+				"exceeded_byte_limit": "* exceeded byte limit ([str(byte_limit)])",
+				"debug_mod": "Debug Mod",
+				"localization_mod": "Localization Mod",
+				"errors": {
+					"steam_not_present": "Steam is not running",
+					"update_handle_invalid": "Could not update mod [str(modname)]. Check that you have permissions to update this steam workshop item.",
+					"invalid_title": "Title cannot be empty or contain more than 129 bytes",
+					"invalid_description": "Description cannot be empty or contain more than 8000 bytes",
+					"invalid_content_path": "The directory for the mod [str(modname)] was not found. The directory name must match the mod namespace found in the manifest.",
+					"invalid_param": "Preview image file is smaller than 16 bytes or steam AppID does not match user AppID.",
+					"access_denied": "Could not find your steam license for Stonehearth",
+					"file_not_found": "Failed to get the workshop info for the item, failed to read the preview file, or provided content folder is not valid. Check that your steam_file_id is a valid workshop item.",
+					"locking_failed": "Failed to aquire UGC Lock for steam workshop item",
+					"limit_exceeded": "The preview image is too large (it must be less than 1 Megabyte) or there is not enough space available on your Steam Cloud",
+					"generic": "Could not update mod [str(modname)] on steam workshop"
+				}
+			},
+			"mod_create": {
+				"title": "Create new steam mod",
+				"opt_title": "Mod Title",
+				"opt_title_tooltip": "A title for your mod",
+				"opt_title_placeholder": "e.g. Candy Land",
+				"opt_namespace": "Mod Namespace",
+				"opt_namespace_tooltip": "The namespace for your mod that you will use to prefix alias references in your mod",
+				"opt_namespace_placeholder": "e.g. candy_land",
+				"create": "Create",
+				"cancel": "Cancel",
+				"invalid_characters": "* Cannot contain special characters or spaces",
+				"errors": {
+					"steam_not_present": "Steam is not running",
+					"duplicate_namespace": "Your game already has a mod with the namespace [str(modname)]. Please try with another name",
+					"protected_namespace": "[str(modname)] is a protected namespace. Please try with another name.",
+					"missing_fields": "Missing title or namespace",
+					"invalid_directory": "Could not create directory for [str(modname)]",
+					"in_progress": "Could not create mod [str(modname)]. Previous create mod process is still in progress",
+					"insufficient_privilege": "Your steam account does not have permission to make items for the Stonehearth community",
+					"timeout": "The create item operation took longer than expected. Try again",
+					"not_logged_on": "You are not currently logged into steam",
+					"failed": "Steam failed to create the mod"
 				}
 			},
 			"select_game_story": {

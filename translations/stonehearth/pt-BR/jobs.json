@@ -938,7 +938,7 @@
 					"perk_000_description": "When inspiration strikes, the Cook may now craft an especially Fine quality of item. (Not implemented for food yet!)"
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight (not implemented for food)",
+					"perk_000_name": "Master's Insight <br><br>(not implemented for food)",
 					"perk_000_description": "The Cook can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for food yet!)"
 				}
 			},
@@ -1531,7 +1531,7 @@
 				"valor_statue_recipe": {
 					"description": "A monument to your town's military might",
 					"recipe_name": "The Valor of Cid",
-					"flavor": "The shield for resiliance, and the sword for strength. -- Cid, Knight of the Old Ways"
+					"flavor": "The shield for resilience, and the sword for strength. -- Cid, Knight of the Old Ways"
 				},
 				"roadside_shrine_recipe": {
 					"recipe_name": "Fountain of Plenty",
@@ -2036,7 +2036,7 @@
 				"level_2_data": {
 					"perk_000_name": "Charm Pet",
 					"perk_001_name": "Job Opportunities",
-					"perk_000_description": "The trapper will occasionally choose to turn a particulary fine animal into a pet!",
+					"perk_000_description": "The trapper will occasionally choose to turn a particularly fine animal into a pet!",
 					"perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
 				},
 				"level_6_data": {
