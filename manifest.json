@@ -3,6 +3,8 @@
 		"name": "startermod_locale_pt",
 		"name": "startermod_locale_pt-master",
 		"display_name": "MOD Traslater português",
+		"namespace":"Português",
+		"client_only": true,
 		"version": 3,
 		"default_enabled": true
 	},
