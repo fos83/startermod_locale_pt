@@ -2500,12 +2500,12 @@
 				"description": "Restaura o Terreno ao Estado Original."
 			},
 			"show_workshop": {
-				"display_name": "Workshop",
+				"display_name": "Oficina",
 				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
 			"show_workshop_from_crafter": {
-				"display_name": "Workshop",
+				"display_name": "Oficina",
 				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
