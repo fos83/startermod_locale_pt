@@ -18,8 +18,14 @@
 				"new_building_confirm": {
 					"title": "Create New Building",
 					"message": "Do you want to start a new building project?",
-					"yes": "Yes!",
-					"no": "No"
+					"yes": "Sim!",
+					"no": "Não"
+				},
+				"destroy_building_confirm": {
+					"title": "Destroy Current Building",
+					"message": "Do you really want to destroy this building?  This operation cannot be undone!",
+					"yes": "Sim!",
+					"no": "Não"
 				},
 				"plan_job_status": {
 					"COMPLETE": "Construction is already underway!",
@@ -118,7 +124,7 @@
 				"remote_connections_disabled_description": "Enable multiplayer in settings to allow other players to join your game",
 				"settings": "Settings",
 				"trade": "Trade",
-				"transfer_player": "Transfer Belongings",
+				"transfer_player": "Claim Belongings",
 				"confirm": {
 					"cancel": "Cancel",
 					"continue": "Continue",
@@ -128,11 +134,11 @@
 					},
 					"erase_player": {
 						"title": "Destroy player belongings",
-						"message": "Are you sure you want destroy all of this player's belongings? You cannot undo this action."
+						"message": "Are you sure you want destroy all of this player's belongings? This will also remove this player's town from the game. You cannot undo this action."
 					},
 					"transfer_player": {
-						"title": "Transfer player belongings",
-						"message": "Are you sure you want take all of this player's belongings? You cannot undo this action."
+						"title": "Claim player belongings",
+						"message": "Are you sure you want take all of this player's belongings? This will also remove this player's town from the game. You cannot undo this action."
 					}
 				}
 			},
@@ -357,7 +363,7 @@
 				"quality": {
 					"quality-2": "Fine Quality",
 					"quality-3": "Excellent Quality",
-					"quality-4": "Master Quality!"
+					"quality-4": "Masterwork Quality!"
 				}
 			},
 			"citizens": {
@@ -462,6 +468,7 @@
 					"defense": "Defense",
 					"trophy": "Trophies",
 					"seed": "Seeds",
+					"pets": "Pets",
 					"none": "Nenhum"
 				},
 				"tooltip_combat_base_damage": "Atk:",
@@ -522,11 +529,11 @@
 							"tip_description": "Right click to exit this mode"
 						},
 						"clear_item": {
-							"display_name": "Clear",
-							"description": "Clear items out of the world",
-							"tip_title": "Click and drag to permanently clear items from the world",
+							"display_name": "Destroy",
+							"description": "Destroy items in the world",
+							"tip_title": "Click and drag to permanently destroy items in the world",
 							"tip_description": "Right click to exit this mode",
-							"confirm_title": "Are you really sure you want to clear these items?",
+							"confirm_title": "Are you really sure you want to destroy these items?",
 							"confirm_message": "Usable items in the area will be permanently destroyed",
 							"confirm_clear": "Sim, destruir!",
 							"confirm_clear_no": "No! I need that stuff!"
@@ -746,6 +753,7 @@
 				"trade": {
 					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
 					"source_title": "Trade Offer for [str(i18n_data.town_name)]",
+					"title_without_name": "Trade Offer",
 					"offering": "Offering:",
 					"exchange": "In exchange for:",
 					"request": "Requesting:",
@@ -786,7 +794,9 @@
 						"have": "Gold on hand",
 						"spent": "Gold spent via trade",
 						"earned": "Gold earned via trade"
-					},
+					},						
+					"net_worth_label": "Net worth",
+					"placed_item_label": "[str(itemName)] placed",
 					"quality_label": {
 						"quality_2": "Fine quality items owned",
 						"quality_3": "Excellent quality items owned",
@@ -797,12 +807,12 @@
 					"abandon": "Abandon",
 					"dispatch": "Dispatch"
 				},
-				"town_founding": {
-					"title": "Official Settlement Founding Declaration",
+				"town_upgrade_choice": {
+					"title": "Official Settlement Declaration",
 					"name_header": "Choose a name for your settlement!",
 					"name_prompt": "Name:",
-					"banner_prompt": "Choose its path:",
-					"complete": "Issue Declaration & Celebrate!"
+					"banner_prompt": "Choose settlement path:",
+					"complete": "Issue Declaration!"
 				},
 				"immigration_report": {
 					"title": "Atualização diária",
@@ -1216,7 +1226,8 @@
 				"tab": {
 					"town_overview": "Town Overview",
 					"inventory": "Inventário",
-					"journal": "Diário"
+					"journal": "Diário",
+					"bonuses": "Bônus"
 				}
 			}
 		},
@@ -1370,6 +1381,7 @@
 				"aa_slider_4": "Muito Mesmo!",
 				"sound": "Som",
 				"background_music_volume": "Volume da Musica",
+				"ambient_volume": "Ambient Volume",
 				"effects_volume": "Volume dos Efeitos",
 				"system": "Sistema",
 				"force_32_bit": "* Forcar 32-bit (Requer Reinicio)",
@@ -1493,6 +1505,7 @@
 						"zone_trapping": "Trapping Zone Tool",
 						"zone_pasture": "Pasture Tool",
 						"build_menu": "Build Menu",
+						"place_menu": "Place Menu",
 						"build_template": "Place Building",
 						"build_custom": "Design Building",
 						"build_place": "Place Item",
@@ -1543,7 +1556,7 @@
 			},
 			"title_screen": {
 				"exit": "Sair",
-				"settings": "configuração",
+				"settings": "Configuração",
 				"about": "Sobre",
 				"kingdom_of": "O Reino de",
 				"continue_game": "Continue",
@@ -1579,7 +1592,7 @@
 						"title": "Módulos não gerenciados"
 					},
 					"workshop_mods": {
-						"title": "Workshop Mods",
+						"title": "Módulos da Oficina",
 						"browse_workshop": "Browse Steam Workshop",
 						"unsubscribe": "Unsubscribe",
 						"view_in_workshop": "View in Workshop",
@@ -1589,7 +1602,7 @@
 					},
 					"my_items": {
 						"title": "Steam Uploads",
-						"create_new_mod": "Create New Mod"
+						"create_new_mod": "Criar novo Módulo"
 					}
 				},
 				"unsubscribe_dialog": {
@@ -1671,7 +1684,7 @@
 				}
 			},
 			"mod_create": {
-				"title": "Create new steam mod",
+				"title": "Criar novo Módulo (Steam)",
 				"opt_title": "Mod Title",
 				"opt_title_tooltip": "A title for your mod",
 				"opt_title_placeholder": "e.g. Candy Land",

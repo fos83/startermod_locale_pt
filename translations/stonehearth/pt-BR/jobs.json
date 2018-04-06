@@ -366,7 +366,7 @@
 				"sign_blacksmith_recipe": {
 					"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop",
 					"recipe_name": "Blacksmith's Shop Sign",
-					"flavor": "It's chains rattle and sing brightly with every hammer strike"
+					"flavor": "Its chains rattle and sing brightly with every hammer strike"
 				},
 				"lantern_iron_recipe": {
 					"description": "Glows like the heart of the forge",
@@ -436,6 +436,21 @@
 					"description": "Reminiscent of days gone past.",
 					"recipe_name": "Giant Warhorn",
 					"flavor": "The sound of a great horn like this should never be taken lightly... thankfully one hasn't sounded in Darkmoor for many years. -- Cid, Knight of the Old Ways"
+				},
+				"steel_frame_recipe": {
+					"description": "Reinforces the Giant's Shield.",
+					"recipe_name": "Giant's Frame",
+					"flavor": "The bones of the Giant"
+				},
+				"two_handed_sword_valor_recipe": {
+					"description": "Finest blade in the Ascendancy",
+					"recipe_name": "Emblazoned Sword",
+					"flavor": "Perfectly balanced for its size, and equal to any challenge its wielder takes on"
+				},
+				"circlet_valor_recipe": {
+					"description": "Squarest circlet in the Ascendancy",
+					"recipe_name": "Shining Circlet",
+					"flavor": "Channels the very heart and soul into healing light"
 				}
 			}
 		},
@@ -563,7 +578,7 @@
 					"recipe_name": "Picket Fence",
 					"flavor": "If it's not white, is our life unfulfilled?"
 				},
-				"tools_weapons_name": "Ferramentas & Armas",
+				"tools_weapons_name": "Ferramentas",
 				"storage_name": "Storage",
 				"building_parts_name": "Building Parts",
 				"armor_name": "Weapons and Armor",
@@ -904,6 +919,16 @@
 					"description": "A fence overtaken by brightbells",
 					"recipe_name": "Pink Flowering Fence",
 					"flavor": "Farmer Peggy wouldn't suffer a weed on her watch. Either she had a soft spot for the flowering kind, or they just grew back too fast."
+				},
+				"giants_face_recipe": {
+					"description": "Protects the Giant's shield",
+					"recipe_name": "Giant's face",
+					"flavor": "Steel plated and solid as the mountainside"
+				},
+				"bow_valor_recipe": {
+					"description": "Swiftest bow in the Ascendancy",
+					"recipe_name": "Empire Bow",
+					"flavor": "Grants its wielder the mechanical edge to fire arrows in blinding flights"
 				}
 			}
 		},
@@ -978,8 +1003,8 @@
 					"description": "A crusty, basic bread.",
 					"recipe_name": "Peasant Bread"
 				},
-				"food_name": "Food",
-				"ingredients_name": "Ingredients",
+				"food_name": "Every Day Meals",
+				"ingredients_name": "Ingredient Refinement",
 				"veggie_stew_recipe": {
 					"description": "A warm, savory broth, fortified with braised pumpkin!",
 					"recipe_name": "Tasty Vegetable Stew",
@@ -1218,6 +1243,11 @@
 				"bronze_portcullis_recipe": {
 					"description": "Useful for fortifying town entrypoints.",
 					"recipe_name": "Bronze Portcullis"
+				},
+				"mechanism_recipe": {
+					"description": "The wheels of the Empire Bow",
+					"recipe_name": "Phoenix Mechanism",
+					"flavor": "Speed, power, and precision all in the turn of a gear"
 				}
 			},
 			"engineer_buffs": {
@@ -1364,7 +1394,7 @@
 				},
 				"level_2_data": {
 					"perk_000_name": "Fancy Rocks",
-					"perk_000_description": "The Mason can now make more elaborate items froms stone."
+					"perk_000_description": "The Mason can now make more elaborate items from stone."
 				},
 				"level_4_data": {
 					"perk_000_name": "Extended Catalog",
@@ -1435,7 +1465,7 @@
 					"flavor": "And Monkey struck the earth with his staff. 'For you are my children, he said, and you shall want for nothing.'"
 				},
 				"cobblestone_fence_gate_recipe": {
-					"description": "It's thick stone walls grant a sense of security.",
+					"description": "Its thick stone walls grant a sense of security.",
 					"recipe_name": "Cobblestone Fence Gate",
 					"flavor": "Sheep go in, but can't get out!"
 				},
@@ -1490,7 +1520,7 @@
 					"flavor": "A modern adaptation of an ancient weapon."
 				},
 				"stone_table_recipe": {
-					"description": "It's considerable weight gives it a sense of gravitas. For serious business only.",
+					"description": "Its considerable weight gives it a sense of gravitas. For serious business only.",
 					"recipe_name": "Stone Table",
 					"flavor": "No lions were harmed in its construction."
 				},
@@ -1664,6 +1694,16 @@
 					"description": "A beacon of light to protect your town.",
 					"recipe_name": "Large Brazier",
 					"flavor": "From a tall mountaintop, you can see fires like these all across the Darkmoor."
+				},
+				"lucid_gem_recipe": {
+					"description": "A spiritual focus, essential for the Shining Circlet",
+					"recipe_name": "Lucid Gem",
+					"flavor": "What mysteries hide inside its tranquil blue eye?"
+				},
+				"giants_shield_recipe": {
+					"description": "Proudest shield in the Ascendancy",
+					"recipe_name": "Giant's Shield",
+					"flavor": "Against even the most terrible foes and impossible dangers, this shield will never break."
 				}
 			}
 		},
@@ -1790,7 +1830,7 @@
 				"green_clay_window_frame_recipe": {
 					"description": "Let's in the soft desert air.",
 					"recipe_name": "Green Clay Window Frame",
-					"flavor": "It's a window's dream of spring...?"
+					"flavor": "It's a window's dream of spring..."
 				},
 				"latticed_clay_window_frame_recipe": {
 					"description": "The lattice still lets the good air in.",
@@ -1944,6 +1984,11 @@
 					"recipe_name": "Green Ceramic Supply Basin",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
+				},
+				"blazing_inlay_recipe": {
+					"description": "Radiant gilding for the Emblazoned Sword.",
+					"recipe_name": "Blazing Inlay",
+					"flavor": "Gleaming with hearthlight"
 				}
 			},
 			"potter_workbench": {
@@ -1989,7 +2034,7 @@
 					"perk_000_description": "The shepherd's skill produces greater yields in animal products."
 				},
 				"level_6_data": {
-					"title": "Pastor(Mestre)"
+					"title": "Pastor (Mestre)"
 				}
 			},
 			"shepherd_crook": {
@@ -2265,6 +2310,16 @@
 					"flavor": "Nothing quite like a well-supplied workshop!",
 					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
 					"recipe_name": "Red Woven Supply Basket"
+				},
+				"silver_bowstring_recipe": {
+					"description": "A spool of strong, spun silver cord",
+					"recipe_name": "Silver_bowstring",
+					"flavor": "Joins the ends of the Empire Bow"
+				},
+				"woven_grip_recipe": {
+					"description": "Tightly wrapped in cords of blue and gold",
+					"recipe_name": "Woven Grip",
+					"flavor": "Adorns the hilt of the Emblazoned Sword"
 				}
 			},
 			"weaver_loom": {
@@ -2522,7 +2577,7 @@
 				"topiary_rabbit_recipe": {
 					"description": "Fluffy wildlife topiary",
 					"recipe_name": "Berry Bun",
-					"flavor": "I know it grows back, but I hate to pick it's tail..."
+					"flavor": "I know it grows back, but I hate to pick its tail..."
 				},
 				"topiary_mammoth_recipe": {
 					"description": "Massive topiary pachyderm",
@@ -2532,7 +2587,7 @@
 				"topiary_fox_recipe": {
 					"description": "Much better for pie than jerky",
 					"recipe_name": "Berry Fox",
-					"flavor": "berry bush"
+					"flavor": "Don't plan it in your poyo coop"
 				},
 				"pot_berry_bush_recipe": {
 					"description": "A sign with the mark of the Herbalist.",
@@ -2567,6 +2622,11 @@
 					"description": "Meticulously well tended",
 					"recipe_name": "Redbloom Tree",
 					"flavor": "Redblooms are for luck. An odd number of petals is especially lucky, though no one's ever seen such a blossom."
+				},
+				"leaf_setting_recipe": {
+					"description": "Delicately frames and protects the Shining Circlet",
+					"recipe_name": "Silverleaf Setting",
+					"flavor": "Cast from actual leaves in layers of silver and gold, they're stronger than they look"
 				}
 			},
 			"herbalist_buffs": {

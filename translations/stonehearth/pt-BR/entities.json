@@ -168,6 +168,18 @@
 			"bronze_helm": {
 				"display_name": "Bronze Helm",
 				"description": "Pretty and protective"
+			},
+			"shield_valor": {
+				"display_name": "Giant's Shield",
+				"description": "Proudest shield in the Ascendancy",
+				"shield_valor_iconic": {
+					"display_name": "Giant's Shield",
+					"description": "Proudest shield in the Ascendancy"
+				}
+			},
+			"circlet_valor": {
+				"display_name": "Shining Circlet",
+				"description": "Squarest circlet in the Ascendancy"
 			}
 		},
 		"boulders": {
@@ -214,7 +226,7 @@
 			"cobblestone_fence_gate": {
 				"cobblestone_fence_gate_ghost": {
 					"display_name": "Cobblestone Fence Gate",
-					"description": "It's thick stone walls grant a sense of security."
+					"description": "Its thick stone walls grant a sense of security."
 				}
 			},
 			"picket_fence": {
@@ -323,7 +335,7 @@
 			},
 			"latticed_clay_window_frame": {
 				"latticed_clay_window_frame_ghost": {
-					"display_name": "Latticed Clay Window Frame",
+					"display_name": "Red Latticed Window",
 					"description": "The lattice still lets the good air in."
 				}
 			},
@@ -348,7 +360,7 @@
 			"bronze_portcullis": {
 				"bronze_portcullis_ghost": {
 					"display_name": "Bronze Portcullis",
-					"description": "Useful for fortifying town entrypoints"
+					"description": "Useful for fortifying town entrypoints."
 				}
 			},
 			"wooden_door_fine": {
@@ -533,15 +545,6 @@
 				},
 				"stone_pile_iconic": {
 					"description": "Harvestable for stone when placed"
-				}
-			},
-			"ore_pile": {
-				"ore_pile": {
-					"description": "Container for many hunks of ore",
-					"display_name": "Ore Pile"
-				},
-				"ore_pile_iconic": {
-					"description": "Container for many hunks of ore"
 				}
 			},
 			"clay_pile": {
@@ -1254,7 +1257,7 @@
 					},
 					"000": {
 						"name": "Seedling!",
-						"description": "Just a tinly little stub"
+						"description": "Just a tiny little stub"
 					},
 					"011": {
 						"name": "Rotten Gourds",
@@ -1297,7 +1300,7 @@
 						"description": "Ready to be transferred to a bigger plot."
 					},
 					"000": {
-						"name": "Pollenated Flower Pod",
+						"name": "Pollinated Flower Pod",
 						"description": "Even a mighty cactus has humble beginnings."
 					},
 					"002": {
@@ -1371,7 +1374,7 @@
 			},
 			"firepit_skulls": {
 				"firepit_skulls_ghost": {
-					"display_name": "Wicked Fire Pit",
+					"display_name": "Wicked Firepit",
 					"description": "Are those....ew."
 				}
 			},
@@ -1711,7 +1714,7 @@
 				},
 				"fountain_wishing": {
 					"fountain_wishing_ghost": {
-						"display_name": "Glittering Basin",
+						"display_name": "Lucky Fountain",
 						"description": "Exchanges gold for wishes"
 					}
 				},
@@ -1994,20 +1997,20 @@
 			},
 			"hearth_bunny": {
 				"hearth_bunny_ghost": {
-					"display_name": "The Bunny Hearth",
-					"description": "I am amazing text about this beautiful Hearth"
+					"display_name": "Hearth of Cheer",
+					"description": "Provides warmth, light, comfort, and random daily buffs"
 				}
 			},
 			"hearth_fountain": {
 				"hearth_fountain_ghost": {
-					"display_name": "The Fountain Hearth",
-					"description": "I am amazing text about this beautiful Hearth"
+					"display_name": "Hearth of Glory",
+					"description": "Provides warmth, light, comfort, and a chance to challenge waves of undead"
 				}
 			},
 			"hearth_stump": {
 				"hearth_stump_ghost": {
-					"display_name": "The Stump Hearth",
-					"description": "I am amazing text about this beautiful Hearth"
+					"display_name": "Hearth of the Makers",
+					"description": "Provides warmth, light, comfort, and daily interest on owned gold"
 				}
 			},
 			"stall_progression": {
@@ -2065,7 +2068,7 @@
 			"corn": {
 				"amazing_corn_basket": {
 					"display_name": "Basket of Amazing Maize",
-					"description": "Super nutritous corn."
+					"description": "Super nutritious corn."
 				},
 				"amazing_corn_serving": {
 					"display_name": "Amazing Maize",
@@ -2356,7 +2359,7 @@
 			},
 			"varanus_meat": {
 				"display_name": "Varanus Meat",
-				"description": "Tastes more like Poyo then Poyo does."
+				"description": "Tastes more like Poyo than Poyo does."
 			},
 			"rotten_varanus_meat": {
 				"description": "It actually smells better now",
@@ -3774,6 +3777,38 @@
 			"iron_gear": {
 				"display_name": "Engrenagem de (Ferro)",
 				"description": "Used to craft intermediate gadgetry"
+			},
+			"silver_bowstring": {
+				"display_name": "Silver Bowstring",
+				"description": "A spool of strong, spun silver cord."
+			},
+			"woven_grip": {
+				"display_name": "Woven Grip",
+				"description": "Tightly wrapped with cords of blue and gold"
+			},
+			"blazing_inlay": {
+				"display_name": "Blazing Inlay",
+				"description": "Radiant gilding for the Emblazoned Sword."
+			},
+			"steel_frame": {
+				"display_name": "Giant's Frame",
+				"description": "Reinforces the Giant's Shield."
+			},
+			"giants_face": {
+				"display_name": "Giant's Face",
+				"description": "Protects the Giant's Shield."
+			},
+			"mechanism": {
+				"display_name": "Phoenix Mechanism",
+				"description": "The wheels of the Empire Bow"
+			},
+			"lucid_gem": {
+				"display_name": "Lucid Gem",
+				"description": "A spiritual focus, essential for the Shining Circlet."
+			},
+			"shining_setting": {
+				"display_name": "Silverleaf Setting",
+				"description": "Delicately frames and protects the Shining Circlet"
 			}
 		},
 		"resources": {
@@ -3795,7 +3830,7 @@
 					"description": "Spinnable into thread"
 				},
 				"wool_bundle": {
-					"display_name": "Bundle of Wool",
+					"display_name": "Pacote de lã",
 					"description": "Spinnable into thread"
 				},
 				"coarse_fiber_bundle": {
@@ -3837,11 +3872,11 @@
 					"description": "From the hide of a terrifying creature"
 				},
 				"deer_pelt": {
-					"display_name": "Deer Pelt",
+					"display_name": "Pele de veado",
 					"description": "Soft, supple, and quite dead"
 				},
 				"cougar_pelt": {
-					"display_name": "Cougar Pelt",
+					"display_name": "Pele de puma",
 					"description": "Soft, supple, and quite dead"
 				},
 				"beetle_pelt": {
@@ -3858,7 +3893,7 @@
 				},
 				"boar_pelt": {
 					"description": "Soft, supple, and quite dead",
-					"display_name": "Boar Pelt"
+					"display_name": "Pele de javali"
 				}
 			},
 			"silver": {
@@ -4063,7 +4098,7 @@
 		},
 		"toys": {
 			"ball": {
-				"display_name": "Leather ball"
+				"display_name": "Bola de couro"
 			},
 			"plushie_toy_rabbit": {
 				"plushie_toy_rabbit_ghost": {
@@ -4536,6 +4571,18 @@
 			"fire_arrow": {
 				"display_name": "Fire Arrow",
 				"description": "An arrow imbued with flames"
+			},
+			"two_handed_sword_valor": {
+				"display_name": "Emblazoned Sword",
+				"description": "Finest blade in the Ascendancy",
+				"two_handed_sword_valor_iconic": {
+					"display_name": "Emblazoned Sword",
+					"description": "Finest blade in the Ascendancy."
+				}
+			},
+			"bow_valor": {
+				"display_name": "Empire Bow",
+				"description": "Swiftest bow in the Ascendancy"
 			}
 		},
 		"consumables": {
@@ -4673,12 +4720,48 @@
 					"herald_female": {
 						"display_name": "Heraldine Rigby",
 						"description": "This is a Herald of the Ascendancy."
+					},
+					"herald_isabelle": {
+						"display_name": "Isabelle Swift",
+						"description": "Herald of the Ascendancy."
+					},
+					"herald_ember": {
+						"display_name": "Ember Minton",
+						"description": "Herald of the Church of Plenty."
+					},
+					"herald_anwyn": {
+						"display_name": "Anwyn Torresi",
+						"description": "Captain of the guard."
+					},
+					"herald_erdene": {
+						"display_name": "Erdene Jemkrushr",
+						"description": "Reluctant emissary of the Red Kiln."
 					}
 				},
 				"male": {
 					"herald_male": {
 						"display_name": "Herald B. Good",
 						"description": "This is a Herald of the Ascendancy."
+					},
+					"herald_mer": {
+						"display_name": "Mer Burlyhands",
+						"description": "Herald of the Ascendancy."
+					},
+					"herald_marak": {
+						"display_name": "Marak Azael",
+						"description": "Guildmaster of the Ascendancy."
+					},
+					"herald_untz": {
+						"display_name": "Untz the Excellent",
+						"description": "Party Goblin."
+					},
+					"herald_harold": {
+						"display_name": "Harold",
+						"description": "Special delivery duck-duck."
+					},
+					"herald_sasha": {
+						"display_name": "Sasha Lightfoot",
+						"description": "Herald of Clan Amberstone"
 					}
 				}
 			}

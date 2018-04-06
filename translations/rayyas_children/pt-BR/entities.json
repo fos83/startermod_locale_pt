@@ -299,20 +299,20 @@
 			},
 			"hearth_box": {
 				"hearth_box_ghost": {
-					"display_name": "The Lightbox Hearth",
-					"description": "I am amazing text about this beautiful Hearth"
+					"display_name": "Hearth of Glory",
+					"description": "Provides warmth, light, comfort, and a chance to challenge waves of undead"
 				}
 			},
 			"hearth_lamp": {
 				"hearth_lamp_ghost": {
-					"display_name": "The Lamp Hearth",
-					"description": "I am amazing text about this beautiful Hearth"
+					"display_name": "Hearth of Cheer",
+					"description": "Provides warmth, light, comfort, and random daily buffs"
 				}
 			},
 			"hearth_urn": {
 				"hearth_urn_ghost": {
-					"display_name": "The Urn Hearth",
-					"description": "I am amazing text about this beautiful Hearth"
+					"display_name": "Hearth of the Makers",
+					"description": "Provides warmth, light, comfort, and daily interest on owned gold"
 				}
 			}
 		},
@@ -320,14 +320,38 @@
 			"herald": {
 				"female": {
 					"herald_female": {
-						"display_name": "Heraldine Swift",
-						"description": "This is a Herald of Rayya's Children."
+						"display_name": "<Unused> Heraldine Swift",
+						"description": "<Unused> Herald of Rayya's Children."
+					},
+					"herald_adia": {
+						"display_name": "Adia Radie",
+						"description": "Guildmaster of Rayya's Children."
+					},
+					"herald_amyyria": {
+						"display_name": "Amyyria Iskender",
+						"description": "Head of the Iskender Trading Company."
 					}
 				},
 				"male": {
 					"herald_male": {
-						"display_name": "Herald Holly",
-						"description": "This is a Herald of Rayya's Children."
+						"display_name": "<Unused> Herald Holly",
+						"description": "<Unused> Herald of Rayya's Children."
+					},
+					"herald_naryal": {
+						"display_name": "Naryal Iskender",
+						"description": "Agent of the Iskender Trading Company."
+					},
+					"herald_nona": {
+						"display_name": "Nona Trist",
+						"description": "Priestess of Her Mystery."
+					},
+					"herald_emeret": {
+						"display_name": "Emeret Kaver",
+						"description": "Leader of the Painted Dogs."
+					},
+					"herald_arke": {
+						"display_name": "Arke",
+						"description": "Iskender's finest messenger."
 					}
 				}
 			}

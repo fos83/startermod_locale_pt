@@ -144,9 +144,9 @@
 						"recipe_unlock_engineer": "New portcullis recipe for Engineer!",
 						"recipe_unlock_mason": "New decoration recipes for Mason!",
 						"recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!",
-						"recipe_unlock_weapons_1": "<WIP, not in yet> New Legendary Sword recipe - Weaver, Potter, and Blacksmith collaboration!",
-						"recipe_unlock_weapons_2": "<WIP, not in yet> New Legendary Shield recipe - Blacksmith, Carpenter, and Mason collaboration!",
-						"recipe_unlock_weapons_3": "<WIP, not in yet> New Legendary Archer recipe - Engineer, Weaver, and Carpenter collaboration!"
+						"recipe_unlock_weapons_1": "New Legendary Sword recipe - Weaver, Potter, and Blacksmith collaboration!",
+						"recipe_unlock_weapons_2": "New Legendary Shield recipe - Blacksmith, Carpenter, and Mason collaboration!",
+						"recipe_unlock_weapons_3": "New Legendary Archer recipe - Engineer, Weaver, and Carpenter collaboration!"
 					},
 					"generosity_tier_2_reached": {
 						"reward_message_ctd": "Por demonstrar grande generosidade aos necessitados. A vila é solenemente elegível à:",
@@ -339,6 +339,124 @@
 									"shop_info": {
 										"name": "Rufus Garrow's Stonecutter Shop",
 										"title": "Rufus Garrow has arrived with some exceptional wares to sell"
+									}
+								},
+								"stonecutter_shop_2": {
+									"shop_info": {
+										"name": "Rufus Garrow's Stonecutter Shop",
+										"title": "Rufus Garrow has arrived with better wares to sell"
+									}
+								},
+								"weapon_armor_shop_2": {
+									"shop_info": {
+										"name": "Sark Blackhammer's Armory Shop",
+										"title": "Sark Blackhammer has arrived with high quality equipment to sell"
+									}
+								},
+								"door_shop_2": {
+									"shop_info": {
+										"name": "Edgar Planckton's Door Store",
+										"title": "Edgar Planckton has arrived with fancy doors and windows for sale"
+									}
+								},
+								"potter_shop_2": {
+									"shop_info": {
+										"name": "Ferina Rayye's Shaped Clay",
+										"title": "Ferina Rayye's pottery studio is in town, offering pottery and clay decorations"
+									}
+								},
+								"herbalist_shop_2": {
+									"shop_info": {
+										"name": "Vert Greene's Verdant Greenery",
+										"title": "Vert Greene is passing by, selling plants and seeds"
+									}
+								}
+							},
+							"tier_1_shops": {
+								"pets_shop_1": {
+									"shop_info": {
+										"name": "Avelyn's Pet Shop",
+										"title": "A local ranger is passing by, offering pets to adopt"
+									}
+								},
+								"pets_shop_2": {
+									"shop_info": {
+										"name": "Dinali's Little Menagerie",
+										"title": "An animal trainer is visiting with her menagerie"
+									}
+								},
+								"pets_shop_3": {
+									"shop_info": {
+										"name": "Ollin and Ruvel's Traveling Zoo",
+										"title": "A zoo caravan is offering exotic animals for sale"
+									}
+								},
+								"container_shop_1": {
+									"shop_info": {
+										"name": "Jo Boxen's Container Barn",
+										"title": "Jo Boxen arrives with a basket of bins"
+									}
+								},
+								"food_shop_1": {
+									"shop_info": {
+										"name": "Gannor's Breakfast Foods Trunk",
+										"title": "A young cook has arrived with a trunk of breakfast foods"
+									}
+								},
+								"potter_shop_1": {
+									"shop_info": {
+										"name": "Ferina Rayye's Shaped Clay",
+										"title": "Ferina Rayye's wheeled studio is padding by, offering pottery"
+									}
+								},
+								"herbalist_shop_1": {
+									"shop_info": {
+										"name": "Vert Greene's Verdant Greenery",
+										"title": "Vert Greene is passing by, selling herbs"
+									}
+								}
+							},
+							"tier_3_shops": {
+								"woodcutter_shop_3": {
+									"shop_info": {
+										"name": "Norm Windriser's Woodcutter Shop",
+										"title": "Norm Windriser has arrived with his best wares"
+									}
+								},
+								"container_shop_3": {
+									"shop_info": {
+										"name": "Jo Boxen's Container Barn",
+										"title": "Jo Boxen arrives with a vault of chests"
+									}
+								},
+								"weapon_armor_shop_3": {
+									"shop_info": {
+										"name": "Sark Blackhammer's Armory Shop",
+										"title": "Sark Blackhammer has arrived with his best weapons and armor"
+									}
+								},
+								"door_shop_3": {
+									"shop_info": {
+										"name": "Edgar Planckton's Door Store",
+										"title": "Edgar Planckton has arrived with a shipment of his best doors and windows"
+									}
+								},
+								"food_shop_3": {
+									"shop_info": {
+										"name": "Volf Hart's Meats and Pies",
+										"title": "A famous chef is passing by, offering gourmet dishes for sale"
+									}
+								},
+								"potter_shop_3": {
+									"shop_info": {
+										"name": "Ferina Rayye's Shaped Clay",
+										"title": "Ferina Rayye's wheeled pottery studio is in town, offering artisan clay crafts"
+									}
+								},
+								"herbalist_shop_3": {
+									"shop_info": {
+										"name": "Vert Greene's Verdant Greenery",
+										"title": "Vert Greene is passing by, selling plants of all kinds"
 									}
 								}
 							}
@@ -1561,7 +1679,7 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Don't get arrogant puny humans! Brethren from Capitol await to test their might. Any town bearing the General's Gong will not be unheeded!"
+														"00": "Don't get arrogant puny humans! Brethren from capital await to test their might. Any town bearing the General's Gong will not be unheeded!"
 													},
 													"bulletin_title": "The ogre chief shakes his fist angrily",
 													"dialog_title": "Chief Grut Bashbrain"
@@ -1652,7 +1770,7 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Erdene was right about you. You are a worthy opponent indead. We will not forget the strength that you have helped us gain."
+														"00": "Erdene was right about you. You are a worthy opponent indeed. We will not forget the strength that you have helped us gain."
 													},
 													"bulletin_title": "The warchief nods humbly",
 													"dialog_title": "Warchief Oghar Norwind",
@@ -1680,49 +1798,6 @@
 						"trigger": {
 							"town_progression": {
 								"encounters": {
-									"hearth_choice": {
-										"dialog_tree_info": {
-											"dialog_nodes": {
-												"msg_final": {
-													"bulletin_message": {
-														"00": "Which Hearth will you pursue?<br><br><font size=-1>(Note: If a Hearth Quest proves too difficult, you can Abandon it and choose again)</font>"
-													},
-													"choice_000": "Glory - we stand strong!",
-													"choice_001": "Cheer - we are a happy home!",
-													"choice_002": "The Makers - skill and prosperity!",
-													"bulletin_title": "Choose a Hearth Upgrade",
-													"dialog_title": "Choose a Hearth Upgrade"
-												},
-												"cheer": {
-													"bulletin_message": {
-														"00": "To build a <i>Hearth of Cheer</i>, you will have to prove that you have happy, well-fed citizens, and nice places for them to live.<br><br>Once built, the <i>Hearth of Cheer</i> will boost your Daily Update value based on the overall Morale of your citizens."
-													},
-													"bulletin_title": "Hearth of Cheer",
-													"dialog_title": "Hearth of Cheer",
-													"choice_000": "Sounds good!",
-													"choice_001": "Other Hearths..."
-												},
-												"glory": {
-													"bulletin_message": {
-														"00": "To build a <i>Hearth of Glory</i>, you will have to show that you have military strength, and that you're prepared to keep it on its feet.<br><br>Once built, the <i>Hearth of Glory</i> grants the ability to summon increasingly difficult enemies to prove your mettle. Each rank defeated will boost your Daily Update value."
-													},
-													"bulletin_title": "Hearth of Glory",
-													"dialog_title": "Hearth of Glory",
-													"choice_000": "Sounds good!",
-													"choice_001": "Other Hearths..."
-												},
-												"makers": {
-													"bulletin_message": {
-														"00": "To build a <i>Hearth of Makers</i>, you will have to prove that gold has been flowing through your settlement, and that you have fine crafters (or, at least, fine things).<br><br>Once built, the <i>Hearth of Makers</i> will generate 5% daily interest on any Gold Coins you have on hand, and boost your Daily Update value based on those Gold Coins."
-													},
-													"bulletin_title": "Hearth of Makers",
-													"dialog_title": "Hearth of Makers",
-													"choice_000": "Sounds good!",
-													"choice_001": "Other Hearths..."
-												}
-											}
-										}
-									},
 									"hearth_choice_explanation": {
 										"dialog_tree_info": {
 											"dialog_nodes": {
@@ -1764,7 +1839,7 @@
 													},
 													"bulletin_title": "A Choice",
 													"dialog_title": "A Choice",
-													"choice_000": "I choose..."
+													"choice_000": "We choose..."
 												},
 												"intro2": {
 													"bulletin_message": {
@@ -1799,8 +1874,8 @@
 										"title": "Outpost Established",
 										"dialog_title": "Outpost Established!",
 										"tier_title": "Outpost",
-										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
-										"reward_message_ctd": "As an outpost paving the roads to become a trade hub.",
+										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"reward_message_ctd": "to be an outpost paving the roads to become a trade hub.",
 										"achievements": {
 											"001": "Items sell for 50% more",
 											"000": "Roads give 3x their normal speed boost",
@@ -1811,8 +1886,8 @@
 										"title": "Outpost Established",
 										"dialog_title": "Outpost Established!",
 										"tier_title": "Outpost",
-										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
-										"reward_message_ctd": "As an outpost on its way to be a safe haven for all.",
+										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"reward_message_ctd": "to be an outpost on its way to be a safe haven for all.",
 										"achievements": {
 											"001": "Hearthlings no longer mind cramped spaces",
 											"000": "Mining gives 50% more Ore, Stone, and Clay"
@@ -1822,8 +1897,8 @@
 										"title": "Outpost Established",
 										"dialog_title": "Outpost Established!",
 										"tier_title": "Outpost",
-										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
-										"reward_message_ctd": "As an outpost striving to be at one with the environment.",
+										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"reward_message_ctd": "to be an outpost striving to be at one with the environment.",
 										"achievements": {
 											"001": "Both Plants and Crops grow 25% faster",
 											"000": "Trees produce 25% more Wood",
@@ -1834,8 +1909,8 @@
 										"title": "Settlement Established",
 										"dialog_title": "Settlement Established!",
 										"tier_title": "Settlement",
-										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
-										"reward_message_ctd": "As a settlement out to prove that its riches and craftsmanship is unmatched.",
+										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"reward_message_ctd": "to be a settlement out to prove that its riches and craftsmanship is unmatched.",
 										"achievements": {
 											"001": "Daily Update boosted by Gold Coins",
 											"000": "+5% daily interest on Gold Coins"
@@ -1845,8 +1920,8 @@
 										"title": "Settlement Established",
 										"dialog_title": "Settlement Established!",
 										"tier_title": "Settlement",
-										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
-										"reward_message_ctd": "As a settlement out to prove that it has unrivaled military strength.",
+										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"reward_message_ctd": "To be a settlement out to prove that it has unrivaled military strength.",
 										"achievements": {
 											"000": "Hearth summons foes to defeat for Glory",
 											"001": "Daily Update boosted by Glory Tier"
@@ -1856,8 +1931,8 @@
 										"title": "Settlement Established",
 										"dialog_title": "Settlement Established!",
 										"tier_title": "Settlement",
-										"reward_message": "By decree of Princess Dania of the Ascendancy, we recognize:",
-										"reward_message_ctd": "As a settlement out to prove that it has the happiest, most well-fed citizens, and nice places for them to live.",
+										"reward_message": "By unanimous agreement of the citizens, we declare:",
+										"reward_message_ctd": "to be a settlement out to prove that it has the happiest, most well-fed citizens, and nice places for them to live.",
 										"achievements": {
 											"000": "Daily Update boosted by citizen Morale"
 										}
@@ -1887,6 +1962,77 @@
 											"000": "Lucky Daily Buffs",
 											"002": "Blacksmith Decorations",
 											"004": "Tier 3 Music"
+										}
+									},
+									"shrine_choice_explanation": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"clergy": {
+													"bulletin_message": {
+														"00": "Kind greetings! My name is Ember Minton, and I am a missionary for the Church of Plenty. We would be delighted to have a settlement such as yours count among one of our Townships."
+													},
+													"bulletin_title": "The Clergy",
+													"dialog_title": "The Clergy",
+													"choice_000": "Welcome, Ember"
+												},
+												"makers": {
+													"bulletin_message": {
+														"00": "I'm Marak Azael, nice to meet you. It tickles my whiskers to see a settlement like yours, assembled from nothing in no time at all.<br><br>The very Ascendancy itself was built with saw and hammer by fine craftsfolk like yourselves! That's why the Guild means so much to me, and why I wanted to pay you a visit."
+													},
+													"bulletin_title": "The Guildmaster",
+													"dialog_title": "The Guildmaster",
+													"choice_000": "The Guild?"
+												},
+												"summary": {
+													"bulletin_message": {
+														"00": "So! Now you've met the folks that tagged along with me - I'm impartial, here, so it's up to you to decide who you want as a Sponsor. I can say that they're all good choices, though!<br><br>I'm going to show them around town a little, but I'll leave the plans for each of their fountains and shrines and whatnot with your Masons.<br><br>Good to see you all again! I'll see you at the dedication ceremony for whichever you end up picking!"
+													},
+													"bulletin_title": "Mer Concludes",
+													"dialog_title": "Mer Concludes",
+													"choice_000": "Sounds good!"
+												},
+												"military_cont": {
+													"bulletin_message": {
+														"00": "A Township dedicated to Cid's valorous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.</i></font>"
+													},
+													"bulletin_title": "Captain Anwyn Torresi",
+													"dialog_title": "Captain Anwyn Torresi",
+													"choice_000": "Thank you"
+												},
+												"clergy_cont": {
+													"bulletin_message": {
+														"00": "It is the Church's adage that <i>'Fortune favors the kind'</i>, and blessed fountains of Plenty have indeed been known to have almost magical effects on the health and hardiness of a Town's citizens.<br><br>Please consider showing the world that your Town will be one of kindness by building a shrine of the Church's design.<br><br><font size=-1><i>Dedicating a Fountain of Plenty will grant your townsfolk a random daily buff. Try your luck!</i></font>"
+													},
+													"bulletin_title": "Ember Minton",
+													"dialog_title": "Ember Minton",
+													"choice_000": "Thank you"
+												},
+												"military": {
+													"bulletin_message": {
+														"00": "Hello - I am Anwyn Torresi, Captain of Her Majesty's guard. She sends me with Her thanks for settling this untamed land, and for guarding it against animals and monsters alike.<br><br>We in the Guard follow the example of the Knight Cid, believing that standing brave and resolute against the wilderness is the only way for the Ascendancy to reclaim this lost land.<br><br>You have done the Ascendancy a great service by planting your Banner here."
+													},
+													"bulletin_title": "The Captain",
+													"dialog_title": "The Captain",
+													"choice_000": "Our pleasure, Captain"
+												},
+												"makers_cont": {
+													"bulletin_message": {
+														"00": "The Crafters Guild! We believe that the skill of an artisan must be respected, and their works celebrated.<br><br>We at the Guild would love to sanction this Township as one fit to pursue mastery in crafts - and, after all, only we can truly know masterwork when we see it!<br><br><font size=-1><i>Dedicating a tribute to the Guildmaster's Skill will grant the ability to create Masterwork-quality furniture and decorations, which are considerably better than those of Excellent quality.</i></font>"
+													},
+													"bulletin_title": "Marak Azael",
+													"dialog_title": "Marak Azael",
+													"choice_000": "Such vigor!"
+												},
+												"intro": {
+													"bulletin_message": {
+														"00": "Hello again, [str(i18n_data.town_name)]! Glad to see you all still going strong - not that I expected any different!<br><br>In fact, I've brought some folks along with me this time - I'll let them introduce themselves and tell you why they've come."
+													},
+													"bulletin_title": "Mer Burlyhands Has Arrived!",
+													"dialog_title": "Mer Returns, With Guests!",
+													"choice_000": "Oh, okay!",
+													"choice_001": "We've already decided!"
+												}
+											}
 										}
 									}
 								}
@@ -1959,20 +2105,18 @@
 									"choice_002": "Masterwork"
 								}
 							}
-						}
-					},
-					"shrine_choice_explanation": {
-						"dialog_tree_info": {
-							"dialog_nodes": {
-								"msg1": {
-									"bulletin_message": {
-										"00": "It's time to choose a shrine! The folks at the Capital told me to say that this is 'Placeholder Text,' whatever that means! <br><br>Your options are:<br><br>Shrine of Fortune (gives random town-wide buffs!)<br><br>Shrine of Valor ([WIP, not in yet!] legendary weapons)<br><br>Shrine of Masterwork (Unlocks Masterwork-tier crafts! Four times as Appealing and Valuable as Excellent-tier!)<br><br><font size=-1>Hopefully I'll have something more interesting to say at some point!</font>"
-									},
-									"bulletin_title": "Shrine Time",
-									"dialog_title": "Shrine Time",
-									"choice_000": "Neat"
-								}
-							}
+						},
+						"guildmaster": {
+							"name": "The Guildmaster's Skill",
+							"description": "<i>This Township shall be known for its artisans' hard work and dedication to their craft.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
+						},
+						"deity": {
+							"name": "Fountain of Plenty",
+							"description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Grants a random daily buff</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+						},
+						"valor": {
+							"name": "The Valor of Cid",
+							"description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
 						}
 					},
 					"shrine_foreshadow_dialog": {
@@ -1980,7 +2124,7 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Next time I visit, once I get everything in order here, we can discuss the last step - building and dedicating a Shrine to prove your excellence to the world. Until then!<br><br>Yours in the Capital,<br>&nbsp;-Mer Burlyhands"
+										"00": "Next time I visit, I'll bring these folks along with me, and let them plead their cases. Decisions, decisions!<br><br>Until then!<br><br>Yours in the Capital,<br>&nbsp;Mer Burlyhands"
 									},
 									"bulletin_title": "A Letter",
 									"dialog_title": "A Letter",
@@ -1988,23 +2132,23 @@
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Word around the Capital is that more folks are packing up to move out to <town_name> every day! Exciting news, enough that I started pushing paperwork for you!"
+										"00": "Dear [str(i18n_data.town_name)]-ites,<br><br>Word around the Capital is that your Settlement has grown since I last saw it, and that it's getting even more bustling by the day! Your Hearth must be burning brightly to attract so many new settlers.<br><br>In fact, it's also attracted the attention of a few notable individuals."
 									},
 									"bulletin_title": "A Letter",
 									"dialog_title": "A Letter",
-									"choice_000": "Paperwork, how exciting..."
+									"choice_000": "Notable?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "I know, you're probably thinking 'Paperwork, how exciting,' but hear me out - I think it's almost time to call your little Settlement a proper Town! You're getting close to achieving that dream you set out with so long ago."
+										"00": "As you probably know, a settlement traditionally needs a Sponsorship to become a true Township - generally from a guild, the clergy, or the military.<br><br>In the past few days, I've been approached by a few individuals who are <i>very</i> interested to get a look at your town for themselves, and see if you'd be interested in allowing them to be your Sponsor."
 									},
 									"bulletin_title": "A Letter",
 									"dialog_title": "A Letter",
-									"choice_000": "Oh, wow!"
+									"choice_000": "Great!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Looks like Mer getting in touch with us again."
+										"00": "Looks like Mer is getting in touch with us again!"
 									},
 									"bulletin_title": "That Weird Bird Again!",
 									"dialog_title": "Another Letter!",
@@ -2056,7 +2200,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "The odd messenger bird scurries off with your Official Settlement Founding Declaration in its beak, carrying it in the vague direction of the capital"
+										"00": "The odd messenger bird scurries off with your Official Settlement Founding Declaration in its beak, carrying it in the vague direction of the capital."
 									},
 									"bulletin_title": "The Bird Departs",
 									"dialog_title": "The Bird Departs",
@@ -2070,7 +2214,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "You're not sure how you missed it before, but the bird is wearing a tiny backpack.<br><br>It contains a note, which reads '<i>A little something to help you celebrate</i>' along with:"
+										"00": "You're not sure how you missed it before, but the bird is wearing a tiny backpack.<br><br>It contains a note, which reads <i>\"A little something to help you celebrate\"</i> along with:"
 									},
 									"bulletin_title": "The Bird Squawks",
 									"dialog_title": "A Tiny Backpack",
@@ -2078,6 +2222,47 @@
 								}
 							}
 						}
+					},
+					"hearth_choice": {
+						"glory": {
+							"name": "Hearth of Glory",
+							"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
+						},
+						"makers": {
+							"name": "Hearth of the Makers",
+							"description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
+						},
+						"cheer": {
+							"name": "Hearth of Cheer",
+							"description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li></ul>"
+						}
+					},
+					"shrine_quest_deity": {
+						"title": "Township Quest: Fountain of Plenty",
+						"dialog_title": "Township Quest: Fountain of Plenty"
+					},
+					"shrine_quest_guildmaster": {
+						"title": "Township Quest: The Guildmaster's Skill",
+						"dialog_title": "Township Quest: The Guildmaster's Skill"
+					},
+					"shrine_quest_valor": {
+						"title": "Township Quest: Cid's Valor",
+						"dialog_title": "Township Quest: Cid's Valor"
+					},
+					"hearth_quest_cheer": {
+						"title": "Hearth Upgrade: Cheer",
+						"dialog_title": "Hearth Upgrade: Cheer"
+					},
+					"hearth_quest_glory": {
+						"title": "Hearth Upgrade: Glory",
+						"dialog_title": "Hearth Upgrade: Glory"
+					},
+					"hearth_quest_makers": {
+						"title": "Hearth Upgrade: Makers",
+						"dialog_title": "Hearth Upgrade: Makers"
+					},
+					"unlock_shrine_recipes": {
+						"bulletin_title": "Mason shrine recipes unlocked!"
 					}
 				}
 			}
@@ -2183,7 +2368,7 @@
 			},
 			"severely_injured": {
 				"severely_injured_buff": {
-					"display_name": "Severly Injured",
+					"display_name": "Severely Injured",
 					"description": "Wounded badly! Can hardly walk!"
 				}
 			},
@@ -2298,6 +2483,118 @@
 				"furious_buff": {
 					"display_name": "Furious",
 					"description": "+15% Damage. Will not flee or cower for a short time"
+				}
+			},
+			"weather": {
+				"lucky_buff": {
+					"display_name": "Lucky Day",
+					"description": "Everything's just that little bit easier today."
+				},
+				"hot_debuff": {
+					"display_name": "Hot Weather",
+					"description": "Too sweaty to work."
+				},
+				"hit_by_sandstorm_debuff": {
+					"display_name": "Hit by Sandstorm",
+					"description": "I don't like the sand. It's coarse and rough and irritating."
+				},
+				"hit_by_lightning_debuff": {
+					"display_name": "Hit by Ligtning",
+					"description": "Oof! Ouch! My bones!"
+				},
+				"animal_cold_debuff": {
+					"display_name": "Cold Weather",
+					"description": "Baby, it's cold outside."
+				},
+				"cold_debuff": {
+					"display_name": "Cold Weather",
+					"description": "I'm freezing out here! I should get a roof above my head."
+				}
+			},
+			"deity_town_bonus": {
+				"fast_day": {
+					"fast_day_buff": {
+						"display_name": "Day of Satisfaction",
+						"description": "All citizens skip meals for the day."
+					}
+				},
+				"health_day": {
+					"health_day_buff": {
+						"display_name": "Day of Mending",
+						"description": "All citizens regenerate health quickly."
+					},
+					"health_day_individual_buff": {
+						"display_name": "Day of Mending",
+						"description": "Health regeneration: 40 per hour."
+					}
+				},
+				"hero_day": {
+					"hero_day_buff": {
+						"display_name": "Day of Heroism",
+						"description": "Military units move 20% faster, have 30% stronger muscles, and are 2x as courageous."
+					},
+					"hero_day_individual_buff": {
+						"display_name": "Day of Heroism",
+						"description": "Speed, courage, and muscle increased."
+					}
+				},
+				"jungle_day": {
+					"jungle_day_buff": {
+						"display_name": "Day of Sprouting",
+						"description": "All plants grow 3x as fast."
+					}
+				},
+				"muse_day": {
+					"muse_day_buff": {
+						"display_name": "Day of Inspiration",
+						"description": "Crafters gain +4% extra chance to create high quality items."
+					},
+					"muse_day_individual_buff": {
+						"display_name": "Day of Inspiration",
+						"description": "Chance to create high quality items increased."
+					}
+				},
+				"peasant_day": {
+					"peasant_day_buff": {
+						"display_name": "Day of Motivation",
+						"description": "Workers move 30% faster."
+					},
+					"peasant_day_individual_buff": {
+						"display_name": "Day of Motivation",
+						"description": "Speed increased by 30%."
+					}
+				},
+				"poultry_day": {
+					"poultry_day_buff": {
+						"display_name": "Day of Poultry",
+						"description": "It's raining poyos."
+					}
+				},
+				"racing_day": {
+					"racing_day_buff": {
+						"display_name": "Day of Vigor",
+						"description": "All citizens moves 10% faster."
+					},
+					"racing_day_individual_buff": {
+						"display_name": "Day of Vigor",
+						"description": "Speed increased by 10%."
+					}
+				},
+				"vigil_day": {
+					"vigil_day_buff": {
+						"display_name": "Night of Vigil",
+						"description": "All citizens skip sleeping for the night."
+					}
+				},
+				"wisdom_day": {
+					"wisdom_day_buff": {
+						"display_name": "Day of Wisdom",
+						"description": "All citizens gain experience 20% faster."
+					},
+					"wisdom_day_individual_buff": {
+						"display_name": "Day of Wisdom",
+						"description": "Experience gain increased by 20%."
+					}
 				}
 			}
 		},
@@ -2463,6 +2760,10 @@
 				"display_name": "Character Sheet",
 				"description": "Get a closer look at this hearthling"
 			},
+			"open_loot": {
+				"display_name": "Loot",
+				"description": "Open this loot container to claim its contents."
+			},
 			"place_item": {
 				"display_name": "Place item",
 				"description": "Place this item in the world."
@@ -2517,7 +2818,8 @@
 			"spawn_glory_wave": {
 				"display_name": "Summon Enemy Wave",
 				"description": "Summon the next wave of enemies to claim more glory.",
-				"disabled_description": "No more enemies are knocking down your door just yet."
+				"disabled_description": "No more enemies are knocking down your door just yet.",
+				"glory_level_achieved_bulletin": "Glory level [str(i18n_data.glory_level)] achieved!"
 			},
 			"undeploy_item": {
 				"display_name": "Undeploy",
@@ -2959,7 +3261,7 @@
 							"055": "I dreamed that I had to catch all the critters in the land.",
 							"056": "I dreamed about buildings as high as the sky itself.",
 							"057": "I dreamed it was dangerous to go into the woods alone. I'd better take a sword.",
-							"058": "I once dreamed I held a magnificent sword. Though once I firmly grasped it's handle, it turned to sand.",
+							"058": "I once dreamed I held a magnificent sword. Though once I firmly grasped its handle, it turned to sand.",
 							"059": "I dreamed I ate bread; I woke up to eat my pillow.",
 							"060": "I dreamed I became king after pulling a sword out of a rock.",
 							"061": "I dreamed about a man with a box who could travel in time and space. It was bigger on the inside.",
@@ -3803,6 +4105,18 @@
 					"display_name": "Goat",
 					"description": "[name(i18n_data.entity)] will basically eat anything. They are not picky at all, sometimes to the disgust of those around them."
 				}
+			},
+			"pluviophile": {
+				"pluviophile_trait": {
+					"display_name": "Pluviophile",
+					"description": "[name(i18n_data.entity)] loves nothing more than the gentle drumbeat of raindrops."
+				}
+			},
+			"storm_chaser": {
+				"storm_chaser_trait": {
+					"display_name": "Storm Chaser",
+					"description": "Thunderstorms, sandstorms, blizzards, [name(i18n_data.entity)] loves them all!"
+				}
 			}
 		},
 		"happiness": {
@@ -4046,6 +4360,14 @@
 						"deeper_understanding": {
 							"display_name": "A deeper understanding",
 							"tooltip": "[str(target_name)] really has his priorities straight."
+						},
+						"pluviophile": {
+							"display_name": "I love rain!",
+							"tooltip": "It's my favorite weather today!"
+						},
+						"storm_chaser": {
+							"display_name": "It's storming!",
+							"tooltip": "It's my favorite weather today!"
 						}
 					},
 					"gregarious": {
@@ -4251,6 +4573,86 @@
 							"tooltip": "The ugly surroundings made it difficult to enjoy my last meal."
 						}
 					}
+				},
+				"weather": {
+					"values": {
+						"windy_positive": {
+							"display_name": "Enjoying the breeze",
+							"tooltip": "The breeze is caressing my skin."
+						},
+						"blizzard_negative": {
+							"display_name": "Hail knocking at my door",
+							"tooltip": "Oh, the weather outside is frightful!"
+						},
+						"thunderstorm_negative": {
+							"display_name": "Scary thunder and lightning",
+							"tooltip": "That lightning bolt almost hit me!"
+						},
+						"sunny_positive": {
+							"display_name": "Sunny weather",
+							"tooltip": "Endless sunshine, warmth, and blue skies."
+						},
+						"cloudy_positive": {
+							"display_name": "Fluffy clouds above my head",
+							"tooltip": "Overcast skies: perfect for lazing around on the porch."
+						},
+						"sunny_negative": {
+							"display_name": "The sun's too bright",
+							"tooltip": "I have to shield my eyes just to walk outside. And don't get me started on the sunburn!"
+						},
+						"thunderstorm_positive": {
+							"display_name": "Stormy weather",
+							"tooltip": "It's so exciting to hear the thunder rolling in!"
+						},
+						"windy_negative": {
+							"display_name": "It's awful windy",
+							"tooltip": "The wind outside is biting at my skin."
+						},
+						"blizzard_positive": {
+							"display_name": "That's what I call weather",
+							"tooltip": "That fierce blizzard outside makes this a day to remember!"
+						},
+						"rain_positive": {
+							"display_name": "It's raining...",
+							"tooltip": "The drip, drip, drip of the raindrops is soothing all my worries!"
+						},
+						"cloudy_negative": {
+							"display_name": "Gloomy clouds",
+							"tooltip": "I miss sunshine."
+						},
+						"rain_negative": {
+							"display_name": "Pesky drizzle",
+							"tooltip": "I almost stepped in a puddle. Now my feet are cold."
+						},
+						"lucky": {
+							"display_name": "Dia de sorte",
+							"tooltip": "Something good is going to happen today. I just feel it!"
+						},
+						"snow_negative": {
+							"display_name": "Cold, cold day",
+							"tooltip": "Brrr! I can barely feel my toes."
+						},
+						"sandstorm_negative": {
+							"display_name": "Sandstorm!",
+							"tooltip": "The sands are blowing across the landscape. Hide your poyos! Hide your sheep!"
+						},
+						"snow_positive": {
+							"display_name": "It's snowing...",
+							"tooltip": "The world is hushed and white with snow."
+						},
+						"foggy_negative": {
+							"display_name": "Spooky fog",
+							"tooltip": "Was that a goblin skulking around in the fog?"
+						},
+						"foggy_positive": {
+							"display_name": "Mysterious mist",
+							"tooltip": "I wonder what wonders lie beneath that mysterious mist."
+						},
+						"sandstorm_positive": {
+							"display_name": "tempestade de areia",
+							"tooltip": "The sands always come to test our fortitude... Mine is unwavering."
+						}
+					}
 				}
 			}
 		},
@@ -4319,6 +4721,70 @@
 				"ui_undeploy_item": {
 					"display_name": "Undeploy Item"
 				}
+			},
+			"data": {
+				"hotkeys": {
+					"keys": {
+						"ui_building_redo": {
+							"display_name": "Refazer"
+						},
+						"ui_building_undo": {
+							"display_name": "Desfazer"
+						},
+						"ui_building_move_support": {
+							"display_name": "Move Supported Structures"
+						},
+						"ui_toggle_selection": {
+							"display_name": "Add to Selection"
+						}
+					}
+				}
+			}
+		},
+		"weather": {
+			"windy": {
+				"display_name": "Ventoso",
+				"description": "Howling winds and roaring gales sweep the lands."
+			},
+			"thunderstorm": {
+				"display_name": "Tempestade",
+				"description": "Thunder rolled... It rolled a six.<ul><li>Plant growth speed is slightly increased.</li><li>Vision radius is reduced.</li><li>Unsheltered hearthlings sometimes get hit by lightning.</li><li>The ground and trees sometimes get hit by lightning.</li></ul>"
+			},
+			"sunny": {
+				"display_name": "Ensolarado",
+				"description": "Yet another day of endless sunshine and blue skies."
+			},
+			"snow": {
+				"display_name": "Neve",
+				"description": "Cold, frost, and sunshine: day of wonder! Why are you, friend, still deep in slumber?<ul><li>Plant growth speed is reduced.</li><li>Vision radius is slightly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
+			},
+			"sandstorm": {
+				"display_name": "tempestade de areia",
+				"description": "Cover your eyes. Cover your ears. In fact, just stay inside.<ul><li>Unsheltered hearthlings are too hot to work as effectively.</li><li>Vision radius is slightly reduced.</li><li>Clouds of sand pass across the landscape, destroying crops and hurting everyone.</li></ul>"
+			},
+			"rain": {
+				"display_name": "Chuva",
+				"description": "Water! Water from the skies!<ul><li>Plant growth speed is slightly increased.</li><li>Vision radius is slightly reduced.</li></ul>"
+			},
+			"lucky": {
+				"display_name": "Dia de sorte",
+				"description": "Today, everything is just a tiny bit better.<ul><li>Hearthlings find all their ailments healed, as if by magic.</li><li>Hearthlings are slightly luckier in everything they do.</li><li>A mysterious rainbow sometimes appears.</li></ul>",
+				"pot_of_gold": {
+					"display_name": "Pote de ouro",
+					"description": "Today's your lucky day!"
+				}
+			},
+			"foggy": {
+				"display_name": "Foggy",
+				"description": "A cover of fog crawls across the landscape, hiding untold mysteries.<ul><li>Undead monsters come out of hiding under the cover of the fog.</li><li>Vision radius is greatly reduced.</li></ul>"
+			},
+			"cloudy": {
+				"display_name": "Cloudy",
+				"description": "Overcast skies, perfect for lazing around on the porch."
+			},
+			"blizzard": {
+				"display_name": "Blizzard",
+				"description": "Wind, and snow, and hail, oh my!<ul><li>Plant growth speed is greatly reduced.</li><li>Vision radius is greatly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
 			}
 		}
 	}
