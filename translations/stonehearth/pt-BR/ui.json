@@ -37,11 +37,11 @@
 					"cost_prefix": "Cost:"
 				},
 				"material_list": {
-					"wall": "Wall",
-					"column": "Column",
-					"floor": "Floor",
-					"roof": "Roof",
-					"stairs": "Stairs"
+					"wall": "Parede",
+					"column": "Coluna",
+					"floor": "Chão",
+					"roof": "Cobertura",
+					"stairs": "Escadas"
 				}
 			},
 			"game_speed": {
@@ -122,7 +122,7 @@
 				"erase_player": "Destroy Belongings",
 				"remote_connections_disabled": "Multiplayer not enabled",
 				"remote_connections_disabled_description": "Enable multiplayer in settings to allow other players to join your game",
-				"settings": "Settings",
+				"settings": "Configurações",
 				"trade": "Trade",
 				"transfer_player": "Claim Belongings",
 				"confirm": {
@@ -184,7 +184,7 @@
 				"traits": "Traços",
 				"above": "Acima",
 				"below": "Abaixo",
-				"currently": "Currently:",
+				"currently": "Atualmente:",
 				"no_unhappy_thoughts": "No unhappy thoughts so far!",
 				"no_happy_thoughts": "No happy thoughts yet!",
 				"appeal_headings": {
@@ -276,7 +276,7 @@
 				"start": "Start",
 				"settings": "Multiplayer Settings",
 				"max_players": "Max Players",
-				"max_players_description": "Set the maximum number of players that can join"
+				"max_players_description": "Defina o número máximo de jogadores que podem participar"
 			},
 			"multiplayer_status_text": {
 				"status": {
@@ -466,8 +466,8 @@
 					"consumable": "consumíveis",
 					"storage": "Storage",
 					"defense": "Defense",
-					"trophy": "Trophies",
-					"seed": "Seeds",
+					"trophy": "Troféus",
+					"seed": "Sementes",
 					"pets": "Pets",
 					"none": "Nenhum"
 				},
@@ -780,7 +780,7 @@
 					"show_char_sheet": "Character Sheet"
 				},
 				"promote_bulletin": {
-					"title": "[name(i18n_data.entity)] has been Promoted!",
+					"title": "[name(i18n_data.entity)] foi promovido!",
 					"show_char_sheet": "Character Sheet"
 				},
 				"delivery_quest": {
@@ -810,7 +810,7 @@
 				"town_upgrade_choice": {
 					"title": "Official Settlement Declaration",
 					"name_header": "Choose a name for your settlement!",
-					"name_prompt": "Name:",
+					"name_prompt": "Nome:",
 					"banner_prompt": "Choose settlement path:",
 					"complete": "Issue Declaration!"
 				},
@@ -873,15 +873,15 @@
 					"voxel_paint": "Paint Voxel",
 					"voxel_remove": "Remove Voxel",
 					"selection": "Selection",
-					"delete": "Delete",
-					"undo": "Undo (Ctrl + Z)",
+					"delete": "Excluir",
+					"undo": "Desfazer (Ctrl + Z)",
 					"draw_slab_tool": "Slabs",
 					"draw_floor_tool": "Foundations",
 					"grow_floor_tool": "Floors",
 					"grow_roof_tool": "Roofs",
-					"draw_door_tool": "Doors",
-					"draw_window_tool": "Windows",
-					"grow_wall_tool": "Walls",
+					"draw_door_tool": "Portas",
+					"draw_window_tool": "Janelas",
+					"grow_wall_tool": "Paredes",
 					"draw_wall_tool": "Free Standing Walls",
 					"draw_road_tool": "Roads",
 					"place_furniture_tool": "Furniture",
@@ -983,18 +983,18 @@
 				},
 				"materials": {
 					"wall": {
-						"material": "Wall Material",
+						"material": "Material da parede",
 						"wood_resource": "Parede de madeira",
 						"stone_resource": "Parede de pedra",
 						"clay_resource": "Parede de argila",
 						"clay_brick_resource": "Parede de tijolos de argila"
 					},
 					"foundation": {
-						"material": "Foundation Material",
-						"wood_resource": "Wooden Foundation",
-						"stone_resource": "Stone Foundation",
-						"clay_resource": "Clay Foundation",
-						"clay_brick_resource": "Clay Brick Foundation"
+						"material": "Material de Fundação",
+						"wood_resource": "Fundação de madeira",
+						"stone_resource": "Fundação de pedra",
+						"clay_resource": "Fundação de argila",
+						"clay_brick_resource": "Fundação de tijolo de argila"
 					},
 					"slab": {
 						"material": "Slab Material",
