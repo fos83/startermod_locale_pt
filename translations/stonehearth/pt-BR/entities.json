@@ -4727,7 +4727,7 @@
 					},
 					"herald_ember": {
 						"display_name": "Ember Minton",
-						"description": "Herald of the Church of Plenty."
+						"description": "Missionary of the Church of Plenty."
 					},
 					"herald_anwyn": {
 						"display_name": "Anwyn Torresi",
@@ -4745,7 +4745,7 @@
 					},
 					"herald_mer": {
 						"display_name": "Mer Burlyhands",
-						"description": "Herald of the Ascendancy."
+						"description": "Capital Fellow."
 					},
 					"herald_marak": {
 						"display_name": "Marak Azael",

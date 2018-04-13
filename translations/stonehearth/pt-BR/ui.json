@@ -27,6 +27,9 @@
 					"yes": "Sim!",
 					"no": "Não"
 				},
+				"saving_building": "Saving template...",
+				"success_saving_building": "Template saved.",
+				"error_saving_building": "There was an error saving your template!",
 				"plan_job_status": {
 					"COMPLETE": "Construction is already underway!",
 					"INVALID_BLUEPRINTS": "This building contains invalid structures.  Make sure no structures are red!",
@@ -1423,7 +1426,8 @@
 					"deferred_load": "Módulo carregado Altomaticamente",
 					"required": "Necessário",
 					"debug": "Debug Mod",
-					"localization": "Localization Mod",
+					"localization": "Is this a translation mod?",
+					"loading_namespace": "[ Carregando... ]",
 					"mods_changed_dialog": {
 						"title": "Mudar Módulo",
 						"message": "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
@@ -1589,7 +1593,7 @@
 						"title": "Módulos Base"
 					},
 					"unmanaged_mods": {
-						"title": "Módulos não gerenciados"
+						"title": "Módulos Local"
 					},
 					"workshop_mods": {
 						"title": "Módulos da Oficina",
@@ -1601,7 +1605,7 @@
 						"cancel": "X"
 					},
 					"my_items": {
-						"title": "Steam Uploads",
+						"title": "Workshop Uploads",
 						"create_new_mod": "Criar novo Módulo"
 					}
 				},
@@ -1668,7 +1672,7 @@
 				"optional": "optional",
 				"exceeded_byte_limit": "* exceeded byte limit ([str(byte_limit)])",
 				"debug_mod": "Debug Mod",
-				"localization_mod": "Localization Mod",
+				"localization_mod": "Is this a translation mod?",
 				"errors": {
 					"steam_not_present": "Steam is not running",
 					"update_handle_invalid": "Could not update mod [str(modname)]. Check that you have permissions to update this steam workshop item.",
@@ -1684,7 +1688,7 @@
 				}
 			},
 			"mod_create": {
-				"title": "Criar novo Módulo (Steam)",
+				"title": "Criar novo Módulo (Oficina Steam)",
 				"opt_title": "Mod Title",
 				"opt_title_tooltip": "A title for your mod",
 				"opt_title_placeholder": "e.g. Candy Land",

@@ -3,10 +3,17 @@
 		"name": "startermod_locale_pt",
 		"name": "startermod_locale_pt-master",
 		"display_name": "MOD Traslater português",
-		"namespace":"Português",
+		"namespace": "Português",
 		"client_only": true,
 		"version": 3,
-		"default_enabled": true
+		"default_enabled": true,
+		"author": [
+			"FelipeOS83",
+			"BrunoSupremo",
+			"MaxDown45",
+			"datfisheko",
+			"alchimistw"
+		]
 	},
 	"default_locale": "en",
 

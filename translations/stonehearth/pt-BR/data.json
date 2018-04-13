@@ -2034,6 +2034,126 @@
 												}
 											}
 										}
+									},
+									"guild_dialog_1": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"00": "As he should be! With fine crafters like them, your town will be churning out Masterworks in no time! I'll be keeping an eye out for a [str(i18n_data.town_name)] maker's mark in the Capital market in a few months!<br/><br/>Your homes all look pretty sturdy, too, come to think of it. My compliments to your Workers, they seem to know how to put things together, too!"
+													},
+													"bulletin_title": "Marak continues",
+													"dialog_title": "Marak Azael, Guildmaster",
+													"choice_000": "We'll do our best!"
+												},
+												"msg3": {
+													"bulletin_message": {
+														"00": "Anyway, I'll let you get back to celebrating! I'm going to go hunt down a pint of something strong and a bowl of something hearty!<br/><br/>Remember, busy hands make a happy Town!"
+													},
+													"bulletin_title": "Marak continues",
+													"dialog_title": "Marak claps you on the back",
+													"choice_000": "Enjoy!"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"00": "Ha ha ha! What a fine monument you've built! Level, square, and all the finishing touches that only a trained eye such as mine could truly appreciate!</br></br><font size=-1>Huh, how'd you get it to glow like that, though?</font>"
+													},
+													"bulletin_title": "Marak Azael guffaws",
+													"dialog_title": "Marak Azael, Guildmaster",
+													"choice_000": "Thank you! Our mason is quite proud."
+												}
+											}
+										}
+									},
+									"valor_dialog_1": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"00": "Oh! I'm fine, I was just... remembering something.<br/><br/>You know, I really do believe in the Ascendancy, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br/><br/>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
+													},
+													"bulletin_title": "Anwyn continues",
+													"dialog_title": "Anwyn Torresi, Guard Captain",
+													"choice_000": "We're honored, Captain"
+												},
+												"msg3": {
+													"bulletin_message": {
+														"00": "I've brought along plans for the Guard's finest weapons, as you've surely earned the right to forge them.<br/><br/>Now, if my service has taught me anything, it's to eat a good meal when given the chance. I'll leave you to your celebrating!"
+													},
+													"bulletin_title": "Anwyn continues",
+													"dialog_title": "Anwyn Torresi, Guard Captain",
+													"choice_000": "Enjoy!"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"00": "What an inspiring monument! It truly speaks to the heroism of the Knight Cid.<br/><br/>It reminds me all over again why I became a member of the Guard. It feels like so long ago...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn stares into the middle distance, eyes glistening.)</font></p>"
+													},
+													"bulletin_title": "Anwyn approaches, eyes shining",
+													"dialog_title": "Anwyn Torresi, Guard Captain",
+													"choice_000": "Anwyn? Are you..."
+												}
+											}
+										}
+									},
+									"deity_dialog_1": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"00": "As this shrine bestows its blessing on you all with each passing day, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May your Town always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
+													},
+													"bulletin_title": "Ember continues",
+													"dialog_title": "Ember Minton, Missionary",
+													"choice_000": "We'll do our best!"
+												},
+												"msg3": {
+													"bulletin_message": {
+														"00": "Now, enough somber platitudes - go enjoy the party! I think I saw Mer with some cake earlier that I'd love to get my hands on..."
+													},
+													"bulletin_title": "Ember continues",
+													"dialog_title": "Ember Minton, Missionary",
+													"choice_000": "Enjoy!"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"00": "<font size=-1>...and may this town flourish in fortune and prosperity, for so long as the Sun shall shine. Umbasa.</font><br/><br/>Oh! My apologies, I was lost in prayer.<br/><br/>You have a truly wonderful town here, and I feel so privileged to be the missionary to bless this fine monument."
+													},
+													"bulletin_title": "Ember faces the shrine",
+													"dialog_title": "Ember Minton, Missionary",
+													"choice_000": "Thank you for coming"
+												}
+											}
+										}
+									},
+									"post_shrine_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"00": "Well, now, it seems my favorite little Outpost is all grown up! Congratulations on your newfound Township!"
+													},
+													"bulletin_title": "It's Mer Again!",
+													"dialog_title": "Mer Burlyhands, Capital Fellow",
+													"choice_000": "Aw, Thanks!"
+												},
+												"msg2": {
+													"bulletin_message": {
+														"00": "By the by, this monument here is special, since it's gotten blessed and all - you can build the others if you like, but they'll just be regular old statues. Fancy-looking ones, but none quite so magical.<br/><br/> Still, they make for a nice decoration, don't you think?"
+													},
+													"bulletin_title": "Mer Continues",
+													"dialog_title": "Mer Burlyhands, Capital Fellow",
+													"choice_000": "Got it!"
+												},
+												"msg3": {
+													"bulletin_message": {
+														"00": "Thanks for being such a bunch of charming folks - I'm proud to serve a group of such earnest and ambitious individuals. You make me proud!<br/><br/>Farewell for now, and the best of luck to each of you!"
+													},
+													"bulletin_title": "Mer Continues",
+													"dialog_title": "Mer Burlyhands, Capital Fellow",
+													"choice_000": "Farewell, Mer! It's been a pleasure!"
+												}
+											}
+										}
 									}
 								}
 							}
@@ -2073,20 +2193,6 @@
 									"bulletin_title": "The Bird Returns!",
 									"dialog_title": "Another Letter!",
 									"choice_000": "Open the letter"
-								}
-							}
-						}
-					},
-					"post_shrine_dialog": {
-						"dialog_tree_info": {
-							"dialog_nodes": {
-								"msg1": {
-									"bulletin_message": {
-										"00": "Congratulations on building a shrine! <br><br>Eventually, you'll be able to build the other two for the perks, but we're fresh out of parties."
-									},
-									"bulletin_title": "It's Mer Again!",
-									"dialog_title": "One Last Thing",
-									"choice_000": "Aww, dang. But thanks!"
 								}
 							}
 						}
