@@ -1,9 +1,0 @@
-{
-	"kingdom": {
-		"kingdom_name": "Filhos de Rayya",
-		"quote": "Meditação, mediação, medicação: Ordem em si traz ordem aos outros traz saúde a todos.",
-		"long_description": "Os povos do deserto aprenderam cedo que para sobreviver, precisavam uns dos outros, e de quantos mais pudessem alcançar. Agora, visitantes os acham anfitriões generosos com acesso a produtos de todo o mundo.",
-		"post_selection_description": ", uma sociedade de comerciantes encantadores e astutos.",
-		"initial_town_name": "Caravan [str(town_number)]"
-	}
-}
