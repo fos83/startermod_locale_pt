@@ -1,0 +1,87 @@
+{
+	"perks": {
+		"work_1": {
+			"name": "Técnicas de Mineração",
+			"desc": "Esse hearthling aprendeu técnicas de mineração rápidas."
+		},
+		"inv_1": {
+			"name": "Sacola de Minérios",
+			"desc": "Uma mochila com espaço pra 2 items extra foi designada ao hearthling."
+		},
+		"speed_1": {
+			"name": "Apressado",
+			"desc": "Esse minerador não quer perder tempo. Mais 10 velocidade."
+		},
+		"work_2": {
+			"name": "Técnicas de Mineração Avançadas",
+			"desc": "Pulverizar a pedra é mais fácil do que escovar os dentes para este mineiro. Eficiência de mineração aumentada."
+		},
+		"inv_2": {
+			"name": "Compartimentos Extras",
+			"desc": "Quem precisa de mochila quando se tem todos esses bolsos? O mineiro pode transportar mais 2 itens."
+		},
+		"speed_2": {
+			"name": "Eficiente",
+			"desc": "Rochas e solos são uma segunda natureza para este mineiro. Velocidade aumentada em 15."
+		},
+		"work_3": {
+			"name": "Técnicas de Mineração Mestre",
+			"desc": "A pedra praticamente derrete sob a picareta deste mineiro, como uma faca na manteiga. Máxima eficiência de mineração."
+		},
+		"light": {
+			"name": "Alguma coisa brilhante!",
+			"desc": "Seu mineiro encontra uma rocha muito brilhante e prende-a ao seu capacete."
+		}
+	},
+	"info": {
+		"name": "Minerador",
+		"desc": "Uma classe de utilidade especializada em mineração e transporte",
+		"req": "Feito pelo Ferreiro",
+		"equipment_section_name": "Equipamento"
+	},
+	"items": {
+		"coat": {
+			"name": "Casaco do Mineiro",
+			"desc": "Mantém a poeira longe"
+		},
+		"iron_pick": {
+			"name": "Picareta de Ferro",
+			"desc": "Ferramenta de mineração básica"
+		},
+		"iron_pick_recipe": {
+			"name": "Picareta de Ferro",
+			"desc": "Promove um hearthling em um mineiro"
+		},
+		"steel_pick": {
+			"name": "Picareta de Aço",
+			"desc": "Uma picareta mais resistente e rígida feita de aço"
+		},
+		"steel_pick_recipe": {
+			"name": "Picareta de Aço",
+			"desc": "Uma picareta mais resistente e rígida feita de aço"
+		},
+		"master_pick": {
+			"name": "Picareta Mestre",
+			"desc": "O peso do ouro maciço neste machado faz com que ele atravesse a rocha como um peixe através da água"
+		},
+		"master_pick_recipe": {
+			"name": "Picareta Mestre",
+			"desc": "O peso do ouro maciço neste machado faz com que ele atravesse a rocha como um peixe através da água"
+		},
+		"backpack": {
+			"name": "Mochila",
+			"desc_empty": "Essa mochila está vazia",
+			"desc_cont": "Essa mochila contém: "
+		}
+	},
+	"loadouts": {
+		"load_metal" : {
+			"display_name" : "Mestres do Metal (Minerador)",
+			"description" : "Forja o futuro da sua cidade com as riquezas da terra. Endureça seus soldados com fogo e aço. Quando você tem a terra, você realmente precisa de mais alguma coisa?",
+			"tooltip" : "Para aumentar rapidamente a indústria de metal e as forças armadas de sua cidade.",
+			"ore" : "Cobre",
+			"ore2" : "Estanho",
+			"ore3" : "Ferro"
+		}
+	}
+}

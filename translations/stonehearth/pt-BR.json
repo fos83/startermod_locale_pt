@@ -238,7 +238,7 @@
             "no_levels": "Sem subir de nível",
             "level_text": "Nivel ",
             "level_abbreviation": "Lvl",
-            "locked_status": "<br><br>(Bloqueado)",
+            "locked_status": "(Bloqueado)",
             "apprentice": "Aprendiz",
             "journeyman": "Journeyman",
             "master": "Mestre",
@@ -357,7 +357,8 @@
             "start": "Start",
             "settings": "Multiplayer Settings",
             "max_players": "Max Players",
-            "max_players_description": "Defina o número máximo de jogadores que podem participar"
+            "max_players_description": "Defina o número máximo de jogadores que podem participar",
+            "max_players_warning": "Warning: Games with more than 3 players may experience reduced performance (less responsive AI, hitching)."
          },
          "multiplayer_status_text": {
             "status": {
@@ -513,7 +514,7 @@
          "esc_menu": {
             "title": "Stonehearth",
             "resume": "Voltar a Jogar",
-            "save": "Salvar&frasl;Carregar",
+            "save": "Salvar/Carregar",
             "settings": "Configurações",
             "about": "Sobre",
             "quit_to_menu": "Menu Principal",
@@ -609,7 +610,7 @@
                      "display_name": "Minere bloco",
                      "description": "Minere bloco de tamanho customizado",
                      "tip_title": "Clique e arraste para cavar",
-                     "tip_description": "Redimensione horizontalmente com as teclas [str(shrink_horizontal)] e [str(grow_horizontal)]. <br&frasl;> Redimensione verticalmente com as teclas [str(shrink_vertical)] e [str(grow_vertical)]. <br&frasl;> Clique com o botão direito para sair."
+                     "tip_description": "Redimensione horizontalmente com as teclas [str(shrink_horizontal)] e [str(grow_horizontal)]. <br/> Redimensione verticalmente com as teclas [str(shrink_vertical)] e [str(grow_vertical)]. <br/> Clique com o botão direito para sair."
                   },
                   "loot_item": {
                      "display_name": "Loot",
@@ -692,7 +693,7 @@
                   },
                   "cannot_place_item": {
                      "tip_title": "Cannot place this item",
-                     "tip_description": "Reached [str(tag)] item placement limit of [str(num)] &frasl; [str(max)]"
+                     "tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
                   },
                   "build_ladder": {
                      "display_name": "Construir escada",
@@ -714,7 +715,7 @@
                   },
                   "cannot_place_item": {
                      "tip_title": "Cannot place this item",
-                     "tip_description": "Reached [str(tag)] item placement limit of [str(num)] &frasl; [str(max)]"
+                     "tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
                   },
                   "build_ladder": {
                      "display_name": "Construct Ladder",
@@ -905,10 +906,10 @@
                "dispatch": "Dispatch"
             },
             "reembarkation": {
-               "title": "",
-               "dismiss": "",
-               "confirm": "",
-               "prompt": ""
+               "title": "A new adventure awaits!",
+               "dismiss": "Maybe Later",
+               "confirm": "Depart",
+               "prompt": "Select a crew to depart on a new adventure, and choose items for them to take along!"
             },
             "town_upgrade_choice": {
                "title": "Official Settlement Declaration",
@@ -966,8 +967,8 @@
                "clay_resource": "Clay",
                "stone_resource": "Stone",
                "disabled": {
-                  "destroy": "",
-                  "build": ""
+                  "destroy": "Can't destroy buildings you don't own.",
+                  "build": "Can't build, pause, or resume buildings you don't own."
                }
             }
          },
@@ -1190,8 +1191,11 @@
                "default_stockpile_name": "Stockpile",
                "contents": "Conteúdo",
                "filter": "Filtro",
+               "shop": "Shop",
                "help": "Click the icons to choose what to store in this stockpile.",
                "help_single_filter": "Click an icon to choose the item type to store in this container.",
+               "help_player_market_stall": "Click an icon to choose the item type to sell at this stall.",
+               "clear": "Clear Selection",
                "used_space": "Espaço utilizado:",
                "filters": {
                   "all": "Todos",
@@ -1320,7 +1324,7 @@
                "inventory": "Inventário",
                "agriculture": "Agricultura",
                "edibles": "Comestíveis",
-               "next_requirement": "",
+               "next_requirement": "Goal",
                "overall_morale": "Overall Morale",
                "food": "Alimento",
                "shelter": "Shelter",
@@ -1379,7 +1383,7 @@
                "030": "shearing sheep...",
                "031": "percolating brain...",
                "032": "poking poyos...",
-               "033": ""
+               "033": "catching raindrops..."
             },
             "tips": {
                "000": "Se seus trabalhadores ficarem presos em uma mina, você pode construir uma escada para tirá-los!",
@@ -1541,11 +1545,11 @@
                },
                "upload_error_dialog": {
                   "title": "Upload failed",
-                  "message": ""
+                  "message": "Não conseguiu enviar &quot;[str(modname)]&quot;: [str(error)]"
                },
                "create_mod_error_dialog": {
                   "title": "Create mod failed",
-                  "message": ""
+                  "message": "Could not create mod &quot;[str(modname)]&quot;: [str(error)]"
                }
             },
             "controls_tab": {
@@ -1554,7 +1558,7 @@
                "unbound": "unbound",
                "conflict_dialog": {
                   "title": "Binding Conflict",
-                  "message": "",
+                  "message": "&quot;<strong>[str(combo)]</strong>&quot; is already used by [str(conflicts)].",
                   "choice_replace": "Unbind Existing",
                   "choice_keep": "Keep All",
                   "choice_cancel": "Cancel"
@@ -1605,11 +1609,11 @@
                   "harvest_harvest": "Harvest Tool",
                   "harvest_mine": "Mine Tool",
                   "harvest_mine_block": "Mine Block Tool",
-                  "harvest_mine_custom_block": "",
-                  "harvest_mine_custom_block_shrink_horizontal": "",
-                  "harvest_mine_custom_block_grow_horizontal": "",
-                  "harvest_mine_custom_block_shrink_vertical": "",
-                  "harvest_mine_custom_block_grow_vertical": "",
+                  "harvest_mine_custom_block": "Mine Custom Block Tool",
+                  "harvest_mine_custom_block_shrink_horizontal": "Mine: Shrink Horizontal",
+                  "harvest_mine_custom_block_grow_horizontal": "Mine: Grow Horizontal",
+                  "harvest_mine_custom_block_shrink_vertical": "Mine: Shrink Vertical",
+                  "harvest_mine_custom_block_grow_vertical": "Mine: Grow Vertical",
                   "harvest_cancel": "Cancel Task Tool",
                   "harvest_loot": "Loot Tool",
                   "harvest_clear": "Clear Tool",
@@ -1626,8 +1630,8 @@
                   "build_ladder": "Build Ladder",
                   "build_rotate_left": "Rotate Item Left",
                   "build_rotate_right": "Rotate Item Right",
-                  "build_raise_template": "",
-                  "build_sink_template": "",
+                  "build_raise_template": "Raise Template",
+                  "build_sink_template": "Sink Template",
                   "craft_menu": "Crafting Menu",
                   "craft_carpenter": "Menu (Carpinteiro)",
                   "craft_weaver": "Menu (Tecelão)",
@@ -1651,8 +1655,8 @@
                   "toggle": "Toggle UI",
                   "ui_print_screen": "Take Screenshot",
                   "debug_console": "Stonehearth Console",
-                  "debug_navgrid": "Show&frasl;Hide Navgrid",
-                  "debug_navgrid_water_tight": "Show&frasl;Hide Watertight Navgrid",
+                  "debug_navgrid": "Show/Hide Navgrid",
+                  "debug_navgrid_water_tight": "Show/Hide Watertight Navgrid",
                   "debug_lifetime_tracking": "Toggle Lifetime Tracking",
                   "debug_toggle_step_paths": "Step Pathfinder Service",
                   "debug_step_topology": "Step Topology Service",
@@ -1737,11 +1741,11 @@
             "stop_title": "Missing Mods",
             "continue_title": "Ready to Continue to Game",
             "time_elapsed": {
-               "days": "",
-               "months": "",
-               "years": ""
+               "days": "Game Time Since Start: [str(date.day)] Days, [str(date.hour)] Hours",
+               "months": "Game Time Since Start: [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours",
+               "years": "Game Time Since Start: [str(date.year)] Years, [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours"
             },
-            "game_info": "",
+            "game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
             "note": "The game you are trying to join has the following mods.",
             "missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
             "continue": "Continue to Game",
@@ -1763,7 +1767,7 @@
             }
          },
          "mod_upload": {
-            "title": "",
+            "title": "[str(i18n_data.action)] mod &quot;[str(i18n_data.modname)]&quot;",
             "opt_title": "Steam Mod Title",
             "opt_title_placeholder": "Title for your steam workshop mod",
             "opt_description": "Steam Mod Description",
@@ -1862,11 +1866,11 @@
          },
          "select_roster": {
             "reroll_citizens": "Novos cidadãos",
-            "reembark_button": "",
-            "select_crew": "",
-            "cancel_crew": "",
-            "reembark_title": "",
-            "recipes_label": "",
+            "reembark_button": "Choose Saved",
+            "select_crew": "Select",
+            "cancel_crew": "Cancel",
+            "reembark_title": "Choose Saved Citizens",
+            "recipes_label": "Unlocked Recipes",
             "citizen_info": "Lista da expedição",
             "accept_roster": "Aceitar lista",
             "randomize": "Aleatório",
@@ -1887,10 +1891,10 @@
          "post_bug": {
             "title": "Filing bugs",
             "message": "Thanks for participating in the Stonehearth Alpha! Here's how you can file a bug.",
-            "file_bug_step_1": "Go to http:&frasl;&frasl;discourse.stonehearth.net&frasl;c&frasl;support&frasl;bug-reports",
+            "file_bug_step_1": "Go to http://discourse.stonehearth.net/c/support/bug-reports",
             "file_bug_step_2": "Check the list of active topics, and if your bug hasn't already been reported, create a new topic",
             "file_bug_step_3": "When filing bugs, please be sure to include all the information requested in the report, and copy the text of all engine errors. Screenshots for visual bugs are also helpful.",
-            "file_bug_step_4": "If you're encountering a crashing bug, please check out http:&frasl;&frasl;discourse.stonehearth.net&frasl;t&frasl;13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
+            "file_bug_step_4": "If you're encountering a crashing bug, please check out http://discourse.stonehearth.net/t/13297 for common solutions, and how to get support for crashes. Below is your unique user id:"
          },
          "error_browser": {
             "title": "Engine Error",
@@ -1926,7 +1930,7 @@
                "display_name": "Inspiration",
                "description": "A flat modifier to this hearthing's chance to create items with Fine and Excellent quality.",
                "bullet_points": {
-                  "000": "A hearthling must be at least a Journeyman to create Fine quality items, and a Master to create Excellent items<&frasl;br>",
+                  "000": "A hearthling must be at least a Journeyman to create Fine quality items, and a Master to create Excellent items</br>",
                   "001": "Ranges from -2% to +3%, based on the hearthling's Spirit"
                }
             },
@@ -1993,7 +1997,7 @@
             },
             "body": {
                "display_name": "Corpo",
-               "description": "A Competencia em atividades fisicas.<&frasl;br><&frasl;br>Hearthlings com um elevado status do corpo vai se mover mais rapido.<&frasl;br><&frasl;br>Influencias muscular, velocidade e resistencia."
+               "description": "A Competencia em atividades fisicas.</br></br>Hearthlings com um elevado status do corpo vai se mover mais rapido.</br></br>Influencias muscular, velocidade e resistencia."
             },
             "edibles": {
                "display_name": "Comestíveis",
@@ -2002,7 +2006,7 @@
             },
             "mind": {
                "display_name": "Mente",
-               "description": "A Capacidade de pensar de forma inteligente.<&frasl;br><&frasl;br>A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas.<&frasl;br><&frasl;br>Influencias Concentração, Curiosidade e Inventividade."
+               "description": "A Capacidade de pensar de forma inteligente.</br></br>A estatistica alta em Mente permite um hearthling a exercer tarefas mentais complexas.</br></br>Influencias Concentração, Curiosidade e Inventividade."
             },
             "curiosity": {
                "display_name": "Curiosidade",
@@ -2013,7 +2017,7 @@
             },
             "spirit": {
                "display_name": "Espirito",
-               "description": "A fe em outras pessoas.<&frasl;br><&frasl;br>Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos.<&frasl;br><&frasl;br>Influencia Coragem, Força de Vontade e Compaixão ."
+               "description": "A fe em outras pessoas.</br></br>Um hearthling de eapirito elevado pode fazer amizade com os aoutros facilmente e ficar forte contra os inimigos.</br></br>Influencia Coragem, Força de Vontade e Compaixão ."
             },
             "safety": {
                "display_name": "Proteção",
@@ -2088,7 +2092,7 @@
                "description": "Click to unlock all name and appearance options."
             },
             "working_for": {
-               "description": ""
+               "description": "Which town this citizen is currently working for"
             }
          },
          "constants": {
@@ -2180,7 +2184,7 @@
             },
             "trader": {
                "simple_caravan_encounter": {
-                  "message": "Ola[str(i18n_data.town_name)]! Trago comigo alguns bens para troca. Você não gostaria de me dar <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)<&frasl;strong> em troca de <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)<&frasl;strong>?",
+                  "message": "Ola[str(i18n_data.town_name)]! Trago comigo alguns bens para troca. Você não gostaria de me dar <strong>[str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s)</strong> em troca de <strong>[str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)</strong>?",
                   "title": "Uma caravana se aproxima!"
                },
                "starting_food_donation": {
@@ -2205,16 +2209,16 @@
                   "title": "Um mercante se aproxima de sua vila.",
                   "days": " dias",
                   "hours": " horas",
-                  "trade_details": "Olá [str(i18n_data.town_name)]! Estou apenas de passagem, mas eu poderia fazer uma troca ou duas, caso esteja interessado. Se você me fizer <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]<&frasl;strong>, eu voltarei em [str(i18n_data.num_days)] dias e poderei lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]<&frasl;strong> em troca. Soa um bom negócio?",
+                  "trade_details": "Olá [str(i18n_data.town_name)]! Estou apenas de passagem, mas eu poderia fazer uma troca ou duas, caso esteja interessado. Se você me fizer <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, eu voltarei em [str(i18n_data.num_days)] dias e poderei lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> em troca. Soa um bom negócio?",
                   "waiting_title": "O mercante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
-                  "waiting_text": "O mercante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]<&frasl;strong> se você tiver <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]<&frasl;strong> preparados para ele.",
+                  "waiting_text": "O mercante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você tiver <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> preparados para ele.",
                   "return_title": "O mercante retornou!",
                   "return_greetings_positive": "Estou de volta! Parece que você fez as [str(i18n_data.want_number)] [str(i18n_data.want_item)] que eu pedi. Ainda planeja trocá-los comigo? Lhe darei [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] em troca. Ainda gostas da ideia?",
                   "return_greetings_negative": "Estou de volta! Mas parece que você não fez as [str(i18n_data.want_number)] [str(i18n_data.want_item)] que eu pedi. Isso é triste! Talvez na próxima vez!"
                },
                "returning_crop_trader_encounter": {
                   "title": "Um mercante trás sementes de uma terra distante.",
-                  "trade_details": "Olá [str(i18n_data.town_name)]! Estava apenas passando por aqui, mas pensei em fazer uma troca ou duas, caso estejam interessados. Caso me façam <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]<&frasl;strong>, estarei de volta em [str(i18n_data.num_days)] dias e poderei lhes trazer [str(i18n_data.reward_item)] em troca. O que achas?",
+                  "trade_details": "Olá [str(i18n_data.town_name)]! Estava apenas passando por aqui, mas pensei em fazer uma troca ou duas, caso estejam interessados. Caso me façam <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, estarei de volta em [str(i18n_data.num_days)] dias e poderei lhes trazer [str(i18n_data.reward_item)] em troca. O que achas?",
                   "waiting_title": "O mercante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
                   "waiting_text": "O mercante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] caso tenham [str(i18n_data.want_number)] [str(i18n_data.want_item)] prontos para ele.",
                   "return_title": "O mercante retornou!",
@@ -2263,7 +2267,7 @@
                   "recipe_unlock_weapons_1": "New Legendary Sword recipe - Weaver, Potter, and Blacksmith collaboration!",
                   "recipe_unlock_weapons_2": "New Legendary Shield recipe - Blacksmith, Carpenter, and Mason collaboration!",
                   "recipe_unlock_weapons_3": "New Legendary Archer recipe - Engineer, Weaver, and Carpenter collaboration!",
-                  "recipe_unlock_weapons_4": ""
+                  "recipe_unlock_weapons_4": "New Legendary Circlet recipe - Herbalist, Mason, and Blacksmith collaboration!"
                },
                "generosity_tier_2_reached": {
                   "reward_message_ctd": "Por demonstrar grande generosidade aos necessitados. A vila é solenemente elegível à:",
@@ -3918,7 +3922,7 @@
                                  "dialog_nodes": {
                                     "cheer": {
                                        "bulletin_message": {
-                                          "00": "For instance, a <i>Hearth of Cheer<&frasl;i> is for those who believe that a town's value is found in being a happy home for its citizens."
+                                          "00": "For instance, a <i>Hearth of Cheer</i> is for those who believe that a town's value is found in being a happy home for its citizens."
                                        },
                                        "bulletin_title": "A Cheerful Choice",
                                        "dialog_title": "A Cheerful Choice",
@@ -3926,7 +3930,7 @@
                                     },
                                     "makers": {
                                        "bulletin_message": {
-                                          "00": "A <i>Hearth of Makers<&frasl;i>, on the other hand, is for those who believe that a town's value is its work, and that its work is best measured in gold."
+                                          "00": "A <i>Hearth of Makers</i>, on the other hand, is for those who believe that a town's value is its work, and that its work is best measured in gold."
                                        },
                                        "bulletin_title": "Mark of the Maker",
                                        "dialog_title": "Mark of the Maker",
@@ -3942,7 +3946,7 @@
                                     },
                                     "glory": {
                                        "bulletin_message": {
-                                          "00": "Finally, a <i>Hearth of Glory<&frasl;i> is for those who believe their destiny is to stand strong in a hostile world, as the Knight Cid did at the founding of the Ascendancy."
+                                          "00": "Finally, a <i>Hearth of Glory</i> is for those who believe their destiny is to stand strong in a hostile world, as the Knight Cid did at the founding of the Ascendancy."
                                        },
                                        "bulletin_title": "Guts and Glory",
                                        "dialog_title": "Guts and Glory",
@@ -4108,7 +4112,7 @@
                                     },
                                     "military_cont": {
                                        "bulletin_message": {
-                                          "00": "A Township dedicated to Cid's valorous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.<&frasl;i><&frasl;font>"
+                                          "00": "A Township dedicated to Cid's valorous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.</i></font>"
                                        },
                                        "bulletin_title": "Captain Anwyn Torresi",
                                        "dialog_title": "Captain Anwyn Torresi",
@@ -4116,7 +4120,7 @@
                                     },
                                     "clergy_cont": {
                                        "bulletin_message": {
-                                          "00": "It is the Church's adage that <i>'Fortune favors the kind'<&frasl;i>, and blessed fountains of Plenty have indeed been known to have almost magical effects on the health and hardiness of a Town's citizens.<br><br>Please consider showing the world that your Town will be one of kindness by building a shrine of the Church's design.<br><br><font size=-1><i>Dedicating a Fountain of Plenty will grant your townsfolk a random daily buff. Try your luck!<&frasl;i><&frasl;font>"
+                                          "00": "It is the Church's adage that <i>'Fortune favors the kind'</i>, and blessed fountains of Plenty have indeed been known to have almost magical effects on the health and hardiness of a Town's citizens.<br><br>Please consider showing the world that your Town will be one of kindness by building a shrine of the Church's design.<br><br><font size=-1><i>Dedicating a Fountain of Plenty will grant your townsfolk a random daily buff. Try your luck!</i></font>"
                                        },
                                        "bulletin_title": "Ember Minton",
                                        "dialog_title": "Ember Minton",
@@ -4132,7 +4136,7 @@
                                     },
                                     "makers_cont": {
                                        "bulletin_message": {
-                                          "00": "The Crafters Guild! We believe that the skill of an artisan must be respected, and their works celebrated.<br><br>We at the Guild would love to sanction this Township as one fit to pursue mastery in crafts - and, after all, only we can truly know masterwork when we see it!<br><br><font size=-1><i>Dedicating a tribute to the Guildmaster's Skill will grant the ability to create Masterwork-quality furniture and decorations, which are considerably better than those of Excellent quality.<&frasl;i><&frasl;font>"
+                                          "00": "The Crafters Guild! We believe that the skill of an artisan must be respected, and their works celebrated.<br><br>We at the Guild would love to sanction this Township as one fit to pursue mastery in crafts - and, after all, only we can truly know masterwork when we see it!<br><br><font size=-1><i>Dedicating a tribute to the Guildmaster's Skill will grant the ability to create Masterwork-quality furniture and decorations, which are considerably better than those of Excellent quality.</i></font>"
                                        },
                                        "bulletin_title": "Marak Azael",
                                        "dialog_title": "Marak Azael",
@@ -4155,7 +4159,7 @@
                                  "dialog_nodes": {
                                     "msg2": {
                                        "bulletin_message": {
-                                          "00": "As he should be! With fine crafters like them, your town will be churning out Masterworks in no time! I'll be keeping an eye out for a [str(i18n_data.town_name)] maker's mark in the Capital market in a few months!<br&frasl;><br&frasl;>Your homes all look pretty sturdy, too, come to think of it. My compliments to your Workers, they seem to know how to put things together, too!"
+                                          "00": "As he should be! With fine crafters like them, your town will be churning out Masterworks in no time! I'll be keeping an eye out for a [str(i18n_data.town_name)] maker's mark in the Capital market in a few months!<br/><br/>Your homes all look pretty sturdy, too, come to think of it. My compliments to your Workers, they seem to know how to put things together, too!"
                                        },
                                        "bulletin_title": "Marak continues",
                                        "dialog_title": "Marak Azael, Guildmaster",
@@ -4163,7 +4167,7 @@
                                     },
                                     "msg3": {
                                        "bulletin_message": {
-                                          "00": "Anyway, I'll let you get back to celebrating! I'm going to go hunt down a pint of something strong and a bowl of something hearty!<br&frasl;><br&frasl;>Remember, busy hands make a happy Town!"
+                                          "00": "Anyway, I'll let you get back to celebrating! I'm going to go hunt down a pint of something strong and a bowl of something hearty!<br/><br/>Remember, busy hands make a happy Town!"
                                        },
                                        "bulletin_title": "Marak continues",
                                        "dialog_title": "Marak claps you on the back",
@@ -4171,7 +4175,7 @@
                                     },
                                     "msg1": {
                                        "bulletin_message": {
-                                          "00": "Ha ha ha! What a fine monument you've built! Level, square, and all the finishing touches that only a trained eye such as mine could truly appreciate!<&frasl;br><&frasl;br><font size=-1>Huh, how'd you get it to glow like that, though?<&frasl;font>"
+                                          "00": "Ha ha ha! What a fine monument you've built! Level, square, and all the finishing touches that only a trained eye such as mine could truly appreciate!</br></br><font size=-1>Huh, how'd you get it to glow like that, though?</font>"
                                        },
                                        "bulletin_title": "Marak Azael guffaws",
                                        "dialog_title": "Marak Azael, Guildmaster",
@@ -4185,7 +4189,7 @@
                                  "dialog_nodes": {
                                     "msg2": {
                                        "bulletin_message": {
-                                          "00": "Oh! I'm fine, I was just... remembering something.<br&frasl;><br&frasl;>You know, I really do believe in the Ascendancy, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br&frasl;><br&frasl;>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
+                                          "00": "Oh! I'm fine, I was just... remembering something.<br/><br/>You know, I really do believe in the Ascendancy, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br/><br/>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
                                        },
                                        "bulletin_title": "Anwyn continues",
                                        "dialog_title": "Anwyn Torresi, Guard Captain",
@@ -4193,7 +4197,7 @@
                                     },
                                     "msg3": {
                                        "bulletin_message": {
-                                          "00": "I've brought along plans for the Guard's finest weapons, as you've surely earned the right to forge them.<br&frasl;><br&frasl;>Now, if my service has taught me anything, it's to eat a good meal when given the chance. I'll leave you to your celebrating!"
+                                          "00": "I've brought along plans for the Guard's finest weapons, as you've surely earned the right to forge them.<br/><br/>Now, if my service has taught me anything, it's to eat a good meal when given the chance. I'll leave you to your celebrating!"
                                        },
                                        "bulletin_title": "Anwyn continues",
                                        "dialog_title": "Anwyn Torresi, Guard Captain",
@@ -4201,7 +4205,7 @@
                                     },
                                     "msg1": {
                                        "bulletin_message": {
-                                          "00": "What an inspiring monument! It truly speaks to the heroism of the Knight Cid.<br&frasl;><br&frasl;>It reminds me all over again why I became a member of the Guard. It feels like so long ago...<br&frasl;><p align='right'><font size=-1 color='#cccccc'>(Anwyn stares into the middle distance, eyes glistening.)<&frasl;font><&frasl;p>"
+                                          "00": "What an inspiring monument! It truly speaks to the heroism of the Knight Cid.<br/><br/>It reminds me all over again why I became a member of the Guard. It feels like so long ago...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn stares into the middle distance, eyes glistening.)</font></p>"
                                        },
                                        "bulletin_title": "Anwyn approaches, eyes shining",
                                        "dialog_title": "Anwyn Torresi, Guard Captain",
@@ -4215,7 +4219,7 @@
                                  "dialog_nodes": {
                                     "msg2": {
                                        "bulletin_message": {
-                                          "00": "As this shrine bestows its blessing on you all with each passing day, take a moment to reflect on the world, its mysteries, and its many bounties.<br&frasl;><br&frasl;>May your Town always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
+                                          "00": "As this shrine bestows its blessing on you all with each passing day, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May your Town always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
                                        },
                                        "bulletin_title": "Ember continues",
                                        "dialog_title": "Ember Minton, Missionary",
@@ -4231,7 +4235,7 @@
                                     },
                                     "msg1": {
                                        "bulletin_message": {
-                                          "00": "<font size=-1>...and may this town flourish in fortune and prosperity, for so long as the Sun shall shine. Umbasa.<&frasl;font><br&frasl;><br&frasl;>Oh! My apologies, I was lost in prayer.<br&frasl;><br&frasl;>You have a truly wonderful town here, and I feel so privileged to be the missionary to bless this fine monument."
+                                          "00": "<font size=-1>...and may this town flourish in fortune and prosperity, for so long as the Sun shall shine. Umbasa.</font><br/><br/>Oh! My apologies, I was lost in prayer.<br/><br/>You have a truly wonderful town here, and I feel so privileged to be the missionary to bless this fine monument."
                                        },
                                        "bulletin_title": "Ember faces the shrine",
                                        "dialog_title": "Ember Minton, Missionary",
@@ -4253,7 +4257,7 @@
                                     },
                                     "msg2": {
                                        "bulletin_message": {
-                                          "00": "By the by, this monument here is special, since it's gotten blessed and all - you can build the others if you like, but they'll just be regular old statues. Fancy-looking ones, but none quite so magical.<br&frasl;><br&frasl;> Still, they make for a nice decoration, don't you think?"
+                                          "00": "By the by, this monument here is special, since it's gotten blessed and all - you can build the others if you like, but they'll just be regular old statues. Fancy-looking ones, but none quite so magical.<br/><br/> Still, they make for a nice decoration, don't you think?"
                                        },
                                        "bulletin_title": "Mer Continues",
                                        "dialog_title": "Mer Burlyhands, Capital Fellow",
@@ -4261,7 +4265,7 @@
                                     },
                                     "msg3": {
                                        "bulletin_message": {
-                                          "00": "Thanks for being such a bunch of charming folks - I'm proud to serve a group of such earnest and ambitious individuals. You make me proud!<br&frasl;><br&frasl;>Farewell for now, and the best of luck to each of you!"
+                                          "00": "Thanks for being such a bunch of charming folks - I'm proud to serve a group of such earnest and ambitious individuals. You make me proud!<br/><br/>Farewell for now, and the best of luck to each of you!"
                                        },
                                        "bulletin_title": "Mer Continues",
                                        "dialog_title": "Mer Burlyhands, Capital Fellow",
@@ -4275,11 +4279,11 @@
                                  "dialog_nodes": {
                                     "msg1": {
                                        "bulletin_message": {
-                                          "00": ""
+                                          "00": "Hello again! Now that you've got a bustling little town here, perhaps it's time to start thinking of your next adventure.<p>I expect some of your citizens are itching to head out and establish a brand new town, even bigger, and even better, with all the lessons learned from this one.</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
                                        },
-                                       "bulletin_title": "",
-                                       "dialog_title": "",
-                                       "choice_000": ""
+                                       "bulletin_title": "It's Mer Again!",
+                                       "dialog_title": "One Last Thing",
+                                       "choice_000": "Exciting!"
                                     }
                                  }
                               }
@@ -4293,7 +4297,7 @@
                      "dialog_nodes": {
                         "msg4": {
                            "bulletin_message": {
-                              "00": "Take the time to consider what you consider most important, what you wish that beacon to stand for. Prosperity? Happiness? Strength? Each is a noble pursuit.<br><br>Wishing you the best of luck! <br><br>Yours in the Capital,<br> Mer Burlyhands<br><br><font size=-1>P.S. A small gift for you from my personal garden <font size=+2>❀<&frasl;font><&frasl;font>"
+                              "00": "Take the time to consider what you consider most important, what you wish that beacon to stand for. Prosperity? Happiness? Strength? Each is a noble pursuit.<br><br>Wishing you the best of luck! <br><br>Yours in the Capital,<br> Mer Burlyhands<br><br><font size=-1>P.S. A small gift for you from my personal garden <font size=+2>❀</font></font>"
                            },
                            "bulletin_title": "To Be Considered",
                            "dialog_title": "To Be Considered",
@@ -4301,7 +4305,7 @@
                         },
                         "msg2": {
                            "bulletin_message": {
-                              "00": ""
+                              "00": "Congratulations on your Founding!<br><br>Your Outpost has been entered into the registry - consider yourselves official! &quot;Her Majesty's Outpost of [str(i18n_data.town_name)]&quot; - it has a nice ring to it, I think. An inspirational Banner design, as well!<br><br> All of us here are eager to hear of your success!"
                            },
                            "bulletin_title": "A Reply",
                            "dialog_title": "A Reply",
@@ -4309,7 +4313,7 @@
                         },
                         "msg3": {
                            "bulletin_message": {
-                              "00": "As your Outpost grows towards Settlement status, you will start to attract new immigrants.<br&frasl;><br&frasl;>Your Hearth now is only a spark of what it will one day become - I have faith that it will be a beacon seen all across the Ascendancy."
+                              "00": "As your Outpost grows towards Settlement status, you will start to attract new immigrants.<br/><br/>Your Hearth now is only a spark of what it will one day become - I have faith that it will be a beacon seen all across the Ascendancy."
                            },
                            "bulletin_title": "A View Towards the Future",
                            "dialog_title": "A View Towards the Future",
@@ -4317,7 +4321,7 @@
                         },
                         "msg1": {
                            "bulletin_message": {
-                              "00": "The messenger bird returns, with a reply from Mer Burlyhands.<br><br><p align='right'><font size=-6 color='#cccccc'>The letter has bite marks, and is slightly drooled on. Harold is doing his best.<&frasl;font><&frasl;p>"
+                              "00": "The messenger bird returns, with a reply from Mer Burlyhands.<br><br><p align='right'><font size=-6 color='#cccccc'>The letter has bite marks, and is slightly drooled on. Harold is doing his best.</font></p>"
                            },
                            "bulletin_title": "The Bird Returns!",
                            "dialog_title": "Another Letter!",
@@ -4331,7 +4335,7 @@
                      "dialog_nodes": {
                         "msg_final": {
                            "bulletin_message": {
-                              "00": "Which Shrine will you build to signify your Settlement's ascent into Township?<br>[This is still using the old Tier 2 quest! We'll spruce it up soon!]<br><br><font size=-1>Shrine of Fortune (gives random town-wide buffs!)<br><br>Shrine of Valor ([WIP, not in yet!] legendary weapons)<br><br>Shrine of Masterwork (Unlocks Masterwork-tier crafts! Four times as Appealing and Expensive as Excellent-tier!)<&frasl;font>"
+                              "00": "Which Shrine will you build to signify your Settlement's ascent into Township?<br>[This is still using the old Tier 2 quest! We'll spruce it up soon!]<br><br><font size=-1>Shrine of Fortune (gives random town-wide buffs!)<br><br>Shrine of Valor ([WIP, not in yet!] legendary weapons)<br><br>Shrine of Masterwork (Unlocks Masterwork-tier crafts! Four times as Appealing and Expensive as Excellent-tier!)</font>"
                            },
                            "bulletin_title": "Choose a Shrine!",
                            "dialog_title": "Choose a Shrine!",
@@ -4343,15 +4347,15 @@
                   },
                   "guildmaster": {
                      "name": "The Guildmaster's Skill",
-                     "description": "<i>This Township shall be known for its artisans' hard work and dedication to their craft.<&frasl;i><ul><li>Allows crafting Masterwork quality items<&frasl;li><li>Unlocks artisan-themed decoration recipes<&frasl;li><&frasl;ul>"
+                     "description": "<i>This Township shall be known for its artisans' hard work and dedication to their craft.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
                   },
                   "deity": {
                      "name": "Fountain of Plenty",
-                     "description": "<i>This Township shall show generosity and kindness to the needy.<&frasl;i><ul><li>Grants a random daily buff<&frasl;li><li>Unlocks nature-themed decoration recipes<&frasl;li><&frasl;ul>"
+                     "description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Grants a random daily buff</li><li>Unlocks nature-themed decoration recipes</li></ul>"
                   },
                   "valor": {
                      "name": "The Valor of Cid",
-                     "description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.<&frasl;i><ul><li>Unlocks legendary weapon recipes<&frasl;li><li>Unlocks castle decoration recipes<&frasl;li><&frasl;ul>"
+                     "description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
                   }
                },
                "shrine_foreshadow_dialog": {
@@ -4375,7 +4379,7 @@
                         },
                         "msg3": {
                            "bulletin_message": {
-                              "00": "As you probably know, a settlement traditionally needs a Sponsorship to become a true Township - generally from a guild, the clergy, or the military.<br><br>In the past few days, I've been approached by a few individuals who are <i>very<&frasl;i> interested to get a look at your town for themselves, and see if you'd be interested in allowing them to be your Sponsor."
+                              "00": "As you probably know, a settlement traditionally needs a Sponsorship to become a true Township - generally from a guild, the clergy, or the military.<br><br>In the past few days, I've been approached by a few individuals who are <i>very</i> interested to get a look at your town for themselves, and see if you'd be interested in allowing them to be your Sponsor."
                            },
                            "bulletin_title": "A Letter",
                            "dialog_title": "A Letter",
@@ -4397,7 +4401,7 @@
                      "dialog_nodes": {
                         "read_letter3": {
                            "bulletin_message": {
-                              "00": "Hold in your mind a vision of what your Town will one day be. Your Banner will set that course, but it is up to you to finish it.<p>Choose well, my friends. I eagerly await your reply.<&frasl;p><br><p>Yours,<&frasl;p><p>&nbsp;Mer Burlyhands<&frasl;p>"
+                              "00": "Hold in your mind a vision of what your Town will one day be. Your Banner will set that course, but it is up to you to finish it.<p>Choose well, my friends. I eagerly await your reply.</p><br><p>Yours,</p><p>&nbsp;Mer Burlyhands</p>"
                            },
                            "bulletin_title": "The Letter Continues",
                            "dialog_title": "The Letter Continues...",
@@ -4405,7 +4409,7 @@
                         },
                         "open_letter": {
                            "bulletin_message": {
-                              "00": "An odd bird arrives with a letter in its beak, stamped with the Official Seal of the Ascendancy. <br><br><p align='right'><font size=-6 color='#cccccc'>The bird also carries a nametag, which reads 'Harold'<&frasl;font><&frasl;p>"
+                              "00": "An odd bird arrives with a letter in its beak, stamped with the Official Seal of the Ascendancy. <br><br><p align='right'><font size=-6 color='#cccccc'>The bird also carries a nametag, which reads 'Harold'</font></p>"
                            },
                            "bulletin_title": "A Strange Bird!",
                            "dialog_title": "A Bird... Messenger?",
@@ -4413,7 +4417,7 @@
                         },
                         "read_letter": {
                            "bulletin_message": {
-                              "00": "Dear Expedition [str(i18n_data.town_serial_number)],<p>I hope this letter finds you well. By my guess, you've likely set up camp by now.<&frasl;p><p>As your Capital Liaison, it is my honor to preside, remotely, over the official Founding of your Outpost! I trust that you had ample time to choose a name on your journey.<&frasl;p>"
+                              "00": "Dear Expedition [str(i18n_data.town_serial_number)],<p>I hope this letter finds you well. By my guess, you've likely set up camp by now.</p><p>As your Capital Liaison, it is my honor to preside, remotely, over the official Founding of your Outpost! I trust that you had ample time to choose a name on your journey.</p>"
                            },
                            "bulletin_title": "A Letter from the Capital!",
                            "dialog_title": "A Letter from the Capital!",
@@ -4421,7 +4425,7 @@
                         },
                         "read_letter2": {
                            "bulletin_message": {
-                              "00": "As you know, every new settlement must choose a Banner.<p>This Banner reflects your spirit and vision, the uniting factor which brought the Expedition together!<&frasl;p><p>What future did you foresee when you embarked on your quest for Township?<&frasl;p> "
+                              "00": "As you know, every new settlement must choose a Banner.<p>This Banner reflects your spirit and vision, the uniting factor which brought the Expedition together!</p><p>What future did you foresee when you embarked on your quest for Township?</p> "
                            },
                            "bulletin_title": "The Letter Continues",
                            "dialog_title": "The Letter Continues...",
@@ -4449,7 +4453,7 @@
                      "dialog_nodes": {
                         "simple_message": {
                            "bulletin_message": {
-                              "00": ""
+                              "00": "You're not sure how you missed it before, but the bird is wearing a tiny backpack.<br><br>It contains a note, which reads <i>&quot;A little something to help you celebrate&quot;</i> along with:"
                            },
                            "bulletin_title": "The Bird Squawks",
                            "dialog_title": "A Tiny Backpack",
@@ -4461,15 +4465,15 @@
                "hearth_choice": {
                   "glory": {
                      "name": "Hearth of Glory",
-                     "description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.<&frasl;i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle<&frasl;li><li>Each rank defeated will boost Daily Update net worth<&frasl;li><&frasl;ul>"
+                     "description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
                   },
                   "makers": {
                      "name": "Hearth of the Makers",
-                     "description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.<&frasl;i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand<&frasl;li><li>Boosts your Daily Update net worth based on Gold Coins on hand<&frasl;li><&frasl;ul>"
+                     "description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
                   },
                   "cheer": {
                      "name": "Hearth of Cheer",
-                     "description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.<&frasl;i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens<&frasl;li><&frasl;ul>"
+                     "description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li></ul>"
                   }
                },
                "shrine_quest_deity": {
@@ -4885,50 +4889,50 @@
          },
          "building_brushes": {
             "colors": {
-               "#964d3b": "",
-               "#823e2d": "",
-               "#643124": "",
-               "#9e7969": "",
-               "#977161": "",
-               "#886758": "",
-               "#40664a": "",
-               "#37563f": "",
-               "#304435": "",
-               "#537070": "",
-               "#4a6363": "",
-               "#425858": "",
-               "#5483bd": "",
-               "#4f7cb3": "",
-               "#4771a4": "",
-               "#ac6863": "",
-               "#a2625d": "",
-               "#965a4d": "",
-               "#a9a597": "",
-               "#afaa9d": "",
-               "#a38b7c": "",
-               "#bba991": "",
-               "#c4b49a": "",
-               "#807148": "",
-               "#918155": "",
-               "#cbbd96": "",
-               "#d2c6a3": "",
-               "#d8ceae": "",
-               "#6B6860": "",
-               "#76726B": "",
-               "#82807b": "",
-               "#918D86": "",
-               "#B3B0AA": "",
-               "#C1C0BB": "",
-               "#75B370": "",
-               "#87C076": "",
-               "#99CE7C": "",
-               "#807147": "",
-               "#918154": "",
-               "#8BB270": "",
-               "#9DBF76": "",
-               "#AFCC7C": "",
-               "#A29161": "",
-               "#B3A16E": "",
+               "#964d3b": "Robin Light",
+               "#823e2d": "Robin",
+               "#643124": "Robin Dark",
+               "#9e7969": "Peach Light",
+               "#977161": "Peach",
+               "#886758": "Peach Dark",
+               "#40664a": "Oak leaf light",
+               "#37563f": "Oak leaf",
+               "#304435": "Oak leaf dark",
+               "#537070": "Sage Light",
+               "#4a6363": "Sage",
+               "#425858": "Sage Dark",
+               "#5483bd": "Oasis Light",
+               "#4f7cb3": "Oasis",
+               "#4771a4": "Oasis Dark",
+               "#ac6863": "Prickly Pear Light",
+               "#a2625d": "Prickly Pear",
+               "#965a4d": "Prickly Pear Dark",
+               "#a9a597": "Mesa",
+               "#afaa9d": "Mesa Light",
+               "#a38b7c": "Pink Rock",
+               "#bba991": "Hillside Dark",
+               "#c4b49a": "Hillside light",
+               "#807148": "Claypit",
+               "#918155": "Claypit light",
+               "#cbbd96": "Sand",
+               "#d2c6a3": "Sand Fade",
+               "#d8ceae": "Sand Light",
+               "#6B6860": "Mountain Roots",
+               "#76726B": "Mountainside Dark",
+               "#82807b": "Mountainside Medium",
+               "#918D86": "Mountainside Light",
+               "#B3B0AA": "Mountaintop",
+               "#C1C0BB": "Summit",
+               "#75B370": "Hilltop",
+               "#87C076": "Hilltop Fade",
+               "#99CE7C": "Hilltop Edge",
+               "#807147": "Hillside Dark",
+               "#918154": "Hillside Light",
+               "#8BB270": "Grassland",
+               "#9DBF76": "Grassland Fade",
+               "#AFCC7C": "Grassland Edge",
+               "#A29161": "Earth Edge",
+               "#B3A16E": "Earth",
                "#928C76": "Heathered Grey",
                "#4C2424": "Volcano",
                "#C0BBA8": "Ash",
@@ -4981,16 +4985,16 @@
                "#927923": "Lemon Ginger"
             },
             "patterns": {
-               "peaked_roof_oak_leaf": "",
-               "peaked_roof_robin": "",
-               "peaked_roof_peach": "",
-               "peaked_roof_peach_fancy": "",
-               "slat_roof_sage": "",
-               "slat_roof_oasis": "",
-               "slat_roof_prickly_pear": "",
-               "clay_wall_sage": "",
-               "clay_wall_prickly_pear": "",
-               "clay_wall_oasis": "",
+               "peaked_roof_oak_leaf": "A wooden roof made up of shades of Oak Leaf",
+               "peaked_roof_robin": "A wooden roof made up of shades of Robin",
+               "peaked_roof_peach": "A wooden roof made up of shades of Peach",
+               "peaked_roof_peach_fancy": "A wooden roof made up of punga, and shades of Peach",
+               "slat_roof_sage": "A roof made of Sage colored clay, and Cocoa Brown wood",
+               "slat_roof_oasis": "A roof made of Oasis colored clay, and Cocoa Brown wood",
+               "slat_roof_prickly_pear": "A roof made of Prickly Pear colored clay, and Cocoa Brown wood",
+               "clay_wall_sage": "A pattern of shades of Sage",
+               "clay_wall_prickly_pear": "A pattern made up of shades of Prickly Pear",
+               "clay_wall_oasis": "A pattern made up of shades of Oasis",
                "gold_clay_wall": "A Pattern of Pavlova, Raffia, Winter Hazel, and Ecru",
                "tan_clay_wall": "A pattern of Roserock, Coffee Cake, and Fawn",
                "wooden_wall": "A Pattern of Punga, and Tobacco Brown",
@@ -5074,8 +5078,8 @@
             "description": "Give this hearthling a new job."
          },
          "change_working_for": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Change Working For",
+            "description": "Change which town this citizen is working for."
          },
          "raze_crop": {
             "display_name": "Clear Ground",
@@ -6336,7 +6340,7 @@
          "cultist": {
             "cultist_trait": {
                "display_name": "Cultist",
-               "description": ""
+               "description": "This hearthling keeps mumbling about some sort of secret &quot;bunny god&quot; sleeping eternally. What's that about?"
             }
          },
          "jokester": {
@@ -6517,7 +6521,7 @@
                },
                "offended_palate": {
                   "display_name": "Offended Palate",
-                  "tooltip": ""
+                  "tooltip": "Bleh, I hate eating stuff like [str(foodname)]. There's just no &quot;zazz&quot; to it!"
                },
                "pleased_palate": {
                   "display_name": "Pleased Palate",
@@ -6967,7 +6971,7 @@
                "display_name": "Move to Location"
             },
             "ui_move_place_item": {
-               "display_name": "Move&frasl;Place Item"
+               "display_name": "Move/Place Item"
             },
             "fight_cancelOrders": {
                "display_name": "Cancel Combat Order"
@@ -7012,7 +7016,7 @@
                "display_name": "Open Notification Popup"
             },
             "ui_multiplayer_chat": {
-               "display_name": ""
+               "display_name": "Open Chat"
             },
             "ui_undeploy_item": {
                "display_name": "Undeploy Item"
@@ -7044,7 +7048,7 @@
          },
          "thunderstorm": {
             "display_name": "Tempestade",
-            "description": "Thunder rolled... It rolled a six.<ul><li>Plant growth speed is slightly increased.<&frasl;li><li>Vision radius is reduced.<&frasl;li><li>Unsheltered hearthlings sometimes get hit by lightning.<&frasl;li><li>The ground and trees sometimes get hit by lightning.<&frasl;li><&frasl;ul>"
+            "description": "Thunder rolled... It rolled a six.<ul><li>Plant growth speed is slightly increased.</li><li>Vision radius is reduced.</li><li>Unsheltered hearthlings sometimes get hit by lightning.</li><li>The ground and trees sometimes get hit by lightning.</li></ul>"
          },
          "sunny": {
             "display_name": "Ensolarado",
@@ -7052,19 +7056,19 @@
          },
          "snow": {
             "display_name": "Neve",
-            "description": "Cold, frost, and sunshine: day of wonder! Why are you, friend, still deep in slumber?<ul><li>Plant growth speed is reduced.<&frasl;li><li>Vision radius is slightly reduced.<&frasl;li><li>Unsheltered hearthlings are too cold to work as effectively.<&frasl;li><li>Unsheltered pasture animals are hurt by the cold.<&frasl;li><&frasl;ul>"
+            "description": "Cold, frost, and sunshine: day of wonder! Why are you, friend, still deep in slumber?<ul><li>Plant growth speed is reduced.</li><li>Vision radius is slightly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
          },
          "sandstorm": {
             "display_name": "tempestade de areia",
-            "description": "Cover your eyes. Cover your ears. In fact, just stay inside.<ul><li>Unsheltered hearthlings are too hot to work as effectively.<&frasl;li><li>Vision radius is slightly reduced.<&frasl;li><li>Clouds of sand pass across the landscape, destroying crops and hurting everyone.<&frasl;li><&frasl;ul>"
+            "description": "Cover your eyes. Cover your ears. In fact, just stay inside.<ul><li>Unsheltered hearthlings are too hot to work as effectively.</li><li>Vision radius is slightly reduced.</li><li>Clouds of sand pass across the landscape, destroying crops and hurting everyone.</li></ul>"
          },
          "rain": {
             "display_name": "Chuva",
-            "description": "Water! Water from the skies!<ul><li>Plant growth speed is slightly increased.<&frasl;li><li>Vision radius is slightly reduced.<&frasl;li><&frasl;ul>"
+            "description": "Water! Water from the skies!<ul><li>Plant growth speed is slightly increased.</li><li>Vision radius is slightly reduced.</li></ul>"
          },
          "lucky": {
             "display_name": "Dia de sorte",
-            "description": "Today, everything is just a tiny bit better.<ul><li>Hearthlings find all their ailments healed, as if by magic.<&frasl;li><li>Hearthlings are slightly luckier in everything they do.<&frasl;li><li>A mysterious rainbow sometimes appears.<&frasl;li><&frasl;ul>",
+            "description": "Today, everything is just a tiny bit better.<ul><li>Hearthlings find all their ailments healed, as if by magic.</li><li>Hearthlings are slightly luckier in everything they do.</li><li>A mysterious rainbow sometimes appears.</li></ul>",
             "pot_of_gold": {
                "display_name": "Pote de ouro",
                "description": "Today's your lucky day!"
@@ -7072,7 +7076,7 @@
          },
          "foggy": {
             "display_name": "Foggy",
-            "description": "A cover of fog crawls across the landscape, hiding untold mysteries.<ul><li>Undead monsters come out of hiding under the cover of the fog.<&frasl;li><li>Vision radius is greatly reduced.<&frasl;li><&frasl;ul>"
+            "description": "A cover of fog crawls across the landscape, hiding untold mysteries.<ul><li>Undead monsters come out of hiding under the cover of the fog.</li><li>Vision radius is greatly reduced.</li></ul>"
          },
          "cloudy": {
             "display_name": "Cloudy",
@@ -7080,7 +7084,7 @@
          },
          "blizzard": {
             "display_name": "Blizzard",
-            "description": "Wind, and snow, and hail, oh my!<ul><li>Plant growth speed is greatly reduced.<&frasl;li><li>Vision radius is greatly reduced.<&frasl;li><li>Unsheltered hearthlings are too cold to work as effectively.<&frasl;li><li>Unsheltered pasture animals are hurt by the cold.<&frasl;li><&frasl;ul>"
+            "description": "Wind, and snow, and hail, oh my!<ul><li>Plant growth speed is greatly reduced.</li><li>Vision radius is greatly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
          }
       }
    },
@@ -7832,6 +7836,12 @@
             "input_corner_ground_iron_ghost": {
                "display_name": "Iron Corner Supply Shelf",
                "description": "A supply container, for quicker crafting."
+            }
+         },
+         "market_shelf_tall_ground_wood": {
+            "market_shelf_tall_ground_wood_ghost": {
+               "display_name": "Tall Wooden Market Shelf",
+               "description": "Other players and Travelers can buy the items stored here."
             }
          }
       },
@@ -9141,44 +9151,44 @@
          "summon_stone": {
             "pond_01": {
                "pond_01_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Pond Summon Stone",
+                  "description": "This stone encases a cute little pond!"
                }
             },
             "cathedral_ruins": {
                "cathedral_ruins_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Ruined Cathedral Summon Stone",
+                  "description": "This stone encases an ancient ruin!"
                }
             },
             "cave_01": {
                "cave_01_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Cave Summon Stone",
+                  "description": "This stone encases a cave that will cut into the ground!"
                }
             },
             "cave_02": {
                "cave_02_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Cave Summon Stone",
+                  "description": "This stone encases a cave that will cut into the ground!"
                }
             },
             "pond_02": {
                "pond_02_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Pond Summon Stone",
+                  "description": "This stone encases a cute little pond!"
                }
             },
             "pond_03": {
                "pond_03_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Pond Summon Stone",
+                  "description": "This stone encases a cute little pond!"
                }
             },
             "pond_04": {
                "pond_04_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Pond Summon Stone",
+                  "description": "This stone encases a cute little pond!"
                }
             }
          }
@@ -9948,33 +9958,33 @@
             "town_banner_guardian_ghost": {
                "display_name": "Banner of Cunning",
                "description": "How you know you've come home.",
-               "town_bonus_description": "<i>This settlement will be a bustling hub of trade.<&frasl;i><ul><li>Roads give 3x their normal speed boost<&frasl;li><li>Your items sell for 50% more<&frasl;li><li>Traders will bring 2x the goods and Gold<&frasl;li><&frasl;ul>"
+               "town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
             },
             "town_banner_guardian_token_iconic": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Banner of Cunning Shred",
+               "description": "A shred from the Banner of Cunning, carrying along its magic."
             }
          },
          "town_banner_might": {
             "town_banner_might_ghost": {
                "display_name": "Banner of Strength",
                "description": "How you know you've come home",
-               "town_bonus_description": "<i>This settlement will grow strong through earth and steel.<&frasl;i><ul><li>Mining gives 50% more Ore, Stone, and Clay<&frasl;li><li>Hearthlings no longer mind cramped spaces<&frasl;li><&frasl;ul>"
+               "town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
             },
             "town_banner_might_token_iconic": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Banner of Strength Shred",
+               "description": "A shred from the Banner of Strength, carrying along its magic."
             }
          },
          "town_banner_nature": {
             "town_banner_nature_ghost": {
                "display_name": "Banner of Vitality",
                "description": "How you know you've come home",
-               "town_bonus_description": "<i>This settlement shall be at one with the environment.<&frasl;i><ul><li>Trees produce 25% more Wood<&frasl;li><li>Both Plants and Crops grow 25% faster<&frasl;li><li>Plants have 2x their normal Appeal<&frasl;li><&frasl;ul>"
+               "town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
             },
             "town_banner_nature_token_iconic": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Banner of Vitality Shred",
+               "description": "A shred from the Banner of Vitality, carrying along its magic."
             }
          }
       },
@@ -10243,16 +10253,16 @@
          },
          "golems": {
             "golem_harvesting": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Ox",
+               "description": "Constructed of stone and empowered by ancient knowledge."
             },
             "golem_mining": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Mole",
+               "description": "Mining Golem, constructed of stone and empowered by ancient knowledge."
             },
             "golem_restocking": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Cricket",
+               "description": "Restocking Golem, constructed of stone and empowered by ancient knowledge."
             }
          }
       },
@@ -11250,12 +11260,12 @@
             "description": "Tudo parece um prego quando tudo o que você tem é um martelo"
          },
          "mining_pick_golem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Golem Mining Pick",
+            "description": "Large sized, for large hands."
          },
          "worker_axe_golem": {
-            "display_name": "",
-            "description": ""
+            "display_name": "Golem's Axe",
+            "description": "Large sized, for large hands."
          }
       },
       "toys": {
@@ -11872,44 +11882,44 @@
          "summon_stone": {
             "bounds": {
                "bounds_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Bounds Summon Stone",
+                  "description": "This stone is ready to encase the world!"
                }
             },
             "test_small": {
                "test_small_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Test Small Stone",
+                  "description": "This stone encases a test, you know, for testing!"
                }
             },
             "chair": {
                "chair_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Chair Stone",
+                  "description": "This stone encases an ENOURMOUS CHAIR OF CHAIRS ready to burst out!"
                }
             },
             "plains_grassy_01": {
                "plains_grassy_01_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Plains Summon Stone",
+                  "description": "This stone encases a beautiful grassy field."
                }
             },
             "plains_grassy_02": {
                "plains_grassy_02_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Plains Summon Stone",
+                  "description": "This stone encases a beautiful grassy field."
                }
             },
             "plains_stones": {
                "plains_stones_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Plains Stones Summon Stone",
+                  "description": "This stone encases a pile of stones."
                }
             },
             "plains_spring_hill": {
                "plains_spring_hill_ghost": {
-                  "display_name": "",
-                  "description": ""
+                  "display_name": "Plains Hill Spring Summon Stone",
+                  "description": "This stone encases a cute little spring!"
                }
             }
          }
@@ -11978,7 +11988,7 @@
    "jobs": {
       "common": {
          "recipes": {
-            "legendary_name": ""
+            "legendary_name": "Legendary"
          }
       },
       "animal_trainer": {
@@ -12739,6 +12749,11 @@
                "recipe_name": "Blue Market Stall",
                "flavor": "But who are these people? And where are they coming from?"
             },
+            "market_shelf_tall_ground_wood_recipe": {
+               "description": "Other players and Travelers can buy goods stocked on these shelves.",
+               "recipe_name": "Tall Wooden Market Shelf",
+               "flavor": "One Hearthling's trash is another's treasure... right?"
+            },
             "archer_bow_recipe": {
                "recipe_name": "Archer's Bow",
                "description": "Required to promote a hearthling into an archer"
@@ -12924,7 +12939,7 @@
             },
             "level_6_data": {
                "title": "Cozinheiro (Mestre)",
-               "perk_000_name": "10,000 Horas <br><br>(não implementado)",
+               "perk_000_name": "10,000 Horas (não implementado)",
                "perk_000_description": "The Cook's dishes are now so good for you that they may have unexpected effects."
             },
             "level_2_data": {
@@ -12932,7 +12947,7 @@
                "perk_000_description": "The cook has learned to make slightly fancier recipes."
             },
             "level_4_data": {
-               "perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
+               "perk_000_name": "Ingenuidade Melhorada (não implementado)",
                "perk_000_description": "The Cook adds new levels of functionality to classic recipes."
             },
             "level_1_data": {
@@ -12944,7 +12959,7 @@
                "perk_000_description": "When inspiration strikes, the Cook may now craft an especially Fine quality of item. (Not implemented for food yet!)"
             },
             "level_5_data": {
-               "perk_000_name": "Master's Insight <br><br>(not implemented for food)",
+               "perk_000_name": "Master's Insight (not implemented for food)",
                "perk_000_description": "The Cook can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for food yet!)"
             }
          },
@@ -13248,7 +13263,7 @@
             "description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
             "requirements": "Crafted by Carpenter",
             "level_6_data": {
-               "perk_000_name": "Nature's Surprise <br><br>(não implementado)",
+               "perk_000_name": "Nature's Surprise (not implemented)",
                "perk_000_description": "Occasionally, the farmer's special touch yields... special results.",
                "title": "Agricultor (Mestre)"
             },
@@ -13370,7 +13385,7 @@
             },
             "level_6_data": {
                "title": "Pedreiro (Mestre)",
-               "perk_000_name": "10,000 Horas <br><br>(não implementado)",
+               "perk_000_name": "10,000 Horas (não implementado)",
                "perk_000_description": "The Mason's mastery of their trade allows them to come up with completely new ways of using stone."
             },
             "level_2_data": {
@@ -13642,12 +13657,12 @@
             "statue_knight_recipe": {
                "description": "Noble knight of stone",
                "recipe_name": "Stone Guard",
-               "flavor": ""
+               "flavor": "&quot;...Now quietly the land they keep<br>amid the brightbells echoing.&quot;"
             },
             "statue_knight_male_recipe": {
                "description": "Noble knight of stone",
                "recipe_name": "Stone Guard",
-               "flavor": ""
+               "flavor": "&quot;Holding back the darkness deep;<br> shaking iron, steel blades ring...&quot;"
             },
             "portcullis_valor_recipe": {
                "description": "For times when only the strongest door will do.",
@@ -13786,12 +13801,12 @@
             "red_clay_door_recipe": {
                "description": "Matches red clay walls",
                "recipe_name": "Red Clay Door",
-               "flavor": ""
+               "flavor": "&quot;The red hints at a mystery, allure. What lies beyond yon red door?&quot; -- Ember Iskender, Dept of Applied Poetry"
             },
             "red_clay_window_frame_recipe": {
                "description": "Matches red clay walls",
                "recipe_name": "Red Clay Window",
-               "flavor": ""
+               "flavor": "&quot;Industry standard for a reason&quot; -- Jorya Iskender, Dyemaster"
             },
             "blue_clay_door_recipe": {
                "description": "Blue like the dream of distant ocean.",
@@ -13821,12 +13836,12 @@
             "clay_bed_recipe": {
                "description": "Uncomfortable, but it gets you off the ground",
                "recipe_name": "Clay Bed",
-               "flavor": ""
+               "flavor": "&quot;It's like a pot, for sleeping!&quot; - Clarence, Temporary Salesperson"
             },
             "clay_dining_table_recipe": {
                "description": "Gets your food off the ground!",
                "recipe_name": "Clay Dining Table",
-               "flavor": ""
+               "flavor": "&quot;An elevated environment for elevated conversation&quot; "
             },
             "simple_clay_chair_recipe": {
                "description": "Somewhere to sit while eating",
@@ -13901,15 +13916,15 @@
             "tan_latticed_window_recipe": {
                "recipe_name": "Tan Latticed Window",
                "description": "The latticed window you know and love, in tan",
-               "flavor": ""
+               "flavor": "&quot;Lets in the bugs, but at least not the really big ones!&quot; -- Drenkar Iskender, Ex-Marketing Associate"
             },
             "tall_clay_window_recipe": {
                "recipe_name": "Tall Clay Window",
                "description": "Still lets in the soft desert air",
-               "flavor": ""
+               "flavor": "&quot;Windowsill can cool a really tall pie&quot; -Aaryn, Pragmatist"
             },
             "tan_clay_window_frame_recipe": {
-               "flavor": "",
+               "flavor": "&quot;No, I didn't forget the dye.&quot; -Isfan Dorret, Inventor of Achromatism",
                "recipe_name": "Tan Clay Window Frame",
                "description": "Lets the sun in"
             },
@@ -13921,7 +13936,7 @@
             "blue_latticed_window_recipe": {
                "recipe_name": "Blue Latticed Window",
                "description": "A soothing blue latticed window",
-               "flavor": ""
+               "flavor": "&quot;No but really, where is this dye coming from?&quot; -- Farah, Professional Bugcatcher"
             },
             "wooden_sign_potter_recipe": {
                "flavor": "Less fragile and easier than hanging a real pot!"
@@ -14066,7 +14081,7 @@
                "perk_001_description": "The trapper now qualifies for advanced jobs. Click the promote command for details."
             },
             "level_6_data": {
-               "perk_000_name": "The Deadliest Catch <br><br>(não implementado!)",
+               "perk_000_name": "The Deadliest Catch (Not Implemented!)",
                "perk_000_description": "Lay special trapping zones to 'deter' acquisitive neighbors.",
                "title": "Caçador (Mestre)"
             },
@@ -14129,7 +14144,7 @@
             "requirements": "Crafted by Carpenter",
             "level_6_data": {
                "title": "Tecelão (Mestre)",
-               "perk_000_name": "10,000 Horas <br><br>(não implementado)",
+               "perk_000_name": "10,000 Horas (não implementado)",
                "perk_000_description": "The Weaver's mastery of their trade allows them to come up with completely new ways of using cloth and thread."
             },
             "level_2_data": {
@@ -14137,7 +14152,7 @@
                "perk_000_description": "The Weaver is now skillful enough to use materials created by other crafters."
             },
             "level_4_data": {
-               "perk_000_name": "Ingenuity Enhancements <br><br>(não implementado)",
+               "perk_000_name": "Ingenuity Enhancements (não implementado)",
                "perk_000_description": "The Weaver adds new levels of functionality to classic recipes."
             },
             "level_1_data": {
@@ -14568,11 +14583,11 @@
             "topiary_fox_recipe": {
                "description": "Much better for pie than jerky",
                "recipe_name": "Berry Fox",
-               "flavor": "Don't plan it in your poyo coop"
+               "flavor": "Não plante em seu galinheiro"
             },
             "pot_berry_bush_recipe": {
-               "description": "A sign with the mark of the Herbalist.",
-               "recipe_name": "Herbalist's Wall-Mounted Sign"
+               "description": "A carefully crated friend.",
+               "recipe_name": "Potted Berry Bush"
             },
             "pot_goldrose_recipe": {
                "description": "Hearty yellow blossoms",
@@ -14703,8 +14718,8 @@
                "description": "Muscle improved greatly from the presence of a cleric"
             },
             "legendary_circlet_buff": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Shining Circlet",
+               "description": "Increases Willpower, Courage, and Compassion by 10%"
             }
          }
       },
@@ -14821,31 +14836,31 @@
          },
          "npc_miner": {
             "npc_miner_description": {
-               "display_name": "",
-               "description": "",
-               "requirements": "",
+               "display_name": "Miner",
+               "description": "Mines terrain.",
+               "requirements": "None",
                "level_1_data": {
-                  "title": ""
+                  "title": "Miner"
                }
             }
          },
          "npc_restocker": {
             "npc_restocker_description": {
-               "display_name": "",
-               "description": "",
-               "requirements": "",
+               "display_name": "Miner",
+               "description": "Restocks items.",
+               "requirements": "None",
                "level_1_data": {
-                  "title": ""
+                  "title": "Restocker"
                }
             }
          },
          "npc_harvester": {
             "npc_harvester_description": {
-               "display_name": "",
-               "description": "",
-               "requirements": "",
+               "display_name": "Harvester",
+               "description": "Harvests farms and resources.",
+               "requirements": "None",
                "level_1_data": {
-                  "title": ""
+                  "title": "Harvester"
                }
             }
          }
@@ -14853,8 +14868,8 @@
       "amberstone": {
          "worker": {
             "worker_outfit_winter_hood": {
-               "display_name": "",
-               "description": ""
+               "display_name": "Winter Hood",
+               "description": "Fluffy protection from the cold"
             }
          }
       }
@@ -14891,7 +14906,7 @@
             },
             "egg_large": {
                "decay_1": {
-                  "description": "Starting to go bad. Better cook it soon."
+                  "description": "Começando a estragar. Melhor cozinhar logo."
                }
             }
          },
@@ -14900,8 +14915,8 @@
             "description": "Fibroso, mas nutritivo!"
          },
          "bug_meat": {
-            "description": "viscoso mas gostoso!",
-            "display_name": "Bug Meat"
+            "description": "Viscoso mas gostoso!",
+            "display_name": "Carne de Inseto"
          }
       },
       "monster": {

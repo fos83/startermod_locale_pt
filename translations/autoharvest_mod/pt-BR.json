@@ -1,0 +1,16 @@
+{
+	"data": {
+		"commands": {
+			"autoharvest_on": {
+				"display_name": "O modo colheita automática está ativado",
+				"description": "Clique para desligá-lo.",
+				"disabled_description": "Não pode ser desativado agora, tente novamente mais tarde."
+			},
+			"autoharvest_off": {
+				"display_name": "O modo colheita automática está desligado",
+				"description": "Clique para ativá-lo.",
+				"disabled_description": "Não é possível ligar agora, tente novamente mais tarde."
+			}
+		}
+	}
+}
