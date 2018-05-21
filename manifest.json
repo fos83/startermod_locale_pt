@@ -39,14 +39,14 @@
 	"overrides": {
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR.json)",
 		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR.json)",
-		"frostfeast/locales/pt-BR.json": "file(translations/frostfeast/pt-BR.json)",
-		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR.json)",
-		"debugtools/locales/pt-BR.json": "file(translations/debugtools/pt-BR.json)",
+		"autoharvest_mod/locales/pt-BR.json": "file(translations/autoharvest_mod/pt-BR.json)",
+		"canyon_biome/locales/pt-BR.json": "file(translations/canyon_biome/pt-BR.json)",
+		"miner_prof/locales/pt-BR.json": "file(translations/miner_prof/pt-BR.json)",
 
 		"stonehearth/locales/pt-PT.json": "file(translations/stonehearth/pt-PT.json)",
 		"rayyas_children/locales/pt-PT.json": "file(translations/rayyas_children/pt-PT.json)",
-		"frostfeast/locales/pt-PT.json": "file(translations/frostfeast/pt-PT.json)",
-		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT.json)",
-		"debugtools/locales/pt-PT.json": "file(translations/debugtools/pt-PT.json)"
+		"autoharvest_mod/locales/pt-PT.json": "file(translations/autoharvest_mod/pt-PT.json)",
+		"canyon_biome/locales/pt-PT.json": "file(translations/canyon_biome/pt-PT.json)",
+		"miner_prof/locales/pt-PT.json": "file(translations/miner_prof/pt-PT.json)"
 	}
 }
