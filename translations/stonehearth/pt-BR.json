@@ -66,45 +66,45 @@
 		"game": {
 			"build2": {
 				"tool_status": {
-					"eraseTool": "Erasing",
-					"roofTool": "Placing Roof",
-					"blocksTool": "Drawing Blocks",
-					"paintTool": "Painting Voxels",
-					"wallTool": "Placing Walls",
-					"stairsTool": "Placing Stairs",
-					"holeTool": "Making Holes",
-					"splitWallTool": "Splitting Walls",
-					"roomTool": "Placing Room",
-					"pointerTool": "Pointer",
+					"eraseTool": "Apagando",
+					"roofTool": "Colocando Telhados",
+					"blocksTool": "Desenhando Blocos",
+					"paintTool": "Pintando Voxels",
+					"wallTool": "Colocando Paredes",
+					"stairsTool": "Colocando Escadas",
+					"holeTool": "Fazendo Buracos",
+					"splitWallTool": "Dividindo Paredes",
+					"roomTool": "Colocando Quartos",
+					"pointerTool": "Ponteiro",
 					"roadTool": "Criando ruas"
 				},
-				"place_build_banner": "Place the banner at a hearthling-accessible location next to your building.",
+				"place_build_banner": "Coloque o banner em um local acessível ao lado de sua construção.",
 				"new_building_confirm": {
-					"title": "Create New Building",
-					"message": "Do you want to start a new building project?",
+					"title": "Criar Nova Construção",
+					"message": "Você quer começar um novo projeto de construção?",
 					"yes": "Sim!",
 					"no": "Não"
 				},
 				"destroy_building_confirm": {
-					"title": "Destroy Current Building",
-					"message": "Do you really want to destroy this building?  This operation cannot be undone!",
+					"title": "Destruir Construção Atual",
+					"message": "Você realmente quer destruir este prédio? Esta operação não pode ser desfeita!",
 					"yes": "Sim!",
 					"no": "Não"
 				},
-				"saving_building": "Saving template...",
-				"success_saving_building": "Template saved.",
-				"error_saving_building": "There was an error saving your template!",
+				"saving_building": "Salvando modelo...",
+				"success_saving_building": "Modelo salvo",
+				"error_saving_building": "Houve um erro ao salvar seu modelo!",
 				"plan_job_status": {
-					"COMPLETE": "Construction is already underway!",
-					"INVALID_BLUEPRINTS": "This building contains invalid structures.  Make sure no structures are red!",
-					"PLANNING_ERROR_GENERIC": "Your Hearthlings cannot figure out how to build your building!  Please send your building template to the Stonehearth team for investigation."
+					"COMPLETE": "A construção já está em andamento!",
+					"INVALID_BLUEPRINTS": "Este edifício contém estruturas inválidas. Certifique-se de que nenhuma estrutura esteja vermelha!",
+					"PLANNING_ERROR_GENERIC": "Seus Hearthlings não conseguem descobrir como construir seu prédio! Por favor, envie seu modelo de construção para a equipe Stonehearth para investigação."
 				},
 				"building_status": {
-					"build_button": "BUILD",
+					"build_button": "CONSTRUIR",
 					"pause_button": "PAUSA",
 					"resume_button": "RETOMAR",
 					"finished_button": "FEITO",
-					"cost_prefix": "Cost:"
+					"cost_prefix": "Custo:"
 				},
 				"material_list": {
 					"wall": "Parede",
@@ -112,13 +112,16 @@
 					"floor": "Chão",
 					"roof": "Cobertura",
 					"stairs": "Escadas"
+				},
+				"template_list": {
+					"title": "Modelos de Construção"
 				}
 			},
 			"game_speed": {
 				"pause_title": "Pausa",
 				"pause_description": "Pausa o Jogo",
-				"play_title": "Play",
-				"play_description": "Rodar Jogo na velocidade normal",
+				"play_title": "Jogar",
+				"play_description": "Rodar jogo na velocidade normal",
 				"ff_title": "Avanço Rápido",
 				"ff_description": "Rodar jogo na velocidade 2x",
 				"speedThree_title": "Super Velocidade",
@@ -138,40 +141,40 @@
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
 				"terrain_xray_vision_flat": "plano",
 				"terrain_xray_vision_full": "completo",
-				"appeal_vision_icon_name": "appeal",
-				"appeal_vision": "Appeal Vision",
-				"appeal_vision_description": "See how appealing hearthlings find the world."
+				"appeal_vision_icon_name": "apelo",
+				"appeal_vision": "Visão de Apelo",
+				"appeal_vision_description": "Veja o quão atraente os hearthlings acham o mundo."
 			},
 			"trade_menu": {
-				"title": "Trade with [str(town_name)]",
-				"you": "[str(town_name)] (You!)",
-				"offering": "You are offering: ",
-				"requesting": "You are requesting:",
+				"title": "Trocar com [str(town_name)]",
+				"you": "[str(town_name)] (Você!)",
+				"offering": "Você está oferencendo: ",
+				"requesting": "Você está pedindo:",
 				"source_gold": "Seu ouro:",
 				"target_gold": "Ouro dele:",
-				"give_1": "Give 1",
-				"give_10": "Give 10",
-				"request_1": "Request 1",
-				"request_10": "Request 10",
-				"remove_1": "Remove 1",
-				"remove_10": "Remove 10",
-				"cancel": "Cancel Trade",
-				"send": "Send Trade Request"
+				"give_1": "Dar 1",
+				"give_10": "Dar 10",
+				"request_1": "Pedir 1",
+				"request_10": "Pedir 10",
+				"remove_1": "Remover 1",
+				"remove_10": "Remover 10",
+				"cancel": "Cancelar Troca",
+				"send": "Enviar Pedido de Troca"
 			},
 			"promotion_tree": {
-				"title": "Escolha um Trabalho",
+				"title": "Escolha um Trabalho -",
 				"promotion_title": "Promover a [str(job_name)]",
-				"text_1": "Em honra de esforços firmes e de resiliência,",
+				"text_1": "Em honra de esforços firmes e resiliência, nós avançamos:",
 				"text_current": "Este é o trabalho atual do hearthling.",
 				"choose": "escolha um hearthling...",
-				"text_2": "nesse dia, [str(date)]",
+				"text_2": "[str(date)] ",
 				"approve": "APROVAR",
 				"approved": "APROVADO",
 				"denied": "NEGADO! Requisitos não atendidos",
 				"stamper_top_text": "CLIQUE PARA",
 				"stamper_bottom_text": "APROVAR",
 				"requires": "Requer",
-				"parent_level": "A level [str(parent_level)] [str(parent_name)]"
+				"parent_level": "Um [str(parent_name)] nível [str(parent_level)]"
 			},
 			"people_picker": {
 				"title": "Escolha um Hearthling",
@@ -180,17 +183,18 @@
 				"ownership_owns_another_tooltip": "Já possui um objeto similar"
 			},
 			"player_picker": {
-				"title": "Escolha um jogador"
+				"title": "Escolha um Jogador"
 			},
 			"multiplayer_menu": {
 				"display_name": "Multiplayer Menu",
-				"description": "View and manage other connected players",
+				"description": "Other players that have joined this world",
 				"host": "host",
 				"client": "client",
 				"online": "online",
 				"offline": "offline",
 				"connecting": "connecting",
 				"embarking": "embarking",
+				"invite": "Invite",
 				"player": "Player",
 				"players": "Players",
 				"disconnect_player": "Disconnect Player",
@@ -237,10 +241,10 @@
 				"max_level": "Nivel Maximo!!!",
 				"no_levels": "Sem subir de nível",
 				"level_text": "Nivel ",
-				"level_abbreviation": "Lvl",
+				"level_abbreviation": "Lvl ",
 				"locked_status": "(Bloqueado)",
 				"apprentice": "Aprendiz",
-				"journeyman": "Journeyman",
+				"journeyman": "Oficial",
 				"master": "Mestre",
 				"journal": "Diário",
 				"thoughts": "Pensamentos",
@@ -249,23 +253,23 @@
 				"equipment": "Equipamentos",
 				"abilities": "Habilidades",
 				"appeal": "Atrativo",
-				"unknown_item": "Undiscovered Preference",
+				"unknown_item": "Preferência não descoberta",
 				"morale_title": "Moral",
 				"overall_morale": "Moral Geral",
 				"morale_food": "Comida",
 				"morale_shelter": "Abrigo",
 				"morale_safety": "Proteção",
-				"attack_abbreviation": "Atk",
-				"defense_abbreviation": "Def",
+				"attack_abbreviation": "Atk ",
+				"defense_abbreviation": "Def ",
 				"backpack_tab_name": "Mochila",
 				"journal_no_entries": "sem registros",
 				"retired": "Aposentado em:",
 				"traits": "Traços",
-				"above": "Acima",
-				"below": "Abaixo",
+				"above": "acima",
+				"below": "abaixo",
 				"currently": "Atualmente:",
-				"no_unhappy_thoughts": "No unhappy thoughts so far!",
-				"no_happy_thoughts": "No happy thoughts yet!",
+				"no_unhappy_thoughts": "Nenhum pensamento infeliz até agora!",
+				"no_happy_thoughts": "Ainda não há pensamentos felizes!",
 				"appeal_headings": {
 					"like": "Gosta",
 					"like_tooltip": "A space is viewed as more beautiful for every liked item present, up to three.",
@@ -466,6 +470,8 @@
 				"show_character_sheet": "Mais informações",
 				"button_suspend": "suspender",
 				"button_resume": "resumir",
+				"change_all": "Change All",
+				"change_all_title": "Set which town all citizens should work for",
 				"tab": {
 					"tasks": "Afazeres",
 					"groups": "Groups"
@@ -902,6 +908,7 @@
 				"reembarkation": {
 					"title": "A new adventure awaits!",
 					"dismiss": "Maybe Later",
+					"reject": "Maybe Next Month",
 					"confirm": "Depart",
 					"prompt": "Select a crew to depart on a new adventure, and choose items for them to take along!"
 				},
@@ -930,6 +937,10 @@
 				"inventory_full": {
 					"title": "Town Items Full",
 					"message": "You've reached the maximum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+				},
+				"quest_bulletin_dialog": {
+					"description": "Description",
+					"rewards": "Rewards"
 				}
 			},
 			"build_mode2": {
@@ -964,6 +975,31 @@
 						"destroy": "Can't destroy buildings you don't own.",
 						"build": "Can't build, pause, or resume buildings you don't own."
 					}
+				},
+				"build_mode_title": "Build & Design",
+				"blocks_tool_context": {
+					"blocks": "Blocks",
+					"roof": "Roof",
+					"wall": "Wall",
+					"cycle_normal": "Cycle Normal"
+				},
+				"roof_tool_context": {
+					"drop_walls": "Drop Walls",
+					"slope": "Slope",
+					"front": "Front",
+					"back": "Back",
+					"left": "Left",
+					"right": "Right"
+				},
+				"stairs_designer": {
+					"block_stairs": "Block Stairs",
+					"free_stairs": "Free Stairs",
+					"apply_block_style": "Apply Block Style",
+					"apply_free_style": "Apply Free Style",
+					"rotate": "Rotate"
+				},
+				"stairs_tool_context": {
+					"hollow": "Hollow"
 				}
 			},
 			"build_mode": {
@@ -1270,7 +1306,9 @@
 				"orders_tab": "Encomendas",
 				"missing_ingredients": "Missing ingredients: ",
 				"tooltip_appeal_stat": "Appeal",
-				"tooltip_net_worth_stat": "Gold Value"
+				"tooltip_net_worth_stat": "Gold Value",
+				"damage_stat": "ATK",
+				"armor_stat": "DEF"
 			},
 			"town_overview": {
 				"title": "Town Overview",
@@ -1695,15 +1733,19 @@
 				"note": "Enabling or disabling a module requires a game reload.",
 				"apply": "Aplicar",
 				"open_folder": "Abrir Pasta",
+				"quit_to_menu": "Save and Quit to Menu",
+				"base_mod": "Base Mod",
 				"sections": {
 					"base_mods": {
 						"title": "Módulos Base"
 					},
 					"unmanaged_mods": {
-						"title": "Módulos Local"
+						"title": "Módulos Local",
+						"templates_title": "Your Templates"
 					},
 					"workshop_mods": {
 						"title": "Módulos da Oficina",
+						"templates_title": "Subscribed Template Packs",
 						"browse_workshop": "Browse Steam Workshop",
 						"unsubscribe": "Unsubscribe",
 						"view_in_workshop": "View in Workshop",
@@ -1713,8 +1755,17 @@
 					},
 					"my_items": {
 						"title": "Workshop Uploads",
+						"templates_title": "Template Pack Uploads",
 						"create_new_mod": "Criar novo Módulo"
 					}
+				},
+				"tooltips": {
+					"open_folder": "Open mod folder",
+					"view_in_workshop": "View mod in workshop",
+					"toggle_view_templates": "Expand/collapse list of templates",
+					"edit_templates": "Edit this mod's list of templates",
+					"upload": "Upload mod to workshop",
+					"unsubscribe": "Unsubscribe from mod"
 				},
 				"unsubscribe_dialog": {
 					"title": "Are you sure you want to unsubscribe?",
@@ -1777,6 +1828,8 @@
 				"title": "Different Mod Order",
 				"note": "This game was saved with mods in a different order than your current game.",
 				"old_save_note": "This game was saved before mod order was stored in the save. These are the mods you currently have enabled, in order.",
+				"saved_order": "Saved Order",
+				"current_order": "Current Order",
 				"warning_dialog": {
 					"title": "Warning",
 					"message": "Playing with different mod order than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
@@ -1850,6 +1903,7 @@
 				"exceeded_byte_limit": "* exceeded byte limit ([str(byte_limit)])",
 				"debug_mod": "Debug Mod",
 				"localization_mod": "Is this a translation mod?",
+				"building_template_mod": "Is this a building templates mod?",
 				"errors": {
 					"steam_not_present": "Steam is not running",
 					"update_handle_invalid": "Could not update mod [str(modname)]. Check that you have permissions to update this steam workshop item.",
@@ -1888,6 +1942,15 @@
 					"failed": "Steam failed to create the mod"
 				}
 			},
+			"edit_template_mod": {
+				"title": "Edit Templates for [str(modname)] mod",
+				"available_templates": "Available Templates",
+				"mod_templates": "[str(modname)]",
+				"confirm": {
+					"title": "Save mod templates",
+					"message": "Save changes to your mod template lists? This action cannot be undone."
+				}
+			},
 			"select_game_story": {
 				"title": "Escolha a sua Aventura",
 				"story_start": "Esta é a história de ...",
@@ -1922,6 +1985,11 @@
 			"select_roster": {
 				"reroll_citizens": "Novos cidadãos",
 				"reembark_button": "Choose Saved",
+				"delete_crew": "Delete",
+				"delete_crew_confirm_title": "Delete Crew?",
+				"delete_crew_confirm_message": "Are you sure you want to permanently delete the selected re-embarkation crew?",
+				"delete_crew_confirm_yes": "Yes",
+				"delete_crew_confirm_no": "Cancel",
 				"select_crew": "Select",
 				"cancel_crew": "Cancel",
 				"reembark_title": "Choose Saved Citizens",
@@ -1940,6 +2008,9 @@
 			"loadout": {
 				"title": "Selecionar recursos iniciais",
 				"start": "Iniciar"
+			},
+			"template_palette": {
+				"delete_template": "This template file will be deleted"
 			}
 		},
 		"debug": {
