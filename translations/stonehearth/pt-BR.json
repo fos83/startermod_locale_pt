@@ -186,38 +186,38 @@
 				"title": "Escolha um Jogador"
 			},
 			"multiplayer_menu": {
-				"display_name": "Multiplayer Menu",
-				"description": "Other players that have joined this world",
-				"host": "host",
-				"client": "client",
-				"online": "online",
-				"offline": "offline",
-				"connecting": "connecting",
-				"embarking": "embarking",
-				"invite": "Invite",
-				"player": "Player",
-				"players": "Players",
-				"disconnect_player": "Disconnect Player",
-				"erase_player": "Destroy Belongings",
-				"remote_connections_disabled": "Multiplayer not enabled",
-				"remote_connections_disabled_description": "Enable multiplayer in settings to allow other players to join your game",
+				"display_name": "Menu Multiplayer",
+				"description": "Outros jogadores que entraram nesse mundo",
+				"host": "hospedeiro",
+				"client": "convidado",
+				"online": "online ",
+				"offline": "offline ",
+				"connecting": "conectando",
+				"embarking": "embarcando",
+				"invite": "Convidar",
+				"player": "Jogador",
+				"players": "Jogadores",
+				"disconnect_player": "Desconectar Jogador",
+				"erase_player": "Destruir Pertences",
+				"remote_connections_disabled": "Multiplayer desligado",
+				"remote_connections_disabled_description": "Ative multijogador nas configurações para permitir que outros jogadores participem do seu jogo",
 				"settings": "Configurações",
-				"trade": "Trade",
-				"transfer_player": "Claim Belongings",
+				"trade": "Trocar",
+				"transfer_player": "Reivindicar Pertences",
 				"confirm": {
-					"cancel": "Cancel",
-					"continue": "Continue",
+					"cancel": "Cancelar",
+					"continue": "Continuar",
 					"disconnect_player": {
-						"title": "Disconnect this player",
-						"message": "Are you sure you want to disconnect this player?"
+						"title": "Desconecte esse jogador",
+						"message": "Tem certeza de que deseja desconectar este jogador?"
 					},
 					"erase_player": {
-						"title": "Destroy player belongings",
-						"message": "Are you sure you want destroy all of this player's belongings? This will also remove this player's town from the game. You cannot undo this action."
+						"title": "Destrua os pertences do jogador",
+						"message": "Tem certeza que quer destruir todos os pertences deste jogador? Isso também removerá a cidade desse jogador do jogo. Você não pode desfazer essa ação."
 					},
 					"transfer_player": {
-						"title": "Claim player belongings",
-						"message": "Are you sure you want take all of this player's belongings? This will also remove this player's town from the game. You cannot undo this action."
+						"title": "Reivindicar pertences do jogador",
+						"message": "Tem certeza de que quer pegar todos os pertences deste jogador? Isso também removerá a cidade desse jogador do jogo. Você não pode desfazer essa ação."
 					},
 					"friends_overlay": {
 						"title": "Convide amigos",
@@ -228,10 +228,10 @@
 			"build_workshop": {
 				"title": "Construir Mesa de Trabalho",
 				"requirements": "Requisitos",
-				"create_stockpile": "Crafter's Stockpile",
+				"create_stockpile": "Estoque do artesão",
 				"create_stockpile_description": "O artesão vai colocar seus itens em um armazém.<p>Você provavelmente quer colocar o armazém perto da mesa de trabalho, mas é sua decisão.",
-				"page1_subtitle2": "Click on the ground to place the workshop",
-				"page2_subtitle2": "Click and drag on the ground to place the stockpile"
+				"page1_subtitle2": "Clique no chão para colocar a oficina",
+				"page2_subtitle2": "Clique e arraste no chão para colocar o estoque"
 			},
 			"citizen_character_sheet": {
 				"title": "Informações do Personagem",
@@ -272,15 +272,15 @@
 				"no_happy_thoughts": "Ainda não há pensamentos felizes!",
 				"appeal_headings": {
 					"like": "Gosta",
-					"like_tooltip": "A space is viewed as more beautiful for every liked item present, up to three.",
+					"like_tooltip": "Um espaço é visto como mais bonito para cada item desejado no local, até no máximo três.",
 					"love": "Ama",
-					"love_tooltip": "Seeing one of these loved items will drastically improve [str(self.stonehearth:unit_info.custom_name)]'s opinion of an area.",
+					"love_tooltip": "Ver um desses itens amados melhorará drasticamente a opinião de [str(self.stonehearth:unit_info.custom_name)] sobre uma área.",
 					"dislike": "Detesta",
-					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] dislikes these items and will always find them unappealing, regardless of quality.",
+					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] não gosta desses itens e sempre os achará desagradáveis, independentemente da qualidade.",
 					"current_and_target_bar": "Opinião geral",
-					"current_and_target_bar_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s opinion of their surroundings and recently visited areas.",
-					"current_arrow_tooltip": "[str(self.stonehearth:unit_info.custom_name)]'s overall opinion of the town's appeal. This affects their mood.",
-					"target_arrow_tooltip": "How [str(self.stonehearth:unit_info.custom_name)] views their immediate surroundings.  This affects their overall opinion of the town with time.",
+					"current_and_target_bar_tooltip": "A opinião de [str(self.stonehearth:unit_info.custom_name)] sobre o seu entorno e áreas visitadas recentemente.",
+					"current_arrow_tooltip": "Opinião geral de [str(self.stonehearth:unit_info.custom_name)] do apelo da cidade. Isso afeta o humor deles.",
+					"target_arrow_tooltip": "Como [str(self.stonehearth:unit_info.custom_name)] vê seu entorno imediato. Isso afeta sua opinião geral da cidade com o tempo.",
 					"item_preferences": "Gostos de [str(self.stonehearth:unit_info.custom_name)]"
 				}
 			},
@@ -335,59 +335,59 @@
 				"save_tooltip_description": "Nome da Pasta: [str(folder_name)]"
 			},
 			"common": {
-				"ok": "OK",
+				"ok": "Ok",
 				"cancel": "Cancelar",
 				"yes": "Sim",
 				"no": "Não",
 				"accept": "Aceitar",
 				"decline": "Recusar",
 				"next": "Próximo",
-				"continue": "Continue",
+				"continue": "Continuar",
 				"hotkey": "Tecla de Atalho: ",
 				"remove": "Remover",
 				"input_text_tooltip": "Click para Editar",
 				"days": "d",
 				"hours": "h",
-				"the": "the",
+				"the": "o",
 				"empty_string": ""
 			},
 			"multiplayer_settings": {
-				"create_new_multiplayer_game": "Create new multiplayer game",
-				"open_game_to_multiplayer": "Open game to multiplayer",
-				"allow_remote_connections": "Enable Multiplayer",
-				"allow_remote_connections_description": "Allow other players to join your game",
+				"create_new_multiplayer_game": "Crie novo jogo multijogador",
+				"open_game_to_multiplayer": "Abrir jogo para multijogadores",
+				"allow_remote_connections": "Habilitar Multijogador",
+				"allow_remote_connections_description": "Permitir que outros jogadores participem do seu jogo",
 				"game_speed_anarchy": "Convidados podem controlar a velocidade",
 				"game_speed_anarchy_description": "Permita que outros controlem a velocidade",
-				"start": "Start",
-				"settings": "Multiplayer Settings",
-				"max_players": "Max Players",
+				"start": "Iniciar",
+				"settings": "Configurações de Multijogador",
+				"max_players": "Máximo de Jogadores",
 				"max_players_description": "Defina o número máximo de jogadores que podem participar",
-				"max_players_warning": "Warning: Games with more than 3 players may experience reduced performance (less responsive AI, hitching)."
+				"max_players_warning": "Aviso: Jogos com mais de 3 jogadores podem apresentar desempenho reduzido (IA menos responsiva, engasgos)."
 			},
 			"multiplayer_status_text": {
 				"status": {
-					"connected": "connected",
-					"connecting": "is connecting",
-					"disconnected": "disconnected",
-					"removed": "removed from game",
-					"placed_camp": "placed their camp",
-					"changed_town_name": "set their town name to"
+					"connected": "conectado",
+					"connecting": "está conectando",
+					"disconnected": "desconectado",
+					"removed": "removido do jogo",
+					"placed_camp": "colocou seu acampamento",
+					"changed_town_name": "definiram o nome da cidade para"
 				}
 			},
 			"disconnected": {
-				"disconnected": "You were disconnected",
+				"disconnected": "Você foi desconectado",
 				"reasons": {
-					"error": "Something has gone wrong. You've lost connection to the server.",
-					"kick": "You were disconnected by the host.",
-					"shutdown": "The server was shutdown.",
-					"closed": "Server not accepting connections",
-					"full": "Server is full"
+					"error": "Algo deu errado. Você perdeu a conexão com o servidor.",
+					"kick": "Você foi desconectado pelo hospedeiro.",
+					"shutdown": "O servidor foi encerrado.",
+					"closed": "Servidor não aceitando conexões",
+					"full": "Servidor está cheio"
 				}
 			},
 			"steam": {
 				"workshop_agreement": {
-					"notice": "By submitting this item, you agree to the workshop",
-					"terms_of_service": "terms of service"
+					"notice": "Ao enviar este item, você concorda com os ",
+					"terms_of_service": "termos de serviço da oficina"
 				}
 			},
 			"party": {
@@ -396,17 +396,17 @@
 				"edit_party": "Editar",
 				"add_party_member": "Adicionar Membro",
 				"remove_members": "Remover Todos os Membros",
-				"add_party_member_title": "Manage Roster",
+				"add_party_member_title": "Gerenciar Lista",
 				"done_adding_members": "Feito",
 				"add_party_member_button": "Adicionar",
 				"remove_party_member_button": "Remover",
-				"not_in_party": "Not in a party",
-				"party_help": "Party members will travel together and can be directed on the battlefield.",
-				"party_editor_help": "Use this screen to add and remove hearthlings to the party.",
-				"attack_banner_button": "Attack Order",
-				"attack_banner_button_help": "Tell the party to assault a location",
-				"defend_banner_button": "Rally & Defend Order",
-				"defend_banner_button_help": "Tell the party to rally to a location when Town Defense Mode is activated"
+				"not_in_party": "Sem grupo",
+				"party_help": "Os membros do grupo viajarão juntos e poderão ser direcionados para o campo de batalha.",
+				"party_editor_help": "Use esta tela para adicionar e remover hearthlings ao grupo.",
+				"attack_banner_button": "Ordem de Ataque",
+				"attack_banner_button_help": "Manda o grupo atacar o local",
+				"defend_banner_button": "Ordem para se reunir e defender",
+				"defend_banner_button_help": "Manda o grupo se reunir em um local quando o modo de defesa da cidade estiver ativado"
 			},
 			"unit_frame": {
 				"show_character_sheet": "Show character sheet",
@@ -444,7 +444,8 @@
 				"placed": "placed",
 				"placement_tags": {
 					"turret": "Turrets",
-					"trap": "Armadilhas"
+					"trap": "Armadilhas",
+					"golem": "Golems"
 				},
 				"quality": {
 					"quality-2": "Fine Quality",
@@ -470,16 +471,16 @@
 				"show_character_sheet": "Mais informações",
 				"button_suspend": "suspender",
 				"button_resume": "resumir",
-				"change_all": "Change All",
-				"change_all_title": "Set which town all citizens should work for",
+				"change_all": "Mudar Todos",
+				"change_all_title": "Defina em qual cidade todos os cidadãos devem trabalhar",
 				"tab": {
 					"tasks": "Afazeres",
-					"groups": "Groups"
+					"groups": "Grupos"
 				},
 				"enrollment": {
-					"enrolled": "Enrolled",
-					"not_enrolled": "Not enrolled",
-					"cannot_enroll": "Cannot enroll"
+					"enrolled": "Inscrito",
+					"not_enrolled": "Não inscrito",
+					"cannot_enroll": "Não pode se inscrever"
 				},
 				"working_for": {
 					"title": "Mude trabalhando para",
@@ -541,10 +542,10 @@
 			},
 			"entities": {
 				"custom_name": "[str(self.stonehearth:unit_info.custom_name)]",
-				"unknown_name": "Unknown",
+				"unknown_name": "Estranho",
 				"item_categories": {
 					"food": "Comida",
-					"cooking_ingredient": "Cooking Ingredients",
+					"cooking_ingredient": "Ingredientes para Cozinhar",
 					"resources": "Recursos",
 					"furniture": "Mobília",
 					"armor": "Armadura",
@@ -556,15 +557,15 @@
 					"weapons": "Armas",
 					"tools": "Ferramentas",
 					"wealth": "Riqueza",
-					"refined": "Refined",
+					"refined": "Refinado",
 					"uncategorized": "Sem categoria",
-					"workshops": "Workshops",
+					"workshops": "Oficinas",
 					"consumable": "consumíveis",
-					"storage": "Storage",
-					"defense": "Defense",
+					"storage": "Estoque",
+					"defense": "Defesa",
 					"trophy": "Troféus",
 					"seed": "Sementes",
-					"pets": "Pets",
+					"pets": "Animais",
 					"none": "Nenhum"
 				},
 				"tooltip_combat_base_damage": "Atk:",
@@ -1856,6 +1857,7 @@
 				"game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
 				"note": "The game you are trying to join has the following mods.",
 				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
+				"version_note": "<span class=\"warning\">Warning:</span> You are running a different version of Stonehearth than the game you are trying to connect to.<br>This could prevent you from being able to connect, or lead to unexpected bugs during gameplay.",
 				"continue": "Continue to Game",
 				"loading": "Loading into game...",
 				"subscribe_all": "Subscribe All",
@@ -1890,6 +1892,8 @@
 				"opt_preview_image_placeholder": "No file chosen",
 				"opt_preview_image_info": "(1MB limit)",
 				"opt_preview_image_dialog_title": "Open preview image file",
+				"opt_building_template_preview_images": "Use building template screenshots as additional preview images",
+				"opt_building_template_preview_images_tooltip": "Add an additional preview image for every template in your building template mod.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> This will overwrite all existing preview images (except the main preview image) for this steam workshop item and replace them with your building template screenshots.",
 				"opt_change_note": "Change Note",
 				"opt_change_note_placeholder": "A brief description of the changes made",
 				"upload": "Upload",
@@ -5253,6 +5257,11 @@
 				"display_name": "Undeploy",
 				"description": "Undeploy this item and return it to a stockpile",
 				"disabled_description": "This item is in use. Try undeploying it later."
+			},
+			"undeploy_golem": {
+				"display_name": "Undeloy Golem",
+				"description": "Deactivate this golem and return it to a stockpile.",
+				"disabled_description": "Cannot deactivate at this time."
 			},
 			"unit_control": {
 				"abilities": {
