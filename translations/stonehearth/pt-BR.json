@@ -58,7 +58,8 @@
 				"incapacitated": "incapacitado",
 				"rescue_citizen": "resgatando [name(data.target)]",
 				"recuperating": "recuperando",
-				"celebrating": "celebrando"
+				"celebrating": "celebrando",
+				"confused": "confuso"
 			}
 		}
 	},
@@ -91,9 +92,24 @@
 					"yes": "Sim!",
 					"no": "Não"
 				},
+				"save_building_confirm": {
+					"title": "Salvar Construção Atual",
+					"message": "Quer salvar a construção atual como um modelo?",
+					"yes": "Sim!",
+					"no": "Não"
+				},
+				"delete_template_confirm": {
+					"title": "Deletar Modelo",
+					"message": "Tem certeza que quer deletar esse modelo?",
+					"yes": "Sim!",
+					"no": "Não"
+				},
 				"saving_building": "Salvando modelo...",
 				"success_saving_building": "Modelo salvo",
 				"error_saving_building": "Houve um erro ao salvar seu modelo!",
+				"deleting_template": "Deletando modelo...",
+				"success_deleting_template": "Modelo deletado.",
+				"error_deleting_template": "Houve um erro deletando seu modelo!",
 				"plan_job_status": {
 					"COMPLETE": "A construção já está em andamento!",
 					"INVALID_BLUEPRINTS": "Este edifício contém estruturas inválidas. Certifique-se de que nenhuma estrutura esteja vermelha!",
@@ -134,8 +150,10 @@
 				"terrain_slice_vision": "Visão de Terreno Fatiado",
 				"terrain_slice_vision_icon_name": "Camadas",
 				"terrain_slice_vision_description": "Corte o terreno, permitindo que você veja estruturas subterrâneas. Altere a elevação para ver diferentes fatias.",
-				"terrain_slice_vision_up": "Subir corte",
-				"terrain_slice_vision_down": "Descer corte",
+				"terrain_slice_vision_up": "Subir fatia (de 5)",
+				"terrain_slice_vision_up_single": "Subir fatia",
+				"terrain_slice_vision_down_single": "Descer fatia",
+				"terrain_slice_vision_down": "Descer fatia (de 5)",
 				"terrain_xray_vision_icon_name": "Raio-X",
 				"terrain_xray_vision": "Visão de Terreno Raio-X",
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
@@ -409,48 +427,48 @@
 				"defend_banner_button_help": "Manda o grupo se reunir em um local quando o modo de defesa da cidade estiver ativado"
 			},
 			"unit_frame": {
-				"show_character_sheet": "Show character sheet",
-				"focus_camera": "Focus camera on this unit",
+				"show_character_sheet": "Mostrar ficha do personagem",
+				"focus_camera": "Focalize a câmera nesta unidade",
 				"attack_target": {
-					"display_name": "Attack Move",
-					"description": "Attack a specific target or location."
+					"display_name": "Atacar",
+					"description": "Atacar um alvo ou local específico."
 				},
-				"crafted_by": "Crafted by [str(author_name)]",
-				"crafted_in": "Crafted in [str(author_name)]",
+				"crafted_by": "Feito por [str(author_name)]",
+				"crafted_in": "Feito em [str(author_name)]",
 				"defend_location": {
-					"display_name": "Defend Location",
-					"description": "Defend a location from enemies."
+					"display_name": "Defender Local",
+					"description": "Defenda uma localização dos inimigos."
 				},
 				"move_unit": {
-					"display_name": "Move to Location",
-					"description": "Move to a location without attacking."
+					"display_name": "Mover para o Local",
+					"description": "Mover para um local sem atacar."
 				},
 				"manage_party": {
-					"display_name": "Manage Party",
-					"description": "Add and remove combat units from the party."
+					"display_name": "Gerenciar Grupo",
+					"description": "Adicione e remova unidades de combate do grupo."
 				},
 				"cancel_order": {
-					"display_name": "Cancel Combat Order",
-					"description": "Cancels active combat orders."
+					"display_name": "Cancelar Ordens de Combate",
+					"description": "Cancela ordens de combate ativas."
 				},
 				"level": "Lv: ",
 				"Lvl": "Lvl",
 				"class_lv_title": "Requisitos de Classe e Nível",
 				"no_requirements": "Nenhum!",
-				"equipment_description": "Equippable by: [str(class_list)]",
-				"level_description": "of Level [str(level_req)]",
-				"or": " or ",
-				"num_uses": "Uses",
-				"placed": "placed",
+				"equipment_description": "Equipável por: [str(class_list)]",
+				"level_description": "de nível [str(level_req)]",
+				"or": " ou ",
+				"num_uses": "Utilizações",
+				"placed": "colocados",
 				"placement_tags": {
-					"turret": "Turrets",
+					"turret": "Torres",
 					"trap": "Armadilhas",
-					"golem": "Golems"
+					"golem": "Golens"
 				},
 				"quality": {
-					"quality-2": "Fine Quality",
-					"quality-3": "Excellent Quality",
-					"quality-4": "Masterwork Quality!"
+					"quality-2": "Qualidade Fina",
+					"quality-3": "Qualidade Excelente",
+					"quality-4": "Obra-prima de Qualidade!"
 				}
 			},
 			"citizens": {
@@ -465,7 +483,7 @@
 					"job": "Trabalhar",
 					"current_activity": "Atividade",
 					"working_for": "Trabalhando para",
-					"status": "Status",
+					"status": "Condição",
 					"morale": "Moral"
 				},
 				"show_character_sheet": "Mais informações",
@@ -496,24 +514,24 @@
 			},
 			"calendar": {
 				"months": {
-					"1": "Bittermun",
-					"2": "Deepmun",
-					"3": "Dewmun",
-					"4": "Rainmun",
-					"5": "Growmun",
-					"6": "Goldmun",
-					"7": "Feastmun",
-					"8": "Warmun",
-					"9": "Newmun",
-					"10": "Azuremun",
-					"11": "Hearthmun",
-					"12": "Northmun"
+					"1": "Mesamargo",
+					"2": "Mesprofundo",
+					"3": "Mesorvalho",
+					"4": "Meschuva",
+					"5": "Mescrescer",
+					"6": "Mesouro",
+					"7": "Mesbanquete",
+					"8": "Mesguerra",
+					"9": "Mesnovo",
+					"10": "Mesazul",
+					"11": "Mesforno",
+					"12": "Mesnorte"
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
 				"date_format_long": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
 				"date_format_long_ordinal": "Dia [str(ord_day)] de i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
 				"date_time_long_format": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
-				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]",
+				"date_format_short": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format)",
 				"weather_prefix_0": "Hoje",
 				"weather_prefix_1": "Amanhã",
 				"weather_prefix_2": "Depois de amanhã"
@@ -568,13 +586,13 @@
 					"pets": "Animais",
 					"none": "Nenhum"
 				},
-				"tooltip_combat_base_damage": "Atk:",
+				"tooltip_combat_base_damage": "Atq:",
 				"tooltip_combat_base_damage_reduction": "Def:",
 				"tooltip_num_undeployed": "Desocupado: [str(num_undeployed)]",
-				"tooltip_deprecated": "Legacy Item: this item is no longer obtainable in the game.",
+				"tooltip_deprecated": "Item Legado: este item não pode mais ser obtido no jogo.",
 				"death_notification": "[name(i18n_data.entity)] esta morto.",
-				"imminent_death_notification": "[name(i18n_data.citizen)] is severely low on health!",
-				"starving_notification": "[name(i18n_data.citizen)] is starving!",
+				"imminent_death_notification": "[name(i18n_data.citizen)] está gravemente fraco em saúde!",
+				"starving_notification": "[name(i18n_data.citizen)] está morrendo de fome!",
 				"health_status_normal": "Normal",
 				"health": "HP",
 				"gender": {
@@ -585,250 +603,250 @@
 			"menu": {
 				"town_menu": {
 					"display_name": "Informações Sobre a Cidade",
-					"description": "General information about your town, how your hearthlings are feeling, and the wealth you've accumulated!"
+					"description": "Informações gerais sobre a sua cidade, como estão se sentindo os seus hearthlings e a riqueza que você acumulou!"
 				},
 				"citizen_manager": {
 					"display_name": "Cidadãos",
-					"description": "Manage your hearthlings and promote them to new jobs."
+					"description": "Gerencie seus hearthlings e promova-os a novos empregos."
 				},
 				"harvest_menu": {
 					"display_name": "Coletar",
-					"description": "Harvest resources or mine into the earth.",
+					"description": "Colha recursos ou minere na terra.",
 					"items": {
 						"harvest": {
 							"display_name": "Obter",
-							"description": "Gather trees, plants, and stones from the surface of the land",
-							"tip_title": "Click and drag to harvest resources",
-							"tip_description": "Right click to exit this mode"
+							"description": "Colha árvores, plantas e pedras da superfície da terra",
+							"tip_title": "Clique e arraste para coletar recursos",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"mine_basic": {
-							"display_name": "Mine Tunnel",
-							"description": "Mine out 4x4 tunnels and caves",
-							"tip_title": "Click and drag to dig",
-							"tip_description": "Hold Ctrl to subtract regions. Right click to exit."
+							"display_name": "Minerar Túnel",
+							"description": "Minere tuneis e cavernas 4x4",
+							"tip_title": "Clique e arraste para cavar",
+							"tip_description": "Pressione Ctrl para subtrair regiões. Clique com o botão direito para sair."
 						},
 						"mine_custom": {
-							"display_name": "Mine Custom Block",
-							"description": "Mine blocks of custom size",
-							"tip_title": "Click and drag to dig",
-							"tip_description": "Resize horizontally with Shift + MouseWheel.<br/>Resize vertically with Alt + MouseWheel.<br/>Hold Ctrl to subtract regions.<br/>Right click to exit."
+							"display_name": "Minere Bloco Customizado",
+							"description": "Minere blocos de tamanho customizado",
+							"tip_title": "Clique e arraste para cavar",
+							"tip_description": "Redimensione horizontalmente com Shift + Roda do Mouse. <br/> Redimensione verticalmente com Alt + Roda do Mouse. <br/> Pressione Ctrl para subtrair as regiões. <br/> Clique com o botão direito para sair."
 						},
 						"loot_item": {
-							"display_name": "Loot",
-							"description": "Take items from enemies",
-							"tip_title": "Click and drag to loot items from the world",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Pilhagem",
+							"description": "Pegue itens de inimigos",
+							"tip_title": "Clique e arraste para roubar itens do mundo",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"cancel_task": {
-							"display_name": "Cancel Task",
-							"description": "Cancel tasks on this object",
-							"tip_title": "Click and drag to remove various commands",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Cancelar Tarefa",
+							"description": "Cancel tarefas desse objeto",
+							"tip_title": "Clique e arraste para remover vários comandos",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"clear_item": {
-							"display_name": "Destroy",
-							"description": "Destroy items in the world",
-							"tip_title": "Click and drag to permanently destroy items in the world",
-							"tip_description": "Right click to exit this mode",
-							"confirm_title": "Are you really sure you want to destroy these items?",
-							"confirm_message": "Usable items in the area will be permanently destroyed",
+							"display_name": "Destruir",
+							"description": "Destruir itens no mundo",
+							"tip_title": "Clique e arraste para destruir permanentemente itens no mundo",
+							"tip_description": "Clique com o botão direito para sair deste modo",
+							"confirm_title": "Você tem certeza de que quer destruir esses itens?",
+							"confirm_message": "Itens utilizáveis na área serão permanentemente destruídos",
 							"confirm_clear": "Sim, destruir!",
-							"confirm_clear_no": "No! I need that stuff!"
+							"confirm_clear_no": "Não! Eu preciso dessas coisas!"
 						}
 					}
 				},
 				"zone_menu": {
 					"display_name": "Designar Zonas",
-					"description": "Designate areas of the ground for storage, farming, etc.",
+					"description": "Designar áreas do solo para armazenamento, agricultura, etc.",
 					"items": {
 						"create_stockpile": {
-							"display_name": "Stockpile",
-							"description": "Place a stockpile for storing resources.",
-							"tip_title": "Click and drag to create your stockpile",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Estoque",
+							"description": "Coloque um estoque para armazenar recursos.",
+							"tip_title": "Clique e arraste para criar seu estoque",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"create_farm": {
 							"display_name": "Fazenda",
 							"description": "Coloque uma Fazenda no Terreno.",
 							"required_job_text": "Precisa de um Fazendeiro",
-							"tip_title": "Click and drag to designate a new field",
-							"tip_description": "Farmers will break ground and plant crops here"
+							"tip_title": "Clique e arraste para designar um novo campo",
+							"tip_description": "Os agricultores vão abrir caminho e plantar as colheitas aqui"
 						},
 						"create_trapping_grounds": {
 							"display_name": "Area de Caça",
 							"description": "Coloque Armadilhar para capturar pequenos bichos.",
 							"required_job_text": "Precisa de um Caçador",
-							"tip_title": "Click and drag to create trapping grounds",
-							"tip_description": "Trappers catch critters for food and resources in this zone"
+							"tip_title": "Clique e arraste para criar áreas de armadilhas",
+							"tip_description": "Os caçadores pegam bichos para comida e recursos nesta zona"
 						},
 						"create_pasture": {
 							"display_name": "Pasto de Animais",
 							"description": "O Pastor vai trazer Animais para Pastar aqui.",
 							"required_job_text": "Precisa de um Pastor",
-							"tip_title": "Click and drag to create an animal pasture",
-							"tip_description": "Shepherds bring animals to this region and tend to their needs here."
+							"tip_title": "Clique e arraste para criar um pasto animal",
+							"tip_description": "Os pastores trazem animais para esta região e atendem às suas necessidades aqui."
 						}
 					}
 				},
 				"build_menu": {
 					"display_name": "Construir & Projetar",
-					"description": "Build structures like houses and city walls.",
+					"description": "Construa estruturas como casas e muros da cidade.",
 					"items": {
 						"building_templates": {
 							"display_name": "Colocar Construção",
-							"description": "Choose to construct a building from a pre-designed template"
+							"description": "Opte por construir um edifício a partir de um modelo pré-concebido"
 						},
 						"custom_building": {
 							"display_name": "Projetar Construção",
-							"description": "Design your own one-of-a-kind building"
+							"description": "Projete seu próprio prédio único"
 						},
 						"broken_building": {
-							"display_name": "Old 'n Busted",
-							"description": "Tempt fate with the old building editor!"
+							"display_name": "Velho e rebentado",
+							"description": "Desafie o destino com o editor do prédio antigo!"
 						},
 						"place_item": {
 							"display_name": "Colocar Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"description": "Coloque itens como móveis e decoração",
+							"tip_title": "Clique para colocar este item",
+							"tip_description": "Girar com as teclas [str(left_binding)] e [str(right_binding)]"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Não é possível colocar este item",
+							"tip_description": "Limite atingido de [str(tag)] colocados: [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
 							"display_name": "Construir escada",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"description": "Construa uma escada para acessar lugares difíceis de alcançar",
+							"tip_title": "Clique em uma parede para construir escadas",
+							"tip_description": "Clique para colocar manualmente uma escada para acessar áreas difíceis de alcançar. <br> <br> Clique com o botão direito para sair"
 						}
 					}
 				},
 				"place_menu": {
-					"display_name": "Place",
-					"description": "Place objects like furniture and ladders.",
+					"display_name": "Colocar",
+					"description": "Coloque objetos como móveis e escadas.",
 					"items": {
 						"place_item": {
-							"display_name": "Place Item",
-							"description": "Place items like furniture and decoration",
-							"tip_title": "Click to place this item",
-							"tip_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys"
+							"display_name": "Colocar Item",
+							"description": "Coloque itens como móveis e decoração",
+							"tip_title": "Clique para colocar este item",
+							"tip_description": "Girar com as teclas [str(left_binding)] e [str(right_binding)]"
 						},
 						"cannot_place_item": {
-							"tip_title": "Cannot place this item",
-							"tip_description": "Reached [str(tag)] item placement limit of [str(num)] / [str(max)]"
+							"tip_title": "Não é possível colocar este item",
+							"tip_description": "Limite atingido de [str(tag)] colocados: [str(num)] / [str(max)]"
 						},
 						"build_ladder": {
-							"display_name": "Construct Ladder",
-							"description": "Build a ladder to access hard to reach places",
-							"tip_title": "Click on a wall to build ladders",
-							"tip_description": "Click to manually place a ladder to access hard to reach areas.<br><br>Right click to exit"
+							"display_name": "Construir Escada",
+							"description": "Construa uma escada para acessar lugares difíceis de alcançar",
+							"tip_title": "Clique em uma parede para construir escadas",
+							"tip_description": "Clique para colocar manualmente uma escada para acessar áreas difíceis de alcançar. <br> <br> Clique com o botão direito para sair"
 						}
 					}
 				},
 				"fight_menu": {
 					"display_name": "Lutar & Defender",
-					"description": "Manage your combat forces",
+					"description": "Gerencie suas forças de combate",
 					"items": {
 						"party_manager": {
-							"display_name": "Parties",
-							"description": "Organize your troops into groups"
+							"display_name": "Grupos",
+							"description": "Organize suas tropas em grupos"
 						},
 						"town_alert": {
-							"display_name": "Town Alert Mode!",
-							"description": "Rally your hearthlings to prepare for intruders!",
-							"activated_title": "Town Alert Mode Activated!",
-							"activated_text": "Your hearthlings are vigilantly watching for intruders. Non-combat hearthlings will run to safety points."
+							"display_name": "Modo de Alerta da Cidade!",
+							"description": "Reúna seus hearthlings para se preparar para intrusos!",
+							"activated_title": "Modo de Alerta da Cidade Ativado!",
+							"activated_text": "Seus hearthlings estão atentos aos intrusos. Hearthlings não-combatentes irão correr para pontos de segurança."
 						},
 						"party_1": {
-							"display_name": "Combat Party 1",
-							"description": "Direct hearthlings with combat jobs into battle! Promoted combat units are automatically added here.",
-							"tip_title": "The party is selected in the unit frame.",
-							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+							"display_name": "Grupo de Combate 1",
+							"description": "Controle hearthlings combatentes na batalha! Unidades de combate promovidas são adicionadas automaticamente aqui.",
+							"tip_title": "O grupo está selecionado no quadro da unidade",
+							"tip_description": "Use os comandos no quadro da unidade para controlar as pessoas no grupo."
 						},
 						"party_2": {
-							"display_name": "Combat Party",
-							"description": "Direct hearthlings with combat jobs into battle! Use the unit frame controls to manage the party.",
-							"tip_title": "The party is selected in the unit frame.",
-							"tip_description": "Use the commands in the unit frame to direct the people in the party."
+							"display_name": "Grupo de Combate",
+							"description": "Controle hearthlings combatentes na batalha! Use os controles de quadro da unidade para gerenciar o grupo.",
+							"tip_title": "O grupo está selecionado no quadro da unidade",
+							"tip_description": "Use os comandos no quadro da unidade para controlar as pessoas no grupo."
 						},
 						"party": {
-							"required_job_text": "Requires a combat job"
+							"required_job_text": "Requer uma classe de combate"
 						}
 					}
 				},
 				"crafter_menu": {
-					"display_name": "Crafters",
-					"description": "Build and manage crafting workshops",
+					"display_name": "Artesãos",
+					"description": "Construa e gerencie oficinas de artesãos",
 					"items": {
 						"carpenter": {
 							"display_name": "Menu de Criação (Carpinteiro)",
-							"description": "Build wooden furniture and decor.",
+							"description": "Construa móveis de madeira e decoração.",
 							"required_job_text": "Requer um Carpinteiro"
 						},
 						"weaver": {
 							"display_name": "Menu de Criação (Tecelão)",
-							"description": "Create clothes, fabrics, and decor.",
+							"description": "Crie roupas, tecidos e decoração.",
 							"required_job_text": "Requer um Tecelão"
 						},
 						"mason": {
 							"display_name": "Menu de Criação (Pedreiro)",
-							"description": "Chisel stone weapons and furniture.",
+							"description": "Cinzele as armas de pedra e móveis.",
 							"required_job_text": "Requer um Pedreiro"
 						},
 						"blacksmith": {
 							"display_name": "Menu de Criação (Ferreiro)",
-							"description": "Smelt ore for weapons and armor.",
+							"description": "Funda minérios para armas e armaduras.",
 							"required_job_text": "Requer um Ferreiro"
 						},
 						"cook": {
 							"display_name": "Menu de Criação (Cozinheiro)",
-							"description": "Makes food taste better and last longer.",
+							"description": "Torna os alimentos mais saborosos e duram mais.",
 							"required_job_text": "Requer um Cozinheiro"
 						},
 						"potter": {
 							"display_name": "Menu de Criação (Oleiro)",
-							"description": "Makes bricks and goods from clay.",
+							"description": "Faz tijolos e mercadorias de barro.",
 							"required_job_text": "Requer um Oleiro"
 						},
 						"herbalist": {
 							"display_name": "Menu de Criação (Herbalist)",
-							"description": "Makes healing items from herbs.",
+							"description": "Faz itens de cura de ervas.",
 							"required_job_text": "Requer Um Herbalist"
 						},
 						"engineer": {
 							"display_name": "Menu de Criação (Engenheiro)",
-							"description": "Make contraptions and defensive weaponry",
+							"description": "Faça engenhocas e armamento defensivo",
 							"required_job_text": "Requer um Engenheiro"
 						}
 					}
 				},
 				"bulletin_manager": {
-					"display_name": "Bulletins",
-					"description": "Important notifications about the world and your town"
+					"display_name": "Boletins",
+					"description": "Notificações importantes sobre o mundo e sua cidade"
 				},
 				"tasks_manager": {
-					"display_name": "Manage Tasks",
-					"description": "Do task stuff.",
-					"remove_stockpile": "Remove Stockpile",
-					"pause_stockpile": "Pause",
-					"resume_stockpile": "Resume",
+					"display_name": "Gerenciar Tarefas",
+					"description": "Faça coisas de tarefa.",
+					"remove_stockpile": "Remover Estoque",
+					"pause_stockpile": "Pausar",
+					"resume_stockpile": "Resumir",
 					"group": {
-						"stockpiles": "Stockpiles",
-						"building": "Building",
-						"placement": "Placed Items",
-						"maintenance": "General Maintenance",
-						"farming": "Farming",
-						"harvesting": "Harvesting",
-						"mining": "Mining",
-						"trapping": "Trapping"
+						"stockpiles": "Estoques",
+						"building": "Construindo",
+						"placement": "Itens Colocados",
+						"maintenance": "Manutenção Geral",
+						"farming": "Cultivando",
+						"harvesting": "Colhendo",
+						"mining": "Minerando",
+						"trapping": "Armadilhando"
 					},
-					"percent_full": "[str(percent)] Percent Full",
+					"percent_full": "[str(percent)] por cento cheio",
 					"active": "Ativo",
 					"paused": "Pausado"
 				},
 				"warnings": {
-					"town_inventory_full": "Town Items Full"
+					"town_inventory_full": "Itens da Cidade Cheio"
 				}
 			},
 			"bulletin": {
@@ -845,7 +863,7 @@
 					"shop_gold_label": "Ouro",
 					"shopkeeper_gold_label": "Ouro (Mercador)",
 					"not_enough_gold_tooltip": "Não há ouro suficiente",
-					"shopkeeper_not_enough_gold_tooltip": "Shopkeeper does not have enough gold"
+					"shopkeeper_not_enough_gold_tooltip": "Lojista não tem ouro suficiente"
 				},
 				"trade": {
 					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
@@ -1378,7 +1396,7 @@
 		"shell": {
 			"about": {
 				"title": "Sobre Stonehearth",
-				"attributions": "The following is a list of OpenSource Software that is used in Stonehearth:"
+				"attributions": "A seguir, uma lista do Software OpenSource que é usado no Stonehearth:"
 			},
 			"loading_screen": {
 				"initial_load_game_text": "Carregando",
@@ -1458,11 +1476,11 @@
 				"world_seed": "Número do mundo: ",
 				"terrain_stats": {
 					"trees_and_plants_title": "Árvores e Plantas",
-					"trees_and_plants_description": "Wood is a primary building resource. You will need some in order to build your buildings and craft items like beds, tables, and chairs.",
+					"trees_and_plants_description": "A madeira é um recurso de construção principal. Você precisará de alguns para construir seus prédios e criar itens como camas, mesas e cadeiras.",
 					"wildlife_title": "Vida selvagem",
-					"wildlife_description": "Local wildlife can be hunted for food and raw crafting materials.",
+					"wildlife_description": "A fauna local pode ser caçada por alimentos e materiais de artesanato bruto.",
 					"minerals_title": "Minerais",
-					"minerals_description": "You will need minerals if you plan on building things from stone or metal."
+					"minerals_description": "Você precisará de minerais se planeja construir coisas de pedra ou metal."
 				},
 				"terrain_codes": {
 					"water": "Água",
@@ -1502,6 +1520,12 @@
 				"gameplay": "Jogabilidade",
 				"controls": "Controles",
 				"card": "Placa de Video: ",
+				"gfx_custom": "Customizado",
+				"gfx_minimum": "Minimo",
+				"gfx_low": "Baixo",
+				"gfx_medium": "Médio",
+				"gfx_high": "Alto",
+				"gfx_ultra": "Ultra",
 				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Habilitar Sombras",
 				"gfx_enable_vsync": "Habilitar VSync",
@@ -1513,6 +1537,8 @@
 				"gfx_drawdistance": "Campo de Visao",
 				"gfx_enable_ssao": "Habilitar Oclusao do Ambiente",
 				"gfx_use_high_quality": "Habilitar Graficos de Alta Qualidade",
+				"gfx_use_recommended_graphics": "Use as configurações gráficas recomendadas",
+				"gfx_disable_deferred_renderer_description": "<font color='#eb4c36'><strong>AVISO:</strong></font> Desabilitar a renderização adiada causará problemas de desempenho em cidades com muitas luzes. Apenas desative-o como último recurso.",
 				"shadow_0": "Desabilitado",
 				"shadow_1": "Apenas um Toque",
 				"shadow_2": "Um pouco",
@@ -1526,14 +1552,14 @@
 				"aa_slider_4": "Muito Mesmo!",
 				"sound": "Som",
 				"background_music_volume": "Volume da Musica",
-				"ambient_volume": "Ambient Volume",
+				"ambient_volume": "Volume do Ambiente",
 				"effects_volume": "Volume dos Efeitos",
 				"system": "Sistema",
 				"force_32_bit": "* Forcar 32-bit (Requer Reinicio)",
 				"force_32_bit_note": "* Force 32-bit apenas se for absolutamente necessario.64-bit e mais rapido e suporta grandes cidades.",
-				"collect_profile": "Collect profile",
-				"enable_lua_jit": "Use Lua JIT (Requires Restart)",
-				"send_anon_data": "Mande FeedBack Anonimo para ajudar a melhorar o Stonehearth!",
+				"collect_profile": "Colher perfil",
+				"enable_lua_jit": "Use Lua JIT (Requer Reiniciar)",
+				"send_anon_data": "Mande feedback anonimo para ajudar a melhorar o Stonehearth!",
 				"language_select": "Idioma",
 				"unsaved_changes_dialog": {
 					"title": "Descartar alteraçoes?",
@@ -1541,10 +1567,9 @@
 				},
 				"gameplay_tab": {
 					"title": "Jogabilidade",
-					"experimental": "Experimental",
-					"experimental_description": "Estas definições estão em desenvolvimento e pode não esta estavel! Ative a seu provrio risco!",
+					"advanced": "Unstable Settings",
+					"advanced_description": "<font color='#eb4c36'><strong>WARNING:</strong></font> These settings may affect game stability and performance! Change at your own risk!",
 					"enable_speed_3": "Ativar velocidade 3",
-					"enable_speed_3_note": "Nota: O desempenho pode ser comprometido com as cidades maiores. esteja avisado!",
 					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
 					"default_storage_filter_none": "Storage filter defaults to None",
 					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
@@ -1553,12 +1578,15 @@
 					"show_hearthling_paths": "Show Hearthling paths",
 					"show_hearthling_paths_description": "Display the path your hearthlings are following.",
 					"max_citizens": "Nº Maximo de Cidadãos",
+					"max_citizens_description": "Change the limit on maximum number of citizens you can have in your town.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> Having more than 20 hearthlings can cause performance issues including AI unresponsiveness/idling and hitching.",
 					"randomize_attributes": "Randomize Hearthling Attributes",
 					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
 					"auto_loot": "Auto Loot",
 					"auto_loot_description": "When an enemy drops loot, automatically mark it for pick up.",
 					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
-					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters."
+					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters.",
+					"infinite_inventory": "Disable inventory capacity limit",
+					"infinite_inventory_description": "This will the remove the limit on the maximum number of items you can have in your town inventory.<br><br>Note: You must restart the game for this to take effect!<br><br><font color='#eb4c36'><strong>Warning:</strong></font> Having too many items in the game will affect game performance."
 				},
 				"mods": "Módulos",
 				"mods_tab": {
@@ -1630,6 +1658,8 @@
 						"vision_xray_toggle": "Toggle Terrain X-Ray Vision",
 						"vision_slice_toggle": "Toggle Terrain Slice Vision",
 						"vision_slice_up": "Terrain Slice Up",
+						"vision_slice_up_single": "Terrain Slice Up",
+						"vision_slice_down_single": "Terrain Slice Down",
 						"vision_slice_down": "Terrain Slice Down",
 						"vision_appeal_toggle": "Toggle Appeal Vision",
 						"speed_pause": "Pause",
@@ -1709,7 +1739,7 @@
 				"settings": "Configuração",
 				"about": "Sobre",
 				"kingdom_of": "O Reino de",
-				"continue_game": "Continue",
+				"continue_game": "Continuar",
 				"new_game": "Novo Jogo",
 				"singleplayer_game": "Singleplayer",
 				"multiplayer_game": "Multiplayer",
@@ -1731,18 +1761,18 @@
 			},
 			"mods_menu": {
 				"title": "Módulos",
-				"note": "Enabling or disabling a module requires a game reload.",
+				"note": "Ativar ou desativar um módulo requer um recarregamento de jogo.",
 				"apply": "Aplicar",
 				"open_folder": "Abrir Pasta",
-				"quit_to_menu": "Save and Quit to Menu",
-				"base_mod": "Base Mod",
+				"quit_to_menu": "Salvar e sair do menu",
+				"base_mod": "Mod Base",
 				"sections": {
 					"base_mods": {
 						"title": "Módulos Base"
 					},
 					"unmanaged_mods": {
 						"title": "Módulos Local",
-						"templates_title": "Your Templates"
+						"templates_title": "Seus modelos"
 					},
 					"workshop_mods": {
 						"title": "Módulos da Oficina",
@@ -1858,6 +1888,8 @@
 				"note": "The game you are trying to join has the following mods.",
 				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
 				"version_note": "<span class=\"warning\">Warning:</span> You are running a different version of Stonehearth than the game you are trying to connect to.<br>This could prevent you from being able to connect, or lead to unexpected bugs during gameplay.",
+				"your_version": "Your version: [str(version)]",
+				"their_version": "Their version: [str(version)]",
 				"continue": "Continue to Game",
 				"loading": "Loading into game...",
 				"subscribe_all": "Subscribe All",
@@ -2011,7 +2043,8 @@
 			},
 			"loadout": {
 				"title": "Selecionar recursos iniciais",
-				"start": "Iniciar"
+				"start": "Iniciar",
+				"pets_checkbox": "Include a random exotic pet"
 			},
 			"template_palette": {
 				"delete_template": "This template file will be deleted"
@@ -4010,12 +4043,21 @@
 									"warchief_defeat_dialog": {
 										"dialog_tree_info": {
 											"dialog_nodes": {
+												"msg3": {
+													"bulletin_message": {
+														"00": "I now return home. Word comes to me that, bereft of our Khan's wisdom, our shaman have delved into dark things, long forgotten. They think the mistakes of the past do not apply to them, and I fear for what they may do."
+													},
+													"bulletin_title": "Warchief Oghar Norwind",
+													"dialog_title": "Warchief Oghar Norwind"
+												},
 												"msg2": {
 													"bulletin_message": {
 														"00": "I now return home. Word comes to me that bereft of our Khan's wisdom, our shaman have delved too far into dark, unknowable things. Nonetheless, if you ever wish to spar again and improve your skills, put out any gong of the Four Colors and we will gladly return to meet your challenge."
 													},
 													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"dialog_title": "Warchief Oghar Norwind",
+													"choice_000": "Bring it on!",
+													"choice_001": "We should remove those..."
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -4036,6 +4078,261 @@
 									},
 									"unlock_red_token_recipe": {
 										"bulletin_title": "The Blacksmith has unlocked the Decorative Master Gong recipe!"
+									},
+									"titan_already_killed_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"story2": {
+													"bulletin_message": {
+														"00": "O-oh... how did you? Never mind, it matters not. I shall return to my people with the news that the Titanous scourge can be defeated. This may be what tips events in our favor, away from the treasonous shaman.<br><br>My deepest thanks to you, on behalf of my late Khan."
+													},
+													"bulletin_title": "Erdene boggles",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Uh, no problem, I guess!"
+												},
+												"story1": {
+													"bulletin_message": {
+														"00": "I had come to warn you of the Titan lurking under your lands... to beseech your help in eradicating it, but... <br><br>...did you already cleanse this land of its sinister presence?"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Confused",
+													"choice_000": "Oh, yeah, we got rid of it a while ago."
+												},
+												"greet": {
+													"bulletin_message": {
+														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+													},
+													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Thank you, Erdene"
+												},
+												"intro": {
+													"bulletin_message": {
+														"00": "I come with a request of the utmost urgence, there is... wait..."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Something wrong?"
+												}
+											}
+										}
+									},
+									"titan_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"request1": {
+													"bulletin_message": {
+														"00": "My request of you: A fragment of the evil that brought low the Phoenix Empire has coalesced here, beneath your feet.<br><br>Left unchallenged, it will sleep for generations yet, growing in strength, stifling and corrupting the magic of this land.<br><br>Awaken this Titan now, though, and it will have no choice but to expend its gathered energy in a final battle against your settlement. Withstand its wrath, and it will be snuffed out for good, and your descendants will live in peace."
+													},
+													"bulletin_title": "Erdene requests",
+													"dialog_title": "Erdene's request",
+													"choice_000": "Yes! We'll fight, what now?",
+													"choice_001": "No. ...Do we have to?"
+												},
+												"accept1": {
+													"bulletin_message": {
+														"00": "My shamans devised this Gong - take it and place it. When you are prepared, let it ring aloud, and it will rouse the slumbering Titan.<br><br>You will be beset by horrors for days, perhaps weeks - but a fragmented evil cannot sustain itself. Outlast. Strike at its minions, dig up its roots, drive off its tendrils. Every small victory will weaken it.<br><br>Persevere, and the Titan will fall, and a small part of the calamity of the Phoenix Empire finally undone.<br><br>Be an example for my people that this evil can be faced and destroyed - that we need not enslave ourselves to it. Please."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "We will ensure we're ready"
+												},
+												"story2": {
+													"bulletin_message": {
+														"00": "Below is wrong. Snake knows this. Rabbit knows this. Monkey knows this, too. But, power seeks power.<br><br>The Phoenix, they found whispers of power below. They dug with picks and found clues, they dug with minds and found knowledge.<br><br>Knowledge without wisdom is peril."
+													},
+													"bulletin_title": "Erdene speaks low",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "What next?"
+												},
+												"farewell": {
+													"bulletin_message": {
+														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Goodbye, Erdene"
+												},
+												"story1": {
+													"bulletin_message": {
+														"00": "It is a tale passed from Speaker to Speaker, of when Monkey first rose to prominence. From Monkey came humans, and those humans united.<br><br>They built an Empire, spreading from the center outwards until it encompassed the entire continent. As their grand central capital stretched up into the sky, the humans’ ambition led them below..."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Below?"
+												},
+												"reject1": {
+													"bulletin_message": {
+														"00": "No, I suppose not. The Titan will stay asleep for generations, your settlement is not at risk.<br><br>Perhaps I was wrong to burden you with a task that is rightfully mine. My apologies. I withdraw now, to tend to my own people.<br><br>I will leave behind this specially-prepared Gong - in the event you change your mind, simply place it and you shall be further enlightened.<br><br>Farewell, humans."
+													},
+													"bulletin_title": "Erdene sighs...",
+													"dialog_title": "Erdene sighs...",
+													"choice_000": "We wish you the best."
+												},
+												"story5": {
+													"bulletin_message": {
+														"00": "In time, the darkness subsided, but now it saturates the earth, whispering to those who will listen. We Orcs tested your town’s strength not just for glory, but to prove that you have the will to resist this evil and its corruption.<br><br>Although, without a Khan to guide them, the shaman of the Red Kiln now seek to re-form this titanic evil, to control it.<br><br>I must stop them - it was my Khan’s last wish. But, this is for me and my kind to do.<br><br>Of you, I ask a favor."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "What favor?"
+												},
+												"greet": {
+													"bulletin_message": {
+														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+													},
+													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Thank you, Erdene"
+												},
+												"story4": {
+													"bulletin_message": {
+														"00": "Humans fled, receding to the edges of the world, and held on by their very fingertips until the darkness quieted itself.<br><br>Orcs, like all of Snake’s children, stayed and fought. Fought the corrupted, fought through famine and hardship. Whether through noble courage or foolish pride, I know not.<br><br>The Rabbits, already in decline, burrowed deep, forsaking the surface world."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Oh..."
+												},
+												"story3": {
+													"bulletin_message": {
+														"00": "A great evil was awakened, this we know. The capital was lost, obliterated, and the world surely doomed. But, there was some hero, some sacrifice, lost to time. It was enough. Not enough to destroy the evil, but enough to break it apart.<br><br>It dissipated like fog across the land, turning the forces of nature against its inhabitants, withering crops and fraying minds."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "What happened to the Empire?"
+												},
+												"intro": {
+													"bulletin_message": {
+														"00": "I… come also with a request. I fear for my people.<br/><br/>Have you heard of the Phoenix Empire? Of its end?"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "[skip] I've heard it before",
+													"choice_001": "Phoenix Empire?"
+												}
+											}
+										}
+									},
+									"display_titan_summoner_instructions": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"00": "<i><font size=-1>[Select the Gong and Press the 'Awaken Titan' button when you're ready. Killing or destroying the Titan's minions, tentacles, and roots will all reduce its health.]<br><br>[Good luck!]</font>"
+													},
+													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
+													"dialog_title": "A letter from Erdene",
+													"choice_000": "[Okay!]"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"00": "Only sound this gong when prepared - your town will be cut off from the world for days.<br><br>Corrupted creatures will surely appear - face them in combat if you can, hole up and hide if you cannot. There is no shame in survival. Be vigilant for citizens being trapped, buildings being threatened, and be prepared to dig.<br><br>Every small victory will sap away the Titan's strength - attempt no direct attack, it is out of reach and a mere apparition.<br><br>Stand strong in driving away its corruption, and you will emerge victorious."
+													},
+													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
+													"dialog_title": "A letter from Erdene",
+													"choice_000": "We will survive."
+												}
+											}
+										}
+									},
+									"titan_defeated_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"accept2": {
+													"bulletin_message": {
+														"00": "Excellent! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Safe travels, Erdene!"
+												},
+												"request1": {
+													"bulletin_message": {
+														"00": "I should add... due to your exceptional bravery, some of my people have gone beyond simply respecting you as Humans, to now truly consider you as Orc. <br/><br/>Some even wish to emmigrate and become members of your tribe."
+													},
+													"bulletin_title": "Erdene offers",
+													"dialog_title": "Erdene's offer",
+													"choice_000": "Orcs want to join my town?"
+												},
+												"accept1": {
+													"bulletin_message": {
+														"00": "Wonderful! So, this Orc disciple may join your tribe?"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "[Accept] Yes!",
+													"choice_001": "[Reject] No..."
+												},
+												"reject2": {
+													"bulletin_message": {
+														"00": "Very well. The news is sure to disappoint my disciple, but your tribe and its wishes deserve our utmost respect.<br><br>Farewell, brave Humans, until another day has dawned."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Safe travels, Erdene!"
+												},
+												"greet": {
+													"bulletin_message": {
+														"00": "By the Khan's blessed name, you've done it!<br><br>I came as quickly as I could - I could feel the change in the winds even from the Red Kiln territories."
+													},
+													"bulletin_title": "Erdene of the Red Kiln returns, joyous",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "We did!"
+												},
+												"reject1": {
+													"bulletin_message": {
+														"00": "Oh, I see... and I understand. If I were standing in your stead, I could not so easily accept a Human into the ranks of the Red Kiln, either. <br><br>That said, are you sure my disciple does not have a place here?"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "[Reject] We're quite sure",
+													"choice_001": "[Accept] On second thought..."
+												},
+												"request2": {
+													"bulletin_message": {
+														"00": "Yes! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene gestures",
+													"choice_000": "I see!"
+												},
+												"request3": {
+													"bulletin_message": {
+														"00": "In fact, one of my most loyal disciples has come along with me. They are quite insistent about joining your tribe. In truth, I lament them leaving my side, but cannot begrudge their wishes.<br><br>What say you? <i>Will you accept this humble Orc into your township this day?</i>"
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene extends her hand",
+													"choice_000": "Welcome!",
+													"choice_001": "Um, no thanks..."
+												},
+												"intro": {
+													"bulletin_message": {
+														"00": "Your defeat of this sinister presence may be what tips events in our favor, and away from that of the treasonous shamans.<br><br>My deepest thanks to you, on behalf of my late Khan. I shall return to my people carrying the news that the Titanous scourge can, truly, be defeated."
+													},
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "I'm glad we could do some good"
+												}
+											}
+										}
+									},
+									"unlock_titan_ward_carpenter": {
+										"bulletin_title": "The Carpenter has unlocked the Anti-Titan Ward recipe!"
+									},
+									"prompt_for_recurring_orc_citizen": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"00": "Would you like to let this Orc to join your town?"
+													},
+													"bulletin_title": "An Orc immigrant!",
+													"dialog_title": "An Orc wishes to join your town!",
+													"choice_000": "Yes",
+													"choice_001": "No"
+												}
+											}
+										}
 									}
 								}
 							}
@@ -4634,6 +4931,93 @@
 					"unlock_shrine_recipes": {
 						"bulletin_title": "Mason shrine recipes unlocked!"
 					}
+				},
+				"titan": {
+					"titan_defeated_town_bonus": {
+						"name": "Land Cleansed of Corruption",
+						"description": "<i>With the defeat of its lurking Titan, this town's citizens can't help but be more cheerful.</i>"
+					},
+					"end_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "This calls for a celebration!"
+									},
+									"bulletin_title": "You did it!",
+									"dialog_title": "The Titan Is Vanquishsed",
+									"choice_000": "Yeah!"
+								},
+								"msg1": {
+									"bulletin_message": {
+										"00": "With a terrifying roar and a staggering blast of energy, the apparition of the Titan disintegrates, vanishing into nothingness.<br><br>As the gloom fades, your citizens marvel at the clear sky stretching out above them, and the land itself seems to breathe a sigh of relief as the laws of nature return to normal."
+									},
+									"bulletin_title": "You did it!",
+									"dialog_title": "The Titan Is Vanquishsed",
+									"choice_000": "Whew."
+								}
+							}
+						}
+					},
+					"alert_destroy_crops": {
+						"title": "A blight! We've lost some crops..."
+					},
+					"alert_initial_spawn_roots": {
+						"title": "The Titan's Roots are marked with spectral tentacles. Dig them up to weaken its grip over this land!"
+					},
+					"alert_spawn_camp": {
+						"title": "A new Portal opens, guarded by Corruptions"
+					},
+					"alert_spawn_roots": {
+						"title": "More Roots of corruption burrow close to the surface"
+					},
+					"alert_wave": {
+						"title": "A storm of evil erupts from the Titan! Take shelter!"
+					},
+					"delivery_quest_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "We'll somehow use carrots to hurt the Titan??"
+									},
+									"bulletin_title": "Carrot Quest",
+									"dialog_title": "Carrot Quest",
+									"choice_000": "Carrots, incoming!",
+									"choice_001": "We can defeat him without your help!"
+								}
+							}
+						}
+					},
+					"alert_trance": {
+						"title": "<Citizen Name> is overwhelmed by dark visions... "
+					},
+					"spawn_raid": {
+						"mission": {
+							"sighted_bulletin": {
+								"title": "Hostile Corruptions, and they're awfully close!"
+							}
+						}
+					},
+					"alert_destroy_building": {
+						"title": "A tentacle threatens our structure! Kill it, quickly!"
+					},
+					"alert_building_was_destroyed": {
+						"title": "One of our buildings was destroyed! We were too late..."
+					},
+					"alert_tentacle_grab": {
+						"title": "A tentacle grabs [name(i18n_data.entity)]! Free them!"
+					},
+					"alert_initial_camp_spawn": {
+						"title": "Vile Portals! Corruptions guard them while they spawn pestillence. Challenge them, if you have the strength..."
+					},
+					"alert_new_bugs": {
+						"title": "More Crawlers emerge from a Portal, hungry for your stockpiles"
+					},
+					"delivery_quest": {
+						"title": "Carrot Quest",
+						"dialog_title": "Deliver Carrots"
+					}
 				}
 			}
 		},
@@ -4879,6 +5263,10 @@
 				"cold_debuff": {
 					"display_name": "Cold Weather",
 					"description": "I'm freezing out here! I should get a roof above my head."
+				},
+				"hit_by_titanstorm_debuff": {
+					"display_name": "Overwhelmed by Titan's Storm",
+					"description": "The Storm of Evil has severely drained this Hearthling's energy. It's not fatal, but it's painful..."
 				}
 			},
 			"deity_town_bonus": {
@@ -4969,6 +5357,30 @@
 				"stat_buff": {
 					"display_name": "Divine Blessing",
 					"description": "Primary stats increased by 1."
+				}
+			},
+			"titan_trance": {
+				"titan_trance_debuff": {
+					"display_name": "Malefic Visions",
+					"description": "Overcome with visions of darkness. They'll snap out of it... hopefully."
+				}
+			},
+			"titan_building_destroyer": {
+				"titan_building_destroyer_waiting": {
+					"display_name": "Destruction in Waiting",
+					"description": "Once this finishes waking up, it will destroy the structure!"
+				}
+			},
+			"tentacle_snared": {
+				"tentacle_snared_debuff": {
+					"display_name": "Snared by Tentacle",
+					"description": "Struggling in the tentacle's iron grip."
+				}
+			},
+			"corrupt_regeneration": {
+				"corrupt_regeneration_buff": {
+					"display_name": "Corrupt Regeneration",
+					"description": "The Titan gives them strength."
 				}
 			}
 		},
@@ -5360,6 +5772,11 @@
 				"display_name": "Give Up!",
 				"description": "De-spawn the current enemy wave, without gaining any glory.",
 				"disabled_description": "No challenge enemies around right now."
+			},
+			"summon_titan": {
+				"display_name": "Awaken Titan",
+				"description": "Rouse the Titan from its slumber",
+				"disabled_description": "The Titan slumbers no longer"
 			}
 		},
 		"personality": {
@@ -6243,6 +6660,20 @@
 				"zilla": {
 					"description": "Beware Zilla!"
 				}
+			},
+			"corruption": {
+				"thief": {
+					"display_name": "Corrupt Crawler",
+					"description": "Small, but ravenous."
+				},
+				"wolf": {
+					"display_name": "Corrupted Beast",
+					"description": "Maybe a wolf, once..."
+				},
+				"zilla": {
+					"display_name": "Titan Wyrm",
+					"description": "Evil. Hungry."
+				}
 			}
 		},
 		"saved_objects": {
@@ -6690,6 +7121,30 @@
 						}
 					}
 				},
+				"titan": {
+					"roots": {
+						"harvested_bramble": {
+							"display_name": "Chopped down Dark Bramble",
+							"tooltip": "Feels good to do my part, taking an axe to this Titan's corrupt undergrowth!"
+						},
+						"harvested_root": {
+							"display_name": "Chopped down a Root of Evil",
+							"tooltip": "That's one step closer to kicking this Titan out for good!"
+						}
+					},
+					"victory": {
+						"titan_victory": {
+							"display_name": "Titan Vanquished!",
+							"tooltip": "We did it! The air seems cleaner now, and I don't feel like there's always something watching me..."
+						}
+					},
+					"peace": {
+						"no_more_titan": {
+							"display_name": "Titan-Free Homestead!",
+							"tooltip": "It feels nice to live in a place without an ancient darkness lurking below it for once!"
+						}
+					}
+				},
 				"town": {
 					"founding": {
 						"pioneering_spirit": {
@@ -7088,6 +7543,14 @@
 						"sandstorm_positive": {
 							"display_name": "tempestade de areia",
 							"tooltip": "The sands always come to test our fortitude... Mine is unwavering."
+						},
+						"titanstorm_negative": {
+							"display_name": "The End Times are Upon Us!",
+							"tooltip": "The Titan's gonna destroy everything! Run for your lives!"
+						},
+						"titanstorm_positive": {
+							"display_name": "We Can Do This!",
+							"tooltip": "We're stronger than some 'Titan'! The evil monster's big, and it's scary, but I believe in our town!!"
 						}
 					}
 				}
@@ -7225,6 +7688,32 @@
 			"blizzard": {
 				"display_name": "Blizzard",
 				"description": "Wind, and snow, and hail, oh my!<ul><li>Plant growth speed is greatly reduced.</li><li>Vision radius is greatly reduced.</li><li>Unsheltered hearthlings are too cold to work as effectively.</li><li>Unsheltered pasture animals are hurt by the cold.</li></ul>"
+			},
+			"titanstorm": {
+				"display_name": "Titan's Shadow",
+				"description": "It's garying outside, everybody! Chop tentacles on sight.",
+				"titan_titles": {
+					"1": "[str(self.stonehearth:unit_info.custom_name)], Destroyer of Cubes",
+					"2": "[str(self.stonehearth:unit_info.custom_name)] the Not-To-Be-Trifled-With",
+					"3": "Rancorous [str(self.stonehearth:unit_info.custom_name)]",
+					"4": "[str(self.stonehearth:unit_info.custom_name)], All-Consumer",
+					"5": "[str(self.stonehearth:unit_info.custom_name)], Whisperer",
+					"6": "Unknowable [str(self.stonehearth:unit_info.custom_name)]",
+					"7": "[str(self.stonehearth:unit_info.custom_name)], the Annihilator",
+					"8": "Despoiled [str(self.stonehearth:unit_info.custom_name)]",
+					"9": "[str(self.stonehearth:unit_info.custom_name)] the Abhorrent",
+					"10": "[str(self.stonehearth:unit_info.custom_name)] the Unforgiven",
+					"11": "[str(self.stonehearth:unit_info.custom_name)], Wretched Being",
+					"12": "Sinister [str(self.stonehearth:unit_info.custom_name)]",
+					"13": "Calamity [str(self.stonehearth:unit_info.custom_name)]",
+					"14": "[str(self.stonehearth:unit_info.custom_name)], the Disastrous",
+					"15": "Malevolent [str(self.stonehearth:unit_info.custom_name)]",
+					"16": "[str(self.stonehearth:unit_info.custom_name)], Wickedness",
+					"17": "[str(self.stonehearth:unit_info.custom_name)], the Null Reference",
+					"18": "[str(self.stonehearth:unit_info.custom_name)], the Beckoned",
+					"19": "[str(self.stonehearth:unit_info.custom_name)], the Antagonist",
+					"20": "[str(self.stonehearth:unit_info.custom_name)] of the Sphere"
+				}
 			}
 		}
 	},
@@ -7502,6 +7991,12 @@
 					"description": "A larger door. It makes quite an impression."
 				}
 			},
+			"amberstone_window": {
+				"amberstone_window_ghost": {
+					"display_name": "Burrow Window",
+					"description": "Lets the fresh air in"
+				}
+			},
 			"wooden_window_frame": {
 				"wooden_window_frame_ghost": {
 					"display_name": "Wooden Window Frame",
@@ -7572,6 +8067,12 @@
 				"stone_tunnel_door_ghost": {
 					"display_name": "Stone Tunnel Door",
 					"description": "Useful for sealing off mine tunnels."
+				}
+			},
+			"amberstone_tunnel_door": {
+				"amberstone_tunnel_door_ghost": {
+					"display_name": "Burrow Door",
+					"description": "Seals and protects underground dwellings"
 				}
 			},
 			"clay_tunnel_door": {
@@ -7722,6 +8223,12 @@
 					"description": "Stores up to 32 items"
 				}
 			},
+			"amberstone_chest": {
+				"amberstone_chest_ghost": {
+					"display_name": "Woven Chest",
+					"description": "Stores up to 64 items"
+				}
+			},
 			"leather_bound_chest": {
 				"leather_bound_chest_ghost": {
 					"display_name": "Leather Bound Chest",
@@ -7828,9 +8335,21 @@
 					"display_name": "Stone Finished Work Shelf"
 				}
 			},
+			"output_box_amberstone": {
+				"output_box_amberstone_ghost": {
+					"description": "Temporary storage for crafted items.",
+					"display_name": "Rabbit-carved Display Stand"
+				}
+			},
 			"input_bin_clay": {
 				"input_bin_clay_ghost": {
 					"display_name": "Ceramic Supply Basin",
+					"description": "A supply container, for quicker crafting."
+				}
+			},
+			"input_bin_amberstone": {
+				"input_bin_amberstone_ghost": {
+					"display_name": "Rabbit-woven Supply Basket",
 					"description": "A supply container, for quicker crafting."
 				}
 			},
@@ -8695,6 +9214,12 @@
 					"description": "A tidy home for the plant."
 				}
 			},
+			"amberstone_lantern": {
+				"amberstone_lantern_ghost": {
+					"display_name": "Stone-cut Lantern",
+					"description": "A warm little light"
+				}
+			},
 			"wooden_garden_lantern": {
 				"wooden_garden_lantern_ghost": {
 					"display_name": "Wooden Garden Lantern",
@@ -8770,6 +9295,12 @@
 					"description": "Plant Guardians"
 				}
 			},
+			"amberstone_teapot": {
+				"amberstone_teapot_ghost": {
+					"display_name": "Stone-cut Teapot",
+					"description": "A rabbit's cherished teapot"
+				}
+			},
 			"decorative_teapot": {
 				"decorative_teapot_ghost": {
 					"display_name": "Decorative Teapot",
@@ -8804,6 +9335,18 @@
 				"sundial_ghost": {
 					"display_name": "Sundial",
 					"description": "Decorates gardens, marks time"
+				}
+			},
+			"amberstone_mat": {
+				"amberstone_mat_ghost": {
+					"display_name": "Woven Throw",
+					"description": "Woven with the skill of the rabbits"
+				}
+			},
+			"amberstone_painting_branch": {
+				"amberstone_painting_branch_ghost": {
+					"display_name": "Flowering Painting",
+					"description": "Depicts a tree from cycles past"
 				}
 			},
 			"tile_floor_mosaic": {
@@ -9331,6 +9874,16 @@
 						"description": "This stone encases a cute little pond!"
 					}
 				}
+			},
+			"firepit_titan": {
+				"firepit_titan_ghost": {
+					"display_name": "Corrupted Portal",
+					"description": "You can hear chittering from beyond the threshold..."
+				}
+			},
+			"cheat_military_chest": {
+				"display_name": "Cheat Military Chest - Debug Item",
+				"description": "Contains one of each best non-legendary weapon and armor, plus bandages and turrets."
 			}
 		},
 		"food": {
@@ -9790,6 +10343,12 @@
 					"description": "Classy like piety."
 				}
 			},
+			"amberstone_bed": {
+				"amberstone_bed_ghost": {
+					"display_name": "Woven Bed",
+					"description": "So soft!!"
+				}
+			},
 			"comfy_bed": {
 				"comfy_bed_ghost": {
 					"display_name": "Comfy Bed",
@@ -9812,6 +10371,12 @@
 				"comfy_chair_fine_ghost": {
 					"display_name": "Fine Comfy Chair",
 					"description": "For sitting!"
+				}
+			},
+			"amberstone_table": {
+				"amberstone_table_ghost": {
+					"display_name": "Polished Stone Table",
+					"description": "Chiseled in the style of clan Amberstone"
 				}
 			},
 			"dining_table": {
@@ -9936,6 +10501,12 @@
 				"clay_dining_table_ghost": {
 					"display_name": "Clay Dining Table",
 					"description": "Gets your food off the floor"
+				}
+			},
+			"amberstone_chair": {
+				"amberstone_chair_ghost": {
+					"display_name": "Woven Seat",
+					"description": "Woven in the style of clan Amberstone"
 				}
 			},
 			"simple_clay_chair": {
@@ -10126,6 +10697,48 @@
 					"display_name": "Banner of Vitality Shred",
 					"description": "A shred from the Banner of Vitality, carrying along its magic."
 				}
+			},
+			"titan_ward_stone": {
+				"titan_ward_stone_ghost": {
+					"display_name": "Anti-Titan Ward",
+					"description": "Hurts anything nearby that smells like titan."
+				}
+			},
+			"titan_ward_clay": {
+				"titan_ward_clay_ghost": {
+					"display_name": "Anti-Titan Ward",
+					"description": "Hurts anything nearby that smells like titan."
+				}
+			},
+			"anti_titan_ward": {
+				"anti_titan_ward_ghost": {
+					"display_name": "Anti-Titan Ward",
+					"description": "Hurts anything nearby that smells like titan."
+				}
+			},
+			"titan_slayer": {
+				"titan_slayer_ghost": {
+					"display_name": "Artifact Bow",
+					"description": "Built with power enough to challenge titans"
+				}
+			},
+			"orc_titan_gong": {
+				"orc_titan_gong_ghost": {
+					"display_name": "Gong of Sinister Beckoning",
+					"description": "Made of strange, eerily smooth stone."
+				}
+			},
+			"root_of_evil": {
+				"display_name": "Root of Evil",
+				"description": "Kill it! Kill it with fire!"
+			},
+			"building_tentacle": {
+				"display_name": "Building Crusher",
+				"description": "Kill it before it wakes up and smashes your building!"
+			},
+			"tentacle_trap": {
+				"display_name": "Tentacle Trap",
+				"description": "Grabs anyone who passes close by."
 			}
 		},
 		"loot": {
@@ -10391,6 +11004,22 @@
 					"description": "Flightless avian"
 				}
 			},
+			"titan": {
+				"corrupt": {
+					"corrupt_zilla": {
+						"display_name": "Corrupt Monstrosity",
+						"description": "Evil. Hungry."
+					},
+					"corrupt_hearthling": {
+						"display_name": "Corruption",
+						"description": "A shadow of its former self"
+					},
+					"corrupt_wolf": {
+						"display_name": "Corrupted Beast",
+						"description": "The hunter at the end of the world"
+					}
+				}
+			},
 			"golems": {
 				"golem_harvesting": {
 					"display_name": "Ox",
@@ -10452,6 +11081,24 @@
 			}
 		},
 		"plants": {
+			"bramble": {
+				"bramble": {
+					"display_name": "Dark Bramble",
+					"description": "Clear it with Harvest for now, or Mine down to expose the Root!"
+				},
+				"sprout": {
+					"bramble_sprout": {
+						"display_name": "Sprouting Dark Bramble",
+						"description": "Invasive and dangerous to ignore, growing from an underground Root."
+					}
+				},
+				"stem": {
+					"bramble_stem": {
+						"display_name": "Creeping Dark Bramble",
+						"description": "Sprouted from buried evil! Dig up its Root, clear it with Harvest."
+					}
+				}
+			},
 			"berry_bush": {
 				"display_name": "Berry Bush",
 				"description": "Harvestable for a meager food supply.",
@@ -11895,6 +12542,10 @@
 			"bow_valor": {
 				"display_name": "Empire Bow",
 				"description": "Swiftest bow in the Ascendancy"
+			},
+			"corruption_beam": {
+				"display_name": "Corruption Beam",
+				"description": "An invisible weapon to spawn into hands of corrupted"
 			}
 		},
 		"consumables": {
@@ -12121,6 +12772,35 @@
 						"display_name": "Sasha Lightfoot",
 						"description": "Herald of Clan Amberstone"
 					}
+				}
+			}
+		},
+		"titan": {
+			"corrupt_squid": {
+				"description": "Doesn't like you. Or anyone else for that matter."
+			}
+		},
+		"corruption": {
+			"corrupt_tentacle_notification": {
+				"tentacle_notification": {
+					"display_name": "Warning Tentacle",
+					"description": "Signifies the presence of something evil."
+				}
+			},
+			"corrupt_beetle": {
+				"display_name": "Corrupt Crawler",
+				"description": "Small, but ravenous."
+			},
+			"corrupt_tentacle_dark": {
+				"tentacle_dark": {
+					"display_name": "Warning Tentacle",
+					"description": "Signifies the presence of something evil."
+				}
+			},
+			"orc_friendship_gong": {
+				"orc_friendship_gong_ghost": {
+					"display_name": "Gong of Orc Respect",
+					"description": "Made of smooth, pleasing stone, cleansed of anything sinister."
 				}
 			}
 		}
@@ -13065,6 +13745,11 @@
 					"description": "Swiftest bow in the Ascendancy",
 					"recipe_name": "Empire Bow",
 					"flavor": "Grants its wielder the mechanical edge to fire arrows in blinding flights"
+				},
+				"anti_titan_ward_recipe": {
+					"description": "Hurts anything nearby that smells like titan.",
+					"recipe_name": "Anti-Titan Ward",
+					"flavor": "Baby don't hurt me! Don't hurt me no more!"
 				}
 			}
 		},
@@ -13571,6 +14256,12 @@
 					"description": "Used by the Mason for crafting."
 				}
 			},
+			"mason_pedestal_amberstone": {
+				"mason_pedestal_amberstone_ghost": {
+					"display_name": "Amberstone Mason Pedestal",
+					"description": "Rabbit Mason approved"
+				}
+			},
 			"mason_pedestal": {
 				"mason_pedestal_ghost": {
 					"display_name": "Mason Pedestal",
@@ -13589,6 +14280,31 @@
 					"description": "A decorative stone vase with water for the birdies.",
 					"recipe_name": "Bird Bath",
 					"flavor": "Not a chair."
+				},
+				"amberstone_lantern_recipe": {
+					"description": "A warm little light",
+					"recipe_name": "Stone-cut Lantern",
+					"flavor": "Their thick walls blocked too much of their precious light underground, and so this style had all but vanished until now"
+				},
+				"amberstone_teapot_recipe": {
+					"description": "A rabbit's cherished teapot",
+					"recipe_name": "Stone-cut Teapot",
+					"flavor": "They are always rough at first, as if broken from the stone rather than carved. They are gradually worn smooth through generations of use."
+				},
+				"amberstone_table_recipe": {
+					"description": "Chiseled in the style of clan Amberstone",
+					"recipe_name": "Polished Stone Table",
+					"flavor": "Rabbit masons will only part with work if they are proud of it"
+				},
+				"amberstone_tunnel_door_recipe": {
+					"description": "Seals and protects underground dwellings",
+					"recipe_name": "Burrow Door",
+					"flavor": "One could shove with all their might and these doors would never budge, but the rabbits could open them with barely a touch"
+				},
+				"amberstone_window_recipe": {
+					"description": "Lets the fresh air in",
+					"recipe_name": "Burrow Window",
+					"flavor": "Living underground would be unbearable without excellent ventilation"
 				},
 				"blacksmith_hammer_recipe": {
 					"description": "Required to promote a hearthling into a Blacksmith.",
@@ -13675,6 +14391,11 @@
 					"recipe_name": "Mason Workbench",
 					"flavor": "Tappety-tap; Make the earth sing, Raise Brelor's ghost, Watch the mountain take wing."
 				},
+				"mason_pedestal_amberstone_recipe": {
+					"description": "Rabbit mason approved",
+					"recipe_name": "Amberstone Mason's Pedestal",
+					"flavor": "The skill of the mason can be read from the quality of their worktable"
+				},
 				"mason_pedestal_recipe": {
 					"description": "A well lit place for creating stone artwork.",
 					"recipe_name": "Mason's Pedestal",
@@ -13723,6 +14444,11 @@
 					"recipe_name": "Wet Stone",
 					"flavor": "This stone has been blessed with the tears of Rayya!",
 					"description": "This stone will shed water around itself."
+				},
+				"output_box_amberstone_recipe": {
+					"recipe_name": "Rabbit-carved display Shelf",
+					"description": "Temporarily displays a crafter's hard work",
+					"flavor": "These shelves are quite sturdy. You could jump on them if you wanted. ...please do not."
 				},
 				"output_box_stone_recipe": {
 					"recipe_name": "Stone Finished Work Shelf",
@@ -13840,6 +14566,11 @@
 					"description": "Proudest shield in the Ascendancy",
 					"recipe_name": "Giant's Shield",
 					"flavor": "Against even the most terrible foes and impossible dangers, this shield will never break."
+				},
+				"titan_ward_stone_recipe": {
+					"description": "Hurts anything nearby that smells like titan.",
+					"recipe_name": "Anti-Titan Ward",
+					"flavor": "Baby don't hurt me! Don't hurt me no more!"
 				}
 			}
 		},
@@ -14125,6 +14856,11 @@
 					"description": "Radiant gilding for the Emblazoned Sword.",
 					"recipe_name": "Blazing Inlay",
 					"flavor": "Gleaming with hearthlight"
+				},
+				"titan_ward_clay_recipe": {
+					"description": "Hurts anything nearby that smells like titan.",
+					"recipe_name": "Anti-Titan Ward",
+					"flavor": "Baby don't hurt me! Don't hurt me no more!"
 				}
 			},
 			"potter_workbench": {
@@ -14309,6 +15045,31 @@
 				}
 			},
 			"recipes": {
+				"amberstone_bed_recipe": {
+					"description": "So soft!!",
+					"recipe_name": "Woven Bed",
+					"flavor": "Why is it so soft?!??"
+				},
+				"amberstone_chair_recipe": {
+					"description": "Woven in the style of clan Amberstone",
+					"recipe_name": "Woven Seat",
+					"flavor": "Designed especially to keep fluffy bunny tails off of cold, stone floors"
+				},
+				"amberstone_chest_recipe": {
+					"description": "Stores up to 64 items",
+					"recipe_name": "Woven chest",
+					"flavor": "A tidy space is a happy space!"
+				},
+				"amberstone_mat_recipe": {
+					"description": "Woven with the skill of the rabbits",
+					"recipe_name": "Woven throw",
+					"flavor": "The style of weave requires deep concentration and quick, quick little paws"
+				},
+				"amberstone_painting_branch_recipe": {
+					"description": "Depicts a tree from cycles past",
+					"recipe_name": "Flowering Painting",
+					"flavor": "What they could not bring with them into exile, the rabbits found ways to preserve"
+				},
 				"banner_wall_big_recipe": {
 					"description": "Show your town pride with this decorative banner.",
 					"recipe_name": "Big Wall-Mounted Banner",
@@ -14363,6 +15124,7 @@
 				"toys_name": "Toys",
 				"storage_name": "Storage",
 				"decorations_name": "Decorations",
+				"furniture_name": "Furniture",
 				"crafting_materials_name": "Crafting Materials",
 				"spool_of_thread_recipe": {
 					"description": "Needed for cloth. Warm and fluffy",
@@ -14426,6 +15188,11 @@
 					"recipe_name": "Cloth Padded Helmet",
 					"description": "Extra padding for your noggin",
 					"flavor": "Were they phoenix wings, or serpent wings?"
+				},
+				"input_bin_amberstone_recipe": {
+					"recipe_name": "Rabbit-woven Supply Basket",
+					"description": "Safely stores crafting supplies",
+					"flavor": "Would-be masons of clan amberstone must practice discerning quality stone for many years before they are allowed near a chisel. Many never are."
 				},
 				"input_bin_woven_recipe": {
 					"recipe_name": "Woven Supply Basket",
@@ -14770,6 +15537,14 @@
 					"display_name": "Natural Regeneration",
 					"description": "The herbalist has improved health regeneration and diligence"
 				}
+			},
+			"herbalist_pestle": {
+				"display_name": "Herbalist's Pestle",
+				"description": "Tools of the trade for an herbalist."
+			},
+			"herbalist_mortar": {
+				"display_name": "Herbalist's Mortar",
+				"description": "Tools of the trade for an herbalist."
 			}
 		},
 		"cleric": {
@@ -15132,7 +15907,7 @@
 								"title": "Clique em Decretar para aprovar a promoção"
 							},
 							"step005": {
-								"title": "Click the Carpenter job button."
+								"title": "Clique no botão de classe do carpinteiro."
 							},
 							"step004": {
 								"title": "Clique em Alterar Emprego para promover este Cidadão para um trabalho diferente"
@@ -15143,10 +15918,10 @@
 							},
 							"step000": {
 								"title": "Promova um Cidadão para um carpinteiro",
-								"description": "We have logs and a place to store goods, but the town is looking pretty empty. Fortunately, we've brought a saw along with us. Let's promote a citizen to a Carpenter!"
+								"description": "Temos troncos e um lugar para guardar mercadorias, mas a cidade parece bem vazia. Felizmente, trouxemos uma serra junto conosco. Vamos promover um cidadão para um carpinteiro!"
 							},
 							"step007": {
-								"title": "Town Crafters",
+								"title": "Artesãos da Cidade",
 								"description": "Carpinteiros e outros artesões podem criar vários produtos para ajudar o seu assentamento, desde camas, materiais de construção e até armas."
 							},
 							"step003": {
