@@ -130,7 +130,10 @@
 					"stairs": "Escadas"
 				},
 				"template_list": {
-					"title": "Modelos de Construção"
+					"title": "Modelos de Construção",
+					"az_sorting": "Ordem: A-Z",
+					"za_sorting": "Ordem: Z-A",
+					"recent_sorting": "Ordem: Usado Recentemente"
 				}
 			},
 			"game_speed": {
@@ -866,216 +869,219 @@
 					"shopkeeper_not_enough_gold_tooltip": "Lojista não tem ouro suficiente"
 				},
 				"trade": {
-					"target_title": "Trade Offer from [str(i18n_data.town_name)]",
-					"source_title": "Trade Offer for [str(i18n_data.town_name)]",
-					"title_without_name": "Trade Offer",
-					"offering": "Offering:",
-					"exchange": "In exchange for:",
-					"request": "Requesting:",
-					"cancelled": "[str(i18n_data.town_name)] Cancelled a Trade",
-					"accepted": "[str(i18n_data.town_name)] Accepted a Trade",
-					"declined": "[str(i18n_data.town_name)] Declined a Trade",
+					"target_title": "Oferta de Troca de [str(i18n_data.town_name)]",
+					"source_title": "Oferta de Troca para [str(i18n_data.town_name)]",
+					"title_without_name": "Oferta de Troca",
+					"offering": "Oferecendo:",
+					"exchange": "Em troca por:",
+					"request": "Requisitando:",
+					"cancelled": "[str(i18n_data.town_name)] Cancelou uma Troca",
+					"accepted": "[str(i18n_data.town_name)] Aceitou uma Troca",
+					"declined": "[str(i18n_data.town_name)] Rejeitou uma Troca",
 					"fail": {
-						"title": "Trade Couldn't Be Completed",
-						"source": "The other town no longer has enough of the offered resources to complete this trade.",
-						"target": "You don't have enough resources to complete this trade.",
+						"title": "Troca Não Pode Ser Completada",
+						"source": "A outra cidade não tem mais recursos suficientes para concluir essa troca.",
+						"target": "Você não tem recursos suficientes para concluir esta negociação.",
 						"source_gold": "A outra cidade não tem mais dinheiro pra completar a troca",
 						"target_gold": "Você não tem ouro suficiente pra completar a troca"
 					}
 				},
 				"city_dialog": {
-					"proclamation": "PROCLAMATION OF"
+					"proclamation": "PROCLAMAÇÃO DE"
 				},
 				"city_tier_dialog": {
-					"build_and_place": "Build & Place",
-					"attain_net_worth": "Attain Net Worth:",
+					"build_and_place": "Construir & Colocar",
+					"attain_net_worth": "Atingir Patrimônio Líquido:",
 					"check_requirements": "Verificar Requisitos",
-					"summon_herald": "Summon Herald!"
+					"summon_herald": "Evocar Arauto!"
 				},
 				"level_up_bulletin": {
 					"title": "[name(i18n_data.entity)] Subiu de Nivel!",
-					"show_char_sheet": "Character Sheet"
+					"show_char_sheet": "Folha de Personagem"
 				},
 				"promote_bulletin": {
 					"title": "[name(i18n_data.entity)] foi promovido!",
-					"show_char_sheet": "Character Sheet"
+					"show_char_sheet": "Folha de Personagem"
 				},
 				"delivery_quest": {
-					"complete": "Complete",
-					"abandon": "Abandon",
-					"happiness_requirement_label": "[str(value)] citizens are at least [str(moodName)]",
-					"happiness_requirement_label_all": "All citizens are at least [str(moodName)]",
-					"happiness_requirement_all": "[str(value)] (all)",
+					"complete": "Completar",
+					"abandon": "Abandonar",
+					"happiness_requirement_label": "[str(value)] cidadãos estão pelo menos [str(moodName)]",
+					"happiness_requirement_label_all": "Todos cidadãos estão pelo menos [str(moodName)]",
+					"happiness_requirement_all": "[str(value)] (todos)",
 					"gold_label": {
-						"give": "Gold",
-						"have": "Gold on hand",
-						"spent": "Gold spent via trade",
-						"earned": "Gold earned via trade"
+						"give": "Ouro",
+						"have": "Ouro na mão",
+						"spent": "Ouro gasto em troas",
+						"earned": "Ouro ganho em trocas"
 					},
-					"net_worth_label": "Net worth",
-					"placed_item_label": "[str(itemName)] placed",
+					"net_worth_label": "Patrimônio líquido",
+					"placed_item_label": "[str(itemName)] colocado",
 					"quality_label": {
-						"quality_2": "Fine quality items owned",
-						"quality_3": "Excellent quality items owned",
-						"quality_4": "Masterwork quality items owned"
+						"quality_2": "Itens de boa qualidade possuídos",
+						"quality_3": "Itens de excelente qualidade possuídos",
+						"quality_4": "Itens de obra-prima possuídos"
 					}
 				},
 				"dispatch_quest": {
-					"abandon": "Abandon",
-					"dispatch": "Dispatch"
+					"abandon": "Abandonar",
+					"dispatch": "Despacho",
+					"selected": "Selecionado",
+					"select": "Selecionar",
+					"deselect": "Desmarcar"
 				},
 				"reembarkation": {
-					"title": "A new adventure awaits!",
-					"dismiss": "Maybe Later",
-					"reject": "Maybe Next Month",
-					"confirm": "Depart",
-					"prompt": "Select a crew to depart on a new adventure, and choose items for them to take along!"
+					"title": "Uma nova aventura aguarda!",
+					"dismiss": "Talvez Depois",
+					"reject": "Talvez no Próximo Mês",
+					"confirm": "Partir",
+					"prompt": "Selecione uma equipe para partir em uma nova aventura e escolha itens para eles levarem!"
 				},
 				"town_upgrade_choice": {
-					"title": "Official Settlement Declaration",
-					"name_header": "Choose a name for your settlement!",
+					"title": "Declaração de Assentamento Oficial",
+					"name_header": "Escolha um nome para o seu assentamento!",
 					"name_prompt": "Nome:",
-					"banner_prompt": "Choose settlement path:",
-					"complete": "Issue Declaration!"
+					"banner_prompt": "Escolha o tipo do assentamento:",
+					"complete": "Emitir Declaração!"
 				},
 				"immigration_report": {
 					"title": "Atualização diária",
 					"immigration_report_title": "Relatório de Imigração",
-					"population_label": "[str(town_name)] population",
-					"next_requirements_label": "Next hearthling requirements...",
+					"population_label": "População de [str(town_name)]",
+					"next_requirements_label": "Requisitos para próximo cidadão...",
 					"tooltips": {
-						"food": "Higher quality food provides higher food scores.",
-						"morale": "Keep your hearthlings safe, well-fed, and comfortable to improve morale.",
-						"net_worth": "Estimated value of your town. Collect items, accumulate gold and build buildings to increase your net worth."
+						"food": "Alimentos de alta qualidade fornecem maiores pontuações de alimentos.",
+						"morale": "Mantenha seus hearthlings seguros, bem alimentados e confortáveis para melhorar a moral.",
+						"net_worth": "Valor estimado da sua cidade. Colete itens, acumule ouro e construa prédios para aumentar seu patrimônio líquido."
 					}
 				},
 				"collection_quest": {
-					"pay": "Here you go!",
-					"cancel": "I've changed my mind"
+					"pay": "Aqui está!",
+					"cancel": "Mudei de ideia"
 				},
 				"inventory_full": {
-					"title": "Town Items Full",
-					"message": "You've reached the maximum number of items! Each hearthling increases the total number of items your town can have. Hearthlings will not harvest resources if their town owns too many items. Storage containers count as items and do NOT increase your item limit. Sell off the extra items or destroy them using the clear item tool."
+					"title": "Cidade Lotada de Itens",
+					"message": "Você atingiu o número máximo de itens! Cada hearthling aumenta o número total de itens que sua cidade pode ter. Hearthlings não coletará recursos se sua cidade possuir muitos itens. Contêineres de armazenamento contam como itens e NÃO aumentam o limite de itens. Venda os itens extras ou destrua-os usando a ferramenta de destruir itens."
 				},
 				"quest_bulletin_dialog": {
-					"description": "Description",
-					"rewards": "Rewards"
+					"description": "Descrição",
+					"rewards": "Recompensas"
 				}
 			},
 			"build_mode2": {
 				"tooltips": {
-					"pointer_tool": "Pointer",
-					"room_tool": "Rooms",
-					"wall_tool": "Walls",
-					"split_wall_tool": "Split Walls",
-					"roof_tool": "Roofs",
-					"blocks_tool": "Blocks",
-					"paint_tool": "Paint",
-					"hole_tool": "Holes",
-					"stairs_tool": "Stairs",
-					"road_tool": "Roads",
-					"fence_tool": "Fences",
-					"terrain_tool": "Terrain",
-					"windows": "Windows",
-					"furniture": "Furniture",
-					"doors": "Doors",
-					"decorations": "Decorations",
-					"erase_tool": "Erase",
-					"undo_tool": "Undo",
-					"redo_tool": "Redo",
-					"new_building": "New Building",
-					"save_building": "Save Building",
-					"template_list": "Templates",
-					"destroy": "Destroy Building",
-					"wood_resource": "Wood",
-					"clay_resource": "Clay",
-					"stone_resource": "Stone",
+					"pointer_tool": "Ponteiro",
+					"room_tool": "Cômodos",
+					"wall_tool": "Paredes",
+					"split_wall_tool": "Dividir Paredes",
+					"roof_tool": "Telhados",
+					"blocks_tool": "Blocos",
+					"paint_tool": "Pintar",
+					"hole_tool": "Buracos",
+					"stairs_tool": "Escadas",
+					"road_tool": "Ruas",
+					"fence_tool": "Cercas",
+					"terrain_tool": "Terreno",
+					"windows": "Janelas",
+					"furniture": "Mobília",
+					"doors": "Portas",
+					"decorations": "Decorações",
+					"erase_tool": "Apagar",
+					"undo_tool": "Desfazer",
+					"redo_tool": "Refazer",
+					"new_building": "Nova Construção",
+					"save_building": "Salvar Construção",
+					"template_list": "Modelos",
+					"destroy": "Destruir Construção",
+					"wood_resource": "Madeira",
+					"clay_resource": "Argila",
+					"stone_resource": "Pedra",
 					"disabled": {
-						"destroy": "Can't destroy buildings you don't own.",
-						"build": "Can't build, pause, or resume buildings you don't own."
+						"destroy": "Não pode destruir construções que não possui.",
+						"build": "Não pode construir, pausar, ou continuar construções que não possui."
 					}
 				},
-				"build_mode_title": "Build & Design",
+				"build_mode_title": "Construir & Projetar",
 				"blocks_tool_context": {
-					"blocks": "Blocks",
-					"roof": "Roof",
-					"wall": "Wall",
-					"cycle_normal": "Cycle Normal"
+					"blocks": "Blocos",
+					"roof": "Telhados",
+					"wall": "Parede",
+					"cycle_normal": "Ciclo Normal"
 				},
 				"roof_tool_context": {
-					"drop_walls": "Drop Walls",
-					"slope": "Slope",
-					"front": "Front",
-					"back": "Back",
-					"left": "Left",
-					"right": "Right"
+					"drop_walls": "Descer Paredes",
+					"slope": "Declive",
+					"front": "Frente",
+					"back": "Trás",
+					"left": "Esquerda",
+					"right": "Direita"
 				},
 				"stairs_designer": {
-					"block_stairs": "Block Stairs",
-					"free_stairs": "Free Stairs",
-					"apply_block_style": "Apply Block Style",
-					"apply_free_style": "Apply Free Style",
-					"rotate": "Rotate"
+					"block_stairs": "Blocos de Escadas",
+					"free_stairs": "Escadas Livre",
+					"apply_block_style": "Aplicar Estilo de Bloco",
+					"apply_free_style": "Aplicar Estilo Livre",
+					"rotate": "Girar"
 				},
 				"stairs_tool_context": {
-					"hollow": "Hollow"
+					"hollow": "Oco"
 				}
 			},
 			"build_mode": {
 				"tooltips": {
-					"building_tools": "Building Tools",
-					"erase": "Erase Tool",
-					"voxel_tools": "Voxel Tools",
-					"voxel_add": "Add Voxel",
-					"voxel_paint": "Paint Voxel",
-					"voxel_remove": "Remove Voxel",
-					"selection": "Selection",
+					"building_tools": "Ferramentas de Construção",
+					"erase": "Ferramenta de Apagar",
+					"voxel_tools": "Ferramenta de Blocos",
+					"voxel_add": "Adicionar Bloco",
+					"voxel_paint": "Pintar Bloco",
+					"voxel_remove": "Remover Bloco",
+					"selection": "Seleção",
 					"delete": "Excluir",
 					"undo": "Desfazer (Ctrl + Z)",
-					"draw_slab_tool": "Slabs",
-					"draw_floor_tool": "Foundations",
-					"grow_floor_tool": "Floors",
-					"grow_roof_tool": "Roofs",
+					"draw_slab_tool": "Blocos",
+					"draw_floor_tool": "Fundações",
+					"grow_floor_tool": "Pisos",
+					"grow_roof_tool": "Telhados",
 					"draw_door_tool": "Portas",
 					"draw_window_tool": "Janelas",
 					"grow_wall_tool": "Paredes",
-					"draw_wall_tool": "Free Standing Walls",
-					"draw_road_tool": "Roads",
-					"place_furniture_tool": "Furniture",
-					"place_decoration_tool": "Decorations",
-					"erase_tool": "Erase",
-					"draw_stairs_tool": "Stairs"
+					"draw_wall_tool": "Paredes Soltas",
+					"draw_road_tool": "Ruas",
+					"place_furniture_tool": "Mobília",
+					"place_decoration_tool": "Decorações",
+					"erase_tool": "Apagar",
+					"draw_stairs_tool": "Escadas"
 				},
 				"overhead_tips": {
-					"wall_segment_tip_title": "Click to place freestanding wall segments",
-					"wall_segment_tip_description": "Hold down SHIFT while clicking to draw connected walls",
+					"wall_segment_tip_title": "Clique para colocar os segmentos da parede independente",
+					"wall_segment_tip_description": "Mantenha pressionada a tecla SHIFT enquanto clica para desenhar paredes conectadas",
 					"build_title_building_designer": "Projetar Construção",
-					"build_floor_tip_title": "Click and drag to place floor tiles",
-					"build_floor_tip_description": "Right click to exit",
-					"build_slab_tip_title": "Click and drag to build a slab",
-					"build_slab_tip_description": "Right click to exit",
-					"erase_structure_tip_title": "Click to erase items. Click and drag to erase floor",
-					"erase_structure_tip_description": "Right click to exit",
-					"roof_tip_title": "Click a walled floorplan to place the roof",
-					"roof_tip_description": "Right click to exit",
-					"raise_walls_tip_title": "Click a floorplan to add walls",
-					"raise_walls_tip_description": "Right click to exit",
-					"doodad_tip_title": "Click a wall to place the door or window",
-					"doodad_tip_description": "Right click to exit",
-					"draw_template_title": "Click to build template",
-					"draw_template_description": "Rotate with [str(left_binding)] and [str(right_binding)] keys",
-					"build_road_tip_title": "Click and drag to build road",
-					"build_road_tip_description": "Right click to exit",
-					"stairs_tip_title": "Click to place stairs",
-					"stairs_tip_description": "Right click to exit. Rotate with [str(left_binding)] and [str(right_binding)] keys"
+					"build_floor_tip_title": "Clique e arraste para colocar o chão",
+					"build_floor_tip_description": "Clique com o botão direito para sair",
+					"build_slab_tip_title": "Clique e arraste para construir",
+					"build_slab_tip_description": "Clique com o botão direito para sair",
+					"erase_structure_tip_title": "Clique para apagar itens. Clique e arraste para apagar o chão",
+					"erase_structure_tip_description": "Clique com o botão direito para sair",
+					"roof_tip_title": "Clique em uma planta baixa para colocar o telhado",
+					"roof_tip_description": "Clique com o botão direito para sair",
+					"raise_walls_tip_title": "Clique em um comodo para adicionar o telhado",
+					"raise_walls_tip_description": "Clique com o botão direito para sair",
+					"doodad_tip_title": "Clique em uma parede para colocar a porta ou janela",
+					"doodad_tip_description": "Clique com o botão direito para sair",
+					"draw_template_title": "Clique para construir o modelo",
+					"draw_template_description": "Rodar com as teclas [str(left_binding)] e [str(right_binding)]",
+					"build_road_tip_title": "Clique e arraste para construir estrada",
+					"build_road_tip_description": "Clique com o botão direito para sair",
+					"stairs_tip_title": "Clique para colocar escadas",
+					"stairs_tip_description": "Clique com o botão direito para sair. Rodar com as teclas [str(left_binding)] e [str(right_binding)]"
 				},
 				"building_cost": {
-					"required_item": "Needed Items"
+					"required_item": "Itens Necessários"
 				},
 				"overview": {
 					"title": "Projetar Construção - [str(building_name)]",
 					"building_name": "Nome da Construção",
-					"building_cost": "Materials Needed",
+					"building_cost": "Materiais Necessários",
 					"start_building": "Construir!",
 					"pause_building": "Pause Construção",
 					"continue_building": "Continue Construção",
@@ -1083,60 +1089,63 @@
 					"finished_editing": "Finalizar Edição",
 					"start_editing": "Editar",
 					"build_complete_title": "Parabéns!",
-					"build_complete_description": "this building is complete",
+					"build_complete_description": "essa construção está completa",
 					"compute_scaffolding": "Planejar Construção"
 				},
 				"roof": {
-					"title": "Roof Menu - [str(building_name)]"
+					"title": "Menu do Telhado - [str(building_name)]"
 				},
 				"roof_shape": {
-					"title": "Slope, Direction, & Size",
-					"max_height": "Max Height",
-					"rise_slope": "Rise Slope",
-					"y_offset": "Roof Offset",
-					"show_gradient": "Slope",
-					"show_margin": "Overhang"
+					"title": "Inclinação, Direção e Tamanho",
+					"max_height": "Altura Máxima",
+					"rise_slope": "Aumentar Inclinação",
+					"y_offset": "Distancia Telhado",
+					"show_gradient": "Declive",
+					"show_margin": "Saliência"
 				},
 				"stairs_shape": {
-					"shape_title": "Stairs Shape",
-					"options_title": "Stairs Options",
-					"max_height": "Free-standing Height",
-					"width": "Width",
-					"solid_stairs": "Solid Stairs",
-					"hollow_stairs": "Hollow Stairs"
+					"shape_title": "Forma de escadas",
+					"options_title": "Escadas Opções",
+					"max_height": "Altura Livre",
+					"width": "Largura",
+					"solid_stairs": "Escadas Sólidas",
+					"hollow_stairs": "Escadas ocas"
+				},
+				"fixtures": {
+					"search_placeholder": "Buscar"
 				},
 				"building_templates": {
 					"title": "Modelos de Construção",
-					"design_custom_building": "Design Custom Building",
-					"search_placeholder": "Search templates...",
+					"design_custom_building": "Projete Construção Personalizada",
+					"search_placeholder": "Buscar",
 					"template_names": {
-						"tiny_cottage": "Tiny Cottage",
-						"cottage_for_two": "Cottage for Two",
-						"shared_sleeping_quarters": "Shared Sleeping Quarters",
-						"dining_hall": "Dining Hall",
-						"herbalist_house": "Herbalist's House",
-						"little_clay_house": "Little Clay House",
-						"clay_house_for_two": "Clay House for Two",
-						"clay_dining_room": "Clay Dining Room",
-						"clay_dormitory": "Clay Dormitory"
+						"tiny_cottage": "Pequena Casa de Campo",
+						"cottage_for_two": "Casa de Campo para Dois",
+						"shared_sleeping_quarters": "Quartos de Dormir Compartilhados",
+						"dining_hall": "Sala de Jantar",
+						"herbalist_house": "Casa do Herborista",
+						"little_clay_house": "Casinha de Barro",
+						"clay_house_for_two": "Casa de Barro para Dois",
+						"clay_dining_room": "Sala de Jantar de Argila",
+						"clay_dormitory": "Dormitório de Argila"
 					},
-					"set_template_name_title": "Nome do modelo",
-					"template_default_name": "My new building template",
-					"set_template_name_prompt": "Enter a name for this template",
-					"ignore_quality": "Ignore Quality",
-					"ignore_quality_tooltip": "Treat all items in the template as standard quality (rather than Fine, Excellent, etc.).",
+					"set_template_name_title": "Nome do Modelo",
+					"template_default_name": "Meu novo modelo de construção",
+					"set_template_name_prompt": "Digite um nome para este modelo",
+					"ignore_quality": "Ignorar Qualidade",
+					"ignore_quality_tooltip": "Trate todos os itens no modelo como qualidade padrão (em vez de boa, excelente, etc.).",
 					"remove_template_confirm": {
-						"title": "Delete Template",
-						"message": "Are you sure you want to delete this building template?",
-						"keep_template": "Keep this template",
-						"remove_template": "Delete it!"
+						"title": "Deletar Modelo",
+						"message": "Tem certeza de que deseja excluir este modelo de construção?",
+						"keep_template": "Mantenha este modelo",
+						"remove_template": "Delete isso!"
 					},
 					"template_description_tooltip": "Nome do arquivo: [str(filename)]",
-					"remove_template_button": "excluir modelo",
+					"remove_template_button": "Excluir Modelo",
 					"build_template_button": "Construir"
 				},
 				"place_item": {
-					"title": "Place an Item"
+					"title": "Coloque um Item"
 				},
 				"materials": {
 					"wall": {
@@ -1154,66 +1163,66 @@
 						"clay_brick_resource": "Fundação de tijolo de argila"
 					},
 					"slab": {
-						"material": "Slab Material",
-						"wood_resource": "Wooden Slab",
-						"stone_resource": "Stone Slab",
-						"clay_resource": "Clay Slab",
-						"clay_brick_resource": "Clay Brick Slab"
+						"material": "Material do Bloco",
+						"wood_resource": "Bloco de Madeira",
+						"stone_resource": "Bloco de Pedra",
+						"clay_resource": "Bloco de Argila",
+						"clay_brick_resource": "Bloco de Tijolo"
 					},
 					"floor": {
-						"material": "Floor Material",
-						"wood_resource": "Wooden Floor",
-						"stone_resource": "Stone Floor",
-						"clay_resource": "Clay Floor",
-						"clay_brick_resource": "Clay Brick Floor"
+						"material": "Material do Chão",
+						"wood_resource": "Chão de Madeira",
+						"stone_resource": "Chão de Pedra",
+						"clay_resource": "Chão de Argila",
+						"clay_brick_resource": "Chão de Tijolos"
 					},
 					"roof": {
-						"material": "Roof Material",
-						"wood_resource": "Wooden Roof",
-						"stone_resource": "Stone Roof",
-						"clay_resource": "Clay Roof",
-						"clay_brick_resource": "Clay Brick Roof"
+						"material": "Material de Telhados",
+						"wood_resource": "Telhado de Madeira",
+						"stone_resource": "Telhado de Pedra",
+						"clay_resource": "Telhado de Argila",
+						"clay_brick_resource": "Telhado de Tijolos"
 					},
 					"column": {
-						"material": "Column Material",
-						"wood_resource": "Wooden Column",
-						"stone_resource": "Stone Column",
-						"clay_resource": "Clay Column",
-						"clay_brick_resource": "Clay Brick Column"
+						"material": "Material de Colunas",
+						"wood_resource": "Colunas de Madeira",
+						"stone_resource": "Colunas de Pedra",
+						"clay_resource": "Colunas de Argila",
+						"clay_brick_resource": "Colunas de Tijolos"
 					},
 					"road": {
-						"material": "Road Material",
-						"wood_resource": "Wooden Road",
-						"stone_resource": "Stone Road",
-						"clay_resource": "Clay Road",
-						"clay_brick_resource": "Clay Brick Road"
+						"material": "Material de Ruas",
+						"wood_resource": "Ruas de Madeira",
+						"stone_resource": "Ruas de Pedra",
+						"clay_resource": "Ruas de Argila",
+						"clay_brick_resource": "Ruas de TIjolos"
 					},
 					"stairs": {
-						"material": "Stairs Material",
-						"wood_resource": "Wooden Stairs",
-						"stone_resource": "Stone Stairs",
-						"clay_resource": "Clay Stairs",
-						"clay_brick_resource": "Clay Brick Stairs"
+						"material": "Material de Escadas",
+						"wood_resource": "Escadas de madeira",
+						"stone_resource": "Escadas de Pedra",
+						"clay_resource": "Escadas de Argila",
+						"clay_brick_resource": "Escadas de Tijolos"
 					}
 				},
 				"start_building_confirm": {
-					"title": "Realmente começar a construir?",
-					"message": "Once you begin building this structure cannot be edited or removed! Are you sure you want to build now?",
+					"title": "Começar a construir pra valer?",
+					"message": "Quando você começar a construir essa estrutura, não poderá ser editada ou removida! Tem certeza de que quer construir agora?",
 					"yes": "Sim, comece a construir!",
 					"no": "Ainda não"
 				},
 				"remove_building_confirm": {
-					"title": "Really remove this building",
-					"message": "Are you sure you want to remove this entire building?",
-					"keep_building": "Keep this building",
-					"remove_building": "Remove this building"
+					"title": "Realmente remova este prédio",
+					"message": "Tem certeza de que deseja remover este prédio inteiro?",
+					"keep_building": "Mantenha este prédio",
+					"remove_building": "Remova este prédio"
 				}
 			},
 			"zones_mode": {
 				"farm": {
-					"choose_crop": "Choose a Crop",
-					"fallow_name": "Fallow",
-					"fallow_description": "Plant no crop and let the soil renew itself."
+					"choose_crop": "Escolha uma colheita",
+					"fallow_name": "Vazio",
+					"fallow_description": "Não plante nenhuma colheita e deixe o solo se renovar."
 				},
 				"mining": {
 					"help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
@@ -1221,6 +1230,8 @@
 					"enable": "Resume Mining"
 				},
 				"trapping_grounds": {
+					"choose_trapping_grounds_type": "Choose Trapping Ground Type",
+					"trapping_ground": "Trapping Ground",
 					"help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
 					"disable": "Suspend Trapping",
 					"enable": "Resume Trapping"
@@ -1255,24 +1266,24 @@
 						"gear": "Armas & Armaduras",
 						"food_and_drink": "Comidas & Bebidas",
 						"wealth": "Riqueza",
-						"tooltip_tools": "Talismans and Workbenches",
+						"tooltip_tools": "Talismãs e Bancadas",
 						"tooltip_wood": "Madeira",
 						"tooltip_stone": "Pedra",
 						"tooltip_clay": "Barro",
 						"tooltip_ore": "Mineios",
 						"tooltip_animal_part": "Pele e couro de animais",
-						"tooltip_resource_pile": "resource piles",
+						"tooltip_resource_pile": "pilhas de recursos",
 						"tooltip_plant": "Plantas",
 						"tooltip_portal": "Portas & Janelas",
 						"tooltip_furniture": "Mobília",
-						"tooltip_defense": "Defenses",
-						"tooltip_light": "torches & lights",
+						"tooltip_defense": "Defesas",
+						"tooltip_light": "Luzes & Tochas",
 						"tooltip_decoration": "Decorações",
-						"tooltip_refined_weaver": "Thread, Cloth, and Leather",
-						"tooltip_refined_animal_part": "goods produced from bits of animals",
-						"tooltip_refined_ore": "Refined Metal",
+						"tooltip_refined_weaver": "Artesanatos Refinados (Pano, etc.)",
+						"tooltip_refined_animal_part": "bens produzidos a partir de pedaços de animais",
+						"tooltip_refined_ore": "Metais Refinados",
 						"tooltip_weapons": "Armas",
-						"tooltip_ranged_weapon": "ranged weapons",
+						"tooltip_ranged_weapon": "armas de longo alcance",
 						"tooltip_equipment": "Armor and Other Equipment",
 						"tooltip_heavy_armor": "heavy armor",
 						"tooltip_exotic_gear": "exotic gear",
@@ -1300,8 +1311,8 @@
 				"craft_up_to_right": "no inventário.",
 				"craft_ingredients": "Ingredientes:",
 				"craft_requirements": "Requisitos:",
-				"unlock_text": "To Unlock:",
-				"crafting_status": "crafting...",
+				"unlock_text": "Para destravar:",
+				"crafting_status": "criando...",
 				"crafting_status_queued": "Enfileiradas",
 				"workshop_paused_status": "Pausado...",
 				"workshop_remove_confirm": "Remover?",
@@ -1583,6 +1594,8 @@
 					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
 					"auto_loot": "Auto Loot",
 					"auto_loot_description": "When an enemy drops loot, automatically mark it for pick up.",
+					"auto_rescue": "Auto Rescue",
+					"auto_rescue_description": "When a citizen is incapacitated, automatically flag them for Rescue.",
 					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
 					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters.",
 					"infinite_inventory": "Disable inventory capacity limit",
@@ -1997,6 +2010,7 @@
 				"biome_picker_title": "Selecione o Bioma",
 				"game_mode_select_start": ", Um local que é certeza de ser",
 				"game_mode_picker_title": "Selecione A Dificuldade",
+				"biome_favored_label": "(favored)",
 				"game_modes": {
 					"normal": {
 						"display_name": "Normal",
@@ -2237,14 +2251,6 @@
 				"suspend_button": {
 					"description": "Pausar ou resumir o Tipo de Trabalho."
 				},
-				"current_gender": {
-					"display_name": "Gênero",
-					"description": "Este hearthling e [str(gender)]."
-				},
-				"change_gender": {
-					"display_name": "Gênero",
-					"description": "Clique para mudar o género deste hearthling para [str(gender)]."
-				},
 				"customization_lock": {
 					"description": "This hearthling's [str(customization)] will be saved during trait and stat rerolls."
 				},
@@ -2362,8 +2368,8 @@
 										"003": "Longa jornada através das montanhas, não? Bem, você está em um bom lugar agora. Tome aqui algo pra ajudar-los a começar:",
 										"004": "Bem-vindos, estrangeiros!! Aqui um presente pra ajudá-los!"
 									},
-									"bulletin_title": "Um viajante grizalho se aproxima.",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "Um viajante se aproxima.",
+									"dialog_title": "Ronia  Olarkson"
 								}
 							}
 						}
@@ -2413,10 +2419,10 @@
 						}
 					},
 					"valor_tier_2_reached": {
-						"title": "O Arauto da Princesa retorna",
-						"speaker_name": "O honorável Anwyn Redelm",
+						"title": "Distrito Estabelecido",
+						"speaker_name": "O honorável Anwyn Torresi",
 						"message": "Parabéns, [str(i18n_data.town_name)]! Boatos se espalharam de suas perícias marciais. Sua vila se qualifica oficialmente como um vilarejo! Eu trouxe materiais de construção e acordos comerciais, como de costume!",
-						"accept": "Woohoo!",
+						"accept": "Uhu!",
 						"dialog_title": "Vilarejo alcançado!",
 						"tier_title": "Vilarejo",
 						"reward_message": "Por decreto da Princesa Dania da Ascendência, nós reconhecemos:",
@@ -2746,7 +2752,7 @@
 						}
 					},
 					"shrine_unlock_recipes": {
-						"bulletin_title": "Mason Recipes Unlocked: Shrines"
+						"bulletin_title": "Receitas de Pedreiro Desbloqueadas: Santuários"
 					}
 				},
 				"goblin_war": {
@@ -2763,16 +2769,16 @@
 										"000": "Estão com medo, óh valente vilarejo? Ogo o-então-chefe estará aqui em breve. Por vocês."
 									},
 									"bulletin_title": "Uma entidade com voz sibilante aparece ao lado de sua fogueira",
-									"dialog_title": "???"
+									"dialog_title": "??"
 								},
 								"erdenes_help": {
-									"choice_000": "Uh... okay?",
+									"choice_000": "Uh... tá?",
 									"choice_001": "Estou confuso. Desculpa.",
 									"bulletin_message": {
 										"000": "Emprestar força para a ascenção, significa a queda quando a força falha. Ogo não recebe seu poder de seu porta-voz, mas sim do bebê que ele roubou."
 									},
 									"bulletin_title": "A figura balança a cabeça",
-									"dialog_title": "???"
+									"dialog_title": "??"
 								},
 								"erdene_description": {
 									"choice_000": "Legal!",
@@ -2784,16 +2790,16 @@
 										"003": "Eu? Hoje, isso não importa. Amanhã, caso você ainda esteja vivo, você poderá me chamar de Erderne, da Fornalha Vermelha."
 									},
 									"bulletin_title": "Ela sorri com um brilho em seus dentes",
-									"dialog_title": "???"
+									"dialog_title": "??"
 								},
 								"accept_offer": {
 									"choice_000": "Espere! Quem é você?",
-									"choice_001": "Huh.",
+									"choice_001": "Uh.",
 									"bulletin_message": {
 										"000": "Lutem com o máximo de sí, pequeno vilarejo. Não há sentido no destino. Mas se existisse, o seu seria ascender."
 									},
 									"bulletin_title": "Ela ascena firmemente",
-									"dialog_title": "???"
+									"dialog_title": "??"
 								},
 								"flute_description": {
 									"choice_000": "Soa bem!",
@@ -2802,14 +2808,14 @@
 										"000": "Neste papel, você deve escontrar a canção de ninar para acalmar a alma da Montanha. Ache a Flauta Roubada. Ofereça seu carpinteiro para esta melodia. Coloque-a no caminho de Ogo, o grande ogro, e observe a auto-importância achar sua única recompensa."
 									},
 									"bulletin_title": "Ela oferece um pedaço de papel",
-									"dialog_title": "???"
+									"dialog_title": "??"
 								},
 								"departure": {
 									"bulletin_message": {
 										"000": "Lutem com o máximo de sí, pequeno vilarejo."
 									},
 									"bulletin_title": "Ela se encolhe",
-									"dialog_title": "???"
+									"dialog_title": "??"
 								}
 							}
 						}
@@ -2818,8 +2824,8 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"soothsayer_description": {
-									"choice_000": "No way!",
-									"choice_001": "Huh.",
+									"choice_000": "Sem chance!",
+									"choice_001": "Uh.",
 									"bulletin_message": {
 										"000": "Soothsayer magic! Speak with old ones! Tell future! He see... he see Red Kiln Falling, new star rising. That star is Ogo. This time, we pick winning side!",
 										"001": "Soothsayer old, old snake. Speaks out with bones and scales. Sees future! Sees cycle ending, ending forever. Not sure what he mean, but good for Ogo!",
@@ -3768,7 +3774,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": " The Red Kiln believes that advancement can only come from conflict between equals. Khan is no longer. And where one falls, those stronger and more cunning will rise."
+														"00": "The Red Kiln acredita que o avanço só pode vir do conflito entre iguais. O Khan não é mais. E onde um cai, aqueles mais fortes e mais espertos se elevarão."
 													},
 													"bulletin_title": "Warchief Oghar Norwind",
 													"dialog_title": "Warchief Oghar Norwind"
@@ -4333,6 +4339,12 @@
 												}
 											}
 										}
+									},
+									"grant_recurring_orc_citizen": {
+										"notification_title": "A new Orc citizen has joined your town!"
+									},
+									"grant_orc_citizen": {
+										"notification_title": "Erdene's disciple has joined your town!"
 									}
 								}
 							}
@@ -4988,9 +5000,6 @@
 								}
 							}
 						}
-					},
-					"alert_trance": {
-						"title": "<Citizen Name> is overwhelmed by dark visions... "
 					},
 					"spawn_raid": {
 						"mission": {
@@ -6659,6 +6668,10 @@
 				},
 				"zilla": {
 					"description": "Beware Zilla!"
+				},
+				"giant_stoneling": {
+					"display_name": "Giant Stoneling",
+					"description": "Not quite a pebble anymore!"
 				}
 			},
 			"corruption": {
@@ -6800,7 +6813,8 @@
 				"food": "Alimeto",
 				"berries": "Berries",
 				"carrots": "Cenouras",
-				"jerky": "Carne Seca"
+				"jerky": "Carne Seca",
+				"sweet_potatoes": "Potatoes"
 			},
 			"coming_soon": "Em breve"
 		},
@@ -7715,6 +7729,20 @@
 					"20": "[str(self.stonehearth:unit_info.custom_name)] of the Sphere"
 				}
 			}
+		},
+		"trapping": {
+			"all_trappable_animals": {
+				"trappable_animals": {
+					"bugs": {
+						"name": "Bug",
+						"description": "Bugs produce bug meat, used by the cook, and chitchin, used in some armor recipes"
+					},
+					"critters": {
+						"name": "Small Animal",
+						"description": "Small animals produce jerky and pelts"
+					}
+				}
+			}
 		}
 	},
 	"entities": {
@@ -7722,10 +7750,10 @@
 			"knights_shield": {
 				"shield_talisman": {
 					"display_name": "Escudo do Cavaleiro",
-					"description": "Required to promote a hearthling to a knight"
+					"description": "Necessário para promover um hearthling a um Cavaleiro"
 				},
 				"display_name": "Escudo do Cavaleiro",
-				"description": "For defending one's allies"
+				"description": "Para defender os aliados"
 			},
 			"iron_shield": {
 				"display_name": "Heavy Iron Shield",
@@ -7903,31 +7931,55 @@
 		"boulders": {
 			"large_boulder": {
 				"large_boulder_1": {
-					"display_name": "Huge Boulder",
-					"description": "Colhável para pedra"
+					"display_name": "Pedregulho Enorme",
+					"description": "Fornece pedra"
 				},
 				"large_boulder_2": {
-					"display_name": "Huge Boulder",
-					"description": "Colhável para pedra"
+					"display_name": "Pedregulho Enorme",
+					"description": "Fornece pedra"
+				},
+				"large_arctic_boulder_1": {
+					"display_name": "Pedregulho Enorme",
+					"description": "Fornece pedra"
+				},
+				"large_arctic_boulder_2": {
+					"display_name": "Pedregulho Enorme",
+					"description": "Fornece pedra"
 				}
 			},
 			"medium_boulder": {
 				"medium_boulder_1": {
-					"display_name": "Medium Boulder",
-					"description": "Colhável para pedra"
+					"display_name": "Pedregulho Médio",
+					"description": "Fornece pedra"
 				},
 				"medium_boulder_2": {
-					"display_name": "Medium Boulder",
-					"description": "Colhável para pedra"
+					"display_name": "Pedregulho Médio",
+					"description": "Fornece pedra"
 				},
 				"medium_boulder_3": {
-					"display_name": "Medium Boulder",
-					"description": "Colhável para pedra"
+					"display_name": "Pedregulho Médio",
+					"description": "Fornece pedra"
+				},
+				"medium_arctic_boulder_1": {
+					"display_name": "Pedregulho Médio",
+					"description": "Fornece pedra"
+				},
+				"medium_arctic_boulder_2": {
+					"display_name": "Pedregulho Médio",
+					"description": "Fornece pedra"
+				},
+				"medium_arctic_boulder_3": {
+					"display_name": "Pedregulho Médio",
+					"description": "Fornece pedra"
 				}
 			},
 			"small_boulder": {
-				"display_name": "Small Boulder",
-				"description": "Colhável para pedra"
+				"display_name": "Pedregulho Pequeno",
+				"description": "Fornece pedra"
+			},
+			"small_arctic_boulder": {
+				"display_name": "Pedregulho Pequeno",
+				"description": "Fornece pedra"
 			}
 		},
 		"construction": {
@@ -8208,6 +8260,66 @@
 			"ornate_wooden_tunnel_door": {
 				"display_name": "Ornate Wooden Tunnel Door",
 				"description": "Useful for blocking off tunnels"
+			},
+			"stone_door": {
+				"stone_door_ghost": {
+					"display_name": "Stone Door",
+					"description": "Built to Last!"
+				}
+			},
+			"stone_window_frame": {
+				"stone_window_frame_ghost": {
+					"display_name": "Stone Window Frame",
+					"description": "Offers a little protection from the wind."
+				}
+			},
+			"stone_window_frame_wide": {
+				"stone_window_frame_wide_ghost": {
+					"display_name": "Wide Stone Window Frame",
+					"description": "It's a panoramic view!"
+				}
+			},
+			"stone_window_frame_wide_wood": {
+				"stone_window_frame_wide_wood_ghost": {
+					"display_name": "Wide Wood and Stone Window Frame",
+					"description": "Rustic and panoramic!"
+				}
+			},
+			"stone_window_frame_wood": {
+				"stone_window_frame_wood_ghost": {
+					"display_name": "Wood and Stone Window Frame",
+					"description": "Offers a little protection from the wind."
+				}
+			},
+			"stone_window_frame_tall": {
+				"stone_window_frame_tall_ghost": {
+					"display_name": "Tall Stone Window Frame",
+					"description": "Extra height adds an air of elegance"
+				}
+			},
+			"stone_window_frame_short": {
+				"stone_window_frame_short_ghost": {
+					"display_name": "Short Stone Window Frame",
+					"description": "Short can be elegant too."
+				}
+			},
+			"stone_window_frame_crossbeam": {
+				"stone_window_frame_crossbeam_ghost": {
+					"display_name": "Cross Beamed Stone Window Frame",
+					"description": "Offers a little protection from random critters trying to get in."
+				}
+			},
+			"stone_door_2": {
+				"stone_door_2_ghost": {
+					"display_name": "Reinforced Stone Door",
+					"description": "Sturdier than your average door."
+				}
+			},
+			"stone_double_door": {
+				"stone_double_door_ghost": {
+					"display_name": "Stone Double Door",
+					"description": "A larger door. It makes quite an impression."
+				}
 			}
 		},
 		"containers": {
@@ -9084,6 +9196,48 @@
 						"description": "Perfect size for a rabbit to hide in."
 					}
 				}
+			},
+			"pine_tree_crop": {
+				"display_name": "Pine Sapling",
+				"description": "Out of trees? Get ready to participate in reforestation.",
+				"growth_stage": {
+					"001": {
+						"name": "Pine Seedling",
+						"description": "A delicate stage of growth."
+					},
+					"003": {
+						"name": "Pine Sapling",
+						"description": "Ready to be transferred to a bigger plot."
+					},
+					"000": {
+						"name": "Pine Berry",
+						"description": "A new pine tree taking root."
+					},
+					"002": {
+						"name": "Pine Sprout",
+						"description": "A perfect tiny pine. Still growing!"
+					}
+				}
+			},
+			"sweet_potato_crop": {
+				"display_name": "Sweet Potato",
+				"description": "Sweet but not very tasty when raw",
+				"growth_stage": {
+					"003": {
+						"name": "Ripe Sweet Potato",
+						"description": "Ready for picking!"
+					},
+					"002": {
+						"name": "Baby Sweet Potato"
+					},
+					"011": {
+						"name": "Rotten Sweet Potato",
+						"description": "Moldy and inedible"
+					},
+					"000": {
+						"description": "Someday will grow into a tasty purple veggie."
+					}
+				}
 			}
 		},
 		"decoration": {
@@ -9482,6 +9636,12 @@
 					"window_frame_barred_ghost": {
 						"display_name": "Barred Stone Window Frame",
 						"description": "For those who enjoy safe viewing from behind bars."
+					}
+				},
+				"stone_torch": {
+					"stone_torch_ghost": {
+						"display_name": "Stone Torch",
+						"description": "A wall-mounted torch with slowly burning oil."
 					}
 				}
 			},
@@ -9884,6 +10044,30 @@
 			"cheat_military_chest": {
 				"display_name": "Cheat Military Chest - Debug Item",
 				"description": "Contains one of each best non-legendary weapon and armor, plus bandages and turrets."
+			},
+			"stone_lantern_simple": {
+				"stone_lantern_simple_ghost": {
+					"display_name": "Simple Stone Lantern",
+					"description": "Nothing fancy. Attach to any wall."
+				}
+			},
+			"stone_garden_lantern_simple": {
+				"stone_garden_lantern_simple_ghost": {
+					"display_name": "Simple Stone Garden Lantern",
+					"description": "It has a classic handle...mostly for decoration."
+				}
+			},
+			"stone_torch": {
+				"stone_torch_ghost": {
+					"display_name": "Stone Torch",
+					"description": "A wall-mounted torch with slowly burning oil."
+				}
+			},
+			"stone_candle_holder": {
+				"stone_candle_holder_ghost": {
+					"display_name": "Stone Candle Holder",
+					"description": "Lighting from a simplier time."
+				}
 			}
 		},
 		"food": {
@@ -10328,6 +10512,34 @@
 				"cake_serving": {
 					"display_name": "Piece of Sweet Cake"
 				}
+			},
+			"bug_meat_kabob": {
+				"bug_meat_kabob_serving": {
+					"display_name": "Serving of Bug Meat Kabob"
+				},
+				"bug_meat_kabob": {
+					"display_name": "Bug Meat Kabob",
+					"description": "Slightly more edible form of bug meat"
+				}
+			},
+			"sweet_potato": {
+				"sweet_potato_serving": {
+					"display_name": "Sweet Potato",
+					"description": "Tiny. Sweet!"
+				},
+				"sweet_potato_basket": {
+					"display_name": "Basket of Sweet Potatoes",
+					"description": "Lined up in neat rows."
+				}
+			},
+			"roasted_sweet_potato": {
+				"roasted_sweet_potato": {
+					"display_name": "Roasted Sweet Potato",
+					"description": "Warms your hands and your heart."
+				},
+				"roasted_sweet_potato_serving": {
+					"display_name": "Serving of Roasted Sweet Potato"
+				}
 			}
 		},
 		"furniture": {
@@ -10606,6 +10818,12 @@
 				"ornate_wooden_chair_ghost": {
 					"display_name": "Ornate Wooden Chair",
 					"description": "For even more style while sitting."
+				}
+			},
+			"stone_bed": {
+				"stone_bed_ghost": {
+					"display_name": "Stone bed",
+					"description": "Some stone and hay to sleep on"
 				}
 			}
 		},
@@ -11662,6 +11880,191 @@
 						"description": "Still growing!"
 					}
 				}
+			},
+			"sweet_potato": {
+				"sweet_potato_ghost": {
+					"display_name": "Sweet Potato",
+					"description": "Hearty winter spud"
+				},
+				"bud": {
+					"sweet_potato_plant_bud": {
+						"display_name": "Budding Sweet Potato",
+						"description": "Its almost full grown!"
+					}
+				},
+				"rotten": {
+					"sweet_potato_rotten": {
+						"display_name": "Rotten Sweet Potato",
+						"description": "Not good for eating anymore, but a great source of seeds"
+					}
+				},
+				"seed": {
+					"sweet_potato_plant_seed": {
+						"display_name": "Sweet Potato Slip",
+						"description": "Can be planted to grow a tasty purple veggie."
+					}
+				},
+				"sprout": {
+					"sweet_potato_plant_sprout": {
+						"display_name": "Sweet Potato Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"sweet_potato_plant_stem": {
+						"display_name": "Stemming Sweet Potato",
+						"description": "Still growing!"
+					}
+				}
+			},
+			"snow_poppy_plant": {
+				"stem": {
+					"snow_poppy_plant_stem": {
+						"display_name": "Stemming Snow Poppy",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"snow_poppy_plant_sprout": {
+						"display_name": "Snow Poppy Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"snow_poppy_plant_seed": {
+						"display_name": "Snow Poppy Seed",
+						"description": "Once planted, it will grow vibrant flowers"
+					},
+					"snow_poppy_plant_seed_ghost": {
+						"display_name": "Snow Poppy Seed",
+						"description": "Once planted, it will grow vibrant flowers"
+					}
+				},
+				"bud": {
+					"snow_poppy_plant_bud": {
+						"display_name": "Budding Snow Poppy",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"snow_poppy_plant_ghost": {
+					"display_name": "Snow Poppy",
+					"description": "Can be harvested for healing herbs"
+				}
+			},
+			"gold_snow_poppy_plant": {
+				"stem": {
+					"gold_snow_poppy_plant_stem": {
+						"display_name": "Stemming Snow Poppy",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"gold_snow_poppy_plant_sprout": {
+						"display_name": "Snow Poppy Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"gold_snow_poppy_plant_seed": {
+						"display_name": "Snow Poppy Seed",
+						"description": "Once planted, it will grow vibrant flowers"
+					},
+					"gold_snow_poppy_plant_seed_ghost": {
+						"display_name": "Snow Poppy Seed",
+						"description": "Once planted, it will grow vibrant flowers"
+					}
+				},
+				"bud": {
+					"gold_snow_poppy_plant_bud": {
+						"display_name": "Budding Snow Poppy",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"gold_snow_poppy_plant_ghost": {
+					"display_name": "Snow Poppy",
+					"description": "Can be harvested for healing herbs"
+				}
+			},
+			"violet_plant": {
+				"violet_plant": {
+					"unripe_description": "This plant has been harvested and has not grown back yet."
+				},
+				"violet_plant_ghost": {
+					"display_name": "Violet",
+					"description": "Can be harvested for healing herbs"
+				},
+				"bud": {
+					"violet_plant_bud": {
+						"display_name": "Budding Violet",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				},
+				"seed": {
+					"violet_plant_seed": {
+						"display_name": "Violet Seed",
+						"description": "Once planted, it will grow purple flowers"
+					},
+					"violet_plant_seed_ghost": {
+						"display_name": "Violet Seed",
+						"description": "Once planted, it will grow purple flowers"
+					}
+				},
+				"sprout": {
+					"violet_plant_sprout": {
+						"display_name": "Violet Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"violet_plant_stem": {
+						"display_name": "Stemming violet",
+						"description": "Still growing!"
+					}
+				}
+			},
+			"wintermoss": {
+				"wintermoss": {
+					"wintermoss_ghost": {
+						"display_name": "Wintermoss",
+						"description": "This plant's fiber can be spun into thread."
+					}
+				},
+				"bud": {
+					"wintermoss_bud": {
+						"display_name": "Budding Wintermoss",
+						"description": "Its almost there!  Look, it has buds!"
+					},
+					"wintermoss_plant_bud": {
+						"display_name": "Budding Wintermoss",
+						"description": "Its almost full grown!"
+					}
+				},
+				"display_name": "Wintermoss",
+				"description": "Source of coarse fibers",
+				"seed": {
+					"wintermoss_plant_seed": {
+						"display_name": "Wintermoss Seed",
+						"description": "Can be planted to grow a scratchy fiber."
+					},
+					"wintermoss_plant_seed_ghost": {
+						"display_name": "Wintermoss Seed",
+						"description": "Can be planted to grow a scratchy fiber."
+					}
+				},
+				"sprout": {
+					"wintermoss_plant_sprout": {
+						"display_name": "Wintermoss Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"wintermoss_plant_stem": {
+						"display_name": "Stemming Wintermoss",
+						"description": "Still growing!"
+					}
+				}
 			}
 		},
 		"rabbit": {
@@ -11682,8 +12085,8 @@
 				"description": "Uma barra de bronze puro."
 			},
 			"cloth_bolt": {
-				"display_name": "Bolt of Cloth",
-				"description": "Soft and comforting."
+				"display_name": "Peça de Tecido",
+				"description": "Suave e reconfortante."
 			},
 			"copper_ingot": {
 				"display_name": "Lingote de (Cobre)",
@@ -11787,12 +12190,24 @@
 				"coarse_fiber_bundle": {
 					"display_name": "Coarse Fiber Bundle",
 					"description": "Rough and itchy"
+				},
+				"wintermoss_bundle": {
+					"display_name": "Wintermoss Bundle",
+					"description": "Spinnable into thread"
+				},
+				"coarse_fiber_bundle_winter": {
+					"display_name": "Light Coarse Fiber Bundle",
+					"description": "Rough and itchy"
 				}
 			},
 			"gold": {
 				"gold_ore": {
 					"display_name": "Minerio de (Ouro)",
 					"description": "A chunk of raw gold"
+				},
+				"bone_ancient": {
+					"display_name": "Ancient Bone",
+					"description": "A piece of very old bone."
 				}
 			},
 			"iron": {
@@ -11931,6 +12346,18 @@
 				"cactus_tulip_yellow": {
 					"display_name": "Yellow Tulip Cactus Flowers",
 					"description": "An herb commonly used for medicinal purposes"
+				},
+				"snow_poppy": {
+					"display_name": "Snow Poppy Flowers",
+					"description": "A vibrant healing herb"
+				},
+				"gold_snow_poppy": {
+					"display_name": "Snow Poppy Flowers",
+					"description": "A vibrant healing herb"
+				},
+				"violet": {
+					"display_name": "Violet Flowers",
+					"description": "A vibrant healing herb"
 				}
 			},
 			"skin": {
@@ -12036,11 +12463,11 @@
 		"tools": {
 			"mining_pick": {
 				"display_name": "Picareta de Mineração",
-				"description": "For mining and picking"
+				"description": "Para mineração"
 			},
 			"worker_axe": {
 				"display_name": "Machado do Trabalhador",
-				"description": "..."
+				"description": ".."
 			},
 			"worker_hammer": {
 				"display_name": "Martelo do Trabalhador",
@@ -12061,8 +12488,8 @@
 			},
 			"plushie_toy_rabbit": {
 				"plushie_toy_rabbit_ghost": {
-					"display_name": "Plushie Toy Rabbit",
-					"description": "A toy... for children of course."
+					"display_name": "Coelho De Brinquedo De Pelúcia",
+					"description": "Um brinquedo ... para as crianças, claro."
 				}
 			}
 		},
@@ -12121,6 +12548,26 @@
 						"display_name": "Juniper Tree Sapling",
 						"description": "Baby Juniper Tree."
 					}
+				},
+				"large_snowy_juniper_tree": {
+					"display_name": "Large Juniper Tree",
+					"description": "An impressive specimen."
+				},
+				"medium_snowy_juniper_tree": {
+					"display_name": "Juniper Tree",
+					"description": "Strong and tall."
+				},
+				"small_snowy_juniper_tree": {
+					"display_name": "Small Juniper Tree",
+					"description": "Just a sapling."
+				},
+				"medium_gold_juniper_tree": {
+					"display_name": "Juniper Tree",
+					"description": "Strong and tall."
+				},
+				"small_gold_juniper_tree": {
+					"display_name": "Small Juniper Tree",
+					"description": "Just a sapling."
 				}
 			},
 			"palm_tree": {
@@ -12255,6 +12702,52 @@
 						"display_name": "Budding Pine Tree",
 						"description": "Its almost there!  It's growing its adult leaves!"
 					}
+				},
+				"sapling_pine_tree": {
+					"sapling_pine_tree_ghost": {
+						"display_name": "Pine Tree Sapling",
+						"description": "Baby Pine Tree."
+					},
+					"sapling_pine_tree_iconic": {
+						"description": "Plant it in the earth and watch it grow."
+					},
+					"description": "Baby Pine Tree."
+				},
+				"medium_snowy_pine_tree": {
+					"description": "Sturdy, in the prime of life.",
+					"display_name": "Medium Pine Tree"
+				},
+				"large_snowy_pine_tree": {
+					"description": "100's of years old. Too bad...",
+					"display_name": "Large Pine Tree"
+				},
+				"small_snowy_pine_tree": {
+					"description": "Just a sapling.",
+					"display_name": "Small Pine Tree"
+				},
+				"large_gold_pine_tree": {
+					"display_name": "Large Pine Tree",
+					"description": "100's of years old. Too bad..."
+				},
+				"medium_gold_pine_tree": {
+					"display_name": "Medium Pine Tree",
+					"description": "Sturdy, in the prime of life."
+				},
+				"small_gold_pine_tree": {
+					"display_name": "Small Pine Tree",
+					"description": "Just a sapling."
+				},
+				"large_silver_pine_tree": {
+					"display_name": "Large Pine Tree",
+					"description": "100's of years old. Too bad..."
+				},
+				"small_silver_pine_tree": {
+					"display_name": "Small Pine Tree",
+					"description": "Just a sapling."
+				},
+				"medium_silver_pine_tree": {
+					"display_name": "Medium Pine Tree",
+					"description": "Sturdy, in the prime of life."
 				}
 			},
 			"cactus_tree": {
@@ -12358,6 +12851,46 @@
 					"tree_oak_plant_bud": {
 						"display_name": "Budding Oak Tree",
 						"description": "Its almost there!  It's growing its adult leaves!"
+					}
+				}
+			},
+			"pine_tree_gold": {
+				"seed": {
+					"tree_pine_seed_ghost": {
+						"display_name": "Gold Pine Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				}
+			},
+			"pine_tree_silver": {
+				"seed": {
+					"tree_pine_seed_ghost": {
+						"display_name": "Silver Pine Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				}
+			},
+			"pine_tree_snowy": {
+				"seed": {
+					"tree_pine_seed_ghost": {
+						"display_name": "Snowy Pine Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				}
+			},
+			"juniper_tree_gold": {
+				"seed": {
+					"tree_juniper_seed_ghost": {
+						"display_name": "Gold Juniper Tree Seed",
+						"description": "Can be planted to grow a giant tree"
+					}
+				}
+			},
+			"juniper_tree_snowy": {
+				"seed": {
+					"tree_juniper_seed_ghost": {
+						"display_name": "Snowy Juniper Tree Seed",
+						"description": "Can be planted to grow a giant tree"
 					}
 				}
 			}
@@ -12659,14 +13192,14 @@
 		"constructillon": {
 			"wooden_door_2_fine": {
 				"wooden_door_2_fine_ghost": {
-					"description": "Sturdier than your average door, and more polished too."
+					"description": "Mais resistente que a porta comum, e mais polido também."
 				}
 			}
 		},
 		"ephemera": {
 			"ball_of_wax": {
-				"display_name": "Ball of Ear Wax",
-				"description": "Gross, isn't it?"
+				"display_name": "Bola de cera de ouvido",
+				"description": "Nojento, não é?"
 			}
 		},
 		"manipulation": {
@@ -12777,7 +13310,7 @@
 		},
 		"titan": {
 			"corrupt_squid": {
-				"description": "Doesn't like you. Or anyone else for that matter."
+				"description": "Não gosta de você. Ou qualquer outra pessoa."
 			}
 		},
 		"corruption": {
@@ -13948,7 +14481,17 @@
 					"recipe_name": "Cake",
 					"flavor": "So delicious with a berry on top!"
 				},
-				"chefs_specials_name": "Chef's Specials"
+				"chefs_specials_name": "Chef's Specials",
+				"bug_meat_kabob_recipe": {
+					"description": "Bug meat on a stick! Has an interesting texture",
+					"recipe_name": "Bug Meat Kabob",
+					"flavor": "For the daring food enthusiast"
+				},
+				"roasted_sweet_potato_recipe": {
+					"description": "A slow roasted sweet potato.",
+					"recipe_name": "Roasted Sweet Potato",
+					"flavor": "Warms your hands and your heart."
+				}
 			},
 			"cook_mill": {
 				"cook_mill_ghost": {
@@ -14571,6 +15114,76 @@
 					"description": "Hurts anything nearby that smells like titan.",
 					"recipe_name": "Anti-Titan Ward",
 					"flavor": "Baby don't hurt me! Don't hurt me no more!"
+				},
+				"stone_bed_recipe": {
+					"recipe_name": "Stone Bed",
+					"description": "A bed to call your own after a hard day's work",
+					"flavor": "The decorative frame might distract you from the discomfort of sleeping on hard stone"
+				},
+				"stone_door_recipe": {
+					"description": "Sturdy door built to last.",
+					"recipe_name": "Stone Door"
+				},
+				"stone_window_frame_recipe": {
+					"description": "A basic stone window.",
+					"recipe_name": "Stone Window Frame",
+					"flavor": "A little breezy, but fashionable!"
+				},
+				"stone_window_frame_wide_recipe": {
+					"description": "It's got a panoramic view!",
+					"recipe_name": "Wide Stone Window Frame"
+				},
+				"stone_window_frame_wide_wood_recipe": {
+					"description": "Rustic and panoramic!",
+					"recipe_name": "Wide Wood and Stone Window Frame"
+				},
+				"stone_window_frame_wood_recipe": {
+					"description": "A basic window.",
+					"recipe_name": "Wood and Stone Window Frame",
+					"flavor": "Is this what they call a cross section?"
+				},
+				"stone_window_frame_tall_recipe": {
+					"description": "Extra height adds an air of elegance.",
+					"recipe_name": "Tall Stone Window Frame"
+				},
+				"stone_window_frame_short_recipe": {
+					"description": "Short can be elegant too.",
+					"recipe_name": "Short Stone Window Frame"
+				},
+				"stone_lantern_simple_recipe": {
+					"description": "Nothing fancy. Attach to any wall.",
+					"recipe_name": "Simple Stone Lantern",
+					"flavor": "Cons: Heavy. Pros: Unlikely to burn itself down."
+				},
+				"stone_garden_lantern_simple_recipe": {
+					"description": "It has a classic handle...mostly for decoration.",
+					"recipe_name": "Simple Stone Garden Lantern",
+					"flavor": "It's weight makes it useless to carrying around."
+				},
+				"stone_torch_recipe": {
+					"description": "A wall-mounted torch with slowly burning oil.",
+					"recipe_name": "Stone Torch",
+					"flavor": "Makes it much easier to burn the midnight oil."
+				},
+				"stone_candle_holder_recipe": {
+					"description": "Lighting from a simplier time.",
+					"recipe_name": "Stone Candle Holder",
+					"flavor": "Romantic for some, annoying to read by for others."
+				},
+				"stone_door_2_recipe": {
+					"description": "Stronger than your average door.",
+					"recipe_name": "Reinforced Stone Door",
+					"flavor": "This here pattern, I learned from the Squarefolk."
+				},
+				"stone_double_door_recipe": {
+					"description": "Two doors are better than one.",
+					"recipe_name": "Stone Double Door",
+					"flavor": "Some people want to make an entrance... every day."
+				},
+				"stone_window_frame_crossbeam_recipe": {
+					"description": "A more stylish window.",
+					"recipe_name": "Crossbeam Stone Window Frame",
+					"flavor": "Is this what they call a cross section?"
 				}
 			}
 		},
@@ -15530,6 +16143,31 @@
 					"description": "Delicately frames and protects the Shining Circlet",
 					"recipe_name": "Silverleaf Setting",
 					"flavor": "Cast from actual leaves in layers of silver and gold, they're stronger than they look"
+				},
+				"violet_transmute_recipe": {
+					"description": "Pluck the seeds from the flower",
+					"recipe_name": "Violet Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+				},
+				"tumbleweed_transmute_recipe": {
+					"description": "Pluck spare seeds from the fiber",
+					"recipe_name": "Tumbleweed Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
+				},
+				"wintermoss_transmute_recipe": {
+					"description": "Pluck spare seeds from the fiber",
+					"recipe_name": "Wintermoss Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
+				},
+				"sweet_potato_transmute_recipe": {
+					"description": "Potatoes can be cut up and planted",
+					"recipe_name": "Sweet Potato Slips (x3)",
+					"flavor": "This doesn't require so much of a skilled hand as simply cutting the potatoes into wedges and sticking them into the ground."
+				},
+				"snow_poppy_transmute_recipe": {
+					"description": "Pluck the seeds from the flower",
+					"recipe_name": "Snow Poppy Seeds (x3)",
+					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
 				}
 			},
 			"herbalist_buffs": {
