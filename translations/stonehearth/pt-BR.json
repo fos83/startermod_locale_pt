@@ -15,7 +15,7 @@
 				"heal_ranged_in_sight": "curando [name(data.target)]",
 				"wait_at_safety_point": "esperando no banner de segurança",
 				"repair_entity": "consertando [name(data.target)]",
-				"resting_by_fire": "Dormindo perto do fogo",
+				"resting_by_fire": "Descansando perto do fogo",
 				"claiming_animal": "Reivindicando animal",
 				"looking_for_animals": "Procurando por Animais",
 				"collect_ingredient": "Coletando Ingredientes",
@@ -535,9 +535,9 @@
 				"date_format_long_ordinal": "Dia [str(ord_day)] de i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
 				"date_time_long_format": "Dia [str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "[str(date.day)] de i18n(stonehearth:ui.game.calendar.month_format)",
-				"weather_prefix_0": "Hoje",
-				"weather_prefix_1": "Amanhã",
-				"weather_prefix_2": "Depois de amanhã"
+				"weather_prefix_0": "Hoje: ",
+				"weather_prefix_1": "Amanhã: ",
+				"weather_prefix_2": "Depois de amanhã: "
 			},
 			"esc_menu": {
 				"title": "Stonehearth",
@@ -1225,37 +1225,37 @@
 					"fallow_description": "Não plante nenhuma colheita e deixe o solo se renovar."
 				},
 				"mining": {
-					"help": "Mining allows you to create underground rooms and corridors. You can also discover resources while digging.",
-					"disable": "Suspend Mining",
-					"enable": "Resume Mining"
+					"help": "A mineração permite que você crie salas e corredores subterrâneos. Você também pode descobrir recursos ao escavar.",
+					"disable": "Suspender Mineração",
+					"enable": "Continuar Mineração"
 				},
 				"trapping_grounds": {
-					"choose_trapping_grounds_type": "Choose Trapping Ground Type",
-					"trapping_ground": "Trapping Ground",
-					"help": "Trappers will place traps in a trapping grounds and will periodically check to see if anything has been caught.",
-					"disable": "Suspend Trapping",
-					"enable": "Resume Trapping"
+					"choose_trapping_grounds_type": "Escolha o Tipo de Armadilha",
+					"trapping_ground": "Terreno de Armadilhas",
+					"help": "Os caçadores colocarão armadilhas em um local de captura e verificarão periodicamente se alguma coisa foi capturada.",
+					"disable": "Suspender Armadilhagem",
+					"enable": "Retomar Armadilhagem"
 				},
 				"pasture": {
-					"help": "Shepherds bring animals to this region and tend to their needs here.",
-					"choose_pasture_type": "Choose Pasture Type",
-					"sheep_pasture_name": "Sheep Pasture",
-					"rabbit_pasture_name": "Rabbit Pen",
-					"poyo_pasture_name": "Poyo Coop",
-					"sheep_pasture_description": "Sheep produce wool, used by the weaver. Slaughtering sheep will produce mutton, a raw cooking ingredient",
-					"rabbit_pasture_description": "Rabbits reproduce quickly and can be slaughtered for jerky and pelts",
-					"poyo_pasture_description": "Poyos produce eggs, a valuable cooking ingredient. Slaughtering poyo will yield meat and, occasionally, feathers for crafting",
-					"num_animals": "Animals:"
+					"help": "Os pastores trazem animais para esta região e atendem às suas necessidades aqui.",
+					"choose_pasture_type": "Escolha o Tipo de Pasto",
+					"sheep_pasture_name": "Pasto de Ovelhas",
+					"rabbit_pasture_name": "Curral de Coelhos",
+					"poyo_pasture_name": "Galinheiro",
+					"sheep_pasture_description": "Ovelhas produzem lã, usada pelo tecelão. O abate de ovelhas produz carne de carneiro, um ingrediente cru de culinária",
+					"rabbit_pasture_description": "Coelhos se reproduzem rapidamente e podem ser abatidos para carne e peles",
+					"poyo_pasture_description": "Produzem ovos, um ingrediente culinário valioso. O abate produzirá carne e, ocasionalmente, penas para artesanato.",
+					"num_animals": "Animais:"
 				},
 				"stockpile": {
-					"default_stockpile_name": "Stockpile",
+					"default_stockpile_name": "Estoque",
 					"contents": "Conteúdo",
 					"filter": "Filtro",
-					"shop": "Shop",
-					"help": "Click the icons to choose what to store in this stockpile.",
-					"help_single_filter": "Click an icon to choose the item type to store in this container.",
-					"help_player_market_stall": "Click an icon to choose the item type to sell at this stall.",
-					"clear": "Clear Selection",
+					"shop": "Loja",
+					"help": "Clique nos ícones para escolher o que armazenar neste estoque.",
+					"help_single_filter": "Clique em um ícone para escolher o tipo de item a ser armazenado nesse contêiner.",
+					"help_player_market_stall": "Clique em um ícone para escolher o tipo de item a ser vendido nessa tenda.",
+					"clear": "Limpar Seleção",
 					"used_space": "Espaço utilizado:",
 					"filters": {
 						"all": "Todos",
@@ -1284,31 +1284,31 @@
 						"tooltip_refined_ore": "Metais Refinados",
 						"tooltip_weapons": "Armas",
 						"tooltip_ranged_weapon": "armas de longo alcance",
-						"tooltip_equipment": "Armor and Other Equipment",
-						"tooltip_heavy_armor": "heavy armor",
-						"tooltip_exotic_gear": "exotic gear",
-						"tooltip_drink": "tasty beverages",
-						"tooltip_gold": "Gold Chests",
-						"tooltip_trophy": "Trophies",
-						"tooltip_raw_food": "Raw Foods",
-						"tooltip_prepared_food": "Cooked Foods",
-						"tooltip_cooking_ingredients": "Cooking Ingredients and Animal Feed",
-						"tooltip_cooking": "Cooking",
-						"tooltip_consumables": "Healing Items and Other Consumables",
-						"tooltip_animal_parts": "Animal Parts"
+						"tooltip_equipment": "Armadura e Outros Equipamentos",
+						"tooltip_heavy_armor": "armadura pesada",
+						"tooltip_exotic_gear": "equipamento exótico",
+						"tooltip_drink": "bebidas saborosas",
+						"tooltip_gold": "Baús de ouro",
+						"tooltip_trophy": "Troféus",
+						"tooltip_raw_food": "Alimentos Crus",
+						"tooltip_prepared_food": "Alimentos Cozidos",
+						"tooltip_cooking_ingredients": "Ingredientes de Culinária e Ração Animal",
+						"tooltip_cooking": "Cozinhando",
+						"tooltip_consumables": "Itens de Cura e Outros Consumíveis",
+						"tooltip_animal_parts": "Partes de Animais"
 					}
 				}
 			},
 			"show_workshop": {
-				"workshop_title": "[str(job_name)] Crafting Orders",
-				"placeholder": "Type to search",
-				"show_workshop_description": "Owned by [name(owner)]",
-				"unclaimed_workshop_description": "Unclaimed",
-				"workshop_entity_claimed_description": "Owned by [name(self.stonehearth:workshop.crafter)]",
-				"craft_number_left": "Craft",
-				"craft_number_right": "right now.",
+				"workshop_title": "Ordens do [str(job_name)]",
+				"placeholder": "Escreva para pesquisar",
+				"show_workshop_description": "Pertence a [name(owner)]",
+				"unclaimed_workshop_description": "Não reclamado",
+				"workshop_entity_claimed_description": "Pertence a [name(self.stonehearth:workshop.crafter)]",
+				"craft_number_left": "Fazer",
+				"craft_number_right": "agora.",
 				"craft_up_to_left": "Manter",
-				"craft_up_to_right": "no inventário.",
+				"craft_up_to_right": "em estoque.",
 				"craft_ingredients": "Ingredientes:",
 				"craft_requirements": "Requisitos:",
 				"unlock_text": "Para destravar:",
@@ -1318,86 +1318,86 @@
 				"workshop_remove_confirm": "Remover?",
 				"workshop_open": "Aberto!",
 				"workshop_closed": "Fechado",
-				"maintain_option_disabled": "Build a stockpile or place a crate to unlock more crafting options!",
-				"craft": "Craft!",
-				"craft_queue_full": "Orders Full!",
+				"maintain_option_disabled": "Construa um estoque ou coloque uma caixa para desbloquear mais opções de artesanato!",
+				"craft": "Criar!",
+				"craft_queue_full": "Ordens Cheias!",
 				"craftable_locked": "Desbloqueado no nível: [str(level)]",
 				"workshop_requirement_title": "Oficina",
 				"workshop_none_required": "Nada solicitado!",
-				"workshop_required": "Requires a placed ",
+				"workshop_required": "Requer um ",
 				"level_requirement_title": "Requisito de Nível",
-				"level_requirement_none": "None Required!",
-				"level_requirement_needed": "Requires a ",
-				"level_requirement_level": " of Level ",
-				"too_many_symbol": "lots",
-				"requirements_unmet_general": "Craft Requirements Unmet!",
-				"queue_anyway": "Queue Order Anyway",
+				"level_requirement_none": "Nada solicitado!",
+				"level_requirement_needed": "Requer um",
+				"level_requirement_level": " de Nível ",
+				"too_many_symbol": "muitos",
+				"requirements_unmet_general": "Requisitos de Não Alcançados!",
+				"queue_anyway": "Pedir Assim Mesmo",
 				"recipe_tab": "Receitas",
 				"orders_tab": "Encomendas",
-				"missing_ingredients": "Missing ingredients: ",
-				"tooltip_appeal_stat": "Appeal",
-				"tooltip_net_worth_stat": "Gold Value",
+				"missing_ingredients": "Ingredientes ausentes: ",
+				"tooltip_appeal_stat": "Apelo",
+				"tooltip_net_worth_stat": "Valor em Ouro",
 				"damage_stat": "ATK",
 				"armor_stat": "DEF"
 			},
 			"town_overview": {
-				"title": "Town Overview",
-				"town_morale": "Town Morale",
-				"initial_town_name": "Expedition [str(town_number)]",
+				"title": "Visão Geral da Cidade",
+				"town_morale": "Moral da Cidade",
+				"initial_town_name": "Expedição [str(town_number)]",
 				"journal": {
 					"default_message": "Ainda não existem entradas no diário!",
-					"signature": "--[name(entry.person)]",
-					"today": "Today",
-					"town_log": "Town Log",
-					"praises": "Praises",
-					"gripes": "Gripes",
-					"praise_empty": "Nothing praiseworthy happened today.",
-					"gripe_empty": "Whoa. I guess nobody has anything to gripe about."
+					"signature": "---[name(entry.person)]",
+					"today": "Hoje",
+					"town_log": "Registro da Cidade",
+					"praises": "Elogios",
+					"gripes": "Queixas",
+					"praise_empty": "Nada louvável aconteceu hoje.",
+					"gripe_empty": "Uau. Eu acho que ninguém tem nada para reclamar."
 				},
 				"networth": {
-					"town_description": "The [str(descriptor)] [str(noun)] of [str(town_name)]",
+					"town_description": "O [str(descriptor)] [str(noun)] de [str(town_name)]",
 					"size": {
-						"camp": "Camp",
-						"settlement": "Settlement",
-						"hamlet": "Hamlet",
-						"village": "Village",
-						"town": "Town",
-						"county": "County",
-						"kingdom": "Kingdom",
-						"empire": "Empire"
+						"camp": "Acampamento",
+						"settlement": "Assentamento",
+						"hamlet": "Aldeia",
+						"village": "Vila",
+						"town": "Cidade",
+						"county": "Município",
+						"kingdom": "Reino",
+						"empire": "Império"
 					},
 					"morale_descriptor": {
-						"0": "Wretched",
-						"1": "Miserable",
-						"2": "Dejected",
-						"3": "Listless",
-						"4": "Fair",
-						"5": "Good",
-						"6": "Contented",
-						"7": "Merry",
-						"8": "Joyous",
-						"9": "Buoyant",
-						"10": "Incandescent"
+						"0": "Desgraçado",
+						"1": "Miserável",
+						"2": "Desanimado",
+						"3": "Indiferente",
+						"4": "Justo",
+						"5": "Bom",
+						"6": "Contente",
+						"7": "Alegre",
+						"8": "Feliz",
+						"9": "Flutuante",
+						"10": "Incandescente"
 					}
 				},
 				"score": {
-					"net_worth": "Net worth",
+					"net_worth": "Patrimônio",
 					"buildings": "Construções",
 					"inventory": "Inventário",
 					"agriculture": "Agricultura",
 					"edibles": "Comestíveis",
-					"next_requirement": "Goal",
-					"overall_morale": "Overall Morale",
+					"next_requirement": "Meta",
+					"overall_morale": "Moral Geral",
 					"food": "Alimento",
-					"shelter": "Shelter",
-					"safety": "Safety",
+					"shelter": "Abrigo",
+					"safety": "Segurança",
 					"military_strength": "Força Militar"
 				},
 				"inventory": {
-					"item_count": "Items:"
+					"item_count": "Itens:"
 				},
 				"tab": {
-					"town_overview": "Town Overview",
+					"town_overview": "Visão Geral da Cidade",
 					"inventory": "Inventário",
 					"journal": "Diário",
 					"bonuses": "Bônus"
@@ -1413,39 +1413,39 @@
 				"initial_load_game_text": "Carregando",
 				"initial_load_map_text": "Gerando Mundo",
 				"loading_map_flavor_text": {
-					"001": "sharpening right angles...",
-					"002": "decompressing voxels...",
-					"003": "synthesizing fauna...",
-					"004": "redistributing redistributables...",
-					"005": "terracing terrain...",
-					"006": "stocking piles...",
-					"007": "inflating trees...",
-					"008": "raising sun...",
-					"009": "floating clouds...",
-					"010": "burlying hands...",
-					"011": "bushing berries...",
-					"012": "confabulating childhood...",
-					"013": "resolving determinism...",
-					"014": "cubulating companionship...",
-					"015": "existentializing dilemmas...",
-					"016": "improvising morals...",
-					"017": "splining reticulators..",
-					"018": "diversifying gender...",
-					"019": "homogenizing motivation...",
-					"020": "deriving history...",
-					"021": "indexing bugs...",
-					"022": "compiling truth...",
-					"023": "recollecting marbles...",
-					"024": "effecting mass...",
-					"025": "experiencing higher math...",
-					"026": "proliferating flowers...",
-					"027": "escaping realism...",
-					"028": "positioning plushies...",
-					"029": "regulating hairbobs...",
-					"030": "shearing sheep...",
-					"031": "percolating brain...",
-					"032": "poking poyos...",
-					"033": "catching raindrops..."
+					"001": "afiando ângulos retos ...",
+					"002": "descomprimindo voxels ...",
+					"003": "sintetizando fauna ...",
+					"004": "redistribuindo redistribuíveis ...",
+					"005": "terreno terraços ...",
+					"006": "pilhas de estocagem...",
+					"007": "inflar árvores ...",
+					"008": "levantando o sol ...",
+					"009": "nuvens flutuantes ...",
+					"010": "apertando as mãos ...",
+					"011": "bagas de arbustos ...",
+					"012": "confabulando a infância ...",
+					"013": "resolvendo o determinismo ...",
+					"014": "cubulando companheirismo ...",
+					"015": "dilemas existencializadores ...",
+					"016": "improvisando a moral ...",
+					"017": "reticuladores de splining ..",
+					"018": "diversificando o gênero ...",
+					"019": "motivação homogeneizadora ...",
+					"020": "derivando história ...",
+					"021": "indexando bugs ...",
+					"022": "compilando a verdade ...",
+					"023": "recordando mármores ...",
+					"024": "efetuando massa ...",
+					"025": "experimentando maior matemática ...",
+					"026": "proliferando flores ...",
+					"027": "escapando do realismo ...",
+					"028": "posicionando plushies ...",
+					"029": "regulador de cabelo ...",
+					"030": "tosquiando ovelhas ...",
+					"031": "percolando o cérebro ...",
+					"032": "cutucando poyos ...",
+					"033": "pegando gotas de chuva ..."
 				},
 				"tips": {
 					"000": "Se seus trabalhadores ficarem presos em uma mina, você pode construir uma escada para tirá-los!",
@@ -1508,21 +1508,21 @@
 					"mountains_6": "Pico da montanha",
 					"mountains_7": "Pico da montanha",
 					"mountains_8": "Pico da montanha",
-					"vegetation_0": "Nary a weed",
-					"vegetation_1": "Sparse",
-					"vegetation_2": "Average",
-					"vegetation_3": "Dense",
-					"vegetation_4": "Lush",
-					"wildlife_0": "Desolate",
-					"wildlife_1": "Scarce",
-					"wildlife_2": "Common",
-					"wildlife_3": "Plentiful",
-					"wildlife_4": "Abundant",
-					"mineral_0": "None",
-					"mineral_1": "Sparse",
-					"mineral_2": "Infrequent",
-					"mineral_3": "Common",
-					"mineral_4": "Ample"
+					"vegetation_0": "Nem uma erva daninha",
+					"vegetation_1": "Escasso",
+					"vegetation_2": "Média",
+					"vegetation_3": "Denso",
+					"vegetation_4": "Exuberante",
+					"wildlife_0": "Desolado",
+					"wildlife_1": "Escasso",
+					"wildlife_2": "Comum",
+					"wildlife_3": "Rico",
+					"wildlife_4": "Abundante",
+					"mineral_0": "Nenhum",
+					"mineral_1": "Escasso",
+					"mineral_2": "Infrequente",
+					"mineral_3": "Comum",
+					"mineral_4": "Amplo"
 				}
 			},
 			"settings": {
@@ -1578,62 +1578,62 @@
 				},
 				"gameplay_tab": {
 					"title": "Jogabilidade",
-					"advanced": "Unstable Settings",
-					"advanced_description": "<font color='#eb4c36'><strong>WARNING:</strong></font> These settings may affect game stability and performance! Change at your own risk!",
-					"enable_speed_3": "Ativar velocidade 3",
-					"enable_speed_3_description": "Adds a new speed option in the bottom right panel that will run the game at 4x speed!",
-					"default_storage_filter_none": "Storage filter defaults to None",
-					"default_storage_filter_none_description": "When creating a new stockpile or putting down a new crate, the default filter on the storage will be set to 'None' instead of 'All'",
-					"default_mining_zones_suspended": "Mining zones start suspended",
-					"default_mining_zones_suspended_description": "When creating a new mining zone, it will start suspended and won't be mined until you manually unsuspend it.",
-					"show_hearthling_paths": "Show Hearthling paths",
-					"show_hearthling_paths_description": "Display the path your hearthlings are following.",
+					"advanced": "Configurações instáveis",
+					"advanced_description": "<font color='#eb4c36'><strong>AVISO:</strong></font> Essas configurações podem afetar a estabilidade e o desempenho do jogo! Mude por sua conta e risco!",
+					"enable_speed_3": "Ativar Velocidade 3",
+					"enable_speed_3_description": "Adiciona uma nova opção de velocidade no painel inferior direito que irá rodar o jogo a 4x de velocidade!<br><br><font color = '#eb4c36'><strong>Aviso:</strong></font> O desempenho do jogo pode ser lento com cidades maiores na velocidade 3. Esteja avisado!",
+					"default_storage_filter_none": "Padrão de filtros para Nenhum",
+					"default_storage_filter_none_description": "Ao criar um novo estoque ou colocar uma nova caixa, o filtro padrão no armazenamento será definido como 'Nenhum' em vez de 'Todos'",
+					"default_mining_zones_suspended": "Zonas de mineração começam suspensas",
+					"default_mining_zones_suspended_description": "Ao criar uma nova zona de mineração, ela será suspensa e não será minerada até que você a ative manualmente.",
+					"show_hearthling_paths": "Mostrar caminhos do Hearthling",
+					"show_hearthling_paths_description": "Mostra o caminho que seus hearthlings estão seguindo.",
 					"max_citizens": "Nº Maximo de Cidadãos",
-					"max_citizens_description": "Change the limit on maximum number of citizens you can have in your town.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> Having more than 20 hearthlings can cause performance issues including AI unresponsiveness/idling and hitching.",
-					"randomize_attributes": "Randomize Hearthling Attributes",
-					"randomize_attributes_description": "If enabled, hearthling Mind, Body, and Spirit attributes will be assigned completely at random instead of distributed in a balanced fashion.",
-					"auto_loot": "Auto Loot",
-					"auto_loot_description": "When an enemy drops loot, automatically mark it for pick up.",
-					"auto_rescue": "Auto Rescue",
-					"auto_rescue_description": "When a citizen is incapacitated, automatically flag them for Rescue.",
-					"building_auto_queue_crafters": "Auto Queue Crafting For Building",
-					"building_auto_queue_crafters_description": "When starting construction on a building, all furniture and fixtures for that building are automatically queued for their respective crafters.",
-					"infinite_inventory": "Disable inventory capacity limit",
-					"infinite_inventory_description": "This will the remove the limit on the maximum number of items you can have in your town inventory.<br><br>Note: You must restart the game for this to take effect!<br><br><font color='#eb4c36'><strong>Warning:</strong></font> Having too many items in the game will affect game performance."
+					"max_citizens_description": "Altere o limite do número máximo de cidadãos que você pode ter na sua cidade.<br><br><font color = '#eb4c36'><strong>Aviso:</strong></font> Ter mais de 20 hearthlings pode causar problemas de desempenho, incluindo falta de resposta / inatividade e engate da IA.",
+					"randomize_attributes": "Sortear Atributos",
+					"randomize_attributes_description": "Se habilitado, os atributos Mente, Corpo e Espírito do hearthling serão atribuídos completamente ao acaso, em vez de distribuídos de maneira equilibrada.",
+					"auto_loot": "Saque Automático",
+					"auto_loot_description": "Quando um inimigo deixa um item, marca automaticamente para pegar.",
+					"auto_rescue": "Auto Resgate",
+					"auto_rescue_description": "Quando um cidadão estiver incapacitado, automaticamente sinalize-o para o Resgate.",
+					"building_auto_queue_crafters": "Criação automática de itens para construção",
+					"building_auto_queue_crafters_description": "Ao iniciar a construção de um prédio, todos os móveis e utensílios do prédio são automaticamente requisitados para seus respectivos artesãos.",
+					"infinite_inventory": "Desativar limite de capacidade de inventário",
+					"infinite_inventory_description": "Isso removerá o limite do número máximo de itens que você pode ter em seu inventário da cidade.<br><br>Nota: Você deve reiniciar o jogo para que isso entre em vigor!<br><br><font color = '#eb4c36'><strong>Aviso:</strong></font> Ter muitos itens no jogo afetará o desempenho do jogo."
 				},
 				"mods": "Módulos",
 				"mods_tab": {
 					"title": "Módulos Instalado",
 					"note": "Abilitar Ou Desabilitar um Módulo Requer Reinicio.",
 					"invalid_manifest": "Manifest Invalido",
-					"invalid_steam_file": "Invalid Steam File Id",
+					"invalid_steam_file": "ID de arquivo do Steam inválido",
 					"out_of_date": "Desatualizado",
-					"deferred_load": "Módulo carregado Altomaticamente",
+					"deferred_load": "Carregado Automaticamente por outros módulos",
 					"required": "Necessário",
-					"debug": "Debug Mod",
-					"localization": "Is this a translation mod?",
-					"loading_namespace": "[ Carregando... ]",
+					"debug": "Módulo para Debug",
+					"localization": "Isto é um mod de tradução?",
+					"loading_namespace": "[ carregando... ]",
 					"mods_changed_dialog": {
-						"title": "Mudar Módulo",
+						"title": "Módulos Mudaram",
 						"message": "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
 						"accept": "Ok",
 						"cancel": "Cancelar"
 					},
 					"upload_error_dialog": {
-						"title": "Upload failed",
+						"title": "Upload falhou",
 						"message": "Não conseguiu enviar \"[str(modname)]\": [str(error)]"
 					},
 					"create_mod_error_dialog": {
-						"title": "Create mod failed",
-						"message": "Could not create mod \"[str(modname)]\": [str(error)]"
+						"title": "Criar mod falhou",
+						"message": "Não foi possível criar o mod \"[str(modname)]\": [str(error)]"
 					}
 				},
 				"controls_tab": {
-					"key_binding_prompt": "Press Del to unbind",
+					"key_binding_prompt": "Pressione Del para desvincular",
 					"reset_to_defaults": "Configuração Padrão",
-					"unbound": "unbound",
+					"unbound": "desvinculado",
 					"conflict_dialog": {
-						"title": "Binding Conflict",
+						"title": "Conflito de Ligação",
 						"message": "\"<strong>[str(combo)]</strong>\" is already used by [str(conflicts)].",
 						"choice_replace": "Unbind Existing",
 						"choice_keep": "Keep All",
@@ -1754,8 +1754,8 @@
 				"kingdom_of": "O Reino de",
 				"continue_game": "Continuar",
 				"new_game": "Novo Jogo",
-				"singleplayer_game": "Singleplayer",
-				"multiplayer_game": "Multiplayer",
+				"singleplayer_game": "Um Jogador",
+				"multiplayer_game": "Multi-jogadores",
 				"load_game": "Carregar Jogo",
 				"mods": "Módulos",
 				"quick_start": "Novo Jogo Rapido",
@@ -1778,7 +1778,7 @@
 				"apply": "Aplicar",
 				"open_folder": "Abrir Pasta",
 				"quit_to_menu": "Salvar e sair do menu",
-				"base_mod": "Mod Base",
+				"base_mod": "Módulo Base",
 				"sections": {
 					"base_mods": {
 						"title": "Módulos Base"
@@ -1789,132 +1789,132 @@
 					},
 					"workshop_mods": {
 						"title": "Módulos da Oficina",
-						"templates_title": "Subscribed Template Packs",
-						"browse_workshop": "Browse Steam Workshop",
-						"unsubscribe": "Unsubscribe",
-						"view_in_workshop": "View in Workshop",
-						"upload": "Upload",
-						"update": "Update",
+						"templates_title": "Pacotes de modelos inscritos",
+						"browse_workshop": "Navegue na Oficina Steam",
+						"unsubscribe": "Cancelar subscrição",
+						"view_in_workshop": "Visualizar na oficina",
+						"upload": "Enviar",
+						"update": "Atualizar",
 						"cancel": "X"
 					},
 					"my_items": {
-						"title": "Workshop Uploads",
-						"templates_title": "Template Pack Uploads",
+						"title": "Envios da Oficina",
+						"templates_title": "Uploads de pacotes de modelos",
 						"create_new_mod": "Criar novo Módulo"
 					}
 				},
 				"tooltips": {
-					"open_folder": "Open mod folder",
-					"view_in_workshop": "View mod in workshop",
-					"toggle_view_templates": "Expand/collapse list of templates",
-					"edit_templates": "Edit this mod's list of templates",
-					"upload": "Upload mod to workshop",
-					"unsubscribe": "Unsubscribe from mod"
+					"open_folder": "Abrir pasta do mod",
+					"view_in_workshop": "Visualizar mod na oficina",
+					"toggle_view_templates": "Expandir / recolher lista de modelos",
+					"edit_templates": "Edite a lista de modelos deste mod",
+					"upload": "Upload mod para workshop",
+					"unsubscribe": "Cancelar inscrição do mod"
 				},
 				"unsubscribe_dialog": {
-					"title": "Are you sure you want to unsubscribe?",
-					"message": "This will erase the mod from your local machine, but you can find the mod again in the Steam Workshop.",
-					"accept": "Yes, unsubscribe.",
-					"cancel": "No, stay subscribed."
+					"title": "Tem certeza de que deseja cancelar a inscrição?",
+					"message": "Isso irá apagar o mod da sua máquina local, mas você pode encontrar o mod novamente na Oficina Steam.",
+					"accept": "Sim, cancelar subscrição.",
+					"cancel": "Não, fique inscrito."
 				},
 				"duplicates_dialog": {
-					"title": "Duplicate Mods Enabled",
-					"message": "You currently have more than one mod with the same name enabled. Make sure you have only one version enabled at a time. Your current duplicates:<br><br>",
+					"title": "Modos duplicados ativados",
+					"message": "Atualmente, você tem mais de um mod com o mesmo nome ativado. Certifique-se de ter apenas uma versão ativada por vez. Suas duplicatas atuais:<br><br>",
 					"ok": "OK"
 				}
 			},
 			"load_match_mods": {
-				"title": "Different Mods",
-				"note": "This game was saved with different mods than the ones you currently have enabled.",
-				"old_save_note": "This game was saved before enabled mods were stored in the save. These are the mods you currently have enabled.",
+				"title": "Mods diferentes",
+				"note": "Este jogo foi salvo com mods diferentes dos que estão ativos no momento.",
+				"old_save_note": "Este jogo foi salvo antes que os mods ativados fossem salvos. Estes são os mods que você ativou atualmente.",
 				"warning_dialog": {
-					"title": "Warning",
-					"message": "Playing with different mods than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
-					"continue": "Continue",
-					"cancel": "Cancel"
+					"title": "Aviso",
+					"message": "Jogar com diferentes mods do que o jogo salvou antes pode levar a erros inesperados ou falhas. Você quer continuar?",
+					"continue": "Continuar",
+					"cancel": "Cancelar"
 				},
 				"statuses": {
 					"missing": {
-						"header": "Missing",
-						"description": "These mods are missing (ie. deleted or unsubscribed)."
+						"header": "Faltando",
+						"description": "Esses mods estão faltando (ou seja, excluídos ou não inscritos)."
 					},
 					"type_mismatch": {
-						"header": "Different Version",
-						"description": "Save had a different version of these mods enabled."
+						"header": "Versão Diferente",
+						"description": "Save tinha uma versão diferente desses mods ativados."
 					},
 					"hash_mismatch": {
-						"header": "Modified",
-						"description": "These mods have been modified since the save."
+						"header": "Modificado",
+						"description": "Estes mods foram modificados desde o salvamento."
 					},
 					"additional": {
-						"header": "New",
-						"description": "These mods were not in the save."
+						"header": "Novo",
+						"description": "Esses mods não estavam salvos."
 					},
 					"disabled": {
-						"header": "Disabled",
-						"description": "These mods are disabled."
+						"header": "Desativado",
+						"description": "Esses mods estão desativados."
 					},
 					"normal": {
-						"header": "All Good Here",
-						"description": "These mods haven't changed since the save."
+						"header": "Tudo certo aqui",
+						"description": "Esses mods não mudaram desde o save."
 					}
 				},
 				"descriptions": {
-					"apply_saved": "Enable mods used in this save and disable all others.",
-					"continue_anyway": "Use current mod configuration. May cause errors."
+					"apply_saved": "Ative apenas os mods usados neste save e desative todos os outros.",
+					"continue_anyway": "Use a configuração mod atual. Pode causar erros."
 				},
 				"buttons": {
-					"continue_anyway": "Continue With Current Mods",
-					"apply_saved": "Apply Saved Mods and Continue"
+					"continue_anyway": "Continue com os Mods atuais",
+					"apply_saved": "Aplicar Modos iguais aos Salvos e Continuar"
 				}
 			},
 			"load_match_mod_order": {
-				"title": "Different Mod Order",
-				"note": "This game was saved with mods in a different order than your current game.",
-				"old_save_note": "This game was saved before mod order was stored in the save. These are the mods you currently have enabled, in order.",
-				"saved_order": "Saved Order",
-				"current_order": "Current Order",
+				"title": "Ordem de Mods Diferente",
+				"note": "Este jogo foi salvo com mods em uma ordem diferente do seu jogo atual.",
+				"old_save_note": "Este jogo foi salvo antes que a ordem mod fosse armazenada no save. Estes são os mods que você ativou atualmente, em ordem.",
+				"saved_order": "Ordem salvada",
+				"current_order": "Ordem atual",
 				"warning_dialog": {
-					"title": "Warning",
-					"message": "Playing with different mod order than the game was saved with could lead to unexpected errors or crashes. Do you want to continue?",
-					"continue": "Continue",
-					"cancel": "Cancel"
+					"title": "Aviso",
+					"message": "Jogar com uma ordem de modificação diferente da que o jogo foi salvo pode levar a erros inesperados ou a falhas. Você quer continuar?",
+					"continue": "Continuar",
+					"cancel": "Cancelar"
 				},
 				"descriptions": {
-					"apply_saved": "Use the saved game's order.",
-					"continue_anyway": "May cause errors."
+					"apply_saved": "Use a ordem do jogo salvo.",
+					"continue_anyway": "Pode causar erros."
 				},
 				"buttons": {
-					"continue_anyway": "Use Current Order",
-					"apply_saved": "Apply Saved Order"
+					"continue_anyway": "Use ordem atual",
+					"apply_saved": "Aplicar ordem salva"
 				}
 			},
 			"mods_sync": {
-				"stop_title": "Missing Mods",
-				"continue_title": "Ready to Continue to Game",
+				"stop_title": "Mods ausentes",
+				"continue_title": "Pronto para continuar no jogo",
 				"time_elapsed": {
-					"days": "Game Time Since Start: [str(date.day)] Days, [str(date.hour)] Hours",
-					"months": "Game Time Since Start: [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours",
-					"years": "Game Time Since Start: [str(date.year)] Years, [str(date.month)] Months, [str(date.day)] Days, [str(date.hour)] Hours"
+					"days": "Tempo de jogo desde o início: [str(date.day)] dias, [str(date.hour)] horas",
+					"months": "Tempo de jogo desde o início: [str(date.month)] Meses, [str(date.day)] dias, [str(date.hour)] horas",
+					"years": "Tempo de jogo desde o início: [str(date.year)] anos, [str(date.month)] meses, [str(date.day)] dias, [str(date.hour)] horas"
 				},
 				"game_info": "[str(biomeName)]: [str(biomeLocation)], [str(gameMode)]",
-				"note": "The game you are trying to join has the following mods.",
-				"missing_note": "The game you are trying to join has the following mods. You must have the same mods and versions in order to join.",
-				"version_note": "<span class=\"warning\">Warning:</span> You are running a different version of Stonehearth than the game you are trying to connect to.<br>This could prevent you from being able to connect, or lead to unexpected bugs during gameplay.",
-				"your_version": "Your version: [str(version)]",
-				"their_version": "Their version: [str(version)]",
-				"continue": "Continue to Game",
-				"loading": "Loading into game...",
-				"subscribe_all": "Subscribe All",
-				"no_steam_cant_sync": "You are missing one or more of the above mods. Ask your host to send them to you, or connect to Steam and look for them in the Steam workshop.",
-				"not_seen_in_workshop_cant_sync": "One or more of the missing mods is unavailable in the Steam Workshop. They might not be uploaded, or only be viewable by the host. Ask them to upload or change their permissions, then try connecting again.",
-				"mismatched_hash_workshop_cant_sync": "One of your Steam mods does not match the version that the host server is using. The mod's files may have been modified or the host is using a mod that is not up-to-date with the Steam version. Try deleting the mod and re-subscribing to get the Workshop version, or tell the host to update their Steam Workshop mods.",
-				"failed_download_workshop_update_cant_sync": "One or more of your mods doesn't match the version the host server has. Game was unable to download the workshop update for one of the mods because the mod steam file id invalid or you are logged out of steam.",
-				"cancel": "Cancel",
-				"private": "Private mod",
-				"non_workshop": "Not found in workshop",
-				"failed_download": "Cannot download update",
-				"mismatched_workshop_hash": "Does not match steam version",
+				"note": "O jogo que você está tentando entrar tem os seguintes mods.",
+				"missing_note": "O jogo que você está tentando entrar tem os seguintes mods. Você deve ter os mesmos mods e versões para entrar.",
+				"version_note": "<span class = \"warning\">Aviso: </span> Sua versão do Stonehearth não corresponde ao jogo ao qual você está tentando se conectar! <br> Isso pode impedir que você se conecte ou leve a bugs inesperados durante o jogo.",
+				"your_version": "Sua versão: [str(version)]",
+				"their_version": "Versão deles: [str(version)]",
+				"continue": "Continuar ao Jogo",
+				"loading": "Carregando ao jogo ...",
+				"subscribe_all": "Inscrever-se em tudo",
+				"no_steam_cant_sync": "Está faltando um ou mais dos mods acima. Peça ao seu anfitrião para enviá-los para você, ou conecte-se ao Steam e procure por eles na oficina Steam.",
+				"not_seen_in_workshop_cant_sync": "Um ou mais dos mods faltantes não estão disponíveis na Oficina Steam. Eles podem não ter sido enviados ou ser visualizados apenas pelo host. Peça para fazer upload ou alterar suas permissões e tente se conectar novamente.",
+				"mismatched_hash_workshop_cant_sync": "Um dos seus mods Steam não corresponde à versão que o servidor host está usando. Os arquivos do mod podem ter sido modificados ou o host está usando um mod que não está atualizado com a versão do Steam. Tente deletar o mod e reinscrevendo para obter a versão da Oficina, ou diga ao host para atualizar seus mods da Oficina Steam.",
+				"failed_download_workshop_update_cant_sync": "Um ou mais dos seus mods não correspondem à versão que o servidor host possui. O jogo não pôde fazer o download da atualização do workshop para um dos mods porque o ID do arquivo steam mod está inválido ou você está desconectado.",
+				"cancel": "Cancelar",
+				"private": "Mod Privado",
+				"non_workshop": "Não encontrado na Oficina",
+				"failed_download": "Não é possível baixar a atualização",
+				"mismatched_workshop_hash": "Não corresponde à versão Steam",
 				"size": {
 					"bytes": "[str(size)] bytes",
 					"kilobytes": "[str(size)] KB",
@@ -1923,48 +1923,48 @@
 			},
 			"mod_upload": {
 				"title": "[str(i18n_data.action)] mod \"[str(i18n_data.modname)]\"",
-				"opt_title": "Steam Mod Title",
-				"opt_title_placeholder": "Title for your steam workshop mod",
-				"opt_description": "Steam Mod Description",
-				"opt_description_placeholder": "Description of your mod",
-				"opt_visibility": "Visibility",
+				"opt_title": "Titulo do Mod na Steam",
+				"opt_title_placeholder": "Título para o seu mod na Oficina Steam",
+				"opt_description": "Descrição na Oficina Steam",
+				"opt_description_placeholder": "Descrição do seu mod",
+				"opt_visibility": "Visibilidade",
 				"opt_tags": "Tags",
-				"opt_tags_placeholder": "e.g. biome, furniture, animals",
-				"opt_tags_tooltip": "Tags must be separated by commas. Each tag can be at most 255 characters.",
-				"opt_tags_invalid": "Tags cannot contain special characters",
-				"opt_preview_image": "Preview Image",
-				"opt_preview_image_choose_file": "Choose File",
-				"opt_preview_image_placeholder": "No file chosen",
-				"opt_preview_image_info": "(1MB limit)",
-				"opt_preview_image_dialog_title": "Open preview image file",
-				"opt_building_template_preview_images": "Use building template screenshots as additional preview images",
-				"opt_building_template_preview_images_tooltip": "Add an additional preview image for every template in your building template mod.<br><br><font color='#eb4c36'><strong>Warning:</strong></font> This will overwrite all existing preview images (except the main preview image) for this steam workshop item and replace them with your building template screenshots.",
-				"opt_change_note": "Change Note",
-				"opt_change_note_placeholder": "A brief description of the changes made",
-				"upload": "Upload",
-				"update": "Update",
-				"cancel": "Cancel",
-				"public": "Public",
-				"friends_only": "Friends Only",
-				"private": "Only You",
-				"required": "* required",
-				"optional": "optional",
-				"exceeded_byte_limit": "* exceeded byte limit ([str(byte_limit)])",
-				"debug_mod": "Debug Mod",
-				"localization_mod": "Is this a translation mod?",
-				"building_template_mod": "Is this a building templates mod?",
+				"opt_tags_placeholder": "e.g. bioma, decoração, animais",
+				"opt_tags_tooltip": "As tags devem ser separadas por vírgulas. Cada tag pode ter no máximo 255 caracteres.",
+				"opt_tags_invalid": "Tags não podem conter caracteres especiais",
+				"opt_preview_image": "Imagem de Visualização",
+				"opt_preview_image_choose_file": "Escolher Arquivo",
+				"opt_preview_image_placeholder": "Nenhum arquivo escolhido",
+				"opt_preview_image_info": "(limite de 1MB)",
+				"opt_preview_image_dialog_title": "Abrir arquivo de imagem de visualização",
+				"opt_building_template_preview_images": "Use as capturas de tela do modelo de construção como imagens de visualização adicionais",
+				"opt_building_template_preview_images_tooltip": "Adicione uma imagem de visualização adicional para cada modelo no seu mod de construção.<br><br><font color = '#eb4c36'><strong>Aviso:</strong></font> Isso substituirá todas as imagens de visualização existentes ( exceto a imagem de visualização principal) para este item da Oficina Steam e substituíra-los por suas capturas de tela do modelo de construção.",
+				"opt_change_note": "Notas de Atualização",
+				"opt_change_note_placeholder": "Uma breve descrição das mudanças feitas",
+				"upload": "Enviar",
+				"update": "Atualizar",
+				"cancel": "Cancelar",
+				"public": "Publico",
+				"friends_only": "Apenas para Amigos",
+				"private": "Apenas para Você",
+				"required": "* requerido",
+				"optional": "opcional",
+				"exceeded_byte_limit": "* limite de bytes excedido ([str(byte_limit)])",
+				"debug_mod": "Mod para Debug",
+				"localization_mod": "Isto é um mod de tradução?",
+				"building_template_mod": "Isto é um mod de modelos de construção?",
 				"errors": {
-					"steam_not_present": "Steam is not running",
-					"update_handle_invalid": "Could not update mod [str(modname)]. Check that you have permissions to update this steam workshop item.",
-					"invalid_title": "Title cannot be empty or contain more than 129 bytes",
-					"invalid_description": "Description cannot be empty or contain more than 8000 bytes",
-					"invalid_content_path": "The directory for the mod [str(modname)] was not found. The directory name must match the mod namespace found in the manifest.",
-					"invalid_param": "Preview image file is smaller than 16 bytes or steam AppID does not match user AppID.",
-					"access_denied": "Could not find your steam license for Stonehearth",
-					"file_not_found": "Failed to get the workshop info for the item, failed to read the preview file, or provided content folder is not valid. Check that your steam_file_id is a valid workshop item.",
-					"locking_failed": "Failed to aquire UGC Lock for steam workshop item",
-					"limit_exceeded": "The preview image is too large (it must be less than 1 Megabyte) or there is not enough space available on your Steam Cloud",
-					"generic": "Could not update mod [str(modname)] on steam workshop"
+					"steam_not_present": "Steam não está rodando",
+					"update_handle_invalid": "Não foi possível atualizar o mod [str(modname)]. Verifique se você tem permissões para atualizar este item da Oficina Steam.",
+					"invalid_title": "O título não pode estar vazio ou conter mais de 129 bytes",
+					"invalid_description": "Descrição não pode estar vazia ou conter mais de 8000 bytes",
+					"invalid_content_path": "O diretório para o mod [str(modname)] não foi encontrado. O nome do diretório deve corresponder ao namespace encontrado no manifesto.",
+					"invalid_param": "O arquivo de imagem de visualização é menor que 16 bytes ou o Steam AppID não corresponde ao AppID do usuário.",
+					"access_denied": "Não foi possível encontrar a sua licença Steam para Stonehearth",
+					"file_not_found": "Falha ao obter as informações do workshop para o item, falha ao ler o arquivo de visualização ou a pasta de conteúdo providenciada não é válida. Verifique se o seu steam_file_id é um item de oficina válido.",
+					"locking_failed": "Falha ao adquirir o bloqueio UGC para o item de Oficina Steam",
+					"limit_exceeded": "A imagem de visualização é muito grande (deve ser menor que 1 Megabyte) ou não há espaço suficiente disponível na sua nuvem Steam",
+					"generic": "Não foi possível atualizar o mod [str(modname)] na Oficina Steam"
 				}
 			},
 			"mod_create": {
@@ -2049,7 +2049,7 @@
 				"randomize": "Aleatório",
 				"hair_style": "Penteado",
 				"skin_color": "Cor da Pele",
-				"facial_hair": "Barba",
+				"facial_hair": "Face",
 				"hair_color": "Cor do Cabelo",
 				"name": "Nome",
 				"name_and_appearance": "Nome e aparência",
@@ -2164,7 +2164,7 @@
 					}
 				},
 				"happiness": {
-					"display_name": "Overall Moral",
+					"display_name": "Overall Morale",
 					"description": "This hearthling's overall happiness",
 					"town_description": "How happy your citizens are overall."
 				},
@@ -2282,6 +2282,7 @@
 				"food_container_resource_name": "Food",
 				"prepared_food_resource_name": "Prepared Food",
 				"prepared_dessert_resource_name": "Prepared Dessert",
+				"earth_essence_resource": "Hearth Essence",
 				"gear_resource_name": "Gear",
 				"ore_resource_name": "Minério",
 				"dirt_resource_name": "Pile of Dirt"
@@ -2427,9 +2428,9 @@
 						"tier_title": "Vilarejo",
 						"reward_message": "Por decreto da Princesa Dania da Ascendência, nós reconhecemos:",
 						"reward_message_ctd": "Por atos de incrível valor em combate. A vila é solenemente elegível à:",
-						"tier_2_bldg_template": "Modelos de contrução de Tier 2",
-						"tier_2_shops": "Lojas de Tier 2",
-						"tier_2_BGM": "BGM de Tier 2",
+						"tier_2_bldg_template": "Modelos de construção Nível 2",
+						"tier_2_shops": "Lojas Nível 2",
+						"tier_2_BGM": "Musicas Nível 2",
 						"recipe_unlock_engineer": "New portcullis recipe for Engineer!",
 						"recipe_unlock_mason": "New decoration recipes for Mason!",
 						"recipe_unlock_blacksmith": "New decoration recipes for Blacksmith!",
@@ -2470,7 +2471,7 @@
 									"bulletin_title": "Anwyn Limpa sua Garganta",
 									"dialog_title": "O honorável Anwyn Redelm",
 									"choice_000": "Wow, uma proclamação!",
-									"choice_001": "Zzz..."
+									"choice_001": "Zzz...."
 								},
 								"craft_reqs": {
 									"bulletin_message": {
@@ -2487,7 +2488,7 @@
 									},
 									"bulletin_title": "Anwyn lê:",
 									"dialog_title": "O honorável Anwyn Redelm",
-									"choice_000": "Huh?",
+									"choice_000": "Uh?",
 									"choice_001": "Recompensas?"
 								},
 								"actual_meaning": {
@@ -2835,8 +2836,8 @@
 									"dialog_title": "Ogo's Bannerman"
 								},
 								"snooty_introduction": {
-									"choice_000": "Huh.",
-									"choice_001": "Gagh!",
+									"choice_000": "Uh.",
+									"choice_001": "Agh!",
 									"bulletin_message": {
 										"000": "Ho, puny town! Me stand here with bad news for you!",
 										"001": "Puny Town! Bow and tremble!",
@@ -2846,8 +2847,8 @@
 									"dialog_title": "Ogo's Bannerman"
 								},
 								"ogo_introduction": {
-									"choice_000": "Ogo who?",
-									"choice_001": "Uh. No.",
+									"choice_000": "Ogo quem?",
+									"choice_001": "Uh. Não.",
 									"bulletin_message": {
 										"000": "By order of Ogo Skullbonker, Goblin-All-Chief-To-Be, you and all your stuffs now be tribute to Great Glittering Army and Red Kiln Empire!",
 										"001": "I envoy of Ogo Skullbonker, tamer of Mountains! Ogo demand many thing from all, include you, include your gold!",
@@ -2859,8 +2860,8 @@
 									"dialog_title": "Ogo's Bannerman"
 								},
 								"ogo_description": {
-									"choice_000": "Soothsayer?",
-									"choice_001": "Eh",
+									"choice_000": "Profeta?",
+									"choice_001": "E",
 									"bulletin_message": {
 										"000": "Soothsayer say Ogo Skullbonker will be hero above all heroes! You destined to give him gold!",
 										"001": "Soothsayer little, but have big thoughts! Soothsayer never wrong. Soothsayer say you give Ogo gold, or Ogo will take it from you!",
@@ -2947,24 +2948,24 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "It's been pretty quiet, but you know...? It's a bad sign when the birds stop singing."
+										"00": "Tem sido bem tranquilo, mas você sabe ...? É um mau sinal quando os pássaros param de cantar."
 									},
-									"bulletin_title": "Mer Burlyhands scratches his ear",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "O viajante coça a orelha",
+									"dialog_title": "Viajante"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "My guess is wolves. Goblin wolves. Watch your borders. You don't want to fight them after their trainer's got them in a lather, you hear? Bunker down, if you need to. Or run. Runnin's good! No shame in surviving another day."
+										"00": "Meu palpite é lobos. Lobos de Goblins. Vigie suas fronteiras. Você não quer lutar contra eles depois que os treinadores os deixarem nervosos, ouviu? Fortifique-se, se precisar. Ou corra. Correr é bom! Não há vergonha em sobreviver mais um dia."
 									},
-									"bulletin_title": "Mer Burlyhands nods firmly",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "O estranho acena com firmeza",
+									"dialog_title": "Viajante"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ho there township! How are things for you?"
+										"00": "Ei, cidadezinha! Como estão as coisas para você?"
 									},
-									"bulletin_title": "A grizzled traveller appears on the horizon",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "Um viajante aparece no horizonte",
+									"dialog_title": "Viajante"
 								}
 							}
 						}
@@ -3015,24 +3016,24 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Congratulations are in order, if that's the sort of thing you care about. I've been up and down the area and it seems you've taken care of the bulk of the goblins around these parts! Not saying you won't see a straggler or two come to harass you, but good job, all in all."
+										"00": "Parabéns estão em ordem, se é esse o tipo de coisa que você gosta. Eu fui para cima e para baixo na área e parece que você cuidou da maior parte dos goblins em torno dessas partes! Não estou dizendo que você não verá um retardatário ou dois virem para assediá-lo, mas bom trabalho, apesar de tudo."
 									},
-									"bulletin_title": "Mer Burlyhands shakes his head",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "O viajante sacode a cabeça",
+									"dialog_title": "Viajante"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Here's a gift I've collected from some neighboring towns. Everyone's sleeping easier tonight because of you."
+										"00": "Aqui está um presente que eu colecionei de algumas cidades vizinhas. Todo mundo está dormindo mais fácil esta noite por sua causa."
 									},
-									"bulletin_title": "Mer Burlyhands nods firmly",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "O estranho acena com firmeza",
+									"dialog_title": "Viajante"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Hello there? Anyone still home?"
+										"00": "Olá? Alguém ainda está em casa?"
 									},
-									"bulletin_title": "Mer Burlyhands Reappears",
-									"dialog_title": "Mer Burlyhands"
+									"bulletin_title": "O Viajante Reaparece",
+									"dialog_title": "Viajante"
 								}
 							}
 						}
@@ -3260,7 +3261,7 @@
 														"000": "Well done, little town. You survive another night. Ogo, his mountain, and his soothsayer are disappeared from the earth, but you remain. Do you celebrate?"
 													},
 													"bulletin_title": "The cloaked orc scout appears",
-													"dialog_title": "Erdene, Red Kiln Scout",
+													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "Yup! It was pretty cool",
 													"choice_001": "You look... sad?"
 												},
@@ -3269,7 +3270,7 @@
 														"000": "My Khan calls me home. Fare well, little town. To every equal, another day dawns."
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout",
+													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "Goodbye!",
 													"choice_001": "Thanks, I guess?"
 												},
@@ -3278,37 +3279,37 @@
 														"000": "Of lumber born and southstar driven, grew nest of hope in mountains riven"
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout"
+													"dialog_title": "Erdene, oradora do Forno Vermelho"
 												},
 												"red_kiln_description": {
 													"bulletin_message": {
 														"000": "My Khan has seen many years. He is ill. When his star falls, his men will look to the wilds, to grow their honor. Ogo's onus will pass to you, and they will come."
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout",
+													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "Ogo's what?",
-													"choice_001": "Will you fight with us?"
+													"choice_001": "Seu Khan morreu? Eu sinto muito..."
 												},
 												"ogo_poem_2": {
 													"bulletin_message": {
 														"000": "Oh heroes come, and heroes go, but forever's found in the campfire's glow"
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout"
+													"dialog_title": "Erdene, oradora do Forno Vermelho"
 												},
 												"ogo_poem_4": {
 													"bulletin_message": {
 														"000": "The wink of the gem in the monkey's paw, the rebirth of the star the Gods foresaw"
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout"
+													"dialog_title": "Erdene, oradora do Forno Vermelho"
 												},
 												"erdene_discusses": {
 													"bulletin_message": {
 														"000": "To the great, come the challenges of the great. Power seeks power. To defeat power... is to invite the attention of more."
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout",
+													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "More?",
 													"choice_001": "We can take them!"
 												},
@@ -3317,7 +3318,7 @@
 														"000": "Who can say? My people believe... well. It does not matter now. The cycles of the gods are not for the everyday considerations of men, lizardkin, monkey's folk or otherwise. Look to your tomorrow, little town, and prosper."
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout",
+													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "That's not helpful",
 													"choice_001": "Thanks, I guess?"
 												},
@@ -3326,7 +3327,7 @@
 														"000": "Cast the bones, Ogo's soothsayer did, over the cradle of this land. Would you hear his words?"
 													},
 													"bulletin_title": "Erdene considers",
-													"dialog_title": "Erdene, Red Kiln Scout",
+													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "Sure!",
 													"choice_001": "No thanks"
 												}
@@ -4322,9 +4323,6 @@
 											}
 										}
 									},
-									"unlock_titan_ward_carpenter": {
-										"bulletin_title": "The Carpenter has unlocked the Anti-Titan Ward recipe!"
-									},
 									"prompt_for_recurring_orc_citizen": {
 										"dialog_tree_info": {
 											"dialog_nodes": {
@@ -4986,21 +4984,6 @@
 					"alert_wave": {
 						"title": "A storm of evil erupts from the Titan! Take shelter!"
 					},
-					"delivery_quest_dialog": {
-						"dialog_tree_info": {
-							"dialog_nodes": {
-								"msg1": {
-									"bulletin_message": {
-										"00": "We'll somehow use carrots to hurt the Titan??"
-									},
-									"bulletin_title": "Carrot Quest",
-									"dialog_title": "Carrot Quest",
-									"choice_000": "Carrots, incoming!",
-									"choice_001": "We can defeat him without your help!"
-								}
-							}
-						}
-					},
 					"spawn_raid": {
 						"mission": {
 							"sighted_bulletin": {
@@ -5022,10 +5005,1331 @@
 					},
 					"alert_new_bugs": {
 						"title": "More Crawlers emerge from a Portal, hungry for your stockpiles"
+					}
+				},
+				"amberstone": {
+					"persons": {
+						"sasha": {
+							"title": "Sasha, Envoy of Clan Amberstone"
+						}
 					},
-					"delivery_quest": {
-						"title": "Carrot Quest",
-						"dialog_title": "Deliver Carrots"
+					"arcs": {
+						"trigger": {
+							"discovery": {
+								"encounters": {
+									"titan_already_killed_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"greet": {
+													"bulletin_message": {
+														"00": "\"Hello again, my friends of the Monkey! I hope this day finds you at peace.<br><br>Honorable Humans, I... have a confession to make.\""
+													},
+													"bulletin_title": "Sasha of Clan Amberstone returns!",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "Welcome! Confession?"
+												},
+												"intro": {
+													"bulletin_message": {
+														"00": "\"When I originally came to you, it was in hopes that you could be... useful to us.\" he says sheepishly, with drooped ears. \"The Titan lurking beneath your town has loomed over my people for generations. I saw in your town a spark of hope that we might be free of its burden.<br><br>I apologize for not being more open about my motives before now. I hope I can be forgiven.\""
+													},
+													"bulletin_title": "Sasha continues, sheepishly",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "Oh... don't worry about it!."
+												},
+												"story1": {
+													"bulletin_message": {
+														"00": "\"I must admit, your town surpassed my wildest dreams, managing to defeat a foe of such magnitude by your own strength alone.<br><br>But not only that - my people and I have grown fond of you beyond expectation, as well\" he admits, smiling. \"You have been faithful allies to us, and we have learned much from each other. I hope our two warrens can continue our budding friendship.\""
+													},
+													"bulletin_title": "Sasha continues, sheepishly",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "Thank you, and of course!"
+												},
+												"story2": {
+													"bulletin_message": {
+														"00": "Sasha looks visibly relieved. \"I am glad to hear it! I will take my leave of you for now, but I shall visit again! Once more, congratulations on cleansing your land of the Titan scourge, it is not something easily done. Farewell!\""
+													},
+													"bulletin_title": "Sasha smiles",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "Bye!"
+												}
+											}
+										}
+									},
+									"56_display_titan_arbalest_instructions": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"00": "<i><font size=-1>[Select the Arbalest and Press the 'Awaken Titan' button when you're ready. Once the Arbalest has charged, hit the Fire button to damage the Titan. Killing or destroying the Titan's minions, tentacles, and roots will also reduce its health.]<br><br>[Good luck!]</font>"
+													},
+													"bulletin_title": "A Titanic Undertaking",
+													"dialog_title": "Last Steps",
+													"choice_000": "[Okay!]"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"00": "\"The Arbalest looks to be in working shape. Isn't it beautiful? The way it sparkles?\"<br><br>He shakes his head to clear his mind. \"Now is no time for distraction. Now that it's standing, all that's left is to activate it and call forth the Titan. Once that's happened, it's up to us to make sure it's charging, but I'll call on you to actually fire. It's your town, so it only seems right\"<br><br>\"Only summon the Titan when you're ready for a siege. It will not be easy, and he will not be kind.\""
+													},
+													"bulletin_title": "Sasha admires the Arbalest",
+													"dialog_title": "TKTK Sasha Something",
+													"choice_000": "We will survive."
+												}
+											}
+										}
+									},
+									"titan_defeated_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"accept2": {
+													"bulletin_message": {
+														"00": "<TKTK Congrats>"
+													},
+													"bulletin_title": "Sasha continues",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "Safe travels, Sasha!"
+												},
+												"request1": {
+													"bulletin_message": {
+														"00": "\"In fact, now that the evil has passed, there should be enough Hearth magic energy up here in the aboveground to support Lapines. So long as you keep that monument standing, you should expect some of us to ask to immigrate here, from time to time.\""
+													},
+													"bulletin_title": "Sasha offers",
+													"dialog_title": "Sasha's offer",
+													"choice_000": "TKTK Response"
+												},
+												"accept1": {
+													"bulletin_message": {
+														"00": "\"Fantastic, I'll let them know post-haste!\"<br><br>\"Now, I... suppose that's all. Enjoy your celebrations!\""
+													},
+													"bulletin_title": "Sasha continues",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "[Accept] Yes!",
+													"choice_001": "[Reject] No..."
+												},
+												"greet": {
+													"bulletin_message": {
+														"00": "\"By the stars! By the Divines! You did it! We did it! Did you see the look on his face as he imploded? Kapowww!\" Sasha says, with excitement you've never seen from him before."
+													},
+													"bulletin_title": "Sasha leaps into the air, joyous!",
+													"dialog_title": "Sasha, ecstatic",
+													"choice_000": "We did!"
+												},
+												"reject1": {
+													"bulletin_message": {
+														"00": "\"Oh, I see - it's not my place to decide, so I'll respect your wishes.\"<br><br>\"Now, I suppose that's all the business - let's enjoy the celebrations!\""
+													},
+													"bulletin_title": "Sasha continues",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "[Reject] We're quite sure",
+													"choice_001": "[Accept] On second thought..."
+												},
+												"request2": {
+													"bulletin_message": {
+														"00": "\"Also... the Geomancer who worked most closely on the Arbalest, who made it happen at all, has expressed to me a desire to stay here beside it, among the people who defended it. I think they've earned their place here, but that's not for me to decide.\"<br><br>\"What do you say, would you like this Rabbit Geomancer to join your town?\""
+													},
+													"bulletin_title": "Sasha continues",
+													"dialog_title": "Sasha gestures",
+													"choice_000": "I see!"
+												},
+												"request3": {
+													"bulletin_message": {
+														"00": "<TKTK Request 3>"
+													},
+													"bulletin_title": "Sasha continues",
+													"dialog_title": "Sasha extends her hand",
+													"choice_000": "Welcome!",
+													"choice_001": "Um, no thanks..."
+												},
+												"intro": {
+													"bulletin_message": {
+														"00": "Sasha stops, holding his knees and panting slightly. \"Whew... oh... look, over at the Arbalest! It seems... its job is done, and now it's gone dormant. Let's have it serve as a monument, a memorial, to what the friendship of our two clans could achieve!\""
+													},
+													"bulletin_title": "Sasha continues",
+													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"choice_000": "I'm glad we could do some good"
+												}
+											}
+										}
+									},
+									"prompt_for_recurring_bun_citizen": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"00": "Would you like to let this Rabbit to join your town? <br><br><i><font size=-1>[They're surprisingly fast for their low Body!]</font></i>"
+													},
+													"bulletin_title": "A Rabbit immigrant!",
+													"dialog_title": "A member of Clan Amberstone wishes to join your town!",
+													"choice_000": "Yes",
+													"choice_001": "No"
+												}
+											}
+										}
+									},
+									"grant_recurring_bun_citizen": {
+										"notification_title": "A new Rabbit citizen has joined your town!"
+									},
+									"grant_bun_citizen": {
+										"notification_title": "Sasha's disciple has joined your town!"
+									},
+									"00_sighting": {
+										"00_sighting_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "This sounds crazy, but I swear I saw an oversized pair of rabbit ears poking out from behind a bush for a second on my way here.<br><br>Reminds me of the old tales about rabbit-people. You don't think..."
+														},
+														"bulletin_title": "A confused-looking traveller",
+														"dialog_title": "A Confused Traveller",
+														"choice_000": "Huh! Maybe we should put some carrots out...",
+														"choice_000b": "Huh! Maybe we should put some vegetables out...",
+														"choice_001": "[Ignore] Nah, was just your imagination."
+													}
+												}
+											}
+										},
+										"00_sighting_outro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "We left those carrots out overnight, and in the morning they were gone... along with the baskets.<br/><br/> Strange..."
+														},
+														"bulletin_title": "Missing Carrots!",
+														"dialog_title": "Missing Carrots",
+														"choice_000": "OK"
+													}
+												}
+											}
+										},
+										"00b_sighting_outro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "We left those veggies out overnight, and in the morning they were gone... along with the baskets.<br/><br/> Strange..."
+														},
+														"bulletin_title": "Missing Veggies!",
+														"dialog_title": "Missing Veggies",
+														"choice_000": "OK"
+													}
+												}
+											}
+										},
+										"00b_sighting_carrots_placed": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "We'll leave the veggies out past the edge of town overnight. Wonder if they'll still be there in the morning..."
+														},
+														"bulletin_title": "Now We Wait",
+														"dialog_title": "Now We Wait",
+														"choice_000": "OK"
+													}
+												}
+											}
+										},
+										"00_sighting_carrots_placed": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "We'll leave the carrots out past the edge of town overnight. Wonder if they'll still be there in the morning..."
+														},
+														"bulletin_title": "Now We Wait",
+														"dialog_title": "Now We Wait",
+														"choice_000": "OK"
+													}
+												}
+											}
+										}
+									},
+									"14_chase_scene": {
+										"14_chase_scene_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"heal": {
+														"bulletin_message": {
+															"00": "\"Thank you! I think I lost them, so we should have some time.\""
+														},
+														"bulletin_title": "An Injured Rabbit",
+														"dialog_title": "An Injured Rabbit",
+														"choice_000": "Let us get some supplies together."
+													},
+													"fight": {
+														"bulletin_message": {
+															"00": "\"Thank you! I'll lead them here, make sure you're ready for them!\""
+														},
+														"bulletin_title": "An Injured Rabbit",
+														"dialog_title": "An Injured Rabbit",
+														"choice_000": "We're ready!"
+													},
+													"leave": {
+														"bulletin_message": {
+															"00": "\"I understand. I haven't heard any howling in a while, I think your human odors might have thrown them off. I'll make a break for it, the long way around...\""
+														},
+														"bulletin_title": "An Injured Rabbit",
+														"dialog_title": "An Injured Rabbit",
+														"choice_000": "Good luck!"
+													},
+													"msg2": {
+														"bulletin_message": {
+															"00": "\"Thank goodness, I have nowhere else to turn. I'll hide somewhere, let me know when you're ready.\""
+														},
+														"bulletin_title": "Chase Scene",
+														"dialog_title": "A Wounded Rabbit",
+														"choice_000": "OK"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "A wounded rabbit limps into town, panting. \"Help! Aid! I was scouting and was caught out by a group of kobolds. I made it this far, but I'm hurt and I think their wolves are tracking me...\""
+														},
+														"bulletin_title": "Chase Scene",
+														"dialog_title": "A Wounded Rabbit",
+														"choice_000": "Stay and rest. We'll protect you.",
+														"choice_001": "We can patch you up so you can make it home.",
+														"choice_002": "I'm sorry, we can't help. Good luck"
+													}
+												}
+											}
+										},
+										"14_chase_scene_reward_b": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"000": "\"Thanks, you truly saved me.<br><br>...so, the Kobolds <i>may</i> have been chasing me because I <i>might</i> have stolen these from them...\" the young rabbit says, bashfully.<br><br>\"Here, you've earned them.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														},
+														"bulletin_title": "A Grateful Rabbit",
+														"dialog_title": "A Grateful Rabbit",
+														"choice_000": "Thanks, and be safe!"
+													}
+												}
+											}
+										}
+									},
+									"23_borrow_crafter": {
+										"borrow_intro_shared": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_title": "Borrowed Time",
+														"choice_000": "Sure!",
+														"choice_001": "Sorry, but no."
+													}
+												}
+											}
+										},
+										"23_borrow_crafter_outro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Here is your townsperson, back safe and sound! I think they found the change in scenery to be invigorating, and we certainly found them to be quite helpful!\"<br><br><font size=-1><i>[Rabbit reputation increased, and your citizen is in high spirits!]</i></font>"
+														},
+														"choice_000": "Welcome back!",
+														"bulletin_title": "Borrowed Time"
+													}
+												}
+											}
+										},
+										"borrow_intro_carpenter": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"We have need of an experienced Carpenter for two days, to help with bracing a tunnel and putting up new vegetable storage.\"\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_blacksmith": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"We have need of an experienced Blacksmith for two days, to help us with forging some new digging equipment.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_herbalist": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"My Herbalists would like to compare notes with one of your own for a couple of days.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_trapper": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Dear humans, some of my clan respect the efficiency of your Trappers. Could one visit for two days, so that we might learn their methods and adapt them for our own use?\"<br><br>\"We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_cook": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Would you be willing to send one of your experienced Cooks as a liaison for two days? We would love to learn more about human cuisine.\"<br><br>\" We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_weaver": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"We have need of an experienced Weaver for two days, to help us understand this 'loom' contraption of theirs.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_potter": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Dear friends, I would like to request two days of an experienced Potter's time. My clan has focused on Masonry for so long that we would benefit from a Potter's instruction.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_engineer": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"We have need of someone with Engineering skills for around two days to help us trap a tunnel that goblins have discovered and we cannot afford to collapse.\"<br><br>\"Would you be willing to spare someone? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										},
+										"borrow_intro_farmer": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Some of my clan are starting to experiment with aboveground farming, and would benefit greatly from consult with your expert Farmers.\"<br><br>\"Would you be willing to spare someone for a couple of days? We will provide the supplies, and they will be an honored guest of the warren.\""
+														}
+													}
+												}
+											}
+										}
+									},
+									"30_geomancy": {
+										"30_geomancy_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_title": "Buried Knowledge",
+														"choice_000": "[Skip Story] Know all about it",
+														"choice_001": "Please, tell us",
+														"bulletin_message": {
+															"00": "\"My dear human friends! It has been generations since we Lapine have found an ally as trustworthy as you. We have decided to offer you a precious gift.\"<br><br>\"We would like to bring one of your own into our warren for a time, to teach them the art of Geomancy.\"<br><br>\"Do you understand how vital Geomancy is to us, of the history of my kind and of Clan Amberstone?\""
+														}
+													},
+													"story1": {
+														"choice_000": "But you're still around?",
+														"bulletin_message": {
+															"00": "Sasha nods sagely. \"This world of Hearth is ruled by the Heavenly Cycles. Each eon brings a different entity to Ascendance, who raises their own kind to an evolved state.\"<br><br>\"Monkey is in Ascendance now, giving you Humans form and cleverness. Snake was before, and has waned, its Orcs slowly reverting to their lizard nature. Rabbit before that; long ago, but you can find our statues dotting the landscape even now.\""
+														}
+													},
+													"offer": {
+														"bulletin_message": {
+															"00": "\"Now then, to business - would you like to send one of your esteemed citizens with me to learn the ways of Geomancy? I estimate it will take at least a week to grant them a basic understanding.\"<br><br>\"This may be your only chance to do so - I feel the elders may change their minds again in a hare's breath.\""
+														},
+														"choice_000": "Okay! Sounds exciting!",
+														"choice_001": "[Decline] No thanks!"
+													},
+													"reject": {
+														"bulletin_message": {
+															"00": "\"I see. Are you sure? As I said, this may likely be your only chance to gain such knowledge.\""
+														},
+														"choice_000": "I am sure, no thanks.",
+														"choice_001": "[Back] Wait, I changed my mind!"
+													},
+													"story3a": {
+														"bulletin_message": {
+															"00": "Sasha continues. \"Rabbit left Ascendance, and Snake uplifted the Orcs. The Orcs were unsatisfied sharing the world indefinitely, and rejected our attempts to teach them Geomancy, saying it was against the will of the Cycle and that Hearth’s magic was forbidden; dangerous and volatile.\"<br><br>\"In truth, they were not wrong.\""
+														},
+														"choice_000": "Oh..."
+													},
+													"reject2": {
+														"bulletin_message": {
+															"00": "\"Very well, I suppose things of the Rabbit stay of the Rabbit after all.\"<br><br>\"I shall take my leave for now. I still count you as dear friends and allies, so I will be back in touch before long! Farewell!\""
+														},
+														"choice_000": "Farewell!"
+													},
+													"story2": {
+														"bulletin_message": {
+															"00": "\"During our Cycle, we Lapine studied its magic deeply. We began to understand the nature of the magical <i>Divine Harmonics</i> produced from the Cycle and which grant our uplifted form. We also learned that Hearth exudes magic, the manipulation of which became known as <i>Geomancy</i>\".<br><br>\"We learned to harness this Hearth magic, our Geomancers attuning it through amberstones such that it keeps us from devolving back to the simple fuzzy creatures you see hopping around the surface now.\""
+														},
+														"choice_000": "But it didn't work on everyone?"
+													},
+													"story3b": {
+														"bulletin_message": {
+															"00": "\"Still, our largest cities were using up magic energy faster than Hearth could produce it, forcing us to scatter. At the same time, radical factions of Orc were hostile to us, forcing us to consolidate. We were at an impasse.\"<br><br>\"So, my ancestors made the drastic choice to go underground, taking the name Amberstone and building tunnels and settlements along Leylines mapped by Lapine Geomancers. These seams of intense magic energy let them survive underground indefinitely.\""
+														},
+														"choice_000": "Sounds dull..."
+													},
+													"accept": {
+														"bulletin_message": {
+															"00": "\"Splendid! Take all the time you need in choosing, the selection is important indeed.\""
+														},
+														"choice_000": "Let's see..."
+													},
+													"story4": {
+														"bulletin_message": {
+															"00": "\"You... are not wrong, friend. There is more to the story, but perhaps the time is not yet right.\""
+														},
+														"choice_000": "Aw, okay"
+													}
+												}
+											}
+										},
+										"30_geomancy_outro": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "\"Your wayfaring student of Geomancy has returned as a full-fledged Geomancer! They proved themselves an able practitioner of the magic arts indeed!\"<br><br>\"Here - these precious Hearthbloom flowers coalesce traces of Hearth's magic into Hearth Essence, which Geomancers can use in their craft - be sure to plant them.\""
+														},
+														"choice_000": "Welcome back, and thank you all!"
+													}
+												}
+											}
+										}
+									},
+									"01_strange_trading": {
+										"01_strange_trading_outro_a": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "The visitor nods in thanks and bounds away, baskets in arm. <br><br>Not long after, a grove of berry bushes is discovered not far from town, a small amber ribbon tied to each.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Huh."
+													}
+												}
+											}
+										},
+										"01_strange_trading_outro_b": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "The visitor nods in thanks and bounds away, baskets in arm.<br><br>Not long after, a grove of unusual glowing plants is discovered not far from town, a small amber ribbon tied to one.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Odd."
+													}
+												}
+											}
+										},
+										"01_strange_trading_outro_c": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "The visitor nods, dropping a few small pouches of gold dust into your hand as payment before bounding away, baskets in arm.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Hmm."
+													}
+												}
+											}
+										},
+										"01_strange_trading_outro_e": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "The visitor nods, handing you a pouch. \"For vigor.\"<br><br>They bound away, baskets in arm.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Huh."
+													}
+												}
+											}
+										},
+										"01_strange_trading_outro_f": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "The visitor nods and takes their leave.<br><br>Shortly after, you discover a basket brimming with flower petals and seeds by your banner.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Strange."
+													}
+												}
+											}
+										},
+										"01_strange_trading_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2": {
+														"bulletin_message": {
+															"00": "\"I see. May your harvests be ever more bountiful.\"<br><br>The visitor takes their leave, clearly disappointed.",
+															"01": "\"Oh, perhaps another time then...\"<br><br>The visitor wanders carefully away.",
+															"02": "The visitor's shoulders droop. \"Oh. Um, okay, bye!\" they say hastily, navigating their way quickly past  the edge of town."
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Huh. That was odd..."
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "A small, hooded figure approaches, meekly. \"I have heard of your vegetables,\" she says. \"Allow me to take some, and by my honor, it will be a worthwhile trade.\"",
+															"01": "\"You have vegetables, yes? Perhaps an exchange in kind?\" says a strange, small hooded figure. It seems she wants to trade for vegetables?",
+															"02": "A hooded figure appears, silently and seemingly out of nowhere. \"Greetings. I have taken a risk for the chance at your garden's bounty. Perhaps a trade?\" It seems she means that she wants some vegetables...",
+															"03": "A small, hooded figure approaches, meekly. \"I have heard of your vegetables,\" he says. \"Allow me to take some, and by my honor, it will be a worthwhile trade.\"",
+															"04": "\"You have vegetables, yes? Perhaps an exchange in kind?\" says a strange, small hooded figure. It seems he wants to trade for vegetables?",
+															"05": "A hooded figure appears, silently and seemingly out of nowhere. \"Greetings. I have taken a risk for the chance at your garden's bounty. Perhaps a trade?\" It seems he means that he wants some vegetables..."
+														},
+														"bulletin_title": "Strange Trading",
+														"dialog_title": "Strange Trading",
+														"choice_000": "Sure thing! Let's get some baskets...",
+														"choice_001": "No, Sorry, can't spare any"
+													}
+												}
+											}
+										}
+									},
+									"02_hello": {
+										"02a_hello_friend_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2": {
+														"bulletin_message": {
+															"00": "Your clan has proven gracious, and your gardens savory. Many of my kin mistrust the progeny of Monkey, but I feel we must extend a paw of friendship."
+														},
+														"bulletin_title": "New Rabbit Friend",
+														"choice_000": "I see... talking rabbit... person...",
+														"choice_001": "Hello, and welcome!"
+													},
+													"msg3": {
+														"bulletin_message": {
+															"00": "\"I leave you with a parting gift of these Stone-Cut Lanterns, may they light your path in the darker times ahead.\" <br><br>The visitor presents you with several odd, ornate stone lanterns, and then departs, disappearing into the foliage with practiced speed."
+														},
+														"bulletin_title": "New Rabbit Friend",
+														"choice_000": "Thank you!",
+														"choice_001": "Darker times? Wait!"
+													},
+													"msg0": {
+														"bulletin_message": {
+															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
+														},
+														"bulletin_title": "Another Conspicuous Hooded Figure",
+														"dialog_title": "Hooded Figure",
+														"choice_000": " ... "
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but it was deemed necessary.\""
+														},
+														"bulletin_title": "Another Conspicuous Hooded Figure",
+														"dialog_title": "Hooded Figure",
+														"choice_000": "I knew it!",
+														"choice_001": "Guess that explains the vegetables..."
+													}
+												}
+											}
+										},
+										"02b_hello_stranger_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg4": {
+														"bulletin_message": {
+															"00": "For the present, I must return home, but I shall return in the coming days. Farewell, humans."
+														},
+														"bulletin_title": "Hello, Stranger",
+														"dialog_title": "Sasha Lightfoot",
+														"choice_000": "Farewell"
+													},
+													"msg2": {
+														"bulletin_message": {
+															"00": "Our burrow is hidden away, not far from here. We have been observing you for a time, and your clan seems trustworthy. Not all of my kin trust the progeny of Monkey, but I feel we should extend a paw of friendship."
+														},
+														"bulletin_title": "Hello, Stranger",
+														"choice_000": "I... see... talking rabbit... person",
+														"choice_001": "Welcome to our town!"
+													},
+													"msg3": {
+														"bulletin_message": {
+															"00": "It has been generations since Rabbitkind could set foot on the aboveground for long - and I hope perhaps you can help us with this in the future..."
+														},
+														"bulletin_title": "Hello, Stranger",
+														"choice_000": "Let us know what we can do"
+													},
+													"msg0": {
+														"bulletin_message": {
+															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
+														},
+														"bulletin_title": "Another Conspicuous Hooded Figure",
+														"dialog_title": "Hooded Figure",
+														"choice_000": " ... "
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but my kind has been poorly received before, and we had to ensure our own safety.\""
+														},
+														"bulletin_title": "Another Conspicuous Hooded Figure",
+														"dialog_title": "Hooded Figure",
+														"choice_000": "Oh... uh... hello"
+													}
+												}
+											}
+										}
+									},
+									"10_recurring_thanks": {
+										"10_recurring_thanks_dialog": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"000": "The Rabbit diplomat Sasha Lightfoot approaches.<br><br>\"Your gestures of friendship have not gone unnoticed. Somebun from the warren wanted you to have this.\"<br><br>He hands you a rough-hewn bag, containing:",
+															"001": "Sasha, the Amberstone Envoy pads into town.<br><br>\"I continue to be heartened by our burgeoning friendship. A gift, from my clan.\"<br><br>He hands you a rough-hewn bag, containing:",
+															"002": "\"I am not here on official business this time - a relative of mine heard me speak of you, and thought you might be able to use this.\"",
+															"003": "\"A small token of our appreciation of our friends of the Monkey.\" He smiles amicably and extends a paw to you, holding:"
+														},
+														"bulletin_title": "A Grateful Rabbit",
+														"dialog_title": "Sasha Lightfoot",
+														"choice_000": "Oh, thanks!"
+													}
+												}
+											}
+										}
+									},
+									"11_shook_down": {
+										"11_shook_down_outro_a": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "\"Thank you, I'm sure the little Snake ones will find these quite satisfactory. May our friendship ever blossom!.\" He offers you glittering bags as payment.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														},
+														"bulletin_title": "Shook Down",
+														"choice_000": "Thank you!"
+													}
+												}
+											}
+										},
+										"11_shook_down_outro_b": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "\"Thank you. I hope we are not injured, but fortune favors the prepared. May our friendship continue to take root!\" He hands you some glittering bags as compensation.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														},
+														"bulletin_title": "Shook Down",
+														"choice_000": "Best of luck"
+													}
+												}
+											}
+										},
+										"11_shook_down_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2_b": {
+														"bulletin_message": {
+															"00": "\"Then we shall give them a fight! Please send the health tonics as soon as they are ready.\"<br><br>\"Let's say eight of them, for good luck?\" he says, smiling, as if you had any idea what that meant."
+														},
+														"bulletin_title": "Shook Down",
+														"choice_000": "Will do!"
+													},
+													"msg2_c": {
+														"bulletin_message": {
+															"00": "Sasha nods. \"A burrow must see to its own. We have faced worse, we shall persevere.\" They leave, returning to their hidden home."
+														},
+														"bulletin_title": "Shook Down",
+														"choice_000": "OK"
+													},
+													"msg2_a": {
+														"bulletin_message": {
+															"00": "\"Excellent! Please let me know as soon as the doors are ready!\""
+														},
+														"bulletin_title": "Shook Down",
+														"choice_000": "OK"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Some goblins somehow found an entrance to our hovel and are asking for... a bunch of wooden doors? We have neither wood nor carpenter on paw, so could you perhaps craft some for us?<br><br>Alternatively, we're not afraid to fight them off, but we lack the means to heal our injured afterwards.\""
+														},
+														"bulletin_title": "Shook Down",
+														"choice_000": "We'll craft some doors!",
+														"choice_001": "We'll brew some potions",
+														"choice_002": "Sorry, we can't help"
+													}
+												}
+											}
+										}
+									},
+									"12_heirbloom": {
+										"12_heirbloom_outro_repeated": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"000": "\"Wonderful! Thank you! Here, take this, as payment.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														},
+														"bulletin_title": "Historic Growth",
+														"dialog_title": "The Rabbit hops a little in happiness",
+														"choice_000": "Here you go!"
+													}
+												}
+											}
+										},
+										"12_heirbloom_return": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2": {
+														"bulletin_message": {
+															"00": "\"Of course the green part! We'd never eat the disgusting red fruit part, it's all... squishy. Keep those and do with them what you wish,\" says Sasha, disgusted."
+														},
+														"bulletin_title": "Historic Growth ",
+														"choice_000": "Uh, alright then..."
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"I hope the Heirbloom is growing nicely. Let us know when some of their delicious, green stalks are ready for me to take back to my people!\""
+														},
+														"bulletin_title": "Historic Growth",
+														"choice_000": "Will do!",
+														"choice_001": "Wait, the green part?"
+													}
+												}
+											}
+										},
+										"12_heirbloom_outro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Thank you! My respect for you humans continues to grow. Farewell for now!\"<br><br>He wanders off, mumbling to himself, \"Mmm... I can't imagine my warren will be upset if one or two are missing from the bundle...\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														},
+														"bulletin_title": "Heirbloom Donation",
+														"dialog_title": "Heirbloom Donation",
+														"choice_000": "Farewell!"
+													}
+												}
+											}
+										},
+										"12_heirbloom_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2": {
+														"bulletin_message": {
+															"00": "\"Fantastic! I'll show them how to plant it, at least, as far as I've been told. I shall return eagerly once it's had a chance to grow!\""
+														},
+														"bulletin_title": "Historic Growth ",
+														"choice_000": "Thanks!"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Greetings! I come asking a favor a long time in the making. There is a plant, known to my people as 'Heirbloom', which has not been grown for a long time. It needs the sun to flourish, and we've been unable to stay aboveground long enough to tend it for many years.\"<br><br>\"These seeds have been passed down in my warren for generations, and I would be grateful, and honored, if you could grow them for us.\""
+														},
+														"bulletin_title": "Historic Growth",
+														"choice_000": "Exciting! Our farmers would be happy to.",
+														"choice_001": "Sorry, not this time"
+													}
+												}
+											}
+										},
+										"12_heirbloom_return_repeated": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2": {
+														"bulletin_message": {
+															"000": "\"Awww... alright, I might come back later.\" They wander off, clearly pouting.",
+															"001": "\"I see, sorry to bother you. Maybe send word if more sprouts up?\""
+														},
+														"bulletin_title": "Historic Growth ",
+														"choice_000": "Safe travels!"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"000": "A Rabbit approaches, shrouded in a hood and looking nervous. \"Hello, um, I heard Sasha got that Heirbloom from you. Could I trade you for some?\"",
+															"001": "A hooded Rabbit finds her way into town, on the lookout for anything nasty. \"Dear humans, could I perhaps trade you for some Heirbloom? It's ever so tasty, and Sasha told us we should come get to know you better...\""
+														},
+														"bulletin_title": "Historic Growth",
+														"dialog_title": "A Rabbit from Sasha's Warren",
+														"choice_000": "Sure thing!",
+														"choice_001": "Sorry, fresh out for now"
+													}
+												}
+											}
+										},
+										"12_heirbloom_quest": {
+											"title": "Heirbloom Donation",
+											"dialog_title": "Heirbloom Donation"
+										},
+										"12_heirbloom_quest_2": {
+											"title": "Heirbloom Stalks",
+											"dialog_title": "Heirbloom Stalks"
+										}
+									},
+									"15_crystal_charging": {
+										"15_crystal_charging_outro": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "\"Ahh, the full brilliance of an Amberstone is a sight to behold! Thank you for your kind service, take these in thanks.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+														},
+														"bulletin_title": "Crystal Charged!",
+														"choice_000": "Safe Travels!"
+													}
+												}
+											}
+										},
+										"15_crystal_charging_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg4": {
+														"bulletin_message": {
+															"00": "\"I understand. Perhaps next time. Farewell, humans.\""
+														},
+														"bulletin_title": "Crystal Charging",
+														"choice_000": "Farewell"
+													},
+													"msg2": {
+														"bulletin_message": {
+															"00": "\"Charging them is simple - just place them anywhere in sunlight or moonlight, and they will gather energy on their own.\"<br><br>\"The... only issue is that creatures tend to be attracted to the Amberstones at night. So, either prepare to defend against them, or be sure to take the crystals down before nightfall.\""
+														},
+														"bulletin_title": "Crystal Charging",
+														"choice_000": "We can do that!",
+														"choice_001": "No, not this time"
+													},
+													"msg3": {
+														"bulletin_message": {
+															"00": "\"Splendid, I'll lay the Charging Stones by your banner. I'll return for them once they've been deployed and gathering light for long enough - sunlight or moonlight, it all comes from the same place.\""
+														},
+														"bulletin_title": "Crystal Charging",
+														"choice_000": "Okay!"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Greetings, kind humans. As you know, we live undergound, and because of that we rely on Amberstone, our namesake material, for many things.\"<br><br>\"Amberstones can absorb many kinds of energy, sunlight being one of them - and these stones here have lost their glow.\""
+														},
+														"bulletin_title": "Crystal Charging",
+														"choice_000": "How can we help?"
+													}
+												}
+											}
+										}
+									},
+									"20_partnership": {
+										"20_partnership_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2": {
+														"bulletin_message": {
+															"00": "\"In Rabbit culture, when a new warren is dug, it exchanges statues with its neighbors to symbolize a mutual welcoming. We know you are unaware of this, but have come to offer this for our part\"<br><br>Sasha gestures to the beautifully chiseled statue of smooth, cool stone ornamented with intricate weavings and a golden core of what must be Amberstone.<br><br>\"This partnership somewhat unprecedented, but we think that you may represent hope for us against the coming darkness.\"<br><br>\"You shall see us again soon! Oh, and feel free to keep the cricket golem, it would slow me down on the return trip. Farewell!\""
+														},
+														"bulletin_title": "A New Partnership!",
+														"choice_000": "Thank you, we are honored!",
+														"choice_001": "Wait! Cricket? Darkness?? Come back!"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "Sasha Lightfoot approaches, a small load-bearing stone insect bobbling along behind him. \"Friends! Not long ago, my kind were afraid of you kin of Monkey, but you have dissolved our purposeless trepidation! We have found in you a dependable ally in the aboveground!\""
+														},
+														"bulletin_title": "A New Partnership",
+														"choice_000": "Trepi... uh... right",
+														"choice_001": "Verily! Forsooth!",
+														"choice_002": "It's been nice knowing you as well"
+													}
+												}
+											}
+										}
+									},
+									"21_residents": {
+										"21_residents_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg2_b": {
+														"bulletin_message": {
+															"00": "\"I will leave this Amberstone Pedestal. Build or choose a nice home with two beds, and place this pedestal there. Once all is prepared, I will return with my kin!<br><br><i><font size=-1>Place the Amberstone Pedestal near two beds, with a high enough appeal - check the name of the placed item for live updates!</font></i>"
+														},
+														"bulletin_title": "Rabbit Residents",
+														"choice_000": "Okay, I will!"
+													},
+													"msg3": {
+														"bulletin_message": {
+															"00": "Sasha nods. \"Very well. They will no doubt be disappointed, but it will bring me some comfort to have them settle closer to the safety of the warren.\""
+														},
+														"bulletin_title": "Rabbit Residents",
+														"choice_000": "Farewell"
+													},
+													"msg2_a": {
+														"bulletin_message": {
+															"00": "\"Splendid! Some accomodations must first be made. You see, the Amberstone crystals are more than a mere light source - they are also what keeps us from reverting to the simple animals you see hopping around the surface.\"<br><br>\"Never fear, such a process takes considerable time. All the same, a Rabbit home would not be comfortable without an Amberstone at its center.\""
+														},
+														"bulletin_title": "Residents",
+														"choice_000": "Oh! Sounds important..."
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"So, a pair of my more adventurous kin are interested in immigrating to the aboveground. In fact, they specifically asked me to ask you if you might have a place for them here.\""
+														},
+														"bulletin_title": "Rabbit Residents",
+														"choice_000": "Yes, we would love to have them!",
+														"choice_001": "No - but we wish them the best!"
+													}
+												}
+											}
+										},
+										"21_residents_reward_a_add_citizen": {
+											"notification_title": "A Rabbit Mason joins your town!"
+										},
+										"21b_residents_reward_a_add_citizen": {
+											"notification_title": "A Rabbit Archer joins your town!"
+										},
+										"21c_residents_reward_a_add_citizen": {
+											"notification_title": "A Rabbit Worker joins your town!"
+										},
+										"21_residents_outro_a": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"What a nice home you've built for them! They will be here shortly, and I'm sure they'll be charmed!\""
+														},
+														"bulletin_title": "Rabbit Residents",
+														"choice_000": "OK"
+													}
+												}
+											}
+										}
+									},
+									"50_titan": {
+										"51_slayer_charging_message": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"It's working! The weapon is charging!!\"<br><br>\"Hold off whatever foul tricks the Titan has in store for us, and I'll let you know when it's ready to fire!\""
+														},
+														"bulletin_title": "Sasha Looks Pleased",
+														"dialog_title": "Sasha Looks Pleased",
+														"choice_000": "We'll do our part!"
+													}
+												}
+											}
+										},
+										"52_slayer_ready_again_dialog": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"It's charged again! Fire at will!\""
+														},
+														"bulletin_title": "Sasha Signals",
+														"dialog_title": "Sasha Signals",
+														"choice_000": "Okay!"
+													}
+												}
+											}
+										},
+										"52_slayer_ready_dialog": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"It's charged!!! Fire at will!\" Sasha shouts at you, covering his sensitive ears."
+														},
+														"bulletin_title": "Sasha Covers His Ears",
+														"dialog_title": "Sasha Covers His Ears",
+														"choice_000": "[Hit the Button on the Arbalest!]"
+													}
+												}
+											}
+										},
+										"53_slayer_fired_dialog": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "Sasha leaps into the air in excitement. \"Direct hit!!! Take that, you big ugly squid!\"<br><br>Calming down a little, he turns to you. \"It will take time to recharge - I'll let you know when it's ready again. Keep up the defense, we must stay standing.\""
+														},
+														"bulletin_title": "Sasha Jumps Up and Down",
+														"dialog_title": "Sasha Jumps Up and Down",
+														"choice_000": "You can count on us!"
+													}
+												}
+											}
+										},
+										"57_titan_defeated_dialog": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"conclusion_accept": {
+														"bulletin_message": {
+															"00": "Sasha's features soften and his shoulders relax, an enormous weight clearly lifted from him. He speaks, ears folded subtly back and eyes glistening:<br><br>\"Listen, I... thank you. Thank you. I have spent so much time worrying about my people's future, and you... you are proof that we can have one. That we can have a <i>good</i> one. We are forever in your debt.\"<br><br>\"Thank you, and may your future be even brighter than ours.\""
+														},
+														"choice_000": "We merely repaid our peoples' debt to yours.",
+														"choice_001": "We are honored to have helped.",
+														"choice_002": "Anything for a friend."
+													},
+													"request2": {
+														"choice_000": "Yes, of course!",
+														"choice_001": "No, but they have our thanks"
+													},
+													"request1": {
+														"choice_000": "Oh? That's exciting!"
+													},
+													"accept1": {
+														"choice_000": "You too!"
+													},
+													"reject1": {
+														"choice_000": "We should.",
+														"choice_001": "[Back] Wait!"
+													},
+													"conclusion_decline": {
+														"bulletin_title": "Sasha, Grateful",
+														"dialog_title": "Sasha, Grateful"
+													}
+												}
+											}
+										},
+										"50_titan_dialog": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"story4": {
+														"bulletin_message": {
+															"00": "Sasha nods his head. \"While Human cleverness brought the entity, human cleverness also forestalled its cataclysm. As the entity tore open the leyline, the surviving humans knew they had to act, as the great evil was bathed in magic and growing in strength by the second.\"<br><br>\"Hearth's magic is volatile. The humans, desperate, somehow catalyzed a reaction which turned the magic <i>energy</i> into pure magic <i>force</i>.\"<br><br>\"The entity was shattered into countless fragments, not killed but, rather, transformed into a miasma of aimless evil that swept over the land, emanating from the ravaged crater that was once the seat of the Phoenix Empire.\"<br><br>\"This is what we know as 'the cataclysm'.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Oh..."
+													},
+													"story2": {
+														"bulletin_message": {
+															"00": "\"So - an eon passed; Snake declined, Monkey Ascended. Some say Monkey is a newcomer, and snatched Ascendancy from Snake early, but that’s another story. Either way, Humans built with startling speed, and the Phoenix Empire spanned the continent within three generations.\"<br><br>\"Unsatisfied with mere subsistence underground, my ancestors contacted the Phoenix, who proved amenable to us.\"<br><br>\"In fact, our teachings of Geomancy fascinated them. As is their nature, the Phoenix researchers made fast progress in utilizing Hearth’s magic, without truly understanding it. They put it to use without any concern for consequences.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Consequences?"
+													},
+													"delay": {
+														"bulletin_message": {
+															"00": "Sasha nods, sighing. \"I understand; each warren has challenges of its own to face. Still, we will find a way to complete work on the Titan weapon on our own, and return with it once it is ready.\"<br><br>\"May our friendship continue to blossom,\" he says, bowing slightly and taking his leave."
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Until then, Sasha.",
+														"choice_001": "[Back] Wait!"
+													},
+													"story1": {
+														"bulletin_message": {
+															"00": "\"Recall what I told you before, of my people's rise when Rabbit was in Ascendance, of the discovery of Geomancy and amberstone that allows us to keep this upright form even once Snake Ascended and Rabbit waned.\"<br><br>\"I told you, too, of how my clan took to living underground, driven by both hostility and a lack of magic on Hearth's surface. That's where I left off, correct?\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "I remember, and yes"
+													},
+													"story3": {
+														"bulletin_message": {
+															"00": "\"The Phoenix capital was built on the ruins of an ancient Lapine city, which was in turn built on a nexus of Leylines. This meant it was an enormously powerful wellspring of magic.\"<br><br>\"Human Geomancy researchers built devices to extract this magic; to store it and focus it beyond anything we had ever imagined possible, and well beyond the bounds of safety or sanity. And then, a portal was opened.\"<br><br>\"Nobody knows if it was intentional, or if the strain of all that channeled magic simply tore a hole in reality. What we do know is that an entity was drawn through it, ravenous for magical energy and abhorrent of all other life.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Oh... that sounds bad."
+													},
+													"favor1": {
+														"bulletin_message": {
+															"00": "\"So now, to the favor. There is, beneath this land, a nascent Titan. This fragment of the great evil grows, seeping farther underground more each year, forcing my people farther and farther underground to not be cut off from the magic of Hearth and be doomed to have our descendants revert to mere rabbits.\"<br><br>\"But: we have found an answer. We have nearly completed construction of a weapon drawn from ancient designs, capable of manifesting the Titan, and capable of destroying it for good.\"<br><br>\"However, we require your help in finishing it, and… we require your town to protect it. We lack the strength or the numbers to withstand the wrath of a manifested Titan for long, and this weapon will take time to do its job. Will you help us?\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "What do you need from us?"
+													},
+													"accept": {
+														"bulletin_message": {
+															"00": "Sasha's eyes sparkle, full of relief and gratitude. \"I was right to have put my trust in you. Please, prepare your citizens to visit with us for a time, and I will return with the finished device in time.\"<br><br>\"Perhaps use this time to store some food, shore up your defenses, and train your military. Perhaps enlist some citizens in a town guard, or build a fortified structure? One cannot be sure in what form the Titan's ire will manifest.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "We will."
+													},
+													"greet": {
+														"bulletin_message": {
+															"00": "\"Dear friends of the Monkey, I bring greetings and well wishes from the twenty-third warren of Amberstone.\"<br><br>\"I have a… momentous favor to ask of you, but I think perhaps you lack the context to understand it. Am I right that the history of the Phoenix Empire became lost to you humans after the cataclysm?\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Please, tell us the tale",
+														"choice_001": "[Skip] Nah - what favor?"
+													},
+													"story5": {
+														"bulletin_message": {
+															"00": "\"Humans, sensible, fled; to the coasts, to the northern mountains. Only recently have you started to build inwards again. Orcs, stubborn, stayed and fought the corruptions, fought the apparitions of a natural world brought to anger, defending the lands abandoned by the humans. And we Lapine, already underground, were content to wait.\"<br><br>\"But as the evil energies settled, they embedded in the ground, drawn downwards towards the source of Hearth’s magic. These fragments absorb that magic, slowly gaining strength over generations, congealing into malevolent aspects which your people have come to call ‘Titans’.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Oh."
+													},
+													"decline": {
+														"bulletin_message": {
+															"00": "Sasha nods, exhaling deeply. \"I understand. 'If a favor is not asked lightly, neither is it accepted lightly'. Our current warren will continue to serve for years yet before the darkness encroaches.<br><br>\"We will complete work on the Titan weapon on our own, and then return. Hopefully you will have a change of heart. May our friendship continue to blossom,\" he says, with both sadness and sincerity, and takes his leave."
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Goodbye for now, Sasha",
+														"choice_001": "[Back] Wait!"
+													},
+													"favor2": {
+														"bulletin_message": {
+															"00": "\"First, I will need to borrow some of your citizens: One experienced Mason to double-check our work, an experienced Blacksmith to help with reinforcement, plus two other citizens of your choosing to... help reach the tall parts.\"<br><br>\"With that complete, we will return with the weapon, and once you have prepared, we will use it to summon, attack, and destroy the Titan. The attack may take some significant time, so you should prepare for a siege.\"<br><br>\"I should say... this evil is of no <i>immediate</i> threat to you. This is a task to benefit your people's children, and mine.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "We'll do it!",
+														"choice_001": "[Delay] We can't spare anyone, but...",
+														"choice_002": "[Decline] We don't want a fight."
+													}
+												}
+											}
+										},
+										"50_titan_finished_weapon_despite_declining": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "Sasha returns, along with a massive, sparkling bow teetering precariously atop a skittering golem.<br><br>\"I know you previously declined to assist us with fighting the Titan,\" he says, \"but we completed this Arbalest despite your refusal. It took sacrifice, but we knew not what else to do.\"<br><br>\"It serves no use within our warren, so we have brought it here as a reminder of our request. If you decide to face the slumbering evil, merely deploy the Crystalline Arbalest and I will instruct you further."
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "I see. We'll consider..."
+													}
+												}
+											}
+										},
+										"50_titan_finished_weapon_without_help": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "Sasha returns, along with a massive, sparkling bow teetering precariously atop a skittering golem.<br><br>\"It took sacrifice, but we have completed the Crystalline Arbalest to the specifications of my ancestors. I... hope it works.\"<br><br>\"If you are still open to fighting this monstrosity, signal your readiness by deploying the Arbalest, and I'll instruct you in its usage.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Wow, impressive!"
+													}
+												}
+											}
+										},
+										"50_titan_weapon_help_complete": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "Sasha returns, followed by your dispatched citizens and a massive, sparkling bow balanced atop a skittering golem.<br><br>\"I have returned, not only with your citizens, but with a completed Crystalline Arbalest, built to the specifications of my ancestors. I... hope it works.\"<br><br>\"Signal your readiness by deploying it, and I'll instruct you in its usage.\""
+														},
+														"bulletin_title": "A Titanic Undertaking",
+														"choice_000": "Wow, good work!"
+													}
+												}
+											}
+										},
+										"57_bun_geomancer_starter_kit": {
+											"donation_dialog_info": {
+												"dialog_nodes": {
+													"simple_message": {
+														"bulletin_message": {
+															"00": "The Rabbit Geomancer brought some Hearthbloom, Hearth Essence, and raw materials along with them, to help start their new aboveground practice."
+														},
+														"bulletin_title": "A Geomancer's Things!",
+														"dialog_title": "A Geomancer's Things!",
+														"choice_000": "OK"
+													}
+												}
+											}
+										},
+										"57_grant_bun_geomancer": {
+											"notification_title": "A Rabbit Geomancy Master joins your town!"
+										}
+									},
+									"40_recipe_sharing": {
+										"40_grant_recipes_mason": {
+											"bulletin_title": "Amberstone Mason recipes unlocked!"
+										},
+										"40_grant_recipes_weaver": {
+											"bulletin_title": "Amberstone Weaver recipes unlocked!"
+										},
+										"40_recipe_sharing_intro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"accept": {
+														"bulletin_message": {
+															"00": "\"Splendid! I think even a novice Mason and Weaver would work just fine, so long as they're receptive to teaching. It shouldn't take more than two days.\""
+														},
+														"bulletin_title": "Lapine Style",
+														"choice_000": "Let's see who to send..."
+													},
+													"reject2": {
+														"bulletin_message": {
+															"00": "\"Hum. Well, I suppose maybe I still have much to learn about human aesthetics after all...\""
+														},
+														"bulletin_title": "Lapine Style",
+														"choice_000": "Thanks for visiting, though!"
+													},
+													"msg1": {
+														"bulletin_message": {
+															"00": "\"Kind greetings, human friends! I was struck by an idea after watching your crafters at work - how would you like to send a Mason and a Weaver down to our warren for a few days, to learn our various crafting recipes and techniques?\""
+														},
+														"bulletin_title": "Lapine Style",
+														"choice_000": "Sounds great!",
+														"choice_001": "[Decline] Hm. Nah."
+													},
+													"reject": {
+														"bulletin_message": {
+															"00": "\"Oh. I thought it was a clever idea, myself.\"<br><br>\"Are you certain? <i>I'll not offer again</i>, you see.\""
+														},
+														"bulletin_title": "Lapine Style",
+														"choice_000": "Nah, not a fan of your style",
+														"choice_001": "[Back] Wait, I changed my mind!"
+													}
+												}
+											}
+										},
+										"40_recipe_sharing_outro": {
+											"dialog_tree_info": {
+												"dialog_nodes": {
+													"msg1": {
+														"bulletin_message": {
+															"00": "Your venturing Mason and Weaver have returned, with knowledge of all sorts of Rabbit recipes!<br><br>\"I must say, your citizens shared tales of the poh-yoh paht-pai with us. I simply must try it sometime...\""
+														},
+														"bulletin_title": "Lapine Style",
+														"dialog_title": "Lapine Style",
+														"choice_000": "It's good to have them back - thank you!"
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"entities": {
+						"amberstone_statue": {
+							"amberstone_statue_ghost": {
+								"display_name": "Amberstone Rabbit Statue",
+								"description": "A beautifully carved Amberstone rabbit statue."
+							}
+						}
 					}
 				}
 			}
@@ -5786,6 +7090,11 @@
 				"display_name": "Awaken Titan",
 				"description": "Rouse the Titan from its slumber",
 				"disabled_description": "The Titan slumbers no longer"
+			},
+			"fire_titan_slayer": {
+				"display_name": "Fire!!",
+				"description": "Commence Attack on Titan",
+				"disabled_description": "Needs time to recharge."
 			}
 		},
 		"personality": {
@@ -6800,7 +8109,7 @@
 			},
 			"merchant_caravan": {
 				"description": "A collection of trade tools should give the settlement a leg up in the wilderness.",
-				"display_name": "Merchant Caravan",
+				"display_name": "Caravana Mercante",
 				"tooltip": "A good collection of craft skills, but short on food."
 			},
 			"money_solves_all_problems": {
@@ -6814,7 +8123,7 @@
 				"berries": "Berries",
 				"carrots": "Cenouras",
 				"jerky": "Carne Seca",
-				"sweet_potatoes": "Potatoes"
+				"sweet_potatoes": "Batatas"
 			},
 			"coming_soon": "Em breve"
 		},
@@ -6913,7 +8222,7 @@
 			"passion_job": {
 				"passion_job_trait": {
 					"display_name": "Apaixonado pelo Trabalho de [str(i18n_data.passion_job)]",
-					"description": "[name(i18n_data.entity)] sempre sonhou ser um [str(i18n_data.passion_job)], talvez ele tenha a chance dele?"
+					"description": "[name(i18n_data.entity)] sempre sonhou ser um [str(i18n_data.passion_job)], talvez consiga uma chance?"
 				}
 			},
 			"pessimistic": {
@@ -6943,13 +8252,13 @@
 			"gregarious": {
 				"gregarious_trait": {
 					"display_name": "Gregário",
-					"description": "Os [name(i18n_data.entity)] adoram interagir com os outros, embora eles se deixem solitários muito rapidamente."
+					"description": "[name(i18n_data.entity)] adora interagir com os outros, embora fique solitário muito rapidamente."
 				}
 			},
 			"loner": {
 				"loner_trait": {
 					"display_name": "Solitário",
-					"description": "O [name(i18n_data.entity)] realmente não se importa com a companhia dos outros. Eles preferem estar sozinhos."
+					"description": "[name(i18n_data.entity)] realmente não se importa com a companhia dos outros. Prefere estar sozinho."
 				}
 			},
 			"empathetic": {
@@ -7132,6 +8441,14 @@
 						"ate_cooked": {
 							"display_name": "My meal was cooked",
 							"tooltip": "I always enjoy the 'warm belly' feeling after a nice prepared meal."
+						}
+					}
+				},
+				"amberstone": {
+					"borrow_crafter": {
+						"helped_out": {
+							"display_name": "Visit with the Rabbits",
+							"tooltip": "Wow, the Amberstone warren was amazing! I feel so honored to have helped them out."
 						}
 					}
 				},
@@ -7728,6 +9045,10 @@
 					"19": "[str(self.stonehearth:unit_info.custom_name)], the Antagonist",
 					"20": "[str(self.stonehearth:unit_info.custom_name)] of the Sphere"
 				}
+			},
+			"test_weather": {
+				"display_name": "Test weather",
+				"description": "A weather that can't affect tests"
 			}
 		},
 		"trapping": {
@@ -8261,10 +9582,94 @@
 				"display_name": "Ornate Wooden Tunnel Door",
 				"description": "Useful for blocking off tunnels"
 			},
+			"cobblestone_fence_single": {
+				"cobblestone_fence_single_ghost": {
+					"display_name": "Small Cobblestone Fence",
+					"description": "A rustic, sturdy wall segment."
+				}
+			},
+			"cobblestone_fence_end": {
+				"cobblestone_fence_end_ghost": {
+					"display_name": "Cobblestone Fence Post",
+					"description": "A rustic, sturdy wall segment."
+				}
+			},
+			"picket_fence_bar_double": {
+				"picket_fence_bar_double_ghost": {
+					"display_name": "Picket Fence Large",
+					"description": "If it's not white, is our life unfulfilled?"
+				}
+			},
+			"picket_fence_bar_single": {
+				"picket_fence_bar_single_ghost": {
+					"display_name": "Picket Fence Small",
+					"description": "If it's not white, is our life unfulfilled?"
+				}
+			},
+			"picket_fence_end": {
+				"picket_fence_end_ghost": {
+					"display_name": "Picket Fence Post",
+					"description": "If it's not white, is our life unfulfilled?"
+				}
+			},
+			"clay_fence_end": {
+				"clay_fence_end_ghost": {
+					"display_name": "Clay Fence Post",
+					"description": "More decorative than protective."
+				}
+			},
+			"clay_fence_bar_single": {
+				"clay_fence_bar_single_ghost": {
+					"display_name": "Clay Fence Small",
+					"description": "More decorative than protective."
+				}
+			},
+			"clay_fence_bar_double": {
+				"clay_fence_bar_double_ghost": {
+					"display_name": "Clay Fence Large",
+					"description": "More decorative than protective."
+				}
+			},
+			"ornate_picket_fence_end": {
+				"ornate_picket_fence_end_ghost": {
+					"display_name": "Ornate Picket Fence Post",
+					"description": "A little gold leaf goes a long way!"
+				}
+			},
+			"ornate_picket_fence_bar_single": {
+				"ornate_picket_fence_bar_single_ghost": {
+					"display_name": "Ornate Picket Fence Small",
+					"description": "A little gold leaf goes a long way!"
+				}
+			},
+			"ornate_picket_fence_bar_double": {
+				"ornate_picket_fence_bar_double_ghost": {
+					"display_name": "Ornate Picket Fence Large",
+					"description": "A little gold leaf goes a long way!"
+				}
+			},
+			"cobblestone_fence_bar_double": {
+				"cobblestone_fence_bar_double_ghost": {
+					"display_name": "Cobblestone Fence Large",
+					"description": "A rustic, sturdy wall segment."
+				}
+			},
+			"cobblestone_fence_bar_single": {
+				"cobblestone_fence_bar_single_ghost": {
+					"display_name": "Cobblestone Fence Small",
+					"description": "A rustic, sturdy wall segment."
+				}
+			},
 			"stone_door": {
 				"stone_door_ghost": {
 					"display_name": "Stone Door",
 					"description": "Built to Last!"
+				}
+			},
+			"clay_fence_gate": {
+				"clay_fence_gate_ghost": {
+					"display_name": "Clay Fence Gate",
+					"description": "This decorative gate protects your fences from being broken."
 				}
 			},
 			"stone_window_frame": {
@@ -8319,6 +9724,30 @@
 				"stone_double_door_ghost": {
 					"display_name": "Stone Double Door",
 					"description": "A larger door. It makes quite an impression."
+				}
+			},
+			"picket_fence_combo": {
+				"picket_fence_combo_ghost": {
+					"display_name": "Picket Fence Combo",
+					"description": "If it's not white, is our life unfulfilled?"
+				}
+			},
+			"ornate_picket_fence_combo": {
+				"ornate_picket_fence_combo_ghost": {
+					"display_name": "Ornate Picket Fence Combo",
+					"description": "A little gold leaf goes a long way!"
+				}
+			},
+			"cobblestone_fence_combo": {
+				"cobblestone_fence_combo_ghost": {
+					"display_name": "Cobblestone Fence Combo",
+					"description": "A rustic, sturdy wall segment."
+				}
+			},
+			"clay_fence_combo": {
+				"clay_fence_combo_ghost": {
+					"display_name": "Clay Fence Combo",
+					"description": "More decorative than protective."
 				}
 			}
 		},
@@ -9238,6 +10667,32 @@
 						"description": "Someday will grow into a tasty purple veggie."
 					}
 				}
+			},
+			"heirbloom_crop": {
+				"display_name": "Heirbloom",
+				"description": "The woody stems are apparently an Amberstone delicacy?",
+				"growth_stage": {
+					"001": {
+						"name": "Flowering Heirbloom Stalk",
+						"description": "Fruit follows the flowers"
+					},
+					"003": {
+						"name": "Ripe Heirbloom",
+						"description": "Ruby red!"
+					},
+					"000": {
+						"name": "Heirbloom Shoot",
+						"description": "A hardy sprout"
+					},
+					"002": {
+						"name": "Unripe Heirbloom",
+						"description": "Wee, green"
+					},
+					"011": {
+						"name": "Rotten Heirbloom",
+						"description": "Inedible - the stalk might still be good, though!"
+					}
+				}
 			}
 		},
 		"decoration": {
@@ -10068,6 +11523,12 @@
 					"display_name": "Stone Candle Holder",
 					"description": "Lighting from a simplier time."
 				}
+			},
+			"candle_holder_floor_iron": {
+				"candle_holder_floor_iron_ghost": {
+					"display_name": "Iron Floor Candle Holder",
+					"description": "This cold metal frame holds a warm source of light."
+				}
 			}
 		},
 		"food": {
@@ -10540,6 +12001,16 @@
 				"roasted_sweet_potato_serving": {
 					"display_name": "Serving of Roasted Sweet Potato"
 				}
+			},
+			"heirbloom": {
+				"heirbloom_basket": {
+					"display_name": "Heirbloom Fruit",
+					"description": "Heirbloom Vegetable? It seems the stalks are an Amberstone delicacy."
+				},
+				"heirbloom_serving": {
+					"display_name": "Heirbloom Fruit",
+					"description": "Juicy! Those rabbits don't know what they're missing!"
+				}
 			}
 		},
 		"furniture": {
@@ -10938,6 +12409,10 @@
 				"titan_slayer_ghost": {
 					"display_name": "Artifact Bow",
 					"description": "Built with power enough to challenge titans"
+				},
+				"titan_slayer_monument": {
+					"display_name": "Testament to the Righted Wrong",
+					"description": "A memorial to an alliance between peoples against the darkness. Its crystal radiates warmth and well-being."
 				}
 			},
 			"orc_titan_gong": {
@@ -10957,6 +12432,12 @@
 			"tentacle_trap": {
 				"display_name": "Tentacle Trap",
 				"description": "Grabs anyone who passes close by."
+			},
+			"charging_pedestal": {
+				"charging_pedestal_ghost": {
+					"display_name": "Charging Stones",
+					"description": "These stones collect light, but will also attract beasts if left out at night."
+				}
 			}
 		},
 		"loot": {
@@ -11249,7 +12730,11 @@
 				},
 				"golem_restocking": {
 					"display_name": "Cricket",
-					"description": "Restocking Golem, constructed of stone and empowered by ancient knowledge."
+					"description": "Restocking Golem, constructed of stone and empowered by ancient knowledge.",
+					"golem_restocking_ghost_auto": {
+						"display_name": "Autonomous Cricket Golem",
+						"description": "Item-Carrying Golem that somehow works without a Geomancer around"
+					}
 				}
 			}
 		},
@@ -12065,6 +13550,41 @@
 						"description": "Still growing!"
 					}
 				}
+			},
+			"earthbud": {
+				"stem": {
+					"earthbud_plant_stem": {
+						"display_name": "Stemming Hearthbud",
+						"description": "Still growing!"
+					}
+				},
+				"sprout": {
+					"earthbud_plant_sprout": {
+						"display_name": "Hearthbud Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"seed": {
+					"earthbud_plant_seed": {
+						"display_name": "Hearthbud Seed",
+						"description": "Can be planted to grow a Hearthbud flower that collects Hearth essence."
+					},
+					"earthbud_plant_seed_ghost": {
+						"display_name": "Hearthbud Seed",
+						"description": "Can be planted to grow a Hearthbud flower that collects Hearth essence."
+					}
+				},
+				"earthbud_ghost": {
+					"display_name": "Hearthbud",
+					"description": "Harvestable for concentrated Hearth Essence and more Hearthbud Seeds"
+				},
+				"unripe_description": "Not yet ripe for harvest.",
+				"bud": {
+					"earthbud_plant_bud": {
+						"display_name": "Budding Hearthbud",
+						"description": "Still just a bud sticking out of the ground. Hang in there, bud."
+					}
+				}
 			}
 		},
 		"rabbit": {
@@ -12163,6 +13683,18 @@
 			"shining_setting": {
 				"display_name": "Silverleaf Setting",
 				"description": "Delicately frames and protects the Shining Circlet"
+			},
+			"golem_backpack": {
+				"display_name": "Golem Backpack",
+				"description": "Used by the Geomancer to craft Ox Golems"
+			},
+			"golem_parts": {
+				"display_name": "Golem Parts",
+				"description": "Used by the Geomancer to craft golems"
+			},
+			"golem_pick": {
+				"display_name": "Golem Pick",
+				"description": "Used by the Geomancer to craft Mole Golems"
 			}
 		},
 		"resources": {
@@ -12194,6 +13726,10 @@
 				"wintermoss_bundle": {
 					"display_name": "Wintermoss Bundle",
 					"description": "Spinnable into thread"
+				},
+				"heirbloom_bundle": {
+					"display_name": "Heirbloom Stalks",
+					"description": "An Amberstone favorite. Spinnable into thread."
 				},
 				"coarse_fiber_bundle_winter": {
 					"display_name": "Light Coarse Fiber Bundle",
@@ -12393,6 +13929,10 @@
 					"display_name": "Gold Flakes",
 					"description": "Use when crafting furniture to make it really pretty!"
 				}
+			},
+			"earth_essence": {
+				"display_name": "Hearth Essence",
+				"description": "The power of Hearth concentrated by the Hearthbud"
 			}
 		},
 		"terrain": {
@@ -13180,6 +14720,14 @@
 						"display_name": "Dried Juniper Berries",
 						"description": "Learn to grow juniper trees."
 					}
+				},
+				"heirbloom_seeds": {
+					"display_name": "Heirbloom Seeds",
+					"description": "Learn to grow heirblooms",
+					"heirbloom_seeds_ghost": {
+						"display_name": "Heirbloom Seeds",
+						"description": "Learn to grow heirblooms"
+					}
 				}
 			}
 		},
@@ -13245,6 +14793,18 @@
 						"display_name": "Plains Hill Spring Summon Stone",
 						"description": "This stone encases a cute little spring!"
 					}
+				}
+			},
+			"dry_stone_greater": {
+				"dry_stone_greater_ghost": {
+					"display_name": "Greater Dry Stone",
+					"description": "Four time as dry as a regular dry stone."
+				}
+			},
+			"wet_stone_greater": {
+				"wet_stone_greater_ghost": {
+					"display_name": "Greater Wet Stone",
+					"description": "Four times more moist than a regular wet stone."
 				}
 			}
 		},
@@ -13334,6 +14894,122 @@
 				"orc_friendship_gong_ghost": {
 					"display_name": "Gong of Orc Respect",
 					"description": "Made of smooth, pleasing stone, cleansed of anything sinister."
+				}
+			}
+		},
+		"landmark": {
+			"summon_stone_block_dirt": {
+				"summon_stone_block_dirt_ghost": {
+					"display_name": "Dirt Terrain Block Stone",
+					"description": "Summons an 8x5x8 block of dirt terrain."
+				}
+			},
+			"summon_stone_block_mimic": {
+				"summon_stone_block_mimic_ghost": {
+					"display_name": "Mimic Terrain Block Stone",
+					"description": "Summons an 8x5x8 block of terrain that mimics whatever terrain it is placed on."
+				}
+			},
+			"summon_stone_block_rock": {
+				"summon_stone_block_rock_ghost": {
+					"display_name": "Rock Terrain Block Stone",
+					"description": "Summons an 8x5x8 block of rocky terrain."
+				}
+			},
+			"summon_stone_block_surface": {
+				"summon_stone_block_surface_ghost": {
+					"display_name": "Surface Terrain Block Stone",
+					"description": "Summons an 8x5x8 block of surface terrain, such as grass or sand."
+				}
+			},
+			"summon_stone_geyser": {
+				"summon_stone_geyser_ghost": {
+					"display_name": "Geyser Stone",
+					"description": "Summons a mountain geyser."
+				}
+			},
+			"summon_stone_rune_site": {
+				"summon_stone_rune_site_ghost": {
+					"display_name": "Rune Site Stone",
+					"description": "Summons a clearing with a holy rune symbol."
+				}
+			},
+			"summon_stone_rabbit_statue": {
+				"summon_stone_rabbit_statue_ghost": {
+					"display_name": "Rabbit Statue Stone",
+					"description": "Summons an ancient rabbit statue."
+				}
+			},
+			"summon_stone_rock_field": {
+				"summon_stone_rock_field_ghost": {
+					"display_name": "Rock Field Stone",
+					"description": "Summons a field of mineable rocks."
+				}
+			},
+			"summon_stone_patch_dirt": {
+				"summon_stone_patch_dirt_ghost": {
+					"display_name": "Dirt Terrain Patch Stone",
+					"description": "Grows into a patch of dirt terrain, up to 12x12 units in size."
+				}
+			},
+			"summon_stone_patch_mimic": {
+				"summon_stone_patch_mimic_ghost": {
+					"display_name": "Mimic Terrain Patch Stone",
+					"description": "Grows into a patch of terrain, up to 12x12 units in size, that mimics the terrain it's placed on."
+				}
+			},
+			"summon_stone_patch_rock": {
+				"summon_stone_patch_rock_ghost": {
+					"display_name": "Rock Terrain Patch Stone",
+					"description": "Grows into a patch of rocky terrain, up to 12x12 units in size."
+				}
+			},
+			"summon_stone_patch_surface": {
+				"summon_stone_patch_surface_ghost": {
+					"display_name": "Surface Terrain Patch Stone",
+					"description": "Grows into a patch of surface terrain, such as grass or sand, up to 12x12 units in size."
+				}
+			},
+			"summon_stone_vein_coal": {
+				"summon_stone_vein_coal_ghost": {
+					"display_name": "Coal Vein Stone",
+					"description": "Grows into a vein of coal."
+				}
+			},
+			"summon_stone_vein_copper": {
+				"summon_stone_vein_copper_ghost": {
+					"display_name": "Copper Vein Stone",
+					"description": "Grows into a vein of copper ore."
+				}
+			},
+			"summon_stone_vein_gold": {
+				"summon_stone_vein_gold_ghost": {
+					"display_name": "Gold Vein Stone",
+					"description": "Grows into a vein of gold ore."
+				}
+			},
+			"summon_stone_vein_iron": {
+				"summon_stone_vein_iron_ghost": {
+					"display_name": "Iron Vein Stone",
+					"description": "Grows into a vein of iron ore."
+				}
+			},
+			"summon_stone_vein_silver": {
+				"summon_stone_vein_silver_ghost": {
+					"display_name": "Silver Vein Stone",
+					"description": "Grows into a vein of silver ore."
+				}
+			},
+			"summon_stone_vein_tin": {
+				"summon_stone_vein_tin_ghost": {
+					"display_name": "Tin Vein Stone",
+					"description": "Grows into a vein of tin ore."
+				}
+			},
+			"summon_stone_riverbed_dry": {
+				"summon_stone_riverbed_dry_ghost": {
+					"display_name": "Dry Riverbed Stone",
+					"description": "Summons the memory of an ancient river."
 				}
 			}
 		}
@@ -13795,6 +15471,10 @@
 					"description": "Squarest circlet in the Ascendancy",
 					"recipe_name": "Shining Circlet",
 					"flavor": "Channels the very heart and soul into healing light"
+				},
+				"golem_pick_recipe": {
+					"description": "Used by the Geomancer to craft Mole Golems",
+					"recipe_name": "Golem Pick"
 				}
 			}
 		},
@@ -14283,6 +15963,46 @@
 					"description": "Hurts anything nearby that smells like titan.",
 					"recipe_name": "Anti-Titan Ward",
 					"flavor": "Baby don't hurt me! Don't hurt me no more!"
+				},
+				"ornate_picket_fence_bar_double_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Ornate Picket Fence Long",
+					"flavor": "A little gold leaf goes a long way!"
+				},
+				"ornate_picket_fence_bar_single_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Ornate Picket Fence Short",
+					"flavor": "A little gold leaf goes a long way!"
+				},
+				"ornate_picket_fence_end_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Ornate Picket Fence Post",
+					"flavor": "A little gold leaf goes a long way!"
+				},
+				"picket_fence_end_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Picket Fence Post",
+					"flavor": "If it's not white, is our life unfulfilled?"
+				},
+				"picket_fence_bar_single_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Picket Fence Short",
+					"flavor": "If it's not white, is our life unfulfilled?"
+				},
+				"picket_fence_bar_double_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Picket Fence Long",
+					"flavor": "If it's not white, is our life unfulfilled?"
+				},
+				"picket_fence_combo_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Picket Fence Combo",
+					"flavor": "If it's not white, is our life unfulfilled?"
+				},
+				"ornate_picket_fence_combo_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Ornate Picket Fence Combo",
+					"flavor": "A little gold leaf goes a long way!"
 				}
 			}
 		},
@@ -14733,6 +16453,154 @@
 				"display_name": "???",
 				"description": "???",
 				"requirements": "???"
+			},
+			"geomancer_outfit": {
+				"display_name": "Geomancer's Robes",
+				"description": "The gem-studded robes of a geomancer."
+			},
+			"geomancer_workbench": {
+				"geomancer_workbench_ghost": {
+					"display_name": "Geomancer Workbench",
+					"description": "Used by the Geomancer to craft summoning stones."
+				}
+			},
+			"geomancer_starter_kit": {
+				"display_name": "Geomancer Starter Kit",
+				"description": "Loot for items needed to start up a geomancer"
+			},
+			"geomancer_talisman": {
+				"geomancer_talisman_iconic": {
+					"display_name": "Geomancer Staff",
+					"description": "Intensifies the bearer's ability to interact with the powers of Hearth."
+				},
+				"display_name": "Geomancer Talisman",
+				"description": "Intensifies the bearer's ability to interact with the powers of Hearth."
+			},
+			"geomancer_golem_workbench": {
+				"geomancer_golem_workbench_ghost": {
+					"display_name": "Golem Workbench",
+					"description": "Used by the Geomancer to craft golems."
+				}
+			},
+			"recipes": {
+				"golem_restocking_recipe": {
+					"description": "Performs restocking tasks.",
+					"recipe_name": "Cricket Golem",
+					"flavor": "As they go about their tasks, you can hear their cute little calls."
+				},
+				"golem_mining_recipe": {
+					"description": "Performs mining tasks.",
+					"recipe_name": "Mole Golem",
+					"flavor": "No mountain can withstand the Mole's pick."
+				},
+				"golem_harvesting_recipe": {
+					"description": "Performs harvesting tasks.",
+					"recipe_name": "Ox Golem",
+					"flavor": "Gentle enough to pick a flower without disturbing the ground."
+				},
+				"geomancer_workbench_recipe": {
+					"description": "Required to craft summoning stones.",
+					"recipe_name": "Geomancer Workbench",
+					"flavor": "A workbench made to honor the ancient powers."
+				},
+				"geomancer_golem_workbench_recipe": {
+					"description": "Required to craft golems.",
+					"recipe_name": "Geomancer Golem Workbench",
+					"flavor": "Though grown from a smaller tree, this workbench allows access to much deeper powers."
+				},
+				"dry_stone_recipe": {
+					"flavor": "Its thirst is unquenchable."
+				},
+				"dry_stone_greater_recipe": {
+					"description": "Four time as dry as a regular dry stone.",
+					"recipe_name": "Greater Dry Stone",
+					"flavor": "Its thirst is even more unquenchable."
+				},
+				"rabbit_statue_recipe": {
+					"description": "Summons an ancient rabbit statue",
+					"recipe_name": "Rabbit Statue Stone"
+				},
+				"summon_stone_block_dirt_recipe": {
+					"description": "Summons an 8x5x8 block of dirt terrain.",
+					"recipe_name": "Dirt Terrain Block Stone"
+				},
+				"summon_stone_block_mimic_recipe": {
+					"description": "Summons an 8x5x8 block of terrain that mimics whatever terrain it is placed on.",
+					"recipe_name": "Mimic Terrain Block Stone"
+				},
+				"summon_stone_block_rock_recipe": {
+					"description": "Summons an 8x5x8 block of rock terrain.",
+					"recipe_name": "Rock Terrain Block Stone"
+				},
+				"summon_stone_block_surface_recipe": {
+					"description": "Summons an 8x5x8 block of surface terrain, such as grass or sand.",
+					"recipe_name": "Surface Terrain Block Stone"
+				},
+				"summon_stone_geyser_recipe": {
+					"description": "Summons a mountain geyser.",
+					"recipe_name": "Geyser Stone"
+				},
+				"summon_stone_patch_dirt_recipe": {
+					"description": "Grows into a patch of dirt terrain, up to 12x12 units in size",
+					"recipe_name": "Dirt Terrain Patch Stone"
+				},
+				"summon_stone_patch_rock_recipe": {
+					"description": "Grows into a patch of rocky terrain, up to 12x12 units in size",
+					"recipe_name": "Rock Terrain Patch Stone"
+				},
+				"summon_stone_patch_mimic_recipe": {
+					"description": "Grows into a patch of terrain, up to 12x12 units in size, that mimics the terrain it's placed on.",
+					"recipe_name": "Mimic Terrain Patch Stone"
+				},
+				"summon_stone_patch_surface_recipe": {
+					"description": "Grows into a patch of surface terrain, such as grass or sand, up to 12x12 units in size.",
+					"recipe_name": "Surface Terrain Patch Stone"
+				},
+				"summon_stone_rock_field_recipe": {
+					"description": "Summons a field of mineable rocks.",
+					"recipe_name": "Rock Field Stone"
+				},
+				"summon_stone_rune_site_recipe": {
+					"description": "Summons a clearing with a holy rune symbol.",
+					"recipe_name": "Rune Site Stone"
+				},
+				"summon_stone_vein_coal_recipe": {
+					"description": "Grows into a vein of coal",
+					"recipe_name": "Coal Vein Stone"
+				},
+				"summon_stone_vein_copper_recipe": {
+					"description": "Grows into a vein of copper ore",
+					"recipe_name": "Copper Vein Stone"
+				},
+				"summon_stone_vein_gold_recipe": {
+					"description": "Grows into a vein of gold ore",
+					"recipe_name": "Gold Vein Stone"
+				},
+				"summon_stone_vein_iron_recipe": {
+					"description": "Grows into a vein of iron ore",
+					"recipe_name": "Iron Vein Stone"
+				},
+				"summon_stone_vein_silver_recipe": {
+					"description": "Grows into a vein of silver ore",
+					"recipe_name": "Silver Vein Stone"
+				},
+				"summon_stone_vein_tin_recipe": {
+					"description": "Grows into a vein of tin ore",
+					"recipe_name": "Tin Vein Stone"
+				},
+				"wet_stone_greater_recipe": {
+					"description": "Four times more moist than a regular wet stone.",
+					"recipe_name": "Greater Wet Stone",
+					"flavor": "The tears... they are tears of happiness."
+				},
+				"wet_stone_recipe": {
+					"flavor": "It weeps for the Hearth."
+				},
+				"earthbud_seeds_recipe": {
+					"description": "Separate the seeds from the buds",
+					"recipe_name": "Earthbud Seeds (x3)",
+					"flavor": "Deseeded buds hold no magical power, but the seeds can be planted to grow anew."
+				}
 			}
 		},
 		"hunter": {
@@ -15115,6 +16983,21 @@
 					"recipe_name": "Anti-Titan Ward",
 					"flavor": "Baby don't hurt me! Don't hurt me no more!"
 				},
+				"cobblestone_fence_end_recipe": {
+					"description": "A rustic, sturdy wall segment.",
+					"recipe_name": "Cobblestone Fence Post",
+					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
+				},
+				"cobblestone_fence_bar_single_recipe": {
+					"description": "A rustic, sturdy wall segment.",
+					"recipe_name": "Cobblestone Fence Short",
+					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
+				},
+				"cobblestone_fence_bar_double_recipe": {
+					"description": "A rustic, sturdy wall segment.",
+					"recipe_name": "Cobblestone Fence Long",
+					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
+				},
 				"stone_bed_recipe": {
 					"recipe_name": "Stone Bed",
 					"description": "A bed to call your own after a hard day's work",
@@ -15184,6 +17067,21 @@
 					"description": "A more stylish window.",
 					"recipe_name": "Crossbeam Stone Window Frame",
 					"flavor": "Is this what they call a cross section?"
+				},
+				"cobblestone_fence_combo_recipe": {
+					"description": "A rustic, sturdy wall segment.",
+					"recipe_name": "Cobblestone Fence Combo",
+					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
+				},
+				"stone_floor_candle_holder_recipe": {
+					"description": "Lighting from a simplier time.",
+					"recipe_name": "Stone Floor Candle Holder",
+					"flavor": "Romantic for some, spookily haunted for others."
+				},
+				"golem_parts_recipe": {
+					"description": "Used by the Geomancer to craft golems",
+					"recipe_name": "Golem Parts",
+					"flavor": "Sturdy enough to hold an ox."
 				}
 			}
 		},
@@ -15261,6 +17159,7 @@
 				"furniture_name": "Furniture and Decoration",
 				"decoration_name": "Decorations",
 				"utility_name": "Utility",
+				"refined_name": "Refinement",
 				"potter_workbench_recipe": {
 					"description": "Helps the potter create simple items from clay",
 					"recipe_name": "Potter's Wheel",
@@ -15474,6 +17373,36 @@
 					"description": "Hurts anything nearby that smells like titan.",
 					"recipe_name": "Anti-Titan Ward",
 					"flavor": "Baby don't hurt me! Don't hurt me no more!"
+				},
+				"golem_parts_recipe": {
+					"description": "Used by the Geomancer to craft golems",
+					"recipe_name": "Golem Parts",
+					"flavor": "Sturdy enough to hold an ox."
+				},
+				"clay_fence_bar_double_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Clay Fence Long",
+					"flavor": "More decorative than protective."
+				},
+				"clay_fence_bar_single_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Clay Fence Short",
+					"flavor": "More decorative than protective."
+				},
+				"clay_fence_end_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Clay Fence Post",
+					"flavor": "More decorative than protective."
+				},
+				"clay_fence_gate_recipe": {
+					"description": "Lets people through your fence.",
+					"recipe_name": "Clay Fence Gate",
+					"flavor": "This decorative gate protects your fences from being broken."
+				},
+				"clay_fence_combo_recipe": {
+					"description": "Keeps people off your property.",
+					"recipe_name": "Clay Fence Combo",
+					"flavor": "More decorative than protective."
 				}
 			},
 			"potter_workbench": {
@@ -15836,6 +17765,10 @@
 					"description": "Tightly wrapped in cords of blue and gold",
 					"recipe_name": "Woven Grip",
 					"flavor": "Adorns the hilt of the Emblazoned Sword"
+				},
+				"golem_backpack_recipe": {
+					"description": "Used by the Geomancer to craft Ox Golems",
+					"recipe_name": "Golem Backpack"
 				}
 			},
 			"weaver_loom": {
