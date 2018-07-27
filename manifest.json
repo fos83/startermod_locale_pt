@@ -1,6 +1,6 @@
 {
 	"info": {
-		"name_space": "portugues",
+		"namespace": "portugues",
 		"name": "Português",
 		"steam_file_id" : "1387420082",
 		"client_only": true,
