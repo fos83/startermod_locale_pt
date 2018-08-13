@@ -1830,7 +1830,7 @@
 			},
 			"title_screen": {
 				"exit": "Sair",
-				"settings": "Configuração",
+				"settings": "Opções",
 				"about": "Sobre",
 				"kingdom_of": "O Reino de",
 				"continue_game": "Continuar",
@@ -2724,19 +2724,19 @@
 							"tier_2_shops": {
 								"weapon_armor_shop": {
 									"shop_info": {
-										"name": "Arsenal do Sark Blackhammer",
+										"name": "Loja de Armaduras de Sark Blackhammer",
 										"title": "Sark Blackhammer chegou com equipamentos para vender"
 									}
 								},
 								"farming_supplies_shop": {
 									"shop_info": {
-										"name": "Suprimentos Agrícolas do Farmer Gem",
-										"title": "Farmer Gem chega ao vilarejo com sua carroça"
+										"name": "Suprimentos Agrícolas do Fazendeiro Gem",
+										"title": "Gem chega ao vilarejo com sua carroça"
 									}
 								},
 								"bakery_shop": {
 									"shop_info": {
-										"name": "Jordan Sugarcane's Pães e Sopas",
+										"name": "Pães e Sopas do Jordan Sugarcane",
 										"title": "Jordan Sugarcane chegou com produtos cozidos para vender"
 									}
 								},
@@ -2749,143 +2749,143 @@
 								"door_shop": {
 									"shop_info": {
 										"name": "Loja de Portas do Edgar Planckton",
-										"title": "Edgar Planckton chegou com portas para vender"
+										"title": "Edgar Planckton chegou com portas e janelas para vender"
 									}
 								},
 								"rugs_shop2": {
 									"shop_info": {
-										"name": "Havaad's Fine Rugs and Garments",
-										"title": "An exotic merchant has arrived with exquisite wares to sell"
+										"name": "Tapetes e roupas finas do Havaad",
+										"title": "Um comerciante de tecidos exóticos chegou com mercadorias requintadas para vender"
 									}
 								},
 								"woodcutter_shop2": {
 									"shop_info": {
-										"name": "Norm Windriser's Woodcutter Shop",
-										"title": "Norm Windriser has arrived with some really good wares to sell"
+										"name": "Loja de lenhador do Norm Windriser",
+										"title": "Norm Windriser chegou com algumas mercadorias realmente boas para vender"
 									}
 								},
 								"stonecutter_shop2": {
 									"shop_info": {
-										"name": "Rufus Garrow's Stonecutter Shop",
-										"title": "Rufus Garrow has arrived with some exceptional wares to sell"
+										"name": "Loja de lapidação de Rufus Garrow",
+										"title": "Rufus Garrow chegou com alguns produtos excepcionais para vender"
 									}
 								},
 								"stonecutter_shop_2": {
 									"shop_info": {
-										"name": "Rufus Garrow's Stonecutter Shop",
-										"title": "Rufus Garrow has arrived with better wares to sell"
+										"name": "Loja de lapidação de Rufus Garrow",
+										"title": "Rufus Garrow chegou com melhores mercadorias para vender"
 									}
 								},
 								"weapon_armor_shop_2": {
 									"shop_info": {
-										"name": "Sark Blackhammer's Armory Shop",
-										"title": "Sark Blackhammer has arrived with high quality equipment to sell"
+										"name": "Loja de Armaduras de Sark Blackhammer",
+										"title": "Sark Blackhammer chegou com equipamentos de alta qualidade para vender"
 									}
 								},
 								"door_shop_2": {
 									"shop_info": {
-										"name": "Edgar Planckton's Door Store",
-										"title": "Edgar Planckton has arrived with fancy doors and windows for sale"
+										"name": "Loja de Portas de Edgar Planckton",
+										"title": "Edgar Planckton chegou com portas e janelas elegantes à venda"
 									}
 								},
 								"potter_shop_2": {
 									"shop_info": {
-										"name": "Ferina Rayye's Shaped Clay",
-										"title": "Ferina Rayye's pottery studio is in town, offering pottery and clay decorations"
+										"name": "Argila de Ferina Rayye",
+										"title": "O estúdio de cerâmica de Ferina Rayye fica na cidade, oferecendo cerâmica e decorações de barro"
 									}
 								},
 								"herbalist_shop_2": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling plants and seeds"
+										"name": "Verdura verdejante de Vert Greene",
+										"title": "Vert Greene está passando, vendendo plantas e sementes"
 									}
 								}
 							},
 							"tier_1_shops": {
 								"pets_shop_1": {
 									"shop_info": {
-										"name": "Avelyn's Pet Shop",
-										"title": "A local ranger is passing by, offering pets to adopt"
+										"name": "Pet Shop de Avelyn",
+										"title": "Um guarda florestal local está passando, oferecendo animais de estimação para adotar"
 									}
 								},
 								"pets_shop_2": {
 									"shop_info": {
-										"name": "Dinali's Little Menagerie",
-										"title": "An animal trainer is visiting with her menagerie"
+										"name": "O pequeno menagerie de Dinali",
+										"title": "Um treinador de animais está visitando com seu zoológico"
 									}
 								},
 								"pets_shop_3": {
 									"shop_info": {
-										"name": "Ollin and Ruvel's Traveling Zoo",
-										"title": "A zoo caravan is offering exotic animals for sale"
+										"name": "O Zoológico Viajante de Ollin e Ruvel",
+										"title": "Uma caravana do zoológico está oferecendo animais exóticos para venda"
 									}
 								},
 								"container_shop_1": {
 									"shop_info": {
-										"name": "Jo Boxen's Container Barn",
-										"title": "Jo Boxen arrives with a basket of bins"
+										"name": "Celeiro de Contêiner de Jo Boxen",
+										"title": "Jo Boxen chega com uma cesta de caixas"
 									}
 								},
 								"food_shop_1": {
 									"shop_info": {
-										"name": "Gannor's Breakfast Foods Trunk",
-										"title": "A young cook has arrived with a trunk of breakfast foods"
+										"name": "Comida para o café da manhã de Gannor",
+										"title": "Um jovem cozinheiro chegou com um baú de café da manhã"
 									}
 								},
 								"potter_shop_1": {
 									"shop_info": {
-										"name": "Ferina Rayye's Shaped Clay",
-										"title": "Ferina Rayye's wheeled studio is padding by, offering pottery"
+										"name": "Argila de Ferina Rayye",
+										"title": "O estúdio móvel de Ferina Rayye está passando, oferecendo cerâmica"
 									}
 								},
 								"herbalist_shop_1": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling herbs"
+										"name": "Verdura verdejante de Vert Greene",
+										"title": "Vert Greene está passando, vendendo ervas"
 									}
 								}
 							},
 							"tier_3_shops": {
 								"woodcutter_shop_3": {
 									"shop_info": {
-										"name": "Norm Windriser's Woodcutter Shop",
-										"title": "Norm Windriser has arrived with his best wares"
+										"name": "Loja de lenhador de Norm Windriser",
+										"title": "Norm Windriser chegou com seus melhores produtos"
 									}
 								},
 								"container_shop_3": {
 									"shop_info": {
-										"name": "Jo Boxen's Container Barn",
-										"title": "Jo Boxen arrives with a vault of chests"
+										"name": "Celeiro de Contêiner de Jo Boxen",
+										"title": "Jo Boxen chega com um cofre de baús."
 									}
 								},
 								"weapon_armor_shop_3": {
 									"shop_info": {
-										"name": "Sark Blackhammer's Armory Shop",
-										"title": "Sark Blackhammer has arrived with his best weapons and armor"
+										"name": "Loja de Armaduras de Sark Blackhammer",
+										"title": "Sark Blackhammer chegou com suas melhores armas e armaduras"
 									}
 								},
 								"door_shop_3": {
 									"shop_info": {
-										"name": "Edgar Planckton's Door Store",
-										"title": "Edgar Planckton has arrived with a shipment of his best doors and windows"
+										"name": "Loja de Portas de Edgar Planckton",
+										"title": "Edgar Planckton chegou com um carregamento de suas melhores portas e janelas"
 									}
 								},
 								"food_shop_3": {
 									"shop_info": {
-										"name": "Volf Hart's Meats and Pies",
-										"title": "A famous chef is passing by, offering gourmet dishes for sale"
+										"name": "Carnes e tortas de Volf Hart",
+										"title": "Um famoso chef está passando, oferecendo pratos gourmet para venda"
 									}
 								},
 								"potter_shop_3": {
 									"shop_info": {
-										"name": "Ferina Rayye's Shaped Clay",
-										"title": "Ferina Rayye's wheeled pottery studio is in town, offering artisan clay crafts"
+										"name": "Argila de Ferina Rayye",
+										"title": "O estúdio de cerâmica móvel de Ferina Rayye fica na cidade, oferecendo artesanato de barro artesanal"
 									}
 								},
 								"herbalist_shop_3": {
 									"shop_info": {
-										"name": "Vert Greene's Verdant Greenery",
-										"title": "Vert Greene is passing by, selling plants of all kinds"
+										"name": "Verdura verdejante de Vert Greene",
+										"title": "Vert Greene está passando, vendendo plantas de todos os tipos"
 									}
 								}
 							}
@@ -2967,23 +2967,23 @@
 									"choice_000": "Sem chance!",
 									"choice_001": "Uh.",
 									"bulletin_message": {
-										"000": "Soothsayer magic! Speak with old ones! Tell future! He see... he see Red Kiln Falling, new star rising. That star is Ogo. This time, we pick winning side!",
-										"001": "Soothsayer old, old snake. Speaks out with bones and scales. Sees future! Sees cycle ending, ending forever. Not sure what he mean, but good for Ogo!",
-										"002": "Soothsayer goblin, obviously! Goblin who can see future! He say old ones dying away, new star rising. Good for Ogo, bad for everyone else, you included!"
+										"000": "Adivinho mágico! Fala com os antigos! Conta o futuro! Ele vê ... ele vê Red Kiln caindo, nova estrela em ascensão. Essa estrela é Ogo. Desta vez, escolhemos o lado vencedor!",
+										"001": "Adivinho velha, velha cobra. Fala com ossos e escamas. Vê o futuro! Vê o final do ciclo, terminando para sempre. Não tenho certeza do que ele quer dizer, mas bom para o Ogo!",
+										"002": "Goblin Adivinho, obviamente! Goblin que pode ver o futuro! Ele diz que os velhos estão morrendo, nova estrela se elevando. Bom para Ogo, ruim para todos os outros, você incluído!"
 									},
-									"bulletin_title": "The goblin's eyes grow round",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Os olhos do goblin crescem",
+									"dialog_title": "Porta-Bandeira do Ogo"
 								},
 								"snooty_introduction": {
 									"choice_000": "Uh.",
 									"choice_001": "Agh!",
 									"bulletin_message": {
-										"000": "Ho, puny town! Me stand here with bad news for you!",
-										"001": "Puny Town! Bow and tremble!",
-										"002": "Muahahahahah! This? This your town? I laugh till I cry!"
+										"000": "Ho, cidade insignificante! Eu estou aqui com más notícias para você!",
+										"001": "Cidade insignificante! Curve-se e trema!",
+										"002": "Hahahahaha! Esta? Esta sua cidade? Eu rio até chorar!"
 									},
-									"bulletin_title": "A goblin with a officious smirk slithers into town",
-									"dialog_title": "Ogo's Bannerman"
+									"bulletin_title": "Um goblin com um sorriso malicioso entra na cidade",
+									"dialog_title": "Porta-Bandeira do Ogo"
 								},
 								"ogo_introduction": {
 									"choice_000": "Ogo quem?",
@@ -2996,7 +2996,7 @@
 										"004": "I bannergoblin of Ogo Skullbonker! When you bested the small chiefs, you bring Ogo's Eye upon you! And Ogo's Eye know all! You will give tribute, or eye will see your end!"
 									},
 									"bulletin_title": "The goblin straightens",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Porta-Bandeira do Ogo"
 								},
 								"ogo_description": {
 									"choice_000": "Profeta?",
@@ -3008,7 +3008,7 @@
 										"003": "Ogo Skullbonker, Master of Masters, have great destiny, to rule over all! Soothsayer say so; soothsayer never wrong. Soothsayer say, you will help!"
 									},
 									"bulletin_title": "The goblin's eyes glow with zeal",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Porta-Bandeira do Ogo"
 								},
 								"conclusion": {
 									"bulletin_message": {
@@ -3018,7 +3018,7 @@
 										"003": "Anyway, time to go iron my banner. Be back soon! Be ready, yes? New life under goblin rule awaits!"
 									},
 									"bulletin_title": "The goblin's eyes narrow",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Porta-Bandeira do Ogo"
 								}
 							}
 						}
@@ -3617,7 +3617,7 @@
 														"000": "Take all the things!!!!"
 													},
 													"bulletin_title": "The goblins raise their weapons",
-													"dialog_title": "Ogo's Bannerman"
+													"dialog_title": "Porta-Bandeira do Ogo"
 												},
 												"ogo_attacks": {
 													"bulletin_message": {
@@ -3673,14 +3673,14 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "An armed goblin!",
-									"message": "He wants your stuff"
+									"title": "Um goblin armado!",
+									"message": "Ele quer suas coisas"
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"thug": {
-								"description": "Armed and dangerous!"
+								"description": "Armado e Perigoso!"
 							}
 						}
 					},
@@ -3688,14 +3688,14 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A stray goblin wolf!",
-									"message": "He wants to eat you."
+									"title": "Um lobo goblin perdido!",
+									"message": "Ele quer comer você."
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"goblin_wolf": {
-								"description": "Terrifyingly ferocious"
+								"description": "Terrivelmente feroz"
 							}
 						}
 					},
@@ -3703,17 +3703,17 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin!",
-									"message": "He wants your stuff"
+									"title": "Um goblin!",
+									"message": "Ele quer suas coisas"
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"thiefs": {
-								"description": "Cowardly but covetous"
+								"description": "Covarde mas cobiçoso"
 							},
 							"escorts": {
-								"description": "Covetous and armed!"
+								"description": "Cobiçoso e armado!"
 							}
 						}
 					},
@@ -3721,8 +3721,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A dangerous goblin!",
-									"message": "He wants your stuff"
+									"title": "Um goblin perigoso!",
+									"message": "Ele quer uas coisas"
 								}
 							}
 						}
@@ -3731,14 +3731,14 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin sneaks into camp!",
-									"message": "He's into stealth"
+									"title": "Um goblin entra no acampamento!",
+									"message": "Ele está furtivo"
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"thiefs": {
-								"description": "Into black pajamas."
+								"description": "De pijama preto."
 							}
 						}
 					},
@@ -3746,45 +3746,45 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A thief approaches!",
-									"message": "He wants your stuff!!!."
+									"title": "Um ladrão se aproxima!",
+									"message": "Ele quer suas coisas!!!"
 								}
 							}
 						},
 						"raid_stockpiles": {
 							"thiefs": {
-								"description": "Into black pajamas."
+								"description": "De pijama preto."
 							},
 							"goblin_wolf": {
-								"description": "Terrifyingly ferocious"
+								"description": "Terrivelmente feroz"
 							}
 						}
 					},
 					"zombie_chest_camp": {
 						"boss": {
-							"display_name": "Giant Zombie",
-							"description": "Blaarhgh.. don't touch Master's treasure!!"
+							"display_name": "Zumbi Gigante",
+							"description": "Blaarhgh .. não toque no tesouro do Mestre !!"
 						}
 					},
 					"wolf_pack_raid": {
 						"wolves": {
-							"description": "Defending its territory"
+							"description": "Defendendo seu território"
 						}
 					},
 					"giant_alligator_raid_6": {
 						"alligators": {
-							"description": "The larger variety."
+							"description": "O tipo grande."
 						}
 					},
 					"giant_wolf_raid_4": {
 						"wolf": {
-							"display_name": "Giant Wolf",
-							"description": "Terrifyingly large.. and toothy"
+							"display_name": "Lobo Gigante",
+							"description": "Terrivelmente grande .. e cheio de dentes"
 						}
 					},
 					"entling_raid_7": {
 						"giant_entlings": {
-							"display_name": "Giant Entling"
+							"display_name": "Entling Gigante"
 						}
 					},
 					"arcs": {
@@ -3794,26 +3794,26 @@
 									"create_thief_camp": {
 										"thief_campfire": {
 											"campfire": {
-												"display_name": "Hypnotic Campfire",
-												"description": "But... what makes it green?"
+												"display_name": "Fogueira hipnótica",
+												"description": "Mas ... o que torna verde?"
 											},
 											"workers": {
-												"description": "Designated hearth-tender"
+												"description": "Trabalhador"
 											}
 										}
 									},
 									"create_necromancer_crypt": {
 										"crypt": {
-											"display_name": "A Crypt",
-											"description": "Constructed by the Phoenix Empire"
+											"display_name": "Uma cripta",
+											"description": "Construído pelo império de Phoenix"
 										},
 										"sarcophagus": {
-											"display_name": "Stone Sarcophagus",
-											"description": "Here lies a member of the Black Cord"
+											"display_name": "Sarcófago de Pedra",
+											"description": "Aqui jaz um membro do Black Cord"
 										},
 										"crypt_structures": {
 											"floor_candle": {
-												"description": "Illuminates the crypt entrance"
+												"description": "Ilumina a entrada da cripta"
 											}
 										}
 									}
@@ -3824,7 +3824,7 @@
 					"random_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Invaders Approaching!"
+								"title": "Invasores se aproximando!"
 							}
 						}
 					}
@@ -3839,41 +3839,41 @@
 											"dialog_nodes": {
 												"collection_due": {
 													"bulletin_message": {
-														"000": "Will you not return the children of the forest? They do not belong in your crates and piles of trinkets. Your compliance will be rewarded.",
-														"001": "Hundreds of great oaks and junipers have been cut down to satiate the greed of humans. Our patience wears thin. I ask of you, return them to the homeland.",
-														"002": "Return our logs and help restore the natural balance of the great woodlands. I cannot guarantee your safety if you refuse.",
-														"003": "Our wilderness has been sacrificed for your lifestyle of excess. We will give you a chance to return our logs. I suggest you heed my warning.."
+														"000": "Você não vai devolver os filhos da floresta? Eles não pertencem às suas caixas e pilhas de bugigangas. Sua conformidade será recompensada.",
+														"001": "Centenas de grandes carvalhos e zimbros foram abatidos para saciar a ganância dos humanos. Nossa paciência se desgasta. Peço-lhe, devolva-os à pátria.",
+														"002": "Devolva nossos troncos e ajude a restaurar o equilíbrio natural das grandes florestas. Eu não posso garantir sua segurança se você recusar.",
+														"003": "Nossa região foi sacrificado por seu estilo de vida de excesso. Nós lhe daremos uma chance para devolver nossos troncos. Eu sugiro que você dê atenção ao meu aviso."
 													},
-													"bulletin_title": "The Ent has a request.",
-													"dialog_title": "Ent"
+													"bulletin_title": "O Ent tem um pedido.",
+													"dialog_title": "Ent "
 												},
 												"collection_failed": {
 													"bulletin_message": {
-														"000": "I am deeply disappointed... I would suggest you prepare yourselves. The minions of the forest speak of an invasion."
+														"000": "Estou profundamente desapontado ... Eu sugiro que se preparem. Os asseclas da floresta falam de uma invasão."
 													},
-													"bulletin_title": "The Ent furrows his brow"
+													"bulletin_title": "O Ent franziu a testa"
 												},
 												"collection_success": {
 													"bulletin_message": {
-														"000": "Thank you for your cooperation. In return, we have prepared a gift."
+														"000": "Obrigado pela sua colaboração. Em troca, preparamos um presente."
 													},
-													"bulletin_title": "The Ent nods peacefully",
-													"dialog_title": "Ent"
+													"bulletin_title": "O Ent acena pacificamente",
+													"dialog_title": "Ent "
 												},
 												"introduction": {
 													"bulletin_message": {
-														"000": "Greetings, humans of [str(i18n_data.town_name)]. I have come to warn you of the growing unrest within these forests.",
-														"001": "Silently, we have been watching.. since even before the fall of Firebird. Why? To protect. Our trees. Our saplings. Our woods."
+														"000": "Saudações, humanos de [str(i18n_data.town_name)]. Eu vim para avisá-lo da agitação crescente dentro destas florestas.",
+														"001": "Silenciosamente, temos assistido .. desde antes mesmo da queda do Pássaro de Fogo. Por quê? Proteger. Nossas árvores. Nossas mudas. Nossas madeiras."
 													},
-													"bulletin_title": "A large tree-like figure approaches.",
-													"dialog_title": "Ent"
+													"bulletin_title": "Uma grande figura semelhante a uma árvore se aproxima.",
+													"dialog_title": "Ent "
 												},
 												"revenge": {
 													"bulletin_message": {
-														"000": "We will be taking these back."
+														"000": "Nós vamos levar isso de volta."
 													},
-													"bulletin_title": "A horde of entlings escape with your logs!",
-													"dialog_title": "Ent"
+													"bulletin_title": "Uma horda de entletes foge com seus troncos!",
+													"dialog_title": "Ent "
 												}
 											}
 										}
@@ -3883,10 +3883,10 @@
 											"dialog_nodes": {
 												"simple_message": {
 													"bulletin_message": {
-														"000": "Here, take this as a token of our gratitude."
+														"000": "Aqui, leve isso como um sinal da nossa gratidão."
 													},
-													"bulletin_title": "Entlings carrying loot scurry toward you",
-													"dialog_title": "Ent",
+													"bulletin_title": "Entlings carregando saque correm em sua direção",
+													"dialog_title": "Ent ",
 													"choice_000": "Obrigado!"
 												}
 											}
@@ -5083,73 +5083,73 @@
 				},
 				"titan": {
 					"titan_defeated_town_bonus": {
-						"name": "Land Cleansed of Corruption",
-						"description": "<i>With the defeat of its lurking Titan, this town's citizens can't help but be more cheerful.</i>"
+						"name": "Terra Purificada da Corrupção",
+						"description": "<i> Com a derrota do Titã à espreita, os cidadãos desta cidade não conseguem se conter de alegres.</i>"
 					},
 					"end_dialog": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "This calls for a celebration!"
+										"00": "Isso exige uma comemoração!"
 									},
-									"bulletin_title": "You did it!",
-									"dialog_title": "The Titan Is Vanquishsed",
-									"choice_000": "Yeah!"
+									"bulletin_title": "Você conseguiu!",
+									"dialog_title": "O Titã é Derrotado",
+									"choice_000": "Aê, isso!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "With a terrifying roar and a staggering blast of energy, the apparition of the Titan disintegrates, vanishing into nothingness.<br><br>As the gloom fades, your citizens marvel at the clear sky stretching out above them, and the land itself seems to breathe a sigh of relief as the laws of nature return to normal."
+										"00": "Com um rugido aterrorizante e uma explosão de energia, a aparição do Titã se desintegra, desaparecendo no nada. <br> <br> Enquanto a escuridão desaparece, seus cidadãos se maravilham com o céu claro que se estende acima deles, e a própria terra parece respirar um suspiro de alívio quando as leis da natureza retornam ao normal."
 									},
-									"bulletin_title": "You did it!",
-									"dialog_title": "The Titan Is Vanquishsed",
-									"choice_000": "Whew."
+									"bulletin_title": "Você conseguiu!",
+									"dialog_title": "O Titã é Derrotado",
+									"choice_000": "Ufa."
 								}
 							}
 						}
 					},
 					"alert_destroy_crops": {
-						"title": "A blight! We've lost some crops..."
+						"title": "Uma ferrugem! Nós perdemos algumas fazendas..."
 					},
 					"alert_initial_spawn_roots": {
-						"title": "The Titan's Roots are marked with spectral tentacles. Dig them up to weaken its grip over this land!"
+						"title": "O Titã tem raízes em todos os lugares, abaixo dos tentáculos fantasmagóricos. Escave-os para ferir o Titã!"
 					},
 					"alert_spawn_camp": {
-						"title": "A new Portal opens, guarded by Corruptions"
+						"title": "Um novo Portal é aberto, protegido por Corrupções"
 					},
 					"alert_spawn_roots": {
-						"title": "More Roots of corruption burrow close to the surface"
+						"title": "Mais raízes de corrupção se acumulam. Cave e leve um machado para eles!"
 					},
 					"alert_wave": {
-						"title": "A storm of evil erupts from the Titan! Take shelter!"
+						"title": "Uma tempestade de puro mal irrompe do Titã! Se abrige!"
 					},
 					"spawn_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Hostile Corruptions, and they're awfully close!"
+								"title": "Corrupções Hostis, e eles estão muito próximos!"
 							}
 						}
 					},
 					"alert_destroy_building": {
-						"title": "A tentacle threatens our structure! Kill it, quickly!"
+						"title": "Um tentáculo ameaça uma estrutura! Mate-o rapidamente!"
 					},
 					"alert_building_was_destroyed": {
-						"title": "One of our buildings was destroyed! We were too late..."
+						"title": "Um dos nossos edifícios foi destruído! Nós estávamos muito atrasados ..."
 					},
 					"alert_tentacle_grab": {
-						"title": "A tentacle grabs [name(i18n_data.entity)]! Free them!"
+						"title": "Um tentáculo agarra [name(i18n_data.entity)]! Liberte-os!"
 					},
 					"alert_initial_camp_spawn": {
-						"title": "Vile Portals! Corruptions guard them while they spawn pestillence. Challenge them, if you have the strength..."
+						"title": "Portais! Eles vão continuar gerando insetos rastejantes até você destruí-los, mas cuidado com os guardiões corrompidos."
 					},
 					"alert_new_bugs": {
-						"title": "More Crawlers emerge from a Portal, hungry for your stockpiles"
+						"title": "Os rastreadores continuam a emergir dos portais, famintos por seus estoques"
 					}
 				},
 				"amberstone": {
 					"persons": {
 						"sasha": {
-							"title": "Sasha, Envoy of Clan Amberstone"
+							"title": "Sasha, enviado do clã Amberstone"
 						}
 					},
 					"arcs": {
@@ -6555,8 +6555,8 @@
 					"entities": {
 						"amberstone_statue": {
 							"amberstone_statue_ghost": {
-								"display_name": "Amberstone Rabbit Statue",
-								"description": "A beautifully carved Amberstone rabbit statue."
+								"display_name": "Estátua do coelho de Amberstone",
+								"description": "Uma estátua belamente entalhada do coelho de Amberstone."
 							}
 						}
 					}
@@ -8383,93 +8383,93 @@
 		"traits": {
 			"animal_companion": {
 				"animal_companion_trait": {
-					"display_name": "Animal Companion",
-					"description": "Ever since [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] saved their [str(i18n_data.savee_species)], [name(i18n_data.savee)], from mortal danger, they've been inseparable.",
+					"display_name": "Companheiro Animal",
+					"description": "Desde que [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] salvou seu [str(i18n_data.savee_species)], [name(i18n_data.savee)], de um perigo mortal, eles ficaram inseparáveis.",
 					"default_species": "Companheiro"
 				}
 			},
 			"herbivore": {
 				"herbivore_trait": {
 					"display_name": "Herbívoro",
-					"description": "[name(i18n_data.entity)] is a friend to all animals! Plants, less so."
+					"description": "[name(i18n_data.entity)] é amigo de todos os animais! Plantas, nem tanto."
 				}
 			},
 			"callous": {
 				"callous_trait": {
 					"display_name": "Insensível",
-					"description": "[name(i18n_data.entity)]  keeps everyone at arms length. This helps them to not be as hurt when tragedy occurs around them, but their constant guarded composure makes them slow to make friends."
+					"description": "[name(i18n_data.entity)] nunca se conecta realmente com os outros. Isso o ajuda a não ficar tão magoado quando ocorre uma tragédia, mas sua constante compostura o torna lentos para fazer amigos."
 				}
 			},
 			"carnivore": {
 				"carnivore_trait": {
 					"display_name": "Carnívoro",
-					"description": "[name(i18n_data.entity)] just LOVES animals! Especially with hot sauce."
+					"description": "[name(i18n_data.entity)] apenas ADORA animais! Especialmente com molho picante."
 				}
 			},
 			"courageous": {
 				"courageous_trait": {
 					"display_name": "Corajoso",
-					"description": "[name(i18n_data.entity)] loves to save others, and puts the safety of the town as paramount."
+					"description": "[name(i18n_data.entity)] gosta de salvar os outros e coloca a segurança da cidade como primordial."
 				}
 			},
 			"excitable": {
 				"excitable_trait": {
 					"display_name": "Emotivo",
-					"description": "[name(i18n_data.entity)] can never seem to keep their emotions in check, so they become happy or sad much faster than normal."
+					"description": "[name(i18n_data.entity)] nunca consegue manter suas emoções sob controle, então elas ficam felizes ou tristes muito mais rápido que o normal."
 				}
 			},
 			"green_thumb": {
 				"green_thumb_trait": {
 					"display_name": "Dedo Verde",
-					"description": "[name(i18n_data.entity)] seems to have a way with plants that is somewhat indescribable."
+					"description": "[name(i18n_data.entity)] parece ter um jeito com plantas que é um pouco indescritível."
 				}
 			},
 			"heart_of_a_crafter": {
 				"heart_of_a_crafter_trait": {
-					"display_name": "Heart of a Crafter",
-					"description": "[name(i18n_data.entity)] loves crafting things for others. If they don't make at least one thing a day, they feel the day is wasted."
+					"display_name": "Coração de um artesão",
+					"description": "[name(i18n_data.entity)] adora criar coisas para os outros. Se eles não fazem pelo menos uma coisa por dia, sentem que o dia é desperdiçado."
 				}
 			},
 			"professor": {
 				"professor_trait": {
 					"display_name": "Professor ",
-					"description": "[name(i18n_data.entity)] will help people gain experience in the basics of their class, though their explanations tend to be a bit... long winded."
+					"description": "[name(i18n_data.entity)] ajudará as pessoas a adquirirem experiência no básico de sua classe, embora suas explicações tendam a ser um pouco ... demoradas."
 				}
 			},
 			"featherweight": {
 				"featherweight_trait": {
-					"display_name": "Featherweight",
-					"description": "[name(i18n_data.entity)] likes to walk a bit faster than others, though they tend to carry less as a result."
+					"display_name": "Peso pena",
+					"description": "[name(i18n_data.entity)] gosta de andar um pouco mais rápido que os outros, embora eles tendam a carregar menos como resultado."
 				}
 			},
 			"pack_mule": {
 				"pack_mule_trait": {
 					"display_name": "Burro de Carga",
-					"description": "This hearthling can move mountains! They can carry more in their pack, but walk slightly slower when it's full due to the weight."
+					"description": "Este hearthling ama transportar coisas ao redor! Por razões inexplicáveis, eles se movem mais rápido quando carregam algo em sua mochila."
 				}
 			},
 			"glutton": {
 				"glutton_trait": {
 					"display_name": "Glutão",
-					"description": "[name(i18n_data.entity)]'s stomach might as well be a portal to another world for as much as they're able to eat. Maybe that explains a bit of their resilience, though."
+					"description": "O estômago de [name(i18n_data.entity)] pode muito bem ser um portal para outro mundo, tanto quanto eles são capazes de comer. Talvez isso explique um pouco de sua resiliência, no entanto."
 				}
 			},
 			"hothead": {
 				"hothead_trait": {
 					"display_name": "Cabeça quente",
-					"description": "[name(i18n_data.entity)] never voluntarily backs down from a fight. Even from ones they probably should..."
+					"description": "[name(i18n_data.entity)] nunca desiste voluntariamente de uma briga. Mesmo daquelas que provavelmente deveriam ..."
 				}
 			},
 			"night_owl": {
 				"night_owl_trait": {
 					"display_name": "Coruja Noturna",
-					"description": "The day only really begins once the sun has set."
+					"description": "O dia só começa realmente quando o sol se põe."
 				}
 			},
 			"optimistic": {
 				"optimistic_trait": {
 					"display_name": "Otimista",
-					"description": "[name(i18n_data.entity)] always looks on the bright side, and sees a silver lining in almost everything."
+					"description": "[name(i18n_data.entity)] sempre olha para o lado bom e vê um revestimento prateado em quase tudo."
 				}
 			},
 			"passion_job": {
@@ -8481,25 +8481,25 @@
 			"pessimistic": {
 				"pessimistic_trait": {
 					"display_name": "Pessimista",
-					"description": "[name(i18n_data.entity)] is a glass half-empty kinda person."
+					"description": "[name(i18n_data.entity)] é do tipo do copo meio vazio."
 				}
 			},
 			"cultist": {
 				"cultist_trait": {
-					"display_name": "Cultist",
-					"description": "This hearthling keeps mumbling about some sort of secret \"bunny god\" sleeping eternally. What's that about?"
+					"display_name": "Cultista",
+					"description": "Este hearthling continua resmungando sobre algum tipo de \"deus coelho\" secreto dormindo eternamente. Sobre o que é isso?"
 				}
 			},
 			"jokester": {
 				"jokester_trait": {
-					"display_name": "Jokester",
-					"description": "[name(i18n_data.entity)] loves to tell jokes. Are they good? It's tough to say, but they frequently seem to leave others with a smile."
+					"display_name": "Brincalhão",
+					"description": "[name(i18n_data.entity)] gosta de contar piadas. Elas são boas? É difícil dizer, mas elas freqüentemente parecem deixar os outros com um sorriso."
 				}
 			},
 			"charismatic": {
 				"charismatic_trait": {
 					"display_name": "Carismático",
-					"description": "When [name(i18n_data.entity)] walks into a room, people always take notice."
+					"description": "Quando [name(i18n_data.entity)] entra em uma sala, as pessoas sempre notam."
 				}
 			},
 			"gregarious": {
@@ -8517,49 +8517,49 @@
 			"empathetic": {
 				"empathetic_trait": {
 					"display_name": "Empático",
-					"description": "[name(i18n_data.entity)] is really sensitive to the mood of the town, and it always seems to rub off on them."
+					"description": "[name(i18n_data.entity)] é muito sensível ao clima da cidade, e parece que sempre afetam eles."
 				}
 			},
 			"opinionated": {
 				"opinionated_trait": {
-					"display_name": "Opinionated",
-					"description": "[name(i18n_data.entity)] has an opinion on everything, and isn't shy about sharing it."
+					"display_name": "Opinativo",
+					"description": "[name(i18n_data.entity)] tem uma opinião sobre tudo e não tem vergonha de compartilhá-la."
 				}
 			},
 			"magnificent_beard": {
 				"magnificent_beard_trait": {
-					"display_name": "Magnificent Beard",
-					"description": "This hearthling has a truly magnificent beard."
+					"display_name": "Barba magnífica",
+					"description": "Este hearthling tem uma barba verdadeiramente magnífica."
 				}
 			},
 			"stoic": {
 				"stoic_trait": {
-					"display_name": "Stoic",
-					"description": "Due to their even temperament, it takes a lot to make this Hearthling happy or sad."
+					"display_name": "Estóico",
+					"description": "Devido ao seu temperamento uniforme, é preciso muito para tornar este Hearthling feliz ou triste."
 				}
 			},
 			"gourmand": {
 				"gourmand_trait": {
-					"display_name": "Gourmand",
-					"description": "Only the tastiest of foods are welcome to [name(i18n_data.entity)]'s palate. They become happy when they eat higher quality food, but low quality meals are quite distasteful."
+					"display_name": "Paladar Gourmet",
+					"description": "Apenas os alimentos mais saborosos são bem-vindos ao paladar de [name(i18n_data.entity)]. Eles ficam felizes quando comem alimentos de melhor qualidade, mas as refeições de baixa qualidade são muito desagradáveis."
 				}
 			},
 			"goat": {
 				"goat_trait": {
-					"display_name": "Goat",
-					"description": "[name(i18n_data.entity)] will basically eat anything. They are not picky at all, sometimes to the disgust of those around them."
+					"display_name": "Sem frescura",
+					"description": "[name(i18n_data.entity)] basicamente irá comer qualquer coisa. Eles não são exigentes, às vezes para o desgosto das pessoas ao seu redor."
 				}
 			},
 			"pluviophile": {
 				"pluviophile_trait": {
-					"display_name": "Pluviophile",
-					"description": "[name(i18n_data.entity)] loves nothing more than the gentle drumbeat of raindrops."
+					"display_name": "Pluviófilo",
+					"description": "[name(i18n_data.entity)] não ama nada mais do que a suave batida de gotas de chuva."
 				}
 			},
 			"storm_chaser": {
 				"storm_chaser_trait": {
-					"display_name": "Storm Chaser",
-					"description": "Thunderstorms, sandstorms, blizzards, [name(i18n_data.entity)] loves them all!"
+					"display_name": "Caçador de tempestades",
+					"description": "Tempestades, tempestades de areia, nevascas, [name(i18n_data.entity)] ama todas elas!"
 				}
 			}
 		},
@@ -9203,139 +9203,139 @@
 		"hotkeys": {
 			"keys": {
 				"ui_character": {
-					"display_name": "Character Sheet"
+					"display_name": "Folha de Personagem"
 				},
 				"fight_move": {
-					"display_name": "Move to Location"
+					"display_name": "Mover ao Local"
 				},
 				"fight_attack": {
-					"display_name": "Attack Move"
+					"display_name": "Mover e atacar"
 				},
 				"fight_defend": {
-					"display_name": "Defend Location"
+					"display_name": "Defender local"
 				},
 				"fight_cancelOrders": {
-					"display_name": "Cancel Combat Order"
+					"display_name": "Cancelar ordem de combate"
 				},
 				"ui_move_place_item": {
-					"display_name": "Move/Place Item"
+					"display_name": "Mover/colocar item"
 				},
 				"build_roof": {
-					"display_name": "Roof Tool"
+					"display_name": "Ferramenta de telhado"
 				},
 				"build_slab": {
-					"display_name": "Slab Tool"
+					"display_name": "Ferramenta de blocos"
 				},
 				"build_erase": {
-					"display_name": "Erase Tool"
+					"display_name": "Ferramenta de apagar"
 				},
 				"build_wall": {
-					"display_name": "Free Standing Wall Tool"
+					"display_name": "Ferramenta de Parede"
 				},
 				"build_floor_grow": {
-					"display_name": "Floor Tool"
+					"display_name": "Ferramenta de Chão"
 				},
 				"build_decoration": {
-					"display_name": "Decoration Tool"
+					"display_name": "Aba de decorações"
 				},
 				"build_furniture": {
-					"display_name": "Furniture Tool"
+					"display_name": "Aba de mobiliá"
 				},
 				"build_stair": {
-					"display_name": "Stair Tool"
+					"display_name": "Ferramenta de escada"
 				},
 				"build_window": {
-					"display_name": "Window Tool"
+					"display_name": "Aba de janela"
 				},
 				"build_floor": {
-					"display_name": "Foundation Tool"
+					"display_name": "Ferramenta de fundação"
 				},
 				"build_road": {
-					"display_name": "Road Tool"
+					"display_name": "Ferramenta de rua"
 				},
 				"build_door": {
-					"display_name": "Door Tool"
+					"display_name": "Aba de porta"
 				},
 				"build_wall_grow": {
-					"display_name": "Wall Tool"
+					"display_name": "Ferramenta de parede"
 				},
 				"ui_notification_popup": {
-					"display_name": "Open Notification Popup"
+					"display_name": "Abrir notificação popup"
 				},
 				"ui_multiplayer_chat": {
-					"display_name": "Open Chat"
+					"display_name": "Abrir chat"
 				},
 				"ui_undeploy_item": {
-					"display_name": "Undeploy Item"
+					"display_name": "Guardar item"
 				},
 				"ui_building_redo": {
-					"display_name": "Redo"
+					"display_name": "Refazer"
 				},
 				"ui_building_undo": {
-					"display_name": "Undo"
+					"display_name": "Desfazer"
 				},
 				"ui_building_move_support": {
-					"display_name": "Move Supported Structures"
+					"display_name": "Mover estruturas suportadas"
 				},
 				"ui_toggle_selection": {
-					"display_name": "Add to Selection"
+					"display_name": "Adicioanr a seleção"
 				},
 				"build_pointer": {
-					"display_name": "Pointer Tool"
+					"display_name": "Ferramenta de Ponteiro"
 				},
 				"build_roofDropWalls": {
-					"display_name": "Roof Drop Walls"
+					"display_name": "Telhado com paredes"
 				},
 				"build_blocksRadio": {
-					"display_name": "Set Visibility to Block"
+					"display_name": "Definir visibilidade do bloco"
 				},
 				"build_wallRadio": {
-					"display_name": "Set Visibility to Wall"
+					"display_name": "Definir visibilidade da parede"
 				},
 				"build_hole": {
-					"display_name": "Hole Tool"
+					"display_name": "Ferramenta de buraco"
 				},
 				"build_splitwall": {
-					"display_name": "Split Walls Tool"
+					"display_name": "Ferramenta de dividir parede"
 				},
 				"build_roofBack": {
-					"display_name": "Roof Back"
+					"display_name": "Telhado atras"
 				},
 				"build_roofRadio": {
-					"display_name": "Set Visibility to Roof"
+					"display_name": "Definir a visibilidade para o telhado"
 				},
 				"build_fence": {
-					"display_name": "Fence Tool"
+					"display_name": "Ferramenta de cerca"
 				},
 				"build_roofFront": {
-					"display_name": "Roof Front"
+					"display_name": "Telhado frente"
 				},
 				"build_visup": {
-					"display_name": "Building Vis Up"
+					"display_name": "Visão pra cima"
 				},
 				"build_blocks": {
-					"display_name": "Blocks Tool"
+					"display_name": "Ferramenta de blocos"
 				},
 				"build_stairs": {
-					"display_name": "Stair Tool"
+					"display_name": "Ferramenta de escadas"
 				},
 				"build_visdown": {
-					"display_name": "Biulding Vis Down"
+					"display_name": "Visão pra baixo"
 				},
 				"build_roofLeft": {
-					"display_name": "Roof Left"
+					"display_name": "Telhado esquerdo"
 				},
 				"build_paint": {
-					"display_name": "Paint Tool"
+					"display_name": "Ferramenta de pintar"
 				},
 				"build_room": {
-					"display_name": "Room Tool"
+					"display_name": "Ferramenta de sala"
 				},
 				"build_wallRadioCycle": {
-					"display_name": "Cycle Wall Visibility Normal"
+					"display_name": "Visibilidade da parede normal"
 				},
 				"build_roofRight": {
-					"display_name": "Roof Right"
+					"display_name": "Telhado direito"
 				}
 			}
 		},
@@ -10451,21 +10451,21 @@
 		},
 		"critters": {
 			"poyo": {
-				"display_name": "A Poyo",
-				"description": "Plump and tasty wild fowl",
+				"display_name": "Um Poyo",
+				"description": "Galinha selvagem gorda e saborosa. Come um pouco de tudo.",
 				"poyo_egg": {
-					"display_name": "Fertilized Poyo Egg",
-					"description": "Is it hatching yet?"
+					"display_name": "Ovo Poyo Fertilizado",
+					"description": "Está chocando ainda?"
 				},
 				"young": {
-					"display_name": "Poyo Chick",
-					"description": "Peep Peep!"
+					"display_name": "Pintinho de Poyo",
+					"description": "Piu piu!"
 				},
-				"species": "poyo",
+				"species": "poyo ",
 				"egg": {
 					"ostrich_egg": {
-						"display_name": "Fertilized Ostrich Egg",
-						"description": "Is it hatching yet?"
+						"display_name": "Ovo de Avestruz Fertilizado",
+						"description": "Está chocando ainda?"
 					}
 				}
 			},
@@ -10487,7 +10487,7 @@
 			},
 			"red_fox": {
 				"display_name": "Raposa",
-				"description": "Small forest creature",
+				"description": "Criatura pequena da floresta",
 				"red_fox_jerky": {
 					"display_name": "Carne Seca (Raposa)"
 				},
@@ -10495,13 +10495,13 @@
 			},
 			"sheep": {
 				"display_name": "Ovelha",
-				"description": "So fluffy!",
-				"unripe_description": "This sheep is still quite naked.",
+				"description": "Tão fofinho! Ela come verduras e às vezes rumina.",
+				"unripe_description": "Esta ovelha ainda está completamente nua.",
 				"sheep_young": {
 					"display_name": "Cordeiro",
-					"description": "Awww!"
+					"description": "Aww!"
 				},
-				"renewable_harvest_status_text": "shearing sheep",
+				"renewable_harvest_status_text": "cortando ovelha",
 				"species": "Ovelha"
 			},
 			"squirrel": {
@@ -10514,63 +10514,63 @@
 			},
 			"wolf": {
 				"display_name": "Lobo",
-				"description": "Grrr! Rwar!",
+				"description": "Grrr! Rau!",
 				"species": "Lobo"
 			},
 			"woodchuck": {
 				"display_name": "Marmota",
-				"description": "A voracious eater of almost everything, especially logs.",
+				"description": "Um comedor voraz de quase tudo, especialmente troncos.",
 				"species": "Marmota"
 			},
 			"deer": {
 				"deer_jerky": {
-					"display_name": "Deer Jerky"
+					"display_name": "Carne seca de veado"
 				},
-				"species": "deer",
-				"description": "Om nom nom",
-				"display_name": "Deer"
+				"species": "veado",
+				"description": "Bem carnudo",
+				"display_name": "Veado"
 			},
 			"boar": {
-				"display_name": "A boar",
-				"species": "boar",
-				"description": "Smells like something.."
+				"display_name": "Um javali",
+				"species": "javali",
+				"description": "Cheira como algo ... fedorento ... Come um pouco de tudo."
 			},
 			"beetle": {
-				"species": "beetle",
-				"display_name": "Beetle",
-				"description": "Cute little insect",
+				"species": "besouro",
+				"display_name": "Besouro",
+				"description": "Inseto pequeno bonito",
 				"beetle_jerky": {
-					"display_name": "Beetle Bug Meat"
+					"display_name": "Carne de besouro"
 				}
 			},
 			"bitsy_ant": {
-				"description": "Cute little insect",
-				"display_name": "Bitsy Ant",
-				"species": "bitsy ant",
+				"description": "Inseto pequeno bonito",
+				"display_name": "Formiga Bitsy",
+				"species": "formiga bitsy",
 				"bitsy_ant_jerky": {
-					"display_name": "Small Ant Bug Meat"
+					"display_name": "Carne pequena de inseto formiga"
 				}
 			},
 			"doodles": {
-				"display_name": "Doodles",
-				"description": "Cute little insect",
-				"species": "doodles",
+				"display_name": "Doodles ",
+				"description": "Inseto pequeno bonito",
+				"species": "doodles ",
 				"doodles_jerky": {
-					"display_name": "Doodles Bug Meat"
+					"display_name": "Carne de inseto doodles"
 				}
 			},
 			"red_fox_wolf": {
-				"species": "fox",
-				"description": "Small forest creature",
-				"display_name": "Fox"
+				"species": "raposa",
+				"description": "Criatura pequena da floresta",
+				"display_name": "Raposa"
 			},
 			"deer_horned": {
-				"species": "deer",
-				"description": "Om nom nom",
-				"display_name": "Deer"
+				"species": "veado",
+				"description": "Cuidado com os chifres!",
+				"display_name": "Caribu"
 			},
 			"ghost": {
-				"species": "ghost"
+				"species": "fantasma"
 			}
 		},
 		"crops": {
@@ -12777,8 +12777,8 @@
 		},
 		"generic": {
 			"default_object": {
-				"display_name": "Default object",
-				"description": "Mysterious"
+				"display_name": "Objeto padrão",
+				"description": "Misterioso"
 			}
 		},
 		"gizmos": {
@@ -12925,13 +12925,13 @@
 		},
 		"loot": {
 			"gold": {
-				"display_name": "Chest of Gold Coins",
-				"description": "It's [str(self.stonehearth:stacks.stacks)] coins!",
-				"label": "gold"
+				"display_name": "Baú de Moedas de Ouro",
+				"description": "Tem [str(self.stonehearth:stacks.stacks)] moedas!",
+				"label": "ouro"
 			},
 			"dusty_tome": {
-				"display_name": "Dusty Tome",
-				"description": "An ancient text preserving knowledge of the past"
+				"display_name": "Tomo empoeirado",
+				"description": "Um texto antigo que preserva o conhecimento do passado"
 			}
 		},
 		"monsters": {
@@ -13251,53 +13251,53 @@
 		},
 		"peoples": {
 			"hearthling": {
-				"species": "Hearthling"
+				"species": "Hearthling "
 			}
 		},
 		"pets": {
 			"collie": {
-				"display_name": "Collie",
-				"description": "So brave!",
-				"species": "dog"
+				"display_name": "Collie ",
+				"description": "Tão corajoso! Come um pouco de tudo.",
+				"species": "cachorro"
 			},
 			"kitten": {
-				"display_name": "Kitten",
-				"description": "He's so cute!",
-				"species": "cat",
+				"display_name": "Gatinho",
+				"description": "É tão fofo! É caçadorzinho carnívoro.",
+				"species": "gato",
 				"jacko": {
-					"display_name": "Shade of Jack-O",
-					"description": "Walker of Shadows"
+					"display_name": "Sombra do Jack-O",
+					"description": "Caminhante das Sombras"
 				},
 				"koda": {
-					"display_name": "Spirit of Koda",
-					"description": "Friend to All"
+					"display_name": "Espírito da Koda",
+					"description": "Amigo de todos"
 				}
 			},
 			"mammoth": {
-				"display_name": "Baby Mammoth",
-				"description": "So furry!",
-				"species": "mammoth"
+				"display_name": "Mamute bebê",
+				"description": "Tão peludo! Gosta de comer plantas, muitas plantas.",
+				"species": "mamute"
 			},
 			"dragon_whelp_fire": {
-				"display_name": "Flame Dragon Whelp",
-				"description": "A baby dragon, keep it away from flammable materials.",
-				"species": "dragon"
+				"display_name": "Filhote de Dragão Flamejante",
+				"description": "Mantenha-o longe de materiais inflamáveis. Este tipo de dragão prefere carne extra bem feita.",
+				"species": "dragão"
 			},
 			"dragon_whelp_nature": {
-				"display_name": "Forest Dragon Whelp",
-				"description": "A baby dragon, excellent for tending a freshly planted garden.",
-				"species": "dragon",
+				"display_name": "Filhote de dragão da floresta",
+				"description": "Eles são excelentes para cuidar de um jardim recém-plantado. Ao contrário da maioria dos dragões, estes comem carne e plantas.",
+				"species": "dragão",
 				"egg": {
 					"dragon_nature_egg_fertilized_ghost": {
-						"display_name": "Nature Dragon Egg",
-						"description": "So mysterious!  It should be placed somewhere safe and warm..."
+						"display_name": "Ovo de dragão natureza",
+						"description": "Tão misterioso! Deve ser colocado em algum lugar seguro e quente ..."
 					}
 				}
 			},
 			"dragon_whelp_ice": {
-				"display_name": "Frost Dragon Whelp",
-				"description": "A baby dragon, good for keeping food cold.",
-				"species": "dragon"
+				"display_name": "Filhote de Dragão Gélido",
+				"description": "Um bebê dragão, bom para manter a comida gelada. Este tipo de dragão prefere carnes frias.",
+				"species": "dragão"
 			}
 		},
 		"plants": {
@@ -14107,13 +14107,13 @@
 		"rabbit": {
 			"lantern_relic": {
 				"lantern_relic_ghost": {
-					"display_name": "Ancient Relic",
-					"description": "Crumbling with age"
+					"display_name": "Relíquia Antiga",
+					"description": "Desmoronando com a idade"
 				}
 			},
 			"rabbit_statue": {
-				"display_name": "An Ancient Monument",
-				"description": "Mossy, but the stone is still good..."
+				"display_name": "Um monumento antigo",
+				"description": "Musgoso, mas a pedra ainda é boa ..."
 			}
 		},
 		"refined": {
@@ -14138,8 +14138,8 @@
 				"description": "Uma barra de ferro puro."
 			},
 			"leather_bolt": {
-				"display_name": "Bolt of Leather",
-				"description": "Supple but durable."
+				"display_name": "Pedaço de couro",
+				"description": "Flexível mas durável."
 			},
 			"silver_ingot": {
 				"display_name": "Lingote de (Prata)",
@@ -14151,11 +14151,11 @@
 			},
 			"stone_bricks": {
 				"display_name": "Pilha de tijolos de pedra",
-				"description": "A key component of stone buildings"
+				"description": "Um componente chave dos edifícios de pedra"
 			},
 			"thread": {
-				"display_name": "Spool of Thread",
-				"description": "Spun from the wool of sheep. Or plants."
+				"display_name": "Carretel de linha",
+				"description": "Girou da lã das ovelhas. Ou plantas."
 			},
 			"tin_ingot": {
 				"display_name": "Lingote de (Estanho)",
@@ -14163,55 +14163,55 @@
 			},
 			"bronze_gear": {
 				"display_name": "Engrenagem de (Bronze)",
-				"description": "Used to craft basic gadgetry"
+				"description": "Usado para fabricar engenhocas básicas"
 			},
 			"iron_gear": {
 				"display_name": "Engrenagem de (Ferro)",
-				"description": "Used to craft intermediate gadgetry"
+				"description": "Usado para fabricar engenhocas intermediarias"
 			},
 			"silver_bowstring": {
-				"display_name": "Silver Bowstring",
-				"description": "A spool of strong, spun silver cord."
+				"display_name": "Corda de Prata",
+				"description": "Um carretel de cabo de prata forte e fiado."
 			},
 			"woven_grip": {
-				"display_name": "Woven Grip",
-				"description": "Tightly wrapped with cords of blue and gold"
+				"display_name": "Aderência tecida",
+				"description": "Firmemente embrulhado com cordas de azul e ouro"
 			},
 			"blazing_inlay": {
-				"display_name": "Blazing Inlay",
-				"description": "Radiant gilding for the Emblazoned Sword."
+				"display_name": "Embutimento ardente",
+				"description": "Douramento radiante para a espada brasonada."
 			},
 			"steel_frame": {
-				"display_name": "Giant's Frame",
-				"description": "Reinforces the Giant's Shield."
+				"display_name": "Moldura do Gigante",
+				"description": "Reforça o Escudo do Gigante."
 			},
 			"giants_face": {
-				"display_name": "Giant's Face",
-				"description": "Protects the Giant's Shield."
+				"display_name": "Rosto do Gigante",
+				"description": "Protege o Escudo do Gigante."
 			},
 			"mechanism": {
-				"display_name": "Phoenix Mechanism",
-				"description": "The wheels of the Empire Bow"
+				"display_name": "Mecanismo de Phoenix",
+				"description": "As rodas do arco do império"
 			},
 			"lucid_gem": {
-				"display_name": "Lucid Gem",
-				"description": "A spiritual focus, essential for the Shining Circlet."
+				"display_name": "Gema lúcida",
+				"description": "Um foco espiritual, essencial para o Circulo Brilhante."
 			},
 			"shining_setting": {
-				"display_name": "Silverleaf Setting",
-				"description": "Delicately frames and protects the Shining Circlet"
+				"display_name": "Folha de prata",
+				"description": "Delicadamente molda e protege o lacete brilhante"
 			},
 			"golem_backpack": {
-				"display_name": "Golem Backpack",
-				"description": "Used by the Geomancer to craft Ox Golems"
+				"display_name": "Mochila Golem",
+				"description": "Usado pelo Geomancer para criar Ox Golems"
 			},
 			"golem_parts": {
-				"display_name": "Golem Parts",
-				"description": "Used by the Geomancer to craft golems"
+				"display_name": "Peças Golem",
+				"description": "Usado pelo Geomancer para criar golems"
 			},
 			"golem_pick": {
-				"display_name": "Golem Pick",
-				"description": "Used by the Geomancer to craft Mole Golems"
+				"display_name": "Picareta Golem",
+				"description": "Usado pelo Geomancer para fabricar Golems Toupeira"
 			}
 		},
 		"resources": {
@@ -14539,12 +14539,12 @@
 				"description": "Tudo parece um prego quando tudo o que você tem é um martelo"
 			},
 			"mining_pick_golem": {
-				"display_name": "Golem Mining Pick",
-				"description": "Large sized, for large hands."
+				"display_name": "Picareta de Mineração Golem",
+				"description": "De tamanho grande, para mãos grandes."
 			},
 			"worker_axe_golem": {
-				"display_name": "Golem's Axe",
-				"description": "Large sized, for large hands."
+				"display_name": "Machado do Golem",
+				"description": "De tamanho grande, para mãos grandes."
 			}
 		},
 		"toys": {
@@ -15258,8 +15258,8 @@
 		},
 		"outfits": {
 			"trader_outfit": {
-				"display_name": "Trader Outfit",
-				"description": "Clothing of choice for traders"
+				"display_name": "Roupa de Mercador",
+				"description": "Vestuário de escolha para os comerciantes"
 			}
 		},
 		"constructillon": {
@@ -15279,65 +15279,65 @@
 			"summon_stone": {
 				"bounds": {
 					"bounds_ghost": {
-						"display_name": "Bounds Summon Stone",
-						"description": "This stone is ready to encase the world!"
+						"display_name": "Borda Evocar Pedra",
+						"description": "Esta pedra está pronta para envolver o mundo!"
 					}
 				},
 				"test_small": {
 					"test_small_ghost": {
-						"display_name": "Test Small Stone",
-						"description": "This stone encases a test, you know, for testing!"
+						"display_name": "Teste de pedra pequena",
+						"description": "Esta pedra encerra um teste, você sabe, para testar!"
 					}
 				},
 				"chair": {
 					"chair_ghost": {
-						"display_name": "Chair Stone",
-						"description": "This stone encases an ENOURMOUS CHAIR OF CHAIRS ready to burst out!"
+						"display_name": "Pedra da cadeira",
+						"description": "Esta pedra envolve uma CADEIRA ENORME DE CADEIRAS pronta para explodir!"
 					}
 				},
 				"plains_grassy_01": {
 					"plains_grassy_01_ghost": {
-						"display_name": "Plains Summon Stone",
-						"description": "This stone encases a beautiful grassy field."
+						"display_name": "Planície Convocar Pedra",
+						"description": "Esta pedra encerra um belo campo gramado."
 					}
 				},
 				"plains_grassy_02": {
 					"plains_grassy_02_ghost": {
-						"display_name": "Plains Summon Stone",
-						"description": "This stone encases a beautiful grassy field."
+						"display_name": "Planície Convocar Pedra",
+						"description": "Esta pedra encerra um belo campo gramado."
 					}
 				},
 				"plains_stones": {
 					"plains_stones_ghost": {
-						"display_name": "Plains Stones Summon Stone",
-						"description": "This stone encases a pile of stones."
+						"display_name": "Pedras das Planícies Convocar Pedra",
+						"description": "Esta pedra envolve uma pilha de pedras."
 					}
 				},
 				"plains_spring_hill": {
 					"plains_spring_hill_ghost": {
-						"display_name": "Plains Hill Spring Summon Stone",
-						"description": "This stone encases a cute little spring!"
+						"display_name": "Pedra de evocação de nascente",
+						"description": "Esta pedra envolve uma nascente fofa!"
 					}
 				}
 			},
 			"dry_stone_greater": {
 				"dry_stone_greater_ghost": {
-					"display_name": "Greater Dry Stone",
-					"description": "Four time as dry as a regular dry stone."
+					"display_name": "Maior pedra seca",
+					"description": "Quatro vezes mais seco que uma pedra seca normal."
 				}
 			},
 			"wet_stone_greater": {
 				"wet_stone_greater_ghost": {
-					"display_name": "Greater Wet Stone",
-					"description": "Four times more moist than a regular wet stone."
+					"display_name": "Maior pedra molhada",
+					"description": "Quatro vezes mais úmido que uma pedra molhada regular."
 				}
 			}
 		},
 		"valor_statue": {
 			"war_horn": {
 				"war_horn_ghost": {
-					"display_name": "Giant Warhorn",
-					"description": "Reminiscent of days gone past."
+					"display_name": "Gigante Buzina de guerra",
+					"description": "Reminiscente de dias passados."
 				}
 			}
 		},
@@ -15345,50 +15345,50 @@
 			"herald": {
 				"female": {
 					"herald_female": {
-						"display_name": "Heraldine Rigby",
-						"description": "This is a Herald of the Ascendancy."
+						"display_name": "Heraldine Rigby ",
+						"description": "Este é um Arauto da Ascendência."
 					},
 					"herald_isabelle": {
-						"display_name": "Isabelle Swift",
-						"description": "Herald of the Ascendancy."
+						"display_name": "Isabelle Swift ",
+						"description": "Arauto da Ascendência."
 					},
 					"herald_ember": {
-						"display_name": "Ember Minton",
-						"description": "Missionary of the Church of Plenty."
+						"display_name": "Ember Minton ",
+						"description": "Missionário da Igreja da Abundância."
 					},
 					"herald_anwyn": {
-						"display_name": "Anwyn Torresi",
-						"description": "Captain of the guard."
+						"display_name": "Anwyn Torresi ",
+						"description": "Capitão da guarda."
 					},
 					"herald_erdene": {
-						"display_name": "Erdene Jemkrushr",
-						"description": "Reluctant emissary of the Red Kiln."
+						"display_name": "Erdene Jemkrushr ",
+						"description": "Porta-voz do Red Kiln"
 					}
 				},
 				"male": {
 					"herald_male": {
-						"display_name": "Herald B. Good",
-						"description": "This is a Herald of the Ascendancy."
+						"display_name": "Herald B. Good ",
+						"description": "Este é um Arauto da Ascendência."
 					},
 					"herald_mer": {
-						"display_name": "Mer Burlyhands",
-						"description": "Capital Fellow."
+						"display_name": "Mer Burlyhands ",
+						"description": "Companheiro Capital."
 					},
 					"herald_marak": {
-						"display_name": "Marak Azael",
-						"description": "Guildmaster of the Ascendancy."
+						"display_name": "Marak Azael ",
+						"description": "Mestre da Guilda da Ascendência."
 					},
 					"herald_untz": {
-						"display_name": "Untz the Excellent",
-						"description": "Party Goblin."
+						"display_name": "Untz o Excelente",
+						"description": "Goblin Festeiro"
 					},
 					"herald_harold": {
-						"display_name": "Harold",
-						"description": "Special delivery duck-duck."
+						"display_name": "Harold ",
+						"description": "Entregador especial."
 					},
 					"herald_sasha": {
-						"display_name": "Sasha Lightfoot",
-						"description": "Herald of Clan Amberstone"
+						"display_name": "Sasha Lightfoot ",
+						"description": "Arauto do Clã Amberstone"
 					}
 				}
 			}
@@ -15401,24 +15401,24 @@
 		"corruption": {
 			"corrupt_tentacle_notification": {
 				"tentacle_notification": {
-					"display_name": "Warning Tentacle",
-					"description": "Signifies the presence of something evil."
+					"display_name": "Tentáculo de Advertência",
+					"description": "Significa a presença de algo mal."
 				}
 			},
 			"corrupt_beetle": {
-				"display_name": "Corrupt Crawler",
-				"description": "Small, but ravenous."
+				"display_name": "Rastejador corrompido",
+				"description": "Pequeno, mas voraz."
 			},
 			"corrupt_tentacle_dark": {
 				"tentacle_dark": {
-					"display_name": "Warning Tentacle",
-					"description": "Signifies the presence of something evil."
+					"display_name": "Tentáculo de Advertência",
+					"description": "Significa a presença de algo mal."
 				}
 			},
 			"orc_friendship_gong": {
 				"orc_friendship_gong_ghost": {
-					"display_name": "Gong of Orc Respect",
-					"description": "Made of smooth, pleasing stone, cleansed of anything sinister."
+					"display_name": "Gongo de Respeito Orc",
+					"description": "Feito de pedra lisa e agradável, limpa de qualquer coisa sinistra."
 				}
 			}
 		},
