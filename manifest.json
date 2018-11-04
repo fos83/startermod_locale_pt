@@ -17,19 +17,7 @@
 
 	"ui": {
 		"less": [
-			"file(ui/root/css/variables.less)",
-			"file(ui/game/citizens/citizens.less)"
-		]
-	},
-	"_ui": {
-		"less": [
-			"file(ui/root/css/base.less)",
-			"file(ui/root/css/variables.less)",
-			"file(ui/game/citizens/citizens.less)",
-			"file(ui/game/modes/zones_mode/stockpile/stockpile.less)",
-			"file(ui/game/modes/build_mode/build_mode.less)",
-			"file(ui/game/bulletin/bulletin_dialog/dialog_tree_bulletin_dialog/dialog_tree_bulletin_dialog.less)",
-			"file(ui/shell/settings/settings.less)"
+			"file(ui/root/css/variables.less)"
 		]
 	},
 
@@ -39,14 +27,14 @@
 	"overrides": {
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR.json)",
 		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR.json)",
+		"northern_alliance/locales/pt-BR.json": "file(translations/northern_alliance/pt-BR.json)",
 		"autoharvest_mod/locales/pt-BR.json": "file(translations/autoharvest_mod/pt-BR.json)",
-		"canyon_biome/locales/pt-BR.json": "file(translations/canyon_biome/pt-BR.json)",
 		"miner_prof/locales/pt-BR.json": "file(translations/miner_prof/pt-BR.json)",
 
 		"stonehearth/locales/pt-PT.json": "file(translations/stonehearth/pt-PT.json)",
 		"rayyas_children/locales/pt-PT.json": "file(translations/rayyas_children/pt-PT.json)",
+		"northern_alliance/locales/pt-PT.json": "file(translations/northern_alliance/pt-PT.json)",
 		"autoharvest_mod/locales/pt-PT.json": "file(translations/autoharvest_mod/pt-PT.json)",
-		"canyon_biome/locales/pt-PT.json": "file(translations/canyon_biome/pt-PT.json)",
 		"miner_prof/locales/pt-PT.json": "file(translations/miner_prof/pt-PT.json)"
 	}
 }

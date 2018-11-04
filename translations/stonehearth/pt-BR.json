@@ -60,7 +60,10 @@
 				"recuperating": "recuperando",
 				"celebrating": "celebrando",
 				"shopping": "trocando",
-				"confused": "confuso"
+				"confused": "confuso",
+				"traveler_walking": "passeando pela cidade",
+				"traveler_looking": "admirando [name(data.target)]",
+				"sit": "sentando"
 			}
 		}
 	},
@@ -117,8 +120,8 @@
 					"PLANNING_ERROR_GENERIC": "Seus Hearthlings não conseguem descobrir como construir seu prédio! Por favor, envie seu modelo de construção para a equipe Stonehearth para investigação."
 				},
 				"building_status": {
-					"build_button": "CONSTRUIR",
-					"pause_button": "PAUSA",
+					"build_button": "INICIAR",
+					"pause_button": "PAUSAR",
 					"resume_button": "RETOMAR",
 					"finished_button": "FEITO",
 					"cost_prefix": "Custo:"
@@ -202,7 +205,9 @@
 				"title": "Escolha um Hearthling",
 				"select_person": "Selecionar",
 				"ownership_current_owner_tooltip": "Dono Atual",
-				"ownership_owns_another_tooltip": "Já possui um objeto similar"
+				"ownership_owns_another_tooltip": "Já possui um objeto similar",
+				"reserve_for_travelers": "Reservado para Viajantes",
+				"already_reserved_for_travelers": "Reservado"
 			},
 			"player_picker": {
 				"title": "Escolha um Jogador"
@@ -245,7 +250,10 @@
 						"title": "Convide amigos",
 						"message": "Clique em \"Continuar\" para abrir a sobreposição do Steam. Clique com o botão direito do mouse no amigo que você deseja convidar para o jogo e clique em \"Convidar para o jogo\". Eles receberão um link no bate-papo do Steam que permitirá que eles participem."
 					}
-				}
+				},
+				"friends_list": "Clique para convidar!",
+				"away": "ausente",
+				"busy": "ocupado"
 			},
 			"build_workshop": {
 				"title": "Construir Mesa de Trabalho",
@@ -473,6 +481,9 @@
 					"quality-2": "Qualidade Fina",
 					"quality-3": "Qualidade Excelente",
 					"quality-4": "Obra-prima de Qualidade!"
+				},
+				"traveler": {
+					"gifted_by": "Presente do [str(gifter_name)]"
 				}
 			},
 			"citizens": {
@@ -483,7 +494,7 @@
 					"name": "Nome",
 					"haul": "Carregar",
 					"build": "Construir",
-					"mine": "Minerar",
+					"mine": "Cavar",
 					"job": "Trabalhar",
 					"current_activity": "Atividade",
 					"working_for": "Trabalhando para",
@@ -663,25 +674,25 @@
 					}
 				},
 				"zone_menu": {
-					"display_name": "Designar Zonas",
-					"description": "Designar áreas do solo para armazenamento, agricultura, etc.",
+					"display_name": "Criar Zonas",
+					"description": "Define áreas do solo para armazenamento, agricultura, etc.",
 					"items": {
 						"create_stockpile": {
 							"display_name": "Estoque",
-							"description": "Coloque um estoque para armazenar recursos.",
+							"description": "Coloca um estoque para armazenar recursos.",
 							"tip_title": "Clique e arraste para criar seu estoque",
 							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"create_farm": {
-							"display_name": "Fazenda",
-							"description": "Coloque uma Fazenda no Terreno.",
+							"display_name": "Plantação",
+							"description": "Coloca uma fazenda no terreno.",
 							"required_job_text": "Precisa de um Fazendeiro",
 							"tip_title": "Clique e arraste para designar um novo campo",
 							"tip_description": "Os agricultores vão abrir caminho e plantar as colheitas aqui"
 						},
 						"create_trapping_grounds": {
-							"display_name": "Area de Caça",
-							"description": "Coloque Armadilhar para capturar pequenos bichos.",
+							"display_name": "Área de Caça",
+							"description": "Define área para capturar pequenos bichos.",
 							"required_job_text": "Precisa de um Caçador",
 							"tip_title": "Clique e arraste para criar áreas de armadilhas",
 							"tip_description": "Os caçadores pegam bichos para comida e recursos nesta zona"
@@ -978,6 +989,17 @@
 				"quest_bulletin_dialog": {
 					"description": "Descrição",
 					"rewards": "Recompensas"
+				},
+				"traveler": {
+					"first": {
+						"title": "Seu Primeiro Viajante!",
+						"message": "[str(i18n_data.traveler_name)] veio para visitar!<br><br>Os viajantes visitarão enquanto houver camas reservadas para eles. Eles vão admirar sua cidade, conversar com seus cidadãos, fazer compras em seus mercados e até mesmo deixar presentes para você se eles tiverem uma visita agradável.<br><br>Os viajantes felizes espalharão a notícia sobre sua cidade, e ela se tornará uma destino mais popular ao longo do tempo!"
+					},
+					"summary": {
+						"title": "Resumo do Viajante",
+						"text": "Os viajantes adoraram sua cidade hoje! Eles deixaram esses presentes para você:",
+						"gifted_by": "Presente do [str(gifter)]"
+					}
 				}
 			},
 			"build_mode2": {
@@ -1476,11 +1498,11 @@
 						"max": "Enabler ",
 						"aaron": "Phonic Phoenix ",
 						"raj": "Troubadour ",
-						"yang": " ",
-						"doug": " ",
-						"carl": " ",
-						"winnie": " ",
-						"jack": " "
+						"yang": ".",
+						"doug": ".",
+						"carl": ".",
+						"winnie": ".",
+						"jack": "."
 					}
 				}
 			},
@@ -2368,6 +2390,7 @@
 				"prepared_food_resource_name": "Comida Preparada",
 				"prepared_dessert_resource_name": "Sobremesa",
 				"earth_essence_resource": "Essência Hearth",
+				"feather_resource": "Penas",
 				"gear_resource_name": "Engrenagem",
 				"ore_resource_name": "Minério",
 				"dirt_resource_name": "Pilha de Terra"
@@ -2828,7 +2851,7 @@
 								},
 								"food_shop_1": {
 									"shop_info": {
-										"name": "Comida para o café da manhã de Gannor",
+										"name": "Comidas para café da manhã de Gannor",
 										"title": "Um jovem cozinheiro chegou com um baú de café da manhã"
 									}
 								},
@@ -3027,8 +3050,8 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"choice_000": "Thank goodness!",
-									"choice_001": "(good riddance)",
+									"choice_000": "Graças a deus!",
+									"choice_001": "(já vai tarde)",
 									"bulletin_message": {
 										"000": "Good news for you, pathetic humans! Ogo Skullbonker, Chief-of-Chiefs-To-Be, calls us to home for clan meet-meet. Been fun hanging with you! Maybe we tell friends, back soon for more fun taking your stuff!",
 										"001": "Humans no challenge. So sad. We hope to return home to our Chief-of-Chiefs, Ogo Skullbonker, with story of our glory, but there is no glory in defeating you. Maybe we come back when you stronger.",
@@ -3045,8 +3068,8 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"loot_final": {
-									"choice_000": "(good riddance)",
-									"choice_001": "Goodbye!",
+									"choice_000": "(já vai tarde)",
+									"choice_001": "Adeus!",
 									"bulletin_message": {
 										"000": "Hahaha! Exactly. This for you, to remember our friendship."
 									},
@@ -3055,7 +3078,7 @@
 								},
 								"information": {
 									"choice_000": "Uau!",
-									"choice_001": "Sounds ominous.",
+									"choice_001": "Soa sinistro.",
 									"bulletin_message": {
 										"000": "You so funny. Because we friends, me tell you: Ogo pretty cool. A bit mean. Once ate a puppy. But... soothsayer say he fated! Meant to stomp on everyone! Me just little guy, you know? Though you littler. Anyways."
 									},
@@ -3063,8 +3086,8 @@
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"msg1": {
-									"choice_000": "Thank goodness!",
-									"choice_001": "Ogo who?",
+									"choice_000": "Graças a deus!",
+									"choice_001": "Ogo quem?",
 									"bulletin_message": {
 										"000": "Good news peons! Ogo Skullbonker, Chief-of-Chiefs-To-Be, calls us back to him. Time to go home, show him tribute! If you lucky, maybe we be back to visit... soon!"
 									},
@@ -3410,7 +3433,7 @@
 													},
 													"bulletin_title": "Erdene considers",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
-													"choice_000": "Goodbye!",
+													"choice_000": "Adeus!",
 													"choice_001": "Thanks, I guess?"
 												},
 												"ogo_poem_3": {
@@ -6574,25 +6597,25 @@
 				}
 			},
 			"combat_basics": {
-				"display_name": "Basic Combat Training",
-				"description": "Increased courage through hours of combat training"
+				"display_name": "Treinamento de Combate Básico",
+				"description": "Maior coragem através de horas de treinamento de combate"
 			},
 			"defender": {
 				"defender_buff": {
-					"display_name": "Defender",
-					"description": "Increased courage and muscle!"
+					"display_name": "Defensor",
+					"description": "Maior coragem e músculo!"
 				}
 			},
 			"devoted": {
 				"devoted_buff": {
-					"display_name": "Devoted",
-					"description": "Speed Increased by 20"
+					"display_name": "Devotado",
+					"description": "Velocidade aumentada em 20"
 				}
 			},
 			"groggy": {
 				"groggy_buff": {
-					"display_name": "Groggy",
-					"description": "A hard night's sleep on the ground lowers speed by 25%. A bed would be much better!"
+					"display_name": "Grogue",
+					"description": "Uma dura noite de sono no solo reduz a velocidade em 25%. Uma cama seria muito melhor!"
 				}
 			},
 			"shepherding": {
@@ -6958,36 +6981,36 @@
 					"description": "A building.  woot!!"
 				},
 				"column": {
-					"display_name": "Wooden Column",
-					"description": "Provides wall support"
+					"display_name": "Coluna de Madeira",
+					"description": "Fornece suporte de parede"
 				},
 				"floor": {
-					"display_name": "Floor",
-					"description": "Keeps feet clean"
+					"display_name": "Chão",
+					"description": "Mantém os pés limpos"
 				},
 				"ladder": {
 					"display_name": "Escada",
 					"description": "Usado para alcançar lugares altos"
 				},
 				"patch_wall": {
-					"display_name": "Wall",
-					"description": "Keeps roofs up"
+					"display_name": "Parede",
+					"description": "Mantém os telhados"
 				},
 				"road": {
-					"display_name": "Road",
-					"description": "For speedier travel"
+					"display_name": "Rua",
+					"description": "Para viagens mais rápidas"
 				},
 				"roof": {
-					"display_name": "Roof",
-					"description": "Keeps the rain out"
+					"display_name": "Telhado",
+					"description": "Mantém a chuva fora"
 				},
 				"scaffolding": {
 					"display_name": "Andaime",
 					"description": "Estrutura de suporte de construção"
 				},
 				"wall": {
-					"display_name": "Wall",
-					"description": "Keeps roofs up"
+					"display_name": "Parede",
+					"description": "Mantém os telhados"
 				},
 				"stairs": {
 					"display_name": "Escadas",
@@ -6995,8 +7018,8 @@
 				},
 				"building2": {
 					"structure": {
-						"display_name": "Structure",
-						"description": "A part of a building"
+						"display_name": "Estrutura",
+						"description": "Uma parte de um edifício"
 					}
 				}
 			},
@@ -7163,8 +7186,8 @@
 				"disabled_description": "This item is in use. Try moving it later."
 			},
 			"open_character_sheet": {
-				"display_name": "Character Sheet",
-				"description": "Get a closer look at this hearthling"
+				"display_name": "Folha de Personagem",
+				"description": "Dê uma olhada mais de perto neste cidadão"
 			},
 			"open_loot": {
 				"display_name": "Loot",
@@ -7187,8 +7210,8 @@
 				}
 			},
 			"promote_to_job": {
-				"display_name": "Mudar de emprego",
-				"description": "Give this hearthling a new job."
+				"display_name": "Mudar de classe",
+				"description": "Dê a esse hearthling uma nova profissão."
 			},
 			"change_working_for": {
 				"display_name": "Change Working For",
@@ -7203,8 +7226,8 @@
 				"description": "Tell this pet you don't want it anymore."
 			},
 			"remove_ladder": {
-				"display_name": "Remove",
-				"description": "Remove this ladder."
+				"display_name": "Remover",
+				"description": "Remove essa escada."
 			},
 			"restore_terrain": {
 				"display_name": "Restaurar o Terreno",
@@ -8630,27 +8653,27 @@
 				"sleeping": {
 					"slept_on_ground": {
 						"display_name": "Dormi no chão",
-						"tooltip": "My back is killing me from having slept on the ground. When are we going to get some decent beds?"
+						"tooltip": "Minhas costas estão me matando por ter dormido no chão. Quando vamos conseguir algumas camas decentes?"
 					},
 					"slept_in_shared_bed": {
-						"display_name": "Slept in a shared bed",
-						"tooltip": "I'm sharing my bed with someone else right now. It's not the worst, but I really wish I had my own."
+						"display_name": "Dormi em uma cama compartilhada",
+						"tooltip": "Estou compartilhando minha cama com outra pessoa agora. Não é o pior, mas eu realmente gostaria de ter a minha própria."
 					},
 					"slept_in_shared_room": {
-						"display_name": "Slept in a shared room",
-						"tooltip": "I'm sharing my room with someone else right now. I could use a little more privacy."
+						"display_name": "Dormi em um quarto compartilhado",
+						"tooltip": "Estou compartilhando meu quarto com outra pessoa agora. Eu poderia usar um pouco mais de privacidade."
 					},
 					"well_rested": {
-						"display_name": "Well rested",
-						"tooltip": "Ahh, sleeping in my own bed without hearing other people snoring always leaves me refreshed."
+						"display_name": "Bem descansado",
+						"tooltip": "Ahh, dormir na minha própria cama sem ouvir outras pessoas roncando sempre me deixa revigorado."
 					},
 					"slept_outside": {
-						"display_name": "Slept outside",
-						"tooltip": "I wish I had some shelter and protection from the elements."
+						"display_name": "Dormiu lá fora",
+						"tooltip": "Eu gostaria de ter algum abrigo e proteção contra o clima."
 					},
 					"slept_in_comfy_bed": {
-						"display_name": "Slept in a comfy bed",
-						"tooltip": "My bed is really comfortable. I almost didn't want to leave it!"
+						"display_name": "Dormi em uma cama confortável",
+						"tooltip": "Minha cama é muito confortável. Eu quase não queria sair!"
 					}
 				},
 				"eating": {
@@ -8664,7 +8687,7 @@
 					},
 					"carnivore_ate_veggies": {
 						"display_name": "Eu comi uma planta! Bleh!",
-						"tooltip": "There's been a mistake.  I've accidentally eaten food that my food eats."
+						"tooltip": "Houve um erro. Eu acidentalmente comi comida que minha comida come."
 					},
 					"offended_palate": {
 						"display_name": "Offended Palate",
@@ -8676,19 +8699,19 @@
 					},
 					"ate_fine": {
 						"display_name": "Comeu uma boa refeição",
-						"tooltip": "My recent meal was amazing! Whoever made the [str(foodname)] really put their heart into it."
+						"tooltip": "Minha recente refeição foi incrível! Quem fez o [str(foodname)] realmente colocou seu coração nisso."
 					},
 					"ate_tasty": {
 						"display_name": "Comeu uma refeição saborosa",
-						"tooltip": "The [str(foodname)] I ate was pretty tasty! I still remember the combination of flavors."
+						"tooltip": "O [str(foodname)] que comi estava bem gostoso! Ainda me lembro da combinação de sabores."
 					},
 					"ate_raw": {
 						"display_name": "Minha refeição estava crua",
-						"tooltip": "I recently ate a raw [str(foodname)].  I can only imagine how much better it would have tasted were it cooked."
+						"tooltip": "Eu recentemente comi um [str(foodname)] cru. Eu fico imaginando o quão melhor teria sido se fosse cozido."
 					},
 					"ate_bland": {
 						"display_name": "Comeu uma refeição sem graça",
-						"tooltip": "I remember eating a bland [str(foodname)]. It gave me the strength to keep going, but the meal was so boring."
+						"tooltip": "Eu me lembro de comer um [str(foodname)]. Isso me deu forças para continuar, mas a refeição era tão chata."
 					},
 					"item_quality": {
 						"ate_item_quality_fine": {
@@ -8714,8 +8737,8 @@
 				"amberstone": {
 					"borrow_crafter": {
 						"helped_out": {
-							"display_name": "Visit with the Rabbits",
-							"tooltip": "Wow, the Amberstone warren was amazing! I feel so honored to have helped them out."
+							"display_name": "Visite com os Coelhos",
+							"tooltip": "Uau, o lar Amberstone foi incrível! Eu me sinto tão honrado por tê-los ajudado."
 						}
 					}
 				},
@@ -8793,15 +8816,15 @@
 					"values": {
 						"tired": {
 							"display_name": "Cansado",
-							"tooltip": "It's been awhile since I've slept."
+							"tooltip": "Já faz algum tempo desde que eu dormi."
 						},
 						"exhausted": {
 							"display_name": "Exausto",
-							"tooltip": "It feels like forever since I've slept.. I can barely keep my eyes open."
+							"tooltip": "Parece uma eternidade desde que eu dormi .. Eu mal posso manter meus olhos abertos."
 						},
 						"fatigued": {
 							"display_name": "Fatigado",
-							"tooltip": "I've been on my feet for too long. I really need some time to sleep."
+							"tooltip": "Eu estive de pé por muito tempo. Eu realmente preciso de um tempo para dormir."
 						}
 					}
 				},
@@ -8821,7 +8844,7 @@
 						},
 						"plant_lover": {
 							"display_name": "Plant Lover",
-							"tooltip": "Everytime I interact with plants I feel a bit calmer."
+							"tooltip": "Every time I interact with plants I feel a bit calmer."
 						},
 						"fruitful_labors": {
 							"display_name": "Fruitful Labors",
@@ -8917,7 +8940,7 @@
 						},
 						"pet_died": {
 							"display_name": "Meu animal de estimação morreu",
-							"tooltip": "My poor [str(pet_name)] passed away recently. I'll miss them quite a bit."
+							"tooltip": "Meu pobre [str(pet_name)] faleceu recentemente. Vou sentir bastante falta dele."
 						},
 						"saved_from_mortal_wounds": {
 							"display_name": "Saved from mortal wounds",
@@ -9179,10 +9202,10 @@
 				"debug": {
 					"values": {
 						"super_happy": {
-							"display_name": "DEBUG: Super Happy"
+							"display_name": "DEBUG: Super Feliz"
 						},
 						"super_sad": {
-							"display_name": "DEBUG: Super Sad"
+							"display_name": "DEBUG: Super Triste"
 						}
 					}
 				},
@@ -9461,11 +9484,11 @@
 				"description": "Para defender os aliados"
 			},
 			"iron_shield": {
-				"display_name": "Heavy Iron Shield",
-				"description": "Ooof. Heavy.",
+				"display_name": "Escudo de Ferro Pesado",
+				"description": "Uh. Pesado.",
 				"iron_shield_iconic": {
-					"display_name": "Heavy Iron Shield",
-					"description": "Ooof. Heavy."
+					"display_name": "Escudo de Ferro Pesado",
+					"description": "Uh. Pesado."
 				}
 			},
 			"bronze_breastplate": {
@@ -9689,8 +9712,8 @@
 		},
 		"construction": {
 			"clay_bricks": {
-				"display_name": "Clay Bricks",
-				"description": "Used for clay structures."
+				"display_name": "Tijolos de argila",
+				"description": "Usado para estruturas de argila."
 			},
 			"cobblestone_fence": {
 				"cobblestone_fence_ghost": {
@@ -10138,65 +10161,65 @@
 		"containers": {
 			"large_crate": {
 				"large_crate_ghost": {
-					"display_name": "Large Crate",
-					"description": "Stores up to 32 items"
+					"display_name": "Caixa Grande",
+					"description": "Armazena até 32 itens"
 				}
 			},
 			"large_urn": {
 				"large_urn_ghost": {
-					"display_name": "Large Urn",
-					"description": "Stores up to 32 items"
+					"display_name": "Urna Grande",
+					"description": "Armazena até 32 itens"
 				}
 			},
 			"amberstone_chest": {
 				"amberstone_chest_ghost": {
-					"display_name": "Woven Chest",
-					"description": "Stores up to 64 items"
+					"display_name": "Baú de Tecido",
+					"description": "Armazena 64 itens - são 8 por 8, para a melhor das sortes!"
 				}
 			},
 			"leather_bound_chest": {
 				"leather_bound_chest_ghost": {
-					"display_name": "Leather Bound Chest",
-					"description": "Stores up to 64 items"
+					"display_name": "Baú Revestido em Couro",
+					"description": "Armazena até 64 itens"
 				}
 			},
 			"small_crate": {
 				"small_crate_ghost": {
-					"display_name": "Small Crate",
-					"description": "Stores up to 8 items"
+					"display_name": "Caixa Pequena",
+					"description": "Armazena até 8 itens"
 				}
 			},
 			"stone_chest": {
 				"stone_chest_ghost": {
-					"display_name": "Stone Chest",
-					"description": "Stores up to 64 items"
+					"display_name": "Baú de Pedra",
+					"description": "Armazena até 64 itens"
 				}
 			},
 			"barrel": {
 				"barrel_ghost": {
-					"display_name": "Square Barrel",
-					"description": "Storage container"
+					"display_name": "Barril Quadrado",
+					"description": "Contêiner de armazenamento"
 				}
 			},
 			"small_urn": {
 				"small_urn_ghost": {
-					"display_name": "Small Urn",
-					"description": "Stores up to 8 items"
+					"display_name": "Urna Pequena",
+					"description": "Armazena até 8 itens"
 				}
 			},
 			"vault": {
 				"vault_ghost": {
-					"display_name": "The Vault",
-					"description": "Massive storage for 256 items"
+					"display_name": "O Cofre",
+					"description": "Armazenamento massivo para 256 itens"
 				}
 			},
 			"log_pile": {
 				"log_pile_ghost": {
-					"display_name": "Pilha de Tora",
-					"description": "Harvest for a large number of logs"
+					"display_name": "Pilha de Toras",
+					"description": "Colha para um grande número de troncos"
 				},
 				"log_pile_iconic": {
-					"description": "Harvestable for wood when placed."
+					"description": "Colhável para madeira quando colocado."
 				}
 			},
 			"stone_pile": {
@@ -10226,8 +10249,8 @@
 			},
 			"large_crate_fine": {
 				"large_crate_fine_ghost": {
-					"display_name": "Fine Large Crate",
-					"description": "Stores up to 32 items. With style."
+					"display_name": "Caixa Grande Fina",
+					"description": "Armazena até 32 itens. With style."
 				}
 			},
 			"leather_bound_chest_fine": {
@@ -10446,6 +10469,18 @@
 				"wheat_pile_old_iconic": {
 					"display_name": "Old Wheat Bundle",
 					"description": "Harvestable for wheat when placed"
+				}
+			},
+			"market_shelf_tall_ground_clay": {
+				"market_shelf_tall_ground_clay_ghost": {
+					"display_name": "Market Trading Shelf",
+					"description": "Other players and Travellers can buy the items stored here."
+				}
+			},
+			"market_shelf_tall_ground_stone": {
+				"market_shelf_tall_ground_stone_ghost": {
+					"display_name": "Market Trading Shelf",
+					"description": "Other players and Travellers can buy the items stored here."
 				}
 			}
 		},
@@ -11139,7 +11174,7 @@
 			"firepit": {
 				"firepit_ghost": {
 					"display_name": "Fogueira",
-					"description": "Provides warmth and light"
+					"description": "Fornece calor e luz"
 				}
 			},
 			"firepit_hearth": {
@@ -11963,20 +11998,20 @@
 			},
 			"corn": {
 				"amazing_corn_basket": {
-					"display_name": "Basket of Amazing Maize",
-					"description": "Super nutritious corn."
+					"display_name": "Cesta De Milho Incrível",
+					"description": "Milho super nutritivo."
 				},
 				"amazing_corn_serving": {
-					"display_name": "Amazing Maize",
-					"description": "Heavenly nutritious."
+					"display_name": "Milho Incrível",
+					"description": "Celestialmente nutritivo."
 				},
 				"corn_basket": {
 					"display_name": "Cesta de Milho",
-					"description": "Sweet and crunchy."
+					"description": "Doce e crocante."
 				},
 				"corn_serving": {
-					"display_name": "Corn Cob",
-					"description": "Crunch and spray."
+					"display_name": "Espiga de milho",
+					"description": "Crocante"
 				}
 			},
 			"flour": {
@@ -12493,8 +12528,8 @@
 		"furniture": {
 			"arch_backed_chair": {
 				"arch_backed_chair_ghost": {
-					"display_name": "Cathedral-Arch Chair",
-					"description": "Classy like piety."
+					"display_name": "Cadeira catedral em arco",
+					"description": "Elegante como a piedade."
 				}
 			},
 			"arch_backed_chair_fine": {
@@ -12937,8 +12972,8 @@
 		"monsters": {
 			"forest": {
 				"ent": {
-					"display_name": "Ent",
-					"description": "Guardian of the forest"
+					"display_name": "Ent ",
+					"description": "Guardião da floresta"
 				},
 				"entling": {
 					"display_name": "Entling",
@@ -14218,13 +14253,13 @@
 			"coal": {
 				"lump_of_coal": {
 					"display_name": "Pedaço de carvão",
-					"description": "A sizable chunk of solid coal."
+					"description": "Um pedaço considerável de carvão sólido."
 				}
 			},
 			"copper": {
 				"copper_ore": {
-					"display_name": "Minerio de (Cobre)",
-					"description": "A chunk of raw copper"
+					"display_name": "Minério de Cobre",
+					"description": "Um pedaço de cobre bruto"
 				}
 			},
 			"fiber": {
@@ -14255,48 +14290,48 @@
 			},
 			"gold": {
 				"gold_ore": {
-					"display_name": "Minerio de (Ouro)",
-					"description": "A chunk of raw gold"
+					"display_name": "Minério de Ouro",
+					"description": "Um pedaço de ouro bruto"
 				},
 				"bone_ancient": {
-					"display_name": "Ancient Bone",
-					"description": "A piece of very old bone."
+					"display_name": "Osso Antigo",
+					"description": "Um pedaço de osso muito velho."
 				}
 			},
 			"iron": {
 				"iron_ore": {
-					"display_name": "Minerio de (Ferro)",
-					"description": "A chunk of raw iron"
+					"display_name": "Minério de Ferro",
+					"description": "Um pedaço de ferro bruto"
 				}
 			},
 			"pelt": {
 				"rabbit_pelt": {
 					"display_name": "Pele de Coelho",
-					"description": "Soft, supple, and quite dead."
+					"description": "Macio, flexível e completamente morto."
 				},
 				"racoon_pelt": {
 					"display_name": "Pele de Guaxinim",
-					"description": "Soft, supple, and quite dead"
+					"description": "Macio, flexível e completamente morto."
 				},
 				"red_fox_pelt": {
 					"display_name": "Pele de Raposa",
-					"description": "Soft, supple, and quite dead"
+					"description": "Macio, flexível e completamente morto."
 				},
 				"squirrel_pelt": {
 					"display_name": "Pele de Esquilo",
-					"description": "Soft, supple, and quite dead"
+					"description": "Macio, flexível e completamente morto."
 				},
 				"wolf_pelt": {
 					"display_name": "Pele de Lobo",
-					"description": "From the hide of a terrifying creature"
+					"description": "Do couro de uma criatura aterrorizante"
 				},
 				"deer_pelt": {
 					"display_name": "Pele de veado",
-					"description": "Soft, supple, and quite dead"
+					"description": "Macio, flexível e completamente morto."
 				},
 				"cougar_pelt": {
 					"display_name": "Pele de puma",
-					"description": "Soft, supple, and quite dead"
+					"description": "Macio, flexível e completamente morto."
 				},
 				"beetle_pelt": {
 					"display_name": "Beetle Chitin",
@@ -14311,7 +14346,7 @@
 					"display_name": "Doodle Chitin"
 				},
 				"boar_pelt": {
-					"description": "Soft, supple, and quite dead",
+					"description": "Macio, flexível e completamente morto.",
 					"display_name": "Pele de javali"
 				},
 				"deer_horn": {
@@ -14321,14 +14356,14 @@
 			},
 			"silver": {
 				"silver_ore": {
-					"display_name": "Minerio de (Prata)",
-					"description": "A chunk of raw silver"
+					"display_name": "Minério de Prata",
+					"description": "Um pedaço de prata bruta"
 				}
 			},
 			"stone": {
 				"hunk_of_stone": {
 					"display_name": "Pedaço de pedra",
-					"description": "A heavy, ordinary rock"
+					"description": "Uma rocha pesada e comum"
 				}
 			},
 			"clay": {
@@ -14349,8 +14384,8 @@
 			},
 			"tin": {
 				"tin_ore": {
-					"display_name": "Minerio de (Estanho)",
-					"description": "A chunk of raw tin"
+					"display_name": "Minério de Estanho",
+					"description": "Um pedaço de estanho bruto"
 				}
 			},
 			"wood": {
@@ -14427,14 +14462,14 @@
 					"description": "Dense and strong"
 				},
 				"zilla_skin": {
-					"display_name": "Zilla Skin",
-					"description": "Rough and scaly, its always just a little warm."
+					"display_name": "Pele de Zilla",
+					"description": "Áspero e escamoso, é sempre um pouco quente."
 				}
 			},
 			"feathers": {
 				"poyo_feathers": {
-					"display_name": "Poyo Feathers",
-					"description": "Feathers from a plump bird"
+					"display_name": "Penas",
+					"description": "Penas de um pássaro gordo"
 				},
 				"ostrich_feathers": {
 					"description": "Feathers from a large flightless bird",
@@ -14962,11 +14997,11 @@
 		},
 		"weapons": {
 			"bronze_mace": {
-				"display_name": "Bronze Mace",
-				"description": "Precisely engineered for maximum bashing.",
+				"display_name": "Maça de bronze",
+				"description": "Precisamente projetado para o máximo de esmagamento.",
 				"bronze_mace_iconic": {
-					"display_name": "Bronze Mace",
-					"description": "For flattening faces"
+					"display_name": "Maça de bronze",
+					"description": "Para faces planas"
 				}
 			},
 			"bronze_sword": {
@@ -15578,11 +15613,11 @@
 		},
 		"archer": {
 			"archer_outfit": {
-				"display_name": "Archer's Padded Vest",
-				"description": "Offers light protection",
+				"display_name": "Colete acolchoado do arqueiro",
+				"description": "Oferece proteção leve",
 				"archer_hood": {
-					"display_name": "Archer's Cloak",
-					"description": "Hooded protection for one's head"
+					"display_name": "Manto do Arqueiro",
+					"description": "Proteção com capuz para a cabeça"
 				}
 			},
 			"archer_description": {
@@ -16984,8 +17019,8 @@
 				"description": "Standard dress for all farmers"
 			},
 			"field": {
-				"display_name": "Farm plot",
-				"description": "For growing crops"
+				"display_name": "Fazendinha",
+				"description": "Para plantar bons vegetais"
 			}
 		},
 		"footman": {
@@ -17736,6 +17771,11 @@
 					"description": "A planter box full of Violet flowers, built to be placed below window frames.",
 					"recipe_name": "Violet Window Box",
 					"flavor": "The capstone of a civilized dwelling."
+				},
+				"market_shelf_tall_ground_stone": {
+					"description": "Other players and Travellers can buy goods stocked on these shelves.",
+					"recipe_name": "Market Trading Shelf",
+					"flavor": "One Hearthling's trash is another's treasure... right?"
 				}
 			}
 		},
@@ -18057,6 +18097,11 @@
 					"description": "Keeps people off your property.",
 					"recipe_name": "Clay Fence Combo",
 					"flavor": "More decorative than protective."
+				},
+				"market_shelf_tall_ground_clay": {
+					"description": "Other players and Travellers can buy goods stocked on these shelves.",
+					"recipe_name": "Market Trading Shelf",
+					"flavor": "One Hearthling's trash is another's treasure... right?"
 				}
 			},
 			"potter_workbench": {
