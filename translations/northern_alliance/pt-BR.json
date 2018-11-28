@@ -4,7 +4,7 @@
 		"quote": "Meus pais seguiram as estrelas por mil, mil ciclos.",
 		"long_description": "Corajosos e resistentes, os homens e mulheres do norte vivem pela visão de um novo amanhecer sobre território inexplorado. Munidos de bússola e machadinha, eles se orgulham de sua tenaz adaptabilidade.",
 		"post_selection_description": ", um clã de exploradores tenazes.",
-		"initial_town_name": "Voyage [str(town_number)]"
+		"initial_town_name": "Viagem [str(town_number)]"
 	},
 	"data": {
 		"northern_alliance_population": {
@@ -33,17 +33,17 @@
 		},
 		"buffs": {
 			"valor_town_bonus_strength_buff": {
-				"display_name": "Spirit of Siv",
+				"display_name": "Espirito de Siv",
 				"description": "Corpo é aumentado em +2."
 			}
 		},
 		"gm": {
 			"campaigns": {
 				"hunting": {
-					"hungry_deer_raid": "A parcel of deer is headed for your farms!",
-					"hungry_racoon_raid": "A gaze of raccoons is headed for your farms!",
 					"wild_game": "Uma criatura selvagem foi avistada!",
 					"hungry_caribou_raid": "Um rebanho de caribus está indo para suas fazendas!",
+					"hungry_deer_raid": "A parcel of deer is headed for your farms!",
+					"hungry_racoon_raid": "A gaze of raccoons is headed for your farms!",
 					"hungry_rabbit_raid": "Uma ninhada de coelhos está indo para suas fazendas!"
 				},
 				"trader": {
@@ -125,7 +125,7 @@
 									},
 									"bulletin_title": "Ronia Olarkson",
 									"dialog_title": "Ronia Olarkson",
-									"choice_000": "Ah."
+									"choice_000": "Ah. "
 								},
 								"read_letter2": {
 									"bulletin_message": {
@@ -249,7 +249,7 @@
 								},
 								"intro3": {
 									"bulletin_message": {
-										"00": "Sua voz assume um tom rouco: \"O professor Cid viu as fogueiras como estrelas terrenas, iluminando nosso conhecimento do mundo. Desde o momento em que demos as costas à Fênix, elas queimaram para mostrar aos céus que conhecemos nosso lugar na Terra. Estrelas de Hearth."\" <br><br>Ela aguarda uma resposta apropriada."
+										"00": "Sua voz assume um tom rouco: \"O professor Cid viu as fogueiras como estrelas terrenas, iluminando nosso conhecimento do mundo. Desde o momento em que demos as costas à Fênix, elas queimaram para mostrar aos céus que conhecemos nosso lugar na Terra. Estrelas de Hearth.\" <br><br>Ela aguarda uma resposta apropriada."
 									},
 									"bulletin_title": " Ronia Olarkson",
 									"dialog_title": " Ronia Olarkson",
@@ -599,8 +599,8 @@
 			},
 			"na_town_banner_might": {
 				"na_town_banner_might_ghost": {
-					"description": "How you know you've come home",
 					"display_name": "Bandeira da Força",
+					"description": "How you know you've come home",
 					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"na_town_banner_might_token": {
