@@ -16,18 +16,18 @@
 					"northern_alliance": {
 						"display_name": "Aliança",
 						"categories": {
-							"outpost": "Explorer's Templates",
-							"settlement": "Fort Templates"
+							"outpost": "Projetos do Explorador",
+							"settlement": "Modelos de fortaleza"
 						}
 					}
 				}
 			},
 			"building_templates": {
 				"pottery_studio": {
-					"display_name": "Pottery Studio"
+					"display_name": "Estúdio de Cerâmica"
 				},
 				"weavers_hut": {
-					"display_name": "Weaver's Hut"
+					"display_name": "Cabana do tecelão"
 				}
 			}
 		},
@@ -94,30 +94,30 @@
 				},
 				"town_progression": {
 					"banner_upgrade": {
-						"title": "Outpost Established",
-						"dialog_title": "Outpost Established!",
-						"tier_title": "Outpost",
-						"reward_message": "By unanimous agreement of the citizens, we declare:",
-						"reward_message_ctd": "to be an outpost striving to be at one with the environment."
+						"title": "Assentamento Estabelecido",
+						"dialog_title": "Assentamento Estabelecido!",
+						"tier_title": "Assentamento",
+						"reward_message": "Por unanimidade dos cidadãos, declaramos:",
+						"reward_message_ctd": "ser um assentamento que se esforça para estar em harmonia com o meio ambiente."
 					},
 					"town_founding_explanation": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Her voice takes on the cadence of one reciting words spoken a thousand times before. \"Valin created our Alliance to share in plenty, adapt in hardship, and seek the horizon. The Northern Alliance will become one with the cycles and stars of Hearth.\"<p>She tilts her head in inquiry. \"Which of our philosophies does your outpost most aspire to embody?\"</p> "
+										"00": "Sua voz toma a cadência de uma recitação de palavras faladas mil vezes antes. \"Valin criou nossa Aliança para compartilhar nossa abundância, adaptar-se às dificuldades e buscar o horizonte. A Aliança do Norte se tornará uma com os ciclos e estrelas de Hearth.\"<p>Ela inclina a cabeça em questionamento. \"Qual das nossas filosofias seu povo mais deseja incorporar?\"</p> "
 									},
 									"bulletin_title": "Ronia Olarkson",
 									"dialog_title": "Ronia Olarkson",
-									"choice_000": "What shall we choose..."
+									"choice_000": "O que devemos escolher ..."
 								},
 								"open_letter": {
 									"bulletin_message": {
 										"00": "A woman stands at the edge of camp. She wears the travel-worn blues of a Scout of the Library. <br><br><p align='right'><font size=-6 color='#cccccc'>Nobody saw her arrive, but it is clear she has been watching for some time.</font></p>"
 									},
-									"bulletin_title": "A Figure Appears",
-									"dialog_title": "A stoic scout",
-									"choice_000": "Welcome, traveller."
+									"bulletin_title": "Alguém apareceu",
+									"dialog_title": "Um Escoteiro estóico",
+									"choice_000": "Bem-vindo, viajante."
 								},
 								"read_letter": {
 									"bulletin_message": {
@@ -249,11 +249,11 @@
 								},
 								"intro3": {
 									"bulletin_message": {
-										"00": "Her voice takes on a gravely cadence: \"Teacher Cid saw the hearths as earthly stars, lighting our knowledge of the world. Since the time we turned our backs on the Phoenix, they have burned to show the heavens we know our place in the cycle of Hearth.\" <br><br>She waits for the appropriate response."
+										"00": "Sua voz assume um tom rouco: \"O professor Cid viu as fogueiras como estrelas terrenas, iluminando nosso conhecimento do mundo. Desde o momento em que demos as costas à Fênix, elas queimaram para mostrar aos céus que conhecemos nosso lugar na Terra. Estrelas de Hearth."\" <br><br>Ela aguarda uma resposta apropriada."
 									},
 									"bulletin_title": " Ronia Olarkson",
 									"dialog_title": " Ronia Olarkson",
-									"choice_000": "Wisdom guide us."
+									"choice_000": "A sabedoria nos guia."
 								},
 								"glory": {
 									"bulletin_message": {
@@ -590,7 +590,7 @@
 				"na_town_banner_guardian_ghost": {
 					"display_name": "Banner of Cunning",
 					"description": "How you know you've come home.",
-					"town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+					"town_bonus_description": "<i>Este assentamento será um centro movimentado de comércio.</i><ul><li>Estradas dão 3x o aumento de velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x a mercadoria e o ouro</li></ul>"
 				},
 				"na_town_banner_guardian_token": {
 					"display_name": "Banner of Cunning Shred",
@@ -599,9 +599,9 @@
 			},
 			"na_town_banner_might": {
 				"na_town_banner_might_ghost": {
-					"display_name": "Banner of Strength",
 					"description": "How you know you've come home",
-					"town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+					"display_name": "Bandeira da Força",
+					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"na_town_banner_might_token": {
 					"display_name": "Banner of Strength Shred",
@@ -616,7 +616,7 @@
 				},
 				"na_town_banner_nature_token": {
 					"display_name": "Banner of Vitality Shred",
-					"description": "A shred from the Banner of Vitality, carrying along its blessing."
+					"description": "Um pedaço da Bandeira da Vitalidade, carregando sua bênção."
 				}
 			}
 		},
@@ -921,9 +921,9 @@
 	},
 	"loadouts": {
 		"hunting_party": {
-			"display_name": "Hunting Party",
-			"description": "The land is full of animals. Tasty, tasty animals. The archers can hunt them, and the cook can turn them into delicious morsels.",
-			"tooltip": "Hunting is a less reliable food source, but the archers can do double duty as town guards."
+			"display_name": "Grupo de Caça",
+			"description": "A floresta está cheia de animais. Animais espertos e Saborosos. Os arqueiros podem caçá-los e o cozinheiro pode transformá-los em pedaços deliciosos.",
+			"tooltip": "A caça é uma fonte de alimento em pouca quantidade, mas os arqueiros, além de caçar, podem fazer o dever duplo como guardas da cidade."
 		}
 	},
 	"kingdoms": {
