@@ -34,17 +34,17 @@
 		"buffs": {
 			"valor_town_bonus_strength_buff": {
 				"display_name": "Spirit of Siv",
-				"description": "Body stat increased by 2."
+				"description": "Corpo é aumentado em +2."
 			}
 		},
 		"gm": {
 			"campaigns": {
 				"hunting": {
-					"wild_game": "Wild game has been sighted!",
-					"hungry_caribou_raid": "A herd of caribou is headed for your farms!",
 					"hungry_deer_raid": "A parcel of deer is headed for your farms!",
 					"hungry_racoon_raid": "A gaze of raccoons is headed for your farms!",
-					"hungry_rabbit_raid": "A colony of rabbits is headed for your farms!"
+					"wild_game": "Uma criatura selvagem foi avistada!",
+					"hungry_caribou_raid": "Um rebanho de caribus está indo para suas fazendas!",
+					"hungry_rabbit_raid": "Uma ninhada de coelhos está indo para suas fazendas!"
 				},
 				"trader": {
 					"arcs": {
