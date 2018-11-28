@@ -611,6 +611,8 @@
 				"death_notification": "[name(i18n_data.entity)] esta morto.",
 				"imminent_death_notification": "[name(i18n_data.citizen)] está gravemente fraco em saúde!",
 				"starving_notification": "[name(i18n_data.citizen)] está morrendo de fome!",
+				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] não pode acessar alguns dos ingredientes para criar [str(i18n_data.crafting_order)].",
+				"where_is_food_notification": "[name(i18n_data.citizen)] não acha nenhuma comida.",
 				"health_status_normal": "Normal ",
 				"health": "HP ",
 				"gender": {
@@ -1498,11 +1500,12 @@
 						"max": "Enabler ",
 						"aaron": "Phonic Phoenix ",
 						"raj": "Troubadour ",
-						"yang": ".",
-						"doug": ".",
-						"carl": ".",
-						"winnie": ".",
-						"jack": "."
+						"yang": " ",
+						"doug": " ",
+						"carl": " ",
+						"winnie": " ",
+						"jack": " ",
+						"gabriel": " "
 					}
 				}
 			},
@@ -1862,17 +1865,44 @@
 				"load_game": "Carregar Jogo",
 				"mods": "Módulos",
 				"quick_start": "Novo Jogo Rapido",
-				"patch_notes": "Ver Notas de Atualização<br>Modulo Idioma pt-BR v0.4 (A24)",
+				"patch_notes": "Ver Notas de Atualização",
 				"alpha_welcome_dialog": {
 					"title": "Bem vindo a Stonehearth!",
-					"message": "Atenção: this is Alpha quality software. It's missing many features, and you can expect to encounter bugs as you play.<br><br>You can help by automatically sending us anonymous gameplay data and crash reports from your game.",
+					"message": "Você pode ajudar a tornar o Stonehearth mais estável enviando-nos automaticamente relatórios de erros anônimos do seu jogo.",
 					"accept": "Sim, eu quero ajudar!",
 					"cancel": "Não, Obrigado."
 				},
 				"mod_conflic_dialog": {
 					"title": "Detectado Modulos em Conflito!",
-					"message": "Atenção: Your mods directory contains both a .smod and a flat folder of some mods. The flat folder mod will be used by the game. This mod will become out of date when the .smod is updated and cause bugs. The affected mods are: <br><br>",
+					"message": "Aviso: você tem mods conflitantes que possuem o mesmo nome. Certifique-se de que apenas um mod com esse nome esteja ativado no menu de mods. <br> Se você tiver um .smod e uma pasta simples para o mod, a pasta será usada. Os mods afetados são:<br><br>",
 					"accept": "Sim, Prosseguir."
+				},
+				"mod_dependency_conflict": {
+					"title": "Dependência Circular Detectada!",
+					"message": "Aviso: você tem mods que têm dependências circulares (por exemplo, o mod A depende de outro mod B que eventualmente leva de volta ao mod A). Dependências de mod especificam em qual ordem os mods devem ser carregados, mas se houver um ciclo, então não podemos determinar em que ordem carregá-los. <br> <br> Resolva as dependências do mod cycle dentro dos manifestos dos mods afetados. Os mods afetados foram temporariamente desativados: <br> <br>",
+					"accept": "Sim, proceder.",
+					"dependency": ", que depende de:"
+				},
+				"ace": "ACE",
+				"ace_dialog": {
+					"title": "Ativar Expansão Comunitária Autorizada (ACE)?",
+					"message": "O ACE é um mod que nasceu do desejo de um grupo de membros incríveis da comunidade para criar uma experiência mais rica e completa no Stonehearth 1.0. Ele inclui recursos destinados a aprimorar a experiência Stonehearth padrão, como novas classes, mudanças UX, biomas, anões e mais! <br> <br> Você gostaria de ativar o mod deles? <br> <i> (Você sempre pode ativar ou desativá-lo na tela de título ou no menu Mods mais tarde). <i>",
+					"accept": "Sim!",
+					"cancel": "Não, obrigado."
+				},
+				"ace_toggle": {
+					"enable": {
+						"title": "Ligar ACE?",
+						"message": "O jogo terá que recarregar para habilitar o ACE. Você gostaria de continuar?",
+						"tooltip": "Ative a Expansão Comunitária Autorizada de Stonehearth."
+					},
+					"disable": {
+						"title": "Desligar ACE?",
+						"message": "O jogo terá que recarregar para desabilitar o ACE. Você gostaria de continuar?",
+						"tooltip": "Desativar a Expansão Comunitária Autorizada de Stonehearth."
+					},
+					"accept": "Continuar",
+					"cancel": "Cancelar"
 				}
 			},
 			"mods_menu": {
@@ -3071,9 +3101,9 @@
 									"choice_000": "(já vai tarde)",
 									"choice_001": "Adeus!",
 									"bulletin_message": {
-										"000": "Hahaha! Exactly. This for you, to remember our friendship."
+										"000": "Hahaha! Exatamente. Isso para você, para lembrar nossa amizade."
 									},
-									"bulletin_title": "The goblin places something on the ground with great care",
+									"bulletin_title": "Ele coloca algo no chão com muito cuidado",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"information": {
@@ -3100,8 +3130,8 @@
 					"create_wolf_riders": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Snarling wolves approach!",
-								"message": "Run! Mer told you to run!!!"
+								"title": "Lobos rosnando se aproximam!",
+								"message": "Corra! Mer lhe disse para correr !!!"
 							}
 						}
 					},
@@ -3137,21 +3167,21 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"000": "--the one who watches you"
+										"000": "- aquele que te observa"
 									},
-									"bulletin_title": "Mysterious Note",
-									"dialog_title": "Mysterious Message"
+									"bulletin_title": "Nota Misteriosa",
+									"dialog_title": "Mensagem Misteriosa"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"000": "If you want to finish the wolves before they finish you, strike first.",
+										"000": "Se você quiser terminar os lobos antes que eles terminem você, ataque primeiro.",
 										"001": "There are wolves in the forest. Goblin wolves. Get them before they get you.",
 										"002": "Ogo's forces are on the move. There are wolves in your woods.",
-										"003": "Little human camp: search out your enemy while they yet sleep.",
+										"003": "Pequeno acampamento humano: procure seu inimigo enquanto eles ainda dormem.",
 										"004": "Goblin wolves are trained to attack on command. Free them before that command is issued, and you will sleep easy tonight."
 									},
-									"bulletin_title": "A message on an arrow appears on your banner",
-									"dialog_title": "Mysterious Message"
+									"bulletin_title": "Uma mensagem em uma flecha aparece no seu banner",
+									"dialog_title": "Mensagem Misteriosa"
 								}
 							}
 						}
@@ -3161,14 +3191,14 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"000": "There are wolves in the woods! Run away while you still can!",
+										"000": "Existem lobos na floresta! Fuja enquanto você ainda pode!",
 										"001": "Can't you hear the howling? There are goblin wolves in the woods!",
 										"002": "Our group was just attacked by goblins! Flee!",
 										"003": "Those goblin wolves aren't like normal wolves--they're fast and vicious and unafraid! Run while you can!",
 										"004": "You have goblins in your woods! Bunker down somewhere safe before they attack!"
 									},
-									"bulletin_title": "Panting refugees appear on the horizon",
-									"dialog_title": "Refugee"
+									"bulletin_title": "Refugiados ofegantes aparecem no horizonte",
+									"dialog_title": "Refugiado"
 								}
 							}
 						}
@@ -3205,10 +3235,10 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Yip! Yip! AWOOOOOO!!!!!!!"
+										"00": "Yip! Yip! AWOOOOOO!!!!!!"
 									},
-									"bulletin_title": "The wolves explode joyfully from the cages",
-									"dialog_title": "Escaping Wolves"
+									"bulletin_title": "Os lobos explodem de alegria das gaiolas",
+									"dialog_title": "Lobos Escapando"
 								}
 							}
 						}
@@ -3218,36 +3248,36 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Tell my sheep... me loves her always..."
+										"00": "Diga a minha ovelha ... eu a ama sempre ..."
 									},
-									"bulletin_title": "[name(i18n_data.boss)] is Defeated!",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"bulletin_title": "[name(i18n_data.boss)] está derrotado!",
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "You no win. Ogo... coming. Soothsayer say... Ogo... crush everyone..."
+										"00": "Você não ganha. Ogo ... vindo. Adivinho dizer ... Ogo ... esmagar todo mundo ..."
 									},
-									"bulletin_title": "[name(i18n_data.boss)] is Defeated!",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"bulletin_title": "[name(i18n_data.boss)] está derrotado!",
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ow...it hurts..."
+										"00": "Ai ... isso dói ..."
 									},
-									"bulletin_title": "[name(i18n_data.boss)] is Defeated!",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"bulletin_title": "[name(i18n_data.boss)] está derrotado!",
+									"dialog_title": "[name(i18n_data.boss)] "
 								}
 							}
 						}
 					},
 					"goblin_raiding_camp_1": {
 						"boss": {
-							"display_name": "Chieftain [str(self.stonehearth:unit_info.custom_name)]",
-							"description": "Me leen green fighting macheen!!!"
+							"display_name": "Chefe [str(self.stonehearth:unit_info.custom_name)]",
+							"description": "Eu, a maquina de combate verde !!!"
 						},
 						"sheep": {
-							"display_name": "Bluebell the Sheep",
-							"description": "The Chieftain's prized companion"
+							"display_name": "Bluebell, a Ovelha",
+							"description": "Companheiro premiado do Chefe"
 						}
 					},
 					"shakedown": {
@@ -3334,8 +3364,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A thief!",
-									"message": "Shhhh, you're not supposed to be able to see him."
+									"title": "Um ladrão!",
+									"message": "Shhhh, você não deveria poder vê-lo."
 								}
 							}
 						}
@@ -3357,29 +3387,29 @@
 									"create_scout_camp": {
 										"campfire": {
 											"campfire": {
-												"display_name": "Hypnotic Campfire",
-												"description": "But... what makes it green?"
+												"display_name": "Fogueira hipnótica",
+												"description": "Mas ... o que torna verde?"
 											},
 											"workers": {
-												"description": "Firekeeper"
+												"description": "Guarda-fogo"
 											}
 										},
 										"goblin_tent": {
 											"tent": {
-												"display_name": "Wolf Trainer Tent",
-												"description": "Full of improbable makeshift devices."
+												"display_name": "Tenda de Treinador de Lobo",
+												"description": "Cheio de dispositivos improvisados improváveis."
 											}
 										},
 										"wolf_cage": {
 											"wolf_cage": {
-												"display_name": "Wolf Cage",
-												"description": "Property of Ogo Skullbonker"
+												"display_name": "Gaiola de lobo",
+												"description": "Propriedade de Ogo Skullbonker"
 											},
 											"trainer": {
-												"description": "Whips the wolves into a dangerous frenzy"
+												"description": "Chicoteia os lobos perigosamente"
 											},
 											"tame_wolf": {
-												"description": "Terrifyingly ferocious"
+												"description": "Terrivelmente feroz"
 											}
 										}
 									}
@@ -3666,7 +3696,7 @@
 					"ogo_army_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Ogo's Army Approaches!"
+								"title": "Abordagens do Exército do Ogo!"
 							}
 						}
 					}
@@ -3953,14 +3983,14 @@
 												},
 												"msg4": {
 													"bulletin_message": {
-														"00": "The age of this Khan is over, but new light seeps from the horizon. We do as Cid bade and respect the mark of the Four Colors. Place a Scout Gong, smelted by your metal worker, in your territory to mark your readiness for battle."
+														"00": "A idade de um Khan acabou, mas nova luz se infiltra no horizonte. Nós fazemos como Cid e respeitamos a marca das Quatro Cores. Coloque um Gongo Olheiro, fundido por seu trabalhador de metal, em seu território para marcar sua prontidão para a batalha."
 													}
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Now that I am here, I see you are not yet worthy to face even the least of my camp chiefs. In your eyes flame not the lust for mastery!"
+														"00": "Agora que estou aqui, vejo que você ainda não é digno de enfrentar nem mesmo o menor dos meus chefes de acampamento. Em seus olhos não ardem o desejo de maestria!"
 													},
-													"choice_000": "How rude!"
+													"choice_000": "Que rude!"
 												}
 											}
 										}
@@ -6620,20 +6650,20 @@
 			},
 			"shepherding": {
 				"compassionate_shepherd_buff": {
-					"display_name": "Cared For",
-					"description": "Taken care of by a compassionate shepherd. This animal will produce more resources and offspring."
+					"display_name": "Apreciado",
+					"description": "Cuidado de um pastor compassivo. Este animal irá produzir mais recursos e descendentes."
 				},
 				"shepherding_speed_bonus": {
-					"display_name": "Herd Speed Increase",
-					"description": "The shepherd is now more adept at getting the flock to walk a tiny bit faster."
+					"display_name": "Aumento de velocidade de manada",
+					"description": "O pastor agora é mais hábil em fazer com que o rebanho ande um pouquinho mais rápido."
 				},
 				"stenched_shepherd_buff": {
-					"display_name": "Stenched",
-					"description": "Animals can smell that this shepherd has slaughtered something recently. This shepherd won't be able to find new wild animals until the stench fades."
+					"display_name": "Fedido",
+					"description": "Os animais podem cheirar que este pastor abateu algo recentemente. Este pastor não será capaz de encontrar novos animais selvagens até que o fedor desapareça."
 				},
 				"shepherding_solitary": {
-					"display_name": "Social Need Decreased",
-					"description": "The shepherd is at peace in nature, and desires conversation less often."
+					"display_name": "Necessidade social diminuída",
+					"description": "O pastor está em paz na natureza e deseja conversar com menos frequência."
 				}
 			},
 			"sleeping": {
@@ -6976,9 +7006,9 @@
 		"build": {
 			"prototypes": {
 				"building": {
-					"display_name": "Building",
-					"numbered_display_name": "Building No.[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "A building.  woot!!"
+					"display_name": "Construção",
+					"numbered_display_name": "Construção Nº [str(self.stonehearth:unit_info.custom_name)]",
+					"description": "Uma Construção. Urru!"
 				},
 				"column": {
 					"display_name": "Coluna de Madeira",
@@ -7253,6 +7283,11 @@
 				"description": "Summon the next wave of enemies to claim more glory.",
 				"disabled_description": "No more enemies are knocking down your door just yet.",
 				"glory_level_achieved_bulletin": "Glory level [str(i18n_data.glory_level)] achieved!"
+			},
+			"teleport": {
+				"display_name": "Teleport",
+				"description": "Hearthlings stuck? Emergency teleport power. Usable once per day!",
+				"disabled_description": "Emergency teleport power has already been used once today. Try again tomorrow!"
 			},
 			"undeploy_item": {
 				"display_name": "Undeploy",
@@ -8678,24 +8713,24 @@
 				},
 				"eating": {
 					"ate_unpalatable": {
-						"display_name": "Ate something awful",
-						"tooltip": "Eating [str(foodname)] was one of the poorer choices I made today."
+						"display_name": "Comeu algo horrível",
+						"tooltip": "Comer [str(foodname)] foi uma das escolhas mais pobres que eu fiz hoje."
 					},
 					"herbivore_ate_meat": {
-						"display_name": "I ate meat! NOOOO!",
-						"tooltip": "I can't believe I ate a [str(foodname)].  I can just imagine how cute it must have looked... before..."
+						"display_name": "Eu comi carne! NÂOOO!",
+						"tooltip": "Eu não posso acreditar que eu comi um [str(foodname)]. Eu posso imaginar o quão fofo deve ter sido ... antes ..."
 					},
 					"carnivore_ate_veggies": {
 						"display_name": "Eu comi uma planta! Bleh!",
 						"tooltip": "Houve um erro. Eu acidentalmente comi comida que minha comida come."
 					},
 					"offended_palate": {
-						"display_name": "Offended Palate",
-						"tooltip": "Bleh, I hate eating stuff like [str(foodname)]. There's just no \"zazz\" to it!"
+						"display_name": "Paladar Ofendido",
+						"tooltip": "Bleh, eu odeio comer coisas como [str(foodname)]. Simplesmente não há \"tcham\" para isso!"
 					},
 					"pleased_palate": {
-						"display_name": "Pleased Palate",
-						"tooltip": "Mmm, my my. I really should tell the others how good [str(foodname)] was today!"
+						"display_name": "Paladar satisfeito",
+						"tooltip": "Mmm. Eu realmente deveria dizer aos outros o quão bom [str(foodname)] foi hoje!"
 					},
 					"ate_fine": {
 						"display_name": "Comeu uma boa refeição",

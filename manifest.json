@@ -17,7 +17,8 @@
 
 	"ui": {
 		"less": [
-			"file(ui/root/css/variables.less)"
+			"file(ui/root/css/variables.less)",
+			"file(ui/shell/settings/settings.less)"
 		]
 	},
 
