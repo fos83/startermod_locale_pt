@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'groboldregular';
+    src: url('grobold-webfont.eot');
+    src: url('grobold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('grobold-webfont.woff') format('woff'),
+         url('grobold-webfont.ttf') format('truetype'),
+         url('grobold-webfont.svg#groboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
