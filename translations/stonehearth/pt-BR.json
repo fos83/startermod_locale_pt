@@ -3070,7 +3070,7 @@
 										"002": "Oh, you say something? No matter, we return soon! Collect all your things so will be easy for us to move!",
 										"003": "Anyway, time to go iron my banner. Be back soon! Be ready, yes? New life under goblin rule awaits!"
 									},
-									"bulletin_title": "The goblin's eyes narrow",
+									"bulletin_title": "Os olhos do goblin se estreitam",
 									"dialog_title": "Porta-Bandeira do Ogo"
 								}
 							}
@@ -3112,7 +3112,7 @@
 									"bulletin_message": {
 										"000": "You so funny. Because we friends, me tell you: Ogo pretty cool. A bit mean. Once ate a puppy. But... soothsayer say he fated! Meant to stomp on everyone! Me just little guy, you know? Though you littler. Anyways."
 									},
-									"bulletin_title": "The goblin laughs",
+									"bulletin_title": "O goblin ri",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"msg1": {
@@ -4551,59 +4551,59 @@
 											"dialog_nodes": {
 												"cheer": {
 													"bulletin_message": {
-														"00": "For instance, a <i>Hearth of Cheer</i> is for those who believe that a town's value is found in being a happy home for its citizens."
+														"00": "Por exemplo, uma <i>Lareira da Alegria</ i> é para aqueles que acreditam que o valor de uma cidade é encontrado em ser um lar feliz para seus cidadãos."
 													},
-													"bulletin_title": "A Cheerful Choice",
-													"dialog_title": "A Cheerful Choice",
-													"choice_000": "Sounds quaint"
+													"bulletin_title": "Uma escolha alegre",
+													"dialog_title": "Uma escolha alegre",
+													"choice_000": "Soa curioso"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "A <i>Hearth of Makers</i>, on the other hand, is for those who believe that a town's value is its work, and that its work is best measured in gold."
+														"00": "Uma <i>Lareira dos Artesãos</i>, por outro lado, é para aqueles que acreditam que o valor de uma cidade é seu trabalho e que seu trabalho é melhor medido em ouro."
 													},
-													"bulletin_title": "Mark of the Maker",
-													"dialog_title": "Mark of the Maker",
-													"choice_000": "Sounds productive"
+													"bulletin_title": "Marca do Criador",
+													"dialog_title": "Marca do Criador",
+													"choice_000": "Soa produtivo"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Kind greetings! At last, I can see your Settlement in person. You've developed even faster than I anticipated, you should all be proud!"
+														"00": "Saudações amigaveis! Por fim, posso ver seu assentamento pessoalmente. Você se desenvolveu ainda mais rápido do que eu esperava, todos deveriam estar orgulhosos!"
 													},
-													"bulletin_title": "An Official-Looking Fellow Approaches!",
-													"dialog_title": "Not a Bird This Time",
-													"choice_000": "Thank you!"
+													"bulletin_title": "Uma abordagem de um camarada oficial!",
+													"dialog_title": "Não é um pássaro desta vez",
+													"choice_000": "Obrigado!"
 												},
 												"glory": {
 													"bulletin_message": {
-														"00": "Finally, a <i>Hearth of Glory</i> is for those who believe their destiny is to stand strong in a hostile world, as the Knight Cid did at the founding of the Ascendancy."
+														"00": "Finalmente, a <i>Lareira da Glória</i> é para aqueles que acreditam que seu destino é permanecer forte em um mundo hostil, como o Cavaleiro Cid fez na fundação da Ascendência."
 													},
-													"bulletin_title": "Guts and Glory",
-													"dialog_title": "Guts and Glory",
-													"choice_000": "Sounds heroic"
+													"bulletin_title": "Coragem e glória",
+													"dialog_title": "Coragem e glória",
+													"choice_000": "Soa heróico"
 												},
 												"final": {
 													"bulletin_message": {
-														"00": "Cheer, Glory, or Makers - the choice is entirely yours. Envision what your Town will one day be, and follow that beacon into the future!"
+														"00": "Alegria, Glória ou Produtividade - a escolha é inteiramente sua. Imagine o que sua cidade será um dia e siga esse farol para o futuro!"
 													},
-													"bulletin_title": "A Choice",
-													"dialog_title": "A Choice",
-													"choice_000": "We choose..."
+													"bulletin_title": "Uma Escolha",
+													"dialog_title": "Uma Escolha",
+													"choice_000": "Escolhemos..."
 												},
 												"intro2": {
 													"bulletin_message": {
-														"00": "I came out personally to help you on your last step towards being a true Settlement of the Ascendancy!<br><br>You've grown large enough now that it's time to choose what Hearth shall represent your town, as is tradition."
+														"00": "Eu saí pessoalmente para ajudá-lo em seu último passo para ser um verdadeiro assentamento da ascendência! <br> <br> Agora que você cresceu o suficiente é hora de escolher qual Lareira representará sua cidade, como manda a tradição."
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands",
-													"choice_000": "Tradition?"
+													"bulletin_title": "Mer Continua",
+													"dialog_title": "Mer Burlyhands ",
+													"choice_000": "Tradição?"
 												},
 												"intro3": {
 													"bulletin_message": {
-														"00": "Indeed, Hearths have served as shining beacons for Towns all the way back to the Phoenix Empire.<br><br>Their glow attracts settlers and prosperity, and the particular qualities of a chosen Hearth reflect where a Town finds its value."
+														"00": "Sim, Lareiras tem servido como faróis brilhantes para Cidades desde o Império Fênix.<br><br>Seu brilho atrai colonos e prosperidade, e as qualidades da Lareira escolhida refletem onde a Cidade encontra seu valor."
 													},
-													"bulletin_title": "Mer Continues",
-													"dialog_title": "Mer Burlyhands",
-													"choice_000": "Value?"
+													"bulletin_title": "Mer Continua",
+													"dialog_title": "Mer Burlyhands ",
+													"choice_000": "Valor?"
 												}
 											}
 										}
@@ -4619,71 +4619,71 @@
 										}
 									},
 									"banner_upgrade_cunning": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost paving the roads to become a trade hub.",
+										"title": "Posto Estabelecido",
+										"dialog_title": "Posto Estabelecido!",
+										"tier_title": "Posto avançado",
+										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+										"reward_message_ctd": "ser um posto avançado que pavimenta as estradas para se tornar um centro comercial.",
 										"achievements": {
-											"001": "Items sell for 50% more",
-											"000": "Roads give 3x their normal speed boost",
-											"002": "Traders will bring 2x the goods and Gold"
+											"001": "Itens vendem por 50% a mais",
+											"000": "Estradas dão 3x o aumento de velocidade normal",
+											"002": "Os comerciantes trarão 2x mais mercadoria e ouro"
 										}
 									},
 									"banner_upgrade_strength": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost on its way to be a safe haven for all.",
+										"title": "Posto Estabelecido",
+										"dialog_title": "Posto Estabelecido!",
+										"tier_title": "Posto avançado",
+										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+										"reward_message_ctd": "ser um posto avançado a caminho de ser um refúgio seguro para todos.",
 										"achievements": {
-											"001": "Hearthlings no longer mind cramped spaces",
-											"000": "Mining gives 50% more Ore, Stone, and Clay"
+											"001": "Ninguém se importará mais com espaços apertados",
+											"000": "Mineração dá 50% mais Minério, Pedra e Argila"
 										}
 									},
 									"banner_upgrade_vitality": {
-										"title": "Outpost Established",
-										"dialog_title": "Outpost Established!",
-										"tier_title": "Outpost",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be an outpost striving to be at one with the environment.",
+										"title": "Posto Estabelecido",
+										"dialog_title": "Posto Estabelecido!",
+										"tier_title": "Posto avançado",
+										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+										"reward_message_ctd": "ser um posto avançado que se esforça para estar em harmonia com o meio ambiente.",
 										"achievements": {
-											"001": "Both Plants and Crops grow 25% faster",
-											"000": "Trees produce 25% more Wood",
-											"002": "Plants have 2x their normal Appeal"
+											"001": "Plantas e culturas crescem 25% mais rápido",
+											"000": "Árvores produzem 25% mais madeira",
+											"002": "Plantas têm 2x o seu apelo normal"
 										}
 									},
 									"hearth_upgrade_makers": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be a settlement out to prove that its riches and craftsmanship is unmatched.",
+										"title": "Assentamento Estabelecido",
+										"dialog_title": "Assentamento Estabelecido!",
+										"tier_title": "Assentamento",
+										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+										"reward_message_ctd": "para ser um acordo para provar que suas riquezas e artesanato são incomparáveis.",
 										"achievements": {
-											"001": "Daily Update boosted by Gold Coins",
-											"000": "+5% daily interest on Gold Coins"
+											"001": "Atualização diária impulsionada por moedas de ouro",
+											"000": "+ 5% de juros diários em moedas de ouro (até 300 por dia)"
 										}
 									},
 									"hearth_upgrade_glory": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "To be a settlement out to prove that it has unrivaled military strength.",
+										"title": "Assentamento Estabelecido",
+										"dialog_title": "Assentamento Estabelecido!",
+										"tier_title": "Assentamento",
+										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+										"reward_message_ctd": "Para ser um acordo para provar que tem força militar inigualável.",
 										"achievements": {
-											"000": "Hearth summons foes to defeat for Glory",
-											"001": "Daily Update boosted by Glory Tier"
+											"000": "Lareira invoca inimigos para derrotar por Glória",
+											"001": "Atualização diária aumentada pelo nível de glória"
 										}
 									},
 									"hearth_upgrade_cheer": {
-										"title": "Settlement Established",
-										"dialog_title": "Settlement Established!",
-										"tier_title": "Settlement",
-										"reward_message": "By unanimous agreement of the citizens, we declare:",
-										"reward_message_ctd": "to be a settlement out to prove that it has the happiest, most well-fed citizens, and nice places for them to live.",
+										"title": "Assentamento Estabelecido",
+										"dialog_title": "Assentamento Estabelecido!",
+										"tier_title": "Assentamento",
+										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+										"reward_message_ctd": "ser um acordo para provar que tem os cidadãos mais felizes, mais bem alimentados e lugares agradáveis para eles morarem.",
 										"achievements": {
-											"000": "Daily Update boosted by citizen Morale",
-											"001": "Random Daily Buffs"
+											"000": "Atualização diária impulsionada pela moral dos cidadãos",
+											"001": "Buffs diários aleatórios"
 										}
 									},
 									"shrine_upgrade_guildmaster": {
@@ -5039,27 +5039,27 @@
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "An odd bird arrives with a letter in its beak, stamped with the Official Seal of the Ascendancy. <br><br><p align='right'><font size=-6 color='#cccccc'>The bird also carries a nametag, which reads 'Harold'</font></p>"
+										"00": "Um estranho pássaro chega com uma carta no bico, marcada com o Selo Oficial da Ascendência. <br> <br> <p align = 'right'> <font size = -6 color = '#cccccc'> O pássaro também carrega um crachá, que diz 'Harold' </font> </p>"
 									},
-									"bulletin_title": "A Strange Bird!",
-									"dialog_title": "A Bird... Messenger?",
-									"choice_000": "Open the letter"
+									"bulletin_title": "Um estranho pássaro!",
+									"dialog_title": "Um pássaro ... mensageiro?",
+									"choice_000": "Abra a carta"
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Dear Expedition [str(i18n_data.town_serial_number)],<p>I hope this letter finds you well. By my guess, you've likely set up camp by now.</p><p>As your Capital Liaison, it is my honor to preside, remotely, over the official Founding of your Outpost! I trust that you had ample time to choose a name on your journey.</p>"
+										"00": "Prezada Expedição [str(i18n_data.town_serial_number)], <p> Espero que esta carta chegue bem. Aqui adivinho, você provavelmente já montou o acampamento por agora.</p><p>Como seu contato da Capital, é uma honra presidir, remotamente, a Fundação oficial do seu Posto Avançado! Espero que você tenha tempo suficiente para escolher um nome em sua jornada. </p>"
 									},
-									"bulletin_title": "A Letter from the Capital!",
-									"dialog_title": "A Letter from the Capital!",
-									"choice_000": "Founding?"
+									"bulletin_title": "Uma carta da capital!",
+									"dialog_title": "Uma carta da capital!",
+									"choice_000": "Fundação?"
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "As you know, every new settlement must choose a Banner.<p>This Banner reflects your spirit and vision, the uniting factor which brought the Expedition together!</p><p>What future did you foresee when you embarked on your quest for Township?</p> "
+										"00": "Como você sabe, todo novo assentamento deve escolher uma Bandeira. <p> Esta Bandeira reflete seu espírito e visão, o fator de união que reuniu a Expedição! </p> <p> Que futuro você previu quando embarcou em sua missão?</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues...",
-									"choice_000": "Banner... Hmm..."
+									"bulletin_title": "A carta continua",
+									"dialog_title": "A carta continua...",
+									"choice_000": "Banner ... Hmm ..."
 								}
 							}
 						}
@@ -5069,11 +5069,11 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "The odd messenger bird scurries off with your Official Settlement Founding Declaration in its beak, carrying it in the vague direction of the capital."
+										"00": "O estranho pássaro mensageiro corre com sua Declaração Oficial da Fundação da Colônia em seu bico, levando-a na vaga direção da capital."
 									},
-									"bulletin_title": "The Bird Departs",
-									"dialog_title": "The Bird Departs",
-									"choice_000": "Farewell!"
+									"bulletin_title": "O pássaro parte",
+									"dialog_title": "O pássaro parte",
+									"choice_000": "Adeus!"
 								}
 							}
 						}
@@ -5083,26 +5083,26 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "You're not sure how you missed it before, but the bird is wearing a tiny backpack.<br><br>It contains a note, which reads <i>\"A little something to help you celebrate\"</i> along with:"
+										"00": "Você não tem certeza de como não percebeu isso antes, mas o pássaro está usando uma pequena mochila. <br> <br> Ela contém uma nota, que diz <i>\"Uma coisinha para ajudar você a comemorar\"</i> junto com:"
 									},
-									"bulletin_title": "The Bird Squawks",
-									"dialog_title": "A Tiny Backpack",
-									"choice_000": "Delicious!"
+									"bulletin_title": "O pássaro pia",
+									"dialog_title": "Uma pequena mochila",
+									"choice_000": "Delicioso!"
 								}
 							}
 						}
 					},
 					"hearth_choice": {
 						"glory": {
-							"name": "Hearth of Glory",
+							"name": "Lareira da Glória",
 							"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
 						},
 						"makers": {
-							"name": "Hearth of the Makers",
+							"name": "Lareira dos Artesãos",
 							"description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand (up to 300 per day)</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
 						},
 						"cheer": {
-							"name": "Hearth of Cheer",
+							"name": "Lareira da Alegria",
 							"description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li><li>Each day brings a new random buff for your townsfolk.</li></ul>"
 						}
 					},
@@ -6675,8 +6675,8 @@
 			},
 			"snared": {
 				"snared_buff": {
-					"display_name": "Snared!",
-					"description": "Trapped by a snare and unable to move"
+					"display_name": "Preso!",
+					"description": "Preso por uma armadilha e incapaz de se mover"
 				}
 			},
 			"starving": {
@@ -6785,7 +6785,7 @@
 				"forlorn": {
 					"forlorn_mood_buff": {
 						"display_name": "Desamparado",
-						"description": "It's been incredibly hard going of late."
+						"description": "Tem sido incrivelmente difícil ultimamente."
 					}
 				},
 				"glum": {
@@ -6797,7 +6797,7 @@
 				"content": {
 					"content_mood_buff": {
 						"display_name": "Contente",
-						"description": "All things considered, I'm doing okay."
+						"description": "Tudo considerado, estou bem."
 					}
 				},
 				"merry": {
@@ -6808,8 +6808,8 @@
 				},
 				"jubilant": {
 					"jubilant_mood_buff": {
-						"display_name": "Jubilant",
-						"description": "Wow, I couldn't be happier!"
+						"display_name": "Jubilante",
+						"description": "Uau, eu não poderia estar mais feliz!"
 					}
 				}
 			},
@@ -7186,8 +7186,8 @@
 		},
 		"commands": {
 			"build_workshop": {
-				"display_name": "Build Workshop",
-				"description": "Create a place for productivity!"
+				"display_name": "Construa Oficina",
+				"description": "Crie um lugar para produtividade!"
 			},
 			"chop_tree": {
 				"display_name": "Harvest",
@@ -8750,22 +8750,22 @@
 					},
 					"item_quality": {
 						"ate_item_quality_fine": {
-							"display_name": "Finely prepared meal",
-							"tooltip": "My recent [str(foodname)] was <font color='#6be9e7'>Finely</font> prepared, which made it extra delicious!"
+							"display_name": "Refeição finamente preparada",
+							"tooltip": "Meu recente [str(foodname)] foi <font color='#6be9e7'>Finamente</font> preparado, o que o tornou extra delicioso!"
 						},
 						"ate_item_quality_excellent": {
-							"display_name": "Excellently prepared meal",
-							"tooltip": "My recent [str(foodname)] was <font color='#ce71d2'>Excellent!</font> It was really something!"
+							"display_name": "Refeição excelentemente preparada",
+							"tooltip": "Meu recente [str(foodname)] foi <font color = '#ce71d2'> Excelente! </font> Foi realmente algo!"
 						},
 						"ate_item_quality_masterwork": {
-							"display_name": "Masterfully prepared meal!",
-							"tooltip": "I just ate a <font color='#E3AC53'>Masterfully</font> prepared [str(foodname)]! I never knew it could taste so good!"
+							"display_name": "Refeição magistralmente preparada!",
+							"tooltip": "Eu acabei de comer um <font color = '#E3AC53'> Magistralmente </font> bem preparado [str(foodname)]! Eu nunca soube que poderia ser tão bom!"
 						}
 					},
 					"values": {
 						"ate_cooked": {
-							"display_name": "My meal was cooked",
-							"tooltip": "I always enjoy the 'warm belly' feeling after a nice prepared meal."
+							"display_name": "Minha refeição foi cozida",
+							"tooltip": "Eu sempre gosto da sensação de 'barriga quente' depois de uma boa refeição preparada."
 						}
 					}
 				},
@@ -8866,8 +8866,8 @@
 				"combat": {
 					"values": {
 						"panicked": {
-							"display_name": "Feared for my life",
-							"tooltip": "I'm not proud of how I acted when the monsters came, but it's all I could think to do."
+							"display_name": "Temi pela minha vida",
+							"tooltip": "Eu não tenho orgulho de como agi quando os monstros vieram, mas é tudo que eu poderia pensar em fazer."
 						}
 					}
 				},
@@ -9527,11 +9527,11 @@
 				}
 			},
 			"bronze_breastplate": {
-				"display_name": "Bronze Breastplate",
-				"description": "Armor",
+				"display_name": "Peitoral de Bronze",
+				"description": "Armadura",
 				"bronze_breastplate_iconic": {
-					"display_name": "Bronze Breastplate",
-					"description": "Armor"
+					"display_name": "Peitoral de Bronze",
+					"description": "Armadura"
 				}
 			},
 			"cloth_padded_vest": {
@@ -10320,8 +10320,8 @@
 			},
 			"output_box_amberstone": {
 				"output_box_amberstone_ghost": {
-					"description": "Temporary storage for crafted items.",
-					"display_name": "Rabbit-carved Display Stand"
+					"description": "Armazenamento temporário para itens criados.",
+					"display_name": "Prateleira de trabalho em estilo de coelho"
 				}
 			},
 			"input_bin_clay": {
@@ -10332,8 +10332,8 @@
 			},
 			"input_bin_amberstone": {
 				"input_bin_amberstone_ghost": {
-					"display_name": "Rabbit-woven Supply Basket",
-					"description": "A supply container, for quicker crafting."
+					"display_name": "Cesta de Abastecimento em Estilo Coelho",
+					"description": "Um contêiner de suprimento, para uma produção mais rápida."
 				}
 			},
 			"input_bin_woven": {
@@ -11873,20 +11873,20 @@
 			},
 			"hearth_bunny": {
 				"hearth_bunny_ghost": {
-					"display_name": "Hearth of Cheer",
-					"description": "Provides warmth, light, comfort, and random daily buffs"
+					"display_name": "Lareira da Alegria",
+					"description": "Fornece calor, luz, conforto e buffs diários aleatórios"
 				}
 			},
 			"hearth_fountain": {
 				"hearth_fountain_ghost": {
-					"display_name": "Hearth of Glory",
-					"description": "Provides warmth, light, comfort, and a chance to challenge waves of undead"
+					"display_name": "Lareira da Glória",
+					"description": "Fornece calor, luz, conforto e uma chance de desafiar ondas de mortos-vivos"
 				}
 			},
 			"hearth_stump": {
 				"hearth_stump_ghost": {
-					"display_name": "Hearth of the Makers",
-					"description": "Provides warmth, light, comfort, and daily interest on owned gold"
+					"display_name": "Lareira dos Artesãos",
+					"description": "Fornece calor, luz, conforto e interesse diário no próprio ouro"
 				}
 			},
 			"stall_progression": {
@@ -11902,7 +11902,7 @@
 			"dirt_stone": {
 				"dirt_stone_ghost": {
 					"display_name": "Dirt Stone",
-					"description": "This stone encases a magic ready to burst out!"
+					"description": "Esta pedra encerra uma magia pronta para explodir!"
 				},
 				"chimney_rock": {
 					"chimney_rock_ghost": {
@@ -11918,8 +11918,8 @@
 				},
 				"rabbit": {
 					"rabbit_ghost": {
-						"display_name": "Rabbit Stone",
-						"description": "This stone encases a ancient cuteness ready to burst out!"
+						"display_name": "Pedra do coelho",
+						"description": "Esta pedra encerra uma fofura antiga pronta para explodir!"
 					}
 				}
 			},
@@ -14369,24 +14369,24 @@
 					"description": "Macio, flexível e completamente morto."
 				},
 				"beetle_pelt": {
-					"display_name": "Beetle Chitin",
-					"description": "Hard, shiny, and quite dead"
+					"display_name": "Quitina de Besouro",
+					"description": "Duro, brilhante e bastante morto"
 				},
 				"bitsy_ant_pelt": {
-					"description": "Hard, shiny, and quite dead",
-					"display_name": "Small Ant Chitin"
+					"description": "Duro, brilhante e bastante morto",
+					"display_name": "Quitina de Formiga"
 				},
 				"doodles_pelt": {
-					"description": "Hard, shiny, and quite dead",
-					"display_name": "Doodle Chitin"
+					"description": "Duro, brilhante e bastante morto",
+					"display_name": "Quitina de Doodle"
 				},
 				"boar_pelt": {
 					"description": "Macio, flexível e completamente morto.",
 					"display_name": "Pele de javali"
 				},
 				"deer_horn": {
-					"display_name": "Deer Antler",
-					"description": "Hard, sharp, and possibly useful.."
+					"display_name": "Chifre de veado",
+					"description": "Duro, afiado e possivelmente útil"
 				}
 			},
 			"silver": {
@@ -15795,7 +15795,7 @@
 				},
 				"bronze_breastplate_recipe": {
 					"description": "Partial but sturdy coverage against blunt and edged weapons.",
-					"recipe_name": "Bronze Breastplate",
+					"recipe_name": "Peitoral de Bronze",
 					"flavor": "Design reminiscent of the Phoenix's Legions."
 				},
 				"bronze_ingot_recipe": {
