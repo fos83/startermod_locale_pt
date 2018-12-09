@@ -15,6 +15,7 @@
 				"heal_ranged_in_sight": "curando [name(data.target)]",
 				"wait_at_safety_point": "esperando no banner de segurança",
 				"repair_entity": "consertando [name(data.target)]",
+				"follow_entity": "seguindo [name(data.target)]",
 				"resting_by_fire": "Descansando perto do fogo",
 				"claiming_animal": "Reivindicando animal",
 				"looking_for_animals": "Procurando por Animais",
@@ -300,6 +301,12 @@
 				"currently": "Atualmente:",
 				"no_unhappy_thoughts": "Nenhum pensamento infeliz até agora!",
 				"no_happy_thoughts": "Ainda não há pensamentos felizes!",
+				"teleport": {
+					"description": "Se este cidadão ficar preso em algum lugar, use este botão de Emergência para escolher um local próximo para que ele possa se teletransportar (contanto que esteja ocioso). Recarrega à meia-noite.",
+					"disabled_description": "Este cidadão já se teleportou hoje. Tente novamente depois da meia-noite.",
+					"not_idle_description": "Teleporte indisponível no momento porque o cidadão não está ocioso.",
+					"different_player_description": "Você não pode teleportar cidadãos de outro jogador."
+				},
 				"appeal_headings": {
 					"like": "Gosta",
 					"like_tooltip": "Um espaço é visto como mais bonito para cada item desejado no local, até no máximo três.",
@@ -800,47 +807,47 @@
 					"description": "Construa e gerencie oficinas de artesãos",
 					"items": {
 						"carpenter": {
-							"display_name": "Menu de Criação (Carpinteiro)",
+							"display_name": "Carpinteiro",
 							"description": "Construa móveis de madeira e decoração.",
 							"required_job_text": "Requer um Carpinteiro"
 						},
 						"weaver": {
-							"display_name": "Menu de Criação (Tecelão)",
+							"display_name": "Tecelão",
 							"description": "Crie roupas, tecidos e decoração.",
 							"required_job_text": "Requer um Tecelão"
 						},
 						"mason": {
-							"display_name": "Menu de Criação (Pedreiro)",
+							"display_name": "Pedreiro",
 							"description": "Cinzele as armas de pedra e móveis.",
 							"required_job_text": "Requer um Pedreiro"
 						},
 						"blacksmith": {
-							"display_name": "Menu de Criação (Ferreiro)",
+							"display_name": "Ferreiro",
 							"description": "Funda minérios para armas e armaduras.",
 							"required_job_text": "Requer um Ferreiro"
 						},
 						"cook": {
-							"display_name": "Menu de Criação (Cozinheiro)",
+							"display_name": "Cozinheiro",
 							"description": "Torna os alimentos mais saborosos e duram mais.",
 							"required_job_text": "Requer um Cozinheiro"
 						},
 						"potter": {
-							"display_name": "Menu de Criação (Oleiro)",
+							"display_name": "Oleiro",
 							"description": "Faz tijolos e mercadorias de barro.",
 							"required_job_text": "Requer um Oleiro"
 						},
 						"herbalist": {
-							"display_name": "Menu de Criação (Herbalist)",
+							"display_name": "Herborista",
 							"description": "Faz itens de cura de ervas.",
-							"required_job_text": "Requer Um Herbalist"
+							"required_job_text": "Requer Um Herborista"
 						},
 						"engineer": {
-							"display_name": "Menu de Criação (Engenheiro)",
+							"display_name": "Engenheiro",
 							"description": "Faça engenhocas e armamento defensivo",
 							"required_job_text": "Requer um Engenheiro"
 						},
 						"geomancer": {
-							"display_name": "Menu de Criação (Geomante)",
+							"display_name": "Geomante",
 							"description": "Faz pedras de invocação e golens",
 							"required_job_text": "Requer um geomante"
 						}
@@ -987,6 +994,16 @@
 				"inventory_full": {
 					"title": "Cidade Lotada de Itens",
 					"message": "Você atingiu o número máximo de itens! Cada hearthling aumenta o número total de itens que sua cidade pode ter. Hearthlings não coletará recursos se sua cidade possuir muitos itens. Contêineres de armazenamento contam como itens e NÃO aumentam o limite de itens. Venda os itens extras ou destrua-os usando a ferramenta de destruir itens."
+				},
+				"max_citizens_cap": {
+					"early_warning": {
+						"title": "Você agora tem [str(i18n_data.num_citizens)] cidadãos!",
+						"message": "Parabéns! Sua cidade se tornou uma comunidade sólida. <br> <br> Um aviso relacionado ao desempenho: Mais cidadãos significam mais processamento de AI. Computadores com especificações mais baixas podem experimentar aumento de engasgos, atraso e ociosidade dos cidadãos. <br> <br> Se você encontrar esses problemas, tente reduzir o limite máximo de cidadãos da sua cidade na guia Jogabilidade do Menu Configurações. Isso impedirá que novos colonos entrem, contanto que você esteja acima desse limite."
+					},
+					"full_warning": {
+						"message": "Acabou de chegar a [str(i18n_data.num_citizens)] cidadãos, o número máximo de pessoas que pode viver na sua cidade. <br> <br> Novos cidadãos já não se juntarão à sua cidade neste ponto, a menos que você desça abaixo deste número. <br> <br> <strong> Nota: </strong> Você pode alterar esse limite na guia Jogabilidade do menu Configurações. Um pequeno aviso - ter muitos cidadãos pode causar engasgos, atraso e ociosidade dos cidadãos.",
+						"title": "Máximo de cidadãos atingidos!"
+					}
 				},
 				"quest_bulletin_dialog": {
 					"description": "Descrição",
@@ -1587,8 +1604,8 @@
 				"world_seed": "Número do mundo: ",
 				"starting_season": "Estação Inicial",
 				"terrain_stats": {
-					"trees_and_plants_title": "Árvores e Plantas",
-					"trees_and_plants_description": "A madeira é um recurso de construção principal. Você precisará de alguns para construir seus prédios e criar itens como camas, mesas e cadeiras.",
+					"trees_and_plants_title": "Vegetação",
+					"trees_and_plants_description": "Madeira é um dos principais recursos de construção. Você precisará para construir e criar itens, como camas, mesas e cadeiras.",
 					"wildlife_title": "Vida selvagem",
 					"wildlife_description": "A fauna local pode ser caçada por alimentos e materiais de artesanato bruto.",
 					"minerals_title": "Minerais",
@@ -1912,6 +1929,7 @@
 				"open_folder": "Abrir Pasta",
 				"quit_to_menu": "Salvar e sair do menu",
 				"base_mod": "Módulo Base",
+				"modding_guide": "Modding Tutorial",
 				"sections": {
 					"base_mods": {
 						"title": "Módulos Base"
@@ -2946,6 +2964,15 @@
 					},
 					"shrine_unlock_recipes": {
 						"bulletin_title": "Receitas de Pedreiro Desbloqueadas: Santuários"
+					},
+					"returning_collector_encounter": {
+						"title": "Um explorador se aproxima de sua cidade.",
+						"trade_details": "Olá [str(i18n_data.town_name)]! Eu sou um explorador de longe para o leste, que negocia em várias quantidades de trocas e coleções. Recentemente eu encontrei <strong> [str(i18n_data.reward_number)] [str (i18n_data.reward_item)] </strong> largados ao lado da estrada. Não tenho certeza de quem os deixou lá, mas eles são provavelmente bastante úteis! Eu não tenho muito uso para eles, mas uma vila próxima disse que eles precisam de <strong> [str(i18n_data.want_number)] [str(i18n_data.want_item)] </strong>. Eu estarei relaxando nas proximidades por uns [str (i18n_data.num_days)] dias .. você estaria interessado em uma troca depois?",
+						"waiting_title": "O explorador estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+						"waiting_text": "O explorador estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para fornecer <strong> [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] </strong> se você tiver <strong> [str(i18n_data.want_number)] [str(i18n_data.want_item)] </strong> pronto para eles!",
+						"return_title": "O explorador retorna!",
+						"return_greetings_positive": "Estou de volta! Parece que você tem os [str(i18n_data.want_number)] [str(i18n_data.want_item)] que pedi. Você ainda está interessado em [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] em troca? Garanto-lhes que são mais úteis do que qualquer pessoa normal em carregar coisas!",
+						"return_greetings_negative": "Estou de volta, mas não parece que você tem [str(i18n_data.want_number)] [str(i18n_data.want_item)] que pedi. Bem, talvez alguém de volta lá na minha aldeia possa encontrar um uso para eles."
 					}
 				},
 				"goblin_war": {
@@ -4571,7 +4598,8 @@
 													},
 													"bulletin_title": "Uma abordagem de um camarada oficial!",
 													"dialog_title": "Não é um pássaro desta vez",
-													"choice_000": "Obrigado!"
+													"choice_000": "Obrigado!",
+													"choice_001": "[pular] Nós sabemos qual Lareira queremos."
 												},
 												"glory": {
 													"bulletin_message": {
@@ -4981,7 +5009,7 @@
 						},
 						"deity": {
 							"name": "Fountain of Plenty",
-							"description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Grants a random daily buff</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+							"description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Blesses all citizens with +1  to Mind, Body, and Spirit</li><li>Unlocks nature-themed decoration recipes</li></ul>"
 						},
 						"valor": {
 							"name": "The Valor of Cid",
@@ -5043,7 +5071,8 @@
 									},
 									"bulletin_title": "Um estranho pássaro!",
 									"dialog_title": "Um pássaro ... mensageiro?",
-									"choice_000": "Abra a carta"
+									"choice_000": "Abra a carta",
+									"choice_001": "[skip] We know what banner we want."
 								},
 								"read_letter": {
 									"bulletin_message": {
@@ -6613,6 +6642,300 @@
 							}
 						}
 					}
+				},
+				"hestia": {
+					"arcs": {
+						"trigger": {
+							"hestia": {
+								"encounters": {
+									"dialog_greetings": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"000": "Upon reaching a point near the banner, the three masked individuals stop.  Everything about them is strange.  Their faces are completely covered by their masks, their heads covered in hoods, their hands covered in gloves, their feet [so small!] are sheathed in the tiniest of boots.  The material of their garments seems to be of some otherworldly origin, shining in the sun and blowing in the breeze.  And - most notably - they each have a beautiful golden necklace set with a massive sapphire."
+													},
+													"bulletin_title": "The figures stop at the banner",
+													"dialog_title": "The figures stop at the banner",
+													"choice_000": "Who are you?",
+													"choice_001": "[skip] We have met before..."
+												},
+												"msg3": {
+													"bulletin_message": {
+														"000": "The masked figures look about them, inspecting buildings and garments.  They seem as interested in our clothing as we are of theirs.  The smallest one reaches out as though to touch one of our boots, but the tallest one makes a quick hissing noise which forces the little one to straighten back up."
+													},
+													"bulletin_title": "The figures look about them",
+													"dialog_title": "The figures look about them",
+													"choice_000": "(Hehe.)"
+												},
+												"msg8": {
+													"bulletin_message": {
+														"000": "Emma reaches under her robes and withdraws a beautiful golden scepter with a magical fire as it’s ornament:<p><i>'Of Hestia, the Light.  As gift, we bring.  Nothing in return, we request...  Understanding perhaps, friendship one day?'</i></p>"
+													},
+													"bulletin_title": "The Light of Hestia",
+													"dialog_title": "The Light of Hestia",
+													"choice_000": "Thank you for this wondrous gift!"
+												},
+												"msg7": {
+													"bulletin_message": {
+														"000": "Dylan places an arm onto Lily’s shoulder to calm and silence her, then addresses the crowd himself:<p><i>'In need, many.  Of Hestia, heirs travel.  Masks, we don, in self-abnegation. The darkness to push, the Light we bring.  Through sacrifice and oblation, our worth to lead we prove.  To those without power, a hand of support we offer.'</i></p>"
+													},
+													"bulletin_title": "Prince Dylan calms Lily down",
+													"dialog_title": "Prince Dylan calms Lily down",
+													"choice_000": "The Light?",
+													"choice_001": "A hand of support?"
+												},
+												"greet_lily": {
+													"bulletin_message": {
+														"000": "The smallest figure raises their hands above their head and then bows deeply.  As they move, their mysterious cloth flows and trails behind in motion.  Their voice sounds more similar to squeaking gears than that of a voice we are used to, and is slightly muffled from behind the mask:<p><i>'Lily.  Of Hestia, Princess, Painter [giggle], Healer, Archer.'</i></p>"
+													},
+													"bulletin_title": "Introductions: The smallest",
+													"dialog_title": "Introductions: The smallest",
+													"choice_000": "A pleasure to meet you Princess Lily."
+												},
+												"greet_dylan": {
+													"bulletin_message": {
+														"000": "The middle sized figure then raises their hands similarly and bows.  This figure’s movements are more quick and snappy, and the cloth appears to be trying to catch up to the limbs movement before it.  There is a sense of wild strength behind these movements, and again the voice is not as expected - this time even more shrill and cracking occasionally:<p><i>'Dylan.  Of Hestia, Prince, Poet, Smith, Warrior.'</i></p>"
+													},
+													"bulletin_title": "Introductions: The middle",
+													"dialog_title": "Introductions: The middle",
+													"choice_000": "Greetings Prince Dylan."
+												},
+												"rejection": {
+													"bulletin_message": {
+														"000": "After forceful motions and the brandishing of weapons, the three masked peoples turn and move off in another direction."
+													},
+													"bulletin_title": "The people move off",
+													"dialog_title": "The people move off",
+													"choice_000": "Maybe they will return someday?"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"000": "They seem peaceful, greeting anyone who comes close with a strange but simple motion: spreading their hands open wide in a circle, then clasping them together as they bow their heads."
+													},
+													"bulletin_title": "A group of three masked people calmly make their way towards the banner",
+													"dialog_title": "3 Masked figures arrive",
+													"choice_000": "Peaceful travelers?  Welcome!",
+													"choice_001": "You may not enter!"
+												},
+												"msg4": {
+													"bulletin_message": {
+														"000": "The tallest figure takes a step forward and begins to speak.  They make a large flourish of greetings with their arms, seeming to encompass all those hearthlings who are nearby, and then speaks - their voice soft and a few octaves higher than their size suggested.<p><i>'Disciples of Monkey, Greetings!  Of Hestia we travel.  From royalty our lineage.  We introduce, please.'</i></p>"
+													},
+													"bulletin_title": "The tallest figure begins to speak",
+													"dialog_title": "The tallest figure begins to speak",
+													"choice_000": "By all means..."
+												},
+												"msg5": {
+													"bulletin_message": {
+														"000": "While Emma speaks, she takes a moment to look into the eyes of each person gathered around her:<p><i>'For our great journey, we trek under the stars.  Of great abundance, darkness and pain we find.  Found as before, royals of Hestia declared.  In need, many...'</i></p>"
+													},
+													"bulletin_title": "Princess Emma continues",
+													"dialog_title": "Princess Emma continues",
+													"choice_000": " ... "
+												},
+												"msg6": {
+													"bulletin_message": {
+														"000": "Lily quickly steps forward, unable to contain the emotion bubbling out from behind her mask:<p><i>'Many!  Bruised and beaten, many your kind!  As well Goblin, Orc!  Bandage and salve, many wounds!  Of great pain also, Turtle Lizard - so cute!  [giggle] To keep Lily wanted, Dylan denied.  Before release, nursed to good health.  Waddled away, SO cute!  To heal Lily finds...'</i></p>"
+													},
+													"bulletin_title": "Princess Lilly interrupts",
+													"dialog_title": "Princess Lilly interrupts",
+													"choice_000": "Oh my...",
+													"choice_001": "You’re quite a spit-fire aren’t you?"
+												},
+												"met_before": {
+													"bulletin_message": {
+														"000": "<i>Ah, as well Emma remembers.  In need, many still.  The darkness to push... the Light will you take?</i>"
+													},
+													"bulletin_title": "Emma steps foward",
+													"dialog_title": "Emma steps foward",
+													"choice_000": "Yes, thank you!"
+												},
+												"greet_emma": {
+													"bulletin_message": {
+														"000": "The tallest figure repeats the gesture, bowing impossibly low.  Though largest, this figure moves with the most grace.  The cloth rippling smoothly behind their limbs as though it were flowing through water:<p><i>'Emma.  Of Hestia, Princess, Eldest Heir, Diplomat, Weaver, Lancer.'</i></p>"
+													},
+													"bulletin_title": "Introductions: The tallest",
+													"dialog_title": "Introductions: The tallest",
+													"choice_000": "Greetings Princess Emma.",
+													"choice_001": "All of you are welcome to our town."
+												}
+											}
+										}
+									},
+									"dialog_ends": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"000": "Having completed their task the three then walk off into the wilderness, presumably to find the next community in need.  What an interesting people..."
+													},
+													"bulletin_title": "The Hestians depart",
+													"dialog_title": "The Hestians depart",
+													"choice_000": "Hopefully they remain safe in their travels."
+												}
+											}
+										}
+									},
+									"dialog_continues": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg2": {
+													"bulletin_message": {
+														"000": "Lily begins bouncing in excitement:<p><i>'Yes, oh!  Bruised and beaten are your people?!  Help I can, to heal Lily finds great joy!'</i></p>With a large flowing gesture of approval from Emma, Lily rushes around the village to tend to any wounds she finds - large or small alike."
+													},
+													"bulletin_title": "Lily bounces in excitement",
+													"dialog_title": "Lily bounces in excitement",
+													"choice_000": "Thank you very much!"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"000": "Emma places the scepter on the ground and slowly backs away, her garments flowing behind her.  After a moment she looks around at the different faces of the crowd:<p><i>'Of great curiosity, we are.  Stay for a while, to converse and learn, may we?'</i></p>"
+													},
+													"bulletin_title": "Emma sets down the scepter",
+													"dialog_title": "Emma sets down the scepter",
+													"choice_000": "Stay as long as you like!",
+													"choice_001": "One of you said you’re a healer?"
+												}
+											}
+										}
+									},
+									"dialog_stickaround": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"000": "With one final flourish, Emma turns to face away from the town, Dylan and Lily do the same. With her back turned, Lily speaks:<p><i>'Our journey, continue we must [giggle].  To more in need, the light we bring.'</i></p>"
+													},
+													"bulletin_title": "The three figures gather",
+													"dialog_title": "The three figures gather",
+													"choice_000": "Good luck on your journey!"
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"dragonborn_king": {
+					"arcs": {
+						"trigger": {
+							"dragonborn_king": {
+								"encounters": {
+									"dialog_ask_player_for_help": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"information": {
+													"bulletin_message": {
+														"000": "I am a spirit, from a time and people long past. I have lingered here for countless ages, guarding that which was most precious to us. But my power has waned, and now it has come under siege - please, lend me your assistance!"
+													},
+													"bulletin_title": "The voice coalesces into a figure",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "What's in it for us?",
+													"choice_001": "Under siege?"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"000": "Please, help me!  My castle has come under siege by undead minions of evil!"
+													},
+													"bulletin_title": "A voice whispers at the edges of your mind",
+													"dialog_title": "A Ghostly Voice",
+													"choice_000": "Who? What?",
+													"choice_001": "Where? How?",
+													"choice_002": "We're on our way!"
+												},
+												"theres_no_time_to_explain": {
+													"bulletin_message": {
+														"000": "There's no time! The undead claw at my gates, and I have no strength left to defend the trove once they make it through! I beg of you, help!"
+													},
+													"bulletin_title": "The dragonborn king presence is overbearing",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "Yeah.. ok..",
+													"choice_001": "We will send help!"
+												}
+											}
+										}
+									},
+									"dialog_thank_player_for_help": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"information_howlong": {
+													"bulletin_message": {
+														"000": "It has been many cycles.. too many. My family line lives no longer, and my body failed me long ago. My soul has been of the dragon's watch long enough to see many races born and die.  Yours has been of great interest, Children of Monkey, as my vigil comes to an end."
+													},
+													"bulletin_title": "The dragonborn king sighs and sags visibly",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "What were you protecting?",
+													"choice_001": "Who are you?",
+													"choice_002": "Comes to an end?"
+												},
+												"msg1": {
+													"bulletin_message": {
+														"000": "Thank you for coming to my rescue. I have long guarded this site, but I can no longer raise my sword or shield in its defense."
+													},
+													"bulletin_title": "The voice speaks once again",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "Who are you?",
+													"choice_001": "What were you protecting?",
+													"choice_002": "How long have you been here?"
+												},
+												"information_who": {
+													"bulletin_message": {
+														"000": "My name is Flox, of the Icedragon lineage. I was King, once, of the Dragonborn peoples, who ruled this land in an age long past."
+													},
+													"bulletin_title": "The dragonborn king smiles",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "What are you doing here?",
+													"choice_001": "How long have you been here?"
+												},
+												"hatch_and_attach": {
+													"bulletin_message": {
+														"000": "I am fading fast, but I have given the last of my spirit to this egg of the Great Dragon, so that the dragonling inside may finally hatch out into this world. I have known you for little time, Children of Monkey, but I trust you will aid this young welp as you have aided me. May you carry yourselves with strength and compassion, as the Dragonborn once did."
+													},
+													"bulletin_title": "The Dragonborn King breathes softly into the egg in front of him",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "We will honor you, King. May you be at peace."
+												},
+												"information_what": {
+													"bulletin_message": {
+														"000": "It is a King's duty to protect the Great Dragon's lineage - a duty that endures even through death.  My spirit has kept this place hidden, veiled from sense and sight, for as long as it could.  I see now that I can maintain my vigil no longer, and that the Dragon's lineage is at risk."
+													},
+													"bulletin_title": "The dragonborn king straightens his back in pride",
+													"dialog_title": "Flox Icedragon",
+													"choice_000": "How can we help with the lineage thing?",
+													"choice_001": "Who are you?",
+													"choice_002": "How long have you been here?"
+												}
+											}
+										}
+									},
+									"dialog_player_fail": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_message": {
+														"000": "I can stand no longer. The trove has fallen, and with it the last light of my people. I was a fool to stay silent so long..."
+													},
+													"bulletin_title": "The voice returns, seemingly with great effort",
+													"dialog_title": "A Ghostly Voice",
+													"choice_000": "We're sorry..."
+												}
+											}
+										}
+									},
+									"spawn_enemy_entities": {
+										"mission": {
+											"sighted_bulletin": {
+												"title": "The Undead! Protect the gate!"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -6691,94 +7014,94 @@
 			},
 			"stopped": {
 				"stopped_buff": {
-					"display_name": "Stopped",
-					"description": "Put this buff on someone who needs to stop, right now."
+					"display_name": "Parado",
+					"description": "Coloque este buff em alguém que precisa parar, agora mesmo."
 				}
 			},
 			"injured": {
 				"injured_buff": {
-					"display_name": "Injured",
-					"description": "Moving slower due to low health."
+					"display_name": "Ferido",
+					"description": "Movendo-se mais devagar devido à baixa saúde."
 				}
 			},
 			"bed_ridden": {
 				"bed_ridden_buff": {
-					"display_name": "Bed Ridden",
-					"description": "Slowly recovering from injuries. Can receive medical care from herbalists."
+					"display_name": "Acamado",
+					"description": "Lentamente se recuperando de ferimentos. Pode receber cuidados médicos de fitoterapeutas."
 				}
 			},
 			"stamina_tonic": {
 				"stamina_tonic_buff": {
-					"display_name": "Stamina Tonic",
-					"description": "Health increased greatly."
+					"display_name": "Tônico de Estamina",
+					"description": "Saúde aumentou muito."
 				}
 			},
 			"strength_tonic": {
 				"strength_tonic_buff": {
-					"display_name": "Strength Tonic",
-					"description": "Muscle increased greatly for more combat damage."
+					"display_name": "Tônico de Força",
+					"description": "O músculo aumentou muito para mais dano de combate."
 				}
 			},
 			"severely_injured": {
 				"severely_injured_buff": {
-					"display_name": "Severely Injured",
-					"description": "Wounded badly! Can hardly walk!"
+					"display_name": "Gravemente ferido",
+					"description": "Ferido gravemente! Mal posso andar!"
 				}
 			},
 			"undead_infection": {
-				"display_name": "Infected",
-				"description": "Prevents natural health recovery via willpower."
+				"display_name": "Infectado",
+				"description": "Impede a recuperação natural da saúde através da força de vontade."
 			},
 			"courage_tonic": {
 				"courage_tonic_buff": {
-					"display_name": "Courage Tonic",
-					"description": "Courage increased for a short while."
+					"display_name": "Tônico de Coragem",
+					"description": "Coragem aumentou por um tempo curto."
 				}
 			},
 			"energy_tonic": {
 				"energy_tonic_buff": {
-					"display_name": "Energy Tonic",
-					"description": "Energy increased for a short while."
+					"display_name": "Tônico Energético",
+					"description": "Energia aumentada por um curto período de tempo."
 				}
 			},
 			"minor_courage_buff": {
 				"minor_courage_buff_buff": {
-					"display_name": "Defensive Spirit",
-					"description": "Small boost of courage while in alert mode"
+					"display_name": "Espírito defensivo",
+					"description": "Pequeno impulso de coragem, enquanto no modo de alerta"
 				}
 			},
 			"game_modes": {
 				"game_mode_hard_buff": {
-					"display_name": "Hard Mode",
-					"description": "In Hard Mode, enemies have more armor and health and will inflict more damage"
+					"display_name": "Modo difícil",
+					"description": "No Modo Difícil, os inimigos têm mais armadura e saúde e causam mais dano"
 				}
 			},
 			"slowed": {
 				"snap_trap": {
-					"display_name": "Snap Trap",
-					"description": "Movement slowed after taking damage from trap"
+					"display_name": "Armadilha instantânea",
+					"description": "Movimento diminuiu depois de receber dano da armadilha"
 				},
 				"snap_trap_2": {
-					"display_name": "Clamp Trap",
-					"description": "Movement greatly slowed after taking damage from a large trap"
+					"display_name": "Armadilha de Fixação",
+					"description": "Movimento diminuiu bastante depois de receber dano de uma grande armadilha"
 				}
 			},
 			"incapacitated": {
 				"incapacitated_buff": {
-					"display_name": "Incapacitated",
-					"description": "Someone help this poor hearthling!"
+					"display_name": "Incapacitado",
+					"description": "Alguém ajude esta pobre alma!"
 				}
 			},
 			"recuperating": {
 				"recuperating_buff": {
-					"display_name": "Recuperating",
-					"description": "Still incapacitated, but slowly recovering over time. An herbalist can help speed up recovery."
+					"display_name": "Recuperando",
+					"description": "Ainda incapacitado, mas se recuperando lentamente com o tempo. Um fitoterapeuta pode ajudar a acelerar a recuperação."
 				}
 			},
 			"recently_treated": {
 				"recently_treated_buff": {
-					"display_name": "Recently Treated",
-					"description": "This hearthling was recently attended to by a medic and will need to rest awhile before another treatment."
+					"display_name": "Recém tratado",
+					"description": "Este hearthling foi recentemente atendido por um médico e terá que descansar um pouco antes de outro tratamento."
 				}
 			},
 			"mood": {
@@ -6815,191 +7138,197 @@
 			},
 			"town_alert": {
 				"town_alert_courage_buff": {
-					"display_name": "Rising Courage",
-					"description": "Increasing courage when defending the town as long as they are not attacked"
+					"display_name": "Coragem crescente",
+					"description": "Aumentando a coragem ao defender a cidade, desde que não sejam atacados"
 				},
 				"town_alert_banner_buff": {
-					"display_name": "Town Alert Banner Buff",
-					"description": "Emits a stacking courage buff every 5 minutes"
+					"display_name": "Alerta de cidade",
+					"description": "Emite um buff de coragem a cada 5 minutos"
 				}
 			},
 			"scratched": {
 				"scratched_buff": {
-					"display_name": "Scratched"
+					"display_name": "Riscado"
 				}
 			},
 			"hothead": {
 				"winded_buff": {
-					"display_name": "Winded",
-					"description": "-5% Damage"
+					"display_name": "Sem fôlego",
+					"description": "-5% de dano"
 				},
 				"furious_buff": {
-					"display_name": "Furious",
-					"description": "+15% Damage. Will not flee or cower for a short time"
+					"display_name": "Furioso",
+					"description": "+ 15% de dano. Não vai fugir ou se esconder por um curto período de tempo"
 				}
 			},
 			"weather": {
 				"lucky_buff": {
-					"display_name": "Lucky Day",
-					"description": "Everything's just that little bit easier today."
+					"display_name": "Dia de sorte",
+					"description": "Tudo é um pouco mais fácil hoje."
 				},
 				"hot_debuff": {
-					"display_name": "Hot Weather",
-					"description": "Too sweaty to work."
+					"display_name": "Clima quente",
+					"description": "Suado demais para trabalhar."
 				},
 				"hit_by_sandstorm_debuff": {
-					"display_name": "Hit by Sandstorm",
-					"description": "I don't like the sand. It's coarse and rough and irritating."
+					"display_name": "Atingido por Sandstorm",
+					"description": "Eu não gosto da areia. É grosso e áspero e irritante."
 				},
 				"hit_by_lightning_debuff": {
-					"display_name": "Hit by Ligtning",
-					"description": "Oof! Ouch! My bones!"
+					"display_name": "Atingido por relâmpago",
+					"description": "Ai! Meus ossos!"
 				},
 				"animal_cold_debuff": {
-					"display_name": "Cold Weather",
-					"description": "Baby, it's cold outside."
+					"display_name": "Tempo frio",
+					"description": "Bebê, está frio lá fora."
 				},
 				"cold_debuff": {
-					"display_name": "Cold Weather",
-					"description": "I'm freezing out here! I should get a roof above my head."
+					"display_name": "Tempo frio",
+					"description": "Estou congelando aqui fora! Eu deveria ter um teto acima da minha cabeça."
 				},
 				"hit_by_titanstorm_debuff": {
-					"display_name": "Overwhelmed by Titan's Storm",
-					"description": "The Storm of Evil has severely drained this Hearthling's energy. It's not fatal, but it's painful..."
+					"display_name": "Oprimido pela tempestade de Titã",
+					"description": "A Tempestade do Mal drenou severamente a energia deste Hearthling. Não é fatal, mas é doloroso ..."
 				}
 			},
 			"deity_town_bonus": {
 				"fast_day": {
 					"fast_day_buff": {
-						"display_name": "Day of Satisfaction",
-						"description": "All citizens skip meals for the day."
+						"display_name": "Dia de Jejum",
+						"description": "Todos os cidadãos ignoram as refeições do dia."
 					}
 				},
 				"health_day": {
 					"health_day_buff": {
-						"display_name": "Day of Mending",
-						"description": "All citizens regenerate health quickly."
+						"display_name": "Dia de remendar",
+						"description": "Todos os cidadãos regeneram a saúde rapidamente."
 					},
 					"health_day_individual_buff": {
-						"display_name": "Day of Mending",
-						"description": "Health regeneration: 40 per hour."
+						"display_name": "Dia de remendar",
+						"description": "Regeneração de saúde: 40 por hora."
 					}
 				},
 				"hero_day": {
 					"hero_day_buff": {
-						"display_name": "Day of Heroism",
-						"description": "Military units move 20% faster, have 30% stronger muscles, and are 2x as courageous."
+						"display_name": "Dia do heroísmo",
+						"description": "Unidades militares se movem 20% mais rápido, têm 30% de músculos mais fortes e são 2x mais corajosos."
 					},
 					"hero_day_individual_buff": {
-						"display_name": "Day of Heroism",
-						"description": "Speed, courage, and muscle increased."
+						"display_name": "Dia do heroísmo",
+						"description": "Velocidade, coragem e músculo aumentaram."
 					}
 				},
 				"jungle_day": {
 					"jungle_day_buff": {
-						"display_name": "Day of Sprouting",
-						"description": "All plants grow 3x as fast."
+						"display_name": "Dia de brotar",
+						"description": "Todas as plantas crescem 3 vezes mais rápido."
 					}
 				},
 				"muse_day": {
 					"muse_day_buff": {
-						"display_name": "Day of Inspiration",
-						"description": "Crafters gain +4% extra chance to create high quality items."
+						"display_name": "Dia da inspiração",
+						"description": "Os artesãos ganham + 4% de chance extra de criar itens de alta qualidade."
 					},
 					"muse_day_individual_buff": {
-						"display_name": "Day of Inspiration",
-						"description": "Chance to create high quality items increased."
+						"display_name": "Dia da inspiração",
+						"description": "A chance de criar itens de alta qualidade aumentou."
 					}
 				},
 				"peasant_day": {
 					"peasant_day_buff": {
-						"display_name": "Day of Motivation",
-						"description": "Workers move 30% faster."
+						"display_name": "Dia da Motivação",
+						"description": "Os trabalhadores se movimentam 30% mais rápido."
 					},
 					"peasant_day_individual_buff": {
-						"display_name": "Day of Motivation",
-						"description": "Speed increased by 30%."
+						"display_name": "Dia da Motivação",
+						"description": "Velocidade aumentada em 30%."
 					}
 				},
 				"poultry_day": {
 					"poultry_day_buff": {
-						"display_name": "Day of Poultry",
-						"description": "It's raining poyos."
+						"display_name": "Dia de Aves",
+						"description": "Está chovendo poyos."
 					}
 				},
 				"racing_day": {
 					"racing_day_buff": {
-						"display_name": "Day of Vigor",
-						"description": "All citizens moves 10% faster."
+						"display_name": "Dia do Vigor",
+						"description": "Todos os cidadãos se movimentam 10% mais rápido."
 					},
 					"racing_day_individual_buff": {
-						"display_name": "Day of Vigor",
-						"description": "Speed increased by 10%."
+						"display_name": "Dia do Vigor",
+						"description": "Velocidade aumentada em 10%."
 					}
 				},
 				"vigil_day": {
 					"vigil_day_buff": {
-						"display_name": "Night of Vigil",
-						"description": "All citizens skip sleeping for the night."
+						"display_name": "Noite da vigília",
+						"description": "Todos os cidadãos não dormem a noite."
 					}
 				},
 				"wisdom_day": {
 					"wisdom_day_buff": {
-						"display_name": "Day of Wisdom",
-						"description": "All citizens gain experience 20% faster."
+						"display_name": "Dia da sabedoria",
+						"description": "Todos os cidadãos ganham experiência 20% mais rápida."
 					},
 					"wisdom_day_individual_buff": {
-						"display_name": "Day of Wisdom",
-						"description": "Experience gain increased by 20%."
+						"display_name": "Dia da sabedoria",
+						"description": "Ganho de experiência aumentado em 20%."
 					}
 				},
 				"stat_buff": {
-					"display_name": "Divine Blessing",
-					"description": "Primary stats increased by 1."
+					"display_name": "Bênção Divina",
+					"description": "Pontos primários aumentados em 1."
 				}
 			},
 			"titan_trance": {
 				"titan_trance_debuff": {
-					"display_name": "Malefic Visions",
-					"description": "Overcome with visions of darkness. They'll snap out of it... hopefully."
+					"display_name": "Visões Maléficas",
+					"description": "Superado por visões da escuridão. Eles vão sair disso ... tomara."
 				}
 			},
 			"titan_building_destroyer": {
 				"titan_building_destroyer_waiting": {
-					"display_name": "Destruction in Waiting",
-					"description": "Once this finishes waking up, it will destroy the structure!"
+					"display_name": "Destruição em espera",
+					"description": "Uma vez que isso termine de acordar, destruirá a estrutura!"
 				}
 			},
 			"tentacle_snared": {
 				"tentacle_snared_debuff": {
-					"display_name": "Snared by Tentacle",
-					"description": "Struggling in the tentacle's iron grip."
+					"display_name": "Laçado pelo tentáculo",
+					"description": "Lutando no aperto de ferro do tentáculo."
 				}
 			},
 			"corrupt_regeneration": {
 				"corrupt_regeneration_buff": {
-					"display_name": "Corrupt Regeneration",
-					"description": "The Titan gives them strength."
+					"display_name": "Regeneração Corrupta",
+					"description": "O Titã lhes dá força."
 				}
 			},
 			"amberstone": {
 				"amberstone_visit_buff": {
-					"display_name": "Amberstone Aura",
-					"description": "Inspired, energized, and heartened by their visit to Clan Amberstone"
+					"display_name": "Aura de Amberstone",
+					"description": "Inspirado, energizado e animado pela visita ao Clã Amberstone"
 				}
 			},
 			"food_preference": {
 				"omnivore_buff": {
-					"display_name": "Omnivore",
-					"description": "This pet will eat almost anything."
+					"display_name": "Onívoro",
+					"description": "Este animal vai comer quase tudo."
 				},
 				"herbivore_buff": {
-					"display_name": "Herbivore",
-					"description": "This pet will only eat plants."
+					"display_name": "Herbívoro",
+					"description": "Este animal de estimação só come plantas."
 				},
 				"carnivore_buff": {
-					"display_name": "Carnivore",
-					"description": "This pet will only eat meat."
+					"display_name": "Carnívoro",
+					"description": "Este animal de estimação só vai comer carne."
+				}
+			},
+			"teleportation_sickness": {
+				"teleportation_sickness_buff": {
+					"display_name": "Recentemente teleportado",
+					"description": "Teletransporte é duro com a alma, precisa esperar um pouco antes de fazê-lo novamente."
 				}
 			}
 		},
@@ -7283,11 +7612,6 @@
 				"description": "Summon the next wave of enemies to claim more glory.",
 				"disabled_description": "No more enemies are knocking down your door just yet.",
 				"glory_level_achieved_bulletin": "Glory level [str(i18n_data.glory_level)] achieved!"
-			},
-			"teleport": {
-				"display_name": "Teleport",
-				"description": "Hearthlings stuck? Emergency teleport power. Usable once per day!",
-				"disabled_description": "Emergency teleport power has already been used once today. Try again tomorrow!"
 			},
 			"undeploy_item": {
 				"display_name": "Undeploy",
@@ -8307,6 +8631,12 @@
 					"display_name": "Wyrm Titã",
 					"description": "Mal. Com fome."
 				}
+			},
+			"undead": {
+				"skeleton_giants": {
+					"display_name": "Esqueleto Gigante",
+					"description": "O barulho de seus ossos maciços é suficiente para fazer qualquer um tremer!"
+				}
 			}
 		},
 		"saved_objects": {
@@ -8347,6 +8677,9 @@
 				},
 				"blacksmith_house": {
 					"display_name": "Casa do Ferreiro"
+				},
+				"weaver_house": {
+					"display_name": "Casa do Tecelão"
 				}
 			}
 		},
@@ -8618,6 +8951,12 @@
 				"storm_chaser_trait": {
 					"display_name": "Caçador de tempestades",
 					"description": "Tempestades, tempestades de areia, nevascas, [name(i18n_data.entity)] ama todas elas!"
+				}
+			},
+			"hestian": {
+				"hestian_trait": {
+					"display_name": "Héstio",
+					"description": "Esta pessoa é da terra distante de Hestia. Que segredos eles sabem?"
 				}
 			}
 		},
@@ -13361,6 +13700,10 @@
 					"dragon_nature_egg_fertilized_ghost": {
 						"display_name": "Ovo de dragão natureza",
 						"description": "Tão misterioso! Deve ser colocado em algum lugar seguro e quente ..."
+					},
+					"dragon_copper_egg_fertilized_ghost": {
+						"display_name": "Copper Dragon Egg",
+						"description": "So mysterious!  Maybe the king can hatch it..."
 					}
 				}
 			},
@@ -13368,6 +13711,10 @@
 				"display_name": "Filhote de Dragão Gélido",
 				"description": "Um bebê dragão, bom para manter a comida gelada. Este tipo de dragão prefere carnes frias.",
 				"species": "dragão"
+			},
+			"dragon_whelp_copper": {
+				"display_name": "Copper Dragon Whelp",
+				"description": "Adds a certain shine to the town.  This dragon type prefers meat."
 			}
 		},
 		"plants": {
@@ -15214,6 +15561,12 @@
 			"corruption_beam": {
 				"display_name": "Corruption Beam",
 				"description": "An invisible weapon to spawn into hands of corrupted"
+			},
+			"maul_lantern": {
+				"maul_lantern_iconic": {
+					"display_name": "Lantern Mace",
+					"description": "Wield the HolyLlight of Hestia in defence of your town."
+				}
 			}
 		},
 		"consumables": {
@@ -15460,6 +15813,26 @@
 						"display_name": "Sasha Lightfoot ",
 						"description": "Arauto do Clã Amberstone"
 					}
+				}
+			},
+			"dragonborn": {
+				"dragonborn_king": {
+					"display_name": "Flox Icedragon",
+					"description": "Dragonborn King"
+				}
+			},
+			"hestia": {
+				"hestia_dylan": {
+					"display_name": "Prince Dylan",
+					"description": "Amiable Hestian Royal"
+				},
+				"hestia_lily": {
+					"display_name": "Princess Lily",
+					"description": "Mysterious Hestian Royal"
+				},
+				"hestia_emma": {
+					"display_name": "Princess Emma",
+					"description": "Inscrutable Hestian Royal"
 				}
 			}
 		},
@@ -17112,6 +17485,18 @@
 				"spear_horn_buff": {
 					"display_name": "Hunter's Will",
 					"description": "Increases Willpower by 20%"
+				},
+				"maul_lantern_buff": {
+					"display_name": "Hestia's Gift",
+					"description": "Increases Courage and Regenerates Health"
+				},
+				"lonelyness_buff": {
+					"display_name": "Loneliness Increase",
+					"description": "Increases Loneliness"
+				},
+				"hestia_greetings_buff": {
+					"display_name": "Hestia Speaking",
+					"description": "Hestia Speaking"
 				}
 			},
 			"footman_outfit": {
@@ -17121,7 +17506,7 @@
 		},
 		"geomancer": {
 			"geomancer_description": {
-				"display_name": "???",
+				"display_name": "Geomante",
 				"description": "???",
 				"requirements": "???",
 				"level_2_data": {
@@ -18400,6 +18785,7 @@
 					"recipe_name": "Plushie Toy Rabbit",
 					"flavor": "She loves you!"
 				},
+				"weapons_name": "Weapons",
 				"clothing_armor_name": "Clothing & Armor",
 				"toys_name": "Toys",
 				"storage_name": "Storage",
