@@ -1592,7 +1592,8 @@
 					"024": "Precisa de uma fonte alimentar inicial? Mova os Berry Bushes ou os Prickly Pear Cacti para mais perto da sua cidade.",
 					"025": "Depois de derrotar o Chefe dos Duendes, você pode reivindicar a ovelha Bluebell como sua.",
 					"026": "Seus hearthlings não gostam de ficar em espaços apertados por muito tempo",
-					"027": "Os animais da fazenda podem se reproduzir se houver pelo menos dois dos mesmos animais em uma caneta."
+					"027": "Os animais da fazenda podem se reproduzir se houver pelo menos dois dos mesmos animais em uma caneta.",
+					"028": "Use \"shift + ,\" para afundar e descer a fundação do seu modelo ao chão antes de colocar ele."
 				}
 			},
 			"select_settlement": {
@@ -4734,11 +4735,11 @@
 									},
 									"shrine_upgrade_deity": {
 										"achievements": {
-											"001": "Herbalist Shrubberies",
-											"003": "Mason Lucky Fountain",
-											"000": "Lucky Daily Buffs",
-											"002": "Blacksmith Decorations",
-											"004": "Tier 3 Music"
+											"001": "Arbustos do Herbalista",
+											"003": "Fonte da sorte de pedreiro",
+											"000": "Mente, Corpo e Espírito +1!",
+											"002": "Decorações do Ferreiro",
+											"004": "Músicas nível 3"
 										}
 									},
 									"shrine_choice_explanation": {
@@ -5072,7 +5073,7 @@
 									"bulletin_title": "Um estranho pássaro!",
 									"dialog_title": "Um pássaro ... mensageiro?",
 									"choice_000": "Abra a carta",
-									"choice_001": "[skip] We know what banner we want."
+									"choice_001": "[pular] Sabemos qual banner queremos."
 								},
 								"read_letter": {
 									"bulletin_message": {
@@ -7523,8 +7524,8 @@
 				"description": "Harvest for lumber, or just to get it out of the way."
 			},
 			"destroy_entity": {
-				"display_name": "Destroy",
-				"description": "Irrevocably remove this item from the world!"
+				"display_name": "Destruir",
+				"description": "Remover irrevogavelmente este item do mundo!"
 			},
 			"harvest_berries": {
 				"display_name": "Gather Berries",
@@ -7540,9 +7541,9 @@
 				"description": "Claim this item for your town."
 			},
 			"move_item": {
-				"display_name": "Move item",
-				"description": "Move this thing somewhere else in the world.",
-				"disabled_description": "This item is in use. Try moving it later."
+				"display_name": "Mover item",
+				"description": "Mova essa coisa para outro lugar no mundo.",
+				"disabled_description": "Este item está em uso. Tente movê-lo mais tarde."
 			},
 			"open_character_sheet": {
 				"display_name": "Folha de Personagem",
@@ -7553,8 +7554,8 @@
 				"description": "Open this loot container to claim its contents."
 			},
 			"place_item": {
-				"display_name": "Place item",
-				"description": "Place this item in the world."
+				"display_name": "Coloque o item",
+				"description": "Coloque este item no mundo."
 			},
 			"plant_crop": {
 				"plant_corn": {
@@ -7603,9 +7604,9 @@
 				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
 			},
 			"slaughter": {
-				"display_name": "Harvest for Meat",
-				"description": "Harvest this animal for its meat.",
-				"disabled_description": "This animal is so malnourished that it has no meat. It's just skin and bones."
+				"display_name": "Colheita de Carne",
+				"description": "Peça ao seu pastor para colher este animal por sua carne.",
+				"disabled_description": "Este animal é tão desnutrido que não tem carne. É só pele e ossos."
 			},
 			"spawn_glory_wave": {
 				"display_name": "Summon Enemy Wave",
@@ -7614,14 +7615,14 @@
 				"glory_level_achieved_bulletin": "Glory level [str(i18n_data.glory_level)] achieved!"
 			},
 			"undeploy_item": {
-				"display_name": "Undeploy",
-				"description": "Undeploy this item and return it to a stockpile",
-				"disabled_description": "This item is in use. Try undeploying it later."
+				"display_name": "Remover",
+				"description": "Remova este item e retorne-o a um estoque.",
+				"disabled_description": "Este item está em uso. Tente remove-lo depois."
 			},
 			"undeploy_golem": {
-				"display_name": "Undeloy Golem",
-				"description": "Deactivate this golem and return it to a stockpile.",
-				"disabled_description": "Cannot deactivate at this time."
+				"display_name": "Remover Golem",
+				"description": "Desativar este golem e devolvê-lo para um estoque.",
+				"disabled_description": "Não é possível desativar neste momento."
 			},
 			"unit_control": {
 				"abilities": {
@@ -9309,24 +9310,24 @@
 				"violence": {
 					"values": {
 						"townmember_died": {
-							"display_name": "A townmember has died",
-							"tooltip": "A fellow townmember has died. If only we had been more watchful!"
+							"display_name": "Um membro da cidade morreu",
+							"tooltip": "Um colega da cidade morreu. Se ao menos estivéssemos mais vigilantes!"
 						},
 						"pet_died": {
 							"display_name": "Meu animal de estimação morreu",
 							"tooltip": "Meu pobre [str(pet_name)] faleceu recentemente. Vou sentir bastante falta dele."
 						},
 						"saved_from_mortal_wounds": {
-							"display_name": "Saved from mortal wounds",
-							"tooltip": "I would have died back there were it not for those around me! I'm grateful for this second chance."
+							"display_name": "Salvo de feridas mortais",
+							"tooltip": "Eu teria morrido lá trás se não fosse por aqueles ao meu redor! Sou grato por essa segunda chance."
 						}
 					}
 				},
 				"job": {
 					"values": {
 						"gained_a_level": {
-							"display_name": "Improved my skills",
-							"tooltip": "I've been at this job long enough to gain a new insight! I can feel myself becoming better at my work."
+							"display_name": "Melhorei minhas habilidades",
+							"tooltip": "Eu estive neste trabalho tempo suficiente para ganhar uma nova visão! Eu posso me sentir melhor no meu trabalho."
 						}
 					}
 				},
@@ -9513,7 +9514,7 @@
 						},
 						"lucky": {
 							"display_name": "Dia de sorte",
-							"tooltip": "Something good is going to happen today. I just feel it!"
+							"tooltip": "Algo de bom vai acontecer hoje. Estou sentindo isso!"
 						},
 						"snow_negative": {
 							"display_name": "Cold, cold day",
@@ -9536,8 +9537,8 @@
 							"tooltip": "I wonder what wonders lie beneath that mysterious mist."
 						},
 						"sandstorm_positive": {
-							"display_name": "tempestade de areia",
-							"tooltip": "The sands always come to test our fortitude... Mine is unwavering."
+							"display_name": "Tempestade de Areia",
+							"tooltip": "As areias sempre vêm para testar nossa força... A minha é inabalável."
 						},
 						"titanstorm_negative": {
 							"display_name": "The End Times are Upon Us!",
@@ -10598,17 +10599,17 @@
 			},
 			"stone_pile": {
 				"stone_pile": {
-					"description": "Harvest for many hunks of stone",
-					"display_name": "Stone Pile"
+					"description": "Colha para muitos pedaços de pedra",
+					"display_name": "Pilha de Pedras"
 				},
 				"stone_pile_iconic": {
-					"description": "Harvestable for stone when placed"
+					"description": "Colhável para pedra quando colocado"
 				}
 			},
 			"clay_pile": {
-				"display_name": "Clay Pile",
-				"description": "Harvest for a large amount of clay",
-				"iconic_description": "Harvestable for clay when placed"
+				"display_name": "Pilha de Argilha",
+				"description": "Colha para uma grande quantidade de argila",
+				"iconic_description": "Colhável para barro quando colocado"
 			},
 			"wheat_pile": {
 				"display_name": "Large Wheat Bundle",
