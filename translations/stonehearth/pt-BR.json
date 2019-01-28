@@ -17,37 +17,37 @@
 				"repair_entity": "consertando [name(data.target)]",
 				"follow_entity": "seguindo [name(data.target)]",
 				"resting_by_fire": "Descansando perto do fogo",
-				"claiming_animal": "Reivindicando animal",
-				"looking_for_animals": "Procurando por Animais",
-				"collect_ingredient": "Coletando Ingredientes",
-				"build_workshop": "Construindo mesa de trabalho",
-				"death": "Morrendo",
+				"claiming_animal": "reivindicando animal",
+				"looking_for_animals": "procurando por animais",
+				"collect_ingredient": "coletando ingredientes",
+				"build_workshop": "construindo mesa de trabalho",
+				"death": "morrendo",
 				"away_from_town": "longe da cidade",
-				"eat": "Pegando Comida",
+				"eat": "Pegando comida",
 				"find_stray_animal": "procurando rastros",
-				"harvest_field": "Colhendo Campos",
-				"idle": "Inativo",
-				"patrol": "Patrulhando",
-				"plant_crop": "Plantando Sementes",
-				"return_animals": "Retornando ao Pasto",
-				"combat": "Concentrado no Combate",
-				"cower": "Agachado",
-				"flee": "Fugindo",
-				"panic": "Em Pânico",
-				"mine": "Minerando",
-				"sleep_in_bed": "Dormindo",
-				"sleep_on_ground": "Dormindo no Chao",
-				"check_bait_trap": "Checando Armadilhas",
-				"set_bait_trap": "Colocando Armadilhas",
+				"harvest_field": "colhendo campos",
+				"idle": "inativo",
+				"patrol": "patrulhando",
+				"plant_crop": "plantando sementes",
+				"return_animals": "retornando ao pasto",
+				"combat": "concentrado no combate",
+				"cower": "agachado",
+				"flee": "fugindo",
+				"panic": "em pânico",
+				"mine": "minerando",
+				"sleep_in_bed": "dormindo",
+				"sleep_on_ground": "dormindo no chao",
+				"check_bait_trap": "checando armadilhas",
+				"set_bait_trap": "colocando armadilhas",
 				"survey_trapping_grounds": "inspecionando armadilhas",
-				"steal_bait": "Roubando Isca",
-				"build_ladder": "Construindo Escada...",
-				"promote": "Promovendo...",
+				"steal_bait": "roubando isca",
+				"build_ladder": "construindo escada...",
+				"promote": "promovendo...",
 				"move_item_to_storage": "guardando um item",
-				"teardown_ladder": "Removendo Escada...",
+				"teardown_ladder": "removendo Escada...",
 				"drop_item_near_workshop": "limpando a mesa de trabalho",
-				"fabricate_structure": "Construindo...",
-				"teardown_structure": "Destruindo Estruturas...",
+				"fabricate_structure": "construindo...",
+				"teardown_structure": "destruindo estruturas...",
 				"feed_pasture_animals": "alimentando animais",
 				"restock": "reabastecendo itens",
 				"resting_from_injuries": "precisando de atenção médica",
@@ -82,7 +82,7 @@
 					"splitWallTool": "Dividindo Paredes",
 					"roomTool": "Colocando Quartos",
 					"pointerTool": "Ponteiro",
-					"roadTool": "Criando ruas"
+					"roadTool": "Criando Ruas"
 				},
 				"place_build_banner": "Coloque o banner em um local acessível ao lado de sua construção.",
 				"new_building_confirm": {
@@ -104,8 +104,8 @@
 					"no": "Não"
 				},
 				"delete_template_confirm": {
-					"title": "Deletar Modelo",
-					"message": "Tem certeza que quer deletar esse modelo?",
+					"title": "Excluir Modelo",
+					"message": "Tem certeza de que quer excluir esse modelo?",
 					"yes": "Sim!",
 					"no": "Não"
 				},
@@ -123,7 +123,7 @@
 				"building_status": {
 					"build_button": "INICIAR",
 					"pause_button": "PAUSAR",
-					"resume_button": "RETOMAR",
+					"resume_button": "CONTINUAR",
 					"finished_button": "FEITO",
 					"cost_prefix": "Custo:"
 				},
@@ -576,8 +576,8 @@
 					"cancel_button": "Cancelar"
 				},
 				"return_to_menu_dialog": {
-					"title": "Reotrnar para o menu principal",
-					"message": "Deseja Retorna ao Menu Principal? Todo progresso não salvo será perdido.",
+					"title": "Retornar para o menu principal",
+					"message": "Deseja Retornar ao Menu Principal? Todo progresso não salvo será perdido.",
 					"yes_button": "Sim",
 					"cancel_button": "Cancelar"
 				}
@@ -1530,39 +1530,39 @@
 				"initial_load_game_text": "Carregando",
 				"initial_load_map_text": "Gerando Mundo",
 				"loading_map_flavor_text": {
-					"001": "afiando ângulos retos ...",
-					"002": "descomprimindo voxels ...",
-					"003": "sintetizando fauna ...",
-					"004": "redistribuindo redistribuíveis ...",
-					"005": "terreno terraços ...",
-					"006": "pilhas de estocagem...",
-					"007": "inflar árvores ...",
-					"008": "levantando o sol ...",
-					"009": "nuvens flutuantes ...",
-					"010": "apertando as mãos ...",
-					"011": "bagas de arbustos ...",
-					"012": "confabulando a infância ...",
-					"013": "resolvendo o determinismo ...",
-					"014": "cubulando companheirismo ...",
-					"015": "dilemas existencializadores ...",
-					"016": "improvisando a moral ...",
-					"017": "reticuladores de splining ..",
-					"018": "diversificando o gênero ...",
-					"019": "motivação homogeneizadora ...",
-					"020": "derivando história ...",
-					"021": "indexando bugs ...",
-					"022": "compilando a verdade ...",
-					"023": "recordando mármores ...",
-					"024": "efetuando massa ...",
-					"025": "experimentando maior matemática ...",
-					"026": "proliferando flores ...",
-					"027": "escapando do realismo ...",
-					"028": "posicionando plushies ...",
-					"029": "regulador de cabelo ...",
-					"030": "tosquiando ovelhas ...",
-					"031": "percolando o cérebro ...",
-					"032": "cutucando poyos ...",
-					"033": "pegando gotas de chuva ..."
+					"001": "afiando ângulos retos...",
+					"002": "descomprimindo voxels...",
+					"003": "sintetizando fauna...",
+					"004": "redistribuindo redistribuíveis...",
+					"005": "aterrando terreno ...",
+					"006": "estocando em pilhas...",
+					"007": "crescendo árvores...",
+					"008": "levantando o sol...",
+					"009": "nuvens flutuantes...",
+					"010": "apertando as mãos...",
+					"011": "bagas de arbustos...",
+					"012": "confabulando a infância...",
+					"013": "resolvendo o determinismo...",
+					"014": "cubulando companheirismo...",
+					"015": "dilemas existencializadores...",
+					"016": "improvisando a moral...",
+					"017": "reticuladores de splining..",
+					"018": "diversificando o gênero...",
+					"019": "motivação homogeneizadora...",
+					"020": "derivando história...",
+					"021": "indexando bugs...",
+					"022": "compilando a verdade...",
+					"023": "recordando mármores...",
+					"024": "efetuando massa...",
+					"025": "experimentando maior matemática...",
+					"026": "proliferando flores...",
+					"027": "escapando do realismo...",
+					"028": "posicionando plushies...",
+					"029": "regulador de cabelo...",
+					"030": "tosquiando ovelhas...",
+					"031": "percolando o cérebro...",
+					"032": "cutucando galinhas...",
+					"033": "pegando gotas de chuva..."
 				},
 				"tips": {
 					"000": "Se seus trabalhadores ficarem presos em uma mina, você pode construir uma escada para tirá-los!",
@@ -1649,7 +1649,7 @@
 				"gameplay": "Jogabilidade",
 				"controls": "Controles",
 				"card": "Placa de Video: ",
-				"gfx_custom": "Customizado",
+				"gfx_custom": "Personalizado",
 				"gfx_minimum": "Minimo",
 				"gfx_low": "Baixo",
 				"gfx_medium": "Médio",
@@ -1658,17 +1658,17 @@
 				"gfx_cardinfo": "[str(gpuRenderer)]  ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Habilitar Sombras",
 				"gfx_enable_vsync": "Habilitar VSync",
-				"gfx_enable_fullscreen": "Tela Cheia (Requer Reinicio)",
-				"gfx_msaa": "Nivel de Anti-Aliasing",
+				"gfx_enable_fullscreen": "Tela Cheia (Requer Reinício)",
+				"gfx_msaa": "Habilitar Antialiasing",
 				"gfx_shadows": "Detalhes de Sombra",
-				"gfx_max_lights": "Nº Maximo de Luzes",
-				"gfx_max_shadows": "Nº Maximo de Sombras",
+				"gfx_max_lights": "Número Máximo de Luzes",
+				"gfx_max_shadows": "Número Máximo de Sombras",
 				"gfx_drawdistance": "Campo de Visao",
-				"gfx_enable_ssao": "Habilitar Oclusao do Ambiente",
-				"gfx_use_high_quality": "Habilitar Graficos de Alta Qualidade",
+				"gfx_enable_ssao": "Habilitar Oclusão do Ambiente",
+				"gfx_use_high_quality": "Habilitar Gráficos de Alta Qualidade",
 				"gfx_enable_dynamic_icons": "Ativar ícones de balão de fala",
 				"gfx_enable_dynamic_icons_tooltip": "Se desativada, as bolhas de fala não mostrarão ícones de tópicos, mas isso pode resolver problemas nos chips gráficos mais antigos.",
-				"gfx_use_recommended_graphics": "Use as configurações gráficas recomendadas",
+				"gfx_use_recommended_graphics": "Configurações gráficas recomendadas",
 				"gfx_disable_deferred_renderer_description": "<font color='#eb4c36'><strong>AVISO:</strong></font> Desabilitar a renderização adiada causará problemas de desempenho em cidades com muitas luzes. Apenas desative-o como último recurso.",
 				"shadow_0": "Desabilitado",
 				"shadow_1": "Apenas um Toque",
@@ -1682,7 +1682,7 @@
 				"aa_slider_3": "Muito",
 				"aa_slider_4": "Muito Mesmo!",
 				"sound": "Som",
-				"background_music_volume": "Volume da Musica",
+				"background_music_volume": "Volume da Música",
 				"ambient_volume": "Volume do Ambiente",
 				"effects_volume": "Volume dos Efeitos",
 				"system": "Sistema",
@@ -1862,7 +1862,7 @@
 						"debug_toggle_perfhud": "Alternar Perf HUD",
 						"debug_toggle_flame_graph": "Alternar Flame Graph",
 						"debug_switch_debug_shapes": "Alternar exibição de formas de depuração",
-						"debug_crash": "Força Crash",
+						"debug_crash": "Forçar Crash",
 						"debug_toggle_cpu_profiler": "Alternar perfilador de Lua",
 						"debug_render_show_stats": "Mostrar estatísticas de renderização",
 						"debug_render_debug_view": "Visualização de Depuração do Renderer",
@@ -1878,13 +1878,13 @@
 				"continue_game": "Continuar",
 				"new_game": "Novo Jogo",
 				"singleplayer_game": "Um Jogador",
-				"multiplayer_game": "Multi-jogadores",
+				"multiplayer_game": "Multijogador",
 				"load_game": "Carregar Jogo",
 				"mods": "Módulos",
 				"quick_start": "Novo Jogo Rapido",
 				"patch_notes": "Ver Notas de Atualização",
 				"alpha_welcome_dialog": {
-					"title": "Bem vindo a Stonehearth!",
+					"title": "Bem-vindo a Stonehearth!",
 					"message": "Você pode ajudar a tornar o Stonehearth mais estável enviando-nos automaticamente relatórios de erros anônimos do seu jogo.",
 					"accept": "Sim, eu quero ajudar!",
 					"cancel": "Não, Obrigado."
@@ -1892,7 +1892,7 @@
 				"mod_conflic_dialog": {
 					"title": "Detectado Modulos em Conflito!",
 					"message": "Aviso: você tem mods conflitantes que possuem o mesmo nome. Certifique-se de que apenas um mod com esse nome esteja ativado no menu de mods. <br> Se você tiver um .smod e uma pasta simples para o mod, a pasta será usada. Os mods afetados são:<br><br>",
-					"accept": "Sim, Prosseguir."
+					"accept": "Sim, prosseguir."
 				},
 				"mod_dependency_conflict": {
 					"title": "Dependência Circular Detectada!",
@@ -2640,7 +2640,7 @@
 						"reward_message_ctd": "Por atos de incrível valor em combate. A vila é solenemente elegível à:",
 						"tier_2_bldg_template": "Modelos de construção Nível 2",
 						"tier_2_shops": "Lojas Nível 2",
-						"tier_2_BGM": "Musicas Nível 2",
+						"tier_2_BGM": "Músicas Nível 2",
 						"recipe_unlock_engineer": "Nova receita de portcullis para engenheiro!",
 						"recipe_unlock_mason": "Novas receitas de decoração para pedreiro!",
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!",
@@ -8695,7 +8695,7 @@
 								"title": "Abra o Menu de Artesanato do Carpinteiro"
 							},
 							"step005": {
-								"title": "Click no X para fechar a Janela"
+								"title": "Clique no X para fechar a Janela"
 							},
 							"step004": {
 								"title": "Clique no botão Artesanato para criar a oficina"
@@ -18898,35 +18898,35 @@
 			"weaver_loom": {
 				"weaver_loom_ghost": {
 					"display_name": "Tear",
-					"description": "Used to weave thread into cloth."
+					"description": "Usado para tecer os fios no tecido."
 				}
 			},
 			"weaver_outfit": {
-				"display_name": "Weaver Outfit",
-				"description": "Uniform for all weavers"
+				"display_name": "Roupa do Tecelão",
+				"description": "Uniforme para todos os tecelões"
 			},
 			"weaver_spindle": {
-				"display_name": "The Spindle",
-				"description": "For spinning fiber into thread",
+				"display_name": "O Carretel",
+				"description": "Usado para fiar de fibra em fio fino",
 				"weaver_spindle_iconic": {
-					"display_name": "The Spindle",
-					"description": "For spinning fiber into thread"
+					"display_name": "O Carretel",
+					"description": "Usado para fiar de fibra em fio fino"
 				},
 				"weaver_spindle_talisman": {
 					"display_name": "Carretel do Tecelão",
-					"description": "Required to promote a hearthling into a Weaver"
+					"description": "Requisito para promover um colono em um Tecelão"
 				}
 			},
 			"weaver_spinning_wheel": {
 				"weaver_spinning_wheel_ghost": {
 					"display_name": "Roca de Fiar",
-					"description": "Used to spin fiber into thread."
+					"description": "Usado para fiar de fibra em fio fino"
 				}
 			},
 			"weaver_workbench": {
 				"weaver_workbench_ghost": {
-					"display_name": "Weaver Workbench",
-					"description": "Used by the Weaver for crafting."
+					"display_name": "Bancada do Tecelão",
+					"description": "Usado pelo Tecelão para criar."
 				}
 			}
 		},
@@ -18962,154 +18962,154 @@
 		},
 		"herbalist": {
 			"herbalist_description": {
-				"display_name": "Herbalist",
-				"description": "Heals units with crafted balms and bandages.",
-				"requirements": "Crafted by Carpenter",
+				"display_name": "Herbalista",
+				"description": "Cura unidades com bálsamos e ataduras trabalhados.",
+				"requirements": "Ferramenta feita pelo Carpinteiro",
 				"workshop": {
-					"name": "Herbalist Lab",
-					"description": "Allows the Herbalist to craft healing balms and bandages.",
-					"long_description": "Allows the Herbalist to craft healing balms and bandages."
+					"name": "Laboratório Herbalista",
+					"description": "Permite que o Herbalista ofereça bálsamos e ataduras.",
+					"long_description": "Permite que o Herbalista ofereça bálsamos e ataduras."
 				},
 				"level_1_data": {
-					"perk_000_name": "Junior Practitioner",
-					"perk_001_name": "Natural Regeneration",
-					"perk_000_description": "The Herbalist can attend to 2 hurt hearthlings at a time.",
-					"perk_001_description": "The Herbalist channels the spirits of the forest and gains natural regeneration. Willpower and Diligence increased."
+					"perk_000_name": "Praticante Júnior",
+					"perk_001_name": "Regeneração Natural",
+					"perk_000_description": "O Herbalista pode atender a 2 colonos machucados de cada vez.",
+					"perk_001_description": "O Herbalista canaliza os espíritos da floresta e ganha regeneração natural. Força de Vontade e Diligência aumentaram."
 				},
 				"level_2_data": {
-					"perk_000_name": "Collaborative Insight",
-					"perk_000_description": "The Herbalist is now skillful enough to use materials created by the other crafters."
+					"perk_000_name": "Visão Colaborativa",
+					"perk_000_description": "O Herbalista agora é habilidoso o suficiente para usar materiais criados pelos outros artesãos."
 				},
 				"level_4_data": {
-					"perk_000_name": "Power Medic",
-					"perk_000_description": "The Herbalist can now attend to up to 4 hearthlings at a time."
+					"perk_000_name": "Poder Médico",
+					"perk_000_description": "O Herbalista pode agora atender até 4 colono de cada vez."
 				},
 				"level_3_data": {
-					"perk_000_name": "Item Proficiency",
-					"perk_000_description": "The Herbalist's medical prowess increases the effectiveness of healing items by 50%."
+					"perk_000_name": "Proficiência de Itens",
+					"perk_000_description": "O talento médico do Herbalista aumenta em 50% a eficácia dos itens de cura."
 				},
 				"level_6_data": {
-					"title": "Master Herbalist"
+					"title": "Herbalista Mestre"
 				}
 			},
 			"herbalist_outfit": {
-				"display_name": "Herbalist Outfit",
-				"description": "Traditional robes of the Herbalist"
+				"display_name": "Roupa Herbalista",
+				"description": "Vestes tradicionais do Herbalista"
 			},
 			"herbalist_staff": {
-				"display_name": "Cajado do herbalista",
-				"description": "Required to promote a hearthling into an Herbalist",
+				"display_name": "Cajado do Herbalista",
+				"description": "Requisito para promover um colono em um Herbalista.",
 				"herbalist_staff_iconic": {
-					"display_name": "Cajado do herbalista",
-					"description": "Required to promote a hearthling into an Herbalist"
+					"display_name": "Cajado do Herbalista",
+					"description": "Requisito para promover um colono em um Herbalista."
 				},
 				"herbalist_staff_talisman": {
-					"display_name": "Cajado do herbalista",
-					"description": "Required to promote a hearthling into an Herbalist"
+					"display_name": "Cajado do Herbalista",
+					"description": "Requisito para promover um colono em um Herbalista."
 				}
 			},
 			"herbalist_workbench": {
 				"herbalist_workbench_ghost": {
-					"display_name": "Herbalist Lab",
-					"description": "Used to craft healing items"
+					"display_name": "Laboratório do Herbalista",
+					"description": "Usado para criar itens de cura."
 				}
 			},
 			"recipes": {
 				"herbalist_workbench_recipe": {
-					"description": "Allows the Herbalist to craft healing balms and bandages.",
-					"recipe_name": "Herbalist Lab"
+					"description": "Permite que o Herbalista ofereça bálsamos e curativos de cura.",
+					"recipe_name": "Laboratório do Herbalista"
 				},
-				"workbenches_name": "Workbenches",
-				"tonics_name": "Tonics",
+				"workbenches_name": "Bancada de Trabalho",
+				"tonics_name": "Tônicos",
 				"small_healing_tonic_recipe": {
-					"description": "A medicinal drink that heals for a minuscule amount",
-					"recipe_name": "Small Healing Tonic"
+					"description": "Uma bebida medicinal que cura por uma quantidade minúscula",
+					"recipe_name": "Tônico de Cura Pequeno"
 				},
 				"stamina_tonic_recipe": {
-					"description": "Buffs stamina of all hearthlings for a short while",
-					"recipe_name": "Stamina Tonic"
+					"description": "Aumenta a resistência a todos os colonos por um curto período de tempo",
+					"recipe_name": "Tônico de Resistência"
 				},
 				"strength_tonic_recipe": {
-					"description": "Buffs muscle of all hearthlings for a short while",
-					"recipe_name": "Strength Tonic"
+					"description": "Aumenta o músculo de todos os colonos por um curto período de tempo",
+					"recipe_name": "Tônico de Força"
 				},
-				"bandages_name": "Bandages",
+				"bandages_name": "Ataduras",
 				"coarse_bandage_recipe": {
-					"recipe_name": "Coarse Bandage",
-					"description": "Used by the herbalist to heal for a small amount"
+					"recipe_name": "Atadura Grossa",
+					"description": "Usada pelo Herbalista para curar em pequena quantidade."
 				},
 				"heavy_bandage_recipe": {
-					"recipe_name": "Heavy Bandage",
-					"description": "Used by the herbalist to provide a lot of healing. Good for heavy wounds."
+					"recipe_name": "Atadura Pesada",
+					"description": "Usada pelo Herbalista para fornecer muita cura. Boa para feridas graves."
 				},
 				"light_bandage_recipe": {
-					"recipe_name": "Light Bandage",
-					"description": "Used by the herbalist to heal a moderate amount"
+					"recipe_name": "Atadura Leve",
+					"description": "Usada pelo Herbalista para curar feridas moderadas."
 				},
 				"courage_tonic_recipe": {
-					"description": "Increases the courage of all town citizens for a short while.",
-					"recipe_name": "Courage Tonic"
+					"description": "Aumenta a coragem de todos os cidadãos da cidade por um curto período de tempo.",
+					"recipe_name": "Tônico de Coragem"
 				},
 				"energy_tonic_recipe": {
-					"description": "This tonic will make your town citizens less sleepy and move faster for a short while.",
-					"recipe_name": "Energy Tonic"
+					"description": "Este tônico fará com que os cidadãos da sua cidade tenham menos sono e se movam mais rapidamente por um curto período de tempo.",
+					"recipe_name": "Tônico de Energia"
 				},
 				"decorations_name": "Decoração",
 				"cleric_tome_recipe": {
-					"recipe_name": "Cleric's Tome",
-					"description": "Required to promote a hearthling to a cleric"
+					"recipe_name": "Tomo do Clérigo",
+					"description": "Requisito para promover um colono para um clérigo"
 				},
 				"tools_name": "Ferramentas",
 				"frostsnap_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Frostsnap Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Geadas (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas são perdidas no processo."
 				},
 				"cactus_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Wild Cactus Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Cactos Selvagens (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas são perdidas no processo."
 				},
 				"brightbell_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Brightbell Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Sinos Brilhantes (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas são perdidas no processo."
 				},
 				"berry_bush_transmute_recipe": {
-					"description": "Separate seeds from the fruit",
-					"recipe_name": "Berry Bush Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+					"description": "Sementes separadas da fruta",
+					"recipe_name": "Semente de Arbusto de Frutas Silvestre (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas a fruta é perdida no processo."
 				},
-				"refined_name": "Refinement",
+				"refined_name": "Refinamento",
 				"cactus_tulip_blue_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Seeds (Blue x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Tulipa de Cacto (Azul x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"cactus_tulip_red_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Seeds (Red x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Tulipa de Cacto (Vermelha x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"cactus_tulip_yellow_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Seeds (Yellow x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Tulipa de Cacto (Amarela x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"tulip_cactus_red_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Red Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Tulipa de Cacto Vermelha (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"tulip_cactus_blue_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Blue Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Tulipa de Cacto Azul (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"tulip_cactus_yellow_transmute_recipe": {
-					"description": "Separate seeds from the herbs",
-					"recipe_name": "Tulip Cactus Yellow Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"description": "Sementes separadas das ervas",
+					"recipe_name": "Sementes de Tulipa de Cacto Amarela (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"wax_plant_green_transmute_recipe": {
 					"description": "Separate seeds from the plant.",
@@ -19132,7 +19132,7 @@
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
 				},
 				"pear_cactus_recipe": {
-					"description": "Separate seeds from the fruit",
+					"description": "Sementes separadas da fruta",
 					"recipe_name": "Prickly Pear Seeds (x3)",
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
 				},
@@ -19198,7 +19198,7 @@
 				"violet_transmute_recipe": {
 					"description": "Pluck the seeds from the flower",
 					"recipe_name": "Violet Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"tumbleweed_transmute_recipe": {
 					"description": "Pluck spare seeds from the fiber",
@@ -19218,7 +19218,7 @@
 				"snow_poppy_transmute_recipe": {
 					"description": "Pluck the seeds from the flower",
 					"recipe_name": "Snow Poppy Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the herbs are lost in the process."
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				}
 			},
 			"herbalist_buffs": {
@@ -19487,10 +19487,10 @@
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 			"description": "Cidadão de sua cidade",
 			"job": {
-				"starting_level_title": "Lvl:[str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Aprendiz ",
-				"mid_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Journeyman",
-				"max_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Mestre",
-				"default_level_title": "Lvl: [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
+				"starting_level_title": "Nvl:[str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Aprendiz ",
+				"mid_level_title": "Nvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Journeyman",
+				"max_level_title": "Nvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Mestre",
+				"default_level_title": "Nvl: [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
 				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
 				"default_promote_announcement": "[name(i18n_data.entity)] é agora um [str(i18n_data.job_name)] de Nivel [str(i18n_data.level_number)]!",
 				"level_up_perk_description": "+10 pontos de saúde",
@@ -19530,7 +19530,7 @@
 		"monster": {
 			"job": {
 				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)]: Aprendiz",
-				"default_level_title": "Lvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
+				"default_level_title": "Nvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
 				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
 				"default_promote_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_promote_announcement) ",
 				"general_description_desc": "Saúde máxima aumentada!",
@@ -19564,11 +19564,11 @@
 							},
 							"step000": {
 								"title": "Acabamos de colher alguma madeira",
-								"description": "Precisamos coloca-la em algum lugar"
+								"description": "Precisamos colocá-la em algum lugar"
 							},
 							"step003": {
 								"title": "Clique em confirmar",
-								"description": "ultilize o filtro para selecionar o tipo de item que deseja colocar no estoque"
+								"description": "utilize o filtro para selecionar o tipo de item que deseja colocar no estoque"
 							},
 							"step002": {
 								"title": "Clique no botão Estoque para criar um",
