@@ -36,7 +36,7 @@
 				"panic": "em pânico",
 				"mine": "minerando",
 				"sleep_in_bed": "dormindo",
-				"sleep_on_ground": "dormindo no chao",
+				"sleep_on_ground": "dormindo no chão",
 				"check_bait_trap": "checando armadilhas",
 				"set_bait_trap": "colocando armadilhas",
 				"survey_trapping_grounds": "inspecionando armadilhas",
@@ -149,7 +149,7 @@
 				"ff_title": "Avanço Rápido",
 				"ff_description": "Rodar jogo na velocidade 2x",
 				"speedThree_title": "Super Velocidade",
-				"speedThree_description": "Roda o jogo super rapido",
+				"speedThree_description": "Roda o jogo super rápido",
 				"pause_overlay": "Pausado"
 			},
 			"visions": {
@@ -174,7 +174,7 @@
 			"trade_menu": {
 				"title": "Trocar com [str(town_name)]",
 				"you": "[str(town_name)] (Você!)",
-				"offering": "Você está oferencendo: ",
+				"offering": "Você está oferecendo: ",
 				"requesting": "Você está pedindo:",
 				"source_gold": "Seu ouro:",
 				"target_gold": "Ouro dele:",
@@ -214,7 +214,7 @@
 				"title": "Escolha um Jogador"
 			},
 			"multiplayer_menu": {
-				"display_name": "Menu Multiplayer",
+				"display_name": "Menu Multijogador",
 				"description": "Outros jogadores que entraram nesse mundo",
 				"host": "hospedeiro",
 				"client": "convidado",
@@ -227,7 +227,7 @@
 				"players": "Jogadores",
 				"disconnect_player": "Desconectar Jogador",
 				"erase_player": "Destruir Pertences",
-				"remote_connections_disabled": "Multiplayer desligado",
+				"remote_connections_disabled": "Multijogador desligado",
 				"remote_connections_disabled_description": "Ative multijogador nas configurações para permitir que outros jogadores participem do seu jogo",
 				"settings": "Configurações",
 				"trade": "Trocar",
@@ -269,9 +269,9 @@
 				"health": "Saúde",
 				"morale": "Moral",
 				"experience": "Experiência",
-				"max_level": "Nivel Maximo!!!",
+				"max_level": "Nível Máximo!!!",
 				"no_levels": "Sem subir de nível",
-				"level_text": "Nivel ",
+				"level_text": "Nível ",
 				"level_abbreviation": "Lvl ",
 				"locked_status": "(Bloqueado)",
 				"apprentice": "Aprendiz",
@@ -290,7 +290,7 @@
 				"morale_food": "Comida",
 				"morale_shelter": "Abrigo",
 				"morale_safety": "Proteção",
-				"attack_abbreviation": "Atk ",
+				"attack_abbreviation": "Atq ",
 				"defense_abbreviation": "Def ",
 				"backpack_tab_name": "Mochila",
 				"journal_no_entries": "sem registros",
@@ -382,7 +382,7 @@
 				"continue": "Continuar",
 				"hotkey": "Tecla de Atalho: ",
 				"remove": "Remover",
-				"input_text_tooltip": "Click para Editar",
+				"input_text_tooltip": "Clique para Editar",
 				"days": "D",
 				"hours": "H",
 				"the": "o",
@@ -666,7 +666,7 @@
 						},
 						"cancel_task": {
 							"display_name": "Cancelar Tarefa",
-							"description": "Cancel tarefas desse objeto",
+							"description": "Cancela tarefas desse objeto",
 							"tip_title": "Clique e arraste para remover vários comandos",
 							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
@@ -928,7 +928,7 @@
 					"summon_herald": "Evocar Arauto!"
 				},
 				"level_up_bulletin": {
-					"title": "[name(i18n_data.entity)] Subiu de Nivel!",
+					"title": "[name(i18n_data.entity)] Subiu de Nível!",
 					"show_char_sheet": "Folha de Personagem"
 				},
 				"promote_bulletin": {
@@ -1117,7 +1117,7 @@
 					"erase_structure_tip_description": "Clique com o botão direito para sair",
 					"roof_tip_title": "Clique em uma planta baixa para colocar o telhado",
 					"roof_tip_description": "Clique com o botão direito para sair",
-					"raise_walls_tip_title": "Clique em um comodo para adicionar o telhado",
+					"raise_walls_tip_title": "Clique em um cômodo para adicionar o telhado",
 					"raise_walls_tip_description": "Clique com o botão direito para sair",
 					"doodad_tip_title": "Clique em uma parede para colocar a porta ou janela",
 					"doodad_tip_description": "Clique com o botão direito para sair",
@@ -1324,8 +1324,8 @@
 						"tooltip_tools": "Talismãs e Bancadas",
 						"tooltip_wood": "Madeira",
 						"tooltip_stone": "Pedra",
-						"tooltip_clay": "Barro",
-						"tooltip_ore": "Mineios",
+						"tooltip_clay": "Argila",
+						"tooltip_ore": "Minerais",
 						"tooltip_animal_part": "Pele e couro de animais",
 						"tooltip_resource_pile": "pilhas de recursos",
 						"tooltip_plant": "Plantas",
@@ -1394,7 +1394,7 @@
 				"tooltip_appeal_stat": "Apelo",
 				"tooltip_net_worth_stat": "Valor em Ouro",
 				"tooltip_effort_stat": "Esforço (Tempo de Criação)",
-				"damage_stat": "ATK ",
+				"damage_stat": "ATQ ",
 				"armor_stat": "DEF "
 			},
 			"town_overview": {
@@ -1534,7 +1534,7 @@
 					"002": "descomprimindo voxels...",
 					"003": "sintetizando fauna...",
 					"004": "redistribuindo redistribuíveis...",
-					"005": "aterrando terreno ...",
+					"005": "aterrando terreno...",
 					"006": "estocando em pilhas...",
 					"007": "crescendo árvores...",
 					"008": "levantando o sol...",
@@ -1649,9 +1649,9 @@
 				"graphics": "Gráficos",
 				"gameplay": "Jogabilidade",
 				"controls": "Controles",
-				"card": "Placa de Video: ",
+				"card": "Placa de Vídeo: ",
 				"gfx_custom": "Personalizado",
-				"gfx_minimum": "Minimo",
+				"gfx_minimum": "Mínimo",
 				"gfx_low": "Baixo",
 				"gfx_medium": "Médio",
 				"gfx_high": "Alto",
@@ -1664,7 +1664,7 @@
 				"gfx_shadows": "Detalhes de Sombra",
 				"gfx_max_lights": "Número Máximo de Luzes",
 				"gfx_max_shadows": "Número Máximo de Sombras",
-				"gfx_drawdistance": "Campo de Visao",
+				"gfx_drawdistance": "Campo de Visão",
 				"gfx_enable_ssao": "Habilitar Oclusão do Ambiente",
 				"gfx_use_high_quality": "Habilitar Gráficos de Alta Qualidade",
 				"gfx_enable_dynamic_icons": "Ativar ícones de balão de fala",
@@ -1694,7 +1694,7 @@
 				"send_anon_data": "Mande feedback anonimo para ajudar a melhorar o Stonehearth!",
 				"language_select": "Idioma",
 				"unsaved_changes_dialog": {
-					"title": "Descartar alteraçoes?",
+					"title": "Descartar alterações?",
 					"message": "Deseja descartar as alterações não salvas?"
 				},
 				"gameplay_tab": {
@@ -1725,14 +1725,14 @@
 				"mods": "Módulos",
 				"mods_tab": {
 					"title": "Módulos Instalado",
-					"note": "Abilitar Ou Desabilitar um Módulo Requer Reinicio.",
-					"invalid_manifest": "Manifest Invalido",
+					"note": "Habilitar Ou Desabilitar um Módulo Requer Reinício.",
+					"invalid_manifest": "Manifest Inválido",
 					"invalid_steam_file": "ID de arquivo do Steam inválido",
 					"out_of_date": "Desatualizado",
 					"deferred_load": "Carregado Automaticamente por outros módulos",
 					"required": "Necessário",
 					"debug": "Módulo para Debug",
-					"localization": "Isto é um mod de tradução?",
+					"localization": "Isto é um módulo de tradução?",
 					"loading_namespace": "[ carregando... ]",
 					"mods_changed_dialog": {
 						"title": "Módulos Mudaram",
@@ -1782,7 +1782,7 @@
 						"cam_pan_left": "Mover Câmera pra Esquerda",
 						"cam_pan_right": "Mover Câmera pra Direita",
 						"cam_orb_left": "Rodar Câmera pra Esquerda",
-						"cam_orb_right": "Rodar Câmera pra DIreita",
+						"cam_orb_right": "Rodar Câmera pra Direita",
 						"cam_orb_up": "Rodar Câmera pra Cima",
 						"cam_orb_down": "Rodar Câmera pra Baixo",
 						"cam_zoom_in": "Mais Zoom",
@@ -1805,7 +1805,7 @@
 						"speed_three": "Super Velocidade",
 						"town_overview": "Menu de informações da cidade",
 						"citizen_manager": "Menu dos cidadãos",
-						"multiplayer_menu": "Menu Multiplayer",
+						"multiplayer_menu": "Menu Multijogador",
 						"harvest_menu": "Menu Colheita",
 						"harvest_harvest": "Ferramenta de Colheita",
 						"harvest_mine_basic": "Ferramenta de Minerar",
@@ -1861,7 +1861,7 @@
 						"debug_toggle_save_stress_test": "Alternar Salvar Teste de Estresse",
 						"debug_toggle_debug_nodes": "Alternar nós de depuração",
 						"debug_toggle_perfhud": "Alternar Perf HUD",
-						"debug_toggle_flame_graph": "Alternar Flame Graph",
+						"debug_toggle_flame_graph": "Alternar Gráfico de Chamas",
 						"debug_switch_debug_shapes": "Alternar exibição de formas de depuração",
 						"debug_crash": "Forçar Crash",
 						"debug_toggle_cpu_profiler": "Alternar perfilador de Lua",
@@ -1882,7 +1882,7 @@
 				"multiplayer_game": "Multijogador",
 				"load_game": "Carregar Jogo",
 				"mods": "Módulos",
-				"quick_start": "Novo Jogo Rapido",
+				"quick_start": "Novo Jogo Rápido",
 				"patch_notes": "Ver Notas de Atualização",
 				"alpha_welcome_dialog": {
 					"title": "Bem-vindo a Stonehearth!",
@@ -1891,7 +1891,7 @@
 					"cancel": "Não, Obrigado."
 				},
 				"mod_conflic_dialog": {
-					"title": "Detectado Modulos em Conflito!",
+					"title": "Detectado Módulos em Conflito!",
 					"message": "Aviso: você tem mods conflitantes que possuem o mesmo nome. Certifique-se de que apenas um mod com esse nome esteja ativado no menu de mods. <br> Se você tiver um .smod e uma pasta simples para o mod, a pasta será usada. Os mods afetados são:<br><br>",
 					"accept": "Sim, prosseguir."
 				},
@@ -2057,7 +2057,7 @@
 				"your_version": "Sua versão: [str(version)]",
 				"their_version": "Versão deles: [str(version)]",
 				"continue": "Continuar ao Jogo",
-				"loading": "Carregando ao jogo ...",
+				"loading": "Carregando ao jogo...",
 				"subscribe_all": "Inscrever-se em tudo",
 				"no_steam_cant_sync": "Está faltando um ou mais dos mods acima. Peça ao seu anfitrião para enviá-los para você, ou conecte-se ao Steam e procure por eles na oficina Steam.",
 				"not_seen_in_workshop_cant_sync": "Um ou mais dos mods faltantes não estão disponíveis na Oficina Steam. Eles podem não ter sido enviados ou ser visualizados apenas pelo host. Peça para fazer upload ou alterar suas permissões e tente se conectar novamente.",
@@ -2155,7 +2155,7 @@
 			},
 			"select_game_story": {
 				"title": "Escolha a sua Aventura",
-				"story_start": "Esta é a história de ...",
+				"story_start": "Esta é a história de...",
 				"kingdom_section_start": "... um bravo grupo de colonos de",
 				"select_button": "? ",
 				"kingdom_picker_title": "Selecione um Reino",
@@ -2181,7 +2181,7 @@
 						"post_selection_text": "um lugar assustador para começar do zero."
 					}
 				},
-				"biome_warning_title": "Cuidado, viajantes ...",
+				"biome_warning_title": "Cuidado, viajantes...",
 				"biome_warning_text": "Criar recursos pode ser difícil de encontrar quando [str(kingdom)] não está em seu bioma preferido, o [str(preferred_biome)].<br><br>Você ainda quer continuar com sua seleção atual?",
 				"begin_button": "Iniciar"
 			},
@@ -2575,9 +2575,9 @@
 									"choice_000": "Obrigado Senhor!",
 									"bulletin_message": {
 										"000": "Bem-vindos à área, pessoal! Santo cristo, vocês parecem estarem morrendo de fome. Aqui está algo pra lhes ajudar:",
-										"001": "Acabando de celebrar o dia de embarque, não? Animem-se! Vocês parecen que poderiam tirar um bom proveito de algumas coisas gostosas. Que tal eu lhes dar:",
+										"001": "Acabando de celebrar o dia de embarque, não? Animem-se! Vocês parecem que poderiam tirar um bom proveito de algumas coisas gostosas. Que tal eu lhes dar:",
 										"002": "Estrangeiros! Benção de Cid. Tome aqui algo pra ajudar vocês nesse começo.",
-										"003": "Longa jornada através das montanhas, não? Bem, você está em um bom lugar agora. Tome aqui algo pra ajudar-los a começar:",
+										"003": "Longa jornada através das montanhas, não? Bem, você está em um bom lugar agora. Tome aqui algo pra ajudá-los a começar:",
 										"004": "Bem-vindos, estrangeiros!! Aqui um presente pra ajudá-los!"
 									},
 									"bulletin_title": "Um viajante se aproxima.",
@@ -2587,29 +2587,29 @@
 						}
 					},
 					"returning_trader_encounter": {
-						"title": "Um mercante se aproxima de sua vila.",
+						"title": "Um comerciante se aproxima de sua vila.",
 						"days": " dias",
 						"hours": " horas",
 						"trade_details": "Olá [str(i18n_data.town_name)]! Estou apenas de passagem, mas eu poderia fazer uma troca ou duas, caso esteja interessado. Se você me fizer <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, eu voltarei em [str(i18n_data.num_days)] dias e poderei lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> em troca. Soa um bom negócio?",
-						"waiting_title": "O mercante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
-						"waiting_text": "O mercante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você tiver <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> preparados para ele.",
-						"return_title": "O mercante retornou!",
+						"waiting_title": "O comerciante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+						"waiting_text": "O comerciante voltará em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você tiver <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> preparados para ele.",
+						"return_title": "O comerciante retornou!",
 						"return_greetings_positive": "Estou de volta! Parece que você fez as [str(i18n_data.want_number)] [str(i18n_data.want_item)] que eu pedi. Ainda planeja trocá-los comigo? Lhe darei [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] em troca. Ainda gostas da ideia?",
 						"return_greetings_negative": "Estou de volta! Mas parece que você não fez as [str(i18n_data.want_number)] [str(i18n_data.want_item)] que eu pedi. Isso é triste! Talvez na próxima vez!"
 					},
 					"returning_crop_trader_encounter": {
-						"title": "Um mercante trás sementes de uma terra distante.",
+						"title": "Um comerciante trás sementes de uma terra distante.",
 						"trade_details": "Olá [str(i18n_data.town_name)]! Estava apenas passando por aqui, mas pensei em fazer uma troca ou duas, caso estejam interessados. Caso me façam <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>, estarei de volta em [str(i18n_data.num_days)] dias e poderei lhes trazer [str(i18n_data.reward_item)] em troca. O que achas?",
-						"waiting_title": "O mercante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
-						"waiting_text": "O mercante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] caso tenham [str(i18n_data.want_number)] [str(i18n_data.want_item)] prontos para ele.",
-						"return_title": "O mercante retornou!",
+						"waiting_title": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+						"waiting_text": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] caso tenham [str(i18n_data.want_number)] [str(i18n_data.want_item)] prontos para ele.",
+						"return_title": "O comerciante retornou!",
 						"return_greetings_positive": "Estou de volta! Parece que vocês fizeram as [str(i18n_data.want_number)] [str(i18n_data.want_item)] que eu pedi. Ainda planeja trocá-los comigo? Lhe darei [str(i18n_data.reward_item)] em troca. Ainda gostas da ideia?",
 						"return_greetings_negative": "Estou de volta, mas parece que vocês não fizeram as [str(i18n_data.want_number)] [str(i18n_data.want_item)] que eu pedi. Isso é triste, quem sabe na próxima?"
 					},
 					"rugs_shop": {
 						"shop_info": {
 							"name": "Trajes e Tecidos do Havaad",
-							"title": "Um simples mercante chegou com algumas mercadorias para vender"
+							"title": "Um simples comerciante chegou com algumas mercadorias para vender"
 						}
 					},
 					"stonecutter_shop": {
@@ -2626,7 +2626,7 @@
 					},
 					"woodcutter_shop": {
 						"shop_info": {
-							"name": "Madereira do Norm Windriser",
+							"name": "Madeireira do Norm Windriser",
 							"title": "Norm Windriser chegou com mercadorias para vender"
 						}
 					},
@@ -2657,7 +2657,7 @@
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!"
 					},
 					"crafting_tier_2_reached": {
-						"reward_message_ctd": "Por excelencia na arte do artesanato. A vila é solenemente elegível à:",
+						"reward_message_ctd": "Por excelência na arte do artesanato. A vila é solenemente elegível à:",
 						"recipe_unlock_mason": "Nova fonte e receitas de estátua para pedreiro!",
 						"recipe_unlock_carpenter": "Novas decorações e cercas para carpinteiro!",
 						"recipe_unlock_herbalist": "Decorações de arbustos novos para herborista!",
@@ -2730,7 +2730,7 @@
 								},
 								"herald_announcement": {
 									"bulletin_message": {
-										"000": "Exelente! Messire Burlyhands disse que você estaria aqui, mas é sempre um pouco complicado ir nos primeiros dias. Podemos começar?"
+										"000": "Excelente! Messire Burlyhands disse que você estaria aqui, mas é sempre um pouco complicado ir nos primeiros dias. Podemos começar?"
 									},
 									"bulletin_title": "Anwyn desenrola um pergaminho",
 									"dialog_title": "O honorável Anwyn Redelm",
@@ -2774,7 +2774,7 @@
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Exelente! Em adição à um monumento apropriado, sua vila deverá ter acumulado uma certa quantia de valor. Eu deixarei os requisitos com você, para caso precise consulta-los novamente, ou caso apareça outra oportunidade que lhe faça mudar de ideia em relação à sua primeira escolha."
+										"000": "Excelente! Em adição à um monumento apropriado, sua vila deverá ter acumulado uma certa quantia de valor. Eu deixarei os requisitos com você, para caso precise consultá-los novamente, ou caso apareça outra oportunidade que lhe faça mudar de ideia em relação à sua primeira escolha."
 									},
 									"bulletin_title": "Anwyn enrola o pergaminho",
 									"dialog_title": "O honorável Anwyn Redelm",
@@ -2877,7 +2877,7 @@
 								"pets_shop_1": {
 									"shop_info": {
 										"name": "Pet Shop de Avelyn",
-										"title": "Um guarda florestal local está passando, oferecendo animais de estimação para adotar"
+										"title": "Um guarda-florestal local está passando, oferecendo animais de estimação para adotar"
 									}
 								},
 								"pets_shop_2": {
@@ -2996,7 +2996,7 @@
 									"choice_000": "Uh... tá?",
 									"choice_001": "Estou confuso. Desculpa.",
 									"bulletin_message": {
-										"000": "Emprestar força para a ascenção, significa a queda quando a força falha. Ogo não recebe seu poder de seu porta-voz, mas sim do bebê que ele roubou."
+										"000": "Emprestar força para a ascensão, significa a queda quando a força falha. Ogo não recebe seu poder de seu porta-voz, mas sim do bebê que ele roubou."
 									},
 									"bulletin_title": "A figura balança a cabeça",
 									"dialog_title": "??"
@@ -3007,7 +3007,7 @@
 									"bulletin_message": {
 										"000": "Eu? Eu sou o que observa. Você. Ele. Pela estrela. Pelo destino.",
 										"001": "Eu? Eu sou da Fornalha Vermelha. Nós poderíamos ser seus salvadores, mas seu Cid apostou alto em seu lugar. Então agora observaremos. E esperaremos pelo dia que sua estrela ascenderá.",
-										"002": "Eu! Suponho que você tenha ganhado sua parte. Eu sou uma brasa na forja, uma faísca no ar. Eu observo, para que eu saiba quando for o momento do fogo engulir todos nós.",
+										"002": "Eu! Suponho que você tenha ganhado sua parte. Eu sou uma brasa na forja, uma faísca no ar. Eu observo, para que eu saiba quando for o momento do fogo engolir todos nós.",
 										"003": "Eu? Hoje, isso não importa. Amanhã, caso você ainda esteja vivo, você poderá me chamar de Erderne, da Fornalha Vermelha."
 									},
 									"bulletin_title": "Ela sorri com um brilho em seus dentes",
@@ -3019,7 +3019,7 @@
 									"bulletin_message": {
 										"000": "Lutem com o máximo de sí, pequeno vilarejo. Não há sentido no destino. Mas se existisse, o seu seria ascender."
 									},
-									"bulletin_title": "Ela ascena firmemente",
+									"bulletin_title": "Ela acena firmemente",
 									"dialog_title": "??"
 								},
 								"flute_description": {
@@ -3048,7 +3048,7 @@
 									"choice_000": "Sem chance!",
 									"choice_001": "Uh.",
 									"bulletin_message": {
-										"000": "Adivinho mágico! Fala com os antigos! Conta o futuro! Ele vê ... ele vê Red Kiln caindo, nova estrela em ascensão. Essa estrela é Ogo. Desta vez, escolhemos o lado vencedor!",
+										"000": "Adivinho mágico! Fala com os antigos! Conta o futuro! Ele vê... ele vê Red Kiln caindo, nova estrela em ascensão. Essa estrela é Ogo. Desta vez, escolhemos o lado vencedor!",
 										"001": "Adivinho velha, velha cobra. Fala com ossos e escamas. Vê o futuro! Vê o final do ciclo, terminando para sempre. Não tenho certeza do que ele quer dizer, mas bom para o Ogo!",
 										"002": "Goblin Adivinho, obviamente! Goblin que pode ver o futuro! Ele diz que os velhos estão morrendo, nova estrela se elevando. Bom para Ogo, ruim para todos os outros, você incluído!"
 									},
@@ -3168,7 +3168,7 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Tem sido bem tranquilo, mas você sabe ...? É um mau sinal quando os pássaros param de cantar."
+										"00": "Tem sido bem tranquilo, mas você sabe...? É um mau sinal quando os pássaros param de cantar."
 									},
 									"bulletin_title": "O viajante coça a orelha",
 									"dialog_title": "Viajante"
@@ -3276,21 +3276,21 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Diga a minha ovelha ... eu a ama sempre ..."
+										"00": "Diga a minha ovelha... eu a ama sempre..."
 									},
 									"bulletin_title": "[name(i18n_data.boss)] está derrotado!",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Você não ganha. Ogo ... vindo. Adivinho dizer ... Ogo ... esmagar todo mundo ..."
+										"00": "Você não ganha. Ogo... vindo. Adivinho dizer... Ogo... esmagar todo mundo..."
 									},
 									"bulletin_title": "[name(i18n_data.boss)] está derrotado!",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ai ... isso dói ..."
+										"00": "Ai... isso dói..."
 									},
 									"bulletin_title": "[name(i18n_data.boss)] está derrotado!",
 									"dialog_title": "[name(i18n_data.boss)] "
@@ -3416,7 +3416,7 @@
 										"campfire": {
 											"campfire": {
 												"display_name": "Fogueira hipnótica",
-												"description": "Mas ... o que torna verde?"
+												"description": "Mas... o que torna verde?"
 											},
 											"workers": {
 												"description": "Guarda-fogo"
@@ -3876,7 +3876,7 @@
 										"thief_campfire": {
 											"campfire": {
 												"display_name": "Fogueira hipnótica",
-												"description": "Mas ... o que torna verde?"
+												"description": "Mas... o que torna verde?"
 											},
 											"workers": {
 												"description": "Trabalhador"
@@ -3930,7 +3930,7 @@
 												},
 												"collection_failed": {
 													"bulletin_message": {
-														"000": "Estou profundamente desapontado ... Eu sugiro que se preparem. Os asseclas da floresta falam de uma invasão."
+														"000": "Estou profundamente desapontado... Eu sugiro que se preparem. Os asseclas da floresta falam de uma invasão."
 													},
 													"bulletin_title": "O Ent franziu a testa"
 												},
@@ -4595,7 +4595,7 @@
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Saudações amigaveis! Por fim, posso ver seu assentamento pessoalmente. Você se desenvolveu ainda mais rápido do que eu esperava, todos deveriam estar orgulhosos!"
+														"00": "Saudações amigáveis! Por fim, posso ver seu assentamento pessoalmente. Você se desenvolveu ainda mais rápido do que eu esperava, todos deveriam estar orgulhosos!"
 													},
 													"bulletin_title": "Uma abordagem de um camarada oficial!",
 													"dialog_title": "Não é um pássaro desta vez",
@@ -5071,7 +5071,7 @@
 										"00": "Um estranho pássaro chega com uma carta no bico, marcada com o Selo Oficial da Ascendência. <br> <br> <p align = 'right'> <font size = -6 color = '#cccccc'> O pássaro também carrega um crachá, que diz 'Harold' </font> </p>"
 									},
 									"bulletin_title": "Um estranho pássaro!",
-									"dialog_title": "Um pássaro ... mensageiro?",
+									"dialog_title": "Um pássaro... mensageiro?",
 									"choice_000": "Abra a carta",
 									"choice_001": "[pular] Sabemos qual banner queremos."
 								},
@@ -5089,7 +5089,7 @@
 									},
 									"bulletin_title": "A carta continua",
 									"dialog_title": "A carta continua...",
-									"choice_000": "Banner ... Hmm ..."
+									"choice_000": "Banner... Hmm..."
 								}
 							}
 						}
@@ -5217,7 +5217,7 @@
 						"title": "Um tentáculo ameaça uma estrutura! Mate-o rapidamente!"
 					},
 					"alert_building_was_destroyed": {
-						"title": "Um dos nossos edifícios foi destruído! Nós estávamos muito atrasados ..."
+						"title": "Um dos nossos edifícios foi destruído! Nós estávamos muito atrasados..."
 					},
 					"alert_tentacle_grab": {
 						"title": "Um tentáculo agarra [name(i18n_data.entity)]! Liberte-os!"
@@ -7189,7 +7189,7 @@
 				},
 				"hit_by_titanstorm_debuff": {
 					"display_name": "Oprimido pela tempestade de Titã",
-					"description": "A Tempestade do Mal drenou severamente a energia deste Hearthling. Não é fatal, mas é doloroso ..."
+					"description": "A Tempestade do Mal drenou severamente a energia deste Hearthling. Não é fatal, mas é doloroso..."
 				}
 			},
 			"deity_town_bonus": {
@@ -7285,7 +7285,7 @@
 			"titan_trance": {
 				"titan_trance_debuff": {
 					"display_name": "Visões Maléficas",
-					"description": "Superado por visões da escuridão. Eles vão sair disso ... tomara."
+					"description": "Superado por visões da escuridão. Eles vão sair disso... tomara."
 				}
 			},
 			"titan_building_destroyer": {
@@ -8626,7 +8626,7 @@
 				},
 				"wolf": {
 					"display_name": "Besta Corrompida",
-					"description": "Talvez um lobo, uma vez ..."
+					"description": "Talvez um lobo, uma vez..."
 				},
 				"zilla": {
 					"display_name": "Wyrm Titã",
@@ -8758,7 +8758,7 @@
 				"tooltip": "Uma boa coleção de habilidades artesanais, mas falta de comida."
 			},
 			"money_solves_all_problems": {
-				"description": "Qualquer coisa que a cidade precisa, eles devem ser capazes de comprar de um comerciante. Ou seja, presumindo que alguém os encontre e tenha os bens apropriados para venda ...",
+				"description": "Qualquer coisa que a cidade precisa, eles devem ser capazes de comprar de um comerciante. Ou seja, presumindo que alguém os encontre e tenha os bens apropriados para venda...",
 				"display_name": "Dinheiro resolve todos os problemas",
 				"tooltip": "Uma opção arriscada, mas potencialmente muito benéfica. Tudo depende de quando e o que os comerciantes trazem."
 			},
@@ -8825,7 +8825,7 @@
 			"professor": {
 				"professor_trait": {
 					"display_name": "Professor ",
-					"description": "[name(i18n_data.entity)] ajudará as pessoas a adquirirem experiência no básico de sua classe, embora suas explicações tendam a ser um pouco ... demoradas."
+					"description": "[name(i18n_data.entity)] ajudará as pessoas a adquirirem experiência no básico de sua classe, embora suas explicações tendam a ser um pouco... demoradas."
 				}
 			},
 			"featherweight": {
@@ -8849,7 +8849,7 @@
 			"hothead": {
 				"hothead_trait": {
 					"display_name": "Cabeça quente",
-					"description": "[name(i18n_data.entity)] nunca desiste voluntariamente de uma briga. Mesmo daquelas que provavelmente deveriam ..."
+					"description": "[name(i18n_data.entity)] nunca desiste voluntariamente de uma briga. Mesmo daquelas que provavelmente deveriam..."
 				}
 			},
 			"night_owl": {
@@ -8974,7 +8974,7 @@
 					},
 					"starving": {
 						"display_name": "Morrendo de fome",
-						"tooltip": "Meu estômago está em nós! Se eu não encontrar algo para comer em breve ..."
+						"tooltip": "Meu estômago está em nós! Se eu não encontrar algo para comer em breve..."
 					},
 					"values": {
 						"stuffed": {
@@ -9058,7 +9058,7 @@
 					},
 					"herbivore_ate_meat": {
 						"display_name": "Eu comi carne! NÂOOO!",
-						"tooltip": "Eu não posso acreditar que eu comi um [str(foodname)]. Eu posso imaginar o quão fofo deve ter sido ... antes ..."
+						"tooltip": "Eu não posso acreditar que eu comi um [str(foodname)]. Eu posso imaginar o quão fofo deve ter sido... antes..."
 					},
 					"carnivore_ate_veggies": {
 						"display_name": "Eu comi uma planta! Bleh!",
@@ -9744,7 +9744,7 @@
 			},
 			"thunderstorm": {
 				"display_name": "Tempestade",
-				"description": "Trovão rolou ... Ele rolou um 6. <ul> <li> A velocidade de crescimento das plantas aumenta ligeiramente. </li> <li> O alcance da visão é reduzido. </li> <li> Hearthlings sem proteção às vezes são atingidos por um raio. </li> <li> O chão e as árvores às vezes são atingidos por raios. </li> </ul>"
+				"description": "Trovão rolou... Ele rolou um 6. <ul> <li> A velocidade de crescimento das plantas aumenta ligeiramente. </li> <li> O alcance da visão é reduzido. </li> <li> Hearthlings sem proteção às vezes são atingidos por um raio. </li> <li> O chão e as árvores às vezes são atingidos por raios. </li> </ul>"
 			},
 			"sunny": {
 				"display_name": "Ensolarado",
@@ -9763,7 +9763,7 @@
 				"description": "Tape os olhos. Cubra seus ouvidos. Na verdade, basta ficar em casa. <ul> <li> As pessoas desabrigadas estão quentes demais para trabalhar com eficiência. </li> <li> O alcance da visão é levemente reduzido. </li> <li> Nuvens de areia atravessam a paisagem destruindo colheitas e ferindo todos. </li> </ul>",
 				"sandy_day": {
 					"display_name": "Empoeirado",
-					"description": "Há areia e poeira ... em todos os lugares! <ul> <li> Os hearthlings desimpedidos estão muito quentes para trabalhar de forma tão eficaz. </li> <li> O alcance de visão é apenas ligeiramente reduzido. </li> </ul>"
+					"description": "Há areia e poeira... em todos os lugares! <ul> <li> Os hearthlings desimpedidos estão muito quentes para trabalhar de forma tão eficaz. </li> <li> O alcance de visão é apenas ligeiramente reduzido. </li> </ul>"
 				}
 			},
 			"rain": {
@@ -10943,7 +10943,7 @@
 			"boar": {
 				"display_name": "Um javali",
 				"species": "javali",
-				"description": "Cheira como algo ... fedorento ... Come um pouco de tudo."
+				"description": "Cheira como algo... fedorento... Come um pouco de tudo."
 			},
 			"beetle": {
 				"species": "besouro",
@@ -13700,7 +13700,7 @@
 				"egg": {
 					"dragon_nature_egg_fertilized_ghost": {
 						"display_name": "Ovo de dragão natureza",
-						"description": "Tão misterioso! Deve ser colocado em algum lugar seguro e quente ..."
+						"description": "Tão misterioso! Deve ser colocado em algum lugar seguro e quente..."
 					},
 					"dragon_copper_egg_fertilized_ghost": {
 						"display_name": "Copper Dragon Egg",
@@ -14531,7 +14531,7 @@
 			},
 			"rabbit_statue": {
 				"display_name": "Um monumento antigo",
-				"description": "Musgoso, mas a pedra ainda é boa ..."
+				"description": "Musgoso, mas a pedra ainda é boa..."
 			}
 		},
 		"refined": {
@@ -14972,7 +14972,7 @@
 			"plushie_toy_rabbit": {
 				"plushie_toy_rabbit_ghost": {
 					"display_name": "Coelho De Brinquedo De Pelúcia",
-					"description": "Um brinquedo ... para as crianças, claro."
+					"description": "Um brinquedo... para as crianças, claro."
 				}
 			}
 		},
@@ -19446,7 +19446,7 @@
 			"npc_miner": {
 				"npc_miner_description": {
 					"display_name": "Minerador",
-					"description": "Minera terrano.",
+					"description": "Minera o terreno.",
 					"requirements": "Nenhum",
 					"level_1_data": {
 						"title": "Minerador"
@@ -19492,8 +19492,8 @@
 				"mid_level_title": "Nvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Journeyman",
 				"max_level_title": "Nvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]: Mestre",
 				"default_level_title": "Nvl: [str(i18n_data.level_number)] [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
-				"default_promote_announcement": "[name(i18n_data.entity)] é agora um [str(i18n_data.job_name)] de Nivel [str(i18n_data.level_number)]!",
+				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nível [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
+				"default_promote_announcement": "[name(i18n_data.entity)] é agora um [str(i18n_data.job_name)] de Nível [str(i18n_data.level_number)]!",
 				"level_up_perk_description": "+10 pontos de saúde",
 				"attribute_up_desc": "Todos os atributos incrementados!"
 			}
@@ -19532,7 +19532,7 @@
 			"job": {
 				"starting_level_title": "[str(self.stonehearth:job.curr_job_name)]: Aprendiz",
 				"default_level_title": "Nvl: [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
-				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nivel [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
+				"default_level_announcement": "[name(i18n_data.entity)] alcançou o Nível [str(i18n_data.level_number)] de [str(i18n_data.job_name)]!",
 				"default_promote_announcement": "i18n(stonehearth:stonehearth_mixins.base_human.job.default_promote_announcement) ",
 				"general_description_desc": "Saúde máxima aumentada!",
 				"attribute_up_desc": "Todos os atributos incrementados!"
