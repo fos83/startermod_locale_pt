@@ -359,20 +359,20 @@
 				"trader": {
 					"iskender_caravan_1": {
 						"shop_info": {
-							"name": "Iskender Trading Caravan",
-							"title": "The Iskender Trading Caravan returns!"
+							"name": "Caravana Comercial Iskender",
+							"title": "A Caravana Comercial Iskender retorna!"
 						}
 					},
 					"iskender_caravan_2": {
 						"shop_info": {
-							"name": "Iskender Trading Caravan",
-							"title": "The Iskender Trading Caravan returns with more things!"
+							"name": "Caravana Comercial Iskender",
+							"title": "A Caravana Comercial Iskender retorna com mais coisas!"
 						}
 					},
 					"iskender_caravan_3": {
 						"shop_info": {
-							"name": "Iskender Trading Caravan",
-							"title": "The Iskender Trading Caravan returns!"
+							"name": "Caravana Comercial Iskender",
+							"title": "A Caravana Comercial Iskender retorna!"
 						}
 					},
 					"starting_food_donation": {
@@ -380,15 +380,15 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"000": "Haha, there's nothing like the sight of a brand new outpost, eh? With your hard work, this desolate land will soon be a nexus of wealth and prosperity! We'll be back tomorrow with the whole store, but in the meantime, here's the starting stake the Company provided:",
-										"001": "Monkey keep you, friends! It's always a pleasure to see a party make it to their designated tradepoint. As per your contract, we'll be back with the whole store tomorrow. In the meantime, here are the starting supplies the Company provides for new outposts:",
+										"000": "Haha, não há nada como a visão de um novo posto avançado, hein? Com o seu trabalho duro, esta terra desolada em breve será um nexo de riqueza e prosperidade! Estaremos de volta amanhã com toda a loja, mas enquanto isso, aqui está a participação inicial que a Empresa forneceu:",
+										"001": "Que o Macaco lhes protejam, amigos! É sempre um prazer ver um grupo chegar ao seu ponto de comércio designado. De acordo com seu contrato, estaremos de volta com toda a loja amanhã. Enquanto isso, aqui estão os suprimentos iniciais que a Empresa fornece para os novos postos avançados:",
 										"002": "The Iskender Trading Company is always looking for a new place to rest between routes. We're pleased to see you out here, friends! We'll be back with the store tomorrow, but in the meantime, have a sample of our goods, to get you started:",
-										"003": "All ready to start a new outpost, eh! My friends, the desert welcomes all its children. We'll be back tomorrow to check on you, but in the meantime, the Company sent these supplies to get you started:",
-										"004": "Aha, a new potential partner for the Iskender Trading Company! We must return tomorrow with the whole store, but tell you what: take this seed investment, and see what you can turn it into for us, eh?"
+										"003": "Tudo pronto para começar um novo posto avançado, hein? Meus amigos, o deserto acolhe todos os seus filhos. Voltaremos amanhã para ver vocês, mas enquanto isso, a Empresa enviou esses suprimentos para vocês começarem:",
+										"004": "Aha, um novo parceiro em potencial para a Empresa Comercial Iskender! Devemos voltar amanhã com a loja toda, mas te digo o seguinte: tome essas sementes como um investimento e veja em que você pode transformá-las para nós."
 									},
-									"bulletin_title": "An Iskender Agent Approaches",
+									"bulletin_title": "Um agente Iskender se aproxima",
 									"dialog_title": "Naryal Iskender",
-									"choice_000": "Many thanks!"
+									"choice_000": "Muito obrigado!"
 								}
 							}
 						}
@@ -649,24 +649,24 @@
 						}
 					},
 					"banner_upgrade_cunning": {
-						"reward_message_ctd": "to be an outpost paving the roads to become a trade hub."
+						"reward_message_ctd": "para ser um posto avançado que pavimenta as estradas para se tornar um centro comercial."
 					},
 					"banner_upgrade_strength": {
-						"reward_message_ctd": "to be an outpost on its way to be a safe haven for all."
+						"reward_message_ctd": "para ser um posto avançado a caminho de ser um refúgio seguro para todos."
 					},
 					"banner_upgrade_vitality": {
-						"reward_message_ctd": "to be an outpost aiming to revive the surrounding nature."
+						"reward_message_ctd": "ser um posto avançado com o objetivo de reviver a natureza adjacente."
 					},
 					"bird_departs": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Once the outpost founding forms are filled and back in their satchel, Arke picks it up and starts on her journey back to the closest Iskender Trading Agency office."
+										"00": "Uma vez que os formulários do posto avançado foram preenchidos e colocados de volta na mochila, Arke começa sua jornada de volta para o escritório mais próximo da Agência Comercial Iskender."
 									},
-									"bulletin_title": "The Fox Departs",
-									"dialog_title": "The Fox Departs",
-									"choice_000": "Monkey keep you, fox friend"
+									"bulletin_title": "A Raposa Parte",
+									"dialog_title": "A Raposa Parte",
+									"choice_000": "Que o Macaco te proteja, amiga raposa"
 								}
 							}
 						}
@@ -1037,35 +1037,35 @@
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Once you have made your choice, please record them on the provided forms and send them back with Arke. And please be sure to feed her before she leaves. She prefers berries, but she'll accept prickly pears as well.<br><p>Monkey keep you,<br>Amyyria Iskender,<br>Iskender Trading Company</p>"
+										"00": "Depois de fazer sua escolha, registre-a no formulário fornecido e envie-o de volta com Arke. E por favor, certifique-se de alimentá-la antes que ela saia. Ela prefere frutinhas, mas ela também aceita figos da Índia.<br><p>Que o Macaco te proteja,<br>Amyyria Iskender,<br>IEmpresa Comercial Iskender</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues",
-									"choice_000": "We choose..."
+									"bulletin_title": "A carta continua",
+									"dialog_title": "A carta continua",
+									"choice_000": "Nós escolhemos..."
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "A determined-looking fennec fox approaches, carrying in its snout a leather satchel with <i>\"Iskender Caravan Official Mail\"</i> stitched onto it. She drops it by the town standard and settles down, looking up expectantly."
+										"00": "Uma raposa-do-deserto de aparência determinada se aproxima, carregando em seu focinho uma mochila de couro com <i>\"Correio Oficial da Caravana Iskender\"</i> costurada nela. Ela solta a carta no chão do assentamento e se senta, olhando para cima ansiosamente."
 									},
-									"bulletin_title": "A Fennec Fox Approaches",
-									"dialog_title": "A Fox... Messenger?",
-									"choice_000": "Open the satchel"
+									"bulletin_title": "Uma raposa-do-deserto se aproxima",
+									"dialog_title": "Uma raposa... Mensageira?",
+									"choice_000": "Abrir a mochila"
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Dear Caravan [str(i18n_data.town_serial_number)],<p>Thank you for volunteering to establish a new outpost so far to the West! We here at the Iskender Trading Company are delighted that you chose us to facilitate your founding.<p>Once the paperwork is in order, an official company caravan led by Agent Naryal Iskender will start a new route to your outpost.</p>"
+										"00": "Prezada Caravana [str(i18n_data.town_serial_number)],<p>Obrigado por voluntariar-se para estabelecer um novo posto avançado tão longe no Oeste! Nós aqui na Empresa Comercial Iskender estamos muito satisfeitos que você tenha nos escolhido para viabilizar sua fundação.<p>Uma vez que a papelada esteja em ordem, uma caravana oficial da empresa, liderada pelo Agente Naryal Iskender, iniciará uma nova rota para o seu posto avançado.</p>"
 									},
-									"bulletin_title": "A Letter from Amyyria Iskender",
-									"dialog_title": "A Letter from Amyyria Iskender",
-									"choice_000": "Continue..."
+									"bulletin_title": "Uma carta de Amyyria Iskender",
+									"dialog_title": "Uma carta de Amyyria Iskender",
+									"choice_000": "Continuar..."
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "To start, in order for us to enter your outpost into the company ledger, you must choose a name, as well as a Standard.<p>The Standard declares to the rest of Rayya's Children the purpose behind you settling down, though we have found that it is even more effective at inspiring an outpost's own people.</p>"
+										"00": "Para começar, para que possamos inserir seu posto avançado nos reistros da empresa, você deve escolher um nome, assim como uma bandeira.<p>A Bandeira declara ao resto dos Filhos de Rayya o propósito por trás de você se estabelecer, embora também tenhamos descoberto que é bastante eficaz para inspirar o próprio povo de um posto avançado.</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues",
-									"choice_000": "Standard... Hmm..."
+									"bulletin_title": "A carta continua",
+									"dialog_title": "A carta continua",
+									"choice_000": "Bandeira... Hmm..."
 								}
 							}
 						}
@@ -1075,11 +1075,11 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "Apparently, in addition to the letter, Arke's satchel contains a smaller satchel full of coins, labeled <i>\"Outpost Founding Incentive\"</i>."
+										"00": "Aparentemente, além da carta, a mochila de Arke contém uma mochila menor cheia de moedas, com o nome de <i>\"Incentivo Fundador do Posto Avançado\"</i>."
 									},
-									"bulletin_title": "Arke Prods the Satchel",
-									"dialog_title": "More from the Satchel",
-									"choice_000": "That should be useful!"
+									"bulletin_title": "Arke cutuca a mochila",
+									"dialog_title": "Mais da mochila",
+									"choice_000": "Isso vai ser útil!"
 								}
 							}
 						}
@@ -1173,8 +1173,8 @@
 			},
 			"rc_town_banner_guardian": {
 				"rc_town_banner_guardian_ghost": {
-					"display_name": "Banner of Cunning",
-					"description": "How you know you've come home"
+					"display_name": "Bandeira da Astúcia",
+					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_guardian_token_iconic": {
 					"display_name": "Banner of Cunning Shred",
@@ -1183,8 +1183,8 @@
 			},
 			"rc_town_banner_nature": {
 				"rc_town_banner_nature_ghost": {
-					"display_name": "Banner of Vitality",
-					"description": "How you know you've come home"
+					"display_name": "Bandeira da Vitalidade",
+					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_nature_token_iconic": {
 					"display_name": "Banner of Vitality Shred",
@@ -1193,8 +1193,8 @@
 			},
 			"rc_town_banner_might": {
 				"rc_town_banner_might_ghost": {
-					"display_name": "Banner of Strength",
-					"description": "How you know you've come home"
+					"display_name": "Bandeira da Força",
+					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_might_token_iconic": {
 					"display_name": "Banner of Strength Shred",

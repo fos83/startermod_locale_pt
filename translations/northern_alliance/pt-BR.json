@@ -583,14 +583,14 @@
 			"na_camp_standard": {
 				"na_camp_standard_ghost": {
 					"display_name": "Camp Standard",
-					"description": "How you know you've come home"
+					"description": "Como você sabe que está em casa"
 				}
 			},
 			"na_town_banner_guardian": {
 				"na_town_banner_guardian_ghost": {
-					"display_name": "Banner of Cunning",
-					"description": "How you know you've come home.",
-					"town_bonus_description": "<i>Este assentamento será um centro movimentado de comércio.</i><ul><li>Estradas dão 3x o aumento de velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x a mercadoria e o ouro</li></ul>"
+					"display_name": "Bandeira da Astúcia",
+					"description": "Como você sabe que está em casa.",
+					"town_bonus_description": "<i>Este assentamento será um centro movimentado de comércio.</i><ul><li>Estradas dão 3x o aumento de velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x mais mercadorias e ouro</li></ul>"
 				},
 				"na_town_banner_guardian_token": {
 					"display_name": "Banner of Cunning Shred",
@@ -600,8 +600,8 @@
 			"na_town_banner_might": {
 				"na_town_banner_might_ghost": {
 					"display_name": "Bandeira da Força",
-					"description": "How you know you've come home",
-					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
+					"description": "Como você sabe que está em casa",
+					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e da terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"na_town_banner_might_token": {
 					"display_name": "Banner of Strength Shred",
@@ -610,9 +610,9 @@
 			},
 			"na_town_banner_nature": {
 				"na_town_banner_nature_ghost": {
-					"display_name": "Banner of Vitality",
-					"description": "How you know you've come home",
-					"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Plants and Crops both grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+					"display_name": "Bandeira da Vitalidade",
+					"description": "Como você sabe que está em casa",
+					"town_bonus_description": "<i>Este assentamento estará em sintonia com o meio ambiente</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Colheitas crescem 25% mais rápido</li><li>Plantas têm 2x o seu Atrativo normal</li></ul>"
 				},
 				"na_town_banner_nature_token": {
 					"display_name": "Banner of Vitality Shred",
