@@ -655,7 +655,7 @@
 						"reward_message_ctd": "para ser um posto avançado a caminho de ser um refúgio seguro para todos."
 					},
 					"banner_upgrade_vitality": {
-						"reward_message_ctd": "ser um posto avançado com o objetivo de reviver a natureza adjacente."
+						"reward_message_ctd": "para ser um posto avançado com o objetivo de reviver a natureza adjacente."
 					},
 					"bird_departs": {
 						"dialog_tree_info": {
@@ -1075,7 +1075,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "Aparentemente, além da carta, a mochila de Arke contém uma mochila menor cheia de moedas, com o nome de <i>\"Incentivo Fundador do Posto Avançado\"</i>."
+										"00": "Aparentemente, além da carta, a mochila de Arke contém uma mochila menor cheia de moedas, com o nome de <i>\"Incentivo de Fundação do Posto Avançado\"</i>."
 									},
 									"bulletin_title": "Arke cutuca a mochila",
 									"dialog_title": "Mais da mochila",

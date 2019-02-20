@@ -13194,8 +13194,8 @@
 		"gizmos": {
 			"camp_standard": {
 				"camp_standard_ghost": {
-					"display_name": "Camp Standard",
-					"description": "Use to mark territory, civilizedly."
+					"display_name": "Bandeira de Campo",
+					"description": "Use para marcar território, civilizadamente."
 				}
 			},
 			"safety_standard": {
