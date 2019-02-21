@@ -359,20 +359,20 @@
 				"trader": {
 					"iskender_caravan_1": {
 						"shop_info": {
-							"name": "Iskender Trading Caravan",
-							"title": "The Iskender Trading Caravan returns!"
+							"name": "Caravana Comercial de Iskender",
+							"title": "A Caravana Comercial de Iskender retorna!"
 						}
 					},
 					"iskender_caravan_2": {
 						"shop_info": {
-							"name": "Iskender Trading Caravan",
-							"title": "The Iskender Trading Caravan returns with more things!"
+							"name": "Caravana Comercial de Iskender",
+							"title": "A Caravana Comercial de Iskender retorna com mais coisas!"
 						}
 					},
 					"iskender_caravan_3": {
 						"shop_info": {
-							"name": "Iskender Trading Caravan",
-							"title": "The Iskender Trading Caravan returns!"
+							"name": "Caravana Comercial de Iskender",
+							"title": "A Caravana Comercial de Iskender retorna!"
 						}
 					},
 					"starting_food_donation": {
@@ -380,41 +380,41 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"000": "Haha, there's nothing like the sight of a brand new outpost, eh? With your hard work, this desolate land will soon be a nexus of wealth and prosperity! We'll be back tomorrow with the whole store, but in the meantime, here's the starting stake the Company provided:",
-										"001": "Monkey keep you, friends! It's always a pleasure to see a party make it to their designated tradepoint. As per your contract, we'll be back with the whole store tomorrow. In the meantime, here are the starting supplies the Company provides for new outposts:",
-										"002": "The Iskender Trading Company is always looking for a new place to rest between routes. We're pleased to see you out here, friends! We'll be back with the store tomorrow, but in the meantime, have a sample of our goods, to get you started:",
-										"003": "All ready to start a new outpost, eh! My friends, the desert welcomes all its children. We'll be back tomorrow to check on you, but in the meantime, the Company sent these supplies to get you started:",
-										"004": "Aha, a new potential partner for the Iskender Trading Company! We must return tomorrow with the whole store, but tell you what: take this seed investment, and see what you can turn it into for us, eh?"
+										"000": "Haha, não há nada como a visão de um novo posto avançado, hein? Com o seu trabalho duro, esta terra desolada em breve será um nexo de riqueza e prosperidade! Estaremos de volta amanhã com toda a loja, mas enquanto isso, aqui está a participação inicial que a Companhia forneceu:",
+										"001": "Que o Macaco lhes protejam, amigos! É sempre um prazer ver um grupo chegar ao seu ponto de comércio designado. De acordo com seu contrato, estaremos de volta com toda a loja amanhã. Enquanto isso, aqui estão os suprimentos iniciais que a Companhia fornece para os novos postos avançados:",
+										"002": "A Companhia Comercial de Iskender está sempre à procura de um novo lugar para descansar entre as rotas. Estamos felizes em ver vocês aqui, amigos! Estaremos de volta com a loja amanhã, entretanto, teremos uma amostra das nossas mercadorias, para que possa começar:",
+										"003": "Tudo pronto para começar um novo posto avançado, hein? Meus amigos, o deserto acolhe todos os seus filhos. Voltaremos amanhã para ver vocês, mas enquanto isso, a Companhia enviou esses suprimentos para vocês começarem:",
+										"004": "Aha, um novo parceiro em potencial para a Companhia Comercial de Iskender! Devemos voltar amanhã com a loja toda, mas te digo o seguinte: tome essas sementes como um investimento e veja em que você pode transformá-las para nós."
 									},
-									"bulletin_title": "An Iskender Agent Approaches",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Many thanks!"
+									"bulletin_title": "Um agente de Iskender se aproxima",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Muito obrigado!"
 								}
 							}
 						}
 					},
 					"stonecutter_shop": {
 						"shop_info": {
-							"name": "Vosker Saji's Polished Earths",
-							"title": "A master mason's cart draws near"
+							"name": "Terras Polidas Vosker Saji",
+							"title": "Um carro de pedreiro mestre se aproxima"
 						}
 					},
 					"tannery_shop": {
 						"shop_info": {
-							"name": "Rin's Fine Pelts and Rugs",
-							"title": "A wagon of fine animal goods approaches"
+							"name": "Peles finas e tapetes do Rin",
+							"title": "Um carro de mercadorias finas se aproxima"
 						}
 					},
 					"woodcutter_shop": {
 						"shop_info": {
-							"name": "Rajin's Goods of the Distant West",
-							"title": "An exotic shop of rare woods arrives"
+							"name": "Mercadorias do Extremo Oeste do Rajin",
+							"title": "Uma loja exótica de madeiras raras chega"
 						}
 					},
 					"food_shop": {
 						"shop_info": {
-							"name": "Farmer Gem's Farm Supplies",
-							"title": "Farmer Gem's supply cart rolls into town"
+							"name": "Suprimentos de Gem, o Fazendeiro",
+							"title": "Um carro de suprimento do fazendeiro Gem chegou na cidade"
 						}
 					},
 					"naryal_tier_2_dialog": {
@@ -422,119 +422,119 @@
 							"dialog_nodes": {
 								"rewards": {
 									"bulletin_message": {
-										"000": "Well, in addition to being distinguished as an official township, you will gain recognition from traders and travelers from all over Hearth. We shall also offer you architectural blueprints we've collected through our trades with other Rayya's Children settlements."
+										"000": "Bem, além de ser distinguido como um município oficial, você ganhará reconhecimento de comerciantes e viajantes de todo Hearth. Também lhe ofereceremos projetos arquitetônicos que coletamos em nossos negócios com outros assentamentos dos Filhos de Rayya."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Ok then!"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "OK então!"
 								},
 								"shrine_reqs": {
 									"bulletin_message": {
-										"000": "The Church of Rayya, more commonly known as Her Mystery, can designate an outpost as an official Church waypoint. In order to be eligible, your town must provide a shrine where travelers and weary wanderers can give offerings to Monkey and pay homage to Guildmother Rayya."
+										"000": "A Igreja de Rayya, mais comumente conhecida como Sua Misteriosa, pode designar um posto avançado como um ponto de referência oficial da Igreja. Para ser elegível, sua cidade deve fornecer um santuário onde os viajantes e andarilhos cansados ​podem fazer oferendas ao Macaco e homenagear a Mãeguilda Rayya."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Sounds good!",
-									"choice_001": "How else can I gain renown?"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Parece bom!",
+									"choice_001": "Como mais posso ganhar o renome?"
 								},
 								"details": {
 									"bulletin_message": {
-										"000": "Well, getting to the point, I believe we can both benefit from an agreement of sorts. We at the Iskender Agency strive to create the most comprehensive maps of Hearth, and so we wish to detail any notable establishments and outposts such as yours. With your permission, of course!"
+										"000": "Bem, chegamos a esse ponto, acredito que podemos nos beneficiar de algum tipo de acordo. Na Agência de Iskender esforçamo-nos para criar os mapas mais completos de Hearth, e portanto desejamos detalhar qualquer estabelecimento notável e postos avançados como o seu. Com a sua permissão, naturalmente!"
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "What do I get in return?"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "O que eu ganho em troca?"
 								},
 								"requirements": {
 									"bulletin_message": {
-										"000": "Great! Let us get this process rolling then. First of all, how would you like to be known? We can put you on the map as a place renowned for its: Trading Post, Shrine of Her Mystery, or Exotic Goods."
+										"000": "Magnífico! Vamos começar então. Em primeiro lugar, como você gostaria de ser conhecido? Podemos colocá-lo no mapa como um local conhecido por seu: Posto Comercial, Santuário de Sua Misteriosa ou seus Bens Exóticos."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Trading Post!",
-									"choice_001": "Shrine!",
-									"choice_002": "Exotic Goods!"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Posto Comercial!",
+									"choice_001": "Santuário!",
+									"choice_002": "Bens Exóticos!"
 								},
 								"repeat_reqs": {
 									"bulletin_message": {
-										"000": "How would you like to be known? We can put you on the map as a place renowned for its: Trading Post, Shrine of Her Mystery, or Exotic Goods."
+										"000": "Como você gostaria de ser conhecido? Podemos colocá-lo no mapa como um lugar conhecido por seu: Posto Comercial, Santuário de Sua Misteriosa ou Bens Exóticos."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Trading Post!",
-									"choice_001": "Shrine!",
-									"choice_002": "Exotic Goods!"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Posto Comercial!",
+									"choice_001": "Santuário!",
+									"choice_002": "Bens Exóticos!"
 								},
 								"naryal_approaches": {
 									"bulletin_message": {
-										"000": "Greetings, friends of [str(i18n_data.town_name)]! It's been some time since we've last visited this outpost. Looks like you've been making good use of the starting supplies we delivered."
+										"000": "Saudações, amigos de [str(i18n_data.town_name)]! Já faz algum tempo desde a última vez em que visitamos este posto avançado. Parece que você está fazendo um bom uso dos suprimentos iniciais que entregamos."
 									},
-									"bulletin_title": "Iskender Agent Naryal Approaches",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "What are you doing here?"
+									"bulletin_title": "Um agente de Naryal de Iskender se aproxima",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "O que faz aqui?"
 								},
 								"exotic_goods_reqs": {
 									"bulletin_message": {
-										"000": "In order to gain renown in Exotic Trade, your town must engage in trades with visitors from faraway lands and thus gain access to a variety of goods that would be otherwise unobtainable in your area."
+										"000": "Para ganhar renome no comércio exótico, sua cidade deve se negociar com visitantes de terras distantes e, assim, obter acesso a uma variedade de mercadorias que seriam de outra forma inalcançáveis em sua área."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Sounds good!",
-									"choice_001": "How else can I gain renown?"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Parece bom!",
+									"choice_001": "De que outra forma posso ganhar renome?"
 								},
 								"conclusion2": {
 									"bulletin_message": {
-										"000": "Monkey be with you, [str(i18n_data.town_name)]! I shall leave you a bird, so you may summon me to evaluate your progress!"
+										"000": "Que o Macaco te acompanhe, [str(i18n_data.town_name)]! Eu te deixarei um passarinho, para que possa me chamar para avaliar seu progresso!"
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Farewell!"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Adeus!"
 								},
 								"map_of_hearth": {
 									"bulletin_message": {
-										"000": "Why, our cartographers are making preparations for the next printing iteration of the Iskender Map of Hearth. While we at Iskender Trading Agency are known for trade, we also pride ourselves for the accuracy and utility of our maps. Settlements and routes from across the world are depicted in the finest detail."
+										"000": "Nossos cartógrafos estão se preparando para a próxima edição do Mapa de Iskender de Hearth. Enquanto nós da Agência Comercial de Iskender somos conhecidos pelo comércio, também nos orgulhamos da precisão e utilidade de nossos mapas. Assentamentos e rotas de todo o mundo são retratados nos mínimos detalhes."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender"
 								},
 								"trading_post_reqs": {
 									"bulletin_message": {
-										"000": "In order to gain renown as a Trading Post for the Masses, it is important that your city be a welcoming place for traders and travelers to visit and trade goods amongst each other. I shall give your potter a recipe; build a monument which can act as a grand and inviting display at the heart of your settlement."
+										"000": "Para ganhar renome como um Posto Comercial para as Massas, é importante que a sua cidade seja um local acolhedor para comerciantes e viajantes visitarem e comercializarem mercadorias entre si. Vou dar ao seu Oleiro uma receita; construa um monumento que possa atuar como uma grande e convidativa exibição no coração do seu assentamento."
 									},
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
-									"choice_000": "Sounds good!",
-									"choice_001": "How else can I gain renown?"
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
+									"choice_000": "Parece bom!",
+									"choice_001": "De que outra forma posso ganhar renome?"
 								},
 								"conclusion": {
-									"bulletin_title": "Naryal Iskender",
-									"dialog_title": "Naryal Iskender",
+									"bulletin_title": "Naryal de Iskender",
+									"dialog_title": "Naryal de Iskender",
 									"choice_000": "Thank you, Honored Elder!",
 									"bulletin_message": {
-										"000": "Excellent! In addition to an appropriate monument, your town will also need to have accumulated a certain level of worth. I shall leave the requirements with you, should you wish to consult with them again, or should a different path come to appeal more than your initial chosen road."
+										"000": "Excelente! Além de um monumento apropriado, sua cidade também precisará ter acumulado um certo nível de riqueza. Deixarei os requisitos com você, caso deseje consultá-los novamente, ou se desejar depois trocar por um caminho diferente."
 									}
 								},
 								"shrine_reqs_ctd": {
 									"bulletin_message": {
-										"000": "I will give your potter a sacred shrine recipe, passed down from Her Mystery's most Elite Officers. They say the ingredients are found in ancient structures and loot chests; build the monument and I shall return to verify if it meets the specifications of the Church Elders."
+										"000": "Darei ao seu Oleiro uma receita sagrada de santuário, transmitida pelos Oficiais de Elite de Sua Misteriosa. Dizem que os ingredientes são encontrados em estruturas antigas e baús de saque; construa o monumento e eu voltarei para verificar se ele atende às especificações dos anciãos da igreja."
 									}
 								},
 								"exotic_goods_reqs_ctd": {
 									"bulletin_message": {
-										"000": "I will give your potter a recipe. You can obtain the ingredients from traveling merchants and trading caravans, but note that not many travelers carry them. Build a monument that incorporates these ingredients to demonstrate your excellence in trading exotic goods."
+										"000": "Vou dar uma receita ao seu Oleiro. Você pode obter os ingredientes de comerciantes viajantes e caravanas, mas note que não são muitos os que os transportam. Construa um monumento que incorpore esses ingredientes para demonstrar sua excelência no comércio de produtos exóticos."
 									}
 								}
 							}
 						}
 					},
 					"unlock_exotic_trade_monument": {
-						"bulletin_title": "Potter Recipe Unlocked: The Ever-Burning Flame"
+						"bulletin_title": "Receita de Oleiro Desbloqueada: Monumento A Chama Eterna"
 					},
 					"unlock_monkey_shrine_monument": {
-						"bulletin_title": "Potter Recipe Unlocked: Her Mystery's Shrine"
+						"bulletin_title": "Receita de Oleiro Desbloqueada: Santuário de Sua Misteriosa"
 					},
 					"unlock_trading_post_monument": {
-						"bulletin_title": "Potter Recipe Unlocked: The Trader Monument"
+						"bulletin_title": "Receita de Oleiro Desbloqueada: Monumento do Comerciante"
 					},
 					"trading_post_tier_2_reached": {
 						"title": "Iskender Agent Naryal Returns",
@@ -649,24 +649,24 @@
 						}
 					},
 					"banner_upgrade_cunning": {
-						"reward_message_ctd": "to be an outpost paving the roads to become a trade hub."
+						"reward_message_ctd": "para ser um posto avançado que pavimenta as estradas para se tornar um centro comercial."
 					},
 					"banner_upgrade_strength": {
-						"reward_message_ctd": "to be an outpost on its way to be a safe haven for all."
+						"reward_message_ctd": "para ser um posto avançado a caminho de ser um refúgio seguro para todos."
 					},
 					"banner_upgrade_vitality": {
-						"reward_message_ctd": "to be an outpost aiming to revive the surrounding nature."
+						"reward_message_ctd": "para ser um posto avançado com o objetivo de reviver a natureza adjacente."
 					},
 					"bird_departs": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Once the outpost founding forms are filled and back in their satchel, Arke picks it up and starts on her journey back to the closest Iskender Trading Agency office."
+										"00": "Uma vez que os formulários do posto avançado foram preenchidos e colocados de volta na mochila, Arke começa sua jornada de volta para o escritório mais próximo da Agência Comercial de Iskender."
 									},
-									"bulletin_title": "The Fox Departs",
-									"dialog_title": "The Fox Departs",
-									"choice_000": "Monkey keep you, fox friend"
+									"bulletin_title": "A Raposa Parte",
+									"dialog_title": "A Raposa Parte",
+									"choice_000": "Que o Macaco te proteja, amiga raposa"
 								}
 							}
 						}
@@ -1037,35 +1037,35 @@
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Once you have made your choice, please record them on the provided forms and send them back with Arke. And please be sure to feed her before she leaves. She prefers berries, but she'll accept prickly pears as well.<br><p>Monkey keep you,<br>Amyyria Iskender,<br>Iskender Trading Company</p>"
+										"00": "Depois de fazer sua escolha, registre-a no formulário fornecido e envie-o de volta com Arke. E por favor, certifique-se de alimentá-la antes que ela saia. Ela prefere frutinhas, mas ela também aceita figos da Índia.<br><p>Que o Macaco te proteja,<br>Amyyria de Iskender,<br>Companhia Comercial de Iskender</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues",
-									"choice_000": "We choose..."
+									"bulletin_title": "A carta continua",
+									"dialog_title": "A carta continua",
+									"choice_000": "Nós escolhemos..."
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "A determined-looking fennec fox approaches, carrying in its snout a leather satchel with <i>\"Iskender Caravan Official Mail\"</i> stitched onto it. She drops it by the town standard and settles down, looking up expectantly."
+										"00": "Uma raposa-do-deserto de aparência determinada se aproxima, carregando em seu focinho uma mochila de couro com <i>\"Correio Oficial da Caravana de Iskender\"</i> costurada nela. Ela solta a carta no chão do assentamento e se senta, olhando para cima ansiosamente."
 									},
-									"bulletin_title": "A Fennec Fox Approaches",
-									"dialog_title": "A Fox... Messenger?",
-									"choice_000": "Open the satchel"
+									"bulletin_title": "Uma raposa-do-deserto se aproxima",
+									"dialog_title": "Uma raposa... Mensageira?",
+									"choice_000": "Abrir a mochila"
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Dear Caravan [str(i18n_data.town_serial_number)],<p>Thank you for volunteering to establish a new outpost so far to the West! We here at the Iskender Trading Company are delighted that you chose us to facilitate your founding.<p>Once the paperwork is in order, an official company caravan led by Agent Naryal Iskender will start a new route to your outpost.</p>"
+										"00": "Prezada Caravana [str(i18n_data.town_serial_number)],<p>Obrigado por voluntariar-se para estabelecer um novo posto avançado tão longe no Oeste! Nós aqui na Companhia Comercial de Iskender estamos muito satisfeitos que você tenha nos escolhido para viabilizar sua fundação.<p>Uma vez que a papelada esteja em ordem, uma caravana oficial da companhia, liderada pelo Agente de Naryal de Iskender, iniciará uma nova rota para o seu posto avançado.</p>"
 									},
-									"bulletin_title": "A Letter from Amyyria Iskender",
-									"dialog_title": "A Letter from Amyyria Iskender",
-									"choice_000": "Continue..."
+									"bulletin_title": "Uma carta de Amyyria de Iskender",
+									"dialog_title": "Uma carta de Amyyria de Iskender",
+									"choice_000": "Continuar..."
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "To start, in order for us to enter your outpost into the company ledger, you must choose a name, as well as a Standard.<p>The Standard declares to the rest of Rayya's Children the purpose behind you settling down, though we have found that it is even more effective at inspiring an outpost's own people.</p>"
+										"00": "Para começar, para que possamos inserir seu posto avançado nos registros da companhia, você deve escolher um nome, assim como uma bandeira.<p>A Bandeira declara ao resto dos Filhos de Rayya o propósito por trás de você se estabelecer, embora também tenhamos descoberto que é bastante eficaz para inspirar o próprio povo de um posto avançado.</p>"
 									},
-									"bulletin_title": "The Letter Continues",
-									"dialog_title": "The Letter Continues",
-									"choice_000": "Standard... Hmm..."
+									"bulletin_title": "A carta continua",
+									"dialog_title": "A carta continua",
+									"choice_000": "Bandeira... Hmm..."
 								}
 							}
 						}
@@ -1075,11 +1075,11 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "Apparently, in addition to the letter, Arke's satchel contains a smaller satchel full of coins, labeled <i>\"Outpost Founding Incentive\"</i>."
+										"00": "Aparentemente, além da carta, a mochila de Arke contém uma mochila menor cheia de moedas, com o nome de <i>\"Incentivo de Fundação do Posto Avançado\"</i>."
 									},
-									"bulletin_title": "Arke Prods the Satchel",
-									"dialog_title": "More from the Satchel",
-									"choice_000": "That should be useful!"
+									"bulletin_title": "Arke cutuca a mochila",
+									"dialog_title": "Mais da mochila",
+									"choice_000": "Isso vai ser útil!"
 								}
 							}
 						}
@@ -1167,14 +1167,14 @@
 		"gizmos": {
 			"rc_camp_standard": {
 				"rc_camp_standard_ghost": {
-					"display_name": "Banner do Acampamento",
+					"display_name": "Bandeira de Campo",
 					"description": "Como você sabe que você chegou em casa"
 				}
 			},
 			"rc_town_banner_guardian": {
 				"rc_town_banner_guardian_ghost": {
-					"display_name": "Banner of Cunning",
-					"description": "How you know you've come home"
+					"display_name": "Bandeira da Astúcia",
+					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_guardian_token_iconic": {
 					"display_name": "Banner of Cunning Shred",
@@ -1183,8 +1183,8 @@
 			},
 			"rc_town_banner_nature": {
 				"rc_town_banner_nature_ghost": {
-					"display_name": "Banner of Vitality",
-					"description": "How you know you've come home"
+					"display_name": "Bandeira da Vitalidade",
+					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_nature_token_iconic": {
 					"display_name": "Banner of Vitality Shred",
@@ -1193,8 +1193,8 @@
 			},
 			"rc_town_banner_might": {
 				"rc_town_banner_might_ghost": {
-					"display_name": "Banner of Strength",
-					"description": "How you know you've come home"
+					"display_name": "Bandeira da Força",
+					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_might_token_iconic": {
 					"display_name": "Banner of Strength Shred",

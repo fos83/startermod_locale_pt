@@ -167,8 +167,8 @@
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
 				"terrain_xray_vision_flat": "plano",
 				"terrain_xray_vision_full": "completo",
-				"appeal_vision_icon_name": "apelo",
-				"appeal_vision": "Visão de Apelo",
+				"appeal_vision_icon_name": "Atrativo",
+				"appeal_vision": "Visão de Atrativo",
 				"appeal_vision_description": "Veja o quão atraente os hearthlings acham o mundo."
 			},
 			"trade_menu": {
@@ -316,7 +316,7 @@
 					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] não gosta desses itens e sempre os achará desagradáveis, independentemente da qualidade.",
 					"current_and_target_bar": "Opinião geral",
 					"current_and_target_bar_tooltip": "A opinião de [str(self.stonehearth:unit_info.custom_name)] sobre o seu entorno e áreas visitadas recentemente.",
-					"current_arrow_tooltip": "Opinião geral de [str(self.stonehearth:unit_info.custom_name)] do apelo da cidade. Isso afeta o humor deles.",
+					"current_arrow_tooltip": "Opinião geral de [str(self.stonehearth:unit_info.custom_name)] do atrativo da cidade. Isso afeta o humor deles.",
 					"target_arrow_tooltip": "Como [str(self.stonehearth:unit_info.custom_name)] vê seu entorno imediato. Isso afeta sua opinião geral da cidade com o tempo.",
 					"item_preferences": "Gostos de [str(self.stonehearth:unit_info.custom_name)]"
 				}
@@ -1391,7 +1391,7 @@
 				"recipe_tab": "Receitas",
 				"orders_tab": "Encomendas",
 				"missing_ingredients": "Ingredientes ausentes: ",
-				"tooltip_appeal_stat": "Apelo",
+				"tooltip_appeal_stat": "Atrativo",
 				"tooltip_net_worth_stat": "Valor em Ouro",
 				"tooltip_effort_stat": "Esforço (Tempo de Criação)",
 				"damage_stat": "ATQ ",
@@ -1405,7 +1405,7 @@
 				"num_crafters": "Artesãos",
 				"num_soldiers": "Militares",
 				"journal": {
-					"default_message": "Ainda não existem entradas no diário!",
+					"default_message": "Nenhuma entrada ainda!",
 					"signature": "---[name(entry.person)]",
 					"today": "Hoje",
 					"town_log": "Registro da Cidade",
@@ -1798,7 +1798,7 @@
 						"vision_slice_down_single": "Fatia de terreno para baixo",
 						"vision_slice_down": "Fatia de terreno para baixo (pula 5)",
 						"vision_appeal_toggle": "Alternar Visão de Beleza",
-						"speed_pause": "Pausa",
+						"speed_pause": "Pausar",
 						"speed_toggle_pause": "Alternar Pausa",
 						"speed_play": "Velocidade Normal",
 						"speed_ff": "Velocidade Dupla",
@@ -4677,9 +4677,9 @@
 										"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
 										"reward_message_ctd": "ser um posto avançado que se esforça para estar em harmonia com o meio ambiente.",
 										"achievements": {
-											"001": "Plantas e culturas crescem 25% mais rápido",
-											"000": "Árvores produzem 25% mais madeira",
-											"002": "Plantas têm 2x o seu apelo normal"
+											"001": "Plantas e Cultivos crescem 25% mais rápido",
+											"000": "Árvores produzem 25% mais Madeira",
+											"002": "Plantas têm 2x o seu Atrativo normal"
 										}
 									},
 									"hearth_upgrade_makers": {
@@ -13194,8 +13194,8 @@
 		"gizmos": {
 			"camp_standard": {
 				"camp_standard_ghost": {
-					"display_name": "Camp Standard",
-					"description": "Use to mark territory, civilizedly."
+					"display_name": "Bandeira de Campo",
+					"description": "Use para marcar território, civilizadamente."
 				}
 			},
 			"safety_standard": {
@@ -13243,9 +13243,9 @@
 			},
 			"town_banner_guardian": {
 				"town_banner_guardian_ghost": {
-					"display_name": "Banner of Cunning",
-					"description": "How you know you've come home.",
-					"town_bonus_description": "<i>This settlement will be a bustling hub of trade.</i><ul><li>Roads give 3x their normal speed boost</li><li>Your items sell for 50% more</li><li>Traders will bring 2x the goods and Gold</li></ul>"
+					"display_name": "Bandeira da Astúcia",
+					"description": "Como você sabe que está em casa.",
+					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>Estradas dão 3x o aumento de velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x mais mercadorias e ouro</li></ul>"
 				},
 				"town_banner_guardian_token_iconic": {
 					"display_name": "Banner of Cunning Shred",
@@ -13254,9 +13254,9 @@
 			},
 			"town_banner_might": {
 				"town_banner_might_ghost": {
-					"display_name": "Banner of Strength",
-					"description": "How you know you've come home",
-					"town_bonus_description": "<i>This settlement will grow strong through earth and steel.</i><ul><li>Mining gives 50% more Ore, Stone, and Clay</li><li>Hearthlings no longer mind cramped spaces</li></ul>"
+					"display_name": "Bandeira da Força",
+					"description": "Como você sabe que está em casa",
+					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e da terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"town_banner_might_token_iconic": {
 					"display_name": "Banner of Strength Shred",
@@ -13265,9 +13265,9 @@
 			},
 			"town_banner_nature": {
 				"town_banner_nature_ghost": {
-					"display_name": "Banner of Vitality",
-					"description": "How you know you've come home",
-					"town_bonus_description": "<i>This settlement shall be at one with the environment.</i><ul><li>Trees produce 25% more Wood</li><li>Both Plants and Crops grow 25% faster</li><li>Plants have 2x their normal Appeal</li></ul>"
+					"display_name": "Bandeira da Vitalidade",
+					"description": "Como você sabe que está em casa",
+					"town_bonus_description": "<i>Este assentamento estará em sintonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Colheitas crescem 25% mais rápido</li><li>Plantas têm 2x o seu Atrativo normal</li></ul>"
 				},
 				"town_banner_nature_token_iconic": {
 					"display_name": "Banner of Vitality Shred",
