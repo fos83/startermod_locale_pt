@@ -362,12 +362,12 @@
 				"opt_in_button": "Sim, vou ajudar",
 				"opt_out_button": "Melhor não",
 				"opt_thanks": "Obrigado!",
-				"save_delete": "Deletar",
+				"save_delete": "Excluir",
 				"save_overwrite": "Sobrescrever",
 				"save_new": "Salvar",
 				"load_game": "Carregar",
-				"game_different_version": "Versão do Save Incompatível",
-				"delete_incompatible_saves": "Deletar Saves Incompatíveis",
+				"game_different_version": "Versão do Salvamentos Incompatível",
+				"delete_incompatible_saves": "Excluir Salvamentos Incompatíveis",
 				"save_time": "Salvo em [str(save_time)]",
 				"save_tooltip_description": "Nome da Pasta: [str(folder_name)]"
 			},
@@ -1188,7 +1188,7 @@
 					"ignore_quality": "Ignorar Qualidade",
 					"ignore_quality_tooltip": "Trate todos os itens no modelo como qualidade padrão (em vez de boa, excelente, etc.).",
 					"remove_template_confirm": {
-						"title": "Deletar Modelo",
+						"title": "Excluir Modelo",
 						"message": "Tem certeza de que deseja excluir este modelo de construção?",
 						"keep_template": "Mantenha este modelo",
 						"remove_template": "Delete isso!"
@@ -1589,8 +1589,8 @@
 					"021": "Você pode desativar o trabalho de uma unidade de combate no painel Cidadãos para forçá-los a descansar da luta.",
 					"022": "A sujeira da mineração ocasionalmente produz argila e pedra.",
 					"023": "Você pode ver visualmente as veias de minério no lado das montanhas",
-					"024": "Precisa de uma fonte alimentar inicial? Mova os Berry Bushes ou os Prickly Pear Cacti para mais perto da sua cidade.",
-					"025": "Depois de derrotar o Chefe dos Duendes, você pode reivindicar a ovelha Bluebell como sua.",
+					"024": "Precisa de uma fonte alimentar inicial? Mova os Arbustos de Frutas ou os Cactos de Figos da Índia para mais perto da sua cidade.",
+					"025": "Depois de derrotar o Chefe dos Duendes, você pode reivindicar a a Ovelha Campainha-Azul como sua.",
 					"026": "Seus hearthlings não gostam de ficar em espaços apertados por muito tempo",
 					"027": "Os animais da fazenda podem se reproduzir se houver pelo menos dois dos mesmos animais em uma caneta.",
 					"028": "Use \"shift + ,\" para afundar e descer a fundação do seu modelo ao chão antes de colocar ele."
@@ -1687,7 +1687,7 @@
 				"ambient_volume": "Volume do Ambiente",
 				"effects_volume": "Volume dos Efeitos",
 				"system": "Sistema",
-				"force_32_bit": "* Forçar 32-bit (Requer Reinicio)",
+				"force_32_bit": "* Forçar 32-bit (Requer Reinício)",
 				"force_32_bit_note": "* Force 32 bits apenas se for absolutamente necessário. 64 bits é mais rápido e suporta cidades maiores.",
 				"collect_profile": "Colher perfil",
 				"enable_lua_jit": "Use Lua JIT (Requer Reiniciar)",
@@ -1731,7 +1731,7 @@
 					"out_of_date": "Desatualizado",
 					"deferred_load": "Carregado Automaticamente por outros módulos",
 					"required": "Necessário",
-					"debug": "Módulo para Debug",
+					"debug": "Módulo para Depuração",
 					"localization": "Isto é um módulo de tradução?",
 					"loading_namespace": "[ carregando... ]",
 					"mods_changed_dialog": {
@@ -1772,7 +1772,7 @@
 						"craft": "Oficio (craft)",
 						"fight": "Combate",
 						"ui": "Interface de Usuário",
-						"debug": "Debug "
+						"debug": "Depuração "
 					},
 					"key_binding_names": {
 						"cam_drag": "Arrastar Câmera",
@@ -1885,7 +1885,7 @@
 				"quick_start": "Novo Jogo Rápido",
 				"patch_notes": "Ver Notas de Atualização",
 				"alpha_welcome_dialog": {
-					"title": "Bem-vindo a Stonehearth!",
+					"title": "Bem-vindo ao Stonehearth!",
 					"message": "Você pode ajudar a tornar o Stonehearth mais estável enviando-nos automaticamente relatórios de erros anônimos do seu jogo.",
 					"accept": "Sim, eu quero ajudar!",
 					"cancel": "Não, Obrigado."
@@ -1958,7 +1958,7 @@
 				"tooltips": {
 					"open_folder": "Abrir pasta do mod",
 					"view_in_workshop": "Visualizar mod na oficina",
-					"toggle_view_templates": "Expandir / recolher lista de modelos",
+					"toggle_view_templates": "Expandir/recolher lista de modelos",
 					"edit_templates": "Edite a lista de modelos deste mod",
 					"upload": "Upload mod para workshop",
 					"unsubscribe": "Cancelar inscrição do mod"
@@ -1970,7 +1970,7 @@
 					"cancel": "Não, fique inscrito."
 				},
 				"duplicates_dialog": {
-					"title": "Modos duplicados ativados",
+					"title": "Mods duplicados ativados",
 					"message": "Atualmente, você tem mais de um mod com o mesmo nome ativado. Certifique-se de ter apenas uma versão ativada por vez. Suas duplicatas atuais:<br><br>",
 					"ok": "Ok"
 				}
@@ -2013,7 +2013,7 @@
 				},
 				"descriptions": {
 					"apply_saved": "Ative apenas os mods usados neste save e desative todos os outros.",
-					"continue_anyway": "Use a configuração mod atual. Pode causar erros."
+					"continue_anyway": "Use a configuração do mod atual. Pode causar erros."
 				},
 				"buttons": {
 					"continue_anyway": "Continue com os Mods atuais",
@@ -2061,7 +2061,7 @@
 				"subscribe_all": "Inscrever-se em tudo",
 				"no_steam_cant_sync": "Está faltando um ou mais dos mods acima. Peça ao seu anfitrião para enviá-los para você, ou conecte-se ao Steam e procure por eles na oficina Steam.",
 				"not_seen_in_workshop_cant_sync": "Um ou mais dos mods faltantes não estão disponíveis na Oficina Steam. Eles podem não ter sido enviados ou ser visualizados apenas pelo host. Peça para fazer upload ou alterar suas permissões e tente se conectar novamente.",
-				"mismatched_hash_workshop_cant_sync": "Um dos seus mods Steam não corresponde à versão que o servidor host está usando. Os arquivos do mod podem ter sido modificados ou o host está usando um mod que não está atualizado com a versão do Steam. Tente deletar o mod e reinscrevendo para obter a versão da Oficina, ou diga ao host para atualizar seus mods da Oficina Steam.",
+				"mismatched_hash_workshop_cant_sync": "Um dos seus mods Steam não corresponde à versão que o servidor host está usando. Os arquivos do mod podem ter sido modificados ou o host está usando um mod que não está atualizado com a versão do Steam. Tente excluir o mod e reinscrevendo para obter a versão da Oficina, ou diga ao host para atualizar seus mods da Oficina Steam.",
 				"failed_download_workshop_update_cant_sync": "Um ou mais dos seus mods não correspondem à versão que o servidor host possui. O jogo não pôde fazer o download da atualização do workshop para um dos mods porque o ID do arquivo steam mod está inválido ou você está desconectado.",
 				"cancel": "Cancelar",
 				"private": "Mod Privado",
@@ -2103,7 +2103,7 @@
 				"required": "* requerido",
 				"optional": "opcional",
 				"exceeded_byte_limit": "* limite de bytes excedido ([str(byte_limit)])",
-				"debug_mod": "Mod para Debug",
+				"debug_mod": "Mod de Depuração",
 				"localization_mod": "Isto é um mod de tradução?",
 				"building_template_mod": "Isto é um mod de modelos de construção?",
 				"errors": {
@@ -2182,14 +2182,14 @@
 					}
 				},
 				"biome_warning_title": "Cuidado, viajantes...",
-				"biome_warning_text": "Criar recursos pode ser difícil de encontrar quando [str(kingdom)] não está em seu bioma preferido, o [str(preferred_biome)].<br><br>Você ainda quer continuar com sua seleção atual?",
+				"biome_warning_text": "Pode ser difícil de encontrar recursos para criação quando o Reino [str(kingdom)] não está em seu bioma preferido, o [str(preferred_biome)].<br><br>Você ainda quer continuar com sua seleção atual?",
 				"begin_button": "Iniciar"
 			},
 			"select_roster": {
 				"reroll_citizens": "Novos cidadãos",
 				"reembark_button": "Escolher Salvos",
-				"delete_crew": "Deletar",
-				"delete_crew_confirm_title": "Deletar Grupo?",
+				"delete_crew": "Excluir",
+				"delete_crew_confirm_title": "Excluir Grupo?",
 				"delete_crew_confirm_message": "Tem certeza de que deseja excluir permanentemente a equipe de re-embarque selecionada?",
 				"delete_crew_confirm_yes": "Sim",
 				"delete_crew_confirm_no": "Cancelar",
@@ -2199,7 +2199,7 @@
 				"recipes_label": "Receitas Destravadas",
 				"citizen_info": "Lista da expedição",
 				"accept_roster": "Aceitar Grupo",
-				"randomize": "Aleatório",
+				"randomize": "Aleatorizar",
 				"hair_style": "Penteado",
 				"skin_color": "Cor da Pele",
 				"facial_hair": "Face",
@@ -3304,8 +3304,8 @@
 							"description": "Eu, a maquina de combate verde !!!"
 						},
 						"sheep": {
-							"display_name": "Bluebell, a Ovelha",
-							"description": "Companheiro premiado do Chefe"
+							"display_name": "Campainha-Azul, a Ovelha",
+							"description": "Companheira premiada do Chefe"
 						}
 					},
 					"shakedown": {
@@ -4735,7 +4735,7 @@
 									},
 									"shrine_upgrade_deity": {
 										"achievements": {
-											"001": "Arbustos do Herbalista",
+											"001": "Arbustos do Herborista",
 											"003": "Fonte da sorte de pedreiro",
 											"000": "Mente, Corpo e Espírito +1!",
 											"002": "Decorações do Ferreiro",
@@ -7385,173 +7385,173 @@
 			},
 			"building_brushes": {
 				"colors": {
-					"#964d3b": "Robin Light",
+					"#964d3b": "Robin Claro",
 					"#823e2d": "Robin",
-					"#643124": "Robin Dark",
-					"#9e7969": "Peach Light",
-					"#977161": "Peach",
-					"#886758": "Peach Dark",
-					"#40664a": "Oak leaf light",
-					"#37563f": "Oak leaf",
-					"#304435": "Oak leaf dark",
-					"#537070": "Sage Light",
-					"#4a6363": "Sage",
-					"#425858": "Sage Dark",
-					"#5483bd": "Oasis Light",
-					"#4f7cb3": "Oasis",
-					"#4771a4": "Oasis Dark",
-					"#ac6863": "Prickly Pear Light",
-					"#a2625d": "Prickly Pear",
-					"#965a4d": "Prickly Pear Dark",
+					"#643124": "Robin Escuro",
+					"#9e7969": "Pêssego Claro",
+					"#977161": "Pêssego",
+					"#886758": "Pêssego Escuro",
+					"#40664a": "Folha de Carvalho Clara",
+					"#37563f": "Folha de Carvalho",
+					"#304435": "Folha de Carvalho Escura",
+					"#537070": "Sálvia Clara",
+					"#4a6363": "Sálvia",
+					"#425858": "Sálvia Escura",
+					"#5483bd": "Oásis Claro",
+					"#4f7cb3": "Oásis",
+					"#4771a4": "Oásis Escuro",
+					"#ac6863": "Figo da Índia Claro",
+					"#a2625d": "Figo da Índia",
+					"#965a4d": "Figo da Índia Escuro",
 					"#a9a597": "Mesa",
-					"#afaa9d": "Mesa Light",
-					"#a38b7c": "Pink Rock",
-					"#bba991": "Hillside Dark",
-					"#c4b49a": "Hillside light",
-					"#807148": "Claypit",
-					"#918155": "Claypit light",
-					"#cbbd96": "Sand",
-					"#d2c6a3": "Sand Fade",
-					"#d8ceae": "Sand Light",
-					"#6B6860": "Mountain Roots",
-					"#76726B": "Mountainside Dark",
-					"#82807b": "Mountainside Medium",
-					"#918D86": "Mountainside Light",
-					"#B3B0AA": "Mountaintop",
-					"#C1C0BB": "Summit",
-					"#75B370": "Hilltop",
-					"#87C076": "Hilltop Fade",
-					"#99CE7C": "Hilltop Edge",
-					"#807147": "Hillside Dark",
-					"#918154": "Hillside Light",
-					"#8BB270": "Grassland",
-					"#9DBF76": "Grassland Fade",
-					"#AFCC7C": "Grassland Edge",
-					"#A29161": "Earth Edge",
-					"#B3A16E": "Earth",
-					"#928C76": "Heathered Grey",
-					"#4C2424": "Volcano",
-					"#C0BBA8": "Ash",
-					"#693921": "New Amber",
-					"#A5A199": "Light Mountain Mist",
-					"#224165": "Dark Regal Blue",
-					"#958455": "Muesli",
-					"#332B1F": "Cocoa Brown",
+					"#afaa9d": "Mesa Clara",
+					"#a38b7c": "Rocha rosa",
+					"#bba991": "Ladeira Escura",
+					"#c4b49a": "Ladeira Clara",
+					"#807148": "Poço de Argila",
+					"#918155": "Poço de Argila Claro",
+					"#cbbd96": "Areia",
+					"#d2c6a3": "Areia Desvanecida",
+					"#d8ceae": "Areia Clara",
+					"#6B6860": "Raízes da Montanha",
+					"#76726B": "Ladeira da Montanha Escura",
+					"#82807b": "Ladeira da Montanha Média",
+					"#918D86": "Ladeira da Montanha Clara",
+					"#B3B0AA": "Cume da Montanha",
+					"#C1C0BB": "Pico",
+					"#75B370": "Colina",
+					"#87C076": "Colina Desvanecida",
+					"#99CE7C": "Borda da Colina",
+					"#807147": "Encosta Escura",
+					"#918154": "Encosta Clara",
+					"#8BB270": "Pastagem",
+					"#9DBF76": "Pastagem Desvanecida",
+					"#AFCC7C": "Borda da Pastagem",
+					"#A29161": "Borda da Terra",
+					"#B3A16E": "Terra",
+					"#928C76": "Salpicado Cinza",
+					"#4C2424": "Vulcão",
+					"#C0BBA8": "Cinzas",
+					"#693921": "Novo Âmbar",
+					"#A5A199": "Névoa de Montanha Clara",
+					"#224165": "Azul Real Escuro",
+					"#958455": "Cereais",
+					"#332B1F": "Cacau Marrom",
 					"#4E442F": "Punga",
-					"#979492": "Dark Mountain Mist",
-					"#592E18": "Baker's Chocolate",
+					"#979492": "Névoa de Montanha Escura",
+					"#592E18": "Chocolate Baker",
 					"#B5A37B": "Pavlova",
-					"#B0AB9F": "Cloudy",
-					"#8E8260": "Granite Green",
-					"#302118": "Bistre",
-					"#575E67": "Shuttle Grey",
-					"#604B42": "Cork",
-					"#172F4A": "Regal Blue",
+					"#B0AB9F": "Nublado",
+					"#8E8260": "Granito Verde",
+					"#302118": "Marrom Escuro",
+					"#575E67": "Cinza Salpicado",
+					"#604B42": "Cortiça",
+					"#172F4A": "Azul Real",
 					"#806B27": "Pesto",
-					"#2C3339": "Gunmetal",
+					"#2C3339": "Cinza Metálico",
 					"#5A3D2D": "Cioccolato",
-					"#D0B884": "Winter Hazel",
-					"#412B1F": "Morocco Brown",
-					"#542929": "Light Volcano",
-					"#403521": "Clinker",
+					"#D0B884": "Avelã Invernal",
+					"#412B1F": "Marrom Marrocos",
+					"#542929": "Vulcão Claro",
+					"#403521": "Clínquer",
 					"#A59F8B": "Napa",
-					"#86764A": "Shadow",
-					"#65573A": "Tobacco Brown",
-					"#C0BBA7": "Light Ash",
-					"#786322": "Yukon Gold",
-					"#6E5B21": "Antique Brass",
-					"#69534A": "Dark Congo Brown",
-					"#A59465": "Sandal",
+					"#86764A": "Sombra",
+					"#65573A": "Marrom Tabaco",
+					"#C0BBA7": "Cinza Claro",
+					"#786322": "Yukon Ouro",
+					"#6E5B21": "Bronze Antigo",
+					"#69534A": "Marrom Congo Escuro",
+					"#A59465": "Sandália",
 					"#A69C7F": "Hillary",
-					"#464D53": "Tuna",
-					"#7A452A": "Copper Canyon",
-					"#3B1919": "Rustic Red",
-					"#244E7D": "Bahama Blue",
-					"#DCCAA3": "Raffia",
-					"#9B8F6D": "Pale Oyster",
-					"#A19D97": "Mountain Mist",
-					"#C1A975": "Ecru",
-					"#676D74": "Mid Grey",
-					"#4E555C": "Trout",
+					"#464D53": "Atum",
+					"#7A452A": "Cânion de Cobre",
+					"#3B1919": "Vermelho Rústico",
+					"#244E7D": "Azul Bahama",
+					"#DCCAA3": "Ráfia",
+					"#9B8F6D": "Ostra Pálida",
+					"#A19D97": "Névoa da Montanha",
+					"#C1A975": "Bege",
+					"#676D74": "Cinza Médio",
+					"#4E555C": "Truta",
 					"#864E31": "Korma",
-					"#644F46": "Congo Brown",
-					"#97775E": "Roserock",
-					"#A7855A": "Fawn",
-					"#9E7F56": "Coffee Cake",
-					"#927923": "Lemon Ginger"
+					"#644F46": "Marrom Congo",
+					"#97775E": "Rocha-Rosa",
+					"#A7855A": "Castanho-Amarelado",
+					"#9E7F56": "Bolo de Café",
+					"#927923": "Limão Gengibre"
 				},
 				"patterns": {
-					"peaked_roof_oak_leaf": "A wooden roof made up of shades of Oak Leaf",
-					"peaked_roof_robin": "A wooden roof made up of shades of Robin",
-					"peaked_roof_peach": "A wooden roof made up of shades of Peach",
-					"peaked_roof_peach_fancy": "A wooden roof made up of punga, and shades of Peach",
-					"slat_roof_sage": "A roof made of Sage colored clay, and Cocoa Brown wood",
-					"slat_roof_oasis": "A roof made of Oasis colored clay, and Cocoa Brown wood",
-					"slat_roof_prickly_pear": "A roof made of Prickly Pear colored clay, and Cocoa Brown wood",
-					"clay_wall_sage": "A pattern of shades of Sage",
-					"clay_wall_prickly_pear": "A pattern made up of shades of Prickly Pear",
-					"clay_wall_oasis": "A pattern made up of shades of Oasis",
-					"gold_clay_wall": "A Pattern of Pavlova, Raffia, Winter Hazel, and Ecru",
-					"tan_clay_wall": "A pattern of Roserock, Coffee Cake, and Fawn",
-					"wooden_wall": "A Pattern of Punga, and Tobacco Brown",
-					"red_clay_slat_roof": "A roof made of Korma colored clay and Cocoa Brown wood",
-					"cobblestone": "A Pattern of Hillary, Granite Green, and Pale Oyster",
-					"thatch_peaked_roof": "A roof made of Pesto, Lemon Ginger, Yukon Gold, and Antique Brass colored wood",
-					"red_slate_peaked_roof": "A roof made of Light Volcano, Volcano, and Rustic Red colored stone",
-					"gray_clay_wall": "A Pattern of Light Mountain Mist, Mountain Mist, Dark Mountain Mist, and Cloudy",
-					"golden_clay_slat_roof": "A roof made of Raffia colored clay and Cocoa Brown wood",
-					"castle_roof": "A roof made of Tuna, Shuttle Grey, and Mid Grey colored stone",
-					"plastered_wall": "A Pattern of Napa, and Ash",
-					"blue_slate_peaked_roof": "A roof made of Bahama Blue, Regal Blue, and Dark Regal Blue colored stone",
-					"brick_tiled": "A Pattern of Congo Brown, Dark Congo Brown, and Cork",
-					"wooden_peaked_roof": "A roof made of Cioccolato, Bistre, and Morocco Brown colored wood",
-					"cobblestone_wall": "A Pattern of Tuna, and Trout",
-					"slate_blue_checkered": "A Pattern of Shuttle Grey, and Mid Grey",
-					"clay_slat_roof": "A roof made of Light Ash colored clay and Cocoa Brown wood",
-					"wood_dark_diagonal": "A Pattern of Muesli and Sandal",
-					"red_clay_wall": "A Pattern of Baker's Chocolate, and New Amber",
-					"red_clay_peaked_roof": "A peaked roof made of Baker's Chocolate and New Amber colored clay with Bistre colored wood"
+					"peaked_roof_oak_leaf": "Um telhado de madeira composto por tons de Folha de Carvalho",
+					"peaked_roof_robin": "Um telhado de madeira feito de tons de Robin",
+					"peaked_roof_peach": "Um telhado de madeira composto de tons de Pêssego",
+					"peaked_roof_peach_fancy": "Um telhado de madeira feito de Punga e tons de Pêssego",
+					"slat_roof_sage": "Um telhado feito de argila cor Sálvia, e madeira de Cacau Marrom",
+					"slat_roof_oasis": "Um telhado feito de argila cor Oásis, e madeira de Cacau Marrom",
+					"slat_roof_prickly_pear": "Um telhado feito de argila cor Figo da Índia, e madeira de Cacau Marrom",
+					"clay_wall_sage": "Um padrão de tons de Sálvia",
+					"clay_wall_prickly_pear": "Um padrão composto de tons de Figo da Índia",
+					"clay_wall_oasis": "Um padrão composto de tons de Oásis",
+					"gold_clay_wall": "Um padrão de Pavlova, Ráfia, Avelã Invernal e Bege",
+					"tan_clay_wall": "Um padrão de Rocha-Rosa, Bolo de Café, e Castanho-Amarelado",
+					"wooden_wall": "Um padrão de Punga, e Marrom Tabaco",
+					"red_clay_slat_roof": "Um telhado feito de argila cor Korma e madeira de Cacau Marrom",
+					"cobblestone": "Um padrão de Hillary, Granito Verde, e Ostra Pálida",
+					"thatch_peaked_roof": "Um telhado feito de Pesto, Limão Gengibre, Yukon Ouro e madeira de cor Bronze Antigo",
+					"red_slate_peaked_roof": "Um telhado feito de Vulcão Claro, Vulcão, e pedra de cor Vermelho Rústico",
+					"gray_clay_wall": "Um padrão de Névoa de Montanha Clara, Névoa de Montanha, Névoa de Montanha Escura, e Nublado",
+					"golden_clay_slat_roof": "Um telhado feito de argila cor de Ráfia e madeira de Cacau Marrom",
+					"castle_roof": "Um telhado feito de Atum, Cinza Salpicado, e pedra de cor Cinza Médio",
+					"plastered_wall": "Um padrão de Napa, e Cinzas",
+					"blue_slate_peaked_roof": "Um telhado feito de Azul Bahama, Azul Real, e pedra de cor Azul Real Escuro",
+					"brick_tiled": "Um padrão de Marrom Congo, Marrom Congo Escuro, e Cortiça",
+					"wooden_peaked_roof": "Um telhado feito de Cioccolato, Marrom Escuro, e madeira de cor Marrom Marrocos",
+					"cobblestone_wall": "Um padrão de Atum, e Truta",
+					"slate_blue_checkered": "Um padrão de Cinza Salpicado, e Cinza Médio",
+					"clay_slat_roof": "Um telhado feito de argila cor Cinzas Claras e madeira de Cacau Marrom",
+					"wood_dark_diagonal": "Um padrão de Cereais e Sandália",
+					"red_clay_wall": "Um padrão de Chocolate Baker, e Novo Âmbar",
+					"red_clay_peaked_roof": "Um telhado pontiagudo feito de Chocolate Baker e argila com Novo Âmbar com madeira cor Marrom Escuro"
 				}
 			}
 		},
 		"commands": {
 			"build_workshop": {
-				"display_name": "Construa Oficina",
+				"display_name": "Construir oficina",
 				"description": "Crie um lugar para produtividade!"
 			},
 			"chop_tree": {
-				"display_name": "Harvest",
-				"description": "Harvest for lumber, or just to get it out of the way."
+				"display_name": "Colher",
+				"description": "Colha para obter madeira, ou simplesmente para tirá-la do caminho."
 			},
 			"destroy_entity": {
 				"display_name": "Destruir",
-				"description": "Remover irrevogavelmente este item do mundo!"
+				"description": "Remove irrevogavelmente este item do mundo!"
 			},
 			"harvest_berries": {
-				"display_name": "Gather Berries",
-				"description": "This bush produces berries that can be gathered to feed your settlers.",
-				"disabled_description": "The berries on this bush aren't ripe yet!"
+				"display_name": "Coletar frutas",
+				"description": "Este arbusto produz frutas que podem ser colhidas para alimentar seus colonos.",
+				"disabled_description": "As frutas deste arbusto ainda não estão maduras!"
 			},
 			"harvest_planted": {
-				"display_name": "Harvest",
-				"description": "Reap whatever's available."
+				"display_name": "Colher",
+				"description": "Colha o que estiver disponível."
 			},
 			"loot_item": {
-				"display_name": "Loot item",
-				"description": "Claim this item for your town."
+				"display_name": "Item de pilhagem",
+				"description": "Reivindique este item para sua cidade."
 			},
 			"move_item": {
 				"display_name": "Mover item",
-				"description": "Mova essa coisa para outro lugar no mundo.",
+				"description": "Mova isso para outro lugar no mundo.",
 				"disabled_description": "Este item está em uso. Tente movê-lo mais tarde."
 			},
 			"open_character_sheet": {
-				"display_name": "Folha de Personagem",
+				"display_name": "Folha de personagem",
 				"description": "Dê uma olhada mais de perto neste cidadão"
 			},
 			"open_loot": {
-				"display_name": "Loot",
-				"description": "Open this loot container to claim its contents."
+				"display_name": "Pilhagem",
+				"description": "Abra este recipiente de pilhagem para reivindicar seu conteúdo."
 			},
 			"place_item": {
 				"display_name": "Coloque o item",
@@ -7559,14 +7559,14 @@
 			},
 			"plant_crop": {
 				"plant_corn": {
-					"display_name": "Plant Corn!",
-					"description": "Edible Gold."
+					"display_name": "Plante milho!",
+					"description": "Ouro comestível."
 				},
-				"display_name": "Plant a crop!",
-				"description": "Plant something in this square.",
+				"display_name": "Plante uma colheita!",
+				"description": "Plante algo neste quadrado.",
 				"plant_turnip": {
-					"display_name": "Plant a Turnip!",
-					"description": "Plant a turnip in this square."
+					"display_name": "Plante um nabo!",
+					"description": "Plante um nabo neste quadrado."
 				}
 			},
 			"promote_to_job": {
@@ -8749,12 +8749,12 @@
 		"loadouts": {
 			"food_for_days": {
 				"description": "A grande quantidade de comida amontoada na parte de trás da caravana deve manter os sobreviventes por alguns dias enquanto eles se instalam.",
-				"display_name": "Comida para Dias",
+				"display_name": "Comida para dias",
 				"tooltip": "Uma opção segura para novos jogadores, embora sem defesa."
 			},
 			"merchant_caravan": {
 				"description": "Uma coleção de ferramentas de comércio deve dar ao assentamento uma vantagem na região selvagem.",
-				"display_name": "Caravana Mercante",
+				"display_name": "Caravana mercante",
 				"tooltip": "Uma boa coleção de habilidades artesanais, mas falta de comida."
 			},
 			"money_solves_all_problems": {
@@ -8775,7 +8775,7 @@
 		"traits": {
 			"animal_companion": {
 				"animal_companion_trait": {
-					"display_name": "Companheiro Animal",
+					"display_name": "Companheiro animal",
 					"description": "Desde que [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] salvou seu [str(i18n_data.savee_species)], [name(i18n_data.savee)], de um perigo mortal, eles ficaram inseparáveis.",
 					"default_species": "Companheiro"
 				}
@@ -8812,8 +8812,8 @@
 			},
 			"green_thumb": {
 				"green_thumb_trait": {
-					"display_name": "Dedo Verde",
-					"description": "[name(i18n_data.entity)] parece ter um jeito com plantas que é um pouco indescritível."
+					"display_name": "Dom para as plantas",
+					"description": "[name(i18n_data.entity)] parece ter um dom indescritível com plantas."
 				}
 			},
 			"heart_of_a_crafter": {
@@ -8836,7 +8836,7 @@
 			},
 			"pack_mule": {
 				"pack_mule_trait": {
-					"display_name": "Burro de Carga",
+					"display_name": "Burro de carga",
 					"description": "Este hearthling ama transportar coisas ao redor! Por razões inexplicáveis, eles se movem mais rápido quando carregam algo em sua mochila."
 				}
 			},
@@ -8854,7 +8854,7 @@
 			},
 			"night_owl": {
 				"night_owl_trait": {
-					"display_name": "Coruja Noturna",
+					"display_name": "Coruja noturna",
 					"description": "O dia só começa realmente quando o sol se põe."
 				}
 			},
@@ -8866,7 +8866,7 @@
 			},
 			"passion_job": {
 				"passion_job_trait": {
-					"display_name": "Apaixonado pelo Trabalho de [str(i18n_data.passion_job)]",
+					"display_name": "Apaixonado pelo trabalho de [str(i18n_data.passion_job)]",
 					"description": "[name(i18n_data.entity)] sempre sonhou ser um [str(i18n_data.passion_job)], talvez consiga uma chance?"
 				}
 			},
@@ -8932,7 +8932,7 @@
 			},
 			"gourmand": {
 				"gourmand_trait": {
-					"display_name": "Paladar Gourmet",
+					"display_name": "Paladar gourmet",
 					"description": "Apenas os alimentos mais saborosos são bem-vindos ao paladar de [name(i18n_data.entity)]. Eles ficam felizes quando comem alimentos de melhor qualidade, mas as refeições de baixa qualidade são muito desagradáveis."
 				}
 			},
@@ -12542,11 +12542,11 @@
 			},
 			"prickly_pear": {
 				"prickly_pear_basket": {
-					"display_name": "Prickly Pear Basket",
+					"display_name": "Cesta de Figo da Índia",
 					"description": "Eat carefully!"
 				},
 				"prickly_pear_serving": {
-					"display_name": "Prickly Pear",
+					"display_name": "Figo da Índia",
 					"description": "Ow! Was that a spine?"
 				}
 			},
@@ -12865,10 +12865,10 @@
 			},
 			"pie_pear": {
 				"pie_pear_serving": {
-					"display_name": "Piece of Prickly Pear Pie"
+					"display_name": "Pedaço de Torta de Figos da Índia"
 				},
 				"pie_pear": {
-					"display_name": "Prickly Pear Pie",
+					"display_name": "Torta de Figos da Índia",
 					"description": "It's called 'Prickly Pear' but all the prickles have been removed."
 				}
 			},
@@ -13738,12 +13738,12 @@
 				}
 			},
 			"berry_bush": {
-				"display_name": "Berry Bush",
+				"display_name": "Arbusto de Frutas",
 				"description": "Harvestable for a meager food supply.",
 				"unripe_description": "Not yet ripe for harvest.",
 				"seed": {
 					"berry_bush_plant_seed_ghost": {
-						"display_name": "Berry Bush Seed",
+						"display_name": "Semente de Arbusto de Frutas",
 						"description": "Can be planted to grow a meager food supply"
 					}
 				},
@@ -17228,7 +17228,7 @@
 				},
 				"pie_pear_recipe": {
 					"description": "A scrumptious pie that is very complicated to make.",
-					"recipe_name": "Prickly Pear Pie",
+					"recipe_name": "Torta de Figos da Índia",
 					"flavor": "It's called 'Prickly Pear' but all the prickles have been removed."
 				},
 				"cake_layered_recipe": {
@@ -18282,7 +18282,7 @@
 				},
 				"potter_kiln_recipe": {
 					"description": "Hardens basic clay objects.",
-					"recipe_name": "Potter's Kiln",
+					"recipe_name": "Forno do Oleiro",
 					"flavor": "'Through heat and hardship we realize our final selves.' -Silora, Acolyte of Rayya's Mystery "
 				},
 				"clay_safety_standard_recipe": {
@@ -18527,13 +18527,13 @@
 			},
 			"potter_workbench": {
 				"potter_workbench_ghost": {
-					"display_name": "Pottery Wheel",
+					"display_name": "Roda do Oleiro",
 					"description": "For making symmetrical clay goods"
 				}
 			},
 			"potter_kiln": {
 				"potter_kiln_ghost": {
-					"display_name": "Potter's Kiln",
+					"display_name": "Forno do Oleiro",
 					"description": "Produces bricks and goods from clay."
 				}
 			},
@@ -18963,62 +18963,62 @@
 		},
 		"herbalist": {
 			"herbalist_description": {
-				"display_name": "Herbalista",
+				"display_name": "Herborista",
 				"description": "Cura unidades com bálsamos e ataduras trabalhados.",
 				"requirements": "Ferramenta feita pelo Carpinteiro",
 				"workshop": {
-					"name": "Laboratório Herbalista",
-					"description": "Permite que o Herbalista ofereça bálsamos e ataduras.",
-					"long_description": "Permite que o Herbalista ofereça bálsamos e ataduras."
+					"name": "Laboratório Herborista",
+					"description": "Permite que o Herborista ofereça bálsamos e ataduras.",
+					"long_description": "Permite que o Herborista ofereça bálsamos e ataduras."
 				},
 				"level_1_data": {
 					"perk_000_name": "Praticante Júnior",
 					"perk_001_name": "Regeneração Natural",
-					"perk_000_description": "O Herbalista pode atender a 2 colonos machucados de cada vez.",
-					"perk_001_description": "O Herbalista canaliza os espíritos da floresta e ganha regeneração natural. Força de Vontade e Diligência aumentaram."
+					"perk_000_description": "O Herborista pode atender a 2 colonos machucados de cada vez.",
+					"perk_001_description": "O Herborista canaliza os espíritos da floresta e ganha regeneração natural. Força de Vontade e Diligência aumentaram."
 				},
 				"level_2_data": {
 					"perk_000_name": "Visão Colaborativa",
-					"perk_000_description": "O Herbalista agora é habilidoso o suficiente para usar materiais criados pelos outros artesãos."
+					"perk_000_description": "O Herborista agora é habilidoso o suficiente para usar materiais criados pelos outros artesãos."
 				},
 				"level_4_data": {
 					"perk_000_name": "Poder Médico",
-					"perk_000_description": "O Herbalista pode agora atender até 4 colono de cada vez."
+					"perk_000_description": "O Herborista pode agora atender até 4 colonos de cada vez."
 				},
 				"level_3_data": {
 					"perk_000_name": "Proficiência de Itens",
-					"perk_000_description": "O talento médico do Herbalista aumenta em 50% a eficácia dos itens de cura."
+					"perk_000_description": "O talento médico do Herborista aumenta em 50% a eficácia dos itens de cura."
 				},
 				"level_6_data": {
-					"title": "Herbalista Mestre"
+					"title": "Herborista Mestre"
 				}
 			},
 			"herbalist_outfit": {
-				"display_name": "Roupa Herbalista",
-				"description": "Vestes tradicionais do Herbalista"
+				"display_name": "Roupa Herborista",
+				"description": "Vestes tradicionais do Herborista"
 			},
 			"herbalist_staff": {
-				"display_name": "Cajado do Herbalista",
-				"description": "Requisito para promover um colono em um Herbalista.",
+				"display_name": "Cajado do Herborista",
+				"description": "Requisito para promover um colono em um Herborista.",
 				"herbalist_staff_iconic": {
-					"display_name": "Cajado do Herbalista",
-					"description": "Requisito para promover um colono em um Herbalista."
+					"display_name": "Cajado do Herborista",
+					"description": "Requisito para promover um colono em um Herborista."
 				},
 				"herbalist_staff_talisman": {
-					"display_name": "Cajado do Herbalista",
-					"description": "Requisito para promover um colono em um Herbalista."
+					"display_name": "Cajado do Herborista",
+					"description": "Requisito para promover um colono em um Herborista."
 				}
 			},
 			"herbalist_workbench": {
 				"herbalist_workbench_ghost": {
-					"display_name": "Laboratório do Herbalista",
+					"display_name": "Laboratório do Herborista",
 					"description": "Usado para criar itens de cura."
 				}
 			},
 			"recipes": {
 				"herbalist_workbench_recipe": {
-					"description": "Permite que o Herbalista ofereça bálsamos e curativos de cura.",
-					"recipe_name": "Laboratório do Herbalista"
+					"description": "Permite que o Herborista ofereça bálsamos e curativos de cura.",
+					"recipe_name": "Laboratório do Herborista"
 				},
 				"workbenches_name": "Bancada de Trabalho",
 				"tonics_name": "Tônicos",
@@ -19037,15 +19037,15 @@
 				"bandages_name": "Ataduras",
 				"coarse_bandage_recipe": {
 					"recipe_name": "Atadura Grossa",
-					"description": "Usada pelo Herbalista para curar em pequena quantidade."
+					"description": "Usada pelo Herborista para curar em pequena quantidade."
 				},
 				"heavy_bandage_recipe": {
 					"recipe_name": "Atadura Pesada",
-					"description": "Usada pelo Herbalista para fornecer muita cura. Boa para feridas graves."
+					"description": "Usada pelo Herborista para fornecer muita cura. Boa para feridas graves."
 				},
 				"light_bandage_recipe": {
 					"recipe_name": "Atadura Leve",
-					"description": "Usada pelo Herbalista para curar feridas moderadas."
+					"description": "Usada pelo Herborista para curar feridas moderadas."
 				},
 				"courage_tonic_recipe": {
 					"description": "Aumenta a coragem de todos os cidadãos da cidade por um curto período de tempo.",
@@ -19134,7 +19134,7 @@
 				},
 				"pear_cactus_recipe": {
 					"description": "Sementes separadas da fruta",
-					"recipe_name": "Prickly Pear Seeds (x3)",
+					"recipe_name": "Sementes de Figos da Índia (x3)",
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
 				},
 				"wall_hanging_berrywreath_recipe": {

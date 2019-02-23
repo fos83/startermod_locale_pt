@@ -1,7 +1,7 @@
 {
 	"kingdom": {
 		"kingdom_name": "Filhos de Rayya",
-		"quote": "Meditação, mediação, medicação: Ordem em si traz ordem aos outros traz saúde a todos.",
+		"quote": "Meditação, meditação, meditação: A ordem em si traz ordem aos outros trazendo saúde a todos.",
 		"long_description": "Os povos do deserto aprenderam cedo que para sobreviver, precisavam uns dos outros, e de quantos mais pudessem alcançar. Agora, visitantes os acham anfitriões generosos com acesso a produtos de todo o mundo.",
 		"post_selection_description": ", uma sociedade de comerciantes encantadores e astutos.",
 		"initial_town_name": "Caravana [str(town_number)]"
@@ -22,7 +22,7 @@
 					"description": "Identifica sua cidade como um posto de comércio respeitável"
 				},
 				"monkey_shrine_monument_recipe": {
-					"description": "Um lugar para prestar homenagem ao Macaco e ao Seu Mistério",
+					"description": "Um lugar para prestar homenagem ao Macaco e a Sua Misteriosa",
 					"recipe_name": "Monumento do santuário do macaco"
 				},
 				"exotic_trade_monument_recipe": {
@@ -30,150 +30,150 @@
 					"recipe_name": "Monumento da Tapeçaria"
 				},
 				"herbalist_clay_staff_recipe": {
-					"flavor": "'Essas flores cuidam de seu jardineiro como o jardineiro cuida deles.' -Zale, Mestre herborista"
+					"flavor": "'Essas flores cuidam de seu jardineiro como o jardineiro cuida deles.' - Zale, Mestre Herborista"
 				},
 				"jar_green_recipe": {
-					"description": "Small green glass jar with accompanying small fire",
-					"recipe_name": "Green Glass Jar with Candle"
+					"description": "Pequeno frasco de vidro verde acompanhado de um fogo pequeno",
+					"recipe_name": "Frasco de vidro verde com vela"
 				},
 				"jar_red_recipe": {
-					"description": "Small red glass jar with accompanying small fire",
-					"recipe_name": "Red Glass Jar with Candle"
+					"description": "Pequeno frasco de vidro vermelho acompanhado de um fogo pequeno",
+					"recipe_name": "Frasco de vidro vermelho com vela"
 				},
 				"pot_oil_earthen_recipe": {
-					"description": "Small earthen pot with accompanying small fire",
-					"recipe_name": "Earthen Oil Pot"
+					"description": "Panela de barro pequena acompanhada de um fogo pequeno",
+					"recipe_name": "Panela de barro com óleo"
 				},
 				"pot_oil_green_recipe": {
-					"description": "Small green pot with accompanying small fire",
-					"recipe_name": "Green Oil Pot"
+					"description": "Pequena panela verde acompanhada de um fogo pequeno",
+					"recipe_name": "Panela verde com óleo"
 				},
 				"pot_oil_halfgreen_recipe": {
-					"description": "Small half-glazed pot with accompanying small fire",
-					"recipe_name": "Half-Glazed Oil Pot"
+					"description": "Pequena panela em porcelanato acompanhada de um fogo pequeno",
+					"recipe_name": "Panela em porcelanato com óleo"
 				},
 				"pot_sunflower_recipe": {
-					"description": "Small earthen pot with a beautiful flower.",
-					"recipe_name": "Potted Sunflower"
+					"description": "Pequena panela de barro com uma bela flor.",
+					"recipe_name": "Panela com girassol"
 				},
 				"pot_fox_lily_recipe": {
-					"description": "Small earthen pot with a beautiful flower.",
-					"recipe_name": "Potted Fox Lily"
+					"description": "Pequena panela de barro com uma bela flor.",
+					"recipe_name": "Panela com lírio"
 				},
 				"pot_acacia_recipe": {
-					"description": "Small earthen pot with a beautiful miniature tree.",
-					"recipe_name": "Potted Acacia Bonsai"
+					"description": "Pequena panela de barro com uma bela árvore em miniatura.",
+					"recipe_name": "Panela com bonsai de acácia"
 				},
 				"urn_large_recipe": {
-					"description": "Extra large for extra trading!",
-					"recipe_name": "Trading Goods Urn"
+					"description": "Extra grande para comércio extra!",
+					"recipe_name": "Urna de mercadorias comerciais"
 				},
 				"wall_hanging_sunflower_recipe": {
-					"description": "A sunflower decoration for your wall.",
-					"recipe_name": "Wall Flower"
+					"description": "Uma decoração do girassol para sua parede.",
+					"recipe_name": "Parede florada"
 				},
 				"wall_hanging_sunwreath_recipe": {
-					"description": "A collection of sunflowers to hang on your wall.",
-					"recipe_name": "Sunflower Wreath"
+					"description": "Uma coleção de girassóis para colocar na sua parede.",
+					"recipe_name": "Grinalda de girassol"
 				},
 				"wind_chime_recipe": {
-					"description": "A magnificent sight and sound to match.",
-					"recipe_name": "Glass Wind Chime"
+					"description": "Uma vista magnífica e som para combinar.",
+					"recipe_name": "Sinos de vento de cristal"
 				},
 				"window_tall_latticed_recipe": {
-					"description": "The lattice work stops most of the hot sun, and looks pretty too!",
-					"recipe_name": "Tall Latticed Window"
+					"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!",
+					"recipe_name": "Janela alta em treliça"
 				},
 				"door_clay_latticed_recipe": {
-					"recipe_name": "Clay Latticed Door",
-					"description": "The lattice work stops most of the hot sun, and looks pretty too!"
+					"recipe_name": "Porta de barro em treliça",
+					"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!"
 				},
 				"chest_recipe": {
-					"description": "A place to store tribute of Monkey and Her Mystery",
-					"recipe_name": "Clay Chest"
+					"description": "Um lugar para armazenar tributos ao Macaco e a Sua Misteriosa",
+					"recipe_name": "Baú de argila"
 				},
 				"lamp_gold_recipe": {
-					"description": "Its flame brings a warm glow at night.",
-					"recipe_name": "Golden Oil Lamp"
+					"description": "Sua chama traz um brilho quente durante a noite.",
+					"recipe_name": "Lâmpada dourada a óleo"
 				},
 				"lamp_wall_gold_recipe": {
-					"description": "Its flame brings a warm glow at night.",
-					"recipe_name": "Golden Oil Wall Lamp"
+					"description": "Sua chama traz um brilho quente durante a noite.",
+					"recipe_name": "Lâmpada dourada a óleo de parede"
 				},
 				"lightbox_recipe": {
-					"description": "Its light splashes patterns across the ground, and on things above it.",
-					"recipe_name": "Clay Lightbox"
+					"description": "A sua luz salpica padrões pelo chão e acima dela.",
+					"recipe_name": "Caixa de luz de argila"
 				},
 				"monkey_recipe": {
-					"description": "A tribute to Monkey and her many helpers.",
-					"recipe_name": "Clay Monkey Statue"
+					"description": "Um tributo ao Macaco e seus muitos ajudantes.",
+					"recipe_name": "Estátua de argila do Macaco"
 				},
 				"teapot_recipe": {
-					"description": "A reminder of bold entrepreneurs.",
-					"recipe_name": "Finely Crafted Tea Set"
+					"description": "Um lembrete de empreendedores ousados.",
+					"recipe_name": "Conjunto de chá finamente trabalhado"
 				},
 				"wall_hanging_key_recipe": {
-					"description": "A wall ornament that reminds us of Monkey.",
-					"recipe_name": "Monkey Shrine Key"
+					"description": "Um ornamento de parede que nos lembra do Macaco.",
+					"recipe_name": "Chave do santuário do Macaco"
 				},
 				"banner_wall_big_recipe": {
-					"description": "Show your town pride with this banner.",
-					"recipe_name": "Long Wall Banner"
+					"description": "Mostre seu orgulho da cidade com esta bandeira.",
+					"recipe_name": "Bandeira comprida de parede"
 				},
 				"banner_wall_small_recipe": {
-					"description": "Show your town pride with this banner.",
-					"recipe_name": "Wide Wall Banner"
+					"description": "Mostre seu orgulho da cidade com esta bandeira.",
+					"recipe_name": "Bandeira larga da parede"
 				},
 				"pedestal_firepit_recipe": {
-					"description": "Softly glowing coals",
-					"recipe_name": "Firebowl",
-					"flavor": "A little fire lives here"
+					"description": "Carvões levemente incandescentes",
+					"recipe_name": "Tigela de fogo",
+					"flavor": "Um pequeno fogo vive aqui"
 				},
 				"pedestal_floral_red_recipe": {
-					"description": "A decorative display of aromatic flowers and herbs",
-					"recipe_name": "Red Floral Pedestal",
-					"flavor": "Breathes flowery sweetness into dry desert breezes"
+					"description": "Uma exposição decorativa de flores e de ervas aromáticas",
+					"recipe_name": "Pedestal Floral Vermelho",
+					"flavor": "Respira doçura floral em brisas do árido deserto"
 				},
 				"pedestal_floral_coral_recipe": {
-					"description": "A decorative display of aromatic flowers and herbs",
-					"recipe_name": "Coral Floral Pedestal",
-					"flavor": "Breathes flowery sweetness into dry desert breezes"
+					"description": "Uma exibição decorativa de flores e ervas aromáticas",
+					"recipe_name": "Pedestal Floral de Coral",
+					"flavor": "Respira doçura floral em brisas do árido deserto"
 				},
 				"pedestal_floral_blue_recipe": {
-					"description": "A decorative display of aromatic flowers and herbs",
-					"recipe_name": "Blue Floral Pedestal",
-					"flavor": "Breathes flowery sweetness into dry desert breezes"
+					"description": "Uma exibição decorativa de flores e ervas aromáticas",
+					"recipe_name": "Pedestal Floral Azul",
+					"flavor": "Respira doçura floral em brisas do árido deserto"
 				},
 				"kiln_upgrade_recipe": {
-					"description": "Allows the Potters of your town to work in style.",
-					"recipe_name": "Upgraded Potter's Kiln"
+					"description": "Permite aos Oleiros de sua cidade trabalhar com estilo.",
+					"recipe_name": "Forno do Oleiro melhorado"
 				},
 				"workbench_upgrade_recipe": {
-					"description": "For the more aesthetically concerned Potter.",
-					"recipe_name": "Upgraded Pottery Wheel",
-					"flavor": "The quality of your work can only be as high as the quality of your equipment -- Khora, Master Potter"
+					"description": "Para o Oleiro mais esteticamente preocupado.",
+					"recipe_name": "Roda de Oleiro melhorada",
+					"flavor": "A qualidade do seu trabalho só pode ser tão alta quanto a qualidade do seu equipamento - Khora, Mestre Oleiro"
 				},
 				"legendary_rc_face_recipe": {
-					"description": "Protects the Dragon's Shield",
-					"recipe_name": "Dragonhide",
-					"flavor": "Repeated glazing and firing makes it shine like dragon scales, and just as resilient"
+					"description": "Protege o Escudo do Dragão",
+					"recipe_name": "Pele de dragão",
+					"flavor": "Repetidas cozeduras do vidro o fazem brilhar como escamas de dragão e também ser tão resistente"
 				},
 				"legendary_rc_inlay_recipe": {
-					"description": "Radiant gilding for the Desert Fang",
-					"recipe_name": "Glittering Inlay",
-					"flavor": "Gleaming with hearthlight"
+					"description": "Resplandecente e dourada para a Presa do Deserto",
+					"recipe_name": "Incrustação brilhante",
+					"flavor": "Brilhando como a luz da fogueira"
 				}
 			},
 			"potter_kiln_upgrade": {
 				"potter_kiln_upgrade_ghost": {
-					"display_name": "Upgraded Potter's Kiln",
-					"description": "Allows the Potters of your town to work in style."
+					"display_name": "Forno do Oleiro melhorado",
+					"description": "Permite que os Oleiros da sua cidade trabalhem com estilo."
 				}
 			},
 			"potter_workbench_upgrade": {
 				"potter_workbench_upgrade_ghost": {
-					"display_name": "Upgraded Pottery Wheel",
-					"description": "For the style concerned Potter."
+					"display_name": "Roda de Oleiro melhorada",
+					"description": "Para o estilo Oleiro em questão."
 				}
 			}
 		},
@@ -183,9 +183,9 @@
 			},
 			"recipes": {
 				"legendary_rc_cloth_recipe": {
-					"description": "Traditional material for the Crimson Circlet",
-					"recipe_name": "Sundyed Fabric",
-					"flavor": "Soaked in sunlight and healing herbs"
+					"description": "Material tradicional para o Círculo Carmesim",
+					"recipe_name": "Tecido Sol-Tingido",
+					"flavor": "Embebido em luz solar e ervas medicinais"
 				},
 				"legendary_rc_stave_recipe": {
 					"description": "The limbs of the Zephyr Bow",
@@ -201,7 +201,7 @@
 			"recipes": {
 				"rc_giants_shield_recipe": {
 					"description": "The desert's proudest shield",
-					"recipe_name": "Dragon's Shield",
+					"recipe_name": "Escudo do Dragão",
 					"flavor": "Against even the most terrible foes and impossible dangers, this shield will never break."
 				},
 				"legendary_rc_blade_recipe": {
@@ -237,11 +237,11 @@
 					"recipe_name": "Pão simples"
 				},
 				"meat_tagine_recipe": {
-					"description": "Carne e legumes cozido em um pote de barro",
+					"description": "Carne e legumes cozido em uma panela de barro",
 					"recipe_name": "Tagine de guisado de carne"
 				},
 				"vegetable_tagine_recipe": {
-					"description": "Legumes cozido em um pote de barro",
+					"description": "Legumes cozido em uma panela de barro",
 					"recipe_name": "Tagine de guisado de legumes"
 				}
 			}
@@ -254,19 +254,19 @@
 					"flavor": "It doesn't neccessarily catch the sun as well as it hurls the beams directly into your eyeballs, ow..."
 				},
 				"rc_two_handed_sword_valor_recipe": {
-					"description": "Finest blade in the desert",
-					"recipe_name": "Desert Fang",
-					"flavor": "Perfectly balanced for its size, and equal to any challenge its wielder takes on"
+					"description": "A melhor espada do deserto",
+					"recipe_name": "Presa do Deserto",
+					"flavor": "Perfeitamente equilibrado para o seu tamanho e igual a qualquer desafio que seu portador assuma"
 				},
 				"rc_circlet_valor_recipe": {
-					"description": "The Phoenix Empire's squarest circlet",
-					"recipe_name": "Crimson Circlet",
-					"flavor": "Channels the very heart and soul into healing light"
+					"description": "O círculo mais quadrado do Império Fênix",
+					"recipe_name": "Círculo Carmesim",
+					"flavor": "Canaliza o próprio coração e a alma para a luz da cura."
 				},
 				"legendary_rc_frame_recipe": {
-					"description": "Reinforces the Dragon's Shield",
-					"recipe_name": "Dragonplate",
-					"flavor": "The bones of the dragon"
+					"description": "Reforça o Escudo do Dragão",
+					"recipe_name": "Placa-Dragão",
+					"flavor": "Os ossos do dragão"
 				}
 			}
 		},
@@ -339,7 +339,7 @@
 				},
 				"rc_legendary_circlet_recipe": {
 					"description": "Worn by the desert's finest healers",
-					"recipe_name": "Crimson Circlet",
+					"recipe_name": "Círculo Carmesim",
 					"flavor": "Channels the very heart and soul into healing light"
 				},
 				"legendary_rc_bowstring_recipe": {
@@ -430,7 +430,7 @@
 								},
 								"shrine_reqs": {
 									"bulletin_message": {
-										"000": "A Igreja de Rayya, mais comumente conhecida como Sua Misteriosa, pode designar um posto avançado como um ponto de referência oficial da Igreja. Para ser elegível, sua cidade deve fornecer um santuário onde os viajantes e andarilhos cansados ​podem fazer oferendas ao Macaco e homenagear a Mãeguilda Rayya."
+										"000": "A Igreja de Rayya, mais comumente conhecida como Sua Misteriosa, pode designar um posto avançado como um ponto de referência oficial da Igreja. Para ser elegível, sua cidade deve fornecer um santuário onde os viajantes e andarilhos cansados podem fazer oferendas ao Macaco e homenagear a Mãe-Guilda Rayya."
 									},
 									"bulletin_title": "Naryal de Iskender",
 									"dialog_title": "Naryal de Iskender",
@@ -528,32 +528,32 @@
 						}
 					},
 					"unlock_exotic_trade_monument": {
-						"bulletin_title": "Receita de Oleiro Desbloqueada: Monumento A Chama Eterna"
+						"bulletin_title": "Receita do Oleiro Desbloqueada: Monumento A Chama Eterna"
 					},
 					"unlock_monkey_shrine_monument": {
-						"bulletin_title": "Receita de Oleiro Desbloqueada: Santuário de Sua Misteriosa"
+						"bulletin_title": "Receita do Oleiro Desbloqueada: Santuário de Sua Misteriosa"
 					},
 					"unlock_trading_post_monument": {
-						"bulletin_title": "Receita de Oleiro Desbloqueada: Monumento do Comerciante"
+						"bulletin_title": "Receita do Oleiro Desbloqueada: Monumento do Comerciante"
 					},
 					"trading_post_tier_2_reached": {
-						"title": "Iskender Agent Naryal Returns",
-						"speaker_name": "Naryal Iskender",
-						"message": "Congratulations, [str(i18n_data.town_name)]! Your town is eligible to be officially recognized as a township! I have brought building materials and trade agreements, as is customary.",
+						"title": "O agente Naryal de Iskender retorna",
+						"speaker_name": "Naryal de Iskender",
+						"message": "Parabéns, [str(i18n_data.town_name)]! Sua cidade é elegível para ser oficialmente reconhecida como município! Eu trouxe os materiais de construção e os acordos comerciais, como de costume.",
 						"accept": "Woohoo!",
-						"dialog_title": "Township Achieved!",
-						"tier_title": "Township",
-						"reward_message": "By honorary decree of Rayya's Children, we recognize:",
-						"reward_message_ctd": "For its excellence as a world-class trading post. The town is hereby eligible for:",
-						"tier_2_bldg_template": "Tier 2 Building Templates",
-						"tier_2_shops": "Tier 2 Shops",
-						"tier_2_BGM": "Tier 2 BGM"
+						"dialog_title": "Município Alcançado!",
+						"tier_title": "Município",
+						"reward_message": "Por decreto honorário dos Filhos de Rayya, reconhecemos:",
+						"reward_message_ctd": "Por sua excelência como Posto comercial de classe mundial, essa cidade é elegível para:",
+						"tier_2_bldg_template": "Modelos de construção nível 2",
+						"tier_2_shops": "Lojas de nível 2",
+						"tier_2_BGM": "Músicas de nível 2"
 					},
 					"rayyas_children_town_tier_quest": {
-						"title": "Quest for a township",
-						"dialog_title": "Quest for a township",
-						"text": "Satisfy any of the following requirements to gain sufficient renown to qualify for township status:",
-						"summon_text": "Summon Iskender!"
+						"title": "Em busca do Município",
+						"dialog_title": "Em busca do Município",
+						"text": "Satisfaça qualquer um dos seguintes requisitos para ganhar renome suficiente para se qualificar para o status de município:",
+						"summon_text": "Convocar Iskender!"
 					},
 					"exotic_trade_tier_2_reached": {
 						"reward_message_ctd": "For excellence in foreign and exotic trade. The town is hereby eligible for:"
@@ -1021,15 +1021,15 @@
 						}
 					},
 					"shrine_upgrade_guildmaster": {
-						"reward_message": "By decree of the Iskender Trading Company, we recognize:",
-						"reward_message_ctd": "For excellence in craftsmanship and trade. The town is hereby eligible for:",
+						"reward_message": "Por decreto da Companhia Comercial de Iskender, reconhecemos:",
+						"reward_message_ctd": "Pela excelência em artesanato e comércio. A cidade é elegível para:",
 						"achievements": {
-							"001": "Potter Pot Decorations",
-							"002": "Potter Floral Decorations",
-							"003": "Potter Decorated Workbenches"
+							"001": "Decorações de Panela de Oleiro",
+							"002": "Decorações Florais de Oleiro",
+							"003": "Bancadas de Trabalho Decoradas do Oleiro"
 						},
 						"recipe_bulletins": {
-							"recipe_unlock_potter": "New pot, floral, and workbench decoration recipes for Potter!"
+							"recipe_unlock_potter": "Novas receitas de decoração de panela, flores e bancadas de trabalho para o Oleiro!"
 						}
 					},
 					"town_founding_explanation": {
@@ -1049,8 +1049,9 @@
 									},
 									"bulletin_title": "Uma raposa-do-deserto se aproxima",
 									"dialog_title": "Uma raposa... Mensageira?",
-									"choice_000": "Abrir a mochila"
-								},
+									"choice_000": "Abrir a mochila",
+									"choice_001": "[Pular] Sabemos qual bandeira queremos."
+                        },
 								"read_letter": {
 									"bulletin_message": {
 										"00": "Prezada Caravana [str(i18n_data.town_serial_number)],<p>Obrigado por voluntariar-se para estabelecer um novo posto avançado tão longe no Oeste! Nós aqui na Companhia Comercial de Iskender estamos muito satisfeitos que você tenha nos escolhido para viabilizar sua fundação.<p>Uma vez que a papelada esteja em ordem, uma caravana oficial da companhia, liderada pelo Agente de Naryal de Iskender, iniciará uma nova rota para o seu posto avançado.</p>"
@@ -1085,7 +1086,7 @@
 						}
 					},
 					"unlock_shrine_recipes": {
-						"bulletin_title": "Potter shrine recipes unlocked!"
+						"bulletin_title": "Receitas do Santuário de Oleiro desbloqueadas!"
 					},
 					"arcs": {
 						"trigger": {
@@ -1096,11 +1097,11 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Monkey keep you, friend! Now that our existing contract is resolved, we'd like to remind you that the Iskender Trading Company is always open for repeat business!<p>In fact, since this collaboration went so well, if you'd like to establish another town, we'd be happy to sponsor a larger caravan that can carry a few of your citizens from here, as well as some extra goods and records. Just let us know when you're ready!</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+														"00": "Que o Macaco te proteja, amigo! Agora que a questão do nosso contrato foi resolvida, gostaríamos de lembrá-lo que a Companhia Comercial de Iskender está aberta para novos negócios!<p>Como essa colaboração foi tão boa, caso queira estabelecer outra cidade, ficaremos felizes em patrocinar uma caravana maior que possa levar alguns de seus cidadãos daqui, bem como alguns bens adicionais e registros. Apenas nos avise quando estiver pronto!</p><p><font size=-1><i>Reembarcar lhe permite transferir até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao começar uma nova cidade.</i></font></p>"
 													},
-													"bulletin_title": "It's Naryal Again!",
-													"dialog_title": "One Last Thing",
-													"choice_000": "Good to know!"
+													"bulletin_title": "É Naryal outra vez!",
+													"dialog_title": "Uma última coisa",
+													"choice_000": "Bom saber!"
 												}
 											}
 										}
@@ -1116,10 +1117,10 @@
 			"building_templates_index": {
 				"template_tabs": {
 					"rayyas_children": {
-						"display_name": "Rayya's",
+						"display_name": "dos Rayyas",
 						"categories": {
-							"outpost": "Outpost Templates",
-							"settlement": "Settlement Templates"
+							"outpost": "Modelos de Posto Avançado",
+							"settlement": "Modelos de Assentamentos"
 						}
 					}
 				}
@@ -1206,72 +1207,72 @@
 			"monkey_shrine_monument": {
 				"monkey_shrine_monument_ghost": {
 					"display_name": "Monumento do santuário do macaco",
-					"description": "Um lugar para prestar homenagem ao Macaco e ao Seu Mistério"
+					"description": "Um lugar para prestar homenagem ao Macaco e a Sua Misteriosa"
 				},
 				"chest": {
 					"chest_ghost": {
-						"display_name": "Clay Chest of Monkey",
-						"description": "A place to store tribute of Monkey and Her Mystery"
+						"display_name": "Baú de argila do Macaco",
+						"description": "Um lugar para armazenar tributos ao Macaco e a Sua Misteriosa"
 					}
 				},
 				"monkey": {
 					"monkey_ghost": {
-						"display_name": "Clay Monkey Statue",
-						"description": "A tribute to Monkey and her many helpers."
+						"display_name": "Estátua de argila do Macaco",
+						"description": "Um tributo ao Macaco e seus muitos ajudantes."
 					}
 				},
 				"key": {
 					"key_ghost": {
-						"display_name": "Monkey Shrine Key",
-						"description": "A wall ornament that reminds us of Monkey"
+						"display_name": "Chave do santuário do Macaco",
+						"description": "Um ornamento de parede que nos lembra do Macaco."
 					}
 				},
 				"lamp_gold": {
 					"lamp_gold_ghost": {
-						"display_name": "Golden Oil Lamp",
-						"description": "Its flame brings a warm glow at night."
+						"display_name": "Lâmpada dourada a óleo",
+						"description": "Sua chama traz um brilho quente durante a noite."
 					}
 				},
 				"lamp_wall_gold": {
 					"lamp_wall_gold_ghost": {
-						"display_name": "Golden Oil Wall Lamp",
-						"description": "Its flame brings a warm glow at night."
+						"display_name": "Lâmpada dourada a óleo de parede",
+						"description": "Sua chama traz um brilho quente durante a noite."
 					}
 				},
 				"window_tall_latticed": {
 					"window_tall_latticed_ghost": {
-						"display_name": "Tall Gold-Latticed Window",
-						"description": "The lattice work stops most of the hot sun, and looks pretty too!"
+						"display_name": "Janela alta em treliça dourada",
+						"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!
 					}
 				},
 				"door_clay_latticed": {
 					"door_clay_latticed_ghost": {
-						"display_name": "Gold-Latticed Door",
-						"description": "The lattice work stops most of the hot sun, and looks pretty too!"
+						"display_name": "Porta dourada em treliça",
+						"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!"
 					}
 				},
 				"teapot": {
 					"teapot_ghost": {
-						"display_name": "Finely Crafted Tea Set",
-						"description": "A reminder of bold entrepreneurs."
+						"display_name": "Conjunto de chá finamente trabalhado",
+						"description": "Um lembrete de empreendedores ousados."
 					}
 				},
 				"banner_wall_small": {
 					"banner_wall_small_ghost": {
-						"display_name": "Wide Wall Banner",
-						"description": "Show your town pride with this banner."
+						"display_name": "Bandeira larga da parede",
+						"description": "Mostre seu orgulho da cidade com esta bandeira."
 					}
 				},
 				"banner_wall_big": {
 					"banner_wall_big_ghost": {
-						"display_name": "Long Wall Banner",
-						"description": "Show your town pride with this banner."
+						"display_name": "Bandeira comprida de parede",
+						"description": "Mostre seu orgulho da cidade com esta bandeira."
 					}
 				},
 				"lightbox": {
 					"lightbox_ghost": {
-						"display_name": "Clay Lightbox",
-						"description": "Its light splashes patterns across the ground, and on things above it."
+						"display_name": "Caixa de luz de argila",
+						"description": "A sua luz salpica padrões pelo chão e acima dela."
 					}
 				}
 			},
@@ -1295,7 +1296,7 @@
 				"pedestal_firepit": {
 					"pedestal_firepit_ghost": {
 						"display_name": "Small Clay Firepit",
-						"description": "Softly glowing coals"
+						"description": "Carvões levemente incandescentes"
 					}
 				},
 				"wall_hanging_suncatcher": {
@@ -1360,20 +1361,20 @@
 				},
 				"pedestal_floral_blue": {
 					"pedestal_floral_blue_ghost": {
-						"display_name": "Blue Petal Pedestal",
-						"description": "A decorative display of aromatic flowers and herbs"
+						"display_name": "Pedestal Floral Azul",
+						"description": "Uma exposição decorativa de flores e de ervas aromáticas"
 					}
 				},
 				"pedestal_floral_coral": {
 					"pedestal_floral_coral_ghost": {
-						"display_name": "Coral Petal Pedestal",
-						"description": "A decorative display of aromatic flowers and herbs"
+						"display_name": "Pedestal Floral de Coral",
+						"description": "Uma exposição decorativa de flores e de ervas aromáticas"
 					}
 				},
 				"pedestal_floral_red": {
 					"pedestal_floral_red_ghost": {
-						"display_name": "Red Petal Pedestal",
-						"description": "A decorative display of aromatic flowers and herbs"
+						"display_name": "Pedestal Floral Vermelho",
+						"description": "Uma exposição decorativa de flores e de ervas aromáticas"
 					}
 				},
 				"rug_gilded_red": {
@@ -1402,50 +1403,50 @@
 				},
 				"urn_large": {
 					"urn_large_ghost": {
-						"display_name": "Trading Goods Urn",
-						"description": "Extra large for extra trading!"
+						"display_name": "Urna de mercadorias comerciais",
+						"description": "Extra grande para comércio extra!"
 					}
 				},
 				"pot_oil_earthen": {
 					"pot_oil_earthen_ghost": {
-						"display_name": "Earthen Oil Pot",
-						"description": "Small earthen pot with accompanying small fire"
+						"display_name": "Panela de barro com óleo",
+						"description": "Panela de barro pequena acompanhada de um fogo pequeno"
 					}
 				},
 				"pot_oil_green": {
 					"pot_oil_green_ghost": {
-						"display_name": "Green Oil Pot",
-						"description": "Small green pot with accompanying small fire"
+						"display_name": "Panela verde com óleo",
+						"description": "Pequena panela verde acompanhada de um fogo pequeno"
 					}
 				},
 				"pot_oil_halfgreen": {
 					"pot_oil_halfgreen_ghost": {
-						"display_name": "Half-Glazed Oil Pot",
-						"description": "Small half-glazed pot with accompanying small fire"
+						"display_name": "Panela em porcelanato com óleo",
+						"description": "Pequena panela em porcelanato acompanhada de um fogo pequeno"
 					}
 				},
 				"pot_sunflower": {
 					"pot_sunflower_ghost": {
-						"display_name": "Potted Sunflower",
-						"description": "Small earthen pot with a beautiful flower."
+						"display_name": "Panela com girassol",
+						"description": "Pequena panela de barro com uma bela flor."
 					}
 				},
 				"wall_hanging_sunflower": {
 					"wall_hanging_sunflower_ghost": {
-						"display_name": "Wall Flower",
-						"description": "A sunflower decoration for your wall."
+						"display_name": "Parede florada",
+						"description": "Uma decoração do girassol para sua parede."
 					}
 				},
 				"wall_hanging_sunwreath": {
 					"wall_hanging_sunwreath_ghost": {
-						"display_name": "Sunflower Wreath",
-						"description": "A collection of sunflowers to hang on your wall."
+						"display_name": "Grinalda de girassol",
+						"description": "Uma coleção de girassóis para colocar na sua parede."
 					}
 				},
 				"pot_fox_lily": {
 					"pot_fox_lily_ghost": {
-						"display_name": "Potted Fox Lily",
-						"description": "Small earthen pot with a beautiful flower."
+						"display_name": "Panela com lírio",
+						"description": "Pequena panela de barro com uma bela flor."
 					}
 				},
 				"jar_green": {
@@ -1462,14 +1463,14 @@
 				},
 				"pot_acacia": {
 					"pot_acacia_ghost": {
-						"display_name": "Potted Acacia Bonsai",
-						"description": "Small earthen pot with a beautiful miniature tree."
+						"display_name": "Panela com bonsai de acácia",
+						"description": "Pequena panela de barro com uma bela árvore em miniatura."
 					}
 				},
 				"wind_chime": {
 					"wind_chime_ghost": {
-						"display_name": "Glass Wind Chime",
-						"description": "A magnificent sight and sound to match."
+						"display_name": "Sinos de vento de cristal",
+						"description": "Uma vista magnífica e som para combinar."
 					}
 				}
 			},
@@ -1534,12 +1535,12 @@
 		},
 		"armor": {
 			"rc_legendary_circlet": {
-				"display_name": "Crimson Circlet",
-				"description": "The Phoenix Empire's Squarest circlet"
+				"display_name": "Círculo Carmesim",
+				"description": "O círculo mais quadrado do Império Fênix"
 			},
 			"rc_legendary_shield": {
-				"display_name": "Dragon's Shield",
-				"description": "The Phoenix Empire's proudest shield"
+				"display_name": "Escudo do Dragão",
+				"description": "O escudo mais orgulhoso do Império Fênix"
 			}
 		},
 		"weapons": {
@@ -1562,12 +1563,12 @@
 				"description": "The arms of the Zephyr Bow"
 			},
 			"legendary_rc_face": {
-				"display_name": "Dragonhide",
-				"description": "Protects the Dragon's Shield"
+				"display_name": "Pele de Dragão",
+				"description": "Protege o Escudo do Dragão"
 			},
 			"legendary_rc_frame": {
-				"display_name": "Dragonplate",
-				"description": "Reinforces the Dragon's Shield"
+				"display_name": "Placa-Dragão",
+				"description": "Reforça o Escudo do Dragão"
 			},
 			"legendary_rc_gem": {
 				"display_name": "Flame Ruby",
@@ -1578,12 +1579,12 @@
 				"description": "Unbreakable blade of the Desert Fang"
 			},
 			"legendary_rc_inlay": {
-				"display_name": "Glittering Inlay",
-				"description": "Radiant gilding for the Desert Fang"
+				"display_name": "Incrustação Brilhante",
+				"description": "Resplandecente e dourada para a Presa do Deserto"
 			},
 			"legendary_rc_cloth": {
-				"display_name": "Sundyed Fabric",
-				"description": "Traditionally used for the crimson band"
+				"display_name": "Tecido Sol-Tingido",
+				"description": "Tradicionalmente usado na Banda Carmesim"
 			}
 		}
 	},
