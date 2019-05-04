@@ -52,40 +52,40 @@
 							"tier_1_shops": {
 								"food_shop": {
 									"shop_info": {
-										"name": "Gyrd Reinhome's Food Assortments",
-										"title": "Gyrd Reinhome's food wagon rolls into town"
+										"name": "Assentamento de Comida de Gyrd o Comunista",
+										"title": "Gyrd, chegou com mercadorias para vender"
 									}
 								},
 								"woodcutter_shop": {
 									"shop_info": {
-										"name": "Arglod Highlander's Woodcutter Shop",
-										"title": "Arglod Highlander has arrived with wares to sell"
+										"name": "Loja do Lenhador Arglod o Escocês",
+										"title": "Arglod, chegou com mercadorias para vender"
 									}
 								},
 								"stonecutter_shop": {
 									"shop_info": {
-										"name": "Bjaen Swiftstone's Stonecutter Shop",
-										"title": "Bjaen Swiftstone has arrived with wares to sell"
+										"name": "Loja do Cortador de Pedras Bjaen a Tesoura",
+										"title": "Bjaen, chegou com mercadorias para vender"
 									}
 								},
 								"tannery_shop": {
 									"shop_info": {
-										"name": "Gretin Flayer's Tannery and Wilderness Supplies",
-										"title": "A rugged survivalist stops by with her wares"
+										"name": "Couro e Suprimentos Selvagens Gretin o Esfolador",
+										"title": "Mercadorias para uma sobrevivencia robusta"
 									}
 								}
 							},
 							"tier_2_shops": {
 								"door_shop": {
 									"shop_info": {
-										"name": "Nielkir Oakenvrus's Door Supply",
-										"title": "Nielkir Oakenvrus has arrived with doors for sale"
+										"name": "Fornecimento de portas Nielkir o Porteiro",
+										"title": "Nielkir, chegou com portas a vendas"
 									}
 								},
 								"container_shop": {
 									"shop_info": {
-										"name": "Olfta Helmbog's Container Shop",
-										"title": "Olfta Helmbog has arrived with a caravan of containers"
+										"name": "Loja de contêiner da Olfta a Estoquista",
+										"title": "Olfta, chegou com uma caravana de contêiner"
 									}
 								}
 							}
@@ -113,7 +113,7 @@
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "A woman stands at the edge of camp. She wears the travel-worn blues of a Scout of the Library. <br><br><p align='right'><font size=-6 color='#cccccc'>Nobody saw her arrive, but it is clear she has been watching for some time.</font></p>"
+										"00": "Uma mulher está perto do acampamento. Ela utiliza de roupas semelhantes ha de um Escoteiro. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos assistindo há algum tempo.</font></p>"
 									},
 									"bulletin_title": "Alguém apareceu",
 									"dialog_title": "Um Escoteiro estóico",
@@ -121,7 +121,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "\"Ronia\" she says, pointing at herself. Her voice is strangled. As if to explain, she pulls her collar away from her throat, revealing a mess of old scars. She gestures at her knife. \"I scout.\" Then she taps the star-shaped brooch on her cloak. \"For Valin\"s Library.\" "
+										"00": "\"Ronia\" ela diz, apontando para si mesma. Sua voz é estrangulada. Como se para poder explicar, ela puxa-se o colarinho para longe de sua garganta, revelando uma confusão de velhas cicatrizes. Ela gesticula para a faca. \"Eu escuto.\" Então ela bate o broche em forma de estrela em seu manto. \"For Valin\"s Library.\" "
 									},
 									"bulletin_title": "Ronia Olarkson",
 									"dialog_title": "Ronia Olarkson",
@@ -129,11 +129,11 @@
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "She speaks as much with her hands and eyes as with her voice: \"I am glad you have come to study, and settle. Now that I know you are here, I will send tales of your learnings to the scholars at home.\" <p>She steps over to the banner and touches its blank center. \"First, though, you must choose your symbol. What future did you foresee when you began this voyage?\"</p>"
+										"00": "Ela fala tanto com as mãos e olhos quanto com a voz: \"Estou feliz que você tenha vindo se estabelecer. Agora que eu sei que você está aqui, vou enviar contos de seus aprendizados para os estudiosos em casa.\" <p>Ela caminha até a bandeira e toca no centro. \"Primeiro, porém, você deve escolher seu símbolo. Que futuro você previu quando começou esta viagem?\"</p>"
 									},
-									"bulletin_title": "The lady gestures eloquently",
-									"dialog_title": "The lady gestures eloquently",
-									"choice_000": "Banner... Hmm..."
+									"bulletin_title": "A senhorita gesticula com eloquênciay",
+									"dialog_title": "A senhorita gesticula com eloquência",
+									"choice_000": "Bandeira... Hmm..."
 								}
 							}
 						}
@@ -143,18 +143,18 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ronia is now standing by the edge of the fire. She's written the town name and a brief account of its inhabitants in the white flesh of a birchbark shaving. Methodically, she commits it to the flames, which burn paler for a moment.<p>\"[str(i18n_data.town_name)]\" she intones. \"By Valin's wisdom and under the watchful eyes of the stars above, be committed to the records of The Library.\" </p>"
+										"00": "Ronia está agora parada na beira do fogo. Ela escreveu o nome da cidade de seus habitantes na carta mágica em branco . Em seguida, ela joga a carta sobre as chamas, que queimam forte por um momento.<p>\"[str(i18n_data.town_name)]\" she intones. \"Pela sabedoria de Valin e sob o olhar atento das estrelas acima, estejamos comprometidos com esse registro.\" </p>"
 									},
 									"bulletin_title": "Ronia Rises",
-									"dialog_title": "The fire sparkles",
-									"choice_000": "That... works?"
+									"dialog_title": "O Fogo brilha forte",
+									"choice_000": "Isso...Funciono?"
 								},
 								"msg2": {
-									"bulletin_title": "She smiles with her eyes only",
-									"dialog_title": "She smiles with her eyes only",
-									"choice_000": "Travel under the stars.",
+									"bulletin_title": "Ela sorri apenas com os olhos",
+									"dialog_title": "Ela sorri apenas com os olhos",
+									"choice_000": "Viajar sob as estrelas.",
 									"bulletin_message": {
-										"00": "\"Those that matter, will hear.\" She bows, and makes to fade back into the edges of the wilderness. \"Farewell,\" she gestures. \"I will return for your stories.\" "
+										"00": "\"Aqueles que importam, ouvirão.\" Ela se curva, e desaparece aos poucos no deserto. \"Adeus,\" ela gesticula. \"Eu voltarei para suas histórias.\" "
 									}
 								}
 							}
@@ -165,11 +165,11 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "\"Thank you,\" Ronia whispers, and from her gesture, it is clear she means \"for your hospitality, and presence.\" <p>She places a small pouch beside the banner. On its side is an emblem of the nearest large town, some days distant. \"Our towns are stars in the constellation of our people,\" she says. \"For you, from them, so that one day, you will join those ranks.\"</p><p>The bag contains:</p>"
+										"00": "\"Muito obrigado,\" Ronia whispers, e de seu gesto, fica claro que ela quer dizer \"pela sua hospitalidade e presença.\" <p>Ela coloca uma pequena bolsa ao lado da bandeira. Do seu lado é um emblema da cidade grande mais próxima, alguns dias distante. \"Nossas cidades são estrelas na constelação do nosso povo,\" Ela diz. \"Para você, que um dia você se junte a eles.\"</p><p>A bolsa contém:</p>"
 									},
-									"bulletin_title": "A Gift",
-									"dialog_title": "Ronia produces a small pouch",
-									"choice_000": "Delicious!"
+									"bulletin_title": "Um presente",
+									"dialog_title": "Ronia produziu uma pequena bolsa",
+									"choice_000": "Delicioso!"
 								}
 							}
 						}
@@ -179,11 +179,11 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "\"What wisdom has your settlement gleaned, that it wishes to pass on to the rest of our people? That wealth should be shared? That it is possible to build bastions that stand strong against the cold? That we hunt, even while knowing that we in turn may become the hunted?\"<br><br>She tilts her head. \"I look forward to your wisdom. In the meantime… a gift, to remind you of spring.\" She places a small packet by the banner. "
+										"00": "\"Que sabedoria tem seu assentamento, que deseja passar para o resto do nosso povo? Essa riqueza deve ser compartilhada? Que é possível construir fortes contra o frio? Que nós caçamos, mesmo sabendo que, por sua vez, podemos nos tornar caçados?\"<br><br>Ela inclina a cabeça. \"Estou ansioso por sua escolhas. Enquanto isso ... um presente para lembrá-lo da primavera.\" Ela coloca um pequeno pacote ao lado da bandeira. "
 									},
-									"bulletin_title": "Ronia gestures at the hearth",
-									"dialog_title": "Ronia gestures at the hearth",
-									"choice_000": "Brightbell seeds! Thanks!"
+									"bulletin_title": "Ronia gestos na lareira",
+									"dialog_title": "Ronia gestos na lareira",
+									"choice_000": "Sementes de Brightbell! Obrigado!"
 								},
 								"msg2": {
 									"bulletin_message": {
@@ -337,58 +337,58 @@
 						}
 					},
 					"unlock_shrine_recipes": {
-						"bulletin_title": "Mason shrine recipes unlocked!"
+						"bulletin_title": "Receitas do santuário Pedreiros desbloqueadas!"
 					},
 					"shrine_quest_valor": {
-						"title": "Township Quest: Font of Fire",
-						"dialog_title": "Township Quest: Font of Fire"
+						"title": "Missão da Cidade: Fonte do Fogo",
+						"dialog_title": "Missão da Cidade: Fonte do Fogo"
 					},
 					"shrine_quest_guildmaster": {
-						"title": "Township Quest: Font of Fortune",
-						"dialog_title": "Township Quest: Font of Fortune"
+						"title": "Missão da Cidade: Fonte da Fortuna",
+						"dialog_title": "Missão da Cidade: Fonte da Fortuna"
 					},
 					"shrine_quest_deity": {
-						"title": "Township Quest: Font of Summer",
-						"dialog_title": "Township Quest: Font of Summer"
+						"title": "Missão da Cidade: Fonte do verão",
+						"dialog_title": "Missão da Cidade: Fonte do verão"
 					},
 					"shrine_upgrade": {
-						"title": "Township Established",
-						"dialog_title": "Township Achieved!",
-						"tier_title": "Township",
-						"reward_message": "By the will of the spirits, we recognize:",
-						"reward_message_ctd": "For learning the mysteries of the world. The town is hereby eligible for:"
+						"title": "Cidade Estabelecida",
+						"dialog_title": "Cidade Alcançada!",
+						"tier_title": "Cidade",
+						"reward_message": "Pela vontade dos espíritos, reconhecemos:",
+						"reward_message_ctd": "Para aprender os mistérios do mundo. A cidade é elegível para:"
 					},
 					"shrine_upgrade_valor": {
 						"recipe_bulletins": {
-							"recipe_unlock_mason": "New container recipes for Mason!",
-							"recipe_unlock_weaver": "New wolf pelt recipe for Weaver!"
+							"recipe_unlock_mason": "Novas receitas de contêiner para Pedreiros!",
+							"recipe_unlock_weaver": "Nova receita de pele de lobo para Tecelão!"
 						},
 						"achievements": {
-							"001": "Mason Container Recipes",
-							"000": "Body +2",
-							"002": "Weaver Wolf Pelt Recipe"
+							"001": "Receitas de recipiente de pedreiro",
+							"000": "Corpo é aumentado em +2",
+							"002": "Receita de pele de lobo de tecelão"
 						},
-						"reward_message_ctd": "For acts of incredible valor in combat. The town is hereby eligible for:"
+						"reward_message_ctd": "Por atos de incrível em combate. A cidade é elegível para:"
 					},
 					"shrine_upgrade_guildmaster": {
 						"recipe_bulletins": {
-							"recipe_unlock_blacksmith": "New furniture recipes for Blacksmith!",
-							"recipe_unlock_mason": "New statue recipe for Mason!"
+							"recipe_unlock_blacksmith": "Novas receitas de móveis para ferreiro!",
+							"recipe_unlock_mason": "Nova receita de estátua para Pedreiros!"
 						},
 						"achievements": {
-							"001": "Mason Hare Statue Recipe",
-							"002": "Blacksmith Furniture Recipes"
+							"001": "Receita da estátua da lebre de pedreiro",
+							"002": "Receitas de móveis de ferreiro"
 						},
-						"reward_message_ctd": "For learning the mysteries of the world. The town is hereby eligible for:"
+						"reward_message_ctd": "Para aprender os mistérios do mundo. A cidade é elegível para:"
 					},
 					"shrine_upgrade_deity": {
 						"recipe_bulletins": {
-							"recipe_unlock_mason": "New window box recipe for Mason!",
-							"recipe_unlock_weaver": "New decoration recipes for Weaver!"
+							"recipe_unlock_mason": "Nova receitade janela para pedreiro!",
+							"recipe_unlock_weaver": "Novas receitas de decoração para Tecelão!"
 						},
 						"achievements": {
-							"001": "Mason Window Box Recipe",
-							"002": "Weaver Decoration Recipes"
+							"001": "Receita de janela para pedreiro",
+							"002": "Receitas de decoração para tecelão"
 						}
 					},
 					"valor_dialog_1": {
