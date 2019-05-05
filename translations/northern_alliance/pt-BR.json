@@ -42,8 +42,8 @@
 				"hunting": {
 					"wild_game": "Uma criatura selvagem foi avistada!",
 					"hungry_caribou_raid": "Um rebanho de caribus está indo para suas fazendas!",
-					"hungry_deer_raid": "A parcel of deer is headed for your farms!",
-					"hungry_racoon_raid": "A gaze of raccoons is headed for your farms!",
+					"hungry_deer_raid": "Um grupo de cervos se dirige para suas fazendas!",
+					"hungry_racoon_raid": "Um grupo de guaxinins se dirige para suas fazendas!",
 					"hungry_rabbit_raid": "Uma ninhada de coelhos está indo para suas fazendas!"
 				},
 				"trader": {
@@ -107,8 +107,8 @@
 									"bulletin_message": {
 										"00": "Sua voz toma a cadência de uma recitação de palavras faladas mil vezes antes. \"Valin criou nossa Aliança para compartilhar nossa abundância, adaptar-se às dificuldades e buscar o horizonte. A Aliança do Norte se tornará uma com os ciclos e estrelas de Hearth.\"<p>Ela inclina a cabeça em questionamento. \"Qual das nossas filosofias seu povo mais deseja incorporar?\"</p> "
 									},
-									"bulletin_title": "Ronia Olarkson",
-									"dialog_title": "Ronia Olarkson",
+									"bulletin_title": "Ronia Olarkson ",
+									"dialog_title": "Ronia Olarkson ",
 									"choice_000": "O que devemos escolher ..."
 								},
 								"open_letter": {
@@ -117,14 +117,15 @@
 									},
 									"bulletin_title": "Alguém apareceu",
 									"dialog_title": "Um Escoteiro estóico",
-									"choice_000": "Bem-vindo, viajante."
+									"choice_000": "Bem-vindo, viajante.",
+									"choice_001": "[pular] Já sabemos qual bandeira escolher"
 								},
 								"read_letter": {
 									"bulletin_message": {
 										"00": "\"Ronia\" ela diz, apontando para si mesma. Sua voz é estrangulada. Como se para poder explicar, ela puxa-se o colarinho para longe de sua garganta, revelando uma confusão de velhas cicatrizes. Ela gesticula para a faca. \"Eu escuto.\" Então ela bate o broche em forma de estrela em seu manto. \"For Valin\"s Library.\" "
 									},
-									"bulletin_title": "Ronia Olarkson",
-									"dialog_title": "Ronia Olarkson",
+									"bulletin_title": "Ronia Olarkson ",
+									"dialog_title": "Ronia Olarkson ",
 									"choice_000": "Ah. "
 								},
 								"read_letter2": {
@@ -145,7 +146,7 @@
 									"bulletin_message": {
 										"00": "Ronia está agora parada na beira do fogo. Ela escreveu o nome da cidade de seus habitantes na carta mágica em branco . Em seguida, ela joga a carta sobre as chamas, que queimam forte por um momento.<p>\"[str(i18n_data.town_name)]\" she intones. \"Pela sabedoria de Valin e sob o olhar atento das estrelas acima, estejamos comprometidos com esse registro.\" </p>"
 									},
-									"bulletin_title": "Ronia Rises",
+									"bulletin_title": "Ronia se levanta",
 									"dialog_title": "O Fogo brilha forte",
 									"choice_000": "Isso...Funciono?"
 								},
@@ -189,23 +190,23 @@
 									"bulletin_message": {
 										"00": "Ronia gestures at the camp, smiling approval. \"I have come again to pass your stories to the Library,\" she indicates. She sits by the fire, produces another birch shaving, and waits."
 									},
-									"bulletin_title": "Ronia Olarkson",
-									"dialog_title": "Ronia Olarkson",
+									"bulletin_title": "Ronia Olarkson ",
+									"dialog_title": "Ronia Olarkson ",
 									"choice_000": "Well, since you were last here..."
 								},
 								"msg3": {
 									"bulletin_message": {
 										"00": "Ronia meticulously notes everyone’s adventures in runes on the birchbark, and again commits them to the flames. \"Your fleck of light is growing. Soon, your hearth will draw others, and someday, it too will be a star in the constellation of our people.\"  "
 									},
-									"bulletin_title": "Ronia stands",
-									"dialog_title": "Ronia stands",
+									"bulletin_title": "Ronia se levanta",
+									"dialog_title": "Ronia se levanta",
 									"choice_000": "Is it time?"
 								},
 								"msg1": {
 									"bulletin_message": {
 										"00": " Ronia appears again at the edge of camp. <br><br><p align='right'><font size=-6 color='#cccccc'>How long has she been standing there, observing?</font></p>"
 									},
-									"bulletin_title": "Ronia Returns ",
+									"bulletin_title": "Ronia retorna ",
 									"dialog_title": "The Philosopher Scout",
 									"choice_000": "You return!"
 								}
@@ -235,8 +236,8 @@
 									"bulletin_message": {
 										"00": "She taps her brooch. \"The Library is pleased with your progress.\" She bends, and touches the stones of your hearth. \"Now it is time to choose the beacon that will represent your settlement.\" "
 									},
-									"bulletin_title": "Ronia Olarkson",
-									"dialog_title": "Ronia Olarkson",
+									"bulletin_title": "Ronia Olarkson ",
+									"dialog_title": "Ronia Olarkson ",
 									"choice_000": "As is tradition."
 								},
 								"cheer": {
@@ -251,8 +252,8 @@
 									"bulletin_message": {
 										"00": "Sua voz assume um tom rouco: \"O professor Cid viu as fogueiras como estrelas terrenas, iluminando nosso conhecimento do mundo. Desde o momento em que demos as costas à Fênix, elas queimaram para mostrar aos céus que conhecemos nosso lugar na Terra. Estrelas de Hearth.\" <br><br>Ela aguarda uma resposta apropriada."
 									},
-									"bulletin_title": " Ronia Olarkson",
-									"dialog_title": " Ronia Olarkson",
+									"bulletin_title": " Ronia Olarkson ",
+									"dialog_title": " Ronia Olarkson ",
 									"choice_000": "A sabedoria nos guia."
 								},
 								"glory": {
@@ -269,7 +270,8 @@
 									},
 									"bulletin_title": "Ronia Returns Again",
 									"dialog_title": "More time for tales",
-									"choice_000": "Yes please."
+									"choice_000": "Yes please.",
+									"choice_001": "[skip] We know what Hearth we want."
 								}
 							}
 						}
@@ -328,7 +330,7 @@
 									"bulletin_title": "Ronia looks towards the hearth",
 									"dialog_title": "Ronia looks towards the hearth",
 									"choice_000": "Remind us.",
-									"choice_001": "We've already decided.",
+									"choice_001": "[pular] Já decidimos.",
 									"bulletin_message": {
 										"00": "\"It is time to create a monument, and ask for the blessings of your patron spirit. Then I will record your settlement as a star in the constellation of the Northern Alliance, and your stories will be safe in the Library of our people. Have you made your choice?\" "
 									}
@@ -564,8 +566,8 @@
 									}
 								},
 								"msg4": {
-									"bulletin_title": "Ronia kneels",
-									"dialog_title": "Ronia kneels",
+									"bulletin_title": "Ronia se ajoelha",
+									"dialog_title": "Ronia se ajoelha",
 									"choice_000": "We will be ready.",
 									"bulletin_message": {
 										"00": "As she does so, she places the stones by the fire, and bows her head in prayer. \"It is time,\" she whispers. \"When I next return, I will bring the spirits and we will create the monument to ask for their blessing.\" "

@@ -386,7 +386,7 @@
 				"days": "D",
 				"hours": "H",
 				"the": "o",
-				"empty_string": " "
+				"empty_string": ""
 			},
 			"multiplayer_settings": {
 				"create_new_multiplayer_game": "Crie novo jogo multijogador",
@@ -1517,12 +1517,12 @@
 						"max": "Enabler ",
 						"aaron": "Phonic Phoenix ",
 						"raj": "Troubadour ",
-						"yang": " ",
-						"doug": " ",
-						"carl": " ",
-						"winnie": " ",
-						"jack": " ",
-						"gabriel": " "
+						"yang": "",
+						"doug": "",
+						"carl": "",
+						"winnie": "",
+						"jack": "",
+						"gabriel": ""
 					}
 				}
 			},
@@ -3138,7 +3138,7 @@
 									"choice_000": "Uau!",
 									"choice_001": "Soa sinistro.",
 									"bulletin_message": {
-										"000": "You so funny. Because we friends, me tell you: Ogo pretty cool. A bit mean. Once ate a puppy. But... soothsayer say he fated! Meant to stomp on everyone! Me just little guy, you know? Though you littler. Anyways."
+										"000": "Você é tão engraçado. Porque nós, amigos, eu te digo: Ogo bem legal. Um pouco malvado. Uma vez comeu um filhote de cachorro. Mas ... o adivinho diz que ele destinou! Destinado a pisar em todos! Eu sou apenas um garotinho, sabe? Embora você seja ainda menor. De qualquer forma."
 									},
 									"bulletin_title": "O goblin ri",
 									"dialog_title": "[name(i18n_data.boss)] "
@@ -3147,9 +3147,9 @@
 									"choice_000": "Graças a deus!",
 									"choice_001": "Ogo quem?",
 									"bulletin_message": {
-										"000": "Good news peons! Ogo Skullbonker, Chief-of-Chiefs-To-Be, calls us back to him. Time to go home, show him tribute! If you lucky, maybe we be back to visit... soon!"
+										"000": "Boas notícias peões! Ogo Skullbonker, chefe dos chefes de estado, nos chama de volta para ele. Hora de ir para casa, mostre-lhe homenagem! Se você tiver sorte, talvez voltemos para visitar ... em breve!"
 									},
-									"bulletin_title": "The goblin returns magnanimously",
+									"bulletin_title": "O goblin retorna magnanimamente",
 									"dialog_title": "[name(i18n_data.boss)] "
 								}
 							}
@@ -3202,7 +3202,7 @@
 								},
 								"msg1": {
 									"bulletin_message": {
-										"000": "Se você quiser terminar os lobos antes que eles terminem você, ataque primeiro.",
+										"000": "Se você quiser terminar com os lobos antes que eles terminem você, ataque primeiro.",
 										"001": "There are wolves in the forest. Goblin wolves. Get them before they get you.",
 										"002": "Ogo's forces are on the move. There are wolves in your woods.",
 										"003": "Pequeno acampamento humano: procure seu inimigo enquanto eles ainda dormem.",
@@ -3320,7 +3320,7 @@
 										"004": "You dumb bok, me big Glittering Chieftain! Natural order mean you give me stuff and I no dees-tro-i you. Me want supplies. Understand?"
 									},
 									"bulletin_title": "A goblin with a fancy hat swaggers into town",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_due": {
 									"bulletin_message": {
@@ -3331,7 +3331,7 @@
 										"004": "Want stuff now. You make? We good! You no make? You die. We all friends!"
 									},
 									"bulletin_title": "The goblin stomps back into town",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_failed": {
 									"bulletin_message": {
@@ -3341,7 +3341,7 @@
 										"003": "Me want to be good chieftan. Me want to be friends! But you no listen. No. You no worthy. Me must kill you, then go home. Cry for could-have-been. You cry too, except you dead."
 									},
 									"bulletin_title": "The goblin frowns so hard you can't see his eyes",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_success": {
 									"bulletin_message": {
@@ -3355,14 +3355,14 @@
 										"007": "My stuff! Hahahah, you pretty good for peon. Be back soon!"
 									},
 									"bulletin_title": "The goblin grins like a kid on Frostfeast",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_progress": {
 									"bulletin_message": {
-										"000": "Me back soon for stuff. Better have it, or no good for you, little hearthling."
+										"000": "Eu de volta em breve para coisas. Melhor tê-lo, ou não é bom para você, pequeno hearthling."
 									},
-									"bulletin_title": "Satisfy the Goblins",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"bulletin_title": "Satisfaça os goblins",
+									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"shakedown_refused": {
 									"bulletin_message": {
@@ -3373,7 +3373,7 @@
 										"004": "You no understand. Alternative: Death. Deeeaaaattth. DEAAATTTTTHHH!!!"
 									},
 									"bulletin_title": "The goblin looks incredulous",
-									"dialog_title": "[name(i18n_data.boss)]"
+									"dialog_title": "[name(i18n_data.boss)] "
 								}
 							}
 						}
@@ -3382,8 +3382,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin raiding party approaches!",
-									"message": "Gonna get you!"
+									"title": "Um grupo de invasão dos goblins se aproxima!",
+									"message": "Vou te pegar!"
 								}
 							}
 						}
@@ -3402,8 +3402,8 @@
 						"missions": {
 							"raid_stockpiles": {
 								"sighted_bulletin": {
-									"title": "A goblin raiding party approaches!",
-									"message": "Gonna get you!"
+									"title": "Um grupo de invasão dos goblins se aproxima!",
+									"message": "Vou te pegar!"
 								}
 							}
 						}
@@ -4042,7 +4042,7 @@
 													},
 													"bulletin_title": "Kobold Scout",
 													"dialog_title": "Kobold Scout",
-													"choice_000": "Ok"
+													"choice_000": "Ok "
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -4084,8 +4084,8 @@
 													"bulletin_message": {
 														"00": "We contractors. We make camp. Orc pay us. Those orc obsess with honor, politics, new Khan. Soon enough, they send orc army here and we need clean up again."
 													},
-													"bulletin_title": "Camp goblin",
-													"dialog_title": "Camp goblin",
+													"bulletin_title": "Acampamento Goblin",
+													"dialog_title": "Acampamento Goblin",
 													"choice_000": "Entendo"
 												},
 												"msg1": {
@@ -4093,7 +4093,7 @@
 														"00": "You recognize? ...No, me don't know you. You saying us all look same?!"
 													},
 													"bulletin_title": "Some familiar looking goblins begin building huts near your town",
-													"dialog_title": "Camp goblin",
+													"dialog_title": "Acampamento Goblin",
 													"choice_000": "Talvez",
 													"choice_001": "Não?"
 												},
@@ -4102,8 +4102,8 @@
 														"000": "You lucky us busy! What we doing? We building huts. Set up camp.",
 														"001": "....We busy, so we ignore and go back to setting up camp."
 													},
-													"bulletin_title": "Camp goblin",
-													"dialog_title": "Camp goblin",
+													"bulletin_title": "Acampamento Goblin",
+													"dialog_title": "Acampamento Goblin",
 													"choice_000": "Por quê?"
 												}
 											}
@@ -4117,14 +4117,14 @@
 														"000": "Oh! Me think of great idea! You pay us instead and we make so no orc come! You just need give us some few treasures. You win, me win, both win."
 													},
 													"bulletin_title": "The goblin's beady little eyes light up",
-													"dialog_title": "Camp goblin"
+													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_due": {
 													"bulletin_message": {
 														"000": "We backs! Where is our shiny loots??"
 													},
 													"bulletin_title": "A pack of goblins lazily slog into back into town",
-													"dialog_title": "Camp goblin"
+													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_failed": {
 													"bulletin_message": {
@@ -4132,7 +4132,7 @@
 														"001": "No has?? We has family you knows! You waste our time! We tell orcs give you no mercy!"
 													},
 													"bulletin_title": "The goblin frowns",
-													"dialog_title": "Camp goblin"
+													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_success": {
 													"bulletin_message": {
@@ -4142,21 +4142,21 @@
 														"003": "You give good stuffs! Me wolf will be so happy! Have you met ogre chief yet? They like color red. Like on Gong. Ask you blacksmith."
 													},
 													"bulletin_title": "The goblin flashes a toothy grin",
-													"dialog_title": "Camp goblin"
+													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_progress": {
 													"bulletin_message": {
 														"000": "You agree pay? Good, make us life easier. We come back later for stuffs. We take nap now..."
 													},
 													"bulletin_title": "Satisfy the goblins (again)",
-													"dialog_title": "Camp goblin"
+													"dialog_title": "Acampamento Goblin"
 												},
 												"shakedown_refused": {
 													"bulletin_message": {
 														"000": "You no want pay? Ok. Make little difference for us. Watch, for orc army come soon."
 													},
 													"bulletin_title": "The goblin frowns",
-													"dialog_title": "Camp goblin"
+													"dialog_title": "Acampamento Goblin"
 												}
 											}
 										}
@@ -4226,7 +4226,7 @@
 													},
 													"bulletin_title": "Orc troop",
 													"dialog_title": "Orc troop",
-													"choice_000": "Huh?"
+													"choice_000": "Uh?"
 												},
 												"msg3": {
 													"bulletin_message": {
@@ -4234,7 +4234,7 @@
 													},
 													"bulletin_title": "Orc troop",
 													"dialog_title": "Orc troop",
-													"choice_000": "Bye"
+													"choice_000": "Tchau"
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -4242,7 +4242,7 @@
 													},
 													"bulletin_title": "The orc respectfully bows at the outcome of the battle",
 													"dialog_title": "Orc troop",
-													"choice_000": "Thanks"
+													"choice_000": "Obrigado"
 												}
 											}
 										}
@@ -4292,7 +4292,7 @@
 													},
 													"bulletin_title": "The warchief nods humbly",
 													"dialog_title": "Warchief Oghar Norwind",
-													"choice_000": "No problem"
+													"choice_000": "Nós protegemos o que é nosso."
 												}
 											}
 										}
@@ -4550,19 +4550,19 @@
 													"bulletin_message": {
 														"00": "Would you like to let this Orc to join your town?"
 													},
-													"bulletin_title": "An Orc immigrant!",
-													"dialog_title": "An Orc wishes to join your town!",
-													"choice_000": "Yes",
-													"choice_001": "No"
+													"bulletin_title": "Um imigrante orc!",
+													"dialog_title": "Um Orc deseja se juntar à sua cidade!",
+													"choice_000": "Sim",
+													"choice_001": "Não"
 												}
 											}
 										}
 									},
 									"grant_recurring_orc_citizen": {
-										"notification_title": "A new Orc citizen has joined your town!"
+										"notification_title": "Um novo cidadão Orc se juntou à sua cidade!"
 									},
 									"grant_orc_citizen": {
-										"notification_title": "Erdene's disciple has joined your town!"
+										"notification_title": "Um discípulo de Erdene se juntou à sua cidade!"
 									}
 								}
 							}
@@ -5089,7 +5089,7 @@
 									},
 									"bulletin_title": "A carta continua",
 									"dialog_title": "A carta continua...",
-									"choice_000": "Banner... Hmm..."
+									"choice_000": "Bandeira... Hmm..."
 								}
 							}
 						}
@@ -5419,7 +5419,7 @@
 														},
 														"bulletin_title": "Missing Carrots!",
 														"dialog_title": "Missing Carrots",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													}
 												}
 											}
@@ -5433,7 +5433,7 @@
 														},
 														"bulletin_title": "Missing Veggies!",
 														"dialog_title": "Missing Veggies",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													}
 												}
 											}
@@ -5447,7 +5447,7 @@
 														},
 														"bulletin_title": "Now We Wait",
 														"dialog_title": "Now We Wait",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													}
 												}
 											}
@@ -5461,7 +5461,7 @@
 														},
 														"bulletin_title": "Now We Wait",
 														"dialog_title": "Now We Wait",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													}
 												}
 											}
@@ -5511,7 +5511,7 @@
 														},
 														"bulletin_title": "Chase Scene",
 														"dialog_title": "A Wounded Rabbit",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -6323,7 +6323,7 @@
 															"00": "\"What a nice home you've built for them! They will be here shortly, and I'm sure they'll be charmed!\""
 														},
 														"bulletin_title": "Rabbit Residents",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													}
 												}
 											}
@@ -6353,7 +6353,7 @@
 														},
 														"bulletin_title": "Sasha Signals",
 														"dialog_title": "Sasha Signals",
-														"choice_000": "Okay!"
+														"choice_000": "Ok!"
 													}
 												}
 											}
@@ -6426,7 +6426,7 @@
 															"00": "Sasha nods his head. \"While Human cleverness brought the entity, human cleverness also forestalled its cataclysm. As the entity tore open the leyline, the surviving humans knew they had to act, as the great evil was bathed in magic and growing in strength by the second.\"<br><br>\"Hearth's magic is volatile. The humans, desperate, somehow catalyzed a reaction which turned the magic <i>energy</i> into pure magic <i>force</i>.\"<br><br>\"The entity was shattered into countless fragments, not killed but, rather, transformed into a miasma of aimless evil that swept over the land, emanating from the ravaged crater that was once the seat of the Phoenix Empire.\"<br><br>\"This is what we know as 'the cataclysm'.\""
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Oh..."
+														"choice_000": "Oh.."
 													},
 													"story2": {
 														"bulletin_message": {
@@ -6477,14 +6477,14 @@
 														},
 														"bulletin_title": "A Titanic Undertaking",
 														"choice_000": "Please, tell us the tale",
-														"choice_001": "[Skip] Nah - what favor?"
+														"choice_001": "[pular] Diga - que favor?"
 													},
 													"story5": {
 														"bulletin_message": {
 															"00": "\"Humans, sensible, fled; to the coasts, to the northern mountains. Only recently have you started to build inwards again. Orcs, stubborn, stayed and fought the corruptions, fought the apparitions of a natural world brought to anger, defending the lands abandoned by the humans. And we Lapine, already underground, were content to wait.\"<br><br>\"But as the evil energies settled, they embedded in the ground, drawn downwards towards the source of Hearth’s magic. These fragments absorb that magic, slowly gaining strength over generations, congealing into malevolent aspects which your people have come to call ‘Titans’.\""
 														},
 														"bulletin_title": "A Titanic Undertaking",
-														"choice_000": "Oh."
+														"choice_000": "Oh. "
 													},
 													"decline": {
 														"bulletin_message": {
@@ -6554,7 +6554,7 @@
 														},
 														"bulletin_title": "A Geomancer's Things!",
 														"dialog_title": "A Geomancer's Things!",
-														"choice_000": "OK"
+														"choice_000": "OK "
 													}
 												}
 											}
@@ -6667,7 +6667,7 @@
 													},
 													"bulletin_title": "The figures look about them",
 													"dialog_title": "The figures look about them",
-													"choice_000": "(Hehe.)"
+													"choice_000": "(Hehe)"
 												},
 												"msg8": {
 													"bulletin_message": {
@@ -7386,7 +7386,7 @@
 			"building_brushes": {
 				"colors": {
 					"#964d3b": "Robin Claro",
-					"#823e2d": "Robin",
+					"#823e2d": "Robin ",
 					"#643124": "Robin Escuro",
 					"#9e7969": "Pêssego Claro",
 					"#977161": "Pêssego",
@@ -7403,7 +7403,7 @@
 					"#ac6863": "Figo da Índia Claro",
 					"#a2625d": "Figo da Índia",
 					"#965a4d": "Figo da Índia Escuro",
-					"#a9a597": "Mesa",
+					"#a9a597": "Mesa ",
 					"#afaa9d": "Mesa Clara",
 					"#a38b7c": "Rocha rosa",
 					"#bba991": "Ladeira Escura",
@@ -7437,24 +7437,24 @@
 					"#224165": "Azul Real Escuro",
 					"#958455": "Cereais",
 					"#332B1F": "Cacau Marrom",
-					"#4E442F": "Punga",
+					"#4E442F": "Punga ",
 					"#979492": "Névoa de Montanha Escura",
 					"#592E18": "Chocolate Baker",
-					"#B5A37B": "Pavlova",
+					"#B5A37B": "Pavlova ",
 					"#B0AB9F": "Nublado",
 					"#8E8260": "Granito Verde",
 					"#302118": "Marrom Escuro",
 					"#575E67": "Cinza Salpicado",
 					"#604B42": "Cortiça",
 					"#172F4A": "Azul Real",
-					"#806B27": "Pesto",
+					"#806B27": "Pesto ",
 					"#2C3339": "Cinza Metálico",
-					"#5A3D2D": "Cioccolato",
+					"#5A3D2D": "Cioccolato ",
 					"#D0B884": "Avelã Invernal",
 					"#412B1F": "Marrom Marrocos",
 					"#542929": "Vulcão Claro",
 					"#403521": "Clínquer",
-					"#A59F8B": "Napa",
+					"#A59F8B": "Napa ",
 					"#86764A": "Sombra",
 					"#65573A": "Marrom Tabaco",
 					"#C0BBA7": "Cinza Claro",
@@ -7462,7 +7462,7 @@
 					"#6E5B21": "Bronze Antigo",
 					"#69534A": "Marrom Congo Escuro",
 					"#A59465": "Sandália",
-					"#A69C7F": "Hillary",
+					"#A69C7F": "Hillary ",
 					"#464D53": "Atum",
 					"#7A452A": "Cânion de Cobre",
 					"#3B1919": "Vermelho Rústico",
@@ -7473,7 +7473,7 @@
 					"#C1A975": "Bege",
 					"#676D74": "Cinza Médio",
 					"#4E555C": "Truta",
-					"#864E31": "Korma",
+					"#864E31": "Korma ",
 					"#644F46": "Marrom Congo",
 					"#97775E": "Rocha-Rosa",
 					"#A7855A": "Castanho-Amarelado",
@@ -19244,8 +19244,8 @@
 			},
 			"cleric_description": {
 				"display_name": "Clérigo",
-				"description": "A combat healer",
-				"requirements": "Crafted by Herbalist",
+				"description": "Um curandeiro de combate",
+				"requirements": "Criado pelo herborista",
 				"level_1_data": {
 					"perk_000_name": "Healing Aura",
 					"perk_001_name": "Minor Strength",
@@ -19373,8 +19373,8 @@
 			},
 			"knight_description": {
 				"display_name": "Cavaleiro",
-				"description": "A defensive combatant focused on protecting allies from harm.",
-				"requirements": "Crafted by Blacksmith",
+				"description": "Um combatente defensivo concentrado em proteger os aliados de dano.",
+				"requirements": "Criado por Ferreiro",
 				"level_1_data": {
 					"perk_000_name": "Fortify",
 					"perk_001_name": "Damage Reduction Rank 1",
@@ -19429,8 +19429,8 @@
 				}
 			},
 			"knight_helm": {
-				"display_name": "Knight's Helm",
-				"description": "Iron headgear standard issue for all knights"
+				"display_name": "Elmo do Cavaleiro",
+				"description": "Edição padrão de arnês de ferro para todos os cavaleiros"
 			}
 		},
 		"npc_jobs": {
