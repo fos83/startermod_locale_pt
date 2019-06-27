@@ -71,7 +71,7 @@
 								"tannery_shop": {
 									"shop_info": {
 										"name": "Couro e Suprimentos Silvestres de Gretin, a Curtidora",
-										"title": "Mercadorias para uma sobrevivencia robusta"
+										"title": "Mercadorias para uma sobrevivência robusta"
 									}
 								}
 							},
@@ -113,10 +113,10 @@
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "Uma mulher está perto do acampamento. Ela utiliza roupas semelhantes ha de um Escoteiro. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos assistindo há algum tempo.</font></p>"
+										"00": "Uma mulher está perto do acampamento. Ela utiliza roupas semelhantes ha de um explorador. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos observando há algum tempo.</font></p>"
 									},
 									"bulletin_title": "Alguém apareceu",
-									"dialog_title": "Um Escoteiro estóico",
+									"dialog_title": "Um explorador estoico",
 									"choice_000": "Bem-vindo, viajante.",
 									"choice_001": "[pular] Já sabemos qual bandeira escolher"
 								},
@@ -132,7 +132,7 @@
 									"bulletin_message": {
 										"00": "Ela fala tanto com as mãos e olhos quanto com a voz: \"Estou feliz que você tenha vindo se estabelecer. Agora que eu sei que você está aqui, vou enviar contos de seus aprendizados para os estudiosos em casa.\" <p>Ela caminha até a bandeira e toca no centro. \"Primeiro, porém, você deve escolher seu símbolo. Que futuro você previu quando começou esta viagem?\"</p>"
 									},
-									"bulletin_title": "A senhorita gesticula com eloquênciay",
+									"bulletin_title": "A senhorita gesticula com eloquência",
 									"dialog_title": "A senhorita gesticula com eloquência",
 									"choice_000": "Bandeira... Hmm..."
 								}
@@ -180,35 +180,35 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "\"Que sabedoria tem seu assentamento, que deseja passar para o resto do nosso povo? Essa riqueza deve ser compartilhada? Que é possível construir fortes contra o frio? Que nós caçamos, mesmo sabendo que, por sua vez, podemos nos tornar caçados?\"<br><br>Ela inclina a cabeça. \"Estou ansioso por sua escolhas. Enquanto isso ... um presente para lembrá-lo da primavera.\" Ela coloca um pequeno pacote ao lado da bandeira. "
+										"00": "\"Que sabedoria tem seu assentamento, que deseja passar para o resto do nosso povo? Essa riqueza deve ser compartilhada? Que é possível construir fortes contra o frio? Que nós caçamos, mesmo sabendo que, por sua vez, podemos nos tornar caçados?\"<br><br>Ela inclina a cabeça. \"Estou ansioso por sua escolhas. Enquanto isso... um presente para lembrá-lo da primavera.\" Ela coloca um pequeno pacote ao lado da bandeira. "
 									},
-									"bulletin_title": "Ronia gestos na lareira",
-									"dialog_title": "Ronia gestos na lareira",
-									"choice_000": "Sementes de Brightbell! Obrigado!"
+									"bulletin_title": "Ronia gesticula na lareira",
+									"dialog_title": "Ronia gesticula na lareira",
+									"choice_000": "Sementes de Sino Brilhante! Obrigada!"
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Ronia gestures at the camp, smiling approval. \"I have come again to pass your stories to the Library,\" she indicates. She sits by the fire, produces another birch shaving, and waits."
+										"00": "Ronia gesticula no acampamento, sorrindo com aprovação. \"Eu vim de novo para passar nossas histórias da Biblioteca,\" ela indica. Se senta ao lado do fogo, tira outra casca de bétula e espera."
 									},
 									"bulletin_title": "Ronia Olarkson ",
 									"dialog_title": "Ronia Olarkson ",
-									"choice_000": "Well, since you were last here..."
+									"choice_000": "Bem, desde a última vez que você esteve aqui..."
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Ronia meticulously notes everyone’s adventures in runes on the birchbark, and again commits them to the flames. \"Your fleck of light is growing. Soon, your hearth will draw others, and someday, it too will be a star in the constellation of our people.\"  "
+										"00": "Ronia observa meticulosamente as aventuras de todos nas runas, sobre a casca de bétula e, mais uma vez, joga elas às chamas. \"Sua mecha de luz está crescendo. Logo, sua casa atrairá outros e, um dia, também será uma estrela na constelação de nosso povo.\"  "
 									},
 									"bulletin_title": "Ronia se levanta",
 									"dialog_title": "Ronia se levanta",
-									"choice_000": "Is it time?"
+									"choice_000": "É tempo?"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": " Ronia appears again at the edge of camp. <br><br><p align='right'><font size=-6 color='#cccccc'>How long has she been standing there, observing?</font></p>"
+										"00": "Ronia aparece novamente na beira do acampamento. <br><br><p align='right'><font size=-6 color='#cccccc'>Há quanto tempo ela está ali, observando?</font></p>"
 									},
-									"bulletin_title": "Ronia retorna ",
-									"dialog_title": "The Philosopher Scout",
-									"choice_000": "You return!"
+									"bulletin_title": "Ronia Retorna ",
+									"dialog_title": "A Filósofa Exploradora",
+									"choice_000": "Você retornou!"
 								}
 							}
 						}
