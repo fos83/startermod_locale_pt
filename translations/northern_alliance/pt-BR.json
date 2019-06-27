@@ -34,7 +34,7 @@
 		"buffs": {
 			"valor_town_bonus_strength_buff": {
 				"display_name": "Espirito de Siv",
-				"description": "Estatísticas do Corpo é aumentada em +2."
+				"description": "Estatística do Corpo é aumentada em +2."
 			}
 		},
 		"gm": {
@@ -64,13 +64,13 @@
 								},
 								"stonecutter_shop": {
 									"shop_info": {
-										"name": "Loja do Cortador de Pedras Bjaen a Tesoura",
+										"name": "Loja de Lapidação de Bjaen, a Tesoura",
 										"title": "Bjaen, chegou com mercadorias para vender"
 									}
 								},
 								"tannery_shop": {
 									"shop_info": {
-										"name": "Couro e Suprimentos Selvagens de Gretin, a Curtidora",
+										"name": "Couro e Suprimentos Silvestres de Gretin, a Curtidora",
 										"title": "Mercadorias para uma sobrevivencia robusta"
 									}
 								}
@@ -367,7 +367,7 @@
 						},
 						"achievements": {
 							"001": "Receitas de recipiente de pedreiro",
-							"000": "Corpo é aumentado em +2",
+							"000": "Estatística do Corpo é aumentada em +2",
 							"002": "Receita de pele de lobo de tecelão"
 						},
 						"reward_message_ctd": "Por atos de incrível em combate. A cidade é elegível para:"
