@@ -17,7 +17,7 @@
 						"display_name": "Aliança",
 						"categories": {
 							"outpost": "Projetos do Explorador",
-							"settlement": "Modelos de Fortaleza"
+							"settlement": "Modelos de fortaleza"
 						}
 					}
 				}
@@ -27,14 +27,14 @@
 					"display_name": "Estúdio de Cerâmica"
 				},
 				"weavers_hut": {
-					"display_name": "Cabana do Tecelão"
+					"display_name": "Cabana do tecelão"
 				}
 			}
 		},
 		"buffs": {
 			"valor_town_bonus_strength_buff": {
 				"display_name": "Espirito de Siv",
-				"description": "Estatísticas do Corpo é aumentada em +2."
+				"description": "Corpo é aumentado em +2."
 			}
 		},
 		"gm": {
@@ -52,14 +52,14 @@
 							"tier_1_shops": {
 								"food_shop": {
 									"shop_info": {
-										"name": "Assentamento de Comida de Gyrd Reinhome",
-										"title": "A carroça de comida de Gyrd Reinhome chega na cidade"
+										"name": "Assentamento de Comida de Gyrd o Comunista",
+										"title": "Gyrd, chegou com mercadorias para vender"
 									}
 								},
 								"woodcutter_shop": {
 									"shop_info": {
-										"name": "Loja do Lenhador Arglod, o Montanhês",
-										"title": "Arglod, o Montanhês chegou com mercadorias para vender"
+										"name": "Loja do Lenhador Arglod o Escocês",
+										"title": "Arglod, chegou com mercadorias para vender"
 									}
 								},
 								"stonecutter_shop": {
@@ -70,7 +70,7 @@
 								},
 								"tannery_shop": {
 									"shop_info": {
-										"name": "Couro e Suprimentos Selvagens de Gretin, a Curtidora",
+										"name": "Couro e Suprimentos Selvagens Gretin o Esfolador",
 										"title": "Mercadorias para uma sobrevivencia robusta"
 									}
 								}
@@ -78,13 +78,13 @@
 							"tier_2_shops": {
 								"door_shop": {
 									"shop_info": {
-										"name": "Fornecimento de portas de Nielkir o Porteiro",
+										"name": "Fornecimento de portas Nielkir o Porteiro",
 										"title": "Nielkir, chegou com portas a vendas"
 									}
 								},
 								"container_shop": {
 									"shop_info": {
-										"name": "Loja de contêiner da Olfta, a Estoquista",
+										"name": "Loja de contêiner da Olfta a Estoquista",
 										"title": "Olfta, chegou com uma caravana de contêiner"
 									}
 								}
@@ -109,11 +109,11 @@
 									},
 									"bulletin_title": "Ronia Olarkson ",
 									"dialog_title": "Ronia Olarkson ",
-									"choice_000": "O que devemos escolher..."
+									"choice_000": "O que devemos escolher ..."
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "Uma mulher está perto do acampamento. Ela utiliza roupas semelhantes ha de um Escoteiro. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos assistindo há algum tempo.</font></p>"
+										"00": "Uma mulher está perto do acampamento. Ela utiliza de roupas semelhantes ha de um Escoteiro. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos assistindo há algum tempo.</font></p>"
 									},
 									"bulletin_title": "Alguém apareceu",
 									"dialog_title": "Um Escoteiro estóico",
@@ -144,11 +144,11 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ronia está agora parada na beira do fogo. Ela escreveu o nome da cidade de seus habitantes na carta mágica em branco. Em seguida, ela joga a carta sobre as chamas, que queimam forte por um momento.<p>\"[str(i18n_data.town_name)]\" she intones. \"Pela sabedoria de Valin e sob o olhar atento das estrelas acima, estejamos comprometidos com esse registro.\" </p>"
+										"00": "Ronia está agora parada na beira do fogo. Ela escreveu o nome da cidade de seus habitantes na carta mágica em branco . Em seguida, ela joga a carta sobre as chamas, que queimam forte por um momento.<p>\"[str(i18n_data.town_name)]\" she intones. \"Pela sabedoria de Valin e sob o olhar atento das estrelas acima, estejamos comprometidos com esse registro.\" </p>"
 									},
 									"bulletin_title": "Ronia se levanta",
 									"dialog_title": "O Fogo brilha forte",
-									"choice_000": "Isso... Funcionou?"
+									"choice_000": "Isso...Funciono?"
 								},
 								"msg2": {
 									"bulletin_title": "Ela sorri apenas com os olhos",
@@ -166,7 +166,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "\"Muito obrigado,\" Ronia sussurra, e de seu gesto, fica claro que ela quer dizer \"pela sua hospitalidade e presença.\" <p>Ela coloca uma pequena bolsa ao lado da bandeira. Do seu lado é um emblema da cidade grande mais próxima, alguns dias distante. \"Nossas cidades são estrelas na constelação do nosso povo,\" Ela diz. \"Para você, que um dia você se junte a eles.\"</p><p>A bolsa contém:</p>"
+										"00": "\"Muito obrigado,\" Ronia whispers, e de seu gesto, fica claro que ela quer dizer \"pela sua hospitalidade e presença.\" <p>Ela coloca uma pequena bolsa ao lado da bandeira. Do seu lado é um emblema da cidade grande mais próxima, alguns dias distante. \"Nossas cidades são estrelas na constelação do nosso povo,\" Ela diz. \"Para você, que um dia você se junte a eles.\"</p><p>A bolsa contém:</p>"
 									},
 									"bulletin_title": "Um presente",
 									"dialog_title": "Ronia produziu uma pequena bolsa",
