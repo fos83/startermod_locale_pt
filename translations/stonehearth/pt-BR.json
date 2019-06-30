@@ -7595,13 +7595,13 @@
 			},
 			"show_workshop": {
 				"display_name": "Oficina",
-				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
-				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
+				"description": "Seu artesão usa a oficina para construir itens úteis para o seu assentamento.",
+				"disabled_description": "Seu artesão usa a oficina para construir itens úteis para o seu assentamento. Antes que você possa criar, você precisa atribuir um artesão a essa oficina."
 			},
 			"show_workshop_from_crafter": {
 				"display_name": "Oficina",
-				"description": "Your crafter uses the workshop to construct useful items for your settlement.",
-				"disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
+				"description": "Seu artesão usa a oficina para construir itens úteis para o seu assentamento.",
+				"disabled_description": "Seu artesão usa a oficina para construir itens úteis para o seu assentamento. Antes que você possa criar, você precisa atribuir um artesão a essa oficina."
 			},
 			"slaughter": {
 				"display_name": "Colheita de Carne",
@@ -9959,8 +9959,8 @@
 				}
 			},
 			"steel_shield": {
-				"display_name": "Escudo de (Aço)",
-				"description": "A sturdy shield made from steel"
+				"display_name": "Escudo de Aço",
+				"description": "Um escudo resistente feito de aço"
 			},
 			"iron_helm": {
 				"display_name": "Iron Helm",
@@ -10127,7 +10127,7 @@
 			"wooden_door": {
 				"wooden_door_ghost": {
 					"display_name": "Porta de madeira",
-					"description": "Privacy at last!"
+					"description": "Privacidade finalmente!"
 				}
 			},
 			"wooden_door_2": {
@@ -10143,7 +10143,7 @@
 			"wooden_double_door": {
 				"wooden_double_door_ghost": {
 					"display_name": "Porta dupla de madeira",
-					"description": "A larger door. It makes quite an impression."
+					"description": "Uma porta maior. Isso causa uma boa impressão."
 				}
 			},
 			"amberstone_window": {
@@ -10338,8 +10338,8 @@
 			},
 			"ornate_picket_fence": {
 				"ornate_picket_fence_ghost": {
-					"display_name": "Ornate Picket Fence",
-					"description": "If it's not white, is our life unfulfilled?"
+					"display_name": "Cerca de estaca ornamentada",
+					"description": "Uma pequena folha de ouro vai longe!"
 				}
 			},
 			"ornate_picket_fence_gate": {
@@ -10986,115 +10986,115 @@
 		"crops": {
 			"brightbell_crop": {
 				"display_name": "Brightbell Flower",
-				"description": "Can be used as a healing herb",
+				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
 						"name": "Brightbell Sprout",
-						"description": "Stubby."
+						"description": "Toquinho"
 					},
 					"003": {
 						"name": "Brightbell",
-						"description": "Beauty is its own reward."
+						"description": "A beleza é sua própria recompensa."
 					},
 					"000": {
 						"name": "Brightbell Seedling",
-						"description": "Full of potential."
+						"description": "Cheio de potencial."
 					},
 					"002": {
 						"name": "Brightbell Bud",
-						"description": "Awkward, gangly stage."
+						"description": "Estágio desajeitado e desengonçado."
 					}
 				}
 			},
 			"carrot_crop": {
 				"display_name": "Cenoura",
-				"description": "Fast-growing, but pretty bland on its own.",
+				"description": "Rápido crescimento, mas bastante sem graça por si só.",
 				"growth_stage": {
 					"003": {
 						"name": "Cenoura (Madura)",
-						"description": "Delicious!"
+						"description": "Deliciosa!"
 					},
 					"002": {
 						"name": "Cenoura (Pequena)",
-						"description": "Small. Bitter."
+						"description": "Pequeno. Amargo."
 					},
 					"001": {
 						"name": "Cenoura (Broto)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"000": {
 						"name": "Cenoura (Muda)",
-						"description": "A unrealized carrot."
+						"description": "Uma cenoura não realizada."
 					},
 					"011": {
 						"name": "Cenoura (Estragada)",
-						"description": "Moldy and disgusting."
+						"description": "Mofado e repugnante."
 					}
 				}
 			},
 			"corn_crop": {
 				"display_name": "Milho",
-				"description": "Slow-growing, but super nutritious crop.",
+				"description": "Cultivo de crescimento lento, mas super nutritivo.",
 				"growth_stage": {
 					"003": {
 						"name": "Milho (Maduro)",
-						"description": "Eat me! Eat Me!"
+						"description": "Coma-me! Coma-me!"
 					},
 					"002": {
 						"name": "Milho (Verde)",
-						"description": "Extremely unsatisfying to eat."
+						"description": "Extremamente insatisfatório para comer."
 					},
 					"001": {
 						"name": "Milho (Broto)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"000": {
 						"name": "Milho (Muda)",
-						"description": "Slow-mo, high-stakes gambling."
+						"description": "Devagar, apostas altas."
 					},
 					"011": {
 						"name": "Casca de milho",
-						"description": "It's dead."
+						"description": "Está morto."
 					}
 				}
 			},
 			"frostsnap_crop": {
 				"display_name": "Frostsnap Flower",
-				"description": "Can be used as a healing herb",
+				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
 						"name": "Frostsnap Sprout",
-						"description": "Stubby."
+						"description": "Toquinho"
 					},
 					"003": {
 						"name": "Frostsnap",
-						"description": "Mysteriously cool."
+						"description": "Misteriosamente legal."
 					},
 					"000": {
 						"name": "Frostsnap Seedling",
-						"description": "Full of potential."
+						"description": "Cheio de potencial."
 					},
 					"002": {
 						"name": "Frostsnap Bud",
-						"description": "Like a baby snowflake."
+						"description": "Como um floco de neve de bebê."
 					}
 				}
 			},
 			"gingercap_crop": {
 				"display_name": "Gengibre",
-				"description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
+				"description": "Cultivo básico de rápido crescimento, mas não particularmente nutritivo nem delicioso.",
 				"growth_stage": {
 					"003": {
 						"name": "Gengibre (Maduro)",
-						"description": "Delicious!"
+						"description": "Delicioso!"
 					},
 					"002": {
 						"name": "Gengibre (Pequeno)",
-						"description": "Small. Bitter."
+						"description": "Pequeno. Amargo."
 					},
 					"001": {
 						"name": "Gengibre (Broto)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"000": {
 						"name": "Gengibre (Muda)",
@@ -11102,7 +11102,7 @@
 					},
 					"011": {
 						"name": "Gengibre (Estragado)",
-						"description": "Moldy and disgusting."
+						"description": "Mofado e repugnante."
 					}
 				}
 			},
@@ -11112,15 +11112,15 @@
 				"growth_stage": {
 					"003": {
 						"name": "Abobora (Madura)",
-						"description": "Delicious!"
+						"description": "Deliciosa!"
 					},
 					"002": {
 						"name": "Abobora (Pequena)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"001": {
 						"name": "Abobora (Broto)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"000": {
 						"name": "Abobora (Muda)",
@@ -11128,7 +11128,7 @@
 					},
 					"011": {
 						"name": "Abobora (Estragada)",
-						"description": "Moldy and disgusting."
+						"description": "Mofado e repugnante."
 					}
 				}
 			},
@@ -11138,15 +11138,15 @@
 				"growth_stage": {
 					"003": {
 						"name": "Melancia (Madura)",
-						"description": "Delicious!"
+						"description": "Deliciosa!"
 					},
 					"002": {
 						"name": "Melancia (Pequena)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"001": {
 						"name": "Melancia (Broto)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"000": {
 						"name": "Melancia (Muda)",
@@ -11154,17 +11154,17 @@
 					},
 					"011": {
 						"name": "Melancia (Estragada)",
-						"description": "Moldy and disgusting."
+						"description": "Mofado e repugnante."
 					}
 				}
 			},
 			"silkweed_crop": {
 				"display_name": "Silkweed",
-				"description": "This plant's fiber can be spun into thread",
+				"description": "Fibra desta planta pode ser transformada em fio",
 				"growth_stage": {
 					"004": {
 						"name": "Mature silkweed",
-						"description": "Ready for weaving!"
+						"description": "Pronto para tecelagem!"
 					},
 					"001": {
 						"name": "Silkweed sprout",
@@ -11188,50 +11188,50 @@
 				}
 			},
 			"tester_crop": {
-				"display_name": "Tester",
-				"description": "Steeped in the soil.",
+				"display_name": "Tester ",
+				"description": "Steeped in the soil. ",
 				"tester_crop_slow": {
-					"display_name": "Tester_Slow",
-					"description": "Steeped in the soil.",
+					"display_name": "Tester_Slow ",
+					"description": "Steeped in the soil. ",
 					"growth_stage": {
 						"001": {
-							"name": "Ripe Tester",
-							"description": "Delicious!"
+							"name": "Ripe Tester ",
+							"description": "Deliciosa!"
 						},
 						"000": {
-							"name": "Tester Seedling",
-							"description": "A unrealized tester."
+							"name": "Tester Seedling ",
+							"description": "A unrealized tester. "
 						}
 					}
 				},
 				"growth_stage": {
 					"001": {
-						"name": "Ripe Tester",
-						"description": "Delicious!"
+						"name": "Ripe Tester ",
+						"description": "Deliciosa!"
 					},
 					"000": {
-						"name": "Tester Seedling",
-						"description": "A unrealized tester."
+						"name": "Tester Seedling ",
+						"description": "A unrealized tester. "
 					}
 				}
 			},
 			"tester_crop_2": {
-				"display_name": "Tester_Slow",
-				"description": "Steeped in the soil.",
+				"display_name": "Tester_Slow ",
+				"description": "Steeped in the soil. ",
 				"growth_stage": {
 					"001": {
-						"name": "Ripe Tester",
-						"description": "Delicious!"
+						"name": "Ripe Tester ",
+						"description": "Deliciosa!"
 					},
 					"000": {
-						"name": "Tester Seedling",
-						"description": "A unrealized tester."
+						"name": "Tester Seedling ",
+						"description": "A unrealized tester. "
 					}
 				}
 			},
 			"tester_silkweed_crop": {
 				"display_name": "Tester Silkweed",
-				"description": "This plant's fiber can be spun into thread",
+				"description": "Fibra desta planta pode ser transformada em fio",
 				"growth_stage": {
 					"004": {
 						"name": "Mature silkweed"
@@ -11255,19 +11255,19 @@
 			},
 			"turnip_crop": {
 				"display_name": "Nabo",
-				"description": "Fast-growing staple crop, but not particularly nutritious nor delicious.",
+				"description": "Cultivo básico de rápido crescimento, mas não particularmente nutritivo nem delicioso.",
 				"growth_stage": {
 					"003": {
 						"name": "Nabo (Maduro)",
-						"description": "Delicious!"
+						"description": "Delicioso!"
 					},
 					"002": {
 						"name": "Nabo (Pequeno)",
-						"description": "Small. Bitter."
+						"description": "Pequeno. Amargo."
 					},
 					"001": {
 						"name": "Nabo (Broto)",
-						"description": "Not edible yet!"
+						"description": "Ainda não é comestível!"
 					},
 					"000": {
 						"name": "Nabo (Muda)",
@@ -11275,7 +11275,7 @@
 					},
 					"011": {
 						"name": "Nabo (Estragado)",
-						"description": "Moldy and disgusting."
+						"description": "Mofado e repugnante."
 					}
 				}
 			},
@@ -11285,41 +11285,41 @@
 				"growth_stage": {
 					"003": {
 						"name": "Ripe wheat",
-						"description": "Ready for harvest!"
+						"description": "Pronto para a colheita!"
 					},
 					"002": {
 						"name": "Immature wheat",
-						"description": "Not ready for harvest"
+						"description": "Não está pronto para a colheita"
 					},
 					"001": {
 						"name": "Wheat Sprout",
-						"description": "Not ready for harvest"
+						"description": "Não está pronto para a colheita"
 					},
 					"000": {
 						"name": "Wheat Seedling",
-						"description": "Not ready for harvest"
+						"description": "Não está pronto para a colheita"
 					},
 					"011": {
 						"name": "Wheat Husk",
-						"description": "It's dead."
+						"description": "Está morto."
 					}
 				}
 			},
 			"oak_tree_crop": {
 				"display_name": "Oak Tree Sapling",
-				"description": "Out of trees? Get ready to participate in reforestation.",
+				"description": "Sem árvores? Prepare-se para participar do reflorestamento.",
 				"growth_stage": {
 					"001": {
 						"name": "Oak Tree Seedling",
-						"description": "It's just getting started."
+						"description": "Está apenas começando."
 					},
 					"003": {
 						"name": "Oak Tree Sapling",
-						"description": "Ready to be transferred to a bigger plot."
+						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
 						"name": "Acorn",
-						"description": "Even a mighty tree has humble beginnings."
+						"description": "Mesmo uma árvore poderosa tem um começo humilde."
 					},
 					"002": {
 						"name": "Oak Tree Sprout",
@@ -11329,19 +11329,19 @@
 			},
 			"acacia_tree_crop": {
 				"display_name": "Acacia Tree Sapling",
-				"description": "Out of trees? Get ready to participate in reforestation.",
+				"description": "Sem árvores? Prepare-se para participar do reflorestamento.",
 				"growth_stage": {
 					"001": {
 						"name": "Acacia Tree Seedling",
-						"description": "It's just getting started."
+						"description": "Está apenas começando."
 					},
 					"003": {
 						"name": "Acacia Tree Sapling",
-						"description": "Ready to be transferred to a bigger plot."
+						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
 						"name": "Seed Pod",
-						"description": "Even a mighty tree has humble beginnings."
+						"description": "Mesmo uma árvore poderosa tem um começo humilde."
 					},
 					"002": {
 						"name": "Acacia Tree Sprout",
@@ -11355,7 +11355,7 @@
 				"growth_stage": {
 					"003": {
 						"name": "Green Gourds",
-						"description": "Too bitter to eat"
+						"description": "Muito amargo para comer"
 					},
 					"002": {
 						"name": "Proto-Gourds",
@@ -11363,11 +11363,11 @@
 					},
 					"005": {
 						"name": "Golden Gourds",
-						"description": "Harvest now!"
+						"description": "Colheita agora!"
 					},
 					"004": {
 						"name": "Green Gourds",
-						"description": "Almost ripe!"
+						"description": "Quase maduro!"
 					},
 					"001": {
 						"name": "Tiny Vine",
@@ -11375,7 +11375,7 @@
 					},
 					"000": {
 						"name": "Seedling!",
-						"description": "Just a tiny little stub"
+						"description": "Apenas um pequeno toquinho"
 					},
 					"011": {
 						"name": "Rotten Gourds",
@@ -11384,12 +11384,12 @@
 				}
 			},
 			"cactus_flower_crop": {
-				"description": "The flowers have medicinal properties",
+				"description": "As flores têm propriedades medicinais",
 				"display_name": "Cactus Flower",
 				"growth_stage": {
 					"000": {
 						"name": "Cactus Bud",
-						"description": "Starting to grow"
+						"description": "Começando a crescer"
 					},
 					"001": {
 						"name": "Young Cactus",
@@ -11401,7 +11401,7 @@
 					},
 					"003": {
 						"name": "Flowering Cactus",
-						"description": "Ready for harvesting"
+						"description": "Pronto para a colheita"
 					}
 				}
 			},
@@ -11411,11 +11411,11 @@
 				"growth_stage": {
 					"001": {
 						"name": "Cactus Seedling",
-						"description": "It's just getting started."
+						"description": "Está apenas começando."
 					},
 					"003": {
 						"name": "Cactus Sapling",
-						"description": "Ready to be transferred to a bigger plot."
+						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
 						"name": "Pollinated Flower Pod",
@@ -11433,11 +11433,11 @@
 				"growth_stage": {
 					"001": {
 						"name": "Juniper Seedling",
-						"description": "It's just getting started."
+						"description": "Está apenas começando."
 					},
 					"003": {
 						"name": "Juniper Sapling",
-						"description": "Ready to be transferred to a bigger plot."
+						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
 						"name": "Juniper Berry",
@@ -11451,15 +11451,15 @@
 			},
 			"pine_tree_crop": {
 				"display_name": "Pine Sapling",
-				"description": "Out of trees? Get ready to participate in reforestation.",
+				"description": "Sem árvores? Prepare-se para participar do reflorestamento.",
 				"growth_stage": {
 					"001": {
 						"name": "Pine Seedling",
-						"description": "A delicate stage of growth."
+						"description": "Um estágio delicado de crescimento."
 					},
 					"003": {
 						"name": "Pine Sapling",
-						"description": "Ready to be transferred to a bigger plot."
+						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
 						"name": "Pine Berry",
@@ -11467,7 +11467,7 @@
 					},
 					"002": {
 						"name": "Pine Sprout",
-						"description": "A perfect tiny pine. Still growing!"
+						"description": "Um pinheiro minúsculo perfeito. Ainda crescendo!"
 					}
 				}
 			},
@@ -11477,14 +11477,14 @@
 				"growth_stage": {
 					"003": {
 						"name": "Ripe Sweet Potato",
-						"description": "Ready for picking!"
+						"description": "Pronto para pegar!"
 					},
 					"002": {
 						"name": "Baby Sweet Potato"
 					},
 					"011": {
 						"name": "Rotten Sweet Potato",
-						"description": "Moldy and inedible"
+						"description": "Mofado e não comestível"
 					},
 					"000": {
 						"description": "Someday will grow into a tasty purple veggie."
@@ -11538,7 +11538,7 @@
 				}
 			},
 			"crate": {
-				"display_name": "A crate"
+				"display_name": "Uma caixa"
 			},
 			"curtains": {
 				"curtains_ghost": {
@@ -11771,8 +11771,8 @@
 			},
 			"amberstone_mat": {
 				"amberstone_mat_ghost": {
-					"display_name": "Woven Throw",
-					"description": "Woven with the skill of the rabbits"
+					"display_name": "Tapete de tecido",
+					"description": "Tecida com a habilidade dos coelhos"
 				}
 			},
 			"amberstone_painting_branch": {
@@ -11882,8 +11882,8 @@
 				},
 				"portcullis_valor": {
 					"portcullis_valor_ghost": {
-						"display_name": "Castle Portcullis",
-						"description": "For times when only the strongest door will do."
+						"display_name": "Portcullis do castelo",
+						"description": "Para aqueles momentos em que você realmente quer manter os vizinhos de fora."
 					}
 				},
 				"window_arrow_tall": {
@@ -12414,17 +12414,17 @@
 			"pumpkin": {
 				"pumpkin_basket": {
 					"display_name": "Cesta de Abóbora",
-					"description": "Ready for eating"
+					"description": "Pronto para comer"
 				},
 				"pumpkin_serving": {
 					"display_name": "Pumpkin Mush",
-					"description": "Delicious. Really..."
+					"description": "Delicioso. Mesmo..."
 				}
 			},
 			"watermelon": {
 				"watermelon_basket": {
 					"display_name": "Cesta de Melancia",
-					"description": "Ready for eating"
+					"description": "Pronto para comer"
 				},
 				"watermelon_serving": {
 					"display_name": "Watermelon Slice",
@@ -12443,8 +12443,8 @@
 					"description": "Warm and delicious"
 				},
 				"veggie_stew_serving": {
-					"display_name": "Bowl of Veggie Stew",
-					"description": "Delicious!"
+					"display_name": "Tigela de guisado vegetariano",
+					"description": "Deliciosa!"
 				}
 			},
 			"wheat_bale": {
@@ -12453,7 +12453,7 @@
 			},
 			"egg": {
 				"display_name": "Ovo",
-				"description": "An eggcellent ingredient for cooking."
+				"description": "Um ingrediente excelente para cozinhar."
 			},
 			"corn_bread": {
 				"corn_bread": {
@@ -12465,11 +12465,11 @@
 				}
 			},
 			"poyo_meat": {
-				"display_name": "Poyo Meat",
-				"description": "I hear it takes like poyo.",
+				"display_name": "Carne De Poyo",
+				"description": "Ouvi dizer que tem gosto de poyo.",
 				"rotten": {
 					"display_name": "Rotten Poyo Meat",
-					"description": "It stinks"
+					"description": "Isso fede"
 				}
 			},
 			"poyo_pot_pie": {
@@ -12543,11 +12543,11 @@
 			"prickly_pear": {
 				"prickly_pear_basket": {
 					"display_name": "Cesta de Figo da Índia",
-					"description": "Eat carefully!"
+					"description": "Coma com cuidado!"
 				},
 				"prickly_pear_serving": {
 					"display_name": "Figo da Índia",
-					"description": "Ow! Was that a spine?"
+					"description": "Ei! Isso era uma espinha?"
 				}
 			},
 			"golden_gourd": {
@@ -12602,16 +12602,16 @@
 				}
 			},
 			"rotten_basket": {
-				"display_name": "Cesta de Comida (Estragada)",
-				"description": "So rotten that it's lost all form and function."
+				"display_name": "Cesta de Comida Estragada",
+				"description": "Tão podre que perdeu toda forma e função."
 			},
 			"rotten_egg": {
-				"display_name": "Ovo (Estragado)",
-				"description": "Disgusting"
+				"display_name": "Ovo Estragado",
+				"description": "Repugnante"
 			},
 			"rotten_jerky": {
-				"display_name": "Carne seca (Estragada)",
-				"description": "Even jerky will rot eventually. It's true"
+				"display_name": "Carne seca Estragada",
+				"description": "Até carne seca apodrecerá eventualmente. É verdade"
 			},
 			"mutton": {
 				"display_name": "Raw Mutton",
@@ -12664,8 +12664,8 @@
 				"description": "An eggciting ingredient for cooking."
 			},
 			"rotten_egg_large": {
-				"description": "Disgusting",
-				"display_name": "Large Rotten Egg"
+				"description": "Repugnante",
+				"display_name": "Ovo podre grande"
 			},
 			"varanus_meat": {
 				"display_name": "Varanus Meat",
@@ -12724,11 +12724,11 @@
 			},
 			"roast_sausage": {
 				"roast_sausage": {
-					"display_name": "Roast Sausage",
-					"description": "Tantalisingly roasted to perfection"
+					"display_name": "Salsicha assada",
+					"description": "Assustadoramente assado à perfeição, pode ser feito de qualquer tipo de carne!"
 				},
 				"roast_sausage_serving": {
-					"display_name": "Serving of Roast Sausage"
+					"display_name": "Servindo de Salsicha Assada"
 				}
 			},
 			"bug_meat_stew": {
@@ -12800,8 +12800,8 @@
 			},
 			"cake": {
 				"cake": {
-					"display_name": "Sweet Cake",
-					"description": "Sweet and scrumptious."
+					"display_name": "Bolo simples de baga",
+					"description": "Doce e delicioso."
 				},
 				"cake_serving": {
 					"display_name": "Piece of Sweet Cake"
@@ -12823,7 +12823,7 @@
 				},
 				"sweet_potato_basket": {
 					"display_name": "Basket of Sweet Potatoes",
-					"description": "Lined up in neat rows."
+					"description": "Alinhado em fileiras ordenadas."
 				}
 			},
 			"roasted_sweet_potato": {
@@ -12869,7 +12869,7 @@
 				},
 				"pie_pear": {
 					"display_name": "Torta de Figos da Índia",
-					"description": "It's called 'Prickly Pear' but all the prickles have been removed."
+					"description": "Todos os espinhos foram removidos."
 				}
 			},
 			"cake_layered": {
@@ -13237,8 +13237,8 @@
 			},
 			"dummy_training": {
 				"dummy_training_ghost": {
-					"display_name": "Training Dummy",
-					"description": "Its best to practice with this friendly guy."
+					"display_name": "Boneco de Treinamento",
+					"description": "É melhor praticar com esse cara amigável."
 				}
 			},
 			"town_banner_guardian": {
@@ -13248,8 +13248,8 @@
 					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>Estradas dão 3x o aumento de velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x mais mercadorias e ouro</li></ul>"
 				},
 				"town_banner_guardian_token_iconic": {
-					"display_name": "Banner of Cunning Shred",
-					"description": "A shred from the Banner of Cunning, carrying along its magic."
+					"display_name": "Fragmento da Bandeira da Astúcia",
+					"description": "Um fragmento do estandarte da astúcia, carregando sua bênção."
 				}
 			},
 			"town_banner_might": {
@@ -13259,8 +13259,8 @@
 					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e da terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"town_banner_might_token_iconic": {
-					"display_name": "Banner of Strength Shred",
-					"description": "A shred from the Banner of Strength, carrying along its magic."
+					"display_name": "Fragmento da Bandeira da Força",
+					"description": "Um fragmento da Bandeira da Força, carregando sua bênção."
 				}
 			},
 			"town_banner_nature": {
@@ -13270,8 +13270,8 @@
 					"town_bonus_description": "<i>Este assentamento estará em sintonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Colheitas crescem 25% mais rápido</li><li>Plantas têm 2x o seu Atrativo normal</li></ul>"
 				},
 				"town_banner_nature_token_iconic": {
-					"display_name": "Banner of Vitality Shred",
-					"description": "A shred from the Banner of Vitality, carrying along its magic."
+					"display_name": "Fragmento da Bandeira da Vitalidade",
+					"description": "Um fragmento da Bandeira da Vitalidade, carregando sua bênção."
 				}
 			},
 			"titan_ward_stone": {
@@ -13379,9 +13379,9 @@
 					"description": "The ground rumbles when Zilla comes around."
 				},
 				"cougar": {
-					"display_name": "Cougar",
-					"description": "A large cat",
-					"species": "cougar"
+					"display_name": "Puma",
+					"description": "Um gato grande e gracioso. É um caçador carnívoro.",
+					"species": "puma"
 				},
 				"jacko": {
 					"display_name": "Spirit of Jack-O",
@@ -13606,7 +13606,7 @@
 				},
 				"duckduck": {
 					"display_name": "DuckDuck",
-					"description": "Flightless avian",
+					"description": "Ave que não voa, que põe ovos gigantes. Come um pouco de tudo.",
 					"species": "duckduck",
 					"egg": {
 						"duckduck_egg_fertilized": {
@@ -13646,15 +13646,15 @@
 					"description": "Constructed of stone and empowered by ancient knowledge."
 				},
 				"golem_mining": {
-					"display_name": "Mole",
-					"description": "Mining Golem, constructed of stone and empowered by ancient knowledge."
+					"display_name": "Golem Toupeira",
+					"description": "Golem de Mineração, construído de pedra e fortalecido pelo conhecimento antigo."
 				},
 				"golem_restocking": {
-					"display_name": "Cricket",
-					"description": "Restocking Golem, constructed of stone and empowered by ancient knowledge.",
+					"display_name": "Golem Grilo",
+					"description": "Golem carregador, construído de pedra e fortalecido pelo conhecimento antigo!",
 					"golem_restocking_ghost_auto": {
-						"display_name": "Autonomous Cricket Golem",
-						"description": "Item-Carrying Golem that somehow works without a Geomancer around"
+						"display_name": "Golem Grilo Autônomo",
+						"description": "Golem carregador que de alguma forma funciona sem um Geomancer"
 					}
 				}
 			}
@@ -13750,74 +13750,74 @@
 				"bud": {
 					"berry_bush_plant_bud": {
 						"display_name": "Budding Berry Bush",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
 				"sprout": {
 					"berry_bush_plant_sprout": {
 						"display_name": "Berry Bush Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"berry_bush_plant_stem": {
 						"display_name": "Stemming Berry Bush",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
 			"brightbell_plant": {
 				"display_name": "Wild Brightbell",
-				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"description": "Pode ser colhido para ervas curativas",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"seed": {
 					"brightbell_plant_seed_ghost": {
 						"display_name": "Wild Brightbell Seed",
-						"description": "Once planted, it will grow into healing herbs"
+						"description": "Uma vez plantada, crescerá em ervas medicinais"
 					},
 					"brightbell_plant_sprout": {
 						"display_name": "Wild Brightbell Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"brightbell_plant_stem": {
 						"display_name": "Wild Brightbell Stemming Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					},
 					"brightbell_plant_bud": {
 						"display_name": "Wild Brightbell Budding Plant",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				}
 			},
 			"carrot": {
 				"carrot_basket": {
 					"display_name": "Cesta de Cenouras",
-					"description": "Lined up in neat rows."
+					"description": "Alinhado em fileiras ordenadas."
 				},
 				"carrot_serving": {
 					"display_name": "Cenoura",
-					"description": "Tiny. Bitter."
+					"description": "Muito pequeno. Amargo."
 				},
 				"display_name": "Carrot",
-				"description": "Great for soups",
+				"description": "Ótimo para sopas",
 				"bud": {
 					"carrot_plant_bud": {
 						"display_name": "Budding Carrot",
-						"description": "Its almost full grown!  But then it has to dry out!"
+						"description": "Está quase cheio! Mas então tem que secar!"
 					}
 				},
 				"rotten": {
 					"carrot_rotten": {
 						"display_name": "Rotten Carrot",
-						"description": "Not good for eating anymore, but a great source of seeds"
+						"description": "Não é bom para comer, mas uma grande fonte de sementes"
 					}
 				},
 				"sprout": {
 					"carrot_plant_sprout": {
 						"display_name": "Carrot Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
@@ -13833,100 +13833,100 @@
 				"stem": {
 					"carrot_plant_stem": {
 						"display_name": "Stemming Carrot",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"carrot_ghost": {
 					"display_name": "Carrot",
-					"description": "Great for soups"
+					"description": "Ótimo para sopas"
 				}
 			},
 			"frostsnap_plant": {
 				"display_name": "Wild Frost Snap",
-				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"description": "Pode ser colhido para ervas curativas",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"seed": {
 					"frostsnap_plant_seed_ghost": {
 						"display_name": "Wild Frostsnap Seed",
-						"description": "Can be planted to grow healing herbs"
+						"description": "Pode ser plantada para crescer ervas medicinais"
 					},
 					"frostsnap_plant_sprout": {
 						"display_name": "Wild Frostsnap Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"frostsnap_plant_stem": {
 						"display_name": "Wild Frostsnap Stemming Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					},
 					"frostsnap_plant_bud": {
 						"display_name": "Wild Frostsnap Budding Plant",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
 				"bud": {
 					"frostsnap_plant_bud": {
 						"display_name": "Wild Frostsnap Budding Plant",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				}
 			},
 			"silkweed": {
 				"silkweed": {
 					"display_name": "Wild Silkweed",
-					"description": "This plant's fiber can be spun into thread.",
-					"unripe_description": "This plant has been harvested and hasn't grown back yet."
+					"description": "Fibra desta planta pode ser transformada em fio",
+					"unripe_description": "Esta planta foi colhida e ainda não cresceu."
 				},
 				"seed": {
 					"silkweed_plant_seed_ghost": {
 						"display_name": "Wild Silkweed Seed",
-						"description": "Can be planted to grow fiber which can be spun into thread."
+						"description": "Podem ser plantadas para cultivar fibras que podem ser fiadas."
 					}
 				},
 				"bud": {
 					"silkweed_bud": {
 						"display_name": "Budding Silkweed",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
 				"sprout": {
 					"silkweed_plant_sprout": {
 						"display_name": "Silkweed Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"silkweed_stem": {
 						"display_name": "Stemming Silkweed",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
 			"tester": {
 				"tester_basket": {
-					"display_name": "Basket of Testers",
-					"description": "Juicy and exciting!"
+					"display_name": "Basket of Testers ",
+					"description": "Suculento e excitante!"
 				},
 				"tester_serving": {
-					"display_name": "A Tester",
-					"description": "Used as shields by princesses."
+					"display_name": "A Tester ",
+					"description": "Used as shields by princesses. "
 				}
 			},
 			"turnip": {
 				"turnip_basket": {
 					"display_name": "Cesta de Nabos",
-					"description": "Juicy and exciting!"
+					"description": "Suculento e excitante!"
 				},
 				"turnip_serving": {
 					"display_name": "Nabo",
-					"description": "Tiny. Bitter."
+					"description": "Muito pequeno. Amargo."
 				}
 			},
 			"cactus_plant": {
 				"display_name": "Wild Cactus",
-				"description": "Can be harvested for healing herbs",
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"description": "Pode ser colhido para ervas curativas",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"bud": {
 					"cactus_plant_plant_bud": {
 						"display_name": "Budding Wild Cactus",
@@ -13936,55 +13936,55 @@
 				"seed": {
 					"cactus_plant_seed": {
 						"display_name": "Wild Cactus Seed",
-						"description": "Can be planted to grow healing herbs."
+						"description": "Pode ser plantada para crescer ervas medicinais"
 					},
 					"cactus_plant_seed_ghost": {
 						"display_name": "Wild Cactus Seed",
-						"description": "Can be planted to grow some prickly pears."
+						"description": "Pode ser plantado para crescer algumas peras espinhosas."
 					}
 				},
 				"sprout": {
 					"cactus_plant_plant_sprout": {
 						"display_name": "Wild Cactus Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"cactus_plant_plant_stem": {
 						"display_name": "Stemming Wild Cactus",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
 			"tumbleweed": {
 				"display_name": "Tumbleweed",
-				"description": "Source of coarse fibers",
+				"description": "Fonte de fibras grossas",
 				"bud": {
 					"tumbleweed_plant_bud": {
 						"display_name": "Budding Tumbleweed",
-						"description": "Its almost full grown!  But then it has to dry out!"
+						"description": "Está quase cheio! Mas então tem que secar!"
 					}
 				},
 				"seed": {
 					"tumbleweed_plant_seed": {
 						"display_name": "Tumbleweed Seed",
-						"description": "Can be planted to grow a fiber of scratchy quality."
+						"description": "Pode ser plantada para cultivar uma fibra de qualidade áspera."
 					},
 					"tumbleweed_plant_seed_ghost": {
 						"display_name": "Tumbleweed Seed",
-						"description": "Can be planted to grow a fiber of scratchy quality."
+						"description": "Pode ser plantada para cultivar uma fibra de qualidade áspera."
 					}
 				},
 				"sprout": {
 					"tumbleweed_plant_sprout": {
 						"display_name": "Tumbleweed Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"tumbleweed_plant_stem": {
 						"display_name": "Stemming Tumbleweed",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -13995,25 +13995,25 @@
 				"seed": {
 					"pear_cactus_plant_seed_ghost": {
 						"display_name": "Pear Cactus Seed",
-						"description": "Can be planted to grow some prickly pears."
+						"description": "Pode ser plantado para crescer algumas peras espinhosas."
 					}
 				},
 				"bud": {
 					"pear_cactus_plant_bud": {
 						"display_name": "Budding Pear Cactus",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
 				"sprout": {
 					"pear_cactus_plant_sprout": {
 						"display_name": "Pear Cactus Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"pear_cactus_plant_stem": {
 						"display_name": "Stemming Pear Cactus",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -14041,13 +14041,13 @@
 				"sprout": {
 					"foxlily_plant_plant_sprout": {
 						"display_name": "Foxlily Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"foxlily_plant_plant_stem": {
 						"display_name": "Stemming Foxlily Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -14065,13 +14065,13 @@
 				"stem": {
 					"sunflower_plant_plant_stem": {
 						"display_name": "Stemming Sunflower Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"sunflower_plant_plant_sprout": {
 						"display_name": "Sunflower Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
@@ -14114,48 +14114,48 @@
 				"sprout": {
 					"sugarbell_plant_sprout": {
 						"display_name": "Sugarbell Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"sugarbell_plant_stem": {
 						"display_name": "Stemming Sugarbell",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
 			"cactus_tulip_red_plant": {
 				"cactus_tulip_red_plant_ghost": {
 					"display_name": "Red Tulip Cactus",
-					"description": "Can be harvested for healing herbs"
+					"description": "Pode ser colhido para ervas curativas"
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"stem": {
 					"cactus_tulip_red_plant_stem": {
 						"display_name": "Stemming Tulip Cactus Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"cactus_tulip_red_plant_sprout": {
 						"display_name": "Tulip Cactus Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"cactus_tulip_red_plant_seed": {
 						"display_name": "Red Tulip Cactus Seed",
-						"description": "Once planted, it will grow into an healing herb plant"
+						"description": "Uma vez plantada, crescerá em uma planta herbácea curativa"
 					},
 					"cactus_tulip_red_plant_seed_ghost": {
 						"display_name": "Red Cactus Tulip Seed",
-						"description": "Once planted, it will grow into an healing herb plant"
+						"description": "Uma vez plantada, crescerá em uma planta herbácea curativa"
 					}
 				},
 				"bud": {
 					"cactus_tulip_red_plant_bud": {
 						"display_name": "Budding Tulip Cactus Plant",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				}
 			},
@@ -14163,80 +14163,80 @@
 				"stem": {
 					"cactus_tulip_blue_plant_stem": {
 						"display_name": "Stemming Tulip Cactus Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"cactus_tulip_blue_plant_sprout": {
 						"display_name": "Tulip Cactus Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"cactus_tulip_blue_plant_seed": {
 						"display_name": "Blue Tulip Cactus Seed",
-						"description": "Once planted, it will grow into an healing herb plant"
+						"description": "Uma vez plantada, crescerá em uma planta herbácea curativa"
 					},
 					"cactus_tulip_blue_plant_seed_ghost": {
 						"display_name": "Blue Cactus Tulip Seed",
-						"description": "Once planted, it will grow into an healing herb plant"
+						"description": "Uma vez plantada, crescerá em uma planta herbácea curativa"
 					}
 				},
 				"bud": {
 					"cactus_tulip_blue_plant_bud": {
 						"display_name": "Budding Tulip Cactus Plant",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
 				"cactus_tulip_blue_plant_ghost": {
 					"display_name": "Blue Tulip Cactus",
-					"description": "Can be harvested for healing herbs"
+					"description": "Pode ser colhido para ervas curativas"
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet"
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer"
 			},
 			"cactus_tulip_plant": {
 				"yellow": {
 					"stem": {
 						"cactus_tulip_yellow_plant_stem": {
 							"display_name": "Stemming Tulip Cactus Plant",
-							"description": "Still growing!"
+							"description": "Ainda crescendo!"
 						}
 					},
 					"sprout": {
 						"cactus_tulip_yellow_plant_sprout": {
 							"display_name": "Tulip Cactus Sproutling",
-							"description": "Just needs some time and care."
+							"description": "Só precisa de algum tempo e cuidado."
 						}
 					},
 					"seed": {
 						"cactus_tulip_yellow_plant_seed_ghost": {
 							"display_name": "Yellow Cactus Tulip Seed",
-							"description": "Once planted, it will grow into an healing herb plant"
+							"description": "Uma vez plantada, crescerá em uma planta herbácea curativa"
 						},
 						"cactus_tulip_yellow_plant_seed": {
 							"display_name": "Yellow Tulip Cactus Seed",
-							"description": "Once planted, it will grow into an healing herb plant"
+							"description": "Uma vez plantada, crescerá em uma planta herbácea curativa"
 						}
 					},
 					"bud": {
 						"cactus_tulip_yellow_plant_bud": {
 							"display_name": "Budding Tulip Cactus Plant",
-							"description": "Its almost there!  Look, it has buds!"
+							"description": "Está quase lá! Olha, tem botões!"
 						}
 					},
 					"cactus_tulip_yellow_plant": {
-						"unripe_description": "This plant has been harvested and has not grown back yet"
+						"unripe_description": "Esta planta foi colhida e não voltou a crescer"
 					},
 					"cactus_tulip_yellow_plant_ghost": {
 						"display_name": "Yellow Tulip Cactus",
-						"description": "Can be harvested for healing herbs"
+						"description": "Pode ser colhido para ervas curativas"
 					}
 				}
 			},
 			"wax_plant_purple": {
 				"wax_plant_purple_ghost": {
 					"display_name": "Purple Wax Plant",
-					"description": "Just a cute little plant, can harvest it for seeds."
+					"description": "Apenas uma planta bonitinha, pode colhê-lo para sementes."
 				},
 				"bud": {
 					"wax_plant_purple_plant_bud": {
@@ -14257,20 +14257,20 @@
 				"sprout": {
 					"wax_plant_purple_plant_sprout": {
 						"display_name": "Purple Wax Plant Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"wax_plant_purple_plant_stem": {
 						"display_name": "Stemming Purple Wax Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
 			"wax_plant_green": {
 				"wax_plant_green_ghost": {
 					"display_name": "Green Wax Plant",
-					"description": "Just a cute little plant, can harvest it for seeds."
+					"description": "Apenas uma planta bonitinha, pode colhê-lo para sementes."
 				},
 				"bud": {
 					"wax_plant_green_plant_bud": {
@@ -14291,13 +14291,13 @@
 				"sprout": {
 					"wax_plant_green_plant_sprout": {
 						"display_name": "Green Wax Plant Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"wax_plant_green_plant_stem": {
 						"display_name": "Stemming Green Wax Plant",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -14309,13 +14309,13 @@
 				"bud": {
 					"sweet_potato_plant_bud": {
 						"display_name": "Budding Sweet Potato",
-						"description": "Its almost full grown!"
+						"description": "Está quase cheio!"
 					}
 				},
 				"rotten": {
 					"sweet_potato_rotten": {
 						"display_name": "Rotten Sweet Potato",
-						"description": "Not good for eating anymore, but a great source of seeds"
+						"description": "Não é bom para comer, mas uma grande fonte de sementes"
 					}
 				},
 				"seed": {
@@ -14327,13 +14327,13 @@
 				"sprout": {
 					"sweet_potato_plant_sprout": {
 						"display_name": "Sweet Potato Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"sweet_potato_plant_stem": {
 						"display_name": "Stemming Sweet Potato",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -14341,84 +14341,84 @@
 				"stem": {
 					"snow_poppy_plant_stem": {
 						"display_name": "Stemming Snow Poppy",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"snow_poppy_plant_sprout": {
 						"display_name": "Snow Poppy Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"snow_poppy_plant_seed": {
 						"display_name": "Snow Poppy Seed",
-						"description": "Once planted, it will grow vibrant flowers"
+						"description": "Uma vez plantada, crescerá flores vibrantes"
 					},
 					"snow_poppy_plant_seed_ghost": {
 						"display_name": "Snow Poppy Seed",
-						"description": "Once planted, it will grow vibrant flowers"
+						"description": "Uma vez plantada, crescerá flores vibrantes"
 					}
 				},
 				"bud": {
 					"snow_poppy_plant_bud": {
 						"display_name": "Budding Snow Poppy",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"snow_poppy_plant_ghost": {
 					"display_name": "Snow Poppy",
-					"description": "Can be harvested for healing herbs"
+					"description": "Pode ser colhido para ervas curativas"
 				}
 			},
 			"gold_snow_poppy_plant": {
 				"stem": {
 					"gold_snow_poppy_plant_stem": {
 						"display_name": "Stemming Snow Poppy",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"gold_snow_poppy_plant_sprout": {
 						"display_name": "Snow Poppy Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"gold_snow_poppy_plant_seed": {
 						"display_name": "Snow Poppy Seed",
-						"description": "Once planted, it will grow vibrant flowers"
+						"description": "Uma vez plantada, crescerá flores vibrantes"
 					},
 					"gold_snow_poppy_plant_seed_ghost": {
 						"display_name": "Snow Poppy Seed",
-						"description": "Once planted, it will grow vibrant flowers"
+						"description": "Uma vez plantada, crescerá flores vibrantes"
 					}
 				},
 				"bud": {
 					"gold_snow_poppy_plant_bud": {
 						"display_name": "Budding Snow Poppy",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
-				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"gold_snow_poppy_plant_ghost": {
 					"display_name": "Snow Poppy",
-					"description": "Can be harvested for healing herbs"
+					"description": "Pode ser colhido para ervas curativas"
 				}
 			},
 			"violet_plant": {
 				"violet_plant": {
-					"unripe_description": "This plant has been harvested and has not grown back yet."
+					"unripe_description": "Esta planta foi colhida e não voltou a crescer"
 				},
 				"violet_plant_ghost": {
 					"display_name": "Violet",
-					"description": "Can be harvested for healing herbs"
+					"description": "Pode ser colhido para ervas curativas"
 				},
 				"bud": {
 					"violet_plant_bud": {
 						"display_name": "Budding Violet",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					}
 				},
 				"seed": {
@@ -14434,13 +14434,13 @@
 				"sprout": {
 					"violet_plant_sprout": {
 						"display_name": "Violet Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"violet_plant_stem": {
 						"display_name": "Stemming violet",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -14448,41 +14448,41 @@
 				"wintermoss": {
 					"wintermoss_ghost": {
 						"display_name": "Wintermoss",
-						"description": "This plant's fiber can be spun into thread."
+						"description": "Fibra desta planta pode ser transformada em fio"
 					}
 				},
 				"bud": {
 					"wintermoss_bud": {
 						"display_name": "Budding Wintermoss",
-						"description": "Its almost there!  Look, it has buds!"
+						"description": "Está quase lá! Olha, tem botões!"
 					},
 					"wintermoss_plant_bud": {
 						"display_name": "Budding Wintermoss",
-						"description": "Its almost full grown!"
+						"description": "Está quase cheio!"
 					}
 				},
 				"display_name": "Wintermoss",
-				"description": "Source of coarse fibers",
+				"description": "Fonte de fibras grossas",
 				"seed": {
 					"wintermoss_plant_seed": {
 						"display_name": "Wintermoss Seed",
-						"description": "Can be planted to grow a scratchy fiber."
+						"description": "Pode ser plantado para crescer uma fibra áspera."
 					},
 					"wintermoss_plant_seed_ghost": {
 						"display_name": "Wintermoss Seed",
-						"description": "Can be planted to grow a scratchy fiber."
+						"description": "Pode ser plantado para crescer uma fibra áspera."
 					}
 				},
 				"sprout": {
 					"wintermoss_plant_sprout": {
 						"display_name": "Wintermoss Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"wintermoss_plant_stem": {
 						"display_name": "Stemming Wintermoss",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				}
 			},
@@ -14490,13 +14490,13 @@
 				"stem": {
 					"earthbud_plant_stem": {
 						"display_name": "Stemming Hearthbud",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"earthbud_plant_sprout": {
 						"display_name": "Hearthbud Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
@@ -14980,40 +14980,40 @@
 			"juniper_tree": {
 				"ancient_juniper_tree": {
 					"display_name": "Ancient Juniper Tree",
-					"description": "It radiates a mysterious aura"
+					"description": "Irradia uma aura misteriosa"
 				},
 				"large_juniper_tree": {
 					"display_name": "Large Juniper Tree",
-					"description": "An impressive specimen."
+					"description": "Um espécime impressionante."
 				},
 				"medium_juniper_tree": {
 					"display_name": "Juniper Tree",
-					"description": "Strong and tall."
+					"description": "Forte e alto."
 				},
 				"small_juniper_tree": {
 					"display_name": "Small Juniper Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				},
 				"stem": {
 					"tree_juniper_plant_stem": {
 						"display_name": "Stemming Juniper Tree",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_juniper_sprout": {
 						"display_name": "Juniper Tree Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_juniper_seed": {
 						"display_name": "Juniper Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					},
 					"tree_juniper_seed_ghost": {
 						"display_name": "Juniper Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				},
 				"bud": {
@@ -15024,7 +15024,7 @@
 				},
 				"sapling_juniper_tree": {
 					"sapling_juniper_tree_iconic": {
-						"description": "Plant it in the earth and watch it grow."
+						"description": "Plante-a na terra e observe-a crescer."
 					},
 					"description": "Baby Juniper Tree.",
 					"sapling_juniper_tree_ghost": {
@@ -15034,43 +15034,43 @@
 				},
 				"large_snowy_juniper_tree": {
 					"display_name": "Large Juniper Tree",
-					"description": "An impressive specimen."
+					"description": "Um espécime impressionante."
 				},
 				"medium_snowy_juniper_tree": {
 					"display_name": "Juniper Tree",
-					"description": "Strong and tall."
+					"description": "Forte e alto."
 				},
 				"small_snowy_juniper_tree": {
 					"display_name": "Small Juniper Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				},
 				"medium_gold_juniper_tree": {
 					"display_name": "Juniper Tree",
-					"description": "Strong and tall."
+					"description": "Forte e alto."
 				},
 				"small_gold_juniper_tree": {
 					"display_name": "Small Juniper Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				}
 			},
 			"palm_tree": {
 				"large_palm_tree": {
 					"display_name": "Large Palm Tree",
-					"description": "An impressive specimen."
+					"description": "Um espécime impressionante."
 				},
 				"small_palm_tree": {
 					"display_name": "Small Palm Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				}
 			},
 			"acacia_tree": {
 				"large_acacia_tree": {
 					"display_name": "Large Acacia Tree",
-					"description": "It radiates a mysterious aura"
+					"description": "Irradia uma aura misteriosa"
 				},
 				"small_acacia_tree": {
 					"display_name": "Small Acacia Tree",
-					"description": "Young, but hearty"
+					"description": "Jovem, mas saudável"
 				},
 				"sapling_acacia_tree": {
 					"description": "Baby acacia tree.",
@@ -15079,29 +15079,29 @@
 						"description": "Baby acacia tree."
 					},
 					"sapling_acacia_tree_iconic": {
-						"description": "Plant it in the earth and watch it grow."
+						"description": "Plante-a na terra e observe-a crescer."
 					}
 				},
 				"stem": {
 					"tree_acacia_plant_stem": {
 						"display_name": "Stemming Acacia Tree",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_acacia_sprout": {
 						"display_name": "Acacia Tree Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_acacia_seed": {
 						"display_name": "Acacia Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					},
 					"tree_acacia_seed_ghost": {
 						"display_name": "Acacia Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				},
 				"bud": {
@@ -15114,28 +15114,28 @@
 			"joshua_tree": {
 				"large_joshua_tree": {
 					"display_name": "Large Joshua Tree",
-					"description": "A curious tree"
+					"description": "Uma árvore curiosa"
 				},
 				"stem": {
 					"tree_joshua_plant_stem": {
 						"display_name": "Stemming Joshua Tree",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_joshua_sprout": {
 						"display_name": "Joshua Tree Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_joshua_seed": {
 						"display_name": "Joshua Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					},
 					"tree_joshua_seed_ghost": {
 						"display_name": "Joshua Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				},
 				"bud": {
@@ -15148,36 +15148,36 @@
 			"pine_tree": {
 				"large_pine_tree": {
 					"display_name": "Large Pine Tree",
-					"description": "100's of years old. Too bad..."
+					"description": "Parece ter muitos anos de idade. Que pena..."
 				},
 				"medium_pine_tree": {
 					"display_name": "Medium Pine Tree",
-					"description": "Sturdy, in the prime of life."
+					"description": "Robusto, no auge da vida."
 				},
 				"small_pine_tree": {
 					"display_name": "Small Pine Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				},
 				"stem": {
 					"tree_pine_plant_stem": {
 						"display_name": "Stemming Pine Tree",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_pine_sprout": {
 						"display_name": "Pine Tree Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_pine_seed": {
 						"display_name": "Pine Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					},
 					"tree_pine_seed_ghost": {
 						"display_name": "Pine Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				},
 				"bud": {
@@ -15192,76 +15192,76 @@
 						"description": "Baby Pine Tree."
 					},
 					"sapling_pine_tree_iconic": {
-						"description": "Plant it in the earth and watch it grow."
+						"description": "Plante-a na terra e observe-a crescer."
 					},
 					"description": "Baby Pine Tree."
 				},
 				"medium_snowy_pine_tree": {
-					"description": "Sturdy, in the prime of life.",
+					"description": "Robusto, no auge da vida.",
 					"display_name": "Medium Pine Tree"
 				},
 				"large_snowy_pine_tree": {
-					"description": "100's of years old. Too bad...",
+					"description": "Parece ter muitos anos de idade. Que pena...",
 					"display_name": "Large Pine Tree"
 				},
 				"small_snowy_pine_tree": {
-					"description": "Just a sapling.",
+					"description": "Apenas uma muda.",
 					"display_name": "Small Pine Tree"
 				},
 				"large_gold_pine_tree": {
 					"display_name": "Large Pine Tree",
-					"description": "100's of years old. Too bad..."
+					"description": "Parece ter muitos anos de idade. Que pena..."
 				},
 				"medium_gold_pine_tree": {
 					"display_name": "Medium Pine Tree",
-					"description": "Sturdy, in the prime of life."
+					"description": "Robusto, no auge da vida."
 				},
 				"small_gold_pine_tree": {
 					"display_name": "Small Pine Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				},
 				"large_silver_pine_tree": {
 					"display_name": "Large Pine Tree",
-					"description": "100's of years old. Too bad..."
+					"description": "Parece ter muitos anos de idade. Que pena..."
 				},
 				"small_silver_pine_tree": {
 					"display_name": "Small Pine Tree",
-					"description": "Just a sapling."
+					"description": "Apenas uma muda."
 				},
 				"medium_silver_pine_tree": {
 					"display_name": "Medium Pine Tree",
-					"description": "Sturdy, in the prime of life."
+					"description": "Robusto, no auge da vida."
 				}
 			},
 			"cactus_tree": {
 				"large_cactus_tree": {
 					"display_name": "Large Cactus",
-					"description": "An impressive specimen."
+					"description": "Um espécime impressionante."
 				},
 				"small_cactus_tree": {
 					"display_name": "Small Cactus",
-					"description": "Small and prickly."
+					"description": "Pequeno e espinhoso."
 				},
 				"stem": {
 					"tree_cactus_plant_stem": {
 						"display_name": "Stemming Cactus",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_cactus_sprout": {
 						"display_name": "Cactus Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_cactus_seed": {
 						"display_name": "Giant Cactus Seed",
-						"description": "Can be planted to grow a giant cactus"
+						"description": "Pode ser plantado para crescer um cacto gigante"
 					},
 					"tree_cactus_seed_ghost": {
 						"display_name": "Large Cactus Seed",
-						"description": "Can be planted to grow a giant cactus"
+						"description": "Pode ser plantado para crescer um cacto gigante"
 					}
 				},
 				"bud": {
@@ -15273,7 +15273,7 @@
 				"sapling_cactus_tree": {
 					"description": "Baby Cactus Plant.",
 					"sapling_cactus_tree_iconic": {
-						"description": "Plant it in the earth and watch it grow."
+						"description": "Plante-a na terra e observe-a crescer."
 					},
 					"sapling_cactus_tree_ghost": {
 						"display_name": "Cactus Sapling",
@@ -15284,7 +15284,7 @@
 			"oak_tree": {
 				"ancient_oak_tree": {
 					"display_name": "Ancient Oak Tree",
-					"description": "It radiates a mysterious aura"
+					"description": "Irradia uma aura misteriosa"
 				},
 				"large_oak_tree": {
 					"display_name": "Large Oak Tree",
@@ -15292,7 +15292,7 @@
 				},
 				"medium_oak_tree": {
 					"display_name": "Medium Oak Tree",
-					"description": "Sturdy, in the prime of life."
+					"description": "Robusto, no auge da vida."
 				},
 				"small_oak_tree": {
 					"display_name": "Small Oak Tree",
@@ -15305,29 +15305,29 @@
 						"description": "Baby oak tree."
 					},
 					"sapling_oak_tree_iconic": {
-						"description": "Plant it in the earth and watch it grow."
+						"description": "Plante-a na terra e observe-a crescer."
 					}
 				},
 				"stem": {
 					"tree_oak_plant_stem": {
 						"display_name": "Stemming Oak Tree",
-						"description": "Still growing!"
+						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_oak_sprout": {
 						"display_name": "Oak Tree Sproutling",
-						"description": "Just needs some time and care."
+						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_oak_seed": {
 						"display_name": "Oak Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					},
 					"tree_oak_seed_ghost": {
 						"display_name": "Oak Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				},
 				"bud": {
@@ -15341,7 +15341,7 @@
 				"seed": {
 					"tree_pine_seed_ghost": {
 						"display_name": "Gold Pine Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				}
 			},
@@ -15349,7 +15349,7 @@
 				"seed": {
 					"tree_pine_seed_ghost": {
 						"display_name": "Silver Pine Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				}
 			},
@@ -15357,7 +15357,7 @@
 				"seed": {
 					"tree_pine_seed_ghost": {
 						"display_name": "Snowy Pine Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				}
 			},
@@ -15365,7 +15365,7 @@
 				"seed": {
 					"tree_juniper_seed_ghost": {
 						"display_name": "Gold Juniper Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				}
 			},
@@ -15373,7 +15373,7 @@
 				"seed": {
 					"tree_juniper_seed_ghost": {
 						"display_name": "Snowy Juniper Tree Seed",
-						"description": "Can be planted to grow a giant tree"
+						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				}
 			}
@@ -15396,11 +15396,11 @@
 				}
 			},
 			"dagger": {
-				"display_name": "Dagger",
-				"description": "Pointy. Dangerous.",
+				"display_name": "Punhal",
+				"description": "Pontudo. Perigoso.",
 				"dagger_iconic": {
-					"display_name": "Dagger",
-					"description": "Pointy. Dangerous."
+					"display_name": "Punhal",
+					"description": "Pontudo. Perigoso."
 				}
 			},
 			"giant_bone_axe": {
@@ -15917,8 +15917,8 @@
 			},
 			"summon_stone_rock_field": {
 				"summon_stone_rock_field_ghost": {
-					"display_name": "Rock Field Stone",
-					"description": "Summons a field of mineable rocks."
+					"display_name": "Pedra do campo de rocha",
+					"description": "Evoca um campo agradável de rochas."
 				}
 			},
 			"summon_stone_patch_dirt": {
@@ -17192,7 +17192,7 @@
 				},
 				"cake_recipe": {
 					"description": "A tasty Cake made from wheat and sugar.",
-					"recipe_name": "Cake",
+					"recipe_name": "Bolo simples de baga",
 					"flavor": "So delicious with a berry on top!"
 				},
 				"chefs_specials_name": "Chef's Specials",
@@ -17229,7 +17229,7 @@
 				"pie_pear_recipe": {
 					"description": "A scrumptious pie that is very complicated to make.",
 					"recipe_name": "Torta de Figos da Índia",
-					"flavor": "It's called 'Prickly Pear' but all the prickles have been removed."
+					"flavor": "Todos os espinhos foram removidos."
 				},
 				"cake_layered_recipe": {
 					"description": "An extremely involved recipe but so good, and so filling...",

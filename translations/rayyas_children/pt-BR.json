@@ -200,9 +200,9 @@
 			},
 			"recipes": {
 				"rc_giants_shield_recipe": {
-					"description": "The desert's proudest shield",
+					"description": "O escudo mais orgulhoso do deserto",
 					"recipe_name": "Escudo do Dragão",
-					"flavor": "Against even the most terrible foes and impossible dangers, this shield will never break."
+					"flavor": "Contra até os mais terríveis inimigos e perigos impossíveis, este escudo nunca se romperá."
 				},
 				"legendary_rc_blade_recipe": {
 					"description": "Unbreakable blade of the Desert Fang",
@@ -230,7 +230,7 @@
 				"golden_gourd_curry_recipe": {
 					"description": "As cabaças são mais comestíveis quando cozidas?",
 					"recipe_name": "Curry de Cabaça Dourado",
-					"flavor": "TODO(flavor!)"
+					"flavor": "TODO(flavor!) "
 				},
 				"flat_bread_recipe": {
 					"description": "Pão sem fermento feito de farinha de milho",
@@ -338,9 +338,9 @@
 					"flavor": "Achieving a delicate green requires skill; this stain made from a pulp of potent herbs will rapidly turn anything sour"
 				},
 				"rc_legendary_circlet_recipe": {
-					"description": "Worn by the desert's finest healers",
+					"description": "Usado pelos melhores curandeiros do deserto",
 					"recipe_name": "Círculo Carmesim",
-					"flavor": "Channels the very heart and soul into healing light"
+					"flavor": "Canaliza o coração e a alma para a luz da cura"
 				},
 				"legendary_rc_bowstring_recipe": {
 					"description": "Joins the ends of the Zephyr Bow",
@@ -509,7 +509,7 @@
 								"conclusion": {
 									"bulletin_title": "Naryal de Iskender",
 									"dialog_title": "Naryal de Iskender",
-									"choice_000": "Thank you, Honored Elder!",
+									"choice_000": "Obrigado, honorável ancião!",
 									"bulletin_message": {
 										"000": "Excelente! Além de um monumento apropriado, sua cidade também precisará ter acumulado um certo nível de riqueza. Deixarei os requisitos com você, caso deseje consultá-los novamente, ou se desejar depois trocar por um caminho diferente."
 									}
@@ -540,7 +540,7 @@
 						"title": "O agente Naryal de Iskender retorna",
 						"speaker_name": "Naryal de Iskender",
 						"message": "Parabéns, [str(i18n_data.town_name)]! Sua cidade é elegível para ser oficialmente reconhecida como município! Eu trouxe os materiais de construção e os acordos comerciais, como de costume.",
-						"accept": "Woohoo!",
+						"accept": "Woohoo! ",
 						"dialog_title": "Município Alcançado!",
 						"tier_title": "Município",
 						"reward_message": "Por decreto honorário dos Filhos de Rayya, reconhecemos:",
@@ -721,7 +721,8 @@
 									},
 									"bulletin_title": "Naryal Approaches, Without His Caravan",
 									"dialog_title": "An Official Visit",
-									"choice_000": "Thank you!"
+									"choice_000": "Thank you!",
+									"choice_001": "[skip] We know what Hearth we want."
 								}
 							}
 						}
@@ -730,12 +731,12 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"bulletin_title": "The Fox Returns!",
-									"dialog_title": "Another Letter!",
+									"bulletin_title": "A raposa retorna!",
+									"dialog_title": "Outra carta!",
 									"bulletin_message": {
-										"00": "The messenger fox returns, with a reply from Amyyria Iskender."
+										"00": "A raposa mensageira retorna, com uma resposta da Amyyria Iskender."
 									},
-									"choice_000": "Open the letter"
+									"choice_000": "Abra a carta"
 								},
 								"msg4": {
 									"bulletin_message": {
@@ -889,12 +890,12 @@
 							"dialog_nodes": {
 								"intro": {
 									"bulletin_message": {
-										"00": "Hello, [str(i18n_data.town_name)]!<p>I'm so glad to finally get to see your Settlement with my own eyes! I thought Naryal's accounts of its splendor were exaggerations, but I see now that they may actually have been understatements!<p>Well, let's move on to business. Here are the potential sponsors I mentioned in my last letter. Please take a moment to hear what they have to say.</p>"
+										"00": "Olá, [str(i18n_data.town_name)]! <p> Estou tão feliz por finalmente poder ver o seu assentamento com meus próprios olhos! Eu achava que os relatos de Naryal sobre o seu esplendor eram exageros, mas vejo agora que eles podem ter sido subavaliados! <p> Bem, vamos para os negócios. Aqui estão os possíveis patrocinadores que mencionei na minha última carta. Por favor, tire um momento para ouvir o que eles têm a dizer. </p>"
 									},
-									"bulletin_title": "Amyyria Iskender Has Arrived!",
-									"dialog_title": "Amyyria is Here, With Guests!",
-									"choice_000": "Oh, okay!",
-									"choice_001": "We've already decided!"
+									"bulletin_title": "A Amyyria Iskender chegou!",
+									"dialog_title": "Amyyria está aqui, com convidados!",
+									"choice_000": "Certo! ",
+									"choice_001": "[pular] Já decidimos!"
 								},
 								"clergy": {
 									"bulletin_message": {
@@ -1051,7 +1052,7 @@
 									"dialog_title": "Uma raposa... Mensageira?",
 									"choice_000": "Abrir a mochila",
 									"choice_001": "[Pular] Sabemos qual bandeira queremos."
-                        },
+								},
 								"read_letter": {
 									"bulletin_message": {
 										"00": "Prezada Caravana [str(i18n_data.town_serial_number)],<p>Obrigado por voluntariar-se para estabelecer um novo posto avançado tão longe no Oeste! Nós aqui na Companhia Comercial de Iskender estamos muito satisfeitos que você tenha nos escolhido para viabilizar sua fundação.<p>Uma vez que a papelada esteja em ordem, uma caravana oficial da companhia, liderada pelo Agente de Naryal de Iskender, iniciará uma nova rota para o seu posto avançado.</p>"
@@ -1295,7 +1296,7 @@
 				},
 				"pedestal_firepit": {
 					"pedestal_firepit_ghost": {
-						"display_name": "Small Clay Firepit",
+						"display_name": "Fogueira de Argila Pequena",
 						"description": "Carvões levemente incandescentes"
 					}
 				},

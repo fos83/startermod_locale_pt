@@ -113,7 +113,7 @@
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "Uma mulher está perto do acampamento. Ela utiliza roupas semelhantes ha de um explorador. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos observando há algum tempo.</font></p>"
+										"00": "Uma mulher está perto do acampamento. Ela utiliza roupas semelhantes a de um explorador. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas ela já está nos observando há algum tempo.</font></p>"
 									},
 									"bulletin_title": "Alguém apareceu",
 									"dialog_title": "Um explorador estoico",
@@ -144,7 +144,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ronia está agora parada na beira do fogo. Ela escreveu o nome da cidade de seus habitantes na carta mágica em branco. Em seguida, ela joga a carta sobre as chamas, que queimam forte por um momento.<p>\"[str(i18n_data.town_name)]\" she intones. \"Pela sabedoria de Valin e sob o olhar atento das estrelas acima, estejamos comprometidos com esse registro.\" </p>"
+										"00": "Ronia está agora parada na beira do fogo. Ela escreveu o nome da cidade de seus habitantes na carta mágica em branco. Em seguida, ela joga a carta sobre as chamas, que queimam forte por um momento.<p>\"[str(i18n_data.town_name)]\", ela diz. \"Pela sabedoria de Valin e sob o olhar atento das estrelas acima, estejamos comprometidos com esse registro.\" </p>"
 									},
 									"bulletin_title": "Ronia se levanta",
 									"dialog_title": "O Fogo brilha forte",
@@ -234,11 +234,11 @@
 								},
 								"intro2": {
 									"bulletin_message": {
-										"00": "She taps her brooch. \"The Library is pleased with your progress.\" She bends, and touches the stones of your hearth. \"Now it is time to choose the beacon that will represent your settlement.\" "
+										"00": "Ela bate no broche. \"A Biblioteca está satisfeita com o seu progresso.\" Ela se inclina e toca as pedras do seu lar. \"Agora é hora de escolher o farol que representará o seu assentamento.\""
 									},
 									"bulletin_title": "Ronia Olarkson ",
 									"dialog_title": "Ronia Olarkson ",
-									"choice_000": "As is tradition."
+									"choice_000": "Como manda a tradição"
 								},
 								"cheer": {
 									"bulletin_message": {
@@ -327,12 +327,12 @@
 									"choice_000": "I've heard stories..."
 								},
 								"intro2": {
-									"bulletin_title": "Ronia looks towards the hearth",
-									"dialog_title": "Ronia looks towards the hearth",
-									"choice_000": "Remind us.",
+									"bulletin_title": "Ronia olha para a fogueira",
+									"dialog_title": "Ronia olha para a fogueira",
+									"choice_000": "Nos lembre.",
 									"choice_001": "[pular] Já decidimos.",
 									"bulletin_message": {
-										"00": "\"It is time to create a monument, and ask for the blessings of your patron spirit. Then I will record your settlement as a star in the constellation of the Northern Alliance, and your stories will be safe in the Library of our people. Have you made your choice?\" "
+										"00": "\"É hora de criar um monumento, e pedir as bênçãos do seu espírito patrono. Então eu gravarei o seu assentamento como uma estrela na constelação da Aliança do Norte, e suas histórias estarão seguras na Biblioteca do nosso povo. você fez sua escolha? \""
 									}
 								}
 							}
@@ -617,7 +617,7 @@
 					"town_bonus_description": "<i>Este assentamento estará em sintonia com o meio ambiente</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Colheitas crescem 25% mais rápido</li><li>Plantas têm 2x o seu Atrativo normal</li></ul>"
 				},
 				"na_town_banner_nature_token": {
-					"display_name": "Banner of Vitality Shred",
+					"display_name": "Fragmento da Bandeira da Vitalidade",
 					"description": "Um pedaço da Bandeira da Vitalidade, carregando sua bênção."
 				}
 			}
