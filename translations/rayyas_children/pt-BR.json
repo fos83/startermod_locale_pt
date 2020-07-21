@@ -189,7 +189,7 @@
 				},
 				"legendary_rc_stave_recipe": {
 					"description": "Os membros do Arco Zephyr",
-					"recipe_name": "Elder Stave",
+					"recipe_name": "Ripa Anciã",
 					"flavor": "Preparado com resina especial, seria preciso um exército para lascar este arco"
 				}
 			}
@@ -220,7 +220,7 @@
 			"recipes": {
 				"rc_bow_valor_recipe": {
 					"description": "O arco mais rápido no deserto",
-					"recipe_name": "Zephyr Bow",
+					"recipe_name": "Arco Zephyr",
 					"flavor": "Um arco que exige habilidade de seu soldador, mas devolve-o em vendavais de flechas sobre seus inimigos"
 				}
 			}
@@ -249,8 +249,8 @@
 		"blacksmith": {
 			"recipes": {
 				"wall_hanging_suncatcher_recipe": {
-					"description": "Polished to a mirror finish",
-					"recipe_name": "Suncatcher",
+					"description": "Polido para um acabamento espelhado",
+					"recipe_name": "Apanhador de Sol",
 					"flavor": "Ele não necessariamente pega o sol, assim como joga os feixes diretamente em seus olhos, ow..."
 				},
 				"rc_two_handed_sword_valor_recipe": {
@@ -314,7 +314,7 @@
 				},
 				"chair_gilded_coral_recipe": {
 					"description": "Assentos luxuosamente acolchoamento",
-					"recipe_name": "Gilded Coral Cushion",
+					"recipe_name": "Almofada Coral Dourada",
 					"flavor": "Seria um insulto para a almofada nunca sentar nela!"
 				},
 				"rug_gilded_blue_recipe": {
@@ -636,15 +636,15 @@
 					},
 					"shrine_choice": {
 						"guildmaster": {
-							"name": "The Trader Monument",
+							"name": "O Monumento do Comerciante",
 							"description": "<i>Este município deve ser conhecido por sua produtividade, riqueza e conexões comerciais.</i><ul><li>Permite criar itens de qualidade Masterwork</li><li>Desbloqueia receitas de decoração caseiras</li></ul>"
 						},
 						"deity": {
-							"name": "Her Mystery's Shrine",
+							"name": "Santuário de Seu Mistério",
 							"description": "<i>Este município procurará aprender os segredos do mundo, a serviço de seu mistério.</i><ul><li>Abençoa todos os cidadãos com +1 em Mente, Corpo e Espírito</li><li>Desbloqueia receitas de decoração inspiradas em macacos</li></ul>"
 						},
 						"valor": {
-							"name": "The Ever-Burning Flame",
+							"name": "A Chama Sempre-Ardente",
 							"description": "<i>Este município será dedicado à proteção de toda a região circundante.</i><ul><li>Desbloqueia receitas de armas lendárias</li><li>Desbloqueia receitas de decoração exótica</li></ul>"
 						}
 					},
@@ -695,7 +695,7 @@
 										"00": "Como você sabe, os Hearths têm sido a pedra angular dos Assentamentos desde o Império Phoenix.<p>Se não fosse pelo brilho, as caravanas de Rayya's Children nunca encontrariam seu caminho no deserto, e nossa sociedade teria se espalhado há muito tempo. O tipo de lareira também diz muito sobre o que um Acordo avalia."
 									},
 									"bulletin_title": "Naryal Continue",
-									"dialog_title": "Naryal Iskender",
+									"dialog_title": "Naryal Iskender ",
 									"choice_000": "Valores?"
 								},
 								"cheer": {
@@ -863,7 +863,7 @@
 										"00": "Maravilhoso, maravilhoso! Sua cidade certamente orgulha o nome Iskender!<br/><br/>Obrigado por oferecer uma recepção tão agradável para mim e nossos convidados."
 									},
 									"bulletin_title": "A Amyyria se aproxima, claramente satisfeita",
-									"dialog_title": "Amyyria Iskender",
+									"dialog_title": "Amyyria Iskender ",
 									"choice_000": "Nosso prazer, Amyyria!"
 								},
 								"msg2": {
@@ -871,7 +871,7 @@
 										"00": "A propósito, este monumento sobre o qual estamos comemorando é especial - a fundação de uma cidade imbui uma magia de tipo especial nele.<br/><br/>Construir mais estátuas e coisas do gênero pode servir a propósitos decorativos, mas não terão o mesmo tipo de brilho, se é que você me entende."
 									},
 									"bulletin_title": "Mer Continua",
-									"dialog_title": "Amyyria Iskender",
+									"dialog_title": "Amyyria Iskender ",
 									"choice_000": "Entendi!"
 								},
 								"msg3": {
@@ -879,7 +879,7 @@
 										"00": "<p align='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Arke, eu sei, é hora de partir.<br/><br/>Eu adoraria ficar mais tempo, mas há outras caravanas menos auto-suficientes por aí que precisam de minha atenção.<br/><br/>Parabéns por todo o seu sucesso e obrigado por nunca ter feito muita papelada para mim."
 									},
 									"bulletin_title": "Amyyria Continua",
-									"dialog_title": "Amyyria Iskender",
+									"dialog_title": "Amyyria Iskender ",
 									"choice_000": "Despedida! E... não tem problema?"
 								}
 							}
@@ -909,8 +909,8 @@
 									"bulletin_message": {
 										"00": "Em troca de nosso patrocínio, normalmente solicitamos a um Acordo que construa um Santuário para Seu Mistério, para servir como um lembrete constante de que o mundo é um lugar misterioso, repleto de oportunidades de exploração e aprendizado. Uma vez que o santuário seja abençoado, ele espalhará seus efeitos mágicos entre sua população, capacitando-os de maneiras estranhas e misteriosas.<br><br><font size=-1><i>Dedicar um santuário de seu mistério concederá a todos os seus habitantes um aumento de +1 nos atributos Mente, Corpo e Espírito.</i></font>"
 									},
-									"bulletin_title": "Nona Trist",
-									"dialog_title": "Nona Trist",
+									"bulletin_title": "Nona Trist ",
+									"dialog_title": "Nona Trist ",
 									"choice_000": "Que interessante!"
 								},
 								"makers": {
@@ -925,8 +925,8 @@
 									"bulletin_message": {
 										"00": "Como você sabe, o Merchant Council é o principal patrocinador das Cidades Infantis de Rayya, por isso tenho certeza que você não está surpreso em me ver aqui. Gostaríamos muito que você se juntasse ao Conselho - acho que seu Acordo pode produzir e exportar alguns dos melhores produtos que os Filhos de Rayya têm para oferecer e manter a tradição de excelência pela qual somos conhecidos.<br><br><font size=-1><i>Dedicar um Monumento ao Negociador permitirá criar móveis e decorações com qualidade de obra-prima, que são consideravelmente melhores que os de excelente qualidade.</i></font>"
 									},
-									"bulletin_title": "Adia Radie",
-									"dialog_title": "Adia Radie",
+									"bulletin_title": "Adia Radie ",
+									"dialog_title": "Adia Radie ",
 									"choice_000": "Parece rentável!"
 								},
 								"military": {
@@ -941,8 +941,8 @@
 									"bulletin_message": {
 										"00": "Acreditamos que seu pessoal demonstrou ter a força necessária para proteger este Acordo e até alguns de seus vizinhos. Por isso, gostaríamos que você construísse uma Chama Ardente para ser um farol de segurança nessas terras e, em troca, compartilharemos alguns dos nossos mais recentes esquemas de armas e armaduras.<br><br><font size=-1><i>Dedicar a chama sempre ardente concederá receitas de armas novas e de mais alto nível.</i></font>"
 									},
-									"bulletin_title": "Emeret Kaver",
-									"dialog_title": "Emeret Kaver",
+									"bulletin_title": "Emeret Kaver ",
+									"dialog_title": "Emeret Kaver ",
 									"choice_000": "Vamos considerar isso"
 								},
 								"summary": {
@@ -1012,8 +1012,8 @@
 						"reward_message_ctd": "Por aprender os mistérios do mundo. A cidade é elegível para:",
 						"achievements": {
 							"001": "Decorações de Cerâmica",
-							"002": "erro",
-							"003": "Weaver Banners"
+							"002": "Lâmpadas de Ferreiro",
+							"003": "Banners de Tecelão"
 						},
 						"recipe_bulletins": {
 							"recipe_unlock_potter": "Novas receitas de decoração inspiradas em macacos para Oleiro!",
@@ -1179,7 +1179,7 @@
 					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_guardian_token_iconic": {
-					"display_name": "Bandeira do Fragmento Astuto",
+					"display_name": "Fragmento da Bandeira do Astuto",
 					"description": "Um fragmento da Bandeira da Astúcia, carregando sua bênção."
 				}
 			},
@@ -1189,7 +1189,7 @@
 					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_nature_token_iconic": {
-					"display_name": "Banner of Vitality Shred",
+					"display_name": "Fragmento da Bandeira da Vitalidade",
 					"description": "Um fragmento da Bandeira da Vitalidade, carregando sua bênção."
 				}
 			},
@@ -1199,7 +1199,7 @@
 					"description": "Como você sabe que está em casa"
 				},
 				"rc_town_banner_might_token_iconic": {
-					"display_name": "Estandarte do Fragmento de Força",
+					"display_name": "Fragmento do Estandarte de Força",
 					"description": "Um fragmento da Bandeira da Força, carregando sua bênção."
 				}
 			}
@@ -1302,7 +1302,7 @@
 				},
 				"wall_hanging_suncatcher": {
 					"wall_hanging_suncatcher_ghost": {
-						"display_name": "Suncatcher",
+						"display_name": "Apanhador de Sol",
 						"description": "Polido para um acabamento espelhado"
 					}
 				},
@@ -1502,11 +1502,11 @@
 						"description": "<Utilizadas> Arauto dos Filhos de Rayya."
 					},
 					"herald_adia": {
-						"display_name": "Adia Radie",
+						"display_name": "Adia Radie ",
 						"description": "Mestre da Guilda dos Filhos de Rayya."
 					},
 					"herald_amyyria": {
-						"display_name": "Amyyria Iskender",
+						"display_name": "Amyyria Iskender ",
 						"description": "Chefe da Iskender Trading Company."
 					}
 				},
@@ -1516,19 +1516,19 @@
 						"description": "<Utilizadas> Herald of Rayya's Children."
 					},
 					"herald_naryal": {
-						"display_name": "Naryal Iskender",
+						"display_name": "Naryal Iskender ",
 						"description": "Agente da Iskender Trading Company."
 					},
 					"herald_nona": {
-						"display_name": "Nona Trist",
-						"description": "Sacerdotisa de seu mistério."
+						"display_name": "Nona Trist ",
+						"description": "Sacerdotisa de Seu Mistério."
 					},
 					"herald_emeret": {
-						"display_name": "Emeret Kaver",
+						"display_name": "Emeret Kaver ",
 						"description": "Líder dos Cães Pintados."
 					},
 					"herald_arke": {
-						"display_name": "Arke",
+						"display_name": "Arke ",
 						"description": "O melhor mensageiro de Iskender."
 					}
 				}
@@ -1573,7 +1573,7 @@
 			},
 			"legendary_rc_gem": {
 				"display_name": "Chama Rubi",
-				"description": "A spiritual focus, essential for the Crimson Band"
+				"description": "Um foco espiritual, essencial para a Banda Carmesim"
 			},
 			"legendary_rc_blade": {
 				"display_name": "Osso temperado",

@@ -277,13 +277,6 @@
 						}
 					},
 					"hearth_upgrade": {
-						"title": "Settlement Established",
-						"dialog_title": "Settlement Established!",
-						"tier_title": "Settlement",
-						"reward_message": "By unanimous agreement of the citizens, we declare:",
-						"reward_message_ctd": "to be a settlement out to prove that its riches and craftsmanship is unmatched."
-					},
-					"hearth_upgrade": {
 						"title": "Estabelecimento estabelecido",
 						"dialog_title": "Estabelecimento estabelecido!",
 						"tier_title": "Estabelecimento",
@@ -497,24 +490,24 @@
 									"bulletin_message": {
 										"00": "Ronia considera a fonte. \"Que aprendizados você vai buscar a seguir? Os outros monumentos ficariam bem ao lado deste, embora não tenham o poder de chamar as constelações.\" Ela sorri. \"Sua cidade tem tudo o que precisa, não é?\"  "
 									},
-									"bulletin_title": "Ronia Olarkson, Scout & Sage",
-									"dialog_title": "Ronia Olarkson, Scout & Sage",
+									"bulletin_title": "Ronia Olarkson, Exploradora e Sábia",
+									"dialog_title": "Ronia Olarkson, Exploradora e Sábia",
 									"choice_000": "De fato."
 								},
 								"msg3": {
 									"bulletin_message": {
 										"00": "Ronia toca seu peito. \"Você aquece meu coração.\" Ela dá um passo para trás, e faz um gesto abrangente de despedida. Seus olhos brilham, um lembrete de que os escoteiros de Valin viajam para sempre longe da civilização, para lugares ainda mais selvagens e perigosos do que estes.<br><br>\"Como Valin ensina, cada momento precioso deve ser considerado querido contra a inevitável mudança do tempo.\" "
 									},
-									"bulletin_title": "Ronia Olarkson, Scout & Sage",
-									"dialog_title": "Ronia Olarkson, Scout & Sage",
-									"choice_000": "Farewell, Ronia! Follow the stars!"
+									"bulletin_title": "Ronia Olarkson, Exploradora e Sábia",
+									"dialog_title": "Ronia Olarkson, Exploradora e Sábia",
+									"choice_000": "Adeus, Ronia! Siga as estrelas!"
 								},
 								"msg1": {
 									"bulletin_message": {
 										"00": "Ronia observa enquanto a festa se acalma. \"Isso foi bem feito.,\" ela sussurra. \"Sua cidade está oficialmente inserida nos anais da Biblioteca, e os espíritos agraciam seus passos.\" "
 									},
 									"bulletin_title": "Ronia faz para sair",
-									"dialog_title": "Ronia Olarkson, Scout & Sage",
+									"dialog_title": "Ronia Olarkson, Exploradora e Sábia",
 									"choice_000": "Bênçãos de Valin."
 								}
 							}
@@ -722,7 +715,7 @@
 			},
 			"window_box_stone_violet": {
 				"window_box_stone_violet_ghost": {
-					"display_name": "Violet Planter",
+					"display_name": "Vaso de Violetas",
 					"description": "Um lar arrumado para algumas lindas flores."
 				}
 			}
@@ -731,21 +724,21 @@
 			"herald": {
 				"female": {
 					"herald_siv": {
-						"display_name": "Siv",
+						"display_name": "Siv ",
 						"description": "Espírito da Caçada"
 					},
 					"herald_ronia": {
-						"display_name": "Ronia Olarkson",
+						"display_name": "Ronia Olarkson ",
 						"description": "Um Escoteiro da Biblioteca"
 					}
 				},
 				"male": {
 					"herald_knut": {
-						"display_name": "Knut",
+						"display_name": "Knut ",
 						"description": "Espírito da Roda"
 					},
 					"herald_firnn": {
-						"display_name": "Firnn",
+						"display_name": "Firnn ",
 						"description": "Espírito da Madeira"
 					}
 				}

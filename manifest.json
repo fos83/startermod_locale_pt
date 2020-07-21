@@ -8,6 +8,8 @@
 		"author": [
 			"FelipeOS83",
 			"BrunoSupremo",
+			"altiereslima",
+			"KennyShinu",
 			"MaxDown45",
 			"datfisheko",
 			"alchimistw"
@@ -23,6 +25,7 @@
 	},
 
 	"mixintos": {
+		"tower_defense/data/compatible_mods.json": "file(data/compatible_mods.json)",
 		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
 	},
 	"overrides": {
