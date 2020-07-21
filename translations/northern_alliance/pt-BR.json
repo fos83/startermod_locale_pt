@@ -218,19 +218,19 @@
 							"dialog_nodes": {
 								"makers": {
 									"bulletin_message": {
-										"00": "\"A Hearth of the Makers is for those who believe that a house is a place of learning and creation, and that the things we build are best traded so we may all grow wise together.\" "
+										"00": "\"A Hearth of the Makers é para aqueles que acreditam que uma casa é um lugar de aprendizado e criação, e que as coisas que construímos são melhor comercializadas, para que todos possamos crescer juntos.\" "
 									},
-									"bulletin_title": "Learning in doing ",
-									"dialog_title": "Learning in doing ",
-									"choice_000": "Wisdom in creation."
+									"bulletin_title": "Aprendendo a fazer ",
+									"dialog_title": "Aprendendo a fazer ",
+									"choice_000": "Sabedoria na criação."
 								},
 								"final": {
 									"bulletin_message": {
-										"00": "Ronia concludes: \"Cheer, Makers, and Glory, the choice of your path lights the way for all who follow you. In Valin's wisdom and under the auspices of Firnn, Knut, and Siv…\" "
+										"00": "Ronia conclui: \"Alegria, Criadores e Glória, a escolha do seu caminho ilumina o caminho para todos que o seguem. Na sabedoria de Valin e sob os auspícios de Finn, Knut e Siv…\" "
 									},
-									"bulletin_title": "A choice",
-									"dialog_title": "A choice",
-									"choice_000": "We choose..."
+									"bulletin_title": "Uma escolha",
+									"dialog_title": "Uma escolha",
+									"choice_000": "Nós escolhemos..."
 								},
 								"intro2": {
 									"bulletin_message": {
@@ -242,11 +242,11 @@
 								},
 								"cheer": {
 									"bulletin_message": {
-										"00": "\"Valin teaches that a home is a bulwark against the elements; a place to find succor and friendship. The Hearth of Cheer draws together all who seek to create a warmth that no blizzard can dissipate.\" "
+										"00": "\"Valin ensina que uma casa é um baluarte contra os elementos; um lugar para encontrar socorro e amizade. The Hearth of Cheer reúne todos os que procuram criar um calor que nenhuma tempestade de neve pode dissipar.\" "
 									},
-									"bulletin_title": "Warmth in the cold ",
-									"dialog_title": "Warmth in the cold ",
-									"choice_000": "Strength in unity."
+									"bulletin_title": "Calor no frio ",
+									"dialog_title": "Calor no frio ",
+									"choice_000": "Força na unidade."
 								},
 								"intro3": {
 									"bulletin_message": {
@@ -258,20 +258,20 @@
 								},
 								"glory": {
 									"bulletin_message": {
-										"00": "\"At last, the Hearth of Glory reminds us that to survive in the farthest reaches, we must hone our bodies and minds to their utmost, for anything less is to fall prematurely into the cold.\"  "
+										"00": "\"Por fim, o Lar da Glória nos lembra que, para sobreviver nos confins mais distantes, precisamos aprimorar nossos corpos e mentes ao máximo, pois menos do que isso é cair prematuramente no frio.\"  "
 									},
-									"bulletin_title": "The hunt is everywhere",
-									"dialog_title": "The hunt is everywhere",
-									"choice_000": "Resilience in winter."
+									"bulletin_title": "A caçada está em todo lugar",
+									"dialog_title": "A caçada está em todo lugar",
+									"choice_000": "Resiliência no inverno."
 								},
 								"intro": {
 									"bulletin_message": {
-										"00": "Ronia appears at the edge of camp, smiling, arms spread to encompass all that has been built since her last appearance. \"Stars bless your learnings,\" she whispers. \"Shall I hear your tales?\" "
+										"00": "Ronia aparece na beira do acampamento, sorrindo, braços abertos para abranger tudo o que foi construído desde sua última aparição. \"Estrelas abençoam seus aprendizados,\" ela sussurra. \"Devo ouvir suas histórias?\" "
 									},
-									"bulletin_title": "Ronia Returns Again",
-									"dialog_title": "More time for tales",
-									"choice_000": "Yes please.",
-									"choice_001": "[skip] We know what Hearth we want."
+									"bulletin_title": "Ronia retorna novamente",
+									"dialog_title": "Mais tempo para contos",
+									"choice_000": "Sim por favor.",
+									"choice_001": "[pular] Sabemos o que lareira queremos."
 								}
 							}
 						}
@@ -283,48 +283,55 @@
 						"reward_message": "By unanimous agreement of the citizens, we declare:",
 						"reward_message_ctd": "to be a settlement out to prove that its riches and craftsmanship is unmatched."
 					},
+					"hearth_upgrade": {
+						"title": "Estabelecimento estabelecido",
+						"dialog_title": "Estabelecimento estabelecido!",
+						"tier_title": "Estabelecimento",
+						"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
+						"reward_message_ctd": "ser um acordo para provar que suas riquezas e artesanato são incomparáveis."
+					},
 					"shrine_choice_explanation": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"clergy": {
 									"bulletin_message": {
-										"00": "Ronia dips again into a poetic cadence: \"Firnn the Stag, from whose hooves fall the favors of summer: bless this town with prosperity, and the wisdom to live in harmony with the cycles of the land.\" <br><i>(Building a Font of Summer will grant all your townsfolk a +1 boost to the mind, body, and spirit attributes.)</i>"
+										"00": "Ronia mergulha novamente em uma cadência poética: \"Firnn the Stag, de cujos cascos caem os favores do verão: abençoe esta cidade com prosperidade e sabedoria para viver em harmonia com os ciclos da terra.\" <br><i>(Construir uma Fonte do Verão concederá a todos os seus habitantes um aumento de +1 nos atributos da mente, corpo e espírito.)</i>"
 									},
-									"bulletin_title": "The Font of Summer",
-									"dialog_title": "The Clergy",
-									"choice_000": " By Firnn's Blessing."
+									"bulletin_title": "A Fonte do Verão",
+									"dialog_title": "O Clero",
+									"choice_000": " Pela bênção de Firnn."
 								},
 								"makers": {
 									"bulletin_message": {
-										"00": "Ronia continues: \"Knut the Swift, who turns the wheel of fortune: bless this town with a moment of great prosperity, and the foresight to store favor against the reversals to come. <br><i>(Building a Font of Fortune will grant the ability to create masterwork quality furniture and decorations, which are considerably better than those of excellent quality.) </i>"
+										"00": "Ronia continua: \"Knut the Swift, que gira a roda da fortuna: abençoe esta cidade com um momento de grande prosperidade e a previsão de guardar favor contra as reversões que virão. <br><i>(Construir uma Fonte da Fortuna concederá a capacidade de criar móveis e decorações de qualidade, que são consideravelmente melhores do que os de excelente qualidade.) </i>"
 									},
-									"bulletin_title": "The Font of Fortune",
-									"dialog_title": "The Font of Fortune",
-									"choice_000": "By Knut's Cunning."
+									"bulletin_title": "A Fonte da Fortuna",
+									"dialog_title": "A Fonte da Fortuna",
+									"choice_000": "Por astúcia de Knut."
 								},
 								"summary": {
 									"bulletin_message": {
-										"00": "\"By the wisdom of Valin and the guidance of the Library, it is time to request the favor of the constellation that best reflects for you, the philosophy that guides our people.\" She produces three scrolls, which she distributes to those gathered around her. \"Create thoughtfully, and let the spirits hear the wisdom in your deeds.\" "
+										"00": "\"Pela sabedoria de Valin e pela orientação da Biblioteca, é hora de solicitar o favor da constelação que melhor reflete para você, a filosofia que guia nosso povo.\" Ela produz três pergaminhos, que distribui para aqueles reunidos ao seu redor. \"Crie pensativo e deixe os espíritos ouvirem a sabedoria em suas ações.\" "
 									},
-									"bulletin_title": "Ronia concludes: ",
-									"dialog_title": "Ronia concludes: ",
-									"choice_000": "Thank you."
+									"bulletin_title": "Ronia conclui: ",
+									"dialog_title": "Ronia conclui: ",
+									"choice_000": "Obrigado."
 								},
 								"military": {
 									"bulletin_message": {
-										"00": "Ronia finishes: \"And Siv the Wolf, whose breath steams the icy winter as he chases fleeting prey: bless this town with resilience, so that we stand against the cold in our time of strength, and accept our return to the earth when that time is over.\"<br><i>(Building a Font of Fire will grant you additional strength in combat and a +2 to the body attribute.)</i> "
+										"00": "Ronia termina: \"E Siv, o Lobo, cuja respiração vaporiza o inverno gelado enquanto persegue presas fugazes: abençoe esta cidade com resiliência, para que fiquemos contra o frio em nosso tempo de força, e aceitemos nosso retorno à Terra quando esse tempo acabar.\"<br><i>(Construindo uma Fonte de Fogo lhe dará mais força em combate e um +2 ao atributo corporal.)</i> "
 									},
-									"bulletin_title": "The Font of Fire",
-									"dialog_title": "The Font of Fire",
-									"choice_000": "By Siv’s Grace."
+									"bulletin_title": "A Fonte do Fogo",
+									"dialog_title": "A Fonte do Fogo",
+									"choice_000": "Pela graça de Siv."
 								},
 								"intro": {
 									"bulletin_message": {
-										"00": "Ronia shakes her head fondly. \"Did you expect the stars to come visit you on earth? They are spirits, not beasts. They are Valin's allegories, committed to the heavens so we do not forget his teachings.\""
+										"00": "Ronia balança a cabeça com carinho. \"Você esperava que as estrelas viessem visitá-lo na Terra? São espíritos, não bestas. São alegorias de Valin, comprometidas com os céus para que não esqueçamos seus ensinamentos.\""
 									},
-									"bulletin_title": "Ronia Appears Once More",
-									"dialog_title": "Ronia returns alone",
-									"choice_000": "I've heard stories..."
+									"bulletin_title": "Ronia aparece mais uma vez",
+									"dialog_title": "Ronia volta sozinha.",
+									"choice_000": "Eu ouvi histórias..."
 								},
 								"intro2": {
 									"bulletin_title": "Ronia olha para a fogueira",
@@ -398,27 +405,27 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Ronia falls into a hunter's crouch and bares her teeth. The wolf bares its fangs back. Then as one, they both raise their chins, exposing their throats. Ronia's hand touches the wolf's ruff, and it sniffs once at the scars on her neck. "
+										"00": "Ronia cai na bolsa de um caçador e desnuda os dentes. O lobo desnuda suas presas para trás. Então, como um, ambos levantam o queixo, expondo suas gargantas. A mão de Ronia toca o babado do lobo, e ele cheira uma vez as cicatrizes em seu pescoço. "
 									},
-									"bulletin_title": "Siv, Spirit of the Hunt",
-									"dialog_title": "Siv, Spirit of the Hunt",
-									"choice_000": "Is that… Siv?"
+									"bulletin_title": "Siv, Espírito da Caçada",
+									"dialog_title": "Siv, Espírito da Caçada",
+									"choice_000": "Isso é... Siv?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "The wolf slowly turns its head and the people around it pause, overtaken by a vision: a flash of wind in the face as they bound across a snowy plain, the scent of their prey connecting them like a thread. Each hunter will eat tonight or die, their bodies returning to the earth. The simplicity of it straightens each spine. Tonight, all know their place in the world. A moment later, the wolf is gone.  "
+										"00": "O lobo lentamente vira a cabeça e as pessoas ao seu redor param, ultrapassadas por uma visão: um flash de vento no rosto enquanto eles se limitam através de uma planície nevada, o cheiro de sua presa conectando-os como um fio. Cada caçador comerá esta noite ou morrerá, seus corpos retornando à Terra. A simplicidade disso endireita cada coluna. Esta noite, todos sabem seu lugar no mundo. Um momento depois, o lobo se foi.  "
 									},
-									"bulletin_title": "Siv, Spirit of the Hunt",
-									"dialog_title": "Siv, Spirit of the Hunt",
-									"choice_000": "Thank you, Siv."
+									"bulletin_title": "Siv, Espírito da Caçada",
+									"dialog_title": "Siv, Espírito da Caçada",
+									"choice_000": "Obrigado, Siv."
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "A low growl saturates the air around the campfire. Around two sparks of the hearth, a wolf forms, white like winter, save for its brilliant yellow eyes.  "
+										"00": "Um rosnado baixo satura o ar ao redor da fogueira. Em torno de duas faíscas da lareira, um lobo se forma, branco como o inverno, exceto por seus brilhantes olhos amarelos.  "
 									},
-									"bulletin_title": "A Wolf of Fire",
-									"dialog_title": " A wolf with eyes like embers",
-									"choice_000": "Your heart pounds."
+									"bulletin_title": "Um Lobo de Fogo",
+									"dialog_title": " Um lobo com olhos como brasas",
+									"choice_000": "Seu coração bate."
 								}
 							}
 						}
@@ -428,27 +435,27 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Ronia kneels before the rabbit and cups her hands so it might hop into them. She walks it slowly towards the celebration. The rabbit's ears swivel in every direction, taking in the festivities. "
+										"00": "Ronia se ajoelha diante do coelho e aperta as mãos para que possa saltar para eles. Ela caminha lentamente em direção à celebração. As orelhas do coelho giram em todas as direções, levando as festividades. "
 									},
-									"bulletin_title": "Knut, Spirit of Fortune",
-									"dialog_title": "Knut, Spirit of Fortune",
-									"choice_000": "Is that… Knut?"
+									"bulletin_title": "Knut, Espírito da Fortuna",
+									"dialog_title": "Knut, Espírito da Fortuna",
+									"choice_000": "Isso é... Knut?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "The rabbit turns to sniff in the direction of the fire, and amidst the embers a vision appears: a constellation of towns emblazoned across a map, and dozens, hundreds, thousands of stories collected of their learnings. Visions of finely crafted goods waft through the smoke, creating kinship between those who have created, and those who will learn from their advancements and create anew. Then the creature leaps from Ronia's hands, and into the crowd. "
+										"00": "O coelho se vira para farejar na direção do fogo, e em meio às brasas aparece uma visão: uma constelação de cidades estampadas em um mapa, e dezenas, centenas, milhares de histórias coletadas de seus aprendizados. Visões de produtos finamente trabalhados atravessam a fumaça, criando parentesco entre aqueles que criaram, e aqueles que aprenderão com seus avanços e criarão de novo. Então a criatura pula das mãos de Ronia, e para a multidão. "
 									},
-									"bulletin_title": "Knut, Spirit of Fortune",
-									"dialog_title": "Knut, Spirit of Fortune",
-									"choice_000": "Thank you, Knut."
+									"bulletin_title": "Knut, Espírito da Fortuna",
+									"dialog_title": "Knut, Espírito da Fortuna",
+									"choice_000": "Obrigado, Knut."
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": " At the edge of the new monument, a rabbit appears. It wears the purple shadows around it like a cloak. Its ears are the color of the sky between stars and its eyes pierce like the sun on snow. "
+										"00": " À beira do novo monumento, um coelho aparece. Ele veste as sombras roxas ao seu redor como uma capa. Suas orelhas são da cor do céu entre as estrelas e seus olhos perfuram como o sol na neve. "
 									},
-									"bulletin_title": "An Uncanny Rabbit",
-									"dialog_title": "A rabbit with fur like the night sky",
-									"choice_000": "You grow still."
+									"bulletin_title": "Um Coelho Estranho",
+									"dialog_title": "Um coelho com pêlo como o céu noturno",
+									"choice_000": "Você cresce ainda."
 								}
 							}
 						}
@@ -458,27 +465,27 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Ronia approaches the stag with a low bow, so low her hair scrapes the ground, and gestures it towards the hearth. The music seems to entice it closer. "
+										"00": "Ronia se aproxima do veado com um arco baixo, tão baixo que seu cabelo raspa o chão e gesticula em direção à lareira. A música parece atraí-lo para mais perto. "
 									},
-									"bulletin_title": " Firnn, Spirit of Summer",
-									"dialog_title": " Firnn, Spirit of Summer",
-									"choice_000": "Is that... Firnn?"
+									"bulletin_title": " Firnn, Espírito do Verão",
+									"dialog_title": " Firnn, Espírito do Verão",
+									"choice_000": "Isso é ... Firnn?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "The stag turns, a light flashes through each person standing nearby. Everyone seems energized: stronger, wiser, braver. Then the creature turns its head from the fire, and seems to melt into the air, becoming one with the festivities as the town has become one with the Alliance. "
+										"00": "O veado gira, uma luz pisca através de cada pessoa que está próxima. Todo mundo parece energizado: mais forte, mais sábio, mais corajoso. Então a criatura vira a cabeça do fogo e parece derreter no ar, tornando-se uma com as festividades, enquanto a cidade se torna uma com a Aliança. "
 									},
-									"bulletin_title": "Firnn, Spirit of Summer",
-									"dialog_title": "Firnn, Spirit of Summer",
-									"choice_000": "Thank you, Firnn."
+									"bulletin_title": "Firnn, Espírito do Verão",
+									"dialog_title": "Firnn, Espírito do Verão",
+									"choice_000": "Obrigado, Firnn."
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "At the edge of the celebration, a creature emerges from the shadows. It looks like a particularly fine stag, but its horns shine crystal in moonlight, and its spots glitter like tiny stars. A glowing wreath appears around its neck. "
+										"00": "Nos limites da celebração, uma criatura emerge das sombras. Parece um veado particularmente fino, mas seus chifres brilham cristalinos ao luar e seus pontos brilham como pequenas estrelas. Uma coroa brilhante aparece em volta do pescoço. "
 									},
-									"bulletin_title": "A Glowing Stag",
-									"dialog_title": "A stag adorned with stars",
-									"choice_000": "You stare."
+									"bulletin_title": "Um veado brilhante",
+									"dialog_title": "Um veado adornado com estrelas",
+									"choice_000": "Você olha."
 								}
 							}
 						}
@@ -488,15 +495,15 @@
 							"dialog_nodes": {
 								"msg2": {
 									"bulletin_message": {
-										"00": "Ronia considers the fountain. \"What learnings will you pursue next? The other monuments would look good beside this one, though they will not have the power to call the constellations.\" She smiles. \"Your town has all it needs, does it not?\"  "
+										"00": "Ronia considera a fonte. \"Que aprendizados você vai buscar a seguir? Os outros monumentos ficariam bem ao lado deste, embora não tenham o poder de chamar as constelações.\" Ela sorri. \"Sua cidade tem tudo o que precisa, não é?\"  "
 									},
 									"bulletin_title": "Ronia Olarkson, Scout & Sage",
 									"dialog_title": "Ronia Olarkson, Scout & Sage",
-									"choice_000": "Indeed."
+									"choice_000": "De fato."
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "Ronia touches her breast. \"You warm my heart.\" She takes a step backwards, and makes an all-encompassing gesture of farewell. Her eyes blaze, a reminder that the Scouts of Valin travel forever away from civilization, to places even more wild and dangerous than these.<br><br>\"As Valin teaches, each precious moment must be held dear against the inevitable change of the weather.\" "
+										"00": "Ronia toca seu peito. \"Você aquece meu coração.\" Ela dá um passo para trás, e faz um gesto abrangente de despedida. Seus olhos brilham, um lembrete de que os escoteiros de Valin viajam para sempre longe da civilização, para lugares ainda mais selvagens e perigosos do que estes.<br><br>\"Como Valin ensina, cada momento precioso deve ser considerado querido contra a inevitável mudança do tempo.\" "
 									},
 									"bulletin_title": "Ronia Olarkson, Scout & Sage",
 									"dialog_title": "Ronia Olarkson, Scout & Sage",
@@ -504,11 +511,11 @@
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Ronia watches as the party quiets. \"That was well done,\" she whispers. \"Your township is officially entered into the annals of The Library, and the spirits grace your steps.\" "
+										"00": "Ronia observa enquanto a festa se acalma. \"Isso foi bem feito.,\" ela sussurra. \"Sua cidade está oficialmente inserida nos anais da Biblioteca, e os espíritos agraciam seus passos.\" "
 									},
-									"bulletin_title": "Ronia Makes to Leave",
+									"bulletin_title": "Ronia faz para sair",
 									"dialog_title": "Ronia Olarkson, Scout & Sage",
-									"choice_000": "Valin’s Blessings."
+									"choice_000": "Bênçãos de Valin."
 								}
 							}
 						}
@@ -518,59 +525,59 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "When Ronia appears for the last time, it is with a golden banner in her hands. It is a twin to the one this town embarked with, so long ago. She tilts her head with a smile and gestures at the horizon. She doesn't need to speak. Hearth is waiting. </p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+										"00": "Quando Ronia aparece pela última vez, é com uma faixa dourada nas mãos. É um gêmeo daquele com quem esta cidade embarcou, há muito tempo. Ela inclina a cabeça com um sorriso e gesticula para o horizonte. Ela não precisa falar. A lareira está esperando. </p><p><font size=-1><i>O novo embarque permite transportar até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></font></p>"
 									},
-									"bulletin_title": " Ronia, One More Time",
-									"dialog_title": "One Last Thing",
-									"choice_000": "Exciting!"
+									"bulletin_title": " Ronia, mais uma vez",
+									"dialog_title": "Uma última coisa",
+									"choice_000": "Emocionante!"
 								}
 							}
 						}
 					},
 					"shrine_choice": {
 						"guildmaster": {
-							"description": "<i>This town will be known for its resourceful crafts, refined from the materials nearby.</i><ul><li>Allows crafting Masterwork quality items</li></ul>"
+							"description": "<i>Esta cidade será conhecida por suas artesanatos engenhosos, refinados a partir dos materiais próximos.</i><ul><li>Permite a criação de itens de qualidade de obra-prima</li></ul>"
 						},
 						"deity": {
-							"description": "<i>This town shall share the bounty of the land with those still suffering from winter.</i><ul><li>Blesses all citizens with +1 to Mind, Body, and Spirit</li></ul>"
+							"description": "<i>Esta cidade compartilhará a recompensa da terra com aqueles que ainda sofrem do inverno.</i><ul><li>Abençoa todos os cidadãos com +1 à Mente, Corpo e Espírito</li></ul>"
 						},
 						"valor": {
-							"description": "<i>This town will be known by the foes it has defeated, and stand in defiance of those who would extinguish its flame. </i><ul><li>Blesses all citizens with a +2 to Body</li></ul>"
+							"description": "<i>Esta cidade será conhecida pelos inimigos que derrotou, e desafia aqueles que extinguiriam sua chama. </i><ul><li>Abençoa todos os cidadãos com um +2 ao Corpo</li></ul>"
 						}
 					},
 					"shrine_foreshadow_dialog": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"bulletin_title": "Ronia Materializes",
-									"dialog_title": "Scouts are seriously quiet!",
-									"choice_000": "Good to see you again.",
+									"bulletin_title": "Ronia Materializa",
+									"dialog_title": "Escoteiros estão seriamente quietos!",
+									"choice_000": "Bom te ver de novo.",
 									"bulletin_message": {
-										"00": " She offers a tiny smile as she cocks her head. \"Surprised?\" her expression seems to say. Two fingers of one hand mime a person tiptoeing through the grass. Her blue cloak seems to take on the color of the sky around her."
+										"00": " Ela oferece um pequeno sorriso enquanto inclina a cabeça. \"Surpreso?\" sua expressão parece dizer. Dois dedos de uma mão imitam uma pessoa na ponta dos pés pela grama. Sua capa azul parece assumir a cor do céu ao seu redor."
 									}
 								},
 								"msg2": {
-									"bulletin_title": "Ronia admires the town ",
-									"dialog_title": "Ronia admires the town ",
-									"choice_000": "We've grown a lot since...",
+									"bulletin_title": "Ronia admira a cidade ",
+									"dialog_title": "Ronia admira a cidade ",
+									"choice_000": "Crescemos muito desde...",
 									"bulletin_message": {
-										"00": "She gestures at the newest additions to the town and nods in approval. Her cloak is flung back, and it is clear the scars stretch around her neck in the shape of a wolf’s jaw. Today, they look a bit inflamed. <br><br>She settles by the fire and produces the birch bark and charcoal pencil again. With a nod, she invites those around her to recount their recent adventures. "
+										"00": "Ela gesticula para as novas adições à cidade e assente em aprovação. Sua capa está arremessada para trás e é claro que as cicatrizes se estendem ao redor do pescoço na forma da mandíbula de um lobo. Hoje, eles parecem um pouco inflamados. <br><br>Ela se ajusta ao fogo e produz a casca de bétula e o lápis de carvão novamente. Com um aceno de cabeça, ela convida as pessoas ao seu redor a contar suas aventuras recentes. "
 									}
 								},
 								"msg3": {
-									"bulletin_title": "Ronia writes",
-									"dialog_title": "Ronia writes",
-									"choice_000": "Valin's allegorical beasts?",
+									"bulletin_title": "Ronia escreve",
+									"dialog_title": "Ronia escreve",
+									"choice_000": "Os animais alegóricos de Valin?",
 									"bulletin_message": {
-										"00": "As Ronia records the tales and casts them into the fire, she grows thoughtful. In the end, she nods to herself, and produces, from her pouch, three smooth stones.<br><br>They each bear a familiar scratched marking: One is the constellation of Firnn the Stag, often associated with bounty, and summer. One is the constellation of Siv the Wolf, who ensures each hunt contributes to the cycle of the world. The last is the tiny three stars of Knut the Rabbit, who spins the wheel of fortune. "
+										"00": "Quando Ronia registra as histórias e as lança no fogo, ela fica pensativa. No final, ela assente para si mesma e produz, de sua bolsa, três pedras lisas.<br><br>Cada um deles tem uma marca riscada familiar: uma é a constelação de Firnn the Stag, frequentemente associada a recompensas e ao verão. Uma é a constelação de Siv, o Lobo, que garante que cada caça contribua para o ciclo do mundo. A última são as minúsculas três estrelas de Knut, o Coelho, que gira a roda da fortuna. "
 									}
 								},
 								"msg4": {
 									"bulletin_title": "Ronia se ajoelha",
 									"dialog_title": "Ronia se ajoelha",
-									"choice_000": "We will be ready.",
+									"choice_000": "Estaremos prontos.",
 									"bulletin_message": {
-										"00": "As she does so, she places the stones by the fire, and bows her head in prayer. \"It is time,\" she whispers. \"When I next return, I will bring the spirits and we will create the monument to ask for their blessing.\" "
+										"00": "Ao fazê-lo, ela coloca as pedras perto do fogo, e abaixa a cabeça em oração. \"Chegou a hora,\" ela sussurra. \"Quando eu voltar, trarei os espíritos e criaremos o monumento para pedir sua bênção.\" "
 									}
 								}
 							}
@@ -595,8 +602,8 @@
 					"town_bonus_description": "<i>Este assentamento será um centro movimentado de comércio.</i><ul><li>Estradas dão 3x o aumento de velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x mais mercadorias e ouro</li></ul>"
 				},
 				"na_town_banner_guardian_token": {
-					"display_name": "Banner of Cunning Shred",
-					"description": "A shred from the Banner of Cunning, carrying along its blessing."
+					"display_name": "Fragmento da Bandeira da Astúcia",
+					"description": "Um fragmento da Bandeira da Astúcia, carregando ao longo de sua bênção."
 				}
 			},
 			"na_town_banner_might": {
@@ -606,8 +613,8 @@
 					"town_bonus_description": "<i>Esse assentamento crescerá forte através dos minérios e da terra.</i><ul><li>Mineração dá 50% a mais Minério, Pedra e Argila</li><li>Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"na_town_banner_might_token": {
-					"display_name": "Banner of Strength Shred",
-					"description": "A shred from the Banner of Strength, carrying along its blessing."
+					"display_name": "Fragmento da Bandeira da Força",
+					"description": "Um fragmento da Bandeira da Força, carregando ao longo de sua bênção."
 				}
 			},
 			"na_town_banner_nature": {
@@ -625,98 +632,98 @@
 		"decoration": {
 			"hearth_wolf": {
 				"hearth_wolf": {
-					"display_name": "Hearth of the Makers",
-					"description": "Proof that your crafters have learned the land and produced goods worthy to send into the vast unknown"
+					"display_name": "Lareira dos Criadores",
+					"description": "Prova de que seus artesãos aprenderam a terra e produziram bens dignos de enviar para o vasto desconhecido"
 				}
 			},
 			"hearth_magma": {
 				"hearth_magma": {
-					"display_name": "Hearth of Glory",
-					"description": "Proof that you have military strength and that you're prepared to meet all comers."
+					"display_name": "Lareira da Glória",
+					"description": "Prova de que você tem força militar e que está preparado para atender todos os participantes."
 				}
 			},
 			"hearth_ice": {
 				"hearth_ice": {
-					"display_name": "Hearth of Cheer",
-					"description": "Provides warmth, light, comfort, and random daily buffs"
+					"display_name": "Lareira de Alegria",
+					"description": "Proporciona calor, luz, conforto e aleretes diários aleatórios"
 				}
 			},
 			"shrine_wolf": {
 				"shrine_wolf": {
-					"display_name": "Font of Fire",
-					"description": "Crafted to honor Siv, spirit of the hunt"
+					"display_name": "Fonte de Fogo",
+					"description": "Criado para honrar Siv, espírito da caçada"
 				}
 			},
 			"shrine_stag": {
 				"shrine_stag": {
-					"display_name": "Font of Summer",
-					"description": "Crafted to honor Firnn, spirit of the earth"
+					"display_name": "Fonte de Verão",
+					"description": "Criado para honrar Firnn, espírito da terra"
 				}
 			},
 			"shrine_hare": {
 				"shrine_hare": {
-					"display_name": "Font of Fortune",
-					"description": "Crafted to honor Knut, the spirit of the wheel"
+					"display_name": "Fonte da Fortuna",
+					"description": "Criado para homenagear Knut, o espírito da roda"
 				}
 			},
 			"banner_wall_small_stag": {
 				"banner_wall_small_stag_ghost": {
-					"display_name": "Small Stag Banner",
-					"description": "Show your devotion to Firnn with this banner."
+					"display_name": "Pequeno Bandeira de Veado",
+					"description": "Mostre sua devoção a Firnn com este bandeira."
 				}
 			},
 			"banner_wall_big_stag": {
 				"banner_wall_big_stag_ghost": {
-					"display_name": "Long Stag Banner",
-					"description": "Show your devotion to Firnn with this banner."
+					"display_name": "Bandeira de Veado Longa",
+					"description": "Mostre sua devoção a Firnn com este bandeira."
 				}
 			},
 			"window_box_stone_snow_poppy": {
 				"window_box_stone_snow_poppy_ghost": {
-					"display_name": "Snow Poppy Planter",
-					"description": "A tidy home for some lovely flowers."
+					"display_name": "Plantador de Papoula de Neve",
+					"description": "Um lar arrumado para algumas lindas flores."
 				}
 			},
 			"rug_moss": {
 				"rug_moss_ghost": {
-					"display_name": "Moss Rug",
-					"description": "Made of plant matter in honor of Firnn."
+					"display_name": "Tapete de Musgo",
+					"description": "Feito de matéria vegetal em homenagem a Firnn."
 				}
 			},
 			"wall_mounted_candle": {
 				"wall_mounted_candle_ghost": {
-					"display_name": "Golden Candle Decoration",
-					"description": "A decoration in recognition of Knut's glory."
+					"display_name": "Decoração de Vela Dourada",
+					"description": "Uma decoração em reconhecimento à glória de Knut."
 				}
 			},
 			"rug_pelt_wolf": {
 				"rug_pelt_wolf_ghost": {
-					"display_name": "Wolf Pelt Rug",
-					"description": "In Siv's honor, nothing is wasted from a kill."
+					"display_name": "Tapete de Pele de Lobo",
+					"description": "Em honra de Siv, nada é desperdiçado de uma morte."
 				}
 			},
 			"wall_mounted_paw": {
 				"wall_mounted_paw_ghost": {
-					"display_name": "Siv's Paw",
-					"description": "Mark of the hunter, never seen or heard.. until its too late."
+					"display_name": "Pata de Siv",
+					"description": "Marca do caçador, nunca vi ou ouvi. até que seja tarde demais."
 				}
 			},
 			"wall_mounted_antlers": {
 				"wall_mounted_antlers_ghost": {
-					"display_name": "Antler Wall Fixture",
-					"description": "Firnn's kindred bless our halls with their antlers."
+					"display_name": "Luminária de Parede de Chifre",
+					"description": "Os parentes de Firnn abençoam nossos salões com seus chifres."
 				}
 			},
 			"statue_hare": {
 				"statue_hare_ghost": {
-					"display_name": "Statue of Knut",
-					"description": "Knut's likeness, as told in the stories of old."
+					"display_name": "Estátua de Knut",
+					"description": "Semelhança knut, como contado nas histórias de idade."
 				}
 			},
 			"window_box_stone_violet": {
 				"window_box_stone_violet_ghost": {
 					"display_name": "Violet Planter",
-					"description": "A tidy home for some lovely flowers."
+					"description": "Um lar arrumado para algumas lindas flores."
 				}
 			}
 		},
@@ -725,21 +732,21 @@
 				"female": {
 					"herald_siv": {
 						"display_name": "Siv",
-						"description": "Spirit of the Hunt"
+						"description": "Espírito da Caçada"
 					},
 					"herald_ronia": {
 						"display_name": "Ronia Olarkson",
-						"description": "A Scout of the Library"
+						"description": "Um Escoteiro da Biblioteca"
 					}
 				},
 				"male": {
 					"herald_knut": {
 						"display_name": "Knut",
-						"description": "Spirit of the Wheel"
+						"description": "Espírito da Roda"
 					},
 					"herald_firnn": {
 						"display_name": "Firnn",
-						"description": "Spirit of the Wood"
+						"description": "Espírito da Madeira"
 					}
 				}
 			}
@@ -747,63 +754,63 @@
 		"furniture": {
 			"chair_golden": {
 				"chair_golden_ghost": {
-					"display_name": "Golden Chair",
-					"description": "A throne befitting of Knut, but they will share with others."
+					"display_name": "Cadeira Dourada",
+					"description": "Um trono condizente com Knut, mas eles compartilharão com outros."
 				}
 			},
 			"table_stone_gold": {
 				"table_stone_gold_ghost": {
-					"display_name": "Gold Plated Stone Table",
-					"description": "A table which Knut would be proud to eat off of."
+					"display_name": "Mesa de Pedra Banhada a Ouro",
+					"description": "Uma mesa que Knut ficaria orgulhoso de comer fora."
 				}
 			}
 		},
 		"container": {
 			"input_shelf_wall_stone_gold": {
 				"input_shelf_wall_stone_gold_ghost": {
-					"display_name": "Golden Wall Supply Shelf",
-					"description": "A set of shelves befitting of Knut's glory."
+					"display_name": "Prateleira de Fornecimento de Parede Dourada",
+					"description": "Um conjunto de prateleiras condizentes com a glória de Knut."
 				}
 			},
 			"input_bin_stone_wolf": {
 				"input_bin_stone_wolf_ghost": {
-					"display_name": "Siv's Stone Bowl",
-					"description": "A supply container, as Siv supplies our bellies."
+					"display_name": "Tigela de Pedra de Siv",
+					"description": "Um contêiner de suprimentos, enquanto Siv fornece nossas barrigas."
 				}
 			},
 			"output_box_stone_wolf": {
 				"output_box_stone_wolf_ghost": {
-					"display_name": "Siv's Work Shelves",
-					"description": "A temporary storage shelf, as Siv readies for the hunt."
+					"display_name": "Prateleiras de Trabalho de Siv",
+					"description": "Uma prateleira de armazenamento temporária, como Siv prepara para a caçada."
 				}
 			},
 			"chest_stone_wolf": {
 				"chest_stone_wolf_ghost": {
-					"display_name": "Stone Chest of Siv",
-					"description": "Stores up to 128 items, as Siv gathers resources for the long winter."
+					"display_name": "Baú de Pedra de Siv",
+					"description": "Armazena até 128 itens, enquanto o Siv reúne recursos para o longo inverno."
 				}
 			}
 		},
 		"weapons": {
 			"spear_horn": {
 				"spear_horn_iconic": {
-					"display_name": "Spear Horn",
-					"description": "Imbues the wearer with the healing power of Firnn, allowing them to more quickly overcome their wounds."
+					"display_name": "Chifre de Lança",
+					"description": "Imbuí o portador com o poder curativo de Firnn, permitindo que eles superem mais rapidamente suas feridas."
 				}
 			}
 		},
 		"armor": {
 			"shield_hare": {
-				"display_name": "Rabbit Hair Shield",
-				"description": "Imbues the wearer with the healing power of Knut, allowing them to better stand in battle."
+				"display_name": "Escudo de Cabelo de Coelho",
+				"description": "Imbuí o portador com o poder curativo de Knut, permitindo que eles fiquem melhor em batalha."
 			},
 			"helmet_wolf": {
 				"helmet_wolf_iconic": {
-					"display_name": "Wolf Helm",
-					"description": "Crafted with the blessing of Siv, to protect our community."
+					"display_name": "Leme de Lobo",
+					"description": "Criado com a bênção de Siv, para proteger nossa comunidade."
 				},
-				"display_name": "Wolf Helm",
-				"description": "Imbues the wearer with the healing power of Siv, allowing them to sleep less."
+				"display_name": "Leme de Lobo",
+				"description": "Imbue o portador com o poder de cura de Siv, permitindo-lhes dormir menos."
 			}
 		}
 	},
@@ -811,112 +818,112 @@
 		"mason": {
 			"recipes": {
 				"shrine_stag": {
-					"recipe_name": "Font of Summer",
-					"description": "Crafted to honor Firnn, spirit of the wood"
+					"recipe_name": "Fonte de Verão",
+					"description": "Criado para honrar Firnn, espírito da madeira"
 				},
 				"shrine_hare": {
-					"description": "Crafted to honor Knut, spirit of the wheel",
-					"recipe_name": "Font of Fortune"
+					"description": "Criado para homenagear Knut, espírito da roda",
+					"recipe_name": "Fonte da Fortuna"
 				},
 				"shrine_wolf": {
-					"description": "Crafted to honor Siv, spirit of the hunt",
-					"recipe_name": "Font of Fire"
+					"description": "Criado para honrar Siv, espírito da caçada",
+					"recipe_name": "Fonte de Fogo"
 				},
 				"crude_weaver_spindle_recipe": {
-					"recipe_name": "Crude Spindle"
+					"recipe_name": "Eixo bruto"
 				},
 				"stone_sword_recipe": {
-					"recipe_name": "Stone Practice Sword"
+					"recipe_name": "Espada de Prática de Pedra"
 				},
 				"window_box_stone_snow_poppy_recipe": {
-					"description": "A planter box full of snow poppy flowers, built to be placed below window frames.",
-					"recipe_name": "Snow Poppy Window Box",
-					"flavor": "A dark arctic morning is always made brighter with a poppy."
+					"description": "Uma caixa de plantador cheia de flores de papoula de neve, construída para ser colocada abaixo das molduras das janelas.",
+					"recipe_name": "Caixa de janela de papoula de neve",
+					"flavor": "Uma manhã escura no Ártico é sempre mais brilhante com uma papoula."
 				},
 				"statue_hare": {
-					"description": "Crafted to honor Knut, spirit of the wheel.",
-					"recipe_name": "Statue of Knut"
+					"description": "Criado para honrar Knut, espírito da roda.",
+					"recipe_name": "Estátua de Knut"
 				},
 				"chair_golden": {
-					"description": "A throne befitting of Knut, but they will share with others.",
-					"recipe_name": "Golden Chair"
+					"description": "Um trono condizente com Knut, mas eles compartilharão com outros.",
+					"recipe_name": "Cadeira Dourada"
 				},
 				"wall_mounted_antlers_recipe": {
-					"description": "Firnn's kindred bless our halls with their antlers.",
-					"recipe_name": "Antler Wall Fixture"
+					"description": "Os parentes de Firnn abençoam nossos salões com seus chifres.",
+					"recipe_name": "Luminária de parede de chifre"
 				},
 				"wall_mounted_paw_recipe": {
-					"description": "Mark of the hunter, never seen or heard.. until its too late.",
-					"recipe_name": "Siv's Paw"
+					"description": "Marca do caçador, nunca vi ou ouvi... até que seja tarde demais.",
+					"recipe_name": "Pata de Siv"
 				},
 				"output_box_stone_wolf_recipe": {
-					"description": "A temporary storage shelf, as Siv readies for the hunt.",
-					"recipe_name": "Siv's Work Shelves"
+					"description": "Uma prateleira de armazenamento temporária, como Siv prepara para a caçada.",
+					"recipe_name": "Prateleiras de Trabalho de Siv"
 				},
 				"input_bin_stone_wolf_recipe": {
-					"description": "A supply container, as Siv supplies our bellies.",
-					"recipe_name": "Siv's Stone Bowl"
+					"description": "Um contêiner de suprimentos, enquanto Siv fornece nossas barrigas.",
+					"recipe_name": "Tigela de Pedra de Siv"
 				},
 				"chest_stone_wolf_recipe": {
-					"description": "Stores up to 128 items, as Siv gathers resources for the long winter.",
-					"recipe_name": "Stone Chest of Siv"
+					"description": "Armazena até 128 itens, enquanto o Siv reúne recursos para o longo inverno.",
+					"recipe_name": "Baú de Pedra de Siv"
 				}
 			}
 		},
 		"weaver": {
 			"recipes": {
 				"banner_wall_big_stag_recipe": {
-					"description": "Show your devotion to Firnn with this banner.",
-					"recipe_name": "Long Stag Banner",
-					"flavor": "Also a sign of a nature lover."
+					"description": "Mostre sua devoção a Firnn com este banner.",
+					"recipe_name": "Bandeira de Veado Longo",
+					"flavor": "Também um sinal de um amante da natureza."
 				},
 				"banner_wall_small_stag_recipe": {
-					"description": "Show your devotion to Firnn with this banner.",
-					"recipe_name": "Short Stag Banner",
-					"flavor": "Also a sign of a nature lover."
+					"description": "Mostre sua devoção a Firnn com este banner.",
+					"recipe_name": "Bandeira de Veado Curto",
+					"flavor": "Também um sinal de um amante da natureza."
 				},
 				"rug_moss_recipe": {
-					"description": "Made of plant matter in honor of Firnn.",
-					"recipe_name": "Moss Rug"
+					"description": "Feito de matéria vegetal em homenagem a Firnn.",
+					"recipe_name": "Tapete de Musgo"
 				},
 				"rug_pelt_wolf_recipe": {
-					"description": "In Siv's honor, nothing is wasted from a kill.",
-					"recipe_name": "Wolf Pelt Rug"
+					"description": "Em honra de Siv, nada é desperdiçado de uma morte.",
+					"recipe_name": "Tapete Pele de Lobo"
 				},
 				"spear_horn_recipe": {
-					"description": "Imbues the wearer with the healing power of Firnn, allowing them to more quickly overcome their wounds.",
-					"recipe_name": "Spear Horn",
-					"flavor": "Crafted with the blessing of Firnn, to protect our community."
+					"description": "Imbue o portador com o poder de cura de Firnn, permitindo-lhes superar mais rapidamente suas feridas.",
+					"recipe_name": "Chifre de Lança",
+					"flavor": "Criado com a bênção de Firnn, para proteger nossa comunidade."
 				},
 				"helmet_wolf_recipe": {
-					"description": "Imbues the wearer with the healing power of Siv, allowing them to sleep less.",
-					"recipe_name": "Wolf Helm",
-					"flavor": "Crafted with the blessing of Siv, to protect our community."
+					"description": "Imbue o portador com o poder de cura de Siv, permitindo-lhes dormir menos.",
+					"recipe_name": "Leme de Lobo",
+					"flavor": "Criado com a bênção de Siv, para proteger nossa comunidade."
 				},
 				"shield_hare_recipe": {
-					"description": "Imbues the wearer with the healing power of Knut, allowing them to better stand in battle.",
-					"recipe_name": "Rabbit Hair Shield",
-					"flavor": "Crafted with the blessing of Knut, to protect our community."
+					"description": "Imbue o portador com o poder de cura de Knut, permitindo-lhes melhor ficar em batalha.",
+					"recipe_name": "Escudo de Cabelo de Coelho",
+					"flavor": "Criado com a bênção de Knut, para proteger nossa comunidade."
 				}
 			}
 		},
 		"blacksmith": {
 			"recipes": {
 				"chair_golden": {
-					"description": "A throne befitting of Knut, but they will share with others.",
-					"recipe_name": "Golden Chair"
+					"description": "Um trono adequado a Knut, mas eles compartilharão com outros.",
+					"recipe_name": "Cadeira Dourada"
 				},
 				"input_shelf_wall_stone_gold": {
-					"description": "A container that is as gorgeous as it is useful.",
-					"recipe_name": "Golden Wall Supply Shelf"
+					"description": "Um recipiente que é tão lindo quanto útil.",
+					"recipe_name": "Prateleira de suprimentos golden wall"
 				},
 				"table_stone_gold": {
-					"description": "A table which Knut would be proud to eat off of.",
-					"recipe_name": "Gold Plated Stone Table"
+					"description": "Uma mesa da qual Knut teria orgulho de comer.",
+					"recipe_name": "Mesa de pedra banhada a ouro"
 				},
 				"wall_mounted_candle": {
-					"description": "A decoration in recognition of Knut's glory.",
-					"recipe_name": "Golden Candle Decoration"
+					"description": "Uma decoração em reconhecimento à glória de Knut.",
+					"recipe_name": "Decoração de Vela Dourada"
 				}
 			}
 		}
