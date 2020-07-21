@@ -14,7 +14,7 @@
 			"recipes": {
 				"mason_clay_chisel_recipe": {
 					"description": "Requerido para promover um hearthling em um pedreiro",
-					"recipe_name": "Cinzel de argila do pedreiro",
+					"recipe_name": "Cinzel de Argila do Pedreiro",
 					"flavor": "\"Uma ferramenta usada para fazer pedras grandes em rochas menores, mais bonitas, mais funcionais.\""
 				},
 				"trading_post_monument_recipe": {
