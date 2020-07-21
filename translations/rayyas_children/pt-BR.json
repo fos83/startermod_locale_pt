@@ -676,7 +676,7 @@
 							"dialog_nodes": {
 								"makers": {
 									"bulletin_message": {
-										"00": "A <i>Hearth of Makers</i>, por outro lado, é para aqueles que acreditam que o valor de uma cidade é seu trabalho e que seu trabalho é melhor medido em ouro."
+										"00": "A <i>Lareira dos Fabricantes</i>, por outro lado, é para aqueles que acreditam que o valor de uma cidade é seu trabalho e que seu trabalho é melhor medido em ouro."
 									},
 									"bulletin_title": "Marca do Criador",
 									"dialog_title": "Marca do Criador",
@@ -700,7 +700,7 @@
 								},
 								"cheer": {
 									"bulletin_message": {
-										"00": "Por exemplo, um <i>Hearth of Cheer</i> é para aqueles que acreditam que o valor de uma cidade é encontrado em um lar feliz para seus cidadãos."
+										"00": "Por exemplo, um <i>Lareira de Alegria</i> é para aqueles que acreditam que o valor de uma cidade é encontrado em um lar feliz para seus cidadãos."
 									},
 									"bulletin_title": "Uma escolha alegre",
 									"dialog_title": "Uma escolha alegre",
@@ -709,7 +709,7 @@
 								"intro3": {},
 								"glory": {
 									"bulletin_message": {
-										"00": "Finalmente, um <i>Hearth of Glory</i> é para aqueles que acreditam que chega um momento em que as negociações não são mais suficientes e a terra deve ser protegida pela força."
+										"00": "Finalmente, um <i>Lareira da Glória</i> é para aqueles que acreditam que chega um momento em que as negociações não são mais suficientes e a terra deve ser protegida pela força."
 									},
 									"bulletin_title": "Tripas e Glória",
 									"dialog_title": "Tripas e Glória",
