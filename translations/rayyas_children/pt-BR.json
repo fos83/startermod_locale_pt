@@ -205,7 +205,7 @@
 					"flavor": "Contra até os mais terríveis inimigos e perigos impossíveis, este escudo nunca se romperá."
 				},
 				"legendary_rc_blade_recipe": {
-					"description": "Lâmina inquebrável da Fang do Deserto",
+					"description": "Lâmina inquebrável da Presa do Deserto",
 					"recipe_name": "Osso Temperado",
 					"flavor": "Afiado como o vento"
 				},
@@ -344,7 +344,7 @@
 				},
 				"legendary_rc_bowstring_recipe": {
 					"description": "Junta-se às extremidades do Arco Zephyr",
-					"recipe_name": "Bowstring brilhante",
+					"recipe_name": "Corda Brilhante",
 					"flavor": "Como o fogo girado em linha"
 				}
 			}
@@ -618,20 +618,20 @@
 				},
 				"town_progression": {
 					"shrine_upgrade_valor": {
-						"reward_message": "Por decreto da Iskender Empresa Comercial, reconhecemos:",
+						"reward_message": "Por decreto da Companhia Comercial de Iskender, reconhecemos:",
 						"reward_message_ctd": "Por atos de incrível valor em combate. A cidade é elegível para:",
 						"achievements": {
-							"001": "Receita de súbito de Ferreiro",
+							"001": "Receita de Apanhador de súbito de do Ferreiro",
 							"002": "Receita de Pedestais Oleiro",
-							"003": "Receitas de Banners, Arremessos e Almofadas de Tecelão"
+							"003": "Receitas de Bandeiras, Arremessos e Almofadas de Tecelão"
 						},
 						"recipe_bulletins": {
-							"recipe_unlock_blacksmith": "Nova receita de suncatcher para Ferreiro!",
+							"recipe_unlock_blacksmith": "Nova receita de Apanhador de Sol para Ferreiro!",
 							"recipe_unlock_potter": "Novas receitas de pedestal para Oleiro!",
 							"recipe_unlock_weaver": "Novas receitas de bandeira, arremesso e almofada para Tecelão!",
 							"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - A Colaboração de Tecelão, Oleiro e Ferreiro!",
 							"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário - Colaboração de Ferreiro, Carpinteiro e Pedreiro!",
-							"recipe_unlock_weapons_3": "Nova receita lendária archer - Engenharia, Weaver e colaboração carpenter!"
+							"recipe_unlock_weapons_3": "Nova receita de Arco Lendário - Colaboração de Engenheiro, Tecelão e Carpinteiro!"
 						}
 					},
 					"shrine_choice": {
@@ -713,11 +713,11 @@
 									},
 									"bulletin_title": "Tripas e Glória",
 									"dialog_title": "Tripas e Glória",
-									"choice_000": "Soa heróico"
+									"choice_000": "Soa heroico"
 								},
 								"intro": {
 									"bulletin_message": {
-										"00": "Olá de novo! Desta vez, eu estou visitando em uma capacidade mais oficial do que o habitual, e sem meus bens de troca. Nós, da Iskender Trading Company, estamos muito impressionados com o progresso do seu posto avançado e decidimos que é hora de atualizar oficialmente o status de seu membro para 'Liquidação'.<p>Antes que possamos fazer isso, no entanto, é costume escolher uma lareira para representar sua cidade.</p>"
+										"00": "Olá de novo! Desta vez, eu estou visitando em uma capacidade mais oficial do que o habitual, e sem meus bens de troca. Nós, da Companhia Comercial de Iskender, estamos muito impressionados com o progresso do seu posto avançado e decidimos que é hora de atualizar oficialmente o status de seu membro para 'Liquidação'.<p>Antes que possamos fazer isso, no entanto, é costume escolher uma lareira para representar sua cidade.</p>"
 									},
 									"bulletin_title": "Abordagens Naryal, Sem Sua Caravana",
 									"dialog_title": "Uma Visita Oficial",
@@ -740,7 +740,7 @@
 								},
 								"msg4": {
 									"bulletin_message": {
-										"00": "Por outro lado, esperamos que você comece a considerar o próximo passo na evolução do seu posto avançado. Embora a maioria dos nossos postos avançados opte por se concentrar no comércio, achamos que outras abordagens para a prosperidade são igualmente valiosas para os Filhos de Rayya, e sempre cabe ao próprio posto avançado tomar essa decisão.<p>Macaco mantê-lo!<br>Amyyria Iskender<br>Iskender Trading Company</p><br><font size=-1>P.S. Um pequeno presente para você, para dar sorte <font size=+2>✨</font></font>"
+										"00": "Por outro lado, esperamos que você comece a considerar o próximo passo na evolução do seu posto avançado. Embora a maioria dos nossos postos avançados opte por se concentrar no comércio, achamos que outras abordagens para a prosperidade são igualmente valiosas para os Filhos de Rayya, e sempre cabe ao próprio posto avançado tomar essa decisão.<p>Macaco mantê-lo!<br>Amyyria Iskender<br>Companhia Comercial de Iskender</p><br><font size=-1>P.S. Um pequeno presente para você, para dar sorte <font size=+2>✨</font></font>"
 									},
 									"bulletin_title": "Para ser considerado",
 									"dialog_title": "Para ser considerado",
@@ -786,7 +786,7 @@
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "<font size=-1 color='#cccccc'>(Adia assente, murmurando para si mesma. 'Hmm... sim, suponho que isso funcionará muito bem.')</font><br/><br/>Oh! Filhos, vocês optaram por se inscrever como parte da rede do Merchant Council, e certamente estamos felizes em tê-lo!"
+										"00": "<font size=-1 color='#cccccc'>(Adia assente, murmurando para si mesma. 'Hmm... sim, suponho que isso funcionará muito bem.')</font><br/><br/>Oh! Filhos, vocês optaram por se inscrever como parte da rede do Conselho dos Mercadores, e certamente estamos felizes em tê-lo!"
 									},
 									"bulletin_title": "Adia Radie se inclina, examinando o Monumento",
 									"dialog_title": "Adia Radie, Presidente do Conselho",
@@ -923,7 +923,7 @@
 								},
 								"makers_cont": {
 									"bulletin_message": {
-										"00": "Como você sabe, o Merchant Council é o principal patrocinador das Cidades Infantis de Rayya, por isso tenho certeza que você não está surpreso em me ver aqui. Gostaríamos muito que você se juntasse ao Conselho - acho que seu Acordo pode produzir e exportar alguns dos melhores produtos que os Filhos de Rayya têm para oferecer e manter a tradição de excelência pela qual somos conhecidos.<br><br><font size=-1><i>Dedicar um Monumento ao Negociador permitirá criar móveis e decorações com qualidade de obra-prima, que são consideravelmente melhores que os de excelente qualidade.</i></font>"
+										"00": "Como você sabe, o Conselho dos Mercadores é o principal patrocinador das Cidades Infantis de Rayya, por isso tenho certeza que você não está surpreso em me ver aqui. Gostaríamos muito que você se juntasse ao Conselho - acho que seu Acordo pode produzir e exportar alguns dos melhores produtos que os Filhos de Rayya têm para oferecer e manter a tradição de excelência pela qual somos conhecidos.<br><br><font size=-1><i>Dedicar um Monumento ao Negociador permitirá criar móveis e decorações com qualidade de obra-prima, que são consideravelmente melhores que os de excelente qualidade.</i></font>"
 									},
 									"bulletin_title": "Adia Radie ",
 									"dialog_title": "Adia Radie ",
@@ -961,7 +961,7 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Atualmente, estou tomando providências para finalmente visitar o meu Acordo, e quando o fizer, levarei várias pessoas que manifestaram interesse em patrocinar e chegar a acordos como o seu. Estes são membros altamente conceituados da nossa sociedade, por isso não deixe de preparar a sua melhor louça!<p>O Macaco mantém você!<br>Amyyria Iskender<br>Iskender Trading Company</p>"
+										"00": "Atualmente, estou tomando providências para finalmente visitar o meu Acordo, e quando o fizer, levarei várias pessoas que manifestaram interesse em patrocinar e chegar a acordos como o seu. Estes são membros altamente conceituados da nossa sociedade, por isso não deixe de preparar a sua melhor louça!<p>O Macaco mantém você!<br>Amyyria Iskender<br>Companhia Comercial de Iskender</p>"
 									},
 									"bulletin_title": "Uma letra",
 									"dialog_title": "Uma letra",
@@ -1008,12 +1008,12 @@
 					},
 					"shrine_upgrade_deity": {
 						"title": "Município Estabelecido",
-						"reward_message": "Por decreto da Iskender Trading Company, reconhecemos:",
+						"reward_message": "Por decreto da Companhia Comercial de Iskender, reconhecemos:",
 						"reward_message_ctd": "Por aprender os mistérios do mundo. A cidade é elegível para:",
 						"achievements": {
-							"001": "Decorações de Cerâmica",
+							"001": "Decorações do Oleiro",
 							"002": "Lâmpadas de Ferreiro",
-							"003": "Bandeiras de Tecelão"
+							"003": "As Bandeiras do Tecelão"
 						},
 						"recipe_bulletins": {
 							"recipe_unlock_potter": "Novas receitas de decoração inspiradas em macacos para Oleiro!",
@@ -1512,12 +1512,12 @@
 				},
 				"male": {
 					"herald_male": {
-						"display_name": "<Utilizadas> Herald Holly",
-						"description": "<Utilizadas> Herald of Rayya's Children."
+						"display_name": "<Utilizadas> Santo Arauto",
+						"description": "<Utilizadas> Arauto dos Filhos de Rayya."
 					},
 					"herald_naryal": {
 						"display_name": "Naryal Iskender ",
-						"description": "Agente da Iskender Trading Company."
+						"description": "Agente da Companhia Comercial de Iskender."
 					},
 					"herald_nona": {
 						"display_name": "Nona Trist ",
@@ -1556,7 +1556,7 @@
 		},
 		"refined": {
 			"legendary_rc_bowstring": {
-				"display_name": "Bowstring Brilhante",
+				"display_name": "Corda Brilhante",
 				"description": "Junta-se às extremidades do arco Zephyr"
 			},
 			"legendary_rc_stave": {

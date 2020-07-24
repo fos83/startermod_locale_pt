@@ -2,7 +2,7 @@
 	"kingdom": {
 		"kingdom_name": "Aliança do Norte",
 		"quote": "Meus pais seguiram as estrelas por mil, mil ciclos.",
-		"long_description": "Corajosos e resistentes, os homens e mulheres do norte, vivem pela visão de um novo amanhecer sobre território inexplorado. Unidos pela bússola e a machadinha, eles se orgulham de sua plena adaptabilidade.",
+		"long_description": "Corajosos e resistentes, os homens e mulheres do norte vivem pela visão de um novo amanhecer sobre território inexplorado. Unidos pela bússola e machadinha, eles se orgulham de sua plena adaptabilidade.",
 		"post_selection_description": ", Um clã de exploradores tenazes.",
 		"initial_town_name": "Viagem [str(town_number)]"
 	},
@@ -218,7 +218,7 @@
 							"dialog_nodes": {
 								"makers": {
 									"bulletin_message": {
-										"00": "\"O Lar dos Fabricantes é para aqueles que acreditam que uma casa é um lugar de aprendizado e criação, e que as coisas que construímos são melhor comercializadas, para que todos possamos crescer juntos.\" "
+										"00": "\"O Lareira dos Criadores é para aqueles que acreditam que uma casa é um lugar de aprendizado e criação, e que as coisas que construímos são melhor comercializadas, para que todos possamos crescer juntos.\" "
 									},
 									"bulletin_title": "Aprendendo a fazer ",
 									"dialog_title": "Aprendendo a fazer ",
@@ -242,7 +242,7 @@
 								},
 								"cheer": {
 									"bulletin_message": {
-										"00": "\"Valin ensina que uma casa é um baluarte contra os elementos; um lugar para encontrar socorro e amizade. The Hearth of Cheer reúne todos os que procuram criar um calor que nenhuma tempestade de neve pode dissipar.\" "
+										"00": "\"Valin ensina que uma casa é um baluarte contra os elementos; um lugar para encontrar socorro e amizade. A Lareira da Alegria reúne todos os que procuram criar um calor que nenhuma tempestade de neve pode dissipar.\" "
 									},
 									"bulletin_title": "Calor no frio ",
 									"dialog_title": "Calor no frio ",
@@ -258,7 +258,7 @@
 								},
 								"glory": {
 									"bulletin_message": {
-										"00": "\"Por fim, o Lar da Glória nos lembra que, para sobreviver nos confins mais distantes, precisamos aprimorar nossos corpos e mentes ao máximo, pois menos do que isso é cair prematuramente no frio.\"  "
+										"00": "\"Por fim, o Lareira da Glória nos lembra que, para sobreviver nos confins mais distantes, precisamos aprimorar nossos corpos e mentes ao máximo, pois menos do que isso é cair prematuramente no frio.\"  "
 									},
 									"bulletin_title": "A caçada está em todo lugar",
 									"dialog_title": "A caçada está em todo lugar",
@@ -271,15 +271,15 @@
 									"bulletin_title": "Ronia retorna novamente",
 									"dialog_title": "Mais tempo para contos",
 									"choice_000": "Sim, por favor.",
-									"choice_001": "[pular] Sabemos o que lareira queremos."
+									"choice_001": "[pular] Sabemos qual lareira queremos."
 								}
 							}
 						}
 					},
 					"hearth_upgrade": {
-						"title": "Estabelecimento Estabelecido",
-						"dialog_title": "Estabelecimento Estabelecido!",
-						"tier_title": "Estabelecimento",
+						"title": "Assentamento Estabelecido",
+						"dialog_title": "Assentamento Estabelecido!",
+						"tier_title": "Assentamento",
 						"reward_message": "Por acordo unânime dos cidadãos, declaramos:",
 						"reward_message_ctd": "Ser um acordo para provar que suas riquezas e artesanato são incomparáveis."
 					},
@@ -374,18 +374,19 @@
 					},
 					"shrine_upgrade_guildmaster": {
 						"recipe_bulletins": {
-							"recipe_unlock_blacksmith": "Novas receitas de móveis para ferreiro!",
+							"recipe_unlock_blacksmith": "Novas receitas de móveis para Ferreiro!",
 							"recipe_unlock_mason": "Nova receita de estátua para Pedreiros!"
 						},
 						"achievements": {
-							"001": "Receita da estátua da lebre de pedreiro",
-							"002": "Receitas de móveis de ferreiro"
+							"001": "Receita da estátua da lebre de Pedreiro",
+							"002": "Receitas de móveis de Ferreiro"
 						},
 						"reward_message_ctd": "Para aprender os mistérios do mundo. A cidade é elegível para:"
 					},
 					"shrine_upgrade_deity": {
 						"recipe_bulletins": {
-							"recipe_unlock_mason": "Nova receitade janela para Pedreiro!",
+							"recipe_unlock_mason": "Nova receita de janela para Pedreiro!",
+
 							"recipe_unlock_weaver": "Novas receitas de decoração para Tecelão!"
 						},
 						"achievements": {
@@ -562,7 +563,7 @@
 									"dialog_title": "Ronia escreve",
 									"choice_000": "Os animais alegóricos de Valin?",
 									"bulletin_message": {
-										"00": "Quando Ronia registra as histórias e as lança no fogo, ela fica pensativa. No final, ela assente para si mesma e produz, de sua bolsa, três pedras lisas.<br><br>Cada um deles tem uma marca riscada familiar: uma é a constelação de Firnn the Stag, frequentemente associada a recompensas e ao verão. Uma é a constelação de Siv, o Lobo, que garante que cada caça contribua para o ciclo do mundo. A última são as minúsculas três estrelas de Knut, o Coelho, que gira a roda da fortuna. "
+										"00": "Quando Ronia registra as histórias e as lança no fogo, ela fica pensativa. No final, ela assente para si mesma e produz, de sua bolsa, três pedras lisas.<br><br>Cada um deles tem uma marca riscada familiar: uma é a constelação de Firnn, o Veado, frequentemente associada a recompensas e ao verão. Uma é a constelação de Siv, o Lobo, que garante que cada caça contribua para o ciclo do mundo. A última são as minúsculas três estrelas de Knut, o Coelho, que gira a roda da fortuna. "
 									}
 								},
 								"msg4": {
@@ -638,7 +639,7 @@
 			"hearth_ice": {
 				"hearth_ice": {
 					"display_name": "Lareira de Alegria",
-					"description": "Proporciona calor, luz, conforto e aleretes diários aleatórios"
+					"description": "Proporciona calor, luz, conforto e melhorias diárias aleatórias"
 				}
 			},
 			"shrine_wolf": {
@@ -866,12 +867,12 @@
 		"weaver": {
 			"recipes": {
 				"banner_wall_big_stag_recipe": {
-					"description": "Mostre sua devoção a Firnn com este banner.",
+					"description": "Mostre sua devoção a Firnn com esta bandeira.",
 					"recipe_name": "Bandeira de Veado Longo",
 					"flavor": "Também um sinal de um amante da natureza."
 				},
 				"banner_wall_small_stag_recipe": {
-					"description": "Mostre sua devoção a Firnn com este banner.",
+					"description": "Mostre sua devoção a Firnn com esta bandeira.",
 					"recipe_name": "Bandeira de Veado Curto",
 					"flavor": "Também um sinal de um amante da natureza."
 				},
