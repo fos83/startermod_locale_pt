@@ -23,7 +23,7 @@
 				},
 				"monkey_shrine_monument_recipe": {
 					"description": "Um lugar para prestar homenagem ao Macaco e a Sua Misteriosa",
-					"recipe_name": "Monumento do santuário do macaco"
+					"recipe_name": "Monumento do Santuário do Macaco"
 				},
 				"exotic_trade_monument_recipe": {
 					"description": "Um tributo à habilidade de sua cidade no comércio exótico",
@@ -34,95 +34,95 @@
 				},
 				"jar_green_recipe": {
 					"description": "Pequeno frasco de vidro verde acompanhado de um fogo pequeno",
-					"recipe_name": "Frasco de vidro verde com vela"
+					"recipe_name": "Frasco de Vidro Verde com vela"
 				},
 				"jar_red_recipe": {
 					"description": "Pequeno frasco de vidro vermelho acompanhado de um fogo pequeno",
-					"recipe_name": "Frasco de vidro vermelho com vela"
+					"recipe_name": "Frasco de Vidro Vermelho com vela"
 				},
 				"pot_oil_earthen_recipe": {
 					"description": "Panela de barro pequena acompanhada de um fogo pequeno",
-					"recipe_name": "Panela de barro com óleo"
+					"recipe_name": "Panela de Barro com Óleo"
 				},
 				"pot_oil_green_recipe": {
 					"description": "Pequena panela verde acompanhada de um fogo pequeno",
-					"recipe_name": "Panela verde com óleo"
+					"recipe_name": "Panela Verde com Óleo"
 				},
 				"pot_oil_halfgreen_recipe": {
 					"description": "Pequena panela em porcelanato acompanhada de um fogo pequeno",
-					"recipe_name": "Panela em porcelanato com óleo"
+					"recipe_name": "Panela em Porcelanato com Óleo"
 				},
 				"pot_sunflower_recipe": {
 					"description": "Pequena panela de barro com uma bela flor.",
-					"recipe_name": "Panela com girassol"
+					"recipe_name": "Panela com Girassol"
 				},
 				"pot_fox_lily_recipe": {
 					"description": "Pequena panela de barro com uma bela flor.",
-					"recipe_name": "Panela com lírio"
+					"recipe_name": "Panela com Lírio"
 				},
 				"pot_acacia_recipe": {
 					"description": "Pequena panela de barro com uma bela árvore em miniatura.",
-					"recipe_name": "Panela com bonsai de acácia"
+					"recipe_name": "Panela com Bonsai de Acácia"
 				},
 				"urn_large_recipe": {
 					"description": "Extra grande para comércio extra!",
-					"recipe_name": "Urna de mercadorias comerciais"
+					"recipe_name": "Urna de Mercadorias Comerciais"
 				},
 				"wall_hanging_sunflower_recipe": {
 					"description": "Uma decoração do girassol para sua parede.",
-					"recipe_name": "Parede florada"
+					"recipe_name": "Parede Florada"
 				},
 				"wall_hanging_sunwreath_recipe": {
 					"description": "Uma coleção de girassóis para colocar na sua parede.",
-					"recipe_name": "Grinalda de girassol"
+					"recipe_name": "Grinalda de Girassol"
 				},
 				"wind_chime_recipe": {
 					"description": "Uma vista magnífica e som para combinar.",
-					"recipe_name": "Sinos de vento de cristal"
+					"recipe_name": "Sinos de Vento de Cristal"
 				},
 				"window_tall_latticed_recipe": {
 					"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!",
-					"recipe_name": "Janela alta em treliça"
+					"recipe_name": "Janela Alta em Treliça"
 				},
 				"door_clay_latticed_recipe": {
-					"recipe_name": "Porta de barro em treliça",
+					"recipe_name": "Porta de Barro em Treliça",
 					"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!"
 				},
 				"chest_recipe": {
 					"description": "Um lugar para armazenar tributos ao Macaco e a Sua Misteriosa",
-					"recipe_name": "Baú de argila"
+					"recipe_name": "Baú de Argila"
 				},
 				"lamp_gold_recipe": {
 					"description": "Sua chama traz um brilho quente durante a noite.",
-					"recipe_name": "Lâmpada dourada a óleo"
+					"recipe_name": "Lâmpada Dourada a Óleo"
 				},
 				"lamp_wall_gold_recipe": {
 					"description": "Sua chama traz um brilho quente durante a noite.",
-					"recipe_name": "Lâmpada dourada a óleo de parede"
+					"recipe_name": "Lâmpada Dourada a Óleo de Parede"
 				},
 				"lightbox_recipe": {
-					"description": "A sua luz salpica padrões pelo chão e acima dela.",
-					"recipe_name": "Caixa de luz de argila"
+					"description": "A sua luz salpica padrões pelo chão e Acima dela.",
+					"recipe_name": "Caixa de Luz de Argila"
 				},
 				"monkey_recipe": {
 					"description": "Um tributo ao Macaco e seus muitos ajudantes.",
-					"recipe_name": "Estátua de argila do Macaco"
+					"recipe_name": "Estátua de Argila do Macaco"
 				},
 				"teapot_recipe": {
 					"description": "Um lembrete de empreendedores ousados.",
-					"recipe_name": "Conjunto de chá finamente trabalhado"
+					"recipe_name": "Conjunto de Chá Finamente Trabalhado"
 				},
 				"wall_hanging_key_recipe": {
 					"description": "Um ornamento de parede que nos lembra do Macaco.",
-					"recipe_name": "Chave do santuário do Macaco"
+					"recipe_name": "Chave do Santuário do Macaco"
 				},
 				"banner_wall_big_recipe": {
 					"description": "Mostre seu orgulho da cidade com esta bandeira.",
-					"recipe_name": "Bandeira comprida de parede"
+					"recipe_name": "Bandeira Comprida de Parede"
 				},
 				"banner_wall_small_recipe": {
 					"description": "Mostre seu orgulho da cidade com esta bandeira.",
-					"recipe_name": "Bandeira larga da parede"
+					"recipe_name": "Bandeira Larga da Parede"
 				},
 				"pedestal_firepit_recipe": {
 					"description": "Carvões levemente incandescentes",
@@ -146,21 +146,21 @@
 				},
 				"kiln_upgrade_recipe": {
 					"description": "Permite aos Oleiros de sua cidade trabalhar com estilo.",
-					"recipe_name": "Forno do Oleiro melhorado"
+					"recipe_name": "Forno do Oleiro Melhorado"
 				},
 				"workbench_upgrade_recipe": {
 					"description": "Para o Oleiro mais esteticamente preocupado.",
-					"recipe_name": "Roda de Oleiro melhorada",
+					"recipe_name": "Roda de Oleiro Melhorada",
 					"flavor": "A qualidade do seu trabalho só pode ser tão alta quanto a qualidade do seu equipamento - Khora, Mestre Oleiro"
 				},
 				"legendary_rc_face_recipe": {
 					"description": "Protege o Escudo do Dragão",
-					"recipe_name": "Pele de dragão",
+					"recipe_name": "Pele de Dragão",
 					"flavor": "Repetidas cozeduras do vidro o fazem brilhar como escamas de dragão e também ser tão resistente"
 				},
 				"legendary_rc_inlay_recipe": {
 					"description": "Resplandecente e dourada para a Presa do Deserto",
-					"recipe_name": "Incrustação brilhante",
+					"recipe_name": "Incrustação Brilhante",
 					"flavor": "Brilhando como a luz da fogueira"
 				}
 			},
@@ -211,7 +211,7 @@
 				},
 				"legendary_rc_gem_recipe": {
 					"description": "Um foco espiritual, essencial para o Crimson Circlet",
-					"recipe_name": "Rubi flamengues",
+					"recipe_name": "Rubi Flamengues",
 					"flavor": "Uma estrela vermelha curativa para guiar"
 				}
 			}
@@ -234,15 +234,15 @@
 				},
 				"flat_bread_recipe": {
 					"description": "Pão sem fermento feito de farinha de milho",
-					"recipe_name": "Pão simples"
+					"recipe_name": "Pão Simples"
 				},
 				"meat_tagine_recipe": {
 					"description": "Carne e legumes cozido em uma panela de barro",
-					"recipe_name": "Tagine de guisado de carne"
+					"recipe_name": "Tagine de Guisado de Carne"
 				},
 				"vegetable_tagine_recipe": {
 					"description": "Legumes cozido em uma panela de barro",
-					"recipe_name": "Tagine de guisado de legumes"
+					"recipe_name": "Tagine de Guisado de Legumes"
 				}
 			}
 		},
@@ -274,7 +274,7 @@
 			"recipes": {
 				"outfit_worker_goldthread_recipe": {
 					"description": "Melhore elegantemente a velocidade e a eficiência do trabalhador",
-					"recipe_name": "Finery trabalhador",
+					"recipe_name": "Finery Trabalhador",
 					"flavor": "Vermelho simplesmente nunca sai de moda"
 				},
 				"banner_gilded_blue_recipe": {
@@ -284,7 +284,7 @@
 				},
 				"banner_gilded_coral_recipe": {
 					"description": "Mostre o orgulho de sua cidade como um posto comercial exótico",
-					"recipe_name": "Bandeira coral dourada",
+					"recipe_name": "Bandeira Coral Dourada",
 					"flavor": "Cor percorreu a cidade em fluxos de tecido e fio dourado brilhante"
 				},
 				"banner_gilded_red_recipe": {
@@ -294,7 +294,7 @@
 				},
 				"banner_gilded_sage_recipe": {
 					"description": "Mostre o orgulho de sua cidade como um posto comercial exótico",
-					"recipe_name": "Bandeira sálvia dourada",
+					"recipe_name": "Bandeira Sálvia Dourada",
 					"flavor": "Cor percorreu a cidade em fluxos de tecido e fio dourado brilhante"
 				},
 				"chair_gilded_blue_recipe": {
@@ -309,7 +309,7 @@
 				},
 				"chair_gilded_sage_recipe": {
 					"description": "Assentos luxuosamente acolchoamento",
-					"recipe_name": "Almofada de sálvia dourada",
+					"recipe_name": "Almofada de Sálvia Dourada",
 					"flavor": "Seria um insulto para a almofada nunca sentar nela!"
 				},
 				"chair_gilded_coral_recipe": {
@@ -578,13 +578,13 @@
 								},
 								"door_shop": {
 									"shop_info": {
-										"name": "Portas e placas exóticas de Radien",
+										"name": "Portas e Placas Exóticas de Radien",
 										"title": "Radien chegou com portas exóticas e placas à venda"
 									}
 								},
 								"farming_supplies_shop": {
 									"shop_info": {
-										"name": "Suprimentos agrícolas do agricultor Makabi",
+										"name": "Suprimentos Agrícolas do Agricultor Makabi",
 										"title": "Carrinho de suprimentos do fazendeiro Makabi rola para a cidade"
 									}
 								},
@@ -602,7 +602,7 @@
 								},
 								"rugs_shop2": {
 									"shop_info": {
-										"name": "Tapetes finos e vestuário de Havaad",
+										"name": "Tapetes Finos e vestuário de Havaad",
 										"title": "Havaad chegou com alguns produtos excepcionais para vender"
 									}
 								},
@@ -618,18 +618,18 @@
 				},
 				"town_progression": {
 					"shrine_upgrade_valor": {
-						"reward_message": "Por decreto da Iskender Trading Company, reconhecemos:",
+						"reward_message": "Por decreto da Iskender Empresa Comercial, reconhecemos:",
 						"reward_message_ctd": "Por atos de incrível valor em combate. A cidade é elegível para:",
 						"achievements": {
-							"001": "Receita de súbito de ferreiro",
+							"001": "Receita de súbito de Ferreiro",
 							"002": "Receita de Pedestais Oleiro",
 							"003": "Receitas de Banners, Arremessos e Almofadas de Tecelão"
 						},
 						"recipe_bulletins": {
 							"recipe_unlock_blacksmith": "Nova receita de suncatcher para Ferreiro!",
 							"recipe_unlock_potter": "Novas receitas de pedestal para Oleiro!",
-							"recipe_unlock_weaver": "Novas receitas de bandeira, arremesso e almofada para Weaver!",
-							"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - A colaboração de Weaver, Potter e Ferreiro!",
+							"recipe_unlock_weaver": "Novas receitas de bandeira, arremesso e almofada para Tecelão!",
+							"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - A Colaboração de Tecelão, Oleiro e Ferreiro!",
 							"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário - Colaboração de Ferreiro, Carpinteiro e Pedreiro!",
 							"recipe_unlock_weapons_3": "Nova receita lendária archer - Engenharia, Weaver e colaboração carpenter!"
 						}
@@ -649,13 +649,13 @@
 						}
 					},
 					"banner_upgrade_cunning": {
-						"reward_message_ctd": "para ser um posto avançado que pavimenta as estradas para se tornar um centro comercial."
+						"reward_message_ctd": "Para ser um posto avançado que pavimenta as estradas para se tornar um centro comercial."
 					},
 					"banner_upgrade_strength": {
-						"reward_message_ctd": "para ser um posto avançado a caminho de ser um refúgio seguro para todos."
+						"reward_message_ctd": "Para ser um posto avançado a caminho de ser um refúgio seguro para todos."
 					},
 					"banner_upgrade_vitality": {
-						"reward_message_ctd": "para ser um posto avançado com o objetivo de reviver a natureza adjacente."
+						"reward_message_ctd": "Para ser um posto avançado com o objetivo de reviver a natureza adjacente."
 					},
 					"bird_departs": {
 						"dialog_tree_info": {
@@ -676,7 +676,7 @@
 							"dialog_nodes": {
 								"makers": {
 									"bulletin_message": {
-										"00": "A <i>Lareira dos Fabricantes</i>, por outro lado, é para aqueles que acreditam que o valor de uma cidade é seu trabalho e que seu trabalho é melhor medido em ouro."
+										"00": "A <i>Lareira dos Criadores</i>, por outro lado, é para aqueles que acreditam que o valor de uma cidade é seu trabalho e que seu trabalho é melhor medido em ouro."
 									},
 									"bulletin_title": "Marca do Criador",
 									"dialog_title": "Marca do Criador",
@@ -846,7 +846,7 @@
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Macaco manter você, irmãs e irmãos. Que santuário adequado você construiu!<br/><br/>Gosto especialmente da chave pendurada na cauda do macaco - para que fechadura ela serve? O que poderia estar escondido atrás dessa fechadura? Verdadeiramente, um mistério!"
+										"00": "O Macaco manter você, irmãs e irmãos. Que santuário adequado você construiu!<br/><br/>Gosto especialmente da chave pendurada na cauda do macaco - para que fechadura ela serve? O que poderia estar escondido atrás dessa fechadura? Verdadeiramente, um mistério!"
 									},
 									"bulletin_title": "Nona assente em aprovação",
 									"dialog_title": "Nona Trist, Alta Sacerdotisa",
@@ -876,7 +876,7 @@
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "<p align='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Arke, eu sei, é hora de partir.<br/><br/>Eu adoraria ficar mais tempo, mas há outras caravanas menos auto-suficientes por aí que precisam de minha atenção.<br/><br/>Parabéns por todo o seu sucesso e obrigado por nunca ter feito muita papelada para mim."
+										"00": "<palign='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Arke, eu sei, é hora de partir.<br/><br/>Eu adoraria ficar mais tempo, mas há outras caravanas menos auto-suficientes por aí que precisam de minha atenção.<br/><br/>Parabéns por todo o seu sucesso e obrigado por nunca ter feito muita papelada para mim."
 									},
 									"bulletin_title": "Amyyria Continua",
 									"dialog_title": "Amyyria Iskender ",
@@ -899,7 +899,7 @@
 								},
 								"clergy": {
 									"bulletin_message": {
-										"00": "Macaco mantê-lo, irmãos e irmãs! Eu sou Nona Trist, uma Alta Sacerdotisa de Seu Mistério. A avó Rayya nos deixou uma tarefa: explorar o mundo e descobrir todos os seus segredos. Uma maneira de trabalhar para isso é patrocinando cidades daqui, longe do coração dos territórios das crianças de Rayya."
+										"00": "O Macaco mantê-los, irmãos e irmãs! Eu sou Nona Trist, uma Alta Sacerdotisa de Seu Mistério. A avó Rayya nos deixou uma tarefa: explorar o mundo e descobrir todos os seus segredos. Uma maneira de trabalhar para isso é patrocinando cidades daqui, longe do coração dos territórios das crianças de Rayya."
 									},
 									"bulletin_title": "A alta sacerdotisa",
 									"dialog_title": "A alta sacerdotisa",
@@ -943,7 +943,7 @@
 									},
 									"bulletin_title": "Emeret Kaver ",
 									"dialog_title": "Emeret Kaver ",
-									"choice_000": "Vamos considerar isso"
+									"choice_000": "Vamos considerar isso."
 								},
 								"summary": {
 									"bulletin_message": {
@@ -969,7 +969,7 @@
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Dear [str(i18n_data.town_name)]-ites,<p>Recebi muitos relatórios de nossos parceiros comerciais, cantando todos os tipos de elogios ao seu Acordo. Estou tão feliz que nosso investimento em seu posto avançado esteja dando frutos tão rapidamente!</p>"
+										"00": "Querido [str(i18n_data.town_name)]-ites,<p>Recebi muitos relatórios de nossos parceiros comerciais, cantando todos os tipos de elogios ao seu Acordo. Estou tão feliz que nosso investimento em seu posto avançado esteja dando frutos tão rapidamente!</p>"
 									},
 									"bulletin_title": "Uma letra",
 									"dialog_title": "Uma letra",
@@ -1013,7 +1013,7 @@
 						"achievements": {
 							"001": "Decorações de Cerâmica",
 							"002": "Lâmpadas de Ferreiro",
-							"003": "Banners de Tecelão"
+							"003": "Bandeiras de Tecelão"
 						},
 						"recipe_bulletins": {
 							"recipe_unlock_potter": "Novas receitas de decoração inspiradas em macacos para Oleiro!",
@@ -1131,33 +1131,33 @@
 					"display_name": "Oficina do Oleiro"
 				},
 				"weavers_hut": {
-					"display_name": "Cabana do tecelão"
+					"display_name": "Cabana do Tecelão"
 				},
 				"communal_kitchen": {
-					"display_name": "Cozinha comum"
+					"display_name": "Cozinha Comum"
 				},
 				"masons_workshop": {
-					"display_name": "Oficina de pedreiro"
+					"display_name": "Oficina de Pedreiro"
 				},
 				"tier2": {
 					"desert_lodge": {
-						"display_name": "Alojamento no deserto"
+						"display_name": "Alojamento no Deserto"
 					},
 					"little_red_hut": {
-						"display_name": "Cabana vermelha"
+						"display_name": "Cabana Vermelha"
 					},
 					"rayyas_shadow": {
 						"display_name": "Sombra de Rayya"
 					},
 					"red_clay_homes": {
-						"display_name": "Casas de barro vermelho"
+						"display_name": "Casas de Barro Vermelho"
 					},
 					"engineers_workshop": {
 						"display_name": "Oficina do Engenheiro"
 					}
 				},
 				"blacksmiths_workshop": {
-					"display_name": "A forja"
+					"display_name": "A Forja"
 				},
 				"herbalists_workshop": {
 					"display_name": "Oficina de Herbalistas"
@@ -1207,84 +1207,84 @@
 		"decoration": {
 			"monkey_shrine_monument": {
 				"monkey_shrine_monument_ghost": {
-					"display_name": "Monumento do santuário do macaco",
+					"display_name": "Monumento do Santuário do Macaco",
 					"description": "Um lugar para prestar homenagem ao Macaco e a Sua Misteriosa"
 				},
 				"chest": {
 					"chest_ghost": {
-						"display_name": "Baú de argila do Macaco",
+						"display_name": "Baú de Argila do Macaco",
 						"description": "Um lugar para armazenar tributos ao Macaco e a Sua Misteriosa"
 					}
 				},
 				"monkey": {
 					"monkey_ghost": {
-						"display_name": "Estátua de argila do Macaco",
+						"display_name": "Estátua de Argila do Macaco",
 						"description": "Um tributo ao Macaco e seus muitos ajudantes."
 					}
 				},
 				"key": {
 					"key_ghost": {
-						"display_name": "Chave do santuário do Macaco",
+						"display_name": "Chave do Santuário do Macaco",
 						"description": "Um ornamento de parede que nos lembra do Macaco."
 					}
 				},
 				"lamp_gold": {
 					"lamp_gold_ghost": {
-						"display_name": "Lâmpada dourada a óleo",
+						"display_name": "Lâmpada Dourada a Óleo",
 						"description": "Sua chama traz um brilho quente durante a noite."
 					}
 				},
 				"lamp_wall_gold": {
 					"lamp_wall_gold_ghost": {
-						"display_name": "Lâmpada dourada a óleo de parede",
+						"display_name": "Lâmpada Dourada a Óleo de Parede",
 						"description": "Sua chama traz um brilho quente durante a noite."
 					}
 				},
 				"window_tall_latticed": {
 					"window_tall_latticed_ghost": {
-						"display_name": "Janela alta em treliça dourada",
+						"display_name": "Janela Alta em Treliça Dourada",
 						"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!"
 					}
 				},
 				"door_clay_latticed": {
 					"door_clay_latticed_ghost": {
-						"display_name": "Porta dourada em treliça",
+						"display_name": "Porta Dourada em Treliça",
 						"description": "O trabalho de treliça detém a maior parte do sol quente e fica bonito também!"
 					}
 				},
 				"teapot": {
 					"teapot_ghost": {
-						"display_name": "Conjunto de chá finamente trabalhado",
+						"display_name": "Conjunto de Chá Finamente Trabalhado",
 						"description": "Um lembrete de empreendedores ousados."
 					}
 				},
 				"banner_wall_small": {
 					"banner_wall_small_ghost": {
-						"display_name": "Bandeira larga da parede",
+						"display_name": "Bandeira Larga da Parede",
 						"description": "Mostre seu orgulho da cidade com esta bandeira."
 					}
 				},
 				"banner_wall_big": {
 					"banner_wall_big_ghost": {
-						"display_name": "Bandeira comprida de parede",
+						"display_name": "Bandeira Comprida de Parede",
 						"description": "Mostre seu orgulho da cidade com esta bandeira."
 					}
 				},
 				"lightbox": {
 					"lightbox_ghost": {
-						"display_name": "Caixa de luz de argila",
+						"display_name": "Caixa de Luz de Argila",
 						"description": "A sua luz salpica padrões pelo chão e acima dela."
 					}
 				}
 			},
 			"exotic_trade_monument": {
 				"exotic_trade_monument_ghost": {
-					"display_name": "A chama sempre ardente",
+					"display_name": "A Chama Sempre Ardente",
 					"description": "Um farol de segurança e proteção para toda a região"
 				},
 				"banner_gilded_blue": {
 					"banner_gilded_blue_ghost": {
-						"display_name": "Bandeira azul dourado",
+						"display_name": "Bandeira Azul Dourado",
 						"description": "Mostre o orgulho da sua cidade como um posto comercial exótico"
 					}
 				},
@@ -1309,11 +1309,11 @@
 				"outfit_worker_goldthread": {
 					"mixins": {
 						"worker_outfit_goldthread_iconic": {
-							"display_name": "Acabamento do trabalhador",
+							"display_name": "Acabamento do Trabalhador",
 							"description": "Melhora de forma elegante a velocidade e a eficiência do trabalhador"
 						},
 						"worker_outfit_goldthread": {
-							"display_name": "Acabamento do trabalhador",
+							"display_name": "Acabamento do Trabalhador",
 							"description": "Melhora de forma elegante a velocidade e a eficiência do trabalhador"
 						}
 					}
@@ -1404,49 +1404,49 @@
 				},
 				"urn_large": {
 					"urn_large_ghost": {
-						"display_name": "Urna de mercadorias comerciais",
+						"display_name": "Urna de Mercadorias Comerciais",
 						"description": "Extra grande para comércio extra!"
 					}
 				},
 				"pot_oil_earthen": {
 					"pot_oil_earthen_ghost": {
-						"display_name": "Panela de barro com óleo",
+						"display_name": "Panela de Barro com Óleo",
 						"description": "Panela de barro pequena acompanhada de um fogo pequeno"
 					}
 				},
 				"pot_oil_green": {
 					"pot_oil_green_ghost": {
-						"display_name": "Panela verde com óleo",
+						"display_name": "Panela Verde com Óleo",
 						"description": "Pequena panela verde acompanhada de um fogo pequeno"
 					}
 				},
 				"pot_oil_halfgreen": {
 					"pot_oil_halfgreen_ghost": {
-						"display_name": "Panela em porcelanato com óleo",
+						"display_name": "Panela em Porcelanato com Óleo",
 						"description": "Pequena panela em porcelanato acompanhada de um fogo pequeno"
 					}
 				},
 				"pot_sunflower": {
 					"pot_sunflower_ghost": {
-						"display_name": "Panela com girassol",
+						"display_name": "Panela com Girassol",
 						"description": "Pequena panela de barro com uma bela flor."
 					}
 				},
 				"wall_hanging_sunflower": {
 					"wall_hanging_sunflower_ghost": {
-						"display_name": "Parede florada",
+						"display_name": "Parede Florada",
 						"description": "Uma decoração do girassol para sua parede."
 					}
 				},
 				"wall_hanging_sunwreath": {
 					"wall_hanging_sunwreath_ghost": {
-						"display_name": "Grinalda de girassol",
+						"display_name": "Grinalda de Girassol",
 						"description": "Uma coleção de girassóis para colocar na sua parede."
 					}
 				},
 				"pot_fox_lily": {
 					"pot_fox_lily_ghost": {
-						"display_name": "Panela com lírio",
+						"display_name": "Panela com Lírio",
 						"description": "Pequena panela de barro com uma bela flor."
 					}
 				},
@@ -1464,32 +1464,32 @@
 				},
 				"pot_acacia": {
 					"pot_acacia_ghost": {
-						"display_name": "Panela com bonsai de acácia",
+						"display_name": "Panela Com Bonsai de Acácia",
 						"description": "Pequena panela de barro com uma bela árvore em miniatura."
 					}
 				},
 				"wind_chime": {
 					"wind_chime_ghost": {
-						"display_name": "Sinos de vento de cristal",
+						"display_name": "Sinos de Vento de Cristal",
 						"description": "Uma vista magnífica e som para combinar."
 					}
 				}
 			},
 			"hearth_box": {
 				"hearth_box_ghost": {
-					"display_name": "Lar da Glória",
+					"display_name": "Lareira da Glória",
 					"description": "Fornece calor, luz, conforto e uma chance de desafiar ondas de mortos-vivos"
 				}
 			},
 			"hearth_lamp": {
 				"hearth_lamp_ghost": {
-					"display_name": "Lar da Alegria",
+					"display_name": "Lareira da Alegria",
 					"description": "Fornece calor, luz, conforto e buffs diários aleatórios"
 				}
 			},
 			"hearth_urn": {
 				"hearth_urn_ghost": {
-					"display_name": "Lar dos Fabricantes",
+					"display_name": "Lareira dos Criadores",
 					"description": "Fornece calor, luz, conforto e juros diários sobre o ouro de propriedade"
 				}
 			}
@@ -1507,7 +1507,7 @@
 					},
 					"herald_amyyria": {
 						"display_name": "Amyyria Iskender ",
-						"description": "Chefe da Iskender Trading Company."
+						"description": "Chefe da Iskender Empresa Comercial."
 					}
 				},
 				"male": {
@@ -1576,7 +1576,7 @@
 				"description": "Um foco espiritual, essencial para a Banda Carmesim"
 			},
 			"legendary_rc_blade": {
-				"display_name": "Osso temperado",
+				"display_name": "Osso Temperado",
 				"description": "Lâmina inquebrável da Presa do Deserto"
 			},
 			"legendary_rc_inlay": {
