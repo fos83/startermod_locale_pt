@@ -2,8 +2,8 @@
 	"kingdom": {
 		"kingdom_name": "Aliança do Norte",
 		"quote": "Meus pais seguiram as estrelas por mil, mil ciclos.",
-		"long_description": "Corajosos e resistentes, os homens e mulheres do norte vivem pela visão de um novo amanhecer sobre território inexplorado. Munidos de bússola e machadinha, eles se orgulham de sua tenaz adaptabilidade.",
-		"post_selection_description": ", um clã de exploradores tenazes.",
+		"long_description": "Corajosos e resistentes, os homens e mulheres do norte vivem pela visão de um novo amanhecer sobre território inexplorado. Unidos pela bússola e machadinha, eles se orgulham de sua plena adaptabilidade.",
+		"post_selection_description": ", Um clã de exploradores tenazes.",
 		"initial_town_name": "Viagem [str(town_number)]"
 	},
 	"data": {
@@ -270,7 +270,7 @@
 									},
 									"bulletin_title": "Ronia retorna novamente",
 									"dialog_title": "Mais tempo para contos",
-									"choice_000": "Sim por favor.",
+									"choice_000": "Sim, por favor.",
 									"choice_001": "[pular] Sabemos qual lareira queremos."
 								}
 							}
@@ -288,7 +288,7 @@
 							"dialog_nodes": {
 								"clergy": {
 									"bulletin_message": {
-										"00": "Ronia mergulha novamente em uma cadência poética: \"Firnn, o Veado, de cujos cascos caem os favores do verão: abençoe esta cidade com prosperidade e sabedoria para viver em harmonia com os ciclos da terra.\" <br><i>(Construir uma Fonte do Verão concederá a todos os seus habitantes um aumento de +1 nos atributos da mente, corpo e espírito.)</i>"
+										"00": "Ronia mergulha novamente em uma cadência poética: \"Firnn o Veado, de cujos cascos caem os favores do verão: abençoe esta cidade com prosperidade e sabedoria para viver em harmonia com os ciclos da terra.\" <br><i>(Construir uma Fonte do Verão concederá a todos os seus habitantes um aumento de +1 nos atributos da mente, corpo e espírito.)</i>"
 									},
 									"bulletin_title": "A Fonte do Verão",
 									"dialog_title": "O Clero",
@@ -296,7 +296,7 @@
 								},
 								"makers": {
 									"bulletin_message": {
-										"00": "Ronia continua: \"Knut the Swift, que gira a roda da fortuna: abençoe esta cidade com um momento de grande prosperidade e a previsão de guardar favor contra as reversões que virão. <br><i>(Construir uma Fonte da Fortuna concederá a capacidade de criar móveis e decorações de qualidade, que são consideravelmente melhores do que os de excelente qualidade.) </i>"
+										"00": "Ronia continua: \"Knut o Veloz, que gira a roda da fortuna: abençoe esta cidade com um momento de grande prosperidade e a previsão de guardar favor contra as reversões que virão. <br><i>(Construir uma Fonte da Fortuna concederá a capacidade de criar móveis e decorações de qualidade, que são consideravelmente melhores do que os de excelente qualidade.) </i>"
 									},
 									"bulletin_title": "A Fonte da Fortuna",
 									"dialog_title": "A Fonte da Fortuna",
@@ -339,7 +339,7 @@
 						}
 					},
 					"unlock_shrine_recipes": {
-						"bulletin_title": "Receitas do santuário Pedreiros desbloqueadas!"
+						"bulletin_title": "Receitas do santuário Pedreiros Desbloqueadas!"
 					},
 					"shrine_quest_valor": {
 						"title": "Missão da Cidade: Fonte do Fogo",
@@ -350,8 +350,8 @@
 						"dialog_title": "Missão da Cidade: Fonte da Fortuna"
 					},
 					"shrine_quest_deity": {
-						"title": "Missão da Cidade: Fonte do verão",
-						"dialog_title": "Missão da Cidade: Fonte do verão"
+						"title": "Missão da Cidade: Fonte do Verão",
+						"dialog_title": "Missão da Cidade: Fonte do Verão"
 					},
 					"shrine_upgrade": {
 						"title": "Cidade Estabelecida",
@@ -366,15 +366,15 @@
 							"recipe_unlock_weaver": "Nova receita de pele de lobo para Tecelão!"
 						},
 						"achievements": {
-							"001": "Receitas de recipiente de pedreiro",
+							"001": "Receitas de recipiente de Pedreiro",
 							"000": "Estatística do Corpo é aumentada em +2",
-							"002": "Receita de pele de lobo de tecelão"
+							"002": "Receita de pele de lobo de Tecelão"
 						},
 						"reward_message_ctd": "Por atos de incrível em combate. A cidade é elegível para:"
 					},
 					"shrine_upgrade_guildmaster": {
 						"recipe_bulletins": {
-							"recipe_unlock_blacksmith": "Novas receitas de móveis para ferreiro!",
+							"recipe_unlock_blacksmith": "Novas receitas de móveis para Ferreiro!",
 							"recipe_unlock_mason": "Nova receita de estátua para Pedreiros!"
 						},
 						"achievements": {
@@ -385,7 +385,7 @@
 					},
 					"shrine_upgrade_deity": {
 						"recipe_bulletins": {
-							"recipe_unlock_mason": "Nova receita de janela para pedreiro!",
+							"recipe_unlock_mason": "Nova receita de janela para Pedreiro!",
 							"recipe_unlock_weaver": "Novas receitas de decoração para Tecelão!"
 						},
 						"achievements": {
@@ -462,7 +462,7 @@
 									},
 									"bulletin_title": " Firnn, Espírito do Verão",
 									"dialog_title": " Firnn, Espírito do Verão",
-									"choice_000": "Isso é ... Firnn?"
+									"choice_000": "Isso é... Firnn?"
 								},
 								"msg3": {
 									"bulletin_message": {
@@ -823,7 +823,7 @@
 					"recipe_name": "Fonte de Fogo"
 				},
 				"crude_weaver_spindle_recipe": {
-					"recipe_name": "Eixo bruto"
+					"recipe_name": "Eixo Bruto"
 				},
 				"stone_sword_recipe": {
 					"recipe_name": "Espada de Prática de Pedra"
@@ -843,7 +843,7 @@
 				},
 				"wall_mounted_antlers_recipe": {
 					"description": "Os parentes de Firnn abençoam nossos salões com seus chifres.",
-					"recipe_name": "Luminária de parede de chifre"
+					"recipe_name": "Luminária de Parede de Chifre"
 				},
 				"wall_mounted_paw_recipe": {
 					"description": "Marca do caçador, nunca vi ou ouvi... até que seja tarde demais.",
@@ -908,11 +908,11 @@
 				},
 				"input_shelf_wall_stone_gold": {
 					"description": "Um recipiente que é tão lindo quanto útil.",
-					"recipe_name": "Prateleira de suprimentos de parede dourada"
+					"recipe_name": "Prateleira de Suprimentos de Parede Dourada"
 				},
 				"table_stone_gold": {
 					"description": "Uma mesa da qual Knut teria orgulho de comer.",
-					"recipe_name": "Mesa de pedra banhada a ouro"
+					"recipe_name": "Mesa de Pedra Banhada a Ouro"
 				},
 				"wall_mounted_candle": {
 					"description": "Uma decoração em reconhecimento à glória de Knut.",
