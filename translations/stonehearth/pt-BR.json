@@ -611,8 +611,8 @@
 					"none": "Nenhum",
 					"geomancer": "Pedras de Invocação"
 				},
-				"tooltip_combat_base_damage": "Atq: ",
-				"tooltip_combat_base_damage_reduction": "Def: ",
+				"tooltip_combat_base_damage": "ATQ: ",
+				"tooltip_combat_base_damage_reduction": "DEF: ",
 				"tooltip_num_undeployed": "Desocupado: [str(num_undeployed)]",
 				"tooltip_deprecated": "Item Legado: este item não pode mais ser obtido no jogo.",
 				"death_notification": "[name(i18n_data.entity)] esta morto.",
@@ -919,7 +919,7 @@
 					}
 				},
 				"city_dialog": {
-					"proclamation": "PROCLAMAÇÃO DE"
+					"proclamation": "PROCLAMAÇÃO DE "
 				},
 				"city_tier_dialog": {
 					"build_and_place": "Construir & Colocar",
