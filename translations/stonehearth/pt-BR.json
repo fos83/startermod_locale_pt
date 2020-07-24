@@ -84,7 +84,7 @@
 					"pointerTool": "Ponteiro",
 					"roadTool": "Criando Ruas"
 				},
-				"place_build_banner": "Coloque o banner em um local acessível ao lado de sua construção.",
+				"place_build_banner": "Coloque a bandeira em um local acessível ao lado de sua construção.",
 				"new_building_confirm": {
 					"title": "Criar Nova Construção",
 					"message": "Você quer começar um novo projeto de construção?",
@@ -155,7 +155,7 @@
 			"visions": {
 				"building_vision": "Visão de Construção",
 				"building_vision_description": "Muda a visibilidade das paredes, permitindo ver dentro das construções.",
-				"terrain_slice_vision": "Visão de Terreno Fatiado",
+				"terrain_slice_vision": "Visão de Terreno Pela Metade",
 				"terrain_slice_vision_icon_name": "Camadas",
 				"terrain_slice_vision_description": "Corte o terreno, permitindo que você veja estruturas subterrâneas. Altere a elevação para ver diferentes fatias.",
 				"terrain_slice_vision_up": "Subir fatia (de 5)",
@@ -165,8 +165,8 @@
 				"terrain_xray_vision_icon_name": "Raio-X",
 				"terrain_xray_vision": "Visão de Terreno Raio-X",
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
-				"terrain_xray_vision_flat": "plano",
-				"terrain_xray_vision_full": "completo",
+				"terrain_xray_vision_flat": "Plano",
+				"terrain_xray_vision_full": "Completo",
 				"appeal_vision_icon_name": "Atrativo",
 				"appeal_vision": "Visão de Atrativo",
 				"appeal_vision_description": "Veja o quão atraente os hearthlings acham o mundo."
@@ -192,7 +192,7 @@
 				"promotion_title": "Promover a [str(job_name)]",
 				"text_1": "Em honra de esforços firmes e resiliência, nós avançamos:",
 				"text_current": "Este é o trabalho atual do hearthling.",
-				"choose": "escolha um hearthling...",
+				"choose": "Escolha um hearthling...",
 				"text_2": "[str(date)] ",
 				"approve": "APROVAR",
 				"approved": "APROVADO",
@@ -216,12 +216,12 @@
 			"multiplayer_menu": {
 				"display_name": "Menu Multijogador",
 				"description": "Outros jogadores que entraram nesse mundo",
-				"host": "hospedeiro",
-				"client": "convidado",
-				"online": "online ",
-				"offline": "offline ",
-				"connecting": "conectando",
-				"embarking": "embarcando",
+				"host": "Hospedeiro",
+				"client": "Convidado",
+				"online": "Online ",
+				"offline": "Offline ",
+				"connecting": "Conectando",
+				"embarking": "Embarcando",
 				"invite": "Convidar",
 				"player": "Jogador",
 				"players": "Jogadores",
@@ -253,8 +253,8 @@
 					}
 				},
 				"friends_list": "Clique para convidar!",
-				"away": "ausente",
-				"busy": "ocupado"
+				"away": "Ausente",
+				"busy": "Ocupado"
 			},
 			"build_workshop": {
 				"title": "Construir Mesa de Trabalho",
@@ -403,12 +403,12 @@
 			},
 			"multiplayer_status_text": {
 				"status": {
-					"connected": "conectado",
-					"connecting": "está conectando",
-					"disconnected": "desconectado",
-					"removed": "removido do jogo",
-					"placed_camp": "colocou seu acampamento",
-					"changed_town_name": "definiram o nome da cidade para"
+					"connected": "Conectado",
+					"connecting": "Está conectando",
+					"disconnected": "Desconectado",
+					"removed": "Removido do jogo",
+					"placed_camp": "Colocou seu acampamento",
+					"changed_town_name": "Definiram o nome da cidade para"
 				}
 			},
 			"disconnected": {
@@ -424,7 +424,7 @@
 			"steam": {
 				"workshop_agreement": {
 					"notice": "Ao enviar este item, você concorda com os ",
-					"terms_of_service": "termos de serviço da oficina"
+					"terms_of_service": "Termos de serviço da oficina"
 				}
 			},
 			"party": {
@@ -509,8 +509,8 @@
 					"morale": "Moral"
 				},
 				"show_character_sheet": "Mais informações",
-				"button_suspend": "suspender",
-				"button_resume": "resumir",
+				"button_suspend": "Suspender",
+				"button_resume": "Resumir",
 				"change_all": "Mudar Todos",
 				"change_all_title": "Defina em qual cidade todos os cidadãos devem trabalhar",
 				"tab": {
@@ -602,7 +602,7 @@
 					"refined": "Refinado",
 					"uncategorized": "Sem categoria",
 					"workshops": "Oficinas",
-					"consumable": "consumíveis",
+					"consumable": "Consumíveis",
 					"storage": "Estoque",
 					"defense": "Defesa",
 					"trophy": "Troféus",
@@ -849,7 +849,7 @@
 						"geomancer": {
 							"display_name": "Geomante",
 							"description": "Faz pedras de invocação e golens",
-							"required_job_text": "Requer um geomante"
+							"required_job_text": "Requer um Geomante"
 						}
 					}
 				},
@@ -1157,12 +1157,12 @@
 					"show_margin": "Saliência"
 				},
 				"stairs_shape": {
-					"shape_title": "Forma de escadas",
+					"shape_title": "Forma de Escadas",
 					"options_title": "Escadas Opções",
 					"max_height": "Altura Livre",
 					"width": "Largura",
 					"solid_stairs": "Escadas Sólidas",
-					"hollow_stairs": "Escadas ocas"
+					"hollow_stairs": "Escadas Ocas"
 				},
 				"fixtures": {
 					"search_placeholder": "Buscar"
@@ -1248,7 +1248,7 @@
 						"wood_resource": "Ruas de Madeira",
 						"stone_resource": "Ruas de Pedra",
 						"clay_resource": "Ruas de Argila",
-						"clay_brick_resource": "Ruas de TIjolos"
+						"clay_brick_resource": "Ruas de Tijolos"
 					},
 					"stairs": {
 						"material": "Material de Escadas",
@@ -1362,13 +1362,13 @@
 				"unclaimed_workshop_description": "Não reclamado",
 				"workshop_entity_claimed_description": "Pertence a [name(self.stonehearth:workshop.crafter)]",
 				"craft_number_left": "Fazer",
-				"craft_number_right": "agora.",
+				"craft_number_right": "Agora.",
 				"craft_up_to_left": "Manter",
-				"craft_up_to_right": "em estoque.",
+				"craft_up_to_right": "Em estoque.",
 				"craft_ingredients": "Ingredientes:",
 				"craft_requirements": "Requisitos:",
 				"unlock_text": "Para destravar:",
-				"crafting_status": "criando...",
+				"crafting_status": "Criando...",
 				"crafting_status_queued": "Enfileiradas",
 				"workshop_paused_status": "Pausado...",
 				"workshop_remove_confirm": "Remover?",
@@ -1383,7 +1383,7 @@
 				"workshop_required": "Requer um ",
 				"level_requirement_title": "Requisito de Nível",
 				"level_requirement_none": "Nada solicitado!",
-				"level_requirement_needed": "Requer um",
+				"level_requirement_needed": "Requer um ",
 				"level_requirement_level": " de Nível ",
 				"too_many_symbol": "muitos",
 				"requirements_unmet_general": "Requisitos de Não Alcançados!",
@@ -1722,21 +1722,21 @@
 					"infinite_inventory": "Desativar limite de capacidade de inventário",
 					"infinite_inventory_description": "Isso removerá o limite do número máximo de itens que você pode ter em seu inventário da cidade.<br><br>Nota: Você deve reiniciar o jogo para que isso entre em vigor!<br><br><font color = '#eb4c36'><strong>Aviso:</strong></font> Ter muitos itens no jogo afetará o desempenho do jogo."
 				},
-				"mods": "Módulos",
+				"mods": "Mods",
 				"mods_tab": {
-					"title": "Módulos Instalado",
-					"note": "Habilitar Ou Desabilitar um Módulo Requer Reinício.",
+					"title": "Mods Instalado",
+					"note": "Habilitar Ou Desabilitar um Mod Requer Reinício.",
 					"invalid_manifest": "Manifest Inválido",
 					"invalid_steam_file": "ID de arquivo do Steam inválido",
 					"out_of_date": "Desatualizado",
 					"deferred_load": "Carregado Automaticamente por outros módulos",
 					"required": "Necessário",
-					"debug": "Módulo para Depuração",
-					"localization": "Isto é um módulo de tradução?",
+					"debug": "Mod para Depuração",
+					"localization": "Isto é um mod de tradução?",
 					"loading_namespace": "[ carregando... ]",
 					"mods_changed_dialog": {
-						"title": "Módulos Mudaram",
-						"message": "O jogo precisa recarregar para aplicar as alterações do módulo. Reiniciar agora?",
+						"title": "Mods Mudaram",
+						"message": "O jogo precisa recarregar para aplicar as alterações do mod. Reiniciar agora?",
 						"accept": "OK",
 						"cancel": "Cancelar"
 					},
@@ -1752,7 +1752,7 @@
 				"controls_tab": {
 					"key_binding_prompt": "Pressione Del para desvincular",
 					"reset_to_defaults": "Configuração Padrão",
-					"unbound": "desvinculado",
+					"unbound": "Desvinculado",
 					"conflict_dialog": {
 						"title": "Conflito de Ligação",
 						"message": "\"<strong>[str(combo)]</strong>\" já está em uso por [str(conflicts)].",
@@ -1875,7 +1875,7 @@
 				"exit": "Sair",
 				"settings": "Opções",
 				"about": "Sobre",
-				"kingdom_of": "O Reino de",
+				"kingdom_of": "O Reino de ",
 				"continue_game": "Continuar",
 				"new_game": "Novo Jogo",
 				"singleplayer_game": "Um Jogador",
@@ -1924,23 +1924,23 @@
 				}
 			},
 			"mods_menu": {
-				"title": "Módulos",
-				"note": "Ativar ou desativar um módulo requer um recarregamento de jogo.",
+				"title": "Mods",
+				"note": "Ativar ou desativar um mod requer um recarregamento de jogo.",
 				"apply": "Aplicar",
 				"open_folder": "Abrir Pasta",
 				"quit_to_menu": "Salvar e sair do menu",
-				"base_mod": "Módulo Base",
+				"base_mod": "Mods Base",
 				"modding_guide": "Modding Tutorial",
 				"sections": {
 					"base_mods": {
-						"title": "Módulos Base"
+						"title": "Mod Base"
 					},
 					"unmanaged_mods": {
-						"title": "Módulos Local",
+						"title": "Mod Local",
 						"templates_title": "Seus modelos"
 					},
 					"workshop_mods": {
-						"title": "Módulos da Oficina",
+						"title": "Mods da Oficina",
 						"templates_title": "Pacotes de modelos inscritos",
 						"browse_workshop": "Navegue na Oficina Steam",
 						"unsubscribe": "Cancelar subscrição",
@@ -1952,7 +1952,7 @@
 					"my_items": {
 						"title": "Envios da Oficina",
 						"templates_title": "Uploads de pacotes de modelos",
-						"create_new_mod": "Criar novo Módulo"
+						"create_new_mod": "Criar novo Mods"
 					}
 				},
 				"tooltips": {
@@ -2121,9 +2121,9 @@
 				}
 			},
 			"mod_create": {
-				"title": "Criar novo Módulo (Oficina Steam)",
+				"title": "Criar novo Mod (Oficina Steam)",
 				"opt_title": "Titulo do mod",
-				"opt_title_tooltip": "Um titulo para seu módulo",
+				"opt_title_tooltip": "Um titulo para seu mod",
 				"opt_title_placeholder": "e.g. Mundo Doce",
 				"opt_namespace": "Mod namespace",
 				"opt_namespace_tooltip": "O namespace para o seu mod que você usará para prefixar referências de alias em seu mod",
@@ -2206,7 +2206,7 @@
 				"hair_color": "Cor do Cabelo",
 				"name": "Nome",
 				"name_and_appearance": "Nome e aparência",
-				"appearance": "aparência"
+				"appearance": "Aparência"
 			},
 			"loadout": {
 				"title": "Selecionar recursos iniciais",
@@ -2227,7 +2227,7 @@
 				"file_bug_step_4": "Se você está encontrando um erro, por favor, confira http://discourse.stonehearth.net/t/13297 para soluções comuns, e como obter suporte para falhas. Abaixo está o seu ID de usuário exclusivo:"
 			},
 			"error_browser": {
-				"title": "Erro de Engine",
+				"title": "Erro de Mechanism",
 				"filename_label": "Nome do arquivo",
 				"close_permanently_button": "Fechar Permanentemente",
 				"prev_button": "Anterior",
@@ -2430,7 +2430,7 @@
 				"thread_resource_name": "Linha",
 				"leather_resource_name": "Peça de Couro",
 				"fiber_resource_name": "Pacote de Fibra",
-				"ingot_resource_name": "Lingote de metal",
+				"ingot_resource_name": "Lingote de Metal",
 				"herb_resource_name": "Erva",
 				"seed_resource_name": "Semente",
 				"seed_hard_resource_name": "Semente Dura",
@@ -2646,14 +2646,14 @@
 						"recipe_unlock_mason": "Novas receitas de decoração para pedreiro!",
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!",
 						"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - Colaboração Tecelão, Oleiro e Ferreiro!",
-						"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário- colaboração entre ferreiro, carpinteiro e pedreiro!",
-						"recipe_unlock_weapons_3": "Nova receita do arco lendário - colaboração de engenheiro, tecelão e carpinteiro!",
-						"recipe_unlock_weapons_4": "Nova receita do Circlet lendário - colaboração herborista, pedreiro e ferreiro!"
+						"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário- Colaboração entre ferreiro, carpinteiro e pedreiro!",
+						"recipe_unlock_weapons_3": "Nova receita do arco lendário - Colaboração de engenheiro, tecelão e carpinteiro!",
+						"recipe_unlock_weapons_4": "Nova receita do Circlet lendário - Colaboração herborista, pedreiro e ferreiro!"
 					},
 					"generosity_tier_2_reached": {
 						"reward_message_ctd": "Por demonstrar grande generosidade aos necessitados. A vila é solenemente elegível à:",
 						"recipe_unlock_mason": "Nova receita de fonte de desejos para pedreiro!",
-						"recipe_unlock_herbalist": "Novas decorações de arbustos para o erbalista!",
+						"recipe_unlock_herbalist": "Novas decorações de arbustos para o herborista!",
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!"
 					},
 					"crafting_tier_2_reached": {
@@ -3070,33 +3070,33 @@
 									"choice_000": "Ogo quem?",
 									"choice_001": "Uh. Não.",
 									"bulletin_message": {
-										"000": "By order of Ogo Skullbonker, Goblin-All-Chief-To-Be, you and all your stuffs now be tribute to Great Glittering Army and Red Kiln Empire!",
-										"001": "I envoy of Ogo Skullbonker, tamer of Mountains! Ogo demand many thing from all, include you, include your gold!",
-										"002": "My Chief-of-Chiefs, Ogo Skullbonker, soon take Glittering Army and rule all of Red Kiln! You next of many conquests. You become our goldfarmers!",
-										"003": "I am Bannergoblin of Ogo Skullbonker, rider of Mountain! My master demand you tribute, in form of all you have! You give everything! Or you pay!",
-										"004": "I bannergoblin of Ogo Skullbonker! When you bested the small chiefs, you bring Ogo's Eye upon you! And Ogo's Eye know all! You will give tribute, or eye will see your end!"
+										"000": "Por ordem de Ogo Skullbonker, Goblin-Tudo-Chefe-a-Ser, você e todas as suas coisas agora são tributo ao Grande Exército Brilhante e Ao Império Do Red Kiln!",
+										"001": "Eu enviado de Ogo Skullbonker, domador das montanhas! Ogo exige muitas coisas de todos, incluí-lo, incluir o seu ouro!",
+										"002": "Meu Chefe-de-Chefes, Ogo Skullbonker, logo pegue o Exército Brilhante e governe todo o Red Kiln! Você é o próximo de muitas conquistas. Vocês se tornam nossos ourumers!",
+										"003": "Eu sou o goblin da bandeira de Ogo Skullbonker, cavaleiro da montanha! Meu mestre exige seu tributo, em forma de tudo que você tem! Você dá tudo! Ou você paga!",
+										"004": "Eu esbofoi goblin de Ogo Skullbonker! Quando você superou os pequenos chefes, você traz o Olho de Ogo sobre você! E o Olho de Ogo sabe tudo! Você vai dar tributo, ou olho vai ver o seu fim!"
 									},
-									"bulletin_title": "The goblin straightens",
+									"bulletin_title": "O goblin endireita",
 									"dialog_title": "Porta-Bandeira do Ogo"
 								},
 								"ogo_description": {
 									"choice_000": "Profeta?",
 									"choice_001": "E",
 									"bulletin_message": {
-										"000": "Soothsayer say Ogo Skullbonker will be hero above all heroes! You destined to give him gold!",
-										"001": "Soothsayer little, but have big thoughts! Soothsayer never wrong. Soothsayer say you give Ogo gold, or Ogo will take it from you!",
-										"002": "Goblins long be shunned and forgotten. Soothsayer say that Ogo Skullbonker, my LittleChief, will soon change everything! For that, he need gold and labor!",
-										"003": "Ogo Skullbonker, Master of Masters, have great destiny, to rule over all! Soothsayer say so; soothsayer never wrong. Soothsayer say, you will help!"
+										"000": "Soothsayer diz que Ogo Skullbonker será o herói acima de todos os heróis! Você destinado a dar-lhe ouro!",
+										"001": "Soothsayer pouco, mas tenha grandes pensamentos! Vidente nunca erra. Vidente diz que você dá ouro a Ogo, ou Ogo vai tirá-lo de você!",
+										"002": "Goblins há muito tempo são evitados e esquecidos. Soothsayer diz que Ogo Skullbonker, meu Pequeno Lenço, logo mudará tudo! Para isso, ele precisa de ouro e mão-de-obra!",
+										"003": "Ogo Skullbonker, Mestre dos Mestres, tem grande destino, para governar tudo! Soothsayer dizer isso; vidente nunca erra. Soothsayer dizer, você vai ajudar!"
 									},
-									"bulletin_title": "The goblin's eyes glow with zeal",
+									"bulletin_title": "Os olhos do goblin's brilham com zelo",
 									"dialog_title": "Porta-Bandeira do Ogo"
 								},
 								"conclusion": {
 									"bulletin_message": {
-										"000": "Anyway, it matter not! I here only to warn you: muster your gold, so it easy for us to collect! We be back soon!",
-										"001": "Hahaha! Whatever. You all belong to us now. We come soon to collect you for gold mines!",
-										"002": "Oh, you say something? No matter, we return soon! Collect all your things so will be easy for us to move!",
-										"003": "Anyway, time to go iron my banner. Be back soon! Be ready, yes? New life under goblin rule awaits!"
+										"000": "De qualquer forma, não importa! Estou aqui apenas para avisá-lo: ressuje seu ouro, então é fácil para nós coletar! Voltaremos em breve!",
+										"001": "Hahaha! Tanto faz. Vocês todos pertencem a nós agora. Nós logo chegamos para recolhê-lo para minas de ouro!",
+										"002": "Oh, você disse alguma coisa? Não importa, voltamos logo! Recolham todas as suas coisas para que seja fácil para nós carregarmos!",
+										"003": "De qualquer forma, hora de passar a minha bandeira. Volto logo! Estar pronto, tá? Sua nova vida sob o governo goblin aguarda!"
 									},
 									"bulletin_title": "Os olhos do goblin se estreitam",
 									"dialog_title": "Porta-Bandeira do Ogo"
@@ -3111,10 +3111,10 @@
 									"choice_000": "Graças a deus!",
 									"choice_001": "(já vai tarde)",
 									"bulletin_message": {
-										"000": "Good news for you, pathetic humans! Ogo Skullbonker, Chief-of-Chiefs-To-Be, calls us to home for clan meet-meet. Been fun hanging with you! Maybe we tell friends, back soon for more fun taking your stuff!",
-										"001": "Humans no challenge. So sad. We hope to return home to our Chief-of-Chiefs, Ogo Skullbonker, with story of our glory, but there is no glory in defeating you. Maybe we come back when you stronger.",
-										"002": "We leaving now, humans. But we will be back.",
-										"003": "Well, was fun preying on you, pathetic humans! But fun times must end, we go home now to big clan meet-meet. While we gone, build more stuff, so when we come back, we can take more!"
+										"000": "Boas notícias para vocês, humanos patéticos! Ogo Skullbonker, Chefe-dos-Chefes-a-Ser, nos chama para casa para o encontro do clã. Foi divertido andar com você! Talvez contamos aos amigos, de volta logo para mais diversão tomando suas coisas!",
+										"001": "Humanos não desafiam. Muito triste. Esperamos voltar para casa ao nosso Chefe-de-Chefes, Ogo Skullbonker, com a história de nossa glória, mas não há glória em derrotá-lo. Talvez voltemos quando você for mais forte.",
+										"002": "Estamos saindo agora, humanos. Mas nós voltaremos.",
+										"003": "Bem, foi divertido atacar vocês, humanos patéticos! Mas os tempos divertidos devem acabar, vamos para casa agora para o grande encontro do clã. Enquanto nós saímos, construa mais coisas, então quando voltarmos, podemos pegar mais!"
 									},
 									"bulletin_title": "O goblin envia um recado",
 									"dialog_title": "[name(i18n_data.boss)] "
@@ -3147,7 +3147,7 @@
 									"choice_000": "Graças a deus!",
 									"choice_001": "Ogo quem?",
 									"bulletin_message": {
-										"000": "Boas notícias peões! Ogo Skullbonker, chefe dos chefes de estado, nos chama de volta para ele. Hora de ir para casa, mostre-lhe homenagem! Se você tiver sorte, talvez voltemos para visitar ... em breve!"
+										"000": "Boas notícias peões! Ogo Skullbonker, Chefe-dos-Chefes, nos chama de volta para ele. Hora de ir para casa, mostre-lhe homenagem! Se você tiver sorte, talvez voltemos para visitar ... em breve!"
 									},
 									"bulletin_title": "O goblin retorna magnanimamente",
 									"dialog_title": "[name(i18n_data.boss)] "
@@ -3203,12 +3203,12 @@
 								"msg1": {
 									"bulletin_message": {
 										"000": "Se você quiser terminar com os lobos antes que eles terminem você, ataque primeiro.",
-										"001": "There are wolves in the forest. Goblin wolves. Get them before they get you.",
-										"002": "Ogo's forces are on the move. There are wolves in your woods.",
+										"001": "Há lobos na floresta. Goblin-Lobos. Pegue-os antes que eles te peguem.",
+										"002": "As forças de Ogo estão em movimento. Há lobos em sua floresta.",
 										"003": "Pequeno acampamento humano: procure seu inimigo enquanto eles ainda dormem.",
-										"004": "Goblin wolves are trained to attack on command. Free them before that command is issued, and you will sleep easy tonight."
+										"004": "Goblin-Lobos são treinados para atacar no comando. Libertá-los antes que o comando é emitido, e você vai dormir fácil esta noite."
 									},
-									"bulletin_title": "Uma mensagem em uma flecha aparece no seu banner",
+									"bulletin_title": "Uma mensagem em uma flecha aparece na sua bandeira",
 									"dialog_title": "Mensagem Misteriosa"
 								}
 							}
@@ -3220,10 +3220,10 @@
 								"msg1": {
 									"bulletin_message": {
 										"000": "Existem lobos na floresta! Fuja enquanto você ainda pode!",
-										"001": "Can't you hear the howling? There are goblin wolves in the woods!",
-										"002": "Our group was just attacked by goblins! Flee!",
-										"003": "Those goblin wolves aren't like normal wolves--they're fast and vicious and unafraid! Run while you can!",
-										"004": "You have goblins in your woods! Bunker down somewhere safe before they attack!"
+										"001": "Você não pode ouvir o uivando? Há Goblin-Lobos na floresta!",
+										"002": "Nosso grupo foi atacado por goblins! Fuja!",
+										"003": "Esses lobos goblins não são como lobos normais - eles são rápidos, cruéis e sem medo! Corra enquanto pode!",
+										"004": "Você tem goblins em sua floresta! Bunker para baixo em algum lugar seguro antes de atacar!"
 									},
 									"bulletin_title": "Refugiados ofegantes aparecem no horizonte",
 									"dialog_title": "Refugiado"
@@ -3313,48 +3313,48 @@
 							"dialog_nodes": {
 								"shakedown": {
 									"bulletin_message": {
-										"000": "Hahaha!! Your puny settlement now part of Glittering Territory! I deserve tribute of shinies!",
-										"001": "Human Peons! You no understand the might of the Glittering Army! You lucky to bow before me. Also, want some things to hold to at night; to sing me to sleep. ",
-										"002": "You got supplies? We take; we good. We have understanding?",
-										"003": "Hahahah, you the new kid in the great Red Territory. This means me less-new-kid take your lunch. Lunch metaphor.  You make for us. Or else.",
-										"004": "You dumb bok, me big Glittering Chieftain! Natural order mean you give me stuff and I no dees-tro-i you. Me want supplies. Understand?"
+										"000": "Hahaha!! Seu assentamento insignificante agora faz parte do Território Brilhante! Eu mereço homenagem, coisas brilhantes!",
+										"001": "Peões Humanos! Você não entende o poder do Exército Brilhante! Você tem sorte de se curvar diante de mim. Além disso, quero que algumas coisas que se segurem à noite; para cantar para mim dormir.",
+										"002": "Você tem suprimentos? Nós tomamos; assim nós estamos bem. Nós temos compreensão?",
+										"003": "Hahahah, você o novo garoto no grande Território Vermelho. Isso significa que eu tome seu almoço, novato. Metáfora do almoço.  Você faz para nós. Ou então...",
+										"004: Seu livro, meu grande Chefe brilhante! Ordem natural significa que você me dá coisas e eu não dees-tro-i você. Eu quero suprimentos. Entende?"
 									},
-									"bulletin_title": "A goblin with a fancy hat swaggers into town",
+									"bulletin_title": "Um goblin com um chapéu chique se agloia na cidade",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_due": {
 									"bulletin_message": {
-										"000": "Glittering Army returns! Where iz stuff?",
-										"001": "My stuff! Where iz?",
-										"002": "We back. You pay tribute now. Where iz?",
-										"003": "Me dreamed last night. In dream, you make me stuff; we like brothers only me no kill you. Got Stuff?",
-										"004": "Want stuff now. You make? We good! You no make? You die. We all friends!"
+										"000": "Exército brilhante retorna! Onde coisas estão?",
+										"001": "Minhas coisas! Onde estão?",
+										"002": "Nós voltamos. Você presta homenagem agora. Onde estão?",
+										"003": "Eu sonhei ontem à noite. No sonho, você me faz coisas; Nós gostamos eu e meus irmãos, só assim eu não matá-lo. Tem coisas?",
+										"004": "Quero coisas agora. Você faz? Estamos bem! Você não faz nada? Você morre. Todos nós amigos!"
 									},
-									"bulletin_title": "The goblin stomps back into town",
+									"bulletin_title": "O goblin pisa de volta na cidade",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_failed": {
 									"bulletin_message": {
-										"000": "You forgot stuff? You no make? You stain Glittering Army Honor! You die now!",
-										"001": "You dumb boks no make my stuff?! Dooooom!!! DOOM TO ALL!!!",
-										"002": "What? You no have my stuff? BLOOD, STABBITY, AND VEN-JENCE!",
-										"003": "Me want to be good chieftan. Me want to be friends! But you no listen. No. You no worthy. Me must kill you, then go home. Cry for could-have-been. You cry too, except you dead."
+										"000": "Você esqueceu coisas? Você não faz nada? Você mancha a honra do exército brilhante! Você morre agora!",
+										"001": "Você não fazer minhas coisas?! Dooooom!!! DESGRAÇA PARA TODOS!!!",
+										"002": "O quê? Você não tem minhas coisas? SANGUE,PUNDADE, E VEN-JENCE!",
+										"003": "Eu quero ser um bom chefe. Eu quero sermos amigos! Mas você não escuta. Não. Você não é digno. Eu tenho que matá-lo, depois ir para casa. Chore por poderia ter sido. Você chora também, exceto você morto."
 									},
-									"bulletin_title": "The goblin frowns so hard you can't see his eyes",
+									"bulletin_title": "O goblin franze a testa tão forte que você não pode ver seus olhos",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_success": {
 									"bulletin_message": {
-										"000": "That's right. You cooperate, we get along just fine.",
-										"001": "You actually have stuff? I never--I mean, yes. You give me due.",
-										"002": "You got supplies? We take; we good!",
-										"003": "For me?! You bestest of best peons!",
-										"004": "My stuff! I take home now and cuddle to sleep at night.",
-										"005": "Hahahahaha!!! Pretty stuff!! Beautiful stuff!! Mine mine mine!",
-										"006": "Stuff!! Me sheep be so happy.",
-										"007": "My stuff! Hahahah, you pretty good for peon. Be back soon!"
+										"000": "Isso mesmo. Você coopera, nós nos damos muito bem.",
+										"001": "Você realmente tem coisas? Eu nunca... quero dizer, sim. Você me dá o devido.",
+										"002": "Você tem suprimentos? Nós tomamos; nós bem!",
+										"003": "Para mim?! Você melhor dos melhores peões!",
+										"004": "Minhas coisas! Eu levo para casa agora e abraço para dormir à noite.",
+										"005": "Hahahahaha!!! Coisas bonitas! Coisa linda!! Mina minha mina!",
+										"006": "Coisas!! Minhas ovelhas sejam tão felizes.",
+										"007": "Minhas coisas! Hahahah, você é muito bom para peões. Volte logo!"
 									},
-									"bulletin_title": "The goblin grins like a kid on Frostfeast",
+									"bulletin_title": "O goblin sorri como uma criança em Frostfeast",
 									"dialog_title": "[name(i18n_data.boss)] "
 								},
 								"collection_progress": {
@@ -3366,13 +3366,13 @@
 								},
 								"shakedown_refused": {
 									"bulletin_message": {
-										"000": "What? You say no? Then we take! TAKE ALL THINGS!!!!",
-										"001": "No no no. You supposed to say 'Yes.' You supposed to feel grateful! Try again? No? Bad! Me fix badness!",
-										"002": "No? Me brain breaking!! Me break you!",
-										"003": "What? Cannot believe?! Must kill!!!",
-										"004": "You no understand. Alternative: Death. Deeeaaaattth. DEAAATTTTTHHH!!!"
+										"000": "O quê? Você diz não? Então nós pegamos! PEGUE TODAS AS COISAS!!!!",
+										"001": "Não, não, não. Você deveria dizer 'sim'. Você deveria se sentir grato! Tentar novamente? Não? Ruim! Eu conserto a maldade!",
+										"002": "Não? Eu quebrando o cérebro! Eu te quebrar!",
+										"003": "O quê? Não pode acreditar?! Tem que matar!!!",
+										"004": "Você não entende. Alternativa: Morte. Moorrteeee. MMOOORRRTTTEEEEE!!!"
 									},
-									"bulletin_title": "The goblin looks incredulous",
+									"bulletin_title": "O goblin parece incrédulo",
 									"dialog_title": "[name(i18n_data.boss)] "
 								}
 							}
@@ -3419,7 +3419,7 @@
 												"description": "Mas... o que torna verde?"
 											},
 											"workers": {
-												"description": "Guarda-fogo"
+												"description": "Guarda-Fogo"
 											}
 										},
 										"goblin_tent": {
@@ -3449,24 +3449,24 @@
 								"create_camp": {
 									"ogo_tent": {
 										"ogo_tent": {
-											"display_name": "Ogo's Tent",
-											"description": "Made from bleached pelts."
+											"display_name": "Tenda de Ogo",
+											"description": "Feito de peles branqueadas."
 										},
 										"ogo": {
-											"description": "Soothsayer say, Ogo Chosen One, Ogo Cycle-Breaker",
+											"description": "Soothsayer diz, Ogo Chosen One, Ogo Cycle-Breaker",
 											"display_name": "Ogo Skullbonker"
 										}
 									},
 									"ogo_throne": {
 										"ogo_throne": {
-											"display_name": "Ogo's Throne",
-											"description": "Decorated with Mountain's Baby Tusks"
+											"display_name": "Trono de Ogo",
+											"description": "Decorado com presas de bebê da montanha"
 										}
 									},
 									"wolf_kennel": {
 										"wolf_cage": {
-											"display_name": "Wolf Cage",
-											"description": "Property of Ogo Skullbonker"
+											"display_name": "Gaiola do Lobo",
+											"description": "Propriedade de Ogo Skullbonker"
 										}
 									}
 								}
@@ -3478,78 +3478,78 @@
 											"dialog_nodes": {
 												"erdene_appears": {
 													"bulletin_message": {
-														"000": "Well done, little town. You survive another night. Ogo, his mountain, and his soothsayer are disappeared from the earth, but you remain. Do you celebrate?"
+														"000": "Bem feito, pequena cidade. Você sobrevive outra noite. Ogo, sua montanha, e seu adivinho desapareceram da terra, mas você permanece. Você comemora?"
 													},
-													"bulletin_title": "The cloaked orc scout appears",
+													"bulletin_title": "O batedor de orc camuflado aparece",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
-													"choice_000": "Yup! It was pretty cool",
-													"choice_001": "You look... sad?"
+													"choice_000": "Sim! Foi muito legal.,
+													"choice_001": "Você olha... Triste?"
 												},
 												"erdene_departs": {
 													"bulletin_message": {
-														"000": "My Khan calls me home. Fare well, little town. To every equal, another day dawns."
+														"000": "Meu Khan me chama de casa. Bem, cidadezinha. A cada igual, outro dia amanhece."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
 													"choice_000": "Adeus!",
-													"choice_001": "Thanks, I guess?"
+													"choice_001": "Obrigado, eu acho?"
 												},
 												"ogo_poem_3": {
 													"bulletin_message": {
-														"000": "Of lumber born and southstar driven, grew nest of hope in mountains riven"
+														"000": "De madeira nascida e southstar impulsionada, cresceu ninho de esperança nas montanhas riven."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho"
 												},
 												"red_kiln_description": {
 													"bulletin_message": {
-														"000": "My Khan has seen many years. He is ill. When his star falls, his men will look to the wilds, to grow their honor. Ogo's onus will pass to you, and they will come."
+														"000": "Meu Khan viu muitos anos. Ele está doente. Quando sua estrela cair, seus homens olharão para os selvagens, para aumentar sua honra. O bônus de Ogo vai passar para você, e eles virão."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
-													"choice_000": "Ogo's what?",
+													"choice_000": "Ogo é o quê?",
 													"choice_001": "Seu Khan morreu? Eu sinto muito..."
 												},
 												"ogo_poem_2": {
 													"bulletin_message": {
-														"000": "Oh heroes come, and heroes go, but forever's found in the campfire's glow"
+														"000": "Oh heróis vêm, e heróis vão, mas para sempre é encontrado no brilho da fogueira."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho"
 												},
 												"ogo_poem_4": {
 													"bulletin_message": {
-														"000": "The wink of the gem in the monkey's paw, the rebirth of the star the Gods foresaw"
+														"000": "A piscadela da joia na pata do macaco, o renascimento da estrela que os deuses previram."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho"
 												},
 												"erdene_discusses": {
 													"bulletin_message": {
-														"000": "To the great, come the challenges of the great. Power seeks power. To defeat power... is to invite the attention of more."
+														"000": "Para o grande, vêm os desafios do grande. O poder busca o poder. Para derrotar o poder... é convidar a atenção de mais."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
-													"choice_000": "More?",
-													"choice_001": "We can take them!"
+													"choice_000": "Mais?",
+													"choice_001": "Podemos levá-los!"
 												},
 												"ogo_poem_5": {
 													"bulletin_message": {
-														"000": "Who can say? My people believe... well. It does not matter now. The cycles of the gods are not for the everyday considerations of men, lizardkin, monkey's folk or otherwise. Look to your tomorrow, little town, and prosper."
+														"000": "Quem pode dizer? Meu povo acredita... Bem. Não importa agora. Os ciclos dos deuses não são para as considerações cotidianas dos homens, pele de lagarto, povo de macacos ou de outra forma. Olhe para o seu amanhã, pequena cidade, e prosperar."
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
-													"choice_000": "That's not helpful",
-													"choice_001": "Thanks, I guess?"
+													"choice_000": "Isso não ajuda.",
+													"choice_001": "Obrigado, eu acho?"
 												},
 												"ogo_poem": {
 													"bulletin_message": {
-														"000": "Cast the bones, Ogo's soothsayer did, over the cradle of this land. Would you hear his words?"
+														"000": "Lance os ossos, o adivinho de Ogo fez, sobre o berço desta terra. Você ouviria suas palavras?"
 													},
-													"bulletin_title": "Erdene considers",
+													"bulletin_title": "Erdene considera",
 													"dialog_title": "Erdene, oradora do Forno Vermelho",
-													"choice_000": "Sure!",
-													"choice_001": "No thanks"
+													"choice_000": "Certeza!",
+													"choice_001": "Não, obrigado"
 												}
 											}
 										}
@@ -3559,11 +3559,11 @@
 											"dialog_nodes": {
 												"simple_message": {
 													"bulletin_message": {
-														"000": "Music remind Mountain of warm, safe place. Of food and fire. Me give you this to say thank you."
+														"000": "A música lembra a Montanha de um lugar quente e seguro. De comida e fogo. Eu te dou isso para agradecer."
 													},
-													"bulletin_title": "Mountain leaves you a gift",
-													"dialog_title": "Mountain, the Ogre",
-													"choice_000": "Good Luck!"
+													"bulletin_title": "Montanha deixa um presente para você",
+													"dialog_title": "Montanha, o Ogro",
+													"choice_000": "Boa sorte!"
 												}
 											}
 										}
@@ -3573,27 +3573,27 @@
 											"dialog_nodes": {
 												"mountain_notices": {
 													"bulletin_message": {
-														"000": "Ogo can you not hear the chimes? Like old memory! Me no want to fight anymore."
+														"000": "Ogo, não pode ouvir os sinos? Como a velha memória! Eu não quero mais lutar."
 													},
-													"bulletin_title": "Mountain the Ogre lifts his head to listen",
-													"dialog_title": "Mountain the Ogre",
+													"bulletin_title": "Montanha o Ogro levanta a cabeça para ouvir",
+													"dialog_title": "Montanha, o Ogro",
 													"choice_000": "Huh."
 												},
 												"mountain_notices_2": {
 													"bulletin_message": {
 														"000": "Ogo?"
 													},
-													"bulletin_title": "Mountain looks around in horror",
-													"dialog_title": "Mountain the Ogre",
+													"bulletin_title": "Montanha olha ao redor em horror",
+													"dialog_title": "Montanha, o Ogro",
 													"choice_000": "Uh Oh."
 												},
 												"mountain_notices_3": {
 													"bulletin_message": {
-														"000": "OGO? YOU PEOPLE KILL OGO!!! SONG BE MEMORIAL FOR MOUNTAIN FRIEND!!!"
+														"000": "OGO? VOCÊS MATAM OGO!!! CANÇÃO SEJA MEMORIAL PARA AMIGO DA MONTANHA!!!"
 													},
-													"bulletin_title": "Mountain beats his enormous chest",
-													"dialog_title": "Mountain the Ogre",
-													"choice_000": "Whoops. Attack!"
+													"bulletin_title": "Montanha bate seu enorme peito",
+													"dialog_title": "Montanha, o Ogro",
+													"choice_000": "Opa. Ataque!"
 												}
 											}
 										}
@@ -3603,16 +3603,16 @@
 											"dialog_nodes": {
 												"ogo_death_2": {
 													"bulletin_message": {
-														"000": "Mountain! Fight... on...."
+														"000": "Montanha! Lutar... em..."
 													},
-													"bulletin_title": "Ogo Skullbonker falls to the ground",
+													"bulletin_title": "Ogo Skullbonker cai no chão",
 													"dialog_title": "Ogo Skullbonker"
 												},
 												"ogo_death_1": {
 													"bulletin_message": {
-														"000": "What? Ogo Skullbonker, defeated? What soothsayer say? What Mountain say? What about Khan? What about... next cycle?"
+														"000": "Que? Ogo Skullbonker, derrotado? O que diz o adivinho? O que a Montanha disse? E o Khan? O que acha de... próximo ciclo?"
 													},
-													"bulletin_title": "Ogo Skullbonker falls to the ground",
+													"bulletin_title": "Ogo Skullbonker cai no chão",
 													"dialog_title": "Ogo Skullbonker"
 												}
 											}
@@ -3623,49 +3623,49 @@
 											"dialog_nodes": {
 												"ogo_resists": {
 													"bulletin_message": {
-														"000": "Mountain, ridiculous! This is war! For shinies! Forward!!!"
+														"000": "Montanha, ridículo! Isto é guerra! Para os brilhantes! Frente!!!"
 													},
-													"bulletin_title": "Ogo looks indignant",
+													"bulletin_title": "Ogo parece indignado",
 													"dialog_title": "Ogo Skullbonker"
 												},
 												"renewed_attack": {
 													"bulletin_message": {
-														"000": "See Mountain? They refuse your offer of peace! Renewed attack!"
+														"000": "Vê Montanha? Eles recusam sua oferta de paz! Ataque renovado!"
 													},
-													"bulletin_title": "Ogo raises his fist in triumph",
+													"bulletin_title": "Ogo levanta o punho em triunfo",
 													"dialog_title": "Ogo Skullbonker",
-													"choice_000": "Attack!!"
+													"choice_000": "Ataque!!"
 												},
 												"mountain_replies": {
 													"bulletin_message": {
-														"000": "Ogo can you not hear the chimes? Like old memory! Me no want to fight anymore."
+														"000": "Ogo, não pode ouvir os sinos? Como a velha memória! Eu não quero mais lutar."
 													},
-													"bulletin_title": "Mountain lifts his head to listen",
-													"dialog_title": "Mountain the Ogre"
+													"bulletin_title": "Montanha levanta a cabeça para ouvir",
+													"dialog_title": "Montanha, o Ogro"
 												},
 												"ogo_relents": {
 													"bulletin_message": {
-														"000": "Arghhh!!! But the shinies! Fine. Mountain my friend; me no go where he no go. Your town safe... for now. We return when Khan is well!"
+														"000": "Arghhh!!! Mas os brilhantes! Bem. Montanha meu amigo; me não ir onde ele não ir. Sua cidade segura... por enquanto. Voltamos quando Khan estiver bem!"
 													},
-													"bulletin_title": "Ogo stomps his foot in frustration",
+													"bulletin_title": "Ogo pisa o pé em frustração",
 													"dialog_title": "Ogo Skullbonker",
-													"choice_000": "See you later!"
+													"choice_000": "Até logo!"
 												},
 												"ogo_notices": {
 													"bulletin_message": {
-														"000": "Mountain, why you stop fighting?"
+														"000": "Montanha, por que você para de lutar?"
 													},
-													"bulletin_title": "Ogo Skullbonker waves to get his ogre's attention",
+													"bulletin_title": "Ogo Skullbonker acena para chamar a atenção de seu ogro",
 													"dialog_title": "Ogo Skullbonker"
 												},
 												"mountain_asks": {
 													"bulletin_message": {
-														"000": "No. Me no want to fight anymore. What about you, little people? If me no feel like fighting, what you do?"
+														"000": "Não. Eu não quero mais lutar. E vocês, gente pequena? Se eu não quiser lutar, o que você faz?"
 													},
-													"bulletin_title": "Mountain shakes his giant head",
-													"dialog_title": "Mountain the Ogre",
+													"bulletin_title": "Montanha balança sua cabeça gigante",
+													"dialog_title": "Montanha, o Ogro",
 													"choice_000": "No Way!",
-													"choice_001": "Let's be friends!"
+													"choice_001": "Vamos ser amigos!"
 												}
 											}
 										}
@@ -3675,10 +3675,10 @@
 											"dialog_nodes": {
 												"goblin_boss_notices": {
 													"bulletin_message": {
-														"000": "What? Human town dare display goblin honor token?! Retributioooooonnnn!!!!"
+														"000": "Que? Cidade humana ousa exibir símbolo de honra de goblin?! Retribuiççãããooo!!!!"
 													},
-													"bulletin_title": "Another Goblin Horn Sounds",
-													"dialog_title": "Goblin Bully"
+													"bulletin_title": "Outro Goblin Soa o Chifre",
+													"dialog_title": "Valentão Goblin"
 												}
 											}
 										}
@@ -3686,7 +3686,7 @@
 									"goblin_retribution_raid": {
 										"mission": {
 											"sighted_bulletin": {
-												"title": "Goblins come to reclaim their honor tokens!"
+												"title": "Goblins vêm para recuperar seus símbolos de honra!"
 											}
 										}
 									},
@@ -3695,24 +3695,24 @@
 											"dialog_nodes": {
 												"army_replies": {
 													"bulletin_message": {
-														"000": "Take all the things!!!!"
+														"000": "Pegue todas as coisas!!!!"
 													},
-													"bulletin_title": "The goblins raise their weapons",
+													"bulletin_title": "Os goblins levantam suas armas",
 													"dialog_title": "Porta-Bandeira do Ogo"
 												},
 												"ogo_attacks": {
 													"bulletin_message": {
-														"000": "At last, we come to place of great shinies! Go forth, my minions! Go forth for Ogo Skullbonker's glory!"
+														"000": "Finalmente, chegamos ao lugar de grandes brilhantes! Vá em frente, meus servos! Vá em frente para a glória de Ogo Skullbonker!"
 													},
-													"bulletin_title": "You Hear Goblin War Horns",
+													"bulletin_title": "Você ouve Chifres de Guerra dos Goblin ",
 													"dialog_title": "Ogo Skullbonker"
 												},
 												"mountain_replies": {
 													"bulletin_message": {
-														"000": "For Ogo! For Shinies!"
+														"000": "Para Ogo! Para Shinies!"
 													},
-													"bulletin_title": "Mountain roars his approval",
-													"dialog_title": "Mountain the Ogre"
+													"bulletin_title": "Montanha ruge sua aprovação",
+													"dialog_title": "Montanha, o Ogro"
 												}
 											}
 										}
