@@ -3995,7 +3995,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "The Red Kiln acredita que o avanço só pode vir do conflito entre iguais. O Khan não é mais. E onde um cai, aqueles mais fortes e mais espertos se elevarão."
+														"00": "O Red Kiln acredita que o avanço só pode vir do conflito entre iguais. O Khan não é mais. E onde um cai, aqueles mais fortes e mais espertos se elevarão."
 													},
 													"bulletin_title": "Warchief Oghar Norwind",
 													"dialog_title": "Warchief Oghar Norwind"
@@ -4139,7 +4139,7 @@
 														"000": "Brilhantes! Suprimentos! Talvez este trabalho seja ainda melhor do que trabalhar para o Chefe. Obrigado, humano. Se você quiser, coloque para fora o Mestre Gong vermelho. Ogro tomar token vermelho como desafio.",
 														"001": "Você tem medo de orc? Bom para mim! Não coloque para fora gongo vermelho ou ainda maior, boks mais burros podem vir.",
 														"002": "Coisas!! Você deveria contratar nós em tempo integral. Você pergunta o que fazemos por você? Podemos discutir em contrato. Talvez você precise de nós se você exibir Mestre Gong e bok gigante ogro vir.",
-														"003": "Você dá coisas boas! Meu lobo será tão feliz! Já conheceu o chefe ogro? Eles gostam de vermelho colorido. Como no Gong. Pergunte-lhe ferreiro.
+														"003": "Você dá coisas boas! Meu lobo será tão feliz! Já conheceu o chefe ogro? Eles gostam de vermelho colorido. Como no Gong. Pergunte-lhe ferreiro."
 													},
 													"bulletin_title": "O goblin pisca um sorriso banguela",
 													"dialog_title": "Acampamento Goblin"
@@ -4148,7 +4148,7 @@
 													"bulletin_message": {
 														"000": "Você concorda em pagar? Bom, nos torne mais fáceis. Voltamos mais tarde para coisas. Vamos tirar um cochilo agora..."
 													},
-													"bulletin_title": "Satisfy the goblins (again)",
+													"bulletin_title": "Satisfaça os goblins(novamente)",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"shakedown_refused": {
