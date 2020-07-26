@@ -4002,12 +4002,12 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "You there. Erdene told me of you. She said you defeated Ogo Skullbonker."
+														"00": "Você está aí. Erdene me falou de você. Ela disse que você derrotou Ogo Skullbonker."
 													},
-													"bulletin_title": "An orcish warchief approaches your town",
+													"bulletin_title": "Um warchief orcish se aproxima de sua cidade",
 													"dialog_title": "Warchief Oghar Norwind",
-													"choice_000": "Yes, that's me",
-													"choice_001": "What's it to you?"
+													"choice_000": "Sim, sou eu",
+													"choice_001": "O que isso tem a ver com você?"
 												},
 												"msg4": {
 													"bulletin_message": {
@@ -4028,7 +4028,7 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "You ask why? We offer to great Goddess Khulgana! Bring great riches after life. Now you know, you need give us treasure!"
+														"00": "Você pergunta por quê? Oferecemos à grande Deusa Khulgana! Traga grandes riquezas depois da vida. Agora você sabe, você precisa nos dar tesouros!"
 													},
 													"bulletin_title": "Kobold Scout",
 													"dialog_title": "Kobold Scout",
@@ -4036,9 +4036,9 @@
 												},
 												"msg4": {
 													"bulletin_message": {
-														"000": "You no give shinies?! We take!!!",
-														"001": "Ha, we was just testing you! Of course we strong enough to take!",
-														"002": "We take all gold! We revenge for hat melting!!"
+														"000": "Vocês não dão brilhantes?! Nós pegamos!!!",
+														"001": "Estávamos apenas testando você! Claro que somos fortes o suficiente para tomar!",
+														"002": "Pegamos todo o ouro! Nós nos vingamos pelo derretimento do chapéu!!"
 													},
 													"bulletin_title": "Kobold Scout",
 													"dialog_title": "Kobold Scout",
@@ -4046,20 +4046,20 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"000": "Grek!! You notice me?",
-														"001": "Oo shinies! Gong! Emerald!"
+														"000": "Grek, grek! Você me notou?",
+														"001": "Oo brilha! Gong! Esmeralda!"
 													},
 													"bulletin_title": "A kobold stares longingly at your piles of gold.",
 													"dialog_title": "Kobold Scout",
-													"choice_000": "What are you doing?"
+													"choice_000": "O que você está fazendo?"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"000": "We see you many treasures in piles and boxes. Us need many, many loots. You share, yes?"
+														"000": "Vemos muitos tesouros em pilhas e caixas. Precisamos de muitos, muitos saques. Você compartilha, não é?"
 													},
 													"bulletin_title": "Kobold Scout",
 													"dialog_title": "Kobold Scout",
-													"choice_000": "Why do you need so much loot?"
+													"choice_000": "Por que você precisa de tanto saque?"
 												}
 											}
 										}
@@ -4069,9 +4069,9 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Us.. too weak.. Put out Elite Gong if you dares.."
+														"00": "Nos... muito fraco... Apage Elite Gong se você se atrever..."
 													},
-													"bulletin_title": "The Kobold Scout whimpers on the ground",
+													"bulletin_title": "O Kobold Scout choraminga no chão",
 													"dialog_title": "Kobold Scout"
 												}
 											}
@@ -4082,7 +4082,7 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "We contractors. We make camp. Orc pay us. Those orc obsess with honor, politics, new Khan. Soon enough, they send orc army here and we need clean up again."
+														"00": "Nós empreiteiros. Nós acampamos. Orc nos paga. Aqueles orc obcecados com honra, política, novo Khan. Em breve, eles enviam o exército orc aqui e precisamos limpar novamente."
 													},
 													"bulletin_title": "Acampamento Goblin",
 													"dialog_title": "Acampamento Goblin",
@@ -4090,17 +4090,17 @@
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "You recognize? ...No, me don't know you. You saying us all look same?!"
+														"00": "Você reconhece?... Não, eu não te conheço. Está dizendo que todos nós somos iguais?"
 													},
-													"bulletin_title": "Some familiar looking goblins begin building huts near your town",
+													"bulletin_title": "Alguns goblins familiares começam a construir cabanas perto de sua cidade",
 													"dialog_title": "Acampamento Goblin",
 													"choice_000": "Talvez",
 													"choice_001": "Não?"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"000": "You lucky us busy! What we doing? We building huts. Set up camp.",
-														"001": "....We busy, so we ignore and go back to setting up camp."
+														"000": "Você nos teve sorte de ocupado! O que estamos fazendo? Estamos construindo cabanas. Montar acampamento.",
+														"001": "....Nós ocupados, então ignoramos e voltamos para montar acampamento."
 													},
 													"bulletin_title": "Acampamento Goblin",
 													"dialog_title": "Acampamento Goblin",
@@ -4114,48 +4114,48 @@
 											"dialog_nodes": {
 												"shakedown": {
 													"bulletin_message": {
-														"000": "Oh! Me think of great idea! You pay us instead and we make so no orc come! You just need give us some few treasures. You win, me win, both win."
+														"000": "Ah, não! Eu penso em uma grande ideia! Você nos paga em vez disso e nós fazemos tão nenhum orc vir! Você só precisa nos dar alguns tesouros. Você ganha, eu ganho, ambos ganham."
 													},
-													"bulletin_title": "The goblin's beady little eyes light up",
+													"bulletin_title": "Os olhinhos pequenos e brilhantes dos goblins se iluminam",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_due": {
 													"bulletin_message": {
-														"000": "We backs! Where is our shiny loots??"
+														"000": "Nós recuamos! Onde estão nossos saques brilhantes?"
 													},
-													"bulletin_title": "A pack of goblins lazily slog into back into town",
+													"bulletin_title": "Um bando de goblins preguiçosamente slog em volta para a cidade",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_failed": {
 													"bulletin_message": {
-														"000": "What? You change mind? ... You humans so inconsiderate of our time. Now we need call back dumb bok orcs and take pay cut.",
-														"001": "No has?? We has family you knows! You waste our time! We tell orcs give you no mercy!"
+														"000": "Que? Você muda de ideia?... Vocês humanos tão imprudentes do nosso tempo. Agora precisamos chamar de volta orcs, eu mudo e tomar corte de salário.",
+														"001": "Não tem?? Temos família que você conhece! Você perde nosso tempo! Dizemos aos orcs que não te dão misericórdia!"
 													},
 													"bulletin_title": "The goblin frowns",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_success": {
 													"bulletin_message": {
-														"000": "Shinies! Supplies! Maybe this job even better than work for Chieftain. Thanks, human. If you up to it, put out red Master Gong. Ogre take red token as challenge.",
-														"001": "You that scared of orc boks? Well, good for me! Don't put out red Gong or even bigger, dumber boks might come.",
-														"002": "Stuffs!! You should hire we full-time. You ask what we do for you? ..We can discuss in contract. Maybe you need us if you display Master Gong and giant ogre bok come.",
-														"003": "You give good stuffs! Me wolf will be so happy! Have you met ogre chief yet? They like color red. Like on Gong. Ask you blacksmith."
+														"000": "Brilhantes! Suprimentos! Talvez este trabalho seja ainda melhor do que trabalhar para o Chefe. Obrigado, humano. Se você quiser, coloque para fora o Mestre Gong vermelho. Ogro tomar token vermelho como desafio.",
+														"001": "Você tem medo de orc? Bom para mim! Não coloque para fora gongo vermelho ou ainda maior, boks mais burros podem vir.",
+														"002": "Coisas!! Você deveria contratar nós em tempo integral. Você pergunta o que fazemos por você? Podemos discutir em contrato. Talvez você precise de nós se você exibir Mestre Gong e bok gigante ogro vir.",
+														"003": "Você dá coisas boas! Meu lobo será tão feliz! Já conheceu o chefe ogro? Eles gostam de vermelho colorido. Como no Gong. Pergunte-lhe ferreiro.
 													},
-													"bulletin_title": "The goblin flashes a toothy grin",
+													"bulletin_title": "O goblin pisca um sorriso banguela",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_progress": {
 													"bulletin_message": {
-														"000": "You agree pay? Good, make us life easier. We come back later for stuffs. We take nap now..."
+														"000": "Você concorda em pagar? Bom, nos torne mais fáceis. Voltamos mais tarde para coisas. Vamos tirar um cochilo agora..."
 													},
 													"bulletin_title": "Satisfy the goblins (again)",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"shakedown_refused": {
 													"bulletin_message": {
-														"000": "You no want pay? Ok. Make little difference for us. Watch, for orc army come soon."
+														"000": "Você concorda em pagar? Bom, nos torne mais fáceis. Voltamos mais tarde para coisas. Vamos tirar um cochilo agora..."
 													},
-													"bulletin_title": "The goblin frowns",
+													"bulletin_title": "O goblin franze a testa",
 													"dialog_title": "Acampamento Goblin"
 												}
 											}
@@ -4166,19 +4166,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Your precious Cid Treaty can't protect you now, foolish humans!"
+														"00": "Seu precioso Tratado Cid não pode protegê-lo agora, humanos tolos!"
 													},
-													"bulletin_title": "Ogre chief",
-													"dialog_title": "Ogre chief",
+													"bulletin_title": "Chefe Ogro",
+													"dialog_title": "Chefe ogro",
 													"choice_000": "Bring it on"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Puny town! You mount mark of Ruby! You dare challenge me, Chief Grut Bashbrain?!"
+														"00": "Cidade puny! Você monta a marca de Ruby! Você ousa me desafiar, Chefe Grut Bashbrain?!"
 													},
-													"bulletin_title": "An ogre stomps into town",
-													"dialog_title": "Ogre chief",
-													"choice_000": "You don't scare me!"
+													"bulletin_title": "Um Ogro pisa na cidade",
+													"dialog_title": "Chefe ogro",
+													"choice_000": "Você não me assusta!"
 												}
 											}
 										}
@@ -4188,10 +4188,10 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Don't get arrogant puny humans! Brethren from capital await to test their might. Any town bearing the General's Gong will not be unheeded!"
+														"00": "Não fique arrogante humanos insignificantes! Irmãos da capital aguardam para testar seu poder. Qualquer cidade com gongo do General não será desprecedido!"
 													},
-													"bulletin_title": "The ogre chief shakes his fist angrily",
-													"dialog_title": "Chief Grut Bashbrain"
+													"bulletin_title": "O chefe do Ogro balança o punho com raiva",
+													"dialog_title": "Chefe Grut Bashbrain"
 												}
 											}
 										}
@@ -4201,17 +4201,17 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "That being said, we too are not to be underestimated. We have fought more beasts and creatures than your settlement could even conceive of. I look forward to our fight."
+														"00": "Dito isso, nós também não devemos ser subestimados. Lutamos com mais bestas e criaturas do que seu assentamento poderia conceber. Estou ansioso por nossa luta."
 													},
-													"bulletin_title": "Orc troop",
-													"dialog_title": "Orc troop"
+													"bulletin_title": "Tropa Orc",
+													"dialog_title": "Tropa Orc"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "So long it has been since we have seen the Purple Glimmer of a General's token. The Red Kiln would stand to benefit from fighting more foes such as yourself."
+														"00": "Há tanto tempo que não vimos o Brilho Roxo do símbolo de um general. O Red Kiln se beneficiaria de lutar contra mais inimigos como você."
 													},
-													"bulletin_title": "A troop of orcs walk towards you in perfect synchrony",
-													"dialog_title": "Orc troop",
+													"bulletin_title": "Uma tropa de orcs caminha em sua direção em perfeita sincronia",
+													"dialog_title": "Tropa orc",
 													"choice_000": "Obrigado"
 												}
 											}
@@ -4222,26 +4222,26 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "For us, there are many roads for advancement. This is but one, yet fruitful in itself."
+														"00": "Para nós, há muitas estradas para o avanço. Este é apenas um, mas frutífero em si mesmo."
 													},
-													"bulletin_title": "Orc troop",
-													"dialog_title": "Orc troop",
+													"bulletin_title": "Tropa Orc",
+													"dialog_title": "Tropa Orc",
 													"choice_000": "Uh?"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Perhaps you would not understand what fortuity this experience has given us, in this period of political upheaval. But that matters not. The Warchief will wish to meet you again. For now, I bid you well, human."
+														"00": "Talvez você não entenda o que essa experiência nos deu, neste período de turbulência política. Mas isso não importa. O Warchief vai querer encontrá-lo novamente. Por enquanto, eu lhe ofereço bem, humano."
 													},
-													"bulletin_title": "Orc troop",
-													"dialog_title": "Orc troop",
+													"bulletin_title": "Tropa Orc",
+													"dialog_title": "Tropa Orc",
 													"choice_000": "Tchau"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "I commend you on your victory. You have proven yourself a skilled and honorable foe."
+														"00": "Eu o elogio por sua vitória. Você provou ser um inimigo habilidoso e honrado."
 													},
-													"bulletin_title": "The orc respectfully bows at the outcome of the battle",
-													"dialog_title": "Orc troop",
+													"bulletin_title": "O orc respeitosamente se curva no resultado da batalha",
+													"dialog_title": "Tropa Orc",
 													"choice_000": "Obrigado"
 												}
 											}
@@ -4252,16 +4252,16 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "The defeat of my chiefs and warriors demands from us recognition of your strength. Let us contend in battle and the greater of equals shall come forth with honor and valiance."
+														"00": "A derrota dos meus chefes e guerreiros exige de nós o reconhecimento de sua força. Vamos lutar e o maior dos iguais virá com honra e valiance."
 													},
 													"bulletin_title": "Warchief Oghar Norwind",
 													"dialog_title": "Warchief Oghar Norwind"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "As I predicted, fate brings us together once more."
+														"00": "Como eu previ, o destino nos une mais uma vez."
 													},
-													"bulletin_title": "Warchief Oghar Norwind strides towards you with fearless bravado",
+													"bulletin_title": "Warchief Oghar Norwind caminha em sua direção com bravata destemida",
 													"dialog_title": "Warchief Oghar Norwind"
 												}
 											}
@@ -4272,25 +4272,25 @@
 											"dialog_nodes": {
 												"msg3": {
 													"bulletin_message": {
-														"00": "I now return home. Word comes to me that, bereft of our Khan's wisdom, our shaman have delved into dark things, long forgotten. They think the mistakes of the past do not apply to them, and I fear for what they may do."
+														"00": "Agora volto para casa. Dizem-me que, desprovido da sabedoria de nosso Khan, nosso xamã se aprofundou em coisas sombrias, há muito esquecido. Eles acham que os erros do passado não se aplicam a eles, e temo pelo que eles podem fazer."
 													},
 													"bulletin_title": "Warchief Oghar Norwind",
 													"dialog_title": "Warchief Oghar Norwind"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "I now return home. Word comes to me that bereft of our Khan's wisdom, our shaman have delved too far into dark, unknowable things. Nonetheless, if you ever wish to spar again and improve your skills, put out any gong of the Four Colors and we will gladly return to meet your challenge."
+														"00": "Agora volto para casa. Dizem que desprovido da sabedoria de nosso Khan, nosso xamã se aprofundou demais em coisas obscuras e desconhecidas. No entanto, se você quiser lutar novamente e melhorar suas habilidades, coloque qualquer gongo das Quatro Cores e voltaremos com prazer para enfrentar seu desafio."
 													},
 													"bulletin_title": "Warchief Oghar Norwind",
 													"dialog_title": "Warchief Oghar Norwind",
-													"choice_000": "Bring it on!",
-													"choice_001": "We should remove those..."
+													"choice_000": "Vamos lá!",
+													"choice_001": "Deveríamos removê-los..."
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Erdene was right about you. You are a worthy opponent indeed. We will not forget the strength that you have helped us gain."
+														"00": "Erdene estava certa sobre você. Você é um oponente digno, de fato. Não esqueceremos a força que você nos ajudou a ganhar."
 													},
-													"bulletin_title": "The warchief nods humbly",
+													"bulletin_title": "O warchief acena humildemente",
 													"dialog_title": "Warchief Oghar Norwind",
 													"choice_000": "Nós protegemos o que é nosso."
 												}
@@ -4298,48 +4298,48 @@
 										}
 									},
 									"unlock_blue_token_recipe": {
-										"bulletin_title": "The blacksmith has unlocked the Decorative Elite Gong recipe!"
+										"bulletin_title": "O ferreiro desbloqueou a receita decorativa do Elite Gong!"
 									},
 									"unlock_purple_token_recipe": {
-										"bulletin_title": "The Blacksmith has unlocked the General's Golden Gong recipe!"
+										"bulletin_title": "O Ferreiro desbloqueou a receita do Gongo Dourado do General!"
 									},
 									"unlock_red_token_recipe": {
-										"bulletin_title": "The Blacksmith has unlocked the Decorative Master Gong recipe!"
+										"bulletin_title": "O Ferreiro desbloqueou a receita do Mestre Gongo Decorativo!"
 									},
 									"titan_already_killed_dialog": {
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"story2": {
 													"bulletin_message": {
-														"00": "O-oh... how did you? Never mind, it matters not. I shall return to my people with the news that the Titanous scourge can be defeated. This may be what tips events in our favor, away from the treasonous shaman.<br><br>My deepest thanks to you, on behalf of my late Khan."
+														"00": "O-oh... Como você fez isso? Não importa, não importa. Voltarei ao meu povo com a notícia de que o flagelo titã pode ser derrotado. Isso pode ser o que sugere eventos a nosso favor, longe do xamã traiçoeiro.<br><br>Misso mais profundo graças a você, em nome do meu falecido Khan."
 													},
 													"bulletin_title": "Erdene boggles",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Uh, no problem, I guess!"
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Sem problemas, eu acho!"
 												},
 												"story1": {
 													"bulletin_message": {
 														"00": "I had come to warn you of the Titan lurking under your lands... to beseech your help in eradicating it, but... <br><br>...did you already cleanse this land of its sinister presence?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Confused",
-													"choice_000": "Oh, yeah, we got rid of it a while ago."
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, confuso",
+													"choice_000": "Oh, sim, nós nos livramos dele há um tempo atrás."
 												},
 												"greet": {
 													"bulletin_message": {
 														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Thank you, Erdene"
+													"bulletin_title": "Erdene do Red Kiln retorna, ansioso",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Obrigado, Erdene."
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "I come with a request of the utmost urgence, there is... wait..."
+														"00": "Eu venho com um pedido de extrema urgência, há... Esperar..."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Something wrong?"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Algo errado?"
 												}
 											}
 										}
@@ -4349,93 +4349,93 @@
 											"dialog_nodes": {
 												"request1": {
 													"bulletin_message": {
-														"00": "My request of you: A fragment of the evil that brought low the Phoenix Empire has coalesced here, beneath your feet.<br><br>Left unchallenged, it will sleep for generations yet, growing in strength, stifling and corrupting the magic of this land.<br><br>Awaken this Titan now, though, and it will have no choice but to expend its gathered energy in a final battle against your settlement. Withstand its wrath, and it will be snuffed out for good, and your descendants will live in peace."
+														"00": "Meu pedido de você: um fragmento do mal que trouxe baixo o Império Phoenix se fundiu aqui, sob seus pés.<br><br>A esquerda sem desafios, dormirá por gerações ainda, crescendo em força, sufocando e corrompendo a magia desta terra.<br><br>se este Titã agora, e não terá escolha a não ser gastar sua energia reunida em uma batalha final contra seu acordo. Resista à sua ira, e ela será apagada para sempre, e seus descendentes viverão em paz."
 													},
-													"bulletin_title": "Erdene requests",
-													"dialog_title": "Erdene's request",
-													"choice_000": "Yes! We'll fight, what now?",
-													"choice_001": "No. ...Do we have to?"
+													"bulletin_title": "Pedidos de Erdene",
+													"dialog_title": "Pedidos de Erdene",
+													"choice_000": "Sim! Vamos lutar, e agora?",
+													"choice_001": "Não... Temos que...?"
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "My shamans devised this Gong - take it and place it. When you are prepared, let it ring aloud, and it will rouse the slumbering Titan.<br><br>You will be beset by horrors for days, perhaps weeks - but a fragmented evil cannot sustain itself. Outlast. Strike at its minions, dig up its roots, drive off its tendrils. Every small victory will weaken it.<br><br>Persevere, and the Titan will fall, and a small part of the calamity of the Phoenix Empire finally undone.<br><br>Be an example for my people that this evil can be faced and destroyed - that we need not enslave ourselves to it. Please."
+														"00": "Meus xamãs criaram este Gong. Quando estiver preparado, deixe-o tocar em voz alta, e despertará o Titã adormeio.<br><br>Ásdemos serão assediados por horrores por dias, talvez semanas - mas um mal fragmentado não pode se sustentar. Sobreviver. Atacar seus lacaios, desenterrar suas raízes, expulsar seus tendões. Cada pequena vitória a enfraquecerá.<br><br>Persevere, e o Titã cairá, e uma pequena parte da calamidade do Império Phoenix finalmente desfez.<br><br>Por um exemplo para o meu povo de que este mal pode ser enfrentado e destruído - que não precisamos nos escravizar a ele. Por favor."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "We will ensure we're ready"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Vamos garantir que estamos prontos"
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Below is wrong. Snake knows this. Rabbit knows this. Monkey knows this, too. But, power seeks power.<br><br>The Phoenix, they found whispers of power below. They dug with picks and found clues, they dug with minds and found knowledge.<br><br>Knowledge without wisdom is peril."
+														"00": "Abaixo está errado. Serpente sabe disso. Coelho sabe disso. Macaco sabe disso também. Mas o poder busca o poder.<br><br>A Fênix, encontraram sussurros de poder abaixo. Eles cavaram com picaretas e encontraram pistas, cavaram com mentes e encontraram conhecimento.<br><br>Sapeito sem sabedoria é perigo."
 													},
-													"bulletin_title": "Erdene speaks low",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "What next?"
+													"bulletin_title": "Erdene fala baixo",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "O que vem depois?"
 												},
 												"farewell": {
 													"bulletin_message": {
-														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
+														"00": "Adeus, bravos humanos. Que sua estrela brilhe cada vez mais, e seja um guia para toda a noite que vem.<br><br><i><font size=-1>[Você pode encontrar o Gong deitado perto da sua Bandeira, ou em seu inventário em 'Decorações']</font></i>"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Goodbye, Erdene"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Adeus, Erdene."
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "It is a tale passed from Speaker to Speaker, of when Monkey first rose to prominence. From Monkey came humans, and those humans united.<br><br>They built an Empire, spreading from the center outwards until it encompassed the entire continent. As their grand central capital stretched up into the sky, the humans’ ambition led them below..."
+														"00": "É um conto passado de Orador para Orador, de quando Macaco ganhou destaque pela primeira vez. De Macaco vieram humanos, e aqueles humanos unidos.<br><br>Eles construíram um Império, espalhando-se do centro para fora até que englobasse todo o continente. Enquanto sua grande capital central se estendia para o céu, a ambição dos humanos os levou abaixo..."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Below?"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Abaixo?"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "No, I suppose not. The Titan will stay asleep for generations, your settlement is not at risk.<br><br>Perhaps I was wrong to burden you with a task that is rightfully mine. My apologies. I withdraw now, to tend to my own people.<br><br>I will leave behind this specially-prepared Gong - in the event you change your mind, simply place it and you shall be further enlightened.<br><br>Farewell, humans."
+														"00": "Não, acho que não. O Titã vai ficar dormindo por gerações, seu acordo não está em risco.<br><br>Perhaps eu estava errado em sobrecarregá-lo com uma tarefa que é por direito minha. Peço desculpas. Eu me retiro agora, para cuidar do meu próprio povo.<br><br>Eu deixarei para trás este Gong especialmente preparado - no caso de você mudar de ideia, basta colocá-lo e você será mais esclarecido.<br><br>Adeus, humanos."
 													},
-													"bulletin_title": "Erdene sighs...",
-													"dialog_title": "Erdene sighs...",
-													"choice_000": "We wish you the best."
+													"bulletin_title": "Suspiros de Erdene...",
+													"dialog_title": "Suspiros de Erdene...",
+													"choice_000": "Desejamos o melhor a você.."
 												},
 												"story5": {
 													"bulletin_message": {
-														"00": "In time, the darkness subsided, but now it saturates the earth, whispering to those who will listen. We Orcs tested your town’s strength not just for glory, but to prove that you have the will to resist this evil and its corruption.<br><br>Although, without a Khan to guide them, the shaman of the Red Kiln now seek to re-form this titanic evil, to control it.<br><br>I must stop them - it was my Khan’s last wish. But, this is for me and my kind to do.<br><br>Of you, I ask a favor."
+														"00": "Com o tempo, a escuridão diminuiu, mas agora satura a terra, sussurrando para aqueles que ouvirão. Nós Orcs testamos a força de sua cidade não apenas pela glória, mas para provar que você tem a vontade de resistir a este mal e sua corrupção.<br><br>Apesar disso, sem um Khan para guiá-los, o xamã do Red Kiln agora procura re-formar este mal titânico, para controlá-lo.<br><br>Eu devo detê-los - era o último desejo do meu Khan. Mas isso é para mim e minha espécie de fazer.<br><br>De você, eu peço um favor."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "What favor?"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Que favor?"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+														"00": "Humanos valentes, que provaram sua força, eu o saúdo agora como iguais. Este domínio é seu por direito, e sua estrela brilha ainda mais. A sua é uma fortuna promissora mesmo!"
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, anxious",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Thank you, Erdene"
+													"bulletin_title": "Erdene do Red Kiln retorna, ansioso",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Obrigado, Erdene."
 												},
 												"story4": {
 													"bulletin_message": {
-														"00": "Humans fled, receding to the edges of the world, and held on by their very fingertips until the darkness quieted itself.<br><br>Orcs, like all of Snake’s children, stayed and fought. Fought the corrupted, fought through famine and hardship. Whether through noble courage or foolish pride, I know not.<br><br>The Rabbits, already in decline, burrowed deep, forsaking the surface world."
+														"00": "Os humanos fugiram, recuando para as bordas do mundo, e seguraram suas próprias pontas dos dedos até que a escuridão se acalmou.<br><br>Orcs, como todos os filhos de Snake, ficaram e lutaram. Lutou contra os corruptos, lutou através da fome e das dificuldades. Seja por coragem nobre ou orgulho tolo, eu não sei.<br><br>Os Coelhos, já em declínio, escavaram fundo, abandonando o mundo da superfície."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
 													"choice_000": "Oh..."
 												},
 												"story3": {
 													"bulletin_message": {
-														"00": "A great evil was awakened, this we know. The capital was lost, obliterated, and the world surely doomed. But, there was some hero, some sacrifice, lost to time. It was enough. Not enough to destroy the evil, but enough to break it apart.<br><br>It dissipated like fog across the land, turning the forces of nature against its inhabitants, withering crops and fraying minds."
+														"00": "Um grande mal foi despertado, isso nós sabemos. A capital foi perdida, destruída, e o mundo certamente condenado. Mas houve algum herói, algum sacrifício, perdido no tempo. Foi o suficiente. Não o suficiente para destruir o mal, mas o suficiente para separá-lo.<br><br>Sipou-se como neblina por toda a terra, transformando as forças da natureza contra seus habitantes, murendo culturas e desgastou mentes."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "What happened to the Empire?"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "O que aconteceu com o Império?"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "I… come also with a request. I fear for my people.<br/><br/>Have you heard of the Phoenix Empire? Of its end?"
+														"00": "Eu... vir também com um pedido. Temo pelo meu povo<br/><br/>Já ouviu falar do Império Phoenix? De seu fim?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "[skip] I've heard it before",
-													"choice_001": "Phoenix Empire?"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "[pular] Já ouvi isso antes.",
+													"choice_001": "Império Phoenix?"
 												}
 											}
 										}
@@ -4445,19 +4445,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "<i><font size=-1>[Select the Gong and Press the 'Awaken Titan' button when you're ready. Killing or destroying the Titan's minions, tentacles, and roots will all reduce its health.]<br><br>[Good luck!]</font>"
+														"00": "<i><font size=-1>[Selecione o botão Gongo e Pressione o botão 'Despertar Titã' quando estiver pronto. Matar ou destruir os servos, tentáculos e raízes do Titã reduzirá sua saúde.]<br><br>[Boa sorte!]</font>"
 													},
-													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
-													"dialog_title": "A letter from Erdene",
+													"bulletin_title": "Uma nota rabiscada, anexada ao GongoUma nota rabiscada, anexada ao Gongo Sinistro Sinistro",
+													"dialog_title": "Uma carta de Erdene",
 													"choice_000": "[Okay!]"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Only sound this gong when prepared - your town will be cut off from the world for days.<br><br>Corrupted creatures will surely appear - face them in combat if you can, hole up and hide if you cannot. There is no shame in survival. Be vigilant for citizens being trapped, buildings being threatened, and be prepared to dig.<br><br>Every small victory will sap away the Titan's strength - attempt no direct attack, it is out of reach and a mere apparition.<br><br>Stand strong in driving away its corruption, and you will emerge victorious."
+														"00": "Só soe este gongo quando preparado - sua cidade será isolada do mundo por dias.<br><br>Criaturas corrompidas certamente aparecerão - enfrentá-las em combate se puder, se esconder e se esconder se não puder. Não há vergonha na sobrevivência. Fique atento aos cidadãos que estão presos, prédios sendo ameaçados e estejam preparados para cavar.<br><br>A pequena vitória afastará a força do Titã - não tente nenhum ataque direto, está fora de alcance e uma mera aparição.<br><br>Se forte em afastar sua corrupção, e você sairá vitorioso."
 													},
-													"bulletin_title": "A scrawled note, attached to the Sinister Gong",
-													"dialog_title": "A letter from Erdene",
-													"choice_000": "We will survive."
+													"bulletin_title": "Uma nota rabiscada, anexada ao Gongo Sinistro",
+													"dialog_title": "Uma carta de Erdene",
+													"choice_000": "Nós sobreviveremos."
 												}
 											}
 										}
@@ -4467,78 +4467,78 @@
 											"dialog_nodes": {
 												"accept2": {
 													"bulletin_message": {
-														"00": "Excellent! We Orcs aren't quite as talented in the crafts as you are, but my disciple has proven themselves a fierce warrior, and I'm sure they will make themselves useful however else they can!<br><br>Farewell, brave Humans, until a future day has dawned!"
+														"00": "Excelente! Nós Orcs não somos tão talentosos no ofício como você, mas meu discípulo provou ser um guerreiro feroz, e tenho certeza que eles se tornarão úteis como puderem!<br><br>Adeus, bravos humanos, até que um futuro dia amanheça!"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Safe travels, Erdene!"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Viagens seguras, Erdene!"
 												},
 												"request1": {
 													"bulletin_message": {
-														"00": "I should add... due to your exceptional bravery, some of my people have gone beyond simply respecting you as Humans, to now truly consider you as Orc. <br/><br/>Some even wish to emmigrate and become members of your tribe."
+														"00": "Devo acrescentar... devido à sua bravura excepcional, alguns do meu povo foram além de simplesmente respeitá-lo como humanos, para agora realmente considerá-lo como um Orc. <br/><br/>Alguns até desejam imigrar e se tornar membros de sua tribo."
 													},
-													"bulletin_title": "Erdene offers",
-													"dialog_title": "Erdene's offer",
-													"choice_000": "Orcs want to join my town?"
+													"bulletin_title": "Oferta de Erdene",
+													"dialog_title": "Oferta de Erdene",
+													"choice_000": "Orcs querem se juntar à minha cidade?"
 												},
 												"accept1": {
 													"bulletin_message": {
-														"00": "Wonderful! So, this Orc disciple may join your tribe?"
+														"00": "Maravilhoso! Então, este discípulo orc pode se juntar à sua tribo?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "[Accept] Yes!",
-													"choice_001": "[Reject] No..."
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "[Aceitar] Sim!",
+													"choice_001": "[Rejeitar] Não..."
 												},
 												"reject2": {
 													"bulletin_message": {
-														"00": "Very well. The news is sure to disappoint my disciple, but your tribe and its wishes deserve our utmost respect.<br><br>Farewell, brave Humans, until another day has dawned."
+														"00": "Muito bem. A notícia certamente desapontará meu discípulo, mas sua tribo e seus desejos merecem nosso maior respeito.<br><br>Adeus, bravos humanos, até que outro dia tenha amanhecer."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Safe travels, Erdene!"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Viagens seguras, Erdene!"
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "By the Khan's blessed name, you've done it!<br><br>I came as quickly as I could - I could feel the change in the winds even from the Red Kiln territories."
+														"00": "Pelo nome abençoado do Khan, você conseguiu!<br><br>Eu vim o mais rápido que pude- eu podia sentir a mudança nos ventos até mesmo dos territórios do Red Kiln."
 													},
-													"bulletin_title": "Erdene of the Red Kiln returns, joyous",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"bulletin_title": "Erdene do Red Kiln retorna, alegre",
+													"dialog_title": "Erdene, Orador do Red Kiln",
 													"choice_000": "We did!"
 												},
 												"reject1": {
 													"bulletin_message": {
-														"00": "Oh, I see... and I understand. If I were standing in your stead, I could not so easily accept a Human into the ranks of the Red Kiln, either. <br><br>That said, are you sure my disciple does not have a place here?"
+														"00": "Oh, entendo... e eu entendo. Se eu estivesse em seu lugar, eu não poderia aceitar tão facilmente um humano nas fileiras do Red Kiln, ou. <br><br>Dito isso, tem certeza que meu discípulo não tem um lugar aqui?"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "[Reject] We're quite sure",
-													"choice_001": "[Accept] On second thought..."
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "[Rejeitar] Temos certeza.",
+													"choice_001": "[Aceitar] Pensando bem..."
 												},
 												"request2": {
 													"bulletin_message": {
 														"00": "Yes! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
 													},
-													"bulletin_title": "Erdene continues",
+													"bulletin_title": "Erdene continua",
 													"dialog_title": "Erdene gestures",
-													"choice_000": "I see!"
+													"choice_000": "Entendo!"
 												},
 												"request3": {
 													"bulletin_message": {
-														"00": "In fact, one of my most loyal disciples has come along with me. They are quite insistent about joining your tribe. In truth, I lament them leaving my side, but cannot begrudge their wishes.<br><br>What say you? <i>Will you accept this humble Orc into your township this day?</i>"
+														"00": "Na verdade, um dos meus discípulos mais leais veio comigo. Eles insistem em se juntar à sua tribo. Na verdade, lamento que eles saiam do meu lado, mas não podem invejar seus desejos.<br><br>O que diz? <i>Aceitará este humilde Orc em sua cidade hoje?</i>"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene extends her hand",
-													"choice_000": "Welcome!",
-													"choice_001": "Um, no thanks..."
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene estende sua mão",
+													"choice_000": "Bem-vindo!",
+													"choice_001": "Não obrigado...."
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Your defeat of this sinister presence may be what tips events in our favor, and away from that of the treasonous shamans.<br><br>My deepest thanks to you, on behalf of my late Khan. I shall return to my people carrying the news that the Titanous scourge can, truly, be defeated."
+														"00": "Sua derrota desta presença sinistra pode ser o que sugere eventos a nosso favor, e longe da dos xamãs traiçoeiro.<br><br>Meu agradecimentos a você, em nome do meu falecido Khan. Voltarei ao meu povo carregando a notícia de que o Titanous pode, verdadeiramente, ser derrotado."
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "I'm glad we could do some good"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Estou feliz que poderíamos fazer algo de bom."
 												}
 											}
 										}
@@ -4548,7 +4548,7 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Would you like to let this Orc to join your town?"
+														"00": "Você gostaria de deixar este Orc para se juntar à sua cidade?"
 													},
 													"bulletin_title": "Um imigrante orc!",
 													"dialog_title": "Um Orc deseja se juntar à sua cidade!",
@@ -4717,20 +4717,20 @@
 									},
 									"shrine_upgrade_guildmaster": {
 										"achievements": {
-											"001": "Mason Fountains & Decorations",
-											"003": "Blacksmith Decorations",
-											"000": "Masterwork Craft Quality Unlocked",
-											"002": "Herbalist Topiary & Carpenter Fences",
-											"004": "Tier 3 Music"
+											"001": "Fontes de Pedreiro & Decorações",
+											"003": "Decorações de Ferreiro",
+											"000": "Qualidade do Ofício de Trabalho Mestre Desbloqueado",
+											"002": "Topiaria de Herboristas & Cercas de Carpinteiro",
+											"004": "Música de Nível 3"
 										}
 									},
 									"shrine_upgrade_valor": {
 										"achievements": {
-											"001": "Engineer Portcullis Recipe",
-											"003": "Blacksmith Decoration Recipes",
-											"000": "Legendary Weapon Recipes",
-											"002": "Mason Statues & Windows",
-											"004": "Tier 3 Music"
+											"001": "Receita de Engenheiro Portcullis",
+											"003": "Receitas de Decoração de Ferreiro",
+											"000": "Receitas Lendárias de Armas",
+											"002": "Estátuas de Pedreiro & Janelas",
+											"004": "Música de Nível 3"
 										}
 									},
 									"shrine_upgrade_deity": {
