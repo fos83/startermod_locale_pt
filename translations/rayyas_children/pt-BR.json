@@ -876,7 +876,7 @@
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "<palign='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Arke, eu sei, é hora de partir.<br/><br/>Eu adoraria ficar mais tempo, mas há outras caravanas menos auto-suficientes por aí que precisam de minha atenção.<br/><br/>Parabéns por todo o seu sucesso e obrigado por nunca ter feito muita papelada para mim."
+										"00": "<p align='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Arke, eu sei, é hora de partir.<br/><br/>Eu adoraria ficar mais tempo, mas há outras caravanas menos auto-suficientes por aí que precisam de minha atenção.<br/><br/>Parabéns por todo o seu sucesso e obrigado por nunca ter feito muita papelada para mim."
 									},
 									"bulletin_title": "Amyyria Continua",
 									"dialog_title": "Amyyria Iskender ",
