@@ -3317,7 +3317,7 @@
 										"001": "Peões Humanos! Você não entende o poder do Exército Brilhante! Você tem sorte de se curvar diante de mim. Além disso, quero que algumas coisas que se segurem à noite; para cantar para mim dormir.",
 										"002": "Você tem suprimentos? Nós tomamos; assim nós estamos bem. Nós temos compreensão?",
 										"003": "Hahahah, você o novo garoto no grande Território Vermelho. Isso significa que eu tome seu almoço, novato. Metáfora do almoço.  Você faz para nós. Ou então...",
-										"004": "Seu livro, meu grande Chefe brilhante! Ordem natural significa que você me dá coisas e eu não dees-tro-i você. Eu quero suprimentos. Entende?"
+										"004: Seu livro, meu grande Chefe brilhante! Ordem natural significa que você me dá coisas e eu não dees-tro-i você. Eu quero suprimentos. Entende?"
 									},
 									"bulletin_title": "Um goblin com um chapéu chique se agloia na cidade",
 									"dialog_title": "[name(i18n_data.boss)] "
@@ -4747,68 +4747,68 @@
 											"dialog_nodes": {
 												"clergy": {
 													"bulletin_message": {
-														"00": "Kind greetings! My name is Ember Minton, and I am a missionary for the Church of Plenty. We would be delighted to have a settlement such as yours count among one of our Townships."
+														"00": "Boas saudações! Meu nome é Ember Minton, e sou missionário da Igreja da Abundância. Ficaríamos encantados em ter um acordo como o seu entre um de nossos municípios."
 													},
-													"bulletin_title": "The Clergy",
-													"dialog_title": "The Clergy",
-													"choice_000": "Welcome, Ember"
+													"bulletin_title": "O Clero",
+													"dialog_title": "O Clero",
+													"choice_000": "Bem-vindo, Ember"
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "I'm Marak Azael, nice to meet you. It tickles my whiskers to see a settlement like yours, assembled from nothing in no time at all.<br><br>The very Ascendancy itself was built with saw and hammer by fine craftsfolk like yourselves! That's why the Guild means so much to me, and why I wanted to pay you a visit."
+														"00": "Sou Marak Azael, prazer em conhecê-lo. Faz cócegas nos meus bigodes ver um assentamento como o seu, montado do nada em pouco tempo.<br><br>A própria Ascensão foi construída com serra e martelo por artesãos finos como vocês! É por isso que o Grêmio significa tanto para mim, e por isso eu queria te fazer uma visita."
 													},
-													"bulletin_title": "The Guildmaster",
-													"dialog_title": "The Guildmaster",
-													"choice_000": "The Guild?"
+													"bulletin_title": "O Mestre da Guilda",
+													"dialog_title": "O Mestre da Guilda",
+													"choice_000": "A Guild?"
 												},
 												"summary": {
 													"bulletin_message": {
-														"00": "So! Now you've met the folks that tagged along with me - I'm impartial, here, so it's up to you to decide who you want as a Sponsor. I can say that they're all good choices, though!<br><br>I'm going to show them around town a little, but I'll leave the plans for each of their fountains and shrines and whatnot with your Masons.<br><br>Good to see you all again! I'll see you at the dedication ceremony for whichever you end up picking!"
+														"00": "Então! Agora você conheceu as pessoas que marcaram comigo - Eu sou imparcial, aqui, então cabe a você decidir quem você quer como patrocinador. Posso dizer que são todas boas escolhas!<br><br>Eu vou mostrar a eles pela cidade um pouco, mas vou deixar os planos para cada uma de suas fontes e santuários e outras coisas com seus maçons.<br><br>Bo de vê-lo de novo! Vejo você na cerimônia de dedicação para o que você acabar pegando!"
 													},
-													"bulletin_title": "Mer Concludes",
-													"dialog_title": "Mer Concludes",
-													"choice_000": "Sounds good!"
+													"bulletin_title": "Mer Conclui",
+													"dialog_title": "Mer Conclui",
+													"choice_000": "Parece bom!"
 												},
 												"military_cont": {
 													"bulletin_message": {
-														"00": "A Township dedicated to Cid's valorous example can serve as an anchor for a whole region, and embolden new settlers to forge their own new Outposts.<br><br>If you would choose to build a memorial to Cid, the Guard would be happy to share some of our knowledge of arms with you as part of the dedication ceremony.<br><br><font size=-1><i>Dedicating the Valor of Cid will grant you recipes for new, highest-tier weapons.</i></font>"
+														"00": "Um município dedicado ao exemplo valoroso de Cid pode servir de âncora para toda uma região, e encorajar novos colonos a forjar seus próprios novos postos avançados.<br><br>Se você escolher construir um memorial para Cid, a Guarda ficaria feliz em compartilhar um pouco do nosso conhecimento de armas com você como parte da cerimônia de dedicação.<br><br><font size=-1><i>Dedicar o Valor de Cid lhe concederá receitas para novas armas de alto nível.</i></font>"
 													},
-													"bulletin_title": "Captain Anwyn Torresi",
-													"dialog_title": "Captain Anwyn Torresi",
-													"choice_000": "Thank you"
+													"bulletin_title": "Capitão Anwyn Torresi",
+													"dialog_title": "Capitão Anwyn Torresi",
+													"choice_000": "Obrigado"
 												},
 												"clergy_cont": {
 													"bulletin_message": {
-														"00": "It is the Church's adage that <i>'Fortune favors the kind'</i>, and blessed fountains of Plenty have indeed been known to have almost magical effects on the health and hardiness of a Town's citizens.<br><br>Please consider showing the world that your Town will be one of kindness by building a shrine of the Church's design.<br><br><font size=-1><i>Dedicating a Fountain of Plenty will grant your townsfolk a random daily buff. Try your luck!</i></font>"
+														"00": "É o ditado da Igreja que <i>'Fortuna favorece o tipo'</i>, e fontes abençoadas de Plenty têm sido conhecidas por ter efeitos quase mágicos na saúde e na dureza dos cidadãos de uma cidade.<br><br>Por favor, considere mostrar ao mundo que sua cidade será uma de bondade construindo um santuário do projeto da Igreja.<br><br><font size=-1><i>Dedicar uma Fonte de Abundância concederá aos seus habitantes uma amostra diária aleatória. Tente sua sorte!</i></font>"
 													},
 													"bulletin_title": "Ember Minton",
 													"dialog_title": "Ember Minton",
-													"choice_000": "Thank you"
+													"choice_000": "Obrigado"
 												},
 												"military": {
 													"bulletin_message": {
-														"00": "Hello - I am Anwyn Torresi, Captain of Her Majesty's guard. She sends me with Her thanks for settling this untamed land, and for guarding it against animals and monsters alike.<br><br>We in the Guard follow the example of the Knight Cid, believing that standing brave and resolute against the wilderness is the only way for the Ascendancy to reclaim this lost land.<br><br>You have done the Ascendancy a great service by planting your Banner here."
+														"00": "Olá - Eu sou Anwyn Torresi, capitão da guarda de Sua Majestade. Ela me manda com seus agradecimentos por resolver esta terra insominada, e por guardá-la contra animais e monstros.<br><br>Nós da Guarda seguimos o exemplo do Cavaleiro Cid, acreditando que ficar corajoso e resoluto contra o deserto é a única maneira da Ascensão recuperar esta terra perdida.<br><br>Você fez um grande serviço à Ascensão plantando sua bandeira aqui."
 													},
-													"bulletin_title": "The Captain",
-													"dialog_title": "The Captain",
-													"choice_000": "Our pleasure, Captain"
+													"bulletin_title": "O Capitão",
+													"dialog_title": "O Capitão",
+													"choice_000": "Nosso prazer, Capitão"
 												},
 												"makers_cont": {
 													"bulletin_message": {
-														"00": "The Crafters Guild! We believe that the skill of an artisan must be respected, and their works celebrated.<br><br>We at the Guild would love to sanction this Township as one fit to pursue mastery in crafts - and, after all, only we can truly know masterwork when we see it!<br><br><font size=-1><i>Dedicating a tribute to the Guildmaster's Skill will grant the ability to create Masterwork-quality furniture and decorations, which are considerably better than those of Excellent quality.</i></font>"
+														"00": "A Guilda dos Artesãos! Acreditamos que a habilidade de um artesão deve ser respeitada, e suas obras celebradas.<br><br>Não na Guilda adoraríamos sancionar este Município como um ajuste para perseguir o domínio em artesanato. E no afinal, só nós podemos realmente conhecer a obra-prima quando o vemos!<br><br><font size=-1><i>Dedicar um tributo à Habilidade do Mestre da Guilda concederá a capacidade de criar móveis e decorações de qualidade de trabalho mestre, que são consideravelmente melhores do que os de excelente qualidade.</i></font>"
 													},
 													"bulletin_title": "Marak Azael",
 													"dialog_title": "Marak Azael",
-													"choice_000": "Such vigor!"
+													"choice_000": "Que vigor!"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "Hello again, [str(i18n_data.town_name)]! Glad to see you all still going strong - not that I expected any different!<br><br>In fact, I've brought some folks along with me this time - I'll let them introduce themselves and tell you why they've come."
+														"00": "Olá de novo, [str(i18n_data.town_name)]! Fico feliz em ver todos vocês indo fortes - não que eu esperava diferente!<br><br>Na verdade, eu trouxe algumas pessoas comigo desta vez - eu vou deixá-los se apresentar e dizer-lhe por que eles vieram."
 													},
-													"bulletin_title": "Mer Burlyhands Has Arrived!",
-													"dialog_title": "Mer Returns, With Guests!",
+													"bulletin_title": "Mer Burlyhands chegou!",
+													"dialog_title": "Mer retorna, com convidados!",
 													"choice_000": "Oh, okay!",
-													"choice_001": "We've already decided!"
+													"choice_001": "Nós já decidimos!"
 												}
 											}
 										}
@@ -4818,27 +4818,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "As he should be! With fine crafters like them, your town will be churning out Masterworks in no time! I'll be keeping an eye out for a [str(i18n_data.town_name)] maker's mark in the Capital market in a few months!<br/><br/>Your homes all look pretty sturdy, too, come to think of it. My compliments to your Workers, they seem to know how to put things together, too!"
+														"00": "Como ele deveria ser! Com bons artesãos como eles, sua cidade estará produzindo obras-primas em pouco tempo! Eu vou estar de olho em um [str(i18n_data.town_name)] marca do fabricante no mercado de capitais em poucos meses!<br/><br/>Suas casas parecem bem resistentes, também, pensando bem. Meus cumprimentos aos seus trabalhadores, eles parecem saber como juntar as coisas, também!"
 													},
-													"bulletin_title": "Marak continues",
-													"dialog_title": "Marak Azael, Guildmaster",
-													"choice_000": "We'll do our best!"
+													"bulletin_title": "Marak continua",
+													"dialog_title": "Marak Azael, Mestre da Guilda",
+													"choice_000": "Vamos fazer o nosso melhor!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Anyway, I'll let you get back to celebrating! I'm going to go hunt down a pint of something strong and a bowl of something hearty!<br/><br/>Remember, busy hands make a happy Town!"
+														"00": "De qualquer forma, vou deixar você voltar a comemorar! Vou caçar um litro de algo forte e uma tigela de algo saudável!<br/><br/>Lembre-se, mãos ocupadas fazem uma cidade feliz!"
 													},
-													"bulletin_title": "Marak continues",
-													"dialog_title": "Marak claps you on the back",
+													"bulletin_title": "Marak continua",
+													"dialog_title": "Marak, bate palmas nas costas",
 													"choice_000": "Enjoy!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ha ha ha! What a fine monument you've built! Level, square, and all the finishing touches that only a trained eye such as mine could truly appreciate!</br></br><font size=-1>Huh, how'd you get it to glow like that, though?</font>"
+														"00": "Ha ha ha! Que belo monumento você construiu! Nível, quadrado, e todos os toques finais que só um olho treinado como o meu poderia realmente apreciar!</br></br><font size=-1>Mas como conseguiu que brilhasse assim?</font>"
 													},
 													"bulletin_title": "Marak Azael guffaws",
-													"dialog_title": "Marak Azael, Guildmaster",
-													"choice_000": "Thank you! Our mason is quite proud."
+													"dialog_title": "Marak Azael, Mestre da Guilda",
+													"choice_000": "Obrigado! Nosso pedreiro está muito orgulhoso."
 												}
 											}
 										}
@@ -4848,27 +4848,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Oh! I'm fine, I was just... remembering something.<br/><br/>You know, I really do believe in the Ascendancy, that we have a destiny to retake these lost lands. Every new Town that springs up serves to strengthen my belief.<br/><br/>But it's the Towns like yours, dedicated to the support our valorous Guard, that truly warm my heart."
+														"00": "Ah, não! Estou bem, eu estava... lembrando de algo.<br/><br/>Sabe, eu realmente acredito na Ascensão, que temos o destino de retomar essas terras perdidas. Cada nova cidade que nasce serve para fortalecer minha crença.<br/><br/>Mas são as cidades como a sua, dedicadas ao apoio da nossa guarda valorosa, que realmente aquecem meu coração."
 													},
-													"bulletin_title": "Anwyn continues",
+													"bulletin_title": "Anwyn continua",
 													"dialog_title": "Anwyn Torresi, Guard Captain",
-													"choice_000": "We're honored, Captain"
+													"choice_000": "Estamos honrados, Capitão."
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "I've brought along plans for the Guard's finest weapons, as you've surely earned the right to forge them.<br/><br/>Now, if my service has taught me anything, it's to eat a good meal when given the chance. I'll leave you to your celebrating!"
+														"00": "Trouxe planos para as melhores armas da Guarda, como você certamente ganhou o direito de forja-las.<br/><br/>Agora, se meu serviço me ensinou alguma coisa, é para comer uma boa refeição quando dada a chance. Vou deixá-lo para sua celebração!"
 													},
-													"bulletin_title": "Anwyn continues",
-													"dialog_title": "Anwyn Torresi, Guard Captain",
-													"choice_000": "Enjoy!"
+													"bulletin_title": "Anwyn continua",
+													"dialog_title": "Anwyn Torresi, Capitão da Guarda",
+													"choice_000": "Desfrutar!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "What an inspiring monument! It truly speaks to the heroism of the Knight Cid.<br/><br/>It reminds me all over again why I became a member of the Guard. It feels like so long ago...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn stares into the middle distance, eyes glistening.)</font></p>"
+														"00": "Que monumento inspirador! Ele realmente fala do heroísmo do Cavaleiro Cid.<br/><br/>Isso me lembra de novo por que me tornei um membro da Guarda. Parece que foi há tanto tempo...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn olha para a distância média, olhos brilhando.)</font></p>"
 													},
 													"bulletin_title": "Anwyn approaches, eyes shining",
-													"dialog_title": "Anwyn Torresi, Guard Captain",
-													"choice_000": "Anwyn? Are you..."
+													"dialog_title": "Anwyn Torresi, Capitão da Guarda",
+													"choice_000": "Anwyn? Você está..."
 												}
 											}
 										}
@@ -4878,27 +4878,27 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "As this shrine bestows its blessing on you all with each passing day, take a moment to reflect on the world, its mysteries, and its many bounties.<br/><br/>May your Town always be a happy home for its people, and a wellspring for the generosity of the Church of Plenty."
+														"00": "Como este santuário concede sua bênção a todos vocês a cada dia que passa, tire um momento para refletir sobre o mundo, seus mistérios, e suas muitas recompensas.<br/><br/>Que sua cidade seja sempre um lar feliz para seu povo, e uma fonte para a generosidade da Igreja da Abundância."
 													},
-													"bulletin_title": "Ember continues",
+													"bulletin_title": "Ember continua",
 													"dialog_title": "Ember Minton, Missionary",
 													"choice_000": "We'll do our best!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Now, enough somber platitudes - go enjoy the party! I think I saw Mer with some cake earlier that I'd love to get my hands on..."
+														"00": "Agora, chega de platitudes sombrias - vá aproveitar a festa! Acho que vi mer com um bolo mais cedo que eu adoraria colocar minhas mãos..."
 													},
-													"bulletin_title": "Ember continues",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "Enjoy!"
+													"bulletin_title": "Ember continua",
+													"dialog_title": "Ember Minton, Missionário",
+													"choice_000": "Desfrutar!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "<font size=-1>...and may this town flourish in fortune and prosperity, for so long as the Sun shall shine. Umbasa.</font><br/><br/>Oh! My apologies, I was lost in prayer.<br/><br/>You have a truly wonderful town here, and I feel so privileged to be the missionary to bless this fine monument."
+														"00": "<font size=-1>...e que esta cidade floresça em fortuna e prosperidade, enquanto o Sol brilhar. Umbasa, umbasa.</font><br/><br/>Ah, não! Minhas desculpas, eu estava perdido em oração.<br/><br/>Você tem uma cidade maravilhosa aqui, e eu me sinto tão privilegiado por ser o missionário para abençoar este belo monumento."
 													},
-													"bulletin_title": "Ember faces the shrine",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "Thank you for coming"
+													"bulletin_title": "Ember enfrenta o santuário",
+													"dialog_title": "Ember Minton, Missionário",
+													"choice_000": "Obrigado por vir"
 												}
 											}
 										}
@@ -4908,27 +4908,27 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Well, now, it seems my favorite little Outpost is all grown up! Congratulations on your newfound Township!"
+														"00": "Bem, agora, parece que meu posto avançado favorito está crescido! Parabéns pelo seu recém-descoberto município!"
 													},
-													"bulletin_title": "It's Mer Again!",
+													"bulletin_title": "É Mer De Novo!",
 													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Aw, Thanks!"
+													"choice_000": "Obrigado!"
 												},
 												"msg2": {
 													"bulletin_message": {
-														"00": "By the by, this monument here is special, since it's gotten blessed and all - you can build the others if you like, but they'll just be regular old statues. Fancy-looking ones, but none quite so magical.<br/><br/> Still, they make for a nice decoration, don't you think?"
+														"00": "A propósito, este monumento aqui é especial, já que foi abençoado e tudo mais - você pode construir os outros se quiser, mas eles serão apenas estátuas antigas regulares. De aparência chique, mas nenhuma tão mágica.<br/><br/> Ainda assim, eles fazem uma boa decoração, não acha?"
 													},
-													"bulletin_title": "Mer Continues",
+													"bulletin_title": "Mer Continua",
 													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Got it!"
+													"choice_000": "Entendi!"
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Thanks for being such a bunch of charming folks - I'm proud to serve a group of such earnest and ambitious individuals. You make me proud!<br/><br/>Farewell for now, and the best of luck to each of you!"
+														"00": "Obrigado por ser um bando de pessoas encantadoras, tenho orgulho de servir um grupo de indivíduos tão sérios e ambiciosos. Você me deixa orgulhoso!<br/><br/>Adeus por enquanto, e a melhor sorte para cada um de vocês!"
 													},
-													"bulletin_title": "Mer Continues",
+													"bulletin_title": "Mer Continua",
 													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Farewell, Mer! It's been a pleasure!"
+													"choice_000": "Adeus, Mer! Foi um prazer!
 												}
 											}
 										}
@@ -4938,11 +4938,11 @@
 											"dialog_nodes": {
 												"msg1": {
 													"bulletin_message": {
-														"00": "Hello again! Now that you've got a bustling little town here, perhaps it's time to start thinking of your next adventure.<p>I expect some of your citizens are itching to head out and establish a brand new town, even bigger, and even better, with all the lessons learned from this one.</p><p><font size=-1><i>Re-embarking allows you to carry over up to 3 citizens, 10 items, and all your unlocked recipes when starting a new town.</i></font></p>"
+														"00": "Olá de novo! Agora que você tem uma cidadezinha movimentada aqui, talvez seja hora de começar a pensar em sua próxima aventura.<p>Espero que alguns de seus cidadãos estejam ansiosos para sair e estabelecer uma nova cidade, ainda maior, e ainda melhor, com todas as lições aprendidas com esta.</p><p><font size=-1><i>O re-embarque permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></font></p>"
 													},
-													"bulletin_title": "It's Mer Again!",
-													"dialog_title": "One Last Thing",
-													"choice_000": "Exciting!"
+													"bulletin_title": "É Mer De Novo!",
+													"dialog_title": "Uma Última Coisa",
+													"choice_000": "Emocionante!"
 												}
 											}
 										}
@@ -4956,35 +4956,35 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Take the time to consider what you consider most important, what you wish that beacon to stand for. Prosperity? Happiness? Strength? Each is a noble pursuit.<br><br>Wishing you the best of luck! <br><br>Yours in the Capital,<br> Mer Burlyhands<br><br><font size=-1>P.S. A small gift for you from my personal garden <font size=+2>❀</font></font>"
+										"00": "Aproveite para considerar o que você considera mais importante, o que você deseja que o farol defenda. Prosperidade? Felicidade? Força? Cada um é uma perseguição nobre.<br><br>Wishing você a melhor sorte! <br><br>O seu na Capital,<br> Mer Burlyhands<br><br><font size=-1>P.S. Um pequeno presente para você do meu jardim pessoal. <font size=+2>❀</font></font>"
 									},
-									"bulletin_title": "To Be Considered",
-									"dialog_title": "To Be Considered",
-									"choice_000": "Frostsnap seeds! Thanks!"
+									"bulletin_title": "A ser considerado",
+									"dialog_title": "A ser considerado",
+									"choice_000": "Sementes de frostsnap! Obrigado!"
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Congratulations on your Founding!<br><br>Your Outpost has been entered into the registry - consider yourselves official! \"Her Majesty's Outpost of [str(i18n_data.town_name)]\" - it has a nice ring to it, I think. An inspirational Banner design, as well!<br><br> All of us here are eager to hear of your success!"
+										"00": "Parabéns pela sua Fundação!<br><br>Seu posto avançado foi inserido no registro - considerem-se oficiais! \"Posto avançado de Sua Majestade de [str(i18n_data.town_name)]\" - tem um belo toque para ele, eu acho. Um design inspirado na bandeira, e também!<br><br> Todos nós aqui estamos ansiosos para ouvir do seu sucesso!"
 									},
-									"bulletin_title": "A Reply",
-									"dialog_title": "A Reply",
-									"choice_000": "The letter continues"
+									"bulletin_title": "Uma Resposta",
+									"dialog_title": "Uma Resposta",
+									"choice_000": "A carta continua"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "As your Outpost grows towards Settlement status, you will start to attract new immigrants.<br/><br/>Your Hearth now is only a spark of what it will one day become - I have faith that it will be a beacon seen all across the Ascendancy."
+										"00": "À medida que seu posto avançado cresce em direção ao status de Assentamento, você começará a atrair novos imigrantes.<br/><br/>Seu Coração agora é apenas uma faísca do que um dia se tornará - tenho fé que será um farol visto por toda a Ascensão."
 									},
-									"bulletin_title": "A View Towards the Future",
-									"dialog_title": "A View Towards the Future",
-									"choice_000": "In conclusion..."
+									"bulletin_title": "Uma Visão Para o Futuro",
+									"dialog_title": "Uma Visão para o Futuro",
+									"choice_000": "Em conclusão..."
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "The messenger bird returns, with a reply from Mer Burlyhands.<br><br><p align='right'><font size=-6 color='#cccccc'>The letter has bite marks, and is slightly drooled on. Harold is doing his best.</font></p>"
+										"00": "O pássaro mensageiro retorna, com uma resposta de Mer Burlyhands.<br><br><p align='right'><font size=-6 color='#cccccc'>A carta tem marcas de mordidas, e está ligeiramente babada. Harold está fazendo o seu melhor.</font></p>"
 									},
-									"bulletin_title": "The Bird Returns!",
-									"dialog_title": "Another Letter!",
-									"choice_000": "Open the letter"
+									"bulletin_title": "O Pássaro Retorna!",
+									"dialog_title": "Outra Carta!",
+									"choice_000": "Abra a carta"
 								}
 							}
 						}
@@ -4994,27 +4994,27 @@
 							"dialog_nodes": {
 								"msg_final": {
 									"bulletin_message": {
-										"00": "Which Shrine will you build to signify your Settlement's ascent into Township?<br>[This is still using the old Tier 2 quest! We'll spruce it up soon!]<br><br><font size=-1>Shrine of Fortune (gives random town-wide buffs!)<br><br>Shrine of Valor ([WIP, not in yet!] legendary weapons)<br><br>Shrine of Masterwork (Unlocks Masterwork-tier crafts! Four times as Appealing and Expensive as Excellent-tier!)</font>"
+										"00": "Qual santuário você construirá para significar a ascensão do seu assentamento na cidade?<br>[Isso ainda está usando a velha missão de Nível 2! Vamos enfeitar em breve!]<br><br><font size=-1>Santuário da Fortuna (dá buffs aleatórios em toda a cidade!)<br><br>Santuário de Valor ([WIP, ainda não em!] armas lendárias)<br><br>Santuário da Obra-Prima (Desbloqueia artesanato de nível de trabalho! Quatro vezes mais atraente e cara que excelente nível!)</font>"
 									},
-									"bulletin_title": "Choose a Shrine!",
-									"dialog_title": "Choose a Shrine!",
-									"choice_000": "Fortune",
+									"bulletin_title": "Escolha um Santuário!",
+									"dialog_title": "Escolha um Santuário!",
+									"choice_000": "Fortuna",
 									"choice_001": "Valor",
-									"choice_002": "Masterwork"
+									"choice_002": "Obra-prima"
 								}
 							}
 						},
 						"guildmaster": {
-							"name": "The Guildmaster's Skill",
-							"description": "<i>This Township shall be known for its artisans' hard work and dedication to their craft.</i><ul><li>Allows crafting Masterwork quality items</li><li>Unlocks artisan-themed decoration recipes</li></ul>"
+							"name": "Habilidade do Mestre da Guilda",
+							"description": "<i>Este município será conhecido pelo trabalho árduo e dedicação de seus artesãos ao seu ofício.</i><ul><li>Permite a criação de itens de qualidade de obra-prima</li><li>Desbloqueia receitas de decoração com tema artesanal</li></ul>"
 						},
 						"deity": {
-							"name": "Fountain of Plenty",
-							"description": "<i>This Township shall show generosity and kindness to the needy.</i><ul><li>Blesses all citizens with +1  to Mind, Body, and Spirit</li><li>Unlocks nature-themed decoration recipes</li></ul>"
+							"name": "Fonte da Abundância",
+							"description": "<i>Este município mostrará generosidade e bondade aos necessitados.</i><ul><li>Abençoa todos os cidadãos com +1 à Mente, Corpo e Espírito</li><li>Desbloqueia receitas de decoração com tema da natureza</li></ul>"
 						},
 						"valor": {
-							"name": "The Valor of Cid",
-							"description": "<i>This Township shall be dedicated to Cid's valorous example to protect the whole region.</i><ul><li>Unlocks legendary weapon recipes</li><li>Unlocks castle decoration recipes</li></ul>"
+							"name": "O Valor de Cid",
+							"description": "<i>Este município deve ser dedicado ao exemplo valoroso de Cid para proteger toda a região.</i><ul><li>Desbloqueia receitas lendárias de armas</li><li>Desbloqueia receitas de decoração de castelo</li></ul>"
 						}
 					},
 					"shrine_foreshadow_dialog": {
@@ -5022,7 +5022,7 @@
 							"dialog_nodes": {
 								"msg4": {
 									"bulletin_message": {
-										"00": "Da próxima vez que eu visitar, trarei essas pessoas comigo e deixarei que elas defendam seus casos. Decisões, decisões! <br> <br> Até então! <br> <br> O seu na capital, <br> Mer Burlyhands"
+										"00": "Da próxima vez que eu visitar, trarei essas pessoas comigo e deixarei que elas defendam seus casos. Decisões, decisões!<br><br>Até então!<br><br>O seu na capital, <br> Mer Burlyhands"
 									},
 									"bulletin_title": "Uma Carta",
 									"dialog_title": "Uma Carta",
@@ -5030,27 +5030,27 @@
 								},
 								"msg2": {
 									"bulletin_message": {
-										"00": "Dear [str(i18n_data.town_name)]-ites,<br><br>Word around the Capital is that your Settlement has grown since I last saw it, and that it's getting even more bustling by the day! Your Hearth must be burning brightly to attract so many new settlers.<br><br>In fact, it's also attracted the attention of a few notable individuals."
+										"00": "Querida [str(i18n_data.town_name)]-ites, <br><br>Dizem por aí que seu Assentamento cresceu desde a última vez que o vi, e que está ficando ainda mais movimentado a cada dia! Seu Coração deve estar queimando brilhantemente para atrair tantos colonos novos.<br><br>Na verdade, também atraiu a atenção de alguns indivíduos notáveis."
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Notable?"
+									"bulletin_title": "Uma Carta",
+									"dialog_title": "Uma Carta",
+									"choice_000": "Notável?"
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "As you probably know, a settlement traditionally needs a Sponsorship to become a true Township - generally from a guild, the clergy, or the military.<br><br>In the past few days, I've been approached by a few individuals who are <i>very</i> interested to get a look at your town for themselves, and see if you'd be interested in allowing them to be your Sponsor."
+										"00": "Como você provavelmente sabe, um assentamento tradicionalmente precisa de um patrocínio para se tornar um verdadeiro município - geralmente de uma guilda, do clero, ou dos militares.<br><br>Nas últimas dias, fui abordado por alguns indivíduos que são <i>muito</i> interessados em dar uma olhada em sua cidade por si mesmos, e ver se você estaria interessado em permitir que eles sejam seu Patrocinador."
 									},
-									"bulletin_title": "A Letter",
-									"dialog_title": "A Letter",
-									"choice_000": "Great!"
+									"bulletin_title": "Uma Carta",
+									"dialog_title": "Uma Carta",
+									"choice_000": "Ótimo!"
 								},
 								"msg1": {
 									"bulletin_message": {
-										"00": "Looks like Mer is getting in touch with us again!"
+										"00": "Parece que Mer está entrando em contato conosco novamente!"
 									},
-									"bulletin_title": "That Weird Bird Again!",
-									"dialog_title": "Another Letter!",
-									"choice_000": "Open it"
+									"bulletin_title": "Aquele pássaro estranho de novo!",
+									"dialog_title": "Outra Carta!",
+									"choice_000": "Abra"
 								}
 							}
 						}
@@ -5060,7 +5060,7 @@
 							"dialog_nodes": {
 								"read_letter3": {
 									"bulletin_message": {
-										"00": "Mantenha em sua mente uma visão do que sua cidade será um dia. Seu banner definirá esse curso, mas cabe a você terminá-lo. <p> Escolha bem, meus amigos. Aguardo ansiosamente a sua resposta. </p> <br> <p> O seu, </p> <p> Mer Burlyhands </p>"
+										"00": "Mantenha em sua mente uma visão do que sua cidade será um dia. Sua bandeira definirá esse curso, mas cabe a você terminá-lo. <p> Escolha bem, meus amigos. Aguardo ansiosamente a sua resposta.</p><br> <p> O seu,</p><p>Mer Burlyhands</p>"
 									},
 									"bulletin_title": "A Carta Continua",
 									"dialog_title": "A Carta Continua...",
@@ -5068,16 +5068,16 @@
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "Um estranho pássaro chega com uma carta no bico, marcada com o Selo Oficial da Ascendência. <br> <br> <p align = 'right'> <font size = -6 color = '#cccccc'> O pássaro também carrega um crachá, que diz 'Harold' </font> </p>"
+										"00": "Um estranho pássaro chega com uma carta no bico, marcada com o Selo Oficial da Ascendência.<br><br> <p align = 'right'> <font size = -6 color = '#cccccc'> O pássaro também carrega um crachá, que diz 'Harold'</font></p>"
 									},
 									"bulletin_title": "Um estranho pássaro!",
 									"dialog_title": "Um pássaro... mensageiro?",
 									"choice_000": "Abra a carta",
-									"choice_001": "[pular] Sabemos qual banner queremos."
+									"choice_001": "[pular] Sabemos qual bandeira queremos."
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Prezada Expedição [str(i18n_data.town_serial_number)], <p> Espero que esta carta chegue bem. Aqui adivinho, você provavelmente já montou o acampamento por agora.</p><p>Como seu contato da Capital, é uma honra presidir, remotamente, a Fundação oficial do seu Posto Avançado! Espero que você tenha tempo suficiente para escolher um nome em sua jornada. </p>"
+										"00": "Prezada Expedição [str(i18n_data.town_serial_number)], <p> Espero que esta carta chegue bem. Aqui adivinho, você provavelmente já montou o acampamento por agora.</p><p>Como seu contato da Capital, é uma honra presidir, remotamente, a Fundação oficial do seu Posto Avançado! Espero que você tenha tempo suficiente para escolher um nome em sua jornada.</p>"
 									},
 									"bulletin_title": "Uma carta da capital!",
 									"dialog_title": "Uma carta da capital!",
@@ -5085,7 +5085,7 @@
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "Como você sabe, todo novo assentamento deve escolher uma Bandeira. <p> Esta Bandeira reflete seu espírito e visão, o fator de união que reuniu a Expedição! </p> <p> Que futuro você previu quando embarcou em sua missão?</p>"
+										"00": "Como você sabe, todo novo assentamento deve escolher uma Bandeira. <p> Esta Bandeira reflete seu espírito e visão, o fator de união que reuniu a Expedição!</p><p>Que futuro você previu quando embarcou em sua missão?</p>"
 									},
 									"bulletin_title": "A carta continua",
 									"dialog_title": "A carta continua...",
@@ -5125,43 +5125,43 @@
 					"hearth_choice": {
 						"glory": {
 							"name": "Lareira da Glória",
-							"description": "<i>Proof that you have military strength, and that you're prepared to keep it on its feet.</i><ul><li>Allows summoning increasingly difficult enemies to prove your mettle</li><li>Each rank defeated will boost Daily Update net worth</li></ul>"
+							"description": "<i>Prova de que você tem força militar, e que você está preparado para mantê-lo em seus pés.</i><ul><li>Permite convocar inimigos cada vez mais difíceis para provar sua coragem</li><li>Cada classificação derrotada aumentará o patrimônio líquido da Atualização Diária</li></ul>"
 						},
 						"makers": {
 							"name": "Lareira dos Artesãos",
-							"description": "<i>Proof that gold has been flowing through your settlement, and that you have fine crafters.</i><ul><li>Generates 5% daily interest on any Gold Coins you have on hand (up to 300 per day)</li><li>Boosts your Daily Update net worth based on Gold Coins on hand</li></ul>"
+							"description": "<i>Prova de que o ouro tem fluído através de seu assentamento, e que você tem bons artesãos.</i><ul><li>Gera juros diários de 5% sobre qualquer Moeda de Ouro que você tenha em mãos (até 300 por dia)</li><li>Aumenta seu patrimônio líquido de Atualização Diária com base em Moedas de Ouro em mãos</li></ul>"
 						},
 						"cheer": {
 							"name": "Lareira da Alegria",
-							"description": "<i>Proof that you have happy, well-fed citizens, and nice places for them to live.</i><ul><li>Boosts Daily Update net worth based on the overall Morale of your citizens</li><li>Each day brings a new random buff for your townsfolk.</li></ul>"
+							"description": "<i>Prova de que você tem cidadãos felizes e bem alimentados, e bons lugares para eles viverem.</i><ul><li>Aumenta o patrimônio líquido do Atualização Diária com base no moral geral de seus cidadãos</li><li>Cada dia traz um novo buff aleatório para seus habitantes da cidade.</li></ul>"
 						}
 					},
 					"shrine_quest_deity": {
-						"title": "Township Quest: Fountain of Plenty",
-						"dialog_title": "Township Quest: Fountain of Plenty"
+						"title": "Township Quest: Fonte da Abundância",
+						"dialog_title": "Township Quest: Fonte da Abundância"
 					},
 					"shrine_quest_guildmaster": {
-						"title": "Township Quest: The Guildmaster's Skill",
-						"dialog_title": "Township Quest: The Guildmaster's Skill"
+						"title": "Township Quest: Habilidade do Mestre da Guilda",
+						"dialog_title": "Township Quest: Habilidade do Mestre da Guilda"
 					},
 					"shrine_quest_valor": {
-						"title": "Township Quest: Cid's Valor",
-						"dialog_title": "Township Quest: Cid's Valor"
+						"title": "Township Quest: Valor de Cid",
+						"dialog_title": "Township Quest: Valor de Cid"
 					},
 					"hearth_quest_cheer": {
-						"title": "Hearth Upgrade: Cheer",
-						"dialog_title": "Hearth Upgrade: Cheer"
+						"title": "Atualização de Lareira: Animar",
+						"dialog_title": "Atualização de Lareira: Animar"
 					},
 					"hearth_quest_glory": {
-						"title": "Hearth Upgrade: Glory",
-						"dialog_title": "Hearth Upgrade: Glory"
+						"title": "Atualização de Lareira: Glória",
+						"dialog_title": "Atualização de Lareira: Glória"
 					},
 					"hearth_quest_makers": {
-						"title": "Hearth Upgrade: Makers",
-						"dialog_title": "Hearth Upgrade: Makers"
+						"title": "Atualização de Lareira: Fabricantes",
+						"dialog_title": "Atualização de Lareira: Fabricantes"
 					},
 					"unlock_shrine_recipes": {
-						"bulletin_title": "Mason shrine recipes unlocked!"
+						"bulletin_title": "Receitas do santuário de Pedreiro desbloqueadas!"
 					}
 				},
 				"titan": {
@@ -5244,34 +5244,34 @@
 											"dialog_nodes": {
 												"greet": {
 													"bulletin_message": {
-														"00": "\"Hello again, my friends of the Monkey! I hope this day finds you at peace.<br><br>Honorable Humans, I... have a confession to make.\""
+														"00": "\"Olá de novo, meus amigos do Macaco! Espero que este dia te encontre em paz.<br><br>Os Humanos Honrados, eu... ter uma confissão para fazer.\""
 													},
-													"bulletin_title": "Sasha of Clan Amberstone returns!",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Welcome! Confession?"
+													"bulletin_title": "Sasha do Clã Amberstone retorna!",
+													"dialog_title": "Sasha, enviado do Clã Amberstone",
+													"choice_000": "Bem-vindo! Confissão?"
 												},
 												"intro": {
 													"bulletin_message": {
-														"00": "\"When I originally came to you, it was in hopes that you could be... useful to us.\" he says sheepishly, with drooped ears. \"The Titan lurking beneath your town has loomed over my people for generations. I saw in your town a spark of hope that we might be free of its burden.<br><br>I apologize for not being more open about my motives before now. I hope I can be forgiven.\""
+														"00": "\"Quando eu vim para você, era na esperança de que você pudesse ser... útil para nós.\" ele diz ovelhas, com orelhas caídas. \"O Titã à espreita sob sua cidade paira sobre meu povo por gerações. Vi em sua cidade uma faísca de esperança de que poderíamos estar livres de seu fardo.<br><br>Peço desculpas por não ser mais aberto sobre meus motivos antes. Espero poder ser perdoado.\""
 													},
-													"bulletin_title": "Sasha continues, sheepishly",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Oh... don't worry about it!."
+													"bulletin_title": "Sasha continua, ovelhas",
+													"dialog_title": "Sasha, enviado do Clã Amberstone",
+													"choice_000": "Oh... não se preocupe com isso!"
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "\"I must admit, your town surpassed my wildest dreams, managing to defeat a foe of such magnitude by your own strength alone.<br><br>But not only that - my people and I have grown fond of you beyond expectation, as well\" he admits, smiling. \"You have been faithful allies to us, and we have learned much from each other. I hope our two warrens can continue our budding friendship.\""
+														"00": "\"Devo admitir, sua cidade superou meus sonhos mais selvagens, conseguindo derrotar um inimigo de tal magnitude apenas por sua própria força.<br><br>Mas não só isso - meu povo e eu crescemos afeiçoados a você além da expectativa, também\" ele admite, sorrindo. \"Vocês têm sido aliados fiéis para nós, e aprendemos muito um com o outro. Espero que nossos dois warrens possam continuar nossa amizade.\""
 													},
-													"bulletin_title": "Sasha continues, sheepishly",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
-													"choice_000": "Thank you, and of course!"
+													"bulletin_title": "Sasha continua, ovelhas",
+													"dialog_title": "Sasha, enviado do Clã Amberstone",
+													"choice_000": "Obrigado, e claro!"
 												},
 												"story2": {
 													"bulletin_message": {
-														"00": "Sasha looks visibly relieved. \"I am glad to hear it! I will take my leave of you for now, but I shall visit again! Once more, congratulations on cleansing your land of the Titan scourge, it is not something easily done. Farewell!\""
+														"00": "Sasha parece visivelmente aliviada. \"Fico feliz em ouvir isso! Vou me despedir de você por enquanto, mas visitarei novamente! Mais uma vez, parabéns por limpar sua terra do flagelo titã, não é algo facilmente feito. Adeus!\""
 													},
-													"bulletin_title": "Sasha smiles",
-													"dialog_title": "Sasha, Envoy of Clan Amberstone",
+													"bulletin_title": "Sasha sorri",
+													"dialog_title": "Sasha, enviado do Clã Amberstone",
 													"choice_000": "Bye!"
 												}
 											}
@@ -5282,19 +5282,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "<i><font size=-1>[Select the Arbalest and Press the 'Awaken Titan' button when you're ready. Once the Arbalest has charged, hit the Fire button to damage the Titan. Killing or destroying the Titan's minions, tentacles, and roots will also reduce its health.]<br><br>[Good luck!]</font>"
+														"00": "<i><font size=-1>[Selecione o botão Arbalest e pressione o botão 'Despertar Titã' quando estiver pronto. Uma vez que o Arbalest tenha carregado, aperte o botão Fogo para danificar o Titã. Matar ou destruir os servos, tentáculos e raízes do Titã também reduzirá sua saúde.]<br><br>[Boa sorte!]</font>"
 													},
-													"bulletin_title": "A Titanic Undertaking",
-													"dialog_title": "Last Steps",
+													"bulletin_title": "Um Empreendimento Titanic",
+													"dialog_title": "Últimos Passos",
 													"choice_000": "[Okay!]"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "\"The Arbalest looks to be in working shape. Isn't it beautiful? The way it sparkles?\"<br><br>He shakes his head to clear his mind. \"Now is no time for distraction. Now that it's standing, all that's left is to activate it and call forth the Titan. Once that's happened, it's up to us to make sure it's charging, but I'll call on you to actually fire. It's your town, so it only seems right\"<br><br>\"Only summon the Titan when you're ready for a siege. It will not be easy, and he will not be kind.\""
+														"00": "\"O Arbalest parece estar em forma de trabalho. Não é lindo? O jeito que brilha?\"<br><br>Ele balança a cabeça para clarear a mente. \"Agora não é hora para distração. Agora que está de pé, tudo o que resta é ativá-lo e chamar o Titã. Uma vez que isso aconteceu, cabe a nós ter certeza que está carregando, mas eu vou chamá-lo para realmente atirar. É sua cidade, então só parece certo.\"<br><br>\"Só convoque o Titã quando estiver pronto para um cerco. Não será fácil, e ele não será gentil.\""
 													},
-													"bulletin_title": "Sasha admires the Arbalest",
-													"dialog_title": "TKTK Sasha Something",
-													"choice_000": "We will survive."
+													"bulletin_title": "Sasha admira o Arbalest",
+													"dialog_title": "TKTK Sasha Algo",
+													"choice_000": "Sobreviveremos."
 												}
 											}
 										}
