@@ -3317,7 +3317,7 @@
 										"001": "Peões Humanos! Você não entende o poder do Exército Brilhante! Você tem sorte de se curvar diante de mim. Além disso, quero que algumas coisas que se segurem à noite; para cantar para mim dormir.",
 										"002": "Você tem suprimentos? Nós tomamos; assim nós estamos bem. Nós temos compreensão?",
 										"003": "Hahahah, você o novo garoto no grande Território Vermelho. Isso significa que eu tome seu almoço, novato. Metáfora do almoço.  Você faz para nós. Ou então...",
-										"004: Seu livro, meu grande Chefe brilhante! Ordem natural significa que você me dá coisas e eu não dees-tro-i você. Eu quero suprimentos. Entende?"
+										"004": "Seu livro, meu grande Chefe brilhante! Ordem natural significa que você me dá coisas e eu não dees-tro-i você. Eu quero suprimentos. Entende?"
 									},
 									"bulletin_title": "Um goblin com um chapéu chique se agloia na cidade",
 									"dialog_title": "[name(i18n_data.boss)] "
@@ -4928,7 +4928,7 @@
 													},
 													"bulletin_title": "Mer Continua",
 													"dialog_title": "Mer Burlyhands, Capital Fellow",
-													"choice_000": "Adeus, Mer! Foi um prazer!
+													"choice_000": "Adeus, Mer! Foi um prazer!"
 												}
 											}
 										}
