@@ -1534,7 +1534,7 @@
 					"002": "descomprimindo voxels...",
 					"003": "sintetizando fauna...",
 					"004": "redistribuindo redistribuíveis...",
-					"005": "aterrando terreno...",
+					"005": "aterrando terreNão...",
 					"006": "estocando em pilhas...",
 					"007": "crescendo árvores...",
 					"008": "levantando o sol...",
@@ -1590,7 +1590,7 @@
 					"022": "A sujeira da mineração ocasionalmente produz argila e pedra.",
 					"023": "Você pode ver visualmente as veias de minério no lado das montanhas",
 					"024": "Precisa de uma fonte alimentar inicial? Mova os Arbustos de Frutas ou os Cactos de Figos da Índia para mais perto da sua cidade.",
-					"025": "Depois de derrotar o Chefe dos Duendes, você pode reivindicar a a Ovelha Campainha-Azul como sua.",
+					"025": "Depois de derrotar o Chefe dos goblins, você pode reivindicar a a Ovelha Campainha-Azul como sua.",
 					"026": "Seus hearthlings não gostam de ficar em espaços apertados por muito tempo",
 					"027": "Os animais da fazenda podem se reproduzir se houver pelo menos dois dos mesmos animais em uma caneta.",
 					"028": "Use \"shift + ,\" para afundar e descer a fundação do seu modelo ao chão antes de colocar ele."
@@ -3997,15 +3997,15 @@
 													"bulletin_message": {
 														"00": "O Red Kiln acredita que o avanço só pode vir do conflito entre iguais. O Khan não é mais. E onde um cai, aqueles mais fortes e mais espertos se elevarão."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"bulletin_title": "Chefe de Guerra Oghar Norwind",
+													"dialog_title": "Chefe de Guerra Oghar Norwind"
 												},
 												"msg1": {
 													"bulletin_message": {
 														"00": "Você está aí. Erdene me falou de você. Ela disse que você derrotou Ogo Skullbonker."
 													},
-													"bulletin_title": "Um warchief orcish se aproxima de sua cidade",
-													"dialog_title": "Warchief Oghar Norwind",
+													"bulletin_title": "Um chefe de guerra orcish se aproxima de sua cidade",
+													"dialog_title": "Chefe de Guerra Oghar Norwind",
 													"choice_000": "Sim, sou eu",
 													"choice_001": "O que isso tem a ver com você?"
 												},
@@ -4049,7 +4049,7 @@
 														"000": "Grek, grek! Você me notou?",
 														"001": "Oo brilha! Gong! Esmeralda!"
 													},
-													"bulletin_title": "A kobold stares longingly at your piles of gold.",
+													"bulletin_title": "Um kobold olha com saudade para suas pilhas de ouro. Um kobold olha com saudade para suas pilhas de ouro.",
 													"dialog_title": "Kobold Scout",
 													"choice_000": "O que você está fazendo?"
 												},
@@ -4254,15 +4254,15 @@
 													"bulletin_message": {
 														"00": "A derrota dos meus chefes e guerreiros exige de nós o reconhecimento de sua força. Vamos lutar e o maior dos iguais virá com honra e valiance."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"bulletin_title": "Chefe de Guerra Oghar Norwind",
+													"dialog_title": "Chefe de Guerra Oghar Norwind"
 												},
 												"msg1": {
 													"bulletin_message": {
 														"00": "Como eu previ, o destino nos une mais uma vez."
 													},
 													"bulletin_title": "Warchief Oghar Norwind caminha em sua direção com bravata destemida",
-													"dialog_title": "Warchief Oghar Norwind"
+													"dialog_title": "Chefe de Guerra Oghar Norwind"
 												}
 											}
 										}
@@ -4274,15 +4274,15 @@
 													"bulletin_message": {
 														"00": "Agora volto para casa. Dizem-me que, desprovido da sabedoria de nosso Khan, nosso xamã se aprofundou em coisas sombrias, há muito esquecido. Eles acham que os erros do passado não se aplicam a eles, e temo pelo que eles podem fazer."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind"
+													"bulletin_title": "Chefe de Guerra Oghar Norwind",
+													"dialog_title": "Chefe de Guerra Oghar Norwind"
 												},
 												"msg2": {
 													"bulletin_message": {
 														"00": "Agora volto para casa. Dizem que desprovido da sabedoria de nosso Khan, nosso xamã se aprofundou demais em coisas obscuras e desconhecidas. No entanto, se você quiser lutar novamente e melhorar suas habilidades, coloque qualquer gongo das Quatro Cores e voltaremos com prazer para enfrentar seu desafio."
 													},
-													"bulletin_title": "Warchief Oghar Norwind",
-													"dialog_title": "Warchief Oghar Norwind",
+													"bulletin_title": "Chefe de Guerra Oghar Norwind",
+													"dialog_title": "Chefe de Guerra Oghar Norwind",
 													"choice_000": "Vamos lá!",
 													"choice_001": "Deveríamos removê-los..."
 												},
@@ -4291,7 +4291,7 @@
 														"00": "Erdene estava certa sobre você. Você é um oponente digno, de fato. Não esqueceremos a força que você nos ajudou a ganhar."
 													},
 													"bulletin_title": "O warchief acena humildemente",
-													"dialog_title": "Warchief Oghar Norwind",
+													"dialog_title": "Chefe de Guerra Oghar Norwind",
 													"choice_000": "Nós protegemos o que é nosso."
 												}
 											}
@@ -4504,7 +4504,7 @@
 													},
 													"bulletin_title": "Erdene do Red Kiln retorna, alegre",
 													"dialog_title": "Erdene, Orador do Red Kiln",
-													"choice_000": "We did!"
+													"choice_000": "Nós fizemos isso!"
 												},
 												"reject1": {
 													"bulletin_message": {
@@ -4517,7 +4517,7 @@
 												},
 												"request2": {
 													"bulletin_message": {
-														"00": "Yes! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
+														"00": "Sim! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
 													},
 													"bulletin_title": "Erdene continua",
 													"dialog_title": "Erdene gestures",
@@ -5731,7 +5731,7 @@
 													"story1": {
 														"choice_000": "Mas você ainda está por perto?",
 														"bulletin_message": {
-															"00": "Sasha acena sábia. \"Este mundo de Hearth é governado pelos Ciclos Celestiais. Cada um traz uma entidade diferente para Ascendance, que eleva sua própria espécie a um estado evoluído.\"<br><br>\"Macaco está em Ascensão agora, dando-lhe forma humana e esperteza. A cobra foi antes, e diminuiu, seus Orcs lentamente revertendo para sua natureza lagarto. Coelho antes disso; Há muito tempo, mas você pode encontrar nossas estátuas pontilhando a paisagem mesmo agora.\""
+															"00": "Sasha acena sábia. \"Este mundo de Hearth é governado pelos Ciclos Celestiais. Cada éon traz uma entidade diferente para Ascendance, que eleva sua própria espécie a um estado evoluído.\"<br><br>\"Macaco está em Ascensão agora, dando-lhe forma humana e esperteza. A cobra foi antes, e diminuiu, seus Orcs lentamente revertendo para sua natureza lagarto. Coelho antes disso; Há muito tempo, mas você pode encontrar nossas estátuas pontilhando a paisagem mesmo agora.\""
 														}
 													},
 													"offer": {
@@ -5743,44 +5743,44 @@
 													},
 													"reject": {
 														"bulletin_message": {
-															"00": "\"I see. Are you sure? As I said, this may likely be your only chance to gain such knowledge.\""
+															"00": "\"Entendo. Tem certeza? Como eu disse, esta pode ser provavelmente sua única chance de obter tal conhecimento.\""
 														},
-														"choice_000": "I am sure, no thanks.",
-														"choice_001": "[Back] Wait, I changed my mind!"
+														"choice_000": "Tenho certeza, não obrigado.",
+														"choice_001": "[De volta] Espere, eu mudei de ideia!"
 													},
 													"story3a": {
 														"bulletin_message": {
-															"00": "Sasha continues. \"Rabbit left Ascendance, and Snake uplifted the Orcs. The Orcs were unsatisfied sharing the world indefinitely, and rejected our attempts to teach them Geomancy, saying it was against the will of the Cycle and that Hearth’s magic was forbidden; dangerous and volatile.\"<br><br>\"In truth, they were not wrong.\""
+															"00": "Sasha continua. \"Coelho deixou Ascendance, e Snake levantou os Orcs. Os Orcs estavam insatisfeitos compartilhando o mundo indefinidamente, e rejeitaram nossas tentativas de ensiná-los Geomante, dizendo que era contra a vontade do Ciclo e que a magia de Hearth era proibida; perigoso e volátil.\"<br><br>\"In truth, they were not wrong.\""
 														},
 														"choice_000": "Oh..."
 													},
 													"reject2": {
 														"bulletin_message": {
-															"00": "\"Very well, I suppose things of the Rabbit stay of the Rabbit after all.\"<br><br>\"I shall take my leave for now. I still count you as dear friends and allies, so I will be back in touch before long! Farewell!\""
+															"00": "\"Muito bem, suponho que as coisas do Coelho fiquem do coelho depois.\"<br><br>\"Vou me despedir por enquanto. Eu ainda conto você como queridos amigos e aliados, então eu estarei de volta em contato em breve! Adeus!\""
 														},
-														"choice_000": "Farewell!"
+														"choice_000": "Adeus!"
 													},
 													"story2": {
 														"bulletin_message": {
-															"00": "\"During our Cycle, we Lapine studied its magic deeply. We began to understand the nature of the magical <i>Divine Harmonics</i> produced from the Cycle and which grant our uplifted form. We also learned that Hearth exudes magic, the manipulation of which became known as <i>Geomancy</i>\".<br><br>\"We learned to harness this Hearth magic, our Geomancers attuning it through amberstones such that it keeps us from devolving back to the simple fuzzy creatures you see hopping around the surface now.\""
+															"00": "\"Durante nosso Ciclo, nós Lapine estudamos sua magia profundamente. Começamos a entender a natureza do mágico <i>Divine Harmonics</i> produzido a partir do Ciclo e que concedem a nossa forma elevada. Também aprendemos que Hearth exala magia, a manipulação da qual ficou conhecida como <i>Geomante</i>\".<br><br>\"Aprendemos a aproveitar essa magia hearth, nossos Geomantes sintonizando-o através de âmbar, como ele nos impede de voltar atrás para a simples criatura fuzzys que você vê pulando ao redor da superfície agora.\""
 														},
-														"choice_000": "But it didn't work on everyone?"
+														"choice_000": "Mas não funcionou com todo mundo?"
 													},
 													"story3b": {
 														"bulletin_message": {
-															"00": "\"Still, our largest cities were using up magic energy faster than Hearth could produce it, forcing us to scatter. At the same time, radical factions of Orc were hostile to us, forcing us to consolidate. We were at an impasse.\"<br><br>\"So, my ancestors made the drastic choice to go underground, taking the name Amberstone and building tunnels and settlements along Leylines mapped by Lapine Geomancers. These seams of intense magic energy let them survive underground indefinitely.\""
+															"00": "\"Ainda assim, nossas maiores cidades estavam usando energia mágica mais rápido do que Hearth poderia produzi-la, forçando-nos a se dispersar. Ao mesmo tempo, facções radicais de Orc eram hostis a nós, forçando-nos a nos consolidar. Estávamos em um impasse..\"<br><br>\"Então, meus ancestrais fizeram a escolha drástica de ir para o subterrâneo, tomando o nome Amberstone e construindo túneis e assentamentos ao longo de Leylines mapeados por Lapine Geomantes. Estas costuras de intensa energia mágica permitem que sobrevivam ao subsolo indefinidamente.\""
 														},
-														"choice_000": "Sounds dull..."
+														"choice_000": "Parece chato..."
 													},
 													"accept": {
 														"bulletin_message": {
-															"00": "\"Splendid! Take all the time you need in choosing, the selection is important indeed.\""
+															"00": "\"Esplêndido! Tome todo o tempo que você precisa na escolha, a seleção é realmente importante.\""
 														},
 														"choice_000": "Let's see..."
 													},
 													"story4": {
 														"bulletin_message": {
-															"00": "\"You... are not wrong, friend. There is more to the story, but perhaps the time is not yet right.\""
+															"00": "\"Você... não estão errados, amigo. Há mais na história, mas talvez o momento ainda não esteja certo.\""
 														},
 														"choice_000": "Aw, okay"
 													}
@@ -5792,15 +5792,15 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "\"Your wayfaring student of Geomancy has returned as a full-fledged Geomancer! They proved themselves an able practitioner of the magic arts indeed!\"<br><br>\"Here - these precious Hearthbloom flowers coalesce traces of Hearth's magic into Hearth Essence, which Geomancers can use in their craft - be sure to plant them.\""
+															"00": "\"Seu estudante de geomante retornou como um Geomante completo! Eles provaram ser um praticante capaz das artes mágicas de fato!\"<br><br>\"Aqui - essas preciosas flores de Hearthbloom coalescem traços da magia de Hearth em Hearth Essence, que Geomantes podem usar em suas embarcações - certifique-se de plantá-los.\""
 														},
-														"choice_000": "Welcome back, and thank you all!"
+														"choice_000": "Bem-vindos de volta, e obrigado a todos vocês!"
 													}
 												}
 											}
 										},
 										"30_geomancy_quest": {
-											"text": "Select a citizen to be trained as a Geomancer by Clan Amberstone."
+											"text": "Selecione um cidadão para ser treinado como geomante pelo Clã Amberstone."
 										}
 									},
 									"01_strange_trading": {
@@ -5809,10 +5809,10 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "The visitor nods in thanks and bounds away, baskets in arm. <br><br>Not long after, a grove of berry bushes is discovered not far from town, a small amber ribbon tied to each.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "O visitante acena em agradecimentos e limites de distância, cestas no braço. <br><br>Pouco tempo depois, um bosque de arbustos de frutas é descoberto não muito longe da cidade, uma pequena fita âmbar amarrada a cada um.<br><br><i><font size=-1>[Os visitantes parecem confiar mais em você.]</font></i>"
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
 														"choice_000": "Huh."
 													}
 												}
@@ -5823,11 +5823,11 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "The visitor nods in thanks and bounds away, baskets in arm.<br><br>Not long after, a grove of unusual glowing plants is discovered not far from town, a small amber ribbon tied to one.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "O visitante acena em agradecimentos e limites de distância, cestas no braço. <br><br>Não muito tempo depois, um bosque de plantas brilhantes incomuns é descoberto não muito longe da cidade, uma pequena fita âmbar amarrada a uma.<br><br><i><font size=-1>[Os visitantes parecem confiar mais em você.]</font></i>"
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
-														"choice_000": "Odd."
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
+														"choice_000": "Estranho."
 													}
 												}
 											}
@@ -5837,10 +5837,10 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods, dropping a few small pouches of gold dust into your hand as payment before bounding away, baskets in arm.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "O visitante acena, soltando alguns pequenos malotes de pó de ouro em sua mão como pagamento antes de delimitar, cestas no braço.<br><br><i><font size=-1>[Os visitantes parecem confiar mais em você.]</font></i>"
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
 														"choice_000": "Hmm."
 													}
 												}
@@ -5851,10 +5851,10 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods, handing you a pouch. \"For vigor.\"<br><br>They bound away, baskets in arm.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "The visitor nods, handing you a pouch. \"For vigor.\"<br><br>They bound away, baskets in arm.<br><br><i><font size=-1>[Os visitantes parecem confiar mais em você.]</font></i>"
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
 														"choice_000": "Huh."
 													}
 												}
@@ -5865,11 +5865,11 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods and takes their leave.<br><br>Shortly after, you discover a basket brimming with flower petals and seeds by your banner.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "O visitante acena e se despede.<br><br>Pouco depois, você descobre uma cesta repleta de pétalas de flores e sementes ao sua bandeira<br><br><i><font size=-1>[Os visitantes parecem confiar mais em você.]</font></i>"
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
-														"choice_000": "Strange."
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
+														"choice_000": "Estranho."
 													}
 												}
 											}
@@ -5879,35 +5879,35 @@
 												"dialog_nodes": {
 													"msg2": {
 														"bulletin_message": {
-															"00": "\"I see. May your harvests be ever more bountiful.\"<br><br>The visitor takes their leave, clearly disappointed.",
-															"01": "\"Oh, perhaps another time then...\"<br><br>The visitor wanders carefully away.",
-															"02": "The visitor's shoulders droop. \"Oh. Um, okay, bye!\" they say hastily, navigating their way quickly past  the edge of town."
+															"00": "\"Entendo. Que suas colheitas sejam cada vez mais abundantes.\"<br><br>O visitante se despede, claramente desapontado.",
+															"01": "\"Talvez outra hora então...\"<br><br>O visitante vagueia com cuidado.",
+															"02": "Os ombros do visitante caíam. \"Oh. Hum, okay, bye!\" eles dizem às pressas, navegando seu caminho rapidamente além da borda da cidade."
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
-														"choice_000": "Huh. That was odd..."
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
+														"choice_000": "Hein. Era estranho..."
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "A small, hooded figure approaches, meekly. \"I have heard of your vegetables,\" she says. \"Allow me to take some, and by my honor, it will be a worthwhile trade.\"",
-															"01": "\"You have vegetables, yes? Perhaps an exchange in kind?\" says a strange, small hooded figure. It seems she wants to trade for vegetables?",
-															"02": "A hooded figure appears, silently and seemingly out of nowhere. \"Greetings. I have taken a risk for the chance at your garden's bounty. Perhaps a trade?\" It seems she means that she wants some vegetables...",
-															"03": "A small, hooded figure approaches, meekly. \"I have heard of your vegetables,\" he says. \"Allow me to take some, and by my honor, it will be a worthwhile trade.\"",
-															"04": "\"You have vegetables, yes? Perhaps an exchange in kind?\" says a strange, small hooded figure. It seems he wants to trade for vegetables?",
-															"05": "A hooded figure appears, silently and seemingly out of nowhere. \"Greetings. I have taken a risk for the chance at your garden's bounty. Perhaps a trade?\" It seems he means that he wants some vegetables..."
+															"00": "Uma figura pequena e encapuzada se aproxima, humildemente. \"Já ouvi falar de seus vegetais,\" ela diz. \"Permita-me tomar um pouco, e pela minha honra, será uma troca que valerá a pena.\"",
+															"01": "\"Você tem vegetais, não é? Talvez uma troca em espécie?\" diz uma figura estranha, pequeno encapuzado. Parece que ela quer trocar por vegetais?",
+															"02": "Uma figura encapuzada aparece, silenciosamente e aparentemente do nada. \"Saudações. Eu me arrisquei pela chance da recompensa do seu jardim. Talvez uma troca?\" Parece que ela quer dizer que quer alguns vegetais...",
+															"03": "Uma figura pequena e encapuzada se aproxima, humildemente. \"Já ouvi falar de seus vegetais,\" ele diz. \"Permita-me tomar um pouco, e pela minha honra, será uma troca que valerá a pena.\"",
+															"04": "\"Você tem vegetais, não é? Talvez uma troca em espécie?\" diz uma figura estranha, pequeno encapuzado. Parece que ele quer trocar por vegetais?",
+															"05": "Uma figura encapuzada aparece, silenciosamente e aparentemente do nada. \"Saudações. Eu me arrisquei pela chance da recompensa do seu jardim. Talvez uma troca?\" Parece que ele quer dizer que quer alguns vegetais..."
 														},
-														"bulletin_title": "Strange Trading",
-														"dialog_title": "Strange Trading",
-														"choice_000": "Sure thing! Let's get some baskets...",
-														"choice_001": "No, Sorry, can't spare any"
+														"bulletin_title": "Negociação Estranha",
+														"dialog_title": "Negociação Estranha",
+														"choice_000": "Coisa certa! Vamos pegar algumas cestas...",
+														"choice_001": "Não, desculpe, não posso poupar nenhum"
 													}
 												}
 											}
 										},
 										"01_strange_trading_quest": {
-											"title": "Strange Trading",
-											"dialog_title": "Strange Trading",
-											"text": "Let's give them some vegetables."
+											"title": "Negociação Estranha",
+											"dialog_title": "Negociação Estranha",
+											"text": "Vamos dar-lhes alguns vegetais."
 										}
 									},
 									"02_hello": {
@@ -5916,36 +5916,36 @@
 												"dialog_nodes": {
 													"msg2": {
 														"bulletin_message": {
-															"00": "Your clan has proven gracious, and your gardens savory. Many of my kin mistrust the progeny of Monkey, but I feel we must extend a paw of friendship."
+															"00": "Seu clã provou ser gracioso, e seus jardins salgados. Muitos dos meus parentes desconfiam da descendência de Monkey, mas sinto que devemos estender uma pata de amizade."
 														},
-														"bulletin_title": "New Rabbit Friend",
+														"bulletin_title": "Novo Amigo Coelho",
 														"choice_000": "I see... talking rabbit... person...",
-														"choice_001": "Hello, and welcome!"
+														"choice_001": "Hello, and Bem-vindo!"
 													},
 													"msg3": {
 														"bulletin_message": {
-															"00": "\"I leave you with a parting gift of these Stone-Cut Lanterns, may they light your path in the darker times ahead.\" <br><br>The visitor presents you with several odd, ornate stone lanterns, and then departs, disappearing into the foliage with practiced speed."
+															"00": "\"Deixo-te com um presente de despedida desses Lanternas Cortadas de Pedra, que iluminem seu caminho nos tempos mais escuros à frente.\" <br><br>O visitante apresenta-lhe várias lanternas de pedra estranhas e ornamentadas, e depois parte, desaparecendo na folhagem com velocidade praticada."
 														},
-														"bulletin_title": "New Rabbit Friend",
-														"choice_000": "Thank you!",
-														"choice_001": "Darker times? Wait!"
+														"bulletin_title": "Novo Amigo Coelho",
+														"choice_000": "Obrigado!",
+														"choice_001": "Tempos mais sombrios? Esperar!"
 													},
 													"msg0": {
 														"bulletin_message": {
-															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
+															"00": "Uma figura encapuzada se aproxima, hesitando por um momento antes de finalmente remover seu capuz..."
 														},
-														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
+														"bulletin_title": "Outra figura encapuzada visível",
+														"dialog_title": "Figura Encapuzada",
 														"choice_000": " ... "
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but it was deemed necessary.\""
+															"00": "Duas orelhas longas derramam, a pessoa coelho balançando a cabeça um pouco enquanto eles endireitam.<br><br>\"Saudações honrosas. Sou Sasha Lightfoot, do vigésimo terceiro warren de Amberstone. Peço desculpas pelo engano, mas foi considerado necessário.\""
 														},
-														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
-														"choice_000": "I knew it!",
-														"choice_001": "Guess that explains the vegetables..."
+														"bulletin_title":"Outra figura encapuzada visível",
+														"dialog_title": "Figura Encapuzada",
+														"choice_000": "Eu sabia!",
+														"choice_001": "Acho que isso explica os vegetais..."
 													}
 												}
 											}
@@ -5955,42 +5955,42 @@
 												"dialog_nodes": {
 													"msg4": {
 														"bulletin_message": {
-															"00": "For the present, I must return home, but I shall return in the coming days. Farewell, humans."
+															"00": "Por enquanto, devo voltar para casa, mas voltarei nos próximos dias. Adeus, humanos."
 														},
-														"bulletin_title": "Hello, Stranger",
+														"bulletin_title": "Olá, Estranho",
 														"dialog_title": "Sasha Lightfoot",
-														"choice_000": "Farewell"
+														"choice_000": "Adeus"
 													},
 													"msg2": {
 														"bulletin_message": {
-															"00": "Our burrow is hidden away, not far from here. We have been observing you for a time, and your clan seems trustworthy. Not all of my kin trust the progeny of Monkey, but I feel we should extend a paw of friendship."
+															"00": "Nossa toca está escondida, não muito longe daqui. Estamos observando você há algum tempo, e seu clã parece confiável. Nem todos os meus parentes confiam na descendência de Macaco, mas acho que devemos estender uma pata de amizade."
 														},
-														"bulletin_title": "Hello, Stranger",
-														"choice_000": "I... see... talking rabbit... person",
-														"choice_001": "Welcome to our town!"
+														"bulletin_title": "Olá, estranho.",
+														"choice_000": "Eu... Ver... coelho falante... pessoa",
+														"choice_001": "Bem-vindo à nossa cidade!"
 													},
 													"msg3": {
 														"bulletin_message": {
-															"00": "It has been generations since Rabbitkind could set foot on the aboveground for long - and I hope perhaps you can help us with this in the future..."
+															"00": "Já se passaram gerações desde que o tipo Coelho pode pisar no plano por muito tempo - e espero que talvez você possa nos ajudar com isso no futuro..."
 														},
-														"bulletin_title": "Hello, Stranger",
-														"choice_000": "Let us know what we can do"
+														"bulletin_title": "Olá, estranho.",
+														"choice_000": "Deixe-nos saber o que podemos fazer"
 													},
 													"msg0": {
 														"bulletin_message": {
-															"00": "A hooded figure approaches, hesitating for a moment before finally removing their hood..."
+															"00": "Uma figura encapuzada se aproxima, hesitando por um momento antes de finalmente remover seu capuz..."
 														},
-														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
+														"bulletin_title": "Outra figura encapuzada visível",
+														"dialog_title": "Figura Encapuzada",
 														"choice_000": " ... "
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "Two long ears spill out, the rabbit-person shaking their head a little as they straighten out.<br><br>\"Honorable greetings. I am Sasha Lightfoot of the twenty-third warren of Amberstone. I apologize for the deception, but my kind has been poorly received before, and we had to ensure our own safety.\""
+															"00": "Duas orelhas longas derramam, a pessoa coelho balançando a cabeça um pouco enquanto eles endireitam. <br><br>\"Saudações honrosas. Sou Sasha Lightfoot, do vigésimo terceiro warren de Amberstone. Peço desculpas pelo engano, mas minha espécie já foi mal recebida antes, e tivemos que garantir nossa própria segurança.\""
 														},
-														"bulletin_title": "Another Conspicuous Hooded Figure",
-														"dialog_title": "Hooded Figure",
-														"choice_000": "Oh... uh... hello"
+														"bulletin_title": "Outra figura encapuzada visível",
+														"dialog_title": "Figura Encapuzada",
+														"choice_000": "Oh... uh... Olá"
 													}
 												}
 											}
@@ -6002,14 +6002,14 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"000": "The Rabbit diplomat Sasha Lightfoot approaches.<br><br>\"Your gestures of friendship have not gone unnoticed. Somebun from the warren wanted you to have this.\"<br><br>He hands you a rough-hewn bag, containing:",
-															"001": "Sasha, the Amberstone Envoy pads into town.<br><br>\"I continue to be heartened by our burgeoning friendship. A gift, from my clan.\"<br><br>He hands you a rough-hewn bag, containing:",
-															"002": "\"I am not here on official business this time - a relative of mine heard me speak of you, and thought you might be able to use this.\"",
-															"003": "\"A small token of our appreciation of our friends of the Monkey.\" He smiles amicably and extends a paw to you, holding:"
+															"000": "O diplomata coelho Sasha Lightfoot se aproxima.<br><br>\"Seus gestos de amizade não passaram despercebidos. Algum debun do Warren queria que você tivesse isso.\"<br><br>Ele lhe dá um saco áspero, contendo:",
+															"001": "Sasha, o enviado amberstone para a cidade.<br><br>\"Continuo animado com nossa amizade crescente. Um presente do meu clã.\"<br><br>Ele lhe dá um saco áspero, contendo:",
+															"002": "\"Eu não estou aqui em negócios oficiais desta vez - um parente meu me ouviu falar de você, e pensou que você poderia ser capaz de usar isso.\"",
+															"003": "\"Um pequeno símbolo de nossa apreciação de nossos amigos do Macaco.\" Ele sorri amigavelmente e estende uma pata para você, segurando:"
 														},
-														"bulletin_title": "A Grateful Rabbit",
+														"bulletin_title": "Ao Coelho Grato",
 														"dialog_title": "Sasha Lightfoot",
-														"choice_000": "Oh, thanks!"
+														"choice_000": "Oh, obrigado!"
 													}
 												}
 											}
@@ -6021,10 +6021,10 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "\"Thank you, I'm sure the little Snake ones will find these quite satisfactory. May our friendship ever blossom!.\" He offers you glittering bags as payment.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+															"00": "\"Obrigado, tenho certeza que os pequenos Cobra acharão isso muito satisfatório. Que nossa amizade floresça!\" Ele te oferece sacos brilhantes como pagamento.<br><br><font size=-1><i>[Reputação de coelho aumentou]</i></font>"
 														},
 														"bulletin_title": "Shook Down",
-														"choice_000": "Thank you!"
+														"choice_000": "Obrigado!"
 													}
 												}
 											}
@@ -6034,10 +6034,10 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "\"Thank you. I hope we are not injured, but fortune favors the prepared. May our friendship continue to take root!\" He hands you some glittering bags as compensation.<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+															"00": "\"Obrigado. Espero que não estejamos feridos, mas a sorte favorece os preparados. Que nossa amizade continue a criar raízes!\" Ele lhe dá alguns sacos brilhantes como compensação.<br><br><font size=-1><i>[A reputação do coelho aumentou]</i></font>"
 														},
 														"bulletin_title": "Shook Down",
-														"choice_000": "Best of luck"
+														"choice_000": "Boa sorte"
 													}
 												}
 											}
@@ -6047,46 +6047,46 @@
 												"dialog_nodes": {
 													"msg2_b": {
 														"bulletin_message": {
-															"00": "\"Then we shall give them a fight! Please send the health tonics as soon as they are ready.\"<br><br>\"Let's say eight of them, for good luck?\" he says, smiling, as if you had any idea what that meant."
+															"00": "\"Então vamos lutar contra eles! Por favor, envie os tônicos de saúde assim que estiverem prontos.\"<br><br>\"Digamos oito deles, para boa sorte?\" diz ele, sorrindo, como se você tivesse alguma ideia do que isso significava."
 														},
 														"bulletin_title": "Shook Down",
-														"choice_000": "Will do!"
+														"choice_000": "Vai fazer!"
 													},
 													"msg2_c": {
 														"bulletin_message": {
-															"00": "Sasha nods. \"A burrow must see to its own. We have faced worse, we shall persevere.\" They leave, returning to their hidden home."
+															"00": "Sasha acena. \"Uma toca deve cuidar de si mesma. Enfrentamos coisas piores, vamos perseverar.\" Eles saem, voltando para sua casa escondida."
 														},
 														"bulletin_title": "Shook Down",
 														"choice_000": "OK"
 													},
 													"msg2_a": {
 														"bulletin_message": {
-															"00": "\"Excellent! Please let me know as soon as the doors are ready!\""
+															"00": "\"Excelente! Por favor, me avise assim que as portas estiverem prontas!\""
 														},
 														"bulletin_title": "Shook Down",
 														"choice_000": "OK"
 													},
 													"msg1": {
 														"bulletin_message": {
-															"00": "\"Some goblins somehow found an entrance to our hovel and are asking for... a bunch of wooden doors? We have neither wood nor carpenter on paw, so could you perhaps craft some for us?<br><br>Alternatively, we're not afraid to fight them off, but we lack the means to heal our injured afterwards.\""
+															"00": "\"Alguns goblins de alguma forma encontraram uma entrada para o nosso hovel e estão pedindo... um monte de portas de madeira? Não temos madeira nem carpinteiro na pata, então você poderia talvez criar alguns para nós?<br><br>Alternativamente, não temos medo de combatê-los, mas não temos meios para curar nossos feridos depois.\""
 														},
 														"bulletin_title": "Shook Down",
-														"choice_000": "We'll craft some doors!",
-														"choice_001": "We'll brew some potions",
-														"choice_002": "Sorry, we can't help"
+														"choice_000": "Vamos criar algumas portas!",
+														"choice_001": "Vamos preparar algumas poções",
+														"choice_002": "Desculpe, não podemos ajudar"
 													}
 												}
 											}
 										},
 										"11_shook_down_quest_a": {
-											"title": "Shook Down: Make some Wooden Doors",
-											"dialog_title": "Shook Down: Make some Wooden Doors",
-											"text": "We must make some doors for Clan Amberstone."
+											"title": "Sacudiu Para Baixo: Faça Algumas Portas de Madeira",
+											"dialog_title": "Sacudiu Para Baixo: Faça Algumas Portas de Madeira",
+											"text": "Temos que abrir algumas portas para o Clã Amberstone."
 										},
 										"11_shook_down_quest_b": {
-											"title": "Shook Down: Make some Health Tonics",
-											"dialog_title": "Shook Down: Make Health Tonics",
-											"text": "We must make some healing potions for Clan Amberstone."
+											"title": "Sacudiu Para Baixo: Faça alguns Tônicos de Saúde",
+											"dialog_title": "Sacudiu Para Baixo: Faça Tônicos de Saúde",
+											"text": "Temos que fazer algumas poções curativas para o Clã Amberstone."
 										}
 									},
 									"12_heirbloom": {
@@ -6095,11 +6095,11 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"000": "\"Wonderful! Thank you! Here, take this, as payment.\"<br><br><font size=-1><i>[Rabbit reputation increased]</i></font>"
+															"000": "\"Maravilhoso! Obrigado, obrigado! Aqui, tome isso, como pagamento.\"<br><br><font size=-1><i>[A reputação do coelho aumentou]</i></font>"
 														},
-														"bulletin_title": "Historic Growth",
-														"dialog_title": "The Rabbit hops a little in happiness",
-														"choice_000": "Here you go!"
+														"bulletin_title": "Crescimento Histórico",
+														"dialog_title": "O Coelho pula um pouco de felicidade",
+														"choice_000": "Aqui está!"
 													}
 												}
 											}
