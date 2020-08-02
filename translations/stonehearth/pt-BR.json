@@ -1297,7 +1297,7 @@
 					"sheep_pasture_name": "Pasto de Ovelhas",
 					"rabbit_pasture_name": "Curral de Coelhos",
 					"poyo_pasture_name": "Galinheiro",
-					"sheep_pasture_description": "Ovelhas produzem lã, usada pelo tecelão. O abate de ovelhas produz carne de carneiro, um ingrediente cru de culinária",
+					"sheep_pasture_description": "Ovelhas produzem lã, usada pelo Tecelão. O abate de ovelhas produz carne de carneiro, um ingrediente cru de culinária",
 					"rabbit_pasture_description": "Coelhos se reproduzem rapidamente e podem ser abatidos para carne e peles",
 					"poyo_pasture_description": "Produzem ovos, um ingrediente culinário valioso. O abate produzirá carne e, ocasionalmente, penas para artesanato.",
 					"num_animals": "Animais:"
@@ -1573,7 +1573,7 @@
 					"005": "Uma cidade bem alimentada é uma cidade feliz",
 					"006": "Use as teclas < e > para girar um item ou prédio antes de colocá-lo.",
 					"007": "Seus cidadãos se movem mais rápido nas estradas",
-					"008": "O tecelão pode criar novos uniformes que aumentam a eficácia de seus trabalhadores.",
+					"008": "O Tecelão pode criar novos uniformes que aumentam a eficácia de seus trabalhadores.",
 					"009": "Sentar-se durante uma refeição ajuda na digestão. Construa mesas e cadeiras para os seus hearthlings.",
 					"010": "Os pastores encontrarão ovelhas automaticamente para encher um pasto",
 					"011": "Se você quer um tesouro maior, tente vender seus itens para um comerciante.",
@@ -2288,7 +2288,7 @@
 					"description": "Quanto tempo esse hearthling pode trabalhar antes de precisar descansar.",
 					"bullet_points": {
 						"000": "Determina a duração do sono",
-						"001": "Determina a velocidade de reparo do engenheiro"
+						"001": "Determina a velocidade de reparo do Engenheiro"
 					}
 				},
 				"willpower": {
@@ -2491,7 +2491,7 @@
 				"seasons": {
 					"spring": {
 						"display_name": "Primavera",
-						"description": "A primavera no Ártico é uma época de mudanças, durando apenas um mês. Enquanto as terras altas mantêm sua cobertura de neve o ano todo, as terras baixas ao redor dos lagos começam a descongelar e a grama jovem começa a brotar."
+						"description": "A primavera no Ártico é uma época de mudanças, durando apenas um mês. Enquanto as terras altas mantêm sua cobertura de neve o ano todo, as terras baixas ao redor dos lagos começam a descongelar e a grama jovem começa a plantar."
 					},
 					"summer": {
 						"display_name": "Verão",
@@ -2642,26 +2642,26 @@
 						"tier_2_bldg_template": "Modelos de construção Nível 2",
 						"tier_2_shops": "Lojas Nível 2",
 						"tier_2_BGM": "Músicas Nível 2",
-						"recipe_unlock_engineer": "Nova receita de portcullis para engenheiro!",
+						"recipe_unlock_engineer": "Nova receita de portcullis para Engenheiro!",
 						"recipe_unlock_mason": "Novas receitas de decoração para pedreiro!",
-						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!",
+						"recipe_unlock_blacksmith": "Novas receitas de decoração para Ferreiro!",
 						"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - Colaboração Tecelão, Oleiro e Ferreiro!",
-						"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário- Colaboração entre ferreiro, Carpinteiro e pedreiro!",
-						"recipe_unlock_weapons_3": "Nova receita do arco lendário - Colaboração de engenheiro, tecelão e Carpinteiro!",
-						"recipe_unlock_weapons_4": "Nova receita do Circlet lendário - Colaboração herborista, pedreiro e ferreiro!"
+						"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário- Colaboração entre Ferreiro, Carpinteiro e pedreiro!",
+						"recipe_unlock_weapons_3": "Nova receita do arco lendário - Colaboração de Engenheiro, Tecelão e Carpinteiro!",
+						"recipe_unlock_weapons_4": "Nova receita do Circlet lendário - Colaboração herborista, pedreiro e Ferreiro!"
 					},
 					"generosity_tier_2_reached": {
 						"reward_message_ctd": "Por demonstrar grande generosidade aos necessitados. A vila é solenemente elegível à:",
 						"recipe_unlock_mason": "Nova receita de fonte de desejos para pedreiro!",
 						"recipe_unlock_herbalist": "Novas decorações de arbustos para o herborista!",
-						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!"
+						"recipe_unlock_blacksmith": "Novas receitas de decoração para Ferreiro!"
 					},
 					"crafting_tier_2_reached": {
 						"reward_message_ctd": "Por excelência na arte do artesanato. A vila é solenemente elegível à:",
 						"recipe_unlock_mason": "Nova fonte e receitas de estátua para pedreiro!",
 						"recipe_unlock_carpenter": "Novas decorações e cercas para Carpinteiro!",
 						"recipe_unlock_herbalist": "Decorações de arbustos novos para herborista!",
-						"recipe_unlock_blacksmith": "Novas receitas de decoração para ferreiro!"
+						"recipe_unlock_blacksmith": "Novas receitas de decoração para Ferreiro!"
 					},
 					"ascendancy_town_tier_quest": {
 						"title": "Missão para um vilarejo",
@@ -2756,7 +2756,7 @@
 								},
 								"church_reqs": {
 									"bulletin_message": {
-										"000": "A Igreja da Abundância favorece aqueles que compartilha de sua riqueza com os necessitados. Eu darei receitas para seu cozinheiro e seu maçom; construa uma Fonte da Abundância e eu estarei de volta para comemorar sua conquista"
+										"000": "A Igreja da Abundância favorece aqueles que compartilha de sua riqueza com os necessitados. Eu darei receitas para seu Cozinheiro e seu maçom; construa uma Fonte da Abundância e eu estarei de volta para comemorar sua conquista"
 									},
 									"bulletin_title": "Anwyn olha de volta no pergaminho",
 									"dialog_title": "O honorável Anwyn Redelm",
@@ -2901,7 +2901,7 @@
 								"food_shop_1": {
 									"shop_info": {
 										"name": "Comidas para café da manhã de Gannor",
-										"title": "Um jovem cozinheiro chegou com um baú de café da manhã"
+										"title": "Um jovem Cozinheiro chegou com um baú de café da manhã"
 									}
 								},
 								"potter_shop_1": {
@@ -4131,7 +4131,7 @@
 														"000": "Que? Você muda de ideia?... Vocês humanos tão imprudentes do nosso tempo. Agora precisamos chamar de volta orcs, eu mudo e tomar corte de salário.",
 														"001": "Não tem?? Temos família que você conhece! Você perde nosso tempo! Dizemos aos orcs que não te dão misericórdia!"
 													},
-													"bulletin_title": "The goblin frowns",
+													"bulletin_title": "O goblin franze a testa",
 													"dialog_title": "Acampamento Goblin"
 												},
 												"collection_success": {
@@ -4139,7 +4139,7 @@
 														"000": "Brilhantes! Suprimentos! Talvez este trabalho seja ainda melhor do que trabalhar para o Chefe. Obrigado, humano. Se você quiser, coloque para fora o Mestre Gong vermelho. Ogro tomar token vermelho como desafio.",
 														"001": "Você tem medo de orc? Bom para mim! Não coloque para fora gongo vermelho ou ainda maior, boks mais burros podem vir.",
 														"002": "Coisas!! Você deveria contratar nós em tempo integral. Você pergunta o que fazemos por você? Podemos discutir em contrato. Talvez você precise de nós se você exibir Mestre Gong e bok gigante ogro vir.",
-														"003": "Você dá coisas boas! Meu lobo será tão feliz! Já conheceu o chefe ogro? Eles gostam de vermelho colorido. Como no Gong. Pergunte-lhe ferreiro."
+														"003": "Você dá coisas boas! Meu lobo será tão feliz! Já conheceu o Chefe Ogro? Eles gostam de vermelho colorido. Como no Gong. Pergunte-lhe Ferreiro."
 													},
 													"bulletin_title": "O goblin pisca um sorriso banguela",
 													"dialog_title": "Acampamento Goblin"
@@ -4169,15 +4169,15 @@
 														"00": "Seu precioso Tratado Cid não pode protegê-lo agora, humanos tolos!"
 													},
 													"bulletin_title": "Chefe Ogro",
-													"dialog_title": "Chefe ogro",
-													"choice_000": "Bring it on"
+													"dialog_title": "Chefe Ogro",
+													"choice_000": "Pode vir"
 												},
 												"msg1": {
 													"bulletin_message": {
 														"00": "Cidade puny! Você monta a marca de Ruby! Você ousa me desafiar, Chefe Grut Bashbrain?!"
 													},
 													"bulletin_title": "Um Ogro pisa na cidade",
-													"dialog_title": "Chefe ogro",
+													"dialog_title": "Chefe Ogro",
 													"choice_000": "Você não me assusta!"
 												}
 											}
@@ -4298,7 +4298,7 @@
 										}
 									},
 									"unlock_blue_token_recipe": {
-										"bulletin_title": "O ferreiro desbloqueou a receita decorativa do Elite Gong!"
+										"bulletin_title": "O Ferreiro desbloqueou a receita decorativa do Elite Gong!"
 									},
 									"unlock_purple_token_recipe": {
 										"bulletin_title": "O Ferreiro desbloqueou a receita do Gongo Dourado do General!"
@@ -4866,7 +4866,7 @@
 													"bulletin_message": {
 														"00": "Que monumento inspirador! Ele realmente fala do heroísmo do Cavaleiro Cid.<br/><br/>Isso me lembra de novo por que me tornei um membro da Guarda. Parece que foi há tanto tempo...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn olha para a distância média, olhos brilhando.)</font></p>"
 													},
-													"bulletin_title": "Anwyn approaches, eyes shining",
+													"bulletin_title": "Anwyn se aproxima, olhos brilhando",
 													"dialog_title": "Anwyn Torresi, Capitão da Guarda",
 													"choice_000": "Anwyn? Você está..."
 												}
@@ -4881,8 +4881,8 @@
 														"00": "Como este santuário concede sua bênção a todos vocês a cada dia que passa, tire um momento para refletir sobre o mundo, seus mistérios, e suas muitas recompensas.<br/><br/>Que sua cidade seja sempre um lar feliz para seu povo, e uma fonte para a generosidade da Igreja da Abundância."
 													},
 													"bulletin_title": "Ember continua",
-													"dialog_title": "Ember Minton, Missionary",
-													"choice_000": "We'll do our best!"
+													"dialog_title": "Ember Minton, Missionário",
+													"choice_000": "Faremos o nosso melhor!"
 												},
 												"msg3": {
 													"bulletin_message": {
@@ -4911,7 +4911,7 @@
 														"00": "Bem, agora, parece que meu posto avançado favorito está crescido! Parabéns pelo seu recém-descoberto município!"
 													},
 													"bulletin_title": "É Mer De Novo!",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
+													"dialog_title": "Mer Burlyhands, Companheiro de Capital",
 													"choice_000": "Obrigado!"
 												},
 												"msg2": {
@@ -4919,7 +4919,7 @@
 														"00": "A propósito, este monumento aqui é especial, já que foi abençoado e tudo mais - você pode construir os outros se quiser, mas eles serão apenas estátuas antigas regulares. De aparência chique, mas nenhuma tão mágica.<br/><br/> Ainda assim, eles fazem uma boa decoração, não acha?"
 													},
 													"bulletin_title": "Mer Continua",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
+													"dialog_title": "Mer Burlyhands, Companheiro de Capital",
 													"choice_000": "Entendi!"
 												},
 												"msg3": {
@@ -4927,7 +4927,7 @@
 														"00": "Obrigado por ser um bando de pessoas encantadoras, tenho orgulho de servir um grupo de indivíduos tão sérios e ambiciosos. Você me deixa orgulhoso!<br/><br/>Adeus por enquanto, e a melhor sorte para cada um de vocês!"
 													},
 													"bulletin_title": "Mer Continua",
-													"dialog_title": "Mer Burlyhands, Capital Fellow",
+													"dialog_title": "Mer Burlyhands, Companheiro de Capital",
 													"choice_000": "Adeus, Mer! Foi um prazer!"
 												}
 											}
@@ -5209,7 +5209,7 @@
 					"spawn_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Corrupções Hostis, e eles estão muito próximos!"
+								"title": "A Corrupções Hostis, e eles estão muito próximos!"
 							}
 						}
 					},
@@ -5683,17 +5683,17 @@
 										"borrow_quest_cook": {
 											"title": "Envie um Cozinheiro",
 											"dialog_title": "Envie um Cozinheiro",
-											"text": "Selecione um cozinheiro (Nível 3+) para ajudar o Clã Amberstone."
+											"text": "Selecione um Cozinheiro (Nível 3+) para ajudar o Clã Amberstone."
 										},
 										"borrow_quest_engineer": {
 											"title": "Inveja um Engenheiro",
 											"dialog_title": "Inveja um Engenheiro",
-											"text": "Selecione um engenheiro (Nível 2+) para ajudar o Clã Amberstone."
+											"text": "Selecione um Engenheiro (Nível 2+) para ajudar o Clã Amberstone."
 										},
 										"borrow_quest_farmer": {
 											"title": "Enviar um Fazendeiro",
 											"dialog_title": "Envie um Fazendeiro",
-											"text": "Selecione um fazendeiro (Nível 4+) para ajudar o Clã Amberstone."
+											"text": "Selecione um Fazendeiro (Nível 4+) para ajudar o Clã Amberstone."
 										},
 										"borrow_quest_herbalist": {
 											"title": "Envie um Herbolista",
@@ -5776,7 +5776,7 @@
 														"bulletin_message": {
 															"00": "\"Esplêndido! Tome todo o tempo que você precisa na escolha, a seleção é realmente importante.\""
 														},
-														"choice_000": "Let's see..."
+														"choice_000": "Vamos ver..."
 													},
 													"story4": {
 														"bulletin_message": {
@@ -6496,7 +6496,7 @@
 													},
 													"favor2": {
 														"bulletin_message": {
-															"00": "\"Primeiro, vou precisar de alguns de seus cidadãos emprestados: um mason experiente para verificar novamente nosso trabalho, um ferreiro experiente para ajudar com o reforço, além de dois outros cidadãos de sua escolha para... ajudar a alcançar as partes altas.\"<br><br>\"Com isso completo, voltaremos com a arma, e uma vez que você tenha preparado, vamos usá-la para invocar, atacar e destruir o Titã. O ataque pode levar algum tempo significativo, então você deve se preparar para um cerco.\"<br><br>\"Devo dizer... este mal não é de <i>immediato</i> ameaça para você. Esta é uma tarefa para beneficiar os filhos do seu povo, e os meus.\""
+															"00": "\"Primeiro, vou precisar de alguns de seus cidadãos emprestados: um mason experiente para verificar novamente nosso trabalho, um Ferreiro experiente para ajudar com o reforço, além de dois outros cidadãos de sua escolha para... ajudar a alcançar as partes altas.\"<br><br>\"Com isso completo, voltaremos com a arma, e uma vez que você tenha preparado, vamos usá-la para invocar, atacar e destruir o Titã. O ataque pode levar algum tempo significativo, então você deve se preparar para um cerco.\"<br><br>\"Devo dizer... este mal não é de <i>immediato</i> ameaça para você. Esta é uma tarefa para beneficiar os filhos do seu povo, e os meus.\""
 														},
 														"bulletin_title": "Uma Empresa Titanic",
 														"choice_000": "Nós vamos fazer isso!",
@@ -6583,7 +6583,7 @@
 															"00": "\"Esplêndido! Acho que até um novato Pedreiro e Tecelão funcionariam muito bem, desde que sejam receptivos ao ensino. Não deve levar mais do que dois dias.\""
 														},
 														"bulletin_title": "Estilo Lapine",
-														"choice_000": "Let's see who to send..."
+														"choice_000": "Vamos ver quem enviar..."
 													},
 													"reject2": {
 														"bulletin_message": {
@@ -6598,7 +6598,7 @@
 														},
 														"bulletin_title": "Estilo Lapine",
 														"choice_000": "Parece ótimo!",
-														"choice_001": "[Declínio] Hm. não."
+														"choice_001": "[Declínio] Hm... não."
 													},
 													"reject": {
 														"bulletin_message": {
@@ -7010,7 +7010,7 @@
 				},
 				"starving_animal_buff": {
 					"display_name": "Com fome",
-					"description": "Este animal está com fome! Peça a um cozinheiro que crie um alimento para que seu pastor possa alimentá-lo."
+					"description": "Este animal está com fome! Peça a um Cozinheiro que crie um alimento para que seu pastor possa alimentá-lo."
 				}
 			},
 			"stopped": {
@@ -7045,7 +7045,7 @@
 			},
 			"severely_injured": {
 				"severely_injured_buff": {
-					"display_name": "Gravemente ferido",
+					"display_name": "Gravemente Ferido",
 					"description": "Ferido gravemente! Mal posso andar!"
 				}
 			},
@@ -7073,13 +7073,13 @@
 			},
 			"game_modes": {
 				"game_mode_hard_buff": {
-					"display_name": "Modo difícil",
+					"display_name": "Modo Difícil",
 					"description": "No Modo Difícil, os inimigos têm mais armadura e saúde e causam mais dano"
 				}
 			},
 			"slowed": {
 				"snap_trap": {
-					"display_name": "Armadilha instantânea",
+					"display_name": "Armadilha Instantânea",
 					"description": "Movimento diminuiu depois de receber dano da armadilha"
 				},
 				"snap_trap_2": {
@@ -7101,7 +7101,7 @@
 			},
 			"recently_treated": {
 				"recently_treated_buff": {
-					"display_name": "Recém tratado",
+					"display_name": "Recém Tratado",
 					"description": "Este hearthling foi recentemente atendido por um médico e terá que descansar um pouco antes de outro tratamento."
 				}
 			},
@@ -7221,7 +7221,7 @@
 				},
 				"jungle_day": {
 					"jungle_day_buff": {
-						"display_name": "Dia de brotar",
+						"display_name": "Dia de plantar",
 						"description": "Todas as plantas crescem 3 vezes mais rápido."
 					}
 				},
@@ -7328,7 +7328,7 @@
 			},
 			"teleportation_sickness": {
 				"teleportation_sickness_buff": {
-					"display_name": "Recentemente teleportado",
+					"display_name": "Recentemente Teleportado",
 					"description": "Teletransporte é duro com a alma, precisa esperar um pouco antes de fazê-lo novamente."
 				}
 			}
@@ -7761,7 +7761,7 @@
 			},
 			"chopping_wood": {
 				"chopping_logs": {
-					"text": "Em Cortar Madeira:",
+					"text": "Sobre Cortar Madeira:",
 					"logs": {
 						"beleaguered_leader": {
 							"000": "Hoje, estamos cortando árvores para obter madeira. Já estou farta das piadas de madeira.",
@@ -7831,7 +7831,7 @@
 			},
 			"combat": {
 				"hurt_badly": {
-					"text": "Em Lesões Graves:",
+					"text": "Sobre Lesões Graves:",
 					"logs": {
 						"generic": {
 							"000": "Owtch! Isso doeu muito!",
@@ -8126,7 +8126,7 @@
 					}
 				},
 				"sleep_in_bed": {
-					"text": "Nas camas:",
+					"text": "Sobre as Camas:",
 					"logs": {
 						"generic": {
 							"000": "É bom ter minha própria cama.",
@@ -8161,7 +8161,7 @@
 			},
 			"eating_berries": {
 				"eating_berries": {
-					"text": "Em Comer Bagas:",
+					"text": "Sobre Comer Bagas:",
 					"logs": {
 						"psychopathic_misanthrope": {
 							"000": "Huh. Essas bagas estão realmente crescendo em mim. Elas têm um sabor fresco e não adubado.",
@@ -8241,7 +8241,7 @@
 					}
 				},
 				"different_food": {
-					"text": "Em Comer Algo Diferente:",
+					"text": "Sobre Comer Algo Diferente:",
 					"logs": {
 						"generic": {
 							"000": "Mmm, eu amo a diversidade na minha dieta.",
@@ -8255,7 +8255,7 @@
 					}
 				},
 				"super_nutritious_food": {
-					"text": "Em Comer Realmente Saudável:",
+					"text": "Sobre Comer Realmente Saudável:",
 					"logs": {
 						"lovable_rogue": {
 							"000": "Uau, quem sabia [str(entry.recent_food)] foi tão incrivelmente emagrecedor?",
@@ -8290,7 +8290,7 @@
 					"text": "Ao comer:",
 					"logs": {
 						"generic": {
-							"000": "Alimentos! The [str(entry.recent_food)] gostos surpreendentemente bom hoje.",
+							"000": "Alimentos! O [str(entry.recent_food)] gostos surpreendentemente bom hoje.",
 							"001": "Nunca realmente valorizou comida como esta [str(entry.recent_food)] até nos mudarmos para cá.",
 							"002": "Ser alimentado é muito, muito, muito mais legal do que estar com fome.",
 							"003": "Oh, rapaz! [str(entry.recent_food)]. O gosto é bom, na barriga é melhor ainda.",
@@ -8496,54 +8496,54 @@
 					"text": "Sobre a Fome:",
 					"logs": {
 						"beleaguered_leader": {
-							"000": "I don't know how long we can last without food.",
-							"001": "Has anyone found any animals to eat yet?",
-							"002": "Keep on the lookout for berry bushes, or something!",
-							"003": "Got... to... keep... going....",
-							"004": "I have to stop dreaming about food every night."
+							"000": "Não sei quanto tempo podemos durar sem comida.",
+							"001": "Alguém já encontrou algum animal para comer?",
+							"002": "Fique atento a arbustos de bagas, ou algo assim!",
+							"003": "Conseguiu... continuar... continuando...",
+							"004": "Eu tenho que parar de sonhar com comida todas as noites."
 						},
 						"psychopathic_misanthrope": {
-							"000": "Is there anyone around here I can eat?",
-							"001": "I need to kill something small and furry.",
-							"002": "I hate eating moss.",
-							"003": "Cannibalism. It's what's for dinner."
+							"000": "Há alguém por aqui que eu possa comer?",
+							"001": "Preciso matar algo pequeno e peludo.",
+							"002": "Eu odeio comer musgo.",
+							"003": "Canibalismo. É o que há para o jantar."
 						},
 						"diligent_sweetheart": {
-							"000": "I'm so hungry... Step 1: Learn carpentry!",
-							"001": "It's okay, I didn't really need to eat today.",
-							"002": "I wish I could bake a cheesecake.",
-							"003": "If we huddle around the fire at night, that's almost as good as eating, right?",
-							"004": "I really don't want to die here.",
+							"000": "Estou com tanta fome... Etapa 1: Aprenda carpintaria!",
+							"001": "Está tudo bem, eu realmente não precisava comer hoje.",
+							"002": "Gostaria de fazer um bolo de queijo.",
+							"003": "Se nos aconchegamos ao redor da fogueira à noite, isso é quase tão bom quanto comer, certo?",
+							"004": "Eu realmente não quero morrer aqui.",
 							"teacher": {
-								"000": "[str(entry.teacher)], even if I don't make it, keep my friends safe, okay?"
+								"000": "[str(entry.teacher)], mesmo se eu não conseguir, mantenha meus amigos em segurança, ok?"
 							}
 						},
 						"lovable_rogue": {
-							"000": "In retrospect, I really should have hoarded those berries.",
-							"001": "It's a pity you can't eat silver and gold.",
-							"002": "That wood is starting to look like chocolate...",
+							"000": "Em retrospecto, eu realmente deveria ter guardado essas bagas.",
+							"001": "É uma pena que você não possa comer prata e ouro.",
+							"002": "Essa madeira está começando a parecer chocolate...",
 							"teacher": {
-								"000": "As [str(entry.teacher)] is my witness, I will never go hungry again!"
+								"000": "As [str(entry.teacher)] é minha testemunha, nunca mais vou sentir fome!"
 							}
 						},
 						"insufferable_academic": {
-							"000": "Hunger is merely a state of mind.",
-							"001": "To be, or not to be, that is the question...",
-							"002": "The needs of the stomach are merely a distraction from the pursuits of the mind.",
-							"003": "Mind... over... matter!",
-							"004": "I refuse to allow my vast intellect to succumb to base starvation!",
-							"005": "According to my research, people need to consume at least twenty four units of energy each day to maintain proper function."
+							"000": "A fome é apenas um estado de espírito.",
+							"001": "Ser ou não ser, eis a questão...",
+							"002": "As necessidades do estômago são apenas uma distração das atividades da mente.",
+							"003": "Mente... sobre ... importa!",
+							"004": "Recuso-me a permitir que meu vasto intelecto sucumba à base da fome!",
+							"005": "De acordo com minha pesquisa, as pessoas precisam consumir pelo menos vinte e quatro unidades de energia por dia para manter o funcionamento adequado."
 						},
 						"hopeless_optimist": {
-							"000": "Oh, great! Another day without food... That's exactly that little push I needed for starting my diet!",
-							"001": "Hunger really sharpens the colors in the world!",
-							"002": "I think there's a hole in my stomach.",
-							"003": "Am I invisible yet?"
+							"000": "Oh, ótimo! Outro dia sem comida ... Esse é exatamente o pequeno empurrão que eu precisava para começar minha dieta!",
+							"001": "A fome realmente acentua as cores do mundo!",
+							"002": "Acho que há um buraco no meu estômago.",
+							"003": "Já sou invisível?"
 						},
 						"generic": {
-							"000": "I'm so hungry it hurts.",
-							"001": "If I could just get some food, maybe my stomach would feel better.",
-							"002": "I don't know how much longer I can go without food."
+							"000": "Estou com tanta fome que dói.",
+							"001": "Se eu pudesse comer alguma coisa, talvez meu estômago se sentisse melhor.",
+							"002": "Não sei quanto tempo posso ficar sem comida."
 						}
 					}
 				}
@@ -8553,10 +8553,10 @@
 					"text": "Sobre Nos Eixos:",
 					"logs": {
 						"psychopathic_misanthrope": {
-							"000": "Você quer que eu seja o tecelão? Tudo o que sei sobre tecelagem: enfie a ponta pontiaguda na outra pessoa. Isso deve ser interessante."
+							"000": "Você quer que eu seja o Tecelão? Tudo o que sei sobre tecelagem: enfie a ponta pontiaguda na outra pessoa. Isso deve ser interessante."
 						},
 						"hopeless_optimist": {
-							"000": "Woo! Agora que sou a tecelã, vivo para fazer camas confortáveis para todos!"
+							"000": "Woo! Agora que sou a Tecelã, vivo para fazer camas confortáveis para todos!"
 						},
 						"insufferable_academic": {
 							"000": "Há uma graça meditativa no bom trabalho de nós. Estrela, meus amigos, olhem até suas almas pertencerem a mim."
@@ -8565,7 +8565,7 @@
 							"000": "Eu não sei... sempre esperei um papel mais épico na vida. Bem, isso provavelmente será bom para a minha pressão sanguínea."
 						},
 						"lovable_rogue": {
-							"000": "Hmm... se uma aranha é um tecelão, é um tecelão como uma aranha? Todos devem dormir seguros em minhas redes... Acho que isso foi muito assustador?"
+							"000": "Hmm... se uma aranha é um Tecelão, é um Tecelão como uma aranha? Todos devem dormir seguros em minhas redes... Acho que isso foi muito assustador?"
 						},
 						"diligent_sweetheart": {
 							"000": "Oh! Primeiras coisas a se fazer pelas primeira vez - devo fazer pra todos um novo cachecol de inverno!"
@@ -8716,7 +8716,7 @@
 					"ui_steps": {
 						"set1": {
 							"step001": {
-								"title": "Abra o Menu de construção",
+								"title": "Abra o Menu de Construção",
 								"description": "Use este menu para construir estruturas e colocar itens em sua cidade."
 							},
 							"step000": {
@@ -8775,7 +8775,7 @@
 		"traits": {
 			"animal_companion": {
 				"animal_companion_trait": {
-					"display_name": "Companheiro animal",
+					"display_name": "Companheiro Animal",
 					"description": "Desde que [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] [str(i18n_data.maybe_savior_species)] salvou seu [str(i18n_data.savee_species)], [name(i18n_data.savee)], de um perigo mortal, eles ficaram inseparáveis.",
 					"default_species": "Companheiro"
 				}
@@ -8812,13 +8812,13 @@
 			},
 			"green_thumb": {
 				"green_thumb_trait": {
-					"display_name": "Dom para as plantas",
+					"display_name": "Dom Para as Plantas",
 					"description": "[name(i18n_data.entity)] parece ter um dom indescritível com plantas."
 				}
 			},
 			"heart_of_a_crafter": {
 				"heart_of_a_crafter_trait": {
-					"display_name": "Coração de um artesão",
+					"display_name": "Coração de um Artesão",
 					"description": "[name(i18n_data.entity)] adora criar coisas para os outros. Se eles não fazem pelo menos uma coisa por dia, sentem que o dia é desperdiçado."
 				}
 			},
@@ -8830,13 +8830,13 @@
 			},
 			"featherweight": {
 				"featherweight_trait": {
-					"display_name": "Peso pena",
+					"display_name": "Peso Pena",
 					"description": "[name(i18n_data.entity)] gosta de andar um pouco mais rápido que os outros, embora eles tendam a carregar menos como resultado."
 				}
 			},
 			"pack_mule": {
 				"pack_mule_trait": {
-					"display_name": "Burro de carga",
+					"display_name": "Burro de Carga",
 					"description": "Este hearthling ama transportar coisas ao redor! Por razões inexplicáveis, eles se movem mais rápido quando carregam algo em sua mochila."
 				}
 			},
@@ -8848,13 +8848,13 @@
 			},
 			"hothead": {
 				"hothead_trait": {
-					"display_name": "Cabeça quente",
+					"display_name": "Cabeça Quente",
 					"description": "[name(i18n_data.entity)] nunca desiste voluntariamente de uma briga. Mesmo daquelas que provavelmente deveriam..."
 				}
 			},
 			"night_owl": {
 				"night_owl_trait": {
-					"display_name": "Coruja noturna",
+					"display_name": "Coruja Noturna",
 					"description": "O dia só começa realmente quando o sol se põe."
 				}
 			},
@@ -8866,7 +8866,7 @@
 			},
 			"passion_job": {
 				"passion_job_trait": {
-					"display_name": "Apaixonado pelo trabalho de [str(i18n_data.passion_job)]",
+					"display_name": "Apaixonado Pelo Trabalho de [str(i18n_data.passion_job)]",
 					"description": "[name(i18n_data.entity)] sempre sonhou ser um [str(i18n_data.passion_job)], talvez consiga uma chance?"
 				}
 			},
@@ -8920,7 +8920,7 @@
 			},
 			"magnificent_beard": {
 				"magnificent_beard_trait": {
-					"display_name": "Barba magnífica",
+					"display_name": "Barba Magnífica",
 					"description": "Este hearthling tem uma barba verdadeiramente magnífica."
 				}
 			},
@@ -8932,13 +8932,13 @@
 			},
 			"gourmand": {
 				"gourmand_trait": {
-					"display_name": "Paladar gourmet",
+					"display_name": "Paladar Gourmet",
 					"description": "Apenas os alimentos mais saborosos são bem-vindos ao paladar de [name(i18n_data.entity)]. Eles ficam felizes quando comem alimentos de melhor qualidade, mas as refeições de baixa qualidade são muito desagradáveis."
 				}
 			},
 			"goat": {
 				"goat_trait": {
-					"display_name": "Sem frescura",
+					"display_name": "Sem Frescura",
 					"description": "[name(i18n_data.entity)] basicamente irá comer qualquer coisa. Eles não são exigentes, às vezes para o desgosto das pessoas ao seu redor."
 				}
 			},
@@ -8950,7 +8950,7 @@
 			},
 			"storm_chaser": {
 				"storm_chaser_trait": {
-					"display_name": "Caçador de tempestades",
+					"display_name": "Caçador de Tempestades",
 					"description": "Tempestades, tempestades de areia, nevascas, [name(i18n_data.entity)] ama todas elas!"
 				}
 			},
@@ -8973,7 +8973,7 @@
 						"tooltip": "Já faz algum tempo desde que eu comi. Eu realmente preciso de comida!"
 					},
 					"starving": {
-						"display_name": "Morrendo de fome",
+						"display_name": "Morrendo de Fome",
 						"tooltip": "Meu estômago está em nós! Se eu não encontrar algo para comer em breve..."
 					},
 					"values": {
@@ -8999,7 +8999,7 @@
 				},
 				"darkness": {
 					"very_dark": {
-						"display_name": "Ambiente muito escuro",
+						"display_name": "Ambiente Muito Escuro",
 						"tooltip": "Eu mal consigo ver nada!"
 					},
 					"dark": {
@@ -9065,7 +9065,7 @@
 						"tooltip": "Houve um erro. Eu acidentalmente comi comida que minha comida come."
 					},
 					"offended_palate": {
-						"display_name": "Paladar Ofendido",
+						"display_name": "Paladar ofendido",
 						"tooltip": "Bleh, eu odeio comer coisas como [str(foodname)]. Simplesmente não há \"tcham\" para isso!"
 					},
 					"pleased_palate": {
@@ -9112,7 +9112,7 @@
 				"amberstone": {
 					"borrow_crafter": {
 						"helped_out": {
-							"display_name": "Visite com os Coelhos",
+							"display_name": "Visite Com os Coelhos",
 							"tooltip": "Uau, o lar Amberstone foi incrível! Eu me sinto tão honrado por tê-los ajudado."
 						}
 					}
@@ -9262,47 +9262,47 @@
 						"values": {
 							"lonely": {
 								"display_name": "Solitário",
-								"tooltip": "It's been awhile since I've talked to anyone. I really need to get some stuff off my chest."
+								"tooltip": "Faz um tempo desde que conversei com alguém. Eu realmente preciso tirar algumas coisas do meu peito."
 							},
 							"enjoys_company": {
-								"display_name": "Enjoys the company of others",
-								"tooltip": "It's always great to spend some time with my fellow town members."
+								"display_name": "Gosta da companhia de outras pessoas",
+								"tooltip": "É sempre bom passar algum tempo com os colegas da cidade."
 							}
 						}
 					},
 					"loner": {
 						"values": {
 							"annoyed_with_others": {
-								"display_name": "Annoyed with others",
-								"tooltip": "Why do these people keep talking to me? It keeps distracting me from what's important."
+								"display_name": "Irritado com os outros",
+								"tooltip": "Por que essas pessoas continuam falando comigo? Isso me distrai do que é importante."
 							},
 							"alone_with_thoughts": {
-								"display_name": "Alone with my own thoughts",
-								"tooltip": "Being away from others has given me the time to reflect and clear my mind."
+								"display_name": "Sozinho com meus próprios pensamentos",
+								"tooltip": "Estar longe dos outros me deu tempo para refletir e limpar minha mente."
 							}
 						}
 					},
 					"empathetic": {
 						"values": {
 							"everyone_worse_off": {
-								"display_name": "Everyone seems worse off",
-								"tooltip": "Seeing everyone else in worse spirits just brings me down."
+								"display_name": "Todo mundo parece pior",
+								"tooltip": "Ver todo mundo de mau humor apenas me derruba."
 							},
 							"everyone_happier": {
-								"display_name": "Everyone seems happier",
-								"tooltip": "Everyone else seems to be in a better mood than me. Maybe I should look at things differently."
+								"display_name": "Todo mundo parece mais feliz",
+								"tooltip": "Todo mundo parece estar de melhor humor que eu. Talvez eu deva olhar as coisas de maneira diferente."
 							}
 						}
 					},
 					"goat": {
 						"values": {
 							"ate_not_bad_food": {
-								"display_name": "Mmm, not bad",
-								"tooltip": "My [str(foodname)] today was a little tasty, but didn't seem that different from what I normally eat."
+								"display_name": "Mmm, nada mal",
+								"tooltip": "Minha [str(foodname)] hoje estava um pouco gostoso, mas não parecia tão diferente do que eu como normalmente."
 							},
 							"ate_some_food": {
-								"display_name": "Ate some food",
-								"tooltip": "I had some [str(foodname)] today. It was alright, but I don't see what the big deal is."
+								"display_name": "Comeram um pouco de comida",
+								"tooltip": "Eu tive alguns [str(foodname)] hoje. Estava tudo bem, mas não vejo qual é o problema."
 							}
 						}
 					}
@@ -9334,16 +9334,16 @@
 				"social": {
 					"values": {
 						"unpleasant_talk": {
-							"display_name": "Had an unpleasant talk",
-							"tooltip": "I can't believe [str(target_name)] said that!"
+							"display_name": "Teve uma conversa desagradável",
+							"tooltip": "Não acredito [str(target_name)] disse isso!"
 						},
 						"great_talk": {
-							"display_name": "Had a great talk",
-							"tooltip": "Talking with [str(target_name)] today was really nice."
+							"display_name": "Teve uma ótima conversa",
+							"tooltip": "Conversando com [str(target_name)] hoje foi muito legal."
 						},
 						"great_joke": {
-							"display_name": "Heard a great joke",
-							"tooltip": "Hahaha, just thinking of the joke [str(target_name)] told makes me crack up!"
+							"display_name": "Ouvi uma ótima piada",
+							"tooltip": "Hahaha, só pensando na piada [str(target_name)] disse me faz rir!"
 						},
 						"tough_crowd": {
 							"display_name": "Multidão difícil",
@@ -9354,7 +9354,7 @@
 						"values": {
 							"nuzzled": {
 								"display_name": "Nuzzled",
-								"tooltip": "ah, meu animal de estimação [str(target_name)] sempre consegue me animar."
+								"tooltip": "Ah, meu animal de estimação [str(target_name)] sempre consegue me animar."
 							},
 							"booped": {
 								"display_name": "Vaiado",
@@ -9366,143 +9366,143 @@
 				"appeal": {
 					"thresholds": {
 						"horrendous": {
-							"display_name": "Horrid Aesthetics",
-							"tooltip": "Everywhere I look I see something terrible!"
+							"display_name": "Estética Horrível",
+							"tooltip": "Em todo lugar que olho vejo algo terrível!"
 						},
 						"beautiful": {
-							"display_name": "Beautiful Aesthetics",
-							"tooltip": "The decor around here is really great. A lot of hard work must have gone into making it look this nice."
+							"display_name": "Estética Bonitas",
+							"tooltip": "A decoração por aqui é realmente ótima. Um monte de trabalho duro deve ter sido feito para torná-lo tão bonito."
 						},
 						"neutral": {
 							"display_name": "Estética Neutra"
 						},
 						"ugly": {
-							"display_name": "Ugly Aesthetics",
-							"tooltip": "Sheesh, it's really ugly around here. We definitely can make this look better!"
+							"display_name": "Estética Feia",
+							"tooltip": "Nossa, é realmente feio por aqui. Definitivamente, podemos fazer isso parecer melhor!"
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Aesthetics",
-							"tooltip": "This place... it's... beautiful..."
+							"display_name": "Estética Inspiradora",
+							"tooltip": "Este lugar... é... lindo..."
 						},
 						"pleasing": {
-							"display_name": "Pleasing Aesthetics",
-							"tooltip": "It's pretty nice looking around here."
+							"display_name": "Estética Agradável",
+							"tooltip": "É muito bom olhar por aqui."
 						},
 						"breathtaking": {
-							"display_name": "Breath-Taking Aesthetics",
-							"tooltip": "Wow, everywhere I look is gorgeous! The attention to detail is amazing!"
+							"display_name": "Estética de Tirar o Fôlego",
+							"tooltip": "Uau, todo lugar que eu olho é lindo! A atenção aos detalhes é incrível!"
 						}
 					}
 				},
 				"appeal_crafting": {
 					"values": {
 						"breathtaking": {
-							"display_name": "Breath-Taking Workshop",
-							"tooltip": "I love crafting in my workshop; it's so well decorated!"
+							"display_name": "Oficina de Tirar o Fôlego",
+							"tooltip": "Eu amo criar em minha oficina; está tão bem decorado!"
 						},
 						"pleasing": {
-							"display_name": "Pleasant Workshop",
-							"tooltip": "A well-maintained work space brightens my mood."
+							"display_name": "Oficina Agradável",
+							"tooltip": "Um espaço de trabalho bem conservado ilumina meu humor."
 						},
 						"beautiful": {
-							"display_name": "Beautiful Workshop",
-							"tooltip": "The area around my workbench is looking good, everything is in its place."
+							"display_name": "Oficina Bonita",
+							"tooltip": "A área em volta da minha bancada parece boa, tudo está no seu lugar."
 						},
 						"ugly": {
-							"display_name": "Unkempt Workshop",
-							"tooltip": "It's frustrating that my work space is so grungy."
+							"display_name": "Oficina Descuidado",
+							"tooltip": "É frustrante que meu espaço de trabalho seja tão sujo."
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Workshop",
-							"tooltip": "My workshop looks so amazing! It's an inspiration!"
+							"display_name": "Oficina Inspiradora",
+							"tooltip": "Minha oficina parece tão incrível! É uma inspiração!"
 						}
 					}
 				},
 				"appeal_bedroom": {
 					"values": {
 						"pleasing": {
-							"display_name": "Pleasant Bedroom",
-							"tooltip": "Where I slept last night was pretty nice."
+							"display_name": "Quarto agradável",
+							"tooltip": "Onde eu dormi a noite passada foi muito bom."
 						},
 						"beautiful": {
-							"display_name": "Beautiful Bedroom",
-							"tooltip": "My bedroom is really shaping up; I like it!"
+							"display_name": "Quarto Lindo",
+							"tooltip": "Meu quarto está realmente se moldando; eu gosto!"
 						},
 						"breathtaking": {
-							"display_name": "Breath-Taking Bedroom",
-							"tooltip": "I love sleeping in such a wonderful bedroom!"
+							"display_name": "Quarto de tirar o fôlego",
+							"tooltip": "Adoro dormir em um quarto tão maravilhoso!"
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Bedroom",
-							"tooltip": "When I went to bed last night, I felt like royalty."
+							"display_name": "Quarto inspirador",
+							"tooltip": "Quando fui dormir ontem à noite, me senti como a realeza."
 						}
 					}
 				},
 				"appeal_dining": {
 					"values": {
 						"beautiful": {
-							"display_name": "Beautiful Dining",
-							"tooltip": "I was happy to eat in such an attractive spot!"
+							"display_name": "Jantar bonito",
+							"tooltip": "Fiquei feliz em comer em um local tão atraente!"
 						},
 						"breathtaking": {
-							"display_name": "Breath-Taking Dining",
-							"tooltip": "Someone really spent some effort decorating our dining room!"
+							"display_name": "Jantar de tirar o fôlego",
+							"tooltip": "Alguém realmente se esforçou para decorar a nossa sala de jantar!"
 						},
 						"awe_inspiring": {
-							"display_name": "Awe-Inspiring Dining",
-							"tooltip": "The decor was so great, dinner was a feast for both my eyes and my stomach!"
+							"display_name": "Jantar inspirador",
+							"tooltip": "A decoração era tão boa que o jantar foi um banquete para meus olhos e meu estômago!"
 						},
 						"pleasing": {
-							"display_name": "Pleasant Dining",
-							"tooltip": "It was nice to eat my meal in a comfortable space."
+							"display_name": "Jantar agradável",
+							"tooltip": "Foi bom comer minha refeição em um espaço confortável."
 						},
 						"ugly": {
-							"display_name": "Dreary Dining",
-							"tooltip": "The ugly surroundings made it difficult to enjoy my last meal."
+							"display_name": "Jantar triste",
+							"tooltip": "O ambiente feio dificultava a minha última refeição."
 						}
 					}
 				},
 				"weather": {
 					"values": {
 						"windy_positive": {
-							"display_name": "Enjoying the breeze",
-							"tooltip": "The breeze is caressing my skin."
+							"display_name": "Apreciando a brisa",
+							"tooltip": "A brisa está acariciando minha pele."
 						},
 						"blizzard_negative": {
-							"display_name": "Hail knocking at my door",
-							"tooltip": "Oh, the weather outside is frightful!"
+							"display_name": "Salve batendo na minha porta",
+							"tooltip": "Oh, o clima lá fora é assustador!"
 						},
 						"thunderstorm_negative": {
-							"display_name": "Scary thunder and lightning",
-							"tooltip": "That lightning bolt almost hit me!"
+							"display_name": "Trovões e relâmpagos assustadores",
+							"tooltip": "Aquele raio quase me atingiu!"
 						},
 						"sunny_positive": {
-							"display_name": "Sunny weather",
-							"tooltip": "Endless sunshine, warmth, and blue skies."
+							"display_name": "Tempo ensolarado",
+							"tooltip": "Sol sem fim, calor e céu azul."
 						},
 						"cloudy_positive": {
-							"display_name": "Fluffy clouds above my head",
-							"tooltip": "Overcast skies: perfect for lazing around on the porch."
+							"display_name": "Nuvens fofas acima da minha cabeça",
+							"tooltip": "Céu nublado: perfeito para descansar na varanda."
 						},
 						"sunny_negative": {
-							"display_name": "The sun's too bright",
-							"tooltip": "I have to shield my eyes just to walk outside. And don't get me started on the sunburn!"
+							"display_name": "O sol está muito claro",
+							"tooltip": "Eu tenho que proteger meus olhos só para andar lá fora. E não me faça começar a queimadura solar!"
 						},
 						"thunderstorm_positive": {
-							"display_name": "Stormy weather",
-							"tooltip": "It's so exciting to hear the thunder rolling in!"
+							"display_name": "Tempo tempestuoso",
+							"tooltip": "É tão emocionante ouvir o trovão chegando!"
 						},
 						"windy_negative": {
-							"display_name": "It's awful windy",
-							"tooltip": "The wind outside is biting at my skin."
+							"display_name": "Está muito vento",
+							"tooltip": "O vento lá fora está mordendo minha pele."
 						},
 						"blizzard_positive": {
-							"display_name": "That's what I call weather",
-							"tooltip": "That fierce blizzard outside makes this a day to remember!"
+							"display_name": "É o que eu chamo de clima",
+							"tooltip": "Essa forte nevasca lá fora faz com que seja um dia para lembrar!"
 						},
 						"rain_positive": {
-							"display_name": "It's raining...",
-							"tooltip": "The drip, drip, drip of the raindrops is soothing all my worries!"
+							"display_name": "Está chovendo...",
+							"tooltip": "O pingar, pingar, pingar das gotas de chuva está acalmando todas as minhas preocupações!"
 						},
 						"cloudy_negative": {
 							"display_name": "Nuvens sombrias",
@@ -9775,7 +9775,7 @@
 				}
 			},
 			"lucky": {
-				"display_name": "Dia de sorte",
+				"display_name": "Dia de Sorte",
 				"description": "Hoje, tudo é um pouquinho melhor. <ul> <li> Hearthlings encontram todas as suas doenças curadas, como que por mágica. </li> <li> Hearthlings têm um pouco de sorte em tudo o que fazem. </li> <li > Um arco-íris misterioso às vezes aparece. </li> </ul>",
 				"pot_of_gold": {
 					"display_name": "Pote de ouro",
@@ -9829,7 +9829,7 @@
 				}
 			},
 			"test_weather": {
-				"display_name": "Tempo de teste",
+				"display_name": "Tempo de Teste",
 				"description": "Um clima que não afeta os testes"
 			}
 		},
@@ -9838,7 +9838,7 @@
 				"trappable_animals": {
 					"bugs": {
 						"name": "Inseto",
-						"description": "Os insetos produzem carne de insetos, usada pelo cozinheiro, e quitina, usada em algumas receitas de armaduras"
+						"description": "Os insetos produzem carne de insetos, usada pelo Cozinheiro, e quitina, usada em algumas receitas de armaduras"
 					},
 					"critters": {
 						"name": "Animal Pequeno",
@@ -9875,55 +9875,55 @@
 				}
 			},
 			"cloth_padded_vest": {
-				"display_name": "Padded Vest",
-				"description": "Provides light protection in a fight.",
+				"display_name": "Colete Acolchoado",
+				"description": "Fornece proteção contra luz em uma luta.",
 				"cloth_padded_vest_iconic": {
-					"display_name": "Padded Vest",
-					"description": "Provides light protection in a fight. Every little bit helps!"
+					"display_name": "Colete Acolchoado",
+					"description": "Fornece proteção contra luz em uma luta. Cada pedacinho ajuda!"
 				}
 			},
 			"iron_mail": {
-				"display_name": "Iron Mail",
-				"description": "A full suit of iron armor",
+				"display_name": "Correio de Ferro",
+				"description": "Uma armadura completa de ferro",
 				"iron_mail_iconic": {
-					"display_name": "Iron Mail",
-					"description": "A full suit of iron armor"
+					"display_name": "Correio de Ferro",
+					"description": "Uma armadura completa de ferro"
 				}
 			},
 			"leather_vest": {
-				"display_name": "Thick Leather Vest",
-				"description": "Hardened leather provides sturdy protection.",
+				"display_name": "Colete de Couro Grosso",
+				"description": "Couro endurecido fornece proteção resistente.",
 				"leather_vest_iconic": {
-					"display_name": "Thick Leather Vest",
-					"description": "Hardened leather provides study protection."
+					"display_name": "Colete de Couro Grosso",
+					"description": "Couro endurecido fornece proteção de estudo."
 				}
 			},
 			"steel_mail": {
-				"display_name": "Full Platemail",
-				"description": "A full suit of steel armor",
+				"display_name": "Armadura de Aço Completa",
+				"description": "Uma armadura completa de aço",
 				"steel_mail_iconic": {
-					"display_name": "Full Platemail",
-					"description": "A full suit of steel armor"
+					"display_name": "Armadura de Aço Completa",
+					"description": "Uma armadura completa de aço"
 				}
 			},
 			"studded_leather_helmet": {
-				"display_name": "Studded Leather Helmet",
-				"description": "Protects your head"
+				"display_name": "Capacete de Couro Cravejado",
+				"description": "Protege sua cabeça"
 			},
 			"wooden_shield": {
-				"display_name": "Rough Wooden Buckler",
-				"description": "Crude and basic",
+				"display_name": "Broquel de Madeira Áspera",
+				"description": "Bruto e básico",
 				"wooden_shield_iconic": {
-					"display_name": "Rough Wooden Buckler",
-					"description": "Crude and basic"
+					"display_name": "Broquel de Madeira Áspera",
+					"description": "Bruto e básico"
 				}
 			},
 			"bronze_circlet": {
-				"display_name": "Bronze Circlet",
-				"description": "Protection for your head",
+				"display_name": "Anel de Bronze",
+				"description": "Proteção para sua cabeça",
 				"bronze_circlet_iconic": {
-					"display_name": "Bronze Circlet",
-					"description": "Protection for your head"
+					"display_name": "Anel de Bronze",
+					"description": "Proteção para sua cabeça"
 				}
 			},
 			"bronze_shield": {
@@ -9935,27 +9935,27 @@
 				}
 			},
 			"iron_coif": {
-				"display_name": "Iron Coif",
-				"description": "Protection for your head",
+				"display_name": "Coifa de Ferro",
+				"description": "Proteção para sua cabeça",
 				"iron_coif_iconic": {
-					"display_name": "Iron Coif",
-					"description": "Protection for your head"
+					"display_name": "Coifa de Ferro",
+					"description": "Proteção para sua cabeça"
 				}
 			},
 			"leather_helmet": {
-				"display_name": "Leather Skull Cap",
-				"description": "Protection for your head",
+				"display_name": "Tampão de Couro do Crânio",
+				"description": "Proteção para sua cabeça",
 				"leather_helmet_iconic": {
-					"display_name": "Leather Skull Cap",
-					"description": "Protection for your head"
+					"display_name": "Tampão de Couro do Crânio",
+					"description": "Proteção para sua cabeça"
 				}
 			},
 			"steel_helmet": {
-				"display_name": "Plate Helm",
-				"description": "Protection for your head",
+				"display_name": "Elmo de Placa",
+				"description": "Proteção para sua cabeça",
 				"steel_helmet_iconic": {
-					"display_name": "Steel Helmet",
-					"description": "Protection for your head"
+					"display_name": "Capacete de Aço",
+					"description": "Proteção para sua cabeça"
 				}
 			},
 			"steel_shield": {
@@ -9963,72 +9963,72 @@
 				"description": "Um escudo resistente feito de aço"
 			},
 			"iron_helm": {
-				"display_name": "Iron Helm",
-				"description": "Protection for your head"
+				"display_name": "Elmo de Ferro",
+				"description": "Proteção para sua cabeça"
 			},
 			"iron_circlet": {
-				"display_name": "Iron Circlet",
-				"description": "Medium head protection"
+				"display_name": "Anel de Ferro",
+				"description": "Proteção média da cabeça"
 			},
 			"steel_circlet": {
-				"display_name": "Steel Circlet",
-				"description": "Light weight and strong protection for one's head"
+				"display_name": "Anel de Aço",
+				"description": "Leve e forte proteção para a cabeça"
 			},
 			"simple_quiver": {
-				"display_name": "Spiky Quiver",
-				"description": "A light quiver of slowing arrows"
+				"display_name": "Aljava Espetado",
+				"description": "Um tremor leve de flechas lentas"
 			},
 			"fire_quiver": {
-				"display_name": "Fire Quiver",
-				"description": "Sets enemies on fire, dealing damage over time"
+				"display_name": "Aljava de Fogo",
+				"description": "Atira fogo nos inimigos, causando dano ao longo do tempo"
 			},
 			"cracked_wooden_buckler": {
-				"display_name": "Cracked Wooden Buckler",
-				"description": "Has withstood many battles"
+				"display_name": "Broquel de Madeira Rachada",
+				"description": "Resisti a muitas batalhas"
 			},
 			"square_cracked_wooden_buckler": {
-				"display_name": "Square wooden buckler",
-				"description": "Watch out for those corners!"
+				"display_name": "Broquel Quadrado de Madeira",
+				"description": "Cuidado com os cantos!"
 			},
 			"silver_mail": {
-				"display_name": "Silver Mail",
-				"description": "The best armor... for now.",
+				"display_name": "Correio de Prata",
+				"description": "A melhor armadura ... por enquanto.",
 				"silver_mail_iconic": {
-					"display_name": "Silver Mail",
-					"description": "The best armor... for now."
+					"display_name": "Correio de Prata",
+					"description": "A melhor armadura ... por enquanto."
 				}
 			},
 			"silver_helmet": {
-				"display_name": "Silver Helmet",
-				"description": "Quintessentially heroic",
+				"display_name": "Capacete de Prata",
+				"description": "Por excelência heróico",
 				"silver_helmet_iconic": {
-					"display_name": "Silver Helmet",
-					"description": "Quintessentially heroic"
+					"display_name": "Capacete de Prata",
+					"description": "Por excelência heróico"
 				}
 			},
 			"cloth_padded_helmet": {
-				"display_name": "Cloth Padded Helmet",
-				"description": "Extra padding for your noggin",
+				"display_name": "Capacete Acolchoado de Pano",
+				"description": "Estofamento extra para o seu canguru",
 				"cloth_padded_helmet_iconic": {
-					"display_name": "Cloth Padded Helmet",
-					"description": "Extra padding for your noggin"
+					"display_name": "Capacete Acolchoado de Pano",
+					"description": "Estofamento extra para o seu canguru"
 				}
 			},
 			"bronze_helm": {
-				"display_name": "Bronze Helm",
-				"description": "Pretty and protective"
+				"display_name": "Elmo de Bronze",
+				"description": "Bonito e protetor"
 			},
 			"shield_valor": {
-				"display_name": "Giant's Shield",
-				"description": "Proudest shield in the Ascendancy",
+				"display_name": "Escudo do Gigante",
+				"description": "Escudo mais orgulhoso da Ascendência",
 				"shield_valor_iconic": {
-					"display_name": "Giant's Shield",
-					"description": "Proudest shield in the Ascendancy"
+					"display_name": "Escudo do Gigante",
+					"description": "Escudo mais orgulhoso da Ascendência"
 				}
 			},
 			"circlet_valor": {
-				"display_name": "Shining Circlet",
-				"description": "Squarest circlet in the Ascendancy"
+				"display_name": "Círculo Brilhante",
+				"description": "Círculo mais quadrado da Ascendência"
 			}
 		},
 		"boulders": {
@@ -10087,224 +10087,224 @@
 		},
 		"construction": {
 			"clay_bricks": {
-				"display_name": "Tijolos de argila",
+				"display_name": "Tijolos de Argila",
 				"description": "Usado para estruturas de argila."
 			},
 			"cobblestone_fence": {
 				"cobblestone_fence_ghost": {
-					"display_name": "Cobblestone Fence",
-					"description": "A rustic, sturdy wall segment."
+					"display_name": "Cerca de Paralelepípedos",
+					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"cobblestone_fence_gate": {
 				"cobblestone_fence_gate_ghost": {
-					"display_name": "Cobblestone Fence Gate",
-					"description": "Its thick stone walls grant a sense of security."
+					"display_name": "Portão da Cerca de Paralelepípedo",
+					"description": "Suas grossas paredes de pedra garantem uma sensação de segurança."
 				}
 			},
 			"picket_fence": {
 				"picket_fence_ghost": {
-					"display_name": "Picket Fence",
-					"description": "If it's not white, is our life unfulfilled?"
+					"display_name": "Cerca de Piquete",
+					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_gate": {
 				"picket_fence_gate_ghost": {
-					"display_name": "Picket Fence Gate",
-					"description": "Don't like your neighbors? Don't install."
+					"display_name": "Portão da Cerca de Piquete",
+					"description": "Não gosta dos seus vizinhos? Não instale."
 				}
 			},
 			"stockpile": {
-				"display_name": "Stockpile",
-				"description": "For storing things"
+				"display_name": "Estoque",
+				"description": "Para guardar coisas"
 			},
 			"wooden_diamond_window": {
 				"wooden_diamond_window_ghost": {
-					"display_name": "Diamond Window Frame",
-					"description": "So much for privacy..."
+					"display_name": "Quadro da Janela de Diamante",
+					"description": "Tanta privacidade..."
 				}
 			},
 			"wooden_door": {
 				"wooden_door_ghost": {
-					"display_name": "Porta de madeira",
+					"display_name": "Porta de Madeira",
 					"description": "Privacidade finalmente!"
 				}
 			},
 			"wooden_door_2": {
 				"wooden_door_2_ghost": {
-					"display_name": "Reinforced Wooden Door",
-					"description": "Sturdier than your average door."
+					"display_name": "Porta de Madeira Reforçada",
+					"description": "Mais resistente que a sua porta comum."
 				}
 			},
 			"wooden_tunnel_door": {
-				"display_name": "Wooden Tunnel Door",
-				"description": "Useful for blocking off tunnels"
+				"display_name": "Porta do Túnel de Madeira",
+				"description": "Útil para bloquear túneis"
 			},
 			"wooden_double_door": {
 				"wooden_double_door_ghost": {
-					"display_name": "Porta dupla de madeira",
+					"display_name": "Porta Dupla de Madeira",
 					"description": "Uma porta maior. Isso causa uma boa impressão."
 				}
 			},
 			"amberstone_window": {
 				"amberstone_window_ghost": {
-					"display_name": "Burrow Window",
-					"description": "Lets the fresh air in"
+					"display_name": "Janela Burrow",
+					"description": "Deixa entrar o ar fresco"
 				}
 			},
 			"wooden_window_frame": {
 				"wooden_window_frame_ghost": {
-					"display_name": "Wooden Window Frame",
-					"description": "So much for privacy..."
+					"display_name": "Moldura de Janela de Madeira",
+					"description": "Tanta privacidade..."
 				}
 			},
 			"wooden_window_frame_tall": {
 				"wooden_window_frame_tall_ghost": {
-					"display_name": "Tall Window Frame",
-					"description": "Extra height adds an air of elegance"
+					"display_name": "Moldura de Janela Alta",
+					"description": "Altura extra acrescenta um ar de elegância"
 				}
 			},
 			"wooden_window_frame_wide": {
 				"wooden_window_frame_wide_ghost": {
-					"display_name": "Wide Window Frame",
-					"description": "It's a panoramic view!"
+					"display_name": "Moldura de Janela Larga",
+					"description": "É uma vista panorâmica!"
 				}
 			},
 			"golden_clay_doorframe": {
 				"golden_clay_doorframe_ghost": {
-					"display_name": "Golden Clay Doorframe",
-					"description": "Matches a golden clay exterior wall"
+					"display_name": "Porta Batente de Argila Dourada",
+					"description": "Corresponde a uma parede exterior de argila dourada"
 				}
 			},
 			"red_clay_door": {
 				"red_clay_door_ghost": {
-					"display_name": "Red Clay Door",
-					"description": "Keeps the indoors cool"
+					"display_name": "Porta de Argila Vermelho",
+					"description": "Mantém o ambiente fresco"
 				}
 			},
 			"red_clay_window_frame": {
 				"red_clay_window_frame_ghost": {
-					"display_name": "Red Clay Window Frame",
-					"description": "Let's the sun in."
+					"display_name": "Moldura de Janela de Argila Vermelho",
+					"description": "Vamos entrar o sol."
 				}
 			},
 			"blue_clay_door": {
 				"blue_clay_door_ghost": {
 					"display_name": "Blue Clay Door",
-					"description": "Blue like a dream of ocean"
+					"description": "Azul como um sonho do oceano"
 				}
 			},
 			"green_clay_door": {
 				"green_clay_door_ghost": {
 					"display_name": "Green Clay Door",
-					"description": "Colored to match the desert"
+					"description": "Colorido para combinar com o deserto"
 				}
 			},
 			"blue_clay_window_frame": {
 				"blue_clay_window_frame_ghost": {
 					"display_name": "Blue Clay Window Frame",
-					"description": "Lets in the desert air."
+					"description": "Deixa no ar do deserto."
 				}
 			},
 			"green_clay_window_frame": {
 				"green_clay_window_frame_ghost": {
-					"display_name": "Green Clay Window Frame",
-					"description": "Lets in the soft desert air."
+					"display_name": "Moldura de Janela de Barro Verde",
+					"description": "Deixa o ar suave do deserto."
 				}
 			},
 			"latticed_clay_window_frame": {
 				"latticed_clay_window_frame_ghost": {
 					"display_name": "Red Latticed Window",
-					"description": "The lattice still lets the good air in."
+					"description": "A treliça ainda deixa entrar o bom ar"
 				}
 			},
 			"stone_tunnel_door": {
 				"stone_tunnel_door_ghost": {
 					"display_name": "Stone Tunnel Door",
-					"description": "Useful for sealing off mine tunnels."
+					"description": "Útil para selar os túneis de minas."
 				}
 			},
 			"amberstone_tunnel_door": {
 				"amberstone_tunnel_door_ghost": {
 					"display_name": "Burrow Door",
-					"description": "Seals and protects underground dwellings"
+					"description": "Veda e protege habitações subterrâneas"
 				}
 			},
 			"clay_tunnel_door": {
 				"clay_tunnel_door_ghost": {
 					"display_name": "Clay Tunnel Door",
-					"description": "Useful for sealing off mine tunnels"
+					"description": "Útil para selar túneis de minas"
 				}
 			},
 			"iron_door": {
 				"iron_door_ghost": {
 					"display_name": "Ironclad Door",
-					"description": "Studier than wooden or stone doors"
+					"description": "Mais estudado que portas de madeira ou pedra"
 				}
 			},
 			"bronze_portcullis": {
 				"bronze_portcullis_ghost": {
 					"display_name": "Bronze Portcullis",
-					"description": "Useful for fortifying town entrypoints."
+					"description": "Útil para fortalecer pontos de entrada da cidade."
 				}
 			},
 			"wooden_door_fine": {
 				"wooden_door_fine_ghost": {
 					"display_name": "Fine Wooden Door",
-					"description": "Privacy at last!"
+					"description": "Privacidade finalmente!"
 				}
 			},
 			"wooden_door_2_fine": {
 				"wooden_door_2_fine_ghost": {
-					"description": "Sturdier than your average door, and such a sweet pattern too.",
+					"description": "Mais resistente que a sua porta comum, e um padrão tão doce também.",
 					"display_name": "Fine Reinforced Wooden Door"
 				}
 			},
 			"wooden_double_door_fine": {
 				"wooden_double_door_fine_ghost": {
 					"display_name": "Fine Wooden Double Door",
-					"description": "A larger door with some extra style. All your friends will be envious."
+					"description": "Uma porta maior com algum estilo extra. Todos os seus amigos terão inveja."
 				}
 			},
 			"wooden_window_frame_fine": {
 				"wooden_window_frame_fine_ghost": {
 					"display_name": "Fine Wooden Window Frame",
-					"description": "So much for privacy..."
+					"description": "Tanta privacidade..."
 				}
 			},
 			"wooden_window_frame_tall_fine": {
 				"wooden_window_frame_tall_fine_ghost": {
 					"display_name": "Fine Tall Window Frame",
-					"description": "Extra height adds an air of elegance"
+					"description": "Altura extra acrescenta um ar de elegância"
 				}
 			},
 			"wooden_window_frame_wide_fine": {
 				"wooden_window_frame_wide_fine_ghost": {
 					"display_name": "Fine Wide Window Frame",
-					"description": "It's a panoramic view!"
+					"description": "É uma vista panorâmica!"
 				}
 			},
 			"wooden_diamond_window_fine": {
 				"wooden_diamond_window_fine_ghost": {
 					"display_name": "Fine Diamond Window Frame",
-					"description": "So much for privacy..."
+					"description": "Tanta privacidade..."
 				}
 			},
 			"picket_fence_fine": {
 				"picket_fence_fine_ghost": {
 					"display_name": "Fine Picket Fence",
-					"description": "If it's not white, is our life unfulfilled?"
+					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_gate_fine": {
 				"picket_fence_gate_fine_ghost": {
 					"display_name": "Fine Picket Fence Gate",
-					"description": "Don't like your neighbors? Don't install."
+					"description": "Não gosta dos seus vizinhos? Não instale."
 				}
 			},
 			"wooden_tunnel_door_fine": {
 				"display_name": "Fine Wooden Tunnel Door",
-				"description": "Useful for blocking off tunnels"
+				"description": "Útil para bloquear túneis"
 			},
 			"blue_latticed_window": {
 				"blue_latticed_window_ghost": {
@@ -10345,53 +10345,53 @@
 			"ornate_picket_fence_gate": {
 				"ornate_picket_fence_gate_ghost": {
 					"display_name": "Ornate Picket Fence Gate",
-					"description": "Don't like your neighbors? Don't install."
+					"description": "Não gosta dos seus vizinhos? Não instale."
 				}
 			},
 			"ornate_wooden_door": {
 				"ornate_wooden_door_ghost": {
 					"display_name": "Ornate Wooden Door",
-					"description": "Sturdier than your average door, and such a sweet pattern too."
+					"description": "Mais resistente que a sua porta comum, e um padrão tão doce também."
 				}
 			},
 			"ornate_wooden_double_door": {
 				"ornate_wooden_double_door_ghost": {
 					"display_name": "Ornate Wooden Double Door",
-					"description": "A larger door with some extra style. All your friends will be envious."
+					"description": "Uma porta maior com algum estilo extra. Todos os seus amigos terão inveja."
 				}
 			},
 			"ornate_wooden_tunnel_door": {
 				"display_name": "Ornate Wooden Tunnel Door",
-				"description": "Useful for blocking off tunnels"
+				"description": "Útil para bloquear túneis"
 			},
 			"cobblestone_fence_single": {
 				"cobblestone_fence_single_ghost": {
 					"display_name": "Small Cobblestone Fence",
-					"description": "A rustic, sturdy wall segment."
+					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"cobblestone_fence_end": {
 				"cobblestone_fence_end_ghost": {
 					"display_name": "Cobblestone Fence Post",
-					"description": "A rustic, sturdy wall segment."
+					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"picket_fence_bar_double": {
 				"picket_fence_bar_double_ghost": {
 					"display_name": "Picket Fence Large",
-					"description": "If it's not white, is our life unfulfilled?"
+					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_bar_single": {
 				"picket_fence_bar_single_ghost": {
 					"display_name": "Picket Fence Small",
-					"description": "If it's not white, is our life unfulfilled?"
+					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_end": {
 				"picket_fence_end_ghost": {
 					"display_name": "Picket Fence Post",
-					"description": "If it's not white, is our life unfulfilled?"
+					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"clay_fence_end": {
@@ -10433,13 +10433,13 @@
 			"cobblestone_fence_bar_double": {
 				"cobblestone_fence_bar_double_ghost": {
 					"display_name": "Cobblestone Fence Large",
-					"description": "A rustic, sturdy wall segment."
+					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"cobblestone_fence_bar_single": {
 				"cobblestone_fence_bar_single_ghost": {
 					"display_name": "Cobblestone Fence Small",
-					"description": "A rustic, sturdy wall segment."
+					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"stone_door": {
@@ -10463,7 +10463,7 @@
 			"stone_window_frame_wide": {
 				"stone_window_frame_wide_ghost": {
 					"display_name": "Wide Stone Window Frame",
-					"description": "It's a panoramic view!"
+					"description": "É uma vista panorâmica!"
 				}
 			},
 			"stone_window_frame_wide_wood": {
@@ -10481,7 +10481,7 @@
 			"stone_window_frame_tall": {
 				"stone_window_frame_tall_ghost": {
 					"display_name": "Tall Stone Window Frame",
-					"description": "Extra height adds an air of elegance"
+					"description": "Altura extra acrescenta um ar de elegância"
 				}
 			},
 			"stone_window_frame_short": {
@@ -10499,7 +10499,7 @@
 			"stone_door_2": {
 				"stone_door_2_ghost": {
 					"display_name": "Reinforced Stone Door",
-					"description": "Sturdier than your average door."
+					"description": "Mais resistente que a sua porta comum."
 				}
 			},
 			"stone_double_door": {
@@ -10511,7 +10511,7 @@
 			"picket_fence_combo": {
 				"picket_fence_combo_ghost": {
 					"display_name": "Picket Fence Combo",
-					"description": "If it's not white, is our life unfulfilled?"
+					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"ornate_picket_fence_combo": {
@@ -10523,7 +10523,7 @@
 			"cobblestone_fence_combo": {
 				"cobblestone_fence_combo_ghost": {
 					"display_name": "Cobblestone Fence Combo",
-					"description": "A rustic, sturdy wall segment."
+					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"clay_fence_combo": {
@@ -16214,7 +16214,7 @@
 				},
 				"iron_mail_recipe": {
 					"description": "A full suit of heavy, durable iron armor.",
-					"recipe_name": "Iron Mail",
+					"recipe_name": "Correio de Ferro",
 					"flavor": "But he'd hidden his heart in an iron fortress, and no fey could touch it. --Songs of Evermarth"
 				},
 				"iron_pike_recipe": {
@@ -16248,7 +16248,7 @@
 				},
 				"steel_mail_recipe": {
 					"description": "A full suit of heavy, durable steel armor.",
-					"recipe_name": "Full Platemail",
+					"recipe_name": "Armadura de Aço Completa",
 					"flavor": "Full Metal Jacket"
 				},
 				"tin_ingot_recipe": {
@@ -16283,17 +16283,17 @@
 					"flavor": "Conceived by the brilliant Arci, Survivor of Chaat"
 				},
 				"iron_coif_recipe": {
-					"description": "Protection for your head",
-					"recipe_name": "Iron Coif"
+					"description": "Proteção para sua cabeça",
+					"recipe_name": "Coifa de Ferro"
 				},
 				"steel_helmet_recipe": {
 					"description": "Extra protection for your noggin!",
-					"recipe_name": "Plate Helm",
+					"recipe_name": "Elmo de Placa",
 					"flavor": "Long considered the epitome of headgear; doubles as a fine soup pot - Roke Tastybakes II"
 				},
 				"bronze_circlet_recipe": {
-					"description": "Protection for your head!",
-					"recipe_name": "Bronze Circlet",
+					"description": "Proteção para sua cabeça!",
+					"recipe_name": "Anel de Bronze",
 					"flavor": "So regal. So stylish!"
 				},
 				"bronze_shield_recipe": {
@@ -16316,11 +16316,11 @@
 					"description": "Protection for one's head"
 				},
 				"iron_circlet_recipe": {
-					"recipe_name": "Iron Circlet",
+					"recipe_name": "Anel de Ferro",
 					"description": "It's quite heavy, but protects one's head"
 				},
 				"steel_circlet_recipe": {
-					"recipe_name": "Steel Circlet",
+					"recipe_name": "Anel de Aço",
 					"description": "Light weight and strong head protection"
 				},
 				"decorative_elite_gong_recipe": {
@@ -16344,18 +16344,18 @@
 					"flavor": "Even scouts are adorned with gold"
 				},
 				"silver_mail_recipe": {
-					"recipe_name": "Silver Mail",
-					"description": "The best armor... for now.",
+					"recipe_name": "Correio de Prata",
+					"description": "A melhor armadura ... por enquanto.",
 					"flavor": "Cid loved the color of strawberries"
 				},
 				"silver_helmet_recipe": {
-					"recipe_name": "Silver Helmet",
-					"description": "Quintessentially heroic",
+					"recipe_name": "Capacete de Prata",
+					"description": "Por excelência heróico",
 					"flavor": "Inspired by the plumes of the Phoenix"
 				},
 				"bronze_helm_recipe": {
-					"recipe_name": "Bronze Helmet",
-					"description": "Pretty and protective",
+					"recipe_name": "Elmo de Bronzeet",
+					"description": "Bonito e protetor",
 					"flavor": "The iron workers insisted they had perfected the art, but the bronze workers argued their's was prettier."
 				},
 				"engineer_wrench_recipe": {
@@ -16462,8 +16462,8 @@
 					"flavor": "Perfectly balanced for its size, and equal to any challenge its wielder takes on"
 				},
 				"circlet_valor_recipe": {
-					"description": "Squarest circlet in the Ascendancy",
-					"recipe_name": "Shining Circlet",
+					"description": "Círculo mais quadrado da Ascendência",
+					"recipe_name": "Círculo Brilhante",
 					"flavor": "Channels the very heart and soul into healing light"
 				},
 				"golem_pick_recipe": {
@@ -16588,13 +16588,13 @@
 				},
 				"picket_fence_gate_recipe": {
 					"description": "Lets people through your picket fence.",
-					"recipe_name": "Picket Fence Gate",
+					"recipe_name": "Portão da Cerca de Piquete",
 					"flavor": "Hope you like your neighbors!"
 				},
 				"picket_fence_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Picket Fence",
-					"flavor": "If it's not white, is our life unfulfilled?"
+					"recipe_name": "Cerca de Piquete",
+					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"tools_weapons_name": "Ferramentas",
 				"storage_name": "Storage",
@@ -16649,13 +16649,13 @@
 				},
 				"wooden_door_2_recipe": {
 					"description": "Stronger than your average door.",
-					"recipe_name": "Reinforced Wooden Door",
+					"recipe_name": "Porta de Madeira Reforçada",
 					"flavor": "This here pattern, I learned from the Squarefolk."
 				},
 				"wooden_door_recipe": {
 					"description": "Minor obstacle for intruders.",
 					"recipe_name": "Wooden Door",
-					"flavor": "Privacy at last!"
+					"flavor": "Privacidade finalmente!"
 				},
 				"wooden_double_door_recipe": {
 					"description": "Two doors are better than one",
@@ -16668,7 +16668,7 @@
 					"flavor": "Practical and romantic!"
 				},
 				"wooden_shield_recipe": {
-					"description": "Crude and basic, but allows the holder to occasionally block attacks.",
+					"description": "Bruto e básico, but allows the holder to occasionally block attacks.",
 					"recipe_name": "Rough Wooden Shield",
 					"flavor": "Better than an improvized wooden branch!"
 				},
@@ -16709,8 +16709,8 @@
 				},
 				"wooden_window_frame_recipe": {
 					"description": "Lets light into the room.",
-					"recipe_name": "Wooden Window Frame",
-					"flavor": "So much for privacy..."
+					"recipe_name": "Moldura de Janela de Madeira",
+					"flavor": "Tanta privacidade..."
 				},
 				"writing_desk_recipe": {
 					"description": "Not at all like a raven.",
@@ -16744,7 +16744,7 @@
 					"recipe_name": "Wooden Safety Standard"
 				},
 				"wooden_tunnel_door_recipe": {
-					"recipe_name": "Wooden Tunnel Door",
+					"recipe_name": "Porta do Túnel de Madeira",
 					"description": "Useful for blocking off tunnels."
 				},
 				"wooden_sign_cook_recipe": {
@@ -16861,7 +16861,7 @@
 				"ornate_picket_fence_recipe": {
 					"recipe_name": "Ornate Picket Fence",
 					"description": "Keeps people off your property.",
-					"flavor": "If it's not white, is our life unfulfilled?"
+					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"ornate_wooden_garden_lantern_recipe": {
 					"recipe_name": "Ornate Wooden Garden Lantern",
@@ -16976,22 +16976,22 @@
 				"picket_fence_end_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Picket Fence Post",
-					"flavor": "If it's not white, is our life unfulfilled?"
+					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"picket_fence_bar_single_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Picket Fence Short",
-					"flavor": "If it's not white, is our life unfulfilled?"
+					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"picket_fence_bar_double_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Picket Fence Long",
-					"flavor": "If it's not white, is our life unfulfilled?"
+					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"picket_fence_combo_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Picket Fence Combo",
-					"flavor": "If it's not white, is our life unfulfilled?"
+					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"ornate_picket_fence_combo_recipe": {
 					"description": "Keeps people off your property.",
@@ -17360,7 +17360,7 @@
 				},
 				"building_parts_name": "Building Parts",
 				"bronze_portcullis_recipe": {
-					"description": "Useful for fortifying town entrypoints.",
+					"description": "Útil para fortalecer pontos de entrada da cidade.",
 					"recipe_name": "Bronze Portcullis"
 				},
 				"mechanism_recipe": {
@@ -17813,13 +17813,13 @@
 					"flavor": "Rabbit masons will only part with work if they are proud of it"
 				},
 				"amberstone_tunnel_door_recipe": {
-					"description": "Seals and protects underground dwellings",
+					"description": "Veda e protege habitações subterrâneas",
 					"recipe_name": "Burrow Door",
 					"flavor": "One could shove with all their might and these doors would never budge, but the rabbits could open them with barely a touch"
 				},
 				"amberstone_window_recipe": {
-					"description": "Lets the fresh air in",
-					"recipe_name": "Burrow Window",
+					"description": "Deixa entrar o ar fresco",
+					"recipe_name": "Janela Burrow",
 					"flavor": "Living underground would be unbearable without excellent ventilation"
 				},
 				"blacksmith_hammer_recipe": {
@@ -17833,13 +17833,13 @@
 					"flavor": "And Monkey struck the earth with his staff. 'For you are my children, he said, and you shall want for nothing.'"
 				},
 				"cobblestone_fence_gate_recipe": {
-					"description": "Its thick stone walls grant a sense of security.",
-					"recipe_name": "Cobblestone Fence Gate",
+					"description": "Suas grossas paredes de pedra garantem uma sensação de segurança.",
+					"recipe_name": "Portão da Cerca de Paralelepípedo",
 					"flavor": "Sheep go in, but can't get out!"
 				},
 				"cobblestone_fence_recipe": {
-					"description": "A rustic, sturdy wall segment.",
-					"recipe_name": "Cobblestone Fence",
+					"description": "Um segmento de parede rústico e resistente.",
+					"recipe_name": "Cerca de Paralelepípedos",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"cook_spoon_recipe": {
@@ -17923,7 +17923,7 @@
 					"description": "A pile of rocks stacked together. An excellent way to store lots of stone for later use."
 				},
 				"stone_tunnel_door_recipe": {
-					"description": "Useful for sealing off mine tunnels.",
+					"description": "Útil para selar os túneis de minas.",
 					"recipe_name": "Stone Tunnel Door"
 				},
 				"firepit_recipe": {
@@ -18079,7 +18079,7 @@
 					"flavor": "What mysteries hide inside its tranquil blue eye?"
 				},
 				"giants_shield_recipe": {
-					"description": "Proudest shield in the Ascendancy",
+					"description": "Escudo mais orgulhoso da Ascendência",
 					"recipe_name": "Giant's Shield",
 					"flavor": "Against even the most terrible foes and impossible dangers, this shield will never break."
 				},
@@ -18089,17 +18089,17 @@
 					"flavor": "Baby don't hurt me! Don't hurt me no more!"
 				},
 				"cobblestone_fence_end_recipe": {
-					"description": "A rustic, sturdy wall segment.",
+					"description": "Um segmento de parede rústico e resistente.",
 					"recipe_name": "Cobblestone Fence Post",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"cobblestone_fence_bar_single_recipe": {
-					"description": "A rustic, sturdy wall segment.",
+					"description": "Um segmento de parede rústico e resistente.",
 					"recipe_name": "Cobblestone Fence Short",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"cobblestone_fence_bar_double_recipe": {
-					"description": "A rustic, sturdy wall segment.",
+					"description": "Um segmento de parede rústico e resistente.",
 					"recipe_name": "Cobblestone Fence Long",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
@@ -18174,7 +18174,7 @@
 					"flavor": "Is this what they call a cross section?"
 				},
 				"cobblestone_fence_combo_recipe": {
-					"description": "A rustic, sturdy wall segment.",
+					"description": "Um segmento de parede rústico e resistente.",
 					"recipe_name": "Cobblestone Fence Combo",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
@@ -18298,7 +18298,7 @@
 				},
 				"red_clay_door_recipe": {
 					"description": "Matches red clay walls",
-					"recipe_name": "Red Clay Door",
+					"recipe_name": "Porta de Argila Vermelho",
 					"flavor": "\"The red hints at a mystery, allure. What lies beyond yon red door?\" -- Ember Iskender, Dept of Applied Poetry"
 				},
 				"red_clay_window_frame_recipe": {
@@ -18323,11 +18323,11 @@
 				},
 				"green_clay_window_frame_recipe": {
 					"description": "Let's in the soft desert air.",
-					"recipe_name": "Green Clay Window Frame",
+					"recipe_name": "Moldura de Janela de Barro Verde",
 					"flavor": "It's a window's dream of spring..."
 				},
 				"latticed_clay_window_frame_recipe": {
-					"description": "The lattice still lets the good air in.",
+					"description": "A treliça ainda deixa entrar o bom ar",
 					"recipe_name": "Latticed Clay Window Frame",
 					"flavor": "As the shadows move across the floor, child, see if you can find Monkey!"
 				},
@@ -18407,7 +18407,7 @@
 					"flavor": "'Cut off his hand? For theft? What would be the point?' --Talidor Roq, Knight of Mysteries "
 				},
 				"clay_tunnel_door_recipe": {
-					"description": "Useful for sealing off mine tunnels.",
+					"description": "Útil para selar os túneis de minas.",
 					"recipe_name": "Clay Tunnel Door",
 					"flavor": "Speak friend and enter.... oh no wait it's not locked. - Eber, Potter's Apprentice"
 				},
@@ -18778,7 +18778,7 @@
 				},
 				"leather_vest_recipe": {
 					"description": "Hardened leather provides study protection against light weapons.",
-					"recipe_name": "Thick Leather Vest",
+					"recipe_name": "Colete de Couro Grosso",
 					"flavor": "Insults bounce right off too!"
 				},
 				"plushie_toy_rabbit_recipe": {
@@ -18840,20 +18840,20 @@
 					"flavor": "In the beginning there was nothing, and then there was Spider."
 				},
 				"leather_helmet_recipe": {
-					"description": "Light-weight protection for your head!",
-					"recipe_name": "Leather Skull Cap"
+					"description": "Light-weight Proteção para sua cabeça!",
+					"recipe_name": "Tampão de Couro do Crânio"
 				},
 				"simple_quiver_recipe": {
 					"recipe_name": "Spiky Quiver",
 					"description": "A quiver equippable by an archer. Stores freezing arrows that will slow enemies"
 				},
 				"fire_quiver_recipe": {
-					"recipe_name": "Fire Quiver",
+					"recipe_name": "Aljava de Fogo",
 					"description": "Gives an Archer access to fire arrows, which deal damage over time"
 				},
 				"cloth_padded_helmet_recipe": {
-					"recipe_name": "Cloth Padded Helmet",
-					"description": "Extra padding for your noggin",
+					"recipe_name": "Capacete Acolchoado de Pano",
+					"description": "Estofamento extra para o seu canguru",
 					"flavor": "Were they phoenix wings, or serpent wings?"
 				},
 				"input_bin_amberstone_recipe": {
@@ -19323,7 +19323,7 @@
 					"description": "Muscle improved greatly from the presence of a cleric"
 				},
 				"legendary_circlet_buff": {
-					"display_name": "Shining Circlet",
+					"display_name": "Círculo Brilhante",
 					"description": "Increases Willpower, Courage, and Compassion by 10%"
 				},
 				"wolf_helmet_buff": {
