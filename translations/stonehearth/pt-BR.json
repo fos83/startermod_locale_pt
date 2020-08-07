@@ -2643,22 +2643,22 @@
 						"tier_2_shops": "Lojas Nível 2",
 						"tier_2_BGM": "Músicas Nível 2",
 						"recipe_unlock_engineer": "Nova receita de portcullis para Engenheiro!",
-						"recipe_unlock_mason": "Novas receitas de decoração para pedreiro!",
+						"recipe_unlock_mason": "Novas receitas de decoração para Pedreiro!",
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para Ferreiro!",
 						"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - Colaboração Tecelão, Oleiro e Ferreiro!",
-						"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário- Colaboração entre Ferreiro, Carpinteiro e pedreiro!",
+						"recipe_unlock_weapons_2": "Nova receita do Escudo Lendário- Colaboração entre Ferreiro, Carpinteiro e Pedreiro!",
 						"recipe_unlock_weapons_3": "Nova receita do arco lendário - Colaboração de Engenheiro, Tecelão e Carpinteiro!",
-						"recipe_unlock_weapons_4": "Nova receita do Circlet lendário - Colaboração herborista, pedreiro e Ferreiro!"
+						"recipe_unlock_weapons_4": "Nova receita do Circlet lendário - Colaboração herborista, Pedreiro e Ferreiro!"
 					},
 					"generosity_tier_2_reached": {
 						"reward_message_ctd": "Por demonstrar grande generosidade aos necessitados. A vila é solenemente elegível à:",
-						"recipe_unlock_mason": "Nova receita de fonte de desejos para pedreiro!",
+						"recipe_unlock_mason": "Nova receita de fonte de desejos para Pedreiro!",
 						"recipe_unlock_herbalist": "Novas decorações de arbustos para o herborista!",
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para Ferreiro!"
 					},
 					"crafting_tier_2_reached": {
 						"reward_message_ctd": "Por excelência na arte do artesanato. A vila é solenemente elegível à:",
-						"recipe_unlock_mason": "Nova fonte e receitas de estátua para pedreiro!",
+						"recipe_unlock_mason": "Nova fonte e receitas de estátua para Pedreiro!",
 						"recipe_unlock_carpenter": "Novas decorações e cercas para Carpinteiro!",
 						"recipe_unlock_herbalist": "Decorações de arbustos novos para herborista!",
 						"recipe_unlock_blacksmith": "Novas receitas de decoração para Ferreiro!"
@@ -3921,7 +3921,7 @@
 												"collection_due": {
 													"bulletin_message": {
 														"000": "Você não vai devolver os filhos da floresta? Eles não pertencem às suas caixas e pilhas de bugigangas. Sua conformidade será recompensada.",
-														"001": "Centenas de grandes carvalhos e zimbros foram abatidos para saciar a ganância dos humanos. Nossa paciência se desgasta. Peço-lhe, devolva-os à pátria.",
+														"001": "Centenas de grandes carvalhos e Juniperos foram abatidos para saciar a ganância dos humanos. Nossa paciência se desgasta. Peço-lhe, devolva-os à pátria.",
 														"002": "Devolva nossos troncos e ajude a restaurar o equilíbrio natural das grandes florestas. Eu não posso garantir sua segurança se você recusar.",
 														"003": "Nossa região foi sacrificado por seu estilo de vida de excesso. Nós lhe daremos uma chance para devolver nossos troncos. Eu sugiro que você dê atenção ao meu aviso."
 													},
@@ -4736,7 +4736,7 @@
 									"shrine_upgrade_deity": {
 										"achievements": {
 											"001": "Arbustos do Herborista",
-											"003": "Fonte da sorte de pedreiro",
+											"003": "Fonte da sorte de Pedreiro",
 											"000": "Mente, Corpo e Espírito +1!",
 											"002": "Decorações do Ferreiro",
 											"004": "Músicas nível 3"
@@ -4838,7 +4838,7 @@
 													},
 													"bulletin_title": "Marak Azael guffaws",
 													"dialog_title": "Marak Azael, Mestre da Guilda",
-													"choice_000": "Obrigado! Nosso pedreiro está muito orgulhoso."
+													"choice_000": "Obrigado! Nosso Pedreiro está muito orgulhoso."
 												}
 											}
 										}
@@ -10190,346 +10190,346 @@
 			},
 			"blue_clay_door": {
 				"blue_clay_door_ghost": {
-					"display_name": "Blue Clay Door",
+					"display_name": "Porta de Argila Azul",
 					"description": "Azul como um sonho do oceano"
 				}
 			},
 			"green_clay_door": {
 				"green_clay_door_ghost": {
-					"display_name": "Green Clay Door",
+					"display_name": "Porta de Argila Verde",
 					"description": "Colorido para combinar com o deserto"
 				}
 			},
 			"blue_clay_window_frame": {
 				"blue_clay_window_frame_ghost": {
-					"display_name": "Blue Clay Window Frame",
+					"display_name": "Moldura de Janela de Argila Azul",
 					"description": "Deixa no ar do deserto."
 				}
 			},
 			"green_clay_window_frame": {
 				"green_clay_window_frame_ghost": {
-					"display_name": "Moldura de Janela de Barro Verde",
+					"display_name": "Moldura de Janela de Argila Verde",
 					"description": "Deixa o ar suave do deserto."
 				}
 			},
 			"latticed_clay_window_frame": {
 				"latticed_clay_window_frame_ghost": {
-					"display_name": "Red Latticed Window",
+					"display_name": "Janela de Treliça Vermelha",
 					"description": "A treliça ainda deixa entrar o bom ar"
 				}
 			},
 			"stone_tunnel_door": {
 				"stone_tunnel_door_ghost": {
-					"display_name": "Stone Tunnel Door",
+					"display_name": "Porta do Túnel de Pedra",
 					"description": "Útil para selar os túneis de minas."
 				}
 			},
 			"amberstone_tunnel_door": {
 				"amberstone_tunnel_door_ghost": {
-					"display_name": "Burrow Door",
+					"display_name": "Porta Burrow",
 					"description": "Veda e protege habitações subterrâneas"
 				}
 			},
 			"clay_tunnel_door": {
 				"clay_tunnel_door_ghost": {
-					"display_name": "Clay Tunnel Door",
+					"display_name": "Porta do Túnel de Argila",
 					"description": "Útil para selar túneis de minas"
 				}
 			},
 			"iron_door": {
 				"iron_door_ghost": {
-					"display_name": "Ironclad Door",
+					"display_name": "Porta de Ferro",
 					"description": "Mais estudado que portas de madeira ou pedra"
 				}
 			},
 			"bronze_portcullis": {
 				"bronze_portcullis_ghost": {
-					"display_name": "Bronze Portcullis",
+					"display_name": "Portcullis de Bronze",
 					"description": "Útil para fortalecer pontos de entrada da cidade."
 				}
 			},
 			"wooden_door_fine": {
 				"wooden_door_fine_ghost": {
-					"display_name": "Fine Wooden Door",
+					"display_name": "Porta de Madeira Fina",
 					"description": "Privacidade finalmente!"
 				}
 			},
 			"wooden_door_2_fine": {
 				"wooden_door_2_fine_ghost": {
 					"description": "Mais resistente que a sua porta comum, e um padrão tão doce também.",
-					"display_name": "Fine Reinforced Wooden Door"
+					"display_name": "Porta de Madeira Reforçada Fina"
 				}
 			},
 			"wooden_double_door_fine": {
 				"wooden_double_door_fine_ghost": {
-					"display_name": "Fine Wooden Double Door",
+					"display_name": "Porta Dupla de Madeira Fina",
 					"description": "Uma porta maior com algum estilo extra. Todos os seus amigos terão inveja."
 				}
 			},
 			"wooden_window_frame_fine": {
 				"wooden_window_frame_fine_ghost": {
-					"display_name": "Fine Wooden Window Frame",
+					"display_name": "Moldura de Janela de Madeira Fina",
 					"description": "Tanta privacidade..."
 				}
 			},
 			"wooden_window_frame_tall_fine": {
 				"wooden_window_frame_tall_fine_ghost": {
-					"display_name": "Fine Tall Window Frame",
+					"display_name": "Moldura de Janela Alta e Fina",
 					"description": "Altura extra acrescenta um ar de elegância"
 				}
 			},
 			"wooden_window_frame_wide_fine": {
 				"wooden_window_frame_wide_fine_ghost": {
-					"display_name": "Fine Wide Window Frame",
+					"display_name": "Moldura de Janela Larga e Fina",
 					"description": "É uma vista panorâmica!"
 				}
 			},
 			"wooden_diamond_window_fine": {
 				"wooden_diamond_window_fine_ghost": {
-					"display_name": "Fine Diamond Window Frame",
+					"display_name": "Moldura de Janela de Diamante Fino",
 					"description": "Tanta privacidade..."
 				}
 			},
 			"picket_fence_fine": {
 				"picket_fence_fine_ghost": {
-					"display_name": "Fine Picket Fence",
+					"display_name": "Bela Cerca de Piquete",
 					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_gate_fine": {
 				"picket_fence_gate_fine_ghost": {
-					"display_name": "Fine Picket Fence Gate",
+					"display_name": "Portão da Cerca de Piquete",
 					"description": "Não gosta dos seus vizinhos? Não instale."
 				}
 			},
 			"wooden_tunnel_door_fine": {
-				"display_name": "Fine Wooden Tunnel Door",
+				"display_name": "Porta do Túnel de Madeira Fina",
 				"description": "Útil para bloquear túneis"
 			},
 			"blue_latticed_window": {
 				"blue_latticed_window_ghost": {
-					"display_name": "Blue Latticed Window",
-					"description": "A soothing blue latticed window"
+					"display_name": "Janela de Treliça Azul",
+					"description": "Uma janela azul reconfortante"
 				}
 			},
 			"green_latticed_window": {
 				"green_latticed_window_ghost": {
-					"display_name": "Green Latticed Window",
-					"description": "The latticed window you know and love, now in green!"
+					"display_name": "Janela Treliça Verde",
+					"description": "A janela de treliça que você conhece e ama, agora em verde!"
 				}
 			},
 			"tan_clay_window_frame": {
 				"tan_clay_window_frame_ghost": {
-					"display_name": "Tan Clay Window Frame",
-					"description": "Lets the sun in"
+					"display_name": "Moldura de Janela de Argila Castanho",
+					"description": "Deixa o sol entrar"
 				}
 			},
 			"tan_latticed_window": {
 				"tan_latticed_window_ghost": {
-					"display_name": "Tan Latticed Window",
-					"description": "The latticed window you know and love, in tan"
+					"display_name": "Janela com Treliça Marrom",
+					"description": "A janela de treliça que você conhece e ama, bronzeada"
 				}
 			},
 			"tall_clay_window": {
 				"tall_clay_window_ghost": {
-					"display_name": "Tall Clay Window",
-					"description": "Still lets in the soft desert air"
+					"display_name": "Janela de Argila Alta",
+					"description": "Ainda deixa entrar o ar suave do deserto"
 				}
 			},
 			"ornate_picket_fence": {
 				"ornate_picket_fence_ghost": {
-					"display_name": "Cerca de estaca ornamentada",
+					"display_name": "Cerca de Estaca Ornamentada",
 					"description": "Uma pequena folha de ouro vai longe!"
 				}
 			},
 			"ornate_picket_fence_gate": {
 				"ornate_picket_fence_gate_ghost": {
-					"display_name": "Ornate Picket Fence Gate",
+					"display_name": "Portão de Cerca de Piquete Ornamentado",
 					"description": "Não gosta dos seus vizinhos? Não instale."
 				}
 			},
 			"ornate_wooden_door": {
 				"ornate_wooden_door_ghost": {
-					"display_name": "Ornate Wooden Door",
+					"display_name": "Porta de Madeira Ornamentada",
 					"description": "Mais resistente que a sua porta comum, e um padrão tão doce também."
 				}
 			},
 			"ornate_wooden_double_door": {
 				"ornate_wooden_double_door_ghost": {
-					"display_name": "Ornate Wooden Double Door",
+					"display_name": "Porta Dupla de Madeira Ornamentada",
 					"description": "Uma porta maior com algum estilo extra. Todos os seus amigos terão inveja."
 				}
 			},
 			"ornate_wooden_tunnel_door": {
-				"display_name": "Ornate Wooden Tunnel Door",
+				"display_name": "Porta do Túnel de Madeira Ornamentada",
 				"description": "Útil para bloquear túneis"
 			},
 			"cobblestone_fence_single": {
 				"cobblestone_fence_single_ghost": {
-					"display_name": "Small Cobblestone Fence",
+					"display_name": "Pequena Cerca de Paralelepípedos",
 					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"cobblestone_fence_end": {
 				"cobblestone_fence_end_ghost": {
-					"display_name": "Cobblestone Fence Post",
+					"display_name": "Poste da Cerca de Paralelepípedos",
 					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"picket_fence_bar_double": {
 				"picket_fence_bar_double_ghost": {
-					"display_name": "Picket Fence Large",
+					"display_name": "Cerca de Piquete Grande",
 					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_bar_single": {
 				"picket_fence_bar_single_ghost": {
-					"display_name": "Picket Fence Small",
+					"display_name": "Cerca de Piquete Pequena",
 					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"picket_fence_end": {
 				"picket_fence_end_ghost": {
-					"display_name": "Picket Fence Post",
+					"display_name": "Poste de Cerca de Piquete",
 					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"clay_fence_end": {
 				"clay_fence_end_ghost": {
-					"display_name": "Clay Fence Post",
-					"description": "More decorative than protective."
+					"display_name": "Poste de Cerca de Argila ",
+					"description": "Mais decorativo do que protetor."
 				}
 			},
 			"clay_fence_bar_single": {
 				"clay_fence_bar_single_ghost": {
-					"display_name": "Clay Fence Small",
-					"description": "More decorative than protective."
+					"display_name": "Cerca de Argila Pequena",
+					"description": "Mais decorativo do que protetor."
 				}
 			},
 			"clay_fence_bar_double": {
 				"clay_fence_bar_double_ghost": {
-					"display_name": "Clay Fence Large",
-					"description": "More decorative than protective."
+					"display_name": "Cerca de Argila Grande",
+					"description": "Mais decorativo do que protetor."
 				}
 			},
 			"ornate_picket_fence_end": {
 				"ornate_picket_fence_end_ghost": {
-					"display_name": "Ornate Picket Fence Post",
-					"description": "A little gold leaf goes a long way!"
+					"display_name": "Poste de Cerca de Piquete Ornamentado",
+					"description": "Uma pequena folha de ouro ajuda muito!"
 				}
 			},
 			"ornate_picket_fence_bar_single": {
 				"ornate_picket_fence_bar_single_ghost": {
-					"display_name": "Ornate Picket Fence Small",
-					"description": "A little gold leaf goes a long way!"
+					"display_name": "Cerca de Piquete Ornamentada Pequena",
+					"description": "Uma pequena folha de ouro ajuda muito!"
 				}
 			},
 			"ornate_picket_fence_bar_double": {
 				"ornate_picket_fence_bar_double_ghost": {
-					"display_name": "Ornate Picket Fence Large",
-					"description": "A little gold leaf goes a long way!"
+					"display_name": "Cerca de Piquete Ornamentada Grande",
+					"description": "Uma pequena folha de ouro ajuda muito!"
 				}
 			},
 			"cobblestone_fence_bar_double": {
 				"cobblestone_fence_bar_double_ghost": {
-					"display_name": "Cobblestone Fence Large",
+					"display_name": "Cerca de Paralelepípedos Grande",
 					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"cobblestone_fence_bar_single": {
 				"cobblestone_fence_bar_single_ghost": {
-					"display_name": "Cobblestone Fence Small",
+					"display_name": "Cerca de Paralelepípedos Pequena",
 					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"stone_door": {
 				"stone_door_ghost": {
-					"display_name": "Stone Door",
-					"description": "Built to Last!"
+					"display_name": "Porta de Pedra",
+					"description": "Construído para durar!"
 				}
 			},
 			"clay_fence_gate": {
 				"clay_fence_gate_ghost": {
-					"display_name": "Clay Fence Gate",
-					"description": "This decorative gate protects your fences from being broken."
+					"display_name": "Portão de Cerca de Argila",
+					"description": "Este portão decorativo protege suas cercas de serem quebradas."
 				}
 			},
 			"stone_window_frame": {
 				"stone_window_frame_ghost": {
-					"display_name": "Stone Window Frame",
-					"description": "Offers a little protection from the wind."
+					"display_name": "Moldura de Janela de Pedra",
+					"description": "Oferece um pouco de proteção contra o vento."
 				}
 			},
 			"stone_window_frame_wide": {
 				"stone_window_frame_wide_ghost": {
-					"display_name": "Wide Stone Window Frame",
+					"display_name": "Moldura de Janela Larga em Pedra",
 					"description": "É uma vista panorâmica!"
 				}
 			},
 			"stone_window_frame_wide_wood": {
 				"stone_window_frame_wide_wood_ghost": {
-					"display_name": "Wide Wood and Stone Window Frame",
-					"description": "Rustic and panoramic!"
+					"display_name": "Moldura Larga Para Janelas de Madeira e Pedra",
+					"description": "Rústico e panorâmico!"
 				}
 			},
 			"stone_window_frame_wood": {
 				"stone_window_frame_wood_ghost": {
-					"display_name": "Wood and Stone Window Frame",
-					"description": "Offers a little protection from the wind."
+					"display_name": "Moldura de Janela de Madeira e Pedra",
+					"description": "Oferece um pouco de proteção contra o vento."
 				}
 			},
 			"stone_window_frame_tall": {
 				"stone_window_frame_tall_ghost": {
-					"display_name": "Tall Stone Window Frame",
+					"display_name": "Moldura de Janela de Pedra Alta",
 					"description": "Altura extra acrescenta um ar de elegância"
 				}
 			},
 			"stone_window_frame_short": {
 				"stone_window_frame_short_ghost": {
-					"display_name": "Short Stone Window Frame",
-					"description": "Short can be elegant too."
+					"display_name": "Moldura de Janela de Pedra Curta",
+					"description": "Curto também pode ser elegante."
 				}
 			},
 			"stone_window_frame_crossbeam": {
 				"stone_window_frame_crossbeam_ghost": {
-					"display_name": "Cross Beamed Stone Window Frame",
-					"description": "Offers a little protection from random critters trying to get in."
+					"display_name": "Moldura de Janela de Pedra com Vigas Cruzadas",
+					"description": "Oferece um pouco de proteção contra criaturas aleatórias que tentam entrar."
 				}
 			},
 			"stone_door_2": {
 				"stone_door_2_ghost": {
-					"display_name": "Reinforced Stone Door",
+					"display_name": "Porta de Pedra Reforçada",
 					"description": "Mais resistente que a sua porta comum."
 				}
 			},
 			"stone_double_door": {
 				"stone_double_door_ghost": {
-					"display_name": "Stone Double Door",
+					"display_name": "Porta Dupla de Pedra",
 					"description": "A larger door. It makes quite an impression."
 				}
 			},
 			"picket_fence_combo": {
 				"picket_fence_combo_ghost": {
-					"display_name": "Picket Fence Combo",
+					"display_name": "Combinação de Cerca de Piquete",
 					"description": "Se não é branco, nossa vida não está cumprida?"
 				}
 			},
 			"ornate_picket_fence_combo": {
 				"ornate_picket_fence_combo_ghost": {
-					"display_name": "Ornate Picket Fence Combo",
-					"description": "A little gold leaf goes a long way!"
+					"display_name": "Combinação de Piquete Ornamentado",
+					"description": "Uma pequena folha de ouro ajuda muito!"
 				}
 			},
 			"cobblestone_fence_combo": {
 				"cobblestone_fence_combo_ghost": {
-					"display_name": "Cobblestone Fence Combo",
+					"display_name": "Combinação de Cerca de Paralelepípedos",
 					"description": "Um segmento de parede rústico e resistente."
 				}
 			},
 			"clay_fence_combo": {
 				"clay_fence_combo_ghost": {
-					"display_name": "Clay Fence Combo",
-					"description": "More decorative than protective."
+					"display_name": "Combinação de Cerca de Argila",
+					"description": "Mais decorativo do que protetor."
 				}
 			}
 		},
@@ -10613,61 +10613,61 @@
 			},
 			"wheat_pile": {
 				"display_name": "Large Wheat Bundle",
-				"description": "Harvest for a large amount of wheat",
-				"iconic_description": "Harvestable for wheat when placed"
+				"description": "Colha uma grande quantidade de trigo",
+				"iconic_description": "Colhível para trigo quando colocado"
 			},
 			"small_crate_fine": {
 				"small_crate_fine_ghost": {
-					"display_name": "Fine Small Crate",
-					"description": "Storage container with style"
+					"display_name": "Caixa Pequena e Fina",
+					"description": "Recipiente de armazenamento com estilo"
 				}
 			},
 			"large_crate_fine": {
 				"large_crate_fine_ghost": {
 					"display_name": "Caixa Grande Fina",
-					"description": "Armazena até 32 itens. With style."
+					"description": "Armazena até 32 itens. Com estilo."
 				}
 			},
 			"leather_bound_chest_fine": {
 				"leather_bound_chest_fine_ghost": {
-					"display_name": "Fine Leather Bound Chest",
-					"description": "Stores up to 64 items. With style."
+					"display_name": "Baú Encadernado em Couro Fino",
+					"description": "Armazena até 64 itens. Com estilo."
 				}
 			},
 			"ornate_leather_bound_chest": {
 				"ornate_leather_bound_chest_ghost": {
-					"display_name": "Ornate Leather Bound Chest",
-					"description": "Stores up to 64 items. With style."
+					"display_name": "Baú Encadernado em Couro Ornamentado",
+					"description": "Armazena até 64 itens. Com estilo."
 				}
 			},
 			"output_box_wood": {
 				"output_box_wood_ghost": {
-					"display_name": "Wood Finished Work Shelf",
-					"description": "Temporary storage for crafted items."
+					"display_name": "Prateleira de Trabalho com Acabamento em Madeira",
+					"description": "Armazenamento temporário para itens criados."
 				}
 			},
 			"output_box_clay": {
 				"output_box_clay_ghost": {
-					"description": "Temporary storage for crafted items.",
-					"display_name": "Clay Finished Work Shelf"
+					"description": "Armazenamento temporário para itens criados.",
+					"display_name": "Prateleira de Trabalho com Argila"
 				}
 			},
 			"output_box_stone": {
 				"output_box_stone_ghost": {
-					"description": "Temporary storage for crafted items.",
-					"display_name": "Stone Finished Work Shelf"
+					"description": "Armazenamento temporário para itens criados.",
+					"display_name": "Prateleira de Trabalho com Acabamento em Pedra"
 				}
 			},
 			"output_box_amberstone": {
 				"output_box_amberstone_ghost": {
 					"description": "Armazenamento temporário para itens criados.",
-					"display_name": "Prateleira de trabalho em estilo de coelho"
+					"display_name": "Prateleira de Trabalho em Estilo de Coelho"
 				}
 			},
 			"input_bin_clay": {
 				"input_bin_clay_ghost": {
-					"display_name": "Ceramic Supply Basin",
-					"description": "A supply container, for quicker crafting."
+					"display_name": "Cesta de Abastecimento de Cerâmica",
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_amberstone": {
@@ -10678,184 +10678,184 @@
 			},
 			"input_bin_woven": {
 				"input_bin_woven_ghost": {
-					"display_name": "Woven Supply Basket",
-					"description": "A supply container, for quicker crafting."
+					"display_name": "Cesto de Suprimentos de Tecido",
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_wood": {
 				"input_bin_wood_ghost": {
-					"display_name": "Wooden Supply Crate",
-					"description": "A supply container, for quicker crafting."
+					"display_name": "Cesta de Suprimentos de Madeira",
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_stone": {
 				"input_bin_stone_ghost": {
-					"display_name": "Stonework Supply Bin",
-					"description": "A supply container, for quicker crafting."
+					"display_name": "Cesta de Suprimentos de Pedra",
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_iron": {
 				"input_bin_iron_ghost": {
-					"display_name": "Iron-Banded Supply Bin",
-					"description": "A supply container, for quicker crafting."
+					"display_name": "Cesta de Suprimentos com Tiras de Ferro",
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_shelf_wall_clay": {
 				"input_shelf_wall_clay_ghost": {
 					"display_name": "Ceramic Wall Supply Shelf",
-					"description": "Make sure it's within reach!"
+					"description": "Verifique se está ao seu alcance!"
 				}
 			},
 			"input_shelf_wall_stone": {
 				"input_shelf_wall_stone_ghost": {
 					"display_name": "Stonework Wall Supply Shelf",
-					"description": "Make sure it's within reach!"
+					"description": "Verifique se está ao seu alcance!"
 				}
 			},
 			"input_shelf_ground_clay": {
 				"input_shelf_ground_clay_ghost": {
 					"display_name": "Ceramic Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_shelf_ground_stone": {
 				"input_shelf_ground_stone_ghost": {
-					"description": "A supply container, for quicker crafting.",
+					"description": "Um contêiner de suprimento, para criação mais rápida.",
 					"display_name": "Stonework Supply Rack"
 				}
 			},
 			"input_shelf_ground_wood": {
 				"input_shelf_ground_wood_ghost": {
 					"display_name": "Wooden Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_shelf_wall_wood": {
 				"input_shelf_wall_wood_ghost": {
 					"display_name": "Wooden Wall Supply Shelf",
-					"description": "Make sure it's within reach!"
+					"description": "Verifique se está ao seu alcance!"
 				}
 			},
 			"input_table_ground_iron": {
 				"input_table_ground_iron_ghost": {
 					"display_name": "Iron-Studded Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_corner_ground_wood": {
 				"input_corner_ground_wood_ghost": {
 					"display_name": "Wooden Corner Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_corner_ground_stone": {
 				"input_corner_ground_stone_ghost": {
 					"display_name": "Stonework Corner Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_table_ground_wood": {
 				"input_table_ground_wood_ghost": {
 					"display_name": "Wooden Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_table_ground_stone": {
 				"input_table_ground_stone_ghost": {
 					"display_name": "Stonework Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_table_ground_clay": {
 				"input_table_ground_clay_ghost": {
 					"display_name": "Ceramic Supply Table",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_corner_ground_clay": {
 				"input_corner_ground_clay_ghost": {
 					"display_name": "Ceramic Corner Supply Rack",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_clay_blue": {
 				"input_bin_clay_blue_ghost": {
 					"display_name": "Blue Ceramic Supply Basin",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_clay_green": {
 				"input_bin_clay_green_ghost": {
-					"description": "A supply container, for quicker crafting.",
+					"description": "Um contêiner de suprimento, para criação mais rápida.",
 					"display_name": "Green Ceramic Supply Basin"
 				}
 			},
 			"input_bin_clay_red": {
 				"input_bin_clay_red_ghost": {
-					"description": "A supply container, for quicker crafting.",
+					"description": "Um contêiner de suprimento, para criação mais rápida.",
 					"display_name": "Red Ceramic Supply Basin"
 				}
 			},
 			"input_bin_woven_blue": {
 				"input_bin_woven_blue_ghost": {
 					"display_name": "Blue Woven Supply Basket",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_woven_green": {
 				"input_bin_woven_green_ghost": {
 					"display_name": "Green Woven Supply Basket",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_woven_red": {
 				"input_bin_woven_red_ghost": {
 					"display_name": "Red Woven Supply Basket",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_corner_ground_iron": {
 				"input_corner_ground_iron_ghost": {
 					"display_name": "Iron Corner Supply Shelf",
-					"description": "A supply container, for quicker crafting."
+					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"market_shelf_tall_ground_wood": {
 				"market_shelf_tall_ground_wood_ghost": {
-					"display_name": "Tall Wooden Market Shelf",
-					"description": "Other players and Travelers can buy the items stored here."
+					"display_name": "Prateleira de Mercado Alta de Madeira",
+					"description": "Outros jogadores e viajantes podem comprar os itens armazenados aqui."
 				}
 			},
 			"gem_chest": {
 				"gem_chest_ghost": {
-					"display_name": "Ancient Gem",
-					"description": "An ancient gem hangs suspended in the air, it looks valuable!"
+					"display_name": "Gema Antiga",
+					"description": "Uma jóia antiga está suspensa no ar, parece valiosa!"
 				},
 				"gem_bits": {
-					"display_name": "Nature Gem Bits",
-					"description": "Bits of the larger gem, they are probably worth a hefty sum."
+					"display_name": "Pedaços de Gema Preciosas da Natureza",
+					"description": "Pedaços da gema maior, provavelmente valem uma quantia considerável."
 				}
 			},
 			"wheat_pile_old": {
 				"wheat_pile_old_ghost": {
-					"display_name": "Old Wheat Bundle",
-					"description": "It's still good, if a little mushy in places."
+					"display_name": "Pacote de Trigo Velho",
+					"description": "Ainda é bom, se um pouco piegas em alguns lugares."
 				},
 				"wheat_pile_old_iconic": {
-					"display_name": "Old Wheat Bundle",
-					"description": "Harvestable for wheat when placed"
+					"display_name": "Pacote de Trigo Velho",
+					"description": "Colhível para trigo quando colocado"
 				}
 			},
 			"market_shelf_tall_ground_clay": {
 				"market_shelf_tall_ground_clay_ghost": {
-					"display_name": "Market Trading Shelf",
-					"description": "Other players and Travellers can buy the items stored here."
+					"display_name": "Plataforma de Negociação no Mercado",
+					"description": "Outros jogadores e viajantes podem comprar os itens armazenados aqui."
 				}
 			},
 			"market_shelf_tall_ground_stone": {
 				"market_shelf_tall_ground_stone_ghost": {
-					"display_name": "Market Trading Shelf",
-					"description": "Other players and Travellers can buy the items stored here."
+					"display_name": "Plataforma de Negociação no Mercado",
+					"description": "Outros jogadores e viajantes podem comprar os itens armazenados aqui."
 				}
 			}
 		},
@@ -10889,7 +10889,7 @@
 			},
 			"racoon": {
 				"display_name": "Guaxinim",
-				"description": "Small forest creature",
+				"description": "Pequena criatura da floresta",
 				"racoon_jerky": {
 					"display_name": "Carne seca (Guaxinim)"
 				},
@@ -10897,7 +10897,7 @@
 			},
 			"red_fox": {
 				"display_name": "Raposa",
-				"description": "Criatura pequena da floresta",
+				"description": "Pequena criatura da floresta",
 				"red_fox_jerky": {
 					"display_name": "Carne Seca (Raposa)"
 				},
@@ -10916,7 +10916,7 @@
 			},
 			"squirrel": {
 				"display_name": "Esquilo",
-				"description": "Small forest creature",
+				"description": "Pequena criatura da floresta",
 				"squirrel_jerky": {
 					"display_name": "Carne seca (Esquilo)"
 				},
@@ -10936,17 +10936,17 @@
 				"deer_jerky": {
 					"display_name": "Carne seca de veado"
 				},
-				"species": "veado",
+				"species": "Veado",
 				"description": "Bem carnudo",
 				"display_name": "Veado"
 			},
 			"boar": {
 				"display_name": "Um javali",
-				"species": "javali",
+				"species": "Javali",
 				"description": "Cheira como algo... fedorento... Come um pouco de tudo."
 			},
 			"beetle": {
-				"species": "besouro",
+				"species": "Besouro",
 				"display_name": "Besouro",
 				"description": "Inseto pequeno bonito",
 				"beetle_jerky": {
@@ -10956,7 +10956,7 @@
 			"bitsy_ant": {
 				"description": "Inseto pequeno bonito",
 				"display_name": "Formiga Bitsy",
-				"species": "formiga bitsy",
+				"species": "Formiga bitsy",
 				"bitsy_ant_jerky": {
 					"display_name": "Carne pequena de inseto formiga"
 				}
@@ -10964,32 +10964,32 @@
 			"doodles": {
 				"display_name": "Doodles ",
 				"description": "Inseto pequeno bonito",
-				"species": "doodles ",
+				"species": "Doodles ",
 				"doodles_jerky": {
 					"display_name": "Carne de inseto doodles"
 				}
 			},
 			"red_fox_wolf": {
-				"species": "raposa",
-				"description": "Criatura pequena da floresta",
+				"species": "Raposa",
+				"description": "Pequena criatura da floresta",
 				"display_name": "Raposa"
 			},
 			"deer_horned": {
-				"species": "veado",
+				"species": "Veado",
 				"description": "Cuidado com os chifres!",
 				"display_name": "Caribu"
 			},
 			"ghost": {
-				"species": "fantasma"
+				"species": "Fantasma"
 			}
 		},
 		"crops": {
 			"brightbell_crop": {
-				"display_name": "Brightbell Flower",
+				"display_name": "Brightbell (Flor)",
 				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
-						"name": "Brightbell Sprout",
+						"name": "Brightbell (Broto)",
 						"description": "Toquinho"
 					},
 					"003": {
@@ -10997,11 +10997,11 @@
 						"description": "A beleza é sua própria recompensa."
 					},
 					"000": {
-						"name": "Brightbell Seedling",
+						"name": "Brightbell (Muda)",
 						"description": "Cheio de potencial."
 					},
 					"002": {
-						"name": "Brightbell Bud",
+						"name": "Brightbell (Botão)",
 						"description": "Estágio desajeitado e desengonçado."
 					}
 				}
@@ -11011,7 +11011,7 @@
 				"description": "Rápido crescimento, mas bastante sem graça por si só.",
 				"growth_stage": {
 					"003": {
-						"name": "Cenoura (Madura)",
+						"name": "Cenoura (Maduro)",
 						"description": "Deliciosa!"
 					},
 					"002": {
@@ -11059,11 +11059,11 @@
 				}
 			},
 			"frostsnap_crop": {
-				"display_name": "Frostsnap Flower",
+				"display_name": "Frostsnap (Flor)",
 				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
-						"name": "Frostsnap Sprout",
+						"name": "Frostsnap (Broto)",
 						"description": "Toquinho"
 					},
 					"003": {
@@ -11071,11 +11071,11 @@
 						"description": "Misteriosamente legal."
 					},
 					"000": {
-						"name": "Frostsnap Seedling",
+						"name": "Frostsnap (Muda)",
 						"description": "Cheio de potencial."
 					},
 					"002": {
-						"name": "Frostsnap Bud",
+						"name": "Frostsnap (Botão)",
 						"description": "Como um floco de neve de bebê."
 					}
 				}
@@ -11098,7 +11098,7 @@
 					},
 					"000": {
 						"name": "Gengibre (Muda)",
-						"description": "A unrealized turnip."
+						"description": "Um nabo não realizado."
 					},
 					"011": {
 						"name": "Gengibre (Estragado)",
@@ -11108,10 +11108,10 @@
 			},
 			"pumpkin_crop": {
 				"display_name": "Abobora",
-				"description": "Big, round, and fast-growing, but tasty it is not.",
+				"description": "Grande, redondo e de rápido crescimento, mas saboroso não é.",
 				"growth_stage": {
 					"003": {
-						"name": "Abobora (Madura)",
+						"name": "Abobora (Maduro)",
 						"description": "Deliciosa!"
 					},
 					"002": {
@@ -11134,10 +11134,10 @@
 			},
 			"watermelon_crop": {
 				"display_name": "Melancia",
-				"description": "Takes a while to grow, but very fun to eat!",
+				"description": "Demora um pouco para crescer, mas é muito divertido de comer!",
 				"growth_stage": {
 					"003": {
-						"name": "Melancia (Madura)",
+						"name": "Melancia (Maduro)",
 						"description": "Deliciosa!"
 					},
 					"002": {
@@ -11150,7 +11150,7 @@
 					},
 					"000": {
 						"name": "Melancia (Muda)",
-						"description": "A unrealized watermelon."
+						"description": "Uma melancia não realizada."
 					},
 					"011": {
 						"name": "Melancia (Estragada)",
@@ -11159,97 +11159,97 @@
 				}
 			},
 			"silkweed_crop": {
-				"display_name": "Silkweed",
+				"display_name": "Seda",
 				"description": "Fibra desta planta pode ser transformada em fio",
 				"growth_stage": {
 					"004": {
-						"name": "Mature silkweed",
+						"name": "Seda (Maduro)",
 						"description": "Pronto para tecelagem!"
 					},
 					"001": {
-						"name": "Silkweed sprout",
-						"description": "Sprout, little one!"
+						"name": "Seda (Broto)",
+						"description": "Brotam, pequenina!"
 					},
 					"000": {
-						"name": "Silkweed seedling",
-						"description": "Still a long way to grow."
+						"name": "Seda (Muda)",
+						"description": "Ainda há um longo caminho a crescer."
 					},
 					"019": {
-						"name": "Rotten silkweed"
+						"name": "Seda (Estragada)"
 					},
 					"003": {
-						"name": "Immature silkweed",
-						"description": "Flossy hairs are beginning to emerge"
+						"name": "Seda (Imaturo)",
+						"description": "Os cabelos flossy estão começando a emergir"
 					},
 					"002": {
-						"name": "Stubby silkweed",
-						"description": "Look at those follicles!"
+						"name": "Stubby Seda",
+						"description": "Olha esses folículos!"
 					}
 				}
 			},
 			"tester_crop": {
 				"display_name": "Tester ",
-				"description": "Steeped in the soil. ",
+				"description": "Mergulhado no solo. ",
 				"tester_crop_slow": {
 					"display_name": "Tester_Slow ",
-					"description": "Steeped in the soil. ",
+					"description": "Mergulhado no solo. ",
 					"growth_stage": {
 						"001": {
-							"name": "Ripe Tester ",
+							"name": "Tester (Maduro) ",
 							"description": "Deliciosa!"
 						},
 						"000": {
-							"name": "Tester Seedling ",
-							"description": "A unrealized tester. "
+							"name": "Tester (Mudas) ",
+							"description": "Um testador não realizado. "
 						}
 					}
 				},
 				"growth_stage": {
 					"001": {
-						"name": "Ripe Tester ",
+						"name": "Tester (Maduro) ",
 						"description": "Deliciosa!"
 					},
 					"000": {
-						"name": "Tester Seedling ",
-						"description": "A unrealized tester. "
+						"name": "Tester (Mudas) ",
+						"description": "Um testador não realizado. "
 					}
 				}
 			},
 			"tester_crop_2": {
 				"display_name": "Tester_Slow ",
-				"description": "Steeped in the soil. ",
+				"description": "Mergulhado no solo. ",
 				"growth_stage": {
 					"001": {
-						"name": "Ripe Tester ",
+						"name": "Tester (Maduro) ",
 						"description": "Deliciosa!"
 					},
 					"000": {
-						"name": "Tester Seedling ",
-						"description": "A unrealized tester. "
+						"name": "Tester (Mudas) ",
+						"description": "Um testador não realizado. "
 					}
 				}
 			},
 			"tester_silkweed_crop": {
-				"display_name": "Tester Silkweed",
+				"display_name": "Tester de Seda",
 				"description": "Fibra desta planta pode ser transformada em fio",
 				"growth_stage": {
 					"004": {
-						"name": "Mature silkweed"
+						"name": "Seda (Maduro)"
 					},
 					"001": {
-						"name": "Silkweed sprout"
+						"name": "Seda (Broto)"
 					},
 					"000": {
-						"name": "Silkweed seedling"
+						"name": "Seda (Muda)"
 					},
 					"019": {
-						"name": "Rotten silkweed"
+						"name": "Seda (Estragada)"
 					},
 					"003": {
-						"name": "Immature silkweed"
+						"name": "Seda (Imaturo)"
 					},
 					"002": {
-						"name": "Stubby silkweed"
+						"name": "Stubby Seda"
 					}
 				}
 			},
@@ -11271,7 +11271,7 @@
 					},
 					"000": {
 						"name": "Nabo (Muda)",
-						"description": "A unrealized turnip."
+						"description": "Um nabo não realizado."
 					},
 					"011": {
 						"name": "Nabo (Estragado)",
@@ -11281,239 +11281,239 @@
 			},
 			"wheat_crop": {
 				"display_name": "Trigo",
-				"description": "Amber wave of grain.",
+				"description": "Onda âmbar de grão.",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe wheat",
+						"name": "Trigo (Maduro)",
 						"description": "Pronto para a colheita!"
 					},
 					"002": {
-						"name": "Immature wheat",
+						"name": "Trigo (Imaturo)",
 						"description": "Não está pronto para a colheita"
 					},
 					"001": {
-						"name": "Wheat Sprout",
+						"name": "Trigo (Broto)",
 						"description": "Não está pronto para a colheita"
 					},
 					"000": {
-						"name": "Wheat Seedling",
+						"name": "Trigo (Muda)",
 						"description": "Não está pronto para a colheita"
 					},
 					"011": {
-						"name": "Wheat Husk",
+						"name": "Casca de Trigo",
 						"description": "Está morto."
 					}
 				}
 			},
 			"oak_tree_crop": {
-				"display_name": "Oak Tree Sapling",
+				"display_name": "Carvalho (Muda)",
 				"description": "Sem árvores? Prepare-se para participar do reflorestamento.",
 				"growth_stage": {
 					"001": {
-						"name": "Oak Tree Seedling",
+						"name": "Carvalho (Muda)",
 						"description": "Está apenas começando."
 					},
 					"003": {
-						"name": "Oak Tree Sapling",
+						"name": "Carvalho (Muda)",
 						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
-						"name": "Acorn",
+						"name": "Bolota",
 						"description": "Mesmo uma árvore poderosa tem um começo humilde."
 					},
 					"002": {
-						"name": "Oak Tree Sprout",
-						"description": "Reach for the sun, little oakling."
+						"name": "Carvalho (Broto)",
+						"description": "Alcance o sol, pequeno carvalho."
 					}
 				}
 			},
 			"acacia_tree_crop": {
-				"display_name": "Acacia Tree Sapling",
+				"display_name": "Acácia (Muda)",
 				"description": "Sem árvores? Prepare-se para participar do reflorestamento.",
 				"growth_stage": {
 					"001": {
-						"name": "Acacia Tree Seedling",
+						"name": "Acácia (Muda)",
 						"description": "Está apenas começando."
 					},
 					"003": {
-						"name": "Acacia Tree Sapling",
+						"name": "Acácia (Muda)",
 						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
-						"name": "Seed Pod",
+						"name": "Vagem da Semente",
 						"description": "Mesmo uma árvore poderosa tem um começo humilde."
 					},
 					"002": {
-						"name": "Acacia Tree Sprout",
-						"description": "Perfect size for a baby giraffe."
+						"name": "Acácia (Broto)",
+						"description": "Tamanho perfeito para uma girafa bebê."
 					}
 				}
 			},
 			"golden_gourd_crop": {
-				"display_name": "Golden Gourd Crop",
-				"description": "Much prettier than it is tasty",
+				"display_name": "Colheita de Abóboras Douradas",
+				"description": "Muito mais bonita do que saborosa",
 				"growth_stage": {
 					"003": {
-						"name": "Green Gourds",
+						"name": "Abóboras Verdes",
 						"description": "Muito amargo para comer"
 					},
 					"002": {
-						"name": "Proto-Gourds",
-						"description": "Full of promise"
+						"name": "Proto-Abóboras",
+						"description": "Cheio de promessas"
 					},
 					"005": {
-						"name": "Golden Gourds",
+						"name": "Abóboras Douradas",
 						"description": "Colheita agora!"
 					},
 					"004": {
-						"name": "Green Gourds",
+						"name": "Abóboras Verdes",
 						"description": "Quase maduro!"
 					},
 					"001": {
-						"name": "Tiny Vine",
-						"description": "Clingy"
+						"name": "Videira Minúscula",
+						"description": "Pegajoso"
 					},
 					"000": {
-						"name": "Seedling!",
+						"name": "Plantinha!",
 						"description": "Apenas um pequeno toquinho"
 					},
 					"011": {
-						"name": "Rotten Gourds",
-						"description": "Sadly inedible"
+						"name": "Abóboras Estragadas",
+						"description": "Infelizmente não é comestível"
 					}
 				}
 			},
 			"cactus_flower_crop": {
 				"description": "As flores têm propriedades medicinais",
-				"display_name": "Cactus Flower",
+				"display_name": "Cacto (Flor)",
 				"growth_stage": {
 					"000": {
-						"name": "Cactus Bud",
+						"name": "Cacto (Broto)",
 						"description": "Começando a crescer"
 					},
 					"001": {
-						"name": "Young Cactus",
-						"description": "Starting to get prickly"
+						"name": "Cacto Jovem",
+						"description": "Começando a ficar espinhoso"
 					},
 					"002": {
-						"name": "Mature Cactus",
+						"name": "Cacto (Maduro)",
 						"description": "Wait for its flower to bloom"
 					},
 					"003": {
-						"name": "Flowering Cactus",
+						"name": "Cacto de Floração",
 						"description": "Pronto para a colheita"
 					}
 				}
 			},
 			"cactus_tree_crop": {
-				"display_name": "Cactus Sapling",
-				"description": "Out of cactus? Get ready to replant that beautiful desert-scape.",
+				"display_name": "Cactos (Mudas)",
+				"description": "Fora de cacto? Prepare-se para replantar aquela linda paisagem do deserto.",
 				"growth_stage": {
 					"001": {
-						"name": "Cactus Seedling",
+						"name": "Cacto (Muda)",
 						"description": "Está apenas começando."
 					},
 					"003": {
-						"name": "Cactus Sapling",
+						"name": "Cactos (Mudas)",
 						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
-						"name": "Pollinated Flower Pod",
-						"description": "Even a mighty cactus has humble beginnings."
+						"name": "Vagem de Flores Polinizadas",
+						"description": "Até um cacto poderoso tem origens humildes."
 					},
 					"002": {
-						"name": "Cactus Sprout",
-						"description": "Perfect size for a baby lizard."
+						"name": "Cacto (Broto)",
+						"description": "Tamanho perfeito para um bebê lagarto."
 					}
 				}
 			},
 			"juniper_tree_crop": {
-				"display_name": "Juniper Sapling",
-				"description": "Forest running thin? Plant some of these gorgeous Juniper trees.",
+				"display_name": "Rebento de Juniper",
+				"description": "A floresta está acabando? Plante algumas dessas lindas árvores de Junipero.",
 				"growth_stage": {
 					"001": {
-						"name": "Juniper Seedling",
+						"name": "Juniper (Muda)",
 						"description": "Está apenas começando."
 					},
 					"003": {
-						"name": "Juniper Sapling",
+						"name": "Rebento de Juniper",
 						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
-						"name": "Juniper Berry",
-						"description": "Even a mighty juniper has humble beginnings."
+						"name": "Bagas de Juniper",
+						"description": "Até um juniper poderoso tem origens humildes."
 					},
 					"002": {
-						"name": "Juniper Sprout",
-						"description": "Perfect size for a rabbit to hide in."
+						"name": "Juniper (Broto)",
+						"description": "Tamanho perfeito para um coelho se esconder."
 					}
 				}
 			},
 			"pine_tree_crop": {
-				"display_name": "Pine Sapling",
+				"display_name": "Pinheiro (Muda)",
 				"description": "Sem árvores? Prepare-se para participar do reflorestamento.",
 				"growth_stage": {
 					"001": {
-						"name": "Pine Seedling",
+						"name": "Pinheiro (Muda)",
 						"description": "Um estágio delicado de crescimento."
 					},
 					"003": {
-						"name": "Pine Sapling",
+						"name": "Pinheiro (Muda)",
 						"description": "Pronto para ser transferido para um lote maior."
 					},
 					"000": {
-						"name": "Pine Berry",
-						"description": "A new pine tree taking root."
+						"name": "Bagas de Pinheiro",
+						"description": "Um novo pinheiro criando raízes."
 					},
 					"002": {
-						"name": "Pine Sprout",
+						"name": "Pinheiro (Broto)",
 						"description": "Um pinheiro minúsculo perfeito. Ainda crescendo!"
 					}
 				}
 			},
 			"sweet_potato_crop": {
-				"display_name": "Sweet Potato",
-				"description": "Sweet but not very tasty when raw",
+				"display_name": "Batata Doce",
+				"description": "Doce, mas não muito saboroso quando cru",
 				"growth_stage": {
 					"003": {
-						"name": "Ripe Sweet Potato",
+						"name": "Batata Doce (Maduro)",
 						"description": "Pronto para pegar!"
 					},
 					"002": {
-						"name": "Baby Sweet Potato"
+						"name": "Batata-doce para bebê"
 					},
 					"011": {
-						"name": "Rotten Sweet Potato",
+						"name": "Batata Doce (Estragada)",
 						"description": "Mofado e não comestível"
 					},
 					"000": {
-						"description": "Someday will grow into a tasty purple veggie."
+						"description": "Algum dia vai se transformar em um saboroso vegetariano roxo."
 					}
 				}
 			},
 			"heirbloom_crop": {
 				"display_name": "Heirbloom",
-				"description": "The woody stems are apparently an Amberstone delicacy?",
+				"description": "As hastes lenhosas são aparentemente uma iguaria de Amberstone?",
 				"growth_stage": {
 					"001": {
-						"name": "Flowering Heirbloom Stalk",
-						"description": "Fruit follows the flowers"
+						"name": "Caule da Heirbloom da Floração",
+						"description": "A fruta segue as flores"
 					},
 					"003": {
-						"name": "Ripe Heirbloom",
-						"description": "Ruby red!"
+						"name": "Heirbloom (Maduro)",
+						"description": "Vermelho rubi!"
 					},
 					"000": {
-						"name": "Heirbloom Shoot",
-						"description": "A hardy sprout"
+						"name": "Heirloom (Broto)",
+						"description": "Um broto resistente"
 					},
 					"002": {
-						"name": "Unripe Heirbloom",
-						"description": "Wee, green"
+						"name": "Heirbloom Verde",
+						"description": "Pequenino, verde"
 					},
 					"011": {
-						"name": "Rotten Heirbloom",
-						"description": "Inedible - the stalk might still be good, though!"
+						"name": "Heirbloom (Estragada)",
+						"description": "Não comestível - mais o caule ainda pode ser bom!"
 					}
 				}
 			}
@@ -11521,20 +11521,20 @@
 		"decoration": {
 			"banner_wall_big": {
 				"banner_wall_big_ghost": {
-					"display_name": "Big Wall Banner",
-					"description": "Show your town pride with this banner."
+					"display_name": "Bandeira de Parede Grande",
+					"description": "Mostre o orgulho da sua cidade com esta bandeira."
 				}
 			},
 			"banner_wall_small": {
 				"banner_wall_small_ghost": {
-					"display_name": "Small Wall Banner",
-					"description": "Show your town pride with this banner."
+					"display_name": "Pequena Bandeira de Parede",
+					"description": "Mostre o orgulho da sua cidade com esta bandeira."
 				}
 			},
 			"bird_bath": {
 				"bird_bath_ghost": {
-					"display_name": "Bird Bath",
-					"description": "Tranquil."
+					"display_name": "Banho de Pássaro",
+					"description": "Tranquilo."
 				}
 			},
 			"crate": {
@@ -11542,8 +11542,8 @@
 			},
 			"curtains": {
 				"curtains_ghost": {
-					"display_name": "Curtains",
-					"description": "Dresses up a window."
+					"display_name": "Cortinas",
+					"description": "Veste uma janela."
 				}
 			},
 			"firepit": {
@@ -11554,480 +11554,480 @@
 			},
 			"firepit_hearth": {
 				"firepit_hearth_ghost": {
-					"display_name": "Hearth",
-					"description": "Provides warmth, light, and comfort"
+					"display_name": "Lareira",
+					"description": "Fornece calor, luz e conforto"
 				}
 			},
 			"firepit_skulls": {
 				"firepit_skulls_ghost": {
-					"display_name": "Wicked Firepit",
-					"description": "Are those....ew."
+					"display_name": "Fogueira Malvada",
+					"description": "São aqueles... ew."
 				}
 			},
 			"fur_rug": {
 				"fur_rug_ghost": {
-					"display_name": "Fur Rug",
-					"description": "Made from animal pelts."
+					"display_name": "Tapete de Pele",
+					"description": "Feito de peles de animais."
 				}
 			},
 			"gargoyle": {
 				"gargoyle_ghost": {
-					"display_name": "Wall Gargoyle",
-					"description": "Gothic-style carving to decorate your walls."
+					"display_name": "Gárgula da Parede",
+					"description": "Escultura em estilo gótico para decorar suas paredes."
 				}
 			},
 			"gilded_crimson_rug": {
 				"gilded_crimson_rug_ghost": {
-					"display_name": "Gilded Crimson Rug",
-					"description": "So regal"
+					"display_name": "Tapete Carmesim Dourado",
+					"description": "Tão real"
 				}
 			},
 			"loot_chest": {
-				"display_name": "A big chest",
-				"description": "It holds loot!"
+				"display_name": "Um Baú Grande",
+				"description": "Ele contém pilhagem!"
 			},
 			"stone_brazier": {
 				"stone_brazier_ghost": {
-					"display_name": "Stone Brazier",
-					"description": "Provides warm and cozy fire at night"
+					"display_name": "Braseiro de Pedra",
+					"description": "Fornece fogo quente e aconchegante à noite"
 				}
 			},
 			"stone_floor_candle_holder": {
 				"stone_floor_candle_holder_ghost": {
-					"display_name": "Stone Floor Candle Holder",
-					"description": "Let there be light!"
+					"display_name": "Suporte de Vela de Chão de Pedra",
+					"description": "Que haja luz!"
 				}
 			},
 			"stone_garden_lantern": {
 				"stone_garden_lantern_ghost": {
-					"display_name": "Stone Garden Lantern",
-					"description": "An ancient-looking lantern with great ambiance."
+					"display_name": "Lanterna de Jardim de Pedra",
+					"description": "Uma lanterna de aparência antiga com excelente ambiente."
 				}
 			},
 			"stone_wall_lantern": {
 				"stone_wall_lantern_ghost": {
-					"display_name": "Stone Wall Lantern",
-					"description": "Easily attached to walls"
+					"display_name": "Lanterna de Parede de Pedra",
+					"description": "Fixado facilmente nas paredes"
 				}
 			},
 			"tapestry_wall": {
 				"tapestry_wall_ghost": {
-					"display_name": "Wall-Mounted Tapestry",
-					"description": "A decorative scene, woven in colored thread and cord."
+					"display_name": "Tapeçaria de Parede",
+					"description": "Uma cena decorativa, tecida em fios e cordões coloridos."
 				}
 			},
 			"throw_rug": {
 				"throw_rug_ghost": {
-					"display_name": "Decorative Throw Rug",
-					"description": "Brightens up that old dusty floor."
+					"display_name": "Tapete Decorativo Decorativo",
+					"description": "Ilumina aquele velho piso empoeirado."
 				}
 			},
 			"tower_brazier": {
 				"tower_brazier_ghost": {
-					"display_name": "Tower Brazier",
-					"description": "Provides warm and cozy fire at night"
+					"display_name": "Braseiro de Torre",
+					"description": "Fornece fogo quente e aconchegante à noite"
 				}
 			},
 			"wall_crest": {
 				"wall_crest_ghost": {
-					"display_name": "Wall Crest",
-					"description": "Just for show."
+					"display_name": "Crista da Parede",
+					"description": "Apenas para mostrar."
 				}
 			},
 			"window_box_brightbell": {
 				"window_box_brightbell_ghost": {
-					"display_name": "Brightbell planter",
-					"description": "A tidy home for the plant."
+					"display_name": "Plantador Brightbell",
+					"description": "Uma casa arrumada para a planta."
 				}
 			},
 			"window_box_frostsnap": {
 				"window_box_frostsnap_ghost": {
-					"display_name": "Frostsnap planter",
-					"description": "A tidy home for the plant."
+					"display_name": "Plantador de Frostsnap",
+					"description": "Uma casa arrumada para a planta."
 				}
 			},
 			"amberstone_lantern": {
 				"amberstone_lantern_ghost": {
-					"display_name": "Stone-cut Lantern",
-					"description": "A warm little light"
+					"display_name": "Lanterna Cortada em Pedra",
+					"description": "Uma pequena luz quente"
 				}
 			},
 			"wooden_garden_lantern": {
 				"wooden_garden_lantern_ghost": {
-					"display_name": "Wooden Garden Lantern",
-					"description": "A compact source of light"
+					"display_name": "Lanterna de Jardim de Madeira",
+					"description": "Uma fonte compacta de luz"
 				}
 			},
 			"wooden_garden_lantern_fine": {
 				"wooden_garden_lantern_fine_ghost": {
-					"display_name": "Fine Garden Lantern",
-					"description": "A compact source of light, with a little bit of flair."
+					"display_name": "Lanterna de Jardim Fino",
+					"description": "Uma fonte compacta de luz, com um pouco de talento."
 				},
 				"wooden_garden_lantern_red_ghost": {
-					"display_name": "wooden garden lantern red"
+					"display_name": "Lanterna de Jardim em Madeira Vermelha"
 				}
 			},
 			"wooden_sign": {
 				"wooden_sign_ghost": {
-					"display_name": "Wooden Wall Sign",
-					"description": "An expression of future intent."
+					"display_name": "Placa de Madeira da Parede",
+					"description": "Uma expressão de intenção futura."
 				}
 			},
 			"wooden_sign_blacksmith": {
 				"wooden_sign_blacksmith_ghost": {
-					"display_name": "Blacksmith's Sign",
-					"description": "A sign with the mark of the blacksmith."
+					"display_name": "Placa do Ferreiro",
+					"description": "Uma placa com a marca do Ferreiro."
 				}
 			},
 			"wooden_sign_carpenter": {
 				"wooden_sign_carpenter_ghost": {
-					"display_name": "Carpenter's Sign",
-					"description": "A sign with the mark of the Carpenter."
+					"display_name": "Placa do Carpinteiro",
+					"description": "Uma placa com a marca do Carpinteiro."
 				}
 			},
 			"wooden_sign_mason": {
 				"wooden_sign_mason_ghost": {
-					"display_name": "Mason's Sign",
-					"description": "A sign with the mark of the Mason."
+					"display_name": "Placa de Pedreiro",
+					"description": "Uma placa com a marca do Pedreiro."
 				}
 			},
 			"wooden_sign_weaver": {
 				"wooden_sign_weaver_ghost": {
-					"display_name": "Weaver's Sign",
-					"description": "A sign with the mark of the Weaver."
+					"display_name": "Placa do Tecelão",
+					"description": "Uma placa com a marca do Tecelão."
 				}
 			},
 			"wooden_wall_lantern": {
 				"wooden_wall_lantern_ghost": {
-					"display_name": "Wooden Wall Lantern",
-					"description": "Easily attached to walls"
+					"display_name": "Lanterna de Parede de Madeira",
+					"description": "Fixado facilmente nas paredes"
 				}
 			},
 			"wooden_wall_lantern_fine": {
 				"wooden_wall_lantern_fine_ghost": {
-					"display_name": "Fine Wall Lantern",
-					"description": "Easily attached to walls"
+					"display_name": "Lanterna de Parede Fina",
+					"description": "Fixado facilmente nas paredes"
 				}
 			},
 			"clay_lamp": {
 				"clay_lamp_ghost": {
-					"display_name": "Clay Oil Lamp",
-					"description": "Its flame brings a warm glow at night."
+					"display_name": "Lâmpada a Óleo de Argila",
+					"description": "Sua chama traz um brilho quente à noite."
 				}
 			},
 			"clay_wall_lamp": {
 				"clay_wall_lamp_ghost": {
-					"display_name": "Wall Clay Lamp",
-					"description": "Provides a warm glow at night."
+					"display_name": "Lâmpada de Parede de Argila",
+					"description": "Fornece um brilho quente à noite."
 				}
 			},
 			"garden_gnome": {
 				"garden_gnome_ghost": {
-					"display_name": "Garden Gnome",
-					"description": "Plant Guardians"
+					"display_name": "Gnomo de Jardim",
+					"description": "Guardiões das Plantas"
 				}
 			},
 			"amberstone_teapot": {
 				"amberstone_teapot_ghost": {
-					"display_name": "Stone-cut Teapot",
-					"description": "A rabbit's cherished teapot"
+					"display_name": "Bule de Corte de Pedra",
+					"description": "O bule de chá de um coelho"
 				}
 			},
 			"decorative_teapot": {
 				"decorative_teapot_ghost": {
-					"display_name": "Decorative Teapot",
-					"description": "A reminder of humble beginnings"
+					"display_name": "Bule Decorativo",
+					"description": "Um lembrete de começos humildes"
 				}
 			},
 			"decorative_tray": {
 				"decorative_tray_ghost": {
-					"display_name": "Decorative Tray",
-					"description": "Adds flash and hospitality"
+					"display_name": "Bandeja Decorativa",
+					"description": "Adiciona flash e hospitalidade"
 				}
 			},
 			"potted_cactus": {
 				"potted_cactus_ghost": {
-					"display_name": "Potted Cactus",
-					"description": "Careful, it's still prickly."
+					"display_name": "Vaso de Cacto",
+					"description": "Cuidado, ainda é espinhoso."
 				}
 			},
 			"blown_glass_vase": {
 				"blown_glass_vase_ghost": {
-					"display_name": "Blown Glass Vase",
-					"description": "Miraculous"
+					"display_name": "Vaso de Vidro Soprado",
+					"description": "Milagroso"
 				}
 			},
 			"decorative_vase": {
 				"decorative_vase_ghost": {
-					"display_name": "Decorative Vase",
-					"description": "The metals of the earth reborn"
+					"display_name": "Vaso Decorativo",
+					"description": "Os metais da terra renascem"
 				}
 			},
 			"sundial": {
 				"sundial_ghost": {
-					"display_name": "Sundial",
-					"description": "Decorates gardens, marks time"
+					"display_name": "Relógio de Sol",
+					"description": "Jardins decorados, marca o tempo"
 				}
 			},
 			"amberstone_mat": {
 				"amberstone_mat_ghost": {
-					"display_name": "Tapete de tecido",
+					"display_name": "Tapete de Tecido",
 					"description": "Tecida com a habilidade dos coelhos"
 				}
 			},
 			"amberstone_painting_branch": {
 				"amberstone_painting_branch_ghost": {
-					"display_name": "Flowering Painting",
-					"description": "Depicts a tree from cycles past"
+					"display_name": "Pintura Com Flores",
+					"description": "Retrata uma árvore de ciclos passados"
 				}
 			},
 			"tile_floor_mosaic": {
 				"tile_floor_mosaic_ghost": {
-					"display_name": "Tile Floor Mosaic",
-					"description": "Cool on the bare feet"
+					"display_name": "Mosaico de Piso de Ladrilho",
+					"description": "Legal com os pés descalços"
 				}
 			},
 			"tile_wall_mosaic": {
 				"tile_wall_mosaic_ghost": {
-					"display_name": "Tile Wall Mosaic",
-					"description": "Soothing decorative patterns"
+					"display_name": "Mosaico de Parede de Azulejos",
+					"description": "Padrões decorativos suaves"
 				}
 			},
 			"golden_clay_wall_planter": {
 				"golden_clay_wall_planter_ghost": {
-					"display_name": "Golden Clay Planter",
-					"description": "Livens up walls"
+					"display_name": "Plantador de Argila Dourada",
+					"description": "Anima paredes"
 				}
 			},
 			"unfired_clay_vase": {
 				"unfired_clay_vase_ghost": {
-					"display_name": "Unfired Clay Vase",
-					"description": "A very simple vase"
+					"display_name": "Vaso de Argila Não Queimado",
+					"description": "Um vaso muito simples"
 				}
 			},
 			"wooden_sign_herbalist": {
 				"wooden_sign_herbalist_ghost": {
-					"display_name": "Herbalist's sign",
-					"description": "A sign with the mark of the Herbalist"
+					"display_name": "Placa de Herbolista",
+					"description": "Um placa com a marca do Herbolista"
 				}
 			},
 			"wooden_sign_inn": {
 				"wooden_sign_inn_ghost": {
-					"display_name": "Inn Sign",
-					"description": "A sign marking a place for rest and revelry."
+					"display_name": "Placa da Pousada",
+					"description": "Uma placa marcando um lugar para descanso e folia."
 				}
 			},
 			"wooden_sign_potter": {
 				"wooden_sign_potter_ghost": {
-					"display_name": "Potter's Sign",
-					"description": "A sign with the mark of the Potter"
+					"display_name": "Placa do Oleiro",
+					"description": "Uma placa com a marca do Oleiro"
 				}
 			},
 			"wooden_sign_cook": {
 				"wooden_sign_cook_ghost": {
-					"display_name": "Cook's Sign",
-					"description": "A sign with the mark of the cook"
+					"display_name": "Placa do Cozinheiro",
+					"description": "Uma placa com a marca do cozinheiro"
 				}
 			},
 			"clay_market_stall": {
 				"clay_market_stall_ghost": {
-					"display_name": "Clay Market Stall",
-					"description": "Merchants can set up shop here"
+					"display_name": "Barraca do Mercado de Argila",
+					"description": "Os comerciantes podem fazer compras aqui"
 				}
 			},
 			"decorative_elite_gong": {
 				"decorative_elite_gong_ghost": {
-					"display_name": "Elite Gong",
-					"description": "Inspired by the Elite Kobold Menace"
+					"display_name": "Gongo de Elite",
+					"description": "Inspirado pela Ameaça da Elite Kobold"
 				}
 			},
 			"decorative_generals_gong": {
 				"decorative_generals_gong_ghost": {
-					"display_name": "General's Golden Gong",
-					"description": "Inspired by the Kobold Archer General"
+					"display_name": "Gongo de Ouro do General",
+					"description": "Inspirado pelo Arqueiro Geral Kobold"
 				}
 			},
 			"decorative_master_gong": {
 				"decorative_master_gong_ghost": {
-					"display_name": "Master's Gong",
-					"description": "Inspired by the Kobold Master Archer"
+					"display_name": "Gongo do Mestre",
+					"description": "Inspirado pelo Mestre Arqueiro de Kobold"
 				}
 			},
 			"decorative_scout_gong": {
 				"decorative_scout_gong_ghost": {
-					"display_name": "Scout's Gong",
+					"display_name": "Gongo Escoteiro",
 					"description": "Inspired by the Kobold Scout"
 				}
 			},
 			"valor_statue": {
 				"valor_statue_ghost": {
-					"display_name": "The Valor of Cid",
-					"description": "A monument to your town's military might"
+					"display_name": "A Bravura de Cid",
+					"description": "Um monumento ao poder militar da sua cidade"
 				},
 				"brazier_large_ghost": {
-					"display_name": "Large Brazier",
-					"description": "A beacon of light to protect your town."
+					"display_name": "Braseiro Grande",
+					"description": "Um farol de luz para proteger sua cidade."
 				},
 				"window_frame_xlarge": {
 					"window_frame_xlarge_ghost": {
-						"display_name": "Extra Large Stone Window Frame",
-						"description": "For those who enjoy wide expansive views."
+						"display_name": "Moldura Para Janela de Pedra Extra Grande",
+						"description": "Para quem gosta de vistas amplas e amplas."
 					}
 				},
 				"torch": {
 					"torch_ghost": {
-						"display_name": "Wooden Torch",
-						"description": "Its flame brings a warm feeling of pride in all we have accomplished."
+						"display_name": "Tocha de Madeira",
+						"description": "Sua chama traz uma sensação calorosa de orgulho por tudo o que conquistamos."
 					}
 				},
 				"portcullis_valor": {
 					"portcullis_valor_ghost": {
-						"display_name": "Portcullis do castelo",
+						"display_name": "Portcullis do Castelo",
 						"description": "Para aqueles momentos em que você realmente quer manter os vizinhos de fora."
 					}
 				},
 				"window_arrow_tall": {
 					"window_arrow_tall_ghost": {
-						"display_name": "Tall Stone Arrow Slit",
-						"description": "For those who enjoy small compressed views."
+						"display_name": "Fenda de Flecha de Pedra Alta",
+						"description": "Para quem gosta de pequenas vistas compactadas."
 					}
 				},
 				"window_arrow_short": {
 					"window_arrow_short_ghost": {
-						"display_name": "Short Stone Arrow Slit",
-						"description": "For those who enjoy small compressed views."
+						"display_name": "Fenda de Flecha de Pedra Curta",
+						"description": "Para quem gosta de pequenas vistas compactadas."
 					}
 				},
 				"statue_knight": {
 					"statue_knight_ghost": {
-						"display_name": "Knight Statue",
-						"description": "Noble knight of stone"
+						"display_name": "Estátua do Cavaleiro",
+						"description": "Nobre cavaleiro de pedra"
 					}
 				},
 				"statue_knight_male": {
 					"statue_knight_male_ghost": {
-						"display_name": "Knight Statue",
-						"description": "Noble knight of stone"
+						"display_name": "Estátua do Cavaleiro",
+						"description": "Nobre cavaleiro de pedra"
 					}
 				},
 				"window_frame_barred": {
 					"window_frame_barred_ghost": {
-						"display_name": "Barred Stone Window Frame",
-						"description": "For those who enjoy safe viewing from behind bars."
+						"display_name": "Moldura de Janela de Pedra Barrada",
+						"description": "Para quem gosta de ver com segurança por trás das grades."
 					}
 				},
 				"stone_torch": {
 					"stone_torch_ghost": {
-						"display_name": "Stone Torch",
-						"description": "A wall-mounted torch with slowly burning oil."
+						"display_name": "Tocha de Pedra",
+						"description": "Uma tocha de parede com óleo que queima lentamente."
 					}
 				}
 			},
 			"roadside_shrine": {
 				"roadside_shrine_ghost": {
-					"display_name": "Fountain of Plenty",
-					"description": "Place to show generosity and faith"
+					"display_name": "Fonte da Abundância",
+					"description": "Lugar para mostrar generosidade e fé"
 				},
 				"fountain_wishing": {
 					"fountain_wishing_ghost": {
-						"display_name": "Lucky Fountain",
-						"description": "Exchanges gold for wishes"
+						"display_name": "Fonte da Sorte",
+						"description": "Troca de ouro por desejos"
 					}
 				},
 				"lamppost_upscale": {
 					"lamppost_upscale_ghost": {
-						"display_name": "Iron Lamp Post",
-						"description": "Lovely lighting for any pathway or promenade"
+						"display_name": "Poste de Luz de Ferro",
+						"description": "Adorável iluminação para qualquer caminho ou passeio"
 					}
 				},
 				"lamppost_upscale_double": {
 					"lamppost_upscale_double_ghost": {
-						"display_name": "Twin Iron Lamp Post",
-						"description": "Lovely lighting for any pathway or promenade"
+						"display_name": "Poste de Ferro Duplo",
+						"description": "Adorável iluminação para qualquer caminho ou passeio"
 					}
 				},
 				"lantern_poyo": {
 					"lantern_poyo_ghost": {
-						"display_name": "Poyo Lantern",
-						"description": "Happy bronze lightbirb"
+						"display_name": "Lanterna Poyo",
+						"description": "Orbe de luz de bronze feliz"
 					}
 				},
 				"pot_goldrose": {
 					"pot_goldrose_ghost": {
-						"display_name": "Goldrose Bush",
-						"description": "Hearty yellow blossoms"
+						"display_name": "Arbusto de Goldrose",
+						"description": "Flores amarelas saudáveis"
 					}
 				},
 				"pot_moondrop": {
 					"pot_moondrop_ghost": {
-						"display_name": "Moondrop Bush",
-						"description": "Silvery and serene"
+						"display_name": "Arbusto de Moondrop",
+						"description": "Prateado e sereno"
 					}
 				},
 				"pot_redbloom": {
 					"pot_redbloom_ghost": {
-						"display_name": "Redbloom Bush",
-						"description": "A rosy shrub"
+						"display_name": "Arbusto de Redbloom",
+						"description": "Um arbusto rosado"
 					}
 				},
 				"tree_goldrose": {
 					"tree_goldrose_ghost": {
-						"display_name": "Goldrose Tree",
-						"description": "Aglow with golden blossoms"
+						"display_name": "Árvore de Goldrose",
+						"description": "Brilha com flores douradas"
 					}
 				},
 				"tree_moondrop": {
 					"tree_moondrop_ghost": {
-						"display_name": "Moondrop Tree",
-						"description": "Dazzling in the moment"
+						"display_name": "Árvore do Moondrop",
+						"description": "Deslumbrante no momento"
 					}
 				},
 				"tree_redbloom": {
 					"tree_redbloom_ghost": {
-						"display_name": "Redbloom Tree",
-						"description": "Meticulously tended, and covered in blooms"
+						"display_name": "Árvore Redbloom",
+						"description": "Meticulosamente tendido e coberto de flores"
 					}
 				},
 				"weathervane_poyo": {
 					"weathervane_poyo_ghost": {
 						"display_name": "Twirlybird",
-						"description": "A weathervane resembling a poyo"
+						"description": "Um cata-vento parecido com um poyo"
 					}
 				}
 			},
 			"craftsman_statue": {
 				"craftsman_statue_ghost": {
-					"display_name": "The Guildmaster's Skill",
-					"description": "Place to show skill at crafting"
+					"display_name": "A Habilidade do Mestre da Guilda",
+					"description": "Lugar para mostrar habilidade na criação"
 				},
 				"candle_iron": {
 					"candle_iron_ghost": {
-						"display_name": "Iron Candle Holder",
-						"description": "let there be light!"
+						"display_name": "Castiçal de Ferro",
+						"description": "Que haja luz!"
 					}
 				},
 				"candle_iron_double": {
 					"candle_iron_double_ghost": {
-						"display_name": "Iron Candelabra",
-						"description": "Let there be even more light!"
+						"display_name": "Candelabros de Ferro",
+						"description": "Que haja ainda mais luz!"
 					}
 				},
 				"door_blacksmith": {
 					"door_blacksmith_ghost": {
-						"display_name": "Blacksmith's door",
-						"description": "Fit for a master blacksmith's workshop"
+						"display_name": "Porta do Ferreiro",
+						"description": "Apto para uma oficina de ferreiro mestre"
 					}
 				},
 				"door_carpenter": {
 					"door_carpenter_ghost": {
-						"display_name": "Carpenter's door",
-						"description": "Fit for a master carpenter's woodshop"
+						"display_name": "Porta do Carpinteiro",
+						"description": "Apto para um carpinteiro mestre de carpintaria"
 					}
 				},
 				"door_mason": {
 					"door_mason_ghost": {
-						"display_name": "Mason's door",
-						"description": "Fit for a master mason's workshop"
+						"display_name": "Porta do Pedreiro",
+						"description": "Apto para a oficina de um mestre pedreiro"
 					}
 				},
 				"fence_brightbell": {
@@ -12092,20 +12092,20 @@
 				},
 				"sign_blacksmith": {
 					"sign_blacksmith_ghost": {
-						"display_name": "Blacksmith's shop sign",
-						"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop"
+						"display_name": "Placa de Loja de Ferreiro",
+						"description": "Uma placa de ferro forjado, para ser exibida fora da oficina de um ferreiro"
 					}
 				},
 				"sign_carpenter": {
 					"sign_carpenter_ghost": {
-						"display_name": "Carpenter's shop sign",
-						"description": "An expertly carved sign, to be displayed outside a carpenter's workshop"
+						"display_name": "Placa da Loja de Carpinteiro",
+						"description": "Uma placa habilmente esculpido, para ser exibido fora da oficina de um carpinteiro"
 					}
 				},
 				"sign_mason": {
 					"sign_mason_ghost": {
-						"display_name": "Mason's shop sign",
-						"description": "A sturdy stone sign, to be displayed outside a mason's workshop"
+						"display_name": "Palca da Loja de Pedreiro",
+						"description": "Uma placa de pedra resistente, para ser exibida fora da oficina de um pedreiro"
 					}
 				},
 				"statue_rabbit": {
@@ -12153,20 +12153,20 @@
 			},
 			"wooden_sign_engineer": {
 				"wooden_sign_engineer_ghost": {
-					"display_name": "Engineer's Sign",
-					"description": "A sign with the mark of the Engineer."
+					"display_name": "Placa do Engenheiro",
+					"description": "Uma placa com a marca do engenheiro."
 				}
 			},
 			"wooden_garden_lantern_red": {
 				"wooden_garden_lantern_red_ghost": {
 					"display_name": "Wooden Garden Lantern - in Red",
-					"description": "A compact source of light"
+					"description": "Uma fonte compacta de luz"
 				}
 			},
 			"wooden_wall_lantern_red": {
 				"wooden_wall_lantern_fine_ghost": {
 					"display_name": "Wooden Wall Lantern - in Red",
-					"description": "Easily attached to walls"
+					"description": "Fixado facilmente nas paredes"
 				}
 			},
 			"window_box_brightbell_fine": {
@@ -12189,26 +12189,26 @@
 			},
 			"ornate_wooden_garden_lantern": {
 				"ornate_wooden_garden_lantern_ghost": {
-					"description": "A compact source of light, with a little bit of flair.",
+					"description": "Uma fonte compacta de luz, com um pouco de talento.",
 					"display_name": "Ornate Wooden Garden Lantern"
 				}
 			},
 			"ornate_wooden_wall_lantern": {
 				"ornate_wooden_wall_lantern_ghost": {
-					"description": "Easily attached to walls",
+					"description": "Fixado facilmente nas paredes",
 					"display_name": "Ornate Wooden Wall Lantern"
 				}
 			},
 			"wet_stone": {
 				"wet_stone_ghost": {
-					"display_name": "Wet Stone",
-					"description": "This stone has been blessed by the tears of Rayya!"
+					"display_name": "Pedra Molhada",
+					"description": "Esta pedra foi abençoada pelas lágrimas de Rayya!"
 				}
 			},
 			"dry_stone": {
 				"dry_stone_ghost": {
-					"description": "This stone has been blessed by the heat of Pal'Mum!",
-					"display_name": "Dry Stone"
+					"description": "Esta pedra foi abençoada pelo calor de Pal'Mum!",
+					"display_name": "Pedra Seca"
 				}
 			},
 			"hearth_bunny": {
@@ -12236,8 +12236,8 @@
 				}
 			},
 			"chest_cheat": {
-				"display_name": "Cheat Chest - Debug Item",
-				"description": "This is a debug item with default cheating items."
+				"display_name": "Baú da Fraude - Item de Depuração",
+				"description": "Este é um item de depuração com itens de trapaça padrão."
 			},
 			"dirt_stone": {
 				"dirt_stone_ghost": {
@@ -12247,18 +12247,18 @@
 				"chimney_rock": {
 					"chimney_rock_ghost": {
 						"display_name": "Chimney Rock Stone",
-						"description": "This stone encases a magic tower of stone ready to burst out!"
+						"description": "Esta pedra envolve uma torre mágica de pedra pronta para explodir!"
 					}
 				},
 				"marking_stones": {
 					"marking_stones_ghost": {
 						"display_name": "Marking Stones",
-						"description": "This stone encases a series of ancient stones ready to burst out!"
+						"description": "Esta pedra envolve uma série de pedras antigas prontas para explodir!"
 					}
 				},
 				"rabbit": {
 					"rabbit_ghost": {
-						"display_name": "Pedra do coelho",
+						"display_name": "Pedra do Coelho",
 						"description": "Esta pedra encerra uma fofura antiga pronta para explodir!"
 					}
 				}
@@ -12337,8 +12337,8 @@
 			},
 			"stone_torch": {
 				"stone_torch_ghost": {
-					"display_name": "Stone Torch",
-					"description": "A wall-mounted torch with slowly burning oil."
+					"display_name": "Tocha de Pedra",
+					"description": "Uma tocha de parede com óleo que queima lentamente."
 				}
 			},
 			"stone_candle_holder": {
@@ -12363,12 +12363,12 @@
 		"food": {
 			"berries": {
 				"berry_basket": {
-					"display_name": "Basket of Berries",
-					"description": "Creme of the caveman diet."
+					"display_name": "Cesta de Frutas",
+					"description": "Creme da dieta do homem das cavernas."
 				},
 				"berry_serving": {
-					"display_name": "Plate of Berries",
-					"description": "Todo: Invent whipped cream."
+					"display_name": "Prato de Frutas",
+					"description": "Todo: creme chantilly inventado."
 				}
 			},
 			"corn": {
@@ -12385,30 +12385,30 @@
 					"description": "Doce e crocante."
 				},
 				"corn_serving": {
-					"display_name": "Espiga de milho",
+					"display_name": "Espiga de Milho",
 					"description": "Crocante"
 				}
 			},
 			"flour": {
-				"display_name": "Sack of Flour",
-				"description": "Perfect for making bread"
+				"display_name": "Saco de Farinha",
+				"description": "Perfeito para fazer pão"
 			},
 			"meat_stew": {
 				"meat_stew": {
-					"display_name": "Savory Meat Stew",
-					"description": "Warm and delicious"
+					"display_name": "Ensopado de Carne Salgado",
+					"description": "Quente e delicioso"
 				},
 				"meat_stew_serving": {
-					"display_name": "Bowl of Savory Meat Stew"
+					"display_name": "Tigela de Ensopado de Carne Salgado"
 				}
 			},
 			"peasant_bread": {
 				"peasant_bread": {
-					"display_name": "Peasant Bread",
-					"description": "A crusty, basic bread."
+					"display_name": "Pão Camponês",
+					"description": "Um pão duro e básico."
 				},
 				"peasant_bread_serving": {
-					"display_name": "Slice of Peasant Bread"
+					"display_name": "Fatia de Pão de Camponês"
 				}
 			},
 			"pumpkin": {
@@ -12417,7 +12417,7 @@
 					"description": "Pronto para comer"
 				},
 				"pumpkin_serving": {
-					"display_name": "Pumpkin Mush",
+					"display_name": "Cogumelo de Abóbora",
 					"description": "Delicioso. Mesmo..."
 				}
 			},
@@ -12427,29 +12427,29 @@
 					"description": "Pronto para comer"
 				},
 				"watermelon_serving": {
-					"display_name": "Watermelon Slice",
-					"description": "Plus you can spit out the seeds!"
+					"display_name": "Fatia de Melancia",
+					"description": "Além disso, você pode cuspir as sementes!"
 				}
 			},
 			"sheep_jerky": {
-				"display_name": "Rack of Mutton"
+				"display_name": "Prateleira de Carne de Carneiro"
 			},
 			"unknown_food": {
-				"display_name": "Edible Matter"
+				"display_name": "Matéria Comestível"
 			},
 			"veggie_stew": {
 				"veggie_stew": {
-					"display_name": "Vegetable Stew",
-					"description": "Warm and delicious"
+					"display_name": "Ensopado de Legumes",
+					"description": "Quente e delicioso"
 				},
 				"veggie_stew_serving": {
-					"display_name": "Tigela de guisado vegetariano",
+					"display_name": "Tigela de Guisado Vegetariano",
 					"description": "Deliciosa!"
 				}
 			},
 			"wheat_bale": {
-				"display_name": "Bale of Wheat",
-				"description": "Ready for use"
+				"display_name": "Fardo de Trigo",
+				"description": "Pronto para uso"
 			},
 			"egg": {
 				"display_name": "Ovo",
@@ -12457,87 +12457,87 @@
 			},
 			"corn_bread": {
 				"corn_bread": {
-					"display_name": "Corn Bread",
-					"description": "Toasty and golden brown."
+					"display_name": "Pão de Milho",
+					"description": "Marrom tostado e dourado."
 				},
 				"corn_bread_serving": {
-					"display_name": "Piece of Corn Bread"
+					"display_name": "Pedaço de Pão de Milho"
 				}
 			},
 			"poyo_meat": {
 				"display_name": "Carne De Poyo",
 				"description": "Ouvi dizer que tem gosto de poyo.",
 				"rotten": {
-					"display_name": "Rotten Poyo Meat",
+					"display_name": "Carne Estragado de Poyo",
 					"description": "Isso fede"
 				}
 			},
 			"poyo_pot_pie": {
 				"poyo_pot_pie": {
-					"display_name": "Poyo Pot Pie",
-					"description": "Warm and delicious."
+					"display_name": "Torta de Poyo",
+					"description": "Quente e delicioso."
 				},
 				"poyo_pot_pie_serving": {
-					"display_name": "Slice of Poyo Pot Pie",
-					"description": "Mmm ... pie."
+					"display_name": "Fatia de Torta de Poyo",
+					"description": "Mmm ... torta."
 				}
 			},
 			"omelette": {
 				"omelette": {
-					"display_name": "Omelette",
-					"description": "Delicious egg wrapped meat and veggies"
+					"display_name": "Omelete",
+					"description": "Deliciosos ovos com carne e legumes"
 				},
 				"omelette_serving": {
-					"display_name": "Serving of Omelette",
-					"description": "But why would you share?"
+					"display_name": "Porção de Omelete",
+					"description": "Mas por que você compartilharia?"
 				}
 			},
 			"roast_poyo": {
 				"roast_poyo": {
-					"display_name": "Roast Poyo",
-					"description": "Nice and juicy."
+					"display_name": "Poyo Assado",
+					"description": "Bom e suculento."
 				},
 				"roast_poyo_serving": {
-					"display_name": "Serving of Roast Poyo"
+					"display_name": "Servindo de Poyo Assado"
 				}
 			},
 			"fried_eggs": {
 				"fried_eggs": {
-					"display_name": "Fried Egg",
-					"description": "Fried and delicious"
+					"display_name": "Ovo Frito",
+					"description": "Frito e delicioso"
 				},
 				"fried_eggs_serving": {
-					"display_name": "Serving of Fried Eggs"
+					"display_name": "Servindo de Ovos Fritos"
 				}
 			},
 			"sheep_feed": {
-				"display_name": "Sheep Feed",
-				"description": "Give to sheep for a supplement to grazing.",
+				"display_name": "Ração de Ovelhas",
+				"description": "Dê às ovelhas um suplemento para pastar.",
 				"sheep_feed_ground": {
-					"display_name": "Sheep Feed",
-					"description": "Food for sheep"
+					"display_name": "Ração de Ovelhas",
+					"description": "Comida para ovelhas"
 				}
 			},
 			"poyo_feed": {
 				"poyo_feed": {
-					"display_name": "Poyo Feed",
-					"description": "For feeding poyos."
+					"display_name": "Ração de Poyo",
+					"description": "Para alimentar poyos."
 				},
 				"poyo_feed_ground": {
-					"display_name": "Poyo Feed",
-					"description": "Poyos love to eat this stuff."
+					"display_name": "Ração de Poyo",
+					"description": "Poyos adoram comer essas coisas."
 				},
 				"feed_fodder_ground": {
-					"display_name": "Animal Fodder",
-					"description": "Animals don't enjoy it as much, but its more efficient."
+					"display_name": "Forragem Animal",
+					"description": "Os animais não gostam tanto, mas são mais eficientes."
 				}
 			},
 			"rabbit_feed": {
-				"display_name": "Rabbit Feed",
-				"description": "For rabbits",
+				"display_name": "Ração de Coelho",
+				"description": "Para coelhos",
 				"rabbit_feed_ground": {
-					"display_name": "Rabbit Feed",
-					"description": "Food for rabbits"
+					"display_name": "Ração de Coelho",
+					"description": "Comida para coelhos"
 				}
 			},
 			"prickly_pear": {
@@ -12639,12 +12639,12 @@
 			"kibble": {
 				"kibble": {
 					"display_name": "Kibble",
-					"description": "Attracts cats"
+					"description": "Atrai gatos"
 				}
 			},
 			"pork": {
-				"display_name": "Raw Pork",
-				"description": "Raw meat from a boar"
+				"display_name": "Carne de Porco Crua",
+				"description": "Carne crua de javali"
 			},
 			"rotten_bug_meat": {
 				"description": "Bug meat goes bad just like other meat",
@@ -12724,7 +12724,7 @@
 			},
 			"roast_sausage": {
 				"roast_sausage": {
-					"display_name": "Salsicha assada",
+					"display_name": "Salsicha Assada",
 					"description": "Assustadoramente assado à perfeição, pode ser feito de qualquer tipo de carne!"
 				},
 				"roast_sausage_serving": {
@@ -12800,7 +12800,7 @@
 			},
 			"cake": {
 				"cake": {
-					"display_name": "Bolo simples de baga",
+					"display_name": "Bolo Simples de Baga",
 					"description": "Doce e delicioso."
 				},
 				"cake_serving": {
@@ -12818,8 +12818,8 @@
 			},
 			"sweet_potato": {
 				"sweet_potato_serving": {
-					"display_name": "Sweet Potato",
-					"description": "Tiny. Sweet!"
+					"display_name": "Batata Doce",
+					"description": "Minúsculo. Doce!"
 				},
 				"sweet_potato_basket": {
 					"display_name": "Basket of Sweet Potatoes",
@@ -12837,12 +12837,12 @@
 			},
 			"heirbloom": {
 				"heirbloom_basket": {
-					"display_name": "Heirbloom Fruit",
-					"description": "Heirbloom Vegetable? It seems the stalks are an Amberstone delicacy."
+					"display_name": "Frutas da Heirbloom",
+					"description": "Vegetal da Heirbloom? Parece que os caules são uma iguaria de Amberstone."
 				},
 				"heirbloom_serving": {
-					"display_name": "Heirbloom Fruit",
-					"description": "Juicy! Those rabbits don't know what they're missing!"
+					"display_name": "Frutas da Heirbloom",
+					"description": "Suculento! Esses coelhos não sabem o que estão perdendo!"
 				}
 			},
 			"wolf_jerky": {
@@ -12850,7 +12850,7 @@
 			},
 			"fodder": {
 				"fodder": {
-					"display_name": "Animal Fodder",
+					"display_name": "Forragem Animal",
 					"description": "For feeding any vegetarian animals."
 				}
 			},
@@ -12903,7 +12903,7 @@
 		"furniture": {
 			"arch_backed_chair": {
 				"arch_backed_chair_ghost": {
-					"display_name": "Cadeira catedral em arco",
+					"display_name": "Cadeira Catedral em Arco",
 					"description": "Elegante como a piedade."
 				}
 			},
@@ -13030,29 +13030,29 @@
 			"table_for_one": {
 				"table_for_one_ghost": {
 					"display_name": "Table for One",
-					"description": "Dining furniture for introverts."
+					"description": "Mobília de jantar para introvertidos."
 				}
 			},
 			"table_for_one_fine": {
 				"table_for_one_fine_ghost": {
 					"display_name": "Fine Table for One",
-					"description": "Dining furniture for introverts."
+					"description": "Mobília de jantar para introvertidos."
 				}
 			},
 			"tombstone": {
 				"tombstone_ghost": {
 					"display_name": "R.I.P. [str(self.stonehearth:unit_info.custom_name)]",
-					"description": "[str(self.stonehearth:unit_info.custom_name)] will always be remembered."
+					"description": "[str(self.stonehearth:unit_info.custom_name)] será sempre lembrado."
 				},
 				"tombstone": {
-					"display_name": "Tombstone",
-					"description": "A memorial for the fallen"
+					"display_name": "Lápide",
+					"description": "Um memorial para os caídos"
 				}
 			},
 			"writing_desk": {
 				"writing_desk_ghost": {
-					"display_name": "Writing Desk",
-					"description": "A peaceful place to write letters to home."
+					"display_name": "Escrivaninha",
+					"description": "Um lugar tranquilo para escrever cartas para casa."
 				}
 			},
 			"writing_desk_fine": {
@@ -13127,7 +13127,7 @@
 			"ornate_table_for_one": {
 				"ornate_table_for_one_ghost": {
 					"display_name": "Ornate Table for One",
-					"description": "Dining furniture for introverts."
+					"description": "Mobília de jantar para introvertidos."
 				}
 			},
 			"ornate_comfy_bed": {
@@ -13187,7 +13187,7 @@
 		},
 		"generic": {
 			"default_object": {
-				"display_name": "Objeto padrão",
+				"display_name": "Objeto Padrão",
 				"description": "Misterioso"
 			}
 		},
@@ -13298,8 +13298,8 @@
 					"description": "Built with power enough to challenge titans"
 				},
 				"titan_slayer_monument": {
-					"display_name": "Testament to the Righted Wrong",
-					"description": "A memorial to an alliance between peoples against the darkness. Its crystal radiates warmth and well-being."
+					"display_name": "Testamento do Errado e Certo",
+					"description": "Um memorial de uma aliança entre os povos contra a escuridão. Seu cristal irradia calor e bem-estar."
 				}
 			},
 			"orc_titan_gong": {
@@ -13399,10 +13399,10 @@
 				},
 				"goblin": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "Attracted to shiny things"
+					"description": "Atraído por coisas brilhantes"
 				},
 				"goblin_barricade": {
-					"display_name": "A barricade"
+					"display_name": "Uma barricada"
 				},
 				"goblin_boss_banner": {
 					"goblin_boss_banner_ghost": {
@@ -13480,14 +13480,14 @@
 				},
 				"goblin_barricade_single": {
 					"goblin_barricade_single_ghost": {
-						"display_name": "A barricade"
+						"display_name": "Uma barricada"
 					}
 				}
 			},
 			"kobolds": {
 				"kobold": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "Devotee of the Diamond Star"
+					"description": "Devoto da Estrela Diamante"
 				},
 				"loot": {
 					"elite_bling_hat": {
@@ -13515,15 +13515,15 @@
 			"undead": {
 				"skeleton": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "It yearns for flesh"
+					"description": "Anseia por carne"
 				},
 				"zombie": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "It yearns for flesh",
+					"description": "Anseia por carne",
 					"male": {
 						"zombie_male": {
 							"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-							"description": "It yearns for flesh"
+							"description": "Anseia por carne"
 						}
 					}
 				},
@@ -13549,23 +13549,23 @@
 				},
 				"wolf_skeleton": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "Its animal instincts are all that remain.."
+					"description": "Seus instintos animais são tudo o que resta..."
 				}
 			},
 			"rabbit": {
 				"display_name": "...",
-				"description": "A Rabbit"
+				"description": "Um Coelho"
 			},
 			"ogres": {
 				"ogre": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "An orc gone terribly wrong"
+					"description": "Um orc deu terrivelmente errado"
 				}
 			},
 			"orcs": {
 				"orc": {
 					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "A warrior of the Red Kiln"
+					"description": "Um guerreiro do Red Kiln"
 				},
 				"orc_boss_banner": {
 					"display_name": "Warchief Oghar Grakbash's Banner",
@@ -13666,7 +13666,7 @@
 		},
 		"pets": {
 			"collie": {
-				"display_name": "Collie ",
+				"display_name": "Cão Pastor ",
 				"description": "Tão corajoso! Come um pouco de tudo.",
 				"species": "cachorro"
 			},
@@ -13684,7 +13684,7 @@
 				}
 			},
 			"mammoth": {
-				"display_name": "Mamute bebê",
+				"display_name": "Mamute Bebê",
 				"description": "Tão peludo! Gosta de comer plantas, muitas plantas.",
 				"species": "mamute"
 			},
@@ -13694,12 +13694,12 @@
 				"species": "dragão"
 			},
 			"dragon_whelp_nature": {
-				"display_name": "Filhote de dragão da floresta",
+				"display_name": "Filhote de Dragão da Floresta",
 				"description": "Eles são excelentes para cuidar de um jardim recém-plantado. Ao contrário da maioria dos dragões, estes comem carne e plantas.",
 				"species": "dragão",
 				"egg": {
 					"dragon_nature_egg_fertilized_ghost": {
-						"display_name": "Ovo de dragão natureza",
+						"display_name": "Ovo de Dragão Natureza",
 						"description": "Tão misterioso! Deve ser colocado em algum lugar seguro e quente..."
 					},
 					"dragon_copper_egg_fertilized_ghost": {
@@ -13739,12 +13739,12 @@
 			},
 			"berry_bush": {
 				"display_name": "Arbusto de Frutas",
-				"description": "Harvestable for a meager food supply.",
-				"unripe_description": "Not yet ripe for harvest.",
+				"description": "Colhível para um suprimento escasso de comida.",
+				"unripe_description": "Ainda não está maduro para a colheita.",
 				"seed": {
 					"berry_bush_plant_seed_ghost": {
 						"display_name": "Semente de Arbusto de Frutas",
-						"description": "Can be planted to grow a meager food supply"
+						"description": "Pode ser plantado para cultivar um escasso suprimento de alimentos"
 					}
 				},
 				"bud": {
@@ -13767,7 +13767,7 @@
 				}
 			},
 			"brightbell_plant": {
-				"display_name": "Wild Brightbell",
+				"display_name": "Brightbell Selvagem",
 				"description": "Pode ser colhido para ervas curativas",
 				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
 				"seed": {
@@ -14090,7 +14090,7 @@
 				"description": "Once it dries out, it will be a great source of coarse fibers"
 			},
 			"sugarbell": {
-				"unripe_description": "Not yet ripe for harvest.",
+				"unripe_description": "Ainda não está maduro para a colheita.",
 				"sugarbell_ghost": {
 					"display_name": "Sugarbell",
 					"description": "Harvestable for a bit of sugar."
@@ -14303,8 +14303,8 @@
 			},
 			"sweet_potato": {
 				"sweet_potato_ghost": {
-					"display_name": "Sweet Potato",
-					"description": "Hearty winter spud"
+					"display_name": "Batata Doce",
+					"description": "Batata de inverno saudável"
 				},
 				"bud": {
 					"sweet_potato_plant_bud": {
@@ -14314,7 +14314,7 @@
 				},
 				"rotten": {
 					"sweet_potato_rotten": {
-						"display_name": "Rotten Sweet Potato",
+						"display_name": "Batata Doce (Estragada)",
 						"description": "Não é bom para comer, mas uma grande fonte de sementes"
 					}
 				},
@@ -14513,7 +14513,7 @@
 					"display_name": "Hearthbud",
 					"description": "Harvestable for concentrated Hearth Essence and more Hearthbud Seeds"
 				},
-				"unripe_description": "Not yet ripe for harvest.",
+				"unripe_description": "Ainda não está maduro para a colheita.",
 				"bud": {
 					"earthbud_plant_bud": {
 						"display_name": "Budding Hearthbud",
@@ -14530,7 +14530,7 @@
 				}
 			},
 			"rabbit_statue": {
-				"display_name": "Um monumento antigo",
+				"display_name": "Um Monumento Antigo",
 				"description": "Musgoso, mas a pedra ainda é boa..."
 			}
 		},
@@ -14568,11 +14568,11 @@
 				"description": "Uma barra de aço puro."
 			},
 			"stone_bricks": {
-				"display_name": "Pilha de tijolos de pedra",
+				"display_name": "Pilha de Tijolos de Pedra",
 				"description": "Um componente chave dos edifícios de pedra"
 			},
 			"thread": {
-				"display_name": "Carretel de linha",
+				"display_name": "Carretel de Linha",
 				"description": "Girou da lã das ovelhas. Ou plantas."
 			},
 			"tin_ingot": {
@@ -14592,11 +14592,11 @@
 				"description": "Um carretel de cabo de prata forte e fiado."
 			},
 			"woven_grip": {
-				"display_name": "Aderência tecida",
+				"display_name": "Aderência Tecida",
 				"description": "Firmemente embrulhado com cordas de azul e ouro"
 			},
 			"blazing_inlay": {
-				"display_name": "Embutimento ardente",
+				"display_name": "Embutimento Ardente",
 				"description": "Douramento radiante para a espada brasonada."
 			},
 			"steel_frame": {
@@ -14612,11 +14612,11 @@
 				"description": "As rodas do arco do império"
 			},
 			"lucid_gem": {
-				"display_name": "Gema lúcida",
+				"display_name": "Gema Lúcida",
 				"description": "Um foco espiritual, essencial para o Circulo Brilhante."
 			},
 			"shining_setting": {
-				"display_name": "Folha de prata",
+				"display_name": "Folha de Prata",
 				"description": "Delicadamente molda e protege o lacete brilhante"
 			},
 			"golem_backpack": {
@@ -14635,7 +14635,7 @@
 		"resources": {
 			"coal": {
 				"lump_of_coal": {
-					"display_name": "Pedaço de carvão",
+					"display_name": "Pedaço de Carvão",
 					"description": "Um pedaço considerável de carvão sólido."
 				}
 			},
@@ -14647,24 +14647,24 @@
 			},
 			"fiber": {
 				"silkweed_bundle": {
-					"display_name": "Silkweed Bundle",
-					"description": "Spinnable into thread"
+					"display_name": "Pacote de Lã",
+					"description": "Girar a tabela em linha"
 				},
 				"wool_bundle": {
-					"display_name": "Pacote de lã",
-					"description": "Spinnable into thread"
+					"display_name": "Pacote de Lã",
+					"description": "Girar a tabela em linha"
 				},
 				"coarse_fiber_bundle": {
-					"display_name": "Coarse Fiber Bundle",
+					"display_name": "Pacote de Fibra Grossa",
 					"description": "Rough and itchy"
 				},
 				"wintermoss_bundle": {
-					"display_name": "Wintermoss Bundle",
-					"description": "Spinnable into thread"
+					"display_name": "Pacote de Musgo de Inverno",
+					"description": "Girar a tabela em linha"
 				},
 				"heirbloom_bundle": {
 					"display_name": "Hastes da Heirbloom",
-					"description": "An Amberstone favorite. Spinnable into thread."
+					"description": "Um favorito de Amberstone. Pode girar em linha."
 				},
 				"coarse_fiber_bundle_winter": {
 					"display_name": "Light Coarse Fiber Bundle",
@@ -14709,11 +14709,11 @@
 					"description": "Do couro de uma criatura aterrorizante"
 				},
 				"deer_pelt": {
-					"display_name": "Pele de veado",
+					"display_name": "Pele de Veado",
 					"description": "Macio, flexível e completamente morto."
 				},
 				"cougar_pelt": {
-					"display_name": "Pele de puma",
+					"display_name": "Pele de Puma",
 					"description": "Macio, flexível e completamente morto."
 				},
 				"beetle_pelt": {
@@ -14730,10 +14730,10 @@
 				},
 				"boar_pelt": {
 					"description": "Macio, flexível e completamente morto.",
-					"display_name": "Pele de javali"
+					"display_name": "Pele de Javali"
 				},
 				"deer_horn": {
-					"display_name": "Chifre de veado",
+					"display_name": "Chifre de Veado",
 					"description": "Duro, afiado e possivelmente útil"
 				}
 			},
@@ -14745,14 +14745,14 @@
 			},
 			"stone": {
 				"hunk_of_stone": {
-					"display_name": "Pedaço de pedra",
+					"display_name": "Pedaço de Pedra",
 					"description": "Uma rocha pesada e comum"
 				}
 			},
 			"clay": {
 				"clay_mound": {
-					"display_name": "Mound of Clay",
-					"description": "Heavy and cool to the touch"
+					"display_name": "Monte de Argila",
+					"description": "Pesado e frio ao toque"
 				}
 			},
 			"dirt": {
@@ -14807,7 +14807,7 @@
 					"description": "An herb that's chill to the touch"
 				},
 				"cactus_flower": {
-					"display_name": "Cactus Flower",
+					"display_name": "Cacto (Flor)",
 					"description": "A beautiful desert bloom with healing properties"
 				},
 				"cactus_tulip_red": {
@@ -14874,14 +14874,14 @@
 				"description": "The power of Hearth concentrated by the Hearthbud"
 			},
 			"gem_nature": {
-				"display_name": "Nature Gem Bits",
+				"display_name": "Pedaços de Gema Preciosas da Natureza",
 				"description": "Bits of the larger gem, they are probably worth money."
 			}
 		},
 		"terrain": {
 			"mining_zone": {
 				"display_name": "Mining Zone",
-				"description": "This terrain is designated for removal."
+				"description": "Este terreno é designado para remoção."
 			},
 			"tall_grass": {
 				"display_name": "Tall Grass",
@@ -14967,7 +14967,7 @@
 		},
 		"toys": {
 			"ball": {
-				"display_name": "Bola de couro"
+				"display_name": "Bola de Couro"
 			},
 			"plushie_toy_rabbit": {
 				"plushie_toy_rabbit_ghost": {
@@ -14979,77 +14979,77 @@
 		"trees": {
 			"juniper_tree": {
 				"ancient_juniper_tree": {
-					"display_name": "Ancient Juniper Tree",
+					"display_name": "Árvore Antiga de Juniper",
 					"description": "Irradia uma aura misteriosa"
 				},
 				"large_juniper_tree": {
-					"display_name": "Large Juniper Tree",
+					"display_name": "Grande Árvore de Juniper",
 					"description": "Um espécime impressionante."
 				},
 				"medium_juniper_tree": {
-					"display_name": "Juniper Tree",
+					"display_name": "Árvore de Juniper",
 					"description": "Forte e alto."
 				},
 				"small_juniper_tree": {
-					"display_name": "Small Juniper Tree",
+					"display_name": "Pequena Árvore de Juniper",
 					"description": "Apenas uma muda."
 				},
 				"stem": {
 					"tree_juniper_plant_stem": {
-						"display_name": "Stemming Juniper Tree",
+						"display_name": "Árvore de Juniper de Decorrentes",
 						"description": "Ainda crescendo!"
 					}
 				},
 				"sprout": {
 					"tree_juniper_sprout": {
-						"display_name": "Juniper Tree Sproutling",
+						"display_name": "Broto de Árvores de Juniper",
 						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"seed": {
 					"tree_juniper_seed": {
-						"display_name": "Juniper Tree Seed",
+						"display_name": "Semente de Juniper",
 						"description": "Pode ser plantado para crescer uma árvore gigante"
 					},
 					"tree_juniper_seed_ghost": {
-						"display_name": "Juniper Tree Seed",
+						"display_name": "Semente de Juniper",
 						"description": "Pode ser plantado para crescer uma árvore gigante"
 					}
 				},
 				"bud": {
 					"tree_juniper_plant_bud": {
-						"display_name": "Budding Juniper Tree",
-						"description": "Its almost there!  It's growing its adult leaves!"
+						"display_name": "Broto de Juniper",
+						"description": "Está quase lá! Está crescendo suas folhas adultas!"
 					}
 				},
 				"sapling_juniper_tree": {
 					"sapling_juniper_tree_iconic": {
 						"description": "Plante-a na terra e observe-a crescer."
 					},
-					"description": "Baby Juniper Tree.",
+					"description": "Árvore Juniper Bebê.",
 					"sapling_juniper_tree_ghost": {
 						"display_name": "Juniper Tree Sapling",
-						"description": "Baby Juniper Tree."
+						"description": "Árvore Juniper Bebê."
 					}
 				},
 				"large_snowy_juniper_tree": {
-					"display_name": "Large Juniper Tree",
+					"display_name": "Grande Árvore de Juniper",
 					"description": "Um espécime impressionante."
 				},
 				"medium_snowy_juniper_tree": {
-					"display_name": "Juniper Tree",
+					"display_name": "Árvore de Juniper",
 					"description": "Forte e alto."
 				},
 				"small_snowy_juniper_tree": {
-					"display_name": "Small Juniper Tree",
+					"display_name": "Pequena Árvore de Juniper",
 					"description": "Apenas uma muda."
 				},
 				"medium_gold_juniper_tree": {
-					"display_name": "Juniper Tree",
+					"display_name": "Árvore de Juniper",
 					"description": "Forte e alto."
 				},
 				"small_gold_juniper_tree": {
-					"display_name": "Small Juniper Tree",
+					"display_name": "Pequena Árvore de Juniper",
 					"description": "Apenas uma muda."
 				}
 			},
@@ -15075,7 +15075,7 @@
 				"sapling_acacia_tree": {
 					"description": "Baby acacia tree.",
 					"sapling_acacia_tree_ghost": {
-						"display_name": "Acacia Tree Sapling",
+						"display_name": "Acácia (Muda)",
 						"description": "Baby acacia tree."
 					},
 					"sapling_acacia_tree_iconic": {
@@ -15276,7 +15276,7 @@
 						"description": "Plante-a na terra e observe-a crescer."
 					},
 					"sapling_cactus_tree_ghost": {
-						"display_name": "Cactus Sapling",
+						"display_name": "Cactos (Mudas)",
 						"description": "Baby Cactus Plant."
 					}
 				}
@@ -15301,7 +15301,7 @@
 				"sapling_oak_tree": {
 					"description": "Baby oak tree.",
 					"sapling_oak_tree_ghost": {
-						"display_name": "Oak Tree Sapling",
+						"display_name": "Carvalho (Muda)",
 						"description": "Baby oak tree."
 					},
 					"sapling_oak_tree_iconic": {
@@ -15635,7 +15635,7 @@
 					"description": "Learn to grow acacia trees."
 				},
 				"oak_tree_seeds": {
-					"display_name": "Acorns",
+					"display_name": "Bolotas",
 					"description": "Learn to grow oak trees."
 				},
 				"brightbell_seeds": {
@@ -16324,13 +16324,13 @@
 					"description": "Light weight and strong head protection"
 				},
 				"decorative_elite_gong_recipe": {
-					"description": "Inspired by the Elite Kobold Menace",
+					"description": "Inspirado pela Ameaça da Elite Kobold",
 					"recipe_name": "Decorative Elite Gong",
 					"flavor": "As it turns out, their hats were very dense"
 				},
 				"decorative_generals_gong_recipe": {
 					"description": "Enormous and decorative!",
-					"recipe_name": "General's Golden Gong",
+					"recipe_name": "Gongo de Ouro do General",
 					"flavor": "The generals hat, when melted down, could have filled a lake with gold"
 				},
 				"decorative_master_gong_recipe": {
@@ -16363,7 +16363,7 @@
 					"recipe_name": "Engineer's Wrench"
 				},
 				"input_bin_iron_recipe": {
-					"recipe_name": "Iron-Banded Supply Bin",
+					"recipe_name": "Cesta de Suprimentos com Tiras de Ferro",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				},
@@ -16378,8 +16378,8 @@
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				},
 				"sign_blacksmith_recipe": {
-					"description": "An iron-forged sign, to be displayed outside a blacksmith's workshop",
-					"recipe_name": "Blacksmith's Shop Sign",
+					"description": "Uma placa de ferro forjado, para ser exibida fora da oficina de um ferreiro",
+					"recipe_name": "Placa de Loja de Ferreiro",
 					"flavor": "Its chains rattle and sing brightly with every hammer strike"
 				},
 				"lantern_iron_recipe": {
@@ -16403,44 +16403,44 @@
 					"flavor": "Luckily, if you can't swing the doors open, you can just squeeze through them"
 				},
 				"candle_iron_recipe": {
-					"description": "Let there be light!",
+					"description": "Que haja luz!",
 					"recipe_name": "Iron Candle-holder",
 					"flavor": "Never light and leave unattended"
 				},
 				"candle_iron_double_recipe": {
 					"description": "Let there be more light!",
-					"recipe_name": "Iron Candelabra",
+					"recipe_name": "Candelabros de Ferro",
 					"flavor": "A stately fixture that belongs wherever Hearthlings gather"
 				},
 				"construction_name": "Construction",
 				"door_blacksmith_recipe": {
-					"description": "Fit for a master blacksmith's workshop",
-					"recipe_name": "Blacksmith's Door",
+					"description": "Apto para uma oficina de ferreiro mestre",
+					"recipe_name": "Porta do Ferreiro",
 					"flavor": "You can feel the heat coming through the door"
 				},
 				"lamppost_upscale_double_recipe": {
-					"description": "Lovely lighting for any pathway or promenade",
-					"recipe_name": "Twin Iron Lamp Post",
+					"description": "Adorável iluminação para qualquer caminho ou passeio",
+					"recipe_name": "Poste de Ferro Duplo",
 					"flavor": "More light probably means more style. Probably"
 				},
 				"lamppost_upscale_recipe": {
-					"description": "Lovely lighting for any pathway or promenade",
-					"recipe_name": "Iron Lamp Post",
+					"description": "Adorável iluminação para qualquer caminho ou passeio",
+					"recipe_name": "Poste de Luz de Ferro",
 					"flavor": "Stylish enough to make even the most stubborn poyo think twice about roosting on it"
 				},
 				"lantern_poyo_recipe": {
-					"description": "Happy bronze lightbirb",
-					"recipe_name": "Poyo Lantern",
+					"description": "Orbe de luz de bronze feliz",
+					"recipe_name": "Lanterna Poyo",
 					"flavor": "Light as soft and warm as a poyo feather blanket"
 				},
 				"weathervane_poyo_recipe": {
-					"description": "A weathervane resembling a poyo",
+					"description": "Um cata-vento parecido com um poyo",
 					"recipe_name": "Twirlybird",
 					"flavor": "Spins in the winds and never ever gets dizzy"
 				},
 				"valor_torch_recipe": {
-					"description": "Its flame brings a warm feeling of pride in all we have accomplished.",
-					"recipe_name": "Wooden Torch"
+					"description": "Sua chama traz uma sensação calorosa de orgulho por tudo o que conquistamos.",
+					"recipe_name": "Tocha de Madeira"
 				},
 				"valor_wall_hanging_plaque_recipe": {
 					"description": "Just like Granddads sword looked!",
@@ -16621,7 +16621,7 @@
 				"table_for_one_recipe": {
 					"description": "Better than eating standing up. Unless you're watching your weight.",
 					"recipe_name": "Table for One",
-					"flavor": "Dining furniture for introverts."
+					"flavor": "Mobília de jantar para introvertidos."
 				},
 				"weaver_spindle_recipe": {
 					"description": "Required to promote a hearthling into a Weaver.",
@@ -16664,7 +16664,7 @@
 				},
 				"wooden_garden_lantern_recipe": {
 					"description": "A small lantern that's placed on the ground. Suitable for lighting paths or small gardens.",
-					"recipe_name": "Wooden Garden Lantern",
+					"recipe_name": "Lanterna de Jardim de Madeira",
 					"flavor": "Practical and romantic!"
 				},
 				"wooden_shield_recipe": {
@@ -16714,7 +16714,7 @@
 				},
 				"writing_desk_recipe": {
 					"description": "Not at all like a raven.",
-					"recipe_name": "Writing Desk",
+					"recipe_name": "Escrivaninha",
 					"flavor": "...Except it can produce a few notes, tho they are very flat."
 				},
 				"carpenter_workbench_recipe": {
@@ -16778,7 +16778,7 @@
 				},
 				"market_shelf_tall_ground_wood_recipe": {
 					"description": "Other players and Travelers can buy goods stocked on these shelves.",
-					"recipe_name": "Tall Wooden Market Shelf",
+					"recipe_name": "Prateleira de Mercado Alta de Madeira",
 					"flavor": "One Hearthling's trash is another's treasure... right?"
 				},
 				"archer_bow_recipe": {
@@ -16805,14 +16805,14 @@
 					"flavor": "TODO"
 				},
 				"ornate_leather_bound_chest_recipe": {
-					"recipe_name": "Ornate Leather Bound Chest",
+					"recipe_name": "Baú Encadernado em Couro Ornamentado",
 					"description": "Stylishly stores up to 64 items.",
 					"flavor": "Like the one my granda had!"
 				},
 				"ornate_table_for_one_recipe": {
 					"recipe_name": "Ornate Table for One",
 					"description": "Better than eating standing up. Unless you're watching your weight.",
-					"flavor": "Dining furniture for introverts."
+					"flavor": "Mobília de jantar para introvertidos."
 				},
 				"ornate_dining_table_recipe": {
 					"recipe_name": "Ornate Dining Table",
@@ -16850,11 +16850,11 @@
 					"flavor": "If pillows are good for the head, surely they're even better for the butt and back!"
 				},
 				"ornate_wooden_tunnel_door_recipe": {
-					"recipe_name": "Ornate Wooden Tunnel Door",
+					"recipe_name": "Porta do Túnel de Madeira Ornamentada",
 					"description": "Useful for blocking off tunnels in style."
 				},
 				"ornate_picket_fence_gate_recipe": {
-					"recipe_name": "Ornate Picket Fence Gate",
+					"recipe_name": "Portão de Cerca de Piquete Ornamentado",
 					"description": "Lets people through your picket fence.",
 					"flavor": "Hope you like your neighbors!"
 				},
@@ -16874,7 +16874,7 @@
 					"description": "A simple lantern. Place on buildings to provide light at night."
 				},
 				"ornate_wooden_double_door_recipe": {
-					"recipe_name": "Ornate Wooden Double Door",
+					"recipe_name": "Porta Dupla de Madeira Ornamentada",
 					"description": "Two doors are better than one.",
 					"flavor": "Some people want to make an entrance... every day."
 				},
@@ -16894,12 +16894,12 @@
 					"recipe_name": "Ornate Wooden Chair"
 				},
 				"output_box_wood_recipe": {
-					"recipe_name": "Wood Finished Work Shelf",
+					"recipe_name": "Prateleira de Trabalho com Acabamento em Madeira",
 					"description": "Temporary storage for freshly-crafted items.",
 					"flavor": "Crafters love to show off their work!"
 				},
 				"input_bin_wood_recipe": {
-					"recipe_name": "Wooden Supply Crate",
+					"recipe_name": "Cesta de Suprimentos de Madeira",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				},
@@ -16924,13 +16924,13 @@
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				},
 				"door_carpenter_recipe": {
-					"description": "Fit for a master carpenter's woodshop",
-					"recipe_name": "Carpenter's door",
+					"description": "Apto para um carpinteiro mestre de carpintaria",
+					"recipe_name": "Porta do Carpinteiro",
 					"flavor": "There's somehow always a little sawdust on it"
 				},
 				"sign_carpenter_recipe": {
-					"description": "An expertly carved sign, to be displayed outside a carpenter's workshop",
-					"recipe_name": "Carpenter's Shop Sign",
+					"description": "Uma placa habilmente esculpido, para ser exibido fora da oficina de um carpinteiro",
+					"recipe_name": "Placa da Loja de Carpinteiro",
 					"flavor": "Sways like rustling oak branches in the wind"
 				},
 				"fence_frostsnap_recipe": {
@@ -16961,21 +16961,21 @@
 				"ornate_picket_fence_bar_double_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Ornate Picket Fence Long",
-					"flavor": "A little gold leaf goes a long way!"
+					"flavor": "Uma pequena folha de ouro ajuda muito!"
 				},
 				"ornate_picket_fence_bar_single_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Ornate Picket Fence Short",
-					"flavor": "A little gold leaf goes a long way!"
+					"flavor": "Uma pequena folha de ouro ajuda muito!"
 				},
 				"ornate_picket_fence_end_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Ornate Picket Fence Post",
-					"flavor": "A little gold leaf goes a long way!"
+					"recipe_name": "Poste de Cerca de Piquete Ornamentado",
+					"flavor": "Uma pequena folha de ouro ajuda muito!"
 				},
 				"picket_fence_end_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Picket Fence Post",
+					"recipe_name": "Poste de Cerca de Piquete",
 					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"picket_fence_bar_single_recipe": {
@@ -16990,13 +16990,13 @@
 				},
 				"picket_fence_combo_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Picket Fence Combo",
+					"recipe_name": "Combinação de Cerca de Piquete",
 					"flavor": "Se não é branco, nossa vida não está cumprida?"
 				},
 				"ornate_picket_fence_combo_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Ornate Picket Fence Combo",
-					"flavor": "A little gold leaf goes a long way!"
+					"recipe_name": "Combinação de Piquete Ornamentado",
+					"flavor": "Uma pequena folha de ouro ajuda muito!"
 				}
 			}
 		},
@@ -17060,16 +17060,16 @@
 			"recipes": {
 				"flour_recipe": {
 					"description": "A necessary ingredient for all kinds of bread.",
-					"recipe_name": "Sack of Flour"
+					"recipe_name": "Saco de Farinha"
 				},
 				"meat_stew_recipe": {
 					"description": "Hearty, satisfying, and perfect to ease the passing of a cold night.",
-					"recipe_name": "Savory Meat Stew",
+					"recipe_name": "Ensopado de Carne Salgado",
 					"flavor": "Before you ask, it's an assortment of meats."
 				},
 				"peasant_bread_recipe": {
-					"description": "A crusty, basic bread.",
-					"recipe_name": "Peasant Bread"
+					"description": "Um pão duro e básico.",
+					"recipe_name": "Pão Camponês"
 				},
 				"food_name": "Every Day Meals",
 				"ingredients_name": "Ingredient Refinement",
@@ -17080,22 +17080,22 @@
 				},
 				"corn_bread_recipe": {
 					"description": "A bread made from cornmeal.",
-					"recipe_name": "Corn Bread",
+					"recipe_name": "Pão de Milho",
 					"flavor": "Like Ma used to make."
 				},
 				"poyo_pot_pie_recipe": {
 					"description": "A tasty meat and veggie pie.",
-					"recipe_name": "Poyo Pot Pie",
+					"recipe_name": "Torta de Poyo",
 					"flavor": "Pie is always good."
 				},
 				"omelette_recipe": {
 					"description": "Veggies and meat wrapped in egg.",
-					"recipe_name": "Omelette",
+					"recipe_name": "Omelete",
 					"flavor": "Part of a hearty breakfast"
 				},
 				"roast_poyo_recipe": {
 					"description": "Slow roasted poyo meat",
-					"recipe_name": "Roast Poyo",
+					"recipe_name": "Poyo Assado",
 					"flavor": "Put 'nother poyo on the barby."
 				},
 				"fried_eggs_recipe": {
@@ -17106,16 +17106,16 @@
 				"animal_feed_name": "Animal Feed",
 				"sheep_feed_recipe": {
 					"description": "A supplement for a healthy sheep diet",
-					"recipe_name": "Sheep Feed"
+					"recipe_name": "Ração de Ovelhas"
 				},
 				"poyo_feed_recipe": {
 					"description": "For feeding one's poyos",
-					"recipe_name": "Poyo Feed",
+					"recipe_name": "Ração de Poyo",
 					"flavor": "Cluck cluck!"
 				},
 				"rabbit_feed_recipe": {
-					"description": "Food for rabbits",
-					"recipe_name": "Rabbit Feed"
+					"description": "Comida para coelhos",
+					"recipe_name": "Ração de Coelho"
 				},
 				"workbenches_name": "Workbenches",
 				"cook_workbench_recipe": {
@@ -17192,7 +17192,7 @@
 				},
 				"cake_recipe": {
 					"description": "A tasty Cake made from wheat and sugar.",
-					"recipe_name": "Bolo simples de baga",
+					"recipe_name": "Bolo Simples de Baga",
 					"flavor": "So delicious with a berry on top!"
 				},
 				"chefs_specials_name": "Chef's Specials",
@@ -17218,7 +17218,7 @@
 				},
 				"feed_fodder_recipe": {
 					"description": "For feeding any vegetarian animals.",
-					"recipe_name": "Animal Fodder",
+					"recipe_name": "Forragem Animal",
 					"flavor": "What a great use of excess seeds!"
 				},
 				"pie_berry_recipe": {
@@ -17351,17 +17351,17 @@
 				},
 				"iron_door_recipe": {
 					"description": "Thick, sturdy iron door. Also comes with a thick, sturdy lock.",
-					"recipe_name": "Ironclad Door"
+					"recipe_name": "Porta de Ferro"
 				},
 				"decorations_name": "Decorations",
 				"wooden_sign_engineer_recipe": {
-					"description": "A sign with the mark of the Engineer.",
+					"description": "Uma placa com a marca do engenheiro.",
 					"recipe_name": "Engineer's Wall-Mounted Sign"
 				},
 				"building_parts_name": "Building Parts",
 				"bronze_portcullis_recipe": {
 					"description": "Útil para fortalecer pontos de entrada da cidade.",
-					"recipe_name": "Bronze Portcullis"
+					"recipe_name": "Portcullis de Bronze"
 				},
 				"mechanism_recipe": {
 					"description": "The wheels of the Empire Bow",
@@ -17794,17 +17794,17 @@
 				"refined_name": "Refinement",
 				"bird_bath_recipe": {
 					"description": "A decorative stone vase with water for the birdies.",
-					"recipe_name": "Bird Bath",
+					"recipe_name": "Banho de Pássaro",
 					"flavor": "Not a chair."
 				},
 				"amberstone_lantern_recipe": {
-					"description": "A warm little light",
-					"recipe_name": "Stone-cut Lantern",
+					"description": "Uma pequena luz quente",
+					"recipe_name": "Lanterna Cortada em Pedra",
 					"flavor": "Their thick walls blocked too much of their precious light underground, and so this style had all but vanished until now"
 				},
 				"amberstone_teapot_recipe": {
-					"description": "A rabbit's cherished teapot",
-					"recipe_name": "Stone-cut Teapot",
+					"description": "O bule de chá de um coelho",
+					"recipe_name": "Bule de Corte de Pedra",
 					"flavor": "They are always rough at first, as if broken from the stone rather than carved. They are gradually worn smooth through generations of use."
 				},
 				"amberstone_table_recipe": {
@@ -17814,7 +17814,7 @@
 				},
 				"amberstone_tunnel_door_recipe": {
 					"description": "Veda e protege habitações subterrâneas",
-					"recipe_name": "Burrow Door",
+					"recipe_name": "Porta Burrow",
 					"flavor": "One could shove with all their might and these doors would never budge, but the rabbits could open them with barely a touch"
 				},
 				"amberstone_window_recipe": {
@@ -17848,7 +17848,7 @@
 					"flavor": "COOKED FOOOOOOOOD!!!!!! --Alton The Bard"
 				},
 				"gargoyle_recipe": {
-					"description": "Gothic-style carving to decorate your walls.",
+					"description": "Escultura em estilo gótico para decorar suas paredes.",
 					"recipe_name": "Wall-Mounted Decorative Gargoyle",
 					"flavor": "Remnants of the servants of Brelor, Crownless King."
 				},
@@ -17859,7 +17859,7 @@
 				},
 				"stone_brazier_recipe": {
 					"description": "A small fire pit that provides comfort and warmth at night.",
-					"recipe_name": "Stone Brazier",
+					"recipe_name": "Braseiro de Pedra",
 					"flavor": "Warning: Do not drop anything in while it's lit."
 				},
 				"stone_bricks_recipe": {
@@ -17878,8 +17878,8 @@
 					"flavor": "'Listen up, kid. All the chests in Hemgorir-Under-Mountain looked like this.'--Edolf, Wandering Bard"
 				},
 				"stone_garden_lantern_recipe": {
-					"description": "An ancient-looking lantern with great ambiance.",
-					"recipe_name": "Stone Garden Lantern",
+					"description": "Uma lanterna de aparência antiga com excelente ambiente.",
+					"recipe_name": "Lanterna de Jardim de Pedra",
 					"flavor": "Only slightly ominous looking."
 				},
 				"stone_maul_recipe": {
@@ -17899,7 +17899,7 @@
 				},
 				"tower_brazier_recipe": {
 					"description": "Fashioned after a castle tower, it provides a strong beacon at night.",
-					"recipe_name": "Tower Brazier",
+					"recipe_name": "Braseiro de Torre",
 					"flavor": "Great for lining garden paths and intimidating guests."
 				},
 				"mason_workbench_recipe": {
@@ -17924,7 +17924,7 @@
 				},
 				"stone_tunnel_door_recipe": {
 					"description": "Útil para selar os túneis de minas.",
-					"recipe_name": "Stone Tunnel Door"
+					"recipe_name": "Porta do Túnel de Pedra"
 				},
 				"firepit_recipe": {
 					"recipe_name": "Stone Firepit",
@@ -17932,17 +17932,17 @@
 					"flavor": "Fire is life, ashes are death, in these stones, the story of our people. -- Cid"
 				},
 				"valor_statue_recipe": {
-					"description": "A monument to your town's military might",
-					"recipe_name": "The Valor of Cid",
+					"description": "Um monumento ao poder militar da sua cidade",
+					"recipe_name": "A Bravura de Cid",
 					"flavor": "The shield for resilience, and the sword for strength. -- Cid, Knight of the Old Ways"
 				},
 				"roadside_shrine_recipe": {
-					"recipe_name": "Fountain of Plenty",
-					"description": "Place to show generosity and faith",
+					"recipe_name": "Fonte da Abundância",
+					"description": "Lugar para mostrar generosidade e fé",
 					"flavor": "Cid fashioned his breastplate into a basket and brought the wealth of the rich to the bedsides of the poor --Edison Arn, Church of Plenty"
 				},
 				"craftsman_statue_recipe": {
-					"recipe_name": "The Guildmaster's Skill",
+					"recipe_name": "A Habilidade do Mestre da Guilda",
 					"description": "Shows each craftsman at their best",
 					"flavor": "A good crafter never blames his tools, only the people who make his tools. --Otto Crankfrown, Guildmaster Emeritus"
 				},
@@ -17957,7 +17957,7 @@
 					"flavor": "So many Shine!"
 				},
 				"wet_stone_recipe": {
-					"recipe_name": "Wet Stone",
+					"recipe_name": "Pedra Molhada",
 					"flavor": "This stone has been blessed with the tears of Rayya!",
 					"description": "This stone will shed water around itself."
 				},
@@ -17967,12 +17967,12 @@
 					"flavor": "These shelves are quite sturdy. You could jump on them if you wanted. ...please do not."
 				},
 				"output_box_stone_recipe": {
-					"recipe_name": "Stone Finished Work Shelf",
+					"recipe_name": "Prateleira de Trabalho com Acabamento em Pedra",
 					"description": "Temporary storage for freshly-crafted items.",
 					"flavor": "Crafters love to show off their work!"
 				},
 				"input_bin_stone_recipe": {
-					"recipe_name": "Stonework Supply Bin",
+					"recipe_name": "Cesta de Suprimentos de Pedra",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				},
@@ -17998,7 +17998,7 @@
 				},
 				"sign_mason_recipe": {
 					"description": "A heavy stone sign, to be displayed outside a mason's workshop",
-					"recipe_name": "Mason's Shop Sign",
+					"recipe_name": "Palca da Loja de Pedreiro",
 					"flavor": "Probably wouldn't even swing in a hurricane"
 				},
 				"statue_rabbit_flat_recipe": {
@@ -18027,22 +18027,22 @@
 					"flavor": "To be small enough to hide away in its blossoms for an afternoon..."
 				},
 				"door_mason_recipe": {
-					"description": "Fit for a master mason's workshop",
-					"recipe_name": "Mason's door",
+					"description": "Apto para a oficina de um mestre pedreiro",
+					"recipe_name": "Porta do Pedreiro",
 					"flavor": "Feels like knocking on a mountainside"
 				},
 				"fountain_wishing_recipe": {
-					"description": "Exchanges gold for wishes",
+					"description": "Troca de ouro por desejos",
 					"recipe_name": "Glittering Basin",
 					"flavor": "The exact rate of exchange has never been clear, but who cares it's fun"
 				},
 				"statue_knight_recipe": {
-					"description": "Noble knight of stone",
+					"description": "Nobre cavaleiro de pedra",
 					"recipe_name": "Stone Guard",
 					"flavor": "\"...Now quietly the land they keep<br>amid the brightbells echoing.\""
 				},
 				"statue_knight_male_recipe": {
-					"description": "Noble knight of stone",
+					"description": "Nobre cavaleiro de pedra",
 					"recipe_name": "Stone Guard",
 					"flavor": "\"Holding back the darkness deep;<br> shaking iron, steel blades ring...\""
 				},
@@ -18052,25 +18052,25 @@
 					"flavor": "Stone for strength, Iron for versatility, Coal to paint fear into our enemy's hearts."
 				},
 				"valor_window_arrow_short_recipe": {
-					"description": "For those who enjoy small compressed views.",
-					"recipe_name": "Short Stone Arrow Slit"
+					"description": "Para quem gosta de pequenas vistas compactadas.",
+					"recipe_name": "Fenda de Flecha de Pedra Curta"
 				},
 				"valor_window_arrow_tall_recipe": {
-					"description": "For those who enjoy small compressed views.",
-					"recipe_name": "Tall Stone Arrow Slit"
+					"description": "Para quem gosta de pequenas vistas compactadas.",
+					"recipe_name": "Fenda de Flecha de Pedra Alta"
 				},
 				"valor_window_frame_barred_recipe": {
-					"description": "For those who enjoy safe viewing from behind bars.",
-					"recipe_name": "Barred Stone Window Frame"
+					"description": "Para quem gosta de ver com segurança por trás das grades.",
+					"recipe_name": "Moldura de Janela de Pedra Barrada"
 				},
 				"valor_window_frame_xlarge_recipe": {
-					"description": "For those who enjoy wide expansive views.",
-					"recipe_name": "Extra Large Stone Window Frame",
+					"description": "Para quem gosta de vistas amplas e amplas.",
+					"recipe_name": "Moldura Para Janela de Pedra Extra Grande",
 					"flavor": "I'm not the sort of person who'd tell you what to do with your window, but when Riley stuck it on the first floor like a door, rabbits poured straight into his kitchen. -- Andie, Berry Farmer"
 				},
 				"valor_brazier_large_recipe": {
-					"description": "A beacon of light to protect your town.",
-					"recipe_name": "Large Brazier",
+					"description": "Um farol de luz para proteger sua cidade.",
+					"recipe_name": "Braseiro Grande",
 					"flavor": "From a tall mountaintop, you can see fires like these all across the Darkmoor."
 				},
 				"lucid_gem_recipe": {
@@ -18090,7 +18090,7 @@
 				},
 				"cobblestone_fence_end_recipe": {
 					"description": "Um segmento de parede rústico e resistente.",
-					"recipe_name": "Cobblestone Fence Post",
+					"recipe_name": "Poste da Cerca de Paralelepípedos",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"cobblestone_fence_bar_single_recipe": {
@@ -18110,33 +18110,33 @@
 				},
 				"stone_door_recipe": {
 					"description": "Sturdy door built to last.",
-					"recipe_name": "Stone Door"
+					"recipe_name": "Porta de Pedra"
 				},
 				"stone_window_frame_recipe": {
 					"description": "A basic stone window.",
-					"recipe_name": "Stone Window Frame",
+					"recipe_name": "Moldura de Janela de Pedra",
 					"flavor": "A little breezy, but fashionable!"
 				},
 				"stone_window_frame_wide_recipe": {
 					"description": "It's got a panoramic view!",
-					"recipe_name": "Wide Stone Window Frame"
+					"recipe_name": "Moldura de Janela Larga em Pedra"
 				},
 				"stone_window_frame_wide_wood_recipe": {
-					"description": "Rustic and panoramic!",
-					"recipe_name": "Wide Wood and Stone Window Frame"
+					"description": "Rústico e panorâmico!",
+					"recipe_name": "Moldura Larga Para Janelas de Madeira e Pedra"
 				},
 				"stone_window_frame_wood_recipe": {
 					"description": "A basic window.",
-					"recipe_name": "Wood and Stone Window Frame",
+					"recipe_name": "Moldura de Janela de Madeira e Pedra",
 					"flavor": "Is this what they call a cross section?"
 				},
 				"stone_window_frame_tall_recipe": {
 					"description": "Extra height adds an air of elegance.",
-					"recipe_name": "Tall Stone Window Frame"
+					"recipe_name": "Moldura de Janela de Pedra Alta"
 				},
 				"stone_window_frame_short_recipe": {
-					"description": "Short can be elegant too.",
-					"recipe_name": "Short Stone Window Frame"
+					"description": "Curto também pode ser elegante.",
+					"recipe_name": "Moldura de Janela de Pedra Curta"
 				},
 				"stone_lantern_simple_recipe": {
 					"description": "Nothing fancy. Attach to any wall.",
@@ -18149,8 +18149,8 @@
 					"flavor": "It's weight makes it useless to carrying around."
 				},
 				"stone_torch_recipe": {
-					"description": "A wall-mounted torch with slowly burning oil.",
-					"recipe_name": "Stone Torch",
+					"description": "Uma tocha de parede com óleo que queima lentamente.",
+					"recipe_name": "Tocha de Pedra",
 					"flavor": "Makes it much easier to burn the midnight oil."
 				},
 				"stone_candle_holder_recipe": {
@@ -18160,7 +18160,7 @@
 				},
 				"stone_door_2_recipe": {
 					"description": "Stronger than your average door.",
-					"recipe_name": "Reinforced Stone Door",
+					"recipe_name": "Porta de Pedra Reforçada",
 					"flavor": "This here pattern, I learned from the Squarefolk."
 				},
 				"stone_double_door_recipe": {
@@ -18175,12 +18175,12 @@
 				},
 				"cobblestone_fence_combo_recipe": {
 					"description": "Um segmento de parede rústico e resistente.",
-					"recipe_name": "Cobblestone Fence Combo",
+					"recipe_name": "Combinação de Cerca de Paralelepípedos",
 					"flavor": "Use the earth itself to form the walls of the pasture? Genius!"
 				},
 				"stone_floor_candle_holder_recipe": {
 					"description": "Lighting from a simplier time.",
-					"recipe_name": "Stone Floor Candle Holder",
+					"recipe_name": "Suporte de Vela de Chão de Pedra",
 					"flavor": "Romantic for some, spookily haunted for others."
 				},
 				"golem_parts_recipe": {
@@ -18195,7 +18195,7 @@
 				},
 				"market_shelf_tall_ground_stone": {
 					"description": "Other players and Travellers can buy goods stocked on these shelves.",
-					"recipe_name": "Market Trading Shelf",
+					"recipe_name": "Plataforma de Negociação no Mercado",
 					"flavor": "One Hearthling's trash is another's treasure... right?"
 				}
 			}
@@ -18257,12 +18257,12 @@
 					"flavor": "Once we put things in, how will we get them out? Don't think about it too much"
 				},
 				"clay_lamp_recipe": {
-					"description": "Its flame brings a warm glow at night.",
-					"recipe_name": "Clay Oil Lamp",
+					"description": "Sua chama traz um brilho quente à noite.",
+					"recipe_name": "Lâmpada a Óleo de Argila",
 					"flavor": "And the Djinni said to Rayya: 'I have but one last wish to grant. Word it well.'"
 				},
 				"clay_wall_lamp_recipe": {
-					"description": "Its flame brings a warm glow at night.",
+					"description": "Sua chama traz um brilho quente à noite.",
 					"recipe_name": "Wall-Mounted Clay Oil Lamp",
 					"flavor": "'Close round us guard the spirits of night! As they dance and sway, free you'll be to dream the dark away.'"
 				},
@@ -18308,22 +18308,22 @@
 				},
 				"blue_clay_door_recipe": {
 					"description": "Blue like the dream of distant ocean.",
-					"recipe_name": "Blue Clay Door",
+					"recipe_name": "Porta de Argila Azul",
 					"flavor": "'It's a door. What more could we possibly say?' --Joni Iskender, Marketing Apprentice"
 				},
 				"green_clay_door_recipe": {
 					"description": "Green, like the few scrub in the desert.",
-					"recipe_name": "Green Clay Door",
+					"recipe_name": "Porta de Argila Verde",
 					"flavor": "'Can you make the hole a bit smaller? The point is to see who it is without giving away that I'm home.' --Vara Tenter, Irate Customer"
 				},
 				"blue_clay_window_frame_recipe": {
 					"description": "Lets in the bright desert air.",
-					"recipe_name": "Blue Clay Window Frame",
+					"recipe_name": "Moldura de Janela de Argila Azul",
 					"flavor": "The dye is named Santori, for an acolyte who longed for the ocean."
 				},
 				"green_clay_window_frame_recipe": {
 					"description": "Let's in the soft desert air.",
-					"recipe_name": "Moldura de Janela de Barro Verde",
+					"recipe_name": "Moldura de Janela de Argila Verde",
 					"flavor": "It's a window's dream of spring..."
 				},
 				"latticed_clay_window_frame_recipe": {
@@ -18348,42 +18348,42 @@
 				},
 				"decorative_teapot_recipe": {
 					"description": "Reminder of humble beginnings",
-					"recipe_name": "Decorative Teapot",
+					"recipe_name": "Bule Decorativo",
 					"flavor": "'Wherever she went, the teapot did too, and even when there was nothing but cold water to put in, always out poured steaming tea, redolent with the aroma of Elsewhere.'"
 				},
 				"decorative_tray_recipe": {
 					"description": "Adds hospitality and flash",
-					"recipe_name": "Decorative Tray",
+					"recipe_name": "Bandeja Decorativa",
 					"flavor": "'Sugar, spice, and blood of the earth: it is the tray that brings them, and us, together' --Rayya"
 				},
 				"potted_cactus_recipe": {
 					"description": "Plant a cactus in a clay pot.",
-					"recipe_name": "Potted Cactus",
+					"recipe_name": "Vaso de Cacto",
 					"flavor": "YOWCH! --Every cactus potter, ever"
 				},
 				"blown_glass_vase_recipe": {
-					"description": "Miraculous",
-					"recipe_name": "Blown Glass Vase",
+					"description": "Milagroso",
+					"recipe_name": "Vaso de Vidro Soprado",
 					"flavor": "They say Monkey had one eye made of glass, and through it, he could see straight to the heart of things. --Master Orlen"
 				},
 				"decorative_vase_recipe": {
 					"description": "Transform metals into art",
-					"recipe_name": "Decorative Vase",
+					"recipe_name": "Vaso Decorativo",
 					"flavor": "It is the riches of the earth reborn"
 				},
 				"sundial_recipe": {
-					"description": "Decorates gardens, marks time",
+					"description": "Jardins decorados, marca o tempo",
 					"recipe_name": "Clay Sundial",
 					"flavor": "The secret to immortality is to make best of days last forever --Rayya"
 				},
 				"tile_floor_mosaic_recipe": {
 					"description": "Decorates and cools the floor",
-					"recipe_name": "Tile Floor Mosaic",
+					"recipe_name": "Mosaico de Piso de Ladrilho",
 					"flavor": "Step over the painted flowers, and give thanks"
 				},
 				"tile_wall_mosaic_recipe": {
-					"description": "Soothing decorative patterns",
-					"recipe_name": "Tile Wall Mosaic",
+					"description": "Padrões decorativos suaves",
+					"recipe_name": "Mosaico de Parede de Azulejos",
 					"flavor": "Tile cools inside and out"
 				},
 				"golden_clay_wall_planter_recipe": {
@@ -18393,7 +18393,7 @@
 				},
 				"unfired_clay_vase_recipe": {
 					"description": "A simple vase made on the pottery wheel that is used for more complex recipes.",
-					"recipe_name": "Unfired Clay Vase",
+					"recipe_name": "Vaso de Argila Não Queimado",
 					"flavor": "'The First Pot was formed together by wind, earth, and fire, connecting the people to Hearth' --Master Orlen"
 				},
 				"clay_pile_recipe": {
@@ -18403,49 +18403,49 @@
 				},
 				"clay_market_stall_recipe": {
 					"description": "Merchants can visit this stall to buy and sell goods",
-					"recipe_name": "Clay Market Stall",
+					"recipe_name": "Barraca do Mercado de Argila",
 					"flavor": "'Cut off his hand? For theft? What would be the point?' --Talidor Roq, Knight of Mysteries "
 				},
 				"clay_tunnel_door_recipe": {
 					"description": "Útil para selar os túneis de minas.",
-					"recipe_name": "Clay Tunnel Door",
+					"recipe_name": "Porta do Túnel de Argila",
 					"flavor": "Speak friend and enter.... oh no wait it's not locked. - Eber, Potter's Apprentice"
 				},
 				"tan_latticed_window_recipe": {
-					"recipe_name": "Tan Latticed Window",
-					"description": "The latticed window you know and love, in tan",
+					"recipe_name": "Janela com Treliça Marrom",
+					"description": "A janela de treliça que você conhece e ama, bronzeada",
 					"flavor": "\"Lets in the bugs, but at least not the really big ones!\" -- Drenkar Iskender, Ex-Marketing Associate"
 				},
 				"tall_clay_window_recipe": {
-					"recipe_name": "Tall Clay Window",
-					"description": "Still lets in the soft desert air",
+					"recipe_name": "Janela de Argila Alta",
+					"description": "Ainda deixa entrar o ar suave do deserto",
 					"flavor": "\"Windowsill can cool a really tall pie\" -Aaryn, Pragmatist"
 				},
 				"tan_clay_window_frame_recipe": {
 					"flavor": "\"No, I didn't forget the dye.\" -Isfan Dorret, Inventor of Achromatism",
-					"recipe_name": "Tan Clay Window Frame",
-					"description": "Lets the sun in"
+					"recipe_name": "Moldura de Janela de Argila Castanho",
+					"description": "Deixa o sol entrar"
 				},
 				"green_latticed_window_recipe": {
-					"recipe_name": "Green Latticed Window",
+					"recipe_name": "Janela Treliça Verde",
 					"flavor": "Reminicent of a vine-covered treehouse window, faded into memory",
-					"description": "The latticed window you know and love, now in green!"
+					"description": "A janela de treliça que você conhece e ama, agora em verde!"
 				},
 				"blue_latticed_window_recipe": {
-					"recipe_name": "Blue Latticed Window",
-					"description": "A soothing blue latticed window",
+					"recipe_name": "Janela de Treliça Azul",
+					"description": "Uma janela azul reconfortante",
 					"flavor": "\"No but really, where is this dye coming from?\" -- Farah, Professional Bugcatcher"
 				},
 				"wooden_sign_potter_recipe": {
 					"flavor": "Less fragile and easier than hanging a real pot!"
 				},
 				"output_box_clay_recipe": {
-					"recipe_name": "Clay Finished Work Shelf",
+					"recipe_name": "Prateleira de Trabalho com Argila",
 					"description": "Temporary storage for freshly-crafted items.",
 					"flavor": "Crafters love to show off their work!"
 				},
 				"input_bin_clay_recipe": {
-					"recipe_name": "Ceramic Supply Basin",
+					"recipe_name": "Cesta de Abastecimento de Cerâmica",
 					"description": "A versatile container for any resource, to help keep crafters supplied.",
 					"flavor": "Think of what we can achieve when Hearthlings work together!"
 				},
@@ -18497,31 +18497,31 @@
 				"clay_fence_bar_double_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Clay Fence Long",
-					"flavor": "More decorative than protective."
+					"flavor": "Mais decorativo do que protetor."
 				},
 				"clay_fence_bar_single_recipe": {
 					"description": "Keeps people off your property.",
 					"recipe_name": "Clay Fence Short",
-					"flavor": "More decorative than protective."
+					"flavor": "Mais decorativo do que protetor."
 				},
 				"clay_fence_end_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Clay Fence Post",
-					"flavor": "More decorative than protective."
+					"recipe_name": "Poste de Cerca de Argila ",
+					"flavor": "Mais decorativo do que protetor."
 				},
 				"clay_fence_gate_recipe": {
 					"description": "Lets people through your fence.",
-					"recipe_name": "Clay Fence Gate",
-					"flavor": "This decorative gate protects your fences from being broken."
+					"recipe_name": "Portão de Cerca de Argila",
+					"flavor": "Este portão decorativo protege suas cercas de serem quebradas."
 				},
 				"clay_fence_combo_recipe": {
 					"description": "Keeps people off your property.",
-					"recipe_name": "Clay Fence Combo",
-					"flavor": "More decorative than protective."
+					"recipe_name": "Combinação de Cerca de Argila",
+					"flavor": "Mais decorativo do que protetor."
 				},
 				"market_shelf_tall_ground_clay": {
 					"description": "Other players and Travellers can buy goods stocked on these shelves.",
-					"recipe_name": "Market Trading Shelf",
+					"recipe_name": "Plataforma de Negociação no Mercado",
 					"flavor": "One Hearthling's trash is another's treasure... right?"
 				}
 			},
@@ -18732,8 +18732,8 @@
 					"flavor": "The style of weave requires deep concentration and quick, quick little paws"
 				},
 				"amberstone_painting_branch_recipe": {
-					"description": "Depicts a tree from cycles past",
-					"recipe_name": "Flowering Painting",
+					"description": "Retrata uma árvore de ciclos passados",
+					"recipe_name": "Pintura Com Flores",
 					"flavor": "What they could not bring with them into exile, the rabbits found ways to preserve"
 				},
 				"banner_wall_big_recipe": {
@@ -18768,7 +18768,7 @@
 				},
 				"fur_rug_recipe": {
 					"description": "A warm and cozy rug, sewn from various animal pelts.",
-					"recipe_name": "Fur Rug",
+					"recipe_name": "Tapete de Pele",
 					"flavor": "Perfect for an evening by the fire."
 				},
 				"leather_bolt_recipe": {
@@ -18799,8 +18799,8 @@
 					"flavor": "Each gram of fiber yearns to become a sweater."
 				},
 				"tapestry_wall_recipe": {
-					"description": "A decorative scene, woven in colored thread and cord.",
-					"recipe_name": "Wall-Mounted Tapestry",
+					"description": "Uma cena decorativa, tecida em fios e cordões coloridos.",
+					"recipe_name": "Tapeçaria de Parede",
 					"flavor": "What you see in its knotted depths tells you something about yourself."
 				},
 				"thread_recipe": {
@@ -18809,8 +18809,8 @@
 					"flavor": "Each gram of fiber yearns to become a sweater."
 				},
 				"throw_rug_recipe": {
-					"description": "Brightens up that old dusty floor.",
-					"recipe_name": "Decorative Throw Rug",
+					"description": "Ilumina aquele velho piso empoeirado.",
+					"recipe_name": "Tapete Decorativo Decorativo",
 					"flavor": "Too beautiful to step on."
 				},
 				"worker_outfit_2_recipe": {
@@ -18862,7 +18862,7 @@
 					"flavor": "Would-be masons of clan amberstone must practice discerning quality stone for many years before they are allowed near a chisel. Many never are."
 				},
 				"input_bin_woven_recipe": {
-					"recipe_name": "Woven Supply Basket",
+					"recipe_name": "Cesto de Suprimentos de Tecido",
 					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
 					"flavor": "Nothing quite like a well-supplied workshop!"
 				},
@@ -19162,33 +19162,33 @@
 					"recipe_name": "Potted Berry Bush"
 				},
 				"pot_goldrose_recipe": {
-					"description": "Hearty yellow blossoms",
-					"recipe_name": "Goldrose Bush",
+					"description": "Flores amarelas saudáveis",
+					"recipe_name": "Arbusto de Goldrose",
 					"flavor": "Goldrose tea is an old-fashioned pick-me-up. It apparently tastes different for everyone."
 				},
 				"pot_moondrop_recipe": {
-					"description": "Silvery and serene",
-					"recipe_name": "Moondrop Bush",
+					"description": "Prateado e sereno",
+					"recipe_name": "Arbusto de Moondrop",
 					"flavor": "Never press or dry the flowers. Enjoy them now, and look forward to the next ones."
 				},
 				"pot_redbloom_recipe": {
-					"description": "A rosy shrub",
-					"recipe_name": "Redbloom Bush",
+					"description": "Um arbusto rosado",
+					"recipe_name": "Arbusto de Redbloom",
 					"flavor": "A Redbloom bouquet invites fortune, the nature of which depends on the number of flowers. Be very careful."
 				},
 				"tree_goldrose_recipe": {
-					"description": "Aglow with golden blossoms",
-					"recipe_name": "Goldrose Tree",
+					"description": "Brilha com flores douradas",
+					"recipe_name": "Árvore de Goldrose",
 					"flavor": "Favored among travelers, goldroses carry the warmth of hearth and home"
 				},
 				"tree_moondrop_recipe": {
-					"description": "Dazzling in the moment",
-					"recipe_name": "Moondrop Tree",
+					"description": "Deslumbrante no momento",
+					"recipe_name": "Árvore do Moondrop",
 					"flavor": "Moondrops symbolize a journey's close, and new beginnings. They bloom at the turn of the page"
 				},
 				"tree_redbloom_recipe": {
 					"description": "Meticulously well tended",
-					"recipe_name": "Redbloom Tree",
+					"recipe_name": "Árvore Redbloom",
 					"flavor": "Redblooms are for luck. An odd number of petals is especially lucky, though no one's ever seen such a blossom."
 				},
 				"leaf_setting_recipe": {
