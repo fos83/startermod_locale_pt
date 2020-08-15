@@ -480,7 +480,7 @@
 				"num_uses": "Utilizações",
 				"placed": "colocados",
 				"placement_tags": {
-					"Torre": "Torres",
+					"turret": "Torres",
 					"trap": "Armadilhas",
 					"golem": "Golens"
 				},
@@ -17988,23 +17988,23 @@
 				},
 				"input_corner_ground_stone_recipe": {
 					"recipe_name": "Stonework Corner Supply Rack",
-					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"description": "Um recipiente versátil para qualquer recurso, para ajudar a manter os artesãos abastecidos.",
+					"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
 				},
 				"input_table_ground_stone_recipe": {
 					"recipe_name": "Stonework Supply Table",
-					"description": "A versatile container for any resource, to help keep crafters supplied.",
-					"flavor": "Think of what we can achieve when Hearthlings work together!"
+					"description": "Um recipiente versátil para qualquer recurso, para ajudar a manter os artesãos abastecidos.",
+					"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
 				},
 				"sign_mason_recipe": {
-					"description": "A heavy stone sign, to be displayed outside a mason's workshop",
+					"description": "Uma placa de pedra pesada, exibida fora da oficina de um pedreiro",
 					"recipe_name": "Palca da Loja de Pedreiro",
-					"flavor": "Probably wouldn't even swing in a hurricane"
+					"flavor": "Provavelmente nem balançaria em um furacão"
 				},
 				"statue_rabbit_flat_recipe": {
 					"description": "Ears down!!",
 					"recipe_name": "Coelho de Pedra Plana",
-					"flavor": "It's considered lucky to stack a vegetable from each harvest on these statues' backs - lucky for the real rabbits, anyway."
+					"flavor": "É considerado sorte empilhar um vegetal de cada colheita nas costas dessas estátuas - sorte para os coelhos de verdade, pelo menos."
 				},
 				"statue_rabbit_recipe": {
 					"description": "Ears up!!",
@@ -18181,12 +18181,12 @@
 				"stone_floor_candle_holder_recipe": {
 					"description": "Iluminação de um tempo mais simplier.",
 					"recipe_name": "Suporte de Vela de Chão de Pedra",
-					"flavor": "Romantic for some, spookily haunted for others."
+					"flavor": "Romântico para alguns, assustadoramente assombrado para outros."
 				},
 				"golem_parts_recipe": {
-					"description": "Used by the Geomancer to craft golems",
-					"recipe_name": "Golem Parts",
-					"flavor": "Sturdy enough to hold an ox."
+					"description": "Usado pelo Geomancer para criar golens",
+					"recipe_name": "Parte de Golem",
+					"flavor": "Robusto o suficiente para segurar um boi."
 				},
 				"window_box_violet_recipe": {
 					"description": "A planter box full of Violet flowers, built to be placed below window frames.",
@@ -18194,9 +18194,9 @@
 					"flavor": "The capstone of a civilized dwelling."
 				},
 				"market_shelf_tall_ground_stone": {
-					"description": "Other players and Travellers can buy goods stocked on these shelves.",
+					"description": "Outros jogadores e viajantes podem comprar produtos estocados nessas prateleiras.",
 					"recipe_name": "Plataforma de Negociação no Mercado",
-					"flavor": "One Hearthling's trash is another's treasure... right?"
+					"flavor": "O lixo de um Hearthling é o tesouro de outro ... certo?"
 				}
 			}
 		},
@@ -18215,7 +18215,7 @@
 				"workshop": {
 					"name": "Potter's Wheel",
 					"description": "insert description here",
-					"long_description": "The Potter crafts useful goods and decorative items from clay."
+					"long_description": "O Oleiro fabrica bens úteis e itens decorativos de argila."
 				},
 				"level_3_data": {
 					"perk_000_name": "Journeyman's Knowledge",
@@ -18553,23 +18553,23 @@
 		"shepherd": {
 			"shepherd_description": {
 				"display_name": "Pastor",
-				"description": "Domesticates wild animals and harvests them for food and materials.",
-				"requirements": "Crafted by Carpenter",
+				"description": "Domestica animais selvagens e os recolhe para alimentação e materiais.",
+				"requirements": "Criado pelo Carpinteiro",
 				"level_4_data": {
 					"perk_000_name": "Animal Magnetism",
-					"perk_000_description": "Wild animals are more likely to appear whenever the shepherd is looking for them."
+					"perk_000_description": "Os animais selvagens têm maior probabilidade de aparecer sempre que o pastor estiver procurando por eles."
 				},
 				"level_1_data": {
 					"perk_000_name": "Speed Up",
-					"perk_000_description": "The shepherd is now more adept at getting the flock to walk a tiny bit faster."
+					"perk_000_description": "O pastor agora está mais apto a fazer o rebanho andar um pouco mais rápido."
 				},
 				"level_2_data": {
-					"perk_000_name": "Alone With Nature",
-					"perk_000_description": "The shepherd finds comfort in long walks and feeding the animals, making them less likely to stop and converse."
+					"perk_000_name": "Sozinho com a natureza",
+					"perk_000_description": "O pastor encontra conforto em longas caminhadas e na alimentação dos animais, tornando-os menos propensos a parar e conversar."
 				},
 				"level_3_data": {
 					"perk_000_name": "Extra Bonuses",
-					"perk_000_description": "The shepherd's skill produces greater yields in animal products."
+					"perk_000_description": "A habilidade do pastor produz maiores rendimentos em produtos animais."
 				},
 				"level_6_data": {
 					"title": "Pastor (Mestre)"
@@ -18640,12 +18640,12 @@
 			},
 			"snare_trap": {
 				"display_name": "Snare Trap",
-				"description": "Safely immobilizes its prey"
+				"description": "Imobiliza com segurança sua presa"
 			},
 			"trapper_buffs": {
 				"speed_1_buff": {
-					"description": "Long walks have increased the trapper's foot speed.",
-					"display_name": "Trapper Speed Increase +10"
+					"description": "Caminhadas longas aumentaram a velocidade do caçador.",
+					"display_name": "Aumento de velocidade do caçador +10"
 				},
 				"survivalist_1_buff": {
 					"display_name": "Trapper Incapacitate Time Up",
@@ -18657,19 +18657,19 @@
 				"description": "A trapper's knife",
 				"trapper_knife_iconic": {
 					"display_name": "Faca do Caçador",
-					"description": "Basic trapper's knife."
+					"description": "Faca de caçador básica."
 				},
 				"trapper_knife_talisman": {
 					"display_name": "Faca do Caçador",
-					"description": "Required to promote a hearthling into a Trapper."
+					"description": "Necessário para promover um hearthling a um caçador."
 				}
 			},
 			"trapper_outfit": {
-				"display_name": "Trapper Oufit"
+				"display_name": "Roupa de Caçador"
 			},
 			"trapping_grounds": {
-				"display_name": "Trapping Grounds",
-				"description": "Trappers catch critters for food and resources in this zone."
+				"display_name": "Campos de armadilha",
+				"description": "Os caçadores pegam criaturas para obter alimentos e recursos nesta zona."
 			}
 		},
 		"treasure_hunter": {
@@ -18688,33 +18688,33 @@
 		"weaver": {
 			"weaver_description": {
 				"display_name": "Tecelão",
-				"description": "The Weaver makes thread, fabrics and hangings from fiber and dye.",
-				"requirements": "Crafted by Carpenter",
+				"description": "O Tecelão fabrica fios, tecidos, cortinas de fibra e tintura.",
+				"requirements": "Criado pelo Carpinteiro",
 				"level_6_data": {
 					"title": "Tecelão (Mestre)"
 				},
 				"level_2_data": {
-					"perk_000_name": "Collaborative Insight",
-					"perk_000_description": "The Weaver is now skillful enough to use materials created by other crafters."
+					"perk_000_name": "Visão colaborativa",
+					"perk_000_description": "O Artesão agora é habilidoso o suficiente para usar materiais criados por outros artesãos."
 				},
 				"level_1_data": {
-					"perk_000_name": "Standard Catalog",
-					"perk_000_description": "The Weaver can now make basic hangings and decor."
+					"perk_000_name": "Catálogo Padrão",
+					"perk_000_description": "O Tecelão agora pode fazer tapeçarias e decorações básicas."
 				},
 				"level_3_data": {
 					"perk_000_name": "Journeyman's Knowledge",
-					"perk_000_description": "When inspiration strikes, the Weaver may now craft an especially Fine quality of item. (Not implemented for clothing yet!)"
+					"perk_000_description": "Quando a inspiração bate, o Tecelão pode agora criar um item de qualidade especialmente fina. (Ainda não implementado para roupas!)"
 				},
 				"level_5_data": {
 					"perk_000_name": "Master's Insight",
-					"perk_000_description": "The Weaver can now create items of Excellent quality, and will make Fine quality items more often. (Not implemented for clothing yet!)"
+					"perk_000_description": "O Tecelão agora pode criar itens de excelente qualidade e fará itens de qualidade Fina com mais frequência. (Ainda não implementado para roupas!)"
 				}
 			},
 			"recipes": {
 				"amberstone_bed_recipe": {
 					"description": "Tão macio!!",
 					"recipe_name": "Cama Tecida",
-					"flavor": "Why is it so soft?!??"
+					"flavor": "Por que é tão macio?!?!"
 				},
 				"amberstone_chair_recipe": {
 					"description": "Tecido no estilo do clã Amberstone",
@@ -18722,9 +18722,9 @@
 					"flavor": "Designed especially to keep fluffy bunny tails off of cold, stone floors"
 				},
 				"amberstone_chest_recipe": {
-					"description": "Stores up to 64 items",
+					"description": "Armazena até 64 itens",
 					"recipe_name": "Woven chest",
-					"flavor": "A tidy space is a happy space!"
+					"flavor": "Um espaço arrumado é um espaço feliz!"
 				},
 				"amberstone_mat_recipe": {
 					"description": "Woven with the skill of the rabbits",
@@ -18734,25 +18734,25 @@
 				"amberstone_painting_branch_recipe": {
 					"description": "Retrata uma árvore de ciclos passados",
 					"recipe_name": "Pintura Com Flores",
-					"flavor": "What they could not bring with them into exile, the rabbits found ways to preserve"
+					"flavor": "O que eles não puderam levar para o exílio, os coelhos encontraram maneiras de preservar"
 				},
 				"banner_wall_big_recipe": {
-					"description": "Show your town pride with this decorative banner.",
+					"description": "Mostre seu orgulho da cidade com esta bandeira decorativa.",
 					"recipe_name": "Big Wall-Mounted Banner",
 					"flavor": "Also a sign of affluence."
 				},
 				"banner_wall_small_recipe": {
-					"description": "Show your town pride with this small banner.",
+					"description": "Mostre o orgulho da sua cidade com está bandeira.",
 					"recipe_name": "Small Wall-Mounted Banner",
 					"flavor": "Quality craftsmanship at fine resolutions."
 				},
 				"bolt_of_cloth_recipe": {
-					"description": "Used to create more comfortable furniture.",
+					"description": "Usado para criar móveis mais confortáveis.",
 					"recipe_name": "Basic Bolt of Cloth",
 					"flavor": "To make thicker by the width of one string: add string. Repeat 1,000,000 times."
 				},
 				"cloth_bolt_recipe": {
-					"description": "Used to create more comfortable furniture.",
+					"description": "Usado para criar móveis mais confortáveis.",
 					"recipe_name": "Bolt of Cloth",
 					"flavor": "To make thicker by the width of one string: add string. Repeat 1,000,000 times."
 				},
@@ -18786,17 +18786,17 @@
 					"recipe_name": "Plushie Toy Rabbit",
 					"flavor": "She loves you!"
 				},
-				"weapons_name": "Weapons",
-				"clothing_armor_name": "Clothing & Armor",
-				"toys_name": "Toys",
-				"storage_name": "Storage",
-				"decorations_name": "Decorations",
-				"furniture_name": "Furniture",
-				"crafting_materials_name": "Crafting Materials",
+				"weapons_name": "Armas",
+				"clothing_armor_name": "Roupas e Armaduras",
+				"toys_name": "Brinquedos",
+				"storage_name": "Armazenamento",
+				"decorations_name": "Decorações",
+				"furniture_name": "Mobília",
+				"crafting_materials_name": "Materiais de Fabricação",
 				"spool_of_thread_recipe": {
-					"description": "Needed for cloth. Warm and fluffy",
-					"recipe_name": "Spool of Thread",
-					"flavor": "Each gram of fiber yearns to become a sweater."
+					"description": "Necessário para tecidos. Quente e fofo",
+					"recipe_name": "Carretel de linha",
+					"flavor": "Cada grama de fibra anseia por se tornar um suéter."
 				},
 				"tapestry_wall_recipe": {
 					"description": "Uma cena decorativa, tecida em fios e cordões coloridos.",
@@ -18811,12 +18811,12 @@
 				"throw_rug_recipe": {
 					"description": "Ilumina aquele velho piso empoeirado.",
 					"recipe_name": "Tapete Decorativo Decorativo",
-					"flavor": "Too beautiful to step on."
+					"flavor": "Muito bonito para pisar."
 				},
 				"worker_outfit_2_recipe": {
-					"description": "Double stitching and strategically placed padding improves the worker's efficiency. The worker who dons this upgrade outfit will move faster.",
+					"description": "Costura dupla e acolchoamento estrategicamente colocado aumentam a eficiência do trabalhador. O trabalhador que veste esta roupa de atualização se moverá mais rápido.",
 					"recipe_name": "Upgraded Worker Outfit",
-					"flavor": "Your town loves you!"
+					"flavor": "Sua cidade te ama!"
 				},
 				"worker_outfit_winter_recipe": {
 					"description": "A heavy wool coat, for cold winter nights. The worker who dons this upgrade outfit will move faster.",
@@ -18858,17 +18858,17 @@
 				},
 				"input_bin_amberstone_recipe": {
 					"recipe_name": "Rabbit-woven Supply Basket",
-					"description": "Safely stores crafting supplies",
+					"description": "Armazena com segurança suprimentos de artesanato",
 					"flavor": "Would-be masons of clan amberstone must practice discerning quality stone for many years before they are allowed near a chisel. Many never are."
 				},
 				"input_bin_woven_recipe": {
 					"recipe_name": "Cesto de Suprimentos de Tecido",
-					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+					"description": "Um recipiente versátil que os Hearthlings tentarão manter cheio, para que seus artesãos possam continuar trabalhando!",
 					"flavor": "Nothing quite like a well-supplied workshop!"
 				},
 				"input_bin_woven_blue_recipe": {
 					"flavor": "Nothing quite like a well-supplied workshop!",
-					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
+					"description": "Um recipiente versátil que os Hearthlings tentarão manter cheio, para que seus artesãos possam continuar trabalhando!",
 					"recipe_name": "Blue Woven Supply Basket"
 				},
 				"input_bin_woven_green_recipe": {
@@ -19197,27 +19197,27 @@
 					"flavor": "Cast from actual leaves in layers of silver and gold, they're stronger than they look"
 				},
 				"violet_transmute_recipe": {
-					"description": "Pluck the seeds from the flower",
+					"description": "Arrancar as sementes das flores",
 					"recipe_name": "Violet Seeds (x3)",
 					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				},
 				"tumbleweed_transmute_recipe": {
-					"description": "Pluck spare seeds from the fiber",
+					"description": "Arrancar sementes sobressalentes das fibras",
 					"recipe_name": "Tumbleweed Seeds (x3)",
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
 				},
 				"wintermoss_transmute_recipe": {
-					"description": "Pluck spare seeds from the fiber",
+					"description": "Arrancar sementes sobressalentes das fibras",
 					"recipe_name": "Wintermoss Seeds (x3)",
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
 				},
 				"sweet_potato_transmute_recipe": {
-					"description": "Potatoes can be cut up and planted",
+					"description": "As batatas podem ser cortadas e plantadas",
 					"recipe_name": "Sweet Potato Slips (x3)",
 					"flavor": "This doesn't require so much of a skilled hand as simply cutting the potatoes into wedges and sticking them into the ground."
 				},
 				"snow_poppy_transmute_recipe": {
-					"description": "Pluck the seeds from the flower",
+					"description": "Arrancar as sementes das flores",
 					"recipe_name": "Snow Poppy Seeds (x3)",
 					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				}
@@ -19240,7 +19240,7 @@
 		"cleric": {
 			"cleric_outfit": {
 				"display_name": "Cleric's Robes",
-				"description": "Holy garb worn by the devout few"
+				"description": "Traje sagrado usado por poucos devotos"
 			},
 			"cleric_description": {
 				"display_name": "Clérigo",
@@ -19316,7 +19316,7 @@
 				},
 				"major_muscle_aura_buff": {
 					"display_name": "Major Strength Aura",
-					"description": "Greatly increases the muscle of those around"
+					"description": "Aumenta muito os músculos das pessoas ao redor"
 				},
 				"major_muscle_aura_effect_buff": {
 					"display_name": "Major Strength",
@@ -19324,7 +19324,7 @@
 				},
 				"legendary_circlet_buff": {
 					"display_name": "Círculo Brilhante",
-					"description": "Increases Willpower, Courage, and Compassion by 10%"
+					"description": "Aumenta a Força de Vontade, Coragem e Compaixão em 10%"
 				},
 				"wolf_helmet_buff": {
 					"display_name": "Hunter's Awareness",
@@ -19335,12 +19335,12 @@
 		"magmasmith": {
 			"magmasmith_outfit": {
 				"display_name": "Magmasmith Outfit ",
-				"description": "Traditional uniform of the Magmasmith. "
+				"description": "Uniforme tradicional do Magmasmith. "
 			},
 			"magmasmith_hammer": {
 				"magmasmith_hammer_talisman": {
 					"display_name": "Magmasmith's Hammer ",
-					"description": "Required to promote a hearthling to a Magmasmith "
+					"description": "Necessário para promover um hearthling para um Magmasmith "
 				},
 				"display_name": "Magmasmith's Hammer ",
 				"description": "Lava to the face "
@@ -19348,7 +19348,7 @@
 			"magmasmith_forge": {
 				"magmasmith_forge_ghost": {
 					"display_name": "Magmasmith Forge ",
-					"description": "Like a normal forge, except a lot hotter "
+					"description": "Como uma forja normal, porém muito mais quente "
 				}
 			},
 			"magmasmith_workbench": {
@@ -19359,7 +19359,7 @@
 			},
 			"magmasmith_description": {
 				"display_name": "Magmasmith ",
-				"description": "Crafts from magma ",
+				"description": "Artesanato de magma ",
 				"requirements": "Level 2 blacksmith and Magmasmith's hammer "
 			},
 			"recipes": {
@@ -19368,8 +19368,8 @@
 		},
 		"knight": {
 			"knight_outfit": {
-				"display_name": "Knight's Armor",
-				"description": "Metal armor worn by a knight"
+				"display_name": "Armadura de Cavaleiro",
+				"description": "Armadura de metal usada por um cavaleiro"
 			},
 			"knight_description": {
 				"display_name": "Cavaleiro",
@@ -19378,28 +19378,28 @@
 				"level_1_data": {
 					"perk_000_name": "Fortify",
 					"perk_001_name": "Damage Reduction Rank 1",
-					"perk_000_description": "Increases Stamina, Courage, and draws attention from monsters",
-					"perk_001_description": "The knight gains an additional 10% defense from equipment"
+					"perk_000_description": "Aumenta o vigor, a coragem e atrai a atenção dos monstros",
+					"perk_001_description": "O cavaleiro ganha uma defesa adicional de 10% do equipamento"
 				},
 				"level_4_data": {
 					"perk_000_name": "Damage Reduction Rank 2",
-					"perk_000_description": "The knight gains an additional 20% armor from equipment"
+					"perk_000_description": "O cavaleiro ganha uma armadura adicional de 20% do equipamento"
 				},
 				"level_3_data": {
 					"perk_000_name": "Fortify (Rank 2)",
-					"perk_000_description": "Stamina and Courage increased greatly"
+					"perk_000_description": "Vigor e coragem aumentaram muito"
 				},
 				"level_5_data": {
-					"perk_000_name": "Inspiring Presence",
-					"perk_000_description": "The knight boosts courage of everyone around"
+					"perk_000_name": "Presença Inspiradora",
+					"perk_000_description": "O cavaleiro aumenta a coragem de todos ao redor"
 				},
 				"level_2_data": {
-					"perk_000_name": "Shout",
-					"perk_000_description": "The knight intimidates the opponent, drawing the attention of nearby enemies."
+					"perk_000_name": "Gritar",
+					"perk_000_description": "O cavaleiro intimida o oponente, chamando a atenção dos inimigos próximos."
 				},
 				"level_6_data": {
 					"perk_000_name": "Hero's Horn",
-					"perk_000_description": "The knight sounds a horn of combat, drawing the attention enemies both near and far"
+					"perk_000_description": "O cavaleiro soa uma buzina de combate, chamando a atenção de inimigos próximos e distantes"
 				}
 			},
 			"knight_buffs": {
@@ -19413,19 +19413,19 @@
 				},
 				"health_1_buff": {
 					"display_name": "Fortify",
-					"description": "The knight becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+					"description": "O cavaleiro se torna mais ameaçador para os inimigos, chamando sua atenção no combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
 				},
 				"health_2_buff": {
 					"display_name": "Fortify (Rank 2)",
-					"description": "More fast, more furious"
+					"description": "Mais rápido, mais furioso"
 				},
 				"courage_aura_buff": {
-					"display_name": "Inspiring Presence",
-					"description": "The knight increases courage of everyone around"
+					"display_name": "Presença Inspiradora",
+					"description": "O cavaleiro aumenta a coragem de todos ao seu redor"
 				},
 				"courage_aura_effect_buff": {
-					"display_name": "Inspired",
-					"description": "Courage increased from the presence of a knight."
+					"display_name": "Inspirado",
+					"description": "A coragem aumentou com a presença de um cavaleiro."
 				}
 			},
 			"knight_helm": {
