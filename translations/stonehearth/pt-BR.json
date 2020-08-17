@@ -16405,38 +16405,38 @@
 				"candle_iron_recipe": {
 					"description": "Que haja luz!",
 					"recipe_name": "Iron Candle-holder",
-					"flavor": "Never light and leave unattended"
+					"flavor": "Nunca acenda e deixe sem vigilância"
 				},
 				"candle_iron_double_recipe": {
-					"description": "Let there be more light!",
+					"description": "Que haja mais luz!",
 					"recipe_name": "Candelabros de Ferro",
-					"flavor": "A stately fixture that belongs wherever Hearthlings gather"
+					"flavor": "Uma instalação imponente que pertence a qualquer lugar onde os Hearthlings se reúnem"
 				},
 				"construction_name": "Construction",
 				"door_blacksmith_recipe": {
 					"description": "Apto para uma oficina de ferreiro mestre",
 					"recipe_name": "Porta do Ferreiro",
-					"flavor": "You can feel the heat coming through the door"
+					"flavor": "Você pode sentir o calor entrando pela porta"
 				},
 				"lamppost_upscale_double_recipe": {
 					"description": "Adorável iluminação para qualquer caminho ou passeio",
 					"recipe_name": "Poste de Ferro Duplo",
-					"flavor": "More light probably means more style. Probably"
+					"flavor": "Mais luz provavelmente significa mais estilo. Provavelmente"
 				},
 				"lamppost_upscale_recipe": {
 					"description": "Adorável iluminação para qualquer caminho ou passeio",
 					"recipe_name": "Poste de Luz de Ferro",
-					"flavor": "Stylish enough to make even the most stubborn poyo think twice about roosting on it"
+					"flavor": "Elegante o suficiente para fazer até o poyo mais teimoso pensar duas vezes antes de empoleirar-se nele"
 				},
 				"lantern_poyo_recipe": {
 					"description": "Orbe de luz de bronze feliz",
 					"recipe_name": "Lanterna Poyo",
-					"flavor": "Light as soft and warm as a poyo feather blanket"
+					"flavor": "Leve, suave e quente como um cobertor de penas de poyo"
 				},
 				"weathervane_poyo_recipe": {
 					"description": "Um cata-vento parecido com um poyo",
 					"recipe_name": "Twirlybird",
-					"flavor": "Spins in the winds and never ever gets dizzy"
+					"flavor": "Gira com o vento e nunca fica tonto"
 				},
 				"valor_torch_recipe": {
 					"description": "Sua chama traz uma sensação calorosa de orgulho por tudo o que conquistamos.",
@@ -16448,7 +16448,7 @@
 				},
 				"valor_war_horn_recipe": {
 					"description": "Reminiscent of days gone past.",
-					"recipe_name": "Giant Warhorn",
+					"recipe_name": "Chifre de guerra gigante",
 					"flavor": "The sound of a great horn like this should never be taken lightly... thankfully one hasn't sounded in Darkmoor for many years. -- Cid, Knight of the Old Ways"
 				},
 				"steel_frame_recipe": {
@@ -16467,7 +16467,7 @@
 					"flavor": "Channels the very heart and soul into healing light"
 				},
 				"golem_pick_recipe": {
-					"description": "Used by the Geomancer to craft Mole Golems",
+					"description": "Usado pelo Geomancer para criar Mole Golems",
 					"recipe_name": "Golem Pick"
 				}
 			}
@@ -16475,70 +16475,70 @@
 		"carpenter": {
 			"carpenter_description": {
 				"display_name": "Carpinteiro",
-				"description": "The Carpenter crafts tools and furniture from wood. The tools he makes unlocks several other jobs.",
-				"requirements": "Crafted by Blacksmith",
+				"description": "O Carpinteiro fabrica ferramentas e móveis de madeira. As ferramentas que ele fabrica desbloqueiam vários outros trabalhos.",
+				"requirements": "Criado pelo Blacksmith",
 				"level_6_data": {
 					"title": "Carpinteiro (Mestre)",
 					"perk_000_name": "10,000 Hours",
 					"perk_000_description": "The Carpenter's mastery of his trade allows them access to recipes that expand your town's opportunities."
 				},
 				"level_2_data": {
-					"perk_000_name": "Collaborative Insight",
+					"perk_000_name": "Visão colaborativa",
 					"perk_000_description": "The Carpenter is now skillful enough to use materials created by other crafters."
 				},
 				"level_4_data": {
-					"perk_000_name": "Extended Catalog",
-					"perk_000_description": "The Carpenter now has the courage to try more elaborate projects."
+					"perk_000_name": "Catálogo Estendido",
+					"perk_000_description": "O Carpinteiro agora tem coragem de tentar projetos mais elaborados."
 				},
 				"level_1_data": {
-					"perk_000_name": "Standard Catalog",
-					"perk_000_description": "The Carpenter can now make a solid array of basic furniture."
+					"perk_000_name": "Catálogo Padrão",
+					"perk_000_description": "O Carpinteiro agora pode fazer uma série sólida de móveis básicos."
 				},
 				"level_3_data": {
 					"perk_000_name": "Journeyman's Knowledge",
 					"perk_000_description": "When inspiration strikes, the Carpenter may now craft an especially Fine quality of item."
 				},
 				"level_5_data": {
-					"perk_000_name": "Master's Insight",
-					"perk_000_description": "The Carpenter can now create items of Excellent quality, and will make Fine quality items more often."
+					"perk_000_name": "Visão do Mestre",
+					"perk_000_description": "O Carpinteiro agora pode criar itens de excelente qualidade e fará itens de qualidade fina com mais frequência."
 				}
 			},
 			"carpenter_outfit": {
-				"display_name": "Carpenter Overalls",
-				"description": "Uniform for all carpenters"
+				"display_name": "Macacões de carpinteiro",
+				"description": "Uniforme para todos os carpinteiros"
 			},
 			"carpenter_saw": {
 				"display_name": "Serrote do Carpinteiro",
-				"description": "Tools of the trade for a Carpenter.",
+				"description": "Ferramentas profissionais para um carpinteiro.",
 				"carpenter_saw_iconic": {
 					"display_name": "Serrote do Carpinteiro",
-					"description": "Basic level carpenter's saw."
+					"description": "Serra de carpinteiro de nível básico."
 				},
 				"carpenter_saw_talisman": {
 					"display_name": "Serrote do Carpinteiro",
-					"description": "Required to promote a hearthling into a Carpenter."
+					"description": "Necessário para promover um hearthling a Carpinteiro."
 				}
 			},
 			"carpenter_workbench": {
 				"carpenter_workbench_ghost": {
 					"display_name": "Carpenter Workbench",
-					"description": "Used by the Carpenter for crafting."
+					"description": "Usado pelo Carpinteiro para criação."
 				}
 			},
 			"carpenter_toolbench": {
 				"carpenter_toolbench_ghost": {
 					"display_name": "Carpenter Toolbench",
-					"description": "Used to make fancier kinds of furniture."
+					"description": "Usado para fazer tipos de móveis mais sofisticados."
 				}
 			},
 			"recipes": {
 				"arch_backed_chair_recipe": {
-					"description": "Just like a normal chair, except it impresses your neighbors. When sitting, food is 20% more satisfying.",
+					"description": "Exatamente como uma cadeira normal, exceto que impressiona seus vizinhos. Quando sentado, a comida é 20% mais satisfatória.",
 					"recipe_name": "Cathedral-Arch Chair",
-					"flavor": "Design favored by the Church of Plenty."
+					"flavor": "Design favorecido pela Igreja da Plenty."
 				},
 				"comfy_bed_recipe": {
-					"description": "Eight hours will leave you as refreshed as the day you were born.",
+					"description": "Oito horas o deixarão tão revigorado quanto no dia em que nasceu.",
 					"recipe_name": "Cama Confortável",
 					"flavor": "Nobody ever wants to get out. It makes emergency evacuations awkward."
 				},
@@ -17040,32 +17040,32 @@
 				"description": "Uniform for all cooks"
 			},
 			"cook_spoon": {
-				"display_name": "Cook's Spoon",
+				"display_name": "Colher de cozinheiro",
 				"description": "Used by the cook",
 				"cook_spoon_iconic": {
-					"display_name": "Cook's Spoon",
-					"description": "Required to promote a hearthling into a Cook."
+					"display_name": "Colher de cozinheiro",
+					"description": "Necessário para promover um hearthling a cozinheiro."
 				},
 				"cook_spoon_talisman": {
-					"display_name": "Cook's Spoon",
-					"description": "Required to promote a hearthling into a Cook."
+					"display_name": "Colher de cozinheiro",
+					"description": "Necessário para promover um hearthling a cozinheiro."
 				}
 			},
 			"cook_workbench": {
 				"cook_workbench_ghost": {
-					"display_name": "Stone Cauldron",
-					"description": "Used by the Cook for delicious recipes."
+					"display_name": "Caldeirão de Pedra",
+					"description": "Usado pelo cozinheiro para receitas deliciosas."
 				}
 			},
 			"recipes": {
 				"flour_recipe": {
-					"description": "A necessary ingredient for all kinds of bread.",
+					"description": "Um ingrediente necessário para todos os tipos de pão.",
 					"recipe_name": "Saco de Farinha"
 				},
 				"meat_stew_recipe": {
-					"description": "Hearty, satisfying, and perfect to ease the passing of a cold night.",
+					"description": "Farto, satisfatório e perfeito para amenizar a passagem de uma noite fria.",
 					"recipe_name": "Ensopado de Carne Salgado",
-					"flavor": "Before you ask, it's an assortment of meats."
+					"flavor": "Antes que você pergunte, é uma variedade de carnes."
 				},
 				"peasant_bread_recipe": {
 					"description": "Um pão duro e básico.",
@@ -17319,30 +17319,30 @@
 				},
 				"workbenches_name": "Workbenches",
 				"bronze_gear_recipe": {
-					"description": "Used to craft basic gadgets",
+					"description": "Usado para criar gadgets básicos",
 					"recipe_name": "Bronze Gear",
 					"flavor": "Luckily have teeth that don't requiring brushing"
 				},
-				"gadget_parts_name": "Gears and Parts",
+				"gadget_parts_name": "Engrenagens e Peças",
 				"small_turret_recipe": {
-					"description": "After placed, shoots at enemies from a distance. Must be repaired after 20 uses.",
+					"description": "Depois de colocado, atira nos inimigos à distância. Deve ser reparado após 20 utilizações.",
 					"recipe_name": "Torre"
 				},
 				"iron_gear_recipe": {
-					"description": "Used to craft intermediate gadgets",
+					"description": "Usado para criar dispositivos intermediários",
 					"recipe_name": "Iron Gear",
-					"flavor": "Not for use as a throwing star"
+					"flavor": "Não deve ser usado como estrelas ninja"
 				},
 				"clamp_trap_recipe": {
-					"description": "Damages and shortly stuns enemies that step near it",
+					"description": "Danifica e atordoa rapidamente os inimigos que se aproximam",
 					"recipe_name": "Armadilha de Braçadeira"
 				},
-				"ranged_weapons_name": "Ranged Weapons",
-				"traps_name": "Defensive Traps",
+				"ranged_weapons_name": "Armas à Distância",
+				"traps_name": "Armadilhas defensivas",
 				"turnip_shooter_recipe": {
-					"description": "Shoots turnips at enemies from a small distance. Must be repaired after 15 uses.",
+					"description": "Atira nabos nos inimigos de uma pequena distância. Deve ser reparado após 15 usos.",
 					"recipe_name": "Atirador de Nabos",
-					"flavor": "Don't like the taste of turnips? Don't worry, they're multi-functional."
+					"flavor": "Não gosta do sabor dos nabos? Não se preocupe, eles são multifuncionais."
 				},
 				"critter_trap_recipe": {
 					"description": "Deals a small amount of damage and shortly stuns enemies.",
@@ -17350,82 +17350,82 @@
 					"flavor": "A slight annoyance for ogres. A death wish for mice."
 				},
 				"iron_door_recipe": {
-					"description": "Thick, sturdy iron door. Also comes with a thick, sturdy lock.",
+					"description": "Porta de ferro espessa e robusta. Também vem com uma trava grossa e resistente.",
 					"recipe_name": "Porta de Ferro"
 				},
-				"decorations_name": "Decorations",
+				"decorations_name": "Decorações",
 				"wooden_sign_engineer_recipe": {
 					"description": "Uma placa com a marca do engenheiro.",
 					"recipe_name": "Engineer's Wall-Mounted Sign"
 				},
-				"building_parts_name": "Building Parts",
+				"building_parts_name": "Peças de Construção",
 				"bronze_portcullis_recipe": {
 					"description": "Útil para fortalecer pontos de entrada da cidade.",
 					"recipe_name": "Portcullis de Bronze"
 				},
 				"mechanism_recipe": {
-					"description": "The wheels of the Empire Bow",
-					"recipe_name": "Phoenix Mechanism",
+					"description": "As rodas do Empire Bow",
+					"recipe_name": "Mecanismo Phoenix",
 					"flavor": "Speed, power, and precision all in the turn of a gear"
 				}
 			},
 			"engineer_buffs": {
 				"diligence_2_buff": {
 					"display_name": "Diligence +50",
-					"description": "The engineer can repair doors more efficiently"
+					"description": "O engenheiro pode consertar portas com mais eficiência"
 				}
 			},
 			"engineer_helm": {
-				"display_name": "Safety Goggles",
-				"description": "Extra protection for expert eyes"
+				"display_name": "Óculos de segurança",
+				"description": "Proteção extra para olhos experientes"
 			}
 		},
 		"farmer": {
 			"farmer_description": {
 				"display_name": "Agricultor",
-				"description": "Farmers till fields and harvest crops, providing a consistent food supply and raw materials for baked goods.",
-				"requirements": "Crafted by Carpenter",
+				"description": "Os agricultores cultivam os campos e colhem as safras, fornecendo um suprimento consistente de alimentos e matérias-primas para produtos de panificação.",
+				"requirements": "Criado pelo Carpinteiro",
 				"level_6_data": {
 					"title": "Agricultor (Mestre)"
 				},
 				"level_5_data": {
-					"perk_000_name": "Trees for the Forest",
-					"perk_000_description": "The farmer can perform amazing acts of arboreal advancement! (They can grow trees.)"
+					"perk_000_name": "Árvores para a Floresta",
+					"perk_000_description": "O agricultor pode realizar atos incríveis de avanço arbóreo! (Eles podem cultivar árvores.)"
 				},
 				"level_1_data": {
 					"perk_000_name": "Speed Up",
-					"perk_000_description": "Running fresh food from field to table has increased the farmer's footspeed."
+					"perk_000_description": "Levar alimentos frescos do campo à mesa aumentou a velocidade do fazendeiro."
 				},
 				"level_2_data": {
-					"perk_000_name": "Job Opportunities",
-					"perk_000_description": "Exposure to fresh food has given the farmer ideas about cooked food. See the promotion menu for details."
+					"perk_000_name": "Oportunidades de emprego",
+					"perk_000_description": "A exposição a alimentos frescos deu ao fazendeiro ideias sobre alimentos cozidos. Veja o menu de promoção para mais detalhes."
 				},
 				"level_3_data": {
-					"perk_000_name": "Bountiful Harvest",
-					"perk_000_description": "The farmer coaxes greater yield from each plant."
+					"perk_000_name": "Colheita abundante",
+					"perk_000_description": "O agricultor obtém maior rendimento de cada planta."
 				}
 			},
 			"farmer_buffs": {
 				"speed_1_buff": {
 					"description": "Running fresh food from field to table has increased the farmer's footspeed.",
-					"display_name": "Farmer Speed Increase +10"
+					"display_name": "Aumento de velocidade do fazendeiro +10"
 				}
 			},
 			"farmer_hoe": {
 				"display_name": "Enxada do Fazendeiro",
-				"description": "Used to till fields.",
+				"description": "Usado para lavrar campos.",
 				"farmer_hoe_iconic": {
 					"display_name": "Enxada do Fazendeiro",
-					"description": "Required to promote a hearthling into a Farmer."
+					"description": "Necessário para promover um hearthling a fazendeiro."
 				},
 				"farmer_hoe_talisman": {
 					"display_name": "Enxada do Fazendeiro",
-					"description": "Required to promote a hearthling into a Farmer."
+					"description": "Necessário para promover um hearthling a fazendeiro."
 				}
 			},
 			"farmer_outfit": {
 				"display_name": "Farmer Smock",
-				"description": "Standard dress for all farmers"
+				"description": "Vestido padrão para todos os agricultores"
 			},
 			"field": {
 				"display_name": "Fazendinha",
@@ -17435,31 +17435,31 @@
 		"footman": {
 			"footman_description": {
 				"display_name": "Soldado",
-				"description": "The Footman is a melee fighter. A good choice for the backbone of your town's defense.",
-				"requirements": "Crafted by Carpenter",
+				"description": "O Soldado é um lutador corpo a corpo. Uma boa escolha para a espinha dorsal da defesa da sua cidade.",
+				"requirements": "Criado pelo Carpinteiro",
 				"level_4_data": {
 					"perk_000_name": "Damage Up 40%",
-					"perk_000_description": "The footman is now practiced at optimizing the effect of each blow."
+					"perk_000_description": "O soldado agora tem prática em otimizar o efeito de cada golpe."
 				},
 				"level_1_data": {
 					"perk_000_name": "Damage Up 20%",
-					"perk_000_description": "The footman knows that all combats may have mortal consequences, and attacks with renewed determination."
+					"perk_000_description": "O soldado sabe que todos os combates podem ter consequências mortais e ataca com renovada determinação."
 				},
 				"level_3_data": {
 					"perk_000_name": "Power Spike",
-					"perk_000_description": "This powerful, overhead swing deals double damage."
+					"perk_000_description": "Este poderoso golpe aéreo causa o dobro de dano."
 				},
 				"level_6_data": {
 					"perk_000_name": "Damage Up 60%",
-					"perk_000_description": "Maxiumum damage!"
+					"perk_000_description": "Dano máximo!"
 				},
 				"level_2_data": {
 					"perk_000_name": "First Responder",
-					"perk_000_description": "The footman charges into battle with speed"
+					"perk_000_description": "O soldado avança para a batalha com velocidade"
 				},
 				"level_5_data": {
 					"perk_000_name": "Cleave",
-					"perk_000_description": "A slashing strike that deals damage to up to 4 enemies around the footman's target"
+					"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do alvo do soldado"
 				}
 			},
 			"footman_buffs": {
@@ -17501,8 +17501,8 @@
 				}
 			},
 			"footman_outfit": {
-				"display_name": "Military Uniform",
-				"description": "Standard issue gear for all soldiers"
+				"display_name": "Uniforme militar",
+				"description": "Equipamento padrão para todos os soldados"
 			}
 		},
 		"geomancer": {
@@ -18743,8 +18743,8 @@
 				},
 				"banner_wall_small_recipe": {
 					"description": "Mostre o orgulho da sua cidade com está bandeira.",
-					"recipe_name": "Small Wall-Mounted Banner",
-					"flavor": "Quality craftsmanship at fine resolutions."
+					"recipe_name": "Banner pequeno montado na parede",
+					"flavor": "Fabricação de qualidade em resoluções finas."
 				},
 				"bolt_of_cloth_recipe": {
 					"description": "Usado para criar móveis mais confortáveis.",
@@ -18758,18 +18758,18 @@
 				},
 				"cloth_padded_vest_recipe": {
 					"description": "This triple-quilted vest provides more protection to your combat units than mere clothing. Not a lot more, but every little bit helps, right?",
-					"recipe_name": "Padded Vest",
+					"recipe_name": "Colete Acolchoado",
 					"flavor": "Needs... thicker... padding!"
 				},
 				"curtains_recipe": {
 					"description": "Dresses up an otherwise ordinary window.",
-					"recipe_name": "Pretty Curtains",
-					"flavor": "Light-blocking technology encourages sleeping-in."
+					"recipe_name": "Cortinas Bonitas",
+					"flavor": "A tecnologia de bloqueio de luz incentiva dormir até tarde."
 				},
 				"fur_rug_recipe": {
-					"description": "A warm and cozy rug, sewn from various animal pelts.",
+					"description": "Um tapete quente e aconchegante, costurado com várias peles de animais.",
 					"recipe_name": "Tapete de Pele",
-					"flavor": "Perfect for an evening by the fire."
+					"flavor": "Perfeito para uma noite perto da lareira."
 				},
 				"leather_bolt_recipe": {
 					"description": "Prepared sheets of leather, ready to be put to good use.",
@@ -18801,12 +18801,12 @@
 				"tapestry_wall_recipe": {
 					"description": "Uma cena decorativa, tecida em fios e cordões coloridos.",
 					"recipe_name": "Tapeçaria de Parede",
-					"flavor": "What you see in its knotted depths tells you something about yourself."
+					"flavor": "O que você vê em suas profundezas emaranhadas diz algo sobre você."
 				},
 				"thread_recipe": {
-					"description": "Needed for cloth. Warm and fluffy",
-					"recipe_name": "Spool of Thread",
-					"flavor": "Each gram of fiber yearns to become a sweater."
+					"description": "Necessário para tecidos. Quente e fofo",
+					"recipe_name": "Carretel de linha",
+					"flavor": "Cada grama de fibra anseia por se tornar um suéter."
 				},
 				"throw_rug_recipe": {
 					"description": "Ilumina aquele velho piso empoeirado.",
@@ -18819,9 +18819,9 @@
 					"flavor": "Sua cidade te ama!"
 				},
 				"worker_outfit_winter_recipe": {
-					"description": "A heavy wool coat, for cold winter nights. The worker who dons this upgrade outfit will move faster.",
-					"recipe_name": "Winter Worker Outfit",
-					"flavor": "Winter is coming!"
+					"description": "Um casaco pesado de lã, para as noites frias de inverno. O trabalhador que veste esta roupa de atualização se moverá mais rápido.",
+					"recipe_name": "Roupa de trabalhador para o inverno",
+					"flavor": "O inverno está chegando!"
 				},
 				"workbenches_name": "Workbenches",
 				"weaver_loom_recipe": {
@@ -19275,16 +19275,16 @@
 			},
 			"cleric_tome": {
 				"cleric_tome_talisman": {
-					"display_name": "Cleric's Tome",
-					"description": "Required to promote a hearthling to a Cleric"
+					"display_name": "Tomo do Clérigo",
+					"description": "Necessário para promover um hearthling à Clérico"
 				},
 				"display_name": "Tome of Healing",
-				"description": "Contains sacred texts on the way of the cleric"
+				"description": "Contém textos sagrados sobre o caminho do clérigo"
 			},
 			"cleric_buffs": {
 				"heal_aura_1_buff": {
 					"display_name": "Healing Aura",
-					"description": "The cleric's presence heals everyone around them periodically"
+					"description": "A presença do clérigo cura todos ao seu redor periodicamente"
 				},
 				"add_health_small_buff": {
 					"display_name": "Small Heal",
@@ -19292,11 +19292,11 @@
 				},
 				"minor_muscle_aura_buff": {
 					"display_name": "Minor Strength Aura",
-					"description": "Increases strength of those around by a small amount"
+					"description": "Aumenta a força daqueles ao redor em uma pequena quantidade"
 				},
 				"minor_muscle_aura_effect_buff": {
 					"display_name": "Minor Strength",
-					"description": "Strength improved slightly from the presence of a cleric"
+					"description": "A força melhorou ligeiramente com a presença de um clérigo"
 				},
 				"compassion_1_buff": {
 					"display_name": "Compassion Up",
