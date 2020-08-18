@@ -16410,7 +16410,7 @@
 				"candle_iron_double_recipe": {
 					"description": "Que haja mais luz!",
 					"recipe_name": "Candelabros de Ferro",
-					"flavor": "Uma instalação imponente que pertence onde hearthlings se reúnem"
+					"flavor": "Uma instalação imponente que pertence a qualquer lugar onde os Hearthlings se reúnem"
 				},
 				"construction_name": "Construção",
 				"door_blacksmith_recipe": {
@@ -16426,17 +16426,17 @@
 				"lamppost_upscale_recipe": {
 					"description": "Adorável iluminação para qualquer caminho ou passeio",
 					"recipe_name": "Poste de Luz de Ferro",
-					"flavor":"Elegante o suficiente para fazer até mesmo o cocô mais teimoso pensar duas vezes sobre roosting sobre ele"
+					"flavor": "Elegante o suficiente para fazer até o poyo mais teimoso pensar duas vezes antes de empoleirar-se nele"
 				},
 				"lantern_poyo_recipe": {
 					"description": "Orbe de luz de bronze feliz",
 					"recipe_name": "Lanterna Poyo",
-					"flavor": "Leve tão macia e quente como um cobertor de penas de cocô"
+					"flavor": "Leve, suave e quente como um cobertor de penas de poyo"
 				},
 				"weathervane_poyo_recipe": {
 					"description": "Um cata-vento parecido com um poyo",
 					"recipe_name": "Twirlybird",
-					"flavor": "Gira nos ventos e nunca fica tonto"
+					"flavor": "Gira com o vento e nunca fica tonto"
 				},
 				"valor_torch_recipe": {
 					"description": "Sua chama traz uma sensação calorosa de orgulho por tudo o que conquistamos.",
@@ -16448,8 +16448,8 @@
 				},
 				"valor_war_horn_recipe": {
 					"description": "Lembra os dias passados.",
-					"recipe_name": "Warhorn Gigante",
-					"flavor":"O som de uma grande buzina como esta nunca deve ser levado de ânimo leve... felizmente não soa em Darkmoor por muitos anos. - Cid, Cavaleiro dos Velhos Costumes"
+					"recipe_name": "Chifre de Guerra Gigante",
+					"flavor": "O som de uma grande buzina como esta nunca deve ser levado de ânimo leve... felizmente não soa em Darkmoor por muitos anos. - Cid, Cavaleiro dos Velhos Costumes"
 				},
 				"steel_frame_recipe": {
 					"description": "Reforça o Escudo do Gigante.",
@@ -17408,12 +17408,12 @@
 			"farmer_buffs": {
 				"speed_1_buff": {
 					"description": "Running fresh food from field to table has increased the farmer's footspeed.",
-					"display_name": "Aumento da Velocidade do Agricultor +10"
+					"display_name": "Aumento de Velocidade do Fazendeiro +10"
 				}
 			},
 			"farmer_hoe": {
 				"display_name": "Enxada do Fazendeiro",
-				"description": "Acostumado a até campos.",
+				"description": "Usado para lavrar campos.",
 				"farmer_hoe_iconic": {
 					"display_name": "Enxada do Fazendeiro",
 					"description": "Necessário para promover um hearthling a fazendeiro."
@@ -18742,9 +18742,9 @@
 					"flavor": "Also a sign of affluence."
 				},
 				"banner_wall_small_recipe": {
-					"description": "Show your town pride with this small banner.",
-					"recipe_name": "Small Wall-Mounted Banner",
-					"flavor": "Quality craftsmanship at fine resolutions."
+					"description": "Mostre o orgulho da sua cidade com está bandeira.",
+					"recipe_name": "Bandeira Pequeno Fixada na Parede",
+					"flavor": "Fabricação de qualidade em resoluções finas."
 				},
 				"bolt_of_cloth_recipe": {
 					"description": "Used to create more comfortable furniture.",
@@ -18758,18 +18758,18 @@
 				},
 				"cloth_padded_vest_recipe": {
 					"description": "This triple-quilted vest provides more protection to your combat units than mere clothing. Not a lot more, but every little bit helps, right?",
-					"recipe_name": "Padded Vest",
+					"recipe_name": "Colete Acolchoado",
 					"flavor": "Needs... thicker... padding!"
 				},
 				"curtains_recipe": {
 					"description": "Dresses up an otherwise ordinary window.",
-					"recipe_name": "Pretty Curtains",
-					"flavor": "Light-blocking technology encourages sleeping-in."
+					"recipe_name": "Cortinas Bonitas",
+					"flavor": "A tecnologia de bloqueio de luz incentiva dormir até tarde."
 				},
 				"fur_rug_recipe": {
-					"description": "A warm and cozy rug, sewn from various animal pelts.",
+					"description": "Um tapete quente e aconchegante, costurado com várias peles de animais.",
 					"recipe_name": "Tapete de Pele",
-					"flavor": "Perfect for an evening by the fire."
+					"flavor": "Perfeito para uma noite perto da lareira."
 				},
 				"leather_bolt_recipe": {
 					"description": "Prepared sheets of leather, ready to be put to good use.",
@@ -18801,12 +18801,12 @@
 				"tapestry_wall_recipe": {
 					"description": "Uma cena decorativa, tecida em fios e cordões coloridos.",
 					"recipe_name": "Tapeçaria de Parede",
-					"flavor": "What you see in its knotted depths tells you something about yourself."
+					"flavor": "O que você vê em suas profundezas emaranhadas diz algo sobre você."
 				},
 				"thread_recipe": {
-					"description": "Needed for cloth. Warm and fluffy",
-					"recipe_name": "Spool of Thread",
-					"flavor": "Each gram of fiber yearns to become a sweater."
+					"description": "Necessário para tecidos. Quente e fofo",
+					"recipe_name": "Carretel de linha",
+					"flavor": "Cada grama de fibra anseia por se tornar um suéter."
 				},
 				"throw_rug_recipe": {
 					"description": "Ilumina aquele velho piso empoeirado.",
@@ -18819,9 +18819,9 @@
 					"flavor": "Your town loves you!"
 				},
 				"worker_outfit_winter_recipe": {
-					"description": "A heavy wool coat, for cold winter nights. The worker who dons this upgrade outfit will move faster.",
-					"recipe_name": "Roupa de Trabalhador de Inverno",
-					"flavor": "Winter is coming!"
+					"description": "Um casaco pesado de lã, para as noites frias de inverno. O trabalhador que veste esta roupa de atualização se moverá mais rápido.",
+					"recipe_name": "Roupa de Trabalhador Para o Inverno",
+					"flavor": "O inverno está chegando!"
 				},
 				"workbenches_name": "Bancadas",
 				"weaver_loom_recipe": {
@@ -19275,11 +19275,11 @@
 			},
 			"cleric_tome": {
 				"cleric_tome_talisman": {
-					"display_name": "Cleric's Tome",
-					"description": "Required to promote a hearthling to a Cleric"
+					"display_name": "Tomo do Clérigo",
+					"description": "Necessário para promover um hearthling à Clérico"
 				},
 				"display_name": "Tome of Healing",
-				"description": "Contains sacred texts on the way of the cleric"
+				"description": "Contém textos sagrados sobre o caminho do clérigo"
 			},
 			"cleric_buffs": {
 				"heal_aura_1_buff": {
@@ -19292,7 +19292,7 @@
 				},
 				"minor_muscle_aura_buff": {
 					"display_name": "Aura de Força Menor",
-					"description": "Aumenta um pouco a força daqueles ao redor"
+					"description": "Aumenta a força daqueles ao redor em uma pequena quantidade"
 				},
 				"minor_muscle_aura_effect_buff": {
 					"display_name": "Força Menor",
