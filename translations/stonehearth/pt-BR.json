@@ -480,7 +480,7 @@
 				"num_uses": "Utilizações",
 				"placed": "colocados",
 				"placement_tags": {
-					"Torre": "Torres",
+					"turret": "Torres",
 					"trap": "Armadilhas",
 					"golem": "Golens"
 				},
@@ -1534,7 +1534,7 @@
 					"002": "descomprimindo voxels...",
 					"003": "sintetizando fauna...",
 					"004": "redistribuindo redistribuíveis...",
-					"005": "aterrando terreNão...",
+					"005": "aterrando terreno...",
 					"006": "estocando em pilhas...",
 					"007": "crescendo árvores...",
 					"008": "levantando o sol...",
@@ -3453,7 +3453,7 @@
 											"description": "Feito de peles branqueadas."
 										},
 										"ogo": {
-											"description": "Soothsayer diz, Ogo Chosen One, Ogo Cycle-Breaker",
+											"description": "O adivinho diz, Ogo Escolhido, Ogo Disjuntor dos ciclos",
 											"display_name": "Ogo Skullbonker"
 										}
 									},
@@ -3575,7 +3575,7 @@
 													"bulletin_message": {
 														"000": "Ogo, não pode ouvir os sinos? Como a velha memória! Eu não quero mais lutar."
 													},
-													"bulletin_title": "Montanha o Ogro levanta a cabeça para ouvir",
+													"bulletin_title": "Montanha, o Ogro, levanta a cabeça para ouvir",
 													"dialog_title": "Montanha, o Ogro",
 													"choice_000": "Huh."
 												},
@@ -3664,7 +3664,7 @@
 													},
 													"bulletin_title": "Montanha balança sua cabeça gigante",
 													"dialog_title": "Montanha, o Ogro",
-													"choice_000": "No Way!",
+													"choice_000": "De jeito nenhum!",
 													"choice_001": "Vamos ser amigos!"
 												}
 											}
@@ -4049,7 +4049,7 @@
 														"000": "Grek, grek! Você me notou?",
 														"001": "Oo brilha! Gong! Esmeralda!"
 													},
-													"bulletin_title": "Um kobold olha com saudade para suas pilhas de ouro. Um kobold olha com saudade para suas pilhas de ouro.",
+													"bulletin_title": "Um kobold encara ansiosamente suas pilhas de ouro.",
 													"dialog_title": "Kobold Scout",
 													"choice_000": "O que você está fazendo?"
 												},
@@ -4372,13 +4372,13 @@
 													"dialog_title": "Erdene, Orador do Red Kiln",
 													"choice_000": "O que vem depois?"
 												},
-												"Adeus": {
+												"farewell": {
 													"bulletin_message": {
-														"00": "Adeus, bravos humanos. Que sua estrela brilhe cada vez mais, e seja um guia para toda a noite que vem.<br><br><i><font size=-1>[Você pode encontrar o Gong deitado perto da sua Bandeira, ou em seu inventário em 'Decorações']</font></i>"
+														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
 													},
-													"bulletin_title": "Erdene continua",
-													"dialog_title": "Erdene, Orador do Red Kiln",
-													"choice_000": "Adeus, Erdene."
+													"bulletin_title": "Erdene continues",
+													"dialog_title": "Erdene, Speaker of the Red Kiln",
+													"choice_000": "Goodbye, Erdene"
 												},
 												"story1": {
 													"bulletin_message": {
@@ -4447,7 +4447,7 @@
 													"bulletin_message": {
 														"00": "<i><font size=-1>[Selecione o botão Gongo e Pressione o botão 'Despertar Titã' quando estiver pronto. Matar ou destruir os servos, tentáculos e raízes do Titã reduzirá sua saúde.]<br><br>[Boa sorte!]</font>"
 													},
-													"bulletin_title": "Uma nota rabiscada, anexada ao GongoUma nota rabiscada, anexada ao Gongo Sinistro Sinistro",
+													"bulletin_title": "Uma nota rabiscada, anexada ao Gongo Sinistro",
 													"dialog_title": "Uma carta de Erdene",
 													"choice_000": "[Okay!]"
 												},
@@ -4838,7 +4838,7 @@
 													},
 													"bulletin_title": "Marak Azael guffaws",
 													"dialog_title": "Marak Azael, Mestre da Guilda",
-													"choice_000": "Obrigado! Nosso Pedreiro está muito orgulhoso."
+													"choice_000": "Obrigado! Nosso pedreiro está muito orgulhoso."
 												}
 											}
 										}
@@ -5272,7 +5272,7 @@
 													},
 													"bulletin_title": "Sasha sorri",
 													"dialog_title": "Sasha, enviado do Clã Amberstone",
-													"choice_000": "Bye!"
+													"choice_000": "Tchau!"
 												}
 											}
 										}
@@ -5284,7 +5284,7 @@
 													"bulletin_message": {
 														"00": "<i><font size=-1>[Selecione o botão Arbalest e pressione o botão 'Despertar Titã' quando estiver pronto. Uma vez que o Arbalest tenha carregado, aperte o botão Fogo para danificar o Titã. Matar ou destruir os servos, tentáculos e raízes do Titã também reduzirá sua saúde.]<br><br>[Boa sorte!]</font>"
 													},
-													"bulletin_title": "Um Empreendimento Titanic",
+													"bulletin_title": "Um Empreendimento Titânico",
 													"dialog_title": "Últimos Passos",
 													"choice_000": "[Okay!]"
 												},
@@ -5308,7 +5308,7 @@
 													},
 													"bulletin_title": "Sasha continua",
 													"dialog_title": "Sasha, enviado do Clã Amberstone",
-													"choice_000": "Viagens seguras, Sasha!"
+													"choice_000": "Boa viagem, Sasha!"
 												},
 												"request1": {
 													"bulletin_message": {
@@ -5942,7 +5942,7 @@
 														"bulletin_message": {
 															"00": "Duas orelhas longas derramam, a pessoa coelho balançando a cabeça um pouco enquanto eles endireitam.<br><br>\"Saudações honrosas. Sou Sasha Lightfoot, do vigésimo terceiro warren de Amberstone. Peço desculpas pelo engano, mas foi considerado necessário.\""
 														},
-														"bulletin_title":"Outra figura encapuzada visível",
+														"bulletin_title": "Outra figura encapuzada visível",
 														"dialog_title": "Figura Encapuzada",
 														"choice_000": "Eu sabia!",
 														"choice_001": "Acho que isso explica os vegetais..."
@@ -6007,7 +6007,7 @@
 															"002": "\"Eu não estou aqui em negócios oficiais desta vez - um parente meu me ouviu falar de você, e pensou que você poderia ser capaz de usar isso.\"",
 															"003": "\"Um pequeno símbolo de nossa apreciação de nossos amigos do Macaco.\" Ele sorri amigavelmente e estende uma pata para você, segurando:"
 														},
-														"bulletin_title": "Ao Coelho Grato",
+														"bulletin_title": "Um Coelho Grato",
 														"dialog_title": "Sasha Lightfoot",
 														"choice_000": "Oh, obrigado!"
 													}
@@ -6539,7 +6539,7 @@
 														"bulletin_message": {
 															"00": "Sasha returns, followed by your dispatched citizens and a massive, sparkling bow balanced atop a skittering golem.<br><br>\"I have returned, not only with your citizens, but with a completed Crystalline Arbalest, built to the specifications of my ancestors. I... hope it works.\"<br><br>\"Signal your readiness by deploying it, and I'll instruct you in its usage.\""
 														},
-														"bulletin_title": "Uma Empresa Titanic",
+														"bulletin_title": "Um Empreendimento Titânico",
 														"choice_000": "Uau, bom trabalho!"
 													}
 												}
@@ -6683,7 +6683,7 @@
 													},
 													"bulletin_title": "Príncipe Dylan acalma Lily",
 													"dialog_title": "Príncipe Dylan acalma Lily",
-													"choice_000":"A Luz?",
+													"choice_000": "A Luz?",
 													"choice_001": "Uma mão de apoio?"
 												},
 												"greet_lily": {
@@ -7582,7 +7582,7 @@
 				"description": "Limpar ou colher o conteúdo desta trama."
 			},
 			"release_pet": {
-				"display_name": "Release Pet",
+				"display_name": "Soltar Pet",
 				"description": "Diga a esse animal de estimação que você não quer mais."
 			},
 			"remove_ladder": {
@@ -7632,7 +7632,7 @@
 					}
 				},
 				"move_unit": {
-					"display_name": "Move",
+					"display_name": "Mover",
 					"description": "Diga a esse personagem se mover em outro lugar"
 				},
 				"unload_inventory": {
@@ -7645,11 +7645,11 @@
 				"description": "Plante esta árvore em um pouco de terra."
 			},
 			"use_consumable": {
-				"display_name": "Use",
+				"display_name": "Usar",
 				"description": "Use este item de consumo para lustrar cada hearthling na cidade. Isso destruirá o item."
 			},
 			"use_seeds": {
-				"display_name": "Use",
+				"display_name": "Usar",
 				"description": "Use essas sementes para ensinar seus agricultores a cultivar uma nova safra. Isso destruirá o item."
 			},
 			"edit_party": {
@@ -7703,7 +7703,7 @@
 			},
 			"change_owner": {
 				"display_name": "Atribuir Proprietário",
-				"description":"Atribua este objeto a um novo proprietário"
+				"description": "Atribua este objeto a um novo proprietário"
 			},
 			"destroy_item": {
 				"display_name": "Cancelar Colocação",
@@ -9510,11 +9510,11 @@
 						},
 						"rain_negative": {
 							"display_name": "Garoa traquina",
-							"ponta de ferramenta": "Eu quase pisei em uma poça. Agora meus pés estão frios."
+							"tooltip": "I almost stepped in a puddle. Now my feet are cold."
 						},
-						"Sorte": {
-							"display_name": "Dia de sorte",
-							"tooltip": "Algo de bom vai acontecer hoje. Estou sentindo isso!"
+						"lucky": {
+							"display_name": "Lucky day",
+							"tooltip": "Something good is going to happen today. I just feel it!"
 						},
 						"snow_negative": {
 							"display_name": "Dia frio e frio",
@@ -9522,11 +9522,11 @@
 						},
 						"sandstorm_negative": {
 							"display_name": "Tempestade de areia!",
-							"ponta de ferramenta": "As areias estão soprando pela paisagem. Esconda seus poyos! Esconda suas ovelhas!"
+							"tooltip": "The sands are blowing across the landscape. Hide your poyos! Hide your sheep!"
 						},
 						"snow_positive": {
 							"display_name": "Está nevando...",
-							"ponta de ferramenta": "O mundo é silencioso e branco com neve."
+							"tooltip": "The world is hushed and white with snow."
 						},
 						"foggy_negative": {
 							"display_name": "Neblina assustadora",
@@ -9538,7 +9538,7 @@
 						},
 						"sandstorm_positive": {
 							"display_name": "Tempestade de Areia",
-							"ponta de ferramenta": "As areias sempre vêm para testar nossa força... A minha é inabalável."
+							"tooltip": "The sands always come to test our fortitude... Mine is unwavering."
 						},
 						"titanstorm_negative": {
 							"display_name": "Os Tempos finais estão sobre nós!",
@@ -9554,11 +9554,11 @@
 						},
 						"snow_sunny_positive": {
 							"display_name": "País das Maravilhas de Inverno!",
-							"ponta de ferramenta": "A neve está brilhando do sol de inverno."
+							"tooltip": "The snow is glistening from the winter sun."
 						},
 						"rain_sunny_positive": {
 							"display_name": "Está chovendo...",
-							"ponta de ferramenta": "O sol está brilhando através das gotas de chuva..."
+							"tooltip": "The sun is shimmering through the rain drops..."
 						},
 						"snow_sunny_negative": {
 							"display_name": "Muito frio e brilhante!",
@@ -9570,7 +9570,7 @@
 						},
 						"sandy_positive": {
 							"display_name": "Empoeirado",
-							"ponta de ferramenta": "As tempestades de poeira nos lembram do ciclo da vida..."
+							"tooltip": "The dust storms remind us of the cycle of life..."
 						}
 					}
 				},
@@ -10505,7 +10505,7 @@
 			"stone_double_door": {
 				"stone_double_door_ghost": {
 					"display_name": "Porta Dupla de Pedra",
-					"description": "A larger door. It makes quite an impression."
+					"description": "Uma porta maior. Isso causa uma boa impressão."
 				}
 			},
 			"picket_fence_combo": {
@@ -15141,7 +15141,7 @@
 				"bud": {
 					"tree_joshua_plant_bud": {
 						"display_name": "Budding Joshua Tree",
-						"description": "É quase lá! Está crescendo suas folhas adultas!"
+						"description": "|Está quase lá! Está crescendo suas folhas adultas!"
 					}
 				}
 			},
@@ -17071,7 +17071,7 @@
 					"description": "Um pão duro e básico.",
 					"recipe_name": "Pão Camponês"
 				},
-				"food_name": "Refeições Todos os Dias",
+				"food_name": "Refeições Diárias",
 				"ingredients_name": "Refinamento de Ingrediente",
 				"veggie_stew_recipe": {
 					"description": "Um caldo quente e saboroso, fortificado com abóbora refogada!",
@@ -17111,7 +17111,7 @@
 				"poyo_feed_recipe": {
 					"description": "Para alimentar seus poyos",
 					"recipe_name": "Ração de Poyo",
-					"flavor": "Cluck cluck!"
+					"flavor": "Pio Pio!"
 				},
 				"rabbit_feed_recipe": {
 					"description": "Comida para coelhos",
@@ -18232,7 +18232,7 @@
 				},
 				"level_2_data": {
 					"perk_000_name": "Arte à Venda",
-				"perk_000_description": "O Oleiro pode agora fazer peças de decoração para animar a vila ou vender por dinheiro."
+					"perk_000_description": "O Oleiro pode agora fazer peças de decoração para animar a vila ou vender por dinheiro."
 				},
 				"level_4_data": {
 					"perk_000_name": "Visão Colaborativa",
@@ -18359,7 +18359,7 @@
 				"potted_cactus_recipe": {
 					"description": "Plant a cactus in a clay pot.",
 					"recipe_name": "Vaso de Cacto",
-					"flavor": "YOWCH! --Every cactus potter, ever"
+					"flavor": "Aiii! - Todos os ceramistas de cactos, sempre."
 				},
 				"blown_glass_vase_recipe": {
 					"description": "Milagroso",
