@@ -3,15 +3,15 @@
 		"actions": {
 			"status_text": {
 				"eat_from": "eating from [name(data.target)]",
-				"fertilize_field": "applying fertilizer",
-				"clear_herbalist_planter": "clearing out [name(data.target)]",
+				"fertilize_field": "aplicando fertilizante",
+				"clear_herbalist_planter": "limpando [name(data.target)]",
 				"harvest_herbalist_planter": "harvesting [name(data.target)]",
 				"plant_herbalist_planter": "planting in [name(data.target)]",
 				"transform": "transforming [name(data.target)]",
-				"train": "going for training",
+				"train": "indo para o treinamento",
 				"consume_drink": "drinking [name(data.target)]",
-				"drink": "getting a drink",
-				"build": "building [name(data.target)]"
+				"drink": "pegando uma bebida",
+				"build": "contruindo [name(data.target)]"
 			}
 		}
 	},
@@ -23,10 +23,10 @@
 						"display_name": "Weaver's Workshop"
 					},
 					"workshop_carpenter": {
-						"display_name": "Carpenter's Workshop"
+						"display_name": "Oficina do Carpinteiro"
 					},
 					"workshop_cook": {
-						"display_name": "Cook's Kitchen"
+						"display_name": "Cozinha do Cozinheiro"
 					},
 					"workshop_herbalist": {
 						"display_name": "Herbalist's Workshop"
@@ -38,7 +38,7 @@
 						"display_name": "Pottery Studio"
 					},
 					"workshop_engineer": {
-						"display_name": "Engineer's Workshop"
+						"display_name": "Oficina do Engenheiro"
 					},
 					"workshop_blacksmith": {
 						"display_name": "Blacksmith's Workshop"
@@ -373,7 +373,7 @@
 				},
 				"town_progression": {
 					"ace_unlock_shrine_recipes": {
-						"bulletin_title": "The Cook can now prepare Donation Boxes!"
+						"bulletin_title": "O cozinheiro agora pode preparar caixas de doação!"
 					},
 					"ace_guildmaster_reached": {
 						"recipe_unlock_coins": "The Blacksmith can now mint gold coins!"
@@ -13106,13 +13106,13 @@
 				"heatmap": {
 					"name": "heatmaps",
 					"title": "Terrain Heatmaps",
-					"description": "Useful view modes that will give you insights on different aspects of the map"
+					"description": "Modos de visualização úteis que fornecerão informações sobre diferentes aspectos do mapa"
 				}
 			},
 			"heatmaps": {
 				"ore": {
 					"display_name": "Ore Detector",
-					"description": "Detect ore several layers beneath the surface: areas appear brighter where ore is abundant or close to the surface."
+					"description": "Detecte o minério em várias camadas abaixo da superfície: as áreas parecem mais brilhantes onde o minério é abundante ou próximo à superfície."
 				},
 				"wilderness": {
 					"display_name": "Wilderness",
@@ -13128,7 +13128,7 @@
 					"title": "Ingredient Quality Preference",
 					"description": "Choose whether crafters should prefer high or low quality ingredients for this order. The default can be changed in Gameplay Settings."
 				},
-				"prefer_high_quality": "Use higher quality ingredients"
+				"prefer_high_quality": "Use ingredientes de alta qualidade"
 			},
 			"zones_mode": {
 				"farm": {
@@ -13728,38 +13728,38 @@
 	"component_info": {
 		"stonehearth": {
 			"equipment_piece": {
-				"display_name": "Equipment Piece",
-				"description": "Can be equipped by certain hearthlings."
+				"display_name": "Peça de Equipamento",
+				"description": "Pode ser equipado por certos hearthlings."
 			},
 			"evolve": {
 				"display_name": "Evolve",
-				"description": "Will transform into something else over time."
+				"description": "Vai se transformar em outra coisa com o tempo."
 			},
 			"growing": {
 				"display_name": "Growing",
-				"description": "Has multiple growth stages, with a growth rate affected by nearby water (or lack thereof) and rainy weather."
+				"description": "Tem vários estágios de crescimento, com uma taxa de crescimento afetada pela água próxima (ou falta dela) e tempo chuvoso."
 			},
 			"loot_drops": {
 				"display_name": "Loot Drops",
-				"description": "When killed, loot will drop!"
+				"description": "Quando morto, o saque vai cair!"
 			},
 			"renewable_resource_node": {
 				"display_name": "Renewable Resource Node",
-				"description": "Can be harvested repeatedly, requiring some time between each harvest in order to renew."
+				"description": "Pode ser colhida repetidamente, exigindo algum tempo entre cada colheita para renovar."
 			},
 			"resource_node": {
 				"display_name": "Resource Node",
-				"description": "Can only be harvested once and is then destroyed."
+				"description": "Só pode ser colhido uma vez e depois destruído."
 			},
 			"stacks": {
-				"display_name": "Stacks",
-				"description": "When used in crafting or trading, the entire item will be consumed. Otherwise, only a single stack is consumed at a time, until the last stack is consumed and the item is destroyed."
+				"display_name": "Pilhas",
+				"description": "Quando usado na fabricação ou comercialização, o item inteiro será consumido. Caso contrário, apenas uma única pilha é consumida por vez, até que a última pilha seja consumida e o item seja destruído."
 			}
 		},
 		"stonehearth_ace": {
 			"aquatic_object": {
-				"display_name": "Aquatic Object",
-				"description": "Responds to the presence of water (or lack thereof)."
+				"display_name": "Objeto Aquático",
+				"description": "Responde à presença de água (ou falta dela)."
 			},
 			"fence": {
 				"display_name": "Fence",
@@ -13791,26 +13791,26 @@
 			},
 			"transform": {
 				"display_name": "Transform",
-				"description": "Will transform into something else when a specific command or action is performed on it."
+				"description": "Se transformará em outra coisa quando um comando ou ação específica for executada nele."
 			},
 			"vine": {
 				"display_name": "Vine",
-				"description": "Grows by spreading, but each one will only grow a few times. May be climbable."
+				"description": "Cresce se espalhando, mas cada um só vai crescer de vez enquando. Pode ser escalável."
 			},
 			"water_pump": {
-				"display_name": "Water Pump",
-				"description": "When enabled, pumps water from its bottom and out its top."
+				"display_name": "Bomba de água",
+				"description": "Quando ativado, bombeia água de sua parte inferior e superior."
 			},
 			"water_signal": {
 				"display_name": "Water Signal",
-				"description": "Detects changes in nearby water."
+				"description": "Detecta mudanças na água próxima."
 			}
 		}
 	},
 	"food": {
 		"food_decay": {
 			"cheese": {
-				"description": "This cheese is starting to... Smell cheesy. Better eat it soon."
+				"description": "Este queijo está começando a... Cheirar a queijo. Melhor comer logo."
 			},
 			"curdling": {
 				"description": "It's getting bad, better pour it in a cheese vat soon!"
@@ -13830,13 +13830,13 @@
 	"drink": {
 		"decay": {
 			"decay_1": {
-				"description": "It's starting to go bad, should probably drink it soon.",
+				"description": "Está começando a ficar mal, provavelmente deveria beber água logo.",
 				"keg": {
-					"description": "Has been around for a long while and is a bit stale already."
+					"description": "Já existe há muito tempo e já está um pouco obsoleto."
 				}
 			},
 			"decay_brewing_ingredient": {
-				"description": "It will spoil in some days, needs to be prepared soon!"
+				"description": "Vai estragar em alguns dias, precisa ser preparado logo!"
 			}
 		}
 	}
