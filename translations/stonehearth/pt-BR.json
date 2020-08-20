@@ -18286,9 +18286,9 @@
 					"flavor": "'Através do calor e das dificuldades percebemos nossos eus finais.' - Silora, Acólito do Mistério de Rayya."
 				},
 				"clay_safety_standard_recipe": {
-					"description": "Use to designate a safety point",
+					"description": "Use para designar um ponto de segurança",
 					"recipe_name": "Padrão de Segurança de Argila",
-					"flavor": "To achieve an ideal standard of living, find safety in numbers. --Mysteries and Proverbs, V"
+					"flavor": "Para alcançar um padrão de vida ideal, encontre segurança nos números. - Mistérios e Provérbios, V"
 				},
 				"building_parts_name": "Peças de Construção",
 				"clay_bricks_recipe": {
@@ -18298,28 +18298,28 @@
 				},
 				"red_clay_door_recipe": {
 					"description": "Matches red clay walls",
-					"recipe_name": "Porta de Argila Vermelho",
+					"recipe_name": "Porta de Argila Vermelha",
 					"flavor": "\"The red hints at a mystery, allure. What lies beyond yon red door?\" -- Ember Iskender, Dept of Applied Poetry"
 				},
 				"red_clay_window_frame_recipe": {
 					"description": "Matches red clay walls",
 					"recipe_name": "Janela de Argila Vermelha",
-					"flavor": "\"Industry standard for a reason\" -- Jorya Iskender, Dyemaster"
+					"flavor": "\"Padrão da indústria por um motivo\" -- Jorya Iskender, Dyemaster"
 				},
 				"blue_clay_door_recipe": {
 					"description": "Blue like the dream of distant ocean.",
 					"recipe_name": "Porta de Argila Azul",
-					"flavor": "'It's a door. What more could we possibly say?' --Joni Iskender, Marketing Apprentice"
+					"flavor": "'É uma porta. O que mais poderíamos dizer?' --Joni Iskender, Marketing Apprentice"
 				},
 				"green_clay_door_recipe": {
-					"description": "Green, like the few scrub in the desert.",
+					"description": "Verde, como os poucos arbustos do deserto.",
 					"recipe_name": "Porta de Argila Verde",
-					"flavor": "'Can you make the hole a bit smaller? The point is to see who it is without giving away that I'm home.' --Vara Tenter, Irate Customer"
+					"flavor": "'Você pode fazer o buraco um pouco menor? A questão é ver quem é, sem revelar que estou em casa.' --Vara Tenter, Irate Customer"
 				},
 				"blue_clay_window_frame_recipe": {
-					"description": "Lets in the bright desert air.",
+					"description": "Deixa entrar o ar brilhante do deserto.",
 					"recipe_name": "Moldura de Janela de Argila Azul",
-					"flavor": "The dye is named Santori, for an acolyte who longed for the ocean."
+					"flavor": "O corante se chama Santori, em homenagem a um acólito que ansiava pelo oceano."
 				},
 				"green_clay_window_frame_recipe": {
 					"description": "Let's in the soft desert air.",
@@ -18772,19 +18772,19 @@
 					"flavor": "Perfeito para uma noite perto da lareira."
 				},
 				"leather_bolt_recipe": {
-					"description": "Prepared sheets of leather, ready to be put to good use.",
+					"description": "Folhas de couro preparadas, prontas para o bom uso.",
 					"recipe_name": "Bolt of Leather",
 					"flavor": "You can hardly see the individual sources."
 				},
 				"leather_vest_recipe": {
-					"description": "Hardened leather provides study protection against light weapons.",
+					"description": "Couro endurecido que fornece proteção contra armas leves.",
 					"recipe_name": "Colete de Couro Grosso",
-					"flavor": "Insults bounce right off too!"
+					"flavor": "Os insultos também ricocheteiam!"
 				},
 				"plushie_toy_rabbit_recipe": {
-					"description": "A toy... for children of course.",
-					"recipe_name": "Plushie Toy Rabbit",
-					"flavor": "She loves you!"
+					"description": "Um brinquedo... para crianças, claro.",
+					"recipe_name": "Coelho de Pelúcia",
+					"flavor": "Ela ama você!"
 				},
 				"weapons_name": "Armas",
 				"clothing_armor_name": "Vestuário & Armadura",
@@ -18794,9 +18794,9 @@
 				"furniture_name": "Mobília",
 				"crafting_materials_name": "Materiais de Fabricação",
 				"spool_of_thread_recipe": {
-					"description": "Needed for cloth. Warm and fluffy",
-					"recipe_name": "Spool of Thread",
-					"flavor": "Each gram of fiber yearns to become a sweater."
+					"description": "Necessário para tecidos. Quente e fofo",
+					"recipe_name": "Carretel de linha",
+					"flavor": "Cada grama de fibra anseia por se tornar um suéter."
 				},
 				"tapestry_wall_recipe": {
 					"description": "Uma cena decorativa, tecida em fios e cordões coloridos.",
@@ -18814,9 +18814,9 @@
 					"flavor": "Too beautiful to step on."
 				},
 				"worker_outfit_2_recipe": {
-					"description": "Double stitching and strategically placed padding improves the worker's efficiency. The worker who dons this upgrade outfit will move faster.",
-					"recipe_name": "Upgraded Worker Outfit",
-					"flavor": "Your town loves you!"
+					"description": "Costura dupla e acolchoamento estrategicamente colocado aumentam a eficiência do trabalhador. O trabalhador que veste esta roupa melhorada se moverá mais rápido.",
+					"recipe_name": "Roupa de Trabalhador Melhorada",
+					"flavor": "Sua cidade te ama!"
 				},
 				"worker_outfit_winter_recipe": {
 					"description": "Um casaco pesado de lã, para as noites frias de inverno. O trabalhador que veste esta roupa de atualização se moverá mais rápido.",
@@ -18854,7 +18854,7 @@
 				"cloth_padded_helmet_recipe": {
 					"recipe_name": "Capacete Acolchoado de Pano",
 					"description": "Estofamento extra para o seu canguru",
-					"flavor": "Were they phoenix wings, or serpent wings?"
+					"flavor": "Eram asas de fênix ou asas de serpente?"
 				},
 				"input_bin_amberstone_recipe": {
 					"recipe_name": "Rabbit-woven Supply Basket",
@@ -19118,42 +19118,42 @@
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
 				},
 				"wax_plant_purple_transmute_recipe": {
-					"description": "Separate seeds from the plant.",
+					"description": "Separe as sementes da planta.",
 					"recipe_name": "Wax Plant Seeds (Purple x3)",
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
 				},
 				"foxlily_transmute_recipe": {
-					"description": "Separate seeds from the plant",
+					"description": "Separe as sementes da planta",
 					"recipe_name": "Foxlily Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas a planta se perde no processo."
 				},
 				"sunflower_transmute_recipe": {
-					"description": "Separate seeds from the plant",
-					"recipe_name": "Sunflower Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the plant is lost in the process."
+					"description": "Separe as sementes da planta",
+					"recipe_name": "Sementes de Girassol (x3)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas a planta se perde no processo."
 				},
 				"pear_cactus_recipe": {
 					"description": "Sementes separadas da fruta",
 					"recipe_name": "Sementes de Figos da Índia (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fruit is lost in the process."
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas o fruto se perde no processo."
 				},
 				"wall_hanging_berrywreath_recipe": {
 					"description": "Perfeito para qualquer ocasião",
 					"recipe_name": "Coroa de Amora",
-					"flavor": "You could eat the berries, but it'd ruin the wreath."
+					"flavor": "Você poderia comer as bagas, mas isso estragaria a coroa."
 				},
 				"topiary_rabbit_recipe": {
 					"description": "Topiário fofo da vida selvagem",
 					"recipe_name": "Berry Bun",
-					"flavor": "I know it grows back, but I hate to pick its tail..."
+					"flavor": "Eu sei que volta a crescer, mas odeio pegar no rabo dele..."
 				},
 				"topiary_mammoth_recipe": {
 					"description": "Massive topiary pachyderm",
 					"recipe_name": "Mamute de Amora",
-					"flavor": "I swear I just saw it blink"
+					"flavor": "Eu juro que acabei de ver piscar"
 				},
 				"topiary_fox_recipe": {
-					"description": "Much better for pie than jerky",
+					"description": "Muito melhor para torta do que carne seca",
 					"recipe_name": "Berry Fox",
 					"flavor": "Não plante em seu galinheiro"
 				},
@@ -19169,7 +19169,7 @@
 				"pot_moondrop_recipe": {
 					"description": "Prateado e sereno",
 					"recipe_name": "Arbusto de Moondrop",
-					"flavor": "Never press or dry the flowers. Enjoy them now, and look forward to the next ones."
+					"flavor": "Nunca pressione ou seque as flores. Aproveite-os agora e aguarde os próximos."
 				},
 				"pot_redbloom_recipe": {
 					"description": "Um arbusto rosado",
@@ -19207,17 +19207,17 @@
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
 				},
 				"wintermoss_transmute_recipe": {
-					"description": "Pluck spare seeds from the fiber",
+					"description": "Arrancar sementes sobressalentes da fibra",
 					"recipe_name": "Wintermoss Seeds (x3)",
-					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas a fibra é destruída no processo."
 				},
 				"sweet_potato_transmute_recipe": {
-					"description": "Potatoes can be cut up and planted",
+					"description": "As batatas podem ser cortadas e plantadas",
 					"recipe_name": "Sweet Potato Slips (x3)",
-					"flavor": "This doesn't require so much of a skilled hand as simply cutting the potatoes into wedges and sticking them into the ground."
+					"flavor": "Isso não requer tanto de uma mão habilidosa como simplesmente cortar as batatas em fatias e enfiá-las no solo."
 				},
 				"snow_poppy_transmute_recipe": {
-					"description": "Pluck the seeds from the flower",
+					"description": "Arrancar as sementes da flor",
 					"recipe_name": "Snow Poppy Seeds (x3)",
 					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				}
