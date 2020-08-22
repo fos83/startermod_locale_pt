@@ -149,7 +149,7 @@
 				"ff_title": "Avanço Rápido",
 				"ff_description": "Rodar jogo na velocidade 2x",
 				"speedThree_title": "Super Velocidade",
-				"speedThree_description": "Roda o jogo super rápido",
+				"speedThree_description": "Roda o jogo muito rápido",
 				"pause_overlay": "Pausado"
 			},
 			"visions": {
@@ -167,8 +167,8 @@
 				"terrain_xray_vision_description": "Veja através do terreno. Mude entre a vista completa e plana para mostrar paredes subterrâneas.",
 				"terrain_xray_vision_flat": "Plano",
 				"terrain_xray_vision_full": "Completo",
-				"appeal_vision_icon_name": "Atrativo",
-				"appeal_vision": "Visão de Atrativo",
+				"appeal_vision_icon_name": "Atração",
+				"appeal_vision": "Visão de Atração",
 				"appeal_vision_description": "Veja o quão atraente os hearthlings acham o mundo."
 			},
 			"trade_menu": {
@@ -269,7 +269,7 @@
 				"health": "Saúde",
 				"morale": "Moral",
 				"experience": "Experiência",
-				"max_level": "Nível Máximo!!!",
+				"max_level": "Nível Máximo!",
 				"no_levels": "Sem subir de nível",
 				"level_text": "Nível ",
 				"level_abbreviation": "Nvl ",
@@ -283,7 +283,7 @@
 				"attributes": "Atributos",
 				"equipment": "Equipamentos",
 				"abilities": "Habilidades",
-				"appeal": "Atrativo",
+				"appeal": "Atração",
 				"unknown_item": "Preferência não descoberta",
 				"morale_title": "Moral",
 				"overall_morale": "Moral Geral",
@@ -316,7 +316,7 @@
 					"dislike_tooltip": "[str(self.stonehearth:unit_info.custom_name)] não gosta desses itens e sempre os achará desagradáveis, independentemente da qualidade.",
 					"current_and_target_bar": "Opinião geral",
 					"current_and_target_bar_tooltip": "A opinião de [str(self.stonehearth:unit_info.custom_name)] sobre o seu entorno e áreas visitadas recentemente.",
-					"current_arrow_tooltip": "Opinião geral de [str(self.stonehearth:unit_info.custom_name)] do atrativo da cidade. Isso afeta o humor deles.",
+					"current_arrow_tooltip": "Opinião geral de [str(self.stonehearth:unit_info.custom_name)] da atração da cidade. Isso afeta seu humor.",
 					"target_arrow_tooltip": "Como [str(self.stonehearth:unit_info.custom_name)] vê seu entorno imediato. Isso afeta sua opinião geral da cidade com o tempo.",
 					"item_preferences": "Gostos de [str(self.stonehearth:unit_info.custom_name)]"
 				}
@@ -390,7 +390,7 @@
 			},
 			"multiplayer_settings": {
 				"create_new_multiplayer_game": "Crie novo jogo multijogador",
-				"open_game_to_multiplayer": "Abrir jogo para multijogadores",
+				"open_game_to_multiplayer": "Abrir jogo para multijogador",
 				"allow_remote_connections": "Habilitar Multijogador",
 				"allow_remote_connections_description": "Permitir que outros jogadores participem do seu jogo",
 				"game_speed_anarchy": "Convidados podem controlar a velocidade",
@@ -408,7 +408,7 @@
 					"disconnected": "Desconectado",
 					"removed": "Removido do jogo",
 					"placed_camp": "Colocou seu acampamento",
-					"changed_town_name": "Definiram o nome da cidade para"
+					"changed_town_name": "Definiu o nome da cidade para"
 				}
 			},
 			"disconnected": {
@@ -424,7 +424,7 @@
 			"steam": {
 				"workshop_agreement": {
 					"notice": "Ao enviar este item, você concorda com os ",
-					"terms_of_service": "Termos de serviço da oficina"
+					"terms_of_service": "termos de serviço da oficina"
 				}
 			},
 			"party": {
@@ -447,7 +447,7 @@
 			},
 			"unit_frame": {
 				"show_character_sheet": "Mostrar ficha do personagem",
-				"focus_camera": "Focalize a câmera nesta unidade",
+				"focus_camera": "Focar a câmera nesta unidade",
 				"attack_target": {
 					"display_name": "Atacar",
 					"description": "Atacar um alvo ou local específico."
@@ -485,12 +485,12 @@
 					"golem": "Golens"
 				},
 				"quality": {
-					"quality-2": "Qualidade Fina",
+					"quality-2": "Qualidade Refinada",
 					"quality-3": "Qualidade Excelente",
 					"quality-4": "Obra-prima de Qualidade!"
 				},
 				"traveler": {
-					"gifted_by": "Presente do [str(gifter_name)]"
+					"gifted_by": "Presente de [str(gifter_name)]"
 				}
 			},
 			"citizens": {
@@ -508,9 +508,9 @@
 					"status": "Condição",
 					"morale": "Moral"
 				},
-				"show_character_sheet": "Mais informações",
+				"show_character_sheet": "Ficha do Personagem",
 				"button_suspend": "Suspender",
-				"button_resume": "Resumir",
+				"button_resume": "Voltar",
 				"change_all": "Mudar Todos",
 				"change_all_title": "Defina em qual cidade todos os cidadãos devem trabalhar",
 				"tab": {
@@ -531,8 +531,8 @@
 				"new_game_place_banner": "Clique em mim para posicionar sua bandeira",
 				"click_banner_tip": "Clique na bandeira para escolher o local do acampamento",
 				"select_camp_tip": "Agora clique em algum lugar do mundo",
-				"name_camp_title": "Nomeie seu acampamento",
-				"name_camp_prompt": "Digite um nome para a sua Cidade!"
+				"name_camp_title": "Nomeie seu assentamento",
+				"name_camp_prompt": "Digite um nome para o seu assentamento!"
 			},
 			"calendar": {
 				"months": {
@@ -563,7 +563,7 @@
 			"esc_menu": {
 				"title": "Stonehearth ",
 				"resume": "Voltar a Jogar",
-				"save": "Salvar/Carregar",
+				"save": "Salvar/Carregar Jogo",
 				"settings": "Configurações",
 				"about": "Sobre",
 				"quit_to_menu": "Menu Principal",
@@ -584,7 +584,7 @@
 			},
 			"entities": {
 				"custom_name": "[str(self.stonehearth:unit_info.custom_name)] ",
-				"unknown_name": "Estranho",
+				"unknown_name": "Desconhecido",
 				"item_categories": {
 					"food": "Comida",
 					"cooking_ingredient": "Ingredientes para Cozinhar",
@@ -603,7 +603,7 @@
 					"uncategorized": "Sem categoria",
 					"workshops": "Oficinas",
 					"consumable": "Consumíveis",
-					"storage": "Estoque",
+					"storage": "Armazenamento",
 					"defense": "Defesa",
 					"trophy": "Troféus",
 					"seed": "Sementes",
@@ -611,11 +611,11 @@
 					"none": "Nenhum",
 					"geomancer": "Pedras de Invocação"
 				},
-				"tooltip_combat_base_damage": "ATQ: ",
-				"tooltip_combat_base_damage_reduction": "DEF: ",
+				"tooltip_combat_base_damage": "Atq: ",
+				"tooltip_combat_base_damage_reduction": "Def: ",
 				"tooltip_num_undeployed": "Desocupado: [str(num_undeployed)]",
 				"tooltip_deprecated": "Item Legado: este item não pode mais ser obtido no jogo.",
-				"death_notification": "[name(i18n_data.entity)] esta morto.",
+				"death_notification": "[name(i18n_data.entity)] morreu.",
 				"imminent_death_notification": "[name(i18n_data.citizen)] está gravemente fraco em saúde!",
 				"starving_notification": "[name(i18n_data.citizen)] está morrendo de fome!",
 				"unreachable_ingredient_notification": "[name(i18n_data.citizen)] não pode acessar alguns dos ingredientes para criar [str(i18n_data.crafting_order)].",
@@ -695,28 +695,28 @@
 						"create_farm": {
 							"display_name": "Plantação",
 							"description": "Coloca uma fazenda no terreno.",
-							"required_job_text": "Precisa de um Fazendeiro",
+							"required_job_text": "Requer um Fazendeiro",
 							"tip_title": "Clique e arraste para designar um novo campo",
 							"tip_description": "Os agricultores vão abrir caminho e plantar as colheitas aqui"
 						},
 						"create_trapping_grounds": {
 							"display_name": "Área de Caça",
 							"description": "Define área para capturar pequenos bichos.",
-							"required_job_text": "Precisa de um Caçador",
+							"required_job_text": "Requer um Caçador",
 							"tip_title": "Clique e arraste para criar áreas de armadilhas",
 							"tip_description": "Os caçadores pegam bichos para comida e recursos nesta zona"
 						},
 						"create_pasture": {
 							"display_name": "Pasto de Animais",
-							"description": "O Pastor vai trazer Animais para Pastar aqui.",
-							"required_job_text": "Precisa de um Pastor",
+							"description": "O Pastor vai trazer animais para pastar aqui.",
+							"required_job_text": "Requer um Pastor",
 							"tip_title": "Clique e arraste para criar um pasto animal",
 							"tip_description": "Os pastores trazem animais para esta região e atendem às suas necessidades aqui."
 						}
 					}
 				},
 				"build_menu": {
-					"display_name": "Construir & Projetar",
+					"display_name": "Construir e Projetar",
 					"description": "Construa estruturas como casas e muros da cidade.",
 					"items": {
 						"building_templates": {
@@ -772,7 +772,7 @@
 					}
 				},
 				"fight_menu": {
-					"display_name": "Lutar & Defender",
+					"display_name": "Lutar e Defender",
 					"description": "Gerencie suas forças de combate",
 					"items": {
 						"party_manager": {
@@ -862,7 +862,7 @@
 					"description": "Faça coisas de tarefa.",
 					"remove_stockpile": "Remover Estoque",
 					"pause_stockpile": "Pausar",
-					"resume_stockpile": "Resumir",
+					"resume_stockpile": "Voltar",
 					"group": {
 						"stockpiles": "Estoques",
 						"building": "Construindo",
@@ -871,7 +871,7 @@
 						"farming": "Cultivando",
 						"harvesting": "Colhendo",
 						"mining": "Minerando",
-						"trapping": "Armadilhando"
+						"trapping": "Caçando"
 					},
 					"percent_full": "[str(percent)] por cento cheio",
 					"active": "Ativo",
@@ -884,18 +884,18 @@
 			"bulletin": {
 				"bulletin_list_title": "Notificações",
 				"shop": {
-					"buy_1": "1",
-					"buy_10": "10",
-					"buy_all": "Tudo",
-					"sell_1": "1",
-					"sell_10": "10",
-					"sell_all": "Tudo",
+					"buy_1": "Comprar 1",
+					"buy_10": "Comprar 10",
+					"buy_all": "Comprar Tudo",
+					"sell_1": "Vender 1",
+					"sell_10": "Vender 10",
+					"sell_all": "Vender Tudo",
 					"buy_tab": "Comprar",
 					"sell_tab": "Vender",
 					"shop_gold_label": "Ouro",
-					"shopkeeper_gold_label": "Ouro (Mercador)",
+					"shopkeeper_gold_label": "Ouro do Mercador",
 					"not_enough_gold_tooltip": "Não há ouro suficiente",
-					"shopkeeper_not_enough_gold_tooltip": "Lojista não tem ouro suficiente"
+					"shopkeeper_not_enough_gold_tooltip": "Mercador não tem ouro suficiente"
 				},
 				"trade": {
 					"target_title": "Oferta de Troca de [str(i18n_data.town_name)]",
@@ -922,18 +922,18 @@
 					"proclamation": "PROCLAMAÇÃO DE "
 				},
 				"city_tier_dialog": {
-					"build_and_place": "Construir & Colocar",
-					"attain_net_worth": "Atingir Patrimônio Líquido:",
+					"build_and_place": "Construir e Colocar",
+					"attain_net_worth": "Atingir Patrimônio:",
 					"check_requirements": "Verificar Requisitos",
 					"summon_herald": "Evocar Arauto!"
 				},
 				"level_up_bulletin": {
 					"title": "[name(i18n_data.entity)] Subiu de Nível!",
-					"show_char_sheet": "Folha de Personagem"
+					"show_char_sheet": "Ficha do Personagem"
 				},
 				"promote_bulletin": {
 					"title": "[name(i18n_data.entity)] foi promovido!",
-					"show_char_sheet": "Folha de Personagem"
+					"show_char_sheet": "Ficha do Personagem"
 				},
 				"delivery_quest": {
 					"complete": "Completar",
@@ -944,10 +944,10 @@
 					"gold_label": {
 						"give": "Ouro",
 						"have": "Ouro na mão",
-						"spent": "Ouro gasto em troas",
+						"spent": "Ouro gasto em trocas",
 						"earned": "Ouro ganho em trocas"
 					},
-					"net_worth_label": "Patrimônio líquido",
+					"net_worth_label": "Patrimônio",
 					"placed_item_label": "[str(itemName)] colocado",
 					"quality_label": {
 						"quality_2": "Itens de boa qualidade possuídos",
@@ -980,11 +980,11 @@
 					"title": "Atualização diária",
 					"immigration_report_title": "Relatório de Imigração",
 					"population_label": "População de [str(town_name)]",
-					"next_requirements_label": "Requisitos para próximo cidadão...",
+					"next_requirements_label": "Requisitos para próximo hearthling...",
 					"tooltips": {
 						"food": "Alimentos de alta qualidade fornecem maiores pontuações de alimentos.",
 						"morale": "Mantenha seus hearthlings seguros, bem alimentados e confortáveis para melhorar a moral.",
-						"net_worth": "Valor estimado da sua cidade. Colete itens, acumule ouro e construa prédios para aumentar seu patrimônio líquido."
+						"net_worth": "Valor estimado da sua cidade. Colete itens, acumule ouro e construa prédios para aumentar seu patrimônio."
 					}
 				},
 				"collection_quest": {
@@ -998,7 +998,7 @@
 				"max_citizens_cap": {
 					"early_warning": {
 						"title": "Você agora tem [str(i18n_data.num_citizens)] cidadãos!",
-						"message": "Parabéns! Sua cidade se tornou uma comunidade sólida. <br> <br> Um aviso relacionado ao desempenho: Mais cidadãos significam mais processamento de AI. Computadores com especificações mais baixas podem experimentar aumento de engasgos, atraso e ociosidade dos cidadãos. <br> <br> Se você encontrar esses problemas, tente reduzir o limite máximo de cidadãos da sua cidade na guia Jogabilidade do Menu Configurações. Isso impedirá que novos colonos entrem, contanto que você esteja acima desse limite."
+						"message": "Parabéns! Sua cidade se tornou uma comunidade sólida. <br> <br> Um aviso relacionado ao desempenho: Mais cidadãos significam mais processamento de IA. Computadores com especificações mais baixas podem experimentar aumento de engasgos, atraso e ociosidade dos cidadãos. <br> <br> Se você encontrar esses problemas, tente reduzir o limite máximo de cidadãos da sua cidade na guia Jogabilidade do Menu Configurações. Isso impedirá que novos colonos entrem, contanto que você esteja acima desse limite."
 					},
 					"full_warning": {
 						"message": "Acabou de chegar a [str(i18n_data.num_citizens)] cidadãos, o número máximo de pessoas que pode viver na sua cidade. <br> <br> Novos cidadãos já não se juntarão à sua cidade neste ponto, a menos que você desça abaixo deste número. <br> <br> <strong> Nota: </strong> Você pode alterar esse limite na guia Jogabilidade do menu Configurações. Um pequeno aviso - ter muitos cidadãos pode causar engasgos, atraso e ociosidade dos cidadãos.",
@@ -1017,7 +1017,7 @@
 					"summary": {
 						"title": "Resumo do Viajante",
 						"text": "Os viajantes adoraram sua cidade hoje! Eles deixaram esses presentes para você:",
-						"gifted_by": "Presente do [str(gifter)]"
+						"gifted_by": "Presente de [str(gifter)]"
 					}
 				}
 			},
@@ -1054,7 +1054,7 @@
 						"build": "Não pode construir, pausar, ou continuar construções que não possui."
 					}
 				},
-				"build_mode_title": "Construir & Projetar",
+				"build_mode_title": "Construir e Projetar",
 				"blocks_tool_context": {
 					"blocks": "Blocos",
 					"roof": "Telhados",
@@ -1070,8 +1070,8 @@
 					"right": "Direita"
 				},
 				"stairs_designer": {
-					"block_stairs": "Blocos de Escadas",
-					"free_stairs": "Escadas Livre",
+					"block_stairs": "Escada de Blocos",
+					"free_stairs": "Escada Livre",
 					"apply_block_style": "Aplicar Estilo de Bloco",
 					"apply_free_style": "Aplicar Estilo Livre",
 					"rotate": "Girar"
@@ -1136,8 +1136,8 @@
 					"building_name": "Nome da Construção",
 					"building_cost": "Materiais Necessários",
 					"start_building": "Construir!",
-					"pause_building": "Pause Construção",
-					"continue_building": "Continue Construção",
+					"pause_building": "Pausar Construção",
+					"continue_building": "Continuar Construção",
 					"save_building_template": "Salvar",
 					"finished_editing": "Finalizar Edição",
 					"start_editing": "Editar",
@@ -1157,8 +1157,8 @@
 					"show_margin": "Saliência"
 				},
 				"stairs_shape": {
-					"shape_title": "Forma de Escadas",
-					"options_title": "Escadas Opções",
+					"shape_title": "Formato das Escadas",
+					"options_title": "Opções de Escadas",
 					"max_height": "Altura Livre",
 					"width": "Largura",
 					"solid_stairs": "Escadas Sólidas",
@@ -1169,15 +1169,15 @@
 				},
 				"building_templates": {
 					"title": "Modelos de Construção",
-					"design_custom_building": "Projete Construção Personalizada",
+					"design_custom_building": "Projetar Construção Personalizada",
 					"search_placeholder": "Buscar",
 					"template_names": {
-						"tiny_cottage": "Pequena Casa de Campo",
-						"cottage_for_two": "Casa de Campo para Dois",
-						"shared_sleeping_quarters": "Quartos de Dormir Compartilhados",
+						"tiny_cottage": "Casa Pequena",
+						"cottage_for_two": "Casa para Dois",
+						"shared_sleeping_quarters": "Dormitório",
 						"dining_hall": "Sala de Jantar",
 						"herbalist_house": "Casa do Herborista",
-						"little_clay_house": "Casinha de argila",
+						"little_clay_house": "Casa Pequena de Argila",
 						"clay_house_for_two": "Casa de argila para Dois",
 						"clay_dining_room": "Sala de Jantar de Argila",
 						"clay_dormitory": "Dormitório de Argila"
@@ -1213,7 +1213,7 @@
 						"wood_resource": "Fundação de madeira",
 						"stone_resource": "Fundação de pedra",
 						"clay_resource": "Fundação de argila",
-						"clay_brick_resource": "Fundação de tijolo de argila"
+						"clay_brick_resource": "Fundação de tijolos"
 					},
 					"slab": {
 						"material": "Material do Bloco",
@@ -1244,7 +1244,7 @@
 						"clay_brick_resource": "Colunas de Tijolos"
 					},
 					"road": {
-						"material": "Material de Ruas",
+						"material": "Material das Ruas",
 						"wood_resource": "Ruas de Madeira",
 						"stone_resource": "Ruas de Pedra",
 						"clay_resource": "Ruas de Argila",
@@ -1273,7 +1273,7 @@
 			},
 			"zones_mode": {
 				"farm": {
-					"choose_crop": "Escolha uma colheita",
+					"choose_crop": "Escolha uma Planta",
 					"preferred_seasons": "Estação preferida:",
 					"preferred_seasons_tooltip": "Plantas crescem [str(num)]x mais rápido em estações preferidas.",
 					"fallow_name": "Vazio",
@@ -1288,8 +1288,8 @@
 					"choose_trapping_grounds_type": "Escolha o Tipo de Armadilha",
 					"trapping_ground": "Terreno de Armadilhas",
 					"help": "Os caçadores colocarão armadilhas em um local de captura e verificarão periodicamente se alguma coisa foi capturada.",
-					"disable": "Suspender Armadilhagem",
-					"enable": "Retomar Armadilhagem"
+					"disable": "Suspender Caça",
+					"enable": "Retomar Caça"
 				},
 				"pasture": {
 					"help": "Os pastores trazem animais para esta região e atendem às suas necessidades aqui.",
@@ -1317,25 +1317,25 @@
 						"none": "Nenhum",
 						"resources": "Recursos",
 						"construction": "Construção",
-						"goods": "Ferramentas & Objetos",
-						"gear": "Armas & Armaduras",
-						"food_and_drink": "Comidas & Bebidas",
+						"goods": "Ferramentas e Objetos",
+						"gear": "Armas e Armaduras",
+						"food_and_drink": "Comidas e Bebidas",
 						"wealth": "Riqueza",
 						"tooltip_tools": "Talismãs e Bancadas",
 						"tooltip_wood": "Madeira",
 						"tooltip_stone": "Pedra",
 						"tooltip_clay": "Argila",
-						"tooltip_ore": "Minerais",
-						"tooltip_animal_part": "Pele e couro de animais",
+						"tooltip_ore": "Minérios",
+						"tooltip_animal_part": "Pele de Animais e Couro",
 						"tooltip_resource_pile": "pilhas de recursos",
 						"tooltip_plant": "Plantas",
-						"tooltip_portal": "Portas & Janelas",
+						"tooltip_portal": "Portas e Janelas",
 						"tooltip_furniture": "Mobília",
 						"tooltip_defense": "Defesas",
-						"tooltip_light": "Luzes & Tochas",
+						"tooltip_light": "Luzes e Tochas",
 						"tooltip_decoration": "Decorações",
 						"tooltip_geomancer": "Pedras de Invocação",
-						"tooltip_refined_weaver": "Artesanatos Refinados (Pano, etc.)",
+						"tooltip_refined_weaver": "Materiais Refinados",
 						"tooltip_refined_animal_part": "bens produzidos a partir de pedaços de animais",
 						"tooltip_refined_ore": "Metais Refinados",
 						"tooltip_weapons": "Armas",
@@ -1344,7 +1344,7 @@
 						"tooltip_heavy_armor": "armadura pesada",
 						"tooltip_exotic_gear": "equipamento exótico",
 						"tooltip_drink": "bebidas saborosas",
-						"tooltip_gold": "Baús de ouro",
+						"tooltip_gold": "Baús de Ouro",
 						"tooltip_trophy": "Troféus",
 						"tooltip_raw_food": "Alimentos Crus",
 						"tooltip_prepared_food": "Alimentos Cozidos",
@@ -1369,14 +1369,14 @@
 				"craft_requirements": "Requisitos:",
 				"unlock_text": "Para destravar:",
 				"crafting_status": "Criando...",
-				"crafting_status_queued": "Enfileiradas",
+				"crafting_status_queued": "Na fila",
 				"workshop_paused_status": "Pausado...",
 				"workshop_remove_confirm": "Remover?",
 				"workshop_open": "Aberto!",
 				"workshop_closed": "Fechado",
 				"maintain_option_disabled": "Construa um estoque ou coloque uma caixa para desbloquear mais opções de artesanato!",
 				"craft": "Criar!",
-				"craft_queue_full": "Ordens Cheias!",
+				"craft_queue_full": "Lista Cheia!",
 				"craftable_locked": "Desbloqueado no nível: [str(level)]",
 				"workshop_requirement_title": "Oficina",
 				"workshop_none_required": "Nada solicitado!",
@@ -1386,12 +1386,12 @@
 				"level_requirement_needed": "Requer um ",
 				"level_requirement_level": " de Nível ",
 				"too_many_symbol": "muitos",
-				"requirements_unmet_general": "Requisitos de Não Alcançados!",
+				"requirements_unmet_general": "Requisitos Não Alcançados!",
 				"queue_anyway": "Pedir Assim Mesmo",
 				"recipe_tab": "Receitas",
-				"orders_tab": "Encomendas",
-				"missing_ingredients": "Ingredientes ausentes: ",
-				"tooltip_appeal_stat": "Atrativo",
+				"orders_tab": "Pedidos",
+				"missing_ingredients": "Ingredientes em falta: ",
+				"tooltip_appeal_stat": "Atração",
 				"tooltip_net_worth_stat": "Valor em Ouro",
 				"tooltip_effort_stat": "Esforço (Tempo de Criação)",
 				"damage_stat": "ATQ ",
@@ -1474,13 +1474,13 @@
 				},
 				"credits": {
 					"sections": {
-						"team": "Time Stonehearth",
+						"team": "Equipe Stonehearth",
 						"team_additional": "Desenvolvimento Adicional",
 						"candledark_and_frostfeast": "Candledark e Frostfeast",
 						"moderators": "Moderação da Comunidade",
 						"special_thanks": "Agradecimentos Especiais",
 						"special_thanks_endnote": "... todos que fazem do discourse.stonehearth.net uma comunidade maravilhosa,",
-						"special_thanks_endnote_2": "... todos que seguiram nossos regulares Streams de quinta-feira,",
+						"special_thanks_endnote_2": "... todos que seguiram nossas streams de quinta-feira,",
 						"special_thanks_endnote_3": "... e todos que deram uma chance a Stonehearth!",
 						"kickstarter_tiers": {
 							"30": "Kickstarter Backers - Settler Tier ",
@@ -1572,14 +1572,14 @@
 					"004": "Você pode cultivar seda para um suprimento constante de fibras de linha.",
 					"005": "Uma cidade bem alimentada é uma cidade feliz",
 					"006": "Use as teclas < e > para girar um item ou prédio antes de colocá-lo.",
-					"007": "Seus cidadãos se movem mais rápido nas estradas",
+					"007": "Seus hearthlings se movem mais rápido nas estradas",
 					"008": "O Tecelão pode criar novos uniformes que aumentam a eficácia de seus trabalhadores.",
 					"009": "Sentar-se durante uma refeição ajuda na digestão. Construa mesas e cadeiras para os seus hearthlings.",
 					"010": "Os pastores encontrarão ovelhas automaticamente para encher um pasto",
 					"011": "Se você quer um tesouro maior, tente vender seus itens para um comerciante.",
 					"012": "Recursos e comida não contribuem para o tesouro de sua cidade",
 					"013": "O atributo de curiosidade aumenta o ganho de experiência.",
-					"014": "Itens finos têm um patrimônio líquido maior do que suas versões normais.",
+					"014": "Itens refinados têm um patrimônio maior do que suas versões normais.",
 					"015": "O valor líquido de um item é o seu valor de venda.",
 					"016": "Você pode usar uma porta de túnel para bloquear suas entradas de túnel de mineração.",
 					"017": "Não quer que seus hearthlings saiam da cidade? O Engineer pode fazer uma porta com tranca",
@@ -1592,7 +1592,7 @@
 					"024": "Precisa de uma fonte alimentar inicial? Mova os Arbustos de Frutas ou os Cactos de Figos da Índia para mais perto da sua cidade.",
 					"025": "Depois de derrotar o Chefe dos goblins, você pode reivindicar a a Ovelha Campainha-Azul como sua.",
 					"026": "Seus hearthlings não gostam de ficar em espaços apertados por muito tempo",
-					"027": "Os animais da fazenda podem se reproduzir se houver pelo menos dois dos mesmos animais em uma caneta.",
+					"027": "Os animais da fazenda podem se reproduzir se houver pelo menos dois dos mesmos animais em um curral.",
 					"028": "Use \"shift + ,\" para afundar e descer a fundação do seu modelo ao chão antes de colocar ele."
 				}
 			},
@@ -1659,7 +1659,7 @@
 				"gfx_cardinfo": "[str(gpuRenderer)]  ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Habilitar Sombras",
 				"gfx_enable_vsync": "Habilitar VSync",
-				"gfx_enable_fullscreen": "Tela Cheia (Requer Reinício)",
+				"gfx_enable_fullscreen": "Tela Cheia",
 				"gfx_msaa": "Habilitar Antialiasing",
 				"gfx_shadows": "Detalhes de Sombra",
 				"gfx_max_lights": "Número Máximo de Luzes",
@@ -1690,8 +1690,8 @@
 				"force_32_bit": "* Forçar 32-bit (Requer Reinício)",
 				"force_32_bit_note": "* Force 32 bits apenas se for absolutamente necessário. 64 bits é mais rápido e suporta cidades maiores.",
 				"collect_profile": "Colher perfil",
-				"enable_lua_jit": "Use Lua JIT (Requer Reiniciar)",
-				"send_anon_data": "Mande feedback anonimo para ajudar a melhorar o Stonehearth!",
+				"enable_lua_jit": "Use Lua JIT (Requer Reinício)",
+				"send_anon_data": "Mande feedback anônimo para ajudar a melhorar o Stonehearth!",
 				"language_select": "Idioma",
 				"unsaved_changes_dialog": {
 					"title": "Descartar alterações?",
@@ -1729,7 +1729,7 @@
 					"invalid_manifest": "Manifest Inválido",
 					"invalid_steam_file": "ID de arquivo do Steam inválido",
 					"out_of_date": "Desatualizado",
-					"deferred_load": "Carregado Automaticamente por outros módulos",
+					"deferred_load": "Carregado Automaticamente por outros Mods",
 					"required": "Necessário",
 					"debug": "Mod para Depuração",
 					"localization": "Isto é um mod de tradução?",
@@ -1745,7 +1745,7 @@
 						"message": "Não conseguiu enviar \"[str(modname)]\": [str(error)]"
 					},
 					"create_mod_error_dialog": {
-						"title": "Criar mod falhou",
+						"title": "Criação mod falhou",
 						"message": "Não foi possível criar o mod \"[str(modname)]\": [str(error)]"
 					}
 				},
@@ -1769,7 +1769,7 @@
 						"harvest": "Ferramentas",
 						"zone": "Zoneamento",
 						"build": "Construção",
-						"craft": "Oficio (craft)",
+						"craft": "Artesanato",
 						"fight": "Combate",
 						"ui": "Interface de Usuário",
 						"debug": "Depuração "
@@ -1875,7 +1875,7 @@
 				"exit": "Sair",
 				"settings": "Opções",
 				"about": "Sobre",
-				"kingdom_of": "O Reino de ",
+				"kingdom_of": "O Assentamento de ",
 				"continue_game": "Continuar",
 				"new_game": "Novo Jogo",
 				"singleplayer_game": "Um Jogador",
@@ -1891,7 +1891,7 @@
 					"cancel": "Não, Obrigado."
 				},
 				"mod_conflic_dialog": {
-					"title": "Detectado Módulos em Conflito!",
+					"title": "Mods em Conflito Foram Detectados!",
 					"message": "Aviso: você tem mods conflitantes que possuem o mesmo nome. Certifique-se de que apenas um mod com esse nome esteja ativado no menu de mods. <br> Se você tiver um .smod e uma pasta simples para o mod, a pasta será usada. Os mods afetados são:<br><br>",
 					"accept": "Sim, prosseguir."
 				},
@@ -2200,7 +2200,7 @@
 				"citizen_info": "Lista da expedição",
 				"accept_roster": "Aceitar Grupo",
 				"randomize": "Aleatorizar",
-				"hair_style": "Penteado",
+				"hair_style": "Estilo do Cabelo",
 				"skin_color": "Cor da Pele",
 				"facial_hair": "Face",
 				"hair_color": "Cor do Cabelo",
@@ -2251,16 +2251,16 @@
 				},
 				"inventiveness": {
 					"display_name": "Inventividade",
-					"description": "Quão bom este hearthling está em criar coisas. Bons inventores são mais propensos a criar bons artesanatos.",
+					"description": "Quão bom este hearthling está em criar coisas. Bons inventores são mais propensos a criar artesanatos refinados.",
 					"bullet_points": {
-						"000": "Cada 2 pontos aumenta a chance de criar um item fino em 1%"
+						"000": "Cada 2 pontos aumenta a chance de criar um item refinado em 1%"
 					}
 				},
 				"inspiration": {
 					"display_name": "Inspiração",
-					"description": "Um modificador plano para a chance deste hearthing para criar itens com boa e excelente qualidades.",
+					"description": "Um modificador plano para a chance deste hearthing para criar itens com Refinada e Excelente qualidades.",
 					"bullet_points": {
-						"000": "Um hearthling deve ser pelo menos um Journeyman para criar itens de qualidade Fine, e um mestre para criar itens excelentes</br>",
+						"000": "Um hearthling deve ser pelo menos um Oficial para criar itens de qualidade Refinada, e um Mestre para criar itens Excelentes</br>",
 						"001": "Varia de -2% a + 3%, com base no espírito do hearthling"
 					}
 				},
@@ -2311,14 +2311,14 @@
 				},
 				"muscle": {
 					"display_name": "Músculo",
-					"description": "Força muscular desse cidadão",
+					"description": "Massa muscular deste hearthling",
 					"bullet_points": {
 						"000": "Cada 10 músculos aumenta o dano da arma em 1"
 					}
 				},
 				"happiness": {
 					"display_name": "Moral Geral",
-					"description": "Felicidade global deste hearthling",
+					"description": "Felicidade deste hearthling",
 					"town_description": "Quão felizes são seus cidadãos em geral."
 				},
 				"speed": {
@@ -4319,7 +4319,7 @@
 												},
 												"story1": {
 													"bulletin_message": {
-														"00": "I had come to warn you of the Titan lurking under your lands... to beseech your help in eradicating it, but... <br><br>...did you already cleanse this land of its sinister presence?"
+														"00": "Eu tinha vindo para te avisar sobre o Titã se escondendo sob suas terras... para implorar por sua ajuda em erradicar ele, mas...<br><br>...você já limpou esta terra de sua presença sinistra?"
 													},
 													"bulletin_title": "Erdene continua",
 													"dialog_title": "Erdene, confuso",
@@ -4327,7 +4327,7 @@
 												},
 												"greet": {
 													"bulletin_message": {
-														"00": "Valiant humans, who have proven your strength, I greet you now as equals. This domain is yours by right, and your star glints all the brighter. Yours is a promising fortune indeed!"
+														"00": "Valentes humanos, que provaram a sua força, eu lhes cumprimento como iguais. Este domínio é seu por direito, e sua estrela brilha mais claro do que todas as outras. A sua realmente é uma fortuna promissora!"
 													},
 													"bulletin_title": "Erdene do Red Kiln retorna, ansioso",
 													"dialog_title": "Erdene, Orador do Red Kiln",
@@ -4374,11 +4374,11 @@
 												},
 												"farewell": {
 													"bulletin_message": {
-														"00": "Farewell, brave Humans. May your star shine ever brighter, and be a guide to all through the coming night.<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
+														"00": "Até mais, corajosos Humanos. Que sua estrela brilhe<br><br><i><font size=-1>[You can find the Gong lying near your Banner, or in your inventory under 'Decorations']</font></i>"
 													},
-													"bulletin_title": "Erdene continues",
-													"dialog_title": "Erdene, Speaker of the Red Kiln",
-													"choice_000": "Goodbye, Erdene"
+													"bulletin_title": "Erdene continua",
+													"dialog_title": "Erdene, Orador do Red Kiln",
+													"choice_000": "Até mais, Erdene"
 												},
 												"story1": {
 													"bulletin_message": {
@@ -4520,7 +4520,7 @@
 														"00": "Sim! In fact, the Titan's defeat has cleansed that sinister Gong I brought you, along with your lands. That Gong shall stand as testament of my people's enduring respect for your tribe and its people.<br><br><i>So long as that white stone Gong is deployed</i> and you have room for us, expect an Orcish immigrant every few moons."
 													},
 													"bulletin_title": "Erdene continua",
-													"dialog_title": "Erdene gestures",
+													"dialog_title": "Erdene gesticula",
 													"choice_000": "Entendo!"
 												},
 												"request3": {
@@ -4679,7 +4679,7 @@
 										"achievements": {
 											"001": "Plantas e Cultivos crescem 25% mais rápido",
 											"000": "Árvores produzem 25% mais Madeira",
-											"002": "Plantas têm 2x o seu Atrativo normal"
+											"002": "Plantas têm 2x a sua Atração normal."
 										}
 									},
 									"hearth_upgrade_makers": {
@@ -4755,7 +4755,7 @@
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "Sou Marak Azael, prazer em conhecê-lo. Faz cócegas nos meus bigodes ver um assentamento como o seu, montado do nada em pouco tempo.<br><br>A própria Ascensão foi construída com serra e martelo por artesãos finos como vocês! É por isso que o Grêmio significa tanto para mim, e por isso eu queria te fazer uma visita."
+														"00": "Sou Marak Azael, prazer em conhecê-lo. Faz cócegas nos meus bigodes ver um assentamento como o seu, montado do nada em pouco tempo.<br><br>A própria Ascendancy foi construída com serras e martelos por artesãos refinados como vocês! É por isso que o Grêmio significa tanto para mim, e por isso eu queria te fazer uma visita."
 													},
 													"bulletin_title": "O Mestre da Guilda",
 													"dialog_title": "O Mestre da Guilda",
@@ -5125,15 +5125,15 @@
 					"hearth_choice": {
 						"glory": {
 							"name": "Lareira da Glória",
-							"description": "<i>Prova de que você tem força militar, e que você está preparado para mantê-lo em seus pés.</i><ul><li>Permite convocar inimigos cada vez mais difíceis para provar sua coragem</li><li>Cada classificação derrotada aumentará o patrimônio líquido da Atualização Diária</li></ul>"
+							"description": "<i>Prova de que você tem força militar, e que você está preparado para mantê-lo em seus pés.</i><ul><li>Permite convocar inimigos cada vez mais difíceis para provar sua coragem</li><li>Cada classificação derrotada aumentará o patrimônio da Atualização Diária</li></ul>"
 						},
 						"makers": {
 							"name": "Lareira dos Artesãos",
-							"description": "<i>Prova de que o ouro tem fluído através de seu assentamento, e que você tem bons artesãos.</i><ul><li>Gera juros diários de 5% sobre qualquer Moeda de Ouro que você tenha em mãos (até 300 por dia)</li><li>Aumenta seu patrimônio líquido de Atualização Diária com base em Moedas de Ouro em mãos</li></ul>"
+							"description": "<i>Prova de que o ouro tem fluído através de seu assentamento, e que você tem bons artesãos.</i><ul><li>Gera juros diários de 5% sobre qualquer Moeda de Ouro que você tenha em mãos (até 300 por dia)</li><li>Aumenta seu patrimônio de Atualização Diária com base em Moedas de Ouro em mãos</li></ul>"
 						},
 						"cheer": {
 							"name": "Lareira da Alegria",
-							"description": "<i>Prova de que você tem cidadãos felizes e bem alimentados, e bons lugares para eles viverem.</i><ul><li>Aumenta o patrimônio líquido do Atualização Diária com base no moral geral de seus cidadãos</li><li>Cada dia traz um novo buff aleatório para seus habitantes da cidade.</li></ul>"
+							"description": "<i>Prova de que você tem cidadãos felizes e bem alimentados, e bons lugares para eles viverem.</i><ul><li>Aumenta o patrimônio da Atualização Diária com base no moral geral de seus cidadãos</li><li>Cada dia traz um novo buff aleatório para seus habitantes da cidade.</li></ul>"
 						}
 					},
 					"shrine_quest_deity": {
@@ -6112,7 +6112,7 @@
 															"00": "\"Claro que a parte verde! Nós nunca comemos a parte nojenta de frutas vermelhas, é tudo... mole. Guarde e faça com eles o que quiser,\" diz Sasha, enojado."
 														},
 														"bulletin_title": "Crescimento Histórico ",
-														"choice_000": "Uh, alright then..."
+														"choice_000": "Uh, OK então..."
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -6147,15 +6147,15 @@
 															"00": "\"Fantástico! Vou mostrar a eles como plantá-lo, pelo menos, tanto quanto me disseram. Vou voltar ansiosamente uma vez que ele teve a chance de crescer!\""
 														},
 														"bulletin_title": "Crescimento Histórico ",
-														"choice_000": "Thanks!"
+														"choice_000": "Obrigado!"
 													},
 													"msg1": {
 														"bulletin_message": {
 															"00": "\"Saudações! Venho pedindo um favor há muito tempo. Há uma planta, conhecida por meu povo, como 'Heirbloom', que não tem sido cultivada por um longo tempo. Ele precisa que o sol floresça, e não conseguimos permanecer no solo por tempo suficiente para cuidar dele por muitos anos.\"<br><br>\"Essas sementes foram passadas em meu Warren por gerações, e eu ficaria muito grato e honrado, se você pudesse cultivá-las para nós.\""
 														},
 														"bulletin_title": "Crescimento Histórico",
-														"choice_000": "Exciting! Our farmers would be happy to.",
-														"choice_001": "Sorry, not this time"
+														"choice_000": "Excitante! Nossos fazendeiros ficariam felizes em fazê-lo",
+														"choice_001": "Desculpe, não dessa vez"
 													}
 												}
 											}
@@ -7546,7 +7546,7 @@
 				"disabled_description": "Este item está em uso. Tente movê-lo mais tarde."
 			},
 			"open_character_sheet": {
-				"display_name": "Folha de personagem",
+				"display_name": "Ficha do personagem",
 				"description": "Dê uma olhada mais de perto neste cidadão"
 			},
 			"open_loot": {
@@ -9090,7 +9090,7 @@
 					},
 					"item_quality": {
 						"ate_item_quality_fine": {
-							"display_name": "Refeição finamente preparada",
+							"display_name": "Refeição refinada",
 							"tooltip": "Meu recente [str(foodname)] foi <font color='#6be9e7'>Finamente</font> preparado, o que o tornou extra delicioso!"
 						},
 						"ate_item_quality_excellent": {
@@ -9601,7 +9601,7 @@
 		"hotkeys": {
 			"keys": {
 				"ui_character": {
-					"display_name": "Folha de Personagem"
+					"display_name": "Ficha do Personagem"
 				},
 				"fight_move": {
 					"display_name": "Mover ao Local"
@@ -9928,10 +9928,10 @@
 			},
 			"bronze_shield": {
 				"display_name": "Escudo de (Bronze)",
-				"description": "Useful for blocking attacks",
+				"description": "Útil para bloquear ataques",
 				"bronze_shield_iconic": {
 					"display_name": "Escudo de (Bronze)",
-					"description": "Useful for blocking attacks"
+					"description": "Útil para bloquear ataques"
 				}
 			},
 			"iron_coif": {
@@ -10127,7 +10127,7 @@
 			"wooden_door": {
 				"wooden_door_ghost": {
 					"display_name": "Porta de Madeira",
-					"description": "Privacidade finalmente!"
+					"description": "Finalmente alguma privacidade!"
 				}
 			},
 			"wooden_door_2": {
@@ -10250,43 +10250,43 @@
 			},
 			"wooden_door_fine": {
 				"wooden_door_fine_ghost": {
-					"display_name": "Porta de Madeira Fina",
-					"description": "Privacidade finalmente!"
+					"display_name": "Porta de Madeira Refinada",
+					"description": "Finalmente alguma privacidade!"
 				}
 			},
 			"wooden_door_2_fine": {
 				"wooden_door_2_fine_ghost": {
 					"description": "Mais resistente que a sua porta comum, e um padrão tão doce também.",
-					"display_name": "Porta de Madeira Reforçada Fina"
+					"display_name": "Porta de Madeira Reforçada Refinada"
 				}
 			},
 			"wooden_double_door_fine": {
 				"wooden_double_door_fine_ghost": {
-					"display_name": "Porta Dupla de Madeira Fina",
+					"display_name": "Porta Dupla de Madeira Refinada",
 					"description": "Uma porta maior com algum estilo extra. Todos os seus amigos terão inveja."
 				}
 			},
 			"wooden_window_frame_fine": {
 				"wooden_window_frame_fine_ghost": {
-					"display_name": "Moldura de Janela de Madeira Fina",
+					"display_name": "Moldura de Janela de Madeira Refinada",
 					"description": "Tanta privacidade..."
 				}
 			},
 			"wooden_window_frame_tall_fine": {
 				"wooden_window_frame_tall_fine_ghost": {
-					"display_name": "Moldura de Janela Alta e Fina",
+					"display_name": "Moldura de Janela Alta Refinada",
 					"description": "Altura extra acrescenta um ar de elegância"
 				}
 			},
 			"wooden_window_frame_wide_fine": {
 				"wooden_window_frame_wide_fine_ghost": {
-					"display_name": "Moldura de Janela Larga e Fina",
+					"display_name": "Moldura de Janela Larga Refinada",
 					"description": "É uma vista panorâmica!"
 				}
 			},
 			"wooden_diamond_window_fine": {
 				"wooden_diamond_window_fine_ghost": {
-					"display_name": "Moldura de Janela de Diamante Fino",
+					"display_name": "Moldura de Janela de Diamante Refinada",
 					"description": "Tanta privacidade..."
 				}
 			},
@@ -10303,7 +10303,7 @@
 				}
 			},
 			"wooden_tunnel_door_fine": {
-				"display_name": "Porta do Túnel de Madeira Fina",
+				"display_name": "Porta do Túnel de Madeira Refinada",
 				"description": "Útil para bloquear túneis"
 			},
 			"blue_latticed_window": {
@@ -10618,19 +10618,19 @@
 			},
 			"small_crate_fine": {
 				"small_crate_fine_ghost": {
-					"display_name": "Caixa Pequena e Fina",
+					"display_name": "Caixa Pequena Refinada",
 					"description": "Recipiente de armazenamento com estilo"
 				}
 			},
 			"large_crate_fine": {
 				"large_crate_fine_ghost": {
-					"display_name": "Caixa Grande Fina",
+					"display_name": "Caixa Grande Refinada",
 					"description": "Armazena até 32 itens. Com estilo."
 				}
 			},
 			"leather_bound_chest_fine": {
 				"leather_bound_chest_fine_ghost": {
-					"display_name": "Baú Encadernado em Couro Fino",
+					"display_name": "Baú em Couro Refinado",
 					"description": "Armazena até 64 itens. Com estilo."
 				}
 			},
@@ -10702,7 +10702,7 @@
 			},
 			"input_shelf_wall_clay": {
 				"input_shelf_wall_clay_ghost": {
-					"display_name": "Ceramic Wall Supply Shelf",
+					"display_name": "Prateleira de Suprimentos em Cerâmica",
 					"description": "Verifique se está ao seu alcance!"
 				}
 			},
@@ -10714,7 +10714,7 @@
 			},
 			"input_shelf_ground_clay": {
 				"input_shelf_ground_clay_ghost": {
-					"display_name": "Ceramic Supply Rack",
+					"display_name": "Rack de Suprimentos em Cerâmica",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
@@ -10768,55 +10768,55 @@
 			},
 			"input_table_ground_clay": {
 				"input_table_ground_clay_ghost": {
-					"display_name": "Ceramic Supply Table",
+					"display_name": "Mesa de Suprimentos em Cerâmica de Canto",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_corner_ground_clay": {
 				"input_corner_ground_clay_ghost": {
-					"display_name": "Ceramic Corner Supply Rack",
+					"display_name": "Mesa de Suprimentos em Cerâmica de Canto",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_clay_blue": {
 				"input_bin_clay_blue_ghost": {
-					"display_name": "Blue Ceramic Supply Basin",
+					"display_name": "Cesta de Suprimentos de Cerâmica Azul",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_clay_green": {
 				"input_bin_clay_green_ghost": {
 					"description": "Um contêiner de suprimento, para criação mais rápida.",
-					"display_name": "Green Ceramic Supply Basin"
+					"display_name": "Cesta de Suprimentos de Cerâmica Verde"
 				}
 			},
 			"input_bin_clay_red": {
 				"input_bin_clay_red_ghost": {
 					"description": "Um contêiner de suprimento, para criação mais rápida.",
-					"display_name": "Red Ceramic Supply Basin"
+					"display_name": "Cesta de Suprimentos de Cerâmica Vermelha"
 				}
 			},
 			"input_bin_woven_blue": {
 				"input_bin_woven_blue_ghost": {
-					"display_name": "Blue Woven Supply Basket",
+					"display_name": "Cesta de Suprimentos de Tecido Azul",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_woven_green": {
 				"input_bin_woven_green_ghost": {
-					"display_name": "Green Woven Supply Basket",
+					"display_name": "Cesta de Suprimentos de Tecido Verde",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_bin_woven_red": {
 				"input_bin_woven_red_ghost": {
-					"display_name": "Red Woven Supply Basket",
+					"display_name": "Cesta de Suprimentos de Tecido Vermelho",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
 			"input_corner_ground_iron": {
 				"input_corner_ground_iron_ghost": {
-					"display_name": "Iron Corner Supply Shelf",
+					"display_name": "Prateleira de Suprimentos em Ferro de Canto",
 					"description": "Um contêiner de suprimento, para criação mais rápida."
 				}
 			},
@@ -10985,7 +10985,7 @@
 		},
 		"crops": {
 			"brightbell_crop": {
-				"display_name": "Brightbell (Flor)",
+				"display_name": "Brightbell",
 				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
@@ -11059,7 +11059,7 @@
 				}
 			},
 			"frostsnap_crop": {
-				"display_name": "Frostsnap (Flor)",
+				"display_name": "Frostsnap",
 				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
@@ -11107,7 +11107,7 @@
 				}
 			},
 			"pumpkin_crop": {
-				"display_name": "Abobora",
+				"display_name": "Abóbora",
 				"description": "Grande, redondo e de rápido crescimento, mas saboroso não é.",
 				"growth_stage": {
 					"003": {
@@ -11123,8 +11123,8 @@
 						"description": "Ainda não é comestível!"
 					},
 					"000": {
-						"name": "Abobora (Muda)",
-						"description": "A unrealized pumpkin."
+						"name": "Muda de Abóbora",
+						"description": "Um bebê abóbora "
 					},
 					"011": {
 						"name": "Abobora (Estragada)",
@@ -11396,8 +11396,8 @@
 						"description": "Começando a ficar espinhoso"
 					},
 					"002": {
-						"name": "Cacto (Maduro)",
-						"description": "Wait for its flower to bloom"
+						"name": "Cacto Maduro",
+						"description": "Espere sua flor desabrochar"
 					},
 					"003": {
 						"name": "Cacto de Floração",
@@ -11493,7 +11493,7 @@
 			},
 			"heirbloom_crop": {
 				"display_name": "Heirbloom",
-				"description": "As hastes lenhosas são aparentemente uma iguaria de Amberstone?",
+				"description": "As hastes de madeira aparentemente são uma iguaria de Amberstone?",
 				"growth_stage": {
 					"001": {
 						"name": "Caule da Heirbloom da Floração",
@@ -11660,7 +11660,7 @@
 			},
 			"wooden_garden_lantern_fine": {
 				"wooden_garden_lantern_fine_ghost": {
-					"display_name": "Lanterna de Jardim Fino",
+					"display_name": "Lanterna de Jardim Refinada",
 					"description": "Uma fonte compacta de luz, com um pouco de talento."
 				},
 				"wooden_garden_lantern_red_ghost": {
@@ -11705,7 +11705,7 @@
 			},
 			"wooden_wall_lantern_fine": {
 				"wooden_wall_lantern_fine_ghost": {
-					"display_name": "Lanterna de Parede Fina",
+					"display_name": "Lanterna de Parede Refinada",
 					"description": "Fixado facilmente nas paredes"
 				}
 			},
@@ -11856,7 +11856,7 @@
 			"decorative_scout_gong": {
 				"decorative_scout_gong_ghost": {
 					"display_name": "Gongo Escoteiro",
-					"description": "Inspired by the Kobold Scout"
+					"description": "Inspirado no Kobold Scout"
 				}
 			},
 			"valor_statue": {
@@ -12057,7 +12057,7 @@
 				"fountain_tiered": {
 					"fountain_tiered_ghost": {
 						"display_name": "Bacia da Cachoeira",
-						"description": "A miniature cascade"
+						"description": "Uma cascata em miniatura"
 					}
 				},
 				"gate_iron": {
@@ -12081,7 +12081,7 @@
 				"lantern_iron": {
 					"lantern_iron_ghost": {
 						"display_name": "Lanterna de Ferro Fixada na Parede",
-						"description": "Glows like the heart of the forge"
+						"description": "Brilha como o coração de uma forja"
 					}
 				},
 				"pot_berry_bush": {
@@ -12171,20 +12171,20 @@
 			},
 			"window_box_brightbell_fine": {
 				"window_box_brightbell_fine_ghost": {
-					"display_name": "Plantador de Brightbell Fino",
+					"display_name": "Plantador de Brightbell Refinado",
 					"description": "Um lar aconchegante para a planta."
 				}
 			},
 			"window_box_frostsnap_fine": {
 				"window_box_frostsnap_fine_ghost": {
-					"display_name": "Plantador de Frostsnap Fino",
+					"display_name": "Plantador de Frostsnap Refinado",
 					"description": "Um lar aconchegante para a planta."
 				}
 			},
 			"poyo_weathervane": {
 				"poyo_weathervane_ghost": {
-					"display_name": "Poyo Weathervane",
-					"description": "Um cata-vento na imagem de um pássaro amistoso"
+					"display_name": "Cata-vento Poyo",
+					"description": "Um cata-vento parecido com um passarinho"
 				}
 			},
 			"ornate_wooden_garden_lantern": {
@@ -12572,7 +12572,7 @@
 			},
 			"corn_meal": {
 				"display_name": "Farinha de Milho",
-				"description": "Moído de milho em um pó fino"
+				"description": "Milho moído em um pó fino"
 			},
 			"flat_bread": {
 				"flat_bread": {
@@ -12638,7 +12638,7 @@
 			},
 			"kibble": {
 				"kibble": {
-					"display_name": "Kibble",
+					"display_name": "Ração",
 					"description": "Atrai gatos"
 				}
 			},
@@ -12698,8 +12698,8 @@
 				"description": "Isso definitivamente deu errado"
 			},
 			"rotten_poultry_large_meat": {
-				"display_name": "Carne de Aves Estradas",
-				"description": "Pee-ew!"
+				"display_name": "Frango Estragado",
+				"description": "Eca!"
 			},
 			"poultry_large": {
 				"display_name": "Aves Cruas",
@@ -12759,19 +12759,19 @@
 				}
 			},
 			"varanus_jerky": {
-				"display_name": "Varanus Jerky"
+				"display_name": "Carne Seca de Varanus"
 			},
 			"zilla_jerky": {
-				"display_name": "Zilla Jerky"
+				"display_name": "Carne Seca de Zilla"
 			},
 			"ostrich_jerky": {
-				"display_name": "Ostrich Jerky"
+				"display_name": "Carne Seca de Avestruz"
 			},
 			"boar_jerky": {
-				"display_name": "Boar Jerky"
+				"display_name": "Carne Seca de Javali"
 			},
 			"duckduck_jerky": {
-				"display_name": "Duckduck Jerky"
+				"display_name": "Carne Seca de PatoPato"
 			},
 			"roast_venison": {
 				"roast_venison": {
@@ -12846,7 +12846,7 @@
 				}
 			},
 			"wolf_jerky": {
-				"display_name": "Wolf Jerky"
+				"display_name": "Carne Seca de Lobo"
 			},
 			"fodder": {
 				"fodder": {
@@ -12922,13 +12922,13 @@
 			"comfy_bed": {
 				"comfy_bed_ghost": {
 					"display_name": "Cama Confortável",
-					"description": "Eu sonhei... de ovelhas voadoras."
+					"description": "Eu sonhei... com ovelhas voadoras."
 				}
 			},
 			"comfy_bed_fine": {
 				"comfy_bed_fine_ghost": {
-					"display_name": "Fine Comfy Bed",
-					"description": "Eu sonhei... de ovelhas voadoras."
+					"display_name": "Cama Confortável Elegante",
+					"description": "Eu sonhei... com ovelhas voadoras."
 				}
 			},
 			"comfy_chair": {
@@ -12939,8 +12939,8 @@
 			},
 			"comfy_chair_fine": {
 				"comfy_chair_fine_ghost": {
-					"display_name": "Cadeira Confortável Fina",
-					"description": "Por sentar!"
+					"display_name": "Cadeira Confortável Elegante",
+					"description": "Para se sentar!"
 				}
 			},
 			"amberstone_table": {
@@ -12957,7 +12957,7 @@
 			},
 			"dining_table_fine": {
 				"dining_table_fine_ghost": {
-					"display_name": "Mesa de Jantar Fina",
+					"display_name": "Mesa de Jantar Refinada",
 					"description": "Sentar-se para comer é um sinal de civilização."
 				}
 			},
@@ -12969,14 +12969,14 @@
 			},
 			"dresser_fine": {
 				"dresser_fine_ghost": {
-					"display_name": "Fine Dresser",
+					"display_name": "Cômoda Elegante",
 					"description": "Decorativo na ausência de pertences."
 				}
 			},
 			"not_much_of_a_bed": {
 				"not_much_of_a_bed_ghost": {
-					"display_name": "Cama Média",
-					"description": "Significa como pobre, não cruel."
+					"display_name": "Cama Ruim",
+					"description": "Ruim como pobre, não cruel."
 				}
 			},
 			"park_bench": {
@@ -12987,7 +12987,7 @@
 			},
 			"park_bench_fine": {
 				"park_bench_fine_ghost": {
-					"display_name": "Banco do Parque Fino",
+					"display_name": "Banco de Parque Refinado",
 					"description": "Esplanada para momentos de relaxamento."
 				}
 			},
@@ -13005,7 +13005,7 @@
 			},
 			"simple_wooden_chair_fine": {
 				"simple_wooden_chair_fine_ghost": {
-					"display_name": "Cadeira de Madeira Fina",
+					"display_name": "Cadeira de Madeira Refinada",
 					"description": "Para sentar."
 				}
 			},
@@ -13035,7 +13035,7 @@
 			},
 			"table_for_one_fine": {
 				"table_for_one_fine_ghost": {
-					"display_name": "Mesa Fina Para Um",
+					"display_name": "Mesa Para Um Refinada",
 					"description": "Mobília de jantar para introvertidos."
 				}
 			},
@@ -13057,7 +13057,7 @@
 			},
 			"writing_desk_fine": {
 				"writing_desk_fine_ghost": {
-					"display_name": "Redação Fina",
+					"display_name": "Escrivaninha Refinada",
 					"description": "Mobília"
 				}
 			},
@@ -13087,19 +13087,19 @@
 			},
 			"clay_dining_table_fine": {
 				"clay_dining_table_fine_ghost": {
-					"display_name": "Mesa de Jantar de Argila Fina",
+					"display_name": "Mesa de Jantar de Argila Refinada",
 					"description": "Tira a comida do chão... com estilo"
 				}
 			},
 			"simple_clay_chair_fine": {
 				"simple_clay_chair_fine_ghost": {
-					"display_name": "Cadeira de Argila Fina",
+					"display_name": "Cadeira de Argila Refinada",
 					"description": "Menos empoeirado e mais elegante do que sentar no chão"
 				}
 			},
 			"clay_bed_fine": {
 				"clay_bed_fine_ghost": {
-					"display_name": "Cama de Argila Fina",
+					"display_name": "Cama de Argila Refinada",
 					"description": "Bonito, mas ainda desconfortável"
 				}
 			},
@@ -13151,7 +13151,7 @@
 			"ornate_writing_desk": {
 				"ornate_writing_desk_ghost": {
 					"description": "Um lugar elegante para escrever cartas para casa.",
-					"display_name": "Redação Ornamentada"
+					"display_name": "Escrivaninha Ornamentada"
 				}
 			},
 			"ornate_comfy_chair": {
@@ -13267,7 +13267,7 @@
 				"town_banner_nature_ghost": {
 					"display_name": "Bandeira da Vitalidade",
 					"description": "Como você sabe que está em casa",
-					"town_bonus_description": "<i>Este assentamento estará em sintonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Colheitas crescem 25% mais rápido</li><li>Plantas têm 2x o seu Atrativo normal</li></ul>"
+					"town_bonus_description": "<i>Este assentamento estará em sintonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Colheitas crescem 25% mais rápido</li><li>Plantas têm 2x a sua Atração normal</li></ul>"
 				},
 				"town_banner_nature_token_iconic": {
 					"display_name": "Fragmento da Bandeira da Vitalidade",
@@ -13328,7 +13328,7 @@
 			},
 			"keystone_pedestal": {
 				"keystone_pedestal_ghost": {
-					"display_name": "Amberstone Pedestal",
+					"display_name": "Pedestal Amberstone",
 					"description": "Um pedestal com uma Amberstone no topo, necessário para casas Amberstone."
 				}
 			}
@@ -13376,7 +13376,7 @@
 				},
 				"zilla": {
 					"display_name": "Zilla",
-					"description": "O chão resmunga quando Zilla aparece."
+					"description": "O chão treme quando Zilla aparece."
 				},
 				"cougar": {
 					"display_name": "Puma",
@@ -13406,7 +13406,7 @@
 				},
 				"goblin_boss_banner": {
 					"goblin_boss_banner_ghost": {
-						"display_name": "Ogo Skullbonker's Standard",
+						"display_name": "Estandarte de Ogo Skullbonker",
 						"description": "Indica claramente o status de chefe goblin"
 					}
 				},
@@ -13461,7 +13461,7 @@
 					"description": "Feito de madeira, osso e ego"
 				},
 				"goblin_wolf": {
-					"display_name": "Goblin Raiding Wolf",
+					"display_name": "Lobo de Invasão Goblin",
 					"description": "Criado para inspirar terror"
 				},
 				"skull_trophy": {
@@ -13508,7 +13508,7 @@
 					}
 				},
 				"kobold_wolf": {
-					"display_name": "Kobold Wolf",
+					"display_name": "Lobo Kobold",
 					"description": "Um Lobo Temível!"
 				}
 			},
@@ -13605,9 +13605,9 @@
 					}
 				},
 				"duckduck": {
-					"display_name": "DuckDuck",
+					"display_name": "PatoPato",
 					"description": "Ave que não voa, que põe ovos gigantes. Come um pouco de tudo.",
-					"species": "duckduck",
+					"species": "patopato",
 					"egg": {
 						"duckduck_egg_fertilized": {
 							"display_name": "Ovo de Pato Fertilizado",
@@ -13738,7 +13738,7 @@
 				}
 			},
 			"berry_bush": {
-				"display_name": "Arbusto de Frutas",
+				"display_name": "Arbusto de Frutinhas",
 				"description": "Colhível para um suprimento escasso de comida.",
 				"unripe_description": "Ainda não está maduro para a colheita.",
 				"seed": {
@@ -13761,7 +13761,7 @@
 				},
 				"stem": {
 					"berry_bush_plant_stem": {
-						"display_name": "Stemming Berry Bush",
+						"display_name": "Arbusto de Frutinhas em Crescimento",
 						"description": "Ainda crescendo!"
 					}
 				}
@@ -14086,50 +14086,50 @@
 				}
 			},
 			"tumbleweed_live": {
-				"display_name": "Live Tumbleweed",
-				"description": "Once it dries out, it will be a great source of coarse fibers"
+				"display_name": "Erva Daninha Viva",
+				"description": "Assim que secar, vai ser uma boa fonte de fibras grossas"
 			},
 			"sugarbell": {
 				"unripe_description": "Ainda não está maduro para a colheita.",
 				"sugarbell_ghost": {
 					"display_name": "Sugarbell",
-					"description": "Harvestable for a bit of sugar."
+					"description": "Colhível para um pouco de açúcar"
 				},
 				"bud": {
 					"sugarbell_plant_bud": {
-						"display_name": "Budding Sugarbell",
-						"description": "Its almost there!  The petals are starting to change!"
+						"display_name": "Sugarbell Florescendo",
+						"description": "Quase lá! As pétalas estão começando a mudar!"
 					}
 				},
 				"seed": {
 					"sugarbell_plant_seed": {
-						"display_name": "Sugarbell Seed",
-						"description": "Can be planted to grow a bit of sugar"
+						"display_name": "Semente de Sugarbell",
+						"description": "Pode ser plantada para dar um pouco de açúcar"
 					},
 					"sugarbell_plant_seed_ghost": {
-						"display_name": "Sugarbell Seed",
-						"description": "Can be planted to grow a bit of sugar"
+						"display_name": "Semente de Sugarbell",
+						"description": "Pode ser plantada para dar um pouco de açúcar"
 					}
 				},
 				"sprout": {
 					"sugarbell_plant_sprout": {
-						"display_name": "Sugarbell Sproutling",
+						"display_name": "Broto de Sugarbell",
 						"description": "Só precisa de algum tempo e cuidado."
 					}
 				},
 				"stem": {
 					"sugarbell_plant_stem": {
-						"display_name": "Stemming Sugarbell",
+						"display_name": "Sugarbell",
 						"description": "Ainda crescendo!"
 					}
 				}
 			},
 			"cactus_tulip_red_plant": {
 				"cactus_tulip_red_plant_ghost": {
-					"display_name": "Red Tulip Cactus",
+					"display_name": "Tulipa de Cacto Vermelha",
 					"description": "Pode ser colhido para ervas curativas"
 				},
-				"unripe_description": "Esta planta foi colhida e não voltou a crescer",
+				"unripe_description": "Esta planta foi colhida e não voltou a crescer ainda",
 				"stem": {
 					"cactus_tulip_red_plant_stem": {
 						"display_name": "Stemming Tulip Cactus Plant",
@@ -15552,12 +15552,12 @@
 				"description": "Uma flecha imbuída de chamas",
 				"two_handed_sword_valor_iconic": {
 					"display_name": "Espada Brasonada",
-					"description": "A lâmina mais fina da Ascensão."
+					"description": "A lâmina mais elegante da Ascendancy."
 				}
 			},
 			"bow_valor": {
 				"display_name": "Arco do Empério",
-				"description": "Arco mais rápido da Ascendência"
+				"description": "Arco mais rápido da ]Ascendancy"
 			},
 			"corruption_beam": {
 				"display_name": "Feixe de Corrupção",
@@ -16126,11 +16126,11 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Inspiração Artística",
-					"perk_000_description": "Quando a inspiração bate, o Ferreiro pode agora criar uma qualidade especialmente fina de item. (Ainda não foi implementado para equipamentos!)"
+					"perk_000_description": "Quando a inspiração bate, o Ferreiro pode agora criar uma qualidade especialmente Refinada de item. (Ainda não foi implementado para equipamentos!)"
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre",
-					"perk_000_description": "O Ferreiro agora pode criar itens de excelente qualidade, e vai fazer itens de qualidade fina com mais frequência. (Ainda não foi implementado para equipamentos!)"
+					"perk_000_description": "O Ferreiro agora pode criar itens de excelente qualidade, e vai fazer itens de qualidade Refinada com mais frequência. (Ainda não foi implementado para equipamentos!)"
 				}
 			},
 			"blacksmith_forge": {
@@ -16496,11 +16496,11 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Conhecimento do Journeyman",
-					"perk_000_description": "Quando a inspiração bate, o Carpinteiro pode agora criar um item de qualidade especialmente fina."
+					"perk_000_description": "Quando a inspiração bate, o Carpinteiro pode agora criar um item de qualidade especialmente Refinada."
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre",
-					"perk_000_description": "O Carpinteiro agora pode criar itens de excelente qualidade e fará itens de qualidade fina com mais frequência."
+					"perk_000_description": "O Carpinteiro agora pode criar itens de excelente qualidade e fará itens de qualidade Refinada com mais frequência."
 				}
 			},
 			"carpenter_outfit": {
@@ -16655,7 +16655,7 @@
 				"wooden_door_recipe": {
 					"description": "Menor obstáculo para intrusos.",
 					"recipe_name": "Porta de Madeira",
-					"flavor": "Privacidade finalmente!"
+					"flavor": "Finalmente alguma privacidade!"
 				},
 				"wooden_double_door_recipe": {
 					"description": "Duas portas são melhores do que uma",
@@ -16840,7 +16840,7 @@
 					"flavor": "A vida é como um prato de frutas vermelhas."
 				},
 				"ornate_writing_desk_recipe": {
-					"recipe_name": "Redação Ornamentada",
+					"recipe_name": "Escrivaninha Ornamentada",
 					"description": "Nem um pouco parecido com um corvo.",
 					"flavor": "... Exceto que pode produzir algumas notas, embora sejam muito planas."
 				},
@@ -17019,9 +17019,9 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Conhecimento do Journeyman",
-					"perk_000_description": "Quando a inspiração bate, o cozinheiro pode agora criar um item de qualidade especialmente fina. (Ainda não implementado para alimentos!)",
+					"perk_000_description": "Quando a inspiração bate, o cozinheiro pode agora criar um item de qualidade especialmente Refinada. (Ainda não implementado para alimentos!)",
 					"perk_001_name": "Conhecimento do Journeyman",
-					"perk_001_description": "Quando a inspiração surgir, o cozinheiro pode agora preparar uma refeição de qualidade especialmente fina.<br><br>(Refeições finas dão um pensamento extra feliz, são engolidas mais rapidamente e vendidas por mais!)"
+					"perk_001_description": "Quando a inspiração surgir, o cozinheiro pode agora preparar uma refeição de qualidade especialmente Refinada.<br><br>(Refeições Refinadas dão um pensamento extra feliz, são engolidas mais rapidamente e vendidas por mais!)"
 				},
 				"level_4_data": {
 					"perk_000_name": "Ingenuidade Melhorada (não implementado)",
@@ -17029,7 +17029,7 @@
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre (não implementado para alimentos)",
-					"perk_000_description": "O cozinheiro agora pode criar itens de excelente qualidade e fará itens de qualidade fina com mais frequência. (Ainda não implementado para alimentos!)"
+					"perk_000_description": "O cozinheiro agora pode criar itens de excelente qualidade e fará itens de qualidade Refinada com mais frequência. (Ainda não implementado para alimentos!)"
 				},
 				"level_6_data": {
 					"title": "Cozinheiro (Mestre)"
@@ -17132,7 +17132,7 @@
 					"recipe_name": "Forno de Pedra"
 				},
 				"corn_meal_recipe": {
-					"description": "Moído de milho em um pó fino",
+					"description": "Milho moído em um pó fino",
 					"recipe_name": "Farinha de Milho"
 				},
 				"decoration_name": "Decorações",
@@ -17287,11 +17287,11 @@
 					"perk_000_name": "Defensor da Cidade",
 					"perk_000_description": "Este Engenheiro pode colocar até oito armadilhas e quatro torres.",
 					"perk_001_name": "Conhecimento do Journeyman",
-					"perk_001_description": "Quando a inspiração acontece, o Engenheiro pode agora criar uma qualidade especialmente fina de item."
+					"perk_001_description": "Quando a inspiração acontece, o Engenheiro pode agora criar uma qualidade especialmente Refinada de item."
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre",
-					"perk_000_description": "O Engenheiro agora pode criar itens de excelente qualidade, e fará itens de qualidade fina com mais frequência."
+					"perk_000_description": "O Engenheiro agora pode criar itens de excelente qualidade, e fará itens de qualidade Refinada com mais frequência."
 				}
 			},
 			"engineer_wrench": {
@@ -17743,11 +17743,11 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Conhecimento do Journeyman",
-					"perk_000_description": "Quando a inspiração surgir, o Pedreiro pode agora criar um item de qualidade especialmente fina."
+					"perk_000_description": "Quando a inspiração surgir, o Pedreiro pode agora criar um item de qualidade especialmente Refinada."
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre",
-					"perk_000_description": "O Pedreiro agora pode criar peças de Excelente qualidade, e vai fazer peças de qualidade Fine com mais frequência."
+					"perk_000_description": "O Pedreiro agora pode criar peças de Excelente qualidade, e vai fazer peças de qualidade Refinada com mais frequência."
 				}
 			},
 			"mason_chisel": {
@@ -18219,11 +18219,11 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Conhecimento do Journeyman",
-					"perk_000_description": "Quando a inspiração bate, o Oleiro pode agora criar uma qualidade especialmente fina de item."
+					"perk_000_description": "Quando a inspiração bate, o Oleiro pode agora criar uma qualidade especialmente Refinada de item."
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre",
-					"perk_000_description": "O Oleiro agora pode criar itens de excelente qualidade, e vai fazer itens de qualidade fina com mais frequência."
+					"perk_000_description": "O Oleiro agora pode criar itens de excelente qualidade, e vai fazer itens de qualidade Refinada com mais frequência."
 				},
 				"level_6_data": {
 					"title": "Oleiro (Mestre)",
@@ -18619,7 +18619,7 @@
 				"level_2_data": {
 					"perk_000_name": "Charm Pet",
 					"perk_001_name": "Oportunidades de Trabalho",
-					"perk_000_description": "O caçador ocasionalmente escolherá transformar um animal particularmente fino em um animal de estimação!",
+					"perk_000_description": "O caçador ocasionalmente escolherá transformar um animal particularmente em um animal de estimação!",
 					"perk_001_description": "O caçador agora se qualifica para empregos avançados. Clique no comando promover para mais detalhes."
 				},
 				"level_6_data": {
@@ -18703,11 +18703,11 @@
 				},
 				"level_3_data": {
 					"perk_000_name": "Conhecimento do Journeyman",
-					"perk_000_description": "Quando a inspiração bate, a tecelã pode agora criar um item de qualidade especialmente fina. (Não implementado para roupas ainda!)"
+					"perk_000_description": "Quando a inspiração bate, a tecelã pode agora criar um item de qualidade especialmente Refinada. (Não implementado para roupas ainda!)"
 				},
 				"level_5_data": {
 					"perk_000_name": "Visão do Mestre",
-					"perk_000_description": "A tecelã agora pode criar itens de excelente qualidade e fará itens de qualidade Fine com mais frequência. (Ainda não implementado para roupas!)"
+					"perk_000_description": "A tecelã agora pode criar itens de excelente qualidade e fará itens de qualidade Refinada com mais frequência. (Ainda não implementado para roupas!)"
 				}
 			},
 			"recipes": {
@@ -18744,7 +18744,7 @@
 				"banner_wall_small_recipe": {
 					"description": "Mostre o orgulho da sua cidade com está bandeira.",
 					"recipe_name": "Bandeira Pequeno Fixada na Parede",
-					"flavor": "Fabricação de qualidade em resoluções finas."
+					"flavor": "Fabricação de qualidade em resoluções refinadas."
 				},
 				"bolt_of_cloth_recipe": {
 					"description": "Used to create more comfortable furniture.",
@@ -18908,10 +18908,10 @@
 			},
 			"weaver_spindle": {
 				"display_name": "O Carretel",
-				"description": "Usado para fiar de fibra em fio fino",
+				"description": "Usado para fiar fibra em fio fino",
 				"weaver_spindle_iconic": {
 					"display_name": "O Carretel",
-					"description": "Usado para fiar de fibra em fio fino"
+					"description": "Usado para fiar fibra em fio fino"
 				},
 				"weaver_spindle_talisman": {
 					"display_name": "Carretel do Tecelão",
@@ -18921,7 +18921,7 @@
 			"weaver_spinning_wheel": {
 				"weaver_spinning_wheel_ghost": {
 					"display_name": "Roca de Fiar",
-					"description": "Usado para fiar de fibra em fio fino"
+					"description": "Usado para fiar fibra em fio fino"
 				}
 			},
 			"weaver_workbench": {
