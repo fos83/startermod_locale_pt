@@ -4620,7 +4620,7 @@
 												},
 												"intro2": {
 													"bulletin_message": {
-														"00": "Eu saí pessoalmente para ajudá-lo em seu último passo para ser um verdadeiro assentamento da ascendência! <br> <br> Agora que você cresceu o suficiente é hora de escolher qual Lareira representará sua cidade, como manda a tradição."
+														"00": "Eu saí pessoalmente para ajudá-lo em seu último passo para ser um verdadeiro assentamento da Ascendência! <br> <br> Agora que você cresceu o suficiente é hora de escolher qual Lareira representará sua cidade, como manda a tradição."
 													},
 													"bulletin_title": "Mer Continua",
 													"dialog_title": "Mer Burlyhands ",
@@ -4755,7 +4755,7 @@
 												},
 												"makers": {
 													"bulletin_message": {
-														"00": "Sou Marak Azael, prazer em conhecê-lo. Faz cócegas nos meus bigodes ver um assentamento como o seu, montado do nada em pouco tempo.<br><br>A própria Ascendancy foi construída com serras e martelos por artesãos refinados como vocês! É por isso que o Grêmio significa tanto para mim, e por isso eu queria te fazer uma visita."
+														"00": "Sou Marak Azael, prazer em conhecê-lo. Faz cócegas nos meus bigodes ver um assentamento como o seu, montado do nada em pouco tempo.<br><br>A própria Ascendência foi construída com serras e martelos por artesãos refinados como vocês! É por isso que o Grêmio significa tanto para mim, e por isso eu queria te fazer uma visita."
 													},
 													"bulletin_title": "O Mestre da Guilda",
 													"dialog_title": "O Mestre da Guilda",
@@ -4787,7 +4787,7 @@
 												},
 												"military": {
 													"bulletin_message": {
-														"00": "Olá - Eu sou Anwyn Torresi, capitão da guarda de Sua Majestade. Ela me manda com seus agradecimentos por resolver esta terra insominada, e por guardá-la contra animais e monstros.<br><br>Nós da Guarda seguimos o exemplo do Cavaleiro Cid, acreditando que ficar corajoso e resoluto contra o deserto é a única maneira da Ascensão recuperar esta terra perdida.<br><br>Você fez um grande serviço à Ascensão plantando sua bandeira aqui."
+														"00": "Olá - Eu sou Anwyn Torresi, capitão da guarda de Sua Majestade. Ela me manda com seus agradecimentos por resolver esta terra insominada, e por guardá-la contra animais e monstros.<br><br>Nós da Guarda seguimos o exemplo do Cavaleiro Cid, acreditando que ficar corajoso e resoluto contra o deserto é a única maneira da Ascendência recuperar esta terra perdida.<br><br>Você fez um grande serviço à Ascendência plantando sua bandeira aqui."
 													},
 													"bulletin_title": "O Capitão",
 													"dialog_title": "O Capitão",
@@ -4848,7 +4848,7 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Ah, não! Estou bem, eu estava... lembrando de algo.<br/><br/>Sabe, eu realmente acredito na Ascensão, que temos o destino de retomar essas terras perdidas. Cada nova cidade que nasce serve para fortalecer minha crença.<br/><br/>Mas são as cidades como a sua, dedicadas ao apoio da nossa guarda valorosa, que realmente aquecem meu coração."
+														"00": "Ah, não! Estou bem, eu estava... lembrando de algo.<br/><br/>Sabe, eu realmente acredito na Ascendência, que temos o destino de retomar essas terras perdidas. Cada nova cidade que nasce serve para fortalecer minha crença.<br/><br/>Mas são as cidades como a sua, dedicadas ao apoio da nossa guarda valorosa, que realmente aquecem meu coração."
 													},
 													"bulletin_title": "Anwyn continua",
 													"dialog_title": "Anwyn Torresi, Guard Captain",
@@ -4972,7 +4972,7 @@
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "À medida que seu posto avançado cresce em direção ao status de Assentamento, você começará a atrair novos imigrantes.<br/><br/>Seu Coração agora é apenas uma faísca do que um dia se tornará - tenho fé que será um farol visto por toda a Ascensão."
+										"00": "À medida que seu posto avançado cresce em direção ao status de Assentamento, você começará a atrair novos imigrantes.<br/><br/>Seu Coração agora é apenas uma faísca do que um dia se tornará - tenho fé que será um farol visto por toda a Ascendência."
 									},
 									"bulletin_title": "Uma Visão Para o Futuro",
 									"dialog_title": "Uma Visão para o Futuro",
@@ -15549,15 +15549,15 @@
 			},
 			"two_handed_sword_valor": {
 				"display_name": "Espada Brasonada",
-				"description": "Uma flecha imbuída de chamas",
+				"description": "A lâmina mais elegante da Ascendência",
 				"two_handed_sword_valor_iconic": {
 					"display_name": "Espada Brasonada",
-					"description": "A lâmina mais elegante da Ascendancy."
+					"description": "A lâmina mais elegante da Ascendência"
 				}
 			},
 			"bow_valor": {
 				"display_name": "Arco do Empério",
-				"description": "Arco mais rápido da ]Ascendancy"
+				"description": "Arco mais rápido da Ascendência"
 			},
 			"corruption_beam": {
 				"display_name": "Feixe de Corrupção",
@@ -16457,7 +16457,7 @@
 					"flavor": "Os ossos do Gigante"
 				},
 				"two_handed_sword_valor_recipe": {
-					"description": "Uma flecha imbuída de chamas",
+					"description": "A lâmina mais elegante da Ascendência",
 					"recipe_name": "Espada Brasonada",
 					"flavor": "Perfeitamente equilibrado para o seu tamanho, e igual a qualquer desafio que seu soldador assume"
 				},
