@@ -10,6 +10,7 @@
 			"BrunoSupremo",
 			"KennyShinu",
 			"altiereslima",
+			"alvsz",
 			"LucasKalleu",
 			"MaxDown45",
 			"datfisheko",
@@ -27,6 +28,7 @@
 
 	"mixintos": {
 		"tower_defense/data/compatible_mods.json": "file(data/compatible_mods.json)",
+		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth_ace/pt-BR_mixin.json)",
 		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
 	},
 	"overrides": {
