@@ -28,7 +28,7 @@
 
 	"mixintos": {
 		"tower_defense/data/compatible_mods.json": "file(data/compatible_mods.json)",
-		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth_ace/pt-BR_mixin.json)",
+		"stonehearth/locales/pt-BR.json": "stonehearth_ace/locales/pt-BR_mixin.json",
 		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
 	},
 	"overrides": {
@@ -36,6 +36,7 @@
 		"rayyas_children/locales/pt-BR.json": "file(translations/rayyas_children/pt-BR.json)",
 		"northern_alliance/locales/pt-BR.json": "file(translations/northern_alliance/pt-BR.json)",
 		"stonehearth_ace/locales/pt-BR.json": "file(translations/stonehearth_ace/pt-BR.json)",
+		"stonehearth_ace/locales/pt-BR_mixin.json": "file(translations/stonehearth_ace/pt-BR_mixin.json)",
 
 		"autoharvest_mod/locales/pt-BR.json": "file(translations/autoharvest_mod/pt-BR.json)",
 		"miner_prof/locales/pt-BR.json": "file(translations/miner_prof/pt-BR.json)",
