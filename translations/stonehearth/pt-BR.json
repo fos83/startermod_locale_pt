@@ -2145,7 +2145,7 @@
 				}
 			},
 			"edit_template_mod": {
-				"title": "Editar modelos para o mod [str (modname)]",
+				"title": "Editar modelos para o mod [str(modname)]",
 				"available_templates": "Modelos Disponíveis",
 				"mod_templates": "[str(modname)] ",
 				"confirm": {
@@ -2968,7 +2968,7 @@
 					},
 					"returning_collector_encounter": {
 						"title": "Um explorador se aproxima de sua cidade.",
-						"trade_details": "Olá [str(i18n_data.town_name)]! Eu sou um explorador de longe para o leste, que negocia em várias quantidades de trocas e coleções. Recentemente eu encontrei <strong> [str(i18n_data.reward_number)] [str (i18n_data.reward_item)] </strong> largados ao lado da estrada. Não tenho certeza de quem os deixou lá, mas eles são provavelmente bastante úteis! Eu não tenho muito uso para eles, mas uma vila próxima disse que eles precisam de <strong> [str(i18n_data.want_number)] [str(i18n_data.want_item)] </strong>. Eu estarei relaxando nas proximidades por uns [str (i18n_data.num_days)] dias .. você estaria interessado em uma troca depois?",
+						"trade_details": "Olá [str(i18n_data.town_name)]! Eu sou um explorador de longe para o leste, que negocia em várias quantidades de trocas e coleções. Recentemente eu encontrei <strong> [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] </strong> largados ao lado da estrada. Não tenho certeza de quem os deixou lá, mas eles são provavelmente bastante úteis! Eu não tenho muito uso para eles, mas uma vila próxima disse que eles precisam de <strong> [str(i18n_data.want_number)] [str(i18n_data.want_item)] </strong>. Eu estarei relaxando nas proximidades por uns [str(i18n_data.num_days)] dias .. você estaria interessado em uma troca depois?",
 						"waiting_title": "O explorador estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
 						"waiting_text": "O explorador estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para fornecer <strong> [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] </strong> se você tiver <strong> [str(i18n_data.want_number)] [str(i18n_data.want_item)] </strong> pronto para eles!",
 						"return_title": "O explorador retorna!",
