@@ -21,8 +21,10 @@
 
 	"ui": {
 		"less": [
+			"file(ui/game/bulletin/bulletin_dialog/delivery_quest_dialog/delivery_quest_dialog.less)",
 			"file(ui/game/bulletin/bulletin_dialog/shop_bulletin_dialog/shop_bulletin_dialog.less)",
 			"file(ui/game/citizens/citizens.less)",
+			"file(ui/game/modes/build_mode/building_designer_3/building_status/building_status.less)",
 			"file(ui/game/modes/build_mode/building_designer_3/roof_tool_context/roof_tool_context.less)",
 			"file(ui/game/modes/zones_mode/stockpile/stockpile.less)",
 			"file(ui/root/css/variables.less)",

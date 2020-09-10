@@ -329,7 +329,7 @@
 					"accept": "Eu não quero mais este animal.",
 					"cancel": "Espere!"
 				},
-				"befriended_pet_description": "Amizade com [name(self.stonehearth:pet.owner)]"
+				"befriended_pet_description": "Fez amizade com [name(self.stonehearth:pet.owner)]"
 			},
 			"tutorials": {
 				"camera": {
@@ -1349,7 +1349,7 @@
 						"tooltip_raw_food": "Alimentos Crus",
 						"tooltip_prepared_food": "Alimentos Cozidos",
 						"tooltip_cooking_ingredients": "Ingredientes de Culinária e Ração Animal",
-						"tooltip_cooking": "Cozinhando",
+						"tooltip_cooking": "Ingredientes",
 						"tooltip_consumables": "Itens de Cura e Outros Consumíveis",
 						"tooltip_animal_parts": "Partes de Animais"
 					}
