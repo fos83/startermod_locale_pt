@@ -1722,7 +1722,7 @@
 					"infinite_inventory": "Desativar limite de capacidade de inventário",
 					"infinite_inventory_description": "Isso removerá o limite do número máximo de itens que você pode ter em seu inventário da cidade.<br><br>Nota: Você deve reiniciar o jogo para que isso entre em vigor!<br><br><font color = '#eb4c36'><strong>Aviso:</strong></font> Ter muitos itens no jogo afetará o desempenho do jogo."
 				},
-				"mods": "Mods",
+				"mods": "Mods ",
 				"mods_tab": {
 					"title": "Mods Instalado",
 					"note": "Habilitar Ou Desabilitar um Mod Requer Reinício.",
@@ -1924,7 +1924,7 @@
 				}
 			},
 			"mods_menu": {
-				"title": "Mods",
+				"title": "Mods ",
 				"note": "Ativar ou desativar um mod requer um recarregamento de jogo.",
 				"apply": "Aplicar",
 				"open_folder": "Abrir Pasta",
@@ -3454,7 +3454,7 @@
 										},
 										"ogo": {
 											"description": "O adivinho diz, Ogo Escolhido, Ogo Disjuntor dos ciclos",
-											"display_name": "Ogo Skullbonker"
+											"display_name": "Ogo Skullbonker "
 										}
 									},
 									"ogo_throne": {
@@ -3577,15 +3577,15 @@
 													},
 													"bulletin_title": "Montanha, o Ogro, levanta a cabeça para ouvir",
 													"dialog_title": "Montanha, o Ogro",
-													"choice_000": "Huh."
+													"choice_000": "Hã."
 												},
 												"mountain_notices_2": {
 													"bulletin_message": {
-														"000": "Ogo?"
+														"000": "Ogo? "
 													},
-													"bulletin_title": "Montanha olha ao redor em horror",
+													"bulletin_title": "Montanha olha em volta horrorizado",
 													"dialog_title": "Montanha, o Ogro",
-													"choice_000": "Uh Oh."
+													"choice_000": "Uh Oh. "
 												},
 												"mountain_notices_3": {
 													"bulletin_message": {
@@ -3606,14 +3606,14 @@
 														"000": "Montanha! Lutar... em..."
 													},
 													"bulletin_title": "Ogo Skullbonker cai no chão",
-													"dialog_title": "Ogo Skullbonker"
+													"dialog_title": "Ogo Skullbonker "
 												},
 												"ogo_death_1": {
 													"bulletin_message": {
 														"000": "Que? Ogo Skullbonker, derrotado? O que diz o adivinho? O que a Montanha disse? E o Khan? O que acha de... próximo ciclo?"
 													},
 													"bulletin_title": "Ogo Skullbonker cai no chão",
-													"dialog_title": "Ogo Skullbonker"
+													"dialog_title": "Ogo Skullbonker "
 												}
 											}
 										}
@@ -3626,14 +3626,14 @@
 														"000": "Montanha, ridículo! Isto é guerra! Para os brilhantes! Frente!!!"
 													},
 													"bulletin_title": "Ogo parece indignado",
-													"dialog_title": "Ogo Skullbonker"
+													"dialog_title": "Ogo Skullbonker "
 												},
 												"renewed_attack": {
 													"bulletin_message": {
 														"000": "Vê Montanha? Eles recusam sua oferta de paz! Ataque renovado!"
 													},
 													"bulletin_title": "Ogo levanta o punho em triunfo",
-													"dialog_title": "Ogo Skullbonker",
+													"dialog_title": "Ogo Skullbonker ",
 													"choice_000": "Ataque!!"
 												},
 												"mountain_replies": {
@@ -3647,8 +3647,8 @@
 													"bulletin_message": {
 														"000": "Arghhh!!! Mas os brilhantes! Bem. Montanha meu amigo; me não ir onde ele não ir. Sua cidade segura... por enquanto. Voltamos quando Khan estiver bem!"
 													},
-													"bulletin_title": "Ogo pisa o pé em frustração",
-													"dialog_title": "Ogo Skullbonker",
+													"bulletin_title": "Ogo bate o pé em frustração",
+													"dialog_title": "Ogo Skullbonker ",
 													"choice_000": "Até logo!"
 												},
 												"ogo_notices": {
@@ -3656,7 +3656,7 @@
 														"000": "Montanha, por que você para de lutar?"
 													},
 													"bulletin_title": "Ogo Skullbonker acena para chamar a atenção de seu ogro",
-													"dialog_title": "Ogo Skullbonker"
+													"dialog_title": "Ogo Skullbonker "
 												},
 												"mountain_asks": {
 													"bulletin_message": {
@@ -3704,8 +3704,8 @@
 													"bulletin_message": {
 														"000": "Finalmente, chegamos ao lugar de grandes brilhantes! Vá em frente, meus servos! Vá em frente para a glória de Ogo Skullbonker!"
 													},
-													"bulletin_title": "Você ouve Chifres de Guerra dos Goblin ",
-													"dialog_title": "Ogo Skullbonker"
+													"bulletin_title": "Você ouve chifres de guerra dos goblins",
+													"dialog_title": "Ogo Skullbonker "
 												},
 												"mountain_replies": {
 													"bulletin_message": {
@@ -4032,7 +4032,7 @@
 													},
 													"bulletin_title": "Kobold Scout",
 													"dialog_title": "Kobold Scout",
-													"choice_000": "Nah"
+													"choice_000": "Nah "
 												},
 												"msg4": {
 													"bulletin_message": {
@@ -4071,7 +4071,7 @@
 													"bulletin_message": {
 														"00": "Nos... muito fraco... Apage Elite Gong se você se atrever..."
 													},
-													"bulletin_title": "O Kobold Scout choraminga no chão",
+													"bulletin_title": "The Kobold Scout whimpers on the ground",
 													"dialog_title": "Kobold Scout"
 												}
 											}
@@ -4313,7 +4313,7 @@
 													"bulletin_message": {
 														"00": "O-oh... Como você fez isso? Não importa, não importa. Voltarei ao meu povo com a notícia de que o flagelo titã pode ser derrotado. Isso pode ser o que sugere eventos a nosso favor, longe do xamã traiçoeiro.<br><br>Misso mais profundo graças a você, em nome do meu falecido Khan."
 													},
-													"bulletin_title": "Erdene boggles",
+													"bulletin_title": "Erdene se confunde",
 													"dialog_title": "Erdene, Orador do Red Kiln",
 													"choice_000": "Sem problemas, eu acho!"
 												},
@@ -4418,7 +4418,7 @@
 													},
 													"bulletin_title": "Erdene continua",
 													"dialog_title": "Erdene, Orador do Red Kiln",
-													"choice_000": "Oh..."
+													"choice_000": "Ah ..."
 												},
 												"story3": {
 													"bulletin_message": {
@@ -4449,7 +4449,7 @@
 													},
 													"bulletin_title": "Uma nota rabiscada, anexada ao Gongo Sinistro",
 													"dialog_title": "Uma carta de Erdene",
-													"choice_000": "[Okay!]"
+													"choice_000": "[OK!]"
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -4781,8 +4781,8 @@
 													"bulletin_message": {
 														"00": "É o ditado da Igreja que <i>'Fortuna favorece o tipo'</i>, e fontes abençoadas de Plenty têm sido conhecidas por ter efeitos quase mágicos na saúde e na dureza dos cidadãos de uma cidade.<br><br>Por favor, considere mostrar ao mundo que sua cidade será uma de bondade construindo um santuário do projeto da Igreja.<br><br><font size=-1><i>Dedicar uma Fonte de Abundância concederá aos seus habitantes uma amostra diária aleatória. Tente sua sorte!</i></font>"
 													},
-													"bulletin_title": "Ember Minton",
-													"dialog_title": "Ember Minton",
+													"bulletin_title": "Ember Minton ",
+													"dialog_title": "Ember Minton ",
 													"choice_000": "Obrigado"
 												},
 												"military": {
@@ -4797,8 +4797,8 @@
 													"bulletin_message": {
 														"00": "A Guilda dos Artesãos! Acreditamos que a habilidade de um artesão deve ser respeitada, e suas obras celebradas.<br><br>Não na Guilda adoraríamos sancionar este Município como um ajuste para perseguir o domínio em artesanato. E no afinal, só nós podemos realmente conhecer a obra-prima quando o vemos!<br><br><font size=-1><i>Dedicar um tributo à Habilidade do Mestre da Guilda concederá a capacidade de criar móveis e decorações de qualidade de trabalho mestre, que são consideravelmente melhores do que os de excelente qualidade.</i></font>"
 													},
-													"bulletin_title": "Marak Azael",
-													"dialog_title": "Marak Azael",
+													"bulletin_title": "Marak Azael ",
+													"dialog_title": "Marak Azael ",
 													"choice_000": "Que vigor!"
 												},
 												"intro": {
@@ -4807,7 +4807,7 @@
 													},
 													"bulletin_title": "Mer Burlyhands chegou!",
 													"dialog_title": "Mer retorna, com convidados!",
-													"choice_000": "Oh, okay!",
+													"choice_000": "Oh, ok!",
 													"choice_001": "Nós já decidimos!"
 												}
 											}
@@ -4836,7 +4836,7 @@
 													"bulletin_message": {
 														"00": "Ha ha ha! Que belo monumento você construiu! Nível, quadrado, e todos os toques finais que só um olho treinado como o meu poderia realmente apreciar!</br></br><font size=-1>Mas como conseguiu que brilhasse assim?</font>"
 													},
-													"bulletin_title": "Marak Azael guffaws",
+													"bulletin_title": "Marak Azael gargalhando",
 													"dialog_title": "Marak Azael, Mestre da Guilda",
 													"choice_000": "Obrigado! Nosso pedreiro está muito orgulhoso."
 												}
@@ -4851,7 +4851,7 @@
 														"00": "Ah, não! Estou bem, eu estava... lembrando de algo.<br/><br/>Sabe, eu realmente acredito na Ascendência, que temos o destino de retomar essas terras perdidas. Cada nova cidade que nasce serve para fortalecer minha crença.<br/><br/>Mas são as cidades como a sua, dedicadas ao apoio da nossa guarda valorosa, que realmente aquecem meu coração."
 													},
 													"bulletin_title": "Anwyn continua",
-													"dialog_title": "Anwyn Torresi, Guard Captain",
+													"dialog_title": "Anwyn Torresi, capitão da guarda",
 													"choice_000": "Estamos honrados, Capitão."
 												},
 												"msg3": {
@@ -4999,7 +4999,7 @@
 									"bulletin_title": "Escolha um Santuário!",
 									"dialog_title": "Escolha um Santuário!",
 									"choice_000": "Fortuna",
-									"choice_001": "Valor",
+									"choice_001": "Valentia",
 									"choice_002": "Obra-prima"
 								}
 							}
@@ -5286,7 +5286,7 @@
 													},
 													"bulletin_title": "Um Empreendimento Titânico",
 													"dialog_title": "Últimos Passos",
-													"choice_000": "[Okay!]"
+													"choice_000": "[Ok!]"
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -5304,7 +5304,7 @@
 											"dialog_nodes": {
 												"accept2": {
 													"bulletin_message": {
-														"00": "<TKTK Congrats>"
+														"00": "<TKTK Parabéns>"
 													},
 													"bulletin_title": "Sasha continua",
 													"dialog_title": "Sasha, enviado do Clã Amberstone",
@@ -5354,7 +5354,7 @@
 												},
 												"request3": {
 													"bulletin_message": {
-														"00": "<TKTK Request 3>"
+														"00": "<Solicitação TKTK 3>"
 													},
 													"bulletin_title": "Sasha continua",
 													"dialog_title": "Sasha estende sua mão",
@@ -5752,7 +5752,7 @@
 														"bulletin_message": {
 															"00": "Sasha continua. \"Coelho deixou Ascendance, e Snake levantou os Orcs. Os Orcs estavam insatisfeitos compartilhando o mundo indefinidamente, e rejeitaram nossas tentativas de ensiná-los Geomante, dizendo que era contra a vontade do Ciclo e que a magia de Hearth era proibida; perigoso e volátil.\"<br><br>\"In truth, they were not wrong.\""
 														},
-														"choice_000": "Oh..."
+														"choice_000": "Ah ..."
 													},
 													"reject2": {
 														"bulletin_message": {
@@ -5782,7 +5782,7 @@
 														"bulletin_message": {
 															"00": "\"Você... não estão errados, amigo. Há mais na história, mas talvez o momento ainda não esteja certo.\""
 														},
-														"choice_000": "Aw, okay"
+														"choice_000": "Ah, ok"
 													}
 												}
 											}
@@ -5813,7 +5813,7 @@
 														},
 														"bulletin_title": "Negociação Estranha",
 														"dialog_title": "Negociação Estranha",
-														"choice_000": "Huh."
+														"choice_000": "Hã."
 													}
 												}
 											}
@@ -5841,7 +5841,7 @@
 														},
 														"bulletin_title": "Negociação Estranha",
 														"dialog_title": "Negociação Estranha",
-														"choice_000": "Hmm."
+														"choice_000": "Hmm"
 													}
 												}
 											}
@@ -5855,7 +5855,7 @@
 														},
 														"bulletin_title": "Negociação Estranha",
 														"dialog_title": "Negociação Estranha",
-														"choice_000": "Huh."
+														"choice_000": "Hã."
 													}
 												}
 											}
@@ -5936,7 +5936,7 @@
 														},
 														"bulletin_title": "Outra figura encapuzada visível",
 														"dialog_title": "Figura Encapuzada",
-														"choice_000": " ... "
+														"choice_000": " ...."
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -5958,7 +5958,7 @@
 															"00": "Por enquanto, devo voltar para casa, mas voltarei nos próximos dias. Adeus, humanos."
 														},
 														"bulletin_title": "Olá, Estranho",
-														"dialog_title": "Sasha Lightfoot",
+														"dialog_title": "Sasha Lightfoot ",
 														"choice_000": "Adeus"
 													},
 													"msg2": {
@@ -5982,7 +5982,7 @@
 														},
 														"bulletin_title": "Outra figura encapuzada visível",
 														"dialog_title": "Figura Encapuzada",
-														"choice_000": " ... "
+														"choice_000": " ...."
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -6008,7 +6008,7 @@
 															"003": "\"Um pequeno símbolo de nossa apreciação de nossos amigos do Macaco.\" Ele sorri amigavelmente e estende uma pata para você, segurando:"
 														},
 														"bulletin_title": "Um Coelho Grato",
-														"dialog_title": "Sasha Lightfoot",
+														"dialog_title": "Sasha Lightfoot ",
 														"choice_000": "Oh, obrigado!"
 													}
 												}
@@ -6023,7 +6023,7 @@
 														"bulletin_message": {
 															"00": "\"Obrigado, tenho certeza que os pequenos Cobra acharão isso muito satisfatório. Que nossa amizade floresça!\" Ele te oferece sacos brilhantes como pagamento.<br><br><font size=-1><i>[Reputação de coelho aumentou]</i></font>"
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Abatido",
 														"choice_000": "Obrigado!"
 													}
 												}
@@ -6036,7 +6036,7 @@
 														"bulletin_message": {
 															"00": "\"Obrigado. Espero que não estejamos feridos, mas a sorte favorece os preparados. Que nossa amizade continue a criar raízes!\" Ele lhe dá alguns sacos brilhantes como compensação.<br><br><font size=-1><i>[A reputação do coelho aumentou]</i></font>"
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Abatido",
 														"choice_000": "Boa sorte"
 													}
 												}
@@ -6049,28 +6049,28 @@
 														"bulletin_message": {
 															"00": "\"Então vamos lutar contra eles! Por favor, envie os tônicos de saúde assim que estiverem prontos.\"<br><br>\"Digamos oito deles, para boa sorte?\" diz ele, sorrindo, como se você tivesse alguma ideia do que isso significava."
 														},
-														"bulletin_title": "Shook Down",
-														"choice_000": "Vai fazer!"
+														"bulletin_title": "Abatido",
+														"choice_000": "Farei!"
 													},
 													"msg2_c": {
 														"bulletin_message": {
 															"00": "Sasha acena. \"Uma toca deve cuidar de si mesma. Enfrentamos coisas piores, vamos perseverar.\" Eles saem, voltando para sua casa escondida."
 														},
-														"bulletin_title": "Shook Down",
-														"choice_000": "OK"
+														"bulletin_title": "Abatido",
+														"choice_000": "Ok"
 													},
 													"msg2_a": {
 														"bulletin_message": {
 															"00": "\"Excelente! Por favor, me avise assim que as portas estiverem prontas!\""
 														},
-														"bulletin_title": "Shook Down",
-														"choice_000": "OK"
+														"bulletin_title": "Abatido",
+														"choice_000": "Ok"
 													},
 													"msg1": {
 														"bulletin_message": {
 															"00": "\"Alguns goblins de alguma forma encontraram uma entrada para o nosso hovel e estão pedindo... um monte de portas de madeira? Não temos madeira nem Carpinteiro na pata, então você poderia talvez criar alguns para nós?<br><br>Alternativamente, não temos medo de combatê-los, mas não temos meios para curar nossos feridos depois.\""
 														},
-														"bulletin_title": "Shook Down",
+														"bulletin_title": "Abatido",
 														"choice_000": "Vamos criar algumas portas!",
 														"choice_001": "Vamos preparar algumas poções",
 														"choice_002": "Desculpe, não podemos ajudar"
@@ -6232,7 +6232,7 @@
 															"00": "\"Esplêndido, eu colocarei as Pedras de Carga na sua bandeira. Voltarei para eles assim que eles forem implantados e coletando luz por tempo suficiente - luz solar ou luar, tudo vem do mesmo lugar.\""
 														},
 														"bulletin_title": "Carregamento de Cristal",
-														"choice_000": "Okay!"
+														"choice_000": "Ok!"
 													},
 													"msg1": {
 														"bulletin_message": {
@@ -11990,7 +11990,7 @@
 				},
 				"weathervane_poyo": {
 					"weathervane_poyo_ghost": {
-						"display_name": "Twirlybird",
+						"display_name": "Pássaro espiralado",
 						"description": "Um cata-vento parecido com um poyo"
 					}
 				}
@@ -12122,7 +12122,7 @@
 				},
 				"topiary_fox": {
 					"topiary_fox_ghost": {
-						"display_name": "Berry Fox",
+						"display_name": "Raposa de baga",
 						"description": "Topiário fofo da vida selvagem"
 					}
 				},
@@ -12134,7 +12134,7 @@
 				},
 				"topiary_rabbit": {
 					"topiary_rabbit_ghost": {
-						"display_name": "Berry Bun",
+						"display_name": "Coelho de baga",
 						"description": "Topiário fofo da vida selvagem"
 					}
 				},
@@ -13041,7 +13041,7 @@
 			},
 			"tombstone": {
 				"tombstone_ghost": {
-					"display_name": "R.I.P. [str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "R.I.P.  [str(self.stonehearth:unit_info.custom_name)]",
 					"description": "[str(self.stonehearth:unit_info.custom_name)] será sempre lembrado."
 				},
 				"tombstone": {
@@ -13372,7 +13372,7 @@
 				},
 				"wolf": {
 					"display_name": "Lobo Selvagem",
-					"description": "Grrr! Rwar!"
+					"description": "Grrr! Rawr!"
 				},
 				"zilla": {
 					"display_name": "Zilla",
@@ -13398,7 +13398,7 @@
 					}
 				},
 				"goblin": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 					"description": "Atraído por coisas brilhantes"
 				},
 				"goblin_barricade": {
@@ -13486,7 +13486,7 @@
 			},
 			"kobolds": {
 				"kobold": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 					"description": "Devoto da Estrela Diamante"
 				},
 				"loot": {
@@ -13514,15 +13514,15 @@
 			},
 			"undead": {
 				"skeleton": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 					"description": "Anseia por carne"
 				},
 				"zombie": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 					"description": "Anseia por carne",
 					"male": {
 						"zombie_male": {
-							"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+							"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 							"description": "Anseia por carne"
 						}
 					}
@@ -13548,23 +13548,23 @@
 					"description": "Praticante das artes negras"
 				},
 				"wolf_skeleton": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 					"description": "Seus instintos animais são tudo o que resta..."
 				}
 			},
 			"rabbit": {
-				"display_name": "...",
+				"display_name": "....",
 				"description": "Um Coelho"
 			},
 			"ogres": {
 				"ogre": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-					"description": "Um orc deu terrivelmente errado"
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
+					"description": "Um orc terrivelmente errado"
 				}
 			},
 			"orcs": {
 				"orc": {
-					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)] ",
 					"description": "Um guerreiro do Red Kiln"
 				},
 				"orc_boss_banner": {
@@ -13722,7 +13722,7 @@
 			"bramble": {
 				"bramble": {
 					"display_name": "Dark Bramble",
-					"description": "Limpe-o com Colheita por agora, ou Mina para expor a Raiz!"
+					"description": "Limpe-o com Colheita por agora, ou Minere para expor a Raiz!"
 				},
 				"sprout": {
 					"bramble_sprout": {
@@ -13733,7 +13733,7 @@
 				"stem": {
 					"bramble_stem": {
 						"display_name": "Creeping Dark Bramble",
-						"description": "Brotou do mal enterrado! Desenterre sua raiz, limpe-a com Harvest."
+						"description": "Brotou do mal enterrado! Desenterre sua raiz, limpe-a com Colheita."
 					}
 				}
 			},
@@ -14020,7 +14020,7 @@
 			"foxlily_plant": {
 				"foxlily_plant_ghost": {
 					"display_name": "Fox Lily",
-					"description": "Flores de laranjeira com semelhança com caudas de raposa"
+					"description": "Flores laranjas com semelhança com caudas de raposa"
 				},
 				"bud": {
 					"foxlily_plant_plant_bud": {
@@ -14281,11 +14281,11 @@
 				"seed": {
 					"wax_plant_green_plant_seed": {
 						"display_name": "Green Wax Plant Seed",
-						"description": "Can be planted to grow a little cactus."
+						"description": "Pode ser plantado para cultivar um pequeno cacto."
 					},
 					"wax_plant_green_plant_seed_ghost": {
 						"display_name": "Green Wax Plant Seed",
-						"description": "Can be planted to grow a little cactus."
+						"description": "Pode ser plantado para cultivar um pequeno cacto."
 					}
 				},
 				"sprout": {
@@ -14808,7 +14808,7 @@
 				},
 				"cactus_flower": {
 					"display_name": "Cacto (Flor)",
-					"description": "A beautiful desert bloom with healing properties"
+					"description": "Uma bela flor do deserto com propriedades curativas"
 				},
 				"cactus_tulip_red": {
 					"display_name": "Cacto Tulipa Vermelha (Flor)",
@@ -14950,7 +14950,7 @@
 			},
 			"worker_axe": {
 				"display_name": "Machado do Trabalhador",
-				"description": "..."
+				"description": "...."
 			},
 			"worker_hammer": {
 				"display_name": "Martelo do Trabalhador",
@@ -15026,10 +15026,10 @@
 					"sapling_juniper_tree_iconic": {
 						"description": "Plante-a na terra e observe-a crescer."
 					},
-					"description": "Árvore Juniper Bebê.",
+					"description": "Árvore de zimbro bebê.",
 					"sapling_juniper_tree_ghost": {
-						"display_name": "Juniper Tree Sapling",
-						"description": "Árvore Juniper Bebê."
+						"display_name": "Mudas de zimbro",
+						"description": "Árvore de zimbro bebê."
 					}
 				},
 				"large_snowy_juniper_tree": {
@@ -15141,7 +15141,7 @@
 				"bud": {
 					"tree_joshua_plant_bud": {
 						"display_name": "Budding Joshua Tree",
-						"description": "|Está quase lá! Está crescendo suas folhas adultas!"
+						"description": "Está quase lá! Está crescendo suas folhas adultas!"
 					}
 				}
 			},
@@ -15182,8 +15182,8 @@
 				},
 				"bud": {
 					"tree_pine_plant_bud": {
-						"display_name": "Budding Pine Tree",
-						"description": "É quase lá! Está crescendo suas folhas adultas!"
+						"display_name": "Pinheiro em flor",
+						"description": "Está quase lá! Está crescendo suas folhas adultas!"
 					}
 				},
 				"sapling_pine_tree": {
@@ -15453,7 +15453,7 @@
 			},
 			"npc_animal_prod": {
 				"display_name": "Wicked Animal Prod",
-				"description": "Mantém os fuzzies alinhados"
+				"description": "Mantém os peludos alinhados"
 			},
 			"short_sword": {
 				"display_name": "Espada Curta de Aço",
@@ -15818,8 +15818,8 @@
 			},
 			"dragonborn": {
 				"dragonborn_king": {
-					"display_name": "Flox Icedragon",
-					"description": "Dragonborn King"
+					"display_name": "Flox Icedragon ",
+					"description": "Rei Dragonborn"
 				}
 			},
 			"hestia": {
@@ -16173,9 +16173,9 @@
 					"flavor": "Projeto que lembra as Legiões da Phoenix's ."
 				},
 				"bronze_ingot_recipe": {
-					"description": "Uma barra de bronze puro. Um material adequado para produtos artesanais.",
-					"recipe_name": "Lingote de (Bronze)",
-					"flavor": "The masters of old considered its production, evidence of our triumph over the earth."
+					"description": "Duas barras de bronze puro. Um material adequado para produtos artesanais.",
+					"recipe_name": "Lingote de Bronze (x2)",
+					"flavor": "Os mestres da antiguidade consideraram sua produção uma prova de nosso triunfo sobre a terra."
 				},
 				"bronze_mace_recipe": {
 					"description": "Pesado, é uma pancada forte.",
@@ -16194,17 +16194,17 @@
 				},
 				"copper_ingot_recipe": {
 					"description": "Uma barra de cobre puro. Um material adequado para produtos artesanais.",
-					"recipe_name": "Lingote de (Cobre)",
+					"recipe_name": "Lingotes de Cobre",
 					"flavor": "Suave e sedosa ao toque"
 				},
 				"gold_ingot_recipe": {
 					"description": "Uma barra de ouro puro. Um material adequado para produtos artesanais.",
-					"recipe_name": "Lingote de (Ouro)",
-					"flavor": "O cacete mais caro de todos os tempos."
+					"recipe_name": "Lingote de Ouro",
+					"flavor": "A clava mais cara de todos os tempos."
 				},
 				"iron_ingot_recipe": {
 					"description": "Uma barra de ferro puro. Um material adequado para produtos artesanais.",
-					"recipe_name": "Lingote de (Ferro)",
+					"recipe_name": "Lingote de Ferro",
 					"flavor": "Tanto para espadas quanto para relhas de arado, o que um ovo é para uma galinha."
 				},
 				"iron_mace_recipe": {
@@ -16238,7 +16238,7 @@
 				},
 				"silver_ingot_recipe": {
 					"description": "Uma barra de prata pura. Um material adequado para produtos artesanais.",
-					"recipe_name": "Lingote de (Prata)",
+					"recipe_name": "Lingote de Prata",
 					"flavor": "Um par de sapatos de prata começou uma vez uma guerra da Phoenix pela moeda."
 				},
 				"steel_ingot_recipe": {
@@ -16253,7 +16253,7 @@
 				},
 				"tin_ingot_recipe": {
 					"description": "Uma barra de estanho puro. Um material adequado para produtos artesanais.",
-					"recipe_name": "Lingote de (Estanho)",
+					"recipe_name": "Lingote de Estanho",
 					"flavor": "Passo 1: Bata fino. Passo 2: Use para cobrir o telhado da prefeitura."
 				},
 				"trapper_knife_recipe": {
@@ -16329,9 +16329,9 @@
 					"flavor": "Acontece que seus chapéus eram muito densos"
 				},
 				"decorative_generals_gong_recipe": {
-					"description": "Enormous and decorative!",
+					"description": "Enorme e decorativo!",
 					"recipe_name": "Gongo de Ouro do General",
-					"flavor": "O chapéu do general, quando derretido, poderia ter enchido um lago de ouro"
+					"flavor": "O chapéu do general, quando derretido, poderia ter enchido um lago com ouro"
 				},
 				"decorative_master_gong_recipe": {
 					"description": "Inspirado pelo Mestre Kobold Arqueiro",
@@ -16435,7 +16435,7 @@
 				},
 				"weathervane_poyo_recipe": {
 					"description": "Um cata-vento parecido com um poyo",
-					"recipe_name": "Twirlybird",
+					"recipe_name": "Pássaro espiralado",
 					"flavor": "Gira com o vento e nunca fica tonto"
 				},
 				"valor_torch_recipe": {
@@ -16468,7 +16468,7 @@
 				},
 				"golem_pick_recipe": {
 					"description": "Usado pelo Geomante para fabricar Toupeira Golems",
-					"recipe_name": "Golem Pick"
+					"recipe_name": "Picareta de Golem"
 				}
 			}
 		},
@@ -16695,7 +16695,7 @@
 				"wooden_sign_weaver_recipe": {
 					"description": "Um placa com a marca da Tecelã, para ser colocado em edifícios.",
 					"recipe_name": "Placa de Parede do Tecelão",
-					"flavor": "Artisinally crafted fabrics and plushies!"
+					"flavor": "Tecidos e peluches artesanais!"
 				},
 				"wooden_sword_recipe": {
 					"description": "Necessário para promover uma hearthling em um Soldado.",
@@ -16800,9 +16800,9 @@
 					"flavor": "E onde Cid vagou, a Igreja se ergueu em seus passos..."
 				},
 				"poyo_weathervane_recipe": {
-					"recipe_name": "Poyo Weathervane",
+					"recipe_name": "Cata-vento Poyo",
 					"description": "Um cata-vento na imagem de um pássaro amistoso",
-					"flavor": "TODO"
+					"flavor": "TODO "
 				},
 				"ornate_leather_bound_chest_recipe": {
 					"recipe_name": "Baú Encadernado em Couro Ornamentado",
@@ -17371,7 +17371,7 @@
 			},
 			"engineer_buffs": {
 				"diligence_2_buff": {
-					"display_name": "Diligence +50",
+					"display_name": "Diligência +50",
 					"description": "O engenheiro pode consertar portas com mais eficiência"
 				}
 			},
@@ -17407,7 +17407,7 @@
 			},
 			"farmer_buffs": {
 				"speed_1_buff": {
-					"description": "Running fresh food from field to table has increased the farmer's footspeed.",
+					"description": "Levar alimentos frescos do campo à mesa aumentou a velocidade dos pés do fazendeiro.",
 					"display_name": "Aumento de Velocidade do Fazendeiro +10"
 				}
 			},
@@ -17572,12 +17572,12 @@
 					"terrain": "Terreno",
 					"landmarks": "Marcos",
 					"water": "Manipulação de Água",
-					"golems": "Golems"
+					"golems": "Golens"
 				},
 				"golem_restocking_recipe": {
-					"description": "Performs restocking tasks.",
+					"description": "Executa tarefas de reabastecimento.",
 					"recipe_name": "Cricket Golem",
-					"flavor": "As they go about their tasks, you can hear their cute little calls."
+					"flavor": "Enquanto eles realizam suas tarefas, você pode ouvir seus sons fofinhos."
 				},
 				"golem_mining_recipe": {
 					"description": "Realiza tarefas de mineração.",
@@ -17855,17 +17855,17 @@
 				"stone_bench_recipe": {
 					"description": "Esplanada para momentos de relaxamento.",
 					"recipe_name": "Banco de Pedra",
-					"flavor": "Pretty and functional. Matches the tombstones."
+					"flavor": "Bonito e funcional. Corresponde às lápides."
 				},
 				"stone_brazier_recipe": {
-					"description": "A small fire pit that provides comfort and warmth at night.",
+					"description": "Uma pequena fogueira que proporciona conforto e aconchego à noite.",
 					"recipe_name": "Braseiro de Pedra",
-					"flavor": "Warning: Do not drop anything in while it's lit."
+					"flavor": "Aviso: não deixe cair nada enquanto estiver aceso."
 				},
 				"stone_bricks_recipe": {
-					"description": "A key component of stone structures like castles and roads.",
+					"description": "Um componente-chave de estruturas de pedra como castelos e estradas.",
 					"recipe_name": "Pilha de Tijolos de Pedra",
-					"flavor": "Tis a lucky thing, boy, that the square is the natural shape within most rocks. --Garen Knapper"
+					"flavor": "É uma sorte, garoto, que o quadrado seja a forma natural dentro da maioria das rochas. --Garen Knapper"
 				},
 				"stone_chair_recipe": {
 					"description": "Não horrivelmente confortável, mas um símbolo de status.",
@@ -17885,12 +17885,12 @@
 				"stone_maul_recipe": {
 					"description": "A ferramenta perfeita para espancamento",
 					"recipe_name": "Macete de Pedra",
-					"flavor": "A modern adaptation of an ancient weapon."
+					"flavor": "Uma adaptação moderna de uma arma antiga."
 				},
 				"stone_table_recipe": {
 					"description": "Seu peso considerável lhe dá uma sensação de gravitas. Apenas para negócios sérios.",
 					"recipe_name": "Mesa de Pedra",
-					"flavor": "No lions were harmed in its construction."
+					"flavor": "Nenhum leão foi prejudicado em sua construção."
 				},
 				"stone_wall_lantern_recipe": {
 					"description": "Anexa-se às paredes dos edifícios, proporcionando luz",

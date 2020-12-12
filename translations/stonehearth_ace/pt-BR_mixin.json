@@ -32,7 +32,7 @@
 				"tips": {
 					"004": "You can farm certain crops like silkweed or cotton for a steady supply of thread fiber.",
 					"008": "The weaver can craft weather-specific clothing or new uniforms that increases the effectiveness of your workers.",
-					"010": "Shepherds will automatically find the first two animals to start a pasture.",                            
+					"010": "Shepherds will automatically find the first two animals to start a pasture.",
 					"017": "Don't want your hearthlings to leave town? The Engineer can make locks for doors.",
 					"020": "Trappers can set traps anywhere, but wilder areas with vegetation and no signs of civilization will always be better.",
 					"022": "Mining dirt will occasionally yield clay, stone, and rarities like bones.",
@@ -95,7 +95,7 @@
 					"084": "You can hold the SHIFT key when clicking the 'Craft!' button to send that recipe straight to the top of the queue!",
 					"085": "Drinks can boost your citizens with several different effects. Make sure to check them out!",
 					"086": "If you can't provide your hearthlings with prepared drinks yet, make sure to at least build them a water well.",
-					"087": "Thirsty will not hurt your citizens. Just their feelings!",
+					"087": "A sede não prejudicará seus cidadãos. Apenas seus sentimentos!",
 					"088": "Make sure to always offer alternatives to alcoholic drinks. No one wants all their citizens being excessively merry all day long!",
 					"089": "Hearthlings will always prefer a drink that is more appropriate to the current time of the day, except when they really love something else.",
 					"090": "Tea will greatly boost the qualities of all crafted products although it also makes crafting a bit slower. Balance requires patience!",
@@ -109,6 +109,9 @@
 					"098": "You can temporarily pause a crafter queue by clicking the 'Open' sign on the top right of the crafting screen.",
 					"099": "Crafted Bee Skeps require Captive Bees before they can work. Cut some trees and you might find a nest or two lying around!"
 				}
+			},
+			"select_roster": {
+				"reembark_button": "Reembark"
 			}
 		}
 	},
