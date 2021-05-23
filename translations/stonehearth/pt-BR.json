@@ -18181,7 +18181,7 @@
 				"stone_floor_candle_holder_recipe": {
 					"description": "Iluminação de um tempo mais simplier.",
 					"recipe_name": "Suporte de Vela de Chão de Pedra",
-					"flavor": "Romantic for some, spookily haunted for others."
+					"flavor": "Romântico para alguns, assustadoramente assombrado por outros."
 				},
 				"golem_parts_recipe": {
 					"description": "Usado pelo Geomante para criar golens",
@@ -18337,12 +18337,12 @@
 					"flavor": "\"It's like a pot, for sleeping!\" - Clarence, Temporary Salesperson"
 				},
 				"clay_dining_table_recipe": {
-					"description": "Gets your food off the ground!",
+					"description": "Tire sua comida do chão!",
 					"recipe_name": "Mesa de Jantar de Argila",
 					"flavor": "\"An elevated environment for elevated conversation\" "
 				},
 				"simple_clay_chair_recipe": {
-					"description": "Somewhere to sit while eating",
+					"description": "Algum lugar para sentar enquanto come",
 					"recipe_name": "Cadeira de Argila Simples",
 					"flavor": "'Nests with the tables, ooo, symbolic!' --Nestor Adya, Acolyte"
 				},
@@ -18490,18 +18490,18 @@
 					"flavor": "Bebê não me machuque! Não me machuque mais!"
 				},
 				"golem_parts_recipe": {
-					"description": "Used by the Geomancer to craft golems",
-					"recipe_name": "Golem Parts",
+					"description": "Usado pela Geomancer para criar golens",
+					"recipe_name": "Peças golem",
 					"flavor": "Sturdy enough to hold an ox."
 				},
 				"clay_fence_bar_double_recipe": {
 					"description": "Afasta as pessoas de sua propriedade.",
-					"recipe_name": "Clay Fence Long",
+					"recipe_name": "Longa Cerca de Argila",
 					"flavor": "Mais decorativo do que protetor."
 				},
 				"clay_fence_bar_single_recipe": {
 					"description": "Afasta as pessoas de sua propriedade.",
-					"recipe_name": "Clay Fence Short",
+					"recipe_name": "Pequena Cerca de Argila",
 					"flavor": "Mais decorativo do que protetor."
 				},
 				"clay_fence_end_recipe": {
@@ -18779,12 +18779,12 @@
 				"leather_vest_recipe": {
 					"description": "Hardened leather provides study protection against light weapons.",
 					"recipe_name": "Colete de Couro Grosso",
-					"flavor": "Insults bounce right off too!"
+					"flavor": "Insultos são ricocheteados também!"
 				},
 				"plushie_toy_rabbit_recipe": {
-					"description": "A toy... for children of course.",
-					"recipe_name": "Plushie Toy Rabbit",
-					"flavor": "She loves you!"
+					"description": "Um brinquedo... para crianças, é claro.",
+					"recipe_name": "Coelho de pelúcia",
+					"flavor": "Ele te ama!"
 				},
 				"weapons_name": "Armas",
 				"clothing_armor_name": "Vestuário & Armadura",
@@ -18794,9 +18794,9 @@
 				"furniture_name": "Mobília",
 				"crafting_materials_name": "Materiais de Fabricação",
 				"spool_of_thread_recipe": {
-					"description": "Needed for cloth. Warm and fluffy",
-					"recipe_name": "Spool of Thread",
-					"flavor": "Each gram of fiber yearns to become a sweater."
+					"description": "Necessário pra fazer roupa. Quente e fofa",
+					"recipe_name": "Carretel de Linha",
+					"flavor": "Cada grama de fibra anseia se tornar um suéter."
 				},
 				"tapestry_wall_recipe": {
 					"description": "Uma cena decorativa, tecida em fios e cordões coloridos.",
@@ -18863,8 +18863,8 @@
 				},
 				"input_bin_woven_recipe": {
 					"recipe_name": "Cesto de Suprimentos de Tecido",
-					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
-					"flavor": "Nothing quite like a well-supplied workshop!"
+					"description": "Um recipiente versátil que hearthlings tentaram manter cheio, para que seus artesãos possam continuar trabalhando!",
+					"flavor": "Nada como uma oficina bem abastecida!"
 				},
 				"input_bin_woven_blue_recipe": {
 					"flavor": "Nothing quite like a well-supplied workshop!",
@@ -18892,8 +18892,8 @@
 					"flavor": "Adorns the hilt of the Emblazoned Sword"
 				},
 				"golem_backpack_recipe": {
-					"description": "Used by the Geomancer to craft Ox Golems",
-					"recipe_name": "Golem Backpack"
+					"description": "Usado pelo Geomancer para fabricar Ox Golens",
+					"recipe_name": "Mochila Golem"
 				}
 			},
 			"weaver_loom": {
@@ -19368,8 +19368,8 @@
 		},
 		"knight": {
 			"knight_outfit": {
-				"display_name": "Knight's Armor",
-				"description": "Metal armor worn by a knight"
+				"display_name": "Armadura de Cavaleiro",
+				"description": "Armadura de metal usada por um cavaleiro"
 			},
 			"knight_description": {
 				"display_name": "Cavaleiro",
@@ -19390,16 +19390,16 @@
 					"perk_000_description": "Resistência e Coragem aumentaram muito"
 				},
 				"level_5_data": {
-					"perk_000_name": "Inspiring Presence",
-					"perk_000_description": "The knight boosts courage of everyone around"
+					"perk_000_name": "Presença Inspiradora",
+					"perk_000_description": "O cavaleiro aumenta a coragem de todos ao redor"
 				},
 				"level_2_data": {
-					"perk_000_name": "Shout",
-					"perk_000_description": "The knight intimidates the opponent, drawing the attention of nearby enemies."
+					"perk_000_name": "Rugido",
+					"perk_000_description": "O cavaleiro intimida o oponente, chamando a atenção de inimigos próximos."
 				},
 				"level_6_data": {
-					"perk_000_name": "Hero's Horn",
-					"perk_000_description": "The knight sounds a horn of combat, drawing the attention enemies both near and far"
+					"perk_000_name": "Chifre do Herói",
+					"perk_000_description": "O cavaleiro soa um chifre de combate, chamando a atenção inimigos tanto perto como longe"
 				}
 			},
 			"knight_buffs": {
