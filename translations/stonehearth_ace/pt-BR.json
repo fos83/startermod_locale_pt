@@ -219,7 +219,7 @@
 						"bulletin_title": "Amberstone Cook & Brewer recipes unlocked!"
 					},
 					"21_residents_outro_a": {
-						"dialogue": "\"What a nice home you've built for them! They will be here shortly, and I'm sure they'll be charmed! By the way, I'm certain they can teach you some of our delicious recipes as well...\""
+						"dialogue": "\"Que bela casa você construiu para eles! Eles estarão aqui em breve, e tenho certeza que ficarão encantados! A propósito, tenho certeza de que eles também podem lhe ensinar algumas de nossas deliciosas receitas ...\""
 					},
 					"arcs": {
 						"trigger": {
@@ -268,15 +268,15 @@
 					},
 					"giant_cougar_raid": {
 						"cougar": {
-							"display_name": "Giant Cat",
-							"description": "Definitely not a house cat. Terrifying!"
+							"display_name": "Gato gigante",
+							"description": "Definitivamente não era um gato doméstico. Aterrorizante!"
 						}
 					},
 					"cougar_attack": {
 						"mission": {
 							"sighted_bulletin": {
 								"title": "Wild Big Cats Approaching!",
-								"title_2": "Wild Giant Cats Approaching!"
+								"title_2": "Gatos gigantes selvagens se aproximando!"
 							}
 						}
 					},
@@ -291,7 +291,7 @@
 						"mission": {
 							"epic_undead_raid": {
 								"sighted_bulletin": {
-									"title": "Undead Horde Approaching!"
+									"title": "Horda de mortos-vivos se aproximando!"
 								}
 							}
 						}
@@ -299,7 +299,7 @@
 					"undead_goblin_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Undead Goblins Approaching!"
+								"title": "Goblins mortos-vivos se aproximando!"
 							}
 						}
 					}
@@ -311,7 +311,7 @@
 								"blacksmith_shop_1": {
 									"shop_info": {
 										"name": "Fernand the Great's Forge",
-										"title": "A southerner blacksmith has arrived with some metal wares"
+										"title": "Um ferreiro sulista chegou com algumas mercadorias de metal"
 									}
 								},
 								"bonecarver_shop_1": {
@@ -323,19 +323,19 @@
 								"charcoal_shop_1": {
 									"shop_info": {
 										"name": "Turnpoint River Charcoal Burners",
-										"title": "A group of charcoal burners is in town for business"
+										"title": "Um grupo de carvoeiros está na cidade a negócios"
 									}
 								},
 								"drink_shop_1": {
 									"shop_info": {
 										"name": "Ewbrand the Brewer",
-										"title": "A merchant of beverages has camped nearby"
+										"title": "Um comerciante de bebidas acampou nas proximidades"
 									}
 								},
 								"training_shop_1": {
 									"shop_info": {
 										"name": "Captain Rôk's Training School",
-										"title": "A group of soldiers in training is passing by for business"
+										"title": "Um grupo de soldados em treinamento está passando a negócios"
 									}
 								},
 								"engineering_shop_1": {
@@ -514,12 +514,12 @@
 						}
 					},
 					"returning_collector_encounter": {
-						"title": "An explorer approaches your town."
+						"title": "Um explorador se aproxima de sua cidade."
 					}
 				},
 				"town_progression": {
 					"ace_unlock_shrine_recipes": {
-						"bulletin_title": "The Cook can now prepare Donation Boxes!"
+						"bulletin_title": "O cozinheiro agora pode preparar caixas de doação!"
 					},
 					"ace_guildmaster_reached": {
 						"recipe_unlock_coins": "The Blacksmith can now mint gold coins!"
@@ -562,30 +562,30 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"bulletin_title": "A fearsome goblin approaches!",
-									"dialog_title": "Maybe not so fearsome...",
+									"bulletin_title": "Um temível goblin se aproxima!",
+									"dialog_title": "Talvez não tão temível ...",
 									"bulletin_message": {
-										"00": "The goblin approaches, revealing itself a bit shorter than expected. \"BONES! BONES!\" They shout in a playful, almost childish voice.<p>\"BOOOONEEES!\" They continue.<p>It seems to be harmless.<p align='right'><font size=-6 color='#cccccc'>Is that a child? Are there goblin children?</font></p>"
+										"00": "O goblin se aproxima, revelando-se um pouco mais baixo do que o esperado. \"OSSOS! OSSOS!\" Eles gritam com uma voz brincalhona, quase infantil.<p>\"OSSOOOOS!\" Eles continuam.<p>Parece inofensivo.<p align='right'><font size=-6 color='#cccccc'>Isso é uma criança? Existem crianças goblins?</font></p>"
 									},
-									"choice_000": "Bones!",
+									"choice_000": "Ossos!",
 									"choice_001": "Huh?"
 								},
 								"msg2": {
-									"bulletin_title": "The Little Goblin",
-									"dialog_title": "They continue...",
+									"bulletin_title": "O Pequeno Goblin",
+									"dialog_title": "Eles continuam...",
 									"bulletin_message": {
-										"00": "They're clearly happy about it, hopping around in circles. \"BONES! BONES! MANY BONES!\"<p>Suddenly, a stern and yet compassionate hearthling voice rumbles nearby. \"There you are, Rattley!\""
+										"00": "Eles estão claramente felizes com isso, pulando em círculos. \"OSSOS! OSSOS! MUITOS OSSOS!\"<p>De repente, uma voz severa, mas compassiva, ressoa nas proximidades. \"Aí está você, Rattley!\""
 									},
-									"choice_000": "Who?"
+									"choice_000": "Quem?"
 								},
 								"msg3": {
-									"bulletin_title": "The Grizzled Traveller",
-									"dialog_title": "Now a man approaches!",
+									"bulletin_title": "O Viajante Grisalho",
+									"dialog_title": "Agora um homem se aproxima!",
 									"bulletin_message": {
-										"00": "He wears the colors of the Northern Alliance. Strong and grizzled, he rests his hand on the head of the little goblin. \"So there you are! Going out and making friends, eh?\"<p>He notices the people around. \"I apologize. Name's Thorulf, traveler and former Scout of the Library.\"<p>With a gentle pat the goblin goes back to jumping around."
+										"00": "Ele usa as cores da Aliança do Norte. Forte e Grisalho, ele coloca a mão na cabeça do pequeno goblin. \"Então aí está você! Saindo e fazendo amigos, hein?\"<p>Ele percebe as pessoas ao redor. \"Peço desculpas. Meu nome é Thorulf, viajante e ex-escoteiro da Biblioteca.\"<p>Com um tapinha gentil, o goblin volta a pular."
 									},
-									"choice_000": "Greetings!",
-									"choice_001": "You have a... pet goblin?"
+									"choice_000": "Saudações!",
+									"choice_001": "Você tem um ... goblin de estimação?"
 								},
 								"msg3b": {
 									"bulletin_title": "The Grizzled Traveller",
@@ -17145,17 +17145,17 @@
 				}
 			},
 			"herbalist_planter": {
-				"help": "Herbalists can plant, tend to, and harvest various types of resources in this planter.",
-				"choose_crop_type": "Choose Resource",
-				"queued_crop": "Queued for Planting: ",
-				"harvest_crop": "Enable Harvesting",
-				"harvest_crop_description": "If enabled, whenever the resource is fully grown, the herbalist will harvest it.",
-				"produces": "Produces per Harvest: ",
+				"help": "Os Herbalistas podem plantar, cuidar e colher vários tipos de recursos neste local.",
+				"choose_crop_type": "Escolha o Recurso",
+				"queued_crop": "Na fila para plantio: ",
+				"harvest_crop": "Habilitar colheita",
+				"harvest_crop_description": "Se ativado, sempre que o recurso estiver totalmente desenvolvido, o Herbalista o colherá.",
+				"produces": "Produtos por Colheita: ",
 				"quality": {
-					"quality-1": "This crop is normal quality and will most likely produce normal quality products.",
-					"quality-2": "This crop is Fine quality and has a chance of producing higher quality products.",
-					"quality-3": "This crop is Excellent quality and has a higher chance of producing higher quality products.",
-					"quality-4": "This crop is Masterwork quality and has a very high chance of producing higher quality products."
+					"quality-1": "Esta colheita é de qualidade normal e provavelmente produzirá produtos de qualidade normal.",
+					"quality-2": "Esta safra é de qualidade Fina e tem chance de produzir produtos de qualidade superior.",
+					"quality-3": "Esta safra é de excelente qualidade e tem maior chance de produzir produtos de qualidade superior.",
+					"quality-4": "Esta safra é de qualidade Obra-prima e tem uma chance muito alta de produzir produtos de qualidade superior."
 				}
 			},
 			"military_mode": {
@@ -17181,63 +17181,63 @@
 			},
 			"unit_frame": {
 				"max_healable_health": {
-					"tooltip_title": "Wounded!",
-					"tooltip_description": "If their health drops below <span class='maxHealableHealth'>[str(max_health)]</span>, it can't be healed above it until they receive medical treatment."
+					"tooltip_title": "Ferido(a)!",
+					"tooltip_description": "Se a saúde dele(a) cair abaixo <span class='maxHealableHealth'>[str(max_health)]</span>, não pode ser curado até receber um tratamento médico."
 				},
 				"show_promotion_tree": {
-					"tooltip_title": "Change Jobs",
-					"tooltip_description": "Click to promote this hearthling to a different job."
+					"tooltip_title": "Mudar de Trabalho",
+					"tooltip_description": "Clique para promover este hearthling a um trabalho diferente."
 				},
 				"toggle_component_info": {
-					"tooltip_title": "Toggle Entity Info",
-					"tooltip_description": "Click to show or hide extra information about this entity."
+					"tooltip_title": "Alternar Informações da Entidade",
+					"tooltip_description": "Clique para mostrar ou ocultar informações extras sobre esta entidade."
 				},
 				"lock_title": {
-					"title": "Click to Lock Title",
-					"description": "Lock this entity's title from automatic or manual changes."
+					"title": "Clique para Bloquear o Título",
+					"description": "Bloqueie o título desta entidade de alterações automáticas ou manuais."
 				},
 				"unlock_title": {
-					"title": "Click to Unlock Title",
-					"description": "Unlock this entity's title so it can be manually changed and, if specified in ACE gameplay settings, automatically changed."
+					"title": "Clique para Desbloquear o Título",
+					"description": "Desbloqueie o título desta entidade para que possa ser alterado manualmente e, se especificado nas configurações de jogabilidade do ACE, alterado automaticamente."
 				},
 				"equipment_types_description": "Type: [str(i18n_data.types)]",
 				"equipment_types": {
-					"bow": "Bow",
-					"crossbow": "Crossbow",
-					"mainhand": "Main-hand",
-					"twohanded": "Two-handed",
-					"offhand": "Off-hand",
-					"shield": "Shield",
-					"light_shield": "Light Shield",
-					"heavy_shield": "Heavy Shield",
-					"torso": "Outfit",
-					"helmet": "Headgear",
-					"circlet": "Circlet",
-					"hood": "Hood",
-					"light_armor": "Light Armor",
-					"medium_armor": "Medium Armor",
-					"heavy_armor": "Heavy Armor",
-					"tool": "Tool",
-					"consumable": "Equippable Consumable",
-					"accessory": "Accessory",
+					"bow": "Arco",
+					"crossbow": "Besta",
+					"mainhand": "Mão principal",
+					"twohanded": "Duas mãos",
+					"offhand": "De improviso",
+					"shield": "Escudo",
+					"light_shield": "Escudo Leve",
+					"heavy_shield": "Escudo Pesado",
+					"torso": "Equipamento",
+					"helmet": "Capacete",
+					"circlet": "Tiara",
+					"hood": "Capuz",
+					"light_armor": "Armadura Leve",
+					"medium_armor": "Armadura Média",
+					"heavy_armor": "Armadura Pesada",
+					"tool": "Ferramenta",
+					"consumable": "Consumível Equipável",
+					"accessory": "Acessório",
 					"cape": "Cover",
-					"backpack": "Backpack",
+					"backpack": "Mochila",
 					"quiver_arrows": "Arrow Quiver",
 					"quiver_bolts": "Bolt Quiver",
 					"cleric_tome": "Healing Tome"
 				},
 				"job_roles": {
 					"crafter": {
-						"display_name": "Any Crafter",
-						"description": "Civillian jobs that are able to create items out of raw materials and resources. Carpenter or Blacksmith, for example."
+						"display_name": "Qualquer Artesão",
+						"description": "Trabalhos civis que são capazes de criar itens a partir de matérias-primas e recursos. Carpinteiro ou Ferreiro, por exemplo."
 					},
 					"combat": {
-						"display_name": "Any Combatant",
-						"description": "Military jobs that are able to follow orders and engage in combat to defend the town! Footmen or Archers, for example."
+						"display_name": "Qualquer Combatente",
+						"description": "Trabalhos militares que são capazes de seguir ordens e entrar em combate para defender a cidade! Lacaios ou Arqueiros, por exemplo."
 					},
 					"field_work": {
-						"display_name": "Any Field Worker",
-						"description": "Civillian jobs that will specialize in specifc, diverse activities outside of the main crafting chains. Farmers or Shepherds, for example."
+						"display_name": "Qualquer Trabalhador de Campo",
+						"description": "Trabalhos civis que se especializarão em atividades diversas e específicas fora das principais cadeias de artesanato. Agricultores ou Pastores, por exemplo."
 					}
 				},
 				"satisfaction": {
@@ -17256,7 +17256,7 @@
 				"injected_buff": "Grants Status: ",
 				"inflictable_debuff": "Inflicts Status: ",
 				"transform": {
-					"progress": "Building... "
+					"progress": "Construindo... "
 				},
 				"attack_with_all_parties": {
 					"display_name": "Attack With All Parties",
@@ -17279,38 +17279,38 @@
 					"description": "Attack the selected entity with combat party 4."
 				},
 				"cancel_attack": {
-					"display_name": "Cancel All Attacks",
-					"description": "Cancel all attacks targeting the selected entity."
+					"display_name": "Cancelar todos os ataques",
+					"description": "Cancele todos os ataques direcionados à entidade selecionada."
 				},
 				"job_toggle": {
-					"toggle_on": "Toggle Job On",
-					"toggle_off": "Toggle Job Off",
-					"toggledOn": "The Job activity for this unit or party is currently on; click to toggle it off.",
-					"toggledOff": "The Job activity for this unit or party is currently off; click to toggle it on.",
-					"toggledSome": "The Job activity for some of this party is on, and for some it is off; click to toggle it on for all."
+					"toggle_on": "Ativar Trabalho",
+					"toggle_off": "Desativar Trabalho",
+					"toggledOn": "A atividade de trabalho para esta unidade ou parte está ativada; clique para desativá-lo.",
+					"toggledOff": "A atividade de trabalho para esta unidade ou parte está desativada; clique para ativar.",
+					"toggledSome": "A atividade de trabalho para alguns deste grupo está ativada e, para outros, desativada; clique para ativar para todos."
 				}
 			},
 			"save_view": {
-				"auto_save_name": "Auto save ([str(i18n_data.date_time)])"
+				"auto_save_name": "Salvamento Automático ([str(i18n_data.date_time)])"
 			},
 			"componentInfo": {
-				"title": "Entity Info"
+				"title": "Informação da Entidade"
 			},
 			"bulletin": {
 				"achievement_acquired_bulletin": {
 					"new_title": {
-						"title": "[str(i18n_data.entity.stonehearth:unit_info.custom_name)] has achieved a new Title!",
-						"header": "<h2>[str(i18n_data.entity.stonehearth:unit_info.custom_name)]...</h2><h3>is now [str(i18n_data.entity.stonehearth:unit_info.custom_name)][str(i18n_data.new_title.display_name)]!</h3>",
-						"message": "[str(i18n_data.new_title.description)]<p>Doesn't that title have a nice ring to it? You can select which title one of your citizens is using by right-clicking their name in their character sheet or the selected unit window.</p>",
-						"item_message": "[str(i18n_data.new_title.description)]<p>Doesn't that title have a nice ring to it? You can select which title this item is using by right-clicking its name in the selected unit window.</p><p><i>You might also consider giving [str(i18n_data.entity.stonehearth:unit_info.custom_name)] a fancier name to go along with their new title by left-clicking its name in the selected unit window.</i></p>"
+						"title": "[str(i18n_data.entity.stonehearth:unit_info.custom_name)] conquistou um novo título!",
+						"header": "<h2>[str(i18n_data.entity.stonehearth:unit_info.custom_name)]...</h2><h3>agora é [str(i18n_data.entity.stonehearth:unit_info.custom_name)][str(i18n_data.new_title.display_name)]!</h3>",
+						"message": "[str(i18n_data.new_title.description)]<p>Esse título não soa bem? Você pode selecionar qual título um de seus cidadãos está usando clicando com o botão direito em seu nome na ficha de personagem ou na janela da unidade selecionada.</p>",
+						"item_message": "[str(i18n_data.new_title.description)]<p>Esse título não soa bem? Você pode selecionar qual título este item está usando clicando com o botão direito em seu nome na janela da unidade selecionada.</p><p><i>Você também pode considerar dar [str(i18n_data.entity.stonehearth:unit_info.custom_name)] um nome mais elaborado para acompanhar seu novo título clicando com o botão esquerdo em seu nome na janela da unidade selecionada.</i></p>"
 					}
 				}
 			},
 			"promotion_tree": {
-				"alternate_talismans": "Alternate Talismans",
-				"job_locked": "<span class='jobLocked'> [Job Locked!]</span>",
+				"alternate_talismans": "Talismãs Alternativos",
+				"job_locked": "<span class='jobLocked'> [Trabalho bloqueado!]</span>",
 				"requirements": {
-					"one_of_job": "One of:"
+					"one_of_job": "Um de:"
 				}
 			},
 			"build_mode2": {
@@ -17321,21 +17321,21 @@
 				}
 			},
 			"fence_mode": {
-				"crafter_requirement": "Requires: ",
+				"crafter_requirement": "Requer: ",
 				"level_requirement": "Lvl [str(level)]",
 				"presets": {
-					"wood1": "Default Preset: Wood",
-					"ornate_wood1": "Default Preset: Ornate Wood",
-					"stone1": "Default Preset: Stone",
-					"clay1": "Default Preset: Clay",
-					"porcelain1": "Default Preset: Porcelain"
+					"wood1": "Predefinição Padrão: Madeira",
+					"ornate_wood1": "Predefinição Padrão: Madeira Ornamentada",
+					"stone1": "Predefinição Padrão: Pedra",
+					"clay1": "Predefinição Padrão: Argila",
+					"porcelain1": "Predefinição Padrão: Porcelana"
 				},
 				"preset_filter": {
 					"save_mode": {
-						"description": "Specify preset name here and press Enter or click a Save button to save."
+						"description": "Especifique o nome da predefinição aqui e pressione Enter ou clique no botão Salvar para salvar."
 					},
 					"load_mode": {
-						"description": "Type here to filter presets by name."
+						"description": "Digite aqui para filtrar predefinições por nome."
 					}
 				},
 				"buttons": {
@@ -17373,25 +17373,25 @@
 			"settings": {
 				"gameplayTab": {
 					"auto_craft_recipe_dependencies": "Auto Craft Recipe Dependencies",
-					"auto_craft_recipe_dependencies_description": "When crafting an item, crafters will check the inventory to see if there are sufficient ingredients to use. If not, they will queue up orders for enough ingredients to fulfill the original order.",
+					"auto_craft_recipe_dependencies_description": "Ao criar um item, os artesãos verificarão o inventário para ver se há ingredientes suficientes para usar. Do contrário, eles farão pedidos de ingredientes suficientes para atender ao pedido original.",
 					"auto_craft_killed_items": "Auto Craft Killed Items",
-					"auto_craft_killed_items_description": "When an item you own is killed — like a door, a training dummy, or a siege weapon — queue a craft order for a new one.",
+					"auto_craft_killed_items_description": "Quando um item que você possui é destruido - como uma porta, um boneco de treinamento ou uma arma de cerco - enfileire um pedido de artesanato para um novo.",
 					"auto_queue_medicine": "Auto Craft Required Healing Items",
-					"auto_queue_medicine_description": "When a hearthling receives a wound or a negative condition that can be treated with a specific item, queue a craft order for that item unless your town already has it.",
-					"default_craft_order_prefer_high_quality": "Prefer High-Quality Crafting Ingredients",
+					"auto_queue_medicine_description": "Quando um hearthling recebe um ferimento ou uma condição negativa que pode ser tratada com um item específico, enfileire um pedido de artesanato para aquele item, a menos que sua cidade já o tenha.",
+					"default_craft_order_prefer_high_quality": "Prefira Ingredientes de Artesanato de Alta Qualidade",
 					"default_craft_order_prefer_high_quality_description": "When crafting an item, crafters who have achieved the Journeyman's Knowledge perk will prefer crafting with high-quality ingredients. Uncheck to always prefer low-quality ingredients.",
-					"show_unreachable_ingredients_notification": "Unreachable Crafting Ingredients Alert",
-					"show_unreachable_ingredients_notification_description": "Show an alert when a crafter cannot reach ingredients for their recipe.<span class='warn'>WARNING:</span>This may cause a lot of alerts!",
-					"auto_harvest_enabled": "Auto-Harvest Renewable Resources",
-					"auto_harvest_enabled_description": "When a renewable resource you own becomes harvestable, automatically issue a harvest command on that resource.",
+					"show_unreachable_ingredients_notification": "Alerta de ingredientes de fabricação inacessíveis",
+					"show_unreachable_ingredients_notification_description": "Mostre um alerta quando um artesão não conseguir alcançar os ingredientes de sua receita.<span class='warn'>AVISO:</span>Isso pode causar muitos alertas!",
+					"auto_harvest_enabled": "Recursos renováveis de colheita automática",
+					"auto_harvest_enabled_description": "Quando um recurso renovável que você possui torna-se colhível, emita automaticamente um comando de colheita para esse recurso.",
 					"auto_harvest_tree_stumps": "Auto-Harvest Tree Stumps",
-					"auto_harvest_tree_stumps_description": "When trees are cut down, harvestable stumps remain. Enabling this option will automatically queue stumps to be harvested.",
-					"default_to_worst_fertilizer": "Default to Worst Fertilizer",
-					"default_to_worst_fertilizer_description": "When farmers fertilize crops, they use the best fertilizer available unless directed to use a specific type. Select this to have them use the worst available instead.",
+					"auto_harvest_tree_stumps_description": "Quando as árvores são cortadas, os tocos para colheita permanecem. Ativar esta opção irá enfileirar automaticamente os tocos para colheita.",
+					"default_to_worst_fertilizer": "Padrão para pior fertilizante",
+					"default_to_worst_fertilizer_description": "Quando os agricultores fertilizam as plantações, eles usam o melhor fertilizante disponível, a menos que sejam orientados a usar um tipo específico. Selecione esta opção para que eles usem o pior disponível.",
 					"default_fertilizer": "Default Fertilizer:",
 					"default_fertilizer_description": "When creating a new farm, set its fertilizer preference to this.",
 					"show_farm_water_regions": "Show Farm Water Regions",
-					"show_farm_water_regions_description": "In grid view, show an outline of the region a farm will look for water if its crop will benefit from it.",
+					"show_farm_water_regions_description": "Na visualização em grade, mostre um contorno da região em que uma fazenda irá procurar por água se sua lavoura for beneficiada com isso.",
 					"show_connector_regions": "Show Connector Regions",
 					"show_connector_regions_description": "In grid view, show where entities implementing the [stonehearth_ace:connection] component can connect to other such entities.",
 					"show_new_title_notification": "Show notifications for Newly-Achieved Titles",
@@ -17421,35 +17421,35 @@
 						"10_files": "10 auto-saves",
 						"20_files": "20 auto-saves",
 						"40_files": "40 auto-saves",
-						"no_limit": "No limit"
+						"no_limit": "Sem limite"
 					},
-					"auto_save_interval": "Auto Save Interval:",
-					"auto_save_interval_description": "When Auto Save is enabled in the Save dialog, automatically save at this frequency.",
+					"auto_save_interval": "Intervalo de salvamento automático:",
+					"auto_save_interval_description": "Quando o Salvamento Automático estiver ativado, ele salvará o jogo automaticamente nesta frequência.",
 					"intervals": {
-						"5_minutes": "5 minutes",
-						"6_minutes": "6 minutes",
-						"7_minutes": "7 minutes",
-						"8_minutes": "8 minutes",
-						"9_minutes": "9 minutes",
-						"10_minutes": "10 minutes",
-						"15_minutes": "15 minutes",
-						"20_minutes": "20 minutes",
-						"25_minutes": "25 minutes",
-						"30_minutes": "30 minutes"
+						"5_minutes": "5 minutos",
+						"6_minutes": "6 minutos",
+						"7_minutes": "7 minutos",
+						"8_minutes": "8 minutos",
+						"9_minutes": "9 minutos",
+						"10_minutes": "10 minutos",
+						"15_minutes": "15 minutos",
+						"20_minutes": "20 minutos",
+						"25_minutes": "25 minutos",
+						"30_minutes": "30 minutos"
 					},
-					"auto_save_unique_files": "Auto Save Unique Files",
-					"auto_save_unique_files_description": "When auto-saving, create a separate save with the date and time.<span class='warn'>WARNING:</span>Frequent auto-saving requires a lot of storage space!",
-					"show_debugtools_on_load": "Show Debug UI On Load",
-					"show_debugtools_on_load_description": "Show the Debug UI by default. It can be hidden or shown again by using the 'show_debug_ui' (true/false) console command. This setting only applies if the DebugTools mod is active."
+					"auto_save_unique_files": "Salvar arquivos únicos automaticamente",
+					"auto_save_unique_files_description": "Ao salvar automaticamente, crie um salvamento separado com a data e a hora.<span class='warn'>AVISO:</span>O salvamento automático frequente requer muito espaço de armazenamento!",
+					"show_debugtools_on_load": "Mostrar interface de depuração ao carregar",
+					"show_debugtools_on_load_description": "Mostrar a UI de depuração por padrão. Ele pode ser oculto ou mostrado novamente usando o 'show_debug_ui' (true/false) comando do console. Esta configuração só se aplica se o mod DebugTools estiver ativo."
 				},
 				"controls_tab": {
 					"key_binding_names": {
 						"build_well": "Build Well",
-						"build_fence": "Build Fence",
+						"build_fence": "Construir Cerca",
 						"build_fish_trap": "Place Fish Trap",
 						"cam_previous": "Move Camera Back",
 						"vision_wilderness_toggle": "Toggle Wilderness Vision",
-						"vision_ore_detector_toggle": "Toggle Ore Detector",
+						"vision_ore_detector_toggle": "Ativar Detector de Minério",
 						"harvest_harvest_and_replant": "Gather & Replant",
 						"zone_underfarm": "Underfarm Tool",
 						"craft_brewer": "Brewer Menu",
@@ -17485,18 +17485,18 @@
 			"select_game_story": {
 				"game_modes": {
 					"normal": {
-						"description": "Adventure forth in a world fraught with danger! The most balanced and intended experience, your town will be subject to increasingly challenging invasions and perils."
+						"description": "Aventure-se em um mundo repleto de perigos! A experiência mais equilibrada e planejada, sua cidade estará sujeita a invasões e perigos cada vez mais desafiadores."
 					},
 					"peaceful": {
-						"description": "A sandbox! Freely build your town without any invasions. You may look for a fight in the wilds or through special events, if you decide to. Wounds and other effects have a meager impact on health."
+						"description": "A sandbox! Construa livremente sua cidade sem invasões. Você pode procurar uma luta na selva ou em eventos especiais, se decidir. As feridas e outros efeitos têm um impacto limitado na saúde."
 					},
 					"gentle": {
-						"description": "Enemies are as challenging as in Normal - but with a slower pace. Progression and events have longer intervals between each other. Wounds and such have a lesser impact on health.",
-						"display_name": "Gentle",
-						"post_selection_text": "an intriguing place to start anew."
+						"description": "Os inimigos são tão desafiadores quanto no Normal - mas com um ritmo mais lento. Progressão e eventos têm intervalos mais longos entre si. Feridas e similares têm menor impacto na saúde.",
+						"display_name": "Gentil",
+						"post_selection_text": "um lugar intrigante para começar de novo."
 					},
 					"hard": {
-						"description": "Enemies will be stronger and the progression of challenges will be quicker and less merciful. Always be on your guard! Wounds and other effects can be very dangerous - or even lethal!"
+						"description": "Os inimigos serão mais fortes e a progressão dos desafios será mais rápida e menos misericordiosa. Esteja sempre em guarda! As feridas e outros efeitos podem ser muito perigosos - ou mesmo letais!"
 					}
 				}
 			},
@@ -17525,7 +17525,7 @@
 			"tooltips": {
 				"curiosity": {
 					"bullet_points": {
-						"000": "The value itself represents a bonus percentage added over every experience gain."
+						"000": "O valor em si representa uma porcentagem de bônus adicionada sobre cada ganho de experiência."
 					}
 				}
 			},
@@ -17632,16 +17632,16 @@
 	"component_info": {
 		"stonehearth": {
 			"equipment_piece": {
-				"display_name": "Equipment Piece",
-				"description": "Can be equipped by certain hearthlings."
+				"display_name": "Peça de Equipamento",
+				"description": "Pode ser equipado por certos hearthlings."
 			},
 			"evolve": {
-				"display_name": "Evolve",
-				"description": "Will transform into something else over time."
+				"display_name": "Evoluir",
+				"description": "Vai se transformar em outra coisa com o tempo."
 			},
 			"growing": {
-				"display_name": "Growing",
-				"description": "Has multiple growth stages, with a growth rate affected by nearby water (or lack thereof) and rainy weather."
+				"display_name": "Crescendo",
+				"description": "Tem vários estágios de crescimento, com uma taxa de crescimento afetada pela água próxima (ou falta dela) e clima chuvoso."
 			},
 			"loot_drops": {
 				"display_name": "Loot Drops",
@@ -17662,8 +17662,8 @@
 		},
 		"stonehearth_ace": {
 			"aquatic_object": {
-				"display_name": "Aquatic Object",
-				"description": "Responds to the presence of water (or lack thereof)."
+				"display_name": "Objeto Aquático",
+				"description": "Responde à presença de água (ou falta dela)."
 			},
 			"fence": {
 				"display_name": "Fence",
@@ -17688,26 +17688,26 @@
 				"description": "Tile-able item that will automatically connect adjacently and update its model."
 			},
 			"titles": {
-				"display_name": "Titles",
-				"description": "This entity can be given a title that will show up after their name. Right-click their name in the selected unit window or their character sheet (if they have one) to select a different title.",
-				"all_earned_titles": "The following titles have been earned:",
-				"unattained": "This is the next rank that hasn't yet been attained."
+				"display_name": "Títulos",
+				"description": "Esta entidade pode receber um título que aparecerá após seu nome. Clique com o botão direito em seu nome na janela da unidade selecionada ou em sua ficha de personagem (se houver) para selecionar um título diferente.",
+				"all_earned_titles": "Os seguintes títulos foram conquistados:",
+				"unattained": "Este é o próximo nível que ainda não foi alcançado."
 			},
 			"transform": {
-				"display_name": "Transform",
-				"description": "Will transform into something else when a specific command or action is performed on it."
+				"display_name": "Transformar",
+				"description": "Se transformará em outra coisa quando um comando ou ação específica for executada nele."
 			},
 			"vine": {
 				"display_name": "Vine",
 				"description": "Grows by spreading, but each one will only grow a few times. May be climbable."
 			},
 			"water_pump": {
-				"display_name": "Water Pump",
-				"description": "When enabled, pumps water from its bottom and out its top."
+				"display_name": "Bomba de água",
+				"description": "Quando ativado, bombeia água de sua parte inferior e superior."
 			},
 			"water_signal": {
-				"display_name": "Water Signal",
-				"description": "Detects changes in nearby water."
+				"display_name": "Sinal de Água",
+				"description": "Detecta mudanças na água próxima."
 			}
 		}
 	},
@@ -17734,20 +17734,20 @@
 	"drink": {
 		"decay": {
 			"decay_1": {
-				"description": "It's starting to go bad, should probably drink it soon.",
+				"description": "Está começando a ficar ruim, provavelmente devo bebê-lo em breve.",
 				"keg": {
 					"description": "Has been around for a long while and is a bit stale already."
 				}
 			},
 			"decay_brewing_ingredient": {
-				"description": "It will spoil in some days, needs to be prepared soon!"
+				"description": "Vai estragar em alguns dias, precisa ser preparado logo!"
 			}
 		}
 	},
 	"stonehearth_mixins": {
 		"base_dwarf_npc": {
 			"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
-			"description": "A visitor from the mountains"
+			"description": "Um visitante das montanhas"
 		}
 	}
 }
