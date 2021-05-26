@@ -7421,42 +7421,42 @@
 		},
 		"trapper": {
 			"fish_trap": {
-				"display_name": "Fish Trap",
-				"description": "Safely capture fish. Will float when placed in the water.",
-				"trap_tripped_description": "The trap was tripped! It will soon be harvested by a Trapper...",
-				"conflicting_traps_description": "Multiple traps share the same fishing area and will all have reduced efficiency.",
-				"low_water_description": "There's not enough water in this area to catch much.",
-				"high_water_description": "Deep water will allow this trap to catch the best fish around.",
-				"iconic_description": "Used by the Trapper to catch fish. Can be accessed from above.",
-				"sprung_description": "It caught something! It will soon be harvested by a Trapper...",
-				"empty_description": "The trap was triggered but failed to get anything..."
+				"display_name": "Armadilha para Peixe",
+				"description": "Capture peixes com segurança. Vai flutuar quando colocado na água.",
+				"trap_tripped_description": "A armadilha disparou! Em breve será colhido por um caçador ...",
+				"conflicting_traps_description": "Várias armadilhas compartilham a mesma área de pesca e todas terão eficiência reduzida.",
+				"low_water_description": "Não há água suficiente nesta área para pegar alguma coisa.",
+				"high_water_description": "Águas profundas permitirão que esta armadilha pegue os melhores peixes que existem.",
+				"iconic_description": "Usado pelo Caçador para pescar. Pode ser acessado de cima.",
+				"sprung_description": "Ele pegou algo! Em breve será colhido por um caçador ...",
+				"empty_description": "A armadilha foi acionada, mas não conseguiu nada ..."
 			},
 			"clamp_trap": {
 				"display_name": "Clamp Trap",
-				"description": "Not so safely immobilizes its prey"
+				"description": "Não imobiliza sua presa com tanta segurança"
 			},
 			"trapper_description": {
 				"level_1_data": {
 					"perk_001_name": "Fish Trapping",
-					"perk_001_description": "The Trapper is capable of placing and utilizing fish traps for providing your town with fish meat and, sometimes, fish roe."
+					"perk_001_description": "O Caçador é capaz de colocar e utilizar armadilhas para peixes para fornecer à sua cidade carne de peixe e, às vezes, ovas de peixe."
 				},
 				"level_3_data": {
-					"trapper_level_3_description": "Long practice helps the trapper salvage more from each animal. The added agility allows the Trapper to occupy themselves with 3 additional fish traps."
+					"trapper_level_3_description": "A longa prática ajuda o caçador a salvar mais de cada animal. A agilidade adicional permite que o Caçador se ocupe com 3 armadilhas adicionais para peixes."
 				},
 				"level_6_data": {
 					"trapper_level_6_description": "The trapper can now use metal clamp traps to capture big game and also has a thing or two to teach the Engineer about setting traps. Increases town trap limit and the fish trap limit by 6."
 				},
-				"description": "The Trapper can arm snares to capture and (ahem) &quot;harvest&quot; wild critters for a reliable source of food, pelts and bones."
+				"description": "O Caçador pode armar armadilhas para capturar e (ahem) &quot;harvest&quot; criaturas selvagens como uma fonte confiável de alimento, peles e ossos."
 			},
 			"fish_trap_ghost": {
-				"description": "Must be built by the Trapper before it can be used."
+				"description": "Deve ser construído pelo Caçador antes de poder ser usado."
 			}
 		},
 		"shepherd": {
 			"recipes": {
-				"workbenches_name": "Workbenches",
-				"refining_name": "Refinement",
-				"animal_feed_name": "Animal Feed",
+				"workbenches_name": "Bancadas de Trabalho",
+				"refining_name": "Refinamento",
+				"animal_feed_name": "Alimentação Animal",
 				"animal_furniture_name": "Animal Furniture",
 				"decorations_name": "Decorations",
 				"shepherd_churn_recipe": {
@@ -16713,25 +16713,25 @@
 				"custom_name_with_title": "[str(self.stonehearth:unit_info.custom_name)][str(self.stonehearth:unit_info.custom_data.current_title.display_name)]",
 				"missing_catalog_data": "[MISSING CATALOG DATA]",
 				"item_categories": {
-					"undefined": "Miscellaneous",
-					"aquatic": "Aquatic Life",
-					"fluid_control": "Fluid Control",
-					"mechanism": "Mechanisms",
-					"training_equipment": "Training Equipment",
+					"undefined": "Diversos",
+					"aquatic": "Vida Aquática",
+					"fluid_control": "Controle de Fluido",
+					"mechanism": "Mecanismos",
+					"training_equipment": "Equipamento de treino",
 					"gizmos": "Gizmos",
 					"fungi": "Fungi",
-					"drink": "Drinks",
-					"brewing_ingredient": "Brewing Ingredients",
+					"drink": "Bebidas",
+					"brewing_ingredient": "Ingredientes do Cervejeiro",
 					"boulder": "Stonework",
-					"automatons_and_golems": "Automatons & Golems",
+					"automatons_and_golems": "Automatons e Golems",
 					"herbalist_planter": "Herbalist Planters"
 				}
 			},
 			"custom_tooltips": {
 				"mechanical": {
 					"attach_to_connector": {
-						"tip_title": "Click on a connector to attach this item",
-						"tip_description": "This item must be placed on a mechanical connector, like a gearbox, axle, or powered mill"
+						"tip_title": "Clique em um conector para anexar este item",
+						"tip_description": "Este item deve ser colocado em um conector mecânico, como uma caixa de engrenagens, eixo ou fresa motorizada"
 					}
 				}
 			},
@@ -16739,15 +16739,15 @@
 				"build_menu": {
 					"items": {
 						"build_well": {
-							"display_name": "Dig Water Well",
-							"description": "Order the creation of a simple water well for hearthlings to have access to clean water",
-							"tip_title": "Click to dig a well at that location",
-							"tip_description": "Make sure hearthlings can access the side with the rope attached. Locations closer to water will require less digging"
+							"display_name": "Cavar Poço De Água",
+							"description": "Peça a criação de um poço de água simples para que as fogueiras tenham acesso a água limpa",
+							"tip_title": "Clique para cavar um poço naquele local",
+							"tip_description": "Certifique-se de que os hearthlings possam acessar a lateral com a corda presa. Locais mais próximos da água exigirão menos escavação"
 						},
 						"build_fence": {
-							"display_name": "Build Fence",
-							"description": "Order the creation of fences",
-							"tip_title": "Click and drag to place fence foundations",
+							"display_name": "Construir Cerca",
+							"description": "Ordene a criação de Cercas",
+							"tip_title": "Clique e arraste para colocar as fundações da Cerca",
 							"tip_description": "If i18n(stonehearth:ui.shell.settings.gameplay_tab.building_auto_queue_crafters) is enabled, your crafters will automatically queue recipes for all craftable foundations"
 						}
 					}
@@ -16755,120 +16755,120 @@
 				"crafter_menu": {
 					"items": {
 						"engineer": {
-							"description": "Make contraptions and defensive weaponry."
+							"description": "Faça engenhocas e armamento defensivo."
 						},
 						"geomancer": {
-							"description": "Imbue summoning stones and golems."
+							"description": "Imbuir pedras de invocação e golens."
 						},
 						"shepherd": {
-							"display_name": "Shepherd Craft Menu",
-							"description": "Crafts the feed and livestock resources.",
-							"required_job_text": "Requires a shepherd"
+							"display_name": "Menu de Criação do Pastor",
+							"description": "Crie os recursos de ração e gado.",
+							"required_job_text": "Requer um Pastor"
 						},
 						"artificer": {
-							"display_name": "Artificer Craft Menu",
-							"description": "Build wooden furniture and decor.",
-							"required_job_text": "Requires a carpenter"
+							"display_name": "Menu de Criação do Artesão",
+							"description": "Construir móveis e decoração de madeira.",
+							"required_job_text": "Requer um Carpinteiro"
 						},
 						"grower": {
-							"display_name": "Grower Craft Menu",
-							"description": "Build wooden furniture and decor.",
-							"required_job_text": "Requires a carpenter"
+							"display_name": "Menu de Criação do Fazendeiro",
+							"description": "Construir móveis e decoração de madeira.",
+							"required_job_text": "Requer um Carpinteiro"
 						},
 						"brewer": {
-							"display_name": "Brewer Craft Menu",
-							"description": "Provides the town with beverages and joy",
-							"required_job_text": "Requires a brewer"
+							"display_name": "Menu de Criação do Cervejeiro",
+							"description": "Fornece bebidas e alegria para a cidade",
+							"required_job_text": "Requer um Cervejeiro"
 						}
 					}
 				},
 				"harvest_menu": {
 					"items": {
 						"harvest_and_replant": {
-							"display_name": "Gather & Replant",
-							"description": "Gather trees, plants, and stones from the surface of the land, replanting when possible.",
-							"tip_title": "Click and drag to harvest resources",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Colher e Replantar",
+							"description": "Reúna árvores, plantas e pedras da superfície da terra, replantando quando possível.",
+							"tip_title": "Clique e arraste para coletar recursos",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"box_move": {
-							"display_name": "Move Items",
-							"description": "Move items to another location",
-							"tip_title": "Click and drag to select the items to move, then click new locations for each of them as prompted.",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Mover itens",
+							"description": "Mova os itens para outro local",
+							"tip_title": "Clique e arraste para selecionar os itens a serem movidos e, a seguir, clique em novos locais para cada um deles, conforme solicitado.",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"box_undeploy": {
 							"display_name": "Undeploy Items",
-							"description": "Undeploy these items and return them to a stockpile.",
+							"description": "Remova esses itens e devolva-os para um estoque.",
 							"tip_title": "Click and drag to select the items to undeploy.",
-							"tip_description": "Right click to exit this mode"
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"box_cancel_placement": {
-							"display_name": "Cancel Placement",
+							"display_name": "Cancelar Posicionamento",
 							"description": "Cancel placement or building of the ghost forms of items.",
 							"tip_title": "Click and drag to select the ghost items to cancel.",
-							"tip_description": "Right click to exit this mode"
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"box_enable_auto_harvest": {
-							"display_name": "Enable Auto-Harvest",
-							"description": "Enable auto-harvesting of renewable resources that you own (you'll still need to instruct your hearthlings to harvest them).",
-							"tip_title": "Click and drag to select renewable resources you own to enable auto-harvesting.",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Habilitar Colheita Automática",
+							"description": "Ative a coleta automática de recursos renováveis de sua propriedade (você ainda precisará instruir seus hearthlings para coletá-los).",
+							"tip_title": "Clique e arraste para selecionar os recursos renováveis que você possui para habilitar a colheita automática.",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"box_disable_auto_harvest": {
-							"display_name": "Disable Auto-Harvest",
-							"description": "Disable auto-harvesting of renewable resources that you own.",
-							"tip_title": "Click and drag to select renewable resources you own to disable auto-harvesting.",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Desativar Colheita Automática",
+							"description": "Desative a coleta automática de recursos renováveis de sua propriedade.",
+							"tip_title": "Clique e arraste para selecionar os recursos renováveis que você possui e desabilitar a colheita automática.",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						},
 						"box_forage": {
 							"display_name": "Forage",
-							"description": "Look for natural resources in this area",
-							"tip_title": "Click and drag to mark the area to search",
-							"tip_description": "Minimum search area is 20 x 20<br/>Higher wilderness will provide better results<br/>Right click to exit this mode"
+							"description": "Procure por recursos naturais nesta área",
+							"tip_title": "Clique e arraste para marcar a área a pesquisar",
+							"tip_description": "A área de pesquisa mínima é 20 x 20<br/>Maior área selvagem fornecerá melhores resultados<br/>Clique com o botão direito para sair deste modo"
 						},
 						"box_hunt": {
-							"display_name": "Hunt",
-							"description": "Mark specific animals for hunting.",
-							"tip_title": "Click and drag to mark them.",
-							"tip_description": "Right click to exit this mode"
+							"display_name": "Caça",
+							"description": "Marque animais específicos para caça.",
+							"tip_title": "Clique e arraste para marcá-los.",
+							"tip_description": "Clique com o botão direito para sair deste modo"
 						}
 					}
 				},
 				"zone_menu": {
 					"items": {
 						"create_farm": {
-							"display_name": "Farms",
-							"description": "Create a zone that allows you to grow different things from the ground!",
-							"tip_description": "Right click to exit. Rotate with [str(left_binding)] and [str(right_binding)] keys",
+							"display_name": "Fazendas",
+							"description": "Crie uma zona que lhe permite cultivar coisas diferentes do solo!",
+							"tip_description": "Clique com o Botão Direito para sair. Girar com [str(left_binding)] e [str(right_binding)] teclas",
 							"create_field_farm": {
-								"display_name": "Farm Field",
-								"description": "Place a farm on grass or dirt that can grow conventional crops.",
-								"required_ability_text": "Your town has not yet unlocked this farm type."
+								"display_name": "Campo de fazenda",
+								"description": "Coloque uma fazenda na grama ou terra que possa cultivar safras convencionais.",
+								"required_ability_text": "Sua cidade ainda não desbloqueou este tipo de fazenda."
 							},
 							"create_field_underfarm": {
 								"display_name": "Underfarm Field",
-								"description": "Place a farm on dirt or rock that can grow low-light crops like mushrooms.",
-								"required_ability_text": "Your town has not yet unlocked this farm type."
+								"description": "Coloque uma fazenda em terra ou rocha que possa produzir safras de pouca luz, como cogumelos.",
+								"required_ability_text": "Sua cidade ainda não desbloqueou este tipo de fazenda."
 							},
 							"create_field_orchard": {
-								"display_name": "Orchard",
-								"description": "Place a farm on grass or dirt that can grow trees that bear nuts or fruits.",
-								"required_ability_text": "Your town has not yet unlocked this farm type."
+								"display_name": "Pomar",
+								"description": "Coloque uma fazenda na grama ou terra onde possam crescer árvores que produzam nozes ou frutas.",
+								"required_ability_text": "Sua cidade ainda não desbloqueou este tipo de fazenda."
 							},
 							"create_field_treefarm": {
-								"display_name": "Timber Farm",
-								"description": "Place a farm on grass or dirt that can grow larger trees.",
-								"required_ability_text": "Your town has not yet unlocked this farm type."
+								"display_name": "Fazenda de Madeira",
+								"description": "Coloque uma fazenda na grama ou terra que possa fazer crescer árvores maiores.",
+								"required_ability_text": "Sua cidade ainda não desbloqueou este tipo de fazenda."
 							},
 							"create_field_bush_farm": {
-								"display_name": "Bush Farm",
-								"description": "Place a farm on grass or dirt that can grow ornamental and fruit-bearing shrubs.",
-								"required_ability_text": "Your town has not yet unlocked this farm type."
+								"display_name": "Fazenda de Arbusto",
+								"description": "Coloque uma fazenda sobre grama ou terra que possa produzir arbustos ornamentais e frutíferos.",
+								"required_ability_text": "Sua cidade ainda não desbloqueou este tipo de fazenda."
 							},
 							"create_field_decorative_flowers": {
-								"display_name": "Decorative Flower Field",
-								"description": "Place a farm on grass or dirt that can grow beautiful flowers. These will not be automatically harvested.",
-								"required_ability_text": "Your town has not yet unlocked this farm type."
+								"display_name": "Campo de Flores Decorativas",
+								"description": "Coloque uma fazenda sobre grama ou terra que possa produzir lindas flores. Estes não serão colhidos automaticamente.",
+								"required_ability_text": "Sua cidade ainda não desbloqueou este tipo de fazenda."
 							}
 						}
 					}
@@ -16876,103 +16876,103 @@
 			},
 			"visions": {
 				"heatmap": {
-					"name": "heatmaps",
-					"title": "Terrain Heatmaps",
-					"description": "Useful view modes that will give you insights on different aspects of the map"
+					"name": "mapas térmicos",
+					"title": "Mapas de calor do terreno",
+					"description": "Modos de visualização úteis que fornecerão insights sobre diferentes aspectos do mapa"
 				}
 			},
 			"heatmaps": {
 				"ore": {
-					"display_name": "Ore Detector",
-					"description": "Detect ore several layers beneath the surface: areas appear brighter where ore is abundant or close to the surface."
+					"display_name": "Detector de minério",
+					"description": "Detecte o minério várias camadas abaixo da superfície: as áreas parecem mais brilhantes onde o minério é abundante ou próximo à superfície."
 				},
 				"wilderness": {
 					"display_name": "Wilderness",
-					"description": "See where the world is wilder (or tamer)."
+					"description": "Veja onde o mundo é mais selvagem (ou domesticado)."
 				}
 			},
 			"show_workshop": {
 				"craft_button": {
-					"title": "Craft",
-					"description": "Add this order to the end of the list. Hold [Shift] to insert at the top of the list."
+					"title": "Construir",
+					"description": "Adicione este pedido ao final da lista. Segure [Shift] para inserir no topo da lista."
 				},
 				"quality_preference": {
-					"title": "Ingredient Quality Preference",
-					"description": "Choose whether crafters should prefer high or low quality ingredients for this order. The default can be changed in Gameplay Settings."
+					"title": "Preferência de Qualidade do Ingrediente",
+					"description": "Escolha se os artesãos devem preferir ingredientes de alta ou baixa qualidade para este pedido. O padrão pode ser alterado em Configurações de jogo."
 				},
-				"prefer_high_quality": "Use higher quality ingredients"
+				"prefer_high_quality": "Use ingredientes de alta qualidade"
 			},
 			"zones_mode": {
 				"farm": {
-					"properties": "Crop Properties",
-					"statuses": "Current Statuses",
+					"properties": "Propriedades da safra",
+					"statuses": "Status Atuais",
 					"fertilizer_settings": {
-						"title": "Fertilizer",
-						"none": "None",
+						"title": "Fertilizante",
+						"none": "Nenhum",
 						"none_description": "Do not fertilize.",
-						"high_quality": "High Quality",
-						"high_quality_description": "Prefer higher quality fertilizers.",
-						"low_quality": "Low Quality",
-						"low_quality_description": "Prefer lower quality fertilizers.",
-						"specific": "Specific Fertilizer",
-						"specific_description": "Select a fertilizer below to only use that specific fertilizer."
+						"high_quality": "Alta qualidade",
+						"high_quality_description": "Preferir Fertilizantes de Alta Qualidade.",
+						"low_quality": "Baixa Qualidade",
+						"low_quality_description": "Preferir Fertilizantes de Baixa Qualidade",
+						"specific": "Fertilizante Específico",
+						"specific_description": "Selecione um fertilizante abaixo para usar apenas aquele fertilizante específico."
 					},
 					"season": {
-						"property_name": "Preferred Seasons",
+						"property_name": "Estações Preferidas",
 						"property_description": "This crop prefers the <span class='text-value'>[str(i18n_data.season)]</span> season and will grow more slowly outside of preferred seasons.",
-						"status_name": "Current Season: <span class='text-value'>[str(i18n_data.season)]</span>",
-						"in_season": "This crop is currently in season, so will grow at a normal rate.",
-						"out_of_season": "This crop is currently out of season and will grow more slowly.",
-						"no_season_title": "No Preferred Seasons",
-						"no_season_description": "This crop does not have any preferred seasons and will grow normally throughout the year."
+						"status_name": "Estação atual: <span class='text-value'>[str(i18n_data.season)]</span>",
+						"in_season": "Esta safra está em época de safra, portanto crescerá a um ritmo normal.",
+						"out_of_season": "Esta safra está fora de temporada e crescerá mais lentamente.",
+						"no_season_title": "Sem estações Preferidas",
+						"no_season_description": "Esta safra não tem estações preferenciais e crescerá normalmente ao longo do ano."
 					},
 					"growth_time": {
-						"property_name": "Growth Time",
-						"status_name": "Relative Growth Time",
-						"days_only": "[str(i18n_data.day)] day(s)",
-						"days_and_hours": "[str(i18n_data.day)] day(s) and [str(i18n_data.hour)] hour(s)",
-						"hours_only": "[str(i18n_data.hour)] hour(s)",
-						"short": "This crop matures quickly (<span class='text-value'>[str(i18n_data.total_growth_time)]</span> before modifiers).",
-						"fair": "This crop matures at a moderate rate (<span class='text-value'>[str(i18n_data.total_growth_time)]</span> before modifiers).",
-						"long": "This crop takes a long time to mature (<span class='text-value'>[str(i18n_data.total_growth_time)]</span> before modifiers).",
-						"shorter": "Environmental factors make this crop grow <span class='text-value text-optimal'>[str(i18n_data.growth_time_percent)] faster</span> than normal!",
-						"normal": "Environmental factors make this crop grow at a normal rate.",
-						"longer": "Environmental factors make this crop grow <span class='text-value text-poor'>[str(i18n_data.growth_time_percent)] slower</span> than normal!",
-						"too_long": "This crop is growing <span class='text-bad'>immeasurably slowly</span> due to environmental factors!",
-						"stopped": "This crop's growth is currently <span class='text-bad'>stopped</span>."
+						"property_name": "Tempo de Crescimento",
+						"status_name": "Tempo Relativo de Crescimento",
+						"days_only": "[str(i18n_data.day)] dia(s)",
+						"days_and_hours": "[str(i18n_data.day)] dia(s) e [str(i18n_data.hour)] hora(s)",
+						"hours_only": "[str(i18n_data.hour)] hora(s)",
+						"short": "Esta safra amadurece rapidamente (<span class='text-value'>[str(i18n_data.total_growth_time)]</span> antes dos modificadores).",
+						"fair": "Esta safra amadurece em uma taxa moderada (<span class='text-value'>[str(i18n_data.total_growth_time)]</span> antes dos modificadores).",
+						"long": "Esta safra leva muito tempo para amadurecer (<span class='text-value'>[str(i18n_data.total_growth_time)]</span> antes dos modificadores).",
+						"shorter": "Fatores ambientais fazem esta safra crescer <span class='text-value text-optimal'>[str(i18n_data.growth_time_percent)] mais rápido</span> do que o normal!",
+						"normal": "Fatores ambientais fazem com que esta safra cresça em um ritmo normal.",
+						"longer": "Fatores ambientais fazem esta safra crescer <span class='text-value text-poor'>[str(i18n_data.growth_time_percent)] mais lenta</span> que o normal!",
+						"too_long": "Esta safra está crescendo <span class='text-bad'>immeasurably devagar</span> devido a fatores ambientais!",
+						"stopped": "O crescimento desta safra está atualmente <span class='text-bad'>parado</span>."
 					},
 					"water_affinity": {
-						"property_name": "Water Needs",
-						"status_name": "Current Water Level",
-						"range": "This crop will grow a little faster than normal with <span class='water'><span class='text-value'>[str(i18n_data.min_water_level)] - [str(i18n_data.max_water_level)]</span> water</span>, through its general environment or irrigation within its blue outlined region.",
-						"min_only": "This crop will grow a little faster with at least <span class='water'><span class='text-value'>[str(i18n_data.min_water_level)]</span> water</span>, through its general environment or irrigation within its blue outlined region.",
-						"current_level": "This crop currently has <span class='water'><span class='text-value'>[str(i18n_data.current_water_level)]</span> water</span> through its general environment and irrigation within its blue outlined region."
+						"property_name": "Necessidades de Água",
+						"status_name": "Nível de água atual",
+						"range": "Esta safra vai crescer um pouco mais rápido do que o normal com <span class='water'><span class='text-value'>[str(i18n_data.min_water_level)] - [str(i18n_data.max_water_level)]</span> water</span>, através de seu ambiente geral ou irrigação dentro de sua região delineada em azul.",
+						"min_only": "Esta safra vai crescer um pouco mais rápido com pelo menos <span class='water'><span class='text-value'>[str(i18n_data.min_water_level)]</span> water</span>, através de seu ambiente geral ou irrigação dentro de sua região delineada em azul.",
+						"current_level": "Esta safra atualmente tem <span class='water'><span class='text-value'>[str(i18n_data.current_water_level)]</span> water</span> através de seu ambiente geral e irrigação dentro de sua região delineada em azul."
 					},
 					"light_affinity": {
-						"property_name": "Sunlight Needs",
-						"status_name": "Current Sunlight",
-						"range": "This crop will grow a little faster than normal with <span class='light'><span class='text-value'>[str(i18n_data.min_light_level)] - [str(i18n_data.max_light_level)]</span> daytime sunlight</span>.",
-						"min_only": "This crop will grow a little faster with at least <span class='light'><span class='text-value'>[str(i18n_data.min_light_level)]</span> daytime sunlight</span>.",
-						"current_level": "This crop currently experiences <span class='light'><span class='text-value'>[str(i18n_data.current_light_level)]</span> daytime sunlight</span>. This considers both shade and current weather state."
+						"property_name": "Necessidades de luz solar",
+						"status_name": "Luz solar atual",
+						"range": "Esta safra vai crescer um pouco mais rápido do que o normal com <span class='light'><span class='text-value'>[str(i18n_data.min_light_level)] - [str(i18n_data.max_light_level)]</span> luz do sol</span>.",
+						"min_only": "Esta safra vai crescer um pouco mais rápido com pelo menos <span class='light'><span class='text-value'>[str(i18n_data.min_light_level)]</span> luz do sol</span>.",
+						"current_level": "Esta safra experimenta atualmente <span class='light'><span class='text-value'>[str(i18n_data.current_light_level)]</span> luz do sol</span>. Isso considera a sombra e o estado do tempo atual."
 					},
 					"flooded": {
-						"property_name": "Covering",
-						"status_name": "Covering",
-						"requires": "This crop must have water covering it to grow.",
-						"prefers": "This crop grows more quickly when water is covering it and slower when it isn't.",
-						"prefers_not": "This crop grows more slowly when water or snow is covering it.",
-						"current_flooded": "This field <span class='[str(i18n_data.flooded_status)]'>is</span> currently flooded.",
-						"current_not_flooded": "This field <span class='[str(i18n_data.flooded_status)]'>is not</span> currently flooded."
+						"property_name": "Cobertura",
+						"status_name": "Cobertura",
+						"requires": "Esta safra deve ter água cobrindo-a para crescer.",
+						"prefers": "Esta safra cresce mais rapidamente quando a água está cobrindo-a e mais lento quando não está.",
+						"prefers_not": "Esta safra cresce mais lentamente quando água ou neve o está cobrindo.",
+						"current_flooded": "Este campo <span class='[str(i18n_data.flooded_status)]'>está</span> imundado no momento.",
+						"current_not_flooded": "Este campo <span class='[str(i18n_data.flooded_status)]'>não está</span> imundado no momento."
 					},
 					"frozen": {
-						"current_frozen": "This field is currently <span class='[str(i18n_data.flooded_status)]'>frozen</span>!"
+						"current_frozen": "Este campo é atualmente <span class='[str(i18n_data.flooded_status)]'>congelado</span>!"
 					},
 					"fertilized": {
-						"status_name": "Fertilized Crops",
-						"current_amount": "<span class='text-value [str(i18n_data.fertilized_status)]'>[str(i18n_data.num_fertilized)] / [str(i18n_data.num_crops)]</span> crops in this field are currently fertilized."
+						"status_name": "Cultivo Fertilizado",
+						"current_amount": "<span class='text-value [str(i18n_data.fertilized_status)]'>[str(i18n_data.num_fertilized)] / [str(i18n_data.num_crops)]</span> as colheitas neste campo estão atualmente fertilizadas."
 					},
-					"enable_harvest": "Enable Harvesting",
-					"enable_harvest_description": "If enabled, farmers will harvest this farm when possible."
+					"enable_harvest": "Habilitar Colheita",
+					"enable_harvest_description": "Se habilitado, os fazendeiros colherão esta fazenda quando possível."
 				},
 				"underfarm": {
 					"substrate_name": "Substrate",
@@ -16980,8 +16980,8 @@
 				},
 				"stockpile": {
 					"default_storage": {
-						"display_name": "Default Storage",
-						"tooltip": "Quest rewards and traded goods will be directly placed in designated default storage if possible."
+						"display_name": "Armazenamento Padrão",
+						"tooltip": "As recompensas da Missão e os Produtos Comercializados serão colocados diretamente no armazenamento padrão designado, se possível."
 					},
 					"filter_presets": {
 						"preset_description": "[str(good_count)] selected material filters",
@@ -17051,34 +17051,34 @@
 						}
 					},
 					"filters": {
-						"tooltip_coal": "Coals",
-						"tooltip_fuel": "Other Fuels",
-						"tooltip_bones": "Bones",
+						"tooltip_coal": "Carvões",
+						"tooltip_fuel": "Outros Combustíveis",
+						"tooltip_bones": "Ossos",
 						"tooltip_fungi": "Fungi",
 						"tooltip_refined_goods": "Finished Goods",
-						"tooltip_drinks": "Prepared Drinks",
-						"tooltip_animal_feed": "Animal Feed",
-						"tooltip_cooking_ingredients": "Cooking Ingredients",
-						"tooltip_precious_metals": "Precious Metals",
-						"tooltip_weapons": "Melee Weapons",
-						"tooltip_equipment": "Armor & Protection",
-						"tooltip_shield": "Shields",
-						"tooltip_ranged_weapon": "Ranged Weapons",
+						"tooltip_drinks": "Bebidas Preparadas",
+						"tooltip_animal_feed": "Alimentação Animal",
+						"tooltip_cooking_ingredients": "Ingredientes de Cozinha",
+						"tooltip_precious_metals": "Metais Preciosos",
+						"tooltip_weapons": "Armas corpo a corpo",
+						"tooltip_equipment": "Armadura e Proteção",
+						"tooltip_shield": "Escudos",
+						"tooltip_ranged_weapon": "Armas de Longa Distância",
 						"tooltip_exotic_gear": "Other Equipment & Gear",
-						"tooltip_gems": "Gems",
-						"weapons_and_armor": "Combat Equipment",
-						"tooltip_consumables": "Healing Items",
-						"tooltip_consumables_other": "Other Consumables",
+						"tooltip_gems": "Joias",
+						"weapons_and_armor": "Equipamento de Combate",
+						"tooltip_consumables": "Itens de Cura",
+						"tooltip_consumables_other": "Outros Consumíveis",
 						"tooltip_bulk_resources": "Bulk Resources",
-						"tooltip_civillian_equipment": "Clothing & Tools",
+						"tooltip_civillian_equipment": "Roupas e Ferramentas",
 						"tooltip_gizmos_equipment": "Gizmos & Utilities",
-						"tooltip_plant": "All Plants",
-						"nature_landscaping": "Nature & Scenery",
-						"tooltip_saplings": "Tree Saplings",
-						"tooltip_other_plants": "Other Plants",
-						"tooltip_seeds": "Seeds",
-						"tooltip_fish": "Captive Fish",
-						"tooltip_herbs": "Aromatic Herbs",
+						"tooltip_plant": "Todas as Plantas",
+						"nature_landscaping": "Natureza e Cenário",
+						"tooltip_saplings": "Mudas de Árvores",
+						"tooltip_other_plants": "Outras Plantas",
+						"tooltip_seeds": "Sementes",
+						"tooltip_fish": "Peixes em Cativeiro",
+						"tooltip_herbs": "Ervas Aromáticas",
 						"tooltip_fiber": "Fiber",
 						"tooltip_algae": "Algae",
 						"tooltip_essences": "Essences",
@@ -17086,7 +17086,7 @@
 						"tooltip_seeds_consumable": "Farming Seeds",
 						"tooltip_raw_drinks": "Simple Drinks",
 						"tooltip_dry_goods": "Dry Goods",
-						"tooltip_fluids": "Other Fluids",
+						"tooltip_fluids": "Outros Fluidos",
 						"tooltip_water": "Water",
 						"tooltip_animal_food": "Animal Food",
 						"tooltip_edible_nuts": "Edible Nuts",
@@ -17095,29 +17095,29 @@
 						"tooltip_raw_food_meat": "Raw Meats",
 						"tooltip_prepared_food_baked": "Baked Goods",
 						"tooltip_raw_food_fungi": "Raw Fungi",
-						"tooltip_potions": "Potions & Tonics",
-						"fuels": "Fuels",
-						"tooltip_cooking": "Cooking",
-						"tooltip_brewing": "Brewing",
-						"fertilizers": "Fertilizers",
-						"tooltip_production": "Production",
-						"tooltip_raw_food_veggies": "Raw Veggies",
-						"tooltip_raw_food_fruits": "Raw Fruits",
+						"tooltip_potions": "Poções e Tônicos",
+						"fuels": "Combustíveis",
+						"tooltip_cooking": "Cozinhando",
+						"tooltip_brewing": "Fermentação",
+						"fertilizers": "Fertilizantes",
+						"tooltip_production": "Produção",
+						"tooltip_raw_food_veggies": "Vegetais Crus",
+						"tooltip_raw_food_fruits": "Frutas Cruas",
 						"tooltip_raw_food_animal_goods": "Raw Animal Goods",
-						"tooltip_raw_food_nuts": "Raw Nuts",
+						"tooltip_raw_food_nuts": "Nozes Cruas",
 						"tooltip_serving_vessels": "Drink Serving Vessels",
 						"tooltip_bitter_herbs": "Bitter Herbs",
 						"dresser": "Misc",
 						"tooltip_field_work_outfit": "Field Worker Outfits & Hats",
 						"tooltip_crafter_outfit": "Crafter Outfits & Hats",
-						"tooltip_job_tool": "Job Tools",
+						"tooltip_job_tool": "Ferramentas de Trabalho",
 						"tooltip_worker_outfit": "Worker Outfits & Hats",
 						"tooltip_worker_tools": "Worker Tools",
-						"tooltip_backpack": "Worker Backpacks",
-						"tooltip_magic_weapon": "Magic Artifacts",
+						"tooltip_backpack": "Mochilas de Trabalhador",
+						"tooltip_magic_weapon": "Artefatos Mágicos",
 						"tooltip_combat_cape": "Capes & Cloaks",
-						"tooltip_combat_consumable": "Combat Potions",
-						"healing_items": "Healing Items"
+						"tooltip_combat_consumable": "Poções de Combate",
+						"healing_items": "Itens de cura"
 					},
 					"fuel_level": {
 						"label": "Fuel Level:",
@@ -17126,22 +17126,22 @@
 				},
 				"pasture": {
 					"maintain_animals": "Maintain:",
-					"maintain_animals_description": "Automatically slaughter any animals beyond this number.",
-					"harvest_animals_renewable": "Harvest Renewable",
-					"harvest_animals_renewable_description": "Harvest renewable resources from these animals, like wool or eggs.",
-					"harvest_grass": "Harvest Grass",
-					"harvest_grass_description": "Automatically harvest any grass that grows in the pasture.",
-					"ostrich_pasture_name": "Ostrich Enclosure",
+					"maintain_animals_description": "Abate automaticamente qualquer animal além desse número.",
+					"harvest_animals_renewable": "Colheita Renovável",
+					"harvest_animals_renewable_description": "Colha recursos renováveis ​​desses animais, como lã ou ovos.",
+					"harvest_grass": "Colheita de Grama",
+					"harvest_grass_description": "Colha automaticamente qualquer grama que cresça no pasto.",
+					"ostrich_pasture_name": "Recinto de Avestruzes",
 					"moomoo_pasture_name": "Moo-Moo Herd",
-					"ostrich_pasture_description": "These exotic birds produce delicious large eggs and can be slaughtered for large poultry, jerky, feathers and bone",
-					"sheep_pasture_description": "Sheep produce wool and, seldom, some milk. Slaughtering sheep will produce raw mutton, jerky, and bone",
+					"ostrich_pasture_description": "Essas aves exóticas produzem ovos grandes e deliciosos e podem ser abatidas para criar aves grandes, carne seca, penas e ossos",
+					"sheep_pasture_description": "As ovelhas produzem lã e, raramente, algum leite. O abate de ovelhas produzirá carne de carneiro crua, carne seca e osso",
 					"moomoo_pasture_description": "Moo-moos eat a lot but will produce nice amounts of milk. Slaughtering them yields pelts, steak, jerky and bone",
-					"rabbit_pasture_description": "Rabbits reproduce quickly and can be slaughtered for jerky, pelts and sometimes bone",
-					"poyo_pasture_description": "Poyos lay eggs, a fine cooking ingredient. Slaughtering poyo will yield meat and, often, feathers and bone",
-					"duck_pasture_description": "Ducks lay eggs, but require more space and time than poyos. Slaughtering duck will yield meat and, often, feathers and bone",
+					"rabbit_pasture_description": "Os coelhos se reproduzem rapidamente e podem ser abatidos para carne seca, peles e, às vezes, ossos",
+					"poyo_pasture_description": "Poyos botam ovos, um excelente ingrediente para cozinhar. O abate do Poyo renderá carne e, muitas vezes, penas e ossos",
+					"duck_pasture_description": "Os patos põem ovos, mas requerem mais espaço e tempo do que os Poyos. O abate do pato renderá carne e, muitas vezes, penas e ossos",
 					"duck_pasture_name": "Duck Badling",
 					"oinker_pasture_name": "Oinker Drove",
-					"oinker_pasture_description": "Oinkers eat well and occasionally dig up truffles, a valuable cooking ingredient. They yield pelts, bone, and good amounts of pork and jerky"
+					"oinker_pasture_description": "Oinkers comem bem e ocasionalmente desenterram trufas, um valioso ingrediente para cozinhar. Eles produzem peles, ossos e uma boa quantidade de carne de porco e charque"
 				}
 			},
 			"herbalist_planter": {
@@ -17531,35 +17531,35 @@
 			},
 			"constants": {
 				"edible_nuts_resource_name": "Any Edible Nut",
-				"fruits_resource_name": "Any Fruit",
+				"fruits_resource_name": "Qualquer Fruta",
 				"thatch_resource_name": "Any Thatch",
-				"bone_resource_name": "Bone",
+				"bone_resource_name": "Osso",
 				"fungi_resource_name": "Any Undeployed Fungi",
 				"chitin_resource_name": "Any Chitin",
-				"coal_resource_name": "Any Coal",
-				"any_fuel_resource_name": "Any Fuel",
-				"common_fuel_resource_name": "Any Common Fuel",
-				"weak_fuel_resource_name": "Lower Grade Fuel",
-				"fuel_resource_name": "Good Grade Fuel",
-				"high_fuel_resource_name": "Higher Grade Fuel",
+				"coal_resource_name": "Qualquer Carvão",
+				"any_fuel_resource_name": "Qualquer Combustível",
+				"common_fuel_resource_name": "Qualquer Combustível Comum",
+				"weak_fuel_resource_name": "Combustível de Grau Inferior",
+				"fuel_resource_name": "Combustível de Boa Qualidade",
+				"high_fuel_resource_name": "Combustível de Grau Superior",
 				"soft_metal_resource_name": "Any Soft Metal",
 				"hard_metal_resource_name": "Any Hard Metal",
 				"precious_metal_resource_name": "Any Precious Metal",
 				"algae_resource_name": "Any Water Weed",
 				"fish_roe_resource_name": "Any Fish Roe",
 				"fish_meat_resource_name": "Any Fish Meat",
-				"wool_resource_name": "Any Wool",
-				"grain_resource_name": "Any Grain",
+				"wool_resource_name": "Qualquer Lã",
+				"grain_resource_name": "Qualquer Grão",
 				"grain_flour_resource_name": "Any Flour",
 				"any_pet_food_resource_name": "Any Pet Food",
-				"milk_resource_name": "Any Milk",
-				"butter_resource_name": "Any Butter",
+				"milk_resource_name": "Qualquer Leite",
+				"butter_resource_name": "Qualquer Manteiga",
 				"strong_bone_resource_name": "Strong Bone",
 				"grease_resource_name": "Any Cooking Grease",
 				"oil_resource_name": "Any Cooking Oil",
 				"oil_source_name": "Any Oily Seeds or Grain",
 				"ingot_resource_name": "Any Metal Ingot",
-				"ore_resource_name": "Any Ore",
+				"ore_resource_name": "Qualquer Minério",
 				"fiber_resource_name": "Any Bundle of Fiber",
 				"thread_resource_name": "Any Thread",
 				"pelt_resource_name": "Any Fur Pelt",
@@ -17621,11 +17621,11 @@
 				"stuffing_resource_name": "Any Feathers, Wool or Cotton",
 				"raw_meat_piece_resource_name": "Any Whole Meat Piece",
 				"seasoning_resource_name": "Any Seasoning",
-				"prepared_food_festival_resource_name": "Festive Food",
+				"prepared_food_festival_resource_name": "Comida Festiva",
 				"refined_serving_pitcher_resource_name": "Any Serving Pitcher",
-				"becomes_vinegar_wine_resource_name": "Any Wine",
-				"becomes_vinegar_mead_resource_name": "Any Mead",
-				"becomes_vinegar_beer_or_ale_resource_name": "Any Beer or Ale"
+				"becomes_vinegar_wine_resource_name": "Qualquer Vinho",
+				"becomes_vinegar_mead_resource_name": "Qualquer Hidromel",
+				"becomes_vinegar_beer_or_ale_resource_name": "Qualquer Cerveja ou Ale"
 			}
 		}
 	},
@@ -17645,19 +17645,19 @@
 			},
 			"loot_drops": {
 				"display_name": "Loot Drops",
-				"description": "When killed, loot will drop!"
+				"description": "Quando morto, os itens vão cair!"
 			},
 			"renewable_resource_node": {
 				"display_name": "Renewable Resource Node",
-				"description": "Can be harvested repeatedly, requiring some time between each harvest in order to renew."
+				"description": "Pode ser colhido repetidamente, exigindo algum tempo entre cada colheita para renovar."
 			},
 			"resource_node": {
 				"display_name": "Resource Node",
-				"description": "Can only be harvested once and is then destroyed."
+				"description": "Só pode ser colhido uma vez e depois destruído."
 			},
 			"stacks": {
-				"display_name": "Stacks",
-				"description": "When used in crafting or trading, the entire item will be consumed. Otherwise, only a single stack is consumed at a time, until the last stack is consumed and the item is destroyed."
+				"display_name": "Pilhas",
+				"description": "Quando usado na elaboração ou negociação, o item inteiro será consumido. Caso contrário, apenas uma única pilha é consumida por vez, até que a última pilha seja consumida e o item seja destruído."
 			}
 		},
 		"stonehearth_ace": {
@@ -17666,22 +17666,22 @@
 				"description": "Responde à presença de água (ou falta dela)."
 			},
 			"fence": {
-				"display_name": "Fence",
+				"display_name": "Cerca",
 				"description": "Limited tile-able item that will automatically connect to others within two units."
 			},
 			"mechanical": {
-				"display_name": "Mechanical",
-				"description": "Can be used in building connected systems to transfer mechanical power.",
-				"produces": "This mechanical device is currently producing <span class='textValue'>[str(produces)] / [str(def_produces)]</span> power.",
-				"consumes": "This mechanical device is currently consuming <span class='textValue'>[str(consumes)] / [str(def_consumes)]</span> power.",
-				"resistance": "This mechanical device is causing <span class='textValue'>[str(resistance)] / [str(def_resistance)]</span> resistance.",
-				"power_percentage": "This mechanical device's network is currently operating at <span class='textValue'>[str(power_percentage)] %</span> efficiency."
+				"display_name": "Mecânica",
+				"description": "Pode ser usado na construção de sistemas conectados para transferir energia mecânica.",
+				"produces": "Este dispositivo mecânico está atualmente produzindo <span class='textValue'>[str(produces)] / [str(def_produces)]</span> potência.",
+				"consumes": "Este dispositivo mecânico está consumindo <span class='textValue'>[str(consumes)] / [str(def_consumes)]</span> potência.",
+				"resistance": "Este dispositivo mecânico está causando <span class='textValue'>[str(resistance)] / [str(def_resistance)]</span> resistência.",
+				"power_percentage": "A rede deste dispositivo mecânico está operando atualmente em <span class='textValue'>[str(power_percentage)] %</span> eficiência."
 			},
 			"pile": {
-				"display_name": "Pile",
-				"description": "Contains resources that can be harvested after placing it on the ground.",
-				"harvest_rate": "Harvest rate: <span class='textValue'>[str(harvest_rate)]</span>",
-				"item_list_header": "This pile currently contains the following <span class='textValue'>[str(item_count)]</span> items:"
+				"display_name": "Pilha",
+				"description": "Contém recursos que podem ser colhidos após serem colocados no solo.",
+				"harvest_rate": "Taxa de colheita: <span class='textValue'>[str(harvest_rate)]</span>",
+				"item_list_header": "Esta pilha contém atualmente os seguintes <span class='textValue'>[str(item_count)]</span> itens:"
 			},
 			"tile": {
 				"display_name": "Tile",
@@ -17714,7 +17714,7 @@
 	"food": {
 		"food_decay": {
 			"cheese": {
-				"description": "This cheese is starting to... Smell cheesy. Better eat it soon."
+				"description": "Este queijo está começando a ... Cheirar a queijo. Melhor comer logo."
 			},
 			"curdling": {
 				"description": "It's getting bad, better pour it in a cheese vat soon!"
@@ -17736,7 +17736,7 @@
 			"decay_1": {
 				"description": "Está começando a ficar ruim, provavelmente devo bebê-lo em breve.",
 				"keg": {
-					"description": "Has been around for a long while and is a bit stale already."
+					"description": "Já existe há muito tempo e já está um pouco obsoleto."
 				}
 			},
 			"decay_brewing_ingredient": {
