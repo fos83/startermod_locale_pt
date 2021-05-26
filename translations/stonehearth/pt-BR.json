@@ -18254,7 +18254,7 @@
 				"large_urn_recipe": {
 					"description": "Para armazenar compactamente até 32 itens",
 					"recipe_name": "Grande Urna",
-					"flavor": "Once we put things in, how will we get them out? Don't think about it too much"
+					"flavor": "Depois de colocar as coisas, como vamos tirá-las? Não pense muito nisso"
 				},
 				"clay_lamp_recipe": {
 					"description": "Sua chama traz um brilho quente à noite.",
@@ -18286,9 +18286,9 @@
 					"flavor": "'Através do calor e das dificuldades percebemos nossos eus finais.' - Silora, Acólito do Mistério de Rayya."
 				},
 				"clay_safety_standard_recipe": {
-					"description": "Use to designate a safety point",
+					"description": "Use para designar um ponto de segurança",
 					"recipe_name": "Padrão de Segurança de Argila",
-					"flavor": "To achieve an ideal standard of living, find safety in numbers. --Mysteries and Proverbs, V"
+					"flavor": "Para alcançar um padrão de vida ideal, encontre segurança nos números. - Mistérios e Provérbios, V"
 				},
 				"building_parts_name": "Peças de Construção",
 				"clay_bricks_recipe": {
@@ -18297,14 +18297,14 @@
 					"flavor": "'E quando Argila emergiu do Forno, ele se tornou Brick, e não importa o quão duro Sun o detonou, ele permaneceu alegre.'"
 				},
 				"red_clay_door_recipe": {
-					"description": "Matches red clay walls",
+					"description": "Combina com paredes de Argila vermelha",
 					"recipe_name": "Porta de Argila Vermelho",
 					"flavor": "\"The red hints at a mystery, allure. What lies beyond yon red door?\" -- Ember Iskender, Dept of Applied Poetry"
 				},
 				"red_clay_window_frame_recipe": {
-					"description": "Matches red clay walls",
+					"description": "Combina com paredes de Argila vermelha",
 					"recipe_name": "Janela de Argila Vermelha",
-					"flavor": "\"Industry standard for a reason\" -- Jorya Iskender, Dyemaster"
+					"flavor": "\"Padrão da indústria por um motivo\" -- Jorya Iskender, Dyemaster"
 				},
 				"blue_clay_door_recipe": {
 					"description": "Blue like the dream of distant ocean.",
@@ -18357,7 +18357,7 @@
 					"flavor": "'Sugar, spice, and blood of the earth: it is the tray that brings them, and us, together' --Rayya"
 				},
 				"potted_cactus_recipe": {
-					"description": "Plant a cactus in a clay pot.",
+					"description": "Plante um cacto em um vaso de Argila.",
 					"recipe_name": "Vaso de Cacto",
 					"flavor": "Aiii! - Todos os ceramistas de cactos, sempre."
 				},
@@ -18367,14 +18367,14 @@
 					"flavor": "Dizem que o Macaco tinha um olho feito de vidro, e através dele, ele podia ver diretamente para o coração das coisas. - Mestre Orlen"
 				},
 				"decorative_vase_recipe": {
-					"description": "Transform metals into art",
+					"description": "Transforme metais em arte",
 					"recipe_name": "Vaso Decorativo",
-					"flavor": "It is the riches of the earth reborn"
+					"flavor": "São as riquezas da terra renascidas"
 				},
 				"sundial_recipe": {
 					"description": "Jardins decorados, marca o tempo",
 					"recipe_name": "Relógio de Sol de Argila",
-					"flavor": "The secret to immortality is to make best of days last forever --Rayya"
+					"flavor": "O segredo da imortalidade é fazer com que os dias durem para sempre --Rayya"
 				},
 				"tile_floor_mosaic_recipe": {
 					"description": "Decorates and cools the floor",
@@ -18724,7 +18724,7 @@
 				"amberstone_chest_recipe": {
 					"description": "Armazena até 64 itens",
 					"recipe_name": "Baú Tecido",
-					"flavor": "A tidy space is a happy space!"
+					"flavor": "Um lugar arrumado é um lugar feliz!"
 				},
 				"amberstone_mat_recipe": {
 					"description": "Tecida com a habilidade dos coelhos",
@@ -18814,9 +18814,9 @@
 					"flavor": "Too beautiful to step on."
 				},
 				"worker_outfit_2_recipe": {
-					"description": "Double stitching and strategically placed padding improves the worker's efficiency. The worker who dons this upgrade outfit will move faster.",
-					"recipe_name": "Upgraded Worker Outfit",
-					"flavor": "Your town loves you!"
+					"description": "Costura dupla e acolchoamento estrategicamente colocado aumentam a eficiência do trabalhador. O trabalhador que veste esta roupa modificada se moverá mais rápido.",
+					"recipe_name": "Roupa de Trabalhador Atualizada",
+					"flavor": "Sua cidade te ama!"
 				},
 				"worker_outfit_winter_recipe": {
 					"description": "Um casaco pesado de lã, para as noites frias de inverno. O trabalhador que veste esta roupa de atualização se moverá mais rápido.",
@@ -18858,7 +18858,7 @@
 				},
 				"input_bin_amberstone_recipe": {
 					"recipe_name": "Rabbit-woven Supply Basket",
-					"description": "Safely stores crafting supplies",
+					"description": "Armazena com segurança suprimentos de artesanato",
 					"flavor": "Would-be masons of clan amberstone must practice discerning quality stone for many years before they are allowed near a chisel. Many never are."
 				},
 				"input_bin_woven_recipe": {
@@ -18867,19 +18867,19 @@
 					"flavor": "Nada como uma oficina bem abastecida!"
 				},
 				"input_bin_woven_blue_recipe": {
-					"flavor": "Nothing quite like a well-supplied workshop!",
-					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
-					"recipe_name": "Blue Woven Supply Basket"
+					"flavor": "Nada como uma oficina bem contruida!",
+					"description": "Um recipiente versátil que os Hearthlings tentarão manter cheio, para que seus artesãos possam continuar trabalhando!",
+					"recipe_name": "Cesta Azul de suprimentos para tecido"
 				},
 				"input_bin_woven_green_recipe": {
-					"flavor": "Nothing quite like a well-supplied workshop!",
-					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
-					"recipe_name": "Green Woven Supply Basket"
+					"flavor": "Nada como uma oficina bem trabalhada!",
+					"description": "Um recipiente versátil que os Hearthlings tentarão manter cheio, para que seus artesãos possam continuar trabalhando!",
+					"recipe_name": "Cesta Verde de suprimentos para tecido"
 				},
 				"input_bin_woven_red_recipe": {
-					"flavor": "Nothing quite like a well-supplied workshop!",
-					"description": "A versatile container that Hearthlings will try to keep full, so your crafters can keep on working!",
-					"recipe_name": "Red Woven Supply Basket"
+					"flavor": "Nada como uma oficina bem trabalhada!",
+					"description": "Um recipiente versátil que os Hearthlings tentarão manter cheio, para que seus artesãos possam continuar trabalhando!",
+					"recipe_name": "Cesta Vermelha de suprimentos para tecido"
 				},
 				"silver_bowstring_recipe": {
 					"description": "A spool of strong, spun silver cord",
