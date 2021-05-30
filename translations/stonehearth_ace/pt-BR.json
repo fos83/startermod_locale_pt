@@ -55,46 +55,46 @@
 						"display_name": "⛺ Weaver's Turf Hovel"
 					},
 					"workshop_weaver_t2_ace": {
-						"display_name": " 🏘️ Weaver's Workshop"
+						"display_name": " 🏘️ Oficina do Tecelão"
 					},
 					"workshop_carpenter_t1_ace": {
 						"display_name": "⛺ Carpenter's Turf Hovel"
 					},
 					"workshop_carpenter_t2_ace": {
-						"display_name": " 🏘️ Carpenter's Workshop"
+						"display_name": " 🏘️ Oficina do Carpinteiro"
 					},
 					"workshop_cook_t1_ace": {
 						"display_name": "⛺ Cook's Turf Hovel"
 					},
 					"workshop_cook_t2_ace": {
-						"display_name": " 🏘️ Cook's Kitchen"
+						"display_name": " 🏘️ Cozinha"
 					},
 					"workshop_herbalist_t1_ace": {
 						"display_name": "⛺ Herbalist's Turf Hovel"
 					},
 					"workshop_herbalist_t2_ace": {
-						"display_name": " 🏘️ Herbalist's Workshop"
+						"display_name": " 🏘️ Oficina do Herborista"
 					},
 					"workshop_mason_t1_ace": {
 						"display_name": "⛺ Mason's Turf Hovel"
 					},
 					"workshop_mason_t2_ace": {
-						"display_name": " 🏘️ Mason's Workshop"
+						"display_name": " 🏘️ Oficina do Pedreiro"
 					},
 					"workshop_potter_t2_ace": {
-						"display_name": " 🏘️ Pottery Studio"
+						"display_name": " 🏘️ Oficina de Cerâmica"
 					},
 					"workshop_engineer_t2_ace": {
-						"display_name": " 🏘️ Engineer's Workshop"
+						"display_name": " 🏘️ Oficina do Engenheiro"
 					},
 					"workshop_blacksmith_t2_ace": {
-						"display_name": " 🏘️ Blacksmith's Workshop"
+						"display_name": " 🏘️ Oficina do Ferreiro"
 					},
 					"mead_hall_t2_ace": {
 						"display_name": " 🏘️ Mead Hall"
 					},
 					"great_hall_t2_ace": {
-						"display_name": " 🏘️ Great Hall"
+						"display_name": " 🏘️ Grande Salão"
 					}
 				},
 				"rayyas_children": {
@@ -148,25 +148,25 @@
 					}
 				},
 				"herbalist_house_t1_ace": {
-					"display_name": "⛺ Herbalist House"
+					"display_name": "⛺ Casa do Herborista"
 				},
 				"mason_house_t1_ace": {
-					"display_name": "⛺ Mason House"
+					"display_name": "⛺ Casa do Pedreiro"
 				},
 				"potter_house_t1_ace": {
 					"display_name": "⛺ Potter House"
 				},
 				"shared_sleeping_quarters_t1_ace": {
-					"display_name": "⛺ Shared Sleeping Quarters"
+					"display_name": "⛺ Dormitórios Compartilhados"
 				},
 				"tiny_cottage_t1_ace": {
 					"display_name": "⛺ Tiny Cottage"
 				},
 				"weaver_house_t1_ace": {
-					"display_name": "⛺ Weaver House"
+					"display_name": "⛺ Casa do Tecelão"
 				},
 				"carpenter_house_t1_ace": {
-					"display_name": "⛺ Carpenter House"
+					"display_name": "⛺ Casa do Carpinteiro"
 				},
 				"cottage_for_two_t1_ace": {
 					"display_name": "⛺ Cottage for Two"
@@ -1946,79 +1946,79 @@
 			"ascendancy": {
 				"titles": {
 					"none": {
-						"description": "No title necessary."
+						"description": "Nenhum título é necessário."
 					},
 					"levels": {
-						"display_name": "Character Level",
-						"description": "Gained by levelling up on any job.",
-						"6_display_name": ", Master",
-						"6_description": "They have six job levels! They have walked the path of a master!",
-						"12_display_name": ", Grandmaster",
-						"12_description": "They now have twelve job levels! More than a master, a grand master!",
+						"display_name": "Nível de Personagem",
+						"description": "Obtido por subir de nível em qualquer trabalho.",
+						"6_display_name": ", Mestre",
+						"6_description": "Eles têm seis níveis de trabalho! Eles trilharam o caminho de um mestre!",
+						"12_display_name": ", Grande Mestre",
+						"12_description": "Eles agora têm doze níveis de emprego! Mais que um mestre, um grande mestre!",
 						"18_display_name": ", Jack-of-All-Trades",
-						"18_description": "They have eighteen job levels! What? That's amazing!",
-						"30_display_name": ", Blessed",
-						"30_description": "They've reached thirty job levels, only few and dedicated souls can achieve that...",
-						"60_display_name": ", Living Legend",
-						"60_description": "They've reached the impressive mark of sixty job levels! That's more experience than many hearthlings combined... Such wisdom!",
-						"90_display_name": ", Heir of Cid",
-						"90_description": "They have ninety job levels - this is unbelievable! No hearthling could ever dream of such a feat... Their soul must've been touched by Cid himself!"
+						"18_description": "Eles têm dezoito níveis de trabalho! O que? Isso é incrível!",
+						"30_display_name": ", Abençoado",
+						"30_description": "Eles alcançaram trinta níveis de emprego, apenas algumas almas dedicadas podem alcançar isso...",
+						"60_display_name": ", Lenda viva",
+						"60_description": "Eles alcançaram a impressionante marca de sessenta níveis de emprego! Isso é mais experiência do que muitos hearthlings combinados... Quanta sabedoria!",
+						"90_display_name": ", Herdeiro de Cid",
+						"90_description": "Eles têm noventa níveis de emprego - isso é inacreditável! Nenhum coração jamais poderia sonhar com tal façanha... Sua alma deve ter sido tocada pelo próprio Cid!"
 					},
 					"slayer": {
-						"display_name": "Slayer",
-						"description": "Gained by killing any creature.",
-						"40_display_name": " the Ravager",
-						"40_description": "They defeated 40 foes!",
-						"100_display_name": " the Butcherer",
-						"100_description": "They defeated 100 foes! Was that really necessary?",
+						"display_name": "Assassino",
+						"description": "Obtido matando qualquer criatura.",
+						"40_display_name": " o Devastador",
+						"40_description": "Eles derrotaram 40 inimigos!",
+						"100_display_name": " o Açougueiro",
+						"100_description": "Eles derrotaram 100 inimigos! Aquilo era mesmo necessário?",
 						"250_display_name": ", Nemesis",
-						"250_description": "They defeated 250 foes! They can't be stopped!",
-						"600_display_name": " the Soul Reaper",
-						"600_description": "They defeated 600 foes! That has to be a war crime or something..."
+						"250_description": "Eles derrotaram 250 inimigos! Eles não podem ser parados!",
+						"600_display_name": " o Ceifeiro das Almas",
+						"600_description": "Eles derrotaram 600 inimigos! Isso tem que ser um crime de guerra ou algo assim..."
 					},
 					"slayer_item": {
-						"display_name": "Slayer",
-						"description": "Gained by killing any creature.",
+						"display_name": "Assassino",
+						"description": "Obtido matando qualquer criatura.",
 						"40_display_name": ", Bloodletter",
-						"40_description": "It defeated 40 foes!",
+						"40_description": "Ele derrotou 40 inimigos!",
 						"100_display_name": ", Terrorizer",
-						"100_description": "It defeated 100 foes! Probably needs some polishing.",
-						"250_display_name": " of Death's Touch",
-						"250_description": "It defeated 250 foes! This should be enough.",
-						"600_display_name": ", Soul-Eater",
-						"600_description": "It defeated 600 foes! It hungers!"
+						"100_description": "Ele derrotou 100 inimigos! Provavelmente precisa de algum polimento.",
+						"250_display_name": " do Toque da Morte",
+						"250_description": "Ele derrotou 250 inimigos! Isso deve ser o bastante.",
+						"600_display_name": ", Devorador de Almas",
+						"600_description": "Ele derrotou 600 inimigos! Tem fome!"
 					},
 					"goblin_killer": {
 						"display_name": "Goblin Killer",
-						"description": "Gained by killing goblins.",
+						"description": "Ganhou matando goblins.",
 						"5_display_name": " the Goblin Killer",
 						"5_description": "They killed 5 goblins!",
 						"10_display_name": " the Goblin Crusher",
-						"10_description": "They killed 10 goblins! There they went, killing again!",
+						"10_description": "Eles mataram 10 goblins! Lá foram eles, matando de novo!",
 						"25_display_name": " the Goblin Decimator",
-						"25_description": "They killed 25 goblins! They're really good at it!",
+						"25_description": "Eles mataram 25 goblins! Eles são muito bons nisso!",
 						"50_display_name": ", Bane of Goblins",
-						"50_description": "They killed 50 goblins! That's a lot!",
+						"50_description": "Eles mataram 50 goblins! Isso é muito!",
 						"75_display_name": ", Goblin Slayer",
-						"75_description": "They killed 75 goblins! Where are they finding all these goblins?!",
+						"75_description": "Eles mataram 75 goblins! Onde eles estão encontrando todos esses goblins?!",
 						"100_display_name": ", Goblin-Eater",
-						"100_description": "They killed 100 goblins! Perhaps they should be in therapy, reexamining their priorities."
+						"100_description": "Eles mataram 100 goblins! Talvez eles devessem estar em terapia, reexaminando suas prioridades."
 					},
 					"goblin_killer_item": {
 						"display_name": "Goblin Killer",
-						"description": "Gained by killing goblins.",
+						"description": "Ganhou matando goblins.",
 						"5_display_name": ", Goblin-Foe",
-						"5_description": "It killed 5 goblins!",
+						"5_description": "Ele matou 5 goblins!",
 						"10_display_name": " the Goblin Slasher",
-						"10_description": "It killed 10 goblins! Will it stop?",
+						"10_description": "Ele matou 10 goblins! Isso vai parar?",
 						"25_display_name": " the Goblin Destroyer",
-						"25_description": "It killed 25 goblins! It's really good at it!",
+						"25_description": "Ele matou 25 goblins! É muito bom nisso!",
 						"50_display_name": ", Goblin-Bane",
-						"50_description": "It killed 50 goblins! That's a lot!",
+						"50_description": "Matou 50 goblins! Isso é muito!",
 						"75_display_name": ", Goblin-Hewer",
-						"75_description": "It killed 75 goblins! It's unstoppable, at least by goblins!",
+						"75_description": "Ele matou 75 goblins! É imparável, pelo menos pelos goblins!",
 						"100_display_name": ", Vanquisher of Goblins",
-						"100_description": "It killed 100 goblins! Has its blood lust finally been sated?"
+						"100_description": "Ele matou 100 goblins! Sua sede de sangue finalmente foi saciada?"
 					},
 					"orc_killer": {
 						"display_name": "Orcish Killer",
@@ -2261,20 +2261,20 @@
 						"1_description": "It was used to best the most fearsome orc in combat!"
 					},
 					"hunter": {
-						"display_name": "Great Hunter",
-						"description": "Gained by hunting animals.",
-						"10_display_name": ", Poacher",
-						"10_description": "They hunted 10 wild animals!",
-						"30_display_name": ", Accomplished Hunter",
-						"30_description": "They hunted 30 wild animals! Poor animals...",
-						"75_display_name": ", Master Hunter",
-						"75_description": "They hunted 75 wild animals! That's food for months!",
-						"150_display_name": ", Grandmaster Hunter",
-						"150_description": "They hunted 150 wild animals! Is it an obsession?",
-						"300_display_name": ", Legendary Hunter",
-						"300_description": "They hunted 300 wild animals! Someone really loves barbecue!",
+						"display_name": "Grande Caçador",
+						"description": "Obtido por animais de caça.",
+						"10_display_name": ", Larápio",
+						"10_description": "Eles caçaram 10 animais selvagens!",
+						"30_display_name": ", Caçador Realizado",
+						"30_description": "Eles caçaram 30 animais selvagens! Pobres animais...",
+						"75_display_name": ", Mestre Caçador",
+						"75_description": "Eles caçaram 75 animais selvagens! Isso é comida por meses!",
+						"150_display_name": ", Grande Mestre Caçador",
+						"150_description": "Eles caçaram 150 animais selvagens! É uma obsessão?",
+						"300_display_name": ", Caçador Lendário",
+						"300_description": "Eles caçaram 300 animais selvagens! Alguém realmente adora churrasco!",
 						"600_display_name": ", Truest Arrow",
-						"600_description": "They hunted 600 wild animals! Be careful to not cause an extinction!"
+						"600_description": "Eles caçaram 600 animais selvagens! Tenha cuidado para não causar uma extinção!"
 					},
 					"hunter_item": {
 						"display_name": "Great Hunter",
@@ -14318,31 +14318,31 @@
 		},
 		"weapons": {
 			"iron_battle_axe": {
-				"description": "Extra large for when you need some extra punch. (Two-handed)",
-				"display_name": "Iron Battle Axe"
+				"description": "Extra grande para quando você precisar de algum soco extra. (Duas mãos)",
+				"display_name": "Machado de Batalha de Ferro"
 			},
 			"bronze_axe": {
-				"display_name": "Bronze Axe",
-				"description": "A heavier alternative for a starting metal weapon. (Two-handed)"
+				"display_name": "Machado de Bronze",
+				"description": "Uma alternativa mais pesada para uma arma inicial de metal. (Duas mãos)"
 			},
 			"iron_short_sword": {
-				"display_name": "Iron Short Sword",
-				"description": "A short but efficient knight's sidearm."
+				"display_name": "Espada Curta de Ferro",
+				"description": "A arma curta de um cavaleiro, mas eficiente."
 			},
 			"iron_sword": {
-				"display_name": "Iron Sword",
-				"description": "A strong and well balanced weapon for foot soldiers."
+				"display_name": "Espada de Ferro",
+				"description": "Uma arma forte e bem equilibrada para soldados de infantaria."
 			},
 			"steel_mace": {
 				"display_name": "Steel Mace",
 				"description": "A powerful weapon that will break through armor."
 			},
 			"iron_axe": {
-				"display_name": "Iron Axe",
+				"display_name": "Machado de Ferro",
 				"description": "Short, fast, edgy."
 			},
 			"steel_axe": {
-				"display_name": "Steel Axe",
+				"display_name": "Machado de Aço",
 				"description": "For hacking and slashing to victory."
 			},
 			"bronze_hatchet": {
@@ -14587,15 +14587,15 @@
 				"description": "A simple weapon for parrying and countering. (Off-hand)"
 			},
 			"bone_sword": {
-				"display_name": "Bone Sword"
+				"display_name": "Espada de Osso"
 			},
 			"giant_bone_hatchet": {
-				"description": "For parrying attacks and attempting counter-attacks. (Off-hand)",
-				"display_name": "Giant Bone Hatchet"
+				"description": "Para desviar ataques e tentar contra-ataques. (Improvisado)",
+				"display_name": "Machado de Osso Gigante"
 			},
 			"giant_bone_short_sword": {
-				"display_name": "Giant Bone Short Sword",
-				"description": "A knight's sidearm made with the bones of a mythical creature."
+				"display_name": "Espada Curta de Osso Gigante",
+				"description": "A arma de um cavaleiro feita com os ossos de uma criatura mítica."
 			},
 			"giant_bone_sword": {
 				"display_name": "Giant Bone Sword",
@@ -14612,22 +14612,22 @@
 				}
 			},
 			"long_sword": {
-				"display_name": "Steel Sword"
+				"display_name": "Espada De Aço"
 			},
 			"short_sword": {
-				"display_name": "Steel Short Sword"
+				"display_name": "Espada Curta de Aço"
 			},
 			"arrow": {
-				"display_name": "Arrow",
-				"description": "Hope it hits!"
+				"display_name": "Flecha",
+				"description": "Espero que acerte!"
 			},
 			"goblin_blowpipe": {
 				"display_name": "Blowpipe",
 				"description": "Primitive but dangerous."
 			},
 			"blowpipe_dart": {
-				"display_name": "Poisonous Dart",
-				"description": "Careful with this one!"
+				"display_name": "Dardo Venenoso",
+				"description": "Cuidado com esse aqui!"
 			},
 			"goblin_poker": {
 				"display_name": "Goblin Poker",
@@ -15379,14 +15379,14 @@
 		},
 		"fence": {
 			"simple_wooden": {
-				"display_name": "Simple Wooden Fence",
-				"description": "A fence that automatically snaps to nearby fence parts!"
+				"display_name": "Cerca de Madeira Simples",
+				"description": "Uma cerca que se encaixa automaticamente nas partes próximas da cerca!"
 			}
 		},
 		"drink": {
 			"unfermented_mead": {
-				"display_name": "Unfermented Mead",
-				"description": "Water, honey, yeast. The Brewer needs it to fill a fermentation carboy!"
+				"display_name": "Hidromel Não Fermentado",
+				"description": "Água, mel, fermento. O cervejeiro precisa dele para encher um garrafão de fermentação!"
 			},
 			"unfermented_mead_fruit": {
 				"display_name": "Unfermented Fruity Mead",
@@ -15428,34 +15428,34 @@
 			},
 			"beer": {
 				"beer": {
-					"display_name": "Beer",
-					"description": "A flavorful brew. Makes hearthlings happy but also a little tipsy! "
+					"display_name": "Cerveja",
+					"description": "Uma bebida saborosa. Deixa os hearthlings felizes, mas também um pouco embriagados! "
 				},
 				"beer_serving": {
-					"display_name": "Beer Tankard",
-					"description": "What a merry day!"
+					"display_name": "Caneca De Cerveja",
+					"description": "Que dia feliz!"
 				},
 				"serving_keg_iconic": {
-					"description": "Place it somewhere so hearthlings can serve themselves!"
+					"description": "Coloque-o em algum lugar para que os hearthlings possam se servir!"
 				},
 				"serving_keg": {
-					"display_name": "Serving Keg of Beer"
+					"display_name": "Servindo Barril de Cerveja"
 				}
 			},
 			"wort": {
 				"display_name": "Bucket of Wort",
-				"description": "An extract from grains. The Brewer needs it to make ale."
+				"description": "Um extrato de grãos. O cervejeiro precisa para fazer cerveja."
 			},
 			"spirit": {
 				"spirit": {
 					"display_name": "Malt Spirit",
-					"description": "A dry, complex and moderate brew. Makes hearthlings happy but also tipsy! "
+					"description": "Uma bebida fermentada seca, complexa e moderada. Deixa os hearthlings felizes, mas também embriagados! "
 				},
 				"spirit_serving": {
 					"display_name": "Cup of Malt Spirit"
 				},
 				"serving_keg_iconic": {
-					"description": "Place it somewhere so hearthlings can serve themselves!"
+					"description": "Coloque-o em algum lugar para que os hearthlings possam se servir!"
 				},
 				"serving_keg": {
 					"display_name": "Serving Keg of Malt Spirit"
@@ -15496,11 +15496,11 @@
 			},
 			"tea": {
 				"tea": {
-					"display_name": "Herbal Tea",
-					"description": "An aromatic and warm beverage. Very appreciated by many!"
+					"display_name": "Chá de Ervas",
+					"description": "Uma bebida aromática e quente. Muito apreciado por todos!"
 				},
 				"tea_serving": {
-					"display_name": "Mug of Herbal Tea"
+					"display_name": "Caneca de Chá de Ervas"
 				}
 			},
 			"tea_fancy": {
@@ -17084,13 +17084,13 @@
 						"tooltip_essences": "Essences",
 						"tooltip_fertilizer": "Fertilizer",
 						"tooltip_seeds_consumable": "Farming Seeds",
-						"tooltip_raw_drinks": "Simple Drinks",
+						"tooltip_raw_drinks": "Bebidas Simples",
 						"tooltip_dry_goods": "Dry Goods",
 						"tooltip_fluids": "Outros Fluidos",
 						"tooltip_water": "Water",
 						"tooltip_animal_food": "Animal Food",
 						"tooltip_edible_nuts": "Edible Nuts",
-						"tooltip_brewing_ingredient": "Brewing Ingredients",
+						"tooltip_brewing_ingredient": "Ingredientes de Fabricação de Cerveja",
 						"tooltip_raw_food_fruits_veggies": "Raw Fruits & Veggies",
 						"tooltip_raw_food_meat": "Raw Meats",
 						"tooltip_prepared_food_baked": "Baked Goods",
@@ -17106,9 +17106,9 @@
 						"tooltip_raw_food_animal_goods": "Raw Animal Goods",
 						"tooltip_raw_food_nuts": "Nozes Cruas",
 						"tooltip_serving_vessels": "Drink Serving Vessels",
-						"tooltip_bitter_herbs": "Bitter Herbs",
+						"tooltip_bitter_herbs": "Ervas Amargas",
 						"dresser": "Misc",
-						"tooltip_field_work_outfit": "Field Worker Outfits & Hats",
+						"tooltip_field_work_outfit": "Roupas e Chapéus para Trabalhadores de Campo",
 						"tooltip_crafter_outfit": "Crafter Outfits & Hats",
 						"tooltip_job_tool": "Ferramentas de Trabalho",
 						"tooltip_worker_outfit": "Worker Outfits & Hats",
@@ -17120,7 +17120,7 @@
 						"healing_items": "Itens de cura"
 					},
 					"fuel_level": {
-						"label": "Fuel Level:",
+						"label": "Nível de Combustível:",
 						"tooltip": "<span class='tooltipNumFuelUses'>[str(num_total)]</span> Total Available Uses:<ul><li><span class='tooltipNumFuelUses'>[str(num_residual)]</span> from residual fuel</li><li><span class='tooltipNumFuelUses'>[str(num_potential)]</span> from fuel items in storage</li></ul>"
 					}
 				},
@@ -17128,7 +17128,7 @@
 					"maintain_animals": "Maintain:",
 					"maintain_animals_description": "Abate automaticamente qualquer animal além desse número.",
 					"harvest_animals_renewable": "Colheita Renovável",
-					"harvest_animals_renewable_description": "Colha recursos renováveis ​​desses animais, como lã ou ovos.",
+					"harvest_animals_renewable_description": "Colha recursos renováveis desses animais, como lã ou ovos.",
 					"harvest_grass": "Colheita de Grama",
 					"harvest_grass_description": "Colha automaticamente qualquer grama que cresça no pasto.",
 					"ostrich_pasture_name": "Recinto de Avestruzes",
@@ -17160,10 +17160,10 @@
 			},
 			"military_mode": {
 				"patrol_banners": {
-					"window_title": "Military Mode: Patrol Banners",
+					"window_title": "Modo militar: Estandarte de Patrulha",
 					"list_headers": {
-						"name": "Patrol Banner",
-						"distance": "Distance to Next"
+						"name": "Estandarte de patrulha",
+						"distance": "Distância para o Próximo"
 					},
 					"party_1": "Party 1",
 					"party_2": "Party 2",
@@ -17340,31 +17340,31 @@
 				},
 				"buttons": {
 					"segment_enabled": {
-						"title": "Segment Enabled",
-						"description": "Click to disable this segment. Right-click to remove this segment."
+						"title": "Segmento Ativado",
+						"description": "Clique para desativar este segmento. Clique com o botão direito para remover este segmento."
 					},
 					"segment_disabled": {
-						"title": "Segment Disabled",
-						"description": "Click to enable this segment. Right-click to remove this segment."
+						"title": "Segmento Desativado",
+						"description": "Clique para habilitar este segmento. Clique com o botão direito para remover este segmento."
 					},
 					"show_load": {
-						"title": "Load Preset...",
-						"description": "Select from a default or custom preset for your fence."
+						"title": "Carregar Predefinição...",
+						"description": "Selecione a partir de uma predefinição padrão ou personalizada para sua cerca."
 					},
 					"show_save": {
-						"title": "Save Preset...",
-						"description": "Specify a name for your preset, then press Enter or click a Save button to save."
+						"title": "Salvar Predefinição...",
+						"description": "Especifique um nome para a predefinição e pressione Enter ou clique no botão Salvar para salvar."
 					},
 					"load_preset": {
-						"title": "Load Preset"
+						"title": "Carregar Predefinição"
 					},
 					"save_preset": {
-						"title": "Overwrite Custom Preset",
-						"description": "Default presets cannot be overwritten."
+						"title": "Substituir Predefinição Personalizada",
+						"description": "As predefinições Padrão não podem ser substituídas."
 					},
 					"delete_preset": {
-						"title": "Delete Custom Preset",
-						"description": "Default presets cannot be deleted."
+						"title": "Excluir Predefinição Personalizada",
+						"description": "Predefinições padrão não podem ser excluídas."
 					}
 				}
 			}
