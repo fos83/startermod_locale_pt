@@ -19212,12 +19212,12 @@
 					"flavor": "Only a skilled hand can harvest the weaker seeds, but the fiber is destroyed in the process."
 				},
 				"sweet_potato_transmute_recipe": {
-					"description": "Potatoes can be cut up and planted",
-					"recipe_name": "Sweet Potato Slips (x3)",
-					"flavor": "This doesn't require so much of a skilled hand as simply cutting the potatoes into wedges and sticking them into the ground."
+					"description": "As batatas podem ser cortadas e plantadas",
+					"recipe_name": "Batata Doce (x3)",
+					"flavor": "Isso não requer tanto de uma mão habilidosa quanto simplesmente cortar as batatas em fatias e enfiá-las no solo."
 				},
 				"snow_poppy_transmute_recipe": {
-					"description": "Pluck the seeds from the flower",
+					"description": "Arrancar as sementes da flor",
 					"recipe_name": "Snow Poppy Seeds (x3)",
 					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas as ervas se perdem no processo."
 				}
@@ -19312,7 +19312,7 @@
 				},
 				"compassion_2_buff": {
 					"display_name": "Compaixão Para Cima",
-					"description": "Compassion Increased by 40%"
+					"description": "Compaixão aumentada em 40%"
 				},
 				"major_muscle_aura_buff": {
 					"display_name": "Major Strength Aura",
@@ -19405,27 +19405,27 @@
 			"knight_buffs": {
 				"defense_1_buff": {
 					"display_name": "Defense Up 10%",
-					"description": "Defense gained from equipment increased by 10%"
+					"description": "Defesa ganha com equipamento aumentada em 10%"
 				},
 				"defense_2_buff": {
 					"display_name": "Defense Up 20%",
-					"description": "Defense gained from equipment increased by 20%"
+					"description": "Defesa ganha com equipamento aumentada em 20%"
 				},
 				"health_1_buff": {
 					"display_name": "Fortalecer",
-					"description": "The knight becomes more menacing to enemies, drawing their attention in combat. They also get a health and stamina bonus to keep up."
+					"description": "O cavaleiro se torna mais ameaçador para os inimigos, chamando sua atenção no combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
 				},
 				"health_2_buff": {
 					"display_name": "Fortalecer (Rank 2)",
-					"description": "More fast, more furious"
+					"description": "Mais rápido, mais furioso"
 				},
 				"courage_aura_buff": {
-					"display_name": "Inspiring Presence",
-					"description": "The knight increases courage of everyone around"
+					"display_name": "Presença Inspiradora",
+					"description": "O cavaleiro aumenta a coragem de todos ao seu redor"
 				},
 				"courage_aura_effect_buff": {
-					"display_name": "Inspired",
-					"description": "Courage increased from the presence of a knight."
+					"display_name": "Inspirado",
+					"description": "A coragem aumentou com a presença de um cavaleiro."
 				}
 			},
 			"knight_helm": {
