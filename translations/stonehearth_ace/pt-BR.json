@@ -2793,7 +2793,7 @@
 					},
 					"big_game": {
 						"name": "Big Game",
-						"description": "Large animals produce large cuts of meat, jerky, pelts, and other useful items"
+						"description": "Os maiores animais, como ursos, veados e javalis, fornecem muita carne, peles raras, ossos e pedaços especiais de carne"
 					},
 					"exotic": {
 						"name": "Exotic Game",
@@ -2883,7 +2883,7 @@
 				},
 				"cheese_vat_drain": {
 					"display_name": "Drain Cheese Vat",
-					"description": "Order the Cook to remove the leftover whey and treat the curds, forming fresh cheese!"
+					"description": "Peça o Pastor para retirar o soro que sobrou e tratar a coalhada, formando o queijo fresco!"
 				},
 				"carve_furniture": {
 					"display_name": "Carve Furniture",
@@ -3309,7 +3309,7 @@
 			},
 			"armor_light": {
 				"display_name": "Lightly Geared",
-				"description": "This hearthling is lightly armored and has no speed penalty but reduced courage and menace."
+				"description": "Este cidadão é levemente blindado e não tem penalidade de velocidade, mas coragem e ameaça reduzidas. <ul> <li> Sem penalidade de velocidade </li> <li> Coragem e ameaça são ligeiramente reduzidas </li> <li> Probabilidades de resistência minimamente melhoradas certas condições infligíveis </li> </ul>"
 			},
 			"armor_medium": {
 				"display_name": "Fairly Geared",
@@ -17082,7 +17082,7 @@
 			},
 			"peoples": {
 				"dwarves": {
-					"species": "Dwarf"
+					"species": "dwarf"
 				}
 			}
 		}
@@ -17090,271 +17090,271 @@
 	"herbalist_crops": {
 		"no_crop": {
 			"display_name": "Empty",
-			"description": "Just a planter full of potential."
+			"description": "Apenas um plantador cheio de potencial. Mudar um plantador com uma planta crescendo para vazio irá imediatamente soltar uma semente daquela planta."
 		},
 		"brightbell": {
 			"display_name": "Brightbell",
-			"description": "What do you know, it's exactly like a wild Brightbell! Dani, you should change this text!",
+			"description": "Uma flor caseira e comum das florestas. Precisa de alguns dias para estar totalmente crescido e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting brightbells"
 		},
 		"cactus_flower": {
 			"display_name": "Cactus Flower",
-			"description": "What do you know, it's exactly like a wild Cactus Flower! Dani, you should change this text!",
+			"description": "Plantas desérticas pequenas e altamente adaptadas com uma flor delicada. Precisa de alguns dias para estar totalmente crescido e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting cactus flowers"
 		},
 		"frostsnap": {
 			"display_name": "Frostsnap",
-			"description": "What do you know, it's exactly like a wild Frostsnap! Dani, you should change this text!",
+			"description": "Uma pequena flor da montanha que é fria ao toque. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'blueHerb'> azul </span> <span class = 'bitterHerb'> amargo </span> quando colhidas.",
 			"harvest_text": "harvesting frostsnaps"
 		},
 		"violet": {
 			"display_name": "Violet",
-			"description": "What do you know, it's exactly like a wild Violet! Dani, you should change this text!",
+			"description": "Uma bela e valiosa flor do norte. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'purpleHerb'> roxo </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting violets"
 		},
 		"cactus_tulip_blue": {
 			"display_name": "Blue Tulip Cactus",
-			"description": "What do you know, it's exactly like a wild Blue Tulip Cactus! Dani, you should change this text!",
+			"description": "Uma exótica e colorida tulipa do deserto. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'blueHerb'> azul </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting blue tulip cactus"
 		},
 		"cactus_tulip_red": {
 			"display_name": "Red Tulip Cactus",
-			"description": "What do you know, it's exactly like a wild Red Tulip Cactus! Dani, you should change this text!",
+			"description": "Uma exótica e colorida tulipa do deserto. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting red tulip cactus"
 		},
 		"cactus_tulip_yellow": {
 			"display_name": "Yellow Tulip Cactus",
-			"description": "What do you know, it's exactly like a wild Yellow Tulip Cactus! Dani, you should change this text!",
+			"description": "Uma exótica e colorida tulipa do deserto. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'yellowHerb'> amarelas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting yellow tulip cactus"
 		},
 		"snow_poppy": {
 			"display_name": "Snow Poppy",
-			"description": "What do you know, it's exactly like a wild Snow Poppy! Dani, you should change this text!",
+			"description": "Uma pequena flor típica e tóxica do norte. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'bitterHerb'> amargas </span> quando colhidas.",
 			"harvest_text": "harvesting snow poppy"
 		},
 		"daisy": {
 			"display_name": "Daisy",
-			"description": "What do you know, it's exactly like a wild Daisy! Dani, you should change this text!",
+			"description": "Uma flor simples e adorável. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'whiteHerb'> brancas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting daisy"
 		},
 		"foxlily": {
 			"display_name": "Foxlily",
-			"description": "What do you know, it's exactly like a wild Foxlily! Dani, you should change this text!",
+			"description": "Uma flor rara e valiosa que lembra uma cauda peluda. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'redHerb'> vermelho </span> e <span class = 'yellowHerb'> amarelo </span> <span class = 'aromaticHerb'> aromático </span>  quando colhidas.",
 			"harvest_text": "harvesting foxlily"
 		},
 		"highland_vine": {
 			"display_name": "Highland Vine",
-			"description": "What do you know, it's exactly like a wild Highland Vine! Dani, you should change this text!",
+			"description": "Uma hera espessa e resistente que se espalha em todas as direções. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'greenHerb'> verdes </span> <span class = 'bitterHerb'> amargas </span> e, às vezes, fibras quando colhidas.",
 			"harvest_text": "harvesting highland vine"
 		},
 		"marblesprout": {
 			"display_name": "Marblesprout",
-			"description": "What do you know, it's exactly like a wild Marblesprout! Dani, you should change this text!",
+			"description": "Uma curiosa flor das terras altas, pode ser seca em pedra de mármore. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'whiteHerb'> brancas </span> <span class = 'bitterHerb'> amargas </span> quando colhidas.",
 			"harvest_text": "harvesting marblesprout"
 		},
 		"moonbell": {
 			"display_name": "Moonbell",
-			"description": "What do you know, it's exactly like a wild Moonbell! Dani, you should change this text!",
+			"description": "Uma flor brilhante e pálida das terras altas. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'blueHerb'> blue </span> <span class = 'bitterHerb'> amargo </span> quando colhidas.",
 			"harvest_text": "harvesting moonbell"
 		},
 		"sunflower": {
 			"display_name": "Sunflower",
-			"description": "What do you know, it's exactly like a wild Sunflower! Dani, you should change this text!",
+			"description": "Uma flor brilhante e alegre, amada por todos. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'yellowHerb'> amarelo </span> e <span class = 'whiteHerb'> branco </span> <span class = 'aromaticHerb'> aromático </span>  quando colhidas.",
 			"harvest_text": "harvesting sunflower"
 		},
 		"silkweed": {
 			"display_name": "Silkweed",
-			"description": "What do you know, it's exactly like a wild Silkweed! Dani, you should change this text!",
+			"description": "Uma erva daninha fibrosa e resiliente bastante comum em pântanos. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'greenHerb'> verdes </span> <span class = 'bitterHerb'> amargas </span> e, às vezes, fibras quando colhidas.",
 			"harvest_text": "harvesting silkweed"
 		},
 		"earthbud": {
 			"display_name": "Hearthbud",
-			"description": "What do you know, it's exactly like a wild Hearthbud! Dani, you should change this text!",
+			"description": "Uma flor misteriosa capaz de condensar a magia da lareira. Precisa de muito tempo para ser totalmente crescido e fornecerá essências de coração quando colhido.",
 			"harvest_text": "harvesting hearthbud"
 		},
 		"sugarbell": {
 			"display_name": "Sugarbell",
-			"description": "What do you know, it's exactly like a wild Sugarbell! Dani, you should change this text!",
+			"description": "Um vegetal saudável que brilha com doçura. Precisa de alguns dias para crescer totalmente e fornecerá recursos para ser refinado em açúcar.",
 			"harvest_text": "harvesting sugarbell"
 		},
 		"wax_plant_green": {
 			"display_name": "Green Wax Plant",
-			"description": "What do you know, it's exactly like a wild Green Wax Plant! Dani, you should change this text!",
+			"description": "Uma planta do deserto robusta e bonita. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'greenHerb'> verdes </span> <span class = 'bitterHerb'> amargas </span> quando colhidas.",
 			"harvest_text": "harvesting green wax plant"
 		},
 		"wax_plant_purple": {
 			"display_name": "Purple Wax Plant",
-			"description": "What do you know, it's exactly like a wild Purple Wax Plant! Dani, you should change this text!",
+			"description": "Uma planta do deserto robusta e bonita. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'purpleHerb'> roxas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting purple wax plant"
 		},
 		"poppy": {
 			"display_name": "Poppy",
-			"description": "What do you know, it's exactly like a wild Poppy! Dani, you should change this text!",
+			"description": "Uma visão comum entre as colinas do planalto. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'bitterHerb'> amargas </span> quando colhidas.",
 			"harvest_text": "harvesting poppy"
 		},
 		"rose": {
 			"display_name": "Rose",
-			"description": "What do you know, it's exactly like a wild Rose! Dani, you should change this text!",
+			"description": "Uma bela flor em camadas. Precisa de alguns dias para estar totalmente crescido e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting rose"
 		},
 		"dill": {
 			"display_name": "Dill",
-			"description": "What do you know, it's exactly like a wild Dill! Dani, you should change this text!",
+			"description": "Um delicioso tempero tradicional das terras altas. Cresce muito rapidamente e fornecerá ervas <span class = 'greenHerb'> verdes </span> e <span class = 'yellowHerb'> amarelas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting dill"
 		},
 		"chives": {
 			"display_name": "Chives",
-			"description": "What do you know, it's exactly like a wild Chives! Dani, you should change this text!",
+			"description": "Saboroso favorito dos cozinheiros do norte. Cresce muito rapidamente e fornecerá ervas <span class = 'greenHerb'> verdes </span> e <span class = 'purpleHerb'> roxas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting chives"
 		},
 		"bog_myrtle": {
 			"display_name": "Bog Myrtle",
-			"description": "What do you know, it's exactly like a wild Bog Myrtle! Dani, you should change this text!",
+			"description": "Um pequeno arbusto aveludado que cresce nas zonas húmidas. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'greenHerb'> verdes </span> <span class = 'bitterHerb'> amargas </span> quando colhidas.",
 			"harvest_text": "harvesting bog myrtle"
 		},
 		"nightshade": {
 			"display_name": "Nightshade",
-			"description": "What do you know, it's exactly like a wild Nightshade! Dani, you should change this text!",
+			"description": "Uma flor altamente venenosa e hipnotizante. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'purpleHerb'> roxo </span> <span class = 'bitterHerb'> amargo </span> quando colhido.",
 			"harvest_text": "harvesting nightshade"
 		},
 		"daylily": {
 			"display_name": "Daylily",
-			"description": "What do you know, it's exactly like a wild Daylily! Dani, you should change this text!",
+			"description": "Uma flor de verão alegre e delicada. Precisa de alguns dias para estar totalmente crescido e fornecerá ervas <span class = 'yellowHerb'> amarelas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting daylily"
 		},
 		"oleander": {
 			"display_name": "Oleander",
-			"description": "What do you know, it's exactly like a wild Oleander! Dani, you should change this text!",
+			"description": "Flores densas e ligeiramente tóxicas, comuns em climas mais quentes. Precisa de alguns dias para crescer totalmente e fornecerá ervas <span class = 'redHerb'> vermelhas </span> <span class = 'bitterHerb'> amargas </span> quando colhidas.",
 			"harvest_text": "harvesting oleander"
 		},
 		"parsley": {
 			"display_name": "Parsley",
-			"description": "What do you know, it's exactly like a wild Parsley! Dani, you should change this text!",
+			"description": "Um tempero saboroso que pode crescer na maioria dos climas. Cresce muito rapidamente e fornecerá ervas <span class = 'greenHerb'> verdes </span> e <span class = 'whiteHerb'> brancas </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting parsley"
 		},
 		"sage": {
 			"display_name": "Sage",
-			"description": "What do you know, it's exactly like a wild Sage! Dani, you should change this text!",
+			"description": "Fresco com uma pitada de hortelã, popular na floresta. Cresce muito rapidamente e fornecerá ervas <span class = 'greenHerb'> verdes </span> e <span class = 'blueHerb'> azuis </span> <span class = 'aromaticHerb'> aromáticas </span> quando colhidas.",
 			"harvest_text": "harvesting sage"
 		},
 		"water_lily_pad": {
 			"display_name": "Lily Pad",
-			"description": "What do you know, it's exactly like wild Lily Pads! Dani, you should change this text!",
+			"description": "Plantas aquáticas puras e com folhas. Demora muito para estar totalmente crescido. Fornece ervas <span class = 'greenHerb'> verdes </span> <span class = 'aromaticHerb'> aromáticas </span> e, às vezes, sanguessugas quando colhidas.",
 			"harvest_text": "harvesting lily pad"
 		},
 		"water_lily_pink": {
 			"display_name": "Pink Water Lily",
-			"description": "What do you know, it's exactly like wild Pink Water Lilies! Dani, you should change this text!",
+			"description": "Agradáveis e valiosas flores aquáticas. Demora muito para estar totalmente crescido. Fornece ervas <span class = 'redHerb'> vermelhas </span> <span class = 'bitterHerb'> amargas </span> e às vezes <span class = 'greenHerb'> verdes </span> <span class = 'aromaticHerb' > aromáticos </span> ou sanguessugas.",
 			"harvest_text": "harvesting pink water lily"
 		},
 		"water_lily_purple": {
 			"display_name": "Purple Water Lily",
-			"description": "What do you know, it's exactly like wild Purple Water Lilies! Dani, you should change this text!",
+			"description": "Agradáveis e valiosas flores aquáticas. Demora muito para estar totalmente crescido. Fornece ervas <span class = 'purpleHerb'> roxo </span> <span class = 'bitterHerb'> amargo </span> e às vezes <span class = 'greenHerb'> verde </span> <span class = 'aromaticHerb' > aromáticos </span> ou sanguessugas.",
 			"harvest_text": "harvesting purple water lily"
 		},
 		"water_lily_white": {
 			"display_name": "White Water Lily",
-			"description": "What do you know, it's exactly like wild White Water Lilies! Dani, you should change this text!",
+			"description": "Agradáveis e valiosas flores aquáticas. Demora muito para estar totalmente crescido. Fornece ervas <span class = 'whiteHerb'> brancas </span> <span class = 'bitterHerb'> amargas </span> e, às vezes, <span class = 'greenHerb'> verdes </span> <span class = 'aromaticHerb' > aromáticos </span> ou sanguessugas.",
 			"harvest_text": "harvesting white water lily"
 		},
 		"water_lily_yellow": {
 			"display_name": "Yellow Water Lily",
-			"description": "What do you know, it's exactly like wild Yellow Water Lilies! Dani, you should change this text!",
+			"description": "Agradáveis e valiosas flores aquáticas. Demora muito para estar totalmente crescido. Fornece ervas <span class = 'yellowHerb'> amarelo </span> <span class = 'bitterHerb'> amargo </span> e, às vezes, <span class = 'greenHerb'> verde </span> <span class = 'aromaticHerb' > aromáticos </span> ou sanguessugas.",
 			"harvest_text": "harvesting yellow water lily"
 		},
 		"algae_brown": {
 			"display_name": "Brown Alga",
-			"description": "What do you know, it's exactly like wild brown algae! Dani, you should change this text!",
+			"description": "Uma erva daninha de água útil. Demora alguns dias para estar totalmente crescido. Fornece algas marrons e às vezes sanguessugas quando colhidas.",
 			"harvest_text": "harvesting brown alga"
 		},
 		"algae_green": {
 			"display_name": "Green Alga",
-			"description": "What do you know, it's exactly like wild green algae! Dani, you should change this text!",
+			"description": "Uma erva daninha de água útil. Demora alguns dias para estar totalmente crescido. Fornece algas verdes e às vezes sanguessugas quando colhidas.",
 			"harvest_text": "harvesting green alga"
 		},
 		"algae_red": {
 			"display_name": "Red Alga",
-			"description": "What do you know, it's exactly like wild red algae! Dani, you should change this text!",
+			"description": "Uma erva daninha de água útil. Demora alguns dias para estar totalmente crescido. Fornece algas vermelhas e às vezes sanguessugas quando colhidas.",
 			"harvest_text": "harvesting red alga"
 		},
 		"oak_sapling": {
 			"display_name": "Oak Sapling",
-			"description": "What do you know, it's exactly like a wild oak tree! Dani, you should change this text!",
+			"description": "Uma árvore de floresta temperada robusta e grande. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting oak sapling"
 		},
 		"pine_sapling": {
-			"description": "What do you know, it's exactly like a wild pine tree! Dani, you should change this text!",
+			"description": "Uma árvore perene de floresta temperada, alta e bem formada. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting pine sapling",
 			"display_name": "Pine Sapling"
 		},
 		"juniper_sapling": {
 			"display_name": "Juniper Sapling",
-			"description": "What do you know, it's exactly like a wild juniper tree! Dani, you should change this text!",
+			"description": "Árvore perene de floresta temperada elegante e forte. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting juniper sapling"
 		},
 		"cactus_sapling": {
 			"display_name": "Cactus Sapling",
-			"description": "What do you know, it's exactly like a wild cactus! Dani, you should change this text!",
+			"description": "Uma planta desértica grande e vigorosa, capaz de ser usada como fonte de madeira. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting cactus sapling"
 		},
 		"acacia_sapling": {
 			"display_name": "Acacia Sapling",
-			"description": "What do you know, it's exactly like a wild acacia tree! Dani, you should change this text!",
+			"description": "Árvore do deserto rígida e confiável com ramos extensos. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting acacia sapling"
 		},
 		"almond_sapling": {
 			"display_name": "Almond Tree Sapling",
-			"description": "What do you know, it's exactly like a wild almond tree! Dani, you should change this text!",
+			"description": "Uma árvore com nozes de regiões mais áridas. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting almond tree sapling"
 		},
 		"hazelnut_sapling": {
 			"display_name": "Hazel Tree Sapling",
-			"description": "What do you know, it's exactly like a wild hazel tree! Dani, you should change this text!",
+			"description": "Uma árvore com nozes comum nas terras altas. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting hazel tree sapling"
 		},
 		"chestnut_sapling": {
 			"display_name": "Chestnut Tree Sapling",
-			"description": "What do you know, it's exactly like a wild chestnut tree! Dani, you should change this text!",
+			"description": "Uma árvore de floresta temperada com nozes. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting chestnut tree sapling"
 		},
 		"walnut_sapling": {
 			"display_name": "Walnut Tree Sapling",
-			"description": "What do you know, it's exactly like a wild walnut tree! Dani, you should change this text!",
+			"description": "Uma árvore com nozes comum nas regiões do norte. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting walnut tree sapling"
 		},
 		"arctic_juniper_sapling": {
 			"display_name": "Arctic Juniper Sapling",
-			"description": "What do you know, it's exactly like a wild arctic juniper tree! Dani, you should change this text!",
+			"description": "Árvore perene elegante, bem adaptada às áreas mais frias. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting arctic juniper sapling"
 		},
 		"arctic_pine_sapling": {
 			"display_name": "Arctic Pine Sapling",
-			"description": "What do you know, it's exactly like a wild arctic pine tree! Dani, you should change this text!",
+			"description": "Árvore perene forte, alta e resistente do norte. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting arctic pine sapling"
 		},
 		"birch_sapling": {
 			"display_name": "Birch Sapling",
-			"description": "What do you know, it's exactly like a wild birch tree! Dani, you should change this text!",
+			"description": "Uma bela árvore com uma casca notável. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting birch sapling"
 		},
 		"highland_pine_sapling": {
 			"display_name": "Highland Pine Sapling",
-			"description": "What do you know, it's exactly like a wild highland pine tree! Dani, you should change this text!",
+			"description": "Árvore perene incrivelmente forte e alta encontrada nas terras altas. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting highland pine sapling"
 		},
 		"parana_pine_sapling": {
 			"display_name": "Parana Pine Sapling",
-			"description": "What do you know, it's exactly like a wild parana pine tree! Dani, you should change this text!",
+			"description": "Esta árvore perene com nozes é uma visão reconhecível de terras distantes. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting parana pine sapling"
 		},
 		"willow_sapling": {
 			"display_name": "Willow Sapling",
-			"description": "What do you know, it's exactly like a wild willow tree! Dani, you should change this text!",
+			"description": "Encontrado tradicionalmente perto de pântanos ou planícies. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting willow sapling"
 		},
 		"yew_sapling": {
 			"display_name": "Yew Sapling",
-			"description": "What do you know, it's exactly like a wild yew tree! Dani, you should change this text!",
+			"description": "Uma árvore perene espessa e robusta das terras altas. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
 			"harvest_text": "harvesting yew sapling"
 		},
 		"bolete": {
