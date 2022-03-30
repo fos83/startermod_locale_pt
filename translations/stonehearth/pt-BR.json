@@ -4030,9 +4030,9 @@
 													"bulletin_message": {
 														"00": "Você pergunta por quê? Oferecemos à grande Deusa Khulgana! Traga grandes riquezas depois da vida. Agora você sabe, você precisa nos dar tesouros!"
 													},
-													"bulletin_title": "Kobold Scout",
-													"dialog_title": "Kobold Scout",
-													"choice_000": "Nah "
+													"bulletin_title": "Escolta Kobold",
+													"dialog_title": "Escolta Kobold",
+													"choice_000": "Não"
 												},
 												"msg4": {
 													"bulletin_message": {
@@ -4040,8 +4040,8 @@
 														"001": "Estávamos apenas testando você! Claro que somos fortes o suficiente para tomar!",
 														"002": "Pegamos todo o ouro! Nós nos vingamos pelo derretimento do chapéu!!"
 													},
-													"bulletin_title": "Kobold Scout",
-													"dialog_title": "Kobold Scout",
+													"bulletin_title": "Escolta Kobold",
+													"dialog_title": "Escolta Kobold",
 													"choice_000": "Ok "
 												},
 												"msg1": {
@@ -4050,15 +4050,15 @@
 														"001": "Oo brilha! Gong! Esmeralda!"
 													},
 													"bulletin_title": "Um kobold encara ansiosamente suas pilhas de ouro.",
-													"dialog_title": "Kobold Scout",
+													"dialog_title": "Escolta Kobold",
 													"choice_000": "O que você está fazendo?"
 												},
 												"msg2": {
 													"bulletin_message": {
 														"000": "Vemos muitos tesouros em pilhas e caixas. Precisamos de muitos, muitos saques. Você compartilha, não é?"
 													},
-													"bulletin_title": "Kobold Scout",
-													"dialog_title": "Kobold Scout",
+													"bulletin_title": "Escolta Kobold",
+													"dialog_title": "Escolta Kobold",
 													"choice_000": "Por que você precisa de tanto saque?"
 												}
 											}
@@ -4071,8 +4071,8 @@
 													"bulletin_message": {
 														"00": "Nos... muito fraco... Apage Elite Gong se você se atrever..."
 													},
-													"bulletin_title": "The Kobold Scout whimpers on the ground",
-													"dialog_title": "Kobold Scout"
+													"bulletin_title": "A Escolta Kobold choraminga no chão",
+													"dialog_title": "Escolta Kobold"
 												}
 											}
 										}
@@ -6537,7 +6537,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "Sasha returns, followed by your dispatched citizens and a massive, sparkling bow balanced atop a skittering golem.<br><br>\"I have returned, not only with your citizens, but with a completed Crystalline Arbalest, built to the specifications of my ancestors. I... hope it works.\"<br><br>\"Signal your readiness by deploying it, and I'll instruct you in its usage.\""
+															"00": "Sasha retorna, seguido por seus cidadãos e um arco enorme e cintilante equilibrado em cima de um golem em movimento. <br><br> \"Voltei, não apenas com seus cidadãos, mas com um Arbalest Cristalino concluído, construído de acordo com as especificações de meu ancestrais. Eu ... espero que funcione. \"<br> <br>\" Sinalize sua prontidão implantando-o e eu o instruirei sobre como usá-lo. \""
 														},
 														"bulletin_title": "Um Empreendimento Titânico",
 														"choice_000": "Uau, bom trabalho!"
@@ -6616,7 +6616,7 @@
 												"dialog_nodes": {
 													"msg1": {
 														"bulletin_message": {
-															"00": "Your venturing Mason and Weaver have returned, with knowledge of all sorts of Rabbit recipes!<br><br>\"I must say, your citizens shared tales of the poh-yoh paht-pai with us. I simply must try it sometime...\""
+															"00": "Seus aventureiros voltaram, com conhecimento de vários tipos de receitas dos Coelhos! <br><br> \"Devo dizer, seus cidadãos compartilharam contos da torta de poyo conosco. Eu simplesmente devo tentar algum dia. .. \""
 														},
 														"bulletin_title": "Estilo Lapine",
 														"dialog_title": "Estilo Lapine",
@@ -6733,7 +6733,7 @@
 													},
 													"bulletin_title": "Princesa Emma continua",
 													"dialog_title": "Princesa Emma continua",
-													"choice_000": " ... "
+													"choice_000": " ..."
 												},
 												"msg6": {
 													"bulletin_message": {
@@ -6833,7 +6833,7 @@
 														"000": "Eu sou um espírito, de um tempo e pessoas de muito tempo. Eu tenho permanecido aqui por inúmeras idades, guardando o que era mais precioso para nós. Mas meu poder diminuiu, e agora está sob cerco- por favor, me dê sua ajuda!"
 													},
 													"bulletin_title": "A voz se une em uma figura",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "O que há para nós?",
 													"choice_001": "Sob cerco?"
 												},
@@ -6852,7 +6852,7 @@
 														"000": "Não há tempo! A garra de mortos-vivos nos meus portões, e eu não tenho mais força para defender o trove uma vez que eles conseguem passar! Eu te imploro, socorro!"
 													},
 													"bulletin_title": "A presença do Rei Dragão é autoritária",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "Sim... ok...",
 													"choice_001": "Vamos enviar ajuda!"
 												}
@@ -6867,7 +6867,7 @@
 														"000": "Foram muitos ciclos, muitos. Minha família não vive mais, e meu corpo falhou comigo há muito tempo. Minha alma tem estado sob o comando do dragão tempo suficiente para ver muitas raças nascerem e morrerem.  O seu tem sido de grande interesse, Filhos do Macaco, quando minha vigília chega ao fim."
 													},
 													"bulletin_title": "O rei dragão suspira e cai visivelmente",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "O que você estava protegendo?",
 													"choice_001": "Quem é você?",
 													"choice_002": "Chega ao fim?"
@@ -6877,7 +6877,7 @@
 														"000": "Obrigado por vir em meu socorro. Há muito tempo guardei este local, mas não posso mais levantar minha espada ou escudo em sua defesa."
 													},
 													"bulletin_title": "A voz fala mais uma vez",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "Espere! Quem é você?",
 													"choice_001": "O que você estava protegendo?",
 													"choice_002": "Há quanto tempo você está aqui?"
@@ -6887,7 +6887,7 @@
 														"000": "Meu nome é Flox, da linhagem Icedragon. Eu já fui um rei, uma vez, dos povos dragonborn, que governaram esta terra em uma era passada."
 													},
 													"bulletin_title": "O rei dragão sorri",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "O que você está fazendo aqui?",
 													"choice_001": "Há quanto tempo você está aqui?"
 												},
@@ -6896,7 +6896,7 @@
 														"000": "Estou desaparecendo rápido, mas dei o último do meu espírito a este ovo do Grande Dragão, para que o dragão interior possa finalmente chocar para este mundo. Conheço você há pouco tempo, Filhos de Macaco, mas espero que ajude este jovem welp como você me ajudou. Que vocês se carreguem com força e compaixão, como o Dragão nasceu uma vez."
 													},
 													"bulletin_title": "O Rei Dragão respira suavemente no ovo à sua frente",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "Vamos honrá-lo, Rei. Que você esteja em paz."
 												},
 												"information_what": {
@@ -6904,7 +6904,7 @@
 														"000": "É dever de um rei proteger a linhagem do Grande Dragão - um dever que perdura até mesmo até a morte.  Meu espírito manteve este lugar escondido, velado de bom senso e visão, pelo tempo que pôde.  Vejo agora que não posso mais manter minha vigília, e que a linhagem do Dragão está em risco."
 													},
 													"bulletin_title": "O Rei Dragão nascido endireita suas costas em orgulho",
-													"dialog_title": "Flox Icedragon",
+													"dialog_title": "Flox Dragão de Gelo",
 													"choice_000": "Como podemos ajudar com a linhagem?",
 													"choice_001": "Quem é você?",
 													"choice_002": "Há quanto tempo você está aqui?"
@@ -7789,8 +7789,8 @@
 							"008": "Lascas! Em todos os lugares! Ok, respire calma. Respire calma. Alguém tem uma pinça?"
 						},
 						"psychopathic_misanthrope": {
-							"000": "Heeeaaaahhhhrrrghhh!!!",
-							"001": "Raaaarrrrrrghhhhh!",
+							"000": "Heeeaaaahhhhrrghhh!!!",
+							"001": "Raaarrrrrrghhhhh!",
 							"002": "Spork aquelas árvores, você sabe? Apenas spork todas elas!",
 							"003": "Eu cortei cerca de um bilhão de árvores hoje. Me chame de assassino de machado!!!",
 							"004": "As pessoas dizem que tenho problemas profundos de agressão, mas ninguém reclama de toda a madeira que produzo",
@@ -7882,7 +7882,7 @@
 								"000": "[str(entry.teacher)] mantê-lo seguro, [name(entry.dead_friend)]."
 							},
 							"dead_friend": {
-								"000": "[name(entry.dead_friend)]? [name(entry.dead_friend)]!!!",
+								"000": "[name(entry.dead_friend)]? [name(entry.dead_friend)] !!!",
 								"001": "[name(entry.dead_friend)]? Nada será o mesmo sem você.",
 								"002": "[name(entry.dead_friend)]!!! Nãããooo!!!",
 								"003": "Até logo, [name(entry.dead_friend)]. Espero que nos encontremos de novo algum dia.",
@@ -7893,7 +7893,7 @@
 								"008": "Eu não posso acreditar [name(entry.dead_friend)] realmente se foi.",
 								"009": "[name(entry.dead_friend)]? Foi? De repente, tudo parece que não valeu a pena, de alguma forma.",
 								"010": "Nossa, agora eu realmente gostaria de não ter falado [name(entry.dead_friend)] nesta aventura.",
-								"011": "[name(entry.dead_friend)]!!"
+								"011": "[name(entry.dead_friend)] !!"
 							}
 						}
 					}
@@ -7929,10 +7929,10 @@
 							"004": "Corra propositalmente para as saídas!!!"
 						},
 						"generic": {
-							"000": "Assustados, saiam da minha cabaça agora!!!",
-							"001": "Aauuugh!!!",
+							"000": "Assustado agora !!!",
+							"001": "Aauugh!!!",
 							"002": "Isso é um pesadelo!!!",
-							"003": "Devemos correr awaaaaaayyyy!!!!",
+							"003": "Devemos fugir!!!!",
 							"004": "::chora de terror::"
 						},
 						"hopeless_optimist": {
@@ -7945,10 +7945,10 @@
 							"006": "Eu não acho que ele querem ser amigoosss!!!"
 						},
 						"psychopathic_misanthrope": {
-							"000": "RRAAAAGGGHH!!",
-							"001": "NEAAARRRRGHHH!",
-							"002": "GAAAAAAAGHHH!!",
-							"003": "AIEEEEE!!!"
+							"000": "RRAAAAGGHH!!",
+							"001": "NEAARRRRGHHH!",
+							"002": "GAAAAAAGHHH!!",
+							"003": "AIEEEE!!!"
 						},
 						"lovable_rogue": {
 							"000": "Pegue as mercadorias e vá para as colinas!",
@@ -8353,7 +8353,7 @@
 							"001": "Yup. Hoje eu vou estar reunindo um [str(entry.gather_target)]! Coisas boas para ter em mãos.",
 							"002": "Yup. Hora de conseguir um [str(entry.gather_target)]! Aqui vai!",
 							"003": "Whoa. Outro [str(entry.gather_target)]! Yaaay?",
-							"004": "Uh huh. [str(entry.gather_target)].  ",
+							"004": "Uh uh. [str(entry.gather_target)].  ",
 							"005": "Uh huh. Outro [str(entry.gather_target)]!  ",
 							"006": "Whoa. Hoje eu vou estar reunindo um [str(entry.gather_target)]! Acho que vou tentar não fazer uma bagunça.",
 							"007": "Ok! Outro [str(entry.gather_target)]! Acho que vou tentar não fazer uma bagunça.",
@@ -8365,7 +8365,7 @@
 							"013": "Está bem! Hoje eu vou estar reunindo um [str(entry.gather_target)]! Aqui vai!",
 							"014": "Ok! [str(entry.gather_target)]. Acho que vou tentar não fazer uma bagunça.",
 							"015": "Uh huh. [str(entry.gather_target)]. Fora para o trabalho!",
-							"016": "Yup. [str(entry.gather_target)].  ",
+							"016": "Yup. [str(entry.gather_target)].",
 							"017": "Yup. Hora de conseguir um [str(entry.gather_target)]! Fora para o trabalho!",
 							"018": "Whoa. Hoje eu vou estar reunindo um [str(entry.gather_target)]! Yaaay?",
 							"019": "Ok! [str(entry.gather_target)]. Coisas boas para ter em mãos.",
@@ -8378,7 +8378,7 @@
 							"026": "Uh huh. Hoje eu vou estar reunindo um [str(entry.gather_target)]! Fora para o trabalho!",
 							"027": "Está bem! Hoje eu vou estar reunindo um [str(entry.gather_target)]! Aqui vai!",
 							"028": "Uh huh. Hora de conseguir um [str(entry.gather_target)]! Coisas boas para ter em mãos.",
-							"029": "Whoa. [str(entry.gather_target)]. Yaaay!",
+							"029": "Whoa. [str(entry.gather_target)]. Yaay!",
 							"030": "Uh huh. Outro [str(entry.gather_target)]! Acho que vou tentar não fazer uma bagunça.",
 							"031": "Está bem! Hoje eu vou estar reunindo um [str(entry.gather_target)]! Aqui vai!",
 							"032": "Uh huh. Hoje eu vou estar reunindo um [str(entry.gather_target)]! Aqui vai!"
@@ -9353,7 +9353,7 @@
 					"animal": {
 						"values": {
 							"nuzzled": {
-								"display_name": "Nuzzled",
+								"display_name": "Carícia",
 								"tooltip": "Ah, meu animal de estimação [str(target_name)] sempre consegue me animar."
 							},
 							"booped": {
@@ -9510,11 +9510,11 @@
 						},
 						"rain_negative": {
 							"display_name": "Garoa traquina",
-							"tooltip": "I almost stepped in a puddle. Now my feet are cold."
+							"tooltip": "Quase pisei em uma poça. Agora meu pé tá gelado."
 						},
 						"lucky": {
-							"display_name": "Lucky day",
-							"tooltip": "Something good is going to happen today. I just feel it!"
+							"display_name": "Dia de sorte",
+							"tooltip": "Algo bom vai acontecer hoje. Eu sinto isso!"
 						},
 						"snow_negative": {
 							"display_name": "Dia frio e frio",
@@ -9522,11 +9522,11 @@
 						},
 						"sandstorm_negative": {
 							"display_name": "Tempestade de areia!",
-							"tooltip": "The sands are blowing across the landscape. Hide your poyos! Hide your sheep!"
+							"tooltip": "As areias estão soprando na paisagem. Esconda seus poyos! Esconda suas ovelhas!"
 						},
 						"snow_positive": {
 							"display_name": "Está nevando...",
-							"tooltip": "The world is hushed and white with snow."
+							"tooltip": "O mundo está silencioso e branco com a neve."
 						},
 						"foggy_negative": {
 							"display_name": "Neblina assustadora",
@@ -9538,7 +9538,7 @@
 						},
 						"sandstorm_positive": {
 							"display_name": "Tempestade de Areia",
-							"tooltip": "The sands always come to test our fortitude... Mine is unwavering."
+							"tooltip": "As areias sempre vêm testar nossa fortaleza ... A minha é inabalável."
 						},
 						"titanstorm_negative": {
 							"display_name": "Os Tempos finais estão sobre nós!",
@@ -9554,11 +9554,11 @@
 						},
 						"snow_sunny_positive": {
 							"display_name": "País das Maravilhas de Inverno!",
-							"tooltip": "The snow is glistening from the winter sun."
+							"tooltip": "A neve está brilhando no sol de inverno."
 						},
 						"rain_sunny_positive": {
 							"display_name": "Está chovendo...",
-							"tooltip": "The sun is shimmering through the rain drops..."
+							"tooltip": "O sol está brilhando através das gotas de chuva ..."
 						},
 						"snow_sunny_negative": {
 							"display_name": "Muito frio e brilhante!",
@@ -9570,7 +9570,7 @@
 						},
 						"sandy_positive": {
 							"display_name": "Empoeirado",
-							"tooltip": "The dust storms remind us of the cycle of life..."
+							"tooltip": "As tempestades de poeira nos lembram do ciclo da vida ..."
 						}
 					}
 				},
@@ -10985,7 +10985,7 @@
 		},
 		"crops": {
 			"brightbell_crop": {
-				"display_name": "Brightbell",
+				"display_name": "Brightbell Flower",
 				"description": "Pode ser usado como uma erva medicinal",
 				"growth_stage": {
 					"001": {
@@ -11493,7 +11493,7 @@
 			},
 			"heirbloom_crop": {
 				"display_name": "Heirbloom",
-				"description": "As hastes de madeira aparentemente são uma iguaria de Amberstone?",
+				"description": "As hastes de madeira aparentemente são uma iguaria Amberstone?",
 				"growth_stage": {
 					"001": {
 						"name": "Caule da Heirbloom da Floração",
@@ -13367,7 +13367,7 @@
 					"description": "Ele é apenas uma pedra!"
 				},
 				"alligator": {
-					"display_name": "Varanus",
+					"display_name": "Varanus ",
 					"description": "E esta é a menor variedade..."
 				},
 				"wolf": {
@@ -13375,7 +13375,7 @@
 					"description": "Grrr! Rawr!"
 				},
 				"zilla": {
-					"display_name": "Zilla",
+					"display_name": "Zilla ",
 					"description": "O chão treme quando Zilla aparece."
 				},
 				"cougar": {
@@ -13722,7 +13722,7 @@
 			"bramble": {
 				"bramble": {
 					"display_name": "Dark Bramble",
-					"description": "Limpe-o com Colheita por agora, ou Minere para expor a Raiz!"
+					"description": "Limpe-o com Colheita, ou Minere para expor a Raiz!"
 				},
 				"sprout": {
 					"bramble_sprout": {
@@ -14880,7 +14880,7 @@
 		},
 		"terrain": {
 			"mining_zone": {
-				"display_name": "Mining Zone",
+				"display_name": "Zona de Mineração",
 				"description": "Este terreno é designado para remoção."
 			},
 			"tall_grass": {
@@ -15521,7 +15521,7 @@
 			},
 			"crude_wooden_club": {
 				"display_name": "Taco de Madeira Bruta",
-				"description": "Pointy branch wrapped in cloth"
+				"description": "Taco pontudo enrolado em pano"
 			},
 			"ogos_bone_mace": {
 				"display_name": "O Bonker",
@@ -15566,7 +15566,7 @@
 			"maul_lantern": {
 				"maul_lantern_iconic": {
 					"display_name": "Lantern Mace",
-					"description": "Use a HolyLlight of Hestia em defesa de sua cidade."
+					"description": "Wield the HolyLlight of Hestia in defence of your town."
 				}
 			}
 		},
@@ -15590,12 +15590,12 @@
 				"description": "Usado pelo fitoterapeuta para curar em pequenas quantidades"
 			},
 			"heavy_bandage": {
-				"display_name": "Heavy Bandage",
+				"display_name": "Curativo Pesado",
 				"description": "Usado pelo fitoterapeuta para fornecer muita cura."
 			},
 			"light_bandage": {
 				"description": "Usado pelo herbalista para curar uma quantidade moderada",
-				"display_name": "Light Bandage"
+				"display_name": "Curativo Leve"
 			},
 			"courage_tonic": {
 				"display_name": "Tônico de Coragem",
@@ -17576,7 +17576,7 @@
 				},
 				"golem_restocking_recipe": {
 					"description": "Executa tarefas de reabastecimento.",
-					"recipe_name": "Cricket Golem",
+					"recipe_name": "Golem Grilo",
 					"flavor": "Enquanto eles realizam suas tarefas, você pode ouvir seus sons fofinhos."
 				},
 				"golem_mining_recipe": {
@@ -17586,7 +17586,7 @@
 				},
 				"golem_harvesting_recipe": {
 					"description": "Executa tarefas de colheita.",
-					"recipe_name": "Ox Golem",
+					"recipe_name": "Golem Boi",
 					"flavor": "Gentil o suficiente para colher uma flor sem perturbar o solo."
 				},
 				"geomancer_workbench_recipe": {
@@ -17908,7 +17908,7 @@
 					"flavor": "Tappety-tap; Faça a terra cantar, Levante o fantasma de Brelor, Observe a montanha voar."
 				},
 				"mason_pedestal_amberstone_recipe": {
-					"description": "Rabbit mason approved",
+					"description": "Aprovado pelo Pedreiro Amberstone",
 					"recipe_name": "Pedestal do Pedreiro de Amberstone",
 					"flavor": "The skill of the mason can be read from the quality of their worktable"
 				},
@@ -18012,7 +18012,7 @@
 					"flavor": "Just like the huge stone guardian rabbits, except wee."
 				},
 				"fountain_tiered_recipe": {
-					"description": "A miniature cascade",
+					"description": "Uma cascada em miniatura",
 					"recipe_name": "Bacia da Cachoeira",
 					"flavor": "It's fun to watch leaves race down the falls. It's less fun to scoop them all out later."
 				},
@@ -18024,12 +18024,12 @@
 				"fountain_garden_recipe": {
 					"description": "Um pequeno jardim flutuante para um canto tranquilo",
 					"recipe_name": "Bacia Lilypad",
-					"flavor": "To be small enough to hide away in its blossoms for an afternoon..."
+					"flavor": "Ser pequeno o suficiente para se esconder entre as pétalas por uma tarde"
 				},
 				"door_mason_recipe": {
 					"description": "Apto para a oficina de um mestre pedreiro",
 					"recipe_name": "Porta do Pedreiro",
-					"flavor": "Feels like knocking on a mountainside"
+					"flavor": "Parece com bater em uma montanha"
 				},
 				"fountain_wishing_recipe": {
 					"description": "Troca de ouro por desejos",
@@ -18115,7 +18115,7 @@
 				"stone_window_frame_recipe": {
 					"description": "Uma janela básica de pedra",
 					"recipe_name": "Moldura de Janela de Pedra",
-					"flavor": "A little breezy, but fashionable!"
+					"flavor": "Uma pequena brisa, mas chique!"
 				},
 				"stone_window_frame_wide_recipe": {
 					"description": "Tem uma vista panorâmica!",
@@ -18186,7 +18186,7 @@
 				"golem_parts_recipe": {
 					"description": "Usado pelo Geomante para criar golens",
 					"recipe_name": "Partes de Golem",
-					"flavor": "Sturdy enough to hold an ox."
+					"flavor": "Firme o suficiente para aguentar um boi"
 				},
 				"window_box_violet_recipe": {
 					"description": "Uma floreira cheia de flores violetas, construída para ser colocada abaixo das molduras das janelas.",
@@ -18268,7 +18268,7 @@
 				},
 				"garden_gnome_recipe": {
 					"description": "Moldado após espíritos míticos da floresta.",
-					"recipe_name": "Tiny Garden Guardian",
+					"recipe_name": "Pequeno Guardião do Jardim",
 					"flavor": "Desenhado pelo artesão Grão-Mestre The_M"
 				},
 				"furniture_name": "Móveis & Decoração",
@@ -18307,7 +18307,7 @@
 					"flavor": "\"Padrão da indústria por um motivo\" -- Jorya Iskender, Dyemaster"
 				},
 				"blue_clay_door_recipe": {
-					"description": "Blue like the dream of distant ocean.",
+					"description": "Azul como o sonho de um oceano distante.",
 					"recipe_name": "Porta de Argila Azul",
 					"flavor": "'It's a door. What more could we possibly say?' --Joni Iskender, Marketing Apprentice"
 				},
@@ -18399,7 +18399,7 @@
 				"clay_pile_recipe": {
 					"recipe_name": "Pilha de Argila",
 					"description": "Uma pilha de argila empilhadas juntos. Uma excelente maneira de armazenar muita argila para uso posterior.",
-					"flavor": "Amazing, honestly, that it comes apart again."
+					"flavor": "Incrível, sinceramente, como se separa novamente."
 				},
 				"clay_market_stall_recipe": {
 					"description": "Os comerciantes podem visitar esta barraca para comprar e vender mercadorias",
@@ -18492,7 +18492,7 @@
 				"golem_parts_recipe": {
 					"description": "Usado pela Geomancer para criar golens",
 					"recipe_name": "Peças golem",
-					"flavor": "Sturdy enough to hold an ox."
+					"flavor": "Firme o suficiente para aguentar um boi"
 				},
 				"clay_fence_bar_double_recipe": {
 					"description": "Afasta as pessoas de sua propriedade.",
@@ -18510,7 +18510,7 @@
 					"flavor": "Mais decorativo do que protetor."
 				},
 				"clay_fence_gate_recipe": {
-					"description": "Lets people through your fence.",
+					"description": "Deixa as pessoas atravessarem sua cerca.",
 					"recipe_name": "Portão de Cerca de Argila",
 					"flavor": "Este portão decorativo protege suas cercas de serem quebradas."
 				},
@@ -18617,9 +18617,9 @@
 					"perk_000_description": "Uma longa prática ajuda o caçador a salvar mais de cada animal."
 				},
 				"level_2_data": {
-					"perk_000_name": "Charm Pet",
+					"perk_000_name": "Encantador",
 					"perk_001_name": "Oportunidades de Trabalho",
-					"perk_000_description": "O caçador ocasionalmente escolherá transformar um animal particularmente em um animal de estimação!",
+					"perk_000_description": "O caçador ocasionalmente escolherá transformar um animal particularmente belo em um animal de estimação!",
 					"perk_001_description": "O caçador agora se qualifica para empregos avançados. Clique no comando promover para mais detalhes."
 				},
 				"level_6_data": {
@@ -18811,7 +18811,7 @@
 				"throw_rug_recipe": {
 					"description": "Ilumina aquele velho piso empoeirado.",
 					"recipe_name": "Tapete Decorativo Decorativo",
-					"flavor": "Too beautiful to step on."
+					"flavor": "Bonito de mais para ser pisado."
 				},
 				"worker_outfit_2_recipe": {
 					"description": "Costura dupla e acolchoamento estrategicamente colocado aumentam a eficiência do trabalhador. O trabalhador que veste esta roupa modificada se moverá mais rápido.",
@@ -18853,8 +18853,8 @@
 				},
 				"cloth_padded_helmet_recipe": {
 					"recipe_name": "Capacete Acolchoado de Pano",
-					"description": "Estofamento extra para o seu canguru",
-					"flavor": "Were they phoenix wings, or serpent wings?"
+					"description": "Acolchoamento extra para sua cabeça",
+					"flavor": "Eram asas de fênix ou asas de serpente?"
 				},
 				"input_bin_amberstone_recipe": {
 					"recipe_name": "Rabbit-woven Supply Basket",
@@ -19247,7 +19247,7 @@
 				"description": "Um curandeiro de combate",
 				"requirements": "Criado pelo herborista",
 				"level_1_data": {
-					"perk_000_name": "Healing Aura",
+					"perk_000_name": "Aura de Cura",
 					"perk_001_name": "Força Menor",
 					"perk_000_description": "A presença do clérigo cura todos ao seu redor periodicamente",
 					"perk_001_description": "A presença do clérigo melhora o músculo daqueles ao seu redor"
@@ -19278,7 +19278,7 @@
 					"display_name": "Tomo do Clérigo",
 					"description": "Necessário para promover um hearthling à Clérico"
 				},
-				"display_name": "Tome of Healing",
+				"display_name": "Tomo de Cura",
 				"description": "Contém textos sagrados sobre o caminho do clérigo"
 			},
 			"cleric_buffs": {
@@ -19404,11 +19404,11 @@
 			},
 			"knight_buffs": {
 				"defense_1_buff": {
-					"display_name": "Defense Up 10%",
+					"display_name": "Defesa até 10%",
 					"description": "Defesa ganha com equipamento aumentada em 10%"
 				},
 				"defense_2_buff": {
-					"display_name": "Defense Up 20%",
+					"display_name": "Defesa até 20%",
 					"description": "Defesa ganha com equipamento aumentada em 20%"
 				},
 				"health_1_buff": {
