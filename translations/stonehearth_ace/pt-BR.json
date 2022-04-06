@@ -20310,7 +20310,14 @@
 				"consumable_effect": "Applied While Active: ",
 				"consumable_after_effect": "Applied Afterwards: ",
 				"transform": {
-					"progress": "Construindo... "
+					"progress": {
+						"building": "Construindo... ",
+						"upgrading": "Atualizando... ",
+						"opening": "Abrindo...",
+						"transforming": "Transformando...",
+						"filling": "Preenchendo...",
+						"draining": "Drenando..."
+					}
 				},
 				"attack_with_all_parties": {
 					"display_name": "Attack With All Parties",
