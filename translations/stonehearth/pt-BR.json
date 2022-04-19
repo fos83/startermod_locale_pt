@@ -19582,7 +19582,7 @@
 					"scenario_data": {
 						"message": "Se pretende criar sua cidade, precisaremos de madeira... Muita madeira! Corte algumas árvores na proximidade para conseguir madeira.",
 						"completed_message": "Parabéns! Agora temos alguns recursos. Madeira e outros recursos naturais podem ser usados para construir edifícios e itens artesanais. Eles são essenciais para a construção e avanço da sua cidade.",
-						"title": "Cidade [str(i18n_data.town_name)] : Suprimentos Iniciais",
+						"title": "Suprimentos Iniciais",
 						"resource_display_name": "Toras de madeira"
 					},
 					"ui_steps": {
