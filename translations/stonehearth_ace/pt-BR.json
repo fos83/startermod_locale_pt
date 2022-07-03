@@ -15,26 +15,26 @@
 				"drink": "pegando uma bebida",
 				"build": "construindo [name(data.target)]",
 				"collect_building_material": "coletando materiais de construção",
-				"upgrading": "upgrading [name(data.target)]",
-				"opening": "opening [name(data.target)]",
-				"filling": "filling [name(data.target)]",
-				"draining": "draining [name(data.target)]",
-				"capturing_bees": "capturing bees",
-				"sculpting": "sculpting [name(data.target)]",
-				"carving": "carving [name(data.target)]",
-				"emptying": "emptying [name(data.target)]",
+				"upgrading": "atualização [name(data.target)]",
+				"opening": "abertura [name(data.target)]",
+				"filling": "o preenchimento [name(data.target)]",
+				"draining": "drenando [name(data.target)]",
+				"capturing_bees": "capturando abelhas",
+				"sculpting": "esculpindo [name(data.target)]",
+				"carving": "esculpir [name(data.target)]",
+				"emptying": "esvaziando [name(data.target)]",
 				"periodic_interaction": {
-					"default": "interacting with [name(data.target)]",
-					"discovery": "making a discovery",
+					"default": "interagindo com [name(data.target)]",
+					"discovery": "fazendo uma descoberta",
 					"find_native_seed": {
-						"preparing": "preparing to explore wild seeds",
-						"herb": "fiddling with native herbs",
-						"water": "studying native water plants"
+						"preparing": "preparando-se para explorar sementes selvagens",
+						"herb": "brincando com ervas nativas",
+						"water": "estudando plantas aquáticas nativas"
 					},
 					"find_exotic_seed": {
-						"preparing": "preparing to explore exotic seeds",
-						"herb": "searching for exotic herbs",
-						"water": "looking for exotic water plants"
+						"preparing": "preparando-se para explorar sementes exóticas",
+						"herb": "em busca de ervas exóticas",
+						"water": "procurando plantas aquáticas exóticas"
 					}
 				}
 			}
@@ -45,61 +45,61 @@
 			"building_templates": {
 				"northern_alliance": {
 					"turf_stone_hut_t1_ace": {
-						"display_name": "⛺ Turf Hut"
+						"display_name": "⛺ Cabana de Relva"
 					},
 					"stone_hut_t2_ace": {
-						"display_name": " 🏘️ Stone Hut"
+						"display_name": " 🏘️ Cabana de Pedra"
 					},
 					"turf_stone_cottage_t1_ace": {
-						"display_name": "⛺ Turf Cottage for Two"
+						"display_name": "⛺ Chalé Relva para Dois"
 					},
 					"stone_cottage_t2_ace": {
-						"display_name": " 🏘️ Stone Cottage for Two"
+						"display_name": " 🏘️ Chalé de Pedra para Dois"
 					},
 					"stone_dining_hall_t1_ace": {
-						"display_name": "⛺ Turf Dining Hall"
+						"display_name": "⛺ Refeitório Relva"
 					},
 					"stone_dining_hall_t2_ace": {
-						"display_name": " 🏘️ Stone Dining Hall"
+						"display_name": " 🏘️ Refeitório de Pedra"
 					},
 					"stone_sleeping_quarters_t1_ace": {
-						"display_name": "⛺ Turf Sleeping Quarters"
+						"display_name": "⛺ Dormitório Relva"
 					},
 					"stone_sleeping_quarters_t2_ace": {
-						"display_name": " 🏘️ Stone Sleeping Quarters"
+						"display_name": " 🏘️ Dormitórios de Pedra"
 					},
 					"stone_cozy_home_for_two_t2_ace": {
-						"display_name": " 🏘️ Stone Homestead for Two"
+						"display_name": " 🏘️ Casa de Pedra para Dois"
 					},
 					"stone_cozy_cottage_for_four_t2_ace": {
-						"display_name": " 🏘️ Stone Homestead for Four"
+						"display_name": " 🏘️ Herdade de Pedra para Quatro"
 					},
 					"workshop_weaver_t1_ace": {
-						"display_name": "⛺ Weaver's Turf Hovel"
+						"display_name": "⛺ Cabana de Relva do Tecelão"
 					},
 					"workshop_weaver_t2_ace": {
 						"display_name": " 🏘️ Oficina do Tecelão"
 					},
 					"workshop_carpenter_t1_ace": {
-						"display_name": "⛺ Carpenter's Turf Hovel"
+						"display_name": "⛺ Cabana de Relva do Carpinteiro"
 					},
 					"workshop_carpenter_t2_ace": {
 						"display_name": " 🏘️ Oficina do Carpinteiro"
 					},
 					"workshop_cook_t1_ace": {
-						"display_name": "⛺ Cook's Turf Hovel"
+						"display_name": "⛺ Cabana de Relva do Cozinheiro"
 					},
 					"workshop_cook_t2_ace": {
 						"display_name": " 🏘️ Cozinha"
 					},
 					"workshop_herbalist_t1_ace": {
-						"display_name": "⛺ Herbalist's Turf Hovel"
+						"display_name": "⛺ Cabana do Herbalista"
 					},
 					"workshop_herbalist_t2_ace": {
 						"display_name": " 🏘️ Oficina do Herborista"
 					},
 					"workshop_mason_t1_ace": {
-						"display_name": "⛺ Mason's Turf Hovel"
+						"display_name": "⛺ Cabana de Relva do Pedreiro"
 					},
 					"workshop_mason_t2_ace": {
 						"display_name": " 🏘️ Oficina do Pedreiro"
@@ -114,7 +114,7 @@
 						"display_name": " 🏘️ Oficina do Ferreiro"
 					},
 					"mead_hall_t2_ace": {
-						"display_name": " 🏘️ Mead Hall"
+						"display_name": " 🏘️ Salão de Hidromel"
 					},
 					"great_hall_t2_ace": {
 						"display_name": " 🏘️ Grande Salão"
@@ -122,10 +122,10 @@
 				},
 				"rayyas_children": {
 					"weavers_hut_t1_ace": {
-						"display_name": "⛺ Weaver's Clay Hut"
+						"display_name": "⛺ Cabana de Barro do Tecelão"
 					},
 					"blacksmiths_workshop_t1_ace": {
-						"display_name": "⛺ Blacksmith's Clay Hut"
+						"display_name": "⛺ Cabana de Barro do Ferreiro"
 					},
 					"clay_dining_hall_t1_ace": {
 						"display_name": "⛺ Clay Dining Hall"
@@ -152,22 +152,22 @@
 						"display_name": "⛺ Pottery Clay Studio"
 					},
 					"desert_pub_t2_ace": {
-						"display_name": " 🏘️ Desert Pub"
+						"display_name": " 🏘️ Pub do Deserto"
 					},
 					"desert_lodge_t2_ace": {
-						"display_name": " 🏘️ Desert Lodge"
+						"display_name": " 🏘️ Pousada do Deserto"
 					},
 					"red_clay_homes_t2_ace": {
-						"display_name": " 🏘️ Red Desert Homes"
+						"display_name": " 🏘️ Casas do Deserto Vermelho"
 					},
 					"engineers_workshop_t2_ace": {
-						"display_name": " 🏘️ Engineer's Desert Shop"
+						"display_name": " 🏘️ Loja do Deserto do Engenheiro"
 					},
 					"little_red_hut_t2_ace": {
-						"display_name": " 🏘️ Little Red Desert Home"
+						"display_name": " 🏘️ Pequena Casa do Deserto Vermelho"
 					},
 					"rayyas_shadow_t2_ace": {
-						"display_name": " 🏘️ Rayya's Shadow"
+						"display_name": " 🏘️ A Sombra de Rayya"
 					}
 				},
 				"herbalist_house_t1_ace": {
@@ -177,13 +177,13 @@
 					"display_name": "⛺ Casa do Pedreiro"
 				},
 				"potter_house_t1_ace": {
-					"display_name": "⛺ Potter House"
+					"display_name": "⛺ Casa do Oleiro"
 				},
 				"shared_sleeping_quarters_t1_ace": {
 					"display_name": "⛺ Dormitórios Compartilhados"
 				},
 				"tiny_cottage_t1_ace": {
-					"display_name": "⛺ Tiny Cottage"
+					"display_name": "⛺ Pequena Casa de Campo"
 				},
 				"weaver_house_t1_ace": {
 					"display_name": "⛺ Casa do Tecelão"
@@ -192,28 +192,28 @@
 					"display_name": "⛺ Casa do Carpinteiro"
 				},
 				"cottage_for_two_t1_ace": {
-					"display_name": "⛺ Cottage for Two"
+					"display_name": "⛺ Chalé para Dois"
 				},
 				"dining_hall_t1_ace": {
-					"display_name": "⛺ Dining Hall"
+					"display_name": "⛺ Sala de Jantar"
 				},
 				"tavern_t2_ace": {
-					"display_name": " 🏘️ Town Tavern"
+					"display_name": " 🏘️ Taberna da Cidade"
 				},
 				"tall_townhouse_t2_ace": {
 					"display_name": " 🏘️ Tall Townhouse"
 				},
 				"black_forest_inn_t2_ace": {
-					"display_name": " 🏘️ Town Inn"
+					"display_name": " 🏘️ Pousada da Cidade"
 				},
 				"blacksmith_house_t2_ace": {
-					"display_name": " 🏘️ Blacksmith Townhouse"
+					"display_name": " 🏘️ Casa do Ferreiro"
 				},
 				"corner_house_t2_ace": {
-					"display_name": " 🏘️ Corner Townhouse"
+					"display_name": " 🏘️ Moradia de Esquina"
 				},
 				"cozy_townhouse_t2_ace": {
-					"display_name": " 🏘️ Cozy Townhouse"
+					"display_name": " 🏘️ Mansão Aconchegante"
 				},
 				"shepherd_home_t1_ace": {
 					"display_name": "⛺ Shepherd's Homestead"
@@ -222,16 +222,16 @@
 					"display_name": "⛺ Shepherd's Small Shelter"
 				},
 				"shepherd_barn_t1_ace": {
-					"display_name": "⛺ Shepherd's Animal Barn"
+					"display_name": "⛺ Celeiro do Pastor"
 				},
 				"shepherd_home_t2_ace": {
-					"display_name": " 🏘️ Shepherd's Workshop"
+					"display_name": " 🏘️ Oficina do Pastor"
 				},
 				"shepherd_coop_t2_ace": {
-					"display_name": " 🏘️ Shepherd's Small Shelter"
+					"display_name": " 🏘️ Pequeno Abrigo do Pastor"
 				},
 				"shepherd_barn_t2_ace": {
-					"display_name": " 🏘️ Shepherd's Animal Barn"
+					"display_name": " 🏘️ Celeiro do Pastor"
 				}
 			}
 		},
@@ -239,17 +239,17 @@
 			"campaigns": {
 				"game_events": {
 					"add_lone_wanderer": {
-						"bulletin_tile": "The wanderer has joined the town!"
+						"bulletin_tile": "O andarilho juntou-se à cidade!"
 					},
 					"town_wipe_dialog": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"bulletin_title": "Is this... the end?!",
-									"dialog_title": "Maybe...",
-									"message": "But it can also be a new beginning!<br>Unfortunate tragedy befell this land but it doesn't have to be the end of the story for this town! Someone is bound to stumble upon it soon. Perhaps they might even arrive in time to rescue someone! That would be lucky...<br><br>Rebuilding alone might not be an easy task but it surely sounds like a great tale!<br><br><i><font size=-1>[A lone wanderer will join the town some hours from now. Daily Updates will return after a few days]</font></i>",
-									"dialog_title_hard": "The End",
-									"message_hard": "Yes, this is the end. Every tale has to get somewhere, and the time has come to sign this page and close this journal one last time... Mistakes were made, lessons were learned, happiness and sadness have both thrived.<br><br>The world will go on. Now is the time to rest... Or perhaps it is the perfect opportunity to start a new story?<br><br><i><font size=-1>[Hard Difficulty: Daily Updates will not happen anymore; the town is lost for good]</font></i>"
+									"bulletin_title": "Esse é o fim?!",
+									"dialog_title": "Pode ser...",
+									"message": "Mas também pode ser um novo começo!<br>Uma tragédia infeliz se abateu sobre esta terra, mas não precisa ser o fim da história para esta cidade! Alguém é obrigado a tropeçar nele em breve. Talvez eles até cheguem a tempo de resgatar alguém! Isso seria sorte...<br><br>Reconstruir sozinho pode não ser uma tarefa fácil, mas certamente soa como um grande conto!<br><br><i><font size=-1>[Um andarilho solitário se juntará à cidade daqui a algumas horas. As atualizações diárias retornarão após alguns dias]</font></i>",
+									"dialog_title_hard": "O fim",
+									"message_hard": "Sim, este é o fim. Todo conto tem que chegar a algum lugar, e chegou a hora de assinar esta página e fechar este diário uma última vez... Erros foram cometidos, lições foram aprendidas, felicidade e tristeza prosperaram.<br><br>O mundo vai continuar. Agora é hora de descansar... Ou talvez seja a oportunidade perfeita para começar uma nova história?<br><br><i><font size=-1>[Dificuldade Difícil: Atualizações Diárias não acontecerão mais; a cidade está perdida para sempre]</font></i>"
 								}
 							}
 						}
@@ -258,9 +258,9 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"bulletin_title": "A lone wanderer approaches!",
-									"dialog_title": "What happened here?",
-									"message": "They can't help it but notice that something terrible went on...<br><br>Taken by concern, they decide to stay and help. There might be survivors? Or perhaps answers of what happened? Or... At the very least a warm bed and some loot, right?<br><br>Whatever their motivation, they are staying."
+									"bulletin_title": "Um andarilho solitário se aproxima!",
+									"dialog_title": "O que aconteceu aqui?",
+									"message": "Eles não podem evitar, mas percebem que algo terrível aconteceu...<br><br>Tomados pela preocupação, eles decidem ficar e ajudar. Pode haver sobreviventes? Ou talvez respostas do que aconteceu? Ou... No mínimo uma cama quentinha e alguns saques, certo?<br><br>Seja qual for sua motivação, eles permanecem."
 								}
 							}
 						}
@@ -275,11 +275,11 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "Ogo's Army arrives!",
-													"dialog_title": "The siege begins...",
-													"reply": "We can do this!",
+													"bulletin_title": "O exército de Ogo chega!",
+													"dialog_title": "O cerco começa...",
+													"reply": "Nós podemos fazer isso!",
 													"bulletin_message": {
-														"000": "Our town is now under siege by the mighty goblin army of Ogo Skullbonker and will remain so until they are defeated or run away!<br><br>The time for bravery has come!"
+														"000": "Nossa cidade está agora sitiada pelo poderoso exército goblin de Ogo Skullbonker e permanecerá assim até que sejam derrotados ou fugidos.!<br><br>Chegou a hora da bravura!"
 													}
 												}
 											}
@@ -289,9 +289,9 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "Ogo's Army Retreats",
-													"dialog_title": "They are leaving!",
-													"message": "Ogo Skullbonker is done with our town, for now... But they will come back!"
+													"bulletin_title": "Retiros do Exército de Ogo",
+													"dialog_title": "Eles estão saindo!",
+													"message": "Ogo Skullbonker acabou com nossa cidade, por enquanto... Mas eles vão voltar!"
 												}
 											}
 										}
@@ -303,7 +303,7 @@
 				},
 				"amberstone": {
 					"21_residents_reward_b": {
-						"bulletin_title": "Amberstone Cook & Brewer recipes unlocked!"
+						"bulletin_title": "Receitas de cozinheiro e cervejeiro de Amberstone desbloqueadas!"
 					},
 					"21_residents_outro_a": {
 						"dialogue": "\"Que bela casa você construiu para eles! Eles estarão aqui em breve, e tenho certeza que ficarão encantados! A propósito, tenho certeza de que eles também podem lhe ensinar algumas de nossas deliciosas receitas ...\""
@@ -318,7 +318,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The visitor nods and takes their leave.<br><br>Shortly after, you discover a basket brimming with soft petals and potted flowers by your banner.<br><br><i><font size=-1>[The visitors seem to trust you more]</font></i>"
+															"00": "O visitante acena com a cabeça e se despede.<br><br>Pouco depois, você descobre uma cesta cheia de pétalas macias e flores em vasos ao lado de sua bandeira.<br><br><i><font size=-1>[Os visitantes parecem confiar mais em você]</font></i>"
 														}
 													}
 												}
@@ -331,7 +331,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "\"Your wayfaring student of Geomancy has returned as a full-fledged Geomancer! They proved themselves an able practitioner of the magic arts indeed!\"<br><br>\"Here - these precious Hearthbud flowers coalesce traces of Hearth's magic into Hearth Essence, which Geomancers can use in their craft - be sure to plant them.\""
+															"00": "\"Seu estudante viajante de Geomancia voltou como um Geomante completo! Eles provaram ser um praticante capaz das artes mágicas de fato!\"<br><br>\"Aqui - essas preciosas flores de Botão da lareira fundem traços da magia de Lareira em Essence da Lareira, que os Geomantes podem usar em seu ofício - certifique-se de plantá-las.\""
 														}
 													}
 												}
@@ -344,7 +344,7 @@
 												"dialog_nodes": {
 													"simple_message": {
 														"bulletin_message": {
-															"00": "The Rabbit Geomancer brought some Hearthbud, Hearth Essence, and raw materials along with them, to help start their new aboveground practice."
+															"00": "O Coelho Geomante trouxe alguns Botão da lareira, Essence da Lareira e matérias-primas junto com eles, para ajudar a iniciar sua nova prática acima do solo."
 														}
 													}
 												}
@@ -360,22 +360,22 @@
 					"bear_attack": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Feral Bear Approaching!",
-								"title_2": "Feral Bears Approach!",
-								"title_3": "Rabid Bears Approach!"
+								"title": "Urso selvagem se aproximando!",
+								"title_2": "Abordagem dos ursos selvagens!",
+								"title_3": "Abordagem dos ursos raivosos!"
 							}
 						}
 					},
 					"giant_cougar_raid": {
 						"cougar": {
-							"display_name": "Gato gigante",
+							"display_name": "Gato Gigante",
 							"description": "Definitivamente não era um gato doméstico. Aterrorizante!"
 						}
 					},
 					"cougar_attack": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Wild Big Cats Approaching!",
+								"title": "Grandes felinos selvagens se aproximando!",
 								"title_2": "Gatos gigantes selvagens se aproximando!"
 							}
 						}
@@ -383,7 +383,7 @@
 					"goblin_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Goblin Raiders Approaching!"
+								"title": "Goblin Ladrão se aproximando!"
 							}
 						}
 					},
@@ -406,7 +406,7 @@
 					"undergrowth_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "The ground rumbles!"
+								"title": "O chão treme!"
 							}
 						}
 					}
@@ -417,88 +417,88 @@
 							"tier_1_shops": {
 								"blacksmith_shop_1": {
 									"shop_info": {
-										"name": "Fernand the Great's Forge",
+										"name": "Forja de Fernando, o Grande",
 										"title": "Um ferreiro sulista chegou com algumas mercadorias de metal"
 									}
 								},
 								"bonecarver_shop_1": {
 									"shop_info": {
-										"name": "Kim's Femur Emporium",
-										"title": "A mountain ranger has arrived with bone goods to sell"
+										"name": "Empório do Fêmur de Kim",
+										"title": "Um guarda da montanha chegou com produtos de ossos para vender"
 									}
 								},
 								"charcoal_shop_1": {
 									"shop_info": {
-										"name": "Turnpoint River Charcoal Burners",
+										"name": "Queimadores de Carvão do Rio Turnpoint",
 										"title": "Um grupo de carvoeiros está na cidade a negócios"
 									}
 								},
 								"drink_shop_1": {
 									"shop_info": {
-										"name": "Ewbrand the Brewer",
+										"name": "Ewbrand, o Cervejeiro",
 										"title": "Um comerciante de bebidas acampou nas proximidades"
 									}
 								},
 								"training_shop_1": {
 									"shop_info": {
-										"name": "Captain Rôk's Training School",
+										"name": "Escola de Treinamento do Capitão Rôk",
 										"title": "Um grupo de soldados em treinamento está passando a negócios"
 									}
 								},
 								"engineering_shop_1": {
 									"shop_info": {
 										"name": "Dwarin's Trinkets & Gizmos",
-										"title": "A dwarven artificer has come to town for trading"
+										"title": "Um artífice anão veio à cidade para negociar"
 									}
 								},
 								"forager_shop_1": {
 									"shop_info": {
 										"name": "The Sisters of Whitehill Shop",
-										"title": "A caravan from a nearby convent has arrived with foraging goods"
+										"title": "Uma caravana de um convento próximo chegou com mercadorias forrageiras"
 									}
 								},
 								"fishing_shop_1": {
 									"shop_info": {
 										"name": "Turnpoint River Fishery",
-										"title": "A worker from a nearby fishing village has arrived for trading"
+										"title": "Um trabalhador de uma vila de pescadores próxima chegou para negociar"
 									}
 								},
 								"quarry_shop_1": {
 									"shop_info": {
 										"name": "The Gambiso Quarry's Shop",
-										"title": "A group from a small quarry have arrived with stone to sell"
+										"title": "Um grupo de uma pequena pedreira chegou com pedra para vender"
 									}
 								},
 								"rc_weapon_armor_shop_1": {
 									"shop_info": {
 										"name": "Rajin's Finest Blade",
-										"title": "The smith Rajin has arrived with his desert armory for business"
+										"title": "O ferreiro Rajin chegou com seu arsenal do deserto para negócios"
 									}
 								},
 								"na_weapon_armor_shop_1": {
 									"shop_info": {
 										"name": "The Wolfbite Forge",
-										"title": "A trader from the north has arrived with weapons and armor for sale"
+										"title": "Um comerciante do norte chegou com armas e armaduras para venda"
 									}
 								}
 							},
 							"tier_2_shops": {
 								"blacksmith_shop_2": {
 									"shop_info": {
-										"name": "Fernand the Great's Forge",
-										"title": "A blacksmith from far south has arrived with his finest metals"
+										"name": "Forja de Fernando, o Grande",
+										"title": "Um ferreiro do extremo sul chegou com seus melhores metais"
 									}
 								},
 								"bonecarver_shop_2": {
 									"shop_info": {
-										"name": "Atikin the Bone Carver",
-										"title": "A survivalist hermit arrives with bone trinkets and items to sell"
+										"name": "Atikin, o Escultor de Ossos",
+										"title": "Um eremita sobrevivente chega com bugigangas de osso e itens para vender"
 									}
 								},
 								"charcoal_shop_2": {
 									"shop_info": {
-										"name": "Orim Lake Charcoal Burners",
-										"title": "A group of charcoal burners is in town for business"
+										"name": "Queimador de Carvão do Lago Orims",
+										"title": "Um grupo de queimadores de carvão está na cidade para negócios"
 									}
 								},
 								"drink_shop_2": {
@@ -621,13 +621,13 @@
 						}
 					},
 					"returning_silk_road_trader_encounter": {
-						"title": "A caravaneer from the far east is passing through!",
-						"trade_details": "Warm greetings, [str(i18n_data.town_name)]! Don Vandon, at your service. Yes, that is right: the famous merchant! Our latest fruitful crossing of the perilous Silk Road has brought us many wonderful goods, most of which are already reserved for the mightiest lords, kings and queens, I'm afraid! We do have some cancelled orders, however... Like these <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong>. Not my finest products, no no, so you can have them. For a fair price, of course! The eastern kingdoms are interested in our exotic goods, let's say... <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>! We'll be around for [str(i18n_data.num_days)] days, think your fair town can manage this exchange, yes?",
-						"waiting_title": "Don Vandon's caravan will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
-						"waiting_text": "Don Vandon's caravan will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> ready for them!",
-						"return_title": "The caravaneer from the far east returns!",
-						"return_greetings_positive": "Greetings again! It seems your [str(i18n_data.want_number)] [str(i18n_data.want_item)] are ready to be traded for my [str(i18n_data.reward_number)] [str(i18n_data.reward_item)]! We should proceed with the deal, yes?",
-						"return_greetings_negative": "We're about to proceed back into the Silk Road and it seems you've not procured us [str(i18n_data.want_number)] [str(i18n_data.want_item)]. Understandable. Look for our caravan again in the future, yes, yes. Safe passage under the moonlight, friend!"
+						"title": "Um caravaneiro do Extremo Oriente está passando!",
+						"trade_details": "Cumprimento calorosos, [str(i18n_data.town_name)]! Don Vandon, ao seu serviço. Sim, isso mesmo: o famoso comerciante! Nossa última travessia frutífera da perigosa Rota da Seda nos trouxe muitos bens maravilhosos, muitos dos quais já estão reservados para os mais poderosos senhores, reis e rainhas, receio! No entanto, temos alguns pedidos cancelados... Como estes <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong>. Não são meus melhores produtos, não, não, então você pode tê-los. Por um preço justo, claro! Os reinos orientais estão interessados em nossos produtos exóticos, digamos... <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>! We'll be around for [str(i18n_data.num_days)] dias, acha que sua cidade justa pode administrar essa troca, sim?",
+						"waiting_title": "A caravana de Don Vandon estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+						"waiting_text": "A caravana de Don Vandon estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you have <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> pronto para eles!",
+						"return_title": "O caravaneiro do Extremo Oriente está de volta!",
+						"return_greetings_positive": "Saudações novamente! Parece seu [str(i18n_data.want_number)] [str(i18n_data.want_item)] estão prontos para serem negociados para o meu [str(i18n_data.reward_number)] [str(i18n_data.reward_item)]! Devemos prosseguir com o acordo, sim?",
+						"return_greetings_negative": "Estamos prestes a voltar para a Rota da Seda e parece que você não nos procurou [str(i18n_data.want_number)] [str(i18n_data.want_item)]. Compreensível. Procure nossa caravana novamente no futuro, sim, sim. Passagem segura sob o luar, amigo!"
 					},
 					"returning_collector_encounter": {
 						"title": "Um explorador se aproxima de sua cidade."
@@ -650,7 +650,7 @@
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg4": {
-									"choice_000": "Frostsnap flowers! Thanks!"
+									"choice_000": "Flores de Gelo! Obrigado!"
 								}
 							}
 						}
@@ -658,7 +658,7 @@
 				},
 				"rc_town_progression": {
 					"ace_guildmaster_reached": {
-						"recipe_unlock_coins": "The Blacksmith can now mint gold coins!",
+						"recipe_unlock_coins": "O Ferreiro agora pode cunhar moedas de ouro!",
 						"recipe_unlock_brewer": "The Cook can now make Desert Sun Tea!",
 						"recipe_unlock_potter": "The Potter can now make a Finely Crafted Tea set!",
 						"crop_unlock": "The Herbalist can now cultivate Sunflowers and Fox Lilies!"
@@ -695,7 +695,7 @@
 						}
 					},
 					"ace_guildmaster_reached": {
-						"recipe_unlock_coins": "The Blacksmith can now mint gold coins!"
+						"recipe_unlock_coins": "O Ferreiro agora pode cunhar moedas de ouro!"
 					},
 					"ace_valor_reached": {
 						"recipe_unlock_blacksmith": "New Legendary Mail recipe - Weaver, Engineer, and Blacksmith collaboration!",
@@ -804,7 +804,7 @@
 									"bulletin_title": "Thorulf & Rattley",
 									"dialog_title": "Thorulf & Rattley",
 									"bulletin_message": {
-										"00": "Thorulf looks around, scratching his moustache \"You folks from the southern lands are not used to carving bones.\"<p>He raises his brows, clearly having an idea \"I'm teaching Rattley, one more apprentice wouldn't hurt. We'll go on a hunting trip soon and I can teach a Mason, if willing.\" he smiles \"All I ask is some supplies for the days we'll be gone.\"<p>\"AND BONES!\" cheers Rattley."
+										"00": "Thorulf olha em volta, coçando o bigode \"Vocês das terras do sul não estão acostumados a esculpir ossos.\"<p>Ele levanta as sobrancelhas, claramente tendo uma ideia \"Estou ensinando Rattley, mais um aprendiz não faria mal. Nós iremos em uma viagem de caça em breve e eu posso ensinar um maçom, se quiser.\" ele sorri \"Tudo o que peço é alguns suprimentos para os dias em que estaremos fora.\"<p>\"E OSSOS!\" aplausos Rattley."
 									},
 									"choice_000": "Uma boa ideia!",
 									"choice_001": "Lamento, mas não."
@@ -813,24 +813,24 @@
 									"bulletin_title": "Thorulf & Rattley",
 									"dialog_title": "Thorulf & Rattley",
 									"bulletin_message": {
-										"00": "\"You welcome!\" says Rattley with a smile.<p>Thorulf pats her on the head before continuing \"She is a great apprentice. Bone carving is an art as ancient as the stars, very important to my people.\" he rests his hand over his own heart \"Curiously enough it's also a tradition for the goblins.\""
+										"00": "\"De nada!\" diz Rattley com um sorriso.<p>Thorulf dá um tapinha na cabeça dela antes de continuar \"She is a great apprentice. Bone carving is an art as ancient as the stars, very important to my people.\" he rests his hand over his own heart \"Curiously enough it's also a tradition for the goblins.\""
 									},
 									"choice_000": "Fascinante."
 								},
 								"refuse": {
-									"bulletin_title": "Thorulf is a bit disappointed",
+									"bulletin_title": "Thorulf está um pouco decepcionado",
 									"dialog_title": "Thorulf & Rattley",
 									"bulletin_message": {
-										"00": "Thorulf seems a bit disappointed.<p>\"Well, I'm sure you know what is best for your people!\" he smiles and takes a deep breath in \"We'll go on our hunting trip and move on afterwards. We might come around here sometime soon if you wish to reconsider!\"<p>He nods and turns around to leave as Rattley waves goodbye to everyone."
+										"00": "Thorulf parece um pouco decepcionadod.<p>\"Bem, tenho certeza que você sabe o que é melhor para o seu povo!\" ele sorri e respira fundo \"Iremos em nossa viagem de caça e seguiremos em frente depois. Podemos vir aqui em breve se você quiser reconsiderar!\"<p>Ele acena com a cabeça e se vira para sair enquanto Rattley dá adeus a todos."
 									},
 									"choice_000": "Boa viagem, nos encontraremos de novo!",
 									"choice_001": "[confecção de ossos perdida] Tchau!"
 								},
 								"accept": {
-									"bulletin_title": "Thorulf and Rattley are delighted!",
-									"dialog_title": "They are very excited!",
+									"bulletin_title": "Thorulf e Rattley estão encantados!",
+									"dialog_title": "Eles estão muito animados!",
 									"bulletin_message": {
-										"00": "Thorulf rejoices \"Hah, good! I knew you'd appreciate the invitation. It's hard to not appreciate intricate bone craftsmanship!\"<p>\"BONES!\" cheers Rattley once more \"BONE FRIEND!\"<p>\"We will head back to our camp, send your Mason our way whenever they're ready!\""
+										"00": "Thorulf se alegra \"Ha, bom! Eu sabia que você ia gostar do convite. É difícil não apreciar o artesanato intrincado de ossos!\"<p>\"OSSOS!\" aplaude Rattley mais uma vez \"OSSO AMIGO!\"<p>\"Vamos voltar para o nosso acampamento, mande seu maçom para nós quando estiver pronto!\""
 									},
 									"choice_000": "Vai fazer!"
 								}
@@ -846,7 +846,7 @@
 									"bulletin_title": "Thorulf e Rattley estão saindo!",
 									"dialog_title": "Eles estão saindo...",
 									"bulletin_message": {
-										"00": "Thorulf sighs. \"Well, sometimes things just get in the way, eh?\" he smiles \"But I am sure we shall cross our paths again. Rattley surely wants to.\"<p>\"BONE FRIEND!\" she cheers.<p>\"Maybe next time we're around we could even teach you a bit about bone carving! Well, off we go!\""
+										"00": "Thorulf suspiros. \"Bem, às vezes as coisas ficam no caminho, eh?\" ele sorri \"Mas tenho certeza de que vamos cruzar nossos caminhos novamente. Rattley certamente quer.\"<p>\"OSSO AMIGO!\" ela aplaude.<p>\"Talvez da próxima vez que estivermos por aqui possamos até ensinar um pouco sobre escultura de ossos! Bem, vamos embora!\""
 									}
 								}
 							}
@@ -869,7 +869,7 @@
 									"bulletin_title": "Rattley corre para sua cidade!",
 									"dialog_title": "Rattley",
 									"bulletin_message": {
-										"00": "\"BONES!\" she cheers as she jumps around the town banner \"We back, bone friend!\"<p>Behind her, Thorulf and the Mason calmly approach while having a friendly conversation."
+										"00": "\"OSSOS!\" ela aplaude enquanto pula ao redor da bandeira da cidade \"Voltamos, amigo osso!\"<p>Atrás dela, Thorulf e o Pedreiro se aproximam calmamente enquanto têm uma conversa amigável."
 									},
 									"choice_000": "Bem vindo de volta!"
 								},
@@ -877,7 +877,7 @@
 									"bulletin_title": "Thorulf & Rattley",
 									"dialog_title": "Hora de dizer adeus...",
 									"bulletin_message": {
-										"00": "\"There you go!\" says Thorulf as they approach, he laughs \"Your Mason is back safely, well fed and full of knowledge to share!\"<p>Rattley silently approaches and holds on to the leg of her father, who continues \"I'm afraid it is time to say goodbye, now. Hopefully this knowledge will serve you very well from now on.\"<p>He smiles. \"May the stars always shine the brightest upon your town. Farewell!\""
+										"00": "\"Ai está!\" diz Thorulf quando eles se aproximam, ele ri \"Seu Pedreiro está de volta em segurança, bem alimentado e cheio de conhecimento para compartilhar!\"<p>Rattley se aproxima silenciosamente e segura a perna de seu pai, que continua \"Receio que seja hora de dizer adeus, agora. Espero que este conhecimento lhe sirva muito bem a partir de agora.\"<p>Ele sorri. \"Que as estrelas sempre brilhem mais forte em sua cidade. Até a próxima!\""
 									},
 									"choice_000": "Viaje sob as estrelas, amigos. "
 								}
@@ -894,7 +894,7 @@
 									"bulletin_title": "Thorulf e Rattley estão de volta!",
 									"dialog_title": "Eles caminham para a cidade...",
 									"bulletin_message": {
-										"00": "\"Many greetings! It seems our paths have crossed again.\" he smiles.<p>Rattley jumps in front of him \"BONE FRIEND!\"<p>They laugh and Thorulf continues \"She insisted to come. We have a proposition!\" he shows some of his own bone carved tools as he continues \"We're going on another hunting trip nearby and maybe a Mason would be interested in learning bone carving?\""
+										"00": "\"Muitos cumprimentos! Parece que nossos caminhos se cruzaram novamente.\" ele sorri.<p>Rattley pula na frente dele \"OSSO AMIGO!\"<p>Eles riem e Thorulf continua \"Ela insistiu em vir. Temos uma proposta!\" ele mostra algumas de suas próprias ferramentas esculpidas em osso enquanto continua \"Estamos indo em outra viagem de caça nas proximidades e talvez um maçom esteja interessado em aprender escultura de ossos?\""
 									},
 									"choice_000": "Me diga mais!",
 									"choice_001": "Desculpe, não temos interesse."
@@ -903,16 +903,16 @@
 									"bulletin_title": "Thorulf & Rattley",
 									"dialog_title": "Thorulf & Rattley",
 									"bulletin_message": {
-										"00": "\"Good to know you have interest!\" he smiles, opening his arms wide \"We can leave as soon as you're ready. But since we'll be out for a couple of days, some supplies wouldn't hurt... If that is alright!\"<p>Rattley waves from behind his legs. \"AND BONES!\"<p>\"And bones, of course!\" he laughs."
+										"00": "\"Bom saber que você tem interesse!\" ele sorri, abrindo bem os braços \"Podemos sair assim que estiver pronto. Mas já que estaremos fora por alguns dias, alguns suprimentos não fariam mal... Se estiver tudo bem!\"<p>Rattley acena por trás de suas pernas. \"E OSSOS!\"<p>\"E ossos, é claro!\" ele ri."
 									},
 									"choice_000": "Vai fazer!",
 									"choice_001": "Lamento, mas não."
 								},
 								"farewell": {
-									"bulletin_title": "Thorulf & Rattley are leaving!",
+									"bulletin_title": "Thorulf e Rattley estão saindo!",
 									"dialog_title": "Eles irão embora...",
 									"bulletin_message": {
-										"00": "\"Oh, I understand.\" he gives a gentle yet disappointed smile.<p>\"No bones?\" Rattley sobs.<p>\"Maybe next time, right? I'm sure they must be very busy. Sometimes this is just how things are!\" he seems genuinely interested in teaching others, maybe someday he might return.<p>\"We wish you the best of luck and may the stars always shine upon your town!\""
+										"00": "\"Ah, Eu entendi.\" ele dá um sorriso gentil, mas decepcionado.<p>\"Sem ossos?\" Rattley soluça.<p>\"Talvez da próxima vez, certo? Tenho certeza que eles devem estar muito ocupados. Às vezes é assim que as coisas são!” ele parece genuinamente interessado em ensinar os outros, talvez algum dia ele possa retornar.<p>\"Desejamos a você boa sorte e que as estrelas sempre brilhem sobre sua cidade!\""
 									},
 									"choice_000": "Boa viagem, nos encontraremos de novo!",
 									"choice_001": "[confecção de ossos perdida] Tchau!"
@@ -929,9 +929,9 @@
 									"dragon_cult_attack": {
 										"mission": {
 											"sighted_bulletin": {
-												"title": "Dragon Cultist Scouts Approach!",
-												"title_2": "Dragon Cultists Approach!",
-												"title_3": "A Dragon Cultist Army Approaches!"
+												"title": "Abordagem dos Escoteiros do Cultista do Dragão!",
+												"title_2": "Abordagem dos Cultistas do Dragão!",
+												"title_3": "Um Exército de Cultistas de Dragões se Aproxima!"
 											}
 										}
 									},
@@ -950,12 +950,12 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "Our pet dragon... is growing?!",
-													"dialog_title": "It sure looks larger!",
+													"bulletin_title": "Nosso dragão de estimação... está crescendo?!",
+													"dialog_title": "Com certeza parece maior!",
 													"bulletin_message": {
-														"000": "That's interesting! Apparently the copper dragon whelp we pledged to protect as the last wish of Flox Icedragon, the Dragonborn King... is growing! How large will it get? Will it ever fly? Will it be a fire hazard? So many questions! We must wait and see..."
+														"000": "Isso é interessante! Aparentemente, o filhote de dragão de cobre que prometemos proteger como o último desejo de Flox Icedragon, o Dragonborn King... está crescendo! Quão grande vai ficar? Será que alguma vez voará? Será um risco de incêndio? Tantas perguntas! Devemos esperar para ver..."
 													},
-													"choice_000": "Let's hope we have enough food!"
+													"choice_000": "Vamos esperar que tenhamos comida suficiente!"
 												}
 											}
 										}
@@ -1011,13 +1011,13 @@
 													"bulletin_message": {
 														"000": "\"Yes, we share a sad tale. We still feel the pain of each of our ancestors ingrained in our collective memory... But do not be sorry! These memories are as distant and forgotten as sand in a sandstorm, now.\" He seems to be more cheerful. \"Nothing lasts forever, and the hubris of the Dragonborn - our own - prevented us from prevailing. We need not rebuild an empire, but perhaps it is not too late to come together and find our place as part of this new world. Our brethren have waited far too long for this and we feel this is our responsibility. We are the last of the Great Dragon's lineage. We can reunite the dragons and lead them to a place where they will not be seen as prizes nor as monsters.\""
 													},
-													"choice_000": "Wait! So... Are you leaving?"
+													"choice_000": "Espere! Então... Você está indo embora?"
 												},
 												"msg6": {
-													"bulletin_title": "A strong voice resonates within!",
-													"dialog_title": "He sounds genuinely thankful",
+													"bulletin_title": "Uma voz forte ressoa dentro!",
+													"dialog_title": "Ele parece genuinamente grato",
 													"bulletin_message": {
-														"000": "\"Well, yes. But not now. We're still growing, learning, and understanding our world.\" The warm and fuzzy feeling inside comes back. \"For now we shall remain [str(i18n_data.pet_custom_name)], your folk's loved and prized companion. But when the time comes we shall talk again: there's a lot you must know before we go. Until then we shall fight for this town to protect it, protect our family!\""
+														"000": "\"Bem, sim. Mas agora não. Ainda estamos crescendo, aprendendo e entendendo nosso mundo.\" O sentimento quente e confuso dentro volta. \"Por enquanto vamos permanecer [str(i18n_data.pet_custom_name)], companheiro amado e valorizado do seu povo. Mas quando chegar a hora voltaremos a conversar: há muito que você precisa saber antes de irmos. Até lá, lutaremos por esta cidade para protegê-la, proteger nossa família!\""
 													},
 													"choice_000": "Yay!"
 												}
@@ -1028,16 +1028,16 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
-													"dialog_title": "Both joy and sadness in his words",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente!",
+													"dialog_title": "Tanto alegria quanto tristeza em suas palavras",
 													"bulletin_message": {
-														"000": "\"The time has come. We must soon leave this dear family we found within the Children of Monkey... We feel stronger and wiser than ever.\" There's some comfort in these words. \"However, before we leave, we have a gift for all of you. A very important one.\""
+														"000": "\"A hora chegou. Devemos em breve deixar esta querida família que encontramos dentro dos Filhos do Macaco... Nos sentimos mais fortes e mais sábios do que nunca.\" Há algum conforto nessas palavras. \"No entanto, antes de partirmos, temos um presente para todos vocês. Um muito importante.\""
 													},
 													"choice_000": "A gift?",
 													"choice_001": "Do you really have to go?"
 												},
 												"question": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente!",
 													"dialog_title": "He sounds amused",
 													"bulletin_message": {
 														"000": "\"Yes, dear town. We understand you shall all miss [str(i18n_data.pet_custom_name)], your lovely 'pet'... But there's something much greater than any of us at stake... We speak of the survival and the struggle of our own kin, an entire species. We dragons can be so much more for this world, so much more than what the deities that abandoned us ever expected. We are the historians of this world, the librarians of its living memory and perception. Our collective consciousness can serve a much higher purpose if we earn our place back among the mortals. We must try.\""
@@ -1045,7 +1045,7 @@
 													"choice_000": "Understandable..."
 												},
 												"msg2": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente",
 													"dialog_title": "He is filled with excitement",
 													"bulletin_message": {
 														"000": "\"Yes! We have made a monument with rock, fire and many of our own scales that we shed as we grew...\" His voice seems full of pride. \"We were great crafters once, back in our age. We've lit furnaces higher than mountains and worked rivers of molten metals with the flick of our claws and the blowing winds of our wings... We believe that this monument honors such a legacy.\" He pauses for a brief moment. \"A Dragon Shrine that represents the friendship between this town and our kin. As long as it stands and our chromatic flame remains lit within it, others will know you're worthy.\""
@@ -1054,7 +1054,7 @@
 													"choice_001": "Thanks! [Skip instructions]"
 												},
 												"msg3": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente!",
 													"dialog_title": "His voice is strong and decided",
 													"bulletin_message": {
 														"000": "\"Our quest will be long and dangerous. It will be the labor of more than a single mortal lifetime to bring all the dragons back together and earn the respect of all others, earn our place in this world. Even when away, we'll still need your support: we might find other dragons or dragon eggs that will need love and caring - just like you provided us with. We must know there is a safe place for our kin, towns like yours that will start to forge a new bond between dragonkin and mortals by protecting us and showing the world that we are also part of it.\" His voice rumbles with spite. \"And with so many Dragon Cultists out there, we'll definitely need that safety.\""
@@ -1062,7 +1062,7 @@
 													"choice_000": "Dragon Cultists!?"
 												},
 												"msg4": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente!",
 													"dialog_title": "There's an edge to his voice",
 													"bulletin_message": {
 														"000": "\"Yes, they've been around since time immemorial... They've changed over the ages, acted under a thousand different names, banners, and credos... But always following the same ideals: necromancy, corruption, and dragons as weapons, vessels of destruction...\" [str(i18n_data.pet_custom_name)] pauses, pensive. \"I'm afraid they still exist, their terrible magic preserved through the ages, their cursed masks still a symbol of the chaos they bring about. Sooner or later, they will find you - and your town must stand against them! As long as the Dragon Shrine stands and its flame is lit, Dragon Cultists might attack the town!\""
@@ -1070,7 +1070,7 @@
 													"choice_000": "Oh no!"
 												},
 												"msg5": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente!",
 													"dialog_title": "He sounds hopeful again",
 													"bulletin_message": {
 														"000": "\"Do not despair, brave ones! We want them to come... By collecting their masks and giving them to our allies, we'll make sure that new dragons can be hatched by your town and help you defend against their threat! Their masks are highly valuable artifacts for them, providing them with incognito spells to hide their identities, forgotten spells that can no longer be created. The more masks we destroy, the safer the world will be for future dragons! That must be our purpose... Get the Shrine up, defend against cultists, and retrieve dragon eggs from our allies by sending us their masks!\""
@@ -1078,29 +1078,29 @@
 													"choice_000": "Understood!"
 												},
 												"msg6": {
-													"bulletin_title": "The deep voice of [str(i18n_data.pet_custom_name)] echoes again!",
-													"dialog_title": "He is... crying?!",
+													"bulletin_title": "A voz profunda de [str(i18n_data.pet_custom_name)] ecoa novamente!",
+													"dialog_title": "Ele está chorando?!",
 													"bulletin_message": {
-														"000": "A warm yet sad feeling permeates the town. \"It is time to say farewell, then. We know how difficult this can be for mortals. But we dragonkin share our existence with our own so none of us is ever truly gone. We keep all the memories of our last moments within our collective memories - and all the memories of this town and all of you will now be forever ingrained in the history of dragons. We are a part of you, and you'll always be a part of us. '[str(i18n_data.pet_custom_name)]' will never forget your kindness, Children of Monkey. And now Cadmus'ytrax rises!\" The dragon soars above the town for all to see against the sky, the wings spread in gratitude as he looks down all around. \"And may we meet again, one day!\""
+														"000": "Um sentimento caloroso e triste permeia a cidade. \"É hora de dizer adeus, então. Sabemos como isso pode ser difícil para os mortais. Mas nós draconianos compartilhamos nossa existência com a nossa, então nenhum de nós realmente se foi. Nós mantemos todas as memórias de nossos últimos momentos em nossas memórias coletivas - e todas as memórias desta cidade e de todos vocês agora ficarão para sempre enraizadas na história dos dragões. Nós somos parte de você, e você sempre será parte de nós. '[str(i18n_data.pet_custom_name)]' nunca esquecerá sua bondade, Filhos do Macaco. E agora o imposto de Cadmus sobe!\" O dragão voa acima da cidade para que todos vejam contra o céu, as asas abertas em gratidão enquanto ele olha para baixo ao redor. \"E que possamos nos encontrar novamente, um dia!\""
 													},
-													"choice_000": "We'll miss you!"
+													"choice_000": "Nós sentiremos sua falta!"
 												}
 											}
 										}
 									},
 									"quest_cultist_masks": {
-										"title": "An ally of dragons approaches us in secret!",
-										"dialog_title": "Collecting Cultist Masks",
-										"text": "\"Greetings from Cadmus, our mutual friend! Any masks from the cultists to contribute to our cause, brothers and sisters?\""
+										"title": "Um aliado dos dragões se aproxima de nós em segredo!",
+										"dialog_title": "Coletando Máscaras de Cultistas",
+										"text": "\"Saudações do Cadmus, nosso amigo em comum! Quaisquer máscaras dos cultistas para contribuir com nossa causa, irmãos e irmãs?\""
 									},
 									"quest_reward": {
-										"title": "The ally of dragons departs with the masks",
-										"dialog_title": "Delivery completed",
-										"message": "With everyone's support - including our town's - little by little we'll help dragons earn their place in this world!<br><br><font size=-1><i>[Dragonkin reputation increased]</i></font>",
-										"choice_000": "Woot!"
+										"title": "O aliado dos dragões parte com as máscaras",
+										"dialog_title": "Entrega concluída",
+										"message": "Com o apoio de todos - inclusive da nossa cidade - pouco a pouco ajudaremos os dragões a conquistar seu lugar neste mundo!<br><br><font size=-1><i>[Dragonkin reputation increased]</i></font>",
+										"choice_000": "Uaau!"
 									},
 									"dragon_offer_reward": {
-										"title": "Cadmus'ytrax flies away!",
+										"title": "Cadmus'ytrax voa para longe!",
 										"dialog_title": "He bids farewell",
 										"message": "Before leaving, he gently and carefully places something next to the town banner:",
 										"choice_000": "Welcome, little one!"
@@ -1109,36 +1109,36 @@
 										"dialog_tree_info": {
 											"dialog_nodes": {
 												"msg1": {
-													"bulletin_title": "Cadmus'ytrax is visiting us!",
-													"dialog_title": "A mighty dragon prince!",
+													"bulletin_title": "Cadmus'ytrax está nos visitando!",
+													"dialog_title": "Um poderoso príncipe dragão!",
 													"bulletin_message": {
-														"000": "Our former companion reappears above our town, shinier and bigger than ever!<br>\"Warm greetings, dear friends! We're sorry this is a brief visit but we're here to share good news! Finding and uniting our kin has been a success so far, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles gently.",
-														"001": "Cadmus approaches at an imposing but respectful pace!<br>\"Salutations, beloved family! Unfortunately, we may not stay for too long... But we bring good tidings! We have accomplished much as the prince of dragons so far, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles excitedly.",
-														"002": "Our beloved 'pet' returns home, bright and strong!<br>\"Greetings, old friends! We hope this is an appropriate time for good news! Our task is a long and difficult one; however, it has been a success so far! Unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles kindly.",
-														"003": "The dragon hovers above the town, admired by all!<br>\"Warm greetings, family! We apologize it's been so long, but we bring news! We've been quite busy uniting and bringing together all the remaining dragons, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles gratefully.",
-														"004": "He comes forth with an imposing yet gentle attitude!<br>\"It's good to be back! We've missed all of you, Children of Monkey... We bring good tidings! There's not a single day that we don't dedicate to bringing our kin back together, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles."
+														"000": "Nosso antigo companheiro reaparece acima de nossa cidade, mais brilhante e maior do que nunca!<br>\"Warm greetings, dear friends! We're sorry this is a brief visit but we're here to share good news! Finding and uniting our kin has been a success so far, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles gently.",
+														"001": "Cadmus se aproxima em um ritmo imponente, mas respeitoso!<br>\"Salutations, beloved family! Unfortunately, we may not stay for too long... But we bring good tidings! We have accomplished much as the prince of dragons so far, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles excitedly.",
+														"002": "Nosso amado 'pet' volta para casa, brilhante e forte!<br>\"Greetings, old friends! We hope this is an appropriate time for good news! Our task is a long and difficult one; however, it has been a success so far! Unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles kindly.",
+														"003": "O dragão paira sobre a cidade, admirado por todos!<br>\"Warm greetings, family! We apologize it's been so long, but we bring news! We've been quite busy uniting and bringing together all the remaining dragons, but unfortunately, we often find... orphaned eggs. Would you be interested in one of them, to care and love our whelp as you once did for us?\" He smiles gratefully.",
+														"004": "Ele sai com uma atitude imponente, mas gentil!<br>\"É bom estar de volta! Sentimos falta de todos vocês, Filhos do Macaco... Trazemos boas notícias! Não há um único dia que não dediquemos a reunir nossos parentes, mas, infelizmente, muitas vezes encontramos... ovos órfãos. Você estaria interessado em um deles, para cuidar e amar nosso filhote como você fez por nós?\" Ele sorri."
 													},
-													"choice_000": "We sure do!",
-													"choice_001": "We'll pass..."
+													"choice_000": "Temos certeza!",
+													"choice_001": "Nós vamos passar..."
 												},
 												"msg2": {
-													"bulletin_title": "Cadmus'ytrax is visiting us!",
-													"dialog_title": "He is satisfied!",
+													"bulletin_title": "Cadmus'ytrax está nos visitando!",
+													"dialog_title": "Ele está satisfeito!",
 													"bulletin_message": {
-														"000": "\"We knew we could count on you! We can always count on our closest kin. We trust you'll take good care of them! Which one would you like?\""
+														"000": "\"Sabíamos que podíamos contar com você! Podemos sempre contar com nossos parentes mais próximos. Confiamos que você cuidará bem deles! Qual você gostaria?\""
 													},
-													"choice_000": "Green!",
-													"choice_001": "Red!",
-													"choice_002": "Blue!",
+													"choice_000": "Verde!",
+													"choice_001": "Vermelho!",
+													"choice_002": "Azul!",
 													"choice_003": "Metal!"
 												},
 												"decline": {
-													"bulletin_title": "Cadmus'ytrax is visiting us!",
-													"dialog_title": "He prepares to set off",
+													"bulletin_title": "Cadmus'ytrax está nos visitando!",
+													"dialog_title": "Ele se prepara para partir",
 													"bulletin_message": {
 														"000": "\"We understand, friends. Raising a dragon is no easy task and we're not always prepared for such a responsibility... Well, we shall return some other time; as long as the shrine is lit, we'll always count on you! Take care, and may destiny be kind to your town!\""
 													},
-													"choice_000": "Farewell!"
+													"choice_000": "Até a próxima!"
 												}
 											}
 										}
@@ -1151,15 +1151,15 @@
 				"guilds": {
 					"adventurers_guild": {
 						"adv_returning_trader_encounter": {
-							"title": "A member of the Adventurer's Guild approaches.",
-							"waiting_title": "The Adventurer's Guild will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
-							"waiting_text": "The Adventurer's Guild member will be back in [str(i18n_data.hour_counter)] [str(i18n_data.period)] to give you <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> if you turn in <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>!",
-							"return_title": "The Adventurer's Guild member returns!",
-							"return_greetings_positive": "Glory and wonder, friend! It seems you have the [str(i18n_data.want_number)] [str(i18n_data.want_item)] the Guild wanted. We're willing to give you [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] in return for the trophies. Do we have a deal?",
-							"return_greetings_negative": "The Adventurer's Guild has sent me back but I see you didn't procure the [str(i18n_data.want_number)] [str(i18n_data.want_item)] we wanted. We'll return in some days with a new offer. Follow the path of fame, friend!"
+							"title": "Um membro da Guilda dos Aventureiros se aproxima.",
+							"waiting_title": "A Guilda dos Aventureiros estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)]!",
+							"waiting_text": "O membro da Guilda dos Aventureiros estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] dar a voce <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você ligar <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong>!",
+							"return_title": "O membro da Guilda dos Aventureiros retorna!",
+							"return_greetings_positive": "Glória e maravilha, amigo! Parece que você tem o [str(i18n_data.want_number)] [str(i18n_data.want_item)] a Guilda queria. Estamos dispostos a lhe dar [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] em troca dos troféus. Nós temos um acordo?",
+							"return_greetings_negative": "A Guilda dos Aventureiros me enviou de volta, mas vejo que você não conseguiu o [str(i18n_data.want_number)] [str(i18n_data.want_item)] nós queríamos. Retornaremos em alguns dias com uma nova oferta. Siga o caminho da fama, amigo!"
 						},
 						"adv_returning_trader_encounter_1": {
-							"trade_details": "Glory and wonder, friends of [str(i18n_data.town_name)]! I come in the name of the Adventurer's Guild to make an offer for some adventure trophies. We're currently looking for <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> and will provide <strong>[str(i18n_data.reward_item)]</strong> in return. You'd have [str(i18n_data.num_days)] days to gather these before we're back, sounds interesting enough? We'll return with a different offer should you refuse."
+							"trade_details": "Glória e maravilha, amigos de [str(i18n_data.town_name)]! Venho em nome da Guilda dos Aventureiros fazer uma oferta por alguns troféus de aventura. No momento estamos procurando <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)]</strong> e irá fornecer <strong>[str(i18n_data.reward_item)]</strong> in return. You'd have [str(i18n_data.num_days)] days to gather these before we're back, sounds interesting enough? We'll return with a different offer should you refuse."
 						}
 					}
 				},
@@ -1167,10 +1167,10 @@
 					"fisher_arrival": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
-								"dialog_title": "Bruno the Fisher",
+								"dialog_title": "Bruno o Pescador",
 								"msg1": {
 									"bulletin_message": {
-										"00": "\"Um, hello?<p>Oh, there you are! I'm Bruno, the most famous and accomplished fisherman of the realm! <font size=-4>Or at least of this realm...</font>\"<p>He shakes his backpack full of fishing equipment.<p>\"I was 'trolling through the area, but I'm afraid I've sold the last fish to your neighbors...\" He shrugs and then suddenly straightens his face, thinking of something. \"Well, I'm actually also hooked on buying fish! No trout about it, sometimes I buy just for the halibut! You could probably net some if you have, let's say, a trapper...\""
+										"00": "\"Um, olá?<p>Oh, there you are! I'm Bruno, the most famous and accomplished fisherman of the realm! <font size=-4>Or at least of this realm...</font>\"<p>He shakes his backpack full of fishing equipment.<p>\"I was 'trolling through the area, but I'm afraid I've sold the last fish to your neighbors...\" He shrugs and then suddenly straightens his face, thinking of something. \"Well, I'm actually also hooked on buying fish! No trout about it, sometimes I buy just for the halibut! You could probably net some if you have, let's say, a trapper...\""
 									},
 									"choice_000": "Do tell!"
 								},
@@ -1215,7 +1215,7 @@
 					"smith_arrival": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
-								"dialog_title": "Fernand the Great",
+								"dialog_title": "Fernando o Grande",
 								"msg1": {
 									"bulletin_message": {
 										"00": "A strong man with a waxed mustache prances into town. \"Hah! There you are! No, no need to get up. I found the lack of smoke columns disturbing! Even thought that this settlement was abandoned! Where are the smelters? The kilns? The ovens with delicious <i>empanadas!? </i>\"<p>He dramatically shakes his fists to the skies and silence reigns before he coughs and speaks with a more serious tone.<br>\"Pardon me,<i> pollito. </i>I am Fernand the Great, master smith and wordsmith. Now, I might be<i> el maestro </i>only at the forgery, but do you know what is common between the simplest cook or herbalist and the mightiest smith,<i> pollito? </i>\""
@@ -1261,7 +1261,7 @@
 									"bulletin_message": {
 										"00": "\"Very well, very well.\" He stretches his back and moves his neck around. \"Being a master smith can be taxing sometimes! I'll spend some time around, meet the townsfolk and share tales by the fire, if you don't mind! It was<i> un placer, pollito! </i>\"<p>He smiles.<p>\"No need to worry, I won't cause any trouble other than a few broken hearts, and will be leaving tomorrow... And mark my words! Fernand the Great shall visit and trade with the good people of [str(i18n_data.town_name)] one day!"
 									},
-									"choice_000": "We hope so! Stay safe!"
+									"choice_000": "Nós esperamos que sim! Fique seguro!"
 								}
 							}
 						}
@@ -1269,7 +1269,7 @@
 					"healer_arrival": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
-								"dialog_title": "Sir Edmund",
+								"dialog_title": "Senhor Edmundo",
 								"msg1": {
 									"bulletin_message": {
 										"00": "A grizzled warrior approaches wearing old and dented platemail beneath a beautiful cloth tabard. \"I extend to you my greetings, fellows.\" He bows his head with a hand to his heart. \"I am Sir Edmund, acclaimed battle-cleric of the old Order of the Knights of Cid, and I've come to offer my services to your growing settlement.\"<p>He looks around with peaceful eyes, but his face and hair suggest a far more eventful past.<br>\"Oh, do I arouse suspicion? I apologize.\" He carries no more than a healing staff. \"I wield no arms anymore and have sworn an oath to wander the lands, offering my services to all who need them, regardless of kin or faith.\""
@@ -1339,27 +1339,27 @@
 									"bulletin_message": {
 										"00": "\"So be it. And thus another moment of enlightment has come to pass, hopefully for the improvement of the fair [str(i18n_data.town_name)]!\"<br><br>He puts his hand on his heart and gestures to everyone.<br><br>\"I hope our meeting has been as fruitful to you all as it has been to me. I thank you for the opportunity to share knowledge, and I humbly ask for only a day of shelter and a night of warmth by the fire, so I can regain my strength to continue wandering tomorrow.\""
 									},
-									"choice_000": "Of course, welcome!"
+									"choice_000": "Claro, seja bem vindo!"
 								}
 							}
 						}
 					},
 					"common": {
 						"dialog_nodes": {
-							"bulletin_title": "A friendly stranger approaches",
+							"bulletin_title": "Um estranho amigável se aproxima",
 							"msg_cancel": {
-								"choice_000": "Alright then!",
-								"choice_001": "It's all good. [skip tutorial]"
+								"choice_000": "Tudo bem então!",
+								"choice_001": "É tudo de bom. [pular tuturial]"
 							},
 							"msg_denial": {
-								"choice_000": "Nah, it's not needed! [skip tutorial]"
+								"choice_000": "Não, não é necessário! [pular tuturial]"
 							},
 							"msg_met_again": {
-								"choice_000": "Have we met before?"
+								"choice_000": "Já nos encontramos antes?"
 							},
-							"gift_title": "Someone left us a gift and a letter!",
+							"gift_title": "Alguém nos deixou um presente e uma carta!",
 							"gift_accept": {
-								"choice_000": "Thank you very much!"
+								"choice_000": "Muito obrigado!"
 							}
 						}
 					},
@@ -1367,7 +1367,7 @@
 						"donation_dialog_info": {
 							"dialog_nodes": {
 								"letter": {
-									"dialog_title": "From: Fernand the Great",
+									"dialog_title": "De: Fernando, o Grande",
 									"message": {
 										"00": "<i>\"Many greetings,<i> pollito!</i><p>I've just left to meet my caravan and go home. The world needs Fernand and Fernand needs the world.<br>But I didn't want to leave without sharing one last thing to help you get started!<p>Keep on growing!<br><font size=-4>PS: Store that chunk o' hard coal well, it will be very useful in the future!</font>\"</i><p>The gift package contains:"
 									}
@@ -1379,7 +1379,7 @@
 						"donation_dialog_info": {
 							"dialog_nodes": {
 								"letter": {
-									"dialog_title": "From: Bruno the Fisher",
+									"dialog_title": "De: Bruno, o Pescador",
 									"message": {
 										"00": "<i>\"Hey, friends!<p>As I write this, I'm about to leave on my boat. One must always follow the currents. I had a good time here and actually managed to fish a little during the evening!<br>I feel that the first fish from your town should stay where they belong, though. Hopefully we'll meet again and I'll bring lots of goods!<br>Stay safe!\"</i><p>The gift package contains:"
 									}
@@ -1391,7 +1391,7 @@
 						"donation_dialog_info": {
 							"dialog_nodes": {
 								"letter": {
-									"dialog_title": "From: Sir Edmund",
+									"dialog_title": "De: Senhor Edmundo",
 									"message": {
 										"00": "<i>\"Many greetings, fellows.<p>The time has come for me to continue wandering across the hearthlands, looking for the ones that need my gifts.<br>These are trying times, so take this. It is only a simple set of curatives but should be enough to keep your kin in good shape. Be well!<br>And may Cid grant you all safety!\"</i><p>The gift package contains:"
 									}
@@ -1401,14 +1401,14 @@
 					}
 				},
 				"hunting": {
-					"hungry_woodchuck_raid": "A family of Woodchucks is coming for the tree farms, orchards and bushes!"
+					"hungry_woodchuck_raid": "Uma família de marmotas está vindo para as fazendas de árvores, pomares e arbustos!"
 				},
 				"frostfeast_ace": {
 					"tomtee_arrival": {
 						"dialog_tree_info": {
 							"dialog_nodes": {
 								"msg1": {
-									"bulletin_title": "Someone approaches wearing a comfy coat and a very long cap...",
+									"bulletin_title": "Alguém se aproxima vestindo um casaco confortável e um boné muito longo...",
 									"dialog_title": "It's a goblin!",
 									"bulletin_message": {
 										"00": "\"Oh! Oh, oh, oh! Tomtee sees someone, finally!\" She seems particularly happy about finding your town. \"You must help Tomtee, she needs someone to... No, wait. Maybe you cannot help. But maybe you can! Here, Tomtee needs something fast, she... Uh...\"<br><br>She pats herself all over, looking for something in her many pockets.<br><br><span class='smaller'>\"Where did Tomtee put it?\"</span>"
