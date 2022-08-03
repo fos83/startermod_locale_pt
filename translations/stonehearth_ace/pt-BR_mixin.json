@@ -6,7 +6,7 @@
 				"loading_map_flavor_text": {
 					"034": "em conflito com ACE...",
 					"035": "poyos girando...",
-					"036": "milking moo-moos...",
+					"036": "ordenha moo-moos...",
 					"037": "finishing fishes...",
 					"038": "espalhando fungos...",
 					"039": "contemplando o mármore...",
@@ -16,14 +16,14 @@
 					"043": "encontrando bugs...",
 					"044": "contemplando títulos...",
 					"045": "atrasando atualizações de mod...",
-					"046": "adding ACE issues...",
-					"047": "postponing next ACE release...",
+					"046": "adicionando problemas de ACE...",
+					"047": "adiando o próximo lançamento do ACEe...",
 					"048": "aparando a borda do mundo...",
 					"049": "quebrando alguma coisa...",
 					"050": "acordando hearthlings...",
 					"051": "herding wombats...",
 					"052": "limpando as bancadas...",
-					"053": "recharging moonbells...",
+					"053": "recarregando os sinos da lua...",
 					"054": "geadas arrepiantes...",
 					"055": "carregando muito devagar...",
 					"056": "demorando muito...",
@@ -33,29 +33,29 @@
 					"004": "Você pode cultivar certas safras, como seda ou algodão, para obter um suprimento constante de fibras de fios.",
 					"008": "O tecelão pode criar roupas específicas para o clima ou novos uniformes que aumentam a eficácia de seus trabalhadores.",
 					"010": "Os pastores encontrarão automaticamente os primeiros dois animais para iniciar uma pastagem.",
-					"017": "Don't want your hearthlings to leave town? The Engineer can make locks for doors.",
-					"020": "Trappers can set traps anywhere, but wilder areas with vegetation and no signs of civilization will always be better.",
-					"022": "Mining dirt will occasionally yield clay, stone, and rarities like bones.",
-					"024": "Need a starting food source? Look for fruit bushes or edible fungi and move them closer to you!",
-					"029": "Pasture animals will always go for pasture beds when the weather is bad for them. Place these under a roof to protect them!",
-					"030": "With a feeding manger you can make sure your pasture animals always have enough fodder available to them.",
-					"031": "Pets will try to sleep on the pet bed that is closest to their owner's bed. Keep a food bowl nearby for even more comfort.",
-					"032": "Fodder is enough to keep an animal healthy but only specific foods will increase the quality of animal products.",
-					"033": "You can determine a desirable amount of animals to keep in a pasture. They will be automatically slaughtered beyond this number.",
-					"034": "You can rename animals in a pasture and shepherds will try to avoid automatically slaughtering named creatures.",
-					"035": "Farmer crops have different and specific needs. You can find out about them by hovering your mouse over all the icons on the Farm Plot window!",
-					"036": "Different weathers and different biomes have dynamic values for humidity and sunlight. Try to optimize your farms as much as you can!",
-					"037": "Sunlight is very important for most farmer crops. Buildings and obstacles that obstruct the sun on the east-west axis will also affect it!",
-					"038": "Humidity is very important for many farmer crops, although some of them can thrive with little or no water at all!",
-					"039": "Although uncommon, a farmer crop might require water in specific amounts or ways to grow. For example, Paddy requires the Farm Plot to be flooded.",
-					"040": "No water isn't optimal for farmer crops, but excessive water might not be good either. Make sure to always check the Farm Plot window!",
-					"041": "Fertilizers can be created by the Herbalist and are very efficient in increasing the quality of farmer crops.",
-					"042": "Utilizing high quality resources and materials will yield higher quality products that are worth more and are more appealing.",
-					"043": "New workers are equipped with a set of Bronze Tools that can be replaced for faster and more efficient Iron and Steel tools made by the Blacksmith.",
-					"044": "Chopping firewood is an easy and reliable source of fuel until you can produce charcoal or mine coal.",
-					"045": "Harvesting fungi will destroy the wild spawn, maintaining a steady production of fungi requires the expertise of a dwarven Grower...",
-					"046": "The Herbalist is able to produce Farmer Seeds of most plants and trees from the region you are settling on.",
-					"047": "Different cold weathers will have different levels of cold. Blizzards can be very dangerous but fires and specific clothing can ease the effects.",
+					"017": "Não quer que seus entesqueridos saiam da cidade? O Engenheiro pode fazer fechaduras para portas.",
+					"020": "Caçadores podem montar armadilhas em qualquer lugar, mas áreas mais selvagens com vegetação e sem sinais de civilização sempre serão melhoresr.",
+					"022": "A sujeira de mineração ocasionalmente produzirá argila, pedra e raridades como ossos.",
+					"024": "Precisa de uma fonte de alimento inicial? Procure arbustos de frutas ou fungos comestíveis e mova-os para mais perto de você!",
+					"029": "Os animais de pasto sempre vão para os canteiros quando o tempo está ruim para eles. Coloque-os sob um telhado para protegê-los!",
+					"030": "Com uma manjedoura, você pode garantir que seus animais de pasto sempre tenham forragem suficiente disponível para eles.",
+					"031": "Os animais de estimação tentarão dormir na cama do animal de estimação mais próxima da cama do dono. Mantenha uma tigela de comida por perto para ainda mais conforto.",
+					"032": "A forragem é suficiente para manter um animal saudável, mas apenas alimentos específicos aumentarão a qualidade do produto animals.",
+					"033": "Você pode determinar uma quantidade desejável de animais para manter em um pasto. Eles serão abatidos automaticamente além desse número.",
+					"034": "Você pode renomear animais em um pasto e os pastores tentarão evitar o abate automático de criaturas nomeadas.",
+					"035": "As fazendas dos agricultores têm necessidades diferentes e específicas. Você pode descobrir sobre eles passando o mouse sobre todos os ícones na janela campos das fazendas!",
+					"036": "Diferentes climas e diferentes biomas têm valores dinâmicos de umidade e luz solar. Tente otimizar suas fazendas o máximo que puder!",
+					"037": "A luz solar é muito importante para a maioria das fazendas agrícolas. Edifícios e obstáculos que obstruem o sol no eixo leste-oeste também o afetarão!",
+					"038": "A umidade é muito importante para muitas fazendas agrícolas, embora algumas delas possam prosperar com pouca ou nenhuma água!",
+					"039": "Embora incomum, uma fazenda de agricultor pode exigir água em quantidades maiores ou maneiras específicas para crescer. Por exemplo, o Arroz requer que campos das fazendas seja inundado.",
+					"040": "A falta de água não é ideal para as plantações dos agricultores, mas o excesso de água também pode não ser bom. Certifique-se de sempre verificar a janela das suas fazendas!",
+					"041": "Os fertilizantes podem ser criados pelo Herbalista e são muito eficientes para aumentar a qualidade das colheitas do agricultor.",
+					"042": "A utilização de recursos e materiais de alta qualidade resultará em produtos de maior qualidade que valem mais e são mais atraentes.",
+					"043": "Os novos trabalhadores são equipados com um conjunto de ferramentas de bronze que podem ser substituídas por ferramentas de ferro e aço mais rápidas e eficientes feitas pelo Ferreiro.",
+					"044": "Cortar lenha é uma fonte fácil e confiável de combustível até que você possa produzir carvão ou carvão mineral.",
+					"045": "A colheita de fungos destruirá a desova selvagem, manter uma produção constante de fungos requer a experiência de um produtor anão...",
+					"046": "O Herbalista é capaz de produzir Sementes de Agricultor da maioria das plantas e árvores da região em que você está se estabelecendo.",
+					"047": "Diferentes climas frios terão diferentes níveis de frio. Nevascas podem ser muito perigosas, mas incêndios e roupas específicas podem aliviar os efeitos.",
 					"048": "Hearthlings that go into the water on chilly, cold or freezing days will be hurt by the freezing waters.",
 					"049": "Hearthlings that go into the water on hot days will be refreshed for a while. Bath time!",
 					"050": "Be wary of wild animal dens and caves when settling. Wild wolves or bears aren't really strong but can cause trouble early on.",
@@ -104,14 +104,14 @@
 					"093": "Chitin armor can be crafted by the Weaver and will protect a lower level Footman against simple poisons and toxins.",
 					"094": "Sleeping is important! Make sure to provide comfortable bedrooms and personally assigned beds for your hearthlings.",
 					"095": "Dreaming of sheep rave parties? Click on your hearthlings while they're sleeping to see if they're having good or bad dreams...",
-					"096": "Fruit and nut trees take a long time to mature but will bear their produce even when small. The longer they grow, the better their yield will be.",
-					"097": "If starting during the Autumn, look around. There might be some extra food sources like nut trees before the winter!",
-					"098": "You can temporarily pause a crafter queue by clicking the 'Open' sign on the top right of the crafting screen.",
-					"099": "Crafted Bee Skeps require Captive Bees before they can work. Cut some trees and you might find a nest or two lying around!"
+					"096": "As árvores frutíferas e de nozes levam muito tempo para amadurecer, mas produzirão seus produtos mesmo quando pequenas. Quanto mais crescerem, melhor será o seu rendimento.",
+					"097": "Se começar durante o outono, olhe ao redor. Pode haver algumas fontes extras de alimentos, como nozes antes do inverno!",
+					"098": "Você pode pausar temporariamente uma fila de artesanato clicando no sinal 'Abrir' no canto superior direito da tela de criação.",
+					"099": "Cesto de abelhas artesanais exigem abelhas nativas antes que possam funcionar. Corte algumas árvores e você pode encontrar um ninho ou dois por aíd!"
 				}
 			},
 			"select_roster": {
-				"reembark_button": "Reembark"
+				"reembark_button": "Reembarcar"
 			}
 		}
 	},
@@ -119,7 +119,7 @@
 		"hotkeys": {
 			"keys": {
 				"build_visdown": {
-					"display_name": "Building Vis Down"
+					"display_name": "Construindo Vis Para Baixo"
 				}
 			}
 		}
@@ -129,28 +129,28 @@
 			"carrot_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized carrot."
+						"description": "Uma cenoura não realizada."
 					}
 				}
 			},
 			"pumpkin_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized pumpkin."
+						"description": "Uma abóbora não realizada."
 					}
 				}
 			},
 			"watermelon_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized watermelon."
+						"description": "Uma melancia não realizada."
 					}
 				}
 			},
 			"turnip_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized turnip."
+						"description": "Um nabo não realizado."
 					}
 				}
 			}
