@@ -2,14 +2,40 @@
 	"data": {
 		"commands": {
 			"autoharvest_on": {
-				"display_name": "O modo colheita automática está ativado",
+				"display_name": "O modo Autocolheita está ativado",
 				"description": "Clique para desligá-lo.",
 				"disabled_description": "Não pode ser desativado agora, tente novamente mais tarde."
 			},
 			"autoharvest_off": {
-				"display_name": "O modo colheita automática está desligado",
+				"display_name": "O modo Autocolheita está desligado",
 				"description": "Clique para ativá-lo.",
 				"disabled_description": "Não é possível ligar agora, tente novamente mais tarde."
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"menu": {
+				"harvest_menu": {
+					"items": {
+						"box_autoharvest": {
+							"display_name": "Autocolheita",
+							"description": "Selecione recursos renováveis ​​a serem coletados automaticamente.",
+							"tip_title": "Clique e arraste para marcar recursos para coleta automática",
+							"tip_description": "Clique com o botão direito para sair deste modo"
+						}
+					}
+				}
+			}
+		},
+		"shell": {
+			"settings": {
+				"controls_tab": {
+					"key_binding_names": {
+						"harvest_autoharvest": "Alternar Coleta Automática",
+						"harvest_box_autoharvest": "Seleção de caixa para colheita automática"
+					}
+				}
 			}
 		}
 	}

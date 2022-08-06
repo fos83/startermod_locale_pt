@@ -1,0 +1,3184 @@
+{
+	"mixins": "/cm/locales/en.json",
+	"kingdoms": {
+		"clanmuramasa": "Clã Muramasa"
+	},
+	"data": {
+		"population": {
+			"clanmuramasa": {
+				"kingdom_name": "Clã Muramasa",
+				"display_name": "Clã Muramasa",
+				"quote": "Que teus passos sejam lentos e firmes, na longa jornada da vida.",
+				"description": "Dizem que 'a fé pode mover montanhas.' De fato, o povo Muramasa ganha poder através da perseverança, colhendo diligentemente os recursos da terra e criando requintadas armaduras e armas Samurai.",
+				"post_selection_description": ", uma sociedade honrada e precisa.",
+				"initial_town_name": "Ensei [str(town_number)]"
+			}
+		},
+		"biome": {
+			"yamato": {
+				"display_name": "Colinas Yamato",
+				"description": "Colinas largas e ondulantes e grandes pastagens cheias de lagoas. Casa padrão do Clã Muramasa.",
+				"random_location_names": {
+					"000": "Colinas de Yamato Hope",
+					"001": "Honra das Colinas de Yamato"
+				},
+				"seasons": {
+					"spring": {
+						"display_name": "Primavera",
+						"description": "A primavera em Yamato Hills é uma estação de renascimento, com duração de três meses. As chuvas derretem a neve, revelando um novo crescimento escondido por baixo, e as árvores voltam à vida cobertas de flores coloridas."
+					},
+					"summer": {
+						"display_name": "Verão",
+						"description": "O verão em Yamato Hills é uma estação quente, com duração de três meses. É um momento para relaxar e aproveitar o sol, mas ventos fortes podem trazer trovoadas ou tempestades de areia."
+					},
+					"autumn": {
+						"display_name": "Outono",
+						"description": "O outono em Yamato Hills é a época da colheita, com duração de três meses. As árvores ficam douradas e a grama se prepara para se refugiar em seu cobertor de inverno, enquanto os céus escurecem com nuvens de tempestade."
+					},
+					"winter": {
+						"display_name": "Inverno",
+						"description": "O inverno em Yamato Hills é uma estação fria, com duração de três meses. Muitas árvores perdem suas folhas e a neve cobre a terra. Os ventos frios e cortantes são melhor combatidos por reuniões aconchegantes ao redor da lareira."
+					}
+				}
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"patterns": {
+					"wood_blended_diagonal": "Um padrão de Muesli, Shadow, Tobacco Brown e Punga"
+				}
+			}
+		},
+		"commands": {
+			"job_equipment_roles": {
+				"dual_wield_knight": {
+					"display_name": "Prefira Empunhadura Dupla",
+					"description": "Este Samurai atualmente prefere usar uma arma de mão principal com uma arma de mão secundária. Clique para mudar!"
+				}
+			},
+			"job_armor_variant": {
+				"clanmuramasa_archer": {
+					"display_name": "Prefira Armadura Muramasa",
+					"description": "Este Arqueiro atualmente prefere usar armaduras feitas pelo Muramasa. Clique para mudar!"
+				},
+				"clanmuramasa_cleric": {
+					"display_name": "Prefira Armadura Muramasa",
+					"description": "Este clérigo atualmente prefere usar armaduras feitas pelo Muramasa. Clique para mudar!"
+				},
+				"clanmuramasa_footman": {
+					"display_name": "Prefira Armadura Muramasa",
+					"description": "Este Footman atualmente prefere usar armaduras feitas pelo Muramasa. Clique para mudar!"
+				},
+				"clanmuramasa_knight": {
+					"display_name": "Prefira Armadura Muramasa",
+					"description": "Este Cavaleiro atualmente prefere usar armaduras feitas pelo Muramasa. Clique para mudar!"
+				}
+			},
+			"ring_bell": {
+				"display_name": "Tocar sino",
+				"description": "Deixe a campainha tocar."
+			},
+			"dismantle": {
+				"display_name": "Desmantelar",
+				"description": "Recupere a armadura do suporte."
+			},
+			"market": {
+				"display_name": "Comprar",
+				"description": "Abre uma vitrine",
+				"disabled_description": "À espera de um comerciante"
+			},
+			"transform": {
+				"upgrade_ornate_low_bed": {
+					"display_name": "Substitua por cama de futon de tatame ornamentado",
+					"description": "Peça a um trabalhador para substituir esta cama por uma cama de futon de tatame ornamentado criada pelo carpinteiro. Uma ordem de artesanato será dada se nenhuma cama de futon ornamentado for encontrada no inventário da cidade. O dono da cama permanecerá o mesmo."
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"clan_muramasa": {
+						"display_name": "Clã Muramasa",
+						"categories": {
+							"outpost": "Modelos de acampamento",
+							"settlement": "Modelos de cidade"
+						}
+					}
+				}
+			},
+			"building_templates": {
+				"mura_peasant_home": "🎑 Casa dos Camponeses",
+				"mura_house1": "🎑 Casa",
+				"mura_house2": "🎑 Casa para dois",
+				"mura_bar": "🎑 Barra",
+				"mura_warehouse": "🎑 Armazém",
+				"mura_sento_house": "🎑 Casa de Banho Sento",
+				"mura_barracks": "🎑 Quartel",
+				"mura_blacksmith_shop": "🎑 Loja do ferreiro",
+				"mura_carpenter_shop": "🎑 Carpintaria",
+				"mura_cook_shop": "🎑 Loja de Cozinheiros",
+				"mura_herbalist_shop": "🎑 Loja de ervas",
+				"mura_mason_workshop": "🎑 Oficina de pedreiro",
+				"mura_potter_workshop": "🎑 Oficina de Potter",
+				"mura_weaver_workshop": "🎑 Oficina de Tecelagem",
+				"mura_shepherd_ace": "🎑 Casa do Pastor",
+				"mura_coop_ace": "🎑 Cooperativa de Animais",
+				"mura_barn_ace": "🎑 Celeiro de Animais",
+				"mura_tea_brew_ace": "🎑 Casa do Chá",
+				"mura_pagoda": "🏯 Pagode Muramasa",
+				"mura_temple": "🏯 Templo Muramasa",
+				"mura_engineer_smith": "🏯 Engenheiro + Ferreiro",
+				"mura_cook_herbalist": "🏯 Cozinheiro + Herbalista",
+				"mura_carpenter_weaver": "🏯 Carpinteiro + Tecelão",
+				"mura_mason_potter": "🏯 Pedreiro + Oleiro",
+				"mura_fisher_hut": "🎑 Cabana do Pescador"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"yamato_ornates": {
+					"blacksmith_recipes": {
+						"bulletin_title": "Receitas aprendidas pelo ferreiro: equipamento ornamentado"
+					},
+					"carpenter_recipes": {
+						"bulletin_title": "Receitas aprendidas pelo carpinteiro: móveis ornamentados"
+					},
+					"mason_recipes": {
+						"bulletin_title": "Receitas aprendidas por Mason: itens ornamentados"
+					},
+					"potter_recipes": {
+						"bulletin_title": "Receitas aprendidas por Potter: Decorações ornamentadas"
+					},
+					"weaver_recipes": {
+						"bulletin_title": "Receitas aprendidas pelo tecelão: itens ornamentados"
+					}
+				},
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"tier_1_shops": {
+								"cm_weapon_armor_shop_1": {
+									"shop_info": {
+										"name": "Mercadorias Forjadas Tatara",
+										"title": "Chegou um comerciante de Muramasa com armas e armaduras à venda"
+									}
+								},
+								"cm_shop_1": {
+									"name": "Loja de itens simples de Muramasa",
+									"title": "Um comerciante chegou com itens do Oriente"
+								}
+							},
+							"tier_2_shops": {
+								"cm_weapon_armor_shop_2": {
+									"shop_info": {
+										"name": "Mercadorias Forjadas Tatara",
+										"title": "Um ferreiro do Muramasa está disponível para troca"
+									}
+								},
+								"cm_shop_2": {
+									"name": "Loja de itens de Muramasa",
+									"title": "Um pequeno grupo de Muramasa chegou com itens do Oriente"
+								}
+							},
+							"tier_3_shops": {
+								"cm_weapon_armor_shop_3": {
+									"shop_info": {
+										"name": "Loja de Masamune",
+										"title": "O lendário ferreiro Masamune está na cidade com mercadorias para vender"
+									}
+								},
+								"cm_shop_3": {
+									"name": "Loja de itens completos de Muramasa",
+									"title": "Uma caravana Muramasa muito organizada chegou com itens do Oriente"
+								}
+							}
+						}
+					}
+				},
+				"amaterasu_visit_campaign": {
+					"amaterasu_arrival": {
+						"dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Saudações a você, Clã Muramasa. Meu nome é Amaterasu.<br>Para cultivar nossa cultura básica, Arroz, existem requisitos únicos: um campo inundado em terra e luz solar para crescer adequadamente.<br><br>Primeiro, uma área pode ser escavada na terra para reter a água, e então a cultura do arroz pode ser plantada no solo submerso. Isso pode ser feito naturalmente perto de um lago ou rio, mas a água também pode ser colocada onde você escolher usando estes presentes:<br><p align='left'><font size=-1 color='#cccccc'>< i>\"A Pedra Molhada:\"</i> Uma área pode ser preenchida com água colocando esta pedra de convocação que emite líquido.<br><i>\"A Pedra Seca:\"</i> Uma pedra de convocação que pode secar umidade nas proximidades, se houver muita coisa no caminho.</font>"
+									},
+									"bulletin_title": "Amaterasu Chega!",
+									"dialog_title": "Uma introdução à agricultura de arroz",
+									"choice_000": "Obrigada! 🌊"
+								}
+							}
+						}
+					},
+					"geo_hearth_gift": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Olá novamente, Clã Muramasa. Você cresceu, através de sua dedicação e determinação. Eu aplaudo você.<br><br>Agora, ofereço a você outro presente, cheio da magia natural do nosso mundo, Hearth. Com este talismã, um membro pode usar a magia do Hearth para alterar a terra, usando Geomancia. Usando a essência colhida das plantas Hearthbud, eles criarão grandes coisas! <br><br><i>\"Amaterasu desaparece na luz.\"</i><br> Coloque essas plantas em algum lugar para colher sua essência:"
+									},
+									"bulletin_title": "Amaterasu vem de novo!",
+									"dialog_title": "Essência do Hearthbud",
+									"choice_000": "Geomante talentoso! 🏵"
+								}
+							}
+						}
+					}
+				},
+				"town_progression": {
+					"unlock_shrine_recipes": {
+						"bulletin_title": "Receitas de santuário de carpinteiro desbloqueadas!"
+					},
+					"town_founding_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Um curioso tanuki, com uma pequena mochila se aproxima, entregando-nos o <i>\"Correio Oficial do Shogunato Imperial\".</i> Ao lermos a carta do Shogun, lembramos como viemos parar aqui."
+									},
+									"bulletin_title": "O Mensageiro Tanuki aparece",
+									"dialog_title": "Tanuki do Shogun",
+									"choice_000": "Nossa história",
+									"choice_001": "[pular] Sabemos qual banner queremos."
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "O Clã Muramasa já viveu perto da costa leste, como um grupo industrioso, habilidoso em fabricar armas de aço excepcionais e produzir colheitas abundantes da terra fértil.<p>Eles prosperaram por gerações, afastando as forças do mal que invadiriam suas terras. de vez em quando.</p>"
+									},
+									"bulletin_title": "A casa à beira-mar",
+									"dialog_title": "Casa à beira-mar Muramasa",
+									"choice_000": "Continuar..."
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Cansado de seus monstros serem constantemente derrotados, o feroz Squid Kami no mar montou uma grande invasão um dia. <br><p>À medida que ganhava poder, desferiu o golpe final na cidade litorânea, estrondeando a terra e liberando uma onda de tsunami destrutiva.</p>"
+									},
+									"bulletin_title": "A Lula Kami",
+									"dialog_title": "A História Continua",
+									"choice_000": "A tragédia do mar"
+								},
+								"read_letter3": {
+									"bulletin_message": {
+										"00": "À medida que a gangue de monstros ganhava uma posição na região, havia alguns sobreviventes de Muramasa que escaparam. Eles viajaram o mais longe que puderam e chegaram para se estabelecer neste lugar agora. <br><br>O clã Muramasa mantém a esperança dentro de si, para reconstruir e resistir às forças do mal deste período. O Shogun está estendendo a mão, para fornecer ajuda."
+									},
+									"bulletin_title": "Fugindo para uma nova terra",
+									"dialog_title": "Espero reconstruir o clã",
+									"choice_000": "A ajuda de um Shogun"
+								},
+								"read_letter4": {
+									"bulletin_message": {
+										"00": "Clã Muramasa, o Shogun, sabe de sua tragédia e apoiará seus esforços de reconstrução. O xogunato deseja unificar todo o nosso povo, para lutar juntos contra as forças do mal que assolam as terras. <br><be>Dê um nome ao seu novo posto avançado e escolha um banner que represente suas habilidades: você receberá um bônus adequado.<br><p>Fique seguro,<br>Shogun,<br>Xogunato Imperial Oriental</br> p>"
+									},
+									"bulletin_title": "A Carta do Shogun",
+									"dialog_title": "Uma mensagem",
+									"choice_000": "Nós escolhemos..."
+								}
+							}
+						}
+					},
+					"town_founding_food_donation": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Aparentemente, Tanuki também trouxe alguns itens de comida, e a mochila de Tanuki contém uma pequena bolsa cheia de moedas, rotulada <i>\"Outpost Founding Incentive\"</i>."
+									},
+									"bulletin_title": "Tanuki entrega um presente",
+									"dialog_title": "Presente do Shogun",
+									"choice_000": "Isso deve ser útil!"
+								}
+							}
+						}
+					},
+					"bird_departs": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Uma vez que os formulários de fundação do posto avançado são preenchidos e armazenados em sua mochila, Tanuki começa sua jornada de volta à sede do Xogunato Imperial."
+									},
+									"bulletin_title": "Partidas de Tanuki",
+									"dialog_title": "Partidas de Tanuki",
+									"choice_000": "Esteja seguro, amigo peludo"
+								}
+							}
+						}
+					},
+					"hearth_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "O retorno de Tanuki!",
+									"dialog_title": "Outra Carta!",
+									"bulletin_message": {
+										"00": "O mensageiro tanuki retorna, com outra carta do Shogun."
+									},
+									"choice_000": "Abra a carta"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Parabéns pela sua fundação!<p>Seu posto avançado agora está oficialmente no registro imperial, e espero que você esteja no caminho certo para reconstruir uma nova cidade próspera!</p>"
+									},
+									"bulletin_title": "Uma resposta",
+									"dialog_title": "Uma resposta",
+									"choice_000": "A carta continua"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Para ajudar você a atingir esse objetivo valioso, estamos estendendo as estradas da Capital, incentivando viajantes corajosos e comerciantes a irem para [str(i18n_data.town_name)].</p>"
+									},
+									"bulletin_title": "Fortalecendo o Império",
+									"dialog_title": "Passos lentos para o nosso crescimento",
+									"choice_000": "Para concluir..."
+								},
+								"msg4": {
+									"bulletin_message": {
+										"00": "Por outro lado, esperamos que você comece a considerar outro estágio de crescimento para seu posto avançado. Sua renomada proeza na produção de armas para resistir aos monstros é valiosa para o Império, assim como sua habilidade em extrair minerais abundantes e alimentos desta terra.<p>Fique seguro!<br>Shogun<br>Xogunato Imperial Oriental< /p><br><font size=-1>PS Um pequeno presente para você, para dar sorte <font size=+2>✨</font></font>"
+									},
+									"bulletin_title": "Para ser considerado",
+									"dialog_title": "Para ser considerado",
+									"choice_000": "Póde ouro! Obrigado!"
+								}
+							}
+						}
+					},
+					"hearth_choice_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"makers": {
+									"bulletin_message": {
+										"00": "A <i>Hearth of Makers</i>, por outro lado, é para aqueles que acreditam que o valor de uma cidade é seu trabalho, e que seu trabalho é melhor medido em ouro."
+									},
+									"bulletin_title": "Marca do Criador",
+									"dialog_title": "Marca do Criador",
+									"choice_000": "Parece produtivo"
+								},
+								"final": {
+									"bulletin_message": {
+										"00": "Cheer, Glory ou Makers - a escolha é inteiramente sua. Pense no que é mais importante para o seu Assentamento e siga esse farol para o futuro!"
+									},
+									"bulletin_title": "Uma escolha",
+									"dialog_title": "Uma escolha",
+									"choice_000": "Nós escolhemos..."
+								},
+								"intro2": {
+									"bulletin_message": {
+										"00": "Como você sabe, as Lareiras têm sido a pedra angular dos assentamentos desde o antigo Império da Fênix.<p>Se não fosse por seu brilho, os bravos novos colonos nunca encontrariam seu caminho facilmente, e nossa sociedade teria se espalhado há muito tempo. O tipo de Hearth também diz muito sobre o que um Assentamento valoriza."
+									},
+									"bulletin_title": "Shogun continua",
+									"dialog_title": "O Shogun",
+									"choice_000": "Valores?"
+								},
+								"cheer": {
+									"bulletin_message": {
+										"00": "Por exemplo, um <i>Hearth of Cheer</i> é para aqueles que acreditam que o valor de uma cidade está em ser um lar feliz para seus cidadãos."
+									},
+									"bulletin_title": "Uma escolha alegre",
+									"dialog_title": "Uma escolha alegre",
+									"choice_000": "Parece pitoresco"
+								},
+								"intro3": {},
+								"glory": {
+									"bulletin_message": {
+										"00": "Finalmente, um <i>Lar da Glória</i> é para aqueles que acreditam que chega a hora de ser corajosos e vestir armaduras e armas de proteção, para proteger a terra pela força."
+									},
+									"bulletin_title": "Coragem e Glória",
+									"dialog_title": "Coragem e Glória",
+									"choice_000": "Parece heróico"
+								},
+								"intro": {
+									"bulletin_message": {
+										"00": "Olá! Desta vez estou visitando pessoalmente o Clã Muramasa, para ver seu posto avançado. Estamos muito impressionados com o progresso do seu posto avançado e decidimos que é hora de atualizar oficialmente seu status para um 'Acordo'.<p>Antes de podermos fazer isso, porém, é costume escolher uma Lareira para representar sua cidade .</p>"
+									},
+									"bulletin_title": "As Abordagens do Shogun",
+									"dialog_title": "Uma visita oficial",
+									"choice_000": "Obrigada!",
+									"choice_001": "[pular] Nós sabemos qual Hearth queremos."
+								}
+							}
+						}
+					},
+					"shrine_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg4": {
+									"bulletin_message": {
+										"00": "Estou fazendo arranjos para visitar seu Assentamento pessoalmente e, quando o fizer, estarei trazendo várias pessoas que manifestaram interesse em orientar e próximos assentamentos como o seu. Estes são membros altamente respeitados de nossa sociedade, então certifique-se de ter suas melhores refeições prontas!<p>Deus o abençoe!<br>Shogun<br>Xogunato Imperial Oriental</p>"
+									},
+									"bulletin_title": "Uma letra",
+									"dialog_title": "Uma letra",
+									"choice_000": "Que legal!"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Caros [str(i18n_data.town_name)]-ites,<p>Recebi muitos relatos de viajantes cantando todo tipo de elogios ao seu Assentamento. Estou tão feliz que sua determinação de crescer em força e habilidade está tendo sucesso!</p>"
+									},
+									"bulletin_title": "Uma letra",
+									"dialog_title": "Uma letra",
+									"choice_000": "Obrigado!"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Para progredir para a próxima etapa do seu Assentamento, você pode receber orientação de alguns especialistas do Império do Oriente, que podem ajudar a cruzar a ponte final para se tornar uma Cidade."
+									},
+									"bulletin_title": "Uma letra",
+									"dialog_title": "Uma letra",
+									"choice_000": "Excelente!"
+								},
+								"msg1": {
+									"bulletin_message": {
+										"00": "O Shogun está entrando em contato conosco novamente!"
+									},
+									"bulletin_title": "Tanuki está aqui novamente!",
+									"dialog_title": "Outra Carta!",
+									"choice_000": "Abra"
+								}
+							}
+						}
+					},
+					"shrine_choice_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"intro": {
+									"bulletin_message": {
+										"00": "Olá, [str(i18n_data.town_name)]!<p>Estou muito feliz em ver seu Acordo aqui hoje! <p>Agora, vamos ao que interessa. Aqui estão os guias potenciais que mencionei em minha última carta. Reserve um momento para ouvir o que eles têm a dizer.</p>"
+									},
+									"bulletin_title": "O Shogun Chegou!",
+									"dialog_title": "Shogun está aqui, com convidados!",
+									"choice_000": "Oh, tudo bem!",
+									"choice_001": "[pular] Já decidimos!"
+								},
+								"clergy": {
+									"bulletin_message": {
+										"00": "Saudações novamente, irmãos e irmãs! Eu sou Amaterasu, estou aqui para visitar todos vocês. A terra está cheia de mistérios e segredos. <br>Estando em sintonia com o ambiente, posso oferecer bênçãos especiais e ensinar como criar alguns itens decorativos adoráveis."
+									},
+									"bulletin_title": "A Deusa do Sol",
+									"dialog_title": "A Deusa do Sol",
+									"choice_000": "Honra a você."
+								},
+								"clergy_cont": {
+									"bulletin_message": {
+										"00": "Em troca de orientação, normalmente peço a um Assentamento para construir um Santuário Cleyera, evocando a natureza e as criaturas amigáveis ​​que podem ser encontradas, e reflexo de nossa exploração e aprendizado. <br>Uma vez que o santuário é abençoado, ele espalhará seus efeitos mágicos entre sua população, fortalecendo-os de maneiras estranhas e misteriosas.<br><br><font size=-1><i>Dedicar um Santuário Cleyera concederá a todos de seus habitantes um aumento de +1 nos atributos Mente, Corpo e Espírito.</i></font>"
+									},
+									"bulletin_title": "Amaterasu!",
+									"dialog_title": "Amaterasu",
+									"choice_000": "Que interessante!"
+								},
+								"makers": {
+									"bulletin_message": {
+										"00": "Vem cá, gente! Eu sou Shokuzen, um Mestre Artesão da Guilda Za, e um admirador deste seu pequeno Assentamento. Tão eficiente! Tão promissor! <br>Os bens que você está negociando com os outros Clãs são muito úteis para o crescimento do nosso Império.<br><br><font size=-1><i>Shokuzen examina e admira os móveis e as pedras finamente trabalhadas.</ i></font>"
+									},
+									"bulletin_title": "O Artesão",
+									"dialog_title": "O Artesão",
+									"choice_000": "Obrigada!"
+								},
+								"makers_cont": {
+									"bulletin_message": {
+										"00": "Como você sabe, a Guilda Za é uma importante agência de Crafters dentro do Império, então tenho certeza que você não está surpreso em me ver aqui. <br>Adoraríamos que você se juntasse à Guilda - acho que seu Assentamento pode produzir e exportar alguns dos melhores produtos que o Clã Muramasa tem a oferecer, com seus artesãos altamente qualificados.<br><br><font size=-1 ><i>Dedicar um Santuário Hinamatsuri concederá a capacidade de criar móveis e decorações com qualidade de obra-prima, que são consideravelmente melhores do que aqueles de excelente qualidade.</i></font>"
+									},
+									"bulletin_title": "Shokuzen!",
+									"dialog_title": "Shokuzen",
+									"choice_000": "Parece rentável!"
+								},
+								"military": {
+									"bulletin_message": {
+										"00": "Ei! Eu sou Oni! Não tenha medo, pela minha aparência... Eu me afastei do exército das trevas do Squid Kami há muito tempo, e um sacerdote xintoísta ajudou a purgar o mal dentro de mim. <br>Eu me juntei à força de defesa do Shogun e posso oferecer treinamento militar em várias técnicas de autodefesa. Suas lâminas mortais precisam ser empunhadas contra as invasões do mal!"
+									},
+									"bulletin_title": "O lutador",
+									"dialog_title": "O lutador",
+									"choice_000": "Bem vindo, Oni"
+								},
+								"military_cont": {
+									"bulletin_message": {
+										"00": "Achamos que seu povo mostrou que tem a força necessária para proteger este Assentamento e até alguns de seus vizinhos. <br>Então, gostaríamos que você construísse um Santuário Kami para ser um farol de força nessas terras e, em troca, compartilharei alguns de nossos esquemas exclusivos de armas e armaduras.<br><br><font size= -1><i>Dedicar o Santuário Kami lhe dará receitas para novas armas de nível mais alto.</i></font>"
+									},
+									"bulletin_title": "Oni!",
+									"dialog_title": "Oni",
+									"choice_000": "Nós vamos considerá-lo"
+								},
+								"summary": {
+									"bulletin_message": {
+										"00": "Então! Agora você conheceu todo mundo, cada um especialista com muito a oferecer. Não quero influenciar sua escolha, mas posso garantir que todos são muito poderosos e podem ajudar sua cidade a atingir todo o potencial.<p>Vou deixar os planos para cada um dos Santuários e outros enfeites com seu Carpinteiro .</p><p>Foi um prazer visitar, e estou ansioso para vê-lo novamente na cerimônia de dedicação!</p>"
+									},
+									"bulletin_title": "Shogun conclui",
+									"dialog_title": "Shogun conclui",
+									"choice_000": "Soa bem!"
+								}
+							}
+						}
+					},
+					"shrine_choice": {
+						"guildmaster": {
+							"name": "Santuário Hinamatsuri",
+							"description": "<i>Este município será conhecido por sua produtividade, riqueza e habilidade.</i><ul><li>Permite criar itens de qualidade Obra-prima</li><li>Desbloqueia receitas caseiras de decoração</li></ul >"
+						},
+						"deity": {
+							"name": "Santuário Cleyera",
+							"description": "<i>Este Município procurará aprender os segredos do mundo, a serviço de Amaterasu.</i><ul><li>Abençoa todos os cidadãos com +1 em Mente, Corpo e Espírito</li><li> Desbloqueia receitas de decoração dourada</li></ul>"
+						},
+						"valor": {
+							"name": "Santuário Kami",
+							"description": "<i>Este município será dedicado à proteção de toda a região circundante.</i><ul><li>Desbloqueia receitas de armas lendárias</li><li>Desbloqueia receitas de decoração exótica</li></ul>"
+						}
+					},
+					"shrine_quest_deity": {
+						"title": "Township Quest: Santuário Cleyera",
+						"dialog_title": "Township Quest: Santuário Cleyera"
+					},
+					"shrine_quest_guildmaster": {
+						"title": "Township Quest: Santuário Hinamatsuri",
+						"dialog_title": "Township Quest: Santuário Hinamatsuri"
+					},
+					"shrine_quest_valor": {
+						"title": "Missão do município: Santuário Kami",
+						"dialog_title": "Missão do município: Santuário Kami"
+					},
+					"shrine_upgrade_deity": {
+						"title": "Município estabelecido",
+						"reward_message": "Por decreto do Xogunato Imperial, reconhecemos:",
+						"reward_message_ctd": "Para aprender os mistérios do mundo. A cidade tem direito a:",
+						"achievements": {
+							"001": "Decorações de Potter",
+							"002": "Lâmpadas de ferreiro",
+							"003": "Bandeiras de tecelão"
+						},
+						"recipe_bulletins": {
+							"recipe_unlock_potter": "Novas receitas de decoração para Potter!",
+							"recipe_unlock_blacksmith": "Novas receitas de lâmpadas para Ferreiro!",
+							"recipe_unlock_weaver": "Novas receitas de banner para Weaver!"
+						}
+					},
+					"shrine_upgrade_guildmaster": {
+						"reward_message": "Por decreto do Xogunato Imperial, reconhecemos:",
+						"reward_message_ctd": "Pela excelência no artesanato. A cidade tem direito a:",
+						"achievements": {
+							"001": "Decorações de potes de oleiro",
+							"002": "Potter Decorações Florais",
+							"003": "Bancadas Decoradas Potter"
+						},
+						"recipe_bulletins": {
+							"recipe_unlock_potter": "Novas receitas de decoração de vasos, flores e bancadas para Potter!",
+							"recipe_unlock_mason": "Novas receitas de decoração de fontes para Mason!",
+							"recipe_unlock_herbalist": "Novas receitas de decoração para Herbalist!"
+						}
+					},
+					"shrine_upgrade_valor": {
+						"reward_message": "Por decreto do Xogunato Imperial, reconhecemos:",
+						"reward_message_ctd": "Por atos de incrível bravura em combate. A cidade tem direito a:",
+						"achievements": {
+							"001": "Receita de apanhador de sol de ferreiro",
+							"002": "Receita de pedestais de Potter",
+							"003": "Receitas de estandartes, arremessos e almofadas de tecelão"
+						},
+						"recipe_bulletins": {
+							"recipe_unlock_blacksmith": "Nova receita de apanhador de sol para o Ferreiro!",
+							"recipe_unlock_potter": "Novas receitas de pedestal para Potter!",
+							"recipe_unlock_weaver": "Novas receitas de banners, arremessos e almofadas para a Weaver!",
+							"recipe_unlock_weapons_1": "Nova receita de Espada Lendária - Ferreiro!",
+							"recipe_unlock_weapons_2": "Nova receita de Amuleto Lendário - Mason!",
+							"recipe_unlock_weapons_3": "Nova receita de Arco Lendário - Carpinteiro!",
+							"recipe_unlock_weapons_4": "Nova receita de bandana lendária - Weaver!"
+						}
+					},
+					"guild_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "Claro, com o nosso apoio, todos saberão que quando você chama algo de 'obra-prima', você está falando sério!<br/><br/>Não tenho dúvidas de que os comerciantes em breve farão o possível para pagar sua cidade uma visita. Eu esperaria muita companhia!"
+									},
+									"bulletin_title": "Shokuzen continua",
+									"dialog_title": "Shokuzen, Guilda Za",
+									"choice_000": "Faremos o nosso melhor!"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Tudo bem, chega de falar de negócios - vou encontrar um pouco de saquê e começar a dançar!<br/><br/>Surpreso? Você é tão velho quanto você age!"
+									},
+									"bulletin_title": "Shokuzen continua",
+									"dialog_title": "Shokuzen, Guilda Za",
+									"choice_000": "Divirta-se! Tome cuidado?"
+								},
+								"msg1": {
+									"bulletin_message": {
+										"00": "<font size=-1 color='#cccccc'>(Shokuzen acena com a cabeça, murmurando para si mesmo. 'Hmm... sim, acho que isso vai servir muito bem.')</font><br/><br />Ah! Muramasa Clan, você escolheu bem se inscrever como parte da rede da Za Guild, e certamente estamos felizes em tê-lo!"
+									},
+									"bulletin_title": "Shokuzen se inclina, examinando o Santuário",
+									"dialog_title": "Shokuzen, Guilda Za",
+									"choice_000": "Obrigado, Mestre Artesão!"
+								}
+							}
+						}
+					},
+					"valor_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "Ah! Eu acho que é verdade!<br/><br/>Então, eu trouxe os pergaminhos antigos instruindo o processo para forjar as temidas armas de poder - passe-os para seus artesãos, para que eles possam tentar descobrir como colocar ' em juntos."
+									},
+									"bulletin_title": "Oni continua",
+									"dialog_title": "Oni, Defensor",
+									"choice_000": "Tenho certeza que eles vão descobrir!"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Sem dúvida!<br/><br/>Tudo bem, estive em pé o dia todo, hora de sentar e festejar! Parabéns!"
+									},
+									"bulletin_title": "Oni continua",
+									"dialog_title": "Oni, Defensor",
+									"choice_000": "Obrigado, aproveite!"
+								},
+								"msg1": {
+									"bulletin_message": {
+										"00": "Uau, aposto que isso pode ser visto a quilômetros de distância! Aqueles goblins estarão correndo assustados em pouco tempo!<br/><br/>É bom que você tenha recebido meu treinamento, vamos derrubar os monstros e criar um Império pacífico!"
+									},
+									"bulletin_title": "Oni sorri largo",
+									"dialog_title": "Oni, Defensor",
+									"choice_000": "Você nos mostrou o caminho!"
+								}
+							}
+						}
+					},
+					"deity_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "Doravante, este Santuário abençoado concederá um pouco do meu poder a cada um de vocês.<br/><br/>Pondere. Leve essa curiosidade para o mundo com você enquanto negocia, explora ou recebe estranhos em sua cidade, na esperança de obter novos conhecimentos tentadores."
+									},
+									"bulletin_title": "Amaterasu continua",
+									"dialog_title": "Amaterasu, Deusa do Sol",
+									"choice_000": "Nós devemos!"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Claro, nós no Templo esperamos um relatório regular de qualquer acontecimento. Isso pode esperar, no entanto - por enquanto, é hora de todos nós comermos, bebermos e nos divertirmos!"
+									},
+									"bulletin_title": "Amaterasu continua",
+									"dialog_title": "Amaterasu, Deusa do Sol",
+									"choice_000": "Viva!"
+								},
+								"msg1": {
+									"bulletin_message": {
+										"00": "Bênçãos para vocês, irmãs e irmãos. Que santuário adequado você construiu!<br/><br/>Gosto especialmente da linda estátua de gatinho!"
+									},
+									"bulletin_title": "Amaterasu acena com a cabeça em aprovação",
+									"dialog_title": "Amaterasu, Deusa do Sol",
+									"choice_000": "Muito obrigado."
+								}
+							}
+						}
+					},
+					"post_shrine_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Maravilhoso, maravilhoso! Sua cidade certamente orgulha o nome Muramasa!<br/><br/>Obrigado por oferecer uma recepção tão agradável para nossos convidados e eu."
+									},
+									"bulletin_title": "O Shogun se aproxima, claramente satisfeito",
+									"dialog_title": "O Shogun",
+									"choice_000": "Nosso prazer, Shogun!"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "A propósito, este monumento sobre o qual estamos celebrando é especial - a fundação de uma cidade imbui um tipo especial de magia nele.<br/><br/>Construir mais estátuas e coisas do tipo pode servir para fins decorativos, mas não terá o mesmo tipo de brilho, se você entende o que quero dizer."
+									},
+									"bulletin_title": "Shogun continua",
+									"dialog_title": "O Shogun",
+									"choice_000": "Entendi!"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "<p align='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Tanuki, eu sei, é hora de ir.<br/>< br/>Eu adoraria ficar mais tempo, mas devo continuar na minha missão de unir os Clãs do Império.<br/><br/>Parabéns pelo seu sucesso, e obrigado por nunca ter feito muita papelada para mim."
+									},
+									"bulletin_title": "Shogun continua",
+									"dialog_title": "O Shogun",
+									"choice_000": "Até a próxima! E... sem problemas?"
+								}
+							}
+						}
+					},
+					"reembark_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Bênçãos, amigo! Agora que você está prosperando e estabelecido, gostaríamos de lembrá-lo de que o Xogunato Imperial está ajudando todos os novos assentamentos de clã!<p>Na verdade, se você quiser estabelecer outra cidade, ficaremos felizes em patrocinar um grande tripulação de embarque que pode transportar alguns de seus cidadãos daqui, bem como alguns bens e registros extras. Avise-nos quando estiver pronto!</p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></font></p>"
+									},
+									"bulletin_title": "É o Shogun de novo!",
+									"dialog_title": "Uma última coisa",
+									"choice_000": "Bom saber!"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"sunstroke_crafter_outfit": {
+			"display_name": "Chapéu de Artesão de Verão Muramasa"
+		},
+		"sunstroke_field_work_outfit": {
+			"display_name": "Chapéu de Trabalhador de Verão Muramasa"
+		},
+		"freezing_field_work_outfit": {
+			"display_name": "Chapéu de Trabalhador de Campo Muramasa",
+			"description": "Caloroso. Usado por trabalhadores de campo em estações frias. Protege do tempo frio."
+		},
+		"worker": {
+			"worker_description": {
+				"display_name": "Camponês",
+				"description": "Os camponeses realizam tarefas básicas como colher recursos, transportar coisas e construir edifícios, além de cuidar dos campos.",
+				"requirements": "Nenhum, apenas trabalho duro e coragem.",
+				"level_0_data": {
+					"title": "Camponês"
+				}
+			},
+			"peasant_mill": {
+				"peasant_mill_ghost": {
+					"display_name": "Moinho Camponês",
+					"description": "Usado por um camponês para moer grãos em farinha."
+				}
+			},
+			"peasant_workbench": {
+				"peasant_workbench_ghost": {
+					"display_name": "Caldeirão Camponês",
+					"description": "Usado pelo Camponês para receitas escassas."
+				}
+			},
+			"recipes": {
+				"peasant_mill_recipe": {
+					"description": "Para moer grãos em farinha.",
+					"recipe_name": "Moinho Camponês"
+				},
+				"peasant_workbench_recipe": {
+					"description": "Use para cozinhar refeições bastante básicas.",
+					"recipe_name": "Caldeirão Camponês",
+					"flavor": "Stone, para manter a comida quente por muito tempo."
+				}
+			}
+		},
+		"beast_tamer": {
+			"summons": {
+				"fox_kitsune": {
+					"display_name": "Kitsune Fox"
+				},
+				"oni": {
+					"display_name": "Oni"
+				},
+				"raiju_wolf": {
+					"display_name": "Lobo Raiju"
+				}
+			},
+			"beast_tamer_description": {
+				"level_1_data": {
+					"perk_000_name": "Plantas valentes",
+					"perk_000_description": "Um grupo de suculentas de elite chamado Plucky Plants se juntará e ajudará na luta"
+				},
+				"level_2_data": {
+					"perk_000_name": "Raposas de Kitsune",
+					"perk_000_description": "Convoca criaturas misteriosas de raposa para ajudar na batalha"
+				},
+				"level_4_data": {
+					"perk_000_name": "Oni",
+					"perk_000_description": "Convoca um par de bestas Oni para a luta"
+				},
+				"level_6_data": {
+					"perk_001_name": "Lobo Raiju",
+					"perk_001_description": "(Somente Hearthlings)<br>Convoca um lobo relâmpago, que inspira seus aliados e assusta o inimigo."
+				}
+			}
+		},
+		"ruler": {
+			"ruler_description_cm": {
+				"display_name": "Daimyo",
+				"description": "Um Daimyo, para liderar seu povo."
+			},
+			"cm": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "O Daimyo sabe que todas as batalhas podem ter consequências mortais e ataca com determinação renovada."
+					},
+					"level_2_data": {
+						"perk_000_description": "O Daimyo entra na batalha com velocidade."
+					},
+					"level_3_data": {
+						"perk_000_description": "O Daimyo aumenta a coragem de todos ao seu redor."
+					},
+					"level_5_data": {
+						"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do Daimyo."
+					},
+					"level_6_data": {
+						"perk_000_description": "O Daimyo inspira aqueles ao seu redor a lutar mais. (Buff de Força)"
+					}
+				}
+			}
+		},
+		"knight": {
+			"knight_description": {
+				"display_name": "Samurai"
+			},
+			"knight_outfit": {
+				"display_name": "Equipamento Samurai",
+				"description": "Armadura que permite o movimento desimpedido do usuário."
+			}
+		},
+		"footman": {
+			"footman_description": {
+				"display_name": "Ashigaru",
+				"description": "O Ashigaru é um lutador corpo a corpo. Uma boa escolha para a espinha dorsal da defesa da sua cidade."
+			},
+			"footman_outfit": {
+				"display_name": "Equipamento Ashigaru",
+				"description": "Roupas de combate que permitem ao usuário movimentos desimpedidos."
+			}
+		},
+		"cook": {
+			"recipes": {
+				"bento_basic_recipe": {
+					"recipe_name": "Caixa Bento Básica",
+					"description": "Arroz cozido e legumes, em uma caixa de viagem conveniente.",
+					"flavor": "Bento-Box, Bento, o que posso encontrar dentro de você? Comida, eu acho, e muito mais."
+				},
+				"bento_deluxe_recipe": {
+					"recipe_name": "Caixa Bento Deluxe",
+					"description": "Carne, ovo, arroz cozido e legumes, em uma caixa de viagem conveniente.",
+					"flavor": ""
+				},
+				"soy_sauce_recipe": {
+					"recipe_name": "Molho de soja",
+					"description": "Um ingrediente culinário feito de soja.",
+					"flavor": ""
+				},
+				"bento_fish_recipe": {
+					"recipe_name": "Peixe Bento",
+					"description": "Peixe, Legumes e Arroz, em uma caixa de viagem conveniente.",
+					"flavor": ""
+				},
+				"rice_and_veg_recipe": {
+					"recipe_name": "Arroz e Legumes",
+					"description": "Uma refeição simples de arroz e legumes fritos.",
+					"flavor": ""
+				},
+				"soba_noodles_recipe": {
+					"recipe_name": "Macarrão soba",
+					"description": "Macarrão soba, com molho de soja.",
+					"flavor": ""
+				},
+				"soy_and_meat_recipe": {
+					"recipe_name": "Sukiyaki",
+					"description": "Carne assada, com molho de soja, é bem salgada.",
+					"flavor": "Geralmente comido por aqueles de alto escalão."
+				},
+				"ramen_bowl_recipe": {
+					"recipe_name": "Tigela de Ramen",
+					"description": "Uma tigela de macarrão ramen.",
+					"flavor": ""
+				},
+				"dorayaki_recipe": {
+					"description": "Uma saborosa panqueca feita de farinha e recheada com grãos de baga.",
+					"recipe_name": "Panqueca Dorayaki",
+					"flavor": "Muito gostoso!"
+				},
+				"dango_recipe": {
+					"recipe_name": "Dango",
+					"description": "Um lanche mastigável, mas macio, de bolinho de arroz doce.",
+					"flavor": ""
+				},
+				"mochi_recipe": {
+					"recipe_name": "Mochi",
+					"description": "Snack doce e mole feito de arroz batido a martelo, com recheio doce.",
+					"flavor": ""
+				},
+				"onigiri_recipe": {
+					"recipe_name": "Onigiri",
+					"flavor": "",
+					"description": "Bolinhos de arroz levemente salgados, estes recheados com carne ou peixe. Um lanche prático."
+				},
+				"rabbit_feed_recipe": {
+					"description": "Comida para os coelhos."
+				},
+				"juice_haskap_recipe": {
+					"recipe_name": "Balde de suco de Haskap",
+					"description": "Crie uma bebida frutada de bagas de haskap selvagens.",
+					"flavor": ""
+				},
+				"greentea_recipe": {
+					"recipe_name": "Chá Verde Muramasa",
+					"description": "Uma bebida aromática e quente, apreciada por muitos! Fornece vários bônus para hearthlings.",
+					"flavor": "O chá preparado deve ser colocado em algum lugar para ser consumido"
+				},
+				"sake_recipe": {
+					"recipe_name": "Frasco de saquê",
+					"description": "Uma bebida alcoólica destilada e moderadamente forte de grãos de arroz.",
+					"flavor": "Um pouco seco demais..."
+				}
+			}
+		},
+		"blacksmith": {
+			"blacksmith_description": {
+				"level_2_data": {
+					"perk_000_name": "Mais minérios!",
+					"perk_000_description": "O Ferreiro agora é habilidoso o suficiente para processar mais tipos de minérios."
+				},
+				"level_4_data": {
+					"perk_000_name": "Idade do Bronze!",
+					"perk_000_description": "Os segredos do bronze agora estão disponíveis para o Ferreiro."
+				},
+				"level_1_data": {
+					"perk_000_name": "Era do aço!",
+					"perk_000_description": "O Ferreiro agora é habilidoso o suficiente para forjar itens pesados ​​feitos de ferro."
+				},
+				"level_3_data": {
+					"perk_mura_name": "Aço Frio",
+					"perk_mura_description": "Longas horas na forja desvendaram o segredo do aço: armas mais afiadas e armaduras mais leves."
+				}
+			},
+			"recipes": {
+				"charm_name": "Feitiços Omamori",
+				"ornate_equipment_name": "Equipamento ornamentado",
+				"knights_sword_recipe": {
+					"recipe_name": "Katana",
+					"description": "Usado para promover um Ashigaru em um Samurai",
+					"flavor": ""
+				},
+				"scepter_iron_mura_recipe": {
+					"recipe_name": "Cetro de Ferro",
+					"description": "Uma boa arma para o Sacerdote que entra na brecha.",
+					"flavor": "Pode ser usado ao lado de um escudo de luz"
+				},
+				"iron_omamori_recipe": {
+					"recipe_name": "Ferro Omamori",
+					"description": "Um amuleto improvisado defensivo para um Combatente.",
+					"flavor": "Abençoado por um sacerdote xintoísta."
+				},
+				"iron_katana_recipe": {
+					"recipe_name": "Katana de Ferro",
+					"description": "Uma espada afiada de uma mão, usada por Samurai.",
+					"flavor": ""
+				},
+				"iron_tanto_recipe": {
+					"recipe_name": "Tanto de Ferro",
+					"flavor": "",
+					"description": "Uma pequena arma improvisada de ferro."
+				},
+				"iron_naginata_recipe": {
+					"recipe_name": "Ferro Naginata",
+					"description": "Uma arma de lâmina longa de duas mãos.",
+					"flavor": ""
+				},
+				"iron_tekkokagi_recipe": {
+					"recipe_name": "Ferro Tekkokagi",
+					"description": "Uma arma de garra de ferro de uma mão.",
+					"flavor": ""
+				},
+				"iron_tekkokagi_offhand_recipe": {
+					"recipe_name": "Tekkokagi de Ferro improvisado",
+					"description": "Uma arma de garra de ferro improvisada.",
+					"flavor": ""
+				},
+				"iron_yari_recipe": {
+					"recipe_name": "Ferro Yari",
+					"description": "Uma lança longa de duas mãos.",
+					"flavor": ""
+				},
+				"iron_katana_2h_recipe": {
+					"recipe_name": "Ferro Nodachi",
+					"description": "Uma espada longa e afiada de duas mãos, usada por Samurai.",
+					"flavor": ""
+				},
+				"steel_katana_recipe": {
+					"recipe_name": "Katana de Aço",
+					"description": "Uma espada afiada de uma mão, usada por Samurai.",
+					"flavor": ""
+				},
+				"steel_tanto_recipe": {
+					"recipe_name": "Tanto de aço",
+					"description": "Uma pequena arma improvisada de aço.",
+					"flavor": ""
+				},
+				"ornate_sword_recipe": {
+					"recipe_name": "Katana ornamentada",
+					"description": "Uma espada de uma mão de ouro, reluzente, usada pelo Samurai (Cavaleiro).",
+					"flavor": "Reminiscente do Masamune"
+				},
+				"steel_naginata_recipe": {
+					"recipe_name": "Naginata de Aço",
+					"flavor": "",
+					"description": "Uma arma longa de duas mãos com lâmina de aço."
+				},
+				"steel_tekkokagi_recipe": {
+					"recipe_name": "Aço Tekkokagi",
+					"description": "Uma arma de garra de aço de uma mão.",
+					"flavor": ""
+				},
+				"steel_tekkokagi_offhand_recipe": {
+					"recipe_name": "Tekkokagi de aço improvisado",
+					"description": "Uma arma de garra de aço improvisada.",
+					"flavor": ""
+				},
+				"steel_yari_recipe": {
+					"recipe_name": "Aço Yari",
+					"flavor": "",
+					"description": "Uma longa lança de aço de duas mãos."
+				},
+				"steel_katana_2h_recipe": {
+					"recipe_name": "Aço Nodachi",
+					"description": "Uma longa e afiada espada de aço de duas mãos, usada por Samurai.",
+					"flavor": ""
+				},
+				"steel_charm_recipe": {
+					"recipe_name": "Amuleto de Aço",
+					"description": "Um Omamori improvisado defensivo para um Samurai.",
+					"flavor": "Abençoado por um sacerdote xintoísta."
+				},
+				"bronze_charm_recipe": {
+					"recipe_name": "Amuleto de Bronze",
+					"description": "Um Omamori defensivo improvisado para um Combatente.",
+					"flavor": "Abençoado por um sacerdote xintoísta."
+				},
+				"silver_charm_recipe": {
+					"recipe_name": "Amuleto de Prata",
+					"description": "Um Omamori improvisado defensivo para um Samurai.",
+					"flavor": "Abençoado por um sacerdote xintoísta."
+				},
+				"iron_ashigaru_helmet_recipe": {
+					"recipe_name": "Ferro Jingasa",
+					"description": "Proteção para a cabeça e escudos do sol!",
+					"flavor": ""
+				},
+				"steel_ashigaru_helmet_recipe": {
+					"recipe_name": "Jingasa de Aço",
+					"description": "Proteção para a cabeça e escudos do sol!",
+					"flavor": ""
+				},
+				"iron_circlet_recipe": {
+					"recipe_name": "Faixa de Ferro",
+					"description": "Uma faixa de proteção feita de ferro.",
+					"flavor": ""
+				},
+				"steel_circlet_recipe": {
+					"recipe_name": "Faixa de cabeça de aço",
+					"description": "Uma faixa de proteção trabalhada em aço.",
+					"flavor": ""
+				},
+				"bronze_circlet_recipe": {
+					"recipe_name": "Faixa de cabeça de bronze",
+					"description": "Uma faixa de proteção trabalhada em bronze.",
+					"flavor": ""
+				},
+				"iron_ashigaru_armor_recipe": {
+					"recipe_name": "Armadura de Ferro Ashigaru",
+					"flavor": "",
+					"description": "Armadura de proteção, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"steel_ashigaru_armor_recipe": {
+					"recipe_name": "Armadura de Aço Ashigaru",
+					"flavor": "",
+					"description": "Armadura de proteção, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"iron_samurai_helmet_recipe": {
+					"recipe_name": "Elmo Samurai de Ferro",
+					"description": "Um capacete de ferro, usado por Samurai.",
+					"flavor": ""
+				},
+				"iron_samurai_armor_recipe": {
+					"recipe_name": "Armadura de Samurai de Ferro",
+					"flavor": "",
+					"description": "Armadura de proteção, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"steel_samurai_helmet_recipe": {
+					"recipe_name": "Capacete Samurai de Aço",
+					"description": "Um capacete de aço, usado por Samurai.",
+					"flavor": ""
+				},
+				"steel_samurai_armor_recipe": {
+					"recipe_name": "Armadura de Samurai de Aço",
+					"flavor": "",
+					"description": "Armadura de aço protetora, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"iron_sam_archer_helmet_recipe": {
+					"recipe_name": "Elmo de Arqueiro Samurai de Ferro",
+					"description": "Um capacete de ferro, usado por arqueiros.",
+					"flavor": ""
+				},
+				"iron_sam_archer_armor_recipe": {
+					"recipe_name": "Armadura de Arqueiro Samurai de Ferro",
+					"flavor": "",
+					"description": "Armadura de proteção, permite ao usuário movimentos relativamente livres."
+				},
+				"steel_sam_archer_helmet_recipe": {
+					"recipe_name": "Elmo de Arqueiro Samurai de Aço",
+					"description": "Um capacete de aço, usado por arqueiros.",
+					"flavor": ""
+				},
+				"steel_sam_archer_armor_recipe": {
+					"recipe_name": "Armadura de Arqueiro Samurai de Aço",
+					"flavor": "",
+					"description": "Armadura de aço protetora, permite ao usuário movimentos relativamente livres."
+				},
+				"daimyo_samurai_armor_recipe": {
+					"recipe_name": "Armadura de Samurai Daimyo",
+					"flavor": "",
+					"description": "Armadura especializada em Daimyo, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"karuta_samurai_armor_recipe": {
+					"recipe_name": "Armadura do Samurai Karuta",
+					"flavor": "",
+					"description": "Armadura de aço com placas quadradas de bronze endurecido, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"karuta_samurai_helmet_recipe": {
+					"recipe_name": "Capacete Karuta Samurai",
+					"description": "Um capacete de aço com placas de bronze endurecido, usado por Samurai.",
+					"flavor": ""
+				},
+				"ornate_samurai_armor_recipe": {
+					"recipe_name": "Armadura de Samurai Ornamentada",
+					"flavor": "Defenda com a força de Kintaro",
+					"description": "Armadura de ouro reluzente, com proteção superior."
+				},
+				"ornate_samurai_helmet_recipe": {
+					"recipe_name": "Capacete de Samurai Ornamentado",
+					"description": "Um capacete de ouro precioso, usado pelo Samurai (Cavaleiro).",
+					"flavor": "Os inimigos temerão sua aura ofuscante"
+				},
+				"wall_swords_recipe": {
+					"recipe_name": "Placa Katana",
+					"description": "Uma exibição de duas Katanas.",
+					"flavor": "Samurai Daimyo Michal e Shogun Avairian: Mestres do código Bushido."
+				},
+				"shrine_bell_recipe": {
+					"recipe_name": "Sino Bonsho",
+					"description": "Um grande sino do templo de bronze que soa um tom calmante sobre a terra.",
+					"flavor": ""
+				},
+				"cm_two_handed_sword_valor_recipe": {
+					"description": "A melhor lâmina de Muramasa",
+					"recipe_name": "Espada Yokai",
+					"flavor": "Perfeitamente equilibrado para o seu tamanho, com sede de vingança."
+				},
+				"mura_stasis_suit_recipe": {
+					"recipe_name": "Fato de Estase Muramasa"
+				}
+			}
+		},
+		"engineer": {
+			"recipes": {
+				"armor_stands_name": "Suportes de armadura",
+				"armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura",
+					"description": "Um suporte nu que pode conter armaduras.",
+					"flavor": ""
+				},
+				"cloth_ashigaru_armor_stand_recipe": {
+					"recipe_name": "Suporte de Armadura de Tecido Ashigaru",
+					"description": "Uma exibição do Cloth Ashigaru Vest e Thatch Amigasa.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"wood_ashigaru_armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura de madeira Ashigaru",
+					"description": "Uma exibição da Wood Ashigaru Armor e Wood Jingasa.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"iron_ashigaru_armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura de ferro Ashigaru",
+					"description": "Uma exibição da armadura de ferro Ashigaru e capacete.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"steel_ashigaru_armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura de aço Ashigaru",
+					"description": "Uma exibição da Steel Ashigaru Armor e Helmet.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"iron_sam_archer_armor_stand_recipe": {
+					"recipe_name": "Suporte de Armadura de Arqueiro Samurai de Ferro",
+					"description": "Uma exibição da Armadura de Arqueiro Samurai de Ferro e Capacete.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"steel_sam_archer_armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura de arqueiro de samurai de aço",
+					"description": "Uma exibição da Steel Samurai Archer Armor e Helmet.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"iron_samurai_armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura de samurai de ferro",
+					"description": "Uma exibição da Armadura de Samurai de Ferro e Capacete.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"steel_samurai_armor_stand_recipe": {
+					"recipe_name": "Suporte de armadura de samurai de aço",
+					"description": "Uma exibição da Steel Samurai Armor e Helmet.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				},
+				"karuta_samurai_armor_stand_recipe": {
+					"recipe_name": "Suporte de Armadura do Samurai Karuta",
+					"description": "Uma exibição do Karuta Samurai Armor e Helmet.",
+					"flavor": "Pode ser desmontado para recuperar a armadura e o capacete"
+				}
+			}
+		},
+		"cleric": {
+			"cleric_description": {
+				"display_name": "Sacerdote Xintoísta"
+			},
+			"cleric_outfit": {
+				"display_name": "Manto Xintoísta",
+				"description": "Pano cerimonial dos praticantes do xintoísmo."
+			},
+			"cleric_stick": {
+				"display_name": "Cajado xintoísta",
+				"description": "Cajado de um sacerdote xintoísta",
+				"cleric_stick_iconic": {
+					"display_name": "Cajado xintoísta",
+					"description": "Cajado de um sacerdote xintoísta"
+				}
+			},
+			"cleric_tome": {
+				"cleric_tome_talisman": {
+					"display_name": "Cajado xintoísta",
+					"description": "Necessário para promover um hearthling a um sacerdote xintoísta"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"decorations_name": "Decorações",
+				"wall_panels_name": "Painéis de parede",
+				"donation_box_recipe": {
+					"recipe_name": "Caixa de doação",
+					"flavor": "",
+					"description": "Honra aos ancestrais, doações para os zeladores."
+				},
+				"decorative_fan_stand_recipe": {
+					"recipe_name": "Suporte de Ventilador Decorativo",
+					"flavor": "",
+					"description": "Um suporte para um elegante leque de papel."
+				},
+				"decorative_sign_recipe": {
+					"recipe_name": "Sinal Decorativo",
+					"flavor": "",
+					"description": "Um sinal em cima de um poste alto."
+				},
+				"shoji_lantern_recipe": {
+					"recipe_name": "Lanterna Shoji",
+					"flavor": "",
+					"description": "Uma lanterna clássica de madeira e papel."
+				},
+				"shoji_wall_lantern_recipe": {
+					"recipe_name": "Lanterna de Parede Shoji",
+					"flavor": "",
+					"description": "Uma lanterna de parede clássica em madeira e papel."
+				},
+				"shoji_camp_lamp_recipe": {
+					"recipe_name": "Lâmpada de acampamento Shoji",
+					"flavor": "",
+					"description": "Uma lâmpada de madeira e papel ao ar livre."
+				},
+				"shoji_wall_lamp_recipe": {
+					"recipe_name": "Luminária de Parede Shoji",
+					"flavor": "",
+					"description": "Uma lâmpada de madeira e papel montada na parede."
+				},
+				"shoji_sliding_door_recipe": {
+					"recipe_name": "Porta de correr Shoji",
+					"flavor": "",
+					"description": "Uma porta de correr de madeira clássica."
+				},
+				"shoji_sliding_door_squares_recipe": {
+					"recipe_name": "Porta de correr detalhada Shoji",
+					"flavor": "",
+					"description": "Uma porta de correr de madeira clássica com detalhes."
+				},
+				"shoji_sliding_wall_door_recipe": {
+					"recipe_name": "Porta de parede Shoji",
+					"flavor": "",
+					"description": "Uma porta deslizante da mesma largura que um painel de parede Shoji."
+				},
+				"shiro_gate_recipe": {
+					"recipe_name": "Portão Shiro",
+					"flavor": "",
+					"description": "Uma larga porta reforçada do castelo."
+				},
+				"birch_wall_recipe": {
+					"recipe_name": "Muro de Bétula",
+					"flavor": "",
+					"description": "Um painel de parede de bétula clássico."
+				},
+				"birch_focus_wall_recipe": {
+					"recipe_name": "Parede Foco de Bétula",
+					"flavor": "",
+					"description": "Um painel de parede de bétula clássico fino."
+				},
+				"outdoor_birch_wall_recipe": {
+					"recipe_name": "Parede de bétula ao ar livre",
+					"flavor": "",
+					"description": "Um painel de parede de bétula ao ar livre clássico."
+				},
+				"outdoor_birch_window_recipe": {
+					"recipe_name": "Janela de bétula ao ar livre",
+					"flavor": "",
+					"description": "Um painel de bétula clássico, com uma janela."
+				},
+				"shoji_wall_recipe": {
+					"recipe_name": "Muro Shoji",
+					"flavor": "",
+					"description": "Um painel de parede de madeira clássico."
+				},
+				"shoji_focus_wall_recipe": {
+					"recipe_name": "Parede de foco Shoji",
+					"flavor": "",
+					"description": "Um painel de parede de madeira clássico fino."
+				},
+				"outdoor_shoji_wall_recipe": {
+					"recipe_name": "Parede exterior Shoji",
+					"flavor": "",
+					"description": "Um painel de parede de madeira ao ar livre clássico."
+				},
+				"outdoor_shoji_window_recipe": {
+					"recipe_name": "Janela Shoji Externa",
+					"flavor": "",
+					"description": "Um painel de parede de madeira clássico, com uma janela."
+				},
+				"low_japanese_chair_recipe": {
+					"recipe_name": "Cadeira Zaisu",
+					"flavor": "",
+					"description": "Uma cadeira de madeira sem pernas, boa para se ajoelhar."
+				},
+				"mura_low_bed_recipe": {
+					"recipe_name": "Cama Tatami Futon",
+					"flavor": "",
+					"description": "Uma cama de baixo perfil, durável e confortável."
+				},
+				"mura_table_recipe": {
+					"recipe_name": "Mesa de tatame",
+					"flavor": "",
+					"description": "Uma mesa de madeira com superfície de tatame."
+				},
+				"ornate_mura_table_recipe": {
+					"recipe_name": "Mesa de tatame ornamentada",
+					"description": "Permite que um grupo de pessoas comam juntos. Como adultos.",
+					"flavor": "Sentar-se para comer é um sinal de civilização."
+				},
+				"ornate_low_bed_recipe": {
+					"recipe_name": "Cama de futon de tatame ornamentado",
+					"description": "Oito horas vão deixá-lo tão revigorado quanto no dia em que você nasceu.",
+					"flavor": "Ninguém nunca quer sair. Isso torna as evacuações de emergência difíceis."
+				},
+				"ornate_low_chair_recipe": {
+					"recipe_name": "Cadeira Zaisu ornamentada",
+					"description": "Seu assento acolchoado garante uma redução de 98% nas lascas estranhas!",
+					"flavor": "Se travesseiros são bons para a cabeça, com certeza são ainda melhores para o bumbum e as costas!"
+				},
+				"dresser_cm_recipe": {
+					"recipe_name": "Cômoda Keshoudai",
+					"flavor": "Uma cômoda para colocar em seus pertences.",
+					"description": "Armazenamento pequeno para 8 itens."
+				},
+				"input_shelf_weapon_recipe": {
+					"recipe_name": "Porta Armas de Madeira",
+					"description": "Um contêiner de suprimentos colocado no chão, para armazenamento seguro de armas brancas.",
+					"flavor": "A Katana de um Samurai é mortal e decorativa"
+				},
+				"go_table_recipe": {
+					"recipe_name": "Mesa Go",
+					"flavor": "",
+					"description": "Uma mesa com o jogo recreativo chamado Go."
+				},
+				"ashigaru_talisman_recipe": {
+					"recipe_name": "Lança Yari",
+					"description": "Usado para recrutar um camponês em um Ashigaru",
+					"flavor": ""
+				},
+				"archer_bow_recipe": {
+					"recipe_name": "Arco Yumi",
+					"description": "Usado para promover um Ashigaru em um Arqueiro Samurai",
+					"flavor": ""
+				},
+				"wood_ashigaru_helmet_recipe": {
+					"recipe_name": "Madeira Jingasa",
+					"description": "Proteção para a cabeça e escudos do sol!",
+					"flavor": ""
+				},
+				"wood_ashigaru_armor_recipe": {
+					"recipe_name": "Armadura de Madeira Ashigaru",
+					"flavor": "",
+					"description": "Armadura leve, que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"azusa_yumi_recipe": {
+					"recipe_name": "Azusa Yumi",
+					"description": "Um arco abençoado, permitindo ataques de flecha mais fortes e rápidos"
+				},
+				"higo_yumi_recipe": {
+					"recipe_name": "Higo Yumi",
+					"description": "Com núcleo reforçado, o alongamento permite flechas poderosas.",
+					"flavor": "O caçador e a caça como um"
+				},
+				"cm_bow_valor_recipe": {
+					"description": "O arco mais rápido do Muramasa",
+					"recipe_name": "Arco Yokai",
+					"flavor": "Um arco que exige habilidade de seu portador, mas o devolve em rajadas de flechas sobre seus inimigos"
+				},
+				"crafting_monument_recipe": {
+					"recipe_name": "Santuário Hinamatsuri",
+					"description": "Significa sua cidade como respeitável na elaboração"
+				},
+				"stats_monument_recipe": {
+					"description": "Um lugar para homenagear os espíritos naturais",
+					"recipe_name": "Santuário Cleyera"
+				},
+				"weapons_monument_recipe": {
+					"description": "Um farol de força para toda a região",
+					"recipe_name": "Santuário Kami"
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"toro_lantern_recipe": {
+					"recipe_name": "Toro lanterna",
+					"flavor": "",
+					"description": "Uma lanterna de pedra clássica."
+				},
+				"bigstone_lantern_recipe": {
+					"recipe_name": "Lanterna Toro Grande",
+					"flavor": "",
+					"description": "Uma grande lanterna de pedra, para decorar os espaços exteriores."
+				},
+				"ornate_stone_lantern_recipe": {
+					"recipe_name": "Lanterna Toro ornamentada",
+					"flavor": "",
+					"description": "Uma elegante lanterna de pedra, com alguns detalhes dourados, para iluminar a noite."
+				},
+				"stone_spear_recipe": {
+					"recipe_name": "Pedra Yari",
+					"flavor": "",
+					"description": "Uma lança pontiaguda de pedra afiada."
+				},
+				"mura_tunnel_door_recipe": {
+					"recipe_name": "Porta do túnel Muramasa",
+					"flavor": "",
+					"description": "Uma grande porta emoldurada em pedra em construção estilo Muramasa."
+				},
+				"ornate_tunnel_door_recipe": {
+					"recipe_name": "Porta ornamentada de Muramasa",
+					"flavor": "",
+					"description": "Uma grande porta de ouro e pedra em construção estilo Muramasa."
+				},
+				"mura_stone_window_recipe": {
+					"recipe_name": "Janela de Pedra Muramasa",
+					"flavor": "",
+					"description": "Uma janela emoldurada em pedra na construção do estilo Muramasa."
+				},
+				"sento_bath_recipe": {
+					"recipe_name": "Banho de Sento",
+					"flavor": "Desfrute de uma limpeza da mente e do corpo.",
+					"description": "Um grande banho comum, cheio de água aquecida. Um lugar alternativo para se aquecer e relaxar."
+				},
+				"warm_water_pot_recipe": {
+					"recipe_name": "Pote de Água Quente",
+					"flavor": "Os banhos de Sento são aquecidos com água morna.",
+					"description": "Uma pequena panela, a lenha em chamas aquece a água no interior."
+				},
+				"cm_giants_shield_recipe": {
+					"description": "O Omamori mais orgulhoso do Muramasa",
+					"recipe_name": "Amuleto de Gorudo",
+					"flavor": "Mesmo contra os inimigos mais terríveis e perigos impossíveis, este Omamori nunca quebrará."
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"cleric_stick_recipe": {
+					"recipe_name": "Cajado xintoísta",
+					"flavor": "SEJA -smack- ABENÇOADO -smack- JÁ",
+					"description": "Usado para recrutar um herbalista em um sacerdote xintoísta"
+				},
+				"cleric_stick_2_recipe": {
+					"recipe_name": "Cajado Gohei",
+					"flavor": "Fornece feitiços de cura e explosões mágicas de luz à distância",
+					"description": "Um cajado de cura de purificação, cajado xintoísta atualizado."
+				},
+				"daikon_transmute_recipe": {
+					"recipe_name": "Sementes de Daikon (x2)",
+					"description": "Separe as sementes das folhas mais novas",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas o vegetal é destruído no processo."
+				},
+				"haskap_bush_transmute_recipe": {
+					"description": "Separe as sementes da fruta",
+					"recipe_name": "Sementes de Haskap Bush (x3)",
+					"recipe_name_ace": "Sementes de Haskap Bush (x2)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas o fruto se perde no processo."
+				},
+				"susuki_transmute_recipe": {
+					"recipe_name": "Sementes Susuki (x2)",
+					"description": "Separe as sementes da fibra",
+					"flavor": "Somente uma mão habilidosa pode colher as sementes mais fracas, mas a fibra é perdida no processo."
+				},
+				"bamboo_recipe": {
+					"recipe_name": "Bambu Mura",
+					"flavor": "O bambu ou salgueiro sobrevive dobrando-se com o vento, enquanto uma árvore rígida é mais facilmente quebrada",
+					"description": "Arvoredo decorativo alto, cresce instantaneamente!"
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"mura_temple_door_recipe": {
+					"recipe_name": "Torii porta de barro",
+					"flavor": "",
+					"description": "Uma grande porta de barro em construção estilo Muramasa."
+				},
+				"green_teapot_recipe": {
+					"recipe_name": "Bule Muramasa",
+					"flavor": "",
+					"description": "Um bule decorativo de barro escuro. É preferido por Cozinheiros que preparam Chá Verde."
+				},
+				"pot_sakura_recipe": {
+					"recipe_name": "Sakura em vaso",
+					"flavor": "",
+					"description": "Um bonsai Sakura Cherry Blossom em uma panela de barro."
+				},
+				"ornate_teapot_recipe": {
+					"recipe_name": "Bule de chá muramasa ornamentado",
+					"flavor": "",
+					"description": "Um bule decorativo de barro claro. Apresenta uma linda alça de ouro."
+				},
+				"ornate_pot_sakura_recipe": {
+					"recipe_name": "Sakura em vaso ornamentado",
+					"flavor": "Kintsugi: usando ouro na restauração de cerâmica rachada",
+					"description": "Um bonsai Sakura Cherry Blossom em um pote de barro leve."
+				}
+			}
+		},
+		"geomancer": {
+			"recipes": {
+				"cm_hotspring_recipe": {
+					"recipe_name": "Fonte termal de Muramasa",
+					"flavor": "",
+					"description": "Um marco de água morna agradável."
+				}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"decorative_doll_female_recipe": {
+					"recipe_name": "Boneca Kimekomi",
+					"flavor": "",
+					"description": "Uma boneca feminina esculpida em madeira e adornada com tecidos."
+				},
+				"decorative_doll_male_recipe": {
+					"recipe_name": "Boneca Hina",
+					"flavor": "",
+					"description": "Um boneco masculino esculpido em madeira e adornado com fios."
+				},
+				"silk_lamp_red_recipe": {
+					"recipe_name": "Chochin lanterna vermelha",
+					"flavor": "",
+					"description": "Uma lanterna de parede coberta de seda vermelha."
+				},
+				"silk_lamp_white_recipe": {
+					"recipe_name": "Chochin lanterna branca",
+					"flavor": "",
+					"description": "Uma lanterna de parede coberta de seda branca."
+				},
+				"ornate_silk_lamp_recipe": {
+					"recipe_name": "Lanterna Chochin ornamentada",
+					"flavor": "",
+					"description": "Uma lanterna de parede coberta de seda branca, adornada em ouro."
+				},
+				"ornate_woven_chest_recipe": {
+					"recipe_name": "Baú de Tecido Ornamentado",
+					"flavor": "",
+					"description": "Bem armazena até 64 itens!"
+				},
+				"decorative_wall_scroll_recipe": {
+					"recipe_name": "Pergaminho de parede do Kakemono",
+					"flavor": "",
+					"description": "Um rolo de parede decorativo, artístico e agradável."
+				},
+				"decorative_wall_scroll_wide_recipe": {
+					"recipe_name": "Pergaminho de parede largo de Kakemono",
+					"flavor": "",
+					"description": "Um amplo rolo decorativo e artístico."
+				},
+				"cloth_ashigaru_armor_recipe": {
+					"recipe_name": "Colete de Tecido Ashigaru",
+					"flavor": "",
+					"description": "Armadura leve, que permite ao usuário movimentos desimpedidos."
+				},
+				"cloth_ashigaru_helmet_recipe": {
+					"recipe_name": "Thatch Amigasa",
+					"flavor": "",
+					"description": "Chapéu de viagem leve, capacete escasso."
+				},
+				"ornate_shinto_armor_recipe": {
+					"recipe_name": "Manto Ornamentado de Sacerdote Xintoísta",
+					"description": "Crie uma roupa sagrada e mais protetora para o sacerdote xintoísta. Também oferece bônus.",
+					"flavor": "Sua fé é seu escudo... mas um pouco de couro provavelmente ajudará"
+				},
+				"sunstroke_crafter_outfit_recipe": {
+					"recipe_name": "Chapéu de Artesão de Verão Muramasa"
+				},
+				"sunstroke_field_work_outfit_recipe": {
+					"recipe_name": "Chapéu de Trabalhador de Verão Muramasa"
+				},
+				"freezing_field_work_outfit_recipe": {
+					"recipe_name": "Chapéu de Trabalhador de Campo Muramasa",
+					"description": "Um chapéu quente. Protege do tempo frio.",
+					"flavor": "Este item só pode ser equipado por civis que trabalham fora, como pastores, fazendeiros ou caçadores"
+				},
+				"cm_tent": {
+					"flavor": "\"Uma boa barraca de uma pessoa com um saco de dormir.\"",
+					"description": "Abriga você enquanto você dorme.",
+					"recipe_name": "Barraca Muramasa"
+				},
+				"cm_legendary_circlet_recipe": {
+					"description": "Usado pelos melhores curandeiros xintoístas de Muramasa",
+					"recipe_name": "Faixa de Gorudo",
+					"flavor": "Canaliza o coração e a alma em luz de cura"
+				}
+			}
+		},
+		"archer": {
+			"archer_description": {
+				"display_name": "Arqueiro Samurai"
+			},
+			"archer_outfit": {
+				"display_name": "Equipamento de arqueiro samurai",
+				"description": "Armadura que permite o movimento desimpedido do usuário."
+			}
+		}
+	},
+	"entities": {
+		"npc": {
+			"female": {
+				"amaterasu": {
+					"display_name": "Amaterasu",
+					"description": "Uma Deusa do Sol de Muramasa."
+				}
+			},
+			"male": {
+				"tanuki": {
+					"display_name": "Tanuki",
+					"description": "Um animal mensageiro brincalhão."
+				},
+				"shogun": {
+					"display_name": "Shogun",
+					"description": "O Shogun Imperial Samurai."
+				},
+				"shokuzen": {
+					"display_name": "Shokuzen",
+					"description": "Um mestre artesão da Guilda Za."
+				},
+				"oni": {
+					"display_name": "Oni",
+					"description": "Um forte Ogre, prestando serviço ao Shogun."
+				}
+			}
+		},
+		"food": {
+			"haskaps": {
+				"haskap_basket": {
+					"display_name": "Cesta de Haskaps",
+					"description": "Doce como mel, frutas nutritivas."
+				},
+				"haskap_serving": {
+					"display_name": "Prato de Haskaps",
+					"description": "Eles ficam ótimos com leite frio também."
+				}
+			},
+			"rice_cm": {
+				"paddy_basket": {
+					"display_name": "Cesta de Arroz",
+					"description": "Sementes de grama não moída. Pode ser transformado em arroz cru ou farinha."
+				},
+				"raw_rice": {
+					"display_name": "Saco de arroz cru",
+					"description": "Deliciosos grãos prontos para serem usados ​​na culinária ou como legume."
+				},
+				"rice_flour": {
+					"display_name": "Saco de Farinha de Arroz",
+					"description": "Uma alternativa formidável para a farinha de trigo."
+				}
+			},
+			"bento_basic": {
+				"bento_basic": {
+					"display_name": "Caixa Bento Simples",
+					"description": "Uma refeição prática, composta por arroz e legumes embalados ordenadamente em um recipiente conveniente."
+				},
+				"bento_basic_serving": {
+					"display_name": "Porção Simples em Caixa Bento",
+					"description": "Uma refeição prática, composta por arroz e legumes embalados ordenadamente em um recipiente conveniente."
+				}
+			},
+			"bento_deluxe": {
+				"loadout": "Caixa Bento",
+				"bento_deluxe": {
+					"display_name": "Caixa Bento Deluxe",
+					"description": "Uma refeição premium conveniente, composta por arroz, carne, ovo e legumes embalados ordenadamente em um recipiente conveniente."
+				},
+				"bento_deluxe_serving": {
+					"display_name": "Caixa Bento Deluxe",
+					"description": "Uma refeição premium conveniente, composta por arroz, carne, ovo e legumes embalados ordenadamente em um recipiente conveniente."
+				}
+			},
+			"bento_fish": {
+				"bento_fish": {
+					"display_name": "Peixe Bento",
+					"description": "Uma refeição prática, composta por arroz, peixe e legumes embalados ordenadamente num recipiente conveniente."
+				},
+				"bento_fish_serving": {
+					"display_name": "Peixe Bento",
+					"description": "Uma refeição prática, composta por arroz, peixe e legumes embalados ordenadamente num recipiente conveniente."
+				}
+			},
+			"soba_noodles": {
+				"soba_noodles": {
+					"display_name": "Macarrão soba",
+					"description": "Macarrão soba com molho de soja, uma refeição popular."
+				},
+				"soba_noodles_serving": {
+					"display_name": "Macarrão soba",
+					"description": "Macarrão soba com molho de soja, uma refeição popular."
+				}
+			},
+			"soy_sauce": {
+				"display_name": "Molho de soja",
+				"description": "Um molho feito de soja."
+			},
+			"soy_and_meat": {
+				"soy_and_meat": {
+					"display_name": "Sukiyaki",
+					"description": "Carne assada com molho de soja, uma refeição salgada."
+				},
+				"soy_and_meat_serving": {
+					"display_name": "Sukiyaki",
+					"description": "Carne assada com molho de soja, uma refeição salgada."
+				}
+			},
+			"ramen_bowl": {
+				"ramen_bowl": {
+					"display_name": "Tigela de Ramen",
+					"description": "Uma tigela de Ramen quente"
+				},
+				"ramen_bowl_serving": {
+					"display_name": "Tigela de Ramen",
+					"description": "Uma tigela de Ramen quente"
+				}
+			},
+			"rice_and_veg": {
+				"rice_and_veg_serving": {
+					"display_name": "Arroz com legumes fritos",
+					"description": "Uma tigela de arroz com legumes fritos."
+				},
+				"rice_and_veg": {
+					"display_name": "Arroz com legumes fritos",
+					"description": "Uma tigela de arroz com legumes fritos."
+				}
+			},
+			"dorayaki": {
+				"dorayaki": {
+					"display_name": "Dorayaki",
+					"description": "Um deserto de panqueca de feijão berry."
+				},
+				"dorayaki_serving": {
+					"display_name": "Dorayaki",
+					"description": "Um deserto de panqueca de feijão berry."
+				}
+			},
+			"dango": {
+				"dango": {
+					"display_name": "Dango",
+					"description": "Um lanche mastigável, mas macio, de bolinho de arroz doce."
+				},
+				"dango_serving": {
+					"display_name": "Dango",
+					"description": "Um lanche mastigável, mas macio, de bolinho de arroz doce."
+				}
+			},
+			"mochi": {
+				"mochi": {
+					"display_name": "Mochi",
+					"description": "Lanche doce e macio feito de arroz batido por martelos."
+				},
+				"mochi_serving": {
+					"display_name": "Mochi",
+					"description": "Lanche doce e macio feito de arroz batido por martelos."
+				}
+			},
+			"onigiri": {
+				"onigiri": {
+					"display_name": "Onigiri",
+					"description": "Bolinhos de arroz levemente salgados, recheados com carne. Um lanche prático."
+				},
+				"onigiri_serving": {
+					"description": "Uma bola de arroz levemente salgada, recheada com carne. Um lanche prático.",
+					"display_name": "Onigiri"
+				}
+			}
+		},
+		"weapons": {
+			"cleric_stick_2": {
+				"description": "Um cajado de cura de purificação.",
+				"display_name": "Cajado Gohei"
+			},
+			"scepter_iron_mura": {
+				"description": "Um Sacerdote que entra na brecha precisará de um companheiro robusto.",
+				"display_name": "Cetro de Ferro"
+			},
+			"sword_iron": {
+				"sword_iron_iconic": {
+					"display_name": "Samurai Katana",
+					"description": "Uma espada de ferro curvada fresada, boa para fatiar."
+				},
+				"display_name": "Samurai Katana",
+				"description": "Uma espada de ferro curvada fresada, boa para fatiar.",
+				"talisman": {
+					"display_name": "Katana",
+					"description": "Usado para promover um Ashigaru (Footman) em um Samurai (Knight)"
+				}
+			},
+			"sword_iron2": {
+				"sword_iron_iconic": {
+					"display_name": "Katana de Ferro",
+					"description": "Uma espada de ferro curvada fresada, boa para fatiar. Para um Samurai (Cavaleiro)"
+				},
+				"display_name": "Katana de Ferro",
+				"description": "Uma espada de ferro curvada fresada, boa para fatiar. Para um Samurai (Cavaleiro)"
+			},
+			"sword_steel": {
+				"sword_steel_iconic": {
+					"display_name": "Katana de Aço",
+					"description": "Uma espada de aço curvada fresada, boa para fatiar. Para um Samurai (Cavaleiro)"
+				},
+				"display_name": "Katana de Aço",
+				"description": "Uma espada de aço curvada fresada, boa para fatiar. Para um Samurai (Cavaleiro)"
+			},
+			"sword_ornate": {
+				"sword_ornate_iconic": {
+					"display_name": "Katana ornamentada",
+					"description": "Uma espada dourada brilhante, boa para cortar. Para um Samurai (Cavaleiro)"
+				},
+				"display_name": "Katana ornamentada",
+				"description": "Uma espada dourada brilhante, boa para cortar. Para um Samurai (Cavaleiro)"
+			},
+			"knife_iron_offhand": {
+				"display_name": "Tanto de Ferro",
+				"description": "Uma faca de ferro, muitas vezes combinada com uma Katana. Para um Samurai (Cavaleiro)"
+			},
+			"knife_steel_offhand": {
+				"display_name": "Tanto de aço",
+				"description": "Uma faca de aço, muitas vezes combinada com uma Katana. Para um Samurai (Cavaleiro)"
+			},
+			"sword_iron_2h": {
+				"display_name": "Ferro Nodachi (2h)",
+				"description": "Uma espada de duas mãos de ferro com lâmina grande. Para um Samurai (Cavaleiro)"
+			},
+			"sword_steel_2h": {
+				"display_name": "Nodachi de Aço (2h)",
+				"description": "Uma grande espada de duas mãos de lâmina de aço. Para um Samurai (Cavaleiro)"
+			},
+			"glaive_iron": {
+				"display_name": "Ferro Naginata",
+				"description": "Uma arma de ferro. Para um Samurai (Cavaleiro)"
+			},
+			"glaive_steel": {
+				"display_name": "Naginata de Aço",
+				"description": "Uma arma de aço. Para um Samurai (Cavaleiro)"
+			},
+			"footman_spear": {
+				"display_name": "Lança Yari",
+				"description": "Uma simples lança de madeira, usada pelos recrutas Ashigaru (Footman).",
+				"footman_spear_iconic": {
+					"display_name": "Lança Yari",
+					"description": "Uma simples lança de madeira, usada pelos recrutas Ashigaru (Footman)."
+				},
+				"wooden_spear_iconic": {
+					"description": "Uma simples lança de madeira, usada pelos recrutas Ashigaru (Footman)."
+				}
+			},
+			"stone_spear": {
+				"display_name": "Pedra Yari",
+				"description": "Uma arma Ashigaru (Footman) para assediar o inimigo.",
+				"stone_spear_iconic": {
+					"display_name": "Pedra Yari",
+					"description": "Uma arma Ashigaru (Footman) para assediar o inimigo."
+				}
+			},
+			"iron_tekkokagi": {
+				"display_name": "Ferro Tekkokagi",
+				"description": "Uma arma de punho de ferro, usada por Ashigaru (Footman)"
+			},
+			"steel_tekkokagi": {
+				"display_name": "Aço Tekkokagi",
+				"description": "Uma arma de punho de aço, usada por Ashigaru (Footman)"
+			},
+			"iron_tekkokagi_offhand": {
+				"display_name": "Tekkokagi de Ferro improvisado",
+				"description": "Uma arma de punho de ferro improvisada, usada por Ashigaru (Footman)"
+			},
+			"steel_tekkokagi_offhand": {
+				"display_name": "Tekkokagi de aço improvisado",
+				"description": "Uma arma de punho de aço improvisada, usada por Ashigaru (Footman)"
+			},
+			"yari_iron": {
+				"display_name": "Ferro Yari",
+				"description": "Uma lança de ferro, usada por Ashigaru (Footman)"
+			},
+			"yari_steel": {
+				"display_name": "Aço Yari",
+				"description": "Uma lança de aço, usada por Ashigaru (Footman)"
+			},
+			"archer_bow": {
+				"display_name": "Arco Yumi",
+				"description": "Um simples arco de madeira, usado por Samurai Archer (Archer)"
+			},
+			"bow": {
+				"bow_talisman": {
+					"display_name": "Arco Yumi",
+					"description": "Usado para promover um Ashigaru (Footman) em um Samurai Archer (Archer)"
+				}
+			},
+			"azusa_yumi": {
+				"display_name": "Azusa Yumi",
+				"description": "Curvo para tiros mais rápidos e mais fortes. Para um Arqueiro Samurai (Arqueiro)"
+			},
+			"higo_yumi": {
+				"display_name": "Higo Yumi",
+				"description": "Com um núcleo reforçado, o alongamento é poderoso. Para um Arqueiro Samurai (Arqueiro)"
+			},
+			"wooden_sword": {
+				"wooden_sword_talisman": {
+					"display_name": "Lança Yari",
+					"description": "Recruta um Camponês (Trabalhador) em um Ashigaru (Lacaio)"
+				}
+			},
+			"cm_legendary_bow": {
+				"display_name": "Arco Yokai",
+				"description": "O arco mais rápido de Muramasa"
+			},
+			"cm_legendary_sword": {
+				"display_name": "Espada Yokai",
+				"description": "A melhor lâmina de Muramasa"
+			}
+		},
+		"drink": {
+			"juice_haskap": {
+				"juice_haskap": {
+					"display_name": "Suco Haskap",
+					"description": "Uma bebida frutada e saborosa de bagas de haskap selvagens."
+				},
+				"juice_haskap_serving": {
+					"display_name": "Xícara de Suco Haskap"
+				}
+			},
+			"sake": {
+				"sake": {
+					"display_name": "Interesse",
+					"description": "Um vinho alcoólico de arroz, também apreciado quente."
+				},
+				"sake_serving": {
+					"display_name": "Interesse"
+				}
+			},
+			"green_tea": {
+				"green_tea": {
+					"display_name": "Chá verde",
+					"description": "Um chá de ervas verdes, bom para relaxar."
+				},
+				"green_tea_serving": {
+					"display_name": "Chá verde"
+				}
+			},
+			"green_tea_iconic": {
+				"description": "Chá verde"
+			}
+		},
+		"armor": {
+			"knights_shield": {
+				"shield_talisman": {
+					"display_name": "Katana",
+					"description": "Necessário para promover um Hearthling para um Samurai (Cavaleiro)"
+				},
+				"display_name": "Katana",
+				"description": "Por defender seus aliados"
+			},
+			"cloth_ashigaru_armor": {
+				"cloth_ashigaru_armor_iconic": {
+					"display_name": "Colete de Tecido Ashigaru",
+					"description": "Roupa leve de Ashigaru (Footman), que permite o movimento desimpedido do usuário."
+				},
+				"description": "Armadura leve de Ashigaru (Footman), que permite ao usuário movimentos desimpedidos.",
+				"display_name": "Armadura de Tecido Ashigaru"
+			},
+			"cloth_ashigaru_helmet": {
+				"cloth_ashigaru_helmet_iconic": {
+					"display_name": "Thatch Amigasa",
+					"description": "Chapéu de viagem leve, proteção escassa."
+				},
+				"description": "Chapéu de viagem leve, proteção escassa.",
+				"display_name": "Thatch Amigasa"
+			},
+			"wood_ashigaru_helmet": {
+				"display_name": "Madeira Jingasa",
+				"description": "Proteção para a cabeça e escudos do sol!"
+			},
+			"wood_ashigaru_armor": {
+				"wood_ashigaru_armor_iconic": {
+					"display_name": "Armadura de Madeira Ashigaru",
+					"description": "Armadura de Ashigaru (Footman), que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"description": "Armadura de Ashigaru (Footman), que permite ao usuário movimentos relativamente desimpedidos.",
+				"display_name": "Armadura de Madeira Ashigaru"
+			},
+			"ornate_shinto_armor": {
+				"display_name": "Manto Ornamentado de Sacerdote Xintoísta",
+				"description": "Uma roupa sagrada e mais protetora para o Sacerdote Xintoísta (Clérigo)"
+			},
+			"iron_circlet_cm": {
+				"display_name": "Faixa de Ferro",
+				"description": "Faixa de proteção para um sacerdote xintoísta (clérigo)"
+			},
+			"steel_circlet_cm": {
+				"display_name": "Faixa de cabeça de aço",
+				"description": "Faixa de proteção para um sacerdote xintoísta (clérigo)"
+			},
+			"bronze_circlet_cm": {
+				"display_name": "Faixa de cabeça de bronze",
+				"description": "Faixa de proteção para um sacerdote xintoísta (clérigo)"
+			},
+			"iron_ashigaru_helmet": {
+				"display_name": "Ferro Jingasa",
+				"description": "Proteção para a cabeça e escudos do sol!"
+			},
+			"iron_ashigaru_armor": {
+				"iron_ashigaru_armor_iconic": {
+					"display_name": "Armadura de Ferro Ashigaru",
+					"description": "Armadura protetora de Ashigaru (Footman), que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"description": "Armadura protetora de ferro Ashigaru (Footman), que permite ao usuário movimentos relativamente desimpedidos.",
+				"display_name": "Armadura de Ferro Ashigaru"
+			},
+			"steel_ashigaru_helmet": {
+				"display_name": "Jingasa de Aço",
+				"description": "Proteção para a cabeça e escudos do sol!"
+			},
+			"steel_ashigaru_armor": {
+				"steel_ashigaru_armor_iconic": {
+					"display_name": "Armadura de Aço Ashigaru",
+					"description": "Armadura protetora de Ashigaru (Footman), que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"description": "Armadura protetora de aço Ashigaru (Footman), que permite ao usuário movimentos relativamente desimpedidos.",
+				"display_name": "Armadura de Aço Ashigaru"
+			},
+			"iron_samurai_armor": {
+				"iron_samurai_armor_iconic": {
+					"display_name": "Armadura de Samurai de Ferro",
+					"description": "Armadura protetora de Samurai (Cavaleiro), que permite ao usuário movimentos relativamente desimpedidos."
+				},
+				"description": "Armadura protetora de ferro Samurai (Cavaleiro), que permite ao usuário movimentos relativamente desimpedidos.",
+				"display_name": "Armadura de Samurai de Ferro"
+			},
+			"iron_samurai_helmet": {
+				"iron_samurai_helmet_iconic": {
+					"display_name": "Elmo Samurai de Ferro",
+					"description": "Um capacete de ferro, usado por Samurai (Knight)"
+				},
+				"display_name": "Elmo Samurai de Ferro",
+				"description": "Um capacete de ferro, usado por Samurai (Knight)"
+			},
+			"iron_sam_archer_armor": {
+				"iron_sam_archer_armor_iconic": {
+					"display_name": "Armadura de Arqueiro Samurai de Ferro",
+					"description": "Armadura protetora de Samurai (Archer), permite ao usuário movimentos relativamente livres."
+				},
+				"description": "Armadura protetora de ferro Samurai (Archer), permite ao usuário movimentos relativamente livres.",
+				"display_name": "Armadura de Arqueiro Samurai de Ferro"
+			},
+			"iron_sam_archer_helmet": {
+				"iron_sam_archer_helmet_iconic": {
+					"display_name": "Elmo de Arqueiro Samurai de Ferro",
+					"description": "Um capacete de ferro, usado por arqueiros"
+				},
+				"display_name": "Elmo de Arqueiro Samurai de Ferro",
+				"description": "Um capacete de ferro, usado por arqueiros"
+			},
+			"steel_samurai_armor": {
+				"display_name": "Armadura de Samurai de Aço",
+				"description": "Armadura protetora de aço Samurai (Knight), que permite ao usuário movimentos relativamente desimpedidos.",
+				"steel_samurai_armor_iconic": {
+					"description": "Armadura protetora de aço Samurai (Knight), que permite ao usuário movimentos relativamente desimpedidos.",
+					"display_name": "Armadura de Samurai de Aço"
+				}
+			},
+			"steel_samurai_helmet": {
+				"display_name": "Capacete Samurai de Aço",
+				"steel_samurai_helmet_iconic": {
+					"display_name": "Capacete Samurai de Aço",
+					"description": "Um capacete de aço, usado por Samurai (Knight)"
+				},
+				"description": "Um capacete de aço, usado por Samurai (Knight)"
+			},
+			"steel_sam_archer_armor": {
+				"steel_sam_archer_armor_iconic": {
+					"display_name": "Armadura de Arqueiro Samurai de Aço",
+					"description": "Armadura protetora de Samurai (Archer), permite ao usuário movimentos relativamente livres."
+				},
+				"description": "Armadura protetora de aço Samurai (Archer), permite ao usuário movimentos relativamente livres.",
+				"display_name": "Armadura de Arqueiro Samurai de Aço"
+			},
+			"steel_sam_archer_helmet": {
+				"steel_sam_archer_helmet_iconic": {
+					"display_name": "Elmo de Arqueiro Samurai de Aço",
+					"description": "Um capacete de aço, usado por arqueiros"
+				},
+				"display_name": "Elmo de Arqueiro Samurai de Aço",
+				"description": "Um capacete de aço, usado por arqueiros"
+			},
+			"daimyo_samurai_armor": {
+				"display_name": "Armadura de Samurai Daimyo",
+				"description": "Armadura de especialidade Daimyo Samurai, permite ao usuário movimentos relativamente desimpedidos.",
+				"daimyo_samurai_armor_iconic": {
+					"description": "Armadura Daimyo Samurai, permite ao usuário movimentos relativamente desimpedidos.",
+					"display_name": "Armadura de Samurai Daimyo"
+				}
+			},
+			"karuta_samurai_armor": {
+				"display_name": "Armadura do Samurai Karuta",
+				"description": "A armadura de aço Samurai (Cavaleiro), com placas de bronze, permite ao usuário movimentos relativamente desimpedidos.",
+				"karuta_samurai_armor_iconic": {
+					"description": "A armadura de aço Samurai (Cavaleiro), com placas de bronze, permite ao usuário movimentos relativamente desimpedidos.",
+					"display_name": "Armadura do Samurai Karuta"
+				}
+			},
+			"karuta_samurai_helmet": {
+				"display_name": "Capacete Karuta Samurai",
+				"karuta_samurai_helmet_iconic": {
+					"display_name": "Capacete Karuta Samurai",
+					"description": "Capacete de aço e bronze, usado por Samurai (Cavaleiro)"
+				},
+				"description": "Capacete de aço e bronze, usado por Samurai (Cavaleiro)"
+			},
+			"ornate_samurai_armor": {
+				"display_name": "Armadura de Samurai Ornamentada",
+				"description": "Armadura protetora de ouro Samurai (Cavaleiro) de qualidade superior.",
+				"ornate_samurai_armor_iconic": {
+					"description": "Armadura protetora de ouro Samurai (Cavaleiro) de qualidade superior.",
+					"display_name": "Armadura de Samurai Ornamentada"
+				}
+			},
+			"ornate_samurai_helmet": {
+				"display_name": "Capacete de Samurai Ornamentado",
+				"ornate_samurai_helmet_iconic": {
+					"display_name": "Capacete de Samurai Ornamentado",
+					"description": "Capacete dourado, usado por Samurai (Cavaleiro)"
+				},
+				"description": "Capacete dourado, usado por Samurai (Cavaleiro)"
+			},
+			"iron_omamori": {
+				"display_name": "Ferro Omamori",
+				"description": "Omamori defensivo improvisado para combatentes."
+			},
+			"iron_charm": {
+				"display_name": "Feitiço de Ferro",
+				"description": "Defensivo improvisado Omamori para Samurai (Knight)."
+			},
+			"steel_charm": {
+				"display_name": "Amuleto de Aço",
+				"description": "Defensivo improvisado Omamori para Samurai (Knight)."
+			},
+			"bronze_charm": {
+				"display_name": "Amuleto de Bronze",
+				"description": "Omamori defensivo improvisado para combatentes."
+			},
+			"silver_charm": {
+				"display_name": "Amuleto de Prata",
+				"description": "Defensivo improvisado Omamori para Samurai (Knight)."
+			},
+			"cm_legendary_circlet": {
+				"display_name": "Faixa de Gorudo",
+				"description": "Faixa de cabeça com argola quadrada de Muramasa"
+			},
+			"cm_legendary_shield": {
+				"display_name": "Amuleto de Gorudo",
+				"description": "O Omamori mais orgulhoso de Muramasa"
+			},
+			"mura_stasis_suit": {
+				"display_name": "Fato de Estase Muramasa",
+				"description": "Um traje de aumento de resistência para um sacerdote xintoísta (clérigo)"
+			}
+		},
+		"gizmos": {
+			"banner": {
+				"banner_ghost": {
+					"display_name": "Padrão de acampamento",
+					"description": "Use para marcar território, civilizadamente."
+				}
+			},
+			"banner_trading": {
+				"banner_trading_ghost": {
+					"display_name": "Bandeira de Negociação",
+					"description": "Como você sabe que voltou para casa.",
+					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li >Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
+				},
+				"banner_trading_token_iconic": {
+					"display_name": "Bandeira do Fragmento de Negociação",
+					"description": "Um fragmento da Bandeira do Comércio, carregando sua bênção."
+				}
+			},
+			"banner_mining": {
+				"banner_mining_ghost": {
+					"display_name": "Bandeira da Mineração",
+					"description": "Como você sabe que voltou para casa",
+					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li> ></ul>"
+				},
+				"banner_mining_token_iconic": {
+					"display_name": "Bandeira de Fragmento de Mineração",
+					"description": "Um fragmento da Bandeira da Mineração, carregando sua bênção."
+				}
+			},
+			"banner_growing": {
+				"banner_growing_ghost": {
+					"display_name": "Bandeira do crescimento",
+					"description": "Como você sabe que voltou para casa",
+					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Cultivos crescem 25% mais rápido</li><li >As plantas têm 2x seu apelo normal</li></ul>"
+				},
+				"banner_growing_token_iconic": {
+					"display_name": "Bandeira do Fragmento Crescente",
+					"description": "Um fragmento da Bandeira do Crescimento, carregando sua bênção."
+				}
+			},
+			"dummy_training": {
+				"dummy_training_ghost": {
+					"display_name": "Manequim de treinamento",
+					"description": "Usado para treinamento"
+				}
+			}
+		},
+		"construction": {
+			"mura_tunnel_door": {
+				"mura_tunnel_door_ghost": {
+					"display_name": "Porta do túnel Muramasa",
+					"description": "Uma grande porta emoldurada de pedra"
+				}
+			},
+			"ornate_tunnel_door": {
+				"ornate_tunnel_door_ghost": {
+					"display_name": "Porta ornamentada de Muramasa",
+					"description": "Uma grande porta dourada em uma moldura de pedra"
+				}
+			},
+			"mura_temple_door": {
+				"mura_temple_door_ghost": {
+					"display_name": "Torii porta de barro",
+					"description": "Uma grande porta emoldurada de barro"
+				}
+			},
+			"mura_stone_window": {
+				"mura_stone_window_ghost": {
+					"display_name": "Janela de Pedra Muramasa",
+					"description": "Uma janela emoldurada de pedra"
+				}
+			},
+			"shoji_sliding_door": {
+				"shoji_sliding_door_ghost": {
+					"display_name": "Porta de correr Shoji",
+					"description": "Uma porta de correr de madeira clássica"
+				}
+			},
+			"shoji_sliding_door_squares": {
+				"shoji_sliding_door_squares_ghost": {
+					"display_name": "Porta de correr detalhada Shoji",
+					"description": "Uma porta deslizante de madeira detalhada clássica"
+				}
+			},
+			"shoji_sliding_wall_door": {
+				"shoji_sliding_wall_door_ghost": {
+					"display_name": "Porta de parede Shoji",
+					"description": "Uma porta deslizante, da mesma largura que os painéis de parede Shoji"
+				}
+			},
+			"birch_wall": {
+				"birch_wall_ghost": {
+					"display_name": "Muro de Bétula",
+					"description": "Um painel de parede de bétula clássico"
+				}
+			},
+			"birch_focus_wall": {
+				"birch_focus_wall_ghost": {
+					"display_name": "Parede Foco de Bétula",
+					"description": "Um painel de parede de bétula clássico"
+				}
+			},
+			"outdoor_birch_wall": {
+				"outdoor_birch_wall_ghost": {
+					"display_name": "Muro Externo de Bétula",
+					"description": "Um painel de parede de bétula clássico"
+				}
+			},
+			"outdoor_birch_window": {
+				"outdoor_birch_window_ghost": {
+					"display_name": "Janela Externa de Bétula",
+					"description": "Um painel de parede de bétula clássico"
+				}
+			},
+			"shoji_wall": {
+				"shoji_wall_ghost": {
+					"display_name": "Muro Shoji",
+					"description": "Um painel de parede de madeira clássico"
+				}
+			},
+			"shoji_focus_wall": {
+				"shoji_focus_wall_ghost": {
+					"display_name": "Parede de foco Shoji",
+					"description": "Um painel de parede de madeira clássico"
+				}
+			},
+			"outdoor_shoji_wall": {
+				"outdoor_shoji_wall_ghost": {
+					"display_name": "Parede exterior Shoji",
+					"description": "Um painel de parede de madeira clássico"
+				}
+			},
+			"outdoor_shoji_window": {
+				"outdoor_shoji_window_ghost": {
+					"display_name": "Janela Shoji Externa",
+					"description": "Um painel de parede de madeira clássico"
+				}
+			},
+			"shiro_gate": {
+				"shiro_gate_ghost": {
+					"display_name": "Portão Shiro",
+					"description": "Uma grande porta do castelo"
+				}
+			}
+		},
+		"containers": {
+			"embark_wagon": {
+				"display_name": "Kago de madeira"
+			},
+			"input_shelf_weapon": {
+				"input_shelf_weapon_ghost": {
+					"display_name": "Porta Armas de Madeira",
+					"description": "Um contêiner de suprimentos, para armazenar armas brancas."
+				}
+			},
+			"ornate_woven_chest": {
+				"ornate_woven_chest_ghost": {
+					"display_name": "Baú de Tecido Ornamentado",
+					"description": "Armazena 64 itens - isso é 8 por 8, para a melhor sorte!"
+				}
+			},
+			"treasure_pot": {
+				"display_name": "Pote do Tesouro",
+				"description": "Colha este pote para obter o tesouro dentro"
+			}
+		},
+		"furniture": {
+			"mura_low_bed": {
+				"loadout": "Cama",
+				"mura_low_bed_ghost": {
+					"display_name": "Cama Tatami Futon",
+					"description": "Uma cama de baixo perfil, durável e confortável."
+				}
+			},
+			"ornate_low_bed": {
+				"ornate_low_bed_ghost": {
+					"display_name": "Cama de futon de tatame ornamentado",
+					"description": "Uma cama luxuosa finamente trabalhada."
+				}
+			},
+			"mura_table": {
+				"mura_table_ghost": {
+					"display_name": "Mesa de tatame",
+					"description": "Uma mesa de madeira com um tatame."
+				}
+			},
+			"ornate_mura_table": {
+				"ornate_mura_table_ghost": {
+					"display_name": "Mesa de tatame ornamentada",
+					"description": "Mesa forrada a ouro com tapete de tatame."
+				}
+			},
+			"low_japanese_chair": {
+				"low_japanese_chair_ghost": {
+					"display_name": "Cadeira Zaisu",
+					"description": "Uma cadeira de madeira sem pernas."
+				}
+			},
+			"ornate_low_chair": {
+				"ornate_low_chair_ghost": {
+					"display_name": "Cadeira Zaisu ornamentada",
+					"description": "Uma cadeira de madeira sem pernas, com detalhes dourados."
+				}
+			},
+			"dresser_cm": {
+				"dresser_cm_ghost": {
+					"display_name": "Cômoda Keshoudai",
+					"description": "Uma cômoda de madeira."
+				}
+			},
+			"go_table": {
+				"go_table_ghost": {
+					"display_name": "Mesa Go",
+					"description": "Um jogo recreativo em uma mesa."
+				}
+			},
+			"cm_tent": {
+				"loadout": "Barraca",
+				"cm_tent_ghost": {
+					"display_name": "Barraca Muramasa",
+					"description": "Uma barraca, irá protegê-lo dos elementos ao acampar."
+				}
+			},
+			"cm_hotspring_steam_generator": {
+				"hotspring_steam_generator_ghost": {
+					"display_name": "Rocha do Vapor de Muramasa",
+					"description": "Uma pedra muito quente, aquecendo a água."
+				}
+			},
+			"sento_bath": {
+				"sento_bath_ghost": {
+					"display_name": "Banho de Sento",
+					"description": "Um grande banho comum, cheio de água aquecida."
+				}
+			},
+			"warm_water_pot": {
+				"warm_water_pot_ghost": {
+					"display_name": "Pote de Água Quente",
+					"description": "Uma panela para aquecer um pouco de água."
+				}
+			}
+		},
+		"landmark": {
+			"cm_summon_stone_hotspring": {
+				"display_name": "Fonte termal de Muramasa",
+				"description": "Uma agradável fonte termal natural."
+			}
+		},
+		"decoration": {
+			"stats_monument": {
+				"stats_monument_ghost": {
+					"display_name": "Santuário Cleyera",
+					"description": "Lugar para homenagear os espíritos naturais"
+				}
+			},
+			"weapons_monument": {
+				"weapons_monument_ghost": {
+					"display_name": "Santuário Kami",
+					"description": "Um farol de força para toda a região"
+				}
+			},
+			"crafting_monument": {
+				"crafting_monument_ghost": {
+					"display_name": "Santuário Hinamatsuri",
+					"description": "Significa a produtividade, riqueza e habilidade da sua cidade"
+				}
+			},
+			"megacrop": {
+				"mega_daikon_radish": {
+					"display_name": "Rabanete Mega Daikon",
+					"description": "É enorme! O que você alimentou este daikon?",
+					"iconic_description": "Rabanete Mega Daikon"
+				}
+			},
+			"donation_box": {
+				"donation_box_ghost": {
+					"display_name": "Caixa de doação",
+					"description": "Doações para os cuidadores."
+				}
+			},
+			"decorative_fan_stand": {
+				"decorative_fan_stand_ghost": {
+					"display_name": "Suporte de Ventilador Decorativo",
+					"description": "Possui um elegante leque de papel."
+				}
+			},
+			"decorative_sign": {
+				"decorative_sign_ghost": {
+					"display_name": "Sinal Decorativo",
+					"description": "Um sinal em cima de um poste alto."
+				}
+			},
+			"decorative_doll_female": {
+				"decorative_doll_female_ghost": {
+					"display_name": "Boneca Kimekomi",
+					"description": "Uma boneca feminina."
+				}
+			},
+			"decorative_doll_male": {
+				"decorative_doll_male_ghost": {
+					"display_name": "Boneca Hina",
+					"description": "Um boneco masculino."
+				}
+			},
+			"decorative_wall_scroll": {
+				"decorative_wall_scroll_ghost": {
+					"display_name": "Pergaminho de parede do Kakemono",
+					"description": "Um pergaminho decorativo para pendurar."
+				}
+			},
+			"decorative_wall_scroll_wide": {
+				"decorative_wall_scroll_wide_ghost": {
+					"display_name": "Pergaminho de parede largo de Kakemono",
+					"description": "Um pergaminho decorativo para pendurar."
+				}
+			},
+			"ornate_blacksmith_scroll": {
+				"ornate_blacksmith_scroll_ghost": {
+					"display_name": "Pergaminho ornamentado para ferreiro",
+					"description": "Desbloqueia receitas para itens artesanais ornamentados no estilo Muramasa."
+				}
+			},
+			"ornate_carpenter_scroll": {
+				"ornate_carpenter_scroll_ghost": {
+					"display_name": "Pergaminho ornamentado para carpinteiro",
+					"description": "Desbloqueia receitas para itens artesanais ornamentados no estilo Muramasa."
+				}
+			},
+			"ornate_mason_scroll": {
+				"ornate_mason_scroll_ghost": {
+					"display_name": "Pergaminho ornamentado para pedreiro",
+					"description": "Desbloqueia receitas para itens artesanais ornamentados no estilo Muramasa."
+				}
+			},
+			"ornate_potter_scroll": {
+				"ornate_potter_scroll_ghost": {
+					"display_name": "Pergaminho ornamentado para Potter",
+					"description": "Desbloqueia receitas para itens artesanais ornamentados no estilo Muramasa."
+				}
+			},
+			"ornate_weaver_scroll": {
+				"ornate_weaver_scroll_ghost": {
+					"display_name": "Pergaminho ornamentado para tecelão",
+					"description": "Desbloqueia receitas para itens artesanais ornamentados no estilo Muramasa."
+				}
+			},
+			"shoji_lantern": {
+				"shoji_lantern_ghost": {
+					"display_name": "Lanterna Shoji",
+					"description": "Uma lanterna tradicional de madeira e papel."
+				}
+			},
+			"shoji_wall_lantern": {
+				"shoji_wall_lantern_ghost": {
+					"display_name": "Lanterna de Parede Shoji",
+					"description": "Uma lanterna tradicional de madeira e papel."
+				}
+			},
+			"shoji_camp_lamp": {
+				"shoji_camp_lamp_ghost": {
+					"display_name": "Lâmpada de acampamento Shoji",
+					"description": "Uma lâmpada de madeira e papel ao ar livre."
+				}
+			},
+			"shoji_wall_lamp": {
+				"shoji_wall_lamp_ghost": {
+					"display_name": "Luminária de Parede Shoji",
+					"description": "Uma lâmpada de madeira e papel montada na parede."
+				}
+			},
+			"toro_lantern": {
+				"toro_lantern_ghost": {
+					"display_name": "Toro lanterna",
+					"description": "Uma lanterna de pedra tradicional."
+				}
+			},
+			"bigstone_lantern": {
+				"bigstone_lantern_ghost": {
+					"display_name": "Lanterna Toro Grande",
+					"description": "Uma lanterna de pedra tradicional ao ar livre."
+				}
+			},
+			"ornate_stone_lantern": {
+				"ornate_stone_lantern_ghost": {
+					"display_name": "Lanterna Toro ornamentada",
+					"description": "Uma lanterna de pedra extravagante ao ar livre."
+				}
+			},
+			"green_teapot": {
+				"green_teapot_ghost": {
+					"display_name": "Bule Muramasa",
+					"description": "Um bule decorativo de barro fino."
+				}
+			},
+			"ornate_teapot": {
+				"ornate_teapot_ghost": {
+					"display_name": "Bule de chá muramasa ornamentado",
+					"description": "Um bule decorativo de barro com cabo dourado."
+				}
+			},
+			"wall_swords": {
+				"wall_swords_ghost": {
+					"display_name": "Placa Katana",
+					"description": "Exibição de lâminas de samurai."
+				}
+			},
+			"silk_lamp_red": {
+				"silk_lamp_red_ghost": {
+					"display_name": "Chochin lanterna vermelha",
+					"description": "Uma lanterna de parede coberta de seda vermelha."
+				}
+			},
+			"silk_lamp_white": {
+				"silk_lamp_white_ghost": {
+					"display_name": "Chochin lanterna branca",
+					"description": "Uma lanterna de parede coberta de seda branca."
+				}
+			},
+			"ornate_silk_lamp": {
+				"ornate_silk_lamp_ghost": {
+					"display_name": "Lanterna Chochin ornamentada",
+					"description": "Uma lanterna de parede coberta de seda adornada com ouro."
+				}
+			},
+			"pot_sakura": {
+				"pot_sakura_ghost": {
+					"display_name": "Sakura em vaso",
+					"description": "Um bonsai Sakura Cherry Blossom em uma panela de barro."
+				}
+			},
+			"ornate_pot_sakura": {
+				"ornate_pot_sakura_ghost": {
+					"display_name": "Sakura em vaso ornamentado",
+					"description": "Um bonsai Sakura Cherry Blossom em um pote de barro kintsugi."
+				}
+			},
+			"shrine_bell": {
+				"idle_description": "Espere para tocar a campainha novamente.",
+				"shrine_bell_ghost": {
+					"display_name": "Sino Bonsho",
+					"description": "Temple Bell com um tom calmo."
+				}
+			},
+			"armor_stand": {
+				"armor_stand": {
+					"display_name": "Suporte de armadura",
+					"description": "Um suporte nu, pode ser usado para armazenar uma armadura."
+				},
+				"cloth_ashigaru_armor_stand": {
+					"display_name": "Suporte de Armadura de Tecido Ashigaru",
+					"description": "Um suporte equipado com Armadura de Tecido Ashigaru."
+				},
+				"wood_ashigaru_armor_stand": {
+					"display_name": "Suporte de armadura de madeira Ashigaru",
+					"description": "Um suporte equipado com Wood Ashigaru Armor."
+				},
+				"iron_ashigaru_armor_stand": {
+					"display_name": "Suporte de armadura de ferro Ashigaru",
+					"description": "Um suporte equipado com Iron Ashigaru Armor."
+				},
+				"steel_ashigaru_armor_stand": {
+					"display_name": "Suporte de armadura de aço Ashigaru",
+					"description": "Um suporte equipado com Steel Ashigaru Armor."
+				},
+				"iron_sam_archer_armor_stand": {
+					"display_name": "Suporte de armadura de arqueiro de ferro",
+					"description": "Um suporte equipado com Iron Archer Armor."
+				},
+				"steel_sam_archer_armor_stand": {
+					"display_name": "Suporte de armadura de arqueiro de aço",
+					"description": "Um suporte equipado com Steel Archer Armor."
+				},
+				"iron_samurai_armor_stand": {
+					"display_name": "Suporte de armadura de samurai de ferro",
+					"description": "Um suporte equipado com Iron Samurai Armor."
+				},
+				"steel_samurai_armor_stand": {
+					"display_name": "Suporte de armadura de samurai de aço",
+					"description": "Um suporte equipado com Steel Samurai Armor."
+				},
+				"karuta_samurai_armor_stand": {
+					"display_name": "Suporte de Armadura do Samurai Karuta",
+					"description": "Um suporte equipado com Karuta Samurai Armor."
+				}
+			},
+			"muramasa_market": {
+				"display_name": "Bazar Muramasa",
+				"description": "Comerciante de Muramasa com itens orientais"
+			}
+		},
+		"crops": {
+			"haskap_bush_crop": {
+				"growth_stage": {
+					"000": {
+						"description": "Plantado para cultivar um suprimento escasso de alimentos.",
+						"name": "Haskap Bush Semente"
+					},
+					"001": {
+						"description": "Só precisa de algum tempo e cuidado.",
+						"name": "Haskap Bush brotando"
+					},
+					"002": {
+						"description": "Ainda crescendo!",
+						"name": "Derivando Haskap Bush"
+					},
+					"003": {
+						"description": "Está quase lá! Olha, tem botões!",
+						"name": "Brotando Haskap Bush"
+					}
+				},
+				"description": "Pode ser colhido para um pequeno suprimento de frutas",
+				"display_name": "Haskap Bush"
+			},
+			"paddy_crop": {
+				"display_name": "Arrozal"
+			},
+			"paddy_crop_cm": {
+				"display_name": "Arrozal",
+				"description": "O arroz cresce lentamente e funciona tanto como grão quanto como vegetal!",
+				"growth_stage": {
+					"000": {
+						"name": "Toco de arroz",
+						"description": "Arroz recentemente plantado, vai precisar de muita água para crescer."
+					},
+					"001": {
+						"name": "Arrozal",
+						"description": "Está crescendo mais alto a cada minuto!"
+					},
+					"002": {
+						"name": "Arrozal",
+						"description": "As gramíneas longas surgiram e florescerão a qualquer momento."
+					},
+					"003": {
+						"name": "Arroz Florido",
+						"description": "As gramíneas são verdes brilhantes e as sementes semeadas pelo vento secarão em breve."
+					},
+					"004": {
+						"name": "Arroz maduro",
+						"description": "As espigas secaram e o arrozal está pronto para a colheita!"
+					},
+					"019": {
+						"name": "Arroz podre"
+					}
+				}
+			},
+			"daikon_radish_crop": {
+				"display_name": "Rabanete branco",
+				"description": "Um vegetal de raiz de sabor suave",
+				"growth_stage": {
+					"000": {
+						"name": "Mudas de Daikon",
+						"description": "Rabanete minúsculo."
+					},
+					"001": {
+						"name": "Broto de Daikon",
+						"description": "Ainda muito pequeno."
+					},
+					"002": {
+						"name": "Bebê Daikon",
+						"description": "Pequeno, sem gosto."
+					},
+					"003": {
+						"name": "Rabanete Daikon maduro",
+						"description": "Prazeroso."
+					},
+					"011": {
+						"name": "Rabanete podre",
+						"description": "Mofado e nojento."
+					}
+				}
+			},
+			"pampus_grass_crop": {
+				"display_name": "Grama Susuki",
+				"description": "Uma grama resistente, muitas vezes usada como fibra grossa ou palha",
+				"growth_stage": {
+					"004": {
+						"name": "Grama Susuki Madura",
+						"description": "Pronto para tecer!"
+					},
+					"001": {
+						"name": "Broto de grama Susuki",
+						"description": "Brota, pequena!"
+					},
+					"000": {
+						"name": "Mudas de grama Susuki",
+						"description": "Ainda falta muito para crescer."
+					},
+					"011": {
+						"name": "Grama Susuki Apodrecida",
+						"description": "Mofado e nojento."
+					},
+					"003": {
+						"name": "Grama Susuki Imatura",
+						"description": "Cabelos soltos estão começando a surgir"
+					},
+					"002": {
+						"name": "Grama Susuki Atarracada",
+						"description": "Olha esses juncos!"
+					}
+				}
+			},
+			"soy_bean_crop": {
+				"display_name": "Soja",
+				"description": "Uma leguminosa oriental com muitos usos alimentares",
+				"growth_stage": {
+					"000": {
+						"name": "Muda de Soja",
+						"description": "Pequena soja."
+					},
+					"001": {
+						"name": "Broto de Soja",
+						"description": "Ainda muito pequeno."
+					},
+					"002": {
+						"name": "Soja bebê",
+						"description": "Pequeno, ainda crescendo."
+					},
+					"003": {
+						"name": "Soja Madura",
+						"description": "Cheio de nutrientes!"
+					},
+					"011": {
+						"name": "Soja podre",
+						"description": "Mofado e nojento."
+					}
+				}
+			}
+		},
+		"plants": {
+			"daikon_radish": {
+				"loadout": "Daikon",
+				"daikon_radish_serving": {
+					"display_name": "Porção de rabanete Daikon",
+					"description": "Um prato cheio de rabanetes daikon fatiados."
+				},
+				"daikon_radish_basket": {
+					"display_name": "Rabanete branco",
+					"description": "Um grande rabanete Daikon."
+				}
+			},
+			"daikon": {
+				"display_name": "Daikon",
+				"description": "Ótimo para sopas",
+				"bud": {
+					"daikon_plant_bud": {
+						"display_name": "Brotando Daikon",
+						"description": "Está quase crescido! Mas depois tem que secar!"
+					}
+				},
+				"rotten": {
+					"daikon_rotten": {
+						"display_name": "Daikon podre",
+						"description": "Não é mais bom para comer, mas uma ótima fonte de sementes"
+					}
+				},
+				"sprout": {
+					"daikon_plant_sprout": {
+						"display_name": "Broto de Daikon",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"daikon_plant_seed": {
+						"display_name": "Semente Daikon",
+						"description": "Pode ser plantado para cultivar um saboroso vegetal branco."
+					},
+					"daikon_plant_seed_ghost": {
+						"display_name": "Semente Daikon",
+						"description": "Pode ser plantado para crescer um vegetal branco crocante."
+					}
+				},
+				"stem": {
+					"daikon_plant_stem": {
+						"display_name": "Derivação de Daikon",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"daikon_ghost": {
+					"display_name": "Daikon",
+					"description": "Ótimo para sopas"
+				}
+			},
+			"soy_bean": {
+				"soy_bean_serving": {
+					"display_name": "Porção de Soja",
+					"description": "Um prato cheio de soja."
+				},
+				"soy_bean_basket": {
+					"display_name": "Cesta de Soja",
+					"description": "Cesta de leguminosas de soja."
+				}
+			},
+			"haskap_bush": {
+				"display_name": "Haskap Bush",
+				"description": "Colhível para um suprimento alimentar escasso.",
+				"unripe_description": "Ainda não está maduro para a colheita.",
+				"seed": {
+					"haskap_bush_plant_seed_ghost": {
+						"display_name": "Haskap Bush Semente",
+						"description": "Pode ser plantado para cultivar um suprimento escasso de alimentos."
+					}
+				},
+				"bud": {
+					"haskap_bush_plant_bud": {
+						"display_name": "Brotando Haskap Bush",
+						"description": "Está quase lá! Olha, tem botões!"
+					}
+				},
+				"sprout": {
+					"haskap_bush_plant_sprout": {
+						"display_name": "Haskap Bush brotando",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"stem": {
+					"haskap_bush_plant_stem": {
+						"display_name": "Derivando Haskap Bush",
+						"description": "Ainda crescendo!"
+					}
+				}
+			},
+			"bamboo": {
+				"bamboo_ghost": {
+					"display_name": "Bambu Mura",
+					"description": "Uma planta de árvore decorativa, cresce instantaneamente!"
+				}
+			},
+			"susuki": {
+				"susuki": {
+					"display_name": "Susuki Selvagem",
+					"description": "A fibra desta planta pode ser fiada em fio.",
+					"unripe_description": "Esta planta foi colhida e ainda não cresceu."
+				},
+				"seed": {
+					"susuki_plant_seed_ghost": {
+						"display_name": "Semente de Susuki Selvagem",
+						"description": "Pode ser plantado para crescer fibra que pode ser girada em fio."
+					}
+				},
+				"bud": {
+					"susuki_bud": {
+						"display_name": "Brotando Susuki",
+						"description": "Está quase lá! Olha, tem botões!"
+					}
+				},
+				"sprout": {
+					"susuki_plant_sprout": {
+						"display_name": "Germinando Susuki",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"stem": {
+					"susuki_stem": {
+						"display_name": "Haste Susuki",
+						"description": "Ainda crescendo!"
+					}
+				}
+			},
+			"susuki_plant_ace": {
+				"display_name": "Susuki",
+				"description": "Pode ser colhido para fibras e ervas robustas ou pungentes.",
+				"seed": {
+					"susuki_plant_seed_ghost": {
+						"display_name": "Semente Susuki",
+						"description": "Fornecerá fibras e ervas robustas ou pungentes quando crescer."
+					},
+					"susuki_plant_seed": {
+						"display_name": "Semente Susuki",
+						"description": "Uma graciosa grama prateada. Pode ser plantado."
+					}
+				}
+			}
+		},
+		"trees": {
+			"willow_tree": {
+				"large_willow_tree": {
+					"display_name": "Salgueiro Grande",
+					"description": "Veja como chora!"
+				},
+				"bud": {
+					"tree_willow_plant_bud": {
+						"display_name": "Salgueiro em brotamento",
+						"description": "Crescendo bem..."
+					}
+				},
+				"medium_willow_tree": {
+					"display_name": "Salgueiro",
+					"description": "Balançando suavemente com o vento..."
+				},
+				"small_willow_tree": {
+					"display_name": "Salgueiro Pequeno",
+					"description": "Parece mais velho do que é."
+				},
+				"sprout": {
+					"tree_willow_sprout": {
+						"display_name": "Brotando de Salgueiro",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"stem": {
+					"tree_willow_plant_stem": {
+						"display_name": "Salgueiro-tronco",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"seed": {
+					"tree_willow_seed_ghost": {
+						"display_name": "Semente de Salgueiro",
+						"description": "Pode ser plantado para crescer um salgueiro-chorão."
+					}
+				},
+				"sapling_willow_tree": {
+					"description": "Árvore de salgueiro bebê.",
+					"sapling_willow_tree_iconic": {
+						"description": "Plante-o na terra e veja-o crescer."
+					},
+					"sapling_willow_tree_ghost": {
+						"display_name": "Muda de Salgueiro",
+						"description": "Babe Salgueiro."
+					}
+				}
+			}
+		},
+		"resources": {
+			"wood": {
+				"willow_log": {
+					"display_name": "Tronco de Salgueiro",
+					"description": "Um registo. Feito de madeira."
+				}
+			}
+		},
+		"critters": {
+			"deer": {
+				"display_name": "Cervo",
+				"display_name_yamato": "Sika",
+				"display_name_arctic": "veado vermelho",
+				"display_name_desert": "Vaca Gazela",
+				"display_name_highlands": "Alce Vaca"
+			},
+			"deer_horned": {
+				"display_name": "Veado",
+				"display_name_yamato": "Cervo Sika",
+				"display_name_arctic": "Caribu",
+				"display_name_desert": "Gazela",
+				"display_name_highlands": "alce"
+			},
+			"squirrel": {
+				"display_name": "Esquilo",
+				"display_name_yamato": "Esquilo Terrestre",
+				"display_name_arctic": "Esquilo Cinzento",
+				"display_name_desert": "Esquilo Terrestre",
+				"display_name_highlands": "Esquilo vermelho"
+			},
+			"red_fox_wolf": {
+				"display_name": "Raposa",
+				"display_name_yamato": "Raposa da Colina",
+				"display_name_arctic": "Raposa do Ártico",
+				"display_name_desert": "Fennec Fox",
+				"display_name_highlands": "Raposa"
+			},
+			"rabbit": {
+				"display_name": "Coelho",
+				"display_name_yamato": "Lebre marrom",
+				"display_name_arctic": "Lebre da Neve",
+				"display_name_desert": "Lebre marrom",
+				"display_name_highlands": "Coelho Cinzento"
+			},
+			"racoon": {
+				"display_name": "Guaxinim",
+				"display_name_yamato": "Guaxinim marrom",
+				"display_name_arctic": "Guaxinim do Ártico",
+				"display_name_desert": "Guaxinim marrom",
+				"display_name_highlands": "Skunk"
+			},
+			"sheep": {
+				"display_name": "Ovelha",
+				"display_name_yamato": "Ovelha da Colina",
+				"display_name_arctic": "Ovelha de lã longa",
+				"display_name_desert": "Ovelha das Dunas",
+				"display_name_highlands": "Carneiro Selvagem"
+			},
+			"moomoo": {
+				"display_name": "Moo-Moo",
+				"display_name_yamato": "Wagyu Moo-Moo",
+				"display_name_arctic": "Moo-Moo do Norte",
+				"display_name_desert": "Desert Moo-Moo",
+				"display_name_highlands": "Longhorn Moo-Moo"
+			},
+			"wild_moomoo": {
+				"display_name": "Auroques da Floresta",
+				"display_name_yamato": "Iaque da Colina",
+				"display_name_arctic": "Iaque da Neve",
+				"display_name_desert": "Iaque de areia",
+				"display_name_highlands": "Auroques do Vale"
+			}
+		},
+		"monsters": {
+			"forest": {
+				"bear": {
+					"display_name": "Urso marrom",
+					"display_name_yamato": "Urso da Colina",
+					"display_name_arctic": "Urso polar",
+					"display_name_desert": "Urso das Dunas",
+					"display_name_highlands": "Urso preto"
+				},
+				"cougar": {
+					"display_name": "Puma",
+					"display_name_yamato": "Pantera",
+					"display_name_arctic": "Leopardo da neve",
+					"display_name_desert": "Pantera",
+					"display_name_highlands": "Tigre"
+				},
+				"wolf": {
+					"display_name": "Lobo",
+					"display_name_yamato": "Ezo Wolf",
+					"display_name_arctic": "Lobo Ártico",
+					"display_name_desert": "Lobo do Deserto",
+					"display_name_highlands": "Warg"
+				},
+				"entling": {
+					"display_name": "Entendo",
+					"display_name_yamato": "Cactusling",
+					"display_name_arctic": "Rastejante",
+					"display_name_desert": "Cactusling",
+					"display_name_highlands": "Birchling"
+				}
+			},
+			"avian": {
+				"duckduck": {
+					"display_name": "PatoPato",
+					"display_name_yamato": "Pato da Colina",
+					"display_name_arctic": "PengDuck",
+					"display_name_desert": "Oasis DuckDuck",
+					"display_name_highlands": "Sky Duck"
+				},
+				"ostrich": {
+					"display_name": "Avestruz",
+					"display_name_yamato": "Colina Dacho",
+					"display_name_arctic": "Avestruz malhado",
+					"display_name_desert": "Avestruz Vermelho",
+					"display_name_highlands": "Avestruz de corrida"
+				}
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"worker": {
+							"display_name": "Menu de artesanato camponês",
+							"description": "Cozinha receitas básicas para fazer os alimentos durarem mais.",
+							"required_job_text": "Requer um camponês"
+						}
+					}
+				}
+			},
+			"zones_mode": {
+				"stockpile": {
+					"filters": {
+						"melee_weapons": "Armas corpo a corpo",
+						"tooltip_mainhand": "Arma de mão principal",
+						"tooltip_twohanded": "Arma de duas mãos"
+					}
+				}
+			}
+		}
+	}
+}

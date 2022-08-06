@@ -1,0 +1,14 @@
+{
+	"ui": {
+		"shell": {
+			"beam_roster": {
+				"add_traits": "Adicionar Característica",
+				"add_traits_title": "Adicionar Característica",
+				"add_traits_hint": "Nota: Clique em um ícone de característica para adicionar característica ao Hearthling.",
+				"close_traits": "Fechar",
+				"cheat_mode_checkbox": "Desbloqueie restrições de atributos e características",
+				"cheat_mode_tooltip": "Marque esta caixa para permitir configurações irrestritas para Atributos e Características."
+			}
+		}
+	}
+}
