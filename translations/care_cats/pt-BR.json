@@ -1,0 +1,1176 @@
+{
+	"kingdoms": {
+		"felines": "A Equipe Gato",
+		"hearth_guard": "Guarda da Lareira"
+	},
+	"data": {
+		"population": {
+			"felines": {
+				"kingdom_name": "Equipe Felina",
+				"display_name": "A Equipe Gato",
+				"quote": "Nossas patas são perfeitas.",
+				"description": "Uma curiosa colônia de gatos, precisando de comida e proteção. Dragonborn, Rabbitkin e Hearthlings trabalham juntos como seus cuidadores de pacientes.",
+				"post_selection_description": ", um bando de felinos fofos e fofos.",
+				"initial_town_name": "Colônia Feral"
+			},
+			"hearth_guard": {
+				"kingdom_name": "Guarda da Lareira",
+				"display_name": "A Guarda do Lar",
+				"quote": "Pele macia e escamas duras.",
+				"description": "O Dragonborn e o Rabbitkin uniram forças para proteger suas terras. Através da amizade, eles compartilham conhecimentos e habilidades enquanto exploram o mundo.",
+				"post_selection_description": ", um bando de pessoas astutas de Coelho e Dragão.",
+				"initial_town_name": "Trilha Exploratória"
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"felines": {
+						"display_name": "A Equipe Gato",
+						"categories": {
+							"outpost": "Modelos de acampamento",
+							"settlement": "Modelos de cidade"
+						}
+					},
+					"hearth_guard": {
+						"display_name": "A Guarda do Lar",
+						"categories": {
+							"outpost": "Modelos de acampamento",
+							"settlement": "Modelos de cidade"
+						}
+					}
+				}
+			},
+			"building_templates": {
+				"felines_clay_house": "cc🐱 Casa de Barro",
+				"felines_stone_house": "cc🐱 Casa de Pedra",
+				"felines_crafter_clay": "cc🐱 Morada/Loja: barro",
+				"felines_crafter_stone": "cc🐱 Morada/Loja: rock",
+				"felines_potter": "cc🐱 Potter",
+				"felines_mason": "cc🐱 Mason",
+				"felines_carpenter": "cc🐱 Carpinteiro",
+				"felines_cat_den": "cc🐱 Toca do Gato",
+				"felines_diner": "cc🐱 Jantar",
+				"felines_dragon_den": "cc🐈 Covil do Dragão",
+				"felines_townhouse": "cc🐈 Moradia",
+				"hg_clay_house": "🌟 Casa de Barro",
+				"hg_stone_house": "🌟 Casa de Pedra",
+				"hg_crafter_clay": "🌟 Morada/Loja: barro",
+				"hg_crafter_stone": "🌟 Morada/Loja: rock",
+				"hg_potter": "🌟 Potter",
+				"hg_mason": "🌟 Pedreiro",
+				"hg_carpenter": "🌟 Carpinteiro",
+				"hg_diner": "🌟 Jantar",
+				"hg_dragon_den": "✨ Covil do Dragão",
+				"hg_townhouse": "✨ Moradia"
+			}
+		},
+		"biome": {
+			"bluerock": {
+				"display_name": "Rocha Azul",
+				"description": "Montanhas azuis esburacadas e planícies verdes agradáveis. Casa padrão da Cat Crew.",
+				"random_location_names": {
+					"000": "Penhascos Rocha Azul",
+					"001": "Pedregulhos Bluerock"
+				},
+				"seasons": {
+					"spring": {
+						"display_name": "Primavera",
+						"description": "A primavera em Bluerock é uma estação de renascimento, com duração de quatro meses. As chuvas derretem a neve, revelando um novo crescimento escondido por baixo, e as árvores voltam à vida cobertas de flores coloridas."
+					},
+					"summer": {
+						"display_name": "Verão",
+						"description": "O verão em Bluerock é uma estação quente, com duração de três meses. É um momento para relaxar e aproveitar o sol, mas ventos fortes podem trazer tempestades."
+					},
+					"autumn": {
+						"display_name": "Outono",
+						"description": "O outono em Bluerock é a época da colheita, com duração de três meses. As árvores ficam douradas e a grama se prepara para se refugiar em seu cobertor de inverno, enquanto os céus escurecem com nuvens de tempestade."
+					},
+					"winter": {
+						"display_name": "Inverno",
+						"description": "O inverno em Bluerock é uma estação fria, com duração de dois meses. Períodos de queda de neve podem cobrir a terra em um cobertor branco. Os ventos frios são melhor combatidos por reuniões aconchegantes ao redor da lareira."
+					}
+				}
+			},
+			"fallreach": {
+				"display_name": "Alcance de outono",
+				"description": "Montanhas cobertas de musgo e planícies secas e queimadas. Casa padrão da Guarda do Lar.",
+				"random_location_names": {
+					"000": "Floresta Fallreach",
+					"001": "Bosque Fallreach"
+				},
+				"seasons": {
+					"spring": {
+						"display_name": "Primavera",
+						"description": "A primavera em Fallreach é uma estação de renascimento, com duração de três meses. As chuvas derretem a neve, revelando um novo crescimento escondido por baixo, e as árvores voltam à vida cobertas de flores coloridas."
+					},
+					"summer": {
+						"display_name": "Verão",
+						"description": "O verão em Fallreach é uma estação quente, com duração de três meses. É um momento para relaxar e aproveitar o sol, mas ventos fortes podem trazer tempestades."
+					},
+					"autumn": {
+						"display_name": "Outono",
+						"description": "O outono em Fallreach é a estação da colheita, com duração de três meses. As árvores ficam douradas e a grama se prepara para se refugiar em seu cobertor de inverno, enquanto os céus escurecem com nuvens de tempestade."
+					},
+					"winter": {
+						"display_name": "Inverno",
+						"description": "O inverno em Fallreach é uma estação fria, com duração de três meses. Períodos de queda de neve podem cobrir a terra em um cobertor branco. Os ventos frios são melhor combatidos por reuniões aconchegantes ao redor da lareira."
+					}
+				}
+			}
+		},
+		"loadouts": {
+			"items": {
+				"leather": "Couro"
+			},
+			"merchant_caravan": {
+				"description": "Uma coleção de ferramentas defensivas deve dar ao assentamento uma vantagem no deserto.",
+				"tooltip": "O comerciante forneceu ferramentas baseadas em proteção, mas com pouca comida."
+			},
+			"construct_and_repair": {
+				"description": "Uma coleção de ferramentas de comércio deve dar ao assentamento algum conhecimento mecânico.",
+				"display_name": "Construir e Reparar",
+				"tooltip": "Uma boa coleção de habilidades artesanais, com uma bolsa de moedas."
+			},
+			"the_armory": {
+				"description": "Acesso mais rápido à criação avançada de equipamentos de combate, o que dará ao assentamento uma grande ofensa.",
+				"display_name": "O Arsenal",
+				"tooltip": "Pronto para Smith e Snipe, com uma bolsa de moedas."
+			}
+		},
+		"happiness": {
+			"thoughts": {
+				"weather": {
+					"values": {
+						"comforting_cat": {
+							"display_name": "Gato reconfortante",
+							"tooltip": "O Santuário de Babis emite um ar refrescante, proporcionando rejuvenescimento."
+						}
+					}
+				}
+			}
+		},
+		"traits": {
+			"defender_trait": {
+				"display_name": "Defensor",
+				"description": "[name(i18n_data.entity)] está feliz em defender a cidade como um trabalhador ou um trabalho de combate."
+			},
+			"happy_worker_trait": {
+				"display_name": "Trabalhador feliz",
+				"description": "[name(i18n_data.entity)] está feliz como trabalhador, ou outros trabalhos de campo ou artesanato."
+			}
+		},
+		"buffs": {
+			"xp_town_bonus": {
+				"display_name": "Sabedoria para cima",
+				"description": "A experiência adquirida é muito aumentada.",
+				"description_hg": "A experiência adquirida é aumentada."
+			},
+			"fire_attack": {
+				"display_name": "Chamas do Dragão",
+				"description": "Incendiar! Recebendo dano de fogo"
+			},
+			"wind_speed_buff": {
+				"display_name": "Velocidade do vento",
+				"description": "Asas Douradas aumentam a velocidade em 10%"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"town_progression": {
+					"feline_arrival_ensure": {
+						"feline_notification_title": "Um gato está aqui agora"
+					},
+					"start_explanation_letter": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Uma carta é encontrada cuidadosamente colocada contra o poste do Banner. <p>Os Gatos olham para ela, e uma voz misteriosa e profunda enche o ar, lendo a carta para quem puder ouvir..."
+									},
+									"bulletin_title": "Uma Carta da Bandeira!",
+									"dialog_title": "A mensagem",
+									"choice_000": "Vamos ouvir"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "\"Queridos Gatos,<p>Espero que estejam bem sozinhos. Voltaremos assim que pudermos.\"</p><p>Um Dragonborn e um Rabbitkin que encontraram esses Gatos recentemente, foram encontrar os Hearthlings . Eles podem contar a eles sobre este novo posto avançado.<br><br>\"Se os Hearthlings também se juntarem a nós, construiremos uma bela vila para cuidar de todos vocês!\"</p>"
+									},
+									"bulletin_title": "A Mensagem do Dragonborn!",
+									"dialog_title": "A Mensagem do Dragonborn!",
+									"choice_000": "Por favor, retorne em breve"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "\"Cuide-se com um pouco de comida armazenada pelo estandarte.\"<p>Use suas habilidades em cavar para coletar recursos de argila ou pedra, ou junte algumas plantas e coloque-as nas proximidades, para começar a criar um belo jardim.</p >"
+									},
+									"bulletin_title": "Algumas orientações",
+									"dialog_title": "Algumas orientações",
+									"choice_000": "Vamos pesquisar ao redor"
+								}
+							}
+						}
+					},
+					"dialog_retrieve_dragon_treasure": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Um pouco longe do posto avançado, há um pequeno poço aberto. <p>Os Gatos devem ir até lá e ver o que há lá embaixo, minerando uma escada ou colocando escadas para subir e descer."
+									},
+									"bulletin_title": "Algo está em um poço",
+									"dialog_title": "Algo está em um poço",
+									"choice_000": "Vamos explorá-lo"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "Os Gatos veem que há um Baú do Tesouro no Poço. Ele pode ser aberto para que o conteúdo apareça.<p>Os gatos trarão de volta quaisquer tesouros e os colocarão em um estoque ou caixa de armazenamento.</p><p>Um Dragonborn certamente gostaria de um saco de<i ><span class='gminor'> flocos de ouro</span></i>, que emitem uma luz especial brilhante.</p>"
+									},
+									"bulletin_title": "Tesouro de um Dragonborn",
+									"dialog_title": "Tesouro de um Dragonborn",
+									"choice_000": "Vamos lá!"
+								}
+							}
+						}
+					},
+					"dragon_treasure_quest": {
+						"title": "Missão da Cidade: Colete Tesouros",
+						"dialog_title": "Missão da Cidade: Colete Flocos de Ouro"
+					},
+					"dialog_create_amberstone_garden": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "A voz do Dragonborn é ouvida novamente.<p>\"Queridos gatos, meu amigo Coelho também deixou um valioso<i><span class='gmajor'> Pedestal de Pedra Âmbar </span></i>entre seus bens armazenados, agora revelado em a presença de alguns flocos de ouro brilhantes.\""
+									},
+									"bulletin_title": "A Pedra Âmbar",
+									"dialog_title": "Pedestal de Amberstone",
+									"choice_000": "O que é isso?"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "O Pedestal Amberstone, que aproveita a energia das profundezas do solo, permite que os coelhos astutos existam em sua forma vertical.<p>Então, por favor, faça outro favor para nós, antes de nosso retorno.</p><p>Nosso posto avançado aqui seria mais agradável se pudéssemos ter um jardim atraente!</p>"
+									},
+									"bulletin_title": "Um artefato essencial",
+									"dialog_title": "Pedestal de Amberstone",
+									"choice_000": "Outra missão"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Coloque este<i><span class='gmajor'> Pedestal de Pedra Âmbar, </span></i>e cerque-o com plantas que você encontra na natureza. Ele precisa de pelo menos<i><span class='gmajor'> 8 plantas </span></i>nas proximidades para fazer um jardim natural atraente.<p>Procure arbustos de bagas, ervas ou plantas fibrosas.<br ><br>Como gatos, vocês são transportadores rápidos: retirem ou movam algumas plantas próximas e coloque-as ao redor do Pedestal de Amberstone.</p>"
+									},
+									"bulletin_title": "Jardinagem",
+									"dialog_title": "Crie um pequeno jardim",
+									"choice_000": "Vamos juntar as plantas!"
+								}
+							}
+						}
+					},
+					"dialog_banner_upgrade_choice": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Olá Gatos, voltamos para cuidar de vocês e construirmos juntos uma Vila. <br><br>E encontramos os Hearthlings, que podem começar a trocar mercadorias conosco. <p>Além disso, Hearthlings também viajarão para se estabelecer conosco mais tarde, em um ou dois dias."
+									},
+									"bulletin_title": "Instalado em",
+									"dialog_title": "Instalado em",
+									"choice_000": "Cuidar e compartilhar"
+								},
+								"dragonborn_origin1": {
+									"bulletin_message": {
+										"00": "Mas, de onde veio o Dragonborn, você pode ter se perguntado. <br><br>Contaremos este pequeno conto, se você quiser ouvir. Reúnam-se ao redor da Lareira, jovens Gatos."
+									},
+									"bulletin_title": "Destino do Dragonborn",
+									"dialog_title": "Destino do Dragonborn",
+									"choice_000": "Contos de Dragão",
+									"choice_001": "Já conhecemos a história [Skip]"
+								},
+								"dragonborn_origin2": {
+									"bulletin_message": {
+										"00": "O Dragonborn formou um império próspero nos primeiros dias, os primeiros seres a habitar essas terras. Como cuidadores nobres, eles formavam uma utopia equilibrada, protegendo os animais amigáveis ​​do perigo. Mas, após o surgimento de algumas novas raças hostis, o Império Dragonborn entrou em declínio.<br><br>Durante seus últimos dias, uns poucos preciosos foram capazes de mudar sua existência para uma forma espiritual, escondendo-se da visão e dos sentidos. <br><br>Eles vigiavam seus ovos adormecidos, disfarçados em vários pontos de miragem, mas eventualmente a maioria deles foi encontrada e saqueada."
+									},
+									"bulletin_title": "Contos de Dragão",
+									"dialog_title": "Contos de Dragão",
+									"choice_000": "Um ato heroico"
+								},
+								"dragonborn_origin3": {
+									"bulletin_message": {
+										"00": "Pax Skydragon, um Príncipe Dragonborn, foi um dos últimos heróis. Um pequeno posto avançado, abrigando preciosos filhotes de dragão, foi cercado por invasores em uma noite de tempestade. Em sacrifício, Pax Skydragon abriu o céu e se tornou um canal para o poderoso relâmpago... finalmente transferindo as almas dos filhotes de dragão para o céu, onde eles amadureceriam lenta e seguramente entre as nuvens.<br><br> Esses antigos filhotes de dragão estão aqui, todos crescidos! Aparecemos primeiro para o Rabbitkin do Clã Amberstone, continuando nosso dever como cuidadores de animais vulneráveis, como esses gatos amigáveis.<br><br>Nosso destino é retornar e ajudar os Filhos do Macaco em uma grande batalha, a ocorrer nesta geração."
+									},
+									"bulletin_title": "Legado do Dragão",
+									"dialog_title": "Legado do Dragão",
+									"choice_000": "Guardando o futuro"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "Agora, vamos dar um nome à nossa nova vila e comemorar este dia!<p>Nossa experiência no mundo nos permite aprender rapidamente os empregos, e devemos<i><span class='gminor'> mudar de emprego </span ></i>sempre que precisarmos: para criar, cultivar ou combater.</p><p>Com o tempo, à medida que ganhamos mais recursos, mais gatos também vão querer vir morar aqui!"
+									},
+									"bulletin_title": "Nosso novo mundo",
+									"dialog_title": "Nosso novo mundo",
+									"choice_000": "Ok"
+								}
+							}
+						}
+					},
+					"dialog_dismiss_cats_choice": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "<i>Uma escolha para o futuro...</i><p>Agora é a chance de tomar uma decisão importante sobre os cidadãos da Cat Crew. <p>Você pode continuar cuidando dos Gatos, ao mesmo tempo em que recruta novos Hearthlings, Dragonborn e Rabbitkin.<p>Ou, você pode optar por libertar esses Gatos no deserto, para fazer uma cidade de outros tipos de cidadãos."
+									},
+									"bulletin_title": "Hora da Decisão!",
+									"dialog_title": "Mantenha ou solte gatos",
+									"choice_000": "OK"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "<p>Você quer ficar com esses gatos? <p><p>"
+									},
+									"bulletin_title": "Escolha fatídica!",
+									"dialog_title": "Mantenha ou solte gatos",
+									"choice_000": "Não, solte-os",
+									"choice_001": "Sim, mantenha os gatos"
+								}
+							}
+						}
+					},
+					"grant_recurring_citizen": {
+						"dragonborn_notification_title": "Um Dragonborn se junta ao grupo!",
+						"rabbit_notification_title": "Um Rabbitkin se junta ao grupo!"
+					},
+					"citizen_type_choice": {
+						"dragonborn": {
+							"name": "Dragonborn",
+							"description": "Um membro forte e nobre do indescritível povo Dragão."
+						},
+						"hearthling": {
+							"name": "Acalentador",
+							"description": "Um aventureiro completo, capaz de aprender muitos trabalhos."
+						},
+						"rabbit": {
+							"name": "Coelho",
+							"description": "Um Coelho veloz do duradouro Clã Amberstone."
+						},
+						"none": {
+							"name": "",
+							"description": "<i>Ninguém participará hoje,<br> talvez da próxima vez.</i>"
+						}
+					},
+					"dialog_cat_den_intro": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Era uma vez um gato muito corajoso que vivia conosco.<br>Este gato também era conhecido por ter um temperamento quente, o que o fazia atacar qualquer monstro que ousasse atacar primeiro. Ainda assim, era apenas um pequeno gato.<p>Em um dia sombrio e nebuloso, este gato tentou o seu melhor para afastar os Zumbis no deserto, enquanto trazia de volta algum minério extraído da encosta da montanha. Distraiu os zumbis por tempo suficiente para os outros gatos fugirem de volta para a cidade..."
+									},
+									"bulletin_title": "O gato bravo",
+									"dialog_title": "O gato bravo",
+									"choice_000": "Um bom gatinho"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "Então, em homenagem ao Brave Cat, criamos uma Estátua.<p>Agora, precisamos construir uma área para alguns gatos dormirem confortavelmente perto da Estátua do Brave Cat: um Cat Den.</p><p>Qualquer tipo de área funcionará, mas um abrigo coberto será mais confortável.<br><br>Construa o modelo Cat Den depois de obter um Weaver, ou use um quarto em uma caverna, mas também precisará de alguns móveis exclusivos.</ p>"
+									},
+									"bulletin_title": "Missão da Cidade: Toca dos Gatos",
+									"dialog_title": "Missão da Cidade: Toca dos Gatos",
+									"choice_000": "Almofadas para gatos!"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Certo, vamos pedir a um<span class='gminor'> Tecelão </span>para criar alguns Tapetes de Gato para mobiliar o Covil.<p>Podemos colocar a<span class='gmajor'> Estátua do Gato Bravo </span> span>perto de<span class='gmajor'> 4 Cat Pads, </span>será um bom quartinho para descansar bem."
+									},
+									"bulletin_title": "Missão da Cidade: Toca dos Gatos",
+									"dialog_title": "Almofadas para gatos na toca do gato",
+									"choice_000": "Construa uma confortável toca para gatos"
+								}
+							}
+						}
+					},
+					"hearth_choice": {
+						"friends": {
+							"name": "Lareira da Amizade",
+							"description": "<i>Prova de que você tem cidadãos felizes, bem alimentados e bons lugares para eles viverem.</i><ul><li>Aumenta o patrimônio líquido da Atualização Diária com base no moral geral de seus cidadãos</li>< li>Cada dia traz um novo bônus aleatório para seus habitantes.</li></ul>"
+						}
+					},
+					"geo_runba_gift": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Olá, sou o Geomante Runba. Percebi que a energia de Amberstone se reuniu aqui para atualizar a fogueira da sua cidade, e você está fazendo um bom trabalho cuidando desses gatos!<br><br>Como recompensa por seus esforços na construção desta bela cidade, darei você um dos preciosos talismãs do Clã Amberstone."
+									},
+									"bulletin_title": "Geomancer Runba encontra nossa cidade!",
+									"dialog_title": "Parabéns",
+									"choice_000": "Bem-vindo!"
+								},
+								"simple_message_2": {
+									"bulletin_message": {
+										"00": "Este cajado permite que um de seu povo se torne um Geomante.<br><br>Use a essência colhida das plantas<span class='gminor'> Hearthbud </span>para começar a praticar os trabalhos de uma<span class ='gmajor'> Geomante!</span><br><br><i>\"Seja corajoso enquanto continua a crescer e aprender sobre esta terra.\"</i><p>Oferecido a você:"
+									},
+									"bulletin_title": "Presente do Geomante Runba",
+									"dialog_title": "Hearthbuds e Geomancia",
+									"choice_000": "Um novo trabalho para aprender"
+								}
+							}
+						}
+					},
+					"dialog_mega_hearthbud_intro": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Estou tão feliz que encontrar esses gatos reuniu o pessoal de Hearth aqui.<p>Em colaboração com o Dragonborn, uma nova espécie de planta foi desenvolvida!<br>O Dragonborn compartilhou algumas técnicas antigas de crescimento rápido de plantas, que foram uma vez usado para permitir que eles se escondam entre florestas densas.</p>Coelhos Geomantes adaptaram a técnica para desenvolver a planta<span class='gmajor'> Mega Hearthbud </span>."
+									},
+									"bulletin_title": "Planta Mega Hearthbud",
+									"dialog_title": "Runba e o Mega Hearthbud",
+									"choice_000": "Isso é Mega-Nificent"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "A planta Mega Hearthbud pode coletar e transferir a energia que absorve da luz do Sol e da Lua, produzindo um recurso valioso agora.<br><br>Sim, agora teremos uma maneira de obter Amberstone sem precisar cavar profundamente no subsolo , porque esta planta pode realmente formar<span class='gminor'> Cubos de Amberstone!</span><p>Podemos usar este recurso para fazer alguns equipamentos lendários.</p>"
+									},
+									"bulletin_title": "Cubos de Amberstone",
+									"dialog_title": "Cubos de Amberstone",
+									"choice_000": "Essa planta é super cubículo"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Então, eu tentei desenvolver o primeiro Mega Hearthbud aqui, e parece que funcionou! Por favor, traga esta planta de volta para sua cidade [com o comando<span class='gminor'> Mover Item </span>] para que ela comece a produzir mais Amberstone para nós.<p>Se você vir algum Amberstone Cube por perto, coloque-o em seu armazenamento [com<span class='gminor'> comando Undeploy </span>] para uso posterior: precisarei examiná-lo para formular algumas novas receitas!</p>"
+									},
+									"bulletin_title": "Missão da Cidade: Cubo de Amberstone",
+									"dialog_title": "Missão da Cidade: Cubo de Amberstone",
+									"choice_000": "Cresça a planta e pegue o cubo!"
+								}
+							}
+						}
+					},
+					"amberstone_cube_quest": {
+						"title": "Town Quest: Colete um Cubo de Amberstone",
+						"dialog_title": "Town Quest: Colete um Cubo de Amberstone"
+					},
+					"dialog_place_down_shrine": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Obrigada! Obrigado por obter o Amberstone Cube, e espero que você tenha encontrado um bom local para sua planta Mega Hearthbud, pois ela cresce constantemente Amberstone Cube para colheita.<br><p>Com esse avanço, você pode ficar feliz que sua cidade alcançará seu próximo nível de desenvolvimento!"
+									},
+									"bulletin_title": "O Geomante Runba está satisfeito!",
+									"dialog_title": "Avançando a cidade",
+									"choice_000": "Excitante!"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "Ótimo trabalho! Em homenagem a essa conquista, apresento a vocês o<span class='gmajor'> Santuário da Pata.</span><br>Basta colocá-lo em um local agradável e podemos prosseguir com a cerimônia de avanço.< p>Vou ensinar aos seus habitantes essas novas receitas que desenvolvi, incluindo uma receita de Geomante para cultivar mais plantas<span class='gminor'> Mega Hearthbud </span>, para aumentar a produção de Amberstone Cube!</p>"
+									},
+									"bulletin_title": "Santuário Especial",
+									"dialog_title": "Santuário Especial",
+									"choice_000": "Vamos encontrar um ótimo local para o Santuário"
+								}
+							}
+						}
+					},
+					"arcs": {
+						"trigger": {
+							"town_progression": {
+								"encounters": {
+									"banner_upgrade_xp": {
+										"achievements": {
+											"000": "Cidadãos ganham experiência profissional a uma taxa aumentada"
+										}
+									},
+									"hearth_upgrade_friends": {
+										"title": "Liquidação Estabelecida",
+										"dialog_title": "Liquidação estabelecida!",
+										"tier_title": "Povoado",
+										"reward_message": "Por unanimidade dos cidadãos, declaramos:",
+										"reward_message_ctd": "ser um acordo que prospere na amizade entre todos os cidadãos.",
+										"achievements": {
+											"000": "Atualização diária impulsionada pelo moral do cidadão",
+											"001": "Buffs Diários Aleatórios"
+										}
+									},
+									"reembark_dialog": {
+										"dialog_tree_info": {
+											"dialog_nodes": {
+												"msg1": {
+													"bulletin_title": "É Runba de novo!"
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"shrine_choice": {
+						"paw": {
+							"name": "Santuário da Pata",
+							"description": "<i>Este município deve cuidar muito bem dos gatos que vêm descansar aqui.</i><ul><li>Abençoa todos os cidadãos com +1 em mente, corpo e espírito</li><li> Desbloqueia receitas de equipamentos lendários</li></ul>"
+						}
+					},
+					"shrine_quest_paw": {
+						"title": "Township Quest: Santuário da Pata",
+						"dialog_title": "Township Quest: Santuário da Pata"
+					},
+					"shrine_upgrade_paw": {
+						"title": "Município estabelecido",
+						"reward_message": "Neste dia reconhecemos:",
+						"reward_message_ctd": "Para fazer um lar tranquilo para os gatos. A cidade tem direito a:",
+						"achievements": {
+							"001": "Decorações de Potter",
+							"002": "Lendários do Ferreiro",
+							"003": "Bandeiras de tecelão"
+						},
+						"recipe_bulletins": {
+							"recipe_unlock_potter": "Novas receitas de decoração para Potter!",
+							"recipe_unlock_blacksmith": "Novas receitas lendárias para o Ferreiro!",
+							"recipe_unlock_weaver": "Novas receitas de banner para Weaver!",
+							"recipe_unlock_geomancer": "Receita Mega Hearthbud para Geomancer!"
+						}
+					},
+					"hg_dialog_banner_upgrade_choice": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "O Geomante Runba alcança nosso pequeno grupo de exploradores, carregando uma sacola de comida. <br><br>\"Saudações, membros da Guarda da Lareira! Vejo que decidiram construir um posto avançado aqui, parece um ótimo local.\"<p>\"Espero que você tenha sucesso em sua missão de proteger the Hearthlands, sim...\"<p>Sim, nós somos o Hearth Guard, formado por uma aliança entre o Dragonborn e o Rabbitkin. Os Coelhos retornaram à superfície, vindos das Tocas Subterrâneas, e os Dragões também retornaram..."
+									},
+									"bulletin_title": "A chegada",
+									"dialog_title": "A chegada",
+									"choice_000": "O início da nossa história..."
+								},
+								"dragonborn_origin1": {
+									"bulletin_message": {
+										"00": "Mas, de onde veio o Dragonborn, você pode ter se perguntado. <br><br>Ouça este conto e você entenderá.<br>Reúna-se aqui, ao redor da Lareira."
+									},
+									"bulletin_title": "Destino do Dragonborn",
+									"dialog_title": "Destino do Dragonborn",
+									"choice_000": "Contos de Dragão",
+									"choice_001": "Já conhecemos a história [Skip]"
+								},
+								"dragonborn_origin2": {
+									"bulletin_message": {
+										"00": "O Dragonborn formou um império próspero nos primeiros dias, os primeiros seres a habitar essas terras. Como cuidadores nobres, eles formavam uma utopia equilibrada, protegendo os animais amigáveis ​​do perigo. Mas, após o surgimento de algumas novas raças hostis, o Império Dragonborn entrou em declínio.<br><br>Durante seus últimos dias, uns poucos preciosos foram capazes de mudar sua existência para uma forma espiritual, escondendo-se da visão e dos sentidos. <br><br>Eles vigiavam seus ovos adormecidos, disfarçados em vários pontos de miragem, mas eventualmente a maioria deles foi encontrada e saqueada."
+									},
+									"bulletin_title": "Contos de Dragão",
+									"dialog_title": "Contos de Dragão",
+									"choice_000": "Um ato heroico"
+								},
+								"dragonborn_origin3": {
+									"bulletin_message": {
+										"00": "Pax Skydragon, um Príncipe Dragonborn, foi um dos últimos heróis. Um pequeno posto avançado, abrigando preciosos filhotes de dragão, foi cercado por invasores em uma noite de tempestade. Em sacrifício, Pax Skydragon abriu o céu e se tornou um canal para o poderoso relâmpago... finalmente transferindo as almas dos filhotes de dragão para o céu, onde eles amadureceriam lenta e seguramente entre as nuvens.<br><br> Esses antigos filhotes de dragão estão aqui, todos crescidos! Aparecemos primeiro para o Rabbitkin do Clã Amberstone, continuando nosso dever como cuidadores de animais vulneráveis.<br><br>Nosso destino é retornar e ajudar os Filhos do Macaco em uma grande batalha, que ocorrerá nesta geração."
+									},
+									"bulletin_title": "Legado do Dragão",
+									"dialog_title": "Legado do Dragão",
+									"choice_000": "Guardando o futuro"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "Agora, vamos dar um nome à nossa nova vila e comemorar este dia!<p>Nossa experiência no mundo nos permite aprender rapidamente os empregos, e devemos<i><span class='gminor'> mudar de emprego </span ></i>sempre que precisarmos: para criar, cultivar ou combater.</p><p>Gradualmente, mais Rabbitkin e Dragonborn virão para se juntar à Guarda da Lareira!"
+									},
+									"bulletin_title": "Nosso novo mundo",
+									"dialog_title": "Nosso novo mundo",
+									"choice_000": "Ok"
+								}
+							}
+						}
+					},
+					"town_founding_food_donation": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Ao comemorar o início do novo posto avançado, Geomancer Runba abre sua sacola de comida.<br><br><i>\"Aqui está uma coisinha para ajudá-lo a comemorar\"</i><br>a sacola contém:"
+									},
+									"bulletin_title": "Felicidades Runba!",
+									"dialog_title": "Um pequeno banquete",
+									"choice_000": "Delicioso!"
+								}
+							}
+						}
+					},
+					"dialog_engi_looxa_intro": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Um curioso Red Dragonborn entra no posto avançado, olhando para cada cidadão, procurando por alguém em particular.<p>\"Olá. Eu sou Looxa Magmadragon, ao seu serviço! Bem, Geomancer Runba me disse que estaria aqui esperando, então poderíamos começar a trabalhar em um novo projeto. Mas não o vejo entre vocês aqui...\"<br>"
+									},
+									"bulletin_title": "Uma figura carmesim chega",
+									"dialog_title": "O convidado Dragonborn",
+									"choice_000": "Hum"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "Looxa Magmadragon usa a roupa de um engenheiro avançado. Nós nos perguntamos em qual projeto ela trabalhará com Runba?<p>Ela nos diz: \"Runba me trouxe algumas essências de Hearth e Gold Flakes, para que pudéssemos projetar um dispositivo para melhorar o crescimento das plantas Hearthbud.<br>De qualquer forma, Acho que ele está atrasado.\"<p>Na verdade, Runba nunca voltou aqui ainda, desde que estabelecemos [str(i18n_data.town_name)]."
+									},
+									"bulletin_title": "Looxa Magmadragon",
+									"dialog_title": "Looxa Magmadragon",
+									"choice_000": "Teremos que esperar"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Espere, só um minuto.<br>\"Espere! Você vê isso ali? Vejo algo brilhando e brilhando fracamente. Por favor, envie alguém para trazer esses itens de volta, eles podem ser a Essência da Lareira e os Flocos de Ouro que Runba estava carregando.\"<br><br>Vamos também verificar se há algum sinal de Runba na área."
+									},
+									"bulletin_title": "Desligado à distância",
+									"dialog_title": "Algo brilha ali",
+									"choice_000": "Vamos olhar ao redor"
+								}
+							}
+						}
+					},
+					"dialog_engi_looxa_notice": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "A essência da lareira e os flocos de ouro podem ser saqueados do chão. No entanto, tome cuidado com os animais selvagens agressivos por perto.<br><br><i>Fuja deles ou cace-os para proteger a terra.</i>"
+									},
+									"bulletin_title": "Essência do Lar",
+									"dialog_title": "Essência e Ouro",
+									"choice_000": "Saqueie os itens"
+								}
+							}
+						}
+					},
+					"hearth_essence_quest": {
+						"title": "Colete Essência da Lareira e Flocos de Ouro",
+						"dialog_title": "Colete Essência da Lareira e Flocos de Ouro"
+					},
+					"dialog_runba_found": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "\"Woowee, eu finalmente cheguei aqui!\" diz Geomante Runba. Ele parece um pouco maltratado, enquanto continua.<br><p>\"Ah, vejo que você encontrou a Essência da Lareira e os Flocos de Ouro que eu havia deixado cair. Eu simplesmente não conseguia mais carregá-los... aqueles javalis selvagens têm me perseguido desde que deixei o pequeno posto avançado Rabbitkin que estava visitando.<br>Pelo menos eu os distraí bem o suficiente, porque aqueles javalis malucos estavam comendo toda a comida, armazenada nos armazéns lá atrás!\"</p>"
+									},
+									"bulletin_title": "Saque reunido",
+									"dialog_title": "E um coelho voltou",
+									"choice_000": "Louco!"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "\"Runba!\" grita Looxa Magmadragon, \"Você está sempre encontrando novas maneiras de me surpreender!\"<br><br>\"No entanto, estamos felizes por você ter conseguido. Este projeto precisa continuar, para que possamos encontrar uma solução para a produção local de Amberstone na superfície, em vez de vasculhar as minas do submundo escuro. Isto é, se minhas teorias estiverem corretas. Agora, então, vamos trabalhar com os suprimentos.\" ."
+									},
+									"bulletin_title": "Looxa está aliviado",
+									"dialog_title": "Looxa está aliviado",
+									"choice_000": "Um pouco de magia"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "\"Ok Looxa, vamos prosseguir com o projeto, mas primeiro há algo que eu preciso fazer.<br><br>Esses Guardas da Lareira têm trabalhado duro no desenvolvimento deste lugar, então é hora de eu lançar minha Geomancia poderes sobre sua Lareira, transformando-a em uma concedente de bênçãos diárias.\"<p>Nossa amizade está se fortalecendo à medida que damos o próximo passo para o avanço de nosso Assentamento hoje!</p>"
+									},
+									"bulletin_title": "Uma nova lareira",
+									"dialog_title": "Uma nova lareira",
+									"choice_000": "Hoje celebramos!"
+								}
+							}
+						}
+					},
+					"geo_runba_gift_hg": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "O Geomancer Runba sabe que são tempos perigosos, e cada jornada é um risco. Ele decidiu instruir o Rabbitkin da Guarda da Lareira no antigo conhecimento de manipulação da paisagem através da Geomancia.<br><br>A forma de arte pode sobreviver um pouco mais quando um novo aluno assume a tarefa de aprender essa habilidade obscura."
+									},
+									"bulletin_title": "Transmitindo o Conhecimento",
+									"dialog_title": "Manipulação de Matéria",
+									"choice_000": "Aceitamos com gratidão"
+								}
+							}
+						}
+					},
+					"dialog_project": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "No passado antigo, os Dragonborn Engineers usavam dispositivos para crescer rapidamente grandes florestas que cercavam seus castelos, como forma de mantê-los escondidos de longe.<p>Agora, Engineer Looxa e Geomancer Runba estão combinando seus dispositivos e magia para desenvolver uma nova planta Hearthbud. Ele cresce rapidamente para um tamanho grande, mas também produz algo diferente do Hearth Essence agora.</p>"
+									},
+									"bulletin_title": "Tecnologia do Dragão",
+									"dialog_title": "Tecnologia do Dragão",
+									"choice_000": "O que irá produzir?"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "O novo Mega Hearthbud poderá coletar energia luminosa do Sol e da Lua para concentrá-la em um material que formará um Cubo de Pedra Âmbar.<br><br>Podemos usar esse recurso para alguns equipamentos especiais, e também fornece um sentimento reconfortante para o Rabbitkin. Eles podem permanecer como sua forma de Coelho na presença dessas Pedras Âmbar."
+									},
+									"bulletin_title": "Fonte de Amberstone",
+									"dialog_title": "Fonte de Amberstone",
+									"choice_000": "Conveniente"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Então, ativamos o dispositivo em algumas sementes de Hearthbud plantadas no deserto.<p>Tudo o que temos a fazer agora é esperar um pouco para que a semente absorva a mistura de partículas e observar o surgimento de nossa nova forma de planta.</p> p>"
+									},
+									"bulletin_title": "O Projeto Arrecada",
+									"dialog_title": "O Projeto Arrecada",
+									"choice_000": "Vamos crescer!"
+								}
+							}
+						}
+					},
+					"dialog_mega_hearthbud_intro_hg": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "O projeto dá certo! Vemos o surgimento desta<span class='gmajor'> Mega Hearthbud </span>planta.<p>Por favor, traga esta planta de volta para sua cidade [com o comando<span class='gminor'> Mover Item </span> ] para que comece a produzir mais Amberstone para nós.</p><p>Se você vir algum Amberstone Cube por perto, coloque-o em seu armazenamento [com<span class='gminor'> comando Undeploy </span>] para um uso posterior: precisarei examiná-lo para formular algumas novas receitas!</p>"
+									},
+									"bulletin_title": "Planta Mega Hearthbud",
+									"dialog_title": "O Mega Hearthbud",
+									"choice_000": "Mega-nice! Nós vamos trazê-lo aqui"
+								}
+							}
+						}
+					},
+					"shrine_upgrade_paw_hg": {
+						"reward_message_ctd": "Para fazer a casa da Guarda do Lar. A cidade tem direito a:"
+					}
+				},
+				"kitten_guard_quest": {
+					"initial_help_request": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Guardas do Lar! Estou preocupado com os pequenos gatos selvagens lá fora."
+									},
+									"bulletin_title": "Um Guarda Dragonborn está preocupado",
+									"dialog_title": "Cavaleiro da Guarda da Lareira"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Sinto o cheiro da fumaça da fogueira fedorenta do Goblin à distância e ouvi um desagradável Lobo Goblin uivando.<br><br>Seria uma pena se os Goblins treinassem esses gatos para seu exército horrível, ou pior.. .<br><i>eles certamente estão com fome de um lanche.</i>"
+									},
+									"bulletin_title": "O Guarda coça o nariz",
+									"dialog_title": "Cavaleiro da Guarda da Lareira"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Fique alerta ao se aventurar na natureza e prepare suas lâminas para a ação.<br>Precisamos ajudar nossos amiguinhos que estão em perigo.<br>É nosso dever.<br><br>Destrua a Gaiola do Gato e defina eles grátis!"
+									},
+									"bulletin_title": "O Guarda acena com firmeza",
+									"dialog_title": "Cavaleiro da Guarda da Lareira"
+								}
+							}
+						}
+					},
+					"rabbits_hint": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"000": "Há um lobo na floresta! Vamos lá! Para os gatos!",
+										"001": "Você não pode ouvir o uivo? Devemos nos apressar para salvar os gatos!",
+										"002": "Fui atacado por Goblins! E eles tinham uma gaiola cheia de gatos!",
+										"003": "Os goblins desagradáveis ​​e seu lobo são tão cruéis! Podemos salvar os gatos de seus terríveis guardiões?",
+										"004": "Goblins na floresta! Os gatos na gaiola estão chorando por socorro!"
+									},
+									"bulletin_title": "Um escoteiro Rabbitkin ouve o uivo do lobo Goblin",
+									"dialog_title": "Escoteiro Coelho"
+								}
+							}
+						}
+					},
+					"finish_message": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Os gatos voltaram para seu deserto agora, nossa missão está terminada."
+									},
+									"bulletin_title": "A Guarda Dragonborn está à vontade",
+									"dialog_title": "Cavaleiro da Guarda da Lareira"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Desta vez, protegemos esta terra das travessuras dos Goblins e continuaremos protegendo as criaturas vulneráveis, como fizeram nossos ancestrais."
+									},
+									"bulletin_title": "O cavaleiro olha para o céu",
+									"dialog_title": "Cavaleiro da Guarda da Lareira"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Enquanto isso, os Engenheiros estão redescobrindo a antiga Dragontech e criaram algumas amostras do Golden Gear para usarmos agora!<br><br>Talvez um dia possamos construir um ótimo lugar para esses gatos selvagens viverem em segurança."
+									},
+									"bulletin_title": "Golden Gear revivido",
+									"dialog_title": "Cavaleiro da Guarda da Lareira"
+								}
+							}
+						}
+					},
+					"kittens_escaping_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Purrr, ronronar, MEOOOW!!!"
+									},
+									"bulletin_title": "Os gatos explodem alegremente da gaiola",
+									"dialog_title": "Gatos fugindo"
+								}
+							}
+						}
+					},
+					"encounters": {
+						"create_trainer_camp": {
+							"hut": {
+								"hut": {
+									"display_name": "Tenda do Treinador"
+								}
+							},
+							"kitten_cage": {
+								"kitten_cage": {
+									"display_name": "Gaiola para gatos"
+								},
+								"tame_kitten": {
+									"description": "Selvagem e preocupado"
+								}
+							}
+						}
+					}
+				},
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"tier_1_shops": {
+								"metal_goods_shop_1": {
+									"shop_info": {
+										"name": "Oficina de Metal de Reggie Sledgehammer",
+										"title": "Reggie Sledgehammer chegou com metal para venda"
+									}
+								}
+							},
+							"tier_2_shops": {
+								"metal_goods_shop_2": {
+									"shop_info": {
+										"name": "Oficina de Metal de Reggie Sledgehammer",
+										"title": "Reggie Sledgehammer chegou com metais extras"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"commands": {
+			"random_skin": {
+				"dragonborn": {
+					"display_name": "Mudar cor",
+					"description": "O Dragonborn muda a cor de suas escamas"
+				}
+			}
+		}
+	},
+	"entities": {
+		"peoples": {
+			"dragonborn_feline": {
+				"species": "Dragonborn"
+			},
+			"feline": {
+				"species": "Gato"
+			}
+		},
+		"npc": {
+			"female": {
+				"engi_looxa": {
+					"display_name": "Looxa",
+					"description": "Engenheiro Magmadragon"
+				}
+			},
+			"male": {
+				"geo_runba": {
+					"display_name": "Runba",
+					"description": "Geomante do Clã Amberstone"
+				}
+			}
+		},
+		"decoration": {
+			"dragon_loot_chest": {
+				"display_name": "Tesouro do Dragão",
+				"description": "Abra-o para reivindicar o tesouro dentro."
+			},
+			"hearth_friends": {
+				"hearth_friends_ghost": {
+					"display_name": "Lareira da Amizade",
+					"description": "Fornece calor, luz e conforto"
+				}
+			},
+			"shrine_paw": {
+				"shrine_paw_ghost": {
+					"display_name": "Santuário da Pata",
+					"description": "Um monumento que celebra a nossa Cidade de muitas Criaturas."
+				}
+			},
+			"statue": {
+				"statue_babis_monument": {
+					"display_name": "Santuário de Babis",
+					"description": "Reza a lenda que ela era a melhor gatinha de todos os tempos. Irradia uma aura de cura."
+				}
+			}
+		},
+		"equipment": {
+			"gold_fangs": {
+				"display_name": "Presas Douradas",
+				"description": "Converte o sopro do Dragonborn em chamas."
+			},
+			"gold_gauntlet": {
+				"display_name": "Manopla Dourada",
+				"description": "Ataque poderoso quando a arma equipada se expande."
+			},
+			"gold_wings": {
+				"display_name": "Asas Douradas",
+				"description": "Protege as costas de um Dragonborn."
+			}
+		},
+		"furniture": {
+			"sleeping_pad": {
+				"display_name": "Almofada para gatos",
+				"description": "Almofada de dormir para gatos ou pessoas."
+			}
+		},
+		"gizmos": {
+			"pedestal": {
+				"plants": "🌿",
+				"appeal": "✨"
+			},
+			"keystone_pedestal": {
+				"keystone_pedestal_ghost": {
+					"display_name": "Pedestal de Amberstone",
+					"description": "Um artefato Amberstone, cerque-o com plantas em um jardim."
+				}
+			},
+			"statue_cat_guard": {
+				"pads": "🐱🛏️",
+				"statue_cat_guard_ghost": {
+					"display_name": "Estátua do Gato Valente",
+					"description": "Lembre-se do Brave Cat e durma bem em um Cat Pad."
+				}
+			},
+			"town_banner_xp": {
+				"town_banner_xp_ghost": {
+					"display_name": "Bandeira da Sabedoria",
+					"description": "Como você sabe que voltou para casa",
+					"town_bonus_description": "<i>Este acordo se adaptará rapidamente com taxas de aprendizado aprimoradas.</i><ul><li>A taxa de ganho de experiência é aumentada.</li><li>Os cidadãos podem aprender seu trabalho mais rapidamente, permitindo um tempo mais fácil para se tornarem mestres de trabalhos adicionais.</li></ul>"
+				},
+				"town_banner_xp_token_iconic": {
+					"display_name": "Fragmento de Bandeira da Sabedoria",
+					"description": "Um fragmento da Bandeira da Experiência, carregando sua bênção."
+				}
+			}
+		},
+		"plants": {
+			"mega_hearthbud": {
+				"unripe_description": "Preparando-se para formar outro Cubo de Amberstone.",
+				"mega_hearthbud_clone": {
+					"description": "Planta gigantesca, começará a formar um Cubo de Amberstone.",
+					"display_name": "Iniciador do Mega Hearthbud"
+				},
+				"mega_hearthbud_half_grown": {
+					"description": "Planta gigantesca, o Amberstone Cube está meio formado...",
+					"display_name": "Antigo Mega Hearthbud"
+				},
+				"mega_hearthbud_ghost": {
+					"description": "Planta gigantesca, reproduz lentamente um Amberstone Cube.",
+					"display_name": "Mega Hearthbud"
+				}
+			}
+		},
+		"resources": {
+			"amberstone_cube": {
+				"amberstone_cube_ghost": {
+					"description": "Recurso Raw Amberstone, e também uma mesa brilhante?",
+					"display_name": "Cubo de Amberstone"
+				}
+			},
+			"wood": {
+				"parana_pine_log": {
+					"description": "Um registo. Feito de madeira.",
+					"display_name": "Tronco de Pinheiro do Paraná"
+				}
+			}
+		},
+		"trees": {
+			"parana_pine_tree": {
+				"seed": {
+					"tree_parana_pine_seed_ghost": {
+						"display_name": "Semente de Pinheiro do Paraná",
+						"description": "Pode ser plantado para crescer uma árvore única e bonita."
+					}
+				},
+				"sprout": {
+					"tree_parana_pine_sprout": {
+						"display_name": "Brotos de Pinheiro do Paraná",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"stem": {
+					"tree_parana_pine_plant_stem": {
+						"display_name": "Desengace do Pinho do Paraná",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"bud": {
+					"tree_parana_pine_plant_bud": {
+						"description": "É um pequeno pinheiro, embora não seja realmente um pinheiro...",
+						"display_name": "Brotando Pinheiro do Paraná"
+					}
+				},
+				"small_parana_pine_tree": {
+					"display_name": "Pinheiro do Paraná pequeno",
+					"description": "Ainda é principalmente um pinheiro, mas com folhas bonitas e mesquinhas."
+				},
+				"large_parana_pine_tree": {
+					"display_name": "Grande Pinheiro do Paraná",
+					"description": "Olhe para esses botões de fezes! Glorioso!"
+				},
+				"medium_parana_pine_tree": {
+					"display_name": "Pinheiro do Paraná",
+					"description": "Tantos dosséis fofos!"
+				},
+				"sapling_parana_pine_tree": {
+					"description": "Pinheiro do Paraná bebê.",
+					"sapling_parana_pine_tree_iconic": {
+						"description": "Plante-o na terra e veja-o crescer."
+					},
+					"sapling_parana_pine_tree_ghost": {
+						"display_name": "Muda de Pinheiro do Paraná",
+						"description": "Pinheiro do Paraná bebê."
+					}
+				}
+			}
+		},
+		"armor": {
+			"cc_legendary_circlet": {
+				"display_name": "Argola Ocular Âmbar",
+				"description": "A argola mais quadrada do reino"
+			},
+			"cc_legendary_shield": {
+				"display_name": "Escudo da Torre Âmbar",
+				"description": "O escudo mais orgulhoso do Reino"
+			}
+		},
+		"weapons": {
+			"cc_legendary_bow": {
+				"display_name": "Arco de Coelho Âmbar",
+				"description": "O arco mais rápido do Reino"
+			},
+			"cc_legendary_sword": {
+				"display_name": "Espada do Dragão Âmbar",
+				"description": "A melhor lâmina do Reino"
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"cc_two_handed_sword_valor_recipe": {
+					"description": "A melhor lâmina do Reino",
+					"recipe_name": "Espada do Dragão Âmbar",
+					"flavor": "Imita um conjunto de presas afiadas de dragão, para perfurar sua presa"
+				},
+				"cc_bow_valor_recipe": {
+					"description": "O arco mais rápido do Reino",
+					"recipe_name": "Arco de Coelho Âmbar",
+					"flavor": "Um arco que exige habilidade de seu portador, mas o devolve em rajadas de flechas sobre seus inimigos"
+				},
+				"cc_giants_shield_recipe": {
+					"description": "O escudo mais orgulhoso do Reino",
+					"recipe_name": "Escudo da Torre Âmbar",
+					"flavor": "Contra mesmo os inimigos mais terríveis e perigos impossíveis, este escudo nunca quebrará"
+				},
+				"cc_legendary_circlet_recipe": {
+					"description": "Usado pelos melhores curandeiros do Reino",
+					"recipe_name": "Argola Ocular Âmbar",
+					"flavor": "Canaliza o coração e a alma em luz de cura"
+				}
+			}
+		},
+		"engineer": {
+			"recipes": {
+				"golden_gear_name": "Engrenagem Dourada",
+				"gold_fangs_recipe": {
+					"recipe_name": "Presas Douradas",
+					"description": "Concede um ataque de sopro de fogo para qualquer Dragonborn.",
+					"flavor": "🔥"
+				},
+				"gold_wings_recipe": {
+					"recipe_name": "Asas Douradas",
+					"description": "Armadura traseira decorativa para qualquer Dragonborn.",
+					"flavor": "Voe para cima e para longe, seja livre em um sonho"
+				},
+				"gold_gauntlet_recipe": {
+					"recipe_name": "Manopla Dourada",
+					"description": "Gera um gigantesco golpe de mão principal para um combatente Dragonborn.",
+					"flavor": "O equipamento Dragontech, ao seu alcance"
+				}
+			}
+		},
+		"footman": {
+			"footman_cap": {
+				"display_name": "Gorro de lacaio",
+				"description": "Headgear estilo dragão para um soldado"
+			},
+			"footman_description": {
+				"requirements": "Feito por carpinteiro ou oleiro"
+			}
+		},
+		"geomancer": {
+			"recipes": {
+				"mega_hearthbud_recipe": {
+					"recipe_name": "Mega Hearthbud",
+					"description": "Uma planta inicial clonada, forma lentamente um Cubo de Amberstone para colher.",
+					"flavor": "Técnica antiga de Dragonborn, combinada com engenhosidade de Rabbitkin: é meio assustador"
+				}
+			}
+		},
+		"knight": {
+			"dragonborn_knight_helm": {
+				"display_name": "Crista do Cavaleiro",
+				"description": "Capacete estilo dragão para um defensor"
+			}
+		},
+		"mason": {
+			"mason_description": {
+				"requirements": "Feito por carpinteiro ou oleiro"
+			}
+		},
+		"potter": {
+			"potter_description": {
+				"requirements": "Requer um cortador de oleiro"
+			}
+		},
+		"weaver": {
+			"weaver_description": {
+				"requirements": "Feito por carpinteiro ou oleiro"
+			},
+			"recipes": {
+				"sleeping_pad_recipe": {
+					"recipe_name": "Almofada para gatos",
+					"description": "Uma almofada de dormir simples para gatos ou pessoas.",
+					"flavor": "Estenda-o no chão e tire uma soneca do gato. zzz..."
+				}
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"bulletin": {
+				"citizen_type_choice": {
+					"title": "Um Novo Cidadão quer se juntar!",
+					"name_header": "Escolha um nome para o seu assentamento!",
+					"name_prompt": "Nome:",
+					"banner_prompt": "Escolha um cidadão:",
+					"complete": "✔️ Tudo bem!"
+				}
+			}
+		}
+	}
+}

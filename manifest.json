@@ -53,16 +53,31 @@
 		"autoharvest_mod/locales/pt-BR.json": "file(translations/autoharvest_mod/pt-BR.json)",
 		"autoharvest_mod/locales/pt-PT.json": "file(translations/autoharvest_mod/pt-PT.json)",
 
+		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR.json)",
+		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT.json)",
+
+		"care_cats/locales/pt-BR.json": "file(translations/care_cats/pt-BR.json)",
+		"care_cats/locales/pt-PT.json": "file(translations/care_cats/pt-PT.json)",
+
 		"cm/locales/pt-BR.json": "file(translations/cm/pt-BR.json)",
 		"cm/locales/pt-PT.json": "file(translations/cm/pt-PT.json)",
 
 		"miner_prof/locales/pt-BR.json": "file(translations/miner_prof/pt-BR.json)",
 		"miner_prof/locales/pt-PT.json": "file(translations/miner_prof/pt-PT.json)",
 
+		"nordlingmod/locales/pt-BR.json": "file(translations/nordlingmod/pt-BR.json)",
+		"nordlingmod/locales/pt-PT.json": "file(translations/nordlingmod/pt-PT.json)",
+
 		"settlementdecor/locales/pt-BR.json": "file(translations/settlementdecor/pt-BR.json)",
 		"settlementdecor/locales/pt-PT.json": "file(translations/settlementdecor/pt-PT.json)",
 
 		"stonehearth_beam/locales/pt-BR.json": "file(translations/stonehearth_beam/pt-BR.json)",
-		"stonehearth_beam/locales/pt-PT.json": "file(translations/stonehearth_beam/pt-PT.json)"
+		"stonehearth_beam/locales/pt-PT.json": "file(translations/stonehearth_beam/pt-PT.json)",
+
+		"veloren_elves/locales/pt-BR.json": "file(translations/veloren_elves/pt-BR.json)",
+		"veloren_elves/locales/pt-PT.json": "file(translations/veloren_elves/pt-PT.json)",
+
+		"wizq/locales/pt-BR.json": "file(translations/wizq/pt-BR.json)",
+		"wizq/locales/pt-PT.json": "file(translations/wizq/pt-PT.json)"
 	}
 }

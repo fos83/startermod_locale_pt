@@ -1,0 +1,565 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"wizard_quest_campaign": {
+					"dragon": {
+						"sighted_bulletin": {
+							"title": "Dragões Mágicos estão invadindo! Alerta da cidade!"
+						}
+					},
+					"wolf": {
+						"sighted_bulletin": {
+							"title": "Um Lobo Mágico apareceu! Alerta da cidade!"
+						},
+						"sighted_bulletin2": {
+							"title": "O Lobo Mágico Maior apareceu! Participe da Batalha!"
+						}
+					},
+					"wizard_dialogue": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "O mago lobo",
+									"dialog_title": "Um visitante especial",
+									"bulletin_message": "Saudações! Eu sou Klaus, do Antigo Território do Norte. Embora eu seja mais conhecido como o Mago Lobo.<br><br>O Lobo Mágico sentiu seu posto avançado e o considerou digno de um teste de coragem. Agora que o Lobo se desmaterializou, vejo que você precisa de ajuda para defender suas terras de outras forças hostis. Existe uma maneira de se tornar um usuário das forças mágicas, de se tornar um mago...",
+									"choice": "Um feiticeiro?"
+								}
+							}
+						}
+					},
+					"wolf_belt_gift": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Você conseguiu derrotar um Lobo Mágico neste dia, e eu trago para você um Cinturão de Lobo Antigo. Equipando isso, você pode aprender as maneiras de se tornar um mago como eu. No entanto, junto com as habilidades de energia aprimoradas, vem uma força volátil que muda sua forma para a de uma fera Lobo de tempos em tempos.<br><br>Aproveite sua busca para aprender e dominar a magia! <br><i>\"Energia Elemental e Metamorfose,\"</i> apenas equipe-se com este presente:"
+									},
+									"bulletin_title": "O Cinturão do Lobo",
+									"dialog_title": "O dom da Magia",
+									"choice_000": "Obrigada! 🐺"
+								}
+							}
+						}
+					},
+					"dialog_thanks": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"000": "Senti um pequeno bando de Dragões Mágicos nesta área. Eles raramente se materializam de um Plano Alternativo, e podem ser agressivos com todos, ou se tornarem amigáveis ​​com outro ser se assim o desejarem.<br><br>Você os viu perto de seu Assentamento?"
+									},
+									"bulletin_title": "A aparição repentina do dragão",
+									"dialog_title": "O Mago do Lobo vem",
+									"choice_000": "Sim! Eles vieram aqui",
+									"choice_001": "Não, não vimos nenhum..."
+								},
+								"end_choice": {
+									"bulletin_message": {
+										"000": "Bem, olhe aqui, outra nuvem mágica está se reunindo em um Dragão Mágico!<br>Este aqui parece amigável. Parece que ele quer ficar com você se você estiver disposto a mantê-lo. Eles podem ser ferozes protetores de seu clã, e isso inclui você agora!<br><p align='left'><font size=-1 color='#cccccc'>Vou continuar vagando por essas terras, lembre-se, Mago, para criar e usar seus livros de feitiços, pois eles concedem mais ataques.</font></p>"
+									},
+									"bulletin_title": "Outro dragão mágico",
+									"dialog_title": "O mago lobo",
+									"choice_000": "Nós vamos mantê-lo! 🐲",
+									"choice_001": "Deixe-o ir embora"
+								}
+							}
+						}
+					},
+					"wizard_dialogue2": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "O retorno do mago lobo",
+									"dialog_title": "Magical Wolf nos testou novamente",
+									"bulletin_message": "Sua habilidade em Magia atraiu um Lobo Mágico para sua Cidade.<br><br>Mais uma vez, você passou no teste de coragem. E eu tenho mais um Wolf Belt para lhe oferecer, para que você possa treinar um companheiro Wizard, se desejar...",
+									"choice": "Aceitamos com gratidão"
+								}
+							}
+						}
+					},
+					"wolf_belt_gift2": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Todo mundo tem sua própria forma de Lobo interior na qual eles podem se transformar como um Feiticeiro.<br><br>Seu novo Feiticeiro também pode optar por usar um ataque de livro de feitiços diferente, para mais variações de dano. <br><i>\"Seja corajoso, seja forte!\"</i> Guarde este presente final, e continuarei minha jornada para outras terras, procurando por mais candidatos aspirantes... <br><p align='left '><font size=-1 color='#cccccc'>Aguarde outra mensagem minha daqui a dois dias.</font></p>"
+									},
+									"bulletin_title": "Cinto de Lobo Antigo",
+									"dialog_title": "Para um Aprendiz",
+									"choice_000": "Até logo, Mago Lobo! 🐺"
+								}
+							}
+						}
+					},
+					"dialog_mission_start": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"information": {
+									"bulletin_message": {
+										"000": "Eu vim para descansar em um antigo local de ruína. A condução da magia por todos esses anos me alcançou, e não posso continuar. <br><br>O preço que pagarei será meu corpo e minha mente se transformando permanentemente em uma Besta."
+									},
+									"bulletin_title": "O Fim da Jornada",
+									"dialog_title": "O mago lobo",
+									"choice_000": "Assustador",
+									"choice_001": "Podemos ajuda-lo?"
+								},
+								"msg1": {
+									"bulletin_message": {
+										"000": "Então, eu não fui muito longe na minha próxima viagem. Você deve ter adivinhado que eu compartilho uma semelhança com o Lobo Mágico que vem para testá-lo."
+									},
+									"bulletin_title": "Um estrondo distante é ouvido",
+									"dialog_title": "O mago lobo",
+									"choice_000": "Huh.",
+									"choice_001": "Sim, nós pensamos assim."
+								},
+								"end_result": {
+									"bulletin_message": {
+										"000": "Estou mudado agora! <br><br>Protegi a terra por uma era, mas agora... <br>Você deve vir aqui e lidar comigo, pois minha ira desimpedida é incontrolável.<br><br><p align= 'left'><font size=-1 color='#cccccc'>Prepare-se para uma dura batalha com a Besta Lobo e venha quando estiver pronto. Você pode recuar e voltar mais tarde, se estiver gravemente ferido.</font></p>"
+									},
+									"bulletin_title": "A Reunião Final",
+									"dialog_title": "Uma Besta Lobo",
+									"choice_000": "Se devemos",
+									"choice_001": "Nós honramos seu pedido, Wizard!"
+								}
+							}
+						}
+					},
+					"mission_reward": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Temos que escolher como manejar nossos poderes mágicos, pois eles podem ser usados ​​em atos de defesa, ou como uma força destrutiva.<br><br>O Mago nos mostrou como viver uma vida justa, mas um dia tudo acaba . Encontramos um velho livro de feitiços vermelho no chão com uma nota dentro.<br><i>\"Use este feitiço para alterar a magnitude de seus inimigos, isso os torna mais fracos! - Klaus\"</i><br><br > Cabe a nós agora encontrar o caminho a seguir. Nós recebemos:"
+									},
+									"bulletin_title": "O conhecimento do feiticeiro",
+									"dialog_title": "O livro de feitiços de magnitude",
+									"choice_000": "OK! 📕"
+								}
+							}
+						}
+					}
+				},
+				"cinder_quest_campaign": {
+					"cinder_dialogue": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "Um fogo quente flutua nas proximidades!",
+									"dialog_title": "Cinder, o Fogo Esper",
+									"bulletin_message": "Ah! Eu sabia que havia um feiticeiro aqui.<br><br>Você pode me chamar de Cinder, e eu posso lhe conceder um chapéu de feiticeiro lendário, muito melhor do que você pode criar sozinho...<br>Isto é, se você quiser para poder queimar os monstros que o atacam, o feitiço Bola de Fogo é o melhor! E eu vou fazer um chapéu encantado para você com um pouco do meu poder.<br><br>Apenas crie alguns ingredientes, ok?",
+									"choice": "Bolas de fogo? Sim!"
+								}
+							}
+						}
+					},
+					"cinder_hat_quest": {
+						"title": "Busca por fogo",
+						"dialog_title": "Busca por fogo"
+					},
+					"cinder_dialogue_2": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "O fogo quente retorna...",
+									"dialog_title": "Cinder, o Fogo Esper",
+									"bulletin_message": "Ei, você tem certeza que não quer obter este poder mágico?<br>Vou te dar uma última chance de me conseguir os ingredientes! <br><br>Se você realmente não quiser, então você pode abandonar a missão desta última vez, e eu nunca mais voltarei.",
+									"choice": "The Quest, chance final"
+								}
+							}
+						}
+					},
+					"cinder_hat_gift": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Oi Mago.<br><i>\"Eu lhe concedo meus poderes de fogo através deste belo chapéu, como prometido.\"</i><br>"
+									},
+									"bulletin_title": "Cinder está de volta!",
+									"dialog_title": "O Chapéu de Cinza",
+									"choice_000": "Excelente"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"buffs": {
+			"boss_buff": {
+				"display_name": "Armadura Mágica",
+				"description": "Aumentos de estatísticas bestiais!"
+			},
+			"boss_cooldown_buff": {
+				"display_name": "Recarga de Armadura Mágica",
+				"description": "Esperando para recuperar o poder mágico"
+			},
+			"morphed": {
+				"display_name": "Polimorfo",
+				"description": "Poder fluindo de uma Besta Alterada!"
+			},
+			"weather": {
+				"combo_weather_resist_buff": {
+					"display_name": "Resistor climático",
+					"description": "Vestindo uma roupa mágica com resistência às temperaturas ambientais."
+				}
+			}
+		},
+		"commands": {
+			"wizard_mode": {
+				"morph": {
+					"display_name": "Ativar transformação",
+					"description": "Permita que o lobo se transforme durante a batalha, para aumentar o poder de combate corpo a corpo."
+				},
+				"unmorph": {
+					"display_name": "Formulário de foco",
+					"description": "Permaneça na forma original, para poder mágico à distância frequente."
+				}
+			},
+			"wizard_spells": {
+				"magic_missile": {
+					"display_name": "Míssil Mágico",
+					"description": "O feitiço mágico padrão do Mago."
+				},
+				"ice_spell": {
+					"display_name": "Feitiço de Gelo",
+					"description": "Fragmentos de gelo retardam o inimigo."
+				},
+				"bolt_spell": {
+					"display_name": "Feitiço de Parafuso",
+					"description": "Os relâmpagos enfraquecem a armadura do inimigo."
+				},
+				"magni_spell": {
+					"display_name": "Magni Feitiço",
+					"description": "Magia de magnitude muda o tamanho do inimigo."
+				}
+			}
+		}
+	},
+	"entities": {
+		"magicwolf": {
+			"dragon": {
+				"display_name": "Dragão mágico",
+				"description": "Agressivo, mas também fofo?",
+				"species": "Dragão"
+			},
+			"dragon_red": {
+				"display_name": "Dragão de Cinzas Vermelhos",
+				"description": "Uma fera severamente forte em fúria.",
+				"species": "Dragão"
+			},
+			"dragon_green": {
+				"display_name": "Dragão de cinzas de lima",
+				"description": "Dragão de quebra de porta brutal.",
+				"species": "Dragão"
+			},
+			"wolf": {
+				"display_name": "Lobo Mágico",
+				"description": "Buscando candidatos dignos."
+			},
+			"wolfboss": {
+				"display_name": "Besta Lobo",
+				"description": "A forma final do velho feiticeiro."
+			}
+		},
+		"npc": {
+			"male": {
+				"wolf_wizard": {
+					"display_name": "O mago lobo",
+					"description": "Antigo Mago dos Lobos."
+				}
+			}
+		},
+		"containers": {
+			"input_shelf_wizard_stone": {
+				"input_shelf_wizard_stone_ghost": {
+					"display_name": "Prateleira de suprimentos do assistente",
+					"description": "Uma prateleira de suprimentos para flocos de pó."
+				}
+			}
+		},
+		"resources": {
+			"refined": {
+				"amethyst_flakes": {
+					"display_name": "Pó de Ametista",
+					"description": "Pó de gema de cor roxa."
+				},
+				"aquamarine_flakes": {
+					"display_name": "Pó de água-marinha",
+					"description": "Pó de gema de cor azul."
+				},
+				"wizard_powder": {
+					"display_name": "Flocos de pó mágico"
+				}
+			}
+		},
+		"armor": {
+			"ice_book": {
+				"display_name": "Livro de Feitiços de Gelo",
+				"description": "O conhecimento de ataques elementais frígidos."
+			},
+			"bolt_book": {
+				"display_name": "Livro de Feitiços de Parafuso",
+				"description": "O conhecimento de ataques elementais elétricos."
+			},
+			"magni_book": {
+				"display_name": "Magni Livro de Feitiços",
+				"description": "O conhecimento de ataques de magnitude."
+			},
+			"wizard_robe": {
+				"display_name": "Manto de Mago",
+				"description": "Um manto de feiticeiro aprimorado com um peitoral de couro.",
+				"wizard_robe_iconic": {
+					"display_name": "Manto de Mago",
+					"description": "Defesa moderada contra lesões."
+				}
+			}
+		},
+		"tools": {
+			"wizard_morph_toggler": {
+				"display_name": "Controle de transformação",
+				"description": "Dispositivo que pode permitir ou inibir a habilidade de metamorfose de um Mago."
+			}
+		},
+		"weapons": {
+			"wizard_staff": {
+				"display_name": "Equipe do Assistente",
+				"description": "Um longo cajado com gemas mágicas embutidas no tri-ponta.",
+				"wizard_staff_iconic": {
+					"display_name": "Equipe do Assistente",
+					"description": "Cajado mágico de material escuro."
+				}
+			},
+			"magic_shot": {
+				"display_name": "Tiro Mágico",
+				"description": "Disparo de energia de feitiço mágico."
+			},
+			"wizard_shot": {
+				"display_name": "Tiro do Mago",
+				"description": "Mísseis Mágicos atingem um alvo."
+			}
+		}
+	},
+	"jobs": {
+		"na_wizard": {
+			"wizard_description": {
+				"level_1_data": {
+					"hunting_perk_name": "Caçando",
+					"hunting_perk_description": "Um mago da Aliança do Norte é naturalmente adepto do rastreamento de animais e pode caçar animais para alimentação e outros recursos."
+				}
+			}
+		},
+		"wizard": {
+			"wizard_description": {
+				"display_name": "Mago",
+				"description": "O Mago lança poderosos feitiços elementais e se transforma em Demi Wolf.",
+				"requirements": "Receba como presente",
+				"level_1_data": {
+					"perk_000_name": "Míssil Mágico",
+					"perk_000_description": "Mísseis Mágicos são conjurados e atacam o inimigo."
+				},
+				"level_2_data": {
+					"perk_000_name": "Garras de Lobo",
+					"perk_000_description": "Um ataque cortante deixa o inimigo furioso.",
+					"perk_001_name": "Transformado",
+					"perk_001_description": "Transformação periódica em Demi Wolf."
+				},
+				"level_3_data": {
+					"perk_000_name": "Conhecimento de artesanato",
+					"perk_000_description": "O Mago pode começar a fabricar produtos mágicos."
+				},
+				"level_4_data": {
+					"perk_000_name": "Nuvem Venenosa",
+					"perk_000_description": "Um ataque que cria um gás tóxico espesso, espalhando-se para todos os inimigos na área."
+				},
+				"level_5_data": {
+					"perk_000_name": "Sintonizado",
+					"perk_000_description": "Wolf Morphing é dominado e mais poderoso."
+				},
+				"level_6_data": {
+					"perk_000_name": "Queima de lava",
+					"perk_000_description": "Um grande ataque mágico liberando lava que queima e danifica todos os inimigos na zona."
+				}
+			},
+			"wizard_buffs": {
+				"morphing_buff": {
+					"display_name": "Transformando",
+					"description": "Reunindo poder para Polymorph"
+				},
+				"wolf_claws": {
+					"display_name": "Garras de Lobo",
+					"description": "Arranhão de lobo diminui armadura, aumenta músculo"
+				},
+				"poison_cloud": {
+					"display_name": "Nuvem Venenosa",
+					"description": "Saúde constantemente perdida devido ao gás tóxico"
+				},
+				"magma": {
+					"display_name": "Lava Queimado",
+					"description": "Constantemente ferido por lava quente"
+				},
+				"ice_spell": {
+					"display_name": "Congeladas",
+					"description": "Retardado por Magia de Gelo Feiticeiro"
+				},
+				"bolt_spell": {
+					"display_name": "Chocado",
+					"description": "Armadura enfraquecida pela Magia de Fecho do Feiticeiro"
+				},
+				"magni_spell": {
+					"display_name": "Magnitude",
+					"description": "Tamanho alterado pela Magia do Mago, o inimigo é enfraquecido"
+				},
+				"magnib_spell": {
+					"display_name": "Magnitude",
+					"description": "Tamanho alterado por Dragon Magic"
+				}
+			},
+			"wizard_workbench": {
+				"wizard_workbench_ghost": {
+					"display_name": "Bancada de trabalho do assistente",
+					"description": "Um banco de artesanato mágico."
+				}
+			},
+			"wizard_outfit": {
+				"display_name": "Traje de mago",
+				"description": "Vestuário para permitir movimentos leves e rápidos, fornece proteção escassa."
+			},
+			"wizard_belt": {
+				"display_name": "Cinturão do Lobo",
+				"description": "Um cinto antigo com um emblema de Lobo, que concede polimorfismo.",
+				"wizard_belt_iconic": {
+					"display_name": "Cinturão do Lobo",
+					"description": "Um cinto antigo com um emblema de Lobo, concedendo polimorfismo."
+				},
+				"wizard_belt_talisman": {
+					"display_name": "Cinturão do Lobo",
+					"description": "Necessário para promover a Wizard."
+				}
+			},
+			"wizard_wand": {
+				"display_name": "Varinha do Mago",
+				"description": "Madeira escura com uma cabeça marcante metálica, suas joias verdes podem canalizar forças mágicas.",
+				"wizard_wand_iconic": {
+					"display_name": "Varinha do Mago",
+					"description": "Ferramenta de canalização de força mágica."
+				}
+			},
+			"wizard_hat": {
+				"display_name": "Chapéu de mago",
+				"description": "Um chapéu robusto e de abas largas para Feiticeiros.",
+				"wizard_hat_iconic": {
+					"display_name": "Chapéu de mago",
+					"description": "Um chapéu alto de abas largas."
+				}
+			},
+			"wizard_hat_fire": {
+				"display_name": "Chapéu de Cinza",
+				"description": "Chapéu Feiticeiro da Bola de Fogo: queima os inimigos.",
+				"wizard_hat_fire_iconic": {
+					"display_name": "Chapéu de Cinza",
+					"description": "Chapéu Feiticeiro da Bola de Fogo: queima os inimigos."
+				}
+			},
+			"recipes": {
+				"wizard_workbench_recipe": {
+					"recipe_name": "Bancada de trabalho do assistente",
+					"description": "Permite que um Assistente crie novos itens.",
+					"flavor": "Construído a partir de um velho toco de árvore, com cristais mágicos emitindo sua luz brilhante."
+				},
+				"wizard_stone_shelf_recipe": {
+					"recipe_name": "Prateleira de suprimentos do assistente",
+					"description": "Armazenamento de suprimentos para o pó Wizard.",
+					"flavor": "Pode conter 12 bolsas de água-marinha e pó de ametista."
+				},
+				"morpher_toggle_recipe": {
+					"recipe_name": "Controle de transformação",
+					"description": "Uma ferramenta para ter controle sobre a habilidade de metamorfose. Concede um comando para permitir ou inibir a habilidade de metamorfose.",
+					"flavor": "Útil para recuperar o comando após ser incapacitado."
+				},
+				"wizard_hat_recipe": {
+					"recipe_name": "Chapéu de mago",
+					"description": "Um grande chapéu para proteger a cabeça.",
+					"flavor": "Parece meio engraçado."
+				},
+				"wizard_staff_recipe": {
+					"recipe_name": "Equipe do Assistente",
+					"description": "Um cajado mágico infundido com Gem.",
+					"flavor": "Parece meio sério..."
+				},
+				"wizard_robe_recipe": {
+					"recipe_name": "Manto de Mago",
+					"description": "Um manto reforçado resistente.",
+					"flavor": "A infusão de pó mágico adiciona proteção."
+				},
+				"ice_book_recipe": {
+					"recipe_name": "livro de gelo",
+					"description": "Ensina a lançar feitiços de Magia de Gelo.",
+					"flavor": "A magia do gelo reduz a velocidade no alvo. O assistente pode alterar qual tipo de feitiço está ativo com o botão de comando."
+				},
+				"bolt_book_recipe": {
+					"recipe_name": "Livro do Relâmpago",
+					"description": "Ensina a lançar feitiços de Bolt Magic.",
+					"flavor": "A magia do parafuso reduz a armadura do alvo. O assistente pode alterar qual tipo de feitiço está ativo com o botão de comando."
+				},
+				"amethyst_flakes_recipe": {
+					"recipe_name": "Pó de Ametista",
+					"description": "Pó em flocos de gema roxa.",
+					"flavor": "Extraia elementos de recursos e converta em pó."
+				},
+				"aquamarine_flakes_recipe": {
+					"recipe_name": "Pó de água-marinha",
+					"description": "Pó em flocos de gema azul.",
+					"flavor": "Extraia elementos de recursos e converta em pó."
+				},
+				"coal_recipe": {
+					"recipe_name": "Carvão",
+					"description": "Criado pedaço de carvão.",
+					"flavor": "Eu acho que isso poderia ser feito em uma fogueira em vez disso ..."
+				},
+				"copper_recipe": {
+					"recipe_name": "Minério de cobre",
+					"description": "Minério transmutado.",
+					"flavor": "Manipulando o tempo da matéria!"
+				},
+				"tin_recipe": {
+					"recipe_name": "Minério de Estanho",
+					"description": "Minério transmutado.",
+					"flavor": "Isso pode ser feito em lata?"
+				},
+				"iron_recipe": {
+					"recipe_name": "Minério de ferro",
+					"description": "Minério transmutado.",
+					"flavor": "Ahh, o metal útil"
+				},
+				"silver_recipe": {
+					"recipe_name": "Minério de prata",
+					"description": "Minério transmutado.",
+					"flavor": "Essa mágica de transmutação não é conveniente?"
+				},
+				"gold_recipe": {
+					"recipe_name": "Minério de ouro",
+					"description": "Minério transmutado.",
+					"flavor": "A façanha de um alquimista"
+				},
+				"workbenches_name": "Oficina",
+				"magic_powders_name": "Livros e pós mágicos",
+				"equipment_name": "Equipamento",
+				"ores_name": "Transmutação de Minério"
+			}
+		}
+	},
+	"ui": {
+		"wizard": {
+			"display_name": "Menu de Artesanato do Assistente",
+			"description": "Cria equipamentos e itens mágicos.",
+			"requirements": "Requer um assistente."
+		},
+		"stockpile": {
+			"filters": {
+				"wizard_goods": "Artigos de feiticeiro"
+			}
+		}
+	}
+}

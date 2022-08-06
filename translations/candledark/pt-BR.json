@@ -1,0 +1,427 @@
+{
+	"ui": {
+		"game": {
+			"candledark": {
+				"uh_what": "Uh o quê?",
+				"such_as": "Por favor explique!",
+				"dejavu": "Déjà vu?",
+				"berry_wine": "Você esteve no Berry Wine novamente?",
+				"urm_thanks": "Um.. Obrigado!",
+				"last_year": "Fizemos tudo isso no ano passado!",
+				"pause": "...",
+				"urm_thanks2": "Hum.. O quê!?",
+				"dialog_nodes": {
+					"bulletin_message": {
+						"000": "Aqui estão alguns suprimentos para você começar! Seu Carpinteiro pode transformá-los em proteções contra os mortos-vivos.",
+						"001": "Um velho abatido aparece nos limites de sua cidade. A única coisa mais torta que suas costas são seus dentes...",
+						"002": "'Por que olá! A véspera de Candledark se aproxima rapidamente, mas vocês ainda nem começaram a se preparar!'",
+						"003": "'Você sabe? Escuro das velas! Coisas estranhas estão acontecendo nesta época do ano.",
+						"004": "— São... os mortos... eles começam a se mexer. É melhor prestar atenção aos avisos do Velho Elbezar e começar seus preparativos!",
+						"005": "'Bah! Zombe de tudo o que você deseja. É melhor você começar a construir suas proteções, senão haverá problemas!'",
+						"006": "— Voltarei em alguns dias com minha carroça para lhe vender algumas mercadorias, mas enquanto isso ensinarei a seus artesãos tudo o que sei.",
+						"007": "— Bem, eu vou. Você conseguiu! Você sobreviveu a Candledark II. Eu tenho guardado algumas bugigangas para uma ocasião especial e isso é tão bom quanto qualquer outro. Aproveite o seu sucesso!....Até o próximo ano....",
+						"008": "Aqui estão alguns suprimentos para você começar! Você vai precisar de um Mason para transformá-los em wards contra os mortos-vivos.",
+						"009": "'O que? Não. É EL-BEEE-ZAAR. Conheci um Déjà-vu uma vez. Um homenzinho engraçado com um olho de vidro... ou se chamava Dave?...'",
+						"010": "— Posso ser velho, mas não sou senil! Eu me lembraria de estar aqui; ou meu nome não é Elzebard Grimesock!",
+						"011": "'Ok, talvez você esteja certo... hmm, então fizemos zumbis no ano passado, hein? Ah! Eu sei o que vou convocar! Vamos ver como você se sai contra essas coisas que acontecem à noite... Você vai precisar dessas receitas se quiser sobreviver à noite.",
+						"012": "— Bem, eu vou. Você conseguiu! Você sobreviveu a Candledark III. Eu tenho guardado algumas bugigangas para uma ocasião especial e isso é tão bom quanto qualquer outro. Aproveite o seu sucesso!....Até o próximo ano...."
+					},
+					"bulletin_title": "Antes de eu ir!",
+					"bulletin_title2": "Um velho abatido se aproxima",
+					"bulletin_title3": "Finalmente acabou!",
+					"dialog_title": "Um Velho Estranho",
+					"crafting_unlock1": "Técnicas avançadas de Metalurgia aprendidas!",
+					"crafting_unlock2": "Técnicas avançadas de culinária aprendidas!",
+					"crafting_unlock3": "Técnicas avançadas de tecelagem aprendidas!",
+					"crafting_unlock4": "Técnicas maçonarias avançadas aprendidas!",
+					"crafting_unlock5": "Técnicas avançadas de carpintaria aprendidas!",
+					"crafting_unlock6": "Técnicas avançadas de Herbalism aprendidas!"
+				}
+			},
+			"entities": {
+				"bite_notification": "[name(i18n_data.entity)] foi mordido.",
+				"turn_notification": "[name(i18n_data.entity)] sucumbiu à sua mordida."
+			}
+		}
+	},
+	"data": {
+		"names": {
+			"plagued": {
+				"male_name": "Uma Criatura Sem Mente",
+				"female_name": "Uma Criatura Sem Mente"
+			}
+		},
+		"buffs": {
+			"plagued": {
+				"display_name": "Atormentou",
+				"description": "Não muito bem!"
+			}
+		},
+		"commands": {
+			"smash_pinata": {
+				"display_name": "Esmagar a Piñata",
+				"description": "Está cheio de doces!"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"candledark_shop": {
+						"shop_info": {
+							"name": "Brigadeiros sortidos de velas escuras",
+							"title": "Elbezar Grimrock retorna com seu carrinho!"
+						}
+					}
+				},
+				"darkness": {
+					"mission": {
+						"sighted_bulletin": {
+							"title": "Os mortos-vivos irrompem do chão!"
+						}
+					}
+				},
+				"darknessIII": {
+					"mission": {
+						"sighted_bulletin": {
+							"title": "O mal irrompe das sombras!"
+						}
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"critters": {
+			"black_cat": {
+				"display_name": "Um gato preto",
+				"description": "Há algo estranho nisso."
+			}
+		},
+		"construction": {
+			"cobblestone_fence_rail": {
+				"cobblestone_fence_rail": {
+					"display_name": "Parede de paralelepípedos",
+					"description": "Agora com proteção adicional."
+				},
+				"cobblestone_fence_rail_ghost": {
+					"display_name": "Parede de paralelepípedos",
+					"description": "Agora com proteção adicional."
+				}
+			},
+			"cobblestone_fence_brazier": {
+				"cobblestone_fence_brazier": {
+					"display_name": "Parede de paralelepípedos",
+					"description": "Agora com proteção adicional."
+				},
+				"cobblestone_fence_brazier_ghost": {
+					"display_name": "Parede de paralelepípedos",
+					"description": "Agora com proteção adicional."
+				}
+			},
+			"spooky_fence_gate": {
+				"spooky_fence_gate": {
+					"display_name": "Portão Escuro das Velas",
+					"description": "Portão Assustador Fortemente Reforçado!"
+				},
+				"spooky_fence_gate_ghost": {
+					"display_name": "Portão Escuro das Velas",
+					"description": "Portão Assustador Fortemente Reforçado!"
+				}
+			}
+		},
+		"consumables": {
+			"ancient_healing_tonic": {
+				"display_name": "Tônico de Cura Antigo",
+				"description": "Ótimo contra mordidas de vampiros, zumbis e insetos."
+			}
+		},
+		"costume": {
+			"clown_mask": {
+				"display_name": "Máscara de palhaço",
+				"description": "Um traje tradicional de Candledark"
+			},
+			"monster_mask": {
+				"display_name": "Máscara de Monstro",
+				"description": "Uma fantasia de Candledark!"
+			},
+			"pumpkin_hat": {
+				"display_name": "Chapéu de Abóbora",
+				"description": "Um traje tradicional de Candledark",
+				"flavor": "Quando não tem absolutamente mais nada para vestir!"
+			},
+			"scream_mask": {
+				"display_name": "Máscara Assustadora",
+				"description": "Muito assustador!",
+				"flavor": "Olá Sidney!"
+			},
+			"witches_hat": {
+				"display_name": "Chapéu de bruxa",
+				"description": "Um traje tradicional de Candledark"
+			}
+		},
+		"decoration": {
+			"ankh_ward": {
+				"ankh_ward": {
+					"display_name": "Distrito de Ankh",
+					"description": "Para proteção contra vampiros"
+				}
+			},
+			"scarecrow": {
+				"scarecrow_ghost": {
+					"display_name": "Um simples espantalho",
+					"description": "Apavorante!"
+				},
+				"scarecrow_iconic": {
+					"display_name": "Um simples espantalho",
+					"description": "Alguma montagem necessária."
+				}
+			},
+			"commemorative_tower_brazier_15": {
+				"commemorative_tower_brazier_ghost": {
+					"display_name": "Braseiro Comemorativo",
+					"description": "Você Sobreviveu à Escuridão das Velas II"
+				},
+				"commemorative_tower_brazier_15_iconic": {
+					"display_name": "Braseiro Comemorativo",
+					"description": "Você Sobreviveu à Escuridão das Velas II"
+				}
+			},
+			"commemorative_tower_brazier_16": {
+				"commemorative_tower_brazier_ghost": {
+					"display_name": "Braseiro Comemorativo",
+					"description": "Você Sobreviveu à Escuridão da Vela III"
+				},
+				"commemorative_tower_brazier_16_iconic": {
+					"display_name": "Braseiro Comemorativo",
+					"description": "Você Sobreviveu à Escuridão da Vela III"
+				}
+			},
+			"pinata": {
+				"pinata_ghost": {
+					"display_name": "Uma Piñata Candledark",
+					"description": "Recheado de mimos!"
+				},
+				"pinata_iconic": {
+					"display_name": "Uma Piñata Candledark",
+					"description": "Alguma montagem necessária."
+				}
+			},
+			"pumpkin_ward": {
+				"pumpkin_ward": {
+					"display_name": "Ala de Abóbora Esculpida",
+					"description": "Uma ala por dia mantém os zumbis longe"
+				},
+				"pumpkin_ward_lantern": {
+					"display_name": "Lanterna de abóbora",
+					"description": "Mantém os mortos-vivos longe"
+				},
+				"pumpkin_ward_hanging_lantern": {
+					"display_name": "Lanterna de Abóbora Suspensa",
+					"description": "Mantém os mortos-vivos longe"
+				}
+			},
+			"decorative_burial_mound": {
+				"decorative_burial_mound": {
+					"description": "'Aqui jaz...' Você não consegue entender o nome",
+					"display_name": "Um túmulo decorativo"
+				}
+			}
+		},
+		"food": {
+			"candy_basket": {
+				"candy_basket": {
+					"display_name": "Cesta de doces",
+					"description": "Vamos, é Doce!"
+				},
+				"candy_serving": {
+					"display_name": "Doce",
+					"description": "Vamos, é Doce!"
+				}
+			},
+			"pumpkin_soup": {
+				"pumpkin_soup": {
+					"display_name": "Uma tigela de sopa de abóbora",
+					"description": "Uma tigela de abóbora amassada!"
+				},
+				"pumpkin_soup_serving": {
+					"display_name": "Uma porção de sopa de abóbora",
+					"description": "Delicioso."
+				}
+			},
+			"pumpkin_pie": {
+				"pumpkin_pie": {
+					"display_name": "Uma torta de abóbora",
+					"description": "Melhor deixar no peitoril da janela!"
+				},
+				"pumpkin_pie_serving": {
+					"display_name": "Uma fatia de torta de abóbora",
+					"description": "Doce e delicioso."
+				}
+			}
+		},
+		"monsters": {
+			"vampires": {
+				"hell_hound": {
+					"display_name": "Cão de Caça do Inferno",
+					"description": "Um servo cruel dos mortos-vivos"
+				},
+				"vampires": {
+					"display_name": "Vampiro",
+					"description": "Um servo cruel dos mortos-vivos"
+				},
+				"vampires_bride": {
+					"display_name": "Noiva Vampira",
+					"description": "Um servo cruel dos mortos-vivos"
+				}
+			}
+		},
+		"tools": {
+			"pinata_stick": {
+				"display_name": "Um fantasma de brinquedo de pelúcia",
+				"description": "Awww.. lindo"
+			}
+		},
+		"toys": {
+			"plushie_toy_ghost": {
+				"plushie_toy_ghost": {
+					"display_name": "Um fantasma de brinquedo de pelúcia",
+					"description": "Awww.. lindo"
+				}
+			},
+			"plushie_toy_hanging_ghost": {
+				"plushie_toy_hanging_ghost": {
+					"display_name": "Um fantasma pendurado de brinquedo de pelúcia",
+					"description": "Awww.. lindo"
+				}
+			}
+		},
+		"pets": {
+			"bat": {
+				"display_name": "Um morcego",
+				"description": "...!"
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"costumes_name": "Trajes",
+				"clown_mask_recipe": {
+					"recipe_name": "Máscara de palhaço",
+					"description": "Um traje tradicional de Candledark",
+					"flavor": "Nada assustador sobre um palhaço! Certo!"
+				},
+				"monster_mask_recipe": {
+					"recipe_name": "Máscara de Monstro",
+					"description": "Uma fantasia de Candledark!",
+					"flavor": "Braaaaaaaaaaa!"
+				},
+				"pumpkin_hat_recipe": {
+					"recipe_name": "Chapéu de Abóbora",
+					"description": "Um traje tradicional de Candledark",
+					"flavor": "Quando você não tem absolutamente nada para vestir!"
+				},
+				"scream_mask_recipe": {
+					"recipe_name": "Máscara Assustadora",
+					"description": "Muito assustador!",
+					"flavor": "Olá Sidney!"
+				},
+				"witches_hat_recipe": {
+					"recipe_name": "Chapéu de bruxa",
+					"description": "Um traje tradicional de Candledark",
+					"flavor": "Olá minha linda!"
+				},
+				"plushie_toy_ghost_recipe": {
+					"description": "Um brinquedo tradicional Candledark.",
+					"recipe_name": "Um fantasma de brinquedo de pelúcia"
+				},
+				"plushie_toy_hanging_ghost_recipe": {
+					"description": "Um brinquedo tradicional Candledark.",
+					"recipe_name": "Um fantasma pendurado de brinquedo de pelúcia"
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"ankh_ward_recipe": {
+					"description": "Para proteção contra vampiros",
+					"recipe_name": "Distrito de Ankh"
+				},
+				"decorative_burial_mound_recipe": {
+					"description": "Uma decoração tradicional Candledark.",
+					"recipe_name": "Túmulo Decorativo"
+				},
+				"cobblestone_fence_brazier_recipe": {
+					"description": "Ajuda a iluminar as noites escuras",
+					"recipe_name": "Cerca de paralelepípedos com braseiro"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"ancient_healing_tonic_recipe": {
+					"recipe_name": "Tônico de Cura Antigo",
+					"description": "Um bálsamo calmante para mordidas de vampiros, zumbis e insetos.",
+					"flavor": "Aplique generosamente na área da mordida. Se o estado morto-vivo persistir, consulte o GP."
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"candledark_name": "Defesas",
+				"cobblestone_fence_rail_recipe": {
+					"description": "Agora com proteção adicional.",
+					"recipe_name": "Uma parede de paralelepípedos reforçada"
+				},
+				"cobblestone_tripple_fence_rail_recipe": {
+					"description": "Agora com proteção adicional.",
+					"recipe_name": "Uma parede de paralelepípedos tripla reforçada"
+				},
+				"spooky_fence_gate_recipe": {
+					"description": "Portão Assustador Fortemente Reforçado!",
+					"recipe_name": "Um Portão Escuro de Velas"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"candledark_name": "Decorações",
+				"scarecrow_recipe": {
+					"description": "Uma decoração tradicional Candledark.",
+					"recipe_name": "Um simples espantalho"
+				},
+				"pinata_recipe": {
+					"description": "Recheado de mimos!",
+					"recipe_name": "Uma Piñata Candledark"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"holiday_recipes": {
+					"candledark_name": "Receitas de férias"
+				},
+				"pumpkin_ward_recipe": {
+					"description": "Uma decoração tradicional Candledark.",
+					"recipe_name": "Ala de Abóboras Esculpidas no Escuro das Velas"
+				},
+				"pumpkin_soup_recipe": {
+					"description": "Um prato à base de abóbora.",
+					"recipe_name": "Sopa de abóbora"
+				},
+				"pumpkin_pie_recipe": {
+					"description": "Abóbora e Torta. O que há para não gostar?",
+					"recipe_name": "Torta de abóbora"
+				},
+				"pumpkin_ward_lantern_recipe": {
+					"description": "Uma decoração tradicional Candledark. Agora com um toque extra",
+					"recipe_name": "Lanterna de Abóbora Candledark"
+				},
+				"pumpkin_ward_hanging_lantern_recipe": {
+					"description": "Uma decoração tradicional Candledark. Colocado nas paredes!",
+					"recipe_name": "Lanterna de Abóbora Pendurada no Escuro das Velas"
+				}
+			}
+		}
+	}
+}

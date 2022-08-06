@@ -1,0 +1,3266 @@
+{
+	"mixins": "/nordlingmod/locales/en.json",
+	"kingdoms": {
+		"nordlings": "Nórdicos"
+	},
+	"kingdom": {
+		"kingdom_name": "Nórdicos",
+		"quote": "Os Velhos Caminhos nos ajudarão!",
+		"long_description": "Com uma forte tradição de contar as histórias daqueles que vieram antes, os Nordlings estão ansiosos para criar suas próprias histórias!",
+		"post_selection_description": ", uma sociedade dos resistentes e corajosos.",
+		"initial_town_name": "Carro de boi [str(town_number)]"
+	},
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"nordling_archer": {
+					"display_name": "Prefira Armadura Nórdica",
+					"description": "Este Arqueiro atualmente prefere usar armaduras feitas pelo Nórdico. Clique para mudar!"
+				},
+				"nordling_cleric": {
+					"display_name": "Prefira Armadura Nórdica",
+					"description": "Este clérigo atualmente prefere usar armaduras feitas pelo nórdico. Clique para mudar!"
+				},
+				"nordling_footman": {
+					"display_name": "Prefira Armadura Nórdica",
+					"description": "Este Footman atualmente prefere usar armaduras feitas pelo Nordling. Clique para mudar!"
+				},
+				"nordling_knight": {
+					"display_name": "Prefira Armadura Nórdica",
+					"description": "Este Cavaleiro atualmente prefere usar armaduras feitas pelos Nórdicos. Clique para mudar!"
+				}
+			}
+		},
+		"nordlings_population": {
+			"display_name": "Os nórdicos"
+		},
+		"loadouts": {
+			"items": {
+				"cabbage": "repolhos"
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"town_progression": {
+					"valor_tier_3_reached": {
+						"recipe_unlock_blacksmith": "Novas receitas para Ferreiro!",
+						"recipe_unlock_mason": "Nova receita para Mason!",
+						"recipe_unlock_potter": "Nova receita para Potter!"
+					},
+					"shrine_upgrade_valor": {
+						"achievements": {
+							"001": "Receita de Potter",
+							"003": "Receita de chifre de guerra de valor ferreiro",
+							"000": "Receitas de ferreiro",
+							"002": "Receita de pedreiro",
+							"004": "Música de nível 3"
+						}
+					},
+					"town_founding_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_message": {
+										"00": "Ele caminha em nossa direção com um rosto corajoso e uma presença poderosa. Este homem deve ter algumas histórias para contar. Ele coloca seu pequeno Baú do Mar Nórdico na borda do acampamento.<br><br><p align='right'><font size=-2 color='#cccccc'>Embora ele também pareça bastante cansado , como se estivesse caminhando e caminhando por dias.</font></p>"
+									},
+									"bulletin_title": "Um homem cansado aparece",
+									"dialog_title": "viajante nórdico",
+									"choice_000": "Nós lhes damos boas-vindas"
+								},
+								"read_letter": {
+									"bulletin_message": {
+										"00": "\"Saudações. Eu sou Jarl Stoic, o Vasto, e venho procurando nestas terras há algum tempo.\" Procurando... \"Após o desembarque, minhas tropas e eu fomos emboscados por uma invasão orc, e eu levei uma pancada na cabeça. Ao acordar atrás de alguns arbustos, me vi sozinho para vagar.\""
+									},
+									"bulletin_title": "Permanecendo forte",
+									"dialog_title": "Jarl Stoic, o Vasto",
+									"choice_000": "Por que você está procurando nesta terra?"
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "\"Nós viemos para esta terra esperando encontrar o lendário lar dos deuses, que é indescritível para mim até agora. Estou feliz em ver outros Nórdicos corajosos o suficiente para iniciar um posto avançado aqui neste deserto.\" <p>Para sobreviver aqui, você precisará decidir um caminho de crescimento para seu povo. \"A terra pode ser desenvolvida com sua inteligência, ou sua força, ou seu cultivo em direção à vegetação.\"</p>"
+									},
+									"bulletin_title": "A casa dos deuses",
+									"dialog_title": "A casa dos deuses",
+									"choice_000": "Sobrevivência..."
+								},
+								"read_letter3": {
+									"bulletin_message": {
+										"00": "Então, lembre-se de nossos maiores deuses: Odin, o sábio protetor. Thor, o guerreiro forte. Freya, personificação da beleza e da fertilidade. \"Seu estandarte será um pequeno símbolo para uma bênção que você pode receber dos deuses.\"<p>\"Eu me pergunto qual você deve escolher. Não importa o que aconteça, os Nórdicos perseverarão como sempre fizemos.\"</p>"
+									},
+									"bulletin_title": "Uma bandeira simbólica",
+									"dialog_title": "Uma bandeira simbólica",
+									"choice_000": "Vamos escolher..."
+								}
+							}
+						}
+					},
+					"bird_departs": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "\"Você começou um bom posto avançado\", diz Stoic.<p>\"[str(i18n_data.town_name)]\" prosperará se esses Nórdicos trabalharem duro e mantiverem sua bravura. \"Mantenha seu juízo sobre você, a terra pode ser feroz às vezes.\" </p>"
+									},
+									"bulletin_title": "O estóico fica alto",
+									"dialog_title": "Destino chama",
+									"choice_000": "Seja forte, estóico"
+								},
+								"msg2": {
+									"bulletin_title": "Aventurando-se",
+									"dialog_title": "Estóico se prepara para sair",
+									"choice_000": "Boa sorte!",
+									"bulletin_message": {
+										"00": "\"Agora devo continuar minha busca.\" Stoic espera encontrar as tropas desaparecidas e a indescritível morada dos deuses. \"Adeus\", ele gesticula. \"Vou pesquisar esta área e retornar com minhas descobertas ocasionalmente. Fique bem.\""
+									}
+								}
+							}
+						}
+					},
+					"town_founding_food_donation": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "\"Este baú tem sido pesado\", explica Stoic, e ele remove um grande saco de alimentos preservados. \"Tome isso e divirta-se.\" <p>Nós dois temos muito trabalho a fazer, mas também precisamos descansar e nos divertir. \"Eu posso viajar mais leve e rápido agora, e você pode acumular seus suprimentos para compartilhar quando eu voltar\", diz ele. \"Um dia esta terra será nossa.\"</p><p>A bolsa contém:</p>"
+									},
+									"bulletin_title": "Deleites saborosos",
+									"dialog_title": "Stoic abre seu baú de mar",
+									"choice_000": "Uma celebração em sua homenagem!"
+								}
+							}
+						}
+					},
+					"hearth_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Stoic the Vast entra no acampamento, carregando seu saco de suprimentos. <br><br><p align='right'><font size=-6 color='#cccccc'>Ele parece estar de bom humor e solta uma gargalhada!</font></p>"
+									},
+									"bulletin_title": "Estoico é visto!",
+									"dialog_title": "O Jarl retorna",
+									"choice_000": "Bem vindo de volta!"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Stoic olha ao redor e fica satisfeito. \"Estou feliz que você se estabeleceu nesta terra e começou a torná-la sua!\", exclama ele. \"Eu também encontrei alguns sinais dos deuses, há uma magia fraca aqui. Algumas plantas me dão muita energia\"."
+									},
+									"bulletin_title": "Descobertas",
+									"dialog_title": "Descobertas",
+									"choice_000": "conte-nos mais"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "\"Eu me senti mais forte aqui, e se você continuar trabalhando nesta terra e juntando seus recursos, você também se tornará forte.\" É verdade que o posto avançado está crescendo rapidamente através dos esforços de nossos Nórdicos, talvez possamos obter algumas bênçãos mágicas também."
+									},
+									"bulletin_title": "Força da terra",
+									"dialog_title": "Força da terra",
+									"choice_000": "O que devemos fazer?"
+								},
+								"msg4": {
+									"bulletin_message": {
+										"00": "\"Você pode canalizar suas energias para alcançar uma nova Lareira abençoada. Ela atrairá mais colonos que encontrarem o caminho para esta terra incomum.\"<br><br>Ele se vira para olhar para as colinas distantes e pega sua Lança e Escudo. \"Quanto a mim, devo continuar procurando... depois que eu abater aquele Lobo Gigante ali, que está olhando para seus estoques.\" Stoic avança, deixando para trás algumas plantas que caíram de seu saco."
+									},
+									"bulletin_title": "Honra a lareira",
+									"dialog_title": "Honra a lareira",
+									"choice_000": "Ah, Silkweed! ☘"
+								}
+							}
+						}
+					},
+					"hearth_choice_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"makers": {
+									"bulletin_message": {
+										"00": "Ou, nossas mentes podem imaginar um <i>Lar de Criadores</i> e, através das energias mágicas, nossos artesãos produtivos aumentarão o valor de nosso Assentamento."
+									},
+									"bulletin_title": "A mente de um criador",
+									"dialog_title": "A mente de um criador",
+									"choice_000": "Uma existência astuta..."
+								},
+								"final": {
+									"bulletin_message": {
+										"00": "Stoic pede a você: \"Agora concentrem suas mentes para determinar a forma de sua Lareira: <p><i>Alegria, Glória, Criadores</i> - Todos são caminhos dignos para levar adiante sua Colônia Nórdica!\"</p>"
+									},
+									"bulletin_title": "Determinação",
+									"dialog_title": "Determinação",
+									"choice_000": "vamos escolher..."
+								},
+								"intro2": {
+									"bulletin_message": {
+										"00": "No folclore nórdico, Hearths têm sido o ponto focal das reuniões desde o início.<p>\"Nós nos reunimos para fazer planos de batalha, compartilhar conhecimento e artesanato e apreciar as colheitas de nossa terra. Nossos pensamentos têm poder agora. \"</p>"
+									},
+									"bulletin_title": "Estóico explica",
+									"dialog_title": "Pensamentos poderosos",
+									"choice_000": "Poder?"
+								},
+								"cheer": {
+									"bulletin_message": {
+										"00": "A magia ao nosso redor pode criar um <i>Lar de Alegria</i> para aqueles que acreditam que um assentamento deve ser bem alimentado e feliz antes de qualquer outra coisa."
+									},
+									"bulletin_title": "Alegria e recompensa",
+									"dialog_title": "Alegria e recompensa",
+									"choice_000": "Uma existência feliz..."
+								},
+								"intro3": {},
+								"glory": {
+									"bulletin_message": {
+										"00": "Por último, um <i>Lar de Glória</i> pode ser realizado quando nossos sonhos de poder e defesa de nosso povo atraem um pouco da magia que causa a destruição natural."
+									},
+									"bulletin_title": "O Caminho Glorioso",
+									"dialog_title": "O Caminho Glorioso",
+									"choice_000": "Uma existência forte..."
+								},
+								"intro": {
+									"bulletin_message": {
+										"00": "Jarl Stoic retorna e examina os terrenos de \"[str(i18n_data.town_name)].\" Ele está pronto para ouvir sobre sua escolha para avançar suas terras em um 'Acordo'. <p>\"A magia nestas terras transformará seu Hearth em um farol brilhante para os outros verem de longe.\"</p>"
+									},
+									"bulletin_title": "Jarl Stoic retorna",
+									"dialog_title": "Uma escolha importante",
+									"choice_000": "Diga-nos como",
+									"choice_001": "[pular] Nós sabemos qual Hearth queremos"
+								}
+							}
+						}
+					},
+					"shrine_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Jarl Stoic, o Vasto, encontra o caminho de volta ao seu Assentamento. \"Você cresceu de novo, isso é bom.\""
+									},
+									"bulletin_title": "Estoico vem de novo!",
+									"dialog_title": "Bom ver todos vocês",
+									"choice_000": "obrigada"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Ele compartilha suas descobertas recentes com você. \"Viajando por esta área, conheci algumas pessoas novas, e isso confirmou minhas ideias de que esta terra é abençoada pelos deuses.\""
+									},
+									"bulletin_title": "Viagens...",
+									"dialog_title": "E achados...",
+									"choice_000": "Sim, também vemos"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Stoic olha ao redor e faz sinal para que todos se aproximem. \"As pessoas que conheci sabem que uma grande cidade pode ser iniciada aqui se nós nórdicos pudermos construir um santuário para os deuses!\""
+									},
+									"bulletin_title": "Uma cidade!",
+									"dialog_title": "Prepare-se para a construção",
+									"choice_000": "Qual Santuário?"
+								},
+								"msg4": {
+									"bulletin_message": {
+										"00": "\"Bem, você terá que esperar que eu volte com alguns convidados especiais, que podem lhe ensinar sobre o Santuário fazendo caminhos.\"<p>Stoic se levanta, agradecendo pela refeição quente, antes de partir novamente...</p> p>"
+									},
+									"bulletin_title": "Paciência",
+									"dialog_title": "Paciência",
+									"choice_000": "Estaremos prontos"
+								}
+							}
+						}
+					},
+					"shrine_choice_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"intro": {
+									"bulletin_message": {
+										"00": "Stoic traz um grupo de Viajantes. \"Nordlings de [str(i18n_data.town_name)], eu trago para vocês alguns companheiros andarilhos desta terra.\""
+									},
+									"bulletin_title": "Aí vem Stoic e Companhia",
+									"dialog_title": "Eles vêm para a Lareira",
+									"choice_000": "Todos parecem tão fortes!"
+								},
+								"intro2": {
+									"bulletin_title": "Ouça com atenção",
+									"dialog_title": "Ouça com atenção",
+									"choice_000": "Aprenda com os convidados",
+									"choice_001": "[pular] Já decidimos",
+									"bulletin_message": {
+										"00": "\"Agora os deuses lhe concederão seu favor, uma vez que você construa um Santuário para eles. Você só precisa decidir de qual deus deseja receber uma bênção.\" <p>Os convidados se revezam explicando como construir um Santuário.</p>"
+									}
+								},
+								"clergy": {
+									"bulletin_message": {
+										"00": "Valquíria Hilda olha para os céus e fala:<br>\"Fiquei encalhado nesta terra. Meu grande amigo, um cavalo voador, foi capturado por alguns velhos bárbaros. Se você puder plantar uma semente especial de santuário, eu estou com certeza a deusa Freya ficará satisfeita! <br>Espero que seu reconhecimento possa me fornecer uma passagem para voltar para casa nos céus.\" <br><i>(Construir um Santuário para Freya concederá a todos os seus habitantes um aumento de +1 nos atributos mente, corpo e espírito.)</i>"
+									},
+									"bulletin_title": "Um Santuário para Freya",
+									"dialog_title": "Um Santuário para Freya",
+									"choice_000": "Esperança em Hilda"
+								},
+								"clergy_cont": {
+									"bulletin_message": {
+										"00": "\"Hilda! É terrível que seu magnífico cavalo tenha sido capturado! Não fui eu, só estou dizendo...\""
+									},
+									"bulletin_title": "Cavalo Capturado",
+									"dialog_title": "Cavalo Capturado",
+									"choice_000": "Ok..."
+								},
+								"makers": {
+									"bulletin_message": {
+										"00": "\"Ah, também não fui eu, Hilda\", diz o Lone Wanderer, enquanto acaricia sua barba grisalha. \"Nosso grande deus protetor Odin, certamente será honrado se você colocar toda a sua atenção e esforço na construção de um santuário à sua semelhança. <br>Tenha cuidado ao usar suas ferramentas, você não gostaria de perder um olho, agora.\" <br><i>(Construir um Santuário para Odin concederá habilidades mágicas a Seidr, permitindo a criação de produtos artesanais com qualidade de obra-prima.)</i>"
+									},
+									"bulletin_title": "Um Santuário para Odin",
+									"dialog_title": "Um Santuário para Odin",
+									"choice_000": "Sabedoria Errante"
+								},
+								"military": {
+									"bulletin_message": {
+										"00": "\"Eu sou Eitri, e eu procuro esta terra com meu irmão Brokkr, procurando por ingredientes incomuns. Nós somos fortes e robustos ferreiros anões, encarregados de produzir objetos maravilhosos para os deuses. Brokkr, pare de beber essa cerveja e venha aqui!\""
+									},
+									"bulletin_title": "Um Santuário para Thor",
+									"dialog_title": "Irmãos: Eitri e Brokkr",
+									"choice_000": "Anões Confiáveis"
+								},
+								"military_cont": {
+									"bulletin_message": {
+										"00": "Brokkr coloca sua bebida na mesa e golpeia uma grande mosca preta veloz. <br>\"Eitri, estou com sede! Meu amigo Thundergod Thor é tão poderoso! E ele adora martelos, então construir um martelo enorme certamente concederá suas bênçãos a você!\" <br><i>(Construir um Santuário para Thor concederá a você o poder de usar o minério de Mythril para criar equipamentos excepcionalmente poderosos.)</i>"
+									},
+									"bulletin_title": "Um Santuário para Thor",
+									"dialog_title": "Um Santuário para Thor",
+									"choice_000": "Poderoso Mythril"
+								},
+								"summary": {
+									"bulletin_message": {
+										"00": "Stoic caminha lentamente ao redor do Hearth. \"Agora você recebeu as instruções de nossos convidados. Decida qual dos deuses antigos você mais deseja, para estabelecer esta grande cidade nórdica.\" <p>As pessoas se reúnem para escolher seu destino...</p>"
+									},
+									"bulletin_title": "Aproveite o poder",
+									"dialog_title": "Aproveite o poder",
+									"choice_000": "Decisão do destino"
+								}
+							}
+						}
+					},
+					"unlock_shrine_recipes": {
+						"bulletin_title": "Receitas de Odin e Thor Shrine da Mason Decoration desbloqueadas!"
+					},
+					"unlock_shrine_recipes_2": {
+						"bulletin_title": "Receita Herbalist Decoração Freya Shrine Seed desbloqueada!"
+					},
+					"shrine_choice": {
+						"valor": {
+							"name": "Santuário para Thor",
+							"description": "<i>Esta vila será dedicada ao exemplo valoroso de Thor para proteger todos os Nove Reinos.</i><ul><li>Desbloqueia receitas de armas lendárias</li><li>Desbloqueia receitas de decoração de castelo</li>< /ul>"
+						},
+						"guildmaster": {
+							"name": "Santuário para Odin",
+							"description": "<i>Este município será conhecido pela busca de seus artesãos por sabedoria e artesanato mágico.</i><ul><li>Permite criar itens de qualidade Obra-prima</li><li>Desbloqueia receitas de decoração com temas artesanais</li> ></ul>"
+						},
+						"deity": {
+							"name": "Santuário para Freya",
+							"description": "<i>Este município emula a bondade de Freya e um respeito pela natureza como nenhum outro.</i><ul><li>Abençoa todos os cidadãos com +1 em Mente, Corpo e Espírito</li><li> Desbloqueia receitas de decoração com temas da natureza e abençoa seu santuário, especialmente...</li></ul>"
+						}
+					},
+					"shrine_quest_guildmaster": {
+						"title": "Township Quest: Sabedoria de Odin",
+						"dialog_title": "Township Quest: Sabedoria de Odin"
+					},
+					"shrine_quest_valor": {
+						"title": "Township Quest: Thor's Might",
+						"dialog_title": "Township Quest: Thor's Might"
+					},
+					"shrine_quest_deity": {
+						"title": "Township Quest: Compaixão de Freya",
+						"dialog_title": "Township Quest: Compaixão de Freya"
+					},
+					"shrine_upgrade": {
+						"title": "Município estabelecido",
+						"dialog_title": "Município conquistado!",
+						"tier_title": "Município",
+						"reward_message": "Pela vontade dos deuses, reconhecemos:",
+						"reward_message_ctd": "Para aproveitar os poderes da terra. A cidade tem direito a:"
+					},
+					"deity_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Ela anda, olhando para as oficinas e as árvores na periferia da cidade. Então ela percebe uma nova planta crescendo, da semente abençoada."
+									},
+									"bulletin_title": "Valquíria Hilda observa",
+									"dialog_title": "Vida nova",
+									"choice_000": "Este poderia ser o caminho"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "\"Freya abençoou esta terra. Em breve haverá uma árvore enorme. Espero chegar ao topo dela, para que Freya possa ouvir meu chamado\", Hilda reflete."
+									},
+									"bulletin_title": "A esperança de uma valquíria",
+									"dialog_title": "Esperança da Valquíria",
+									"choice_000": "Crescendo"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "O crescimento desta Árvore Lendária confere um crescimento na Mente, Corpo e Espírito de todos. \"Fique bem e continue crescendo sua cidade. É incrível aqui!\""
+									},
+									"bulletin_title": "Bênção de Freya",
+									"dialog_title": "Bênção de Freya",
+									"choice_000": "Obrigado, Hilda"
+								}
+							}
+						}
+					},
+					"guild_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "The Lone Wanderer fala baixinho: \"Do alto da montanha, eu tenho observado esta cidade crescer. Os corvos me disseram que viram todos vocês trabalhando diligentemente e então, vocês merecem ser vistos pelos deuses.\""
+									},
+									"bulletin_title": "Um andarilho solitário",
+									"dialog_title": "O Viajante Solitário",
+									"choice_000": "Agora eles podem nos ver"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "\"Quando entrei na floresta, encontrei o Jarl Stoic. Ele me contou como viu sua cidade crescer, tanto em força quanto em habilidade artesanal. Vocês estavam lentamente absorvendo os fragmentos mágicos da terra em seus corpos e mentes.\""
+									},
+									"bulletin_title": "Sabedoria da terra",
+									"dialog_title": "Sabedoria da terra",
+									"choice_000": "Nos sentimos energizados"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "O Lone Wanderer deixa você com uma palavra final: \"Odin concedeu seu favor a você. A magia reunida se manifestará em seus artesanatos, agora você é praticante do Seidr.\"<p>Sua sabedoria nos lembra o Allfather Odin. </p>"
+									},
+									"bulletin_title": "Iluminação",
+									"dialog_title": "Iluminação",
+									"choice_000": "Ele poderia ser... o próprio Odin?"
+								}
+							}
+						}
+					},
+					"valor_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Brokkr olha para o monumento do martelo gigante, The Shrine to Thor. \"As runas deste Santuário estão brilhando como um relâmpago, Thor pode ver você agora.\""
+									},
+									"bulletin_title": "Brokkr e Eitri",
+									"dialog_title": "Brokkr e Eitri",
+									"choice_000": "Thor nos guia"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Agora Eitri olha para a oficina do Ferreiro e se aproxima. \"Ferreiro, você recebeu o poder de forjar minério de Mythril em um equipamento magnífico. Mantenha seus fogos quentes!\""
+									},
+									"bulletin_title": "ferraria",
+									"dialog_title": "ferraria",
+									"choice_000": "Certamente"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Brokkr esfrega as mãos e estica os braços em direção ao fogo. \"Os filhos do deus cobra serão derrotados por vocês Nórdicos. O Deus do Trovão Thor está do seu lado, e vocês serão heróis empunhando o poderoso armamento de Mythril!\""
+									},
+									"bulletin_title": "Poder do trovão",
+									"dialog_title": "Poder do trovão",
+									"choice_000": "Um brinde ao Thor!"
+								}
+							}
+						}
+					},
+					"post_shrine_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Estóico grita: \"Muito bem, Nórdicos! Vocês são verdadeiramente uma Cidade agora com os olhos dos deuses sobre vocês. Muitos virão compartilhar de sua glória.\""
+									},
+									"bulletin_title": "Estóico está satisfeito",
+									"dialog_title": "Estóico satisfeito",
+									"choice_000": "E você, estoico?"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "\"Talvez eu possa fazer uma pausa na minha busca sem fim. Eu gostaria de compartilhar histórias com seu próprio Jarl Nórdico. E, você pode ter feito seu próprio Lar dos deuses bem aqui, nesta terra especial.\""
+									},
+									"bulletin_title": "Estóico satisfeito",
+									"dialog_title": "Estóico satisfeito",
+									"choice_000": "É a nossa casa"
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Jarl Stoic olha para o Baú do Mar que ele deixou aqui há muito tempo. \"<i> Pela barba de Odin!</i> Os convidados especiais deixaram alguns tesouros para você usar. Este é o seu destino, sua cidade sempre terá uma lareira acolhedora para todos os novos nórdicos!\""
+									},
+									"bulletin_title": "Destino",
+									"dialog_title": "Destino",
+									"choice_000": "Maravilhoso!"
+								}
+							}
+						}
+					},
+					"post_shrine_dialog_gift": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "\"Esses suprimentos podem ajudá-lo a refinar alguns objetos excelentes\", diz Stoic. <p>O baú contém:</p>"
+									},
+									"bulletin_title": "Tesouro!",
+									"dialog_title": "Tesouros de despedida",
+									"choice_000": "Yay! ✨"
+								}
+							}
+						}
+					},
+					"reembark_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "\"Nordlings, os deuses antigos os consideram dignos e lhes dão a oportunidade de se aventurar e começar outra cidade. Vocês podem escolher alguns cidadãos sábios e capazes, e alguns bens que obtiveram.\" </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></ fonte></p>"
+									},
+									"bulletin_title": "A Stoic tem novidades!",
+									"dialog_title": "Uma nova saga",
+									"choice_000": "Excelente!"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"population": {
+			"nordlings": {
+				"titles": {
+					"none": {
+						"description": "Nenhum título necessário."
+					},
+					"levels": {
+						"display_name": "Nível do personagem",
+						"description": "Obtido ao subir de nível em qualquer trabalho.",
+						"6_display_name": ", Mestre",
+						"6_description": "Eles têm seis níveis de trabalho! Eles trilharam o caminho de um mestre!",
+						"12_display_name": ", Grão-Mestre",
+						"12_description": "Eles agora têm doze níveis de trabalho! Mais que um mestre, um grande mestre!",
+						"18_display_name": ", Vale-tudo",
+						"18_description": "Eles têm dezoito níveis de trabalho! O que? Isso é incrível!",
+						"30_display_name": ", Abençoado",
+						"30_description": "Eles atingiram trinta níveis de trabalho, apenas algumas almas dedicadas podem conseguir isso...",
+						"60_display_name": ", Lenda viva",
+						"60_description": "Eles atingiram a impressionante marca de sessenta níveis de emprego! Isso é mais experiência do que muitos hearthlings juntos... Quanta sabedoria!",
+						"90_display_name": ", Herdeiro de Cid",
+						"90_description": "Eles têm noventa níveis de trabalho - isso é inacreditável! Nenhum hearthling jamais poderia sonhar com tal façanha... A alma deles deve ter sido tocada pelo próprio Odin!"
+					},
+					"slayer": {
+						"display_name": "Assassino",
+						"description": "Obtido ao matar qualquer criatura.",
+						"40_display_name": ", Assassino",
+						"40_description": "Eles derrotaram 40 inimigos!",
+						"100_display_name": "o açougueiro",
+						"100_description": "Eles derrotaram 100 inimigos! Aquilo era mesmo necessário?",
+						"250_display_name": ", Corta-vidas",
+						"250_description": "Eles derrotaram 250 inimigos! Eles não podem ser parados!",
+						"600_display_name": ", Einherjar",
+						"600_description": "Eles derrotaram 600 inimigos! Isso tem que ser um crime de guerra ou algo assim..."
+					},
+					"slayer_item": {
+						"display_name": "Assassino",
+						"description": "Obtido ao matar qualquer criatura.",
+						"40_display_name": ", Bloodletter",
+						"40_description": "Ele derrotou 40 inimigos!",
+						"100_display_name": ", Terrorista",
+						"100_description": "Ele derrotou 100 inimigos! Provavelmente precisa de algum polimento.",
+						"250_display_name": "do Toque da Morte",
+						"250_description": "Ele derrotou 250 inimigos! Isso deve ser suficiente.",
+						"600_display_name": ", Devorador de Almas",
+						"600_description": "Ele derrotou 600 inimigos! Dá fome!"
+					},
+					"goblin_killer": {
+						"display_name": "Matador de Goblins",
+						"description": "Obtido ao matar goblins.",
+						"5_display_name": "o assassino goblin",
+						"5_description": "Eles mataram 5 goblins!",
+						"10_display_name": "o Esmagador Goblin",
+						"10_description": "Eles mataram 10 goblins! Lá foram eles, matando de novo!",
+						"25_display_name": "o Decimador Goblin",
+						"25_description": "Eles mataram 25 goblins! Eles são muito bons nisso!",
+						"50_display_name": ", Maldição dos Goblins",
+						"50_description": "Eles mataram 50 goblins! Isso é muito!",
+						"75_display_name": ", Caçador de Goblins",
+						"75_description": "Eles mataram 75 goblins! Onde eles estão encontrando todos esses goblins?!",
+						"100_display_name": ", Goblin-Hewer",
+						"100_description": "Eles mataram 100 goblins! Talvez eles devessem estar em terapia, reexaminando suas prioridades."
+					},
+					"goblin_killer_item": {
+						"display_name": "Matador de Goblins",
+						"description": "Obtido ao matar goblins.",
+						"5_display_name": ", Goblin-Inimigo",
+						"5_description": "Matou 5 goblins!",
+						"10_display_name": "o Goblin Slasher",
+						"10_description": "Matou 10 goblins! Vai parar?",
+						"25_display_name": "o Destruidor de Goblins",
+						"25_description": "Matou 25 goblins! É muito bom nisso!",
+						"50_display_name": ", Goblin Bane",
+						"50_description": "Matou 50 goblins! Isso é muito!",
+						"75_display_name": ", Goblin-Hewer",
+						"75_description": "Matou 75 goblins! É imparável, pelo menos por goblins!",
+						"100_display_name": ", Vencedor de Goblins",
+						"100_description": "Matou 100 goblins! Sua sede de sangue finalmente foi saciada?"
+					},
+					"orc_killer": {
+						"display_name": "Assassino de orcs",
+						"description": "Obtido ao matar seguidores do Forno Vermelho.",
+						"5_display_name": ", Inimigo do Forno Vermelho",
+						"5_description": "Eles mataram 5 seguidores do Red Kiln!",
+						"10_display_name": "o matador de orcs",
+						"10_description": "Eles mataram 10 seguidores do Red Kiln! Que desafiante!",
+						"25_display_name": ", Maldição das Quatro Cores",
+						"25_description": "Eles mataram 25 seguidores do Red Kiln! Isso requer algumas habilidades!",
+						"50_display_name": ", Decimador do Forno Vermelho",
+						"50_description": "Eles mataram 50 seguidores do Forno Vermelho! Será que eles vão parar?",
+						"75_display_name": ", Khanate-Ender",
+						"75_description": "Eles mataram 75 seguidores do Red Kiln! Certamente os orcs estão convencidos agora?",
+						"100_display_name": ", Retribuição de Cid",
+						"100_description": "Eles mataram 100 seguidores do Red Kiln! Eles são dignos desta terra!"
+					},
+					"orc_killer_item": {
+						"display_name": "Assassino de orcs",
+						"description": "Obtido ao matar seguidores do Forno Vermelho.",
+						"5_display_name": ", Mordedor de Orcs",
+						"5_description": "Matou 5 seguidores do Red Kiln!",
+						"10_display_name": ", Khan-Opener",
+						"10_description": "Matou 10 seguidores do Forno Vermelho! Uma bela arma!",
+						"25_display_name": "a morte vermelha",
+						"25_description": "Matou 25 seguidores do Forno Vermelho! Isso é algo!",
+						"50_display_name": ", Usurpador de Khans",
+						"50_description": "Matou 50 seguidores do Forno Vermelho! Isso causa medo em seus corações!",
+						"75_display_name": "sem cor",
+						"75_description": "Matou 75 seguidores do Forno Vermelho! Nada pode pará-lo!",
+						"100_display_name": ", Mão de Cid",
+						"100_description": "Matou 100 seguidores do Forno Vermelho! Esta terra está finalmente segura."
+					},
+					"undead_killer": {
+						"display_name": "Assassino morto-vivo",
+						"description": "Obtido matando os mortos-vivos.",
+						"3_display_name": "o caçador de mortos-vivos",
+						"3_description": "Eles mataram 3 mortos-vivos!",
+						"6_display_name": "o Coveiro",
+						"6_description": "Eles mataram 6 mortos-vivos! 'morto' é mesmo a palavra correta?",
+						"15_display_name": "o flagelo dos mortos-vivos",
+						"15_description": "Eles mataram 15 mortos-vivos! Isso é assustador!",
+						"25_display_name": ", Esperança da Vida",
+						"25_description": "Eles mataram 25 mortos-vivos! Já se sente mais seguro.",
+						"50_display_name": ", Hellsbane",
+						"50_description": "Eles mataram 50 mortos-vivos! A longa noite acabou."
+					},
+					"undead_killer_item": {
+						"display_name": "Assassino morto-vivo",
+						"description": "Obtido matando os mortos-vivos.",
+						"3_display_name": ", vela da esperança",
+						"3_description": "Matou 3 mortos-vivos!",
+						"6_display_name": "o limpador",
+						"6_description": "Matou 6 mortos-vivos! Que benção!",
+						"15_display_name": ", Purificador",
+						"15_description": "Matou 15 mortos-vivos! Deve ser seguro sair hoje à noite.",
+						"25_display_name": "o Interventor Divino",
+						"25_description": "Matou 25 mortos-vivos! Com certeza fez sua parte!",
+						"50_display_name": ", Nascer do sol",
+						"50_description": "Matou 50 mortos-vivos! Um farol de esperança!"
+					},
+					"forest_killer": {
+						"display_name": "Assassino do Deserto",
+						"description": "Obtido ao matar lacaios da Selva.",
+						"5_display_name": ", Divisor de Log",
+						"5_description": "Eles mataram 5 lacaios da Selva!",
+						"10_display_name": "o helicóptero",
+						"10_description": "Eles mataram 10 lacaios da Selva! Entlings, cuidado!",
+						"25_display_name": "o matador de peles",
+						"25_description": "Eles mataram 25 lacaios da Selva! Onde está o uivo agora?",
+						"50_display_name": ", Silenciador de Rugidos",
+						"50_description": "Eles mataram 50 lacaios da Selva! Parece mais calmo lá fora...",
+						"75_display_name": "o indomável",
+						"75_description": "Eles mataram 75 lacaios da Selva! Desmatamento é crime!",
+						"100_display_name": "da caça selvagem",
+						"100_description": "Eles mataram 100 lacaios da Selva! A natureza não deveria ser sua amiga?"
+					},
+					"forest_killer_item": {
+						"display_name": "Assassino do Deserto",
+						"description": "Obtido ao matar lacaios da Selva.",
+						"5_display_name": "do silvicultor",
+						"5_description": "Matou 5 lacaios da Selva!",
+						"10_display_name": ", Cutelo de Raiz",
+						"10_description": "Matou 10 lacaios da Selva! Lenha, alguém?",
+						"25_display_name": ", Bebedor de Seiva",
+						"25_description": "Matou 25 lacaios da Selva! Um ranger ficaria orgulhoso!",
+						"50_display_name": ", Maldição da Floresta",
+						"50_description": "Matou 50 lacaios da Selva! O que a natureza fez com isso?",
+						"75_display_name": ", Green-Ender",
+						"75_description": "Matou 75 lacaios da Selva! É hora de parar, talvez?",
+						"100_display_name": "das Terras Ermas",
+						"100_description": "Matou 100 lacaios da Selva! A natureza nunca vai esquecer isso!"
+					},
+					"titan_killer": {
+						"display_name": "Assassino da Tempestade Titânica",
+						"description": "Obtido matando seres corrompidos.",
+						"1_display_name": "o caçador de sombras",
+						"1_description": "Eles mataram 1 ser corrompido!",
+						"5_display_name": ", Desafiador das Trevas",
+						"5_description": "Eles mataram 5 seres corrompidos! Que bravura!",
+						"10_display_name": "o incorruptível",
+						"10_description": "Eles mataram 10 seres corrompidos! Eles se levantaram contra a escuridão!",
+						"15_display_name": "o assassino sem nome",
+						"15_description": "Eles mataram 15 seres corrompidos! Fez a diferença durante a última batalha.",
+						"25_display_name": ", Vencedor do Vazio",
+						"25_description": "Eles mataram 25 seres corrompidos! Eles derrubaram as chances da luz contra a escuridão!"
+					},
+					"titan_killer_item": {
+						"display_name": "Assassino da Tempestade Titânica",
+						"description": "Obtido matando seres corrompidos.",
+						"1_display_name": "de luz",
+						"1_description": "Matou 1 ser corrompido!",
+						"5_display_name": "do Sudário Caído",
+						"5_description": "Matou 5 seres corrompidos! Incrível!",
+						"10_display_name": ", Disjuntor",
+						"10_description": "Matou 10 seres corrompidos! Digno de uma música!",
+						"15_display_name": ", Estripador do Vazio",
+						"15_description": "Matou 15 seres corrompidos! Uma arma de lenda!",
+						"25_display_name": ", Guardião dos Mundos",
+						"25_description": "Matou 25 seres corrompidos! Este mundo se lembrará de seu nome."
+					},
+					"ogre_killer": {
+						"display_name": "Matador de Ogros",
+						"description": "Obtido ao matar ogros.",
+						"3_display_name": "o matador de ogros",
+						"3_description": "Eles mataram 3 ogros!",
+						"6_display_name": ", Inimigo do tipo Ogro",
+						"6_description": "Eles mataram 6 ogros! Destemido!",
+						"12_display_name": ", Flagelo dos Ogros",
+						"12_description": "Eles mataram 12 ogros! Isso é pesado!",
+						"30_display_name": ", Morte de baixo",
+						"30_description": "Eles mataram 30 ogros! O tamanho realmente não importa."
+					},
+					"ogre_killer_item": {
+						"display_name": "Matador de Ogros",
+						"description": "Obtido ao matar ogros.",
+						"3_display_name": ", Ogro-inimigo",
+						"3_description": "Matou 3 ogros!",
+						"6_display_name": ", Maldição do Ogro",
+						"6_description": "Matou 6 ogros! Fantástico!",
+						"12_display_name": ", Devastador de Ogros",
+						"12_description": "Matou 12 ogros! Talvez tenha sido projetado para isso?",
+						"30_display_name": "o Cócegas",
+						"30_description": "Matou 30 ogros! Que arma épica!"
+					},
+					"mountain_killer": {
+						"display_name": "Ogre Boss Killer",
+						"description": "Obtido ao matar o chefe ogro.",
+						"1_display_name": ", Quebra-montanhas",
+						"1_description": "Eles mataram o ogro mais temível!"
+					},
+					"mountain_killer_item": {
+						"display_name": "Ogre Boss Killer",
+						"description": "Obtido ao matar o chefe ogro.",
+						"1_display_name": "o Underbiter",
+						"1_description": "Foi usado para matar o ogro mais temível!"
+					},
+					"varanus_killer": {
+						"display_name": "Assassino de lagartos",
+						"description": "Obtido por matar varani e tal.",
+						"5_display_name": ", Apanhador de Cauda",
+						"5_description": "Eles mataram 5 lagartos!",
+						"10_display_name": ", Maldição dos Lagartos",
+						"10_description": "Eles mataram 10 lagartos! Cuidado com os dentes!",
+						"25_display_name": "o Colecionador de Balanças",
+						"25_description": "Eles mataram 25 lagartos! Mas ainda não há dragões...",
+						"50_display_name": ", A sangue frio",
+						"50_description": "Eles mataram 50 lagartos! A espécie provavelmente está ameaçada de extinção!"
+					},
+					"varanus_killer_item": {
+						"display_name": "Assassino de lagartos",
+						"description": "Obtido por matar varani e tal.",
+						"5_display_name": ", separador de língua",
+						"5_description": "Matou 5 lagartos!",
+						"10_display_name": ", Venenoso",
+						"10_description": "Matou 10 lagartos! Poderoso!",
+						"25_display_name": "o lavador de escamas",
+						"25_description": "Matou 25 lagartos! Provavelmente precisa de limpeza!",
+						"50_display_name": ", Presa da Serpente",
+						"50_description": "Matou 50 lagartos! Provavelmente alguns anfíbios também."
+					},
+					"zilla_killer": {
+						"display_name": "Assassino do Chefe Lagarto",
+						"description": "Obtido ao matar o chefe do lagarto.",
+						"1_display_name": ", Got-Zilla",
+						"1_description": "Eles mataram o lagarto mais temível!"
+					},
+					"zilla_killer_item": {
+						"display_name": "Assassino do Chefe Lagarto",
+						"description": "Obtido ao matar o chefe do lagarto.",
+						"1_display_name": ", Forjado",
+						"1_description": "Foi usado para matar o lagarto mais temível!"
+					},
+					"leader_killer": {
+						"display_name": "Assassino do Líder",
+						"description": "Obtido matando líderes inimigos.",
+						"1_display_name": ", Rebelde",
+						"1_description": "Eles mataram um líder inimigo!",
+						"3_display_name": "o Inquieto",
+						"3_description": "Eles mataram 3 líderes inimigos! Corte a cabeça da serpente!",
+						"5_display_name": ", Concorrente",
+						"5_description": "Eles mataram 5 líderes inimigos! Os inimigos não vão se estabelecer aqui...",
+						"10_display_name": ", Usurpador",
+						"10_description": "Eles mataram 10 líderes inimigos! Caos em suas fileiras!"
+					},
+					"leader_killer_item": {
+						"display_name": "Assassino do chefe",
+						"description": "Obtido matando líderes inimigos.",
+						"1_display_name": ", Mais claro",
+						"1_description": "Matou um líder inimigo!",
+						"3_display_name": ", Queimador de Banner",
+						"3_description": "Matou 3 líderes inimigos! Transtorno!",
+						"5_display_name": ", Fome de poder",
+						"5_description": "Matou 5 líderes inimigos! Eles vão pensar duas vezes agora...",
+						"10_display_name": "o Inquieto",
+						"10_description": "Matou 10 líderes inimigos! Ele ama a anarquia!"
+					},
+					"ogo_killer": {
+						"display_name": "Matador de Goblins",
+						"description": "Obtido ao matar o chefe goblin.",
+						"1_display_name": "o Desbocado",
+						"1_description": "Eles mataram o goblin mais temível!"
+					},
+					"ogo_killer_item": {
+						"display_name": "Matador de Goblins",
+						"description": "Obtido ao matar o chefe goblin.",
+						"1_display_name": ", A Morte de Ogo",
+						"1_description": "Foi usado para matar o goblin mais temível!"
+					},
+					"warchief_killer": {
+						"display_name": "Desafiante Orc Boss",
+						"description": "Obtido ao derrotar o chefe orc.",
+						"1_display_name": "o duelista do Khan",
+						"1_description": "Eles superaram o orc mais temível em combate!"
+					},
+					"warchief_killer_item": {
+						"display_name": "Desafiante Orc Boss",
+						"description": "Obtido ao derrotar o chefe orc.",
+						"1_display_name": ", Misericórdia do Chefe Guerreiro",
+						"1_description": "Foi usado para derrotar o orc mais temível em combate!"
+					},
+					"hunter": {
+						"display_name": "Grande Caçador",
+						"description": "Obtido pela caça de animais.",
+						"10_display_name": ", Caçador",
+						"10_description": "Eles caçaram 10 animais selvagens!",
+						"30_display_name": ", Caçador Realizado",
+						"30_description": "Eles caçaram 30 animais selvagens! Pobres animais...",
+						"75_display_name": ", Mestre caçador",
+						"75_description": "Eles caçaram 75 animais selvagens! Isso é comida para meses!",
+						"150_display_name": ", Grande Mestre Caçador",
+						"150_description": "Eles caçaram 150 animais selvagens! É uma obsessão?",
+						"300_display_name": ", Caçador Lendário",
+						"300_description": "Eles caçaram 300 animais selvagens! Alguém realmente ama churrasco!",
+						"600_display_name": ", Flecha Verdadeira",
+						"600_description": "Eles caçaram 600 animais selvagens! Tenha cuidado para não causar uma extinção!"
+					},
+					"hunter_item": {
+						"display_name": "Grande Caçador",
+						"description": "Obtido pela caça de animais.",
+						"10_display_name": ", Companheiro",
+						"10_description": "Caçou 10 animais selvagens!",
+						"30_display_name": "o caçador de presas",
+						"30_description": "Caçou 30 animais selvagens! Acabou de começar!",
+						"75_display_name": "do caçador",
+						"75_description": "Caçou 75 animais selvagens! Uma verdadeira arma de caça!",
+						"150_display_name": ", Desbravador",
+						"150_description": "Caçou 150 animais selvagens! Nenhuma floresta é segura...",
+						"300_display_name": ", Olho de Águia",
+						"300_description": "Caçou 300 animais selvagens! Isso é muita sacanagem.",
+						"600_display_name": ", Predador",
+						"600_description": "Caçou 600 animais selvagens! Os vegetarianos devem odiar!"
+					},
+					"defender": {
+						"display_name": "Defensor",
+						"description": "Obtido ao obter assistências para matar (estar envolvido em combate diretamente com ou perto de inimigos mortos).",
+						"25_display_name": ", Vigilante da Cidade",
+						"25_description": "Eles defenderam a cidade de 25 inimigos!",
+						"50_display_name": ", Grande Protetor",
+						"50_description": "Eles defenderam a cidade de 50 inimigos!",
+						"100_display_name": ", Heroi local",
+						"100_description": "Eles defenderam a cidade de 100 inimigos! É finalmente seguro?",
+						"500_display_name": "a longa mão flutuante da lei",
+						"500_description": "Eles defenderam a cidade de 500 inimigos! Que cidade incrivelmente adversária!",
+						"1000_display_name": ", Salvador da Civilização",
+						"1000_description": "Eles defenderam a cidade de 1000 inimigos! Talvez uma abordagem mais diplomática seja necessária."
+					},
+					"prolific_crafter": {
+						"display_name": "Criador prolífico",
+						"description": "Obtido ao criar muitos itens.",
+						"100_display_name": ", Artesão Prolífico",
+						"100_description": "Eles criaram 100 itens!",
+						"200_display_name": "o Multi-Crafter",
+						"200_description": "Eles criaram 200 itens!",
+						"500_display_name": ", Artesão em Massa",
+						"500_description": "Eles criaram 500 itens! Talvez eles pudessem usar um assistente.",
+						"1000_display_name": ", Emissário da Guilda",
+						"1000_description": "Eles criaram 1000 itens! É melhor eles terem uma boa pensão pronta."
+					},
+					"excellent_crafter": {
+						"display_name": "Excelente artesão",
+						"description": "Obtido ao criar itens de excelente qualidade.",
+						"10_display_name": ", Excelente Artesão",
+						"10_description": "Eles criaram 10 itens de excelente qualidade!",
+						"25_display_name": ", Artesão Extraordinário",
+						"25_description": "Eles criaram 25 itens de excelente qualidade!",
+						"100_display_name": "o buscador da excelência",
+						"100_description": "Eles criaram 100 itens de excelente qualidade!"
+					},
+					"master_crafter": {
+						"display_name": "Mestre Artesão",
+						"description": "Obtido ao criar itens com qualidade de obra-prima.",
+						"1_display_name": ", Mestre Artesão",
+						"1_description": "Eles criaram um item de qualidade obra-prima! Incrível!",
+						"10_display_name": "o mestre da qualidade",
+						"10_description": "Eles criaram 10 itens de qualidade obra-prima! Incrível!",
+						"25_display_name": "a lenda do artesanato",
+						"25_description": "Eles criaram 25 itens de qualidade obra-prima! Quem sabia que isso era possível?"
+					},
+					"starving": {
+						"display_name": "Inanição",
+						"description": "Ganho por passar muito tempo com muita fome.",
+						"1_display_name": "a fome",
+						"1_description": "Eles passaram 4 horas morrendo de fome!",
+						"2_display_name": "o faminto",
+						"2_description": "Eles passaram fome por 2 dias e ainda estão de pé!",
+						"3_display_name": "do Jejum Inquebrável",
+						"3_description": "Eles passaram fome por 10 dias! Talvez a coleta de alimentos devesse ser um pouco mais priorizada."
+					},
+					"incapacitated": {
+						"display_name": "Incapacitação",
+						"description": "Obtido por ficar incapacitado várias vezes.",
+						"1_display_name": ", Ferido",
+						"1_description": "Eles andaram no limite da vida e da morte! Excitante!",
+						"2_display_name": "o Propenso",
+						"2_description": "Eles foram derrubados e se levantaram apenas para serem derrubados novamente...",
+						"4_display_name": "o cicatrizado",
+						"4_description": "Eles foram incapacitados 4 vezes! É mesmo possível matá-los?",
+						"8_display_name": "o quase sem cabeça",
+						"8_description": "Eles foram incapacitados 8 vezes! Será que eles vão aprender a evitar situações de risco de vida?",
+						"12_display_name": "o Imortal",
+						"12_description": "Eles foram incapacitados 12 vezes! Por quanto tempo eles podem enganar a morte assim?",
+						"20_display_name": "o Imortal",
+						"20_description": "Eles foram incapacitados 20 vezes! É inacreditável como eles são sortudos (ou tolos)."
+					},
+					"swimming": {
+						"display_name": "Natação",
+						"description": "Ganho por passar muito tempo nadando.",
+						"1_display_name": "o nadador",
+						"1_description": "Eles passaram um dia inteiro nadando!",
+						"2_display_name": "o Peixe",
+						"2_description": "Eles passaram três dias inteiros nadando! Eles devem amar a água.",
+						"3_display_name": "o cavalo marinho",
+						"3_description": "Eles passaram um mês inteiro nadando! Quanta energia!",
+						"4_display_name": "o tubarão",
+						"4_description": "Eles passaram três meses nadando! O que?!",
+						"5_display_name": ", Aquaman",
+						"5_description": "Eles passaram meio ano nadando! Aposto que a outra metade estava dormindo..."
+					},
+					"sweet_energy": {
+						"display_name": "Farra de Açúcar",
+						"description": "Ganhou comendo muitos alimentos doces!",
+						"1_display_name": ", Munchie",
+						"1_description": "Eles comeram alimentos doces 10 vezes! Ainda saudável o suficiente, provavelmente.",
+						"2_display_name": ", Doce",
+						"2_description": "Eles comeram alimentos doces 25 vezes! Quem resiste a um doce?",
+						"3_display_name": ", Açúcar Apressado",
+						"3_description": "Eles comeram alimentos doces 50 vezes! Eles realmente gostam!",
+						"4_display_name": "o comedor de biscoitos",
+						"4_description": "Eles comeram alimentos doces 100 vezes! Isso é muito, cuidado com seus níveis de açúcar!",
+						"5_display_name": ", Amante de Doces",
+						"5_description": "Eles comeram alimentos doces 200 vezes! Isso provavelmente não é saudável...",
+						"6_display_name": "o monstro do açúcar",
+						"6_description": "Eles comeram alimentos doces 500 vezes! Será que eles conseguiram dormir ultimamente?"
+					},
+					"drunk": {
+						"display_name": "boêmio",
+						"description": "Ganho por passar muito tempo bastante tonto por causa de bebidas alcoólicas.",
+						"1_display_name": "o alegre",
+						"1_description": "Eles estiveram mais lá do que aqui por seis dias! Isso é muito!",
+						"2_display_name": "o levantador de canecas",
+						"2_description": "Eles passaram doze dias inteiros se sentindo muito, muito tontos!",
+						"3_display_name": "o texugo",
+						"3_description": "Eles estão bebendo há vinte dias inteiros. Eles estão mesmo trabalhando?",
+						"4_display_name": ", Merry-Mestre",
+						"4_description": "Eles estão felizes há quarenta e cinco dias. É muito tempo para pensar...",
+						"5_display_name": ", Festa Animal",
+						"5_description": "Eles passaram um ano inteiro bebendo. Honestamente, devemos apenas dar-lhes um prêmio!"
+					},
+					"morning_after": {
+						"display_name": "Disjuntor de limite",
+						"description": "Ganho por exagerar um pouco demais ao beber...",
+						"1_display_name": ", artilheiro",
+						"1_description": "Eles fizeram isso! Ninguém é perfeito, todo mundo faz isso eventualmente... Eles beberam demais e vão curtir uma boa manhã depois...",
+						"2_display_name": "o amante da dor de cabeça",
+						"2_description": "Já passaram do ponto e beberam muito... Seis vezes já! Talvez eles querem alguma ajuda?",
+						"3_display_name": ", resistido",
+						"3_description": "Eles tiveram uma manhã ruim depois de dezoito vezes... Eles provavelmente gostam disso de alguma forma!",
+						"4_display_name": "o Inextinguível",
+						"4_description": "Eles foram lá e voltaram sessenta vezes! Viva e morra pela garrafa, eles dizem..."
+					},
+					"bee_swarmed": {
+						"display_name": "Enxameado!",
+						"description": "Obtido por ser enxameado por abelhas.",
+						"1_display_name": "o Picado",
+						"1_description": "Eles foram enxameados por abelhas uma vez. Ai, isso provavelmente dói...",
+						"2_display_name": "o apimentado",
+						"2_description": "Eles foram enxameados por abelhas 5 vezes agora! Isso é muito, eles definitivamente não são alérgicos a isso.",
+						"3_display_name": "o Polinizado",
+						"3_description": "Eles foram enxameados por abelhas 15 vezes. Eles se parecem com uma flor ou algo assim? As abelhas realmente os amam!",
+						"4_display_name": ", Rainha Honorária",
+						"4_description": "Eles foram enxameados por abelhas 30 vezes! Isso é loucura, talvez as abelhas realmente queiram segui-las. Ou talvez você devesse fazer um chapéu de apicultor para eles..."
+					}
+				}
+			}
+		},
+		"biome": {
+			"forest": {
+				"random_location_names": {
+					"000": "Madeira preta"
+				},
+				"display_name": "Floresta de Midgard",
+				"description": "Pinheiros altos e vastas florestas abrangendo afloramentos rochosos. Casa padrão dos Nordlings.",
+				"seasons": {
+					"spring": {
+						"display_name": "Primavera",
+						"description": "A primavera na Floresta Midgard é uma estação de mudanças. As planícies ao redor dos lagos começam a derreter e a grama jovem começa a brotar."
+					},
+					"summer": {
+						"display_name": "Verão",
+						"description": "O verão na Floresta Midgard é uma estação de descanso. O clima é ameno, e as planícies são verdes com grama. É um alívio do frio e um tempo para recuperar forças."
+					},
+					"autumn": {
+						"display_name": "Outono",
+						"description": "O outono na Floresta Midgard é uma estação de ventos e tempestades. É a última chance de construir um abrigo antes da chegada do inverno."
+					},
+					"winter": {
+						"display_name": "Inverno",
+						"description": "O inverno na Floresta Midgard é uma estação de alguns meses frios. O clima é severo, com ventos e nevascas dificultando a agricultura. Vista-se calorosamente para trabalhar ao ar livre."
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"drink": {
+			"juice_bramble": {
+				"juice_bramble": {
+					"display_name": "Suco de Amora",
+					"description": "Uma bebida frutada e saborosa de bagas de amora."
+				},
+				"juice_bramble_serving": {
+					"display_name": "copo de suco de amora"
+				}
+			}
+		},
+		"furniture": {
+			"map_table": {
+				"map_table_ghost": {
+					"display_name": "Tabela de mapa",
+					"description": "Uma mesa com um mapa"
+				}
+			},
+			"wooden_chair_fur": {
+				"wooden_chair_fur_ghost": {
+					"display_name": "Cadeira de Pele",
+					"description": "Uma cadeira coberta com uma pele"
+				}
+			},
+			"charcoal_mound": {
+				"charcoal_mound_phase_1": {
+					"display_name": "monte de carvão",
+					"description": "Está rapidamente ficando mais quente!",
+					"charcoal_mound_phase_1_ghost": {
+						"display_name": "Monte de carvão",
+						"description": "Transforma madeira em carvão!"
+					}
+				},
+				"charcoal_mound_phase_2": {
+					"display_name": "monte de carvão",
+					"description": "Está quase no ponto mais quente!, quase na hora de fechar"
+				},
+				"charcoal_mound_phase_3": {
+					"display_name": "Monte de carvão",
+					"description": "Agora que está fechado, não demorará muito para que você possa colher o carvão!"
+				},
+				"charcoal_mound_phase_4": {
+					"display_name": "Monte de carvão",
+					"description": "Pronto para ter!"
+				}
+			},
+			"comfy_fur_bed": {
+				"comfy_fur_bed_ghost": {
+					"display_name": "Cama de Pele Confortável",
+					"description": "Mantém você aquecido no inverno!"
+				}
+			},
+			"comfy_fur_bed_stone": {
+				"comfy_fur_bed_stone_ghost": {
+					"display_name": "Cama de Pedra Confortável Forrada de Pele",
+					"description": "Resistente e Quente!"
+				}
+			},
+			"hotspring_steam_generator": {
+				"hotspring_steam_generator_ghost": {
+					"display_name": "Gerador de vapor hotspring",
+					"description": "Gera partículas de vapor para simular uma Hotspring"
+				}
+			},
+			"wooden_chair_nordlings": {
+				"wooden_chair_nordlings_ghost": {
+					"display_name": "Cadeira Nordling",
+					"description": "ninguém realmente precisa dessa quarta perna, certo?"
+				}
+			},
+			"ornate_comfy_fur_bed": {
+				"ornate_comfy_fur_bed_ghost": {
+					"display_name": "Cama de Pele Confortável Ornamentada",
+					"description": "Deixa você quente e elegante"
+				}
+			},
+			"ornate_chair_nordlings": {
+				"ornate_wooden_chair_nordlings_ghost": {
+					"display_name": "Cadeira Nordling ornamentada",
+					"description": "Elegante, e só tem três pernas!"
+				}
+			},
+			"nordling_throne": {
+				"nordling_throne_ghost": {
+					"display_name": "Trono Nórdico",
+					"description": "Um trono, para os reis de outrora."
+				}
+			},
+			"nordling_tent": {
+				"nordling_tent_ghost": {
+					"display_name": "Tenda Nord",
+					"description": "Uma barraca, para protegê-lo dos elementos ao acampar"
+				}
+			},
+			"basic_shelter": {
+				"basic_shelter_ghost": {
+					"display_name": "Abrigo básico de apoio",
+					"description": "Mantém a chuva do lado de fora e um pouco do calor. melhor do que dormir no chão!"
+				}
+			},
+			"basic_shelter_improved": {
+				"basic_shelter_improved_ghost": {
+					"display_name": "Abrigo Lean-to Aprimorado",
+					"description": "Mantém a chuva do lado de fora e um pouco do calor. Maior conforto é obtido com a cobertura de palha."
+				}
+			}
+		},
+		"gizmos": {
+			"nordlings_camp_standard": {
+				"nordlings_camp_standard_ghost": {
+					"display_name": "Padrão de acampamento",
+					"description": "Use para marcar território, civilizadamente."
+				}
+			},
+			"nordlings_town_banner_guardian": {
+				"nordlings_town_banner_guardian_ghost": {
+					"display_name": "Bandeira da astúcia",
+					"description": "Como você sabe que voltou para casa.",
+					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li >Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
+				},
+				"town_banner_guardian_token_iconic": {
+					"display_name": "Bandeira de Fragmento Astuto",
+					"description": "Um fragmento da Bandeira da Astúcia, carregando sua magia."
+				},
+				"nordlings_town_banner_guardian_token_iconic": {
+					"display_name": "Bandeira de Fragmento Astuto",
+					"description": "Um fragmento da bandeira da astúcia, carregando sua magia"
+				}
+			},
+			"nordlings_town_banner_might": {
+				"nordlings_town_banner_might_ghost": {
+					"display_name": "Bandeira da Força",
+					"description": "Como você sabe que voltou para casa",
+					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li> ></ul>"
+				},
+				"nordlings_town_banner_might_token_iconic": {
+					"display_name": "Bandeira de Fragmento de Força",
+					"description": "Um fragmento da Bandeira da Força, carregando sua magia."
+				}
+			},
+			"nordlings_town_banner_nature": {
+				"nordlings_town_banner_nature_ghost": {
+					"display_name": "Bandeira da Vitalidade",
+					"description": "Como você sabe que voltou para casa",
+					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Tanto as plantas quanto as plantações crescem 25% mais rápido</li><li >As plantas têm 2x seu apelo normal</li></ul>"
+				},
+				"nordlings_town_banner_nature_token_iconic": {
+					"display_name": "Bandeira do Fragmento de Vitalidade",
+					"description": "Um fragmento da Bandeira da Vitalidade, carregando sua magia."
+				}
+			},
+			"town_banner_might": {
+				"town_banner_might_ghost": {
+					"display_name": "Bandeira da Terra"
+				}
+			}
+		},
+		"landmark": {
+			"summon_stone_hotspring": {
+				"display_name": "Primavera quente",
+				"description": "Evoque uma Fonte termal Nórdica."
+			}
+		},
+		"npc": {
+			"herald": {
+				"male": {
+					"herald_stoic": {
+						"display_name": "Estoico o Vasto",
+						"description": "Um bravo viajante nórdico."
+					},
+					"herald_wanderer": {
+						"display_name": "Andarilho Solitário",
+						"description": "Um Homem Misterioso."
+					},
+					"herald_brokkr": {
+						"display_name": "Brokkr",
+						"description": "Um ferreiro anão, irmão de Eitri."
+					},
+					"herald_eitri": {
+						"display_name": "Eitri",
+						"description": "Um ferreiro anão, irmão de Brokkr."
+					}
+				},
+				"female": {
+					"herald_hilda": {
+						"display_name": "Valquíria Hilda",
+						"description": "Uma Valquíria, encalhada aqui."
+					}
+				}
+			}
+		},
+		"weapons": {
+			"stone_axe": {
+				"display_name": "Machado de pedra",
+				"description": "Um machado de pedra de uma mão.",
+				"stone_axe_iconic": {
+					"display_name": "Machado de pedra",
+					"description": "Parece pesado, mas agitado"
+				}
+			},
+			"bronze_axe": {
+				"display_name": "Machado de Bronze",
+				"description": "Um machado de bronze de uma mão.",
+				"bronze_axe_iconic": {
+					"display_name": "Machado de Bronze",
+					"description": "Bom em cortar e fácil de reparar!"
+				}
+			},
+			"iron_axe": {
+				"display_name": "Machado de Ferro",
+				"description": "Um machado de ferro de uma mão.",
+				"iron_axe_iconic": {
+					"display_name": "Machado de Ferro",
+					"description": "Um machado robusto com uma cabeça de machado de ferro."
+				}
+			},
+			"steel_axe": {
+				"display_name": "Machado de Aço",
+				"description": "Um machado de aço de uma mão.",
+				"steel_axe_iconic": {
+					"display_name": "Machado de Aço",
+					"description": "Um machado de alta qualidade com uma cabeça de machado de aço."
+				}
+			},
+			"stone_spear": {
+				"display_name": "Lança de Pedra",
+				"description": "Uma lança com uma ponta de lança de pedra",
+				"bronze_spear_iconic": {
+					"display_name": "Lança de Javali de Pedra",
+					"description": "Uma lança de javali de pedra"
+				},
+				"stone_spear_iconic": {
+					"display_name": "Lança de Pedra",
+					"description": "Um longo eixo de madeira com uma ponta de lança de pedra"
+				}
+			},
+			"bronze_spear": {
+				"display_name": "Lança de Javali de Bronze",
+				"description": "Uma lança de javali de bronze",
+				"bronze_spear_iconic": {
+					"display_name": "Lança de Javali de Bronze",
+					"description": "Uma lança de javali de bronze"
+				}
+			},
+			"iron_spear": {
+				"display_name": "Lança de Javali de Ferro",
+				"description": "Uma lança de javali de ferro",
+				"iron_spear_iconic": {
+					"display_name": "Lança de Javali de Ferro",
+					"description": "Uma lança de javali de ferro"
+				}
+			},
+			"steel_spear": {
+				"display_name": "Lança de Javali de Aço",
+				"description": "Uma lança de javali de aço",
+				"steel_spear_iconic": {
+					"display_name": "Lança de Javali de Aço",
+					"description": "Uma lança de javali de aço"
+				}
+			},
+			"mythril_axe": {
+				"display_name": "Machado de Mithril",
+				"description": "Um machado de Mythril de uma mão.",
+				"mythril_axe_iconic": {
+					"display_name": "Machado de Mithril",
+					"description": "Um machado de Mythril extremamente leve e extremamente afiado."
+				}
+			},
+			"einherjar_axe": {
+				"display_name": "Hersir Axe",
+				"description": "Um machado de duas pontas, usado por Hersir.",
+				"einherjar_axe_iconic": {
+					"display_name": "Hersir Axe",
+					"description": "Um machado de duas pontas, usado por Hersir."
+				}
+			},
+			"bronze_sword_viking": {
+				"display_name": "Espada Viking de Bronze",
+				"description": "Uma espada de aço bem trabalhada, de uma mão. Apto para um viking",
+				"bronze_sword_viking_iconic": {
+					"display_name": "Espada Viking de Bronze",
+					"description": "Afiado!"
+				}
+			},
+			"iron_sword_viking": {
+				"display_name": "Espada Viking de Ferro",
+				"description": "Uma espada de ferro de uma mão bem trabalhada. Apto para um viking",
+				"iron_sword_viking_iconic": {
+					"display_name": "Espada Viking de Ferro",
+					"description": "Afiado!"
+				}
+			},
+			"steel_sword_viking": {
+				"display_name": "Espada Viking de Aço",
+				"description": "Uma espada de aço bem trabalhada, de uma mão. Apto para um viking",
+				"steel_sword_viking_iconic": {
+					"display_name": "Espada Viking de Aço",
+					"description": "Afiado!"
+				}
+			},
+			"mythril_sword_viking": {
+				"display_name": "Espada Viking de Mythril",
+				"description": "Uma espada de Mythril bem trabalhada, de uma mão. Apto para um herói viking",
+				"mythril_sword_viking_iconic": {
+					"display_name": "Espada Viking de Mythril",
+					"description": "Mais leve que o aço e duas vezes mais forte!"
+				}
+			},
+			"legendary_hammer": {
+				"display_name": "Martelo Lendário",
+				"description": "Poder esmagador e controle sobre os relâmpagos. Pena que a alça é um pouco curta",
+				"legendary_hammer": {
+					"display_name": "Martelo Lendário",
+					"description": "Poder esmagador e controle sobre os relâmpagos. Pena que a alça é um pouco curta"
+				},
+				"legendary_hammer_iconic": {
+					"display_name": "Martelo Lendário",
+					"description": "Punho curto, longo no poder."
+				}
+			},
+			"iron_axe_2h": {
+				"iron_axe_2h_iconic": {
+					"display_name": "Machado de Ferro",
+					"description": "Para derrubar monstros, não árvores!"
+				},
+				"display_name": "Machado de Ferro",
+				"description": "Um ferro, machado de duas mãos."
+			},
+			"steel_axe_2h": {
+				"display_name": "Machado Grande de Aço",
+				"description": "Um machado grande de aço",
+				"steel_axe_2h_iconic": {
+					"display_name": "Machado Grande de Aço",
+					"description": "Um machado de aço"
+				}
+			},
+			"throwing_axe": {
+				"display_name": "Machado de arremesso",
+				"description": "Um machado leve para arremessar!",
+				"throwing_axe_talisman": {
+					"display_name": "Machado de arremesso",
+					"description": "Usado para promover um Skirmisher"
+				}
+			},
+			"throwing_axe_projectile": {
+				"display_name": "Machado de arremesso",
+				"description": "Um machado leve para arremessar"
+			},
+			"ruler_sword_ac": {
+				"display_name": "Espada do Rei",
+				"description": "Promove um coração em um rei",
+				"ruler_sword_ac_iconic": {
+					"display_name": "Espada do Rei",
+					"description": "Promove um Hearthling a um Rei"
+				}
+			},
+			"ruler_sword_ascendency": {
+				"ruler_sword_ascendency_iconic": {
+					"display_name": "Espada do Governante",
+					"description": "Uma espada digna de um governante"
+				}
+			},
+			"legendary_axe": {
+				"legendary_axe_iconic": {
+					"display_name": "Machado Lendário",
+					"description": "A borda parece afiada o suficiente para barbear com .."
+				},
+				"display_name": "Machado Lendário",
+				"description": "A borda parece afiada o suficiente para barbear com .."
+			},
+			"bow": {
+				"display_name": "Arco",
+				"description": "Usado por um Skirmisher para atirar flechas.",
+				"bow_talisman": {
+					"display_name": "Arco do Escaramuçador",
+					"description": "Necessário para promover um Huskarl a um Skirmisher"
+				}
+			},
+			"throwing_axe_iron": {
+				"display_name": "Machado de arremesso",
+				"description": "Um machado leve para arremessar!"
+			},
+			"einherjar_axe_steel": {
+				"display_name": "Machado Hersir de Aço",
+				"description": "Para ser empunhado pelo mais forte, uma vez que o Ragnarok vier.",
+				"einherjar_axe_steel_iconic": {
+					"display_name": "Machado Hersir de Aço",
+					"description": "Adequado para um Herói de Ragnarok"
+				}
+			},
+			"ruler_sword_nordlings": {
+				"ruler_sword_nordlings_iconic": {
+					"display_name": "Espada de Jarl",
+					"description": "Uma espada pertencente a um Jarl"
+				}
+			},
+			"einherjar_sword_steel": {
+				"einherjar_sword_steel_iconic": {
+					"display_name": "Espada Hersir",
+					"description": "Uma lâmina pesada, usada pelo Hersir."
+				},
+				"display_name": "Espada Hersir",
+				"description": "Uma lâmina pesada, usada pelo Hersir."
+			},
+			"wooden_spear": {
+				"wooden_spear_talisman": {
+					"display_name": "Lança de madeira",
+					"description": "Necessário para promover um Aldeão em um Huskarl"
+				},
+				"wooden_spear_iconic": {
+					"display_name": "Lança de madeira",
+					"description": "Cole-os com a ponta pontiaguda!"
+				},
+				"display_name": "Lança de madeira",
+				"description": "Uma lança de madeira simples"
+			},
+			"mythril_spear": {
+				"mythril_spear_iconic": {
+					"display_name": "Lança de Mithril",
+					"description": "Uma lança com ponta de mythril"
+				},
+				"display_name": "Lança de Mithril",
+				"description": "Uma lança de Mythril"
+			},
+			"hersir_sword": {
+				"hersir_sword": {
+					"display_name": "Espada Hersir",
+					"description": "Uma espada afiada"
+				}
+			},
+			"composite_longbow": {
+				"display_name": "Arco Longo Composto",
+				"description": "Um arco longo feito de vários materiais, melhorando seu desempenho"
+			}
+		},
+		"armor": {
+			"runic_wooden_comb": {
+				"display_name": "Pente de madeira rúnica",
+				"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!",
+				"runic_wooden_comb_iconic": {
+					"display_name": "Pente de madeira rúnica",
+					"description": "Fique bem enquanto luta!"
+				}
+			},
+			"runic_bronze_comb": {
+				"display_name": "Pente de Bronze Rúnico",
+				"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!",
+				"runic_bronze_comb_iconic": {
+					"display_name": "Pente de Bronze Rúnico",
+					"description": "Fique bem enquanto luta!"
+				}
+			},
+			"runic_iron_comb": {
+				"display_name": "Pente de Ferro Rúnico",
+				"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!",
+				"runic_iron_comb_iconic": {
+					"display_name": "Pente de Ferro Rúnico",
+					"description": "Fique bem enquanto luta!"
+				}
+			},
+			"runic_steel_comb": {
+				"display_name": "Pente de Aço Rúnico",
+				"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!",
+				"runic_steel_comb_iconic": {
+					"display_name": "Pente de Aço Rúnico",
+					"description": "Fique bem enquanto luta!"
+				}
+			},
+			"runic_mythril_comb": {
+				"display_name": "Pente de Mythril Rúnico",
+				"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!",
+				"runic_mythril_comb_iconic": {
+					"display_name": "Pente de Mythril Rúnico",
+					"description": "Fique bem enquanto luta!"
+				}
+			},
+			"chain_mail_bronze": {
+				"display_name": "Armadura de Cota de Bronze",
+				"description": "Vários anéis de bronze entrelaçados em um colete de proteção",
+				"chain_mail_bronze_iconic": {
+					"display_name": "Armadura de cota de malha",
+					"description": "Ele toca quando você toca"
+				}
+			},
+			"cloth_armour": {
+				"display_name": "Colete acolchoado de pano",
+				"description": "Armadura leve, pode suavizar um golpe ou dois",
+				"chain_mail_iron_iconic": {
+					"display_name": "Colete acolchoado de pano",
+					"description": "Armadura leve, pode suavizar um golpe ou dois"
+				}
+			},
+			"leather_armour": {
+				"display_name": "Armadura de couro",
+				"description": "Armadura leve, um pouco melhor que tecido",
+				"leather_armour_iconic": {
+					"display_name": "Armadura de couro",
+					"description": "Armadura leve, um pouco melhor que tecido"
+				}
+			},
+			"chain_mail_iron": {
+				"display_name": "Armadura de Cota de Ferro",
+				"description": "Vários anéis de ferro entrelaçados em um colete de proteção",
+				"chain_mail_iron_iconic": {
+					"display_name": "Armadura de cota de malha",
+					"description": "Ele toca quando você toca"
+				}
+			},
+			"chain_mail_steel": {
+				"display_name": "Armadura de Cota de Aço",
+				"description": "Vários anéis de aço entrelaçados em um colete de proteção",
+				"chain_mail_steel_iconic": {
+					"display_name": "Armadura de cota de malha",
+					"description": "Ele toca quando você toca"
+				}
+			},
+			"chain_mail_mythril": {
+				"display_name": "Armadura de Cota de Mythril",
+				"description": "Vários anéis de Mythril entrelaçados em um colete protetor",
+				"chain_mail_mythril_iconic": {
+					"display_name": "Armadura de cota de malha",
+					"description": "Ele toca quando você toca"
+				}
+			},
+			"training_roundshield": {
+				"display_name": "Escudo de treinamento",
+				"description": "Tábuas de madeira pregadas juntas, nada extravagante",
+				"training_roundshield_iconic": {
+					"display_name": "Escudo de treinamento",
+					"description": "Mais adequado para treinamento"
+				}
+			},
+			"wooden_round_shield": {
+				"display_name": "Escudo redondo de madeira",
+				"description": "Um escudo redondo de madeira, revestido com linho",
+				"wooden_round_shield_iconic": {
+					"display_name": "Escudo redondo de madeira",
+					"description": "seu Hearthling vai decorar isso antes de usar!"
+				}
+			},
+			"iron_round_shield": {
+				"display_name": "Escudo redondo com faixas de ferro",
+				"description": "Um escudo redondo de madeira com face de linho, com uma faixa de ferro resistente ao redor da borda",
+				"iron_round_shield_iconic": {
+					"display_name": "Escudo redondo com faixas de ferro",
+					"description": "seu Hearthling vai decorar isso antes de usar!"
+				}
+			},
+			"steel_round_shield": {
+				"display_name": "Escudo redondo com faixas de aço",
+				"description": "Um escudo redondo de madeira com face de linho, com uma faixa de aço resistente ao redor da borda",
+				"steel_round_shield_iconic": {
+					"display_name": "Escudo redondo com faixas de aço",
+					"description": "seu Hearthling vai decorar isso antes de usar!"
+				}
+			},
+			"sword_sheeth": {
+				"display_name": "Bainha da Espada",
+				"description": "Segura sua espada quando não está em uso."
+			},
+			"einherjar_axe_offhand": {
+				"display_name": "Hersir Axe",
+				"description": "Uma arma para um verdadeiro herói"
+			},
+			"weapon_belt_hanger": {
+				"display_name": "Alça de Cinto",
+				"description": "Um passador de cinto para segurar armas"
+			},
+			"weapon_back_hanger": {
+				"display_name": "Estojo de arma",
+				"description": "Detém as armas maiores"
+			},
+			"runes_fire_projectile": {
+				"display_name": "Amuleto de Runa de Fogo",
+				"description": "Um amuleto para seu escaramuçador, envolvendo suas armas em chamas"
+			},
+			"runes_slowing_projectile": {
+				"display_name": "Amuleto de Runa de Espinho",
+				"description": "Um amuleto para seu escaramuçador, fazendo com que suas armas fiquem lentas"
+			},
+			"einherjar_axe_offhand_steel": {
+				"display_name": "Machado Hersir de Aço",
+				"description": "Apto para ser empunhado por um herói."
+			},
+			"gold_ring": {
+				"display_name": "Anel de ouro",
+				"description": "Uma faixa de ouro maciço, significando lealdade"
+			},
+			"runic_silver_comb": {
+				"display_name": "Pente de Prata Rúnico",
+				"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!",
+				"runic_silver_comb_iconic": {
+					"display_name": "Pente de Prata Rúnico",
+					"description": "A magia rúnica protegerá sua cabeça, quem precisa de capacetes!"
+				}
+			},
+			"sacred_apple": {
+				"display_name": "Maçã Sagrada",
+				"description": "Uma maçã sagrada, rumores de conceder vigor divino"
+			},
+			"torch": {
+				"torch_iconic": {
+					"display_name": "Tocha (à mão)",
+					"description": "Luz no escuro.."
+				},
+				"display_name": "Tocha (à mão)",
+				"description": "Luz no escuro.."
+			},
+			"witcher_eyes": {
+				"display_name": "Olhos de gato",
+				"description": "Excelente visão em qualquer iluminação"
+			}
+		},
+		"decoration": {
+			"rune_stone": {
+				"display_name": "Pedra Rúnica",
+				"description": "Uma pedra rúnica inscrita, contendo conhecimento antigo...",
+				"rune_stone_iconic": {
+					"display_name": "Pedra Rúnica",
+					"description": "Não sabemos como, mas o pedreiro encolheu."
+				}
+			},
+			"fireplace": {
+				"fireplace_ghost": {
+					"display_name": "Lareira",
+					"description": "Mantém sua casa agradável e quente!"
+				}
+			},
+			"decorative_wall_shield": {
+				"decorative_wall_shield_ghost": {
+					"display_name": "Escudo Decorativo de Parede",
+					"description": "Não para uma batalha real, mas decorativa!"
+				}
+			},
+			"hearth_nordlings_trade": {
+				"hearth_nordlings_trade": {
+					"display_name": "Lareira da prosperidade",
+					"description": "Que seu futuro brilhe."
+				}
+			},
+			"firepit_hearth": {
+				"firepit_hearth_ghost": {
+					"display_name": "Lareira da Batalha",
+					"description": "Que as chamas da guerra abram seu caminho."
+				}
+			},
+			"hearth_stump": {
+				"hearth_stump_ghost": {
+					"display_name": "Lareira da Felicidade",
+					"description": "A felicidade é a verdadeira sabedoria."
+				}
+			},
+			"fireplace_big": {
+				"fireplace_big_ghost": {
+					"display_name": "Grande Lareira",
+					"description": "Uma lareira maior, para quando precisar de mais calor."
+				}
+			},
+			"shield_mounting": {
+				"shield_mounting_ghost": {
+					"display_name": "Suporte de escudo",
+					"description": "Para pendurar seu escudo."
+				}
+			},
+			"shrine_to_odin": {
+				"shrine_to_odin_ghost": {
+					"display_name": "Santuário para Odin",
+					"description": "Um Santuário à Sabedoria de Odin, Rei dos Deuses."
+				}
+			},
+			"shrine_to_thor": {
+				"shrine_to_thor_ghost": {
+					"display_name": "Santuário para Thor",
+					"description": "Um Santuário ao Protetor Thor, Deus do Trovão."
+				}
+			},
+			"shrine_to_freya": {
+				"shrine_to_freya_ghost": {
+					"description": "Plante esta semente, ela só cresce com a bênção da deusa Freya.",
+					"display_name": "Semente Misteriosa"
+				},
+				"shrine_to_freya_half_grown": {
+					"display_name": "Broto de Yggdrasil",
+					"description": "Um broto de árvore do mundo, com mais tempo e espaço, crescerá ainda mais."
+				},
+				"shrine_to_freya_mid_grown": {
+					"display_name": "Yggdrasil Midgrown",
+					"description": "Uma árvore do mundo jovem, ela ainda crescerá mais, com clareira suficiente."
+				},
+				"shrine_to_freya_fully_grown": {
+					"display_name": "Árvore Yggdrasil",
+					"description": "A árvore do mundo, conectando sua Cidade Nórdica aos Nove Reinos."
+				},
+				"shrine_to_freya_blessed": {
+					"display_name": "Semente Abençoada Yggdrasil",
+					"description": "Uma semente abençoada pela deusa Freya, abra espaço para ela e aproveite o passeio."
+				}
+			},
+			"decorative_wall_dragon": {
+				"decorative_wall_dragon_ghost": {
+					"display_name": "Dragão de parede decorativo",
+					"description": "Um dragão decorativo esculpido em madeira"
+				}
+			},
+			"bee_hive": {
+				"display_name": "Colméia",
+				"description": "As abelhas fazem mel para ti!"
+			},
+			"megacrop": {
+				"mega_white_carrot": {
+					"display_name": "Cenoura Branca Enorme",
+					"description": "Surpreendentemente giro.",
+					"iconic_description": "Cenoura Branca Enorme"
+				},
+				"mega_cabbage": {
+					"display_name": "repolho enorme",
+					"description": "Eu acho que você vai precisar de mais sallads.",
+					"iconic_description": "repolho enorme"
+				},
+				"mega_onion": {
+					"display_name": "Mega-cebola",
+					"description": "É GRANDE",
+					"iconic_description": "Mega-cebola"
+				}
+			},
+			"campfire": {
+				"campfire_ghost": {
+					"display_name": "Fogueira",
+					"description": "Fogueira"
+				}
+			},
+			"hnefetafl_board": {
+				"hnefetafl_board_ghost": {
+					"display_name": "Conselho Hnefetafl",
+					"description": "Hnefetafl (A mesa dos reis) Boardgame"
+				}
+			}
+		},
+		"resources": {
+			"mythril_ore": {
+				"display_name": "Minério de Mithril",
+				"description": "Um pedaço de Mythril cru",
+				"mythril_vein": {
+					"display_name": "Veia de Mithril",
+					"description": "Fornece Mythril quando extraído"
+				}
+			},
+			"coal": {
+				"lump_of_charcoal": {
+					"display_name": "Pedaço de carvão",
+					"description": "Queima mais quente que madeira!"
+				}
+			},
+			"wood": {
+				"firewood": {
+					"display_name": "Pacote de lenha",
+					"description": "Um feixe de lenha, irá mantê-lo aquecido durante a noite fria e escura."
+				}
+			},
+			"herb": {
+				"hops": {
+					"display_name": "Lúpulo",
+					"description": "Usado para dar sabor a cerveja, ou para fazer remédios"
+				}
+			}
+		},
+		"refined": {
+			"mythril_ingot": {
+				"display_name": "Lingote de Mithril",
+				"description": "Uma barra de Mythril puro, que vale o resgate de um rei."
+			},
+			"leather_strip": {
+				"display_name": "Tira de couro",
+				"description": "Uma tira de couro, usada para artesanato."
+			},
+			"legendary_hammer_haft": {
+				"display_name": "Cabo de Martelo Lendário",
+				"description": "Um cabo de martelo, feito forte como uma montanha."
+			},
+			"legendary_hammer_mounting": {
+				"display_name": "Montagem de Martelo Lendário",
+				"description": "Feito de ouro altamente condutor... Parece faísca ao toque."
+			},
+			"legendary_hammer_head": {
+				"display_name": "Cabeça de martelo lendária",
+				"description": "Parece vibrar com poder."
+			},
+			"legendary_axe_head": {
+				"display_name": "Cabeça de Machado Lendário",
+				"description": "Uma cabeça de machado finamente trabalhada."
+			},
+			"legendary_axe_haft": {
+				"display_name": "Cabo de Machado Lendário",
+				"description": "Forte como uma montanha."
+			}
+		},
+		"crops": {
+			"bramble_bush_crop": {
+				"growth_stage": {
+					"000": {
+						"description": "Plantado para cultivar um suprimento escasso de alimentos.",
+						"name": "Semente de Arbusto"
+					},
+					"001": {
+						"description": "Só precisa de algum tempo e cuidado.",
+						"name": "Broto de arbusto de espinheiro"
+					},
+					"002": {
+						"description": "Ainda crescendo!",
+						"name": "Arbusto de hasteamento"
+					},
+					"003": {
+						"description": "Está quase lá! Olha, tem botões!",
+						"name": "Arbusto em brotamento"
+					}
+				},
+				"description": "Pode ser colhido para um pequeno suprimento de frutas",
+				"display_name": "Sarça"
+			},
+			"onion": {
+				"onion_crop": {
+					"display_name": "Cebola",
+					"description": "Uma cebola doce",
+					"growth_stage": {
+						"003": {
+							"name": "Cebola Madura",
+							"description": "Delicioso!"
+						},
+						"002": {
+							"name": "Cebola bebê",
+							"description": "Pequena. Amargo."
+						},
+						"001": {
+							"name": "broto de cebola",
+							"description": "Ainda não comestível!"
+						},
+						"000": {
+							"name": "Muda de Cebola",
+							"description": "Uma cebola não realizada."
+						},
+						"011": {
+							"name": "Cebola podre",
+							"description": "Mofado e nojento."
+						}
+					}
+				}
+			},
+			"white_carrot_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "Muda de cenoura branca",
+						"description": "Recém plantado!"
+					},
+					"001": {
+						"name": "Cenoura branca bebê",
+						"description": "Fazendo o seu melhor para crescer"
+					},
+					"003": {
+						"name": "Cenoura Branca Madura",
+						"description": "Pronto para a colheita!"
+					},
+					"002": {
+						"name": "Cultivo de cenoura branca",
+						"description": "Um novato em toda essa coisa crescente agora"
+					},
+					"011": {
+						"name": "Cenoura Branca Apodrecida",
+						"description": "Só é bom para compostagem agora"
+					}
+				},
+				"display_name": "Cenoura Branca",
+				"description": "Um vegetal resistente"
+			},
+			"cabbage_crop": {
+				"display_name": "Repolho",
+				"description": "Folhado e verde",
+				"growth_stage": {
+					"011": {
+						"name": "repolho podre",
+						"description": "Podre e fede como as chamas"
+					},
+					"000": {
+						"name": "broto de repolho",
+						"description": "Plantado e pronto para crescer!"
+					},
+					"001": {
+						"name": "repolho bebê",
+						"description": "Apenas um cara 'Lil"
+					},
+					"002": {
+						"name": "Repolho pequeno",
+						"description": "Ainda crescendo!"
+					},
+					"003": {
+						"name": "repolho maduro",
+						"description": "Pronto para ser colhido!"
+					}
+				}
+			},
+			"beans_crop": {
+				"display_name": "Feijões",
+				"description": "Dangly e nutritivo",
+				"growth_stage": {
+					"000": {
+						"name": "Broto de feijão",
+						"description": "Apenas um pequeno toco"
+					},
+					"001": {
+						"name": "Pé de feijão crescente",
+						"description": "Apegado!"
+					},
+					"002": {
+						"name": "Pé de feijão jorrando",
+						"description": "Tem certeza que não são mágicas?"
+					},
+					"005": {
+						"name": "pé de feijão maduro",
+						"description": "Feijão maduro em um talo, Colha agora!"
+					},
+					"004": {
+						"name": "Amadurecimento do pé de feijão",
+						"description": "Quase maduro!"
+					},
+					"011": {
+						"name": "Feijão podre",
+						"description": "Mushy e Juck!"
+					},
+					"003": {
+						"description": "Cheio de promessas!",
+						"name": "Pé de feijão crescente"
+					}
+				}
+			},
+			"hops_crop": {
+				"growth_stage": {
+					"004": {
+						"name": "Lúpulo maduro",
+						"description": "Pronto para a colheita!"
+					},
+					"000": {
+						"name": "Muda de Lúpulo",
+						"description": "Vai crescer na planta de lúpulo."
+					},
+					"001": {
+						"name": "Cultivo de Lúpulo",
+						"description": "Cresça pequena planta, cresça!"
+					},
+					"003": {
+						"name": "Lúpulo de Amadurecimento",
+						"description": "Quase pronto, ainda adicionando sabor!"
+					},
+					"002": {
+						"name": "Lúpulo florescente",
+						"description": "Crescendo bem."
+					},
+					"011": {
+						"name": "Lúpulo estragado",
+						"description": "Não está mais apto para o consumo."
+					}
+				},
+				"display_name": "Lúpulo",
+				"description": "Útil para remédios ou cerveja!"
+			},
+			"stone_pine_tree_crop": {
+				"display_name": "Muda de pinheiro manso",
+				"description": "Fora das árvores? Prepare-se para participar do reflorestamento.",
+				"growth_stage": {
+					"001": {
+						"name": "Mudas de pinheiro manso",
+						"description": "Uma delicada fase de crescimento."
+					},
+					"003": {
+						"name": "Muda de pinheiro manso",
+						"description": "Pronto para ser transferido para um terreno maior."
+					},
+					"000": {
+						"name": "Pinho de pedra",
+						"description": "Um novo pinheiro se enraizando."
+					},
+					"002": {
+						"name": "Broto de pinheiro-manso",
+						"description": "Um pinho minúsculo perfeito. Ainda crescendo!"
+					}
+				}
+			},
+			"onion_crop": {
+				"growth_stage": {
+					"004": {
+						"name": "Lúpulo maduro",
+						"description": "Pronto para a colheita!"
+					},
+					"000": {
+						"name": "Muda de cebola",
+						"description": "Vai crescer em uma cebola"
+					},
+					"001": {
+						"name": "Cebola em crescimento",
+						"description": "Crescer pequena planta crescer"
+					},
+					"003": {
+						"name": "Cebola Madura",
+						"description": "Pronto para a colheita"
+					},
+					"002": {
+						"name": "Cebola em crescimento",
+						"description": "Crescendo bem"
+					},
+					"011": {
+						"name": "Cebola estragada",
+						"description": "Não está mais apto para o consumo"
+					}
+				},
+				"display_name": "Cebola",
+				"description": "Cebola, boa para comer sozinha, mas melhor quando assada ou frita!"
+			}
+		},
+		"plants": {
+			"bramble_bush": {
+				"display_name": "Sarça",
+				"description": "Colhível para um suprimento alimentar escasso.",
+				"unripe_description": "Ainda não está maduro para a colheita.",
+				"seed": {
+					"bramble_bush_plant_seed_ghost": {
+						"display_name": "Semente de Arbusto",
+						"description": "Pode ser plantado para cultivar um suprimento escasso de alimentos"
+					}
+				},
+				"bud": {
+					"bramble_bush_plant_bud": {
+						"display_name": "Arbusto em brotamento",
+						"description": "Está quase lá! Olha, tem botões!"
+					}
+				},
+				"sprout": {
+					"bramble_bush_plant_sprout": {
+						"display_name": "Broto de arbusto de espinheiro",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"stem": {
+					"bramble_bush_plant_stem": {
+						"display_name": "Arbusto de hasteamento",
+						"description": "Ainda crescendo!"
+					}
+				}
+			},
+			"onion": {
+				"onion_basket": {
+					"display_name": "Cesto de Cebolas",
+					"description": "Vegetal redondo e pungente."
+				},
+				"onion_serving": {
+					"display_name": "Cebolas",
+					"description": "Mais saboroso quando frito!"
+				}
+			},
+			"beans": {
+				"beans_basket": {
+					"display_name": "Cesta de Feijão",
+					"description": "Uma cesta cheia de feijão"
+				},
+				"beans_serving": {
+					"display_name": "Feijões",
+					"description": "Uma porção de feijão verde,"
+				}
+			},
+			"cabbage": {
+				"cabbage_basket": {
+					"display_name": "Repolho em uma cesta",
+					"description": "Um repolho em uma cesta. É simples assim."
+				},
+				"cabbage_serving": {
+					"display_name": "Repolho em um prato",
+					"description": "Considere uma salada"
+				}
+			},
+			"white_carrot": {
+				"white_carrot_basket": {
+					"display_name": "Cenouras Brancas",
+					"description": "Uma espécie velha resistente de cenoura"
+				},
+				"white_carrot_serving": {
+					"display_name": "Uma refeição de cenoura",
+					"description": "Os coelhos adoram!"
+				}
+			}
+		},
+		"food": {
+			"brambles": {
+				"bramble_basket": {
+					"display_name": "Cesta de Amora",
+					"description": "Creme da dieta do homem das cavernas."
+				},
+				"bramble_serving": {
+					"display_name": "Prato de Amora",
+					"description": "Mal posso esperar para colocar isso em alguma torta!"
+				}
+			},
+			"honey": {
+				"honey": {
+					"display_name": "Pote de mel",
+					"description": "Um pote cheio de mel"
+				},
+				"honey_serving": {
+					"display_name": "Pote de mel",
+					"description": "Um pote cheio de mel"
+				}
+			},
+			"ale": {
+				"ale": {
+					"display_name": "Cerveja",
+					"description": "Um barril de cerveja"
+				},
+				"ale_serving": {
+					"display_name": "Cerveja",
+					"description": "Um chifre cheio de cerveja"
+				},
+				"display_name": "Cerveja"
+			},
+			"mead": {
+				"mead": {
+					"display_name": "Hidromel",
+					"description": "Uma garrafa de hidromel"
+				},
+				"mead_serving": {
+					"display_name": "Hidromel",
+					"description": "Um chifre cheio de hidromel"
+				},
+				"display_name": "Hidromel"
+			},
+			"buttermilk": {
+				"buttermilk_serving": {
+					"display_name": "Porção de Leitelho"
+				},
+				"buttermilk": {
+					"display_name": "Soro de leite coalhado",
+					"description": "Um subproduto da produção de queijo e um alimento básico para Nordlings"
+				}
+			},
+			"porridge": {
+				"porridge": {
+					"display_name": "Mingau",
+					"description": "Uma tigela de mingau quente"
+				},
+				"porridge_serving": {
+					"display_name": "Porção de Mingau",
+					"description": "Um alimento de pequeno-almoço quente nutritivo"
+				}
+			}
+		},
+		"critters": {
+			"bee": {
+				"display_name": "Abelha rainha",
+				"description": "Faz abelhas operárias criarem mel"
+			}
+		},
+		"consumables": {
+			"seeds": {
+				"beans_seeds": {
+					"display_name": "Sementes de Feijão",
+					"description": "Use-os para desbloquear feijões como colheita!"
+				},
+				"cabbage_seeds": {
+					"display_name": "Sementes de repolho",
+					"description": "Permite repolhos como uma cultura!"
+				},
+				"white_carrot_seeds": {
+					"display_name": "Sementes de cenoura branca",
+					"description": "Permite Cenouras Brancas como cultura!"
+				},
+				"hops_seeds": {
+					"description": "Habilita o lúpulo como colheita!",
+					"display_name": "Sementes de lúpulo"
+				},
+				"onion_seeds": {
+					"display_name": "Sementes de cebola",
+					"description": "Habilita Cebolas como uma cultura!"
+				}
+			}
+		},
+		"legendary_hammer_lightning": {
+			"display_name": "Atordoado",
+			"description": "Atingido pela fúria dos deuses do trovão!"
+		},
+		"containers": {
+			"fuel_holder_large_wood": {
+				"display_name": "Barril Grande",
+				"description": "Detém muita bebida, também parece legal!"
+			},
+			"nord_chest": {
+				"nord_chest_ghost": {
+					"display_name": "Baú do Mar Nordling",
+					"description": "Armazena até 64 itens. Útil para manter as coisas em casa, mas também no mar!"
+				}
+			},
+			"fuel_holder_small_wooden": {
+				"display_name": "Suporte de lenha",
+				"description": "Um suporte de lenha de madeira."
+			}
+		},
+		"construction": {
+			"wooden_hill_fort_door": {
+				"wooden_double_door_ghost": {
+					"display_name": "Porta do Forte da Colina",
+					"description": "Uma grande porta da fortaleza"
+				}
+			},
+			"wooden_portcullis": {
+				"wooden_portcullis_ghost": {
+					"display_name": "Porta levadiça de madeira",
+					"description": "Uma porta levadiça de madeira resistente"
+				}
+			}
+		},
+		"trees": {
+			"stone_pine_tree": {
+				"seed": {
+					"tree_stone_pine_seed": {
+						"display_name": "Semente de pinheiro-manso",
+						"description": "Pode ser plantado para crescer uma árvore gigante de pedra-pinheiro."
+					},
+					"tree_stone_pine_seed_ghost": {
+						"display_name": "Semente de pinheiro-manso",
+						"description": "Pode ser plantado para crescer uma árvore gigante de pedra-pinheiro."
+					}
+				},
+				"bud": {
+					"tree_stone_pine_plant_bud": {
+						"display_name": "Brotamento de pinheiro-manso",
+						"description": "Está quase lá! Está crescendo agulhas mais fortes!"
+					}
+				},
+				"sprout": {
+					"tree_stone_pine_sprout": {
+						"display_name": "Broto de pinheiro-manso",
+						"description": "Só precisa de algum tempo."
+					}
+				},
+				"stem": {
+					"tree_stone_pine_plant_stem": {
+						"display_name": "Tronco de pinheiro-manso",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"small_stone_pine_tree": {
+					"display_name": "Pequeno pinheiro-manso",
+					"description": "O cheiro de agulhas de pinheiro frescas envolve esta árvore",
+					"small_stone_pine_tree_iconic": {
+						"description": "Plante-o na terra e veja-o crescer."
+					},
+					"small_stone_pine_tree_ghost": {
+						"display_name": "Pequeno pinheiro-manso",
+						"description": "Apenas um pequeno pinheiro-manso."
+					}
+				},
+				"medium_stone_pine_tree": {
+					"display_name": "Pinheiro-manso médio",
+					"description": "Ainda crescendo!"
+				},
+				"large_stone_pine_tree": {
+					"display_name": "Grande pinheiro-manso",
+					"description": "Um espécime alto."
+				},
+				"ancient_stone_pine_tree": {
+					"display_name": "Pinheiro-de-pedra antigo",
+					"description": "Totalmente crescido, e impressionante em estatura."
+				},
+				"sapling_stone_pine_tree": {
+					"description": "Muda de pinheiro-manso",
+					"sapling_stone_pine_tree_ghost": {
+						"display_name": "Baby Stone-Pinheiro",
+						"description": "Cresce em uma árvore alta de pinheiro-manso."
+					},
+					"sapling_stone_pine_tree_iconic": {
+						"description": "Muda de pinheiro-manso"
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"cloth_armour": {
+					"description": "Este colete acolchoado triplo oferece mais proteção às suas unidades de combate do que meras roupas. Não muito mais, mas cada pouquinho ajuda, certo?",
+					"recipe_name": "Colete acolchoado",
+					"flavor": "Precisa... mais grosso... estofamento!"
+				},
+				"leather_armour": {
+					"description": "Couro endurecido fornece proteção de estudo contra armas leves.",
+					"recipe_name": "Colete de couro grosso",
+					"flavor": "Insultos saltam imediatamente também!"
+				},
+				"worker_outfit_fancy_recipe": {
+					"recipe_name": "Roupas nórdicas extravagantes",
+					"description": "Mantém você aquecido, e parece bom também!",
+					"flavor": "\"é um troll? é um urso! não, é um nórdico!\""
+				},
+				"leather_strip_recipe": {
+					"recipe_name": "Tiras de couro (x3)",
+					"description": "Produz três tiras de couro, usadas no artesanato",
+					"flavor": "Com o que mais você envolveria as alças?"
+				},
+				"weaver_workbench_recipe": {
+					"recipe_name": "Bancada de Tecelão Nordling",
+					"description": "Usado para criar coisas de fibra ou couro",
+					"flavor": "\"Um velo de ouro é bom e tudo, mas eu prefiro uma ovelha norma por sua capacidade de retenção de calor ..\" -Mer Burlyhands"
+				},
+				"nordling_tent": {
+					"recipe_name": "Tenda Nordling",
+					"description": "Mantém a chuva fora",
+					"flavor": "Bem, você não esperava que durmássemos em camas sob o céu aberto agora, não é?"
+				},
+				"ac_tent": {
+					"description": "Mantém a chuva fora",
+					"flavor": "Origens humildes. Bate dormir ao ar livre.",
+					"recipe_name": "Tenda Ascendente"
+				},
+				"na_tent": {
+					"flavor": "O que você quer dizer com \"onde você conseguiu a pele?\" -Hilde, fabricante de tendas da Aliança do Norte",
+					"description": "Mantém o clima do lado de fora e a felicidade DENTRO",
+					"recipe_name": "Tenda da Aliança do Norte"
+				},
+				"rc_tent": {
+					"flavor": "\"Por que barracas no deserto? Você já tentou dormir no sol escaldante ou na noite gelada?\"",
+					"description": "Te protege enquanto você dorme",
+					"recipe_name": "Tenda Infantil de Rayya"
+				}
+			},
+			"weaver_workbench_nordlings": {
+				"weaver_workbench_nordlings_ghost": {
+					"display_name": "Bancada de Tecelão Nordling",
+					"description": "Usado para criar coisas de fibra ou couro"
+				}
+			}
+		},
+		"trapper": {
+			"bee_hive": {
+				"display_name": "Colméia",
+				"description": "As abelhas vivem aqui e fazem mel!"
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"bramble_bush_transmute_recipe": {
+					"description": "Separe as sementes da fruta",
+					"recipe_name": "Sementes de Arbusto (x2)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes mais fracas, mas o fruto se perde no processo."
+				},
+				"ale_recipe": {
+					"description": "Cerveja",
+					"flavor": "Outro! *esmaga a caneca*",
+					"recipe_name": "Barril de cerveja"
+				},
+				"mead_recipe": {
+					"description": "Hidromel",
+					"flavor": "Bebida dos deuses!",
+					"recipe_name": "Garrafa de Hidromel"
+				},
+				"runes_slowing_projectile_recipe": {
+					"recipe_name": "Amuleto de Runa de Espinho",
+					"description": "Um amuleto para seu escaramuçador, fazendo com que suas armas fiquem lentas"
+				},
+				"runes_fire_projectile_recipe": {
+					"recipe_name": "Amuleto de Runa de Fogo",
+					"description": "Um amuleto para seu escaramuçador, envolvendo suas armas em chamas"
+				},
+				"shrine_to_freya_recipe": {
+					"recipe_name": "Semente Misteriosa",
+					"description": "Uma Semente Misteriosa, com certeza vai surpreender",
+					"flavor": "\"Comece com água abençoada, adicione a fundação do mundo e termine adicionando isso a uma vida mais preciosa, banhada pela luz das estrelas...\" - Druida desconhecido"
+				},
+				"bee_hive_recipe": {
+					"recipe_name": "Colméia",
+					"description": "Abriga abelhas que produzem mel.",
+					"flavor": "Tão gostoso quanto saudável! -Olaf Olafsson"
+				},
+				"earthbud_plant_recipe": {
+					"recipe_name": "Hearthbud",
+					"description": "Colhível para Hearth Essence concentrado e mais Hearthbud Seeds",
+					"flavor": "Uma planta muito mágica"
+				},
+				"earthbud_seeds_recipe": {
+					"description": "Separe as sementes dos brotos",
+					"recipe_name": "Sementes Earthbud (x2)",
+					"flavor": "Os botões sem sementes não possuem poder mágico, mas as sementes podem ser plantadas para crescer novamente."
+				},
+				"oak_tree_recipe": {
+					"recipe_name": "Carvalho",
+					"description": "Plante a muda para cultivar um nobre carvalho",
+					"flavor": "Deusa Freya admira o Carvalho"
+				},
+				"summon_stone_hotspring_recipe": {
+					"recipe_name": "Fonte termal Nordling",
+					"description": "Aqueça e relaxe nesta maravilha natural."
+				},
+				"beans_seeds_recipe": {
+					"recipe_name": "Sementes de Feijão",
+					"description": "Utilizável pelos agricultores para cultivar feijão",
+					"flavor": "Provavelmente não crescerá um enorme pé de feijão para um castelo do céu."
+				},
+				"cabbage_seeds_recipe": {
+					"recipe_name": "Sementes de repolho",
+					"description": "Permite que você cultive repolhos",
+					"flavor": "Dá uma boa salada!"
+				},
+				"white_carrot_seeds_recipe": {
+					"recipe_name": "Sementes de cenoura branca",
+					"description": "Permite que você cultive Cenouras Brancas",
+					"flavor": "gostoso e branco"
+				},
+				"onion_seeds_recipe": {
+					"recipe_name": "Sementes de Cebola",
+					"flavor": "\"Sem lágrimas, as cebolas são deliciosas!\"",
+					"description": "Permite que você cultive cebolas!"
+				},
+				"hops_seeds_recipe": {
+					"recipe_name": "Sementes de Lúpulo",
+					"description": "Permite que você cultive lúpulo",
+					"flavor": "O mosto na cerveja é bom, mas quando é dada a chance, o lúpulo é meu!"
+				},
+				"cleric_scroll_recipe": {
+					"recipe_name": "Conhecimento Skáldico",
+					"description": "Usado para promover um herbalista em um Skald",
+					"flavor": "Não tem nada a ver com água fervente."
+				}
+			},
+			"herbalist_still": {
+				"display_name": "Ainda",
+				"description": "Usado para poções e destilados"
+			}
+		},
+		"footman": {
+			"footman_description": {
+				"display_name": "Huskarl",
+				"description": "O Huskarl é um lutador corpo a corpo rápido e a espinha dorsal do exército da sua cidade.",
+				"requirements": "Feito por Carpinteiro",
+				"level_4_data": {
+					"perk_000_name": "Dano acima de 40%",
+					"perk_000_description": "O Huskarl agora é praticado para otimizar o efeito de cada golpe."
+				},
+				"level_1_data": {
+					"perk_000_name": "Aumento de dano de 20%",
+					"perk_000_description": "O Huskarl sabe que todas as batalhas podem ter consequências mortais e ataca com determinação renovada."
+				},
+				"level_3_data": {
+					"perk_000_name": "Pico de energia",
+					"perk_000_description": "Este poderoso golpe aéreo causa o dobro de dano."
+				},
+				"level_6_data": {
+					"perk_000_name": "Dano acima de 60%",
+					"perk_000_description": "Dano máximo!"
+				},
+				"level_2_data": {
+					"perk_000_name": "Primeiro Socorrista",
+					"perk_000_description": "O Huskarl avança para a batalha com velocidade"
+				},
+				"level_5_data": {
+					"perk_000_name": "Fenda",
+					"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do alvo do Huskarl"
+				}
+			},
+			"footman_buffs": {
+				"damage_1_buff": {
+					"description": "No nível 1, o Huskarl ataca com ferocidade aumentada",
+					"display_name": "Dano +20%"
+				},
+				"damage_2_buff": {
+					"description": "O Huskarl ataca com ferocidade aumentada",
+					"display_name": "Dano +40%"
+				},
+				"damage_3_buff": {
+					"description": "No nível 6, os ataques do Huskarl são imparáveis!",
+					"display_name": "Dano +60%"
+				},
+				"speed_buff": {
+					"display_name": "Primeiro Socorrista",
+					"description": "O Huskarl se move mais rápido"
+				}
+			},
+			"footman_outfit": {
+				"display_name": "Uniforme militar",
+				"description": "Tem um cinto conveniente para o equipamento!"
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"mythril_ingot": {
+					"description": "Lingote de Mithril",
+					"flavor": "Deixa os anões com inveja e os dragões interessados!",
+					"recipe_name": "Lingote de Mithril"
+				},
+				"bronze_sword_viking": {
+					"description": "Gigante de gelo avaliado!",
+					"flavor": "É afiado e pontudo, mas eu ainda prefiro um machado! ~ Mordlock Brokkir, Nordling Berserker",
+					"recipe_name": "Espada Viking de Bronze"
+				},
+				"iron_sword_viking": {
+					"description": "Gigante de gelo avaliado!",
+					"flavor": "É afiado e pontudo, mas eu ainda prefiro um machado! ~ Mordlock Brokkir, Nordling Berserker",
+					"recipe_name": "Espada Viking de Ferro"
+				},
+				"steel_sword_viking": {
+					"description": "Gigante de gelo avaliado!",
+					"flavor": "É afiado e pontudo, mas eu ainda prefiro um machado! ~ Mordlock Brokkir, Nordling Berserker",
+					"recipe_name": "Espada Viking de Aço"
+				},
+				"mythril_sword_viking": {
+					"description": "Gigante de gelo avaliado!",
+					"flavor": "Feito de tesouros antigos, apto para matar feras antigas",
+					"recipe_name": "Espada Viking de Mythril"
+				},
+				"legendary_hammer": {
+					"description": "Martelo Lendário",
+					"flavor": "E será chamado: Mjolnir",
+					"recipe_name": "Martelo Lendário"
+				},
+				"stone_axe": {
+					"description": "Um machado com um machado de pedra",
+					"flavor": "ah, afiado!",
+					"recipe_name": "Machado de pedra"
+				},
+				"bronze_axe": {
+					"description": "Um machado com um machado de bronze",
+					"flavor": "ficando mais afiada!",
+					"recipe_name": "Machado de Bronze"
+				},
+				"iron_axe": {
+					"description": "Um machado com um machado de ferro",
+					"flavor": "ooh eu estou cortado só de olhar para ele!",
+					"recipe_name": "Machado de Ferro"
+				},
+				"steel_axe": {
+					"description": "Um machado com uma cabeça de machado de aço",
+					"flavor": "ei, onde foi parar meu braço?",
+					"recipe_name": "Machado de Aço"
+				},
+				"mythril_axe": {
+					"description": "Um machado com uma cabeça de machado de mythril",
+					"flavor": "Deixe-me fazer uma pergunta... NA CARA! ~ Borden Brokkir, irmão gêmeo de Mordlock",
+					"recipe_name": "Machado de Mithril"
+				},
+				"bronze_spear": {
+					"description": "Uma lança de javali com ponta de bronze",
+					"flavor": "Cole-os com a ponta pontiaguda! - Quebra juramento de Bragi",
+					"recipe_name": "Lança de Javali de Bronze"
+				},
+				"iron_spear": {
+					"description": "Uma lança de javali com ponta de ferro",
+					"flavor": "Svartalves tem mais medo de ferro frio, mas funciona em outros insetos também",
+					"recipe_name": "Lança de Javali de Ferro"
+				},
+				"steel_spear": {
+					"description": "Uma lança de javali com ponta de aço",
+					"flavor": "Dizem que Magnus Gunnarsson segurou três ondas do Red Kiln com uma lança igual a esta",
+					"recipe_name": "Lança de Javali de Aço"
+				},
+				"mythril_spear": {
+					"description": "Uma lança com ponta de mythril",
+					"flavor": "Dizem que Magnus Gunnarsson matou um Capitão Ogro com um desses",
+					"recipe_name": "Lança de Mithril"
+				},
+				"chain_mail_bronze": {
+					"description": "Anéis de bronze entrelaçados formando um colete protetor",
+					"flavor": "anéis de bronze e couro embaixo, para impedir que o usuário seja dilacerado ~Narfi, o Skald",
+					"recipe_name": "Armadura de Cota de Bronze"
+				},
+				"chain_mail_iron": {
+					"description": "Anéis de ferro entrelaçados formando um colete protetor",
+					"flavor": "martelando malha de ferro, esperando que na batalha nunca falhe ~Narfi the Skald",
+					"recipe_name": "Armadura de Cota de Ferro"
+				},
+				"chain_mail_steel": {
+					"description": "Anéis de aço entrelaçados formando um colete de proteção",
+					"flavor": "Anéis de aço, forjados no fogo, para voltar a ira do orc-kin ~Narfi the Skald",
+					"recipe_name": "Armadura de Cota de Aço"
+				},
+				"chain_mail_mythril": {
+					"description": "Anéis de Mythril entrelaçados formando um colete protetor",
+					"flavor": "Leve como uma pena e dura como as escamas de um dragão.",
+					"recipe_name": "Armadura de Cota de Mythril"
+				},
+				"runic_bronze_comb": {
+					"description": "Um pente rúnico que cuida do seu cabelo. Deixe seu cabelo cuidar de você!",
+					"flavor": "Também faz maravilhas para a sua barba!",
+					"recipe_name": "Pente de Bronze Rúnico"
+				},
+				"runic_iron_comb": {
+					"description": "Um pente rúnico que cuida do seu cabelo. Deixe seu cabelo cuidar de você!",
+					"flavor": "Também faz maravilhas para a sua barba!",
+					"recipe_name": "Pente de Ferro Rúnico"
+				},
+				"runic_steel_comb": {
+					"description": "Um pente rúnico que cuida do seu cabelo. Deixe seu cabelo cuidar de você!",
+					"flavor": "Também faz maravilhas para a sua barba!",
+					"recipe_name": "Pente de Aço Rúnico"
+				},
+				"runic_mythril_comb": {
+					"description": "Um pente rúnico que cuida do seu cabelo. Deixe seu cabelo cuidar de você!",
+					"flavor": "Também faz maravilhas para a sua barba!",
+					"recipe_name": "Pente de Mythril Rúnico"
+				},
+				"iron_round_shield": {
+					"description": "Um escudo redondo coberto de linho, com uma faixa de ferro",
+					"flavor": "Orgulhosamente decorado por seu Hearthling!",
+					"recipe_name": "Escudo redondo com faixas de ferro"
+				},
+				"steel_round_shield": {
+					"description": "Um escudo redondo coberto de linho, com uma banda de aço resistente",
+					"flavor": "Orgulhosamente decorado por seu Hearthling!",
+					"recipe_name": "Escudo redondo com banda de aço"
+				},
+				"einherjar_axe_offhand_talisman": {
+					"description": "Um grande machado de duas pontas, para promover um Huskarl a um Hersir.",
+					"flavor": "E Narfi tirou duas cabeças com um golpe poderoso.",
+					"recipe_name": "Hersir Axe (de improviso)"
+				},
+				"blacksmith_forge_nordlings_recipe": {
+					"recipe_name": "Nordling Forge",
+					"flavor": "Canalizando os Deuses Antigos da Forja",
+					"description": "Usado para criar receitas de ferreiro"
+				},
+				"blacksmith_workbench_nordlings_recipe": {
+					"recipe_name": "Bigorna Nordling",
+					"description": "Bata o metal em submissão!",
+					"flavor": "\"O que mais cortamos ao meio para testar a nitidez?\""
+				},
+				"legendary_hammer_head": {
+					"recipe_name": "Cabeça de Martelo Lendária",
+					"description": "Pesado como o tempo, ataca como um relâmpago!",
+					"flavor": "\"Quem segura este martelo...\""
+				},
+				"legendary_hammer_haft": {
+					"recipe_name": "Cabo de Martelo Lendário",
+					"description": "Forte como uma montanha!",
+					"flavor": "\"Mantenha esse maldito mosquito longe de mim!\" -Eitri"
+				},
+				"legendary_hammer_recipe": {
+					"recipe_name": "Martelo Lendário",
+					"description": "Um Martelo Lendário, digno do próprio deus Thor.",
+					"flavor": "\"Aquele que segura este martelo, se for digno...\""
+				},
+				"steel_axe_2h_recipe": {
+					"recipe_name": "Machado Grande de Aço",
+					"description": "Um machado de duas mãos, Não para árvores.",
+					"flavor": "\"tente girar em círculos. Isso pode funcionar!\" -Bor the Brave, discutindo estilos de luta"
+				},
+				"iron_axe_2h_recipe": {
+					"recipe_name": "Machado de Ferro",
+					"description": "Um Greataxe de duas mãos",
+					"flavor": "não é muito bom na defesa, mas com certeza dará problemas aos outros caras"
+				},
+				"legendary_axe_haft": {
+					"recipe_name": "Cabo de Machado Lendário",
+					"flavor": "\"Encantado com feitiços poderosos e forte como a montanha... E então você confundiu com uma perna de cadeira..\" -Bor Flamesbane, Mestre Ferreiro",
+					"description": "Um Haft Forte o suficiente para ser usado para um Machado Lendário"
+				},
+				"legendary_axe_head": {
+					"recipe_name": "Cabeça de Machado Lendária",
+					"flavor": "Ele pode cortar armaduras... e ainda cortar um tomate!",
+					"description": "Um Axehead, da variedade Legendary"
+				},
+				"legendary_axe_recipe": {
+					"recipe_name": "Machado Lendário",
+					"description": "Uma arma magistral.",
+					"flavor": "Instilados em seu aço estão feitiços poderosos. Ele morde como se fosse o próprio inverno."
+				},
+				"throwing_axe": {
+					"recipe_name": "Machado de arremesso",
+					"description": "Um Throwin Axe, usado por um Skirmisher",
+					"flavor": "\"Truque!\""
+				},
+				"einherjar_axe_offhand_steel_recipe": {
+					"recipe_name": "Aço Hersir Axe (improvisado)",
+					"flavor": "Tem pequenas runas que dizem: \"Pesado como o fluxo do tempo, e corta tão fundo\"",
+					"description": "Empunhado por um Hersir, ele interrompe qualquer ataque."
+				},
+				"einherjar_axe_steel_recipe": {
+					"recipe_name": "Machado Hersir de Aço",
+					"description": "Para lutar as lutas realmente grandes.",
+					"flavor": "\"Minhas escamas são escudos, meus dentes são como espadas, minhas asas são o furacão, mas até eu posso ser morto por este dragão bane\" - Dragão sem nome"
+				},
+				"einherjar_sword_steel_recipe": {
+					"flavor": "\"Eu nunca soube onde \"espada\" terminava e \"parede de aço afiado\" começa ..-Narfi, o ferreiro louco",
+					"recipe_name": "Espada Hersir",
+					"description": "Uma lâmina enorme, feita para um Hersir"
+				},
+				"silver_helmet_recipe": {
+					"flavor": "Flavortextgoesheraqui",
+					"recipe_name": "Pente de Prata Rúnico",
+					"description": "Um pente rúnico que cuida do seu cabelo. Deixe seu cabelo cuidar de você!"
+				},
+				"hersir_talisman": {
+					"recipe_name": "Espada de Hersir",
+					"description": "Necessário para promover um Huskarl a Hersir",
+					"flavor": "\"Quando é afiado o suficiente?\" \"Quando sua ponta é mais afiada que as palavras cortantes de Loki\" - Ferreiro desconhecido para seu aprendiz"
+				}
+			},
+			"blacksmith_workbench_nordlings": {
+				"blacksmith_workbench_nordlings_ghost": {
+					"display_name": "Bigorna Nordling",
+					"description": "Bata o metal em submissão!"
+				}
+			},
+			"blacksmith_forge_nordlings": {
+				"blacksmith_forge_nordlings_ghost": {
+					"display_name": "Nordling Forge",
+					"description": "Uma forja para ferreiros nórdicos"
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"runic_wooden_comb": {
+					"description": "Um pente rúnico que cuida do seu cabelo. Deixe seu cabelo cuidar de você!",
+					"flavor": "Também faz maravilhas para a sua barba!",
+					"recipe_name": "Pente de madeira rúnica"
+				},
+				"training_roundshield": {
+					"description": "Um escudo básico de madeira, sem tampa",
+					"flavor": "funciona como um trenó em emergências!",
+					"recipe_name": "Escudo de treinamento"
+				},
+				"wooden_round_shield": {
+					"description": "Um escudo redondo de madeira bem feito, coberto de linho",
+					"flavor": "Orgulhosamente decorado por seu Hearthling!",
+					"recipe_name": "Escudo redondo de madeira"
+				},
+				"comfy_fur_bed": {
+					"description": "Cama quentinha e forrada de peles",
+					"flavor": "O inverno pode estar chegando, mas não para esta cama!",
+					"recipe_name": "Cama confortável coberta de pele"
+				},
+				"wooden_chair_fur": {
+					"description": "Cadeira de pele",
+					"flavor": "Apenas certifique-se de não sentar acidentalmente no gato!",
+					"recipe_name": "Cadeira de pele"
+				},
+				"charcoal_mound": {
+					"recipe_name": "Monte de carvão",
+					"description": "Usa madeira para formar carvão",
+					"flavor": "O ouro preto original"
+				},
+				"decorative_wall_shield_recipe": {
+					"recipe_name": "Escudo Decorativo de Parede",
+					"description": "Mais fácil de fazer do que um escudo, mas igualmente decorativo!",
+					"flavor": "Nórdicos não esperam atrás de uma parede de escudos, nós atacamos primeiro!"
+				},
+				"wooden_chair_nordlings": {
+					"recipe_name": "Cadeira Nordling",
+					"flavor": "\"A lenda antiga diz que as coisas boas vêm em três. Então, por que não pernas?\"",
+					"description": "Uma cadeira de três pernas, preferida pelos Nordlings"
+				},
+				"ornate_comfy_fur_bed": {
+					"flavor": "\"SEM CORRENTES!\" -Edna",
+					"recipe_name": "Cama de Pele Confortável Ornamentada",
+					"description": "Uma cama, adequada para a aristocracia nórdica"
+				},
+				"carpenter_toolbench_nordlings_recipe": {
+					"recipe_name": "Bancada de ferramentas para carpinteiros Nordling",
+					"flavor": "\"Olaf! Volte aqui com essa cabeça de dragão esculpida!\" -Snorri",
+					"description": "Um banco de ferramentas nórdico, utilizável por um carpinteiro."
+				},
+				"carpenter_workbench_nordlings_recipe": {
+					"recipe_name": "Bancada de trabalho de carpinteiros Nordling",
+					"description": "Usado por um carpinteiro para fazer móveis",
+					"flavor": "\"pode ​​ser apenas um tronco de árvore dividido para você, mas é o começo de Home to me\" -Olaf Woodsplitter"
+				},
+				"firewood3x": {
+					"recipe_name": "Lenha (x3)",
+					"description": "usado para alimentar lareiras, como combustível.",
+					"flavor": "\"você quer dizer que colocar um tronco de árvore INTEIRO em uma lareira NÃO é a maneira de fazer isso?\" - Raya"
+				},
+				"ornate_wooden_chair_nordlings": {
+					"recipe_name": "Cadeira Nordling ornamentada",
+					"description": "Uma cadeira Nordling, coberta com estofamento confortável. Parece chique também!",
+					"flavor": "Sente-se em três pernas, com estilo!"
+				},
+				"map_table": {
+					"recipe_name": "Tabela de mapa",
+					"description": "Uma tabela para planejar suas estratégias.",
+					"flavor": "no canto inferior direito está escrito \"Veni Vidi Vici\" em letras muito pequenas."
+				},
+				"big_barrel": {
+					"recipe_name": "Barril Grande",
+					"description": "Detém bebidas (ale ou hidromel atualmente)",
+					"flavor": "Tente não beber inteiro, a menos que você seja Thor."
+				},
+				"nord_chest_recipe": {
+					"recipe_name": "Baú do Mar Nordling",
+					"description": "Armazena até 64 itens. Útil para manter as coisas em casa, mas também no mar!",
+					"flavor": "Os filhos de Ivaldi em tempos de baús especiais à moda antiga para manter o que é deles da umidade e do frio."
+				},
+				"wooden_spear_recipe": {
+					"recipe_name": "Lança de madeira",
+					"description": "Necessário para promover um Aldeão em um Huskarl.",
+					"flavor": "Todos os grandes guerreiros têm origens humildes."
+				},
+				"wooden_hill_fort_door": {
+					"recipe_name": "Porta Hillfort",
+					"description": "Uma grande porta forte.",
+					"flavor": "Mantém do lado de fora coisas irritantes como Gigantes de Gelo e vendedores de porta em porta."
+				},
+				"composite_longbow_recipe": {
+					"recipe_name": "Arco Longo Composto",
+					"description": "Um arco longo feito de vários materiais, melhorando seu desempenho"
+				},
+				"wooden_portcullis": {
+					"flavor": "",
+					"recipe_name": "Porta levadiça de madeira",
+					"description": "Uma porta levadiça de madeira para manter os bandidos fora. é bloqueável."
+				},
+				"basic_shelter": {
+					"recipe_name": "Abrigo básico de apoio",
+					"description": "Mantém você seco ao dormir ao ar livre, melhor que o chão",
+					"flavor": "“Sempre chove nos abrigos. As tempestades viajarão milhares de quilômetros, contra os ventos predominantes pela oportunidade de chover em um abrigo.\""
+				},
+				"torch": {
+					"recipe_name": "Tocha (à mão)",
+					"description": "Luz simples no escuro e, caso contrário, um bastão para afastar as coisas!",
+					"flavor": "Para que a luz brilhe tanto, a escuridão deve estar presente."
+				},
+				"basic_shelter_improved": {
+					"recipe_name": "Abrigo Lean-to Aprimorado",
+					"description": "Mantém você seco ao dormir ao ar livre, melhorado com uma cobertura de palha quente.",
+					"flavor": "\"O que você realmente precisa? Comida, roupas e abrigo. Todo o resto é entretenimento.\" -Len Highwall"
+				},
+				"hnefetafl_board": {
+					"recipe_name": "Conselho Hnefetafl",
+					"description": "O jogo de mesa da mesa do rei",
+					"flavor": ""
+				}
+			},
+			"carpenter_workbench_nordlings": {
+				"carpenter_workbench_nordlings_ghost": {
+					"display_name": "Bancada de trabalho de carpinteiros Nordling",
+					"description": "Carpinteiros Toolbench, constrói móveis."
+				}
+			},
+			"carpenter_toolbench_nordlings": {
+				"carpenter_toolbench_ghost": {
+					"display_name": "Bancada de ferramentas para carpinteiros Nordling",
+					"description": "Para receitas avançadas de madeira."
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"rune_stone": {
+					"description": "Uma pedra esculpida, com sigilos rúnicos.",
+					"flavor": "Eu me pergunto o que diz?",
+					"recipe_name": "Pedra Rúnica"
+				},
+				"stone_axe": {
+					"description": "Um machado com uma cabeça de machado de pedra.",
+					"flavor": "ah, afiado!",
+					"recipe_name": "Machado de pedra"
+				},
+				"stone_spear": {
+					"description": "Uma Lança de Javali com uma cabeça de pedra.",
+					"flavor": "sabortexto aqui",
+					"recipe_name": "Lança de Javali de Pedra"
+				},
+				"fireplace": {
+					"description": "A placa de piso para uma lareira, queima madeira e mantém você aquecido.",
+					"flavor": "Mantém a casa aquecida à noite",
+					"recipe_name": "Lareira"
+				},
+				"comfy_fur_bed_stone_recipe": {
+					"recipe_name": "Cama de Pedra e Pele",
+					"description": "Uma cama de pedra com peles confortáveis ​​para dormir.",
+					"flavor": "Você pode estar dormindo na pedra, mas está fazendo isso com estilo!"
+				},
+				"fireplace_big": {
+					"recipe_name": "Grande Lareira",
+					"flavor": "Mantém o salão de hidromel quente à noite",
+					"description": "Para quando o pequeno não é suficiente."
+				},
+				"shrine_to_odin_recipe": {
+					"recipe_name": "Santuário para Odin",
+					"description": "Um santuário para Odin caolho, Rei dos Deuses.",
+					"flavor": "\"Não se esqueça, onde Thor arremessa seu martelo sob a orientação de uma tempestade, Odin prefere atacar de um céu claro.\""
+				},
+				"shrine_to_thor_recipe": {
+					"recipe_name": "Santuário para Thor",
+					"description": "Um santuário para Thor, Poderoso Deus do Trovão",
+					"flavor": "As runas descrevem como a grande habilidade não conhece limites e louvam a glória de Thor"
+				},
+				"decorative_wall_dragon_recipe": {
+					"recipe_name": "Dragão de parede decorativo",
+					"description": "Um dragão esculpido em madeira",
+					"flavor": "\"AAAAAAAAAH\" -Ivar"
+				}
+			}
+		},
+		"knight": {
+			"knight_outfit": {
+				"display_name": "Armadura de Hersir",
+				"description": "Armadura de metal usada por um Hersir"
+			},
+			"knight_description": {
+				"display_name": "Hersir",
+				"description": "Um comandante militar escolhido, inspirando as tropas a lutar pela glória.",
+				"requirements": "Feito por ferreiro",
+				"level_1_data": {
+					"perk_000_name": "Fortalecer",
+					"perk_001_name": "Nível 1 de Redução de Dano",
+					"perk_000_description": "Aumenta Stamina, Courage e chama a atenção de monstros",
+					"perk_001_description": "O Hersir ganha uma defesa adicional de 10% do equipamento"
+				},
+				"level_4_data": {
+					"perk_000_name": "Nível 2 de Redução de Dano",
+					"perk_000_description": "O Hersir ganha 20% de armadura adicional do equipamento"
+				},
+				"level_3_data": {
+					"perk_000_name": "Fortificar (Nível 2)",
+					"perk_000_description": "Vigor e Coragem aumentaram muito"
+				},
+				"level_5_data": {
+					"perk_000_name": "Presença inspiradora",
+					"perk_000_description": "O Hersir aumenta a coragem de todos ao seu redor"
+				},
+				"level_2_data": {
+					"perk_000_name": "Gritar",
+					"perk_000_description": "O Hersir Desafia o inimigo, atraindo seu ataque"
+				},
+				"level_6_data": {
+					"perk_000_name": "Chifre do Herói",
+					"perk_000_description": "O Hersir soa uma buzina de combate, chamando a atenção dos inimigos próximos e distantes"
+				}
+			},
+			"knight_buffs": {
+				"defense_1_buff": {
+					"display_name": "Defesa em 10%",
+					"description": "Defesa ganha de equipamento aumentada em 10%"
+				},
+				"defense_2_buff": {
+					"display_name": "Defesa em 20%",
+					"description": "Defesa ganha de equipamento aumentada em 20%"
+				},
+				"health_1_buff": {
+					"display_name": "Fortalecer",
+					"description": "O Hersir torna-se mais ameaçador para os inimigos, chamando sua atenção em combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
+				},
+				"health_2_buff": {
+					"display_name": "Fortificar (Nível 2)",
+					"description": "Mais rápido, mais furioso"
+				},
+				"courage_aura_buff": {
+					"display_name": "Presença inspiradora",
+					"description": "O Hersir aumenta a coragem de todos ao seu redor"
+				},
+				"courage_aura_effect_buff": {
+					"display_name": "Inspirado",
+					"description": "A coragem aumentou com a presença de um Hersir."
+				}
+			},
+			"knight_helm": {
+				"display_name": "Elmo de Hersir",
+				"description": "Emissão padrão de capacete de ferro para todos os Hersirs"
+			}
+		},
+		"worker": {
+			"worker_description": {
+				"display_name": "Aldeão",
+				"description": "Os aldeões realizam tarefas básicas como colher recursos, transportar coisas e construir edifícios, além de cuidar dos campos.",
+				"level_0_data": {
+					"title": "Aldeão"
+				}
+			},
+			"worker_outfit_fancy": {
+				"worker_outfit_fancy_iconic": {
+					"display_name": "Roupas chiques",
+					"description": "Roupas extravagantes, mantém o frio do lado de fora e a produtividade IN"
+				},
+				"display_name": "Roupas chiques",
+				"description": "Roupas extravagantes, mantém o frio do lado de fora e a produtividade IN"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"legendary_hammer_mounting": {
+					"recipe_name": "Montagem de Martelo Lendário",
+					"description": "Feito de ouro altamente condutor, faisca ao toque.",
+					"flavor": "\"alguém viu aquele flash agora?\""
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"cook_workbench_nordlings_recipe": {
+					"recipe_name": "Panela Nordling",
+					"description": "Para preparar alimentos",
+					"flavor": "\"humm!\""
+				},
+				"porridge_recipe": {
+					"recipe_name": "Mingau",
+					"description": "Uma refeição quente e farta para começar o dia com",
+					"flavor": "\"eu adoraria adicionar algumas frutas, então pode ter um sabor um pouco mais doce...\""
+				},
+				"butter_recipe": {
+					"recipe_name": "Bater Manteiga",
+					"description": "Produz manteiga e leitelho (um de cada)",
+					"flavor": "\"Agora ouça com atenção jovem Nordling, não jogue fora o leitelho, isso o tornará grande e forte!\" - Nordling Elder"
+				},
+				"juice_bramble_recipe": {
+					"recipe_name": "Balde de suco de amora",
+					"description": "Crie uma bebida frutada de amoras silvestres.",
+					"flavor": ""
+				}
+			},
+			"cook_workbench_nordlings": {
+				"cook_workbench_nordlings_ghost": {
+					"display_name": "Caldeirão Nórdico",
+					"description": "Para cozinhar"
+				}
+			}
+		},
+		"ruler": {
+			"ruler_sword": {
+				"display_name": "Espada Governante",
+				"description": "Uma espada digna de um governante"
+			},
+			"ruler_talisman": {
+				"display_name": "Escritura de Direitos",
+				"description": "Papelada com aparência oficial"
+			},
+			"ruler_description": {
+				"display_name": "Senhor",
+				"description": "Um Senhor, para liderar o seu povo.",
+				"requirements": "Prova do direito de governar",
+				"level_6_data": {
+					"perk_000_name": "Maior Força"
+				}
+			},
+			"ruler_outfit_ac": {
+				"display_name": "Roupa de Régua",
+				"description": "Um traje nobre, feito para o Governante do Reino."
+			},
+			"ruler_outfit_rc": {
+				"display_name": "Roupa de Régua",
+				"description": "Um traje nobre, feito para o Governante do Reino."
+			},
+			"ruler_outfit_na": {
+				"display_name": "Roupa de Régua",
+				"description": "Um traje nobre, feito para o Governante do Reino."
+			},
+			"ruler_outfit_nordlings": {
+				"display_name": "Roupa de Régua",
+				"description": "Um traje nobre, feito para o Governante do Reino."
+			},
+			"ruler_description_na": {
+				"display_name": "Chefe",
+				"description": "Um chefe, para liderar seu povo."
+			},
+			"ruler_description_rc": {
+				"display_name": "Sultão",
+				"description": "Um sultão, aqui para liderar seu povo."
+			},
+			"ruler_description_nordlings": {
+				"display_name": "Jarl",
+				"description": "Um rei nórdico do passado.",
+				"requirements": ""
+			},
+			"ruler_sword_nordlings": {
+				"display_name": "Espada de Jarl",
+				"description": "Espada de Jarl"
+			},
+			"ac": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "Seu Senhor sabe que todas as batalhas podem ter consequências mortais e ataques com determinação renovada."
+					},
+					"level_2_data": {
+						"perk_000_description": "Seu Senhor avança para a batalha com velocidade."
+					},
+					"level_3_data": {
+						"perk_000_description": "Seu Senhor aumenta a coragem de todos ao redor."
+					},
+					"level_5_data": {
+						"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do seu Lorde."
+					},
+					"level_6_data": {
+						"perk_000_description": "Seu Senhor inspira aqueles ao seu redor a lutar mais. (Buff de Força)"
+					}
+				}
+			},
+			"na": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "Seu chefe sabe que todas as batalhas podem ter consequências mortais e ataca com determinação renovada."
+					},
+					"level_2_data": {
+						"perk_000_description": "Seu Chieftain entra na batalha com velocidade."
+					},
+					"level_3_data": {
+						"perk_000_description": "Seu Chieftain aumenta a coragem de todos ao seu redor."
+					},
+					"level_5_data": {
+						"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do seu Chefe."
+					},
+					"level_6_data": {
+						"perk_000_description": "Seu Chieftain inspira aqueles ao seu redor a lutar mais. (Buff de Força)"
+					}
+				}
+			},
+			"nordlings": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "Seu Jarl sabe que todas as batalhas podem ter consequências mortais e ataca com determinação renovada."
+					},
+					"level_2_data": {
+						"perk_000_description": "Seu Jarl entra na batalha com velocidade."
+					},
+					"level_3_data": {
+						"perk_000_description": "Seu Jarl aumenta a coragem de todos ao seu redor."
+					},
+					"level_5_data": {
+						"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do seu Jarl."
+					},
+					"level_6_data": {
+						"perk_000_description": "Seu Jarl lidera na frente, inspirando aqueles ao seu redor a lutar mais. (Buff de Força)"
+					}
+				}
+			},
+			"rc": {
+				"ruler_description": {
+					"level_1_data": {
+						"perk_000_description": "Seu sultão sabe que todas as batalhas podem ter consequências mortais e ataca com determinação renovada."
+					},
+					"level_2_data": {
+						"perk_000_description": "Seu sultão entra na batalha com velocidade."
+					},
+					"level_3_data": {
+						"perk_000_description": "Seu sultão aumenta a coragem de todos ao seu redor."
+					},
+					"level_5_data": {
+						"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do seu Sultão."
+					},
+					"level_6_data": {
+						"perk_000_description": "Seu sultão inspira aqueles ao seu redor a lutar mais. (Buff de Força)"
+					}
+				}
+			}
+		},
+		"archer": {
+			"archer_description": {
+				"display_name": "Escaramuça",
+				"description": "Uma unidade de combate à distância que atira nos inimigos com flechas",
+				"requirements": "Feito por Carpinteiro",
+				"level_1_data": {
+					"perk_000_name": "Proficiência em Arco",
+					"perk_001_name": "Aumento da força de tração",
+					"perk_000_description": "O Skirmisher é capaz de usar um arco para atirar flechas nos inimigos",
+					"perk_001_description": "O dano do Skirmisher é aumentado"
+				},
+				"level_2_data": {
+					"perk_000_name": "Flechas Perfurantes de Armadura",
+					"perk_000_description": "Os tiros do Skirmisher ignoram 50% da armadura do alvo"
+				},
+				"level_3_data": {
+					"perk_000_name": "Aumento de alcance",
+					"perk_000_description": "O Skirmisher pode atacar inimigos de mais longe"
+				},
+				"level_5_data": {
+					"perk_000_name": "Aumento de Alcance (Nível 2)",
+					"perk_000_description": "O Skirmisher pode atacar inimigos de muito longe"
+				},
+				"level_4_data": {
+					"perk_000_name": "Acelerar Desenhar",
+					"perk_000_description": "O Skirmisher atira flechas com maior velocidade"
+				},
+				"level_6_data": {
+					"perk_000_name": "Tiro duplo",
+					"perk_000_description": "O Skirmisher aprende a antiga arte de tiros rápidos, permitindo o disparo rápido de duas flechas em rápida sucessão"
+				}
+			},
+			"archer_buffs": {
+				"damage_1_buff": {
+					"display_name": "Dano +20%",
+					"description": "O dano do Skirmisher é aumentado."
+				}
+			}
+		},
+		"cleric": {
+			"cleric_description": {
+				"display_name": "Skald"
+			},
+			"cleric_scroll": {
+				"display_name": "Conhecimento Skáldico",
+				"description": "O skald usa seu conhecimento das formas antigas para curar você e seus aliados.",
+				"cleric_scroll_talisman": {
+					"display_name": "Conhecimento escaldante",
+					"description": "Usado para promover um herbalista em um Skald"
+				}
+			}
+		}
+	},
+	"ui": {
+		"data": {
+			"constants": {
+				"coal_resource_name": "Um pedaço de carvão"
+			}
+		},
+		"game": {
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"worker": {
+							"display_name": "Menu de artesanato de aldeão",
+							"description": "Receitas básicas do aldeão.",
+							"required_job_text": "Requer um aldeão"
+						}
+					}
+				}
+			}
+		}
+	}
+}
