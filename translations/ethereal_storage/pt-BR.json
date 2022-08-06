@@ -1,0 +1,25 @@
+{
+	"entities": {
+		"ethereal_storage": {
+			"display_name": "Armazenamento Etéreo"
+		}
+	},
+	"ui": {
+		"shell": {
+			"settings": {
+				"gameplayTab": {
+					"universal_storage_access_node_effect": "Efeito do nó de acesso:",
+					"universal_storage_access_node_effect_description": "Aplica o efeito selecionado a todos os nós de acesso (entidades de armazenamento normal) para o armazenamento etéreo de um jogador.",
+					"access_node_effect": {
+						"none": "Nenhum",
+						"none_description": "Nenhum efeito aplicado.",
+						"purple_void": "Vazio Roxo",
+						"purple_void_description": "Um efeito vazio roxo, sugando tudo lentamente.",
+						"warm_glow": "Brilho quente",
+						"warm_glow_description": "Um efeito de brilho quente, semelhante a uma lâmpada fraca."
+					}
+				}
+			}
+		}
+	}
+}

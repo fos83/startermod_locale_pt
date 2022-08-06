@@ -1,0 +1,642 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"rift_monsters": {
+					"wolf": {
+						"sighted_bulletin": {
+							"title": "Uma Fera das Trevas está invadindo de uma Fenda Espacial!"
+						}
+					},
+					"zilla": {
+						"sighted_bulletin": {
+							"title": "Uma Wyrm sombria está invadindo de uma Fenda Espacial!"
+						}
+					}
+				},
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"tier_1_shops": {
+								"wizard_shop": {
+									"shop_info": {
+										"name": "Loja do Feiticeiro de Crono Wisp",
+										"title": "Crono Wisp chegou com mercadorias mágicas à venda"
+									}
+								}
+							},
+							"tier_2_shops": {
+								"wizard_shop": {
+									"shop_info": {
+										"name": "Loja do Feiticeiro de Crono Wisp",
+										"title": "Crono Wisp vem aqui com mais produtos mágicos à venda"
+									}
+								}
+							},
+							"tier_3_shops": {
+								"wizard_shop": {
+									"shop_info": {
+										"name": "Artefatos do Mago de Crono Wisp",
+										"title": "Crono Wisp se aventura por perto com os bens mágicos mais raros para compra"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"buffs": {
+			"mind_potion": {
+				"mind_potion_buff": {
+					"display_name": "Poção da Mente",
+					"description": "A mente aumentou por um curto período de tempo."
+				}
+			},
+			"weather": {
+				"combo_weather_resist_buff": {
+					"display_name": "Resistor climático",
+					"description": "Vestindo uma roupa mágica com resistência às temperaturas ambientais."
+				}
+			}
+		}
+	},
+	"entities": {
+		"consumables": {
+			"cosmic_heal_potion": {
+				"display_name": "Poção de Cura Cósmica",
+				"description": "Restaura 100 de Saúde para todos."
+			},
+			"mind_potion": {
+				"display_name": "Poção da Mente",
+				"description": "Buffa temporariamente a Mente."
+			}
+		},
+		"decoration": {
+			"wooden_sign_timewizard": {
+				"wooden_sign_timewizard_ghost": {
+					"display_name": "Sinal do Mago do Tempo",
+					"description": "Um sinal com a marca de um Mago do Tempo."
+				}
+			},
+			"star_sentry": {
+				"star_sentry_ghost": {
+					"display_name": "Sentinela Estelar",
+					"description": "Uma forma estelar que causa dano constante aos inimigos próximos."
+				}
+			},
+			"timestone_statue": {
+				"timestone_statue_ghost": {
+					"display_name": "Estátua da Pedra do Tempo",
+					"description": "Uma estátua decorativa de Amberstone imbuída de Timestones."
+				}
+			}
+		},
+		"refined": {
+			"space_potion": {
+				"display_name": "Poção do Espaço",
+				"description": "Essência líquida escura do céu noturno."
+			},
+			"time_potion": {
+				"display_name": "Poção do Tempo",
+				"description": "Essência líquida brilhante de relógios condensados."
+			},
+			"star_steel": {
+				"display_name": "Estrela de Aço",
+				"description": "Metal encantado, leve e forte."
+			}
+		},
+		"armor": {
+			"solar_eclipse_gear": {
+				"display_name": "Equipamento do Eclipse Solar",
+				"description": "Um conjunto de Armadura impregnado de sombra, de uma época rara.",
+				"solar_eclipse_gear_iconic": {
+					"display_name": "Equipamento do Eclipse Solar",
+					"description": "Armadura atualizada do lado da energia escura."
+				}
+			},
+			"lunar_eclipse_robe": {
+				"display_name": "Manto do Eclipse Lunar",
+				"description": "Um conjunto de Armadura impregnado de sombra, de uma época rara.",
+				"lunar_eclipse_robe_iconic": {
+					"display_name": "Manto do Eclipse Lunar",
+					"description": "Armadura atualizada do lado da energia escura."
+				}
+			},
+			"sunmage_gear": {
+				"display_name": "Equipamento de Mago do Sol",
+				"description": "A roupa original com aprimoramento mágico.",
+				"sunmage_gear_iconic": {
+					"display_name": "Equipamento de Mago do Sol",
+					"description": "Protege contra lesões e a enorme energia de calor das habilidades."
+				}
+			},
+			"moonmage_robe": {
+				"display_name": "Manto do Mago da Lua",
+				"description": "A roupa original com aprimoramento mágico.",
+				"moonmage_robe_iconic": {
+					"display_name": "Manto do Mago da Lua",
+					"description": "Protege contra ferimentos e as forças das trevas de habilidades."
+				}
+			}
+		},
+		"weapons": {
+			"sunmage_sword": {
+				"display_name": "Espada do Mago do Sol",
+				"description": "Golpeando com a luz, tem um calor radiante.",
+				"sunmage_sword_iconic": {
+					"display_name": "Espada do Mago do Sol",
+					"description": "Impecável e preservado, corta sem esforço todas as coisas."
+				}
+			},
+			"star_sword": {
+				"display_name": "Espada Estelar",
+				"description": "Espada Encantada da Estrela Verde, com habilidades de Retardar o Tempo.",
+				"star_sword_iconic": {
+					"display_name": "Espada Estelar",
+					"description": "O poder da Green Star ocasionalmente diminui o tempo."
+				}
+			},
+			"moonmage_staff": {
+				"display_name": "Cajado do Mago da Lua",
+				"description": "Emissor mágico em forma de crescente, criado à noite.",
+				"moonmage_staff_iconic": {
+					"display_name": "Cajado do Mago da Lua",
+					"description": "Cajado mágico lunar de madeira escura."
+				}
+			},
+			"star_staff": {
+				"display_name": "Equipe Estrela",
+				"description": "Cajado escuro da Estrela Verde, com possibilidades de dano extra.",
+				"star_staff_iconic": {
+					"display_name": "Equipe Estrela",
+					"description": "O poder da Estrela Verde ocasionalmente adiciona dano."
+				}
+			},
+			"sun_shot": {
+				"display_name": "Foto do Sol",
+				"description": "Uma partícula de sol flamejante."
+			},
+			"moon_shot": {
+				"display_name": "Tiro da Lua",
+				"description": "Esta rocha é uma pepita da lua."
+			},
+			"star_shot": {
+				"display_name": "Tiro Estelar",
+				"description": "Uma pepita da lua, com algumas estrelas."
+			}
+		}
+	},
+	"jobs": {
+		"timewizard": {
+			"timewizard_description": {
+				"display_name": "Mago do tempo",
+				"description": "O Time Wizard manipula o Tempo e o Espaço para aprimorar itens e atributos.",
+				"requirements": "Criado por Herbalist ou Shaman",
+				"level_1_data": {
+					"perk_000_name": "Replicação",
+					"perk_000_description": "O Time Wizard pode extrair recursos do passado ou do futuro."
+				},
+				"level_2_data": {
+					"perk_000_name": "Fazer Poções",
+					"perk_000_description": "O Mago do Tempo usa plantas naturais e artes místicas na elaboração de poções."
+				},
+				"level_3_data": {
+					"perk_000_name": "Trabalhador Apressado",
+					"perk_000_description": "O Mago do Tempo acelera a velocidade de Hearthlings próximos. Criação de Talismã Celestial desbloqueada."
+				},
+				"level_4_data": {
+					"perk_000_name": "Replicação Extra",
+					"perk_000_description": "As capacidades de replicação do Time Wizard são estendidas às pilhas de recursos."
+				},
+				"level_5_data": {
+					"perk_000_name": "Sorte multicolorida",
+					"perk_000_description": "Uma bênção rara concede atributos aprimorados a todo o Mago do Tempo."
+				},
+				"level_6_data": {
+					"perk_000_name": "Sabedoria da Pedra de Âmbar",
+					"perk_000_description": "As manipulações da linha do tempo concederam produções obscuras e Starforms.",
+					"title": "Mago do Tempo Galáctico"
+				}
+			},
+			"timewizard_outfit": {
+				"display_name": "Manto do Mago do Tempo",
+				"description": "Um manto branco claro e cor de estanho, com reflexos verdes naturais, e um chapéu de feiticeiro verde."
+			},
+			"timewizard_staff": {
+				"display_name": "Cajado do Mago do Tempo",
+				"description": "Um cajado que transmite os desejos do Mago.",
+				"timewizard_staff_iconic": {
+					"display_name": "Cajado do Mago do Tempo",
+					"description": "Um cajado que transmite os desejos do Mago."
+				},
+				"timewizard_staff_talisman": {
+					"display_name": "Cajado do Mago do Tempo",
+					"description": "Necessário para promover a um Assistente de Tempo."
+				}
+			},
+			"timewizard_buffs": {
+				"hasty_worker_buff": {
+					"display_name": "Aura do Trabalhador Apressado",
+					"description": "O Mago do Tempo acelera o corpo"
+				},
+				"hasty_worker_effect_buff": {
+					"display_name": "Trabalhador Apressado",
+					"description": "O Mago do Tempo aumenta a velocidade das pessoas próximas"
+				},
+				"lucky_time_buff": {
+					"display_name": "Aura do Tempo da Sorte",
+					"description": "O Mago do Tempo reúne sorte"
+				},
+				"lucky_time_effect_buff": {
+					"display_name": "Tempo de sorte",
+					"description": "Muitos atributos aprimorados pela presença de um Time Wizard"
+				},
+				"heavy_slow": {
+					"display_name": "Tempo lento",
+					"description": "Velocidade reduzida por um ataque de cajado do Mago do Tempo"
+				}
+			},
+			"timewizard_workbench": {
+				"timewizard_workbench_ghost": {
+					"display_name": "Monumento de Artesanato do Mago do Tempo",
+					"description": "Um banco de artesanato mágico."
+				}
+			},
+			"recipes": {
+				"timewizard_workbench_recipe": {
+					"recipe_name": "Monumento de Artesanato do Mago do Tempo",
+					"description": "Permite que um Time Wizard crie novos itens.",
+					"flavor": "É um toco de árvore misterioso natural e fascinante."
+				},
+				"sunmage_shield_recipe": {
+					"recipe_name": "Escudo do Mago do Sol",
+					"description": "Necessário para promover um Hearthling em um Sun Mage.",
+					"flavor": "Assemelha-se ao Sol no canto."
+				},
+				"moonmage_guard_recipe": {
+					"recipe_name": "Guarda Mago da Lua",
+					"description": "Necessário para promover um Hearthling em um Moon Mage.",
+					"flavor": "Assemelha-se à Lua no canto."
+				},
+				"geomancer_staff_recipe": {
+					"recipe_name": "Cajado do Geomante",
+					"description": "Necessário para promover um Hearthling em um Geomante.",
+					"flavor": "Uau, isso é de uma raça antiga?"
+				},
+				"sunmage_sword_recipe": {
+					"recipe_name": "Espada do Mago do Sol",
+					"description": "Uma espada celestial de iluminação.",
+					"flavor": "Levante-se e brilhe."
+				},
+				"sunmage_sword_recipe_a": {
+					"recipe_name": "Espada do Mago do Sol",
+					"flavor": "Feito com ouro, quando você não consegue encontrar uma Espada de Aço."
+				},
+				"star_sword_recipe": {
+					"recipe_name": "Espada Estelar",
+					"description": "Uma Espada Mágica que às vezes retarda o tempo contra seus inimigos.",
+					"flavor": "Uma Arma Lendária encantada pela Estrela Verde."
+				},
+				"moonmage_staff_recipe": {
+					"recipe_name": "Cajado do Mago da Lua",
+					"description": "Um cajado imbuído de uma tatilidade sombria e sonolenta.",
+					"flavor": "Boa noite, durma bem."
+				},
+				"moonmage_staff_recipe_a": {
+					"recipe_name": "Cajado do Mago da Lua",
+					"flavor": "Você tem flocos de ouro certo? Mas você pode não ter um Cajado de Pastor."
+				},
+				"star_staff_recipe": {
+					"recipe_name": "Equipe Estrela",
+					"description": "Um Cajado Mágico que às vezes adiciona dano extra aos alvos.",
+					"flavor": "Uma Arma Lendária encantada pela Estrela Verde."
+				},
+				"solar_eclipse_gear_recipe": {
+					"recipe_name": "Equipamento do Eclipse Solar",
+					"description": "Um momento raro pode produzir este conjunto sombrio de Armadura Solar.",
+					"flavor": "As coisas estão começando a escurecer por aqui."
+				},
+				"lunar_eclipse_robe_recipe": {
+					"recipe_name": "Manto do Eclipse Lunar",
+					"description": "Um momento raro pode produzir este conjunto sombrio de Armadura Lunar.",
+					"flavor": "Surgem pensamentos inquietantes e perturbadores."
+				},
+				"sunmage_gear_recipe": {
+					"recipe_name": "Equipamento de Mago do Sol",
+					"description": "A roupa original com aprimoramento mágico.",
+					"flavor": "Para quando você quer ter sua aparência original."
+				},
+				"moonmage_robe_recipe": {
+					"recipe_name": "Manto do Mago da Lua",
+					"description": "A roupa original com aprimoramento mágico.",
+					"flavor": "Para quando você quer ter sua aparência original."
+				},
+				"wood_blocks_recipe": {
+					"recipe_name": "Madeira (x3)",
+					"description": "Replicado no tempo e no espaço.",
+					"flavor": "Mas sempre parece carvalho..."
+				},
+				"clay_blocks_recipe": {
+					"recipe_name": "Barro (x3)",
+					"description": "Replicado no tempo e no espaço.",
+					"flavor": "É divertido brincar com lama."
+				},
+				"stone_blocks_recipe": {
+					"recipe_name": "Pedra (x3)",
+					"description": "Replicado no tempo e no espaço.",
+					"flavor": "Sim, é duro como uma rocha."
+				},
+				"gold_flakes_recipe": {
+					"recipe_name": "Flocos de Ouro (x3)",
+					"description": "Multiplicado magicamente através do tempo e do espaço.",
+					"flavor": "Um recurso de receita valioso e brilhante."
+				},
+				"log_pile_recipe": {
+					"flavor": "Obtenha madeira extra do que foi necessário para fazer a pilha, quando colhida."
+				},
+				"stone_pile_recipe": {
+					"flavor": "Obtenha pedra extra do que levou para fazer a pilha, quando colhida."
+				},
+				"clay_pile_recipe": {
+					"flavor": "Obtenha argila extra do que foi necessário para fazer a pilha, quando colhida."
+				},
+				"clay_pile_recipe_ace": {
+					"recipe_name": "Pilha de Barro (x2)",
+					"description": "Magicamente replicado através do tempo e do espaço.",
+					"flavor": "Usando argila para fazer uma pilha, também produzirá uma pilha extra!"
+				},
+				"log_pile_recipe_ace": {
+					"recipe_name": "Pilha de Toras (x2)",
+					"description": "Magicamente replicado através do tempo e do espaço.",
+					"flavor": "Usar toras para fazer uma pilha, também produzirá uma pilha extra!"
+				},
+				"stone_pile_recipe_ace": {
+					"recipe_name": "Pilha de Pedra (x2)",
+					"description": "Magicamente replicado através do tempo e do espaço.",
+					"flavor": "Usando pedra para fazer uma pilha, também produzirá uma pilha extra!"
+				},
+				"hard_seeds_recipe": {
+					"recipe_name": "Sementes Duras (x4)",
+					"description": "A mistura de sementes produz uma quantidade extra.",
+					"flavor": "Quando você precisar de sementes mais duras, elas aparecerão como a semente de carvalho resistente."
+				},
+				"hearthbud_blocks_recipe": {
+					"recipe_name": "Essência da Lareira (x3)",
+					"description": "O poder do Hearth concentrado pelo Hearthbud.",
+					"flavor": "Eu gosto do Dia da Lareira!"
+				},
+				"hearthbud_seeds_recipe": {
+					"recipe_name": "Semente do Hearthbud",
+					"description": "Combinar recursos pode gerar uma semente com propriedades mágicas.",
+					"flavor": "Tudo começa com um..."
+				},
+				"time_potion_recipe": {
+					"recipe_name": "Poção do Tempo",
+					"description": "Essência líquida brilhante de relógios condensados.",
+					"flavor": "Beba isso para parecer jovem."
+				},
+				"space_potion_recipe": {
+					"recipe_name": "Poção do Espaço",
+					"description": "Essência líquida escura do céu noturno.",
+					"flavor": "Há coisas lá fora, nas profundezas escuras do espaço."
+				},
+				"cosmic_heal_potion_recipe": {
+					"description": "Uma poção de cura de emergência para todos os membros da cidade.",
+					"recipe_name": "Poção de Cura Cósmica",
+					"flavor": "Fazer esta poção mágica irá trocar alguma riqueza por saúde."
+				},
+				"mind_potion_recipe": {
+					"description": "Esta poção tornará os cidadãos da sua cidade mais inteligentes por um curto período de tempo.",
+					"recipe_name": "Poção da Mente",
+					"flavor": "Uma Mente aumentada tornará seus ataques Moon Mage mais fortes, e Hearthlings serão mais inteligentes."
+				},
+				"star_steel_recipe": {
+					"description": "Barra de metal encantada, leve e forte.",
+					"recipe_name": "Estrela de Aço",
+					"flavor": "A metalicidade estelar do Green Star refinada."
+				},
+				"wooden_sign_timewizard_recipe": {
+					"recipe_name": "Sinal do Mago do Tempo",
+					"description": "Um sinal com a marca de um Mago do Tempo.",
+					"flavor": "Uma estrela vista no céu é como ela era há milhões de anos."
+				},
+				"star_sentry_recipe": {
+					"recipe_name": "Sentinela Estelar",
+					"description": "Uma estátua Starform que causa dano constante aos inimigos próximos.",
+					"flavor": "Proteja sua região com este Starform guardião."
+				},
+				"timestone_statue_recipe": {
+					"recipe_name": "Estátua da Pedra do Tempo",
+					"description": "Uma estátua decorativa de pedra esculpida imbuída de Pedras do Tempo mágicas.",
+					"flavor": "O Clã Amberstone ensinou ao Mago do Tempo como formar este dom especial."
+				},
+				"workbenches_name": "Bancada de trabalho e formas estelares e decorações",
+				"tools_name": "Ferramentas e armaduras",
+				"weapons_name": "Armas",
+				"potions_name": "Poções e materiais encantados",
+				"resources_name": "Recursos"
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"timewizard_staff_recipe": {
+					"recipe_name": "Equipe do Mago do Tempo",
+					"description": "Necessário para promover a um Assistente de Tempo.",
+					"flavor": "As vezes pisca e desaparece..."
+				}
+			}
+		},
+		"sunmage": {
+			"sunmage_description": {
+				"display_name": "Mago do Sol",
+				"description": "O Sun Mage exerce uma poderosa ira de calor e luz, canalizada através de armas de combate corpo a corpo.",
+				"requirements": "Criado pelo Mago do Tempo",
+				"level_1_data": {
+					"perk_000_name": "Força do Sol",
+					"perk_001_name": "Foto do Sol",
+					"perk_000_description": "O Corpo é reforçado por energias massivas.",
+					"perk_001_description": "Uma esfera de energia flamejante é atirada para a frente."
+				},
+				"level_2_data": {
+					"perk_000_name": "Carga Corona",
+					"perk_001_name": "Atração Corona",
+					"perk_000_description": "Aproveitar o calor periodicamente restaura a saúde e aumenta a resistência.",
+					"perk_001_description": "Os inimigos ficam furiosos ao ver o Sun Mage sendo energizado."
+				},
+				"level_3_data": {
+					"perk_000_name": "Velocidade da luz",
+					"perk_000_description": "Grande rapidez é concedida periodicamente a partir de um vento solar."
+				},
+				"level_4_data": {
+					"perk_000_name": "Explosão solar",
+					"perk_000_description": "Uma erupção é produzida e devolvida ao solo com força esmagadora."
+				},
+				"level_5_data": {
+					"perk_000_name": "Nova Queimada",
+					"perk_000_description": "A energia de calor radiante é girada furiosamente para fora."
+				},
+				"level_6_data": {
+					"perk_000_name": "Golpe a Laser",
+					"perk_000_description": "Um raio de destruição celestial direcionado atinge os inimigos próximos."
+				}
+			},
+			"sunmage_buffs": {
+				"sun_strength": {
+					"display_name": "Força do Sol",
+					"description": "Aumenta Corpo +2"
+				},
+				"corona_charge": {
+					"display_name": "Carga Corona",
+					"description": "Carregando para emitir buffs em armadura e saúde"
+				},
+				"corona_effect": {
+					"display_name": "Cobrado por Corona",
+					"description": "Armadura, músculo e regeneração impulsionados"
+				},
+				"corona_charge_effect": {
+					"display_name": "Carga Corona",
+					"description": "Regeneração de Saúde do Mago do Sol"
+				},
+				"light_speed": {
+					"display_name": "Velocidade da luz",
+					"description": "Recebendo um empurrão do vento solar"
+				},
+				"light_speed_effect": {
+					"display_name": "Velocidade Leve",
+					"description": "A velocidade aumentou muito"
+				},
+				"solar_speed_effect": {
+					"display_name": "Velocidade Solar",
+					"description": "Velocidade de carregamento do mago do sol aumentada"
+				},
+				"heavy_slows": {
+					"display_name": "Tempo lento",
+					"description": "Velocidade reduzida pela Star Sword"
+				}
+			},
+			"sunmage_outfit": {
+				"display_name": "Armadura do Mago do Sol Reluzente",
+				"description": "Traje de proteção celestial brilhante com grandes energias mágicas armazenadas dentro."
+			},
+			"sunmage_circlet": {
+				"display_name": "Argola do Mago do Sol",
+				"description": "Anel forjado dourado usado por um antigo titã da energia."
+			},
+			"sunmage_shield": {
+				"display_name": "Escudo do Mago do Sol",
+				"description": "A gloriosa face simbolizada do sol.",
+				"sunmage_shield_iconic": {
+					"display_name": "Escudo do Mago do Sol",
+					"description": "A gloriosa face simbolizada do sol."
+				},
+				"sunmage_shield_talisman": {
+					"display_name": "Escudo do Mago do Sol",
+					"description": "Necessário para promover um Hearthling a um Sun Mage."
+				}
+			},
+			"sunmage_spear": {
+				"display_name": "Lança do Mago do Sol",
+				"description": "Equilibrada e afiada, a lâmina reflete perfeitamente a luz.",
+				"sunmage_spear_iconic": {
+					"display_name": "Lança do Mago do Sol",
+					"description": "Arma perfurante laranja ardente."
+				}
+			}
+		},
+		"na_moonmage": {
+			"moonmage_description": {
+				"level_1_data": {
+					"hunting_perk_name": "Caçando",
+					"hunting_perk_description": "Um Mago da Lua da Aliança do Norte é naturalmente adepto do rastreamento de animais e pode caçar animais por comida e outros recursos."
+				}
+			}
+		},
+		"moonmage": {
+			"moonmage_description": {
+				"display_name": "Mago da Lua",
+				"description": "O Moon Mage arremessa pepitas de rochas lunares e debilita os inimigos com medo da escuridão.",
+				"requirements": "Criado pelo Mago do Tempo",
+				"level_1_data": {
+					"perk_000_name": "Lançamento da Pedra da Lua",
+					"perk_000_description": "Moon Rocks são conjurados e explodidos de uma varinha mágica ou cajado."
+				},
+				"level_2_data": {
+					"perk_000_name": "Fúria Lunar",
+					"perk_000_description": "Um inimigo ganha força muscular, mas perde a eficácia da armadura."
+				},
+				"level_3_data": {
+					"perk_000_name": "Terror noturno",
+					"perk_000_description": "O Moon Mage lança um ataque assustadoramente sombrio.",
+					"perk_001_name": "Tríade Noturna",
+					"perk_001_description": "Uma tríade de tentáculos parece desencorajar o inimigo."
+				},
+				"level_4_data": {
+					"perk_000_name": "Névoa Fria",
+					"perk_000_description": "A névoa fria da noite diminui o movimento do inimigo."
+				},
+				"level_5_data": {
+					"perk_000_name": "Maré alta",
+					"perk_000_description": "Na solidão e focado, o Moon Mage recebe atenção plena aprimorada."
+				},
+				"level_6_data": {
+					"perk_000_name": "Lua crescente",
+					"perk_000_description": "Os poderes aumentados permitem explosões mágicas sucessivas."
+				}
+			},
+			"moonmage_buffs": {
+				"lunar_rage": {
+					"display_name": "Fúria Lunar",
+					"description": "O músculo aumentou e a armadura diminuiu"
+				},
+				"night_terror": {
+					"display_name": "Terror noturno",
+					"description": "Coragem e Ameaça são reduzidos"
+				},
+				"chilly_fog": {
+					"display_name": "Névoa Fria",
+					"description": "A velocidade é bastante reduzida"
+				},
+				"rising_tide": {
+					"display_name": "Maré alta",
+					"description": "Aumenta a Mente +2"
+				},
+				"star_hit": {
+					"display_name": "Golpe de Estrela",
+					"description": "Ferido pelo Cajado da Estrela"
+				}
+			},
+			"moonmage_outfit": {
+				"display_name": "Vestes de Mago da Lua Prateada",
+				"description": "Feito de seda prateada e essências do espaço escuro, mantém o usuário em sintonia com a noite."
+			},
+			"moonmage_guard": {
+				"display_name": "Guarda Mago da Lua",
+				"description": "Um protetor de braço com uma fachada da lua gravada, com uma aura hipnotizante.",
+				"moonmage_guard_iconic": {
+					"display_name": "Guarda Mago da Lua",
+					"description": "Um protetor de braço com uma fachada da lua gravada, com uma aura hipnotizante."
+				},
+				"moonmage_guard_talisman": {
+					"display_name": "Guarda Mago da Lua",
+					"description": "Necessário para promover um Hearthling a um Moon Mage."
+				}
+			},
+			"moonmage_wand": {
+				"display_name": "Varinha do Mago da Lua",
+				"description": "Madeira escura com um par de luas crescentes roxas fixadas na extremidade superior.",
+				"moonmage_wand_iconic": {
+					"display_name": "Varinha do Mago da Lua",
+					"description": "Varinha mágica roxa profunda."
+				}
+			}
+		}
+	},
+	"ui": {
+		"timewizard": {
+			"display_name": "Menu de Artesanato do Mago do Tempo",
+			"description": "Manipule recursos e crie ferramentas místicas.",
+			"requirements": "Requer um Assistente de Tempo."
+		}
+	}
+}

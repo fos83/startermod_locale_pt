@@ -1,0 +1,321 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"bug_campaign": {
+					"bug": {
+						"sighted_bulletin": {
+							"title": "Angry Golem Bug vem para incomodar você!"
+						}
+					},
+					"big_bug": {
+						"sighted_bulletin": {
+							"title": "Big Golem Bug vem incomodar você!"
+						}
+					}
+				},
+				"calm_bug_campaign": {
+					"dialog_calm_bug_camp": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"info": {
+									"bulletin_message": {
+										"000": "Um Glowbug calmo e pacífico está aqui! Essa planta Glowbud pode produzir uma Essência Vinculante que é usada na criação de Golens Automáticos e Armas.<br><br><p align='left'><font size=-1 color='#cccccc'>Que bom amigo incomodar. Também encontramos uma semente de planta Glowbud, para começar a cultivar a nossa.</font></p>"
+									},
+									"bulletin_title": "As plantas Glowbud",
+									"dialog_title": "Essência de Ligação"
+								},
+								"info2": {
+									"bulletin_message": {
+										"000": "Este baú aqui parece bem antigo. Existe uma lenda dos Guerreiros Golem que vagam em uma cidade ocasionalmente, se eles notarem uma<span class='major'> Estátua Golem. </span><br><br><p align='left'><font size=-1 color='#cccccc'>Se você tiver sorte de encontrar uma Estátua de Golem, coloque-a em sua cidade. Depois de alguns dias, um Golem chegará.</font></p>"
+									},
+									"bulletin_title": "E um baú do tesouro?",
+									"dialog_title": "Uma estátua antiga"
+								}
+							}
+						}
+					},
+					"prompt_for_recurring_golem_fighter_citizen": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Você gostaria de deixar este Golem Fighter se juntar à sua cidade?<br><br><i><font size=-1>[Eles são lutadores dedicados, que não falam, comem ou descansam. No entanto, eles podem perecer se forem derrubados por perder toda a sua saúde.]</font></i>"
+									},
+									"bulletin_title": "Um Golem Autômato!",
+									"dialog_title": "Um Golem Fighter deseja se juntar a você!",
+									"choice_000": "✔️ Sim",
+									"choice_001": "❌ Não"
+								}
+							}
+						}
+					},
+					"grant_recurring_golem_fighter_citizen": {
+						"notification_title": "Um novo Golem Fighter se juntou à sua cidade!"
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"angry": {
+			"golem_bug": {
+				"display_name": "Bug Golem Furioso",
+				"description": "Fica com raiva ao ver Armas."
+			},
+			"golem_big_bug": {
+				"display_name": "Bug Golem Grande",
+				"description": "Uma praga irritada."
+			}
+		},
+		"calm": {
+			"calm_bug": {
+				"display_name": "Golem Glowbug",
+				"description": "Gosta de plantas Glowbud."
+			}
+		},
+		"decoration": {
+			"golem_statue": {
+				"golem_statue_ghost": {
+					"display_name": "Estátua de Golem",
+					"description": "Uma estátua que atrai Golem Fighters para a cidade de vez em quando, quando colocada no chão."
+				}
+			},
+			"loot_chest": {
+				"display_name": "Baú Antigo",
+				"description": "Abra-o para encontrar uma decoração especial."
+			}
+		},
+		"gizmos": {
+			"gun_blaster": {
+				"gun_blaster_ghost": {
+					"display_name": "Arma Blaster",
+					"description": "Defesa contra vários alvos contra Goblins, Bestas Selvagens."
+				}
+			},
+			"gun_zapper": {
+				"gun_zapper_ghost": {
+					"display_name": "Zapper Gun",
+					"description": "Defesa de Alvos Múltiplos contra Orcs, Mortos-Vivos, Titãs."
+				}
+			},
+			"gun_super": {
+				"gun_super_ghost": {
+					"display_name": "Superarma",
+					"description": "Máquina de defesa de múltiplos alvos."
+				}
+			},
+			"small_turret": {
+				"small_turret_ghost": {
+					"display_name": "Arma automática de torre",
+					"description": "Defesa Automática de Incêndio Pequena."
+				}
+			}
+		},
+		"plants": {
+			"bugbud": {
+				"stem": {
+					"bugbud_plant_stem": {
+						"display_name": "Glowbud de Haste",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"bugbud_plant_sprout": {
+						"display_name": "Broto de Glowbud",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"bugbud_plant_seed": {
+						"display_name": "Semente de Glowbud",
+						"description": "Pode ser plantado para cultivar uma flor Glowbug Bud que coleta Essência Vinculante."
+					},
+					"bugbud_plant_seed_ghost": {
+						"display_name": "Semente de Glowbud",
+						"description": "Pode ser plantado para cultivar uma flor Glowbud que coleta Essência Vinculante."
+					}
+				},
+				"bugbud_ghost": {
+					"display_name": "Glowbud",
+					"description": "Colhível para essência de ligação concentrada e mais sementes de Glowbud."
+				},
+				"unripe_description": "Ainda não está maduro para a colheita.",
+				"bud": {
+					"bugbud_plant_bud": {
+						"display_name": "Glowbud brotando",
+						"description": "Ainda apenas um botão saindo do chão. Aguenta aí, cara."
+					}
+				}
+			}
+		},
+		"resources": {
+			"binding_essence": {
+				"display_name": "Essência de Ligação",
+				"description": "Poder de ligação concentrado pelo Glowbud."
+			}
+		},
+		"refined": {
+			"golem_blocks": {
+				"display_name": "Blocos de Golem",
+				"description": "Peças para construir um Golem Automático ou uma Arma."
+			}
+		},
+		"monsters": {
+			"golems": {
+				"golem_building_automod": {
+					"display_name": "Golem de Martelo",
+					"description": "Construindo Auto Golem."
+				},
+				"golem_harvesting_automod": {
+					"display_name": "Golem Automático da Fazenda",
+					"description": "Colhendo Golem Automático."
+				},
+				"golem_mining_automod": {
+					"display_name": "Cavar Golem Automático",
+					"description": "Mineração Auto Golem."
+				},
+				"golem_restocking_automod": {
+					"display_name": "Bug Auto Golem",
+					"description": "Golem Automático de Transporte de Itens."
+				}
+			}
+		},
+		"weapons": {
+			"golem_fighter_weapon": {
+				"display_name": "Lâmina de Golem",
+				"description": "A enorme espada do lutador."
+			}
+		}
+	},
+	"jobs": {
+		"builder": {
+			"builder_description": {
+				"display_name": "Construtor",
+				"description": "Os construtores realizam tarefas básicas, como construir edifícios e colocar itens.",
+				"requirements": "Seja colocado no mundo para se tornar automatizado.",
+				"level_0_data": {
+					"title": "Construtor"
+				}
+			}
+		},
+		"golem_fighter": {
+			"golem_fighter_description": {
+				"display_name": "Lutador",
+				"description": "O Fighter é um combatente corpo a corpo Golem. Um Autômato destemido, embora não possa ser revivido quando derrubado.",
+				"requirements": "Auto Golem Cidadão",
+				"level_1_data": {
+					"perk_000_name": "Dano acima de 30%",
+					"perk_000_description": "O lutador ataca com muita determinação"
+				},
+				"level_2_data": {
+					"perk_000_name": "Pisada de Lutador",
+					"perk_000_description": "A pisada do lutador causa dano a alguns inimigos próximos"
+				},
+				"level_3_data": {
+					"perk_000_name": "Grande Briga",
+					"perk_000_description": "Soca o alvo com um ataque triplo"
+				},
+				"level_4_data": {
+					"perk_000_name": "Força da Pedra",
+					"perk_000_description": "O Lutador ganha um aumento de Músculo e Vigor"
+				},
+				"level_5_data": {
+					"perk_000_name": "Dano acima de 70%",
+					"perk_000_description": "Dano máximo!"
+				},
+				"level_6_data": {
+					"perk_000_name": "Girador lento",
+					"perk_000_description": "Um golpe giratório que causa dano aos inimigos ao redor do alvo"
+				}
+			},
+			"golem_fighter_buffs": {
+				"damage_1_buff": {
+					"description": "Os ataques do lutador são sempre fortes",
+					"display_name": "Dano +30%"
+				},
+				"damage_2_buff": {
+					"description": "O lutador ataca com ferocidade total",
+					"display_name": "Dano +70%"
+				},
+				"stone_strength_buff": {
+					"display_name": "Força da Pedra",
+					"description": "Músculo e resistência aumentados"
+				}
+			},
+			"golem_fighter_outfit": {
+				"display_name": "Armadura Rochosa",
+				"description": "O granito extra endurecido protege a cabeça e os ombros do Golem."
+			}
+		},
+		"mason": {
+			"mason_description": {
+				"level_1_data": {
+					"perk_001_name": "Estoque de armas",
+					"perk_001_description": "Mason permite 20 armas colocadas. (Ascendência, Aliança do Norte)"
+				}
+			},
+			"recipes": {
+				"categories": {
+					"golems_guns": "Golens e armas"
+				},
+				"golem_blocks_recipe": {
+					"recipe_name": "Blocos de Golem",
+					"description": "Blocos criados para usar na construção de Golens Automáticos ou Armas.",
+					"flavor": "Colha uma planta Glowbud para obter Binding Essence"
+				},
+				"golem_restocking_recipe": {
+					"recipe_name": "Bug Auto Golem"
+				},
+				"golem_mining_recipe": {
+					"recipe_name": "Cavar Golem Automático",
+					"flavor": "Nenhuma montanha pode resistir à picareta do Digger."
+				},
+				"golem_harvesting_recipe": {
+					"recipe_name": "Golem Automático da Fazenda"
+				},
+				"golem_building_recipe": {
+					"recipe_name": "Golem de Martelo",
+					"description": "Executa tarefas de construção e mineração.",
+					"flavor": "Eles vão construir o dia todo, mas precisam de ajuda para descer se estiverem presos. Quando não estão construindo, eles podem ir minerar."
+				},
+				"small_turret_recipe": {
+					"recipe_name": "Arma automática de torre",
+					"description": "Atira nos inimigos à distância.",
+					"flavor": "Dispositivo de dano de alvo único."
+				},
+				"gun_blaster_recipe": {
+					"recipe_name": "Arma Blaster",
+					"description": "Explode a área ao redor contra Goblins e Bestas Selvagens.",
+					"flavor": "Vários danos ao alvo, dispositivo de tiro lento."
+				},
+				"gun_zapper_recipe": {
+					"recipe_name": "Zapper Gun",
+					"description": "Zaps a área circundante contra Orcs, Undead e Titans.",
+					"flavor": "Vários danos ao alvo, dispositivo de tiro lento."
+				},
+				"gun_super_recipe": {
+					"recipe_name": "Superarma",
+					"description": "Dispara em todos os tipos de alvos atingidos por Blaster e Zapper Guns.",
+					"flavor": "Vários danos ao alvo, dispositivo de tiro lento."
+				}
+			}
+		},
+		"potter": {
+			"potter_description": {
+				"level_1_data": {
+					"perk_001_name": "Estoque de armas",
+					"perk_001_description": "Potter permite colocar 20 armas. (Filhos de Rayya)"
+				}
+			}
+		},
+		"shaman": {
+			"shaman_description": {
+				"level_1_data": {
+					"perk_001_name": "Estoque de armas",
+					"perk_001_description": "Shaman permite colocar 20 armas. (Clã Vaga-lume)"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"beast_pet_shop": {
+						"shop_info": {
+							"name": "Bestas de Stronk Dude",
+							"title": "Stronk Dude chega com suas feras domesticadas! 🐊"
+						}
+					}
+				},
+				"beast_pets_campaign": {
+					"stronk_dialogue": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "Stronk Dude está perto",
+									"dialog_title": "Um Domador de Bestas",
+									"bulletin_message": "Oi! Eu sou Stronk Dude!<br><br>Eu pego feras estranhas e domo-as. Posso vender-lhe alguns, de vez em quando. A maioria são apenas animais de estimação.<br>Às vezes eu também posso trazer estes:<br><br> Guardiões: Grifos guardam a cidade,<br> Transportadores: Caras Bestas transportam itens para o armazenamento. <br><br>Coloque minha <i>Beast Pets Shop</i> e me ligue!<br>Eu voltarei depois de muitos dias na natureza... <br>então espere.",
+									"choice": "Animais de estimação! 🐊"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"commands": {
+			"market": {
+				"display_name": "Comprar",
+				"description": "Abre uma vitrine",
+				"disabled_description": "Aguardando o retorno de Stronk"
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"entities": {
+				"item_categories": {
+					"beast_pets": "Animais de estimação",
+					"guardians": "Guardiões",
+					"haulers": "Transportadores"
+				}
+			}
+		}
+	},
+	"entities": {
+		"pets": {
+			"leaf_wolf": {
+				"display_name": "Lobo da Folha",
+				"description": "Evoluiu das tartarugas. Come muitas coisas.",
+				"species": "cão"
+			},
+			"earth_zilla": {
+				"display_name": "Dirtwyrm",
+				"description": "Um grande verme. Come muitas coisas.",
+				"species": "cão"
+			},
+			"fire_beetle": {
+				"display_name": "Besouro de Fogo",
+				"description": "Um besouro quente. Come muitas coisas.",
+				"species": "cão"
+			},
+			"zappernus": {
+				"display_name": "Zappernus",
+				"description": "Uma besta de raio. Come muitas coisas.",
+				"species": "cão"
+			},
+			"mad_minotaur": {
+				"display_name": "Cara da Besta Louca",
+				"description": "Transporta itens para armazenamento. (Lugar para ativar)"
+			},
+			"minotaur": {
+				"display_name": "Cara Fera",
+				"description": "Transporta itens para armazenamento. (Lugar para ativar)"
+			},
+			"griffin": {
+				"display_name": "Grifo",
+				"description": "Um leão-águia mágico. Defende a cidade.",
+				"species": "Dragão"
+			},
+			"night_griffin": {
+				"display_name": "Grifo da Noite",
+				"description": "Um sinistro Leão-Águia. Defende a cidade.",
+				"species": "Dragão"
+			}
+		},
+		"decoration": {
+			"beast_pets_market": {
+				"display_name": "Loja de animais de estimação",
+				"description": "Stronk Dude traz algumas feras para venda"
+			}
+		}
+	}
+}

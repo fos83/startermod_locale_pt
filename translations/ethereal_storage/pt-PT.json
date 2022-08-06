@@ -1,0 +1,29 @@
+{
+	"mixins": "file(pt-BR.json)",
+	"_comentarios_instrucoes":[
+		" 'mixins': 'file(pt-BR.json)' importará todo o conteudo do arquivo pt-BR",
+		"o que for incluido manualmente aqui irá sobrepor o que tinha sido importado.",
+		"Basicamente só é preciso adicionar o que for diferente da lingua brasileira"
+	],
+	"ai":{
+
+	},
+	"ui":{
+
+	},
+	"data":{
+
+	},
+	"entities":{
+
+	},
+	"jobs":{
+
+	},
+	"stonehearth_mixins":{
+
+	},
+	"scenarios":{
+		
+	}
+}

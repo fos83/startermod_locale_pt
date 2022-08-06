@@ -1,0 +1,29 @@
+{
+	"ui": {
+		"game": {
+			"unit_frame_plus": {
+				"job_toggle": {
+					"toggle_on": "Ativar trabalho",
+					"toggle_off": "Desativar trabalho",
+					"toggledCivOn": "A atividade de trabalho para esta unidade está ativada no momento; clique para desativá-lo.",
+					"toggledCivOff": "A atividade de trabalho para esta unidade está atualmente desativada; clique para ativá-lo.",
+					"toggledOn": "A atividade de trabalho para esta unidade ou parte está ativada no momento; clique para desativá-lo.",
+					"toggledOff": "A atividade de trabalho para esta unidade ou parte está atualmente desativada; clique para ativá-lo.",
+					"toggledSome": "A atividade de trabalho para alguns deste grupo está ativada e, para alguns, está desativada; clique para ativá-lo para todos."
+				},
+				"attack_with_parties": {
+					"title": "Ataque com Partes",
+					"description": "Ataque a entidade selecionada com uma parte individual ou todas as partes."
+				}
+			}
+		},
+		"hotkeys": {
+			"toggle_job": {
+				"display_name": "Alternar trabalho"
+			},
+			"show_promotion_tree": {
+				"display_name": "Promoção de emprego"
+			}
+		}
+	}
+}

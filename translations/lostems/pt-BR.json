@@ -1,0 +1,616 @@
+{
+	"data": {
+		"commands": {
+			"apply_next_skin": {
+				"display_name": "Alterar a skin do item",
+				"description": "Alterne para a próxima aparência disponível do item.",
+				"disabled_description": "A skin do item não pode ser alterada agora."
+			}
+		}
+	},
+	"entities": {
+		"construction": {
+			"clay_door": {
+				"display_name": "Porta de Barro",
+				"description": "Provavelmente o acessório de barro mais básico que já foi projetado.",
+				"flavor": "\"Recentemente, percebemos que é possível repintá-los de uma cor para outra.\" -- Ember Iskender, Dívida de Poesia Aplicada"
+			},
+			"clay_latticed_door": {
+				"display_name": "Porta treliçada de barro",
+				"description": "Deixa entrar os Hearthlings, o ar, os insetos...",
+				"flavor": "...na verdade seria mais fácil listar coisas que não deixa entrar."
+			},
+			"clay_latticed_window_frame_large": {
+				"display_name": "Moldura de janela grande de barro com treliça",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "Deixa entrar todo o ar do deserto e apenas insetos menores"
+			},
+			"clay_latticed_window_frame_small": {
+				"display_name": "Moldura de Janela de Argila Treliçada",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "\"Legal, alto e sem insetos por dentro!\" -Aaryn, Pragmatista"
+			},
+			"clay_latticed_window_frame_tall": {
+				"display_name": "Moldura de janela treliçada de barro",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "Deixa o deserto entrar, mas não os insetos!"
+			},
+			"clay_latticed_window_frame_wide": {
+				"display_name": "Moldura de janela com treliça larga de argila",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "\"Legal, largo e sem insetos por dentro!\" -Shazah, outro pragmático"
+			},
+			"clay_latticed_window_large": {
+				"display_name": "Grande janela treliçada de barro",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "A maior variedade."
+			},
+			"clay_latticed_window_small": {
+				"display_name": "Janela treliçada de barro",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "O ar entra, os insetos ficam fora. Não deixa entrar muita luz."
+			},
+			"clay_latticed_window_tall": {
+				"display_name": "Janela treliçada de barro",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "\"Legal, alto e sem insetos por dentro!\" -Aaryn, Pragmatista"
+			},
+			"clay_latticed_window_wide": {
+				"display_name": "Janela de treliça larga de barro",
+				"description": "Janelas de barro treliçadas não deixam passar bichos ou projéteis.",
+				"flavor": "\"Legal, largo e sem insetos por dentro!\" -Shazah, outro pragmático"
+			},
+			"clay_window_frame_large": {
+				"display_name": "Moldura de Janela Grande de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "Deixa entrar todo o ar do deserto. Não recomendado para tempestades de areia."
+			},
+			"clay_window_frame_small": {
+				"display_name": "Moldura da Janela de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "Deixa entrar o ar suave do deserto"
+			},
+			"clay_window_frame_tall": {
+				"display_name": "Moldura de Janela Alta de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "\"O peitoril da janela pode esfriar uma torta muito alta\" -Aaryn, Pragmatista"
+			},
+			"clay_window_frame_wide": {
+				"display_name": "Moldura de Janela Larga de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "\"O Windowsill pode esfriar uma torta muito grande\" -Shazah, Another Pragmatist"
+			},
+			"clay_window_large": {
+				"display_name": "Grande Janela de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "Oficialmente endossado pela Ordem de Equívoco Aplicado."
+			},
+			"clay_window_small": {
+				"display_name": "Janela de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "Um tanto fofo."
+			},
+			"clay_window_tall": {
+				"display_name": "Janela alta de barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "Ainda deixa entrar o ar suave do deserto"
+			},
+			"clay_window_wide": {
+				"display_name": "Ampla Janela de Barro",
+				"description": "Janelas de barro sem treliças deixam passar bichos e projéteis.",
+				"flavor": "Projetado para que você possa ver mais areia."
+			},
+			"cobblestone_window": {
+				"display_name": "Janela de paralelepípedos",
+				"description": "Esta janela primitiva permitirá a passagem de criaturas e projéteis.",
+				"flavor": "Ligeiramente Neandertal."
+			},
+			"cobblestone_window_large": {
+				"display_name": "Grande Janela de Paralelepípedos",
+				"description": "Esta janela primitiva permitirá a passagem de criaturas e projéteis.",
+				"flavor": "Perspectiva mais ampla, ambições mais altas!"
+			},
+			"cobblestone_window_tall": {
+				"display_name": "Janela alta de paralelepípedos",
+				"description": "Esta janela primitiva permitirá a passagem de criaturas e projéteis.",
+				"flavor": "Altura extra adiciona um ar de elegância. Para sua caverna."
+			},
+			"cobblestone_window_wide": {
+				"display_name": "Janela larga de paralelepípedos",
+				"description": "Esta janela primitiva permitirá a passagem de criaturas e projéteis.",
+				"flavor": "Isso é um dinossauro?"
+			},
+			"iron_double_door": {
+				"display_name": "Porta Dupla em Ferro",
+				"description": "Mais estudado do que portas de madeira ou pedra."
+			},
+			"iron_window": {
+				"display_name": "Janela de Ferro",
+				"description": "Difícil de quebrar significa difícil de quebrar!",
+				"flavor": "Se uma mente cativa não tem consciência de estar na prisão, está vivendo no erro."
+			},
+			"iron_window_large": {
+				"display_name": "Grande Janela de Ferro",
+				"description": "Escolas, quartéis, hospitais se assemelham a prisões.",
+				"flavor": "Monte Cristo? Devemos arquivar esse em \"Educacional\" também, não é?"
+			},
+			"iron_window_tall": {
+				"display_name": "Janela alta de ferro",
+				"description": "Nem calabouço sem ar, nem fortes elos de ferro podem reter a força do espírito.",
+				"flavor": "Mas a vida, cansada dessas grades mundanas, nunca carece de poder para se despedir."
+			},
+			"iron_window_wide": {
+				"display_name": "Janela de Ferro Ampla",
+				"description": "Muros de pedra não fazem prisão, nem grades de ferro uma jaula.",
+				"flavor": "Mentes inocentes e tranquilas consideram isso um eremitério."
+			},
+			"iron_wooden_door": {
+				"display_name": "Porta com estrutura de ferro",
+				"description": "Mais estudado do que portas de madeira ou pedra.",
+				"flavor": "Obrigatório para uma masmorra bonita."
+			},
+			"iron_wooden_double_door": {
+				"display_name": "Porta Dupla com Estrutura de Ferro",
+				"description": "Mais estudado do que as portas duplas de madeira ou pedra.",
+				"flavor": "Projetado para pessoas menos amigáveis."
+			},
+			"ornate_wooden_door_window": {
+				"display_name": "Porta ornamentada com janela",
+				"description": "Um pouco privado, um pouco não.",
+				"flavor": "Apenas para os mais amigáveis."
+			},
+			"ornate_wooden_double_door_window": {
+				"display_name": "Porta dupla ornamentada com janelas",
+				"description": "Um pouco privado, um pouco não.",
+				"flavor": "Apenas para os mais amigáveis."
+			},
+			"stone_window": {
+				"display_name": "Janela de pedra",
+				"description": "Ao contrário das esquadrias de pedra, as janelas de pedra não deixam passar bichos ou projéteis."
+			},
+			"stone_window_frame": {
+				"description": "Os caixilhos das janelas de pedra deixarão passar bichos ou projéteis."
+			},
+			"stone_window_frame_large": {
+				"display_name": "Grande moldura da janela de pedra",
+				"description": "Os caixilhos das janelas de pedra deixarão passar bichos ou projéteis.",
+				"flavor": "Perspectiva mais ampla, ambições mais altas!"
+			},
+			"stone_window_frame_tall": {
+				"description": "Os caixilhos das janelas de pedra deixarão passar bichos ou projéteis."
+			},
+			"stone_window_frame_wide": {
+				"description": "Os caixilhos das janelas de pedra deixarão passar bichos ou projéteis."
+			},
+			"stone_window_large": {
+				"display_name": "Grande Janela de Pedra",
+				"description": "Ao contrário das esquadrias de pedra, as janelas de pedra não deixam passar bichos ou projéteis.",
+				"flavor": "Perspectiva mais ampla... atrás das grades."
+			},
+			"stone_window_tall": {
+				"display_name": "Janela de pedra alta",
+				"description": "Ao contrário das esquadrias de pedra, as janelas de pedra não deixam passar bichos ou projéteis.",
+				"flavor": "Deixa a luz entrar no calabouço."
+			},
+			"stone_window_wide": {
+				"display_name": "Janela de pedra larga",
+				"description": "Ao contrário das esquadrias de pedra, as janelas de pedra não deixam passar bichos ou projéteis.",
+				"flavor": "É uma vista panorâmica. Atrás das grades."
+			},
+			"stone_wooden_door": {
+				"display_name": "Porta com moldura de pedra",
+				"description": "Construído para durar!"
+			},
+			"stone_wooden_door_2": {
+				"display_name": "Porta com moldura de pedra reforçada",
+				"description": "Mais resistente do que a sua porta média.",
+				"flavor": "Este padrão aqui, eu aprendi com o Squarefolk."
+			},
+			"stone_wooden_double_door": {
+				"display_name": "Porta Dupla com Estrutura de Pedra",
+				"description": "Uma porta maior. Causa bastante impressão.",
+				"flavor": "Algumas pessoas querem fazer uma entrada... todos os dias."
+			},
+			"stone_wooden_tunnel_door": {
+				"display_name": "Porta do túnel com estrutura de pedra",
+				"description": "Útil para selar túneis de minas."
+			},
+			"wooden_window": {
+				"display_name": "Janela de madeira",
+				"description": "Ao contrário das esquadrias de madeira, as janelas de madeira não deixam passar bichos ou projéteis.",
+				"flavor": "Os lados de uma moldura de janela são chamados de montantes ou portas."
+			},
+			"wooden_window_frame": {
+				"description": "Os caixilhos das janelas de madeira permitem a passagem de criaturas ou projéteis."
+			},
+			"wooden_window_frame_large": {
+				"display_name": "Grande moldura de janela de madeira",
+				"description": "Os caixilhos das janelas de madeira permitem a passagem de criaturas ou projéteis.",
+				"flavor": "Toda a moldura da janela pode ser chamada de chambranle ou antepagmentum."
+			},
+			"wooden_window_frame_tall": {
+				"description": "Os caixilhos das janelas de madeira permitem a passagem de criaturas ou projéteis."
+			},
+			"wooden_window_frame_wide": {
+				"description": "Os caixilhos das janelas de madeira permitem a passagem de criaturas ou projéteis."
+			},
+			"wooden_window_large": {
+				"display_name": "Grande Janela de Madeira",
+				"description": "Ao contrário das esquadrias de madeira, as janelas de madeira não deixam passar bichos ou projéteis.",
+				"flavor": "Perspectiva mais ampla, ambições mais altas!"
+			},
+			"wooden_window_tall": {
+				"display_name": "Janela alta de madeira",
+				"description": "Ao contrário das esquadrias de madeira, as janelas de madeira não deixam passar bichos ou projéteis.",
+				"flavor": "O elemento vertical que divide a janela é chamado de montante."
+			},
+			"wooden_window_wide": {
+				"display_name": "Ampla Janela de Madeira",
+				"description": "Ao contrário das esquadrias de madeira, as janelas de madeira não deixam passar bichos ou projéteis.",
+				"flavor": "A parte superior de uma janela é chamada de transversal ou supercílio"
+			}
+		},
+		"containers": {
+			"amphora_dyed": {
+				"display_name": "Ânfora de cerâmica tingida"
+			},
+			"input_bin_clay_dyed": {
+				"display_name": "Bacia de abastecimento de cerâmica tingida"
+			},
+			"input_bin_stone": {
+				"display_name": "Caixote de suprimentos de pedra",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_bin_wood": {
+				"display_name": "Caixa de suprimentos de madeira",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_bin_woven_padded": {
+				"display_name": "Cesto de Suprimentos Tecido Acolchoado"
+			},
+			"input_corner_ground_clay": {
+				"display_name": "Rack de suprimentos de canto de cerâmica",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_corner_ground_wood": {
+				"display_name": "Rack de suprimentos de canto de madeira",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_shelf_ground_clay": {
+				"display_name": "Rack de Suprimentos Cerâmicos",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_shelf_ground_iron": {
+				"display_name": "Rack de suprimentos com estrutura de ferro",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_shelf_wall_clay": {
+				"display_name": "Prateleira de fornecimento de parede de cerâmica",
+				"description": "Certifique-se de que está ao seu alcance!",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_shelf_wall_iron": {
+				"display_name": "Prateleira de suprimentos de parede com tachas de ferro",
+				"description": "Certifique-se de que está ao seu alcance!",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"input_table_ground_wood": {
+				"display_name": "Mesa de Fornecimento de Madeira",
+				"description": "Um recipiente de suprimentos, para criação mais rápida.",
+				"flavor": "Pense no que podemos alcançar quando os Hearthlings trabalham juntos!"
+			},
+			"iron_chest": {
+				"display_name": "Baú com Banda de Ferro",
+				"description": "Armazena com segurança até 64 itens.",
+				"flavor": ""
+			},
+			"output_box_iron": {
+				"display_name": "Prateleira de trabalho acabada com estrutura de ferro",
+				"description": "Armazenamento temporário para itens criados.",
+				"flavor": "Os artesãos adoram mostrar seu trabalho!"
+			},
+			"pet_food_bowl_clay_dyed": {
+				"display_name": "Tigela de croquete de barro tingido"
+			}
+		},
+		"decoration": {
+			"banner_wall_standard": {
+				"display_name": "Padrão de parede",
+				"description": "Mostre seu orgulho da cidade com este padrão.",
+				"flavor": "Recomendado para padrões mais elevados."
+			},
+			"fur_rug_small": {
+				"display_name": "Tapete de Pele Pequeno",
+				"description": "Feito de peles de animais."
+			},
+			"golden_clay_wall_planter_large": {
+				"display_name": "Plantador de Barro Longo",
+				"description": "Anima as paredes",
+				"stonehearth_ace": {
+					"display_name": "Plantador de barro largo",
+					"description": "Um vaso decorativo. Inclui Oleanders mas pode ser escolhida outra erva."
+				}
+			},
+			"ornate_throw_rug_small": {
+				"display_name": "Tapete ornamentado pequeno",
+				"description": "Tecer um tapete bonito e estampado.",
+				"flavor": "Você vai se sentir mal por pisar nele."
+			},
+			"potted_cactus_large": {
+				"display_name": "cactos em vaso",
+				"description": "Cuidado, eles ainda são espinhosos.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de barro largo",
+					"description": "Um vaso decorativo. Inclui cactos, mas pode ser escolhida outra erva."
+				}
+			},
+			"throw_rug_small": {
+				"display_name": "Tapete Pequeno",
+				"description": "Ilumina aquele velho chão empoeirado.",
+				"flavor": "Linda demais para pisar."
+			},
+			"window_box_brightbell_large": {
+				"display_name": "Plantador Longo Brightbell",
+				"description": "Uma casa mais longa para a planta.",
+				"stonehearth_ace": {
+					"display_name": "Vaso Vaso De Madeira",
+					"description": "Um vaso decorativo. Inclui Brightbells, mas outra erva pode ser escolhida."
+				}
+			},
+			"window_box_carved_violet": {
+				"display_name": "Plantador de violeta esculpido",
+				"description": "Uma casa arrumada para algumas flores adoráveis.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de pedra esculpida",
+					"description": "Um vaso decorativo. Inclui Violetas mas pode ser escolhida outra erva."
+				}
+			},
+			"window_box_frostsnap_large": {
+				"display_name": "Plantador Longo Frostsnap",
+				"description": "Uma casa mais longa para a planta.",
+				"stonehearth_ace": {
+					"display_name": "Vaso Vaso De Madeira",
+					"description": "Um vaso decorativo. Inclui Frostsnaps, mas outra erva pode ser escolhida."
+				}
+			},
+			"window_box_stone_snow_poppy": {
+				"display_name": "Plantador de papoilas da neve",
+				"description": "Uma casa arrumada para algumas flores adoráveis.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de janela de pedra",
+					"description": "Um vaso decorativo. Tem papoilas da neve mas pode ser escolhida outra erva."
+				}
+			},
+			"window_box_stone_snow_poppy_large": {
+				"display_name": "Plantador de papoilas de neve comprida",
+				"description": "Uma casa mais longa para algumas flores encantadoras.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de Pedra Larga",
+					"description": "Um vaso decorativo. Tem papoilas da neve mas pode ser escolhida outra erva."
+				}
+			},
+			"window_box_stone_violet_large": {
+				"display_name": "Plantador Violeta Longo",
+				"description": "Uma casa mais longa para algumas flores encantadoras.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de Pedra Larga",
+					"description": "Um vaso decorativo. Inclui Violetas mas pode ser escolhida outra erva."
+				}
+			}
+		},
+		"furniture": {
+			"comfy_arch_backed_chair": {
+				"display_name": "Cadeira Confortável em Arco Catedral",
+				"description": "Apenas no caso de ajoelhar-se exausto você",
+				"flavor": "Adequado para seguidores menos zelosos."
+			},
+			"comfy_stone_chair": {
+				"display_name": "Cadeira de pedra confortável",
+				"description": "Surpreendentemente desconfortável",
+				"flavor": "\"Céus! Em que estou sentado?\" --Violet Crawley, Condessa Viúva de Grantham"
+			},
+			"comfy_stool": {
+				"display_name": "Banco de madeira confortável",
+				"description": "Inclinar-se demais pode causar problemas de gravitação.",
+				"flavor": "A vida é muito mais fácil com almofadas."
+			},
+			"iron_bed": {
+				"display_name": "Cama com estrutura de ferro",
+				"description": "É possível dormir nele.",
+				"flavor": "E não morde!"
+			},
+			"iron_chair": {
+				"display_name": "Cadeira de Ferro",
+				"description": "Pode não ser o mais confortável."
+			},
+			"iron_comfy_bed": {
+				"display_name": "Cama confortável com estrutura de ferro",
+				"description": "Sólido e confortável, local perfeito para uma soneca.",
+				"flavor": "É bastante macio para um objeto de metal."
+			},
+			"iron_desk": {
+				"display_name": "Secretária com Faixa de Ferro",
+				"description": "Pequeno espaço de trabalho bonito com uma base sólida."
+			},
+			"ornate_arch_backed_chair": {
+				"display_name": "Cadeira ornamentada em arco-catedral",
+				"description": "Esse ouro vem de um dízimo?",
+				"flavor": "Church of Plenty pode pedir para devolvê-lo."
+			},
+			"ornate_comfy_arch_backed_chair": {
+				"display_name": "Cadeira Catedral-Arco Confortável Ornamentada",
+				"description": "Mais suave do que a oração de uma criança",
+				"flavor": "A propósito, você viu alguém orando aqui?"
+			},
+			"ornate_comfy_stool": {
+				"display_name": "Tamborete de madeira confortável ornamentado",
+				"description": "Definitivamente não é rústico.",
+				"flavor": "Você pode adormecer sentado nele."
+			},
+			"ornate_wooden_stool": {
+				"display_name": "Tamborete de madeira ornamentado",
+				"description": "Ainda é rústico?",
+				"flavor": "Eu acho que é se você se acostumar com o ouro."
+			},
+			"simple_wooden_stool": {
+				"display_name": "Tamborete de Madeira Simples",
+				"description": "Enquanto a comida sentada é 20% mais eficaz.",
+				"flavor": "Bom se você preferir um toque rústico."
+			}
+		}
+	},
+	"jobs": {
+		"carpenter": {
+			"recipes": {
+				"window_box_brightbell_large_recipe": {
+					"recipe_name": "Caixa de Janela Grande Brightbell",
+					"description": "Uma floreira cheia de flores de sino brilhante, construída para ser colocada abaixo de amplas molduras de janelas.",
+					"flavor": "Um sino brilhante por dia mantém os Ogros longe!",
+					"stonehearth_ace": {
+						"recipe_name": "Plantador largo com sinos brilhantes",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Brightbells, mas uma erva diferente pode ser escolhida e plantada pelo Herbalist."
+					}
+				},
+				"window_box_frostsnap_large_recipe": {
+					"recipe_name": "Caixa de janela grande Frostsnap",
+					"description": "Uma floreira cheia de flores Frostsnap, construída para ser colocada abaixo de amplas molduras de janelas.",
+					"flavor": "A pedra angular de uma habitação civilizada.",
+					"stonehearth_ace": {
+						"recipe_name": "Plantador largo com Frostsnaps",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Frostsnaps, mas uma erva diferente pode ser escolhida e plantada pelo Herbalist."
+					}
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"window_box_carved_violet_recipe": {
+					"recipe_name": "Caixa Esculpida Violeta",
+					"description": "Uma floreira cheia de flores violetas, construída para ser colocada abaixo dos caixilhos das janelas.",
+					"flavor": "A pedra angular de uma habitação civilizada.",
+					"stonehearth_ace": {
+						"recipe_name": "Plantador esculpido com violetas",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Violetas, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				},
+				"window_box_snow_poppy_large_recipe": {
+					"recipe_name": "Caixa de janela grande com papoula da neve",
+					"description": "Uma caixa de plantador cheia de flores de papoilas da neve, construída para ser colocada sob amplas molduras de janelas.",
+					"flavor": "Uma manhã ártica escura é sempre mais brilhante com uma papoula.",
+					"stonehearth_ace": {
+						"recipe_name": "Vaso plantador com papoilas de neve",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Snow Poppies, mas uma erva diferente pode ser escolhida e plantada pelo Herbalist."
+					}
+				},
+				"window_box_snow_poppy_recipe": {
+					"recipe_name": "Caixa de janela de papoula de neve",
+					"description": "Uma caixa de plantador cheia de flores de papoilas da neve, construída para ser colocada abaixo dos caixilhos das janelas.",
+					"flavor": "Uma manhã ártica escura é sempre mais brilhante com uma papoula.",
+					"stonehearth_ace": {
+						"recipe_name": "Plantador de janela com papoilas de neve",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Snow Poppies, mas uma erva diferente pode ser escolhida e plantada pelo Herbalist."
+					}
+				},
+				"window_box_violet_large_recipe": {
+					"recipe_name": "Grande Vitrine Violeta",
+					"description": "Uma floreira cheia de flores violetas, construída para ser colocada sob amplas molduras de janelas.",
+					"flavor": "A pedra angular de uma habitação civilizada.",
+					"stonehearth_ace": {
+						"recipe_name": "Vaso plantador com violetas",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Snow Poppies, mas uma erva diferente pode ser escolhida e plantada pelo Herbalist."
+					}
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"golden_clay_wall_planter_large_recipe": {
+					"recipe_name": "Plantador de Barro Longo",
+					"description": "Anima as paredes",
+					"flavor": "Água? Solo? Sementes? Desde quando isso é necessário? --Acolyte of Rayya's Mystery",
+					"stonehearth_ace": {
+						"recipe_name": "Vaso plantador com loendros",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Inclui Oleanders, mas uma erva diferente pode ser escolhida e plantada pelo Herbalist."
+					}
+				},
+				"potted_cactus_large_recipe": {
+					"recipe_name": "cactos em vaso",
+					"description": "Cuidado, eles ainda são espinhosos.",
+					"flavor": "Os cactos não são apenas ouriços veganos? --Jessica, um pouco inteligente.",
+					"stonehearth_ace": {
+						"recipe_name": "Vaso plantador com cactos",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Cactos, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			}
+		},
+		"shared": {
+			"recipes": {
+				"building_parts_name": "Peças de construção",
+				"doors_name": "Portas",
+				"furniture_name": "Mobiliário",
+				"signage_decoration_name": "Sinalização e decoração",
+				"windows_name": "Janelas"
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"fur_rug_small_recipe": {
+					"recipe_name": "Tapete de Pele Pequeno",
+					"description": "Um tapete quente e aconchegante, costurado com várias peles de animais.",
+					"flavor": "Perfeito para uma noite junto à lareira."
+				}
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"item_palette": {
+				"skin_changer": {
+					"tip_description": "Este item possui skins que podem ser alteradas enquanto e após a colocação do item:"
+				}
+			},
+			"menu": {
+				"build_menu": {
+					"items": {
+						"place_item": {
+							"tip_bindings": {
+								"change_skin": "build:change_skin",
+								"left_binding": "build:rotate:left",
+								"right_binding": "build:rotate:right"
+							},
+							"tip_description": "Gire com as teclas [str(left_binding)] e [str(right_binding)].<br>Mude a skin com a tecla [str(change_skin)]."
+						}
+					}
+				},
+				"place_menu": {
+					"items": {
+						"place_item": {
+							"tip_bindings": {
+								"change_skin": "build:change_skin",
+								"left_binding": "build:rotate:left",
+								"right_binding": "build:rotate:right"
+							},
+							"tip_description": "Gire com as teclas [str(left_binding)] e [str(right_binding)].<br>Mude a skin com a tecla [str(change_skin)]."
+						}
+					}
+				}
+			}
+		},
+		"shell": {
+			"settings": {
+				"controls_tab": {
+					"key_binding_names": {
+						"change_skin": "Mudar de pele"
+					}
+				}
+			}
+		}
+	}
+}

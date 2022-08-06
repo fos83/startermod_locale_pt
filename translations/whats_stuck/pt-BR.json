@@ -1,0 +1,42 @@
+{
+	"ui": {
+		"game": {
+			"whats_stuck": {
+				"title": "O que está preso?",
+				"tab": {
+					"citizens": "Hearthlings",
+					"items": "Itens",
+					"enemies": "Inimigos",
+					"buildings": "Edifícios (em breve!)"
+				},
+				"no_hearth": {
+					"name": "A lareira da sua cidade não foi encontrada",
+					"description": "Certifique-se de que a lareira da sua cidade esteja localizada em algum lugar do mundo. Se um hearthling tem um caminho viável para o hearth da sua cidade é usado para determinar se ele está preso."
+				},
+				"citizens_list_headers": {
+					"name": "Nome",
+					"time": "Tempo parado"
+				},
+				"items_list_headers": {
+					"name": "Nome",
+					"time": "Falha no tempo de reabastecimento"
+				},
+				"buildings_list_headers": {
+					"name": "Nome",
+					"time": "Tempo parado"
+				},
+				"enemies_list_headers": {
+					"name": "Nome",
+					"kingdom": "Reino",
+					"time": "Tempo parado"
+				}
+			},
+			"menu": {
+				"whats_stuck_manager": {
+					"display_name": "O que está preso?",
+					"description": "Se um hearthling ou outra coisa ficar preso em sua cidade, você será alertado aqui!"
+				}
+			}
+		}
+	}
+}

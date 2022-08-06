@@ -1,0 +1,342 @@
+{
+	"data": {
+		"gm": {
+			"campaigns": {
+				"hunting": {
+					"wild_game_spawn": "🏹 Jogo selvagem foi rastreado! 🏹",
+					"weekly_hunt": {
+						"common": {
+							"bulletin_title": "🏹 Uma oportunidade para a caça furtiva! 🏹",
+							"accept": "✔️ Aceitar",
+							"reject": "❌ Recusar",
+							"accept_reward": "Bem vindo de volta!",
+							"bulletin_title_return": "🏹 O Caçador retorna! 🏹",
+							"return": "O Caçador volta trazendo os despojos de suas vitórias em terras distantes:<font size=-4>",
+							"quest_text_level_2": "Selecione um Caçador (Nível 2+) para participar desta expedição.",
+							"quest_text_level_3": "Selecione um Caçador (Nível 3+) para participar desta expedição.",
+							"quest_text_level_4": "Selecione um Caçador (Nível 4+) para participar desta expedição.",
+							"quest_text_level_5": "Selecione um Caçador (Nível 5+) para participar desta expedição.",
+							"quest_text_level_6": "Selecione um Caçador (Nível 6) para participar desta expedição.",
+							"quest_bulletin_title": "🏹 Selecione um caçador 🏹",
+							"large_reward": "...e mais alguns!"
+						},
+						"small": {
+							"title": "Expedição de caça curta",
+							"message": {
+								"01": "Algumas trilhas frescas que levam a um rio próximo indicam que pode haver um grupo de animais passando pela área, não muito longe da nossa cidade. Se eles estão indo para o rio, é provável que passem algum tempo lá. Nada impressionante, mas definitivamente bom o suficiente para obter algumas peles e comida adicionais.<p>Esta expedição requer pelo menos um aprendiz de Caçador (Nível 2+) e deve durar um dia ou mais.",
+								"02": "Um viajante de passagem insinuou um pequeno bando de animais não muito longe no deserto. Eles estavam vindo em nossa direção, mas é provável que os animais prefiram evitar se aproximar da cidade - podemos tentar ir até eles, mesmo que não seja um grande grupo, ainda pode valer a pena pelos recursos fáceis.<p>Isso expedição requer pelo menos um aprendiz de caçador (Nível 2+) e deve durar um dia ou mais.",
+								"03": "Algumas raízes e plantas foram tocadas durante a noite, o que provavelmente indica que alguns animais passaram pela área. Não é um grupo grande e não pode realmente alimentar uma cidade, mas há uma chance de que eles ainda estejam por perto e talvez esta seja uma boa oportunidade para obter alguns recursos extras.<p>Esta expedição requer pelo menos um aprendiz de caçador (Nível 2 +) e deve durar um dia ou mais.",
+								"04": "Agricultores de um assentamento próximo reclamaram que suas plantações foram atacadas por pequenos bichos durante a noite. Parece que um pequeno grupo de animais encontrou um lugar desejável para ficar e chegar até eles deve ser bastante simples. Uma boa chance de ajudar nossa cidade e seu assentamento.<p>Esta expedição requer pelo menos um aprendiz de Caçador (Nível 2+) e deve durar mais ou menos um dia.",
+								"05": "Existem muitos rastros de pequenos animais e excrementos perto das bordas da nossa região, o que provavelmente é uma indicação de uma boa oportunidade de caça. Nada muito especial, mas provavelmente vale a pena pelo baixo esforço que seria necessário para encontrá-los e pelo quão perto eles provavelmente estão.<p>Esta expedição requer pelo menos um aprendiz de Caçador (Nível 2+) e deve durar um dia ou mais.",
+								"06": "Há uma boa sombra e uma boa fonte de água não muito longe da nossa área, e é possível que os animais apreciem esse local nessa época do ano. Ir para lá não deve demorar muito e é provavelmente uma oportunidade interessante para algumas peles extras e comida.<p>Esta expedição requer pelo menos um aprendiz de Caçador (Nível 2+) e deve durar um dia ou mais."
+							}
+						},
+						"medium": {
+							"title": "Expedição de caça",
+							"message": {
+								"01": "Um rio não muito longe da nossa cidade tem muita vegetação ao seu redor e deve ser um local muito atraente para pequenos ou médios animais. Subir o rio por alguns dias pode ser uma empreitada lucrativa para adquirir peles e carne - e a viagem de volta pode ser encurtada com rafting em suas correntes. <p>Esta expedição requer pelo menos um caçador profissional (Nível 3+) e deve durar alguns dias.",
+								"02": "Há uma pequena floresta a um ou dois dias da nossa cidade que deve estar repleta de vida selvagem nesta época do ano. É possível que em uma única tarde uma boa quantidade de caça possa ser caçada e depois devolvida na manhã seguinte. <p>Esta expedição requer pelo menos um caçador profissional (Nível 3+) e deve durar alguns dias.",
+								"03": "Um mercador viajante informou nossa cidade que eles avistaram muitos animais na estrada em direção à capital, a apenas alguns dias de nós. Talvez esta seja uma boa oportunidade para ir em uma viagem de caça e possivelmente até mesmo pegar uma carona de volta para casa com uma caravana.<p>Esta expedição requer pelo menos um caçador profissional (Nível 3+) e deve durar alguns dias.",
+								"04": "Vizinhos de uma vila próxima nos informaram que parece haver um bando de animais perambulando por seu território e eles realmente não possuem os meios para lidar com eles agora. Talvez pudéssemos aproveitar esta oportunidade e compartilhar alguns dos troféus com eles. Nós levaríamos a maioria das mercadorias para casa, é claro.<p>Esta expedição requer pelo menos um Caçador oficial (Nível 3+) e deve durar alguns dias.",
+								"05": "Alguns rastros que levam à natureza indicam que um grupo considerável de animais passou por nossas terras recentemente. Eles não são tão novos, no entanto, e persegui-los pode exigir uma viagem curta - os benefícios provavelmente compensarão o esforço, no entanto.<p>Esta expedição requer pelo menos um caçador profissional (Nível 3+) e deve durar alguns dias.",
+								"06": "Caçadores de diferentes cidades exploram uma generosa área de arbustos não muito longe daqui. Há muito para todos e provavelmente poderíamos obter alguns recursos, peles e carne para nós mesmos se passarmos alguns dias nisso também.<p>Esta expedição requer pelo menos um caçador profissional (Nível 3+) e deve durar alguns de dias.",
+								"07": "Há uma ilha selvagem e indomável nas proximidades, com muito potencial para caça e pesca. Montar um pequeno acampamento para capturar esses animais pode dar muito trabalho, no entanto, um único caçador pode facilmente navegar até lá e voltar com algum jogo. Não deve demorar tanto e é basicamente livre de riscos.<p>Esta expedição requer pelo menos um Caçador oficial (Nível 3+) e deve durar alguns dias.",
+								"08": "Migrantes que se dirigem para outra cidade mencionaram a presença de muitos animais pastando em um mar de colinas não tão longe de nós. Viajar para lá sozinho pode levar um dia ou mais, mas não deve ser difícil localizá-los e levar para casa alguns suprimentos extras.<p>Esta expedição requer pelo menos um caçador de aprendizes (Nível 3+) e deve durar alguns dias ."
+							}
+						},
+						"large": {
+							"title": "Longa expedição de caça",
+							"message": {
+								"01": "Há uma floresta muito famosa dentro das fronteiras do reino, conhecida por sua generosidade generosa e presa fácil. Um caçador habilidoso e disposto poderia definitivamente investir algum tempo na jornada, mas trazer de volta recursos, peles e pedaços de carne do grande jogo. Pode valer a pena, mesmo que um pouco distante.<p>Esta expedição requer um mestre Caçador (Nível 4+) e deve durar três dias ou mais.",
+								"02": "As pastagens junto aos vales dos rios são um local de caça popular e lucrativo nesta época do ano. Eles não são muito próximos, mas a viagem pode ser encurtada por barco e estradas. Um caçador apreciaria esta boa oportunidade de trazer o grande jogo de volta à nossa cidade.<p>Esta expedição requer um mestre caçador (Nível 4+) e deve durar três dias ou mais.",
+								"03": "Há uma abundância de vida selvagem e grande jogo esperando por uma flecha para voar dentro das florestas ao sul. Não é uma viagem fácil nem curta, mas um caçador capaz voltaria para casa carregado com carne e peles da melhor qualidade.<p>Esta expedição requer um caçador mestre (Nível 4+) e deve durar três dias ou mais.",
+								"04": "Desde que seu próprio caçador e caçador reembarcou em novas aventuras, uma cidade relativamente distante conhecida por suas florestas frutíferas parou de fornecer recursos e bens animais. Eles podem estar esperando, mas a natureza não, então seria muito lucrativo para o nosso caçador entrar em seu território e adquirir alguma caça enquanto eles não estão lá.<p>Esta expedição requer um caçador mestre (Nível 4+) e deve durar três dias ou mais.",
+								"05": "Poucos animais vagam pelos pântanos que existem a um ou dois dias de nossa cidade - mas quando o fazem, eles vêm em bandos de animais grandes. Acredita-se que este clima seja perfeito para uma expedição por lá, e deve trazer bons retornos para nossa cidade, mesmo que um pouco distante.<p>Esta expedição requer um mestre Caçador (Nível 4+) e deve durar três dias ou mais .",
+								"06": "Há muitas oportunidades a serem aproveitadas seguindo os vales dos rios até as montanhas. Todo o circuito pode levar alguns dias para ser concluído, mas um caçador habilidoso certamente encontrará vários grupos de grandes animais. Uma boa oportunidade para peles e carne.<p>Esta expedição requer um mestre Caçador (Nível 4+) e deve durar três dias ou mais."
+							}
+						},
+						"huge": {
+							"title": "Grande expedição de caça",
+							"message": {
+								"01": "Grandes grupos de animais migratórios marcham pelas bordas da Floresta Darkmoor nessa época do ano. Muitos caçadores de diferentes terras se juntarão à caça de grandes animais e grandes oportunidades. Seria muito sensato enviar o nosso.<p>Esta expedição requer um mestre Hunter (Nível 5+) e deve durar vários dias.",
+								"02": "Esta temporada é famosa pelas grandes oportunidades de caça furtiva nas profundezas da Valkyrie Woods. Se eles vencessem o frio e a selva, nosso caçador voltaria para casa carregado com recursos como peles e carne.<p>Esta expedição requer um caçador mestre (Nível 5+) e deve durar vários dias.",
+								"03": "Por mais raro que seja, as oportunidades de caça existem nos vastos desertos de Pal'Mum e este é um momento. Caçadores de todas as terras se reúnem para enfrentar os grupos migratórios - e devemos enviar os nossos também.<p>Esta expedição requer um mestre Caçador (Nível 5+) e deve durar vários dias.",
+								"04": "Sempre há caça a ser caçada nas falésias complicadas do Planalto de Whiterock, mas há uma temporada de caça específica que chama todos os caçadores devido à sua aventura muito lucrativa e emocionante. Eles voltariam para casa cheios de espólios!<p>Esta expedição requer um mestre Caçador (Nível 5+) e deve durar vários dias."
+							}
+						},
+						"wolves": {
+							"title": "Mantendo os lobos na baía",
+							"message": {
+								"01": "Agricultores de uma pequena vila estão desesperados por causa de uma matilha de lobos que parece estar vagando por sua área, atacando à noite e perseguindo poyos e animais de estimação. Hora de jogar o herói e fazer uma coisa boa - enquanto também leva para casa algumas peles valiosas!<p>Esta expedição requer pelo menos um caçador experiente (Nível 4+) e deve durar cerca de quatro dias.",
+								"02": "Os pastores das montanhas próximas estão tendo problemas para contar suas ovelhas... Parece que seus números diminuem todas as noites, os lobos uivam pelos vales. Vamos ajudar esses pobres eremitas enviando nosso caçador para fazer a coisa certa - e nos trazer alguns bens.<p>Esta expedição requer pelo menos um caçador adepto (Nível 4+) e deve durar cerca de quatro dias.",
+								"03": "Viajantes relataram uma matilha de lobos se mudando para nossa região nas últimas noites. Eles não são um problema ainda, mas podem ser no futuro. Seria sensato selecionar seus números agora. Sábia e lucrativa.<p>Esta expedição requer pelo menos um caçador adepto (Nível 4+) e deve durar cerca de quatro dias."
+							}
+						},
+						"cougars": {
+							"title": "Perseguindo grandes felinos",
+							"message": {
+								"01": "Grandes felinos têm assustado os pescadores dos pequenos povoados próximos ao rio. Perseguir esses grandes predadores pode exigir muita astúcia e vários dias - mas as recompensas definitivamente valerão a pena.<p>Esta expedição requer um mestre Caçador (Nível 5+) e deve durar cerca de cinco dias.",
+								"02": "O povo tem falado sobre gatos enormes atacando pessoas e animais perto das bordas das florestas mais quentes ao sul. Esses animais podem ser traiçoeiros e muita habilidade é necessária, mas um caçador provavelmente poderia ajudá-los a lidar com o problema e nos trazer alguns recursos de uma só vez.<p>Esta expedição requer um caçador mestre (Nível 5+) e deve durar cinco dias mais ou menos.",
+								"03": "O gigante 'monumento de novelo de lã' que costumava ser o orgulho e a alegria de um mercado vizinho de altura desapareceu! Ninguém tem nenhuma evidência, mas nosso caçador está confiante de que tal desaparecimento só pode ser obra de gatos. Gatos muito grandes. Caçá-los pode nos fornecer muitos recursos.<p>Esta expedição requer um mestre Caçador (Nível 5+) e deve durar cerca de cinco dias."
+							}
+						},
+						"alligators": {
+							"title": "Predadores das zonas húmidas",
+							"message": {
+								"01": "Viver nos pântanos já é problema suficiente sem varani rastejar em suas casas, mas as pessoas amigáveis ​​de uma vila próxima do pântano têm uma nova preocupação em suas cabeças. Deixe-nos ajudá-los a se livrar dessa ameaça e, ao mesmo tempo, fornecer algumas valiosas peles escamadas e carnes exóticas.<p>Esta expedição requer pelo menos um caçador adepto (Nível 4+) e deve durar cerca de quatro dias.",
+								"02": "As pessoas estão contornando a estrada principal que atravessa os pântanos próximos apenas para evitar um grande bando de varani que parecem ter aninhado perto da passagem. Vamos fazer um favor ao reino e limpar as estradas para o bem de todos - e nossos próprios lucros.<p>Esta expedição requer pelo menos um caçador adepto (Nível 4+) e deve durar cerca de quatro dias.",
+								"03": "Há uma tribo de goblins amigáveis ​​nos pântanos que se autodenominam o clã Firefly. Eles são mais cautelosos conosco, mas estão tendo problemas com varani traquinas. Poderíamos enviar um caçador para praticar uma boa ação, ajudá-los e obter alguns recursos para nossa cidade.<p>Esta expedição requer pelo menos um caçador adepto (Nível 4+) e deve durar mais ou menos quatro dias."
+							}
+						},
+						"zilla": {
+							"title": "O Rei de Todos os Lagartos",
+							"message": {
+								"01": "Um lagarto terrível e ardente está causando medo nos corações dos aldeões das cidades vizinhas. Eles estão reunindo uma pequena milícia para tentar atacar essa criatura 'Zilla', mas nosso caçador acredita que um tiro habilidoso quando eles menos esperam poderia fazer o trabalho de um exército. Uma oportunidade para saques épicos!<p>Esta expedição requer um grande mestre Caçador (Nível 6) e definitivamente durará entre quatro a seis dias.",
+								"02": "Um grande varanus cercado de chamas está espalhando terror por toda a região. Um 'Zilla' como este normalmente exigiria que um pequeno exército fosse derrotado... ou uma furtiva, verdadeira flecha no coração. Esta pode ser uma chance de saques valiosos e épicos!<p>Esta expedição requer um grande mestre Caçador (Nível 6) e definitivamente durará entre quatro a seis dias.",
+								"03": "Uma fera poderosa conhecida como 'Zilla' foi avistada nas proximidades e está causando pânico e incêndios. Soldados o perseguiram, mas é provável que um único caçador com uma flecha forte o suficiente possa salvar a todos do problema. Há potencial para saques épicos nesta viagem.<p>Esta expedição requer um grande mestre Caçador (Nível 6) e definitivamente durará entre quatro a seis dias."
+							}
+						},
+						"legendary": {
+							"title": "Seguindo o veado branco",
+							"message": {
+								"01": "Rumores estão se espalhando sobre um mítico e belo cervo branco como a neve vagando pelos bosques próximos. Caçadores de todo o mundo tentarão perseguir esse prêmio lendário, e cabe a nós tentar buscá-lo para nossa cidade. A grande caçada começa.<p>Esta expedição requer um Grande Mestre Caçador (Nível 6) e é impossível prever quanto tempo levará.",
+								"02": "A lenda diz que um lindo veado branco se banhará sob o luar no pico mais alto do vale do rio nesta época do ano. Este seria um troféu lendário para imortalizar nossa cidade na história da caça grossa.<p>Esta expedição requer um grande mestre Hunter (Nível 6) e é impossível prever quanto tempo levará.",
+								"03": "Um veado lendário com pêlo prateado e olhos azuis profundos foi avistado perto de nossa cidade. Se as histórias forem verdadeiras, o caçador que trouxer esse troféu para casa se tornará uma lenda viva. Devemos perseguir esta trilha, não importa o quão caro seja!<p>Esta expedição requer um grande mestre Hunter (Nível 6) e é impossível prever quanto tempo levará."
+							}
+						}
+					}
+				}
+			}
+		},
+		"buffs": {
+			"hunting": {
+				"display_name": "Chamado do Caçador",
+				"description": "Aumenta a velocidade, coragem e resistência"
+			},
+			"clean_shot_1": {
+				"display_name": "Matança Limpa (Nível 1)",
+				"description": "Aumenta ligeiramente o Dano e Alcance de Ataque"
+			},
+			"clean_shot_2": {
+				"display_name": "Matança Limpa (Nível 2)",
+				"description": "Aumenta muito o Dano e Alcance de Ataque"
+			},
+			"dog_companion": {
+				"display_name": "Cão de companhia",
+				"description": "Este caçador gosta da companhia de um melhor amigo"
+			},
+			"journeyman_hat": {
+				"display_name": "Conhecimento do viajante",
+				"description": "Velocidade e Diligência são ligeiramente melhoradas."
+			},
+			"master_hat": {
+				"display_name": "Conhecimento do Mestre",
+				"description": "Velocidade, Força de Vontade e Diligência são aumentadas."
+			},
+			"legendary_hat": {
+				"display_name": "Caçador Lendário",
+				"description": "Dano, Velocidade, Força de Vontade e Diligência são bastante aumentados."
+			},
+			"sicd": {
+				"display_name": "Sic'd!",
+				"description": "Imobilizado pela mordida precisa de um cão de caça."
+			},
+			"hunt_tired": {
+				"display_name": "Cansaço de viagem",
+				"description": "Este hearthling está cansado depois de uma expedição de caça bem sucedida. Velocidade e Diligência são reduzidas. A sonolência aumentará mais rapidamente."
+			}
+		},
+		"happiness": {
+			"thoughts": {
+				"hunt": {
+					"values": {
+						"regular": {
+							"display_name": "Busca bem-sucedida",
+							"tooltip": "Nada como voltar para casa com muito saque!"
+						},
+						"wolves": {
+							"display_name": "Em defesa dos outros",
+							"tooltip": "Nós realmente lidamos com aqueles lobos traquinas - e eu consegui alguns saques para nossa cidade!"
+						},
+						"cougars": {
+							"display_name": "Caçador de Grandes Jogos",
+							"tooltip": "Nós perseguimos e matamos aqueles grandes felinos! Que caça triunfante!"
+						},
+						"alligators": {
+							"display_name": "Salvando os pântanos",
+							"tooltip": "Foi uma caçada difícil... Mas conseguimos e aqueles varani nunca vão incomodar mais ninguém!"
+						},
+						"zilla": {
+							"display_name": "Réptil Regicida",
+							"tooltip": "Que perseguição perigosa! Mas o terrível reinado de Zilla acabou..."
+						},
+						"legendary": {
+							"display_name": "Caçador Lendário",
+							"tooltip": "Eu persegui, prendi e derrotei uma grande e gloriosa fera. Tornei-me lenda, o maior caçador da terra."
+						}
+					}
+				}
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"menu": {
+				"harvest_menu": {
+					"items": {
+						"box_hunt": {
+							"display_name": "Caçar",
+							"description": "Marcar animais específicos para caça",
+							"na_description": "Marque animais específicos para caça. Os arqueiros da Aliança do Norte também podem caçar os animais marcados com esta ferramenta",
+							"tip_title": "Clique e arraste para marcá-los",
+							"tip_description": "Clique com o botão direito para sair deste modo",
+							"required_job_text": "Requer um caçador"
+						}
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"hunter": {
+			"hunter_description": {
+				"display_name": "Caçador",
+				"description": "Armado com arco e flecha, o Caçador fornece caça, peles e outros recursos à sua cidade, rastreando e matando animais selvagens.",
+				"requirements": "Feito por Carpinteiro",
+				"level_1_data": {
+					"hunting_perk": {
+						"name": "Chamado do Caçador",
+						"description": "Embora ainda seja capaz de colocar e verificar armadilhas em zonas de captura, o Caçador também irá atrás de alvos designados e rastreará ativamente a vida selvagem, fornecendo caça ocasional para ser avistada.<br><br>Os alvos podem ser designados com o comando Caçar na Colheita cardápio."
+					},
+					"tracking_1_perk": {
+						"name": "Rastreador de Aprendiz",
+						"description": "O caçador é capaz de rastrear pequenos animais como esquilos ou coelhos."
+					}
+				},
+				"level_3_data": {
+					"tracking_2_perk": {
+						"name": "Rastreador de viajante",
+						"description": "O Hunter é capaz de rastrear animais médios como raposas ou veados."
+					},
+					"camping_perk": {
+						"name": "Acampamento",
+						"description": "Acampamentos de Caça podem ser criados pela Weaver e colocados em qualquer lugar do mundo.<br><br>Sempre que animais selvagens aparecerem perto de um Acampamento de Caça, eles serão automaticamente marcados para caçar."
+					}
+				},
+				"level_5_data": {
+					"tracking_3_perk": {
+						"name": "Mestre Rastreador e Caça",
+						"description": "O caçador é capaz de rastrear - e caçar - praticamente qualquer tipo de animal, até mesmo grandes predadores.<br><br>Suas habilidades de rastreamento excepcionais também permitem que eles ocasionalmente façam viagens de caça especiais fora de seu próprio território."
+					}
+				},
+				"level_2_data": {
+					"clean_shot_1_perk": {
+						"name": "Matança Limpa (Nível 1)",
+						"description": "O Caçador aumentou o dano e o alcance, garantindo que o animal possa ser morto com menos esforço."
+					}
+				},
+				"level_4_data": {
+					"clean_shot_2_perk": {
+						"name": "Matança Limpa (Nível 2)",
+						"description": "O Hunter tem o melhor dano e alcance, acabando rapidamente com a maioria dos animais sem sofrimento ou esforço."
+					}
+				},
+				"level_6_data": {
+					"dog_companion_perk": {
+						"name": "Cão de companhia",
+						"description": "O Caçador adquire um companheiro leal que o ajudará durante suas caçadas.<br><br>Os cães companheiros perseguem a presa e, embora tenham uma pequena produção de dano, são muito rápidos e retardam seus alvos.<br><br> br>Enquanto caça ao lado de seu companheiro cão, todos os recursos descartados pelos animais mortos serão automaticamente movidos para um acampamento de caça, se disponível."
+					}
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"hunting_bow_recipe": {
+					"recipe_name": "Arco do Caçador",
+					"description": "Necessário para promover um Hearthling em um Hunter.",
+					"flavor": "Um arco mais simples que pode ser manuseado com mais facilidade. Bom o suficiente para animais selvagens"
+				},
+				"hunting_bow_2_recipe": {
+					"recipe_name": "Arco de Caça Aprimorado",
+					"description": "Uma ferramenta melhor e mais confiável para o Hunter.",
+					"flavor": "Muito eficaz contra animais, mas não muito confiável para combate."
+				}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"hunting_camp_recipe": {
+					"recipe_name": "Campo de caça",
+					"description": "Enquanto colocados, os animais recentemente rastreados dentro de seu alcance serão automaticamente marcados para serem caçados.",
+					"flavor": "Um caçador de nível 6 também pode utilizar os recursos de armazenamento de um acampamento de caça"
+				},
+				"journeyman_hat_recipe": {
+					"recipe_name": "Chapéu de Caçador Profissional",
+					"description": "Pode ser usado por um Journeyman Hunter para aumentar ligeiramente a Diligência e a Velocidade.",
+					"flavor": ""
+				},
+				"master_hat_recipe": {
+					"recipe_name": "Chapéu do Mestre Caçador",
+					"description": "Pode ser usado por um Master Hunter para aumentar a Diligência, Força de Vontade e Velocidade.",
+					"flavor": "Caçar ou ser caçado"
+				}
+			}
+		},
+		"trapper": {
+			"recipes": {
+				"hunting_bow_recipe": {
+					"recipe_name": "Arco do Caçador",
+					"description": "Necessário para promover o Caçador a Caçador.",
+					"flavor": "Um arco mais simples que pode ser manuseado com mais facilidade. Bom o suficiente para animais selvagens"
+				}
+			}
+		}
+	},
+	"entities": {
+		"weapons": {
+			"hunting_bow": {
+				"display_name": "Arco de caça",
+				"description": "Arco mais simples usado para caçar animais selvagens.",
+				"talisman": {
+					"display_name": "Arco do Caçador",
+					"description": "Necessário para promover um Caçador a Caçador."
+				}
+			},
+			"hunting_bow_2": {
+				"display_name": "Arco de Caça Aprimorado",
+				"description": "Um arco melhor para caçar animais selvagens."
+			},
+			"hunting_arrow": {
+				"display_name": "Flecha de Caça",
+				"description": "Provendo para a cidade."
+			}
+		},
+		"containers": {
+			"hunting_camp": {
+				"display_name": "Campo de caça",
+				"description": "Marca automaticamente animais rastreados próximos para serem caçados."
+			}
+		},
+		"dog_companion": {
+			"display_name": "Cachorro de caça",
+			"description": "O ex-melhor amigo de um caçador."
+		}
+	},
+	"hunter": {
+		"journeyman_hat": {
+			"display_name": "Chapéu de Caçador Profissional",
+			"description": "Fornece ao Caçador alguns atributos extras quando usado.",
+			"worn_description": "Ligeiramente aumentando a Diligência e a Velocidade."
+		},
+		"master_hat": {
+			"display_name": "Chapéu do Mestre Caçador",
+			"description": "Fornece ao Caçador atributos extras quando usado.",
+			"worn_description": "Aumentando a Diligência, Força de Vontade e Velocidade."
+		},
+		"legendary_hat": {
+			"display_name": "Chapéu de caçador lendário",
+			"description": "O troféu mais épico para o maior caçador.",
+			"worn_description": "Aumenta muito o Dano, a Diligência, a Força de Vontade e a Velocidade."
+		}
+	}
+}

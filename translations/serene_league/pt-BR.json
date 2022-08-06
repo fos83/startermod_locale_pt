@@ -1,0 +1,1454 @@
+{
+	"kingdom": {
+		"kingdom_name": "Liga Serena [WIP]",
+		"quote": "\"É verdade que as coisas são belas quando funcionam. Arte é função\". -- Giannina Braschi",
+		"long_description": "Céticos sobre magia e exercícios físicos, os membros da Liga não podem estar acostumados a condições adversas. No entanto, esses artesãos habilidosos trarão com prazer a arte e a ciência para as novas terras.",
+		"post_selection_description": ", guardiões dedicados das artes e ciências.",
+		"initial_town_name": "Município [str(town_number)]"
+	},
+	"entities": {
+		"trees": {
+			"stump": "Toco de árvore",
+			"stump_description": "Não é mais uma árvore... Não vai crescer novamente, colha-a para limpar o espaço.",
+			"cypress": {
+				"sapling": {
+					"display_name": "Muda de Cipreste",
+					"description": "Árvore Do Cipreste Do Bebê.",
+					"description_iconic": "Plante-o na terra e veja-o crescer."
+				},
+				"seed": {
+					"display_name": "Cone de Cipreste",
+					"description": "Plante-o para crescer uma beleza vertical.",
+					"crop_description": "Mesmo um majestoso cipreste tem origens humildes."
+				},
+				"sprout": {
+					"display_name": "broto de cipreste",
+					"description": "Só precisa de algum tempo e cuidado."
+				},
+				"stem": {
+					"display_name": "Caule de Cipreste",
+					"description": "Ainda crescendo!"
+				},
+				"bud": {
+					"display_name": "Broto de Cipreste",
+					"description": "Está quase lá! Está crescendo suas folhas adultas!"
+				},
+				"small": {
+					"display_name": "Cipreste Pequeno",
+					"description": "Ficando mais alto a cada dia."
+				},
+				"medium": {
+					"display_name": "Cipreste",
+					"description": "Forte e alto."
+				},
+				"large": {
+					"display_name": "Cipreste Grande",
+					"description": "Um exemplar impressionante."
+				}
+			},
+			"stone_pine": {
+				"sapling": {
+					"display_name": "Muda de pinheiro manso",
+					"description": "Pinho De Pedra Do Bebê.",
+					"description_iconic": "Plante-o na terra e veja-o crescer."
+				},
+				"seed": {
+					"display_name": "Pinha de Pedra",
+					"description": "Plante-o para crescer pinheiros impressionantes.",
+					"crop_description": "Mesmo um pinheiro impressionante tem origens humildes."
+				},
+				"sprout": {
+					"display_name": "Broto de pinheiro-manso",
+					"description": "Só precisa de algum tempo e cuidado."
+				},
+				"stem": {
+					"display_name": "Caule de pinho de pedra",
+					"description": "Ainda crescendo!"
+				},
+				"bud": {
+					"display_name": "Broto de Pinheiro",
+					"description": "Está quase lá! Está crescendo suas folhas adultas!"
+				},
+				"small": {
+					"display_name": "Pinho de Pedra Pequeno",
+					"description": "A caminho de se tornar uma árvore robusta."
+				},
+				"medium": {
+					"display_name": "Pinho de Pedra",
+					"description": "Fornece sombra confortável."
+				},
+				"large": {
+					"display_name": "Pinho Grande",
+					"description": "Magnificamente moldado."
+				}
+			},
+			"olive": {
+				"sapling": {
+					"display_name": "Muda de Oliveira",
+					"description": "Oliveira Do Bebê.",
+					"description_iconic": "Plante-o na terra e veja-o crescer."
+				},
+				"seed": {
+					"display_name": "Semente de Oliveira",
+					"description": "Plante-o para crescer uma oliveira. Leva tempo.",
+					"crop_description": "Mesmo uma oliveira impressionante tem origens humildes.",
+					"transmute_recipe": {
+						"recipe_name": "Sementes de Oliveira (x2)",
+						"description": "Selecione as melhores frutas da cesta",
+						"flavor": "Apenas uma mão habilidosa pode escolher os melhores frutos, mas o resto é destruído no processo."
+					}
+				},
+				"sprout": {
+					"display_name": "Broto de Oliveira",
+					"description": "Só precisa de algum tempo e cuidado."
+				},
+				"stem": {
+					"display_name": "Caule de Oliveira",
+					"description": "Ainda crescendo!"
+				},
+				"bud": {
+					"display_name": "Broto de Oliveira",
+					"description": "Está quase lá! Está crescendo suas folhas adultas!"
+				},
+				"small": {
+					"display_name": "Oliveira Pequena",
+					"description": "Esta árvore dará algumas azeitonas no verão e no outono."
+				},
+				"medium": {
+					"display_name": "Oliveira",
+					"description": "Esta árvore dará azeitonas no verão e no outono."
+				},
+				"large": {
+					"display_name": "Oliveira Grande",
+					"description": "Esta árvore dará muitas azeitonas no verão e no outono."
+				}
+			},
+			"lemon": {
+				"sapling": {
+					"display_name": "Muda de Limoeiro",
+					"description": "Árvore De Limão Do Bebê.",
+					"description_iconic": "Plante-o na terra e veja-o crescer."
+				},
+				"seed": {
+					"display_name": "Semente de Limoeiro",
+					"description": "Plante-o para crescer um limoeiro. Leva tempo.",
+					"crop_description": "Mesmo um impressionante limoeiro tem origens humildes.",
+					"transmute_recipe": {
+						"recipe_name": "Sementes de Limoeiro (x2)",
+						"description": "Selecione as melhores frutas da cesta",
+						"flavor": "Apenas uma mão habilidosa pode escolher os melhores frutos, mas o resto é destruído no processo."
+					}
+				},
+				"sprout": {
+					"display_name": "Broto de Limoeiro",
+					"description": "Só precisa de algum tempo e cuidado."
+				},
+				"stem": {
+					"display_name": "Caule de Limoeiro",
+					"description": "Ainda crescendo!"
+				},
+				"bud": {
+					"display_name": "Broto de Limoeiro",
+					"description": "Está quase lá! Está crescendo suas folhas adultas!"
+				},
+				"small": {
+					"display_name": "Limoeiro Pequeno",
+					"description": "Esta árvore dará alguns limões na primavera e no verão."
+				},
+				"medium": {
+					"display_name": "Limoeiro",
+					"description": "Esta árvore dará limões na primavera e no verão."
+				},
+				"large": {
+					"display_name": "Limoeiro Grande",
+					"description": "Esta árvore dará muitos limões na primavera e no verão."
+				}
+			}
+		},
+		"crops": {
+			"celery_crop": {
+				"display_name": "Aipo",
+				"description": "Tanto os brotos quanto as raízes são comestíveis!",
+				"growth_stage": {
+					"003": {
+						"name": "Aipo maduro",
+						"description": "Que aroma!"
+					},
+					"002": {
+						"name": "Aipo bebê",
+						"description": "Pequeno, muito mastigável."
+					},
+					"001": {
+						"name": "broto de aipo",
+						"description": "Ainda não comestível!"
+					},
+					"000": {
+						"name": "Mudas de aipo",
+						"description": "Um aipo não realizado."
+					},
+					"011": {
+						"name": "Aipo podre",
+						"description": "Mofado e nojento."
+					}
+				}
+			},
+			"celery_seeds": {
+				"display_name": "Sementes de aipo",
+				"description": "Aprenda a cultivar aipo para brotos e raízes.",
+				"recipe": {
+					"recipe_name": "Sementes de aipo",
+					"description": "Domesticar Celeriacs e aprender a cultivá-los.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem aipo!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"grapes_crop": {
+				"display_name": "Uvas",
+				"description": "Vinha de crescimento lento com a melhor fruta para o vinho.",
+				"growth_stage": {
+					"005": {
+						"name": "Uvas Maduras",
+						"description": "Pronto para vinificação!"
+					},
+					"004": {
+						"name": "Uvas verdes",
+						"description": "Verde, pequeno, amargo."
+					},
+					"003": {
+						"name": "Desengace das uvas",
+						"description": "Ainda não comestível!"
+					},
+					"002": {
+						"name": "Videira Madura",
+						"description": "Pronto para florescer e dar frutos."
+					},
+					"001": {
+						"name": "Videira em crescimento",
+						"description": "Ainda subindo a treliça."
+					},
+					"000": {
+						"name": "Brotando videira",
+						"description": "Apenas começou a subir."
+					}
+				}
+			},
+			"grape_seeds": {
+				"display_name": "Sementes de Uva",
+				"description": "Aprenda a cultivar uvas para poder fazer vinho.",
+				"recipe": {
+					"recipe_name": "Sementes de Uva",
+					"description": "Domesticar videiras e aprender a cultivá-las.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem videiras!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"lavender_crop": {
+				"display_name": "Lavanda",
+				"description": "Erva de flores aromáticas de climas mais quentes.",
+				"growth_stage": {
+					"003": {
+						"name": "Florescimento de lavanda",
+						"description": "As flores estão prontas para a colheita."
+					},
+					"002": {
+						"name": "Brotando de lavanda",
+						"description": "Em breve estará pronto."
+					},
+					"001": {
+						"name": "broto de lavanda",
+						"description": "Ainda lutando contra as condições."
+					},
+					"000": {
+						"name": "Muda de Lavanda",
+						"description": "Vai crescer, prometo!"
+					}
+				}
+			},
+			"lavender_seeds": {
+				"display_name": "Sementes de lavanda",
+				"description": "Aprenda a cultivar lavanda, uma flor de ervas.",
+				"recipe": {
+					"recipe_name": "Sementes de lavanda",
+					"description": "Domesticar plantas de lavanda e aprender a cultivá-las.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem lavanda!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"purslane_crop": {
+				"display_name": "Beldroega",
+				"description": "Erva de flor azeda de climas mais quentes.",
+				"growth_stage": {
+					"003": {
+						"name": "Beldroega Florescendo",
+						"description": "As flores estão prontas para a colheita."
+					},
+					"002": {
+						"name": "Broto de Beldroega",
+						"description": "Em breve estará pronto."
+					},
+					"001": {
+						"name": "Broto de Beldroega",
+						"description": "Ainda lutando contra as condições."
+					},
+					"000": {
+						"name": "Mudas de Beldroega",
+						"description": "Vai crescer, prometo!"
+					}
+				}
+			},
+			"purslane_seeds": {
+				"display_name": "Sementes de Beldroega",
+				"description": "Aprenda a cultivar beldroega, erva azeda durável.",
+				"recipe": {
+					"recipe_name": "Sementes de Beldroega",
+					"description": "Domesticar plantas Beldroegas e aprender a cultivá-las.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem beldroegas!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"sugar_cane_crop": {
+				"display_name": "Cana de açúcar",
+				"description": "A fonte de açúcar mais eficaz do mundo!",
+				"growth_stage": {
+					"003": {
+						"name": "Cana de Açúcar Madura",
+						"description": "Os talos estão prontos para a colheita."
+					},
+					"002": {
+						"name": "Brotação de cana-de-açúcar",
+						"description": "Em breve estará pronto."
+					},
+					"001": {
+						"name": "Broto de cana-de-açúcar",
+						"description": "Ainda lutando contra as condições."
+					},
+					"000": {
+						"name": "Muda de cana-de-açúcar",
+						"description": "Vai crescer, prometo!"
+					}
+				}
+			},
+			"sugar_cane_seeds": {
+				"display_name": "Sementes de cana-de-açúcar",
+				"description": "Aprenda a cultivar cana-de-açúcar, a fonte de açúcar mais eficaz do mundo!",
+				"recipe": {
+					"recipe_name": "Sementes de cana-de-açúcar",
+					"description": "Domesticar plantas de cana-de-açúcar e aprender a cultivá-las.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem cana-de-açúcar!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"cypress_crop": {
+				"display_name": "Muda de Cipreste",
+				"description": "Não há árvores suficientes no matagal? Tente isso!",
+				"stonehearth_ace": {
+					"display_name": "Cipreste",
+					"description": "Pode ser cultivado e colhido para toras de madeira, galhos verdes e uma semente quando cortada"
+				}
+			},
+			"cypress_seeds": {
+				"display_name": "Cones de Cipreste",
+				"description": "Aprenda a cultivar majestosos ciprestes.",
+				"recipe": {
+					"recipe_name": "Cones de Cipreste",
+					"description": "Domesticar ciprestes e aprender a cultivá-los.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem ciprestes!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"stone_pine_crop": {
+				"display_name": "Muda de pinheiro manso",
+				"description": "Pode ser plantado para cultivar pinheiros mansos, proporcionando alguma sombra (ou madeira se você for do tipo brutal).",
+				"stonehearth_ace": {
+					"display_name": "Pinheiro de Pedra",
+					"description": "Pode ser cultivado e colhido para toras de madeira, galhos verdes e uma semente quando cortada"
+				}
+			},
+			"stone_pine_seeds": {
+				"display_name": "Pinhas de pedra",
+				"description": "Aprenda a cultivar pinheiros mansos.",
+				"recipe": {
+					"recipe_name": "Pinhas de pedra",
+					"description": "Domesticar Stone Pines e aprender a cultivá-los.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem pinheiros mansos!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"olive_crop": {
+				"display_name": "Muda de Oliveira",
+				"description": "Pode ser plantada para cultivar oliveiras, uma fonte renovável de azeitonas.",
+				"stonehearth_ace": {
+					"display_name": "Oliveira",
+					"description": "Pode ser cultivado para azeitonas e colhido para toras de madeira, galhos e uma semente quando cortada"
+				}
+			},
+			"olive_seeds": {
+				"display_name": "Azeitonas maduras",
+				"description": "Aprenda a cultivar oliveiras.",
+				"recipe": {
+					"recipe_name": "Azeitonas maduras",
+					"description": "Domesticar Oliveiras e aprender a cultivá-las.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem oliveiras!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			},
+			"lemon_crop": {
+				"display_name": "Muda de Limão",
+				"description": "Pode ser plantado para cultivar limoeiros, uma fonte renovável de limões.",
+				"stonehearth_ace": {
+					"display_name": "Limoeiro",
+					"description": "Pode ser cultivado para limões e colhido para toras de madeira, galhos e uma semente quando cortada"
+				}
+			},
+			"lemon_seeds": {
+				"display_name": "Limões maduros demais",
+				"description": "Aprenda a cultivar limoeiros.",
+				"recipe": {
+					"recipe_name": "Limões maduros demais",
+					"description": "Domesticar limoeiros e aprender a cultivá-los.",
+					"flavor": "Interaja com a caixa finalizada para desbloquear a colheita. Isso também consumirá este item",
+					"description_2": "Troque ou presenteie para permitir que outras culturas cultivem limoeiros!",
+					"flavor_2": "Esta cultura agrícola já é conhecida por seus agricultores por padrão"
+				}
+			}
+		},
+		"plants": {
+			"lavender": {
+				"display_name": "Lavanda",
+				"description": "Planta impressionante útil como tempero, bem como erva aromática roxa ou verde.",
+				"unripe_description": "Ainda não está pronto para a colheita!",
+				"seed": {
+					"display_name": "Semente de lavanda",
+					"description": "Plante-o na terra para cultivar a erva."
+				},
+				"sprout": {
+					"display_name": "Brotando de Lavanda",
+					"description": "Olha, está lá, no solo!"
+				},
+				"stem": {
+					"display_name": "Desengace de lavanda",
+					"description": "Planta equivalente a um adolescente."
+				},
+				"bud": {
+					"display_name": "Brotando de lavanda",
+					"description": "Vamos amigo, está muito perto de terminar!"
+				},
+				"herb": {
+					"display_name": "Molho de Lavanda",
+					"description": "Hipnotizante... Útil como erva aromática verde ou roxa."
+				},
+				"transmute_recipe": {
+					"description": "Separe as sementes das ervas",
+					"recipe_name": "Sementes de Lavanda (x2)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes frágeis, mas as ervas se perdem no processo."
+				}
+			},
+			"purslane": {
+				"display_name": "Beldroega",
+				"description": "Planta durável que pode ser usada como erva vermelha aromática.",
+				"unripe_description": "Ainda não está pronto para a colheita!",
+				"seed": {
+					"display_name": "Semente de Beldroega",
+					"description": "Plante-o na terra para cultivar a erva."
+				},
+				"sprout": {
+					"display_name": "Broto de Beldroega",
+					"description": "Olha, está lá, no solo!"
+				},
+				"stem": {
+					"display_name": "Beldroega de propulsão",
+					"description": "Planta equivalente a um adolescente."
+				},
+				"bud": {
+					"display_name": "Broto de Beldroega",
+					"description": "Vamos amigo, está muito perto de terminar!"
+				},
+				"herb": {
+					"display_name": "Flor de Beldroega",
+					"description": "Um tanto peculiar. Útil como uma erva aromática vermelha."
+				},
+				"transmute_recipe": {
+					"description": "Separe as sementes das ervas. Beldroega é conhecida por seu sabor incrivelmente azedo, use com cautela!",
+					"recipe_name": "Sementes de Beldroega (x2)",
+					"flavor": "Apenas uma mão habilidosa pode colher as sementes frágeis, mas as ervas se perdem no processo."
+				}
+			},
+			"dandelions": {
+				"display_name": "Dente-de-leão",
+				"description": "Plantas expansivas com flores amarelas e aromáticas úteis como ervas.",
+				"seed": {
+					"display_name": "Sementes de dente-de-leão",
+					"description": "Plante-o na terra para crescer dentes-de-leão."
+				},
+				"sprout": {
+					"display_name": "Brotando Dentes-de-Leão",
+					"description": "Dando os primeiros passos em seu caminho para o poder."
+				},
+				"stem": {
+					"display_name": "Dentes-de-leão",
+					"description": "Lutando contra as probabilidades. Com sucesso!"
+				},
+				"bud": {
+					"display_name": "Dentes-de-leão brotando",
+					"description": "Em breve se juntará às fileiras do Império Dandelion!"
+				},
+				"herb": {
+					"display_name": "Flor dente-de-leão",
+					"description": "Aromas de mel. Útil como uma erva aromática amarela."
+				},
+				"transmute_recipe": {
+					"description": "Separe as sementes das flores de ervas. Dentes-de-leão se espalharão após o plantio.",
+					"recipe_name": "Sementes de dente-de-leão (x2)",
+					"flavor": "Vilões aos olhos de todo jardineiro, o Império Dandelion continua expandindo suas fronteiras."
+				}
+			},
+			"celery": {
+				"basket": {
+					"display_name": "Cesta de Aipos",
+					"description": "Brotos e raízes!"
+				},
+				"serving": {
+					"display_name": "Aipo",
+					"description": "Saboroso, mas difícil."
+				}
+			},
+			"grapes": {
+				"basket": {
+					"display_name": "Cesta de Uvas",
+					"description": "Gostoso, mas o vinho não seria melhor?"
+				},
+				"serving": {
+					"display_name": "Uvas",
+					"description": "Cheio de sabor e suco."
+				}
+			},
+			"olives": {
+				"basket": {
+					"display_name": "Cesto de Azeitonas",
+					"description": "Pode ser comido ou processado para fazer óleo."
+				},
+				"serving": {
+					"display_name": "Azeitonas",
+					"description": "Deleite gorduroso da costa."
+				}
+			},
+			"lemons": {
+				"basket": {
+					"display_name": "Cesta de Limões",
+					"description": "Pode ser consumido cru ou processado."
+				},
+				"serving": {
+					"display_name": "Limões",
+					"description": "Deleite azedo da costa."
+				}
+			},
+			"sugar_cane": {
+				"display_name": "Cana de açúcar",
+				"description": "Pode ser processado para fazer açúcar.",
+				"unripe_description": "Ainda não está pronto para a colheita!",
+				"seed": {
+					"display_name": "Semente de cana-de-açúcar",
+					"description": "Plantá-lo na terra para crescer a cana."
+				},
+				"sprout": {
+					"display_name": "Brotando cana-de-açúcar",
+					"description": "Olha, está lá, no solo!"
+				},
+				"stem": {
+					"display_name": "Desengace da cana-de-açúcar",
+					"description": "Planta equivalente a um adolescente."
+				},
+				"bud": {
+					"display_name": "Brotação de cana-de-açúcar",
+					"description": "Vamos amigo, está muito perto de terminar!"
+				},
+				"basket": {
+					"display_name": "Cesta de Cana de Açúcar",
+					"description": "Pode ser processado para fazer açúcar."
+				},
+				"transmute_recipe": {
+					"description": "Separe as sementes das ervas",
+					"recipe_name": "Sementes de cana-de-açúcar (x2)",
+					"flavor": "Somente uma mão habilidosa pode colher as sementes frágeis, mas a cana-de-açúcar se perde no processo."
+				}
+			}
+		},
+		"refined": {
+			"plaster": {
+				"display_name": "Monte de Gesso",
+				"recipe_name": "Monte de Gesso (x3)",
+				"description": "Mais fácil de moldar do que a pedra, também pode substituir a argila durante a elaboração.",
+				"flavor": "Inigualável para configuração, a menos que você adicione água muito cedo."
+			},
+			"plastered_stone_bricks": {
+				"display_name": "Tijolos de Pedra Rebocados",
+				"recipe_name": "Tijolos de Pedra Rebocados (x2)",
+				"description": "Material de construção tão resistente quanto a pedra, mas com uma aparência mais aconchegante.",
+				"flavor": "A receita produz duas peças."
+			}
+		},
+		"construction": {
+			"plastered_door": {
+				"display_name": "Porta Rebocada",
+				"description": "Mais leve que portas de pedra.",
+				"flavor": "Adiciona um sentimento civilizado."
+			},
+			"plastered_double_door": {
+				"display_name": "Porta Dupla Rebocada",
+				"description": "Muito mais leve que portas de pedra.",
+				"flavor": "Beleza retangular!"
+			},
+			"plastered_tunnel_door": {
+				"display_name": "Porta do túnel rebocada",
+				"description": "Sela seus túneis com estilo.",
+				"flavor": "À prova de correntes de ar."
+			},
+			"plastered_window_frame_small": {
+				"display_name": "Moldura de Janela Rebocada",
+				"description": "Tão simples quanto poderia ser.",
+				"flavor": "Praças em todos os lugares!"
+			},
+			"plastered_window_frame_tall": {
+				"display_name": "Moldura de janela alta rebocada",
+				"description": "Elegância em seus fundamentos.",
+				"flavor": "É apenas um retângulo."
+			},
+			"plastered_window_frame_wide": {
+				"display_name": "Moldura de janela larga rebocada",
+				"description": "Deixa a luz e tudo mais entrar.",
+				"flavor": "Perfeitamente claro e simples."
+			},
+			"plastered_window_small": {
+				"display_name": "Janela Rebocada",
+				"description": "Muito quente? Feche as persianas.",
+				"flavor": "Muito barulhento? Faça o mesmo em silêncio."
+			},
+			"plastered_window_tall": {
+				"display_name": "Janela alta rebocada",
+				"description": "Faz você se sentir em casa.",
+				"flavor": "Feito na Itália."
+			},
+			"plastered_window_wide": {
+				"display_name": "Janela larga rebocada",
+				"description": "Deixa a luz, mas nada mais entrar.",
+				"flavor": "Poderíamos adicionar as persianas, mas elas teriam dobrado a largura."
+			},
+			"plaster_fence": {
+				"display_name": "Balaustrada de Gesso",
+				"description": "Substituição de classe superior de uma cerca.",
+				"flavor": "Escadas não incluídas."
+			},
+			"plaster_fence_post": {
+				"display_name": "Poste de balaustrada de gesso",
+				"description": "Coloque nos cantos de uma balaustrada.",
+				"flavor": "Não tenho certeza de quão estável é essa bola no topo. É pesado?"
+			},
+			"simple_hatch_plastered": {
+				"display_name": "Escotilha Rebocada",
+				"description": "Uma escotilha elegante para portas verticais.",
+				"flavor": ""
+			},
+			"plastered_animal_door": {
+				"display_name": "Porta Rebocada de Animais",
+				"description": "Uma grande porta para abrigos de animais, pode ser fechada por um pastor. Quando fechado, apenas os hearthlings podem passar!",
+				"flavor": ""
+			},
+			"plastered_animal_door_small": {
+				"display_name": "Porta Rebocada de Pequenos Animais",
+				"description": "Uma pequena porta para abrigos de animais, pode ser fechada por um pastor.",
+				"flavor": "Quando colocado no nível do solo, os dois ladrilhos de terra embaixo devem ser escavados para que funcione!"
+			}
+		},
+		"containers": {
+			"input_bin_plaster": {
+				"display_name": "Caixa de entrada de gesso",
+				"description": "Um recipiente versátil para qualquer recurso, para ajudar a manter os artesãos abastecidos.",
+				"flavor": "Os contêineres de entrada são priorizados quando novos recursos são trazidos para a cidade."
+			},
+			"input_shelf_ground_plaster": {
+				"display_name": "Prateleira de chão rebocada",
+				"description": "Um recipiente versátil para qualquer recurso, para ajudar a manter os artesãos abastecidos.",
+				"flavor": "Os contêineres de entrada são priorizados quando novos recursos são trazidos para a cidade."
+			},
+			"input_shelf_wall_plaster": {
+				"display_name": "Prateleira de parede rebocada",
+				"description": "Um recipiente versátil para qualquer recurso, para ajudar a manter os artesãos abastecidos.",
+				"flavor": "Os contêineres de entrada são priorizados quando novos recursos são trazidos para a cidade."
+			},
+			"plaster_urn_small": {
+				"display_name": "Urna de Gesso Pequena",
+				"description": "Para armazenar de forma compacta até 8 itens.",
+				"flavor": "Só não deixe cair, está bem?"
+			},
+			"plaster_urn_large": {
+				"display_name": "Urna Grande de Gesso",
+				"description": "Para armazenar de forma compacta até 32 itens.",
+				"flavor": "Então, você diz que é possível tirar as coisas disso?"
+			},
+			"output_box_plaster": {
+				"display_name": "Prateleira de Saída Rebocada",
+				"description": "Armazenamento temporário para itens recém-criados.",
+				"flavor": "Os artesãos adoram mostrar seu trabalho!"
+			}
+		},
+		"decoration": {
+			"candle_plaster": {
+				"display_name": "Castiçal de Gesso",
+				"description": "Uma luz em um túnel.",
+				"flavor": "Montado em paredes."
+			},
+			"hanging_box_lavender": {
+				"display_name": "Plantador suspenso de lavanda",
+				"description": "Uma floreira cheia de lavanda, presa às paredes.",
+				"flavor": "A lavanda mantém os escorpiões à distância.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de gesso suspenso",
+					"description": "Um vaso decorativo. Inclui Lavanda mas pode ser escolhida outra erva.",
+					"recipe": {
+						"recipe_name": "Plantador suspenso com lavanda",
+						"description": "Um plantador decorativo para ser colocado contra as paredes. Vem com Lavanda, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			},
+			"hanging_box_purslane": {
+				"display_name": "Plantador de Beldroega Suspenso",
+				"description": "Uma floreira cheia de beldroegas, presa às paredes.",
+				"flavor": "A beldroega pode crescer de uma forma um tanto imprevisível e fofa.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de gesso suspenso",
+					"description": "Um vaso decorativo. Inclui Beldroega mas pode ser escolhida outra erva.",
+					"recipe": {
+						"recipe_name": "Plantador suspenso com beldroega",
+						"description": "Um plantador decorativo para ser colocado contra as paredes. Vem com Beldroega, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			},
+			"hanging_box_vines": {
+				"display_name": "Plantador de videira suspenso",
+				"description": "Uma floreira cheia de trepadeiras, presa às paredes.",
+				"flavor": "É a variedade anã para que você não acorde emaranhado nos caules.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de videira suspenso",
+					"description": "Um vaso decorativo. As videiras assumiram o controle, então você não pode mudar a erva.",
+					"recipe": {
+						"recipe_name": "Plantador suspenso com videiras",
+						"description": "Um plantador decorativo para ser colocado contra as paredes. As videiras são tão invasivas que você não pode mudar a erva como com outros plantadores!"
+					}
+				}
+			},
+			"plaster_box_lavender": {
+				"display_name": "Plantador de lavanda",
+				"description": "Uma floreira cheia de lavanda, construída para ser colocada abaixo dos caixilhos das janelas.",
+				"flavor": "A lavanda mantém os escorpiões à distância.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de janela de gesso",
+					"description": "Um vaso decorativo. Inclui Lavanda mas pode ser escolhida outra erva.",
+					"recipe": {
+						"recipe_name": "Plantador de janela com lavanda",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Lavanda, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			},
+			"plaster_box_purslane": {
+				"display_name": "Plantador de Beldroegas",
+				"description": "Uma floreira cheia de beldroegas, construída para ser colocada abaixo dos caixilhos das janelas.",
+				"flavor": "A beldroega pode crescer de uma forma um tanto imprevisível e fofa.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de janela de gesso",
+					"description": "Um vaso decorativo. Inclui Beldroega mas pode ser escolhida outra erva.",
+					"recipe": {
+						"recipe_name": "Plantador de janela com beldroega",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. Vem com Beldroega, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			},
+			"plaster_box_vines": {
+				"display_name": "Plantador de vinha",
+				"description": "Uma floreira cheia de trepadeiras, construída para ser colocada abaixo dos caixilhos das janelas.",
+				"flavor": "É a variedade anã para que você não acorde emaranhado nos caules.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de vinha",
+					"description": "Um vaso decorativo. As videiras assumiram o controle, então você não pode mudar a erva.",
+					"recipe": {
+						"recipe_name": "Plantador de janela com videiras",
+						"description": "Um plantador decorativo para ser colocado sob os caixilhos das janelas. As videiras são tão invasivas que você não pode mudar a erva como com outros plantadores!"
+					}
+				}
+			},
+			"plaster_box_long_lavender": {
+				"display_name": "Plantador de lavanda longo",
+				"description": "Uma floreira cheia de lavanda, construída para ser colocada abaixo dos caixilhos das janelas.",
+				"flavor": "A lavanda mantém os escorpiões à distância.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de Gesso Longo",
+					"description": "Um vaso decorativo. Inclui Lavanda mas pode ser escolhida outra erva.",
+					"recipe": {
+						"recipe_name": "Plantador longo com lavanda",
+						"description": "Um plantador longo para ser colocado sob caixilhos de janelas. Vem com Lavanda, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			},
+			"plaster_box_long_purslane": {
+				"display_name": "Plantador de Beldroega Longa",
+				"description": "Uma floreira cheia de beldroegas, construída para ser colocada abaixo dos caixilhos das janelas.",
+				"flavor": "A beldroega pode crescer de uma forma um tanto imprevisível e fofa.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de Gesso Longo",
+					"description": "Um vaso decorativo. Inclui Beldroega mas pode ser escolhida outra erva.",
+					"recipe": {
+						"recipe_name": "Plantador longo com beldroega",
+						"description": "Um plantador longo para ser colocado sob caixilhos de janelas. Vem com Beldroega, mas uma erva diferente pode ser escolhida e plantada pelo Herbalista."
+					}
+				}
+			},
+			"plaster_box_long_vines": {
+				"display_name": "Plantador de vinha longa",
+				"description": "Uma floreira cheia de trepadeiras, construída para ser colocada abaixo dos caixilhos das janelas.",
+				"flavor": "É a variedade anã para que você não acorde emaranhado nos caules.",
+				"stonehearth_ace": {
+					"display_name": "Plantador de vinha longa",
+					"description": "Um vaso decorativo. As videiras assumiram o controle, então você não pode mudar a erva.",
+					"recipe": {
+						"recipe_name": "Plantador longo com videiras",
+						"description": "Um plantador longo para ser colocado sob caixilhos de janelas. As videiras são tão invasivas que você não pode mudar a erva como com outros plantadores!"
+					}
+				}
+			},
+			"plastered_market_stall": {
+				"display_name": "Banca de Mercado Rebocada",
+				"description": "Os comerciantes podem visitar esta barraca para comprar e vender mercadorias",
+				"flavor": "Sorvete! Vendemos o melhor sorvete da cidade!"
+			},
+			"rooftile_edge": {
+				"display_name": "Telhas de terracota",
+				"recipe_name": "Telhados de Terracota (x5)",
+				"description": "Decore telhados, pode ser colocado em paredes.",
+				"flavor": "O design usa a cor Ocre da paleta Plastered Stone Bricks."
+			},
+			"rooftile_corner_inner": {
+				"display_name": "Telhados de canto interno",
+				"recipe_name": "Telhados de canto interno (x5)",
+				"description": "Decore telhados, pode ser colocado em paredes.",
+				"flavor": "O design usa a cor Ocre da paleta Plastered Stone Bricks."
+			},
+			"rooftile_corner_outer": {
+				"display_name": "Telhados de canto externo",
+				"recipe_name": "Telhados de canto externo (x5)",
+				"description": "Decore telhados, pode ser colocado em paredes.",
+				"flavor": "O design usa a cor Ocre da paleta Plastered Stone Bricks."
+			}
+		},
+		"furniture": {
+			"plaster_crude_bed": {
+				"display_name": "Ponto de dormir de gesso",
+				"description": "Você pode não querer pular para este.",
+				"flavor": "A moldura elegante pode distraí-lo do desconforto de dormir em uma superfície dura."
+			},
+			"plaster_bed": {
+				"display_name": "Cama de Gesso",
+				"description": "Uma cama para chamar de sua depois de um dia duro de trabalho.",
+				"flavor": "A palha pode ser obtida colhendo tufos de grama, algumas plantas como Wintermoss ou cavando em terreno gramado."
+			},
+			"plaster_comfy_bed": {
+				"display_name": "Cama de Gesso Confortável",
+				"description": "Oito horas vão deixá-lo tão revigorado quanto no dia em que você nasceu.",
+				"flavor": "Ninguém nunca quer sair. Isso torna as evacuações de emergência difíceis."
+			},
+			"plaster_comfy_bed_pet": {
+				"display_name": "Cama Animal de Gesso Confortável",
+				"description": "Permite que os animais tenham um sono mais confortável.",
+				"flavor": "Os animais de estimação sempre tentarão dormir na cama mais próxima da cama do dono!"
+			},
+			"plaster_bench": {
+				"display_name": "Banco de gesso",
+				"description": "Mesas ao ar livre para momentos de relaxamento.",
+				"flavor": "Bonito e funcional. Combina com as perucas."
+			},
+			"plaster_table": {
+				"display_name": "Mesa de Gesso",
+				"description": "Seu peso considerável lhe dá uma sensação de gravidade.",
+				"flavor": "Apenas para negócios sérios."
+			},
+			"plaster_table_covered": {
+				"display_name": "Mesa de Gesso Coberto",
+				"description": "A roupa de guingão sugere que não é tão pesada quanto é.",
+				"flavor": "Vovó faz a melhor pizza!"
+			},
+			"simple_plaster_chair": {
+				"display_name": "Cadeira Simples de Gesso",
+				"description": "Um lugar para sentar enquanto come.",
+				"flavor": "Mais civilizado do que sentado no chão."
+			},
+			"comfy_plaster_chair": {
+				"display_name": "Cadeira de Gesso Confortável",
+				"description": "Um lugar muito agradável para se sentar enquanto come.",
+				"flavor": "Não é um trono, mas serve."
+			}
+		},
+		"drink": {
+			"juice_grape": {
+				"juice_grape": {
+					"display_name": "Suco de Uva Vermelha",
+					"description": "Bebida refrescante e saborosa feita com uvas.",
+					"recipe_name": "Balde de suco de uva vermelha",
+					"flavor": "A falta de peles torna-o impróprio para a produção de vinho."
+				},
+				"juice_grape_serving": {
+					"display_name": "Xícara de suco de uva vermelha"
+				}
+			},
+			"must_red_grape": {
+				"display_name": "Balde de mosto de uva vermelha",
+				"description": "Uvas vermelhas esmagadas, suco e sólidos. Um cervejeiro precisa dele para encher um barril de vinho!"
+			},
+			"red_wine": {
+				"red_wine": {
+					"display_name": "Vinho tinto",
+					"description": "Mais elegante de todas as cervejas. Faz hearthlings feliz, mas também um pouco embriagado!"
+				},
+				"wine_berry_serving": {
+					"display_name": "Cálice de vinho tinto"
+				},
+				"serving_pitcher_iconic": {
+					"description": "Coloque-o em algum lugar para que os hearthlings possam se servir!"
+				},
+				"serving_pitcher": {
+					"display_name": "Servindo jarra de vinho tinto"
+				}
+			},
+			"hippocras": {
+				"hippocras_serving": {
+					"display_name": "Cálice de Hipócras",
+					"description": "Picante, quente e não muito forte!"
+				},
+				"serving_keg_iconic": {
+					"description": "Coloque-o em algum lugar para que os hearthlings possam se servir!"
+				},
+				"serving_keg": {
+					"display_name": "Servindo Barril de Hipócras",
+					"description": "Uma especialidade da Liga Serena! Picante, quente e com pouco teor alcoólico."
+				}
+			},
+			"juice_lemon": {
+				"juice_lemon": {
+					"display_name": "Suco de limão",
+					"description": "Bebida quase insuportavelmente azeda feita com limões.",
+					"recipe_name": "Balde de suco de limão",
+					"flavor": "Eu disse CONTINUE SORRINDO!"
+				},
+				"juice_lemon_serving": {
+					"display_name": "Xícara de suco de limão"
+				}
+			}
+		},
+		"armor": {
+			"cloth_padded_hat": {
+				"display_name": "Chapéu acolchoado de tecido",
+				"description": "Estofamento extra para o seu noggin"
+			},
+			"cloth_padded_uniform": {
+				"display_name": "Uniforme acolchoado de pano",
+				"description": "Fornece proteção leve em uma luta. Cada pouquinho ajuda!"
+			},
+			"leather_hat": {
+				"display_name": "Chapéu de couro grosso",
+				"description": "Proteção para sua cabeça"
+			},
+			"leather_uniform": {
+				"display_name": "Uniforme de couro grosso",
+				"description": "Couro endurecido fornece proteção robusta."
+			},
+			"bronze_hat": {
+				"display_name": "Chapéu com tala de bronze",
+				"description": "Linda e protetora"
+			},
+			"bronze_uniform": {
+				"display_name": "Uniforme de tala de bronze",
+				"description": "Coberto com peças de metal para proteção extra."
+			},
+			"iron_hat": {
+				"display_name": "Chapéu de tala de ferro",
+				"description": "Proteção para sua cabeça"
+			},
+			"iron_uniform": {
+				"display_name": "Uniforme de tala de ferro",
+				"description": "Um terno completo de armadura de ferro"
+			},
+			"steel_hat": {
+				"display_name": "Chapéu com tala de aço",
+				"description": "Proteção forte e não tão pesada para sua cabeça."
+			},
+			"steel_uniform": {
+				"display_name": "Uniforme de Tala de Aço",
+				"description": "Uma armadura de cota de malha muito chique e forte."
+			},
+			"ornate_cleric_armor": {
+				"display_name": "Vestido de clérigo ornamentado",
+				"description": "Uma roupa mais inspiradora para o clérigo.",
+				"recipe": {
+					"description": "Crie uma roupa mais inspiradora para o Clérigo. Ele também fornece alguns bônus.",
+					"flavor": "Em um vestido bordado como este pode-se dar uma palestra para qualquer público!"
+				}
+			}
+		},
+		"npc": {
+			"herald": {
+				"male": {
+					"herald_rinaldo": {
+						"display_name": "Rinaldo Fabioni",
+						"description": "Arauto da República."
+					},
+					"herald_voltini": {
+						"display_name": "prof. Gianlorenzo Voltini",
+						"description": "Faculdade de Linguística, Serene Academy."
+					}
+				},
+				"female": {
+					"herald_henrietta": {
+						"display_name": "Henriqueta",
+						"description": "PeaDuck do Professor Voltini."
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"requirements": {
+			"carpenter": "Feito por Carpinteiro",
+			"mason": "Feito por Mason",
+			"herbalist": "Feito por Herbalist",
+			"weaver": "Feito por Weaver"
+		},
+		"crafter": {
+			"sunstroke_crafter_outfit": {
+				"sl_display_name": "Tricorne Artesanal de Feltro de Verão",
+				"description": "Só pode ser usado por artesãos. Protege do calor e das insolações."
+			}
+		},
+		"field_work": {
+			"sunstroke_field_work_outfit": {
+				"sl_display_name": "Chapéu de Trabalho Tecido de Verão",
+				"description": "Um chapéu para trabalhadores e trabalhadores de campo. Protege do calor e das insolações."
+			}
+		},
+		"carpenter": {
+			"carpenter_saw": {
+				"display_name": "Serra de ossos de carpinteiro"
+			}
+		},
+		"mason": {
+			"recipes": {
+				"plaster_building_parts_name": "Peças de construção em gesso",
+				"plaster_furniture_name": "Recipientes e móveis de gesso",
+				"carpenter_saw_recipe": {
+					"recipe_name": "Serra de ossos de carpinteiro",
+					"flavor": "Mais frágil que uma serra de ferro, mas igualmente viável em mãos habilidosas."
+				}
+			},
+			"gypsum_kiln": {
+				"display_name": "Forno de gesso",
+				"description": "Usado para queimar pedra em gesso, ingrediente base do gesso.",
+				"flavor": "Os materiais moldáveis ​​são mais fáceis de trabalhar do que a pedra dura."
+			}
+		},
+		"farmer": {
+			"farmer_description": {
+				"level_2_data": {
+					"perk_000_description": "A exposição a plantas fibrosas deu ao agricultor ideias sobre fiar fios. Consulte o menu da promoção para mais detalhes."
+				}
+			}
+		},
+		"brewer": {
+			"brewer_fermenting_carboy_red_wine": {
+				"display_name": "Garrafão com vinho tinto",
+				"description": "O vinho tinto está pronto e agora pode ser colocado em jarras!"
+			},
+			"brewer_fermenting_carboy_unfermented_red_wine": {
+				"display_name": "Garrafão com vinho tinto",
+				"description": "As frutas estão fermentando e liberando todos os seus sabores! Ainda não está pronto..."
+			},
+			"brewer_wine_cask_red_wine": {
+				"display_name": "Barril com vinho tinto",
+				"description": "O vinho tinto está pronto e agora pode ser colocado em jarras!"
+			},
+			"brewer_wine_cask_unfermented_red_wine": {
+				"display_name": "Barril com vinho tinto",
+				"description": "As frutas estão fermentando e liberando todos os seus sabores! Ainda não está pronto..."
+			},
+			"recipes": {
+				"must_red_grape_recipe": {
+					"recipe_name": "Balde de mosto de uva vermelha",
+					"description": "Uvas vermelhas esmagadas com casca e suco. Dentro de um Barril de Vinho pode ser transformado em vinho tinto!",
+					"flavor": "Leveduras selvagens que vivem nas peles são cruciais para o processo de fermentação."
+				},
+				"red_wine_serving_pitcher_recipe": {
+					"recipe_name": "Servindo jarra de vinho tinto",
+					"description": "Fornece 14 taças de vinho tinto. Ele precisa ser colocado para baixo antes de ser usado.",
+					"flavor": "Os jarros evitam o desperdício, dispensando assim mais porções"
+				},
+				"hippocras_serving_keg_recipe": {
+					"recipe_name": "Servindo Barril de Hipócras",
+					"description": "Uma bebida especial da Liga Serena. Picante, quente e com pouco teor alcoólico.",
+					"flavor": "Requer posicionamento antes de poder ser usado"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"cane_sugar": {
+					"recipe_name": "Cana de açúcar",
+					"description": "A obtenção de açúcar da cana-de-açúcar é um pouco mais fácil do que das açucareiras.",
+					"flavor": "Porém, são necessários mais recursos, pois as folhas da cana-de-açúcar não são adequadas para refinamento."
+				}
+			}
+		}
+	},
+	"herbalist_crops": {
+		"lavender": {
+			"display_name": "Lavanda",
+			"description": "Parece esplêndido, repele insetos, pode ser usado como tempero. Cresce muito rapidamente e fornecerá ervas <span class='greenHerb'>verde</span> e <span class='purpleHerb'>roxa</span> <span class='aromaticHerb'>aromática</span> quando colhida.",
+			"harvest_text": "colheita de lavanda"
+		},
+		"purslane": {
+			"display_name": "Beldroega",
+			"description": "Suculenta que tem gosto de sal e vinagre. Precisa de alguns dias para crescer completamente e fornecerá ervas <span class='redHerb'>vermelhas</span> <span class='aromaticHerb'>aromática</span> quando colhidas.",
+			"harvest_text": "colheita de beldroegas"
+		},
+		"dandelions": {
+			"display_name": "Dente-de-leão",
+			"description": "Ervas invasoras com uso medicinal. Precisa de alguns dias para crescer completamente e fornecerá ervas <span class='yellowHerb'>amarelas</span> <span class='aromaticHerb'>aromática</span> quando colhidas.",
+			"harvest_text": "colheita de dentes de leão"
+		},
+		"stone_pine_sapling": {
+			"display_name": "Muda de pinheiro manso",
+			"description": "Árvore perene alta guarda-chuva encontrada na costa. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
+			"harvest_text": "colheita de mudas de pinheiro manso"
+		},
+		"cypress_sapling": {
+			"display_name": "Muda de Cipreste",
+			"description": "Árvore perene elegante e elegante encontrada na costa. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
+			"harvest_text": "colheita de mudas de cipreste"
+		},
+		"olive_sapling": {
+			"display_name": "Muda de Oliveira",
+			"description": "Uma árvore frutífera oleosa que sobrevive a climas secos. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
+			"harvest_text": "colheita de mudas de pera"
+		},
+		"lemon_sapling": {
+			"display_name": "Muda de Limoeiro",
+			"description": "Uma árvore frutífera que sobrevive a climas secos. Precisa de alguns dias antes de crescer o suficiente para ser replantado em outro lugar.",
+			"harvest_text": "colheita de mudas de pera"
+		}
+	},
+	"kingdoms": {
+		"serene_league": "Liga Serena [WIP]"
+	},
+	"ui": {
+		"shell": {
+			"select_settlement": {
+				"terrain_codes": {
+					"beach": "Praia"
+				}
+			}
+		}
+	},
+	"data": {
+		"serene_league_population": {
+			"display_name": "Liga Serena [WIP]"
+		},
+		"biome": {
+			"coast": {
+				"display_name": "Costa",
+				"description": "Rochas e montanhas que descem para o mar. Casa padrão da Serene League.",
+				"random_location_names": {
+					"000": "Costa de Monferrone"
+				},
+				"seasons": {
+					"spring": {
+						"display_name": "Primavera",
+						"description": "A primavera no Litoral é a estação mais amena, com duração de dois meses. Chuvas ocasionais mantêm o solo fresco enquanto o sol agradável traz nova vida a todas as plantas e criaturas."
+					},
+					"summer": {
+						"display_name": "Verão",
+						"description": "O verão no Litoral é a estação mais quente, com duração de cinco meses. É seco e pouco ventoso com pouca chuva, que geralmente vem acompanhada de tempestades violentas."
+					},
+					"autumn": {
+						"display_name": "Outono",
+						"description": "O outono no Litoral é a época da colheita, com duração de dois meses. As plantas aproveitam sua porção de chuva após o verão seco, enquanto os céus escurecem com nuvens de chuva antes do inverno mais seco e ventoso."
+					},
+					"winter": {
+						"display_name": "Inverno",
+						"description": "O inverno no Litoral é uma estação ventosa, com duração de três meses. Também é bastante seco, fazendo com que plantas e animais exaustos pelo verão quente e o outono tempestuoso esperem pelas chuvas da primavera."
+					}
+				},
+				"animals": {
+					"duckduck": {
+						"display_name": "PeaDuck"
+					},
+					"ostrich": {
+						"display_name": "Bustrich"
+					},
+					"racoon": {
+						"display_name": "Guaxinim Marta"
+					}
+				}
+			}
+		},
+		"buffs": {
+			"serene_mind": {
+				"display_name": "Mente serena",
+				"description": "Todos os nossos percalços diários valem a pena se preocupar? Em vez disso, devemos nos concentrar no quadro geral. Diligência e Curiosidade são aumentadas.<ul><li>A qualidade de fabricação é bastante aumentada</li><li>O humor do Hearthling é bastante aumentado</li></ul>"
+			}
+		},
+		"happiness": {
+			"thoughts": {
+				"drinking": {
+					"serene_mind": {
+						"display_name": "Ter uma mente serena",
+						"tooltip": "Pode alguma coisa trazer um pensamento mais refrescante do que uma taça de vinho?"
+					}
+				}
+			}
+		},
+		"weather": {
+			"windy_dry": {
+				"display_name": "Ventos Secos",
+				"description": "O ar está seco enquanto os ventos uivam pelas terras.<ul><li>Níveis normais de luz solar.</li><li>Níveis de umidade visivelmente reduzidos.</li></ul>"
+			},
+			"windy_chilly_dry": {
+				"display_name": "Ventos frios e secos",
+				"description": "O ar está seco e frio enquanto os ventos uivam pelas terras.<ul><li>Níveis normais de luz solar.</li><li>Níveis de umidade visivelmente reduzidos.</li><li>Os lareiras desabrigadas são muito frias para trabalhar com a mesma eficácia.</li></ul>"
+			},
+			"cloudy_hot": {
+				"display_name": "Quente e Nublado",
+				"description": "O céu pode estar escuro, mas o calor acumulado ainda é insuportável.<ul><li>Níveis de luz solar bastante reduzidos.</li><li>Níveis de umidade regulares.</li><li>Os lares não protegidos são quentes demais para funcionar com eficiência .</li><li>Os animais de pasto sem abrigo são afetados pelo calor.</li></ul>"
+			}
+		},
+		"build": {
+			"building_brushes": {
+				"colors": {
+					"grandis": "Grandis",
+					"rob_roy": "Rob Roy",
+					"dijon": "Dijon",
+					"goldenrod": "Goldenrod",
+					"harvest_gold": "Colheita de Ouro",
+					"koromiko": "Koromiko",
+					"rajah": "Rajá",
+					"tacao": "Tacao",
+					"crusta": "Crusta",
+					"ochre": "Ocre",
+					"desert_ochre": "Ocre do deserto",
+					"mule_fawn": "Mula Corça",
+					"locust": "Gafanhoto",
+					"amulet": "Amuleto",
+					"pistacchio": "Pistache"
+				}
+			}
+		},
+		"loadouts": {
+			"items": {
+				"prickly_pear": "Peras",
+				"grapes": "Uvas",
+				"olives": "Azeitonas",
+				"wine": "Vinho",
+				"cheese": "Queijo"
+			}
+		},
+		"commands": {
+			"transform": {
+				"fermenting_carboy_fill_unfermented_red_wine": {
+					"display_name": "Produzir vinho tinto",
+					"description": "Peça ao Cervejeiro para encher este recipiente de fermentação com suco de uva vermelha! Este Garrafão continuará produzindo Vinho Tinto até que um novo comando seja dado."
+				},
+				"wine_cask_fill_unfermented_red_wine": {
+					"display_name": "Produzir vinho tinto",
+					"description": "Peça ao Cervejeiro para encher este recipiente de fermentação com suco de uva vermelha! Este Barril continuará produzindo Vinho Tinto até que um novo comando seja dado."
+				}
+			}
+		},
+		"guilds": {
+			"eagle": {
+				"display_name": "Guilda da Águia"
+			},
+			"lion": {
+				"display_name": "Guilda do Leão"
+			},
+			"pegasus": {
+				"display_name": "Guilda Pégaso"
+			},
+			"amberstone": {
+				"display_name": "Clã Amberstone",
+				"bonus_description": "Todos os cidadãos ganham o bônus Aura de Pedra Âmbar."
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"encounters": {
+					"daily_report_encounter": {
+						"title": "Candidaturas de Cidadania",
+						"update_title": "Os pedidos de cidadania estão pendentes de aprovação",
+						"next_requirements_label": "Requisitos:",
+						"conclusion_positive": "Você tem pedidos de cidadania pendentes.",
+						"conclusion_negative": "Nenhum novo pedido recebido hoje.",
+						"success_title": "[name(i18n_data.citizen)] se juntou a [str(i18n_data.town_name)]!",
+						"messages": {
+							"000": "Já ouvi falar muito da sua cidade!",
+							"001": "Eu gostaria de me juntar à sua cidade.",
+							"002": "Vocês realmente parecem que precisam de uma mão!",
+							"003": "Uau! Que cidade! Deixe-me ajudar!"
+						},
+						"outcome_statement": "Um [str(i18n_data.job)] gostaria de participar de [str(i18n_data.town_name)]!"
+					}
+				},
+				"town_progression": {
+					"town_founding_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"meet_rinaldo_1": {
+									"bulletin_title": "Uma pessoa de aparência oficial se aproxima",
+									"dialog_title": "jovem cavalheiro",
+									"bulletin_message": {
+										"00": "Salve um tutti! Meu nome é Rinaldo Fabioni. Espero não estar interrompendo nada importante.<p>Venho até você seguindo o desejo de Sua Serenidade, o próprio Doge.</p>"
+									},
+									"choice_001": "De nada, seja bem-vindo!",
+									"choice_000": "Caramba, sua própria graça serena?!"
+								},
+								"meet_rinaldo_2": {
+									"bulletin_title": "Mensageiro da Capital!",
+									"dialog_title": "",
+									"bulletin_message": {
+										"00": "Em primeiro lugar, Sua Serenidade deseja expressar sua felicidade e gratidão. Na Capital, estamos todos muito felizes em ver uma equipe tão talentosa disposta a espalhar o Iluminismo para novas terras.<p>Servir a República é uma honra e guardar um legado centenário é nosso dever, especialmente em tempos instáveis ​​como estes.< /p><p><i>Rinaldo está tentando manter seu sorriso edificante, mas seus olhos dizem que ele está preocupado.</i></p>"
+									},
+									"choice_001": "Que verdade.",
+									"choice_000": "Instável?"
+								},
+								"meet_rinaldo_3": {
+									"bulletin_title": "Mensageiro da Capital!",
+									"dialog_title": "",
+									"bulletin_message": {
+										"00": "Sua Serenity está fazendo o possível para proteger as fronteiras, mas as invasões do Red Kiln parecem ficar cada vez mais poderosas a cada dia. Nosso exército está parecendo, erm, eu quis dizer... esplêndido, no entanto o Conselho foi forçado a contratar mercenários do Norte para manter o Forno longe da Capital."
+									},
+									"choice_001": "A que distância estão agora?",
+									"choice_000": "Tenho certeza que eles vão mantê-los longe..."
+								},
+								"meet_rinaldo_4": {
+									"bulletin_title": "Mensageiro da Capital!",
+									"dialog_title": "",
+									"bulletin_message": {
+										"00": "... longe o suficiente para não se preocupar... por enquanto. Se a Capital não fosse construída sobre as tropas de água do Forno já poderia ter chegado lá. Nossa frota pode ser invencível, mas o Forno está bloqueando quase todas as rotas terrestres. A última caravana dos Filhos de Rayya chegou há alguns meses. De mãos vazias.<p><i>Rinaldo nem tenta mais sorrir.</i></p>"
+									},
+									"choice_000": "Huh? Como?"
+								},
+								"meet_rinaldo_5": {
+									"bulletin_title": "Mensageiro da Capital!",
+									"dialog_title": "",
+									"bulletin_message": {
+										"00": "Deixar passar um comerciante e deixar passar as mercadorias são duas coisas diferentes. Os orcs sabem muito bem disso. Se o comércio entrar em colapso, não poderemos pagar os mercenários. Os orcs também sabem disso. E mercenários não lutam de graça - esses orcs sabem melhor do que ninguém."
+									},
+									"choice_000": "Alguma solução no horizonte?",
+									"choice_001": "Podemos ajudar de alguma forma?"
+								},
+								"meet_rinaldo_6": {
+									"bulletin_title": "Mensageiro da Capital!",
+									"dialog_title": "",
+									"bulletin_message": {
+										"00": "<i>Seu entusiasmo parece iluminar a conversa.</i><p>Isso nos leva ao motivo da minha visita. O Conselho me enviou aqui para conceder oficialmente ao seu município uma licença comercial. Isso exige que sua cidade se torne membro de uma das guildas comerciais.</p>"
+									},
+									"choice_000": "[pular] Já era hora! Onde eu assino?",
+									"choice_001": "Guildas?"
+								},
+								"rinaldo_story_1": {
+									"bulletin_title": "História de fundação da Liga",
+									"dialog_title": "",
+									"bulletin_message": {
+										"00": "<i>A forma como Rinaldo olha para você muda; ele parece sábio além de sua idade.</i><p>Nós não nos chamamos de Liga sem uma razão. A maioria de nós pertence a pelo menos uma das guildas. Existem muitos tipos de guildas, especializadas em diferentes campos. Séculos atrás, as guildas estavam competindo entre si. Surgiram conflitos e guildas menores começaram a se associar em ligas para resistir à pressão das maiores. As ligas começaram a se associar em ligas ainda maiores, até que um dia sobraram apenas duas.</p>"
+									},
+									"choice_000": "Eu não gosto de onde isso está indo..."
+								},
+								"rinaldo_story_2": {
+									"bulletin_title": "A História Continua",
+									"dialog_title": "A História Continua...",
+									"bulletin_message": {
+										"00": "Oh bobo, eu não te disse que um pode ser membro de mais de uma guilda? Além disso, você gostaria de participar de exercícios físicos desnecessários... violência, era isso que eu queria dizer. De qualquer forma, em vez de dividir as pessoas e forçá-las a decidir qual lado apoiar, os líderes das guildas se reuniram (agora chamamos tal assembleia de Conselho) e decidiram formar uma liga..."
+									},
+									"choice_000": "...a Liga Serena!"
+								},
+								"rinaldo_story_3": {
+									"bulletin_title": "A História Continua",
+									"dialog_title": "A História Continua...",
+									"bulletin_message": {
+										"00": "Exatamente. Os conflitos foram encerrados de uma vez por todas e como todas as pessoas foram unidas em uma Liga, o Conselho declarou que todas as terras pertencentes aos membros da Liga estão unidas em um domínio, a República Serena, e decidiu eleger um governante, o Doge Serene, de um dos seus membros."
+									},
+									"choice_001": "Isso sim é uma aula de história!",
+									"choice_000": "Fascinante, mas e a nossa guilda?"
+								},
+								"rinaldo_story_4": {
+									"bulletin_title": "A História Continua",
+									"dialog_title": "A História Continua...",
+									"bulletin_message": {
+										"00": "<i>Rinaldo cora.</i><p>Perdoe-me, de volta à sua licença comercial! Para se tornar um comerciante oficialmente reconhecido pela República, você deve ser membro de uma das guildas comerciais. Devo dizer que você parece ser famoso, pois tenho cartas de líderes dos três mais proeminentes de toda a Liga comigo! Ninguém lê a correspondência de outra pessoa, então não tenho ideia do que exatamente eles escreveram, mas aposto que todos têm ótimas ofertas para você!</p><p><i>Rinaldo lhe entrega três pergaminhos selados de forma diferente.</i>< /p>"
+									},
+									"choice_000": "Deixe-me vê-los.",
+									"choice_001": "Espero que sim!"
+								}
+							}
+						}
+					},
+					"town_founding_food_donation": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"bulletin_message": {
+										"00": "Cara, você tem motivos para comemorar e sabe como fazer isso! Eu gostaria de não ter que sair tão cedo, mas Sua Serenidade me confiou mais ordens de extrema importância. Aqui, tome isso como minha contribuição para a festa:"
+									},
+									"bulletin_title": "Rinaldo se prepara para sair",
+									"dialog_title": "Rinaldo se prepara para sair",
+									"choice_000": "Como você é gentil!"
+								}
+							}
+						}
+					},
+					"bird_departs": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Ah, antes de ir: ouvi dizer que um respeitado membro da Academia está a caminho do bairro para supervisionar alguns importantes trabalhos de escavação, já que você é o único posto avançado da Liga nas proximidades, acho que ele fará uma visita! Arrivederci, amigos!<p>[Aqui a revisão da campanha da Liga termina por enquanto; A campanha Ascendancy é usada mais adiante, fique atento pois a campanha está em andamento e será expandida em futuras atualizações]</p>"
+									},
+									"bulletin_title": "Saída de Rinaldo",
+									"dialog_title": "Saída de Rinaldo",
+									"choice_000": "Algo me diz que nos encontraremos novamente em breve!"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"serene_league": {
+						"categories": {
+							"outpost": "Município",
+							"settlement": "Povoado"
+						}
+					}
+				}
+			},
+			"building_templates": {
+				"small_stone_house": "Casinha de Pedra",
+				"sentry_quarters": "Sentinelas",
+				"mason_workshop": "oficina de pedreiro"
+			}
+		}
+	}
+}

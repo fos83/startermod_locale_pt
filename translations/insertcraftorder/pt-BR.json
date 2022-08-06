@@ -1,0 +1,10 @@
+{
+	"ui": {
+		"game": {
+			"insertcraftorder": {
+				"title": "Inserir pedido de artesanato",
+				"description": "Coloque a ordem de criação na fila e mova-a para o topo da lista."
+			}
+		}
+	}
+}

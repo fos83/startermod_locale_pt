@@ -1,0 +1,41 @@
+{
+	"jobs": {
+		"geomancer": {
+			"recipes": {
+				"common": {
+					"transmute_flavor": "A transmutação é menos eficiente do que invocar pedras, mas permite pular o processo de mineração."
+				},
+				"categories": {
+					"transmute": "Transmutação"
+				},
+				"stone_pile": {
+					"description": "Use Hearth Essence para multiplicar a pedra."
+				},
+				"clay_pile": {
+					"description": "Use Hearth Essence para multiplicar argila."
+				},
+				"lump_of_coal": {
+					"description": "Use Hearth Essence para obter carvão."
+				},
+				"tin_ore": {
+					"description": "Use Hearth Essence para obter estanho."
+				},
+				"copper_ore": {
+					"description": "Use Hearth Essence para obter cobre."
+				},
+				"iron_ore": {
+					"description": "Use Hearth Essence para obter ferro."
+				},
+				"silver_ore": {
+					"description": "Use Hearth Essence para obter prata."
+				},
+				"gold_ore": {
+					"description": "Use Hearth Essence para obter ouro."
+				},
+				"hard_coal": {
+					"description": "Use Hearth Essence para obter carvão."
+				}
+			}
+		}
+	}
+}

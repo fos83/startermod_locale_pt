@@ -1,0 +1,20 @@
+{
+	"entities": {
+		"weapons": {
+			"quickfire_arrow": {
+				"display_name": "Flecha de tiro rápido",
+				"description": "Uma flecha imbuída de chamas mágicas"
+			}
+		}
+	},
+	"jobs": {
+		"archer": {
+			"archer_buffs": {
+				"quickfire_arrow": {
+					"display_name": "No fogo mágico",
+					"description": "Flamejante! Recebendo 8 de dano de fogo a cada 5 minutos por 15 minutos"
+				}
+			}
+		}
+	}
+}

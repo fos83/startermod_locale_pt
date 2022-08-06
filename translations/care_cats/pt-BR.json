@@ -1,4 +1,5 @@
 {
+	"mixins": "/care_cats/locales/en.json",
 	"kingdoms": {
 		"felines": "A Equipe Gato",
 		"hearth_guard": "Guarda da Lareira"

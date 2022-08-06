@@ -1,0 +1,1507 @@
+{
+	"ai": {
+		"actions": {
+			"status_text": {
+				"monster_follow_path": "corrida...",
+				"monster_stunned": "atordoado",
+				"monster_summon": "convocando mais monstros!"
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"arctic": {
+				"display_name": "Quadrados",
+				"description": "Looping semelhante ao Burbenog para monstros terrestres, com loops maiores (e, portanto, um caminho mais longo que o normal) para o ar.",
+				"random_location_names": {
+					"000": "Os Quadrados da Perdição"
+				}
+			},
+			"desert": {
+				"display_name": "Burbenog",
+				"description": "O estilo clássico de looping de Burbenog, com menos looping para monstros do ar.",
+				"random_location_names": {
+					"000": "Burbenogistan"
+				}
+			},
+			"temperate": {
+				"display_name": "O Estranho de Paul",
+				"description": "Um caminho longo e semi-fractal para monstros terrestres, com um caminho direto para o ar.",
+				"random_location_names": {
+					"000": "Paulville"
+				}
+			},
+			"turbo": {
+				"display_name": "Modo turbo!",
+				"description": "Um caminho muito mais curto, menos ondas de monstros que se movem mais rápido com menos saúde.",
+				"random_location_names": {
+					"000": "Ridgemont High"
+				}
+			}
+		},
+		"buffs": {
+			"buff_duration_seconds": "[str(seconds)] s",
+			"plant_growth": {
+				"display_name": "Crescimento",
+				"description": "A torre cresce 20% em tamanho e 10% em dano para cada pilha."
+			},
+			"invisible": {
+				"display_name": "Invisível",
+				"description": "Não pode ser alvo direto, a menos que seja revelado por uma torre ou debuff."
+			},
+			"aoe_purge": {
+				"display_name": "Purga AOE",
+				"description": "Purga periodicamente todos os monstros próximos de todos os debuffs"
+			},
+			"full_self_purge": {
+				"display_name": "Autopurga completa",
+				"description": "Periodicamente limpa todos os debuffs de si mesmo"
+			},
+			"random_self_purge": {
+				"display_name": "Limpeza Aleatória",
+				"description": "Periodicamente elimina um debuff aleatório de si mesmo"
+			},
+			"minor_armor": {
+				"display_name": "Armadura Menor",
+				"description": "Reduz o dano físico recebido em 30%. Acumula aditivamente com outros modificadores de dano físico recebido."
+			},
+			"normal_armor": {
+				"display_name": "armaduras",
+				"description": "Reduz o dano físico recebido em 60%. Acumula aditivamente com outros modificadores de dano físico recebido."
+			},
+			"major_armor": {
+				"display_name": "Armadura Maior",
+				"description": "Reduz o dano físico recebido em 90%. Acumula aditivamente com outros modificadores de dano físico recebido."
+			},
+			"minor_armor_piercing": {
+				"display_name": "Armadura Menor Perfurada",
+				"description": "Contra-ataca 25% da redução de dano físico por 6 segundos"
+			},
+			"normal_armor_piercing": {
+				"display_name": "Armadura Perfurada",
+				"description": "Contra-ataca 50% da redução de dano físico por 6 segundos"
+			},
+			"major_armor_piercing": {
+				"display_name": "Armadura Maior Perfurada",
+				"description": "Contra-ataca 75% da redução de dano físico por 6 segundos"
+			},
+			"major_burning": {
+				"display_name": "Grande Queima",
+				"description": "Queima por 25 de dano mágico por pilha a cada segundo por 3 segundos. Acumula até 999."
+			},
+			"minor_burning": {
+				"display_name": "Queimadura Menor",
+				"description": "Queima por 1 dano mágico por pilha a cada segundo por 3 segundos. Acumula até 999."
+			},
+			"normal_burning": {
+				"display_name": "Queimando",
+				"description": "Queima por 5 de dano mágico por pilha a cada segundo por 3 segundos. Acumula até 999."
+			},
+			"major_healing": {
+				"display_name": "Cura Maior",
+				"description": "Cura 10% do HP máximo a cada segundo"
+			},
+			"minor_healing": {
+				"display_name": "Cura Menor",
+				"description": "Cura 1% do HP máximo a cada segundo"
+			},
+			"normal_healing": {
+				"display_name": "Curando",
+				"description": "Cura 3% do HP máximo a cada segundo"
+			},
+			"minor_magic_armor": {
+				"display_name": "Armadura Mágica Menor",
+				"description": "Reduz o dano mágico recebido em 30%. Acumula aditivamente com outros modificadores de dano mágico recebido."
+			},
+			"normal_magic_armor": {
+				"display_name": "Armadura Mágica",
+				"description": "Reduz o dano mágico recebido em 60%. Acumula aditivamente com outros modificadores de dano mágico recebido."
+			},
+			"major_magic_armor": {
+				"display_name": "Armadura Mágica Maior",
+				"description": "Reduz o dano mágico recebido em 90%. Acumula aditivamente com outros modificadores de dano mágico recebido."
+			},
+			"minor_magic_armor_piercing": {
+				"display_name": "Armadura Mágica Menor Perfurada",
+				"description": "Contra-ataca 25% da redução de dano mágico por 6 segundos"
+			},
+			"normal_magic_armor_piercing": {
+				"display_name": "Armadura Mágica Perfurada",
+				"description": "Contra-ataca 50% da redução de dano mágico por 6 segundos"
+			},
+			"major_magic_armor_piercing": {
+				"display_name": "Armadura Mágica Maior Perfurada",
+				"description": "Contra-ataca 75% da redução de dano mágico por 6 segundos"
+			},
+			"minor_poison": {
+				"display_name": "Veneno Menor",
+				"description": "Reduz a velocidade de movimento em 5%, aumenta o dano físico recebido em 5% e causa 3 de dano mágico não letal a cada 3 segundos por 3 segundos. A reaplicação adiciona duração."
+			},
+			"normal_poison": {
+				"display_name": "Tóxico",
+				"description": "Reduz a velocidade de movimento em 10%, aumenta o dano físico recebido em 10% e causa 15 de dano mágico não letal a cada 3 segundos por 3 segundos. A reaplicação adiciona duração."
+			},
+			"major_poison": {
+				"display_name": "Veneno Maior",
+				"description": "Reduz a velocidade de movimento em 15%, aumenta o dano físico recebido em 15% e causa 75 de dano mágico não letal a cada 3 segundos por 3 segundos. A reaplicação adiciona duração."
+			},
+			"minor_reveal": {
+				"display_name": "Revelação Menor",
+				"description": "Revela invisibilidade por 3 segundos"
+			},
+			"normal_reveal": {
+				"display_name": "Revelar",
+				"description": "Revela invisibilidade por 8 segundos"
+			},
+			"major_reveal": {
+				"display_name": "Grande Revelação",
+				"description": "Revela permanentemente a invisibilidade"
+			},
+			"minor_slow": {
+				"display_name": "Lento Menor",
+				"description": "Reduz a velocidade de movimento em 15% por 6 segundos. Acumula multiplicativamente com outros modificadores de velocidade de movimento."
+			},
+			"normal_slow": {
+				"display_name": "Lento",
+				"description": "Reduz a velocidade de movimento em 25% por 6 segundos. Acumula multiplicativamente com outros modificadores de velocidade de movimento."
+			},
+			"major_slow": {
+				"display_name": "Maior lentidão",
+				"description": "Reduz a velocidade de movimento em 35% por 6 segundos. Acumula multiplicativamente com outros modificadores de velocidade de movimento."
+			},
+			"minor_wound": {
+				"display_name": "Ferimento Menor",
+				"description": "Reduz a cura em 40% por 6 segundos. Acumula multiplicativamente com outros modificadores de cura."
+			},
+			"normal_wound": {
+				"display_name": "Ferimento",
+				"description": "Reduz a cura em 60% por 6 segundos. Acumula multiplicativamente com outros modificadores de cura."
+			},
+			"major_wound": {
+				"display_name": "Ferimento Maior",
+				"description": "Reduz a cura em 80% por 6 segundos. Acumula multiplicativamente com outros modificadores de cura."
+			},
+			"tower": {
+				"minor_avoidance_decrease": {
+					"display_name": "Diminuição de Evitação Menor",
+					"description": "Reduz a evasão em 5%"
+				},
+				"minor_avoidance_increase": {
+					"display_name": "Evitação Menor",
+					"description": "Aumenta a evasão em 5%"
+				},
+				"minor_armor_decrease": {
+					"display_name": "Dano Físico Menor",
+					"description": "Aumenta o dano físico recebido em 5%"
+				},
+				"minor_armor_increase": {
+					"display_name": "Redução de danos físicos menores",
+					"description": "Reduz o dano físico recebido em 5%"
+				},
+				"minor_speed_decrease": {
+					"display_name": "Redução de velocidade menor",
+					"description": "Reduz a velocidade em 5%"
+				},
+				"minor_speed_increase": {
+					"display_name": "Velocidade Menor",
+					"description": "Aumenta a velocidade em 5%"
+				},
+				"major_cooldown_decrease": {
+					"display_name": "Grande redução de cooldown",
+					"description": "Reduz o tempo de espera em 25%"
+				},
+				"normal_cooldown_decrease": {
+					"display_name": "Redução de cooldown",
+					"description": "Reduz o tempo de espera em 10%"
+				},
+				"minor_cooldown_decrease": {
+					"display_name": "Redução de cooldown menor",
+					"description": "Reduz o tempo de espera em 5%"
+				},
+				"minor_cooldown_increase": {
+					"display_name": "Cooldown menor",
+					"description": "Aumenta o tempo de espera em 5%"
+				},
+				"normal_damage_increase": {
+					"display_name": "Dano",
+					"description": "Aumenta o dano em 10%"
+				},
+				"minor_damage_increase": {
+					"display_name": "Danos Leves",
+					"description": "Aumenta o dano em 5%"
+				},
+				"minor_damage_decrease": {
+					"display_name": "Redução de danos menores",
+					"description": "Reduz o dano em 5%"
+				},
+				"minor_accuracy_decrease": {
+					"display_name": "Redução de Precisão Menor",
+					"description": "Reduz a precisão em 5%"
+				},
+				"minor_accuracy_increase": {
+					"display_name": "Precisão Menor",
+					"description": "Aumenta a precisão em 5%"
+				}
+			},
+			"gold_mining": {
+				"display_name": "Mineração de ouro",
+				"description": "Concede a quantidade de ouro exibida no final da rodada."
+			},
+			"wood_investment": {
+				"display_name": "Investimento em madeira",
+				"description": "Concede a quantidade de madeira exibida quando colhida."
+			},
+			"immunity": {
+				"burning": {
+					"display_name": "Imunidade a Queimaduras",
+					"description": "Imune a todos os debuffs de Burning"
+				},
+				"poison": {
+					"display_name": "Imunidade a Veneno",
+					"description": "Imune a todos os debuffs de Poison"
+				},
+				"slow": {
+					"display_name": "Imunidade lenta",
+					"description": "Imune a todos os debuffs de Lentidão"
+				}
+			},
+			"freeze": {
+				"display_name": "Congeladas",
+				"description": "Atordoado por 2 segundos (retornos decrescentes com outros efeitos de atordoamento)"
+			},
+			"ministun": {
+				"display_name": "Ministun",
+				"description": "Muito brevemente atordoado (retornos decrescentes com outros efeitos de atordoamento)"
+			},
+			"root": {
+				"display_name": "Enraizado",
+				"description": "Imobilizado por 2 segundos (retornos decrescentes com outros efeitos de imobilização)"
+			},
+			"vortex": {
+				"display_name": "Vórtice",
+				"description": "Imobilizado por 2 segundos (retornos decrescentes com outros efeitos de imobilização)"
+			},
+			"mortal_wound": {
+				"display_name": "Ferida Mortal",
+				"description": "Reduz a cura em 100%"
+			},
+			"spawn_ants_on_death": {
+				"display_name": "Surpresa mortal",
+				"description": "Gera formigas quando morto"
+			},
+			"gust": {
+				"display_name": "Rajada",
+				"description": "Reduzido brevemente por uma rajada de vento: velocidade de movimento reduzida em 50% por 1 segundo. Acumula multiplicativamente com outros modificadores de velocidade de movimento."
+			}
+		},
+		"population": {
+			"fire": {
+				"display_name": "Incêndio",
+				"quote": "Prove as chamas de Sulfuron!",
+				"description": "Torres que revelam inimigos invisíveis e causam dano mágico esmagador principalmente através do acúmulo de debuffs de dano ao longo do tempo.",
+				"post_selection_description": ", um reino de fogo.",
+				"initial_town_name": "Reino do Fogo [str(town_number)]"
+			},
+			"air": {
+				"display_name": "Ar",
+				"quote": "Woosh!",
+				"description": "Torres que se destacam na luta contra inimigos voadores e invisíveis, têm forte dano físico e puro de alvo único e buff nas torres próximas.",
+				"post_selection_description": ", um reino aéreo.",
+				"initial_town_name": "Reino do ar [str(town_number)]"
+			},
+			"earth": {
+				"display_name": "Terra",
+				"quote": "Baque!",
+				"description": "Torres que se destacam em dano físico contra vários alvos inimigos terrestres, mas são incapazes de atacar inimigos voadores.",
+				"post_selection_description": ", um reino terrestre.",
+				"initial_town_name": "Reino da Terra [str(town_number)]"
+			},
+			"water": {
+				"display_name": "Água",
+				"quote": "Sploosh!",
+				"description": "Torres que causam menos (e exclusivamente mágicos) dano, mas com poderosos debuffs de lentidão que podem habilitar torres com vários alvos.",
+				"post_selection_description": ", um reino aquático.",
+				"initial_town_name": "Reino da Água [str(town_number)]"
+			},
+			"plant": {
+				"display_name": "Plantas",
+				"quote": "Temos que ter agricultura no jogo. Obviamente.",
+				"description": "Torres que crescem com o tempo, tornando-se mais poderosas. Uma mistura sólida de dano físico direto e dano mágico ao longo do tempo.",
+				"post_selection_description": ", um reino agrícola.",
+				"initial_town_name": "Reino das Plantas [str(town_number)]"
+			}
+		},
+		"commands": {
+			"sell_full": {
+				"display_name": "Vender por 100% ([str(value)])",
+				"description": "Uma torre bonita, intocada e sem uso. Você pode obter o valor total de volta... por enquanto."
+			},
+			"sell_less": {
+				"display_name": "Vender por 20% ([str(value)])",
+				"description": "Você esperou demais! Inflação! Depreciação! Esta torre é um lixo agora."
+			},
+			"harvest_wood_investment": {
+				"display_name": "Colheita",
+				"description": "Destrói a árvore, produzindo madeira como mostrado no bônus Investimento em Madeira."
+			},
+			"upgrade_tower_damage": {
+				"display_name": "Dano de atualização",
+				"description": "[Esta dica de ferramenta será substituída por uma dinâmica.]"
+			},
+			"upgrade_tower_utility": {
+				"display_name": "Utilitário de atualização",
+				"description": "[Esta dica de ferramenta será substituída por uma dinâmica.]"
+			}
+		},
+		"render_filters": {
+			"buffs": {
+				"slow": {
+					"display_name": "Lento",
+					"description": "Torres que infligem debuffs lentos."
+				},
+				"poison": {
+					"display_name": "Tóxico",
+					"description": "Torres que infligem debuffs de veneno."
+				},
+				"burning": {
+					"display_name": "Queimando",
+					"description": "Torres que infligem debuffs ardentes."
+				},
+				"immobilize": {
+					"display_name": "Imobilizar",
+					"description": "Torres que infligem debuffs imobilizadores."
+				},
+				"stun": {
+					"display_name": "Atordoar",
+					"description": "Torres que infligem debuffs de atordoamento."
+				},
+				"wound": {
+					"display_name": "Ferimento",
+					"description": "Torres que infligem debuffs de feridas."
+				},
+				"armor_piercing": {
+					"display_name": "Perfuração de Armadura Física",
+					"description": "Torres que infligem debuffs de perfuração de armadura física."
+				},
+				"magic_armor_piercing": {
+					"display_name": "Perfuração de Armadura Mágica",
+					"description": "Torres que infligem debuffs de perfuração de armadura mágica."
+				},
+				"reveal": {
+					"display_name": "Revelar",
+					"description": "Torres que infligem revelam debuffs ou revelam passivamente."
+				},
+				"cooldown_decrease": {
+					"display_name": "Diminuição do Tempo de Recarga",
+					"description": "Torres que reduzem o tempo de espera de outras torres."
+				},
+				"damage_increase": {
+					"display_name": "Aumento de dano",
+					"description": "Torres que aumentam o dano de outras torres."
+				}
+			}
+		},
+		"tower": {
+			"target_filter": {
+				"lowest_health": {
+					"display_name": "Saúde mais baixa",
+					"description": "Priorize atacar o alvo com a menor vida restante."
+				},
+				"highest_health": {
+					"display_name": "Saúde máxima",
+					"description": "Priorize atacar o alvo com a maior vida restante."
+				},
+				"closest_to_tower": {
+					"display_name": "Mais próximo da Torre",
+					"description": "Priorize atacar o alvo mais próximo desta torre."
+				},
+				"farthest_from_tower": {
+					"display_name": "Mais distante da torre",
+					"description": "Priorize atacar o alvo mais distante desta torre."
+				},
+				"closest_to_start": {
+					"display_name": "Mais perto de começar",
+					"description": "Priorize atacar o alvo mais próximo do início do caminho."
+				},
+				"closest_to_end": {
+					"display_name": "Mais perto do fim",
+					"description": "Priorize atacar o alvo mais próximo do final do caminho."
+				},
+				"shortest_debuff_time": {
+					"display_name": "Menor tempo de debuff",
+					"description": "Priorize atacar o alvo com o menor tempo total ponderado restante nos debuffs que esta torre pode infligir."
+				},
+				"highest_debuff_stack": {
+					"display_name": "Maior pilha de debuffs",
+					"description": "Priorize atacar o alvo com o maior número de pilhas de debuffs que esta torre pode infligir."
+				},
+				"most_targets": {
+					"display_name": "A maioria dos alvos",
+					"description": "Priorize atacar o alvo com os alvos mais próximos ao alcance para causar dano AOE."
+				},
+				"target_type": {
+					"display_name": "Tipos de monstros",
+					"description": "Priorize atacar o alvo com os tipos de monstros mais correspondentes."
+				}
+			}
+		},
+		"waves": {
+			"wave_title": "Onda [str(wave)]: [str(title)]",
+			"no_wave_title": "Pré-jogo",
+			"summoned_monster": "Convocado / Gerado",
+			"monster_damage": "Escapar reduz Vidas em [str(damage)].",
+			"monster_buffs": "Monstros têm os seguintes buffs:",
+			"air_4": {
+				"display_name": "Chefe do ar"
+			},
+			"air_20": {
+				"display_name": "Ar"
+			},
+			"ground_1": {
+				"display_name": "Big Boss Terrestre"
+			},
+			"ground_4": {
+				"display_name": "Chefe de Terra"
+			},
+			"ground_10": {
+				"display_name": "Resistente ao solo"
+			},
+			"ground_20": {
+				"display_name": "Chão"
+			},
+			"ground_100": {
+				"display_name": "Criaturas terrestres"
+			},
+			"mixed_4": {
+				"display_name": "Chefe de terra e ar"
+			},
+			"mixed_20": {
+				"display_name": "Terra e ar"
+			}
+		},
+		"weather": {
+			"blizzard": {
+				"display_name": "Nevasca",
+				"description": "As torres têm tempos de espera de ataque ligeiramente aumentados e precisão ligeiramente reduzida."
+			},
+			"cloudy": {
+				"display_name": "Nublado",
+				"description": "As torres aumentaram ligeiramente a precisão."
+			},
+			"desert_cloudy": {
+				"display_name": "Deserto nublado",
+				"description": "As torres têm tempos de espera de ataque ligeiramente reduzidos."
+			},
+			"foggy": {
+				"display_name": "Nebuloso",
+				"description": "Os monstros aumentaram ligeiramente a evasão."
+			},
+			"rain": {
+				"display_name": "Chuvoso",
+				"description": "As torres têm danos ligeiramente reduzidos.",
+				"rain_sunny": {
+					"display_name": "Banhos de sol",
+					"description": "Clima muito neutro."
+				}
+			},
+			"sandstorm": {
+				"display_name": "tempestade de areia",
+				"description": "Monstros têm armadura ligeiramente aumentada.",
+				"sandy_day": {
+					"display_name": "Sandy",
+					"description": "Monstros têm armadura ligeiramente reduzida, mas Torres têm precisão ligeiramente reduzida."
+				}
+			},
+			"snow": {
+				"display_name": "Nevado",
+				"description": "As torres aumentaram ligeiramente os tempos de espera de ataque.",
+				"snow_sunny": {
+					"display_name": "Neves de Sol",
+					"description": "As torres aumentaram um pouco o tempo de espera de ataque, mas os monstros reduziram um pouco a velocidade de movimento."
+				}
+			},
+			"sunny": {
+				"display_name": "Ensolarado",
+				"description": "Tempo tão chato que é completamente neutro."
+			},
+			"desert_sunny": {
+				"display_name": "Sol do deserto",
+				"description": "As torres aumentaram um pouco o dano."
+			},
+			"thunderstorm": {
+				"display_name": "Trovoada",
+				"description": "As torres têm danos ligeiramente reduzidos."
+			},
+			"windy": {
+				"display_name": "Ventoso",
+				"description": "Os monstros aumentaram ligeiramente a velocidade de movimento."
+			}
+		}
+	},
+	"entities": {
+		"monsters": {
+			"alligator": {
+				"display_name": "Chefe",
+				"description": "Um monstro terrestre com muito mais saúde do que o normal. Normalmente, apenas quatro deles aparecem em uma onda."
+			},
+			"bitsy_ant": {
+				"display_name": "Formiga",
+				"description": "Um monstro terrestre rápido com muito pouca saúde. Pode haver muitos destes!"
+			},
+			"beetle": {
+				"display_name": "Besouro",
+				"description": "Um monstro terrestre com um pouco mais de saúde do que o normal e gera formigas quando morto."
+			},
+			"boar": {
+				"display_name": "Javali",
+				"description": "O monstro regular e por excelência ao qual todos os outros monstros são comparados. Tem um pouco de armadura básica."
+			},
+			"entling": {
+				"display_name": "Invocação",
+				"description": "Um monstro terrestre com menos saúde e movimento um pouco mais lento."
+			},
+			"entling_mage": {
+				"display_name": "Invocador",
+				"description": "Um monstro terrestre com mais saúde e movimento mais lento que periodicamente convoca monstros menores."
+			},
+			"goblin_wolf": {
+				"display_name": "Lobo de Armadura Mágica",
+				"description": "Um monstro terrestre com um pouco menos de saúde, mas muito mais armadura mágica básica."
+			},
+			"little_stone_golem": {
+				"display_name": "Golem Blindado",
+				"description": "Um monstro terrestre com um pouco menos de saúde, mas muito mais armadura física básica."
+			},
+			"zilla": {
+				"display_name": "Grande chefe",
+				"description": "Um monstro terrestre com muito mais saúde do que os monstros Boss. Ainda bem que você só tem que lutar contra um de cada vez!"
+			},
+			"duckduck": {
+				"display_name": "Chefe do ar",
+				"description": "Um monstro do ar com mais saúde do que o normal. Normalmente, apenas quatro deles aparecem em uma onda."
+			},
+			"poyo": {
+				"display_name": "Poyo",
+				"description": "O monstro aéreo básico que tem menos saúde do que um monstro terrestre normal."
+			}
+		},
+		"projectiles": {
+			"artillery_shell": {
+				"display_name": "Projétil de Artilharia",
+				"description": "Sai como uma bala de canhão."
+			},
+			"turnip_bullet": {
+				"display_name": "Bala de nabo",
+				"description": "Por alguma razão, todas as plantas atiram nabos."
+			},
+			"water_ball": {
+				"display_name": "Esfera de Água",
+				"description": "H2Oh não, você está lendo esta descrição!"
+			}
+		},
+		"towers": {
+			"generic": {
+				"detailed_description": "[str(i18n_data.description)]",
+				"requires_kingdoms": "Requer nível <span class='requiredLevel'>[str(i18n_data.level)]</span> [str(i18n_data.required_kingdoms)]"
+			},
+			"cactus_plant": {
+				"display_name": "Cacto",
+				"description": "Ataque de veneno de plinking simples",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Ataque de veneno de plinking simples"
+				}
+			},
+			"earthbud_plant": {
+				"display_name": "Earthbud",
+				"description": "Dano moderado e inflige ferimento normal em AOE pequeno",
+				"weapon": {
+					"description": "Dano AOE moderado que também aplica ferimento normal",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Também aplica veneno normal",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também tem como alvo o ar",
+					"display_name": "Utilitário"
+				}
+			},
+			"foxlily_plant": {
+				"display_name": "Foxlily",
+				"description": "Inflige veneno normal, atinge o solo e o ar",
+				"weapon": {
+					"description": "Torre de veneno bem arredondada",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Ataca 3 vezes",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Dano menor, mas ataca 3 alvos",
+					"display_name": "Utilitário"
+				}
+			},
+			"gold_mine": {
+				"display_name": "Mina de ouro",
+				"description": "Dá ouro decrescente no final de cada rodada. Compensa em 4 ondas."
+			},
+			"sugarbell_plant": {
+				"display_name": "Sino de Açúcar",
+				"description": "Dano moderado, um ataque rápido, inflige veneno menor",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Dano moderado, um ataque rápido, inflige veneno menor"
+				}
+			},
+			"spore_spreader": {
+				"display_name": "Espalhador de Esporos",
+				"description": "Lança projéteis lentos que explodem com veneno",
+				"weapon": {
+					"description": "Lança projéteis lentos que explodem com veneno",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aplica veneno principal em vez disso",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Reduz o dano, mas aumenta o alcance de respingo",
+					"display_name": "Utilitário"
+				}
+			},
+			"sunflower_plant": {
+				"display_name": "Girassol",
+				"description": "Cospe sua semente em até 5 alvos ao mesmo tempo, infligindo grande veneno",
+				"weapon": {
+					"description": "Multi-alvo, veneno principal",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Triplica o dano e reduz o tempo de espera em 25%",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também tem como alvo o ar",
+					"display_name": "Utilitário"
+				}
+			},
+			"small_turret": {
+				"display_name": "Torre Pequena",
+				"description": "É uma pequena torre! O que você quer?"
+			},
+			"tree_of_everlasting_wood": {
+				"display_name": "Árvore da recompensa",
+				"description": "Pode ser colhido para mais madeira a cada onda. Auto-colheita em pleno crescimento."
+			},
+			"turnip_shooter": {
+				"display_name": "Atirador de Nabos",
+				"description": "Ele atira nabos! Bruto."
+			},
+			"water_101": {
+				"display_name": "Água 101",
+				"description": "Baixo dano, mas barato, ataque rápido, causa lentidão menor.",
+				"weapon": {
+					"description": "Dano baixo, mas aplica lentidão menor",
+					"display_name": "Torre Base"
+				}
+			},
+			"water_102": {
+				"display_name": "Água 102",
+				"description": "Dano moderado, atinge o solo e o ar.",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Dano decente, ataca solo e ar, mas não diminui"
+				}
+			},
+			"water_103": {
+				"display_name": "Água 103",
+				"description": "Ataca dois alvos e causa lentidão menor.",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Bom dano, ataca 2 alvos, aplica lentidão menor"
+				}
+			},
+			"chain_frost": {
+				"display_name": "Cadeia de Gelo",
+				"description": "Como a habilidade do Dota 2",
+				"weapon": {
+					"description": "Tempo de espera longo, essencialmente a mesma habilidade do Dota",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "O dano aumenta em 30% por salto",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Tempo de espera mais curto, tempo de viagem mais rápido, alcance de salto mais longo, dano menor, diminui no alcance de 1 AOE",
+					"display_name": "Utilitário"
+				}
+			},
+			"frost_blast": {
+				"display_name": "Explosão de Gelo",
+				"description": "Como a habilidade do Dota 2",
+				"weapon": {
+					"description": "Dano de alvo único, aoe lento",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Causa dano total em AOE, mas com alcance AOE um pouco menor",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "AOE afeta solo e ar e alcance AOE ligeiramente maior",
+					"display_name": "Utilitário"
+				}
+			},
+			"hypothermia": {
+				"display_name": "Hipotermia",
+				"description": "Dano moderado e aplica ferimento normal",
+				"weapon": {
+					"description": "Dano moderado e aplica ferimento normal",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aplica ferimento menor e ferimento maior em vez disso",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também se aplica grande lentidão",
+					"display_name": "Utilitário"
+				}
+			},
+			"heart_of_ice": {
+				"display_name": "coração de gelo",
+				"description": "Ataque rápido que aplica grande lentidão e chance de congelamento",
+				"weapon": {
+					"description": "Ataque rápido com bom dano que aplica grande lentidão e tem 50% de chance de congelar",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Ataca 2 alvos e tem 100% de chance de congelar",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aplica ferimento mortal",
+					"display_name": "Utilitário"
+				}
+			},
+			"air_101": {
+				"display_name": "Li'l Plinker",
+				"description": "Ataques moderados rápidos no ar",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Dano alto, mas apenas ataques aéreos"
+				}
+			},
+			"air_102": {
+				"display_name": "Ol' Plonker",
+				"description": "Ataques lentos e moderados no ar e no solo",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Dano moderado, ataques terrestres e aéreos"
+				}
+			},
+			"air_103": {
+				"display_name": "Amortecedor",
+				"description": "Reduz o tempo de espera de todas as torres próximas",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Não ataca, mas reduz o tempo de espera de torres próximas em 10%"
+				}
+			},
+			"duster": {
+				"display_name": "Espanador",
+				"description": "Revela passivamente monstros invisíveis na região de ataque total",
+				"weapon": {
+					"description": "Revela passivamente monstros invisíveis na região de ataque total",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Também aplica perfuração de armadura normal em aoe passivo",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aplica ministuns direcionados",
+					"display_name": "Utilitário"
+				}
+			},
+			"bone_piercer": {
+				"display_name": "Perfurador de Ossos",
+				"description": "Ataque de dano puro rápido",
+				"weapon": {
+					"description": "Dano puro que ataca tanto o ar quanto o solo",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Executa 2 ataques por cooldown",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também se aplica a perfuração de armadura principal",
+					"display_name": "Utilitário"
+				}
+			},
+			"vortex": {
+				"display_name": "Vórtice",
+				"description": "Ataque moderado que imobiliza um alvo aéreo",
+				"weapon": {
+					"description": "Ataque moderado que imobiliza um alvo aéreo",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aumenta significativamente o dano",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Imobiliza em pequenas aoe",
+					"display_name": "Utilitário"
+				}
+			},
+			"refreshing_wind": {
+				"display_name": "Vento Refrescante",
+				"description": "Torre de aura de redução de cooldown principal",
+				"weapon": {
+					"description": "Não ataca, mas reduz o tempo de espera de torres próximas em 25%",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aumenta o alcance e causa dano baseado em porcentagem a alvos aéreos",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aumenta o dano de torres próximas em 10%",
+					"display_name": "Utilitário"
+				}
+			},
+			"flame": {
+				"display_name": "Chama",
+				"description": "Aplica debuff de queima de baixo nível",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Aplica debuff de queima de baixo nível"
+				}
+			},
+			"flare": {
+				"display_name": "Flare",
+				"description": "Dano muito baixo, aplica debuff de revelação de duração média aos alvos",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Dano moderado, aplica debuff de revelação de curta duração aos alvos"
+				}
+			},
+			"fire_103": {
+				"display_name": "Fogo 103",
+				"description": "Aplica muito rapidamente 3 pilhas de queima menor em 2 alvos",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Aplica muito rapidamente 3 pilhas de queima menor em 2 alvos"
+				}
+			},
+			"sunburst": {
+				"display_name": "reluzente",
+				"description": "Dano baixo, revela e queima passivamente todos os alvos dentro do alcance",
+				"weapon": {
+					"description": "Aplica revelação normal e queima menor aos alvos atacados",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aplica queima normal e causa mais dano",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Revela permanentemente alvos atacados",
+					"display_name": "Utilitário"
+				}
+			},
+			"fire_plume": {
+				"display_name": "Pluma de Fogo",
+				"description": "Ataque aoe estreito que aplica queima normal",
+				"weapon": {
+					"description": "Ataque AOE estreito que aplica queima normal",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "+1 alcance de respingo",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aplica perfuração de armadura normal",
+					"display_name": "Utilitário"
+				}
+			},
+			"burning_lash": {
+				"display_name": "Cílios Ardentes",
+				"description": "Dano moderado e aplica rapidamente a queima normal",
+				"weapon": {
+					"description": "Dano moderado e aplica rapidamente a queima normal",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aplica grande queima em vez disso e reduz o tempo de espera",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Reduz o dano inicial, mas ataca 2 alvos e acerta 3 vezes",
+					"display_name": "Utilitário"
+				}
+			},
+			"laserbeam": {
+				"display_name": "Raio Laser",
+				"description": "Dispara um raio que periodicamente causa dano e inflige grandes queimaduras.",
+				"weapon": {
+					"description": "Dispara um raio laser de longo alcance que queima rapidamente um alvo",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Também atinge todos os alvos no caminho do feixe",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também tem como alvo o ar e ataca 2 alvos",
+					"display_name": "Utilitário"
+				}
+			},
+			"template_turret": {
+				"display_name": "Torre modelo",
+				"description": "Descrição da Torre do Modelo"
+			},
+			"earth_pounder": {
+				"display_name": "Batedor de Terra",
+				"description": "Barato e contundente, o pão com manteiga da Terra",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Barato e contundente, o pão com manteiga da Terra"
+				}
+			},
+			"scattershot": {
+				"display_name": "Dispersão",
+				"description": "Atira em até 3 alvos de uma vez para causar dano moderado",
+				"weapon": {
+					"display_name": "Torre Base",
+					"description": "Atira em até 3 alvos de uma vez para causar dano moderado"
+				}
+			},
+			"crusher": {
+				"display_name": "Triturador",
+				"description": "Ataque lento, bom dano de alvo único, ferimentos",
+				"weapon": {
+					"description": "Ataque lento, bom dano de alvo único, ferimentos",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Hits em pequeno aoe",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aplica perfuração de armadura mágica normal",
+					"display_name": "Utilitário"
+				}
+			},
+			"cannonball_gun": {
+				"display_name": "Arma de canhão",
+				"description": "Atira uma bala de canhão que atinge todos os alvos por onde passa",
+				"weapon": {
+					"description": "Atira uma bala de canhão que atinge todos os alvos por onde passa",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Melhora a velocidade de ataque e projétil",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aplica perfuração de armadura mágica menor e lentidão menor",
+					"display_name": "Utilitário"
+				}
+			},
+			"boulder_hurler": {
+				"display_name": "Lançador de Pedregulhos",
+				"description": "Dano AOE multi-alvo moderado",
+				"weapon": {
+					"description": "Dano AOE multi-alvo moderado",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Também aplica grande perfuração de armadura mágica",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também imobiliza",
+					"display_name": "Utilitário"
+				}
+			},
+			"seismic_slammer": {
+				"display_name": "Slammer Sísmico",
+				"description": "Echo Slam: a torre",
+				"weapon": {
+					"description": "Causa dano AOE baseado em porcentagem a todos os alvos ao alcance",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Duplica o alcance de respingo.",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também ministuns todos os alvos",
+					"display_name": "Utilitário"
+				}
+			},
+			"anaconda_vine": {
+				"display_name": "Videira de Anaconda",
+				"description": "Dano moderado, feridas e lentidão",
+				"weapon": {
+					"description": "Dano moderado, feridas e lentidão",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Mais que dobra o dano",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Apenas 2 ataques, mas um tempo de recarga mais curto, e também aplica veneno normal",
+					"display_name": "Utilitário"
+				}
+			},
+			"fog_machine": {
+				"display_name": "Máquina de nevoeiro",
+				"description": "Dano baixo, revela passivamente, desacelera e perfura armaduras em alcance total",
+				"weapon": {
+					"description": "Baixo dano AOE que aplica perfuração de armadura menor, lentidão menor e revela passivamente em alcance total",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Também aplica perfuração de armadura normal e aumenta o dano",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também se aplica lento normal",
+					"display_name": "Utilitário"
+				}
+			},
+			"blizzard": {
+				"display_name": "Nevasca",
+				"description": "Dano moderado, aplica debuff lento pesado em AOE estreita",
+				"weapon": {
+					"description": "Dano AOE moderado, aplica um grande debuff lento",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aumenta significativamente o dano",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Reduz o dano, mas aumenta o alcance de respingo",
+					"display_name": "Utilitário"
+				}
+			},
+			"lightning_bolt": {
+				"display_name": "Relâmpago",
+				"description": "Alto dano de alvo único, revela alvo e inimigos próximos",
+				"weapon": {
+					"description": "Alto dano de alvo único; esta torre pode ver monstros invisíveis, e seu ataque revela o alvo e os inimigos próximos por alguns segundos",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Também aplica 2 pilhas de queima menor em AOE",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Aplica revelação normal em vez disso, e em uma área maior",
+					"display_name": "Utilitário"
+				}
+			},
+			"arc_lightning": {
+				"display_name": "Arco Relâmpago",
+				"description": "Os relâmpagos em cadeia reduzem o dano a alvos sucessivos",
+				"weapon": {
+					"description": "Atinge um alvo em um curto alcance, depois salta para um novo alvo 4 vezes, aplicando queima normal e causando menos dano a cada salto",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aumenta o alcance da mira secundária e o número de rebotes e reduz a redução de dano para acertos sucessivos",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também aplica grande perfuração de armadura mágica",
+					"display_name": "Utilitário"
+				}
+			},
+			"fire_grenade": {
+				"display_name": "Granada de Fogo",
+				"description": "Lança um projétil em chamas que causa um ataque secundário em massa",
+				"weapon": {
+					"description": "Lança um projétil que causa um ataque de projétil secundário em massa com dano menor e todos aplicam queima",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Aumenta o dano base, alcance da explosão, número de alvos secundários atingidos e multiplicador de dano secundário",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também ministuns todos os alvos",
+					"display_name": "Utilitário"
+				}
+			},
+			"magma_pools": {
+				"display_name": "Magma",
+				"description": "Cria uma poça de magma que queima qualquer inimigo que passe por ela",
+				"weapon": {
+					"description": "Seu ataque cria uma poça de magma no chão que inflige grandes queimaduras",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Inflige dano a cada tique e também aplica grande perfuração de armadura mágica",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também imobiliza monstros quando eles entram pela primeira vez em uma piscina de magma",
+					"display_name": "Utilitário"
+				}
+			},
+			"stone_vine": {
+				"display_name": "Vinha de Pedra",
+				"description": "Ataque lento, dano alto mais debuffs",
+				"weapon": {
+					"description": "Ataque lento, dano alto, aplica ferimento grave e lentidão normal",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Dano significativamente maior e puro",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Dano ligeiramente menor, mas alcance +2 e menor tempo de recarga",
+					"display_name": "Utilitário"
+				}
+			},
+			"boygrove": {
+				"display_name": "Bosque",
+				"description": "Na esperança de crescer para ser um verdadeiro mangue",
+				"weapon": {
+					"description": "Inflige veneno menor e lentidão menor, atinge o solo e o ar",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "Além disso, aplica veneno normal e atinge mais forte",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Além disso, aplica lentidão normal e ataca 2 alvos",
+					"display_name": "Utilitário"
+				}
+			},
+			"mangrove": {
+				"display_name": "Mangue",
+				"description": "Cria raízes duradouras que danificam e retardam todos os monstros que entram nelas",
+				"weapon": {
+					"description": "Cada ataque cria raízes naquele lugar que duram um tempo; só causa dano e inflige grande lentidão e veneno menor através das raízes",
+					"display_name": "Torre Base"
+				},
+				"weapon_damage": {
+					"description": "As raízes também aplicam grande veneno",
+					"display_name": "Dano"
+				},
+				"weapon_utility": {
+					"description": "Também imobiliza",
+					"display_name": "Utilitário"
+				}
+			}
+		},
+		"ground_presence": {
+			"magma_pool": {
+				"display_name": "Piscina de Magma",
+				"description": "Inflige dano e queima em monstros que passam por ele."
+			},
+			"mangrove_roots": {
+				"display_name": "Raízes de Mangue",
+				"description": "Inflige dano físico e retarda muito os monstros que passam por ele."
+			}
+		},
+		"obstacles": {
+			"abundant_ore": {
+				"display_name": "Minério Abundante",
+				"description": "O Reino da Terra pode construir minas de ouro aqui."
+			},
+			"fertile_dirt": {
+				"display_name": "Sujeira Fértil",
+				"description": "O Reino das Plantas pode construir Árvores da Madeira Eterna aqui."
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"menu": {
+				"build_menu": {
+					"kingdom_level_cost": "Alt+Clique para subir de nível para [str(i18n_data.cost)]"
+				},
+				"give_gold": {
+					"display_name": "Dê ouro",
+					"give_gold_10": "Dê Ouro (10)",
+					"give_gold_100": "Dê Ouro (100)",
+					"give_gold_1000": "Dê ouro (1000)",
+					"10_description": "Dê a si mesmo 10 de ouro, seu trapaceiro.",
+					"100_description": "Dê a si mesmo 100 de ouro, seu grande trapaceiro.",
+					"1000_description": "Dê a si mesmo 1000 de ouro, seu grande trapaceiro guloso."
+				},
+				"give_wood": {
+					"display_name": "Dar Madeira",
+					"give_gold_10": "Dê Madeira (10)",
+					"10_description": "Dê a si mesmo 10 madeiras, seu trapaceiro."
+				},
+				"unlock_all_kingdom_levels": {
+					"display_name": "Destrancar tudo",
+					"description": "Aumente todos os níveis do reino para 3."
+				},
+				"reference_menu": {
+					"display_name": "Mostrar janela de referência",
+					"description": "Abra uma janela com informações de referência para todos os ícones, buffs, etc. do jogo."
+				}
+			},
+			"resourceDisplay": {
+				"title": "Recursos",
+				"player": {
+					"title": "Jogador"
+				},
+				"donate": "Doe [str(amount)] <img class='inlineImg gold'>",
+				"donate_tooltip": "Doar <img class='inlineImg gold'> remove-o do seu estoque e adiciona-o ao pool comum para que qualquer jogador possa usá-lo. <img class='inlineImg wood'> não pode ser doado.",
+				"common": "Comum"
+			},
+			"referenceWindow": {
+				"title": "Referência",
+				"buffs": {
+					"title": "Aficionados",
+					"description": "Todos os buffs relevantes no jogo, organizados por categoria. Passe o mouse sobre eles para ver mais informações.",
+					"categories": {
+						"armor": "armaduras",
+						"magic_armor": "Armadura Mágica",
+						"armor_piercing": "Perfuração de Armadura",
+						"magic_armor_piercing": "Perfuração de Armadura Mágica",
+						"invisible": "Invisível",
+						"immobilize": "Imobilizar",
+						"reveal": "Revelar",
+						"purge": "Purga",
+						"healing": "Curando",
+						"wound": "Ferimento",
+						"burning": "Queimando",
+						"poison": "Tóxico",
+						"slow": "Lento",
+						"stun": "Atordoar",
+						"immunity": "Imunidade Específica",
+						"spawn": "Gerar mais monstros",
+						"weather": "Tempo",
+						"tower": "Torre",
+						"tower_weather": "Clima da Torre"
+					}
+				},
+				"icons": {
+					"title": "Outros ícones",
+					"description": "Outros ícones usados ​​pelo jogo, juntamente com suas descrições.",
+					"range": {
+						"circle": "Uma região circular centrada na torre, estendendo o número especificado de voxels da região 1x1 da torre.",
+						"rectangle": "Uma região retangular, geralmente posicionada na borda da torre, com largura e comprimento especificados.",
+						"square": "Uma região quadrada centrada no local de um ataque, com a largura/comprimento especificada."
+					},
+					"targets": {
+						"ground": "Ataca monstros terrestres.",
+						"air": "Ataca monstros aéreos."
+					},
+					"damage": {
+						"physical": "Dano físico, mitigado por armadura e aumentado por debuffs de veneno.",
+						"magical": "Dano mágico, mitigado por armadura mágica.",
+						"pure": "Dano puro, não é mitigado."
+					},
+					"invis": {
+						"sees": "Esta torre pode ver e atacar monstros invisíveis.",
+						"reveals": "Esta torre revela todos os monstros invisíveis enquanto eles estão em seu alcance."
+					}
+				}
+			},
+			"renderFilters": {
+				"enable": {
+					"display_name": "Ativar filtros de renderização",
+					"description": "Exibe regiões no chão e ao longo de caminhos de monstros indicando buffs e debuffs aplicados por torres."
+				},
+				"disable": {
+					"display_name": "Desativar filtros de renderização",
+					"description": "Ocultar regiões de renderização. Para ocultar apenas alguns tipos, clique nos botões correspondentes."
+				},
+				"select_all": {
+					"display_name": "Selecionar todos os filtros",
+					"description": "Selecione cada filtro. Os filtros só são aplicados e visíveis se Ativados."
+				},
+				"select_none": {
+					"display_name": "Selecione Sem Filtros",
+					"description": "Desmarque todos os filtros. Os filtros só são aplicados e visíveis se Ativados."
+				}
+			},
+			"gameStateWindow": {
+				"title": "Estado do jogo",
+				"remaining_monsters": "Inimigos:",
+				"remaining_monsters_tooltip": "Clique para mostrar a visualização de Monstros Gerados",
+				"wave_number": "Aceno:",
+				"wave_tooltip": "Clique para mostrar a lista de ondas",
+				"player_health": "Vidas:",
+				"player_health_tooltip": "Se isso cair para 0, você perde. Cada monstro que escapar irá reduzi-lo em pelo menos 1 (alguns monstros, como chefes, reduzem em mais).",
+				"weather": "Clima: [str(weather)]",
+				"start_game": "Comece o jogo!",
+				"start_round": "Comece a próxima rodada!"
+			},
+			"wavesWindow": {
+				"title": "Ondas",
+				"wave_title": "<h3>Onda [str(wave)]:</h3>[str(title)]"
+			},
+			"towerTargetingWindow": {
+				"title": "Segmentação por torre",
+				"stickyTargeting": {
+					"display_name": "Segmentação fixa",
+					"description": "Depois de selecionar um alvo, continue atacando esse alvo até que ele morra ou saia do alcance antes de encontrar um novo alvo."
+				},
+				"enableFilter": {
+					"display_name": "Permitir",
+					"description": "Ative este filtro de segmentação."
+				},
+				"filterName": {
+					"display_name": "Filtro"
+				}
+			},
+			"monsters": {
+				"title": "Monstros Gerados",
+				"list_headers": {
+					"name": "Monstro",
+					"health": "Saúde",
+					"buffs": "Aficionados"
+				}
+			},
+			"tooltips": {
+				"tower_weapons": {
+					"upgrade_name": "Atualização: [str(display_name)]",
+					"range_title": "Variar:",
+					"damage_title": "Dano:",
+					"cooldown_title": "Esfriar:",
+					"accuracy_title": "Precisão:",
+					"buffs_title": "Bônus:",
+					"debuffs_title": "Debuffs:",
+					"aoe_range_title": "Faixa AOE:",
+					"aoe_damage_title": "Dano AOE:",
+					"secondary_range_title": "Faixa secundária:",
+					"secondary_attacks_title": "Ataques Secundários:",
+					"secondary_dmg_mult_title": "Mult Dmg Secundário:",
+					"beam_attacks_title": "Ataques de Raio:",
+					"passthrough_attack": "Ataques atingem todos os inimigos por onde passam",
+					"ground_presence_title": "Presença no solo:",
+					"gp_duration_title": "Duração:",
+					"gp_first_time_damage_title": "Danos na entrada:",
+					"gp_first_time_debuffs_title": "Debuffs na entrada:",
+					"gp_other_times_damage_title": "Outros danos de carrapatos:",
+					"gp_other_times_debuffs_title": "Outros Debuffs de Ticks:",
+					"gp_every_time_damage_title": "Danos periódicos:",
+					"gp_every_time_debuffs_title": "Debuffs periódicos:",
+					"gp_duration": "[str(duration)]",
+					"gp_duration_and_period": "[str(duration)] (marca a cada [str(period)])",
+					"range_circle": "[str(radius)] <img class='inlineImg circle'>",
+					"range_rectangle": "[str(x)]x[str(z)] <img class='inlineImg rect'>",
+					"range_square": "[str(range)] <img class='inlineImg square'>",
+					"cooldown": "[str(cooldown)]",
+					"accuracy": "[str(accuracy)]%",
+					"damage": "<span class='damageType-[str(damage_type)]'><img class='inlineImg [str(damage_type)]'>[str(damage_value)]</span>",
+					"percentage_damage": "<span class='damageType-[str(damage_type)]'><img class='inlineImg [str(damage_type)]'>[str(damage_value)]% do HP máximo</span>",
+					"secondary_dmg_mult": "[str(damage_multiplier)] cada ataque",
+					"attacks_ground": "<img class='inlineImg ground'>",
+					"attacks_air": "<img class='inlineImg air'>",
+					"reveals_invis": "<img class='inlineImg revela'>",
+					"sees_invis": "<img class='inlineImg vê'>",
+					"num_attacks": "x [str(num_attacks)] ataques",
+					"num_targets": "x [str(num_targets)] alvos",
+					"max_attacks_per_target": "([str(max_per_target)] máximo por destino)",
+					"passive_aoe": "AOE passivo"
+				},
+				"buffs": {
+					"applied_by": "Pode ser aplicado por:",
+					"towers_table": {
+						"name_title": "Torre",
+						"upgrade_title": "Melhoria",
+						"level_title": "Nível",
+						"required_kingdoms_title": "Reinos",
+						"targets_title": "Alvos"
+					}
+				}
+			}
+		},
+		"shell": {
+			"settings": {
+				"controls_tab": {
+					"key_category_names": {
+						"tower_defense": "SH:TD"
+					}
+				}
+			},
+			"select_game_story": {
+				"title": "Escolha sua aventura",
+				"story_start": "Essa é a história de...",
+				"kingdom_section_start": "...um acordo de",
+				"select_button": "?",
+				"kingdom_picker_title": "Selecione um Reino",
+				"biome_section_start": "Defendendo-se dos inimigos em",
+				"biome_picker_title": "Selecione um bioma",
+				"game_mode_select_start": ", um local que com certeza será",
+				"game_mode_picker_title": "Selecione uma dificuldade",
+				"game_modes": {
+					"normal": {
+						"display_name": "Normal",
+						"description": "Torres de custo normal, uma mistura de efeitos climáticos, metade da recompensa por monstros que escaparam",
+						"post_selection_text": "um agradável desafio."
+					},
+					"peaceful": {
+						"display_name": "Fácil",
+						"description": "Torres mais baratas, menos ondas, apenas efeitos climáticos neutros/positivos, recompensa total por monstros que escaparam",
+						"post_selection_text": "bastante fácil."
+					},
+					"hard": {
+						"display_name": "Duro",
+						"description": "Torres mais caras, ondas extra avançadas, apenas efeitos climáticos neutros ou negativos, sem recompensa por monstros fugitivos",
+						"post_selection_text": "bastante difícil."
+					}
+				},
+				"begin_button": "Começar"
+			},
+			"title": {
+				"incompatible": "<h2>Mods incompatíveis com SH:TD</h2>Os seguintes mods podem ser incompatíveis com SH:TD. Qualquer um que não esteja apenas construindo modelos ou receitas pode precisar ser desabilitado para que o SH:TD funcione corretamente.",
+				"compatible_with_disabled": "<h2>SH:TD Mods incompatíveis</h2>Nenhum mod incompatível detectado. Os seguintes mods foram desativados anteriormente para tentativa de compatibilidade com SH:TD:",
+				"compatible": "<h2>SH:TD Mods incompatíveis</h2>Nenhum mod incompatível detectado.",
+				"disable_mods": "Desabilitar esses mods",
+				"disable_mods_tooltip": "Desative todos os mods listados e potencialmente incompatíveis e recarregue o menu principal.",
+				"disable_shtd_enable_mods": "Habilite estes mods e desabilite SH:TD",
+				"disable_shtd_enable_mods_tooltip": "Desative SH:TD e reative todos os mods potencialmente incompatíveis anteriormente desabilitados.",
+				"disable_shtd": "Desabilitar SH:TD",
+				"disable_shtd_tooltip": "Desative Stonehearth Tower Defense (para que você possa jogar um jogo normal)."
+			}
+		}
+	},
+	"alerts": {
+		"add_kingdom_level": {
+			"unavailable": "Atualização de reino indisponível",
+			"missing_resources": "Faltam recursos para a atualização do reino",
+			"success": "Atualização bem-sucedida do reino!"
+		},
+		"towers": {
+			"build": {
+				"unavailable": "Torre indisponível?",
+				"missing_resources": "Faltam recursos para construir esta torre",
+				"success": "Torre construída com sucesso!"
+			},
+			"upgrade": {
+				"unavailable": "Atualização de torre indisponível",
+				"missing_resources": "Faltam recursos para atualizar esta torre",
+				"success": "Torre atualizada com sucesso!"
+			}
+		},
+		"game": {
+			"wave_starting": "Onda [str(wave)] começando!",
+			"wave_ended": "Onda [str(wave)] finalizada! [str(num_escaped)] monstros escaparam.",
+			"game_lost": "Você perdeu! Tente novamente!",
+			"game_won": "Você ganhou o jogo! Parabéns!"
+		}
+	}
+}

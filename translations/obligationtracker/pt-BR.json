@@ -1,0 +1,10 @@
+{
+	"ui": {
+		"game": {
+			"obligationtracker": {
+				"auto_use": "Uso automático no cooldown",
+				"auto_use_description": "Reutilize automaticamente este item quando seu tempo de recarga ou duração terminar."
+			}
+		}
+	}
+}

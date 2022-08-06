@@ -1,0 +1,104 @@
+{
+	"ui": {
+		"game": {
+			"entities": {
+				"item_categories": {
+					"battle_beacons": "Sinalizadores de Batalha"
+				}
+			}
+		}
+	},
+	"data": {
+		"gm": {
+			"campaigns": {
+				"battle_break_campaign": {
+					"guide_arrival": {
+						"dialog_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Com licença, bons companheiros deste assentamento. Sir Beacon aqui, com algumas novidades para compartilhar!<br>É seu dia de sorte! Para você ver, ao longe, essas terras estão sendo protegidas por outros reinos bem desenvolvidos. Compartilhamos a tarefa de defender contra monstros errantes e lutar nas guerras de Goblins e Orcs.<br><br>Eu envio mensagens para todos os lados, então vou falar sobre nosso sistema desenvolvido."
+									},
+									"bulletin_title": "Sir Beacon, o mensageiro",
+									"dialog_title": "Vizinhos fortes",
+									"choice_000": "Eles são gentis em nos ajudar"
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Agora é o seu primeiro Battle Break, que você pode usar para desenvolver sua cidade com segurança. Muito tempo para criar e construir.<br>Mas estou dando a você algumas de nossas bandeiras sinalizadoras (Padrões Prontos para Batalha), e se eu as vir colocadas aqui, isso me permitirá saber que você está pronto para lutar suas próprias batalhas! Os outros reinos podem ter seu próprio intervalo, armazenando suas bandeiras.<br><p align='left'><font size=-1 color='#cccccc'><i>\"Quando você quiser outro intervalo de batalha , basta pegar a bandeira e guardá-la no armazenamento até a próxima vez.\"</i></font>"
+									},
+									"bulletin_title": "A pausa da batalha",
+									"dialog_title": "Intervalo da Batalha",
+									"choice_000": "Padrões Prontos para Batalha"
+								}
+							}
+						}
+					},
+					"battle_standards": {
+						"dialog_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "<br>Quando é colocado no mundo,<br>sinaliza que você está pronto para ataques aleatórios periódicos de <br>monstros e invasores selvagens.<br>"
+									},
+									"bulletin_title": "O padrão pronto para a batalha",
+									"dialog_title": "Pronto para a Batalha",
+									"choice_000": "E outro padrão..."
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "<br>Quando é colocado no mundo,<br>sinaliza que você está pronto para os ataques periódicos lançados por <br>campos de guerra organizados, se eles chegaram.<br>"
+									},
+									"bulletin_title": "O padrão Goblin e Orc War Ready",
+									"dialog_title": "Pronto para a Guerra",
+									"choice_000": "OK"
+								}
+							}
+						}
+					},
+					"replace_ata_dialog": {
+						"dialog_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Aqui está uma nova bandeira de batalha.<br>Ela substitui a antiga,<br>que parece estar faltando.<br>"
+									},
+									"bulletin_title": "Um padrão de substituição",
+									"dialog_title": "Padrão Pronto para Batalha",
+									"choice_000": "Obrigado"
+								}
+							}
+						}
+					},
+					"replace_gow_dialog": {
+						"dialog_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_message": {
+										"00": "Aqui está uma nova bandeira de guerra.<br>Ela substitui a sua antiga,<br>que parece estar faltando.<br>"
+									},
+									"bulletin_title": "Um padrão de substituição",
+									"dialog_title": "Padrão de Guerra Goblin e Orc",
+									"choice_000": "Obrigado"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"battle_beacons_name": "Sinalizadores de Batalha",
+	"entities": {
+		"gizmos": {
+			"ambient_threat_allow": {
+				"display_name": "Padrão Pronto para Batalha",
+				"description": "Se colocado: Ataques ambientais podem aparecer. Em Armazenamento: Quebra de Batalha."
+			},
+			"goblin_war_allow": {
+				"display_name": "Padrão Pronto para Guerra Goblin e Orc",
+				"description": "Se colocado: Ataques de War Goblin ou War Orc podem aparecer. Em Armazenamento: Quebra de Batalha."
+			}
+		}
+	}
+}

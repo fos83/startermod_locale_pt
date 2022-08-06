@@ -1,0 +1,75 @@
+{
+	"entities": {
+		"weapons": {
+			"cleric_cane": {
+				"display_name": "Bengala do Clérigo",
+				"description": "Uma bengala mágica que os fere de longe."
+			},
+			"cleric_catalog": {
+				"display_name": "Catálogo de Clérigos",
+				"description": "Um livro mágico que emite energia."
+			},
+			"stasis_slab": {
+				"display_name": "Laje de Estase",
+				"description": "Um clube de clérigo de combate corpo a corpo."
+			}
+		},
+		"armor": {
+			"cleric_crown": {
+				"display_name": "Coroa de Clérigo",
+				"description": "Uma argola real para um curandeiro experiente."
+			},
+			"stasis_suit": {
+				"display_name": "Fato de Estase",
+				"description": "Um traje de aumento de resistência para um clérigo."
+			}
+		}
+	},
+	"jobs": {
+		"cleric": {
+			"cleric_buffs": {
+				"cleric_body_buff": {
+					"display_name": "Corpo Clérigo",
+					"description": "Corpo que aumenta a resistência +1"
+				},
+				"cleric_spirit_buff": {
+					"display_name": "Espírito Clérigo",
+					"description": "Impulso mágico de Espírito +1"
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"stasis_slab_recipe": {
+					"recipe_name": "Laje de Estase",
+					"description": "Um clube de clérigo de combate corpo a corpo.",
+					"flavor": "Vigor extra para Golpes extras!"
+				},
+				"stasis_suit_recipe": {
+					"recipe_name": "Fato de Estase",
+					"description": "Melhora o corpo para resistir a golpes brutais.",
+					"flavor": "Enraizado no chão, regenerando os guardas!"
+				},
+				"cleric_cane_recipe": {
+					"recipe_name": "Bengala do Clérigo",
+					"description": "Uma bengala nobre com ataques de longo alcance. Semelhante aos grimórios, usados ​​para lançar Feitiços de Cura.",
+					"flavor": "Um poder divino me ilumina, eu os ferirei!"
+				},
+				"cleric_crown_recipe": {
+					"recipe_name": "Coroa de Clérigo",
+					"description": "Um aro elegante para curandeiros experientes.",
+					"flavor": "Isso me dará uma proteção preciosa e aumentará meu espírito!"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"cleric_catalog_recipe": {
+					"recipe_name": "Catálogo de Clérigos",
+					"description": "Um livro enérgico com ataques de longo alcance.",
+					"flavor": "Eu experimentei derramar minha bebida em alguma coisa..."
+				}
+			}
+		}
+	}
+}
