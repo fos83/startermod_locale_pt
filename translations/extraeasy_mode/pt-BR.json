@@ -1,0 +1,25 @@
+{
+	"ui": {
+		"shell": {
+			"select_game_story": {
+				"game_modes": {
+					"extraeasy": {
+						"display_name": "Extrafácil",
+						"description": "A maneira mais fácil de jogar",
+						"post_selection_text": "Um lugar quase tranquilo para um novo começo."
+					}
+				}
+			}
+		}
+	},
+	"data": {
+		"buffs": {
+			"game_modes": {
+				"game_mode_extraeasy_buff": {
+					"display_name": "Modo Extrafácil",
+					"description": "No Extraeasymode os oponentes são extremamente fracos e quase não causam dano!"
+				}
+			}
+		}
+	}
+}

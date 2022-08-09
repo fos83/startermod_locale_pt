@@ -1,0 +1,29 @@
+{
+	"ui": {
+		"customize_hearthling": {
+			"title": "Personalizador Hearthling"
+		},
+		"data": {
+			"tooltips": {
+				"nextButton": {
+					"description": "Escolha o próximo da lista."
+				},
+				"previousButton": {
+					"description": "Escolha o anterior na lista."
+				},
+				"maleButton": {
+					"description": "Torne-se masculino, também randomizará todos os modelos e cores."
+				},
+				"femaleButton": {
+					"description": "Torne-se mulher, também irá randomizar todos os modelos e cores."
+				},
+				"randomButton": {
+					"description": "Randomize todas as partes que não estão bloqueadas."
+				},
+				"lock": {
+					"description": "Bloqueie esta parte para que o randomizador a ignore."
+				}
+			}
+		}
+	}
+}

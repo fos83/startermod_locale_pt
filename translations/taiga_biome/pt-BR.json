@@ -1,0 +1,43 @@
+{
+	"data": {
+		"biome": {
+			"taiga": {
+				"display_name": "Floresta da Taiga",
+				"description": "As florestas de folhas de agulhas do norte congelado.",
+				"random_location_names": {
+					"000": "Bosque da Névoa",
+					"001": "Manto de neve",
+					"002": "Madeira fria"
+				}
+			}
+		}
+	},
+	"entities": {
+		"trees": {
+			"dark_pine": {
+				"small_dark_pine_tree": {
+					"display_name": "Pinheiro Pequeno",
+					"description": "Agora isso não vai desafiar Yggdrasil tão cedo.."
+				},
+				"medium_dark_pine_tree": {
+					"display_name": "Pinheiro Médio",
+					"description": "..É um pinheiro."
+				},
+				"large_dark_pine_tree": {
+					"display_name": "Pinheiro Grande",
+					"description": "Um pinheiro bem grande, eu diria."
+				},
+				"ancient_dark_pine_tree": {
+					"display_name": "Pinheiro antigo",
+					"description": "Este pinheiro parece antigo.. é um esquilo em seus galhos!"
+				}
+			}
+		},
+		"terrain": {
+			"cloud_maker": {
+				"display_name": "Rocha maçante",
+				"description": "Apenas uma pedra, nada para ver aqui!... Siga em frente!"
+			}
+		}
+	}
+}

@@ -1,0 +1,1210 @@
+{
+	"ui": {},
+	"entities": {
+		"containers": {
+			"bar_corner_acacia": {
+				"description": "Um armário de canto alto feito de madeira de acácia.",
+				"display_name": "Canto do Bar da Acácia",
+				"recipe_name": "Canto do Bar da Acácia",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_corner_cactus": {
+				"description": "Um armário de canto de bar alto feito de madeira de cacto.",
+				"display_name": "Canto do bar de cactos",
+				"recipe_name": "Canto do bar de cactos",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_corner_juniper": {
+				"description": "Um armário de canto de bar alto feito de madeira de zimbro.",
+				"display_name": "Canto do Bar Juniper",
+				"recipe_name": "Canto do Bar Juniper",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_corner_oak": {
+				"description": "Um armário de canto de bar alto feito de madeira de carvalho.",
+				"display_name": "Canto da Barra de Carvalho",
+				"recipe_name": "Canto da Barra de Carvalho",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_corner_palm": {
+				"description": "Um armário de canto de bar alto feito de madeira de palmeira.",
+				"display_name": "Canto Palm Bar",
+				"recipe_name": "Canto Palm Bar",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_corner_pine": {
+				"description": "Um armário alto de canto de bar feito de madeira de pinho.",
+				"display_name": "Canto do Pine Bar",
+				"recipe_name": "Canto do Pine Bar",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_corner_short_acacia": {
+				"description": "Um armário de canto de barra de altura da cintura feito de madeira de acácia.",
+				"display_name": "Acacia Bar Short Corner",
+				"recipe_name": "Acacia Bar Short Corner",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_corner_short_cactus": {
+				"description": "Um armário de canto de barra de altura da cintura feito de madeira de cacto.",
+				"display_name": "Cactus Bar Canto Curto",
+				"recipe_name": "Cactus Bar Canto Curto",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_corner_short_juniper": {
+				"description": "Um armário de canto de barra de altura da cintura feito de madeira de zimbro.",
+				"display_name": "Juniper Bar Canto Curto",
+				"recipe_name": "Juniper Bar Canto Curto",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_corner_short_oak": {
+				"description": "Um armário de canto de barra de altura da cintura feito de madeira de carvalho.",
+				"display_name": "Canto Curto Oak Bar",
+				"recipe_name": "Canto Curto Oak Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_corner_short_palm": {
+				"description": "Um armário de canto de barra de altura da cintura feito de madeira de palmeira.",
+				"display_name": "Palm Bar Canto Curto",
+				"recipe_name": "Palm Bar Canto Curto",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_corner_short_pine": {
+				"description": "Um armário de canto de barra de altura da cintura feito de madeira de pinho.",
+				"display_name": "Canto Curto Pine Bar",
+				"recipe_name": "Canto Curto Pine Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_storage_acacia": {
+				"description": "Um armário de bar alto feito de madeira de acácia.",
+				"display_name": "Armário Bar Acácia",
+				"recipe_name": "Armário Bar Acácia",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_storage_cactus": {
+				"description": "Um armário de bar alto feito de madeira de cacto.",
+				"display_name": "Armário Bar Cactus",
+				"recipe_name": "Armário Bar Cactus",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_storage_juniper": {
+				"description": "Um armário de bar alto feito de madeira de zimbro.",
+				"display_name": "Armário Bar Juniper",
+				"recipe_name": "Armário Bar Juniper",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_storage_oak": {
+				"description": "Um armário de bar alto feito de madeira de carvalho.",
+				"display_name": "Armário Bar Oak",
+				"recipe_name": "Armário Bar Oak",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_storage_palm": {
+				"description": "Um armário de bar alto feito de madeira de palmeira.",
+				"display_name": "Armário Palm Bar",
+				"recipe_name": "Armário Palm Bar",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_storage_pine": {
+				"description": "Um armário de bar alto feito de madeira de pinho.",
+				"display_name": "Armário de bar de pinho",
+				"recipe_name": "Armário de bar de pinho",
+				"flavor": "Armazena 24 peças de coisas."
+			},
+			"bar_storage_short_acacia": {
+				"description": "Um armário de bar na altura da cintura feito de madeira de acácia.",
+				"display_name": "Armário Curto Acacia Bar",
+				"recipe_name": "Armário Curto Acacia Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_storage_short_cactus": {
+				"description": "Um armário de barra de altura da cintura feito de madeira de cacto.",
+				"display_name": "Armário Curto Cactus Bar",
+				"recipe_name": "Armário Curto Cactus Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_storage_short_juniper": {
+				"description": "Um armário de bar na altura da cintura feito de madeira de zimbro.",
+				"display_name": "Armário Curto Juniper Bar",
+				"recipe_name": "Armário Curto Juniper Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_storage_short_oak": {
+				"description": "Um armário de bar na altura da cintura feito de madeira de carvalho.",
+				"display_name": "Armário Curto Oak Bar",
+				"recipe_name": "Armário Curto Oak Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_storage_short_palm": {
+				"description": "Um armário de bar na altura da cintura feito de madeira de palmeira.",
+				"display_name": "Gabinete Curto Palm Bar",
+				"recipe_name": "Gabinete Curto Palm Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bar_storage_short_pine": {
+				"description": "Um armário de bar na altura da cintura feito de madeira de pinho.",
+				"display_name": "Armário Curto Pine Bar",
+				"recipe_name": "Armário Curto Pine Bar",
+				"flavor": "Armazena 16 peças de coisas."
+			},
+			"bronze_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de bronze.",
+				"display_name": "Estoque de lingotes de bronze",
+				"recipe_name": "Estoque de lingotes de bronze",
+				"flavor": "Uma liga endurecida."
+			},
+			"copper_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de cobre.",
+				"display_name": "Estoque de lingotes de cobre",
+				"recipe_name": "Estoque de lingotes de cobre",
+				"flavor": "Altamente condutora."
+			},
+			"gold_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de ouro.",
+				"display_name": "Estoque de lingotes de ouro",
+				"recipe_name": "Estoque de lingotes de ouro",
+				"flavor": "Tão brilhante... e pesado."
+			},
+			"iron_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de ferro.",
+				"display_name": "Estoque de lingotes de ferro",
+				"recipe_name": "Estoque de lingotes de ferro",
+				"flavor": "Não confundir com ironia."
+			},
+			"silver_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de prata.",
+				"display_name": "Estoque de lingotes de prata",
+				"recipe_name": "Estoque de lingotes de prata",
+				"flavor": "Ainda mais condutor que o cobre e mais bonito também."
+			},
+			"steel_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de aço.",
+				"display_name": "Estoque de lingotes de aço",
+				"recipe_name": "Estoque de lingotes de aço",
+				"flavor": "Uma liga superiormente endurecida."
+			},
+			"tin_ingot_pile": {
+				"description": "Uma pilha de 18 lingotes de estanho.",
+				"display_name": "Estoque de lingotes de estanho",
+				"recipe_name": "Estoque de lingotes de estanho",
+				"flavor": "Um metal muito macio... se pudéssemos combiná-lo com alguma coisa."
+			},
+			"hopechest_acacia": {
+				"description": "Um baú feito de madeira de acácia.",
+				"display_name": "Baú de Acacia",
+				"recipe_name": "Baú de Acacia",
+				"flavor": "Hansome lugar para armazenar 16 peças de coisas."
+			},
+			"hopechest_cactus": {
+				"description": "Um baú feito de madeira de cacto.",
+				"display_name": "Cacto Hopechest",
+				"recipe_name": "Cacto Hopechest",
+				"flavor": "Hansome lugar para armazenar 16 peças de coisas."
+			},
+			"hopechest_juniper": {
+				"description": "Um baú feito de madeira de zimbro.",
+				"display_name": "Peito de Esperança de Junípero",
+				"recipe_name": "Peito de Esperança de Junípero",
+				"flavor": "É maior por dentro e pode conter 16 itens."
+			},
+			"hopechest_oak": {
+				"description": "Um baú feito de madeira de carvalho.",
+				"display_name": "Baú de Carvalho",
+				"recipe_name": "Baú de Carvalho",
+				"flavor": "Lugar curto e resistente para esconder 16 coisas."
+			},
+			"hopechest_palm": {
+				"description": "Um baú feito de madeira de palmeira.",
+				"display_name": "Palm Hopeches",
+				"recipe_name": "Palm Hopeches",
+				"flavor": "Cheio de cor e capaz de conter 16 bugigangas."
+			},
+			"hopechest_pine": {
+				"description": "Uma caixa de esperança feita de madeira de pinho.",
+				"display_name": "Baú de pinho",
+				"recipe_name": "Baú de pinho",
+				"flavor": "Cheira a inverno e contém 16 itens."
+			},
+			"log_pile_acacia": {
+				"description": "Uma pilha de troncos de acácia.",
+				"display_name": "Pilha de Toras de Acácia",
+				"recipe_name": "Pilha de Toras de Acácia",
+				"flavor": "Tipo de faz você querer wattle."
+			},
+			"log_pile_cactus": {
+				"description": "Uma pilha de troncos de cactos.",
+				"display_name": "Pilha de toras de cacto",
+				"recipe_name": "Pilha de toras de cacto",
+				"flavor": "Espinhosa por toda parte... você deveria comprar luvas."
+			},
+			"log_pile_juniper": {
+				"description": "Uma pilha de toras de zimbro.",
+				"display_name": "Pilha de toras de zimbro",
+				"recipe_name": "Pilha de toras de zimbro",
+				"flavor": "Cheira tão bem."
+			},
+			"log_pile_oak": {
+				"description": "Uma pilha de toras de carvalho.",
+				"display_name": "Pilha de Toras de Carvalho",
+				"recipe_name": "Pilha de Toras de Carvalho",
+				"flavor": "Uma madeira dura abundante."
+			},
+			"log_pile_palm": {
+				"description": "Uma pilha de toras de palmeira.",
+				"display_name": "Pilha de toras de palmeira",
+				"recipe_name": "Pilha de toras de palmeira",
+				"flavor": "Nome bobo... não se parece em nada com a sua mão."
+			},
+			"log_pile_pine": {
+				"description": "Uma pilha de toras de pinheiro.",
+				"display_name": "Pilha de toras de pinho",
+				"recipe_name": "Pilha de toras de pinho",
+				"flavor": "Cheio de casca grossa."
+			},
+			"wardrobe_acacia": {
+				"description": "Um guarda-roupa feito de madeira de acácia.",
+				"display_name": "Guarda-roupa de Acácia",
+				"recipe_name": "Guarda-roupa de Acácia",
+				"flavor": "Hansome lugar para armazenar 32 peças de coisas."
+			},
+			"wardrobe_cactus": {
+				"description": "Um guarda-roupa feito de madeira de cacto.",
+				"display_name": "Guarda-roupa de cactos",
+				"recipe_name": "Guarda-roupa de cactos",
+				"flavor": "Hansome lugar para armazenar 32 peças de coisas."
+			},
+			"wardrobe_juniper": {
+				"description": "Um guarda-roupa feito de madeira de zimbro.",
+				"display_name": "Guarda-roupa de Junípero",
+				"recipe_name": "Guarda-roupa de Junípero",
+				"flavor": "É maior por dentro e pode conter 32 itens."
+			},
+			"wardrobe_oak": {
+				"description": "Um guarda-roupa feito de madeira de carvalho.",
+				"display_name": "Guarda-roupa de Carvalho",
+				"recipe_name": "Guarda-roupa de Carvalho",
+				"flavor": "Lugar alto e resistente para esconder 32 coisas."
+			},
+			"wardrobe_palm": {
+				"description": "Um guarda-roupa feito de madeira de palmeira.",
+				"display_name": "Guarda-roupa de palma",
+				"recipe_name": "Guarda-roupa de palma",
+				"flavor": "Cheio de cor e capaz de conter 32 bugigangas."
+			},
+			"wardrobe_pine": {
+				"description": "Um guarda-roupa feito de madeira de pinho.",
+				"display_name": "Guarda-roupa de pinho",
+				"recipe_name": "Guarda-roupa de pinho",
+				"flavor": "Cheira a inverno e contém 32 itens."
+			}
+		},
+		"decoration": {
+			"clay_edger": {
+				"description": "Afiadores de barro com charme do novo mundo.",
+				"display_name": "Aparador de Argila",
+				"recipe_name": "Aparador de Argila x9",
+				"flavor": "Eles mantêm as coisas no limite."
+			},
+			"clay_edger_full": {
+				"description": "Lixadeiras de argila sem fendas com charme do novo mundo.",
+				"display_name": "Aparador de argila sem fenda",
+				"recipe_name": "Aparador de argila sem fenda x9",
+				"flavor": "Eles mantêm as coisas no limite."
+			},
+			"clay_old_edger": {
+				"description": "Afiadores de barro com o charme do velho mundo.",
+				"display_name": "Clay Old Edger",
+				"recipe_name": "Clay Old Edger x9",
+				"flavor": "Eles mantêm as coisas velhas no limite."
+			},
+			"clay_old_edger_full": {
+				"description": "Biseladoras de barro sem fendas com o charme do velho mundo.",
+				"display_name": "Lixadeira Velha de Argila Sem Laços",
+				"recipe_name": "Aparador Velho de Argila Sem Gaps x9",
+				"flavor": "Eles mantêm as coisas velhas no limite."
+			},
+			"clay_old_paver": {
+				"description": "Pavers de barro com charme do velho mundo.",
+				"display_name": "Pavimentadoras Antigas de Barro",
+				"recipe_name": "Pavimentadoras Antigas de Barro",
+				"flavor": "Como um tapete para uma estrada."
+			},
+			"clay_old_paver_one": {
+				"description": "Pavimentadora de barro com charme do velho mundo.",
+				"display_name": "Pavimentadora Velha de Barro",
+				"recipe_name": "Pavimentadoras Velhas de Barro x9",
+				"flavor": "Como um tapete para uma estrada."
+			},
+			"clay_paver": {
+				"description": "Pavimentadoras de barro com charme do novo mundo.",
+				"display_name": "Pavimentadoras de Barro",
+				"recipe_name": "Pavimentadoras de Barro",
+				"flavor": "Como um tapete para uma estrada."
+			},
+			"clay_paver_one": {
+				"description": "Pavimentadora de barro com charme do novo mundo.",
+				"display_name": "Pavimentadora de Barro",
+				"recipe_name": "Pavimentadoras de Barro x9",
+				"flavor": "Como um tapete para uma estrada."
+			},
+			"clay_tan_edger": {
+				"description": "Afiadores de argila com o charme do mundo bronzeado.",
+				"display_name": "Clay Tan Edger",
+				"recipe_name": "Clay Tan Edger x9",
+				"flavor": "Eles mantêm as coisas bronzeadas no limite."
+			},
+			"clay_tan_edger_full": {
+				"description": "Biseladoras de argila sem fendas com charme de mundo bronzeado.",
+				"display_name": "Esmerilhadeira de Argila sem Gapless",
+				"recipe_name": "Aparador de Argila Sem Laços x9",
+				"flavor": "Eles mantêm as coisas bronzeadas no limite."
+			},
+			"clay_tan_paver": {
+				"description": "Pavimentadoras de barro com o charme do mundo bronzeado.",
+				"display_name": "Pavimentadoras de Argila",
+				"recipe_name": "Pavimentadoras de Argila",
+				"flavor": "Como um tapete para uma estrada."
+			},
+			"clay_tan_paver_one": {
+				"description": "Pavimentadora de barro com o charme do mundo bronzeado.",
+				"display_name": "Pavimentadora de Argila",
+				"recipe_name": "Pavimentadoras de Argila x9",
+				"flavor": "Como um tapete para uma estrada."
+			},
+			"clock_great": {
+				"description": "Um grande relógio de pé.",
+				"display_name": "Ótimo relógio",
+				"recipe_name": "Ótimo relógio",
+				"flavor": "Uma coisa que diz o tempo."
+			},
+			"clock_great_fine": {
+				"description": "Um grande relógio de pé ornamentado.",
+				"display_name": "Grande Relógio Ornamentado",
+				"recipe_name": "Grande Relógio Ornamentado",
+				"flavor": "Uma coisa que diz o tempo e é ornamentada."
+			},
+			"clock_wall": {
+				"description": "Um relógio de parede pendurado.",
+				"display_name": "Relógio de parede",
+				"recipe_name": "Relógio de parede",
+				"flavor": "Só o tempo irá dizer."
+			},
+			"clock_wall_fine": {
+				"description": "Um relógio de parede ornamentado pendurado.",
+				"display_name": "Relógio de parede ornamentado",
+				"recipe_name": "Relógio de parede ornamentado",
+				"flavor": "Só o tempo irá dizer."
+			},
+			"iron_lamppost": {
+				"description": "Grande poste de ferro.",
+				"display_name": "Poste de Ferro",
+				"recipe_name": "Poste de Ferro",
+				"flavor": "Ele lança uma luz elegante."
+			},
+			"edger_brownstone": {
+				"description": "Afiadores de Brownstone.",
+				"display_name": "Lixadeiras de Brownstone",
+				"recipe_name": "Arestas de Brownstone x9",
+				"flavor": "Áspero e elegante."
+			},
+			"edger_sandstone": {
+				"description": "Afiadores de arenito.",
+				"display_name": "Lixadeiras de arenito",
+				"recipe_name": "Lixadeiras de arenito",
+				"flavor": "Áspero e elegante."
+			},
+			"edger_stone": {
+				"description": "Afiadores de pedra.",
+				"display_name": "Afiadores de pedra",
+				"recipe_name": "Afiadores de pedra",
+				"flavor": "Áspero e elegante."
+			},
+			"edger_stone_solid": {
+				"description": "Afiadores de pedra.",
+				"display_name": "Afiadores de pedra sem fenda",
+				"recipe_name": "Afiadores de pedra sem fenda",
+				"flavor": "Áspero e elegante."
+			},
+			"paver_brownstone": {
+				"description": "Pavimentadoras de Brownstone.",
+				"display_name": "Pavimentadoras de Brownstone",
+				"recipe_name": "Pavimentadoras de Brownstone",
+				"flavor": "Suave e elegante."
+			},
+			"paver_brownstone_one": {
+				"description": "Pavimentadora de Brownstone.",
+				"display_name": "Pavimentadora de Brownstone",
+				"recipe_name": "Pavimentadoras de Brownstone x9",
+				"flavor": "Suave e elegante."
+			},
+			"paver_sandstone": {
+				"description": "Pavimentadoras de arenito.",
+				"display_name": "Pavimentadoras de arenito",
+				"recipe_name": "Pavimentadoras de arenito",
+				"flavor": "Suave e elegante."
+			},
+			"paver_sandstone_one": {
+				"description": "Pavimentadora de arenito.",
+				"display_name": "Pavimentadora de arenito",
+				"recipe_name": "Pavimentadoras de arenito x9",
+				"flavor": "Suave e elegante."
+			},
+			"paver_stone": {
+				"description": "Pavimentadores de pedra.",
+				"display_name": "Pavimentadoras de Pedra",
+				"recipe_name": "Pavimentadoras de Pedra",
+				"flavor": "Suave e elegante."
+			},
+			"paver_stone_one": {
+				"description": "Pavimentadora de pedra.",
+				"display_name": "Pavimentadora de Pedra",
+				"recipe_name": "Pavimentadoras de Pedra x9",
+				"flavor": "Suave e elegante."
+			},
+			"step_brownstone": {
+				"description": "Pedras de passo marrons.",
+				"display_name": "Passo Brownstones",
+				"recipe_name": "Passo Brownstones",
+				"flavor": "Suave e elegante."
+			},
+			"step_brownstone_one": {
+				"description": "Pedra de passo marrom.",
+				"display_name": "Passo Brownstone",
+				"recipe_name": "Passo Brownstones x9",
+				"flavor": "Suave e elegante."
+			},
+			"step_darkstone": {
+				"description": "Pedras escuras.",
+				"display_name": "Passo Pedras Negras",
+				"recipe_name": "Passo Pedras Negras",
+				"flavor": "Suave e elegante."
+			},
+			"step_darkstone_one": {
+				"description": "Pedra de passo escura.",
+				"display_name": "Passo Pedra Negra",
+				"recipe_name": "Passo Pedras Negras x9",
+				"flavor": "Suave e elegante."
+			},
+			"step_redstone": {
+				"description": "Pedras de passo vermelhas.",
+				"display_name": "Pedras de passo",
+				"recipe_name": "Pedras de passo",
+				"flavor": "Suave e elegante."
+			},
+			"step_redstone_one": {
+				"description": "Pedra de passo vermelha.",
+				"display_name": "Etapa Redstone",
+				"recipe_name": "Passo Redstones x9",
+				"flavor": "Suave e elegante."
+			},
+			"step_stone": {
+				"description": "Passo redstones.",
+				"display_name": "Passo Redstones",
+				"recipe_name": "Passo Redstones",
+				"flavor": "Suave e elegante."
+			},
+			"step_stone_one": {
+				"description": "Um degrau.",
+				"display_name": "Degrau",
+				"recipe_name": "Pedras de Passo x9",
+				"flavor": "Suave e elegante."
+			},
+			"trophy_bow_wall": {
+				"description": "Um arco recurvo exibido.",
+				"display_name": "Exibição de arco recurvo",
+				"recipe_name": "Exibição de arco recurvo",
+				"flavor": "Um belo item de colecionador."
+			},
+			"trophy_bronzehelm_stand": {
+				"description": "Um capacete de bronze.",
+				"display_name": "Suporte de capacete de bronze",
+				"recipe_name": "Suporte de capacete de bronze",
+				"flavor": "A variedade de bronze do balde de cérebro em exposição."
+			},
+			"trophy_bronzemail_stand": {
+				"description": "Um conjunto de malha de bronze.",
+				"display_name": "Peitoral de Bronze",
+				"recipe_name": "Suporte de peitoral de bronze",
+				"flavor": "Bem polido."
+			},
+			"trophy_bronzemail_stand_full": {
+				"description": "Um conjunto completo de malha de bronze.",
+				"display_name": "Peitoral de Bronze Completo",
+				"recipe_name": "Suporte de peitoral de bronze completo",
+				"flavor": "Bem polido e coberto com o capacete."
+			},
+			"trophy_claymore_stand": {
+				"description": "Uma espada de duas mãos exibida.",
+				"display_name": "Troféu Espada de Duas Mãos",
+				"recipe_name": "Troféu Espada de Duas Mãos",
+				"flavor": "Um belo item de colecionador."
+			},
+			"trophy_crude_axe": {
+				"description": "Um machado de troféu exibido.",
+				"display_name": "Troféu Machado Bruto",
+				"recipe_name": "Troféu Machado Bruto",
+				"flavor": "Um belo item de colecionador."
+			},
+			"trophy_crude_mace": {
+				"description": "Uma maça de troféu exibida.",
+				"display_name": "Troféu de maça bruta",
+				"recipe_name": "Troféu de maça bruta",
+				"flavor": "Um item de colecionador bonito e pesado."
+			},
+			"trophy_ironhelm_stand": {
+				"description": "Um capacete de ferro.",
+				"display_name": "Suporte de capacete de ferro",
+				"recipe_name": "Suporte de capacete de ferro",
+				"flavor": "Mantendo os crânios intactos."
+			},
+			"trophy_ironmail_stand": {
+				"description": "Um conjunto de malha de ferro.",
+				"display_name": "Peitoral de Ferro",
+				"recipe_name": "Suporte de peitoral de ferro",
+				"flavor": "Uma exibição impressionante."
+			},
+			"trophy_ironmail_stand_full": {
+				"description": "Um conjunto completo de malha de ferro.",
+				"display_name": "Peitoral de Ferro Completo",
+				"recipe_name": "Suporte de peitoral de ferro completo",
+				"flavor": "Uma exibição muito impressionante encimada por um capacete."
+			},
+			"trophy_jagged_stand": {
+				"description": "Um cutelo goblin exibido.",
+				"display_name": "Troféu Goblin Cutelo",
+				"recipe_name": "Troféu Goblin Cutelo",
+				"flavor": "Mais seguro aqui."
+			},
+			"trophy_knighthelm_stand": {
+				"description": "Um capacete de cavaleiro altamente polido.",
+				"display_name": "Suporte de capacete de prata do cavaleiro",
+				"recipe_name": "Suporte de capacete de prata do cavaleiro",
+				"flavor": "Só caiu uma vez."
+			},
+			"trophy_knightmail_stand": {
+				"description": "Um conjunto de correio prateado.",
+				"display_name": "Peitoral de Prata",
+				"recipe_name": "Suporte de peitoral de prata",
+				"flavor": "É brilhante."
+			},
+			"trophy_knightmail_stand_full": {
+				"description": "Um conjunto completo de malha de prata.",
+				"display_name": "Peitoral Prata Completo",
+				"recipe_name": "Suporte de peitoral de prata completo",
+				"flavor": "Quase brilha."
+			},
+			"trophy_lamp_elite": {
+				"description": "Uma lâmpada feita do capacete de um kobold de elite.",
+				"display_name": "Lâmpada Elite Kolbold",
+				"recipe_name": "Lâmpada Elite Kolbold",
+				"flavor": "Tacky, mas o que mais você ia fazer com isso?"
+			},
+			"trophy_lamp_general": {
+				"description": "Uma lâmpada feita com o capacete de um general kolbold.",
+				"display_name": "Lâmpada Kolbold Geral",
+				"recipe_name": "Lâmpada Kolbold Geral",
+				"flavor": "Tacky, mas o que mais você ia fazer com isso?"
+			},
+			"trophy_lamp_master": {
+				"description": "Uma lâmpada feita com o capacete de um mestre kolbold.",
+				"display_name": "Lâmpada Mestre Kolbold",
+				"recipe_name": "Lâmpada Mestre Kolbold",
+				"flavor": "Tacky, mas o que mais você ia fazer com isso?"
+			},
+			"trophy_lamp_scout": {
+				"description": "Uma lâmpada feita com o capacete de um escoteiro kolbold.",
+				"display_name": "Lâmpada Escoteira Kolbold",
+				"recipe_name": "Lâmpada Escoteira Kolbold",
+				"flavor": "Tacky, mas o que mais você ia fazer com isso?"
+			},
+			"trophy_longsword_stand": {
+				"description": "Uma espada de espada longa exibida.",
+				"display_name": "Troféu Espada Longa",
+				"recipe_name": "Troféu Espada Longa",
+				"flavor": "Um belo item de colecionador."
+			},
+			"trophy_ogos_bone_mace": {
+				"description": "Maça de osso de Ogo em exibição.",
+				"display_name": "Troféu Ogo's Bone Mace",
+				"recipe_name": "Troféu Ogo's Bone Mace",
+				"flavor": "A maça de Ogo. Ele não vai sentir falta."
+			},
+			"trophy_twosword_long_stand": {
+				"description": "Uma exibição de espada impressionante.",
+				"display_name": "Troféu Espada Poderosa",
+				"recipe_name": "Troféu Espada Poderosa",
+				"flavor": "Um item de colecionador excepcionalmente agradável."
+			},
+			"trophy_twosword_stand": {
+				"description": "Um conjunto de espadas exibidas.",
+				"display_name": "Troféu Espada Gêmea",
+				"recipe_name": "Troféu Espada Gêmea",
+				"flavor": "Um item de colecionador muito bonito."
+			},
+			"trophy_wall_elite": {
+				"description": "Um capacete de elite kolbold exibido.",
+				"display_name": "Exibição Elite Kolbold",
+				"recipe_name": "Exibição Elite Kolbold",
+				"flavor": "Por favor não toque."
+			},
+			"trophy_wall_general": {
+				"description": "Capacete de um general kolbold exibido.",
+				"display_name": "Exibição geral Kolbold",
+				"recipe_name": "Exibição geral Kolbold",
+				"flavor": "Não para tocar."
+			},
+			"trophy_wall_master": {
+				"description": "Um capacete de mestre kolbold exibido.",
+				"display_name": "Exibição Mestre Kolbold",
+				"recipe_name": "Exibição Mestre Kolbold",
+				"flavor": "Não para arremessar."
+			},
+			"trophy_wall_scout": {
+				"description": "Um elmo de escoteiro kolbold exibido.",
+				"display_name": "Exibição de Scout Kolbold",
+				"recipe_name": "Exibição de Scout Kolbold",
+				"flavor": "Parece pesado."
+			},
+			"wooden_dummy": {
+				"description": "Um manequim de treinamento de aparência bruta.",
+				"display_name": "Boneco de madeira",
+				"recipe_name": "Boneco de madeira",
+				"flavor": "Um dia você pode ser capaz de treinar sobre isso."
+			}
+		},
+		"furniture": {
+			"arch_backed_chair_acacia": {
+				"description": "Uma bela cadeira de aparência importante.",
+				"display_name": "Cadeira de acácia em arco-catedral",
+				"recipe_name": "Cadeira de acácia em arco-catedral",
+				"flavor": "Uma cadeira de acácia de aspecto importante."
+			},
+			"arch_backed_chair_cactus": {
+				"description": "Uma bela cadeira de aparência importante.",
+				"display_name": "Cadeira de cacto em arco-catedral",
+				"recipe_name": "Cadeira de cacto em arco-catedral",
+				"flavor": "Uma cadeira de cacto de aparência importante."
+			},
+			"arch_backed_chair_juniper": {
+				"description": "Uma bela cadeira de aparência importante.",
+				"display_name": "Cadeira Catedral-Arco Junípero",
+				"recipe_name": "Cadeira Catedral-Arco Junípero",
+				"flavor": "Uma cadeira de zimbro de aparência importante."
+			},
+			"arch_backed_chair_palm": {
+				"description": "Uma bela cadeira de aparência importante.",
+				"display_name": "Cadeira de Palmeira em Arco Catedral",
+				"recipe_name": "Cadeira de Palmeira em Arco Catedral",
+				"flavor": "Uma poltrona de aspecto importante."
+			},
+			"arch_backed_chair_pine": {
+				"description": "Uma bela cadeira de aparência importante.",
+				"display_name": "Cadeira de pinho em arco da catedral",
+				"recipe_name": "Cadeira de pinho em arco da catedral",
+				"flavor": "Uma cadeira de pinho de aparência importante."
+			},
+			"comfy_bed_acacia": {
+				"description": "Uma confortável cama de acácia.",
+				"display_name": "Cama de Acácia Confortável",
+				"recipe_name": "Cama de Acácia Confortável",
+				"flavor": "Uma cama bem feita de madeira de acácia."
+			},
+			"comfy_bed_cactus": {
+				"description": "Uma confortável cama de cactos.",
+				"display_name": "Cama Cacto Confortável",
+				"recipe_name": "Cama Cacto Confortável",
+				"flavor": "Uma cama bem feita de madeira de cacto."
+			},
+			"comfy_bed_juniper": {
+				"description": "Uma confortável cama de zimbro.",
+				"display_name": "Cama de Junípero Confortável",
+				"recipe_name": "Cama de Junípero Confortável",
+				"flavor": "Uma cama bem feita de madeira de zimbro."
+			},
+			"comfy_bed_palm": {
+				"description": "Uma confortável cama de palma.",
+				"display_name": "Cama de Palma Confortável",
+				"recipe_name": "Cama de Palma Confortável",
+				"flavor": "Uma cama bem feita de madeira de palmeira."
+			},
+			"comfy_bed_pine": {
+				"description": "Uma confortável cama de pinho.",
+				"display_name": "Cama de pinho confortável",
+				"recipe_name": "Cama de pinho confortável",
+				"flavor": "Uma cama bem feita de madeira de pinho."
+			},
+			"comfy_chair_acacia": {
+				"description": "Uma confortável cadeira de acácia.",
+				"display_name": "Cadeira de acácia confortável",
+				"recipe_name": "Cadeira de acácia confortável",
+				"flavor": "Uma cadeira robusta em madeira de acácia."
+			},
+			"comfy_chair_cactus": {
+				"description": "Uma confortável cadeira de cacto.",
+				"display_name": "Cadeira Cacto Confortável",
+				"recipe_name": "Cadeira Cacto Confortável",
+				"flavor": "Uma cadeira robusta feita de madeira de cacto."
+			},
+			"comfy_chair_juniper": {
+				"description": "Uma confortável cadeira de zimbro.",
+				"display_name": "Cadeira Confortável Juniper",
+				"recipe_name": "Cadeira Confortável Juniper",
+				"flavor": "Uma cadeira robusta feita de madeira de zimbro."
+			},
+			"comfy_chair_palm": {
+				"description": "Uma poltrona confortável.",
+				"display_name": "Poltrona confortável",
+				"recipe_name": "Poltrona confortável",
+				"flavor": "Uma cadeira robusta feita de madeira de palmeira."
+			},
+			"comfy_chair_pine": {
+				"description": "Uma confortável cadeira de pinho.",
+				"display_name": "Cadeira de pinho confortável",
+				"recipe_name": "Cadeira de pinho confortável",
+				"flavor": "Uma cadeira robusta feita de madeira de pinho."
+			},
+			"crude_bed_acacia": {
+				"description": "Uma cama de acácia tosca.",
+				"display_name": "Cama de Acácia Bruta",
+				"recipe_name": "Cama de Acácia Bruta",
+				"flavor": "Melhor do que dormir no chão."
+			},
+			"crude_bed_cactus": {
+				"description": "Uma cama de cactos tosca.",
+				"display_name": "Cama de cacto bruto",
+				"recipe_name": "Cama de cacto bruto",
+				"flavor": "Melhor do que dormir no chão."
+			},
+			"crude_bed_juniper": {
+				"description": "Uma cama rústica de zimbro.",
+				"display_name": "Cama Crua de Junípero",
+				"recipe_name": "Cama Crua de Junípero",
+				"flavor": "Melhor do que dormir no chão."
+			},
+			"crude_bed_palm": {
+				"description": "Um leito de palmeiras bruto.",
+				"display_name": "Cama de Palmeira Bruta",
+				"recipe_name": "Cama de Palmeira Bruta",
+				"flavor": "Melhor do que dormir no chão."
+			},
+			"crude_bed_pine": {
+				"description": "Um leito de pinho bruto.",
+				"display_name": "Cama de pinho bruto",
+				"recipe_name": "Cama de pinho bruto",
+				"flavor": "Melhor do que dormir no chão e cheira bem."
+			},
+			"crude_chair_acacia": {
+				"description": "Uma cadeira de acácia tosca.",
+				"display_name": "Cadeira de acácia bruta",
+				"recipe_name": "Cadeira de acácia bruta",
+				"flavor": "Bem, pelo menos é resistente."
+			},
+			"crude_chair_cactus": {
+				"description": "Uma cadeira de cacto tosca.",
+				"display_name": "Cadeira de cacto bruto",
+				"recipe_name": "Cadeira de cacto bruto",
+				"flavor": "Bem, pelo menos é resistente."
+			},
+			"crude_chair_juniper": {
+				"description": "Uma cadeira rústica de zimbro.",
+				"display_name": "Cadeira de Junípero Bruto",
+				"recipe_name": "Cadeira de Junípero Bruto",
+				"flavor": "Bem, pelo menos é resistente."
+			},
+			"crude_chair_oak": {
+				"description": "Uma cadeira de carvalho bruto.",
+				"display_name": "Cadeira de Carvalho Bruto",
+				"recipe_name": "Cadeira de Carvalho Bruto",
+				"flavor": "Bem, pelo menos é resistente."
+			},
+			"crude_chair_palm": {
+				"description": "Uma poltrona tosca.",
+				"display_name": "Poltrona de Palma Bruta",
+				"recipe_name": "Poltrona de Palma Bruta",
+				"flavor": "Bem, pelo menos é resistente."
+			},
+			"crude_chair_pine": {
+				"description": "Uma cadeira de pinho tosca.",
+				"display_name": "Cadeira de pinho bruto",
+				"recipe_name": "Cadeira de pinho bruto",
+				"flavor": "Bem, pelo menos é resistente."
+			},
+			"crude_stool_acacia": {
+				"description": "Um banquinho de acácia bruto.",
+				"display_name": "Tamborete de Acácia Bruto",
+				"recipe_name": "Tamborete de Acácia Bruto",
+				"flavor": "Melhor do que ficar no chão. Mas só um pouco."
+			},
+			"crude_stool_cactus": {
+				"description": "Um banquinho de cacto bruto.",
+				"display_name": "Tamborete de cacto bruto",
+				"recipe_name": "Tamborete de cacto bruto",
+				"flavor": "Melhor do que ficar no chão. Mas só um pouco."
+			},
+			"crude_stool_juniper": {
+				"description": "Um banquinho de zimbro bruto.",
+				"display_name": "Tamborete de Zimbro Bruto",
+				"recipe_name": "Tamborete de Zimbro Bruto",
+				"flavor": "Melhor do que ficar no chão. Mas só um pouco."
+			},
+			"crude_stool_oak": {
+				"description": "Um banco de carvalho bruto.",
+				"display_name": "Tamborete de Carvalho Bruto",
+				"recipe_name": "Tamborete de Carvalho Bruto",
+				"flavor": "Melhor do que ficar no chão. Mas só um pouco."
+			},
+			"crude_stool_palm": {
+				"description": "Um banquinho de palmeira grosseiro.",
+				"display_name": "Tamborete de Palmeira Bruto",
+				"recipe_name": "Tamborete de Palmeira Bruto",
+				"flavor": "Melhor do que ficar no chão. Mas só um pouco."
+			},
+			"crude_stool_pine": {
+				"description": "Um banquinho de pinho bruto.",
+				"display_name": "Tamborete de pinho bruto",
+				"recipe_name": "Tamborete de pinho bruto",
+				"flavor": "Melhor do que ficar no chão. Mas só um pouco."
+			},
+			"dining_table_acacia": {
+				"description": "Uma mesa de acácia sólida.",
+				"display_name": "Mesa de jantar de acácia",
+				"recipe_name": "Mesa de jantar de acácia",
+				"flavor": "Mesa de jantar em madeira de acácia."
+			},
+			"dining_table_cactus": {
+				"description": "Uma mesa de cacto sólida.",
+				"display_name": "Mesa de jantar de cactos",
+				"recipe_name": "Mesa de jantar de cactos",
+				"flavor": "Uma mesa de jantar feita de madeira de cacto."
+			},
+			"dining_table_juniper": {
+				"description": "Uma sólida mesa de zimbro.",
+				"display_name": "Mesa de jantar de zimbro",
+				"recipe_name": "Mesa de jantar de zimbro",
+				"flavor": "Uma mesa de jantar feita de madeira de zimbro."
+			},
+			"dining_table_palm": {
+				"description": "Uma mesa de palma sólida.",
+				"display_name": "Mesa de jantar de palma",
+				"recipe_name": "Mesa de jantar de palma",
+				"flavor": "Uma mesa de jantar feita de madeira de palmeira."
+			},
+			"dining_table_pine": {
+				"description": "Uma mesa de pinho maciço.",
+				"display_name": "Mesa de jantar de pinho",
+				"recipe_name": "Mesa de jantar de pinho",
+				"flavor": "Uma mesa de jantar feita de madeira de pinho."
+			},
+			"dresser_acacia": {
+				"description": "Uma cômoda de acácia.",
+				"display_name": "Cômoda de Acácia",
+				"recipe_name": "Cômoda de Acácia",
+				"flavor": "Uma cômoda feita de madeira de acácia."
+			},
+			"dresser_cactus": {
+				"description": "Uma cômoda de cactos.",
+				"display_name": "Cômoda de cactos",
+				"recipe_name": "Cômoda de cactos",
+				"flavor": "Uma cômoda feita de madeira de cacto."
+			},
+			"dresser_juniper": {
+				"description": "Uma cômoda de zimbro.",
+				"display_name": "Cômoda Juniper",
+				"recipe_name": "Cômoda Juniper",
+				"flavor": "Uma cômoda feita de madeira de zimbro."
+			},
+			"dresser_palm": {
+				"description": "Um aparador de palmeiras.",
+				"display_name": "Palmeira",
+				"recipe_name": "Palmeira",
+				"flavor": "Uma cômoda feita de madeira de palmeira."
+			},
+			"dresser_pine": {
+				"description": "Uma cômoda de pinho.",
+				"display_name": "Cômoda de pinho",
+				"recipe_name": "Cômoda de pinho",
+				"flavor": "Uma cômoda feita de madeira de pinho."
+			},
+			"fancy_bed_acacia": {
+				"description": "Uma cama de acácia chique.",
+				"display_name": "Cama de Acácia Fantasia",
+				"recipe_name": "Cama de Acácia Fantasia",
+				"flavor": "Uma cama exclusivamente trabalhada em madeira de acácia."
+			},
+			"fancy_bed_cactus": {
+				"description": "Uma cama de cacto chique.",
+				"display_name": "Cama de cacto extravagante",
+				"recipe_name": "Cama de cacto extravagante",
+				"flavor": "Uma cama exclusivamente trabalhada feita de madeira de cacto."
+			},
+			"fancy_bed_juniper": {
+				"description": "Uma cama de zimbro chique.",
+				"display_name": "Cama de Junípero Fantasia",
+				"recipe_name": "Cama de Junípero Fantasia",
+				"flavor": "Uma cama exclusivamente trabalhada feita de madeira de zimbro."
+			},
+			"fancy_bed_palm": {
+				"description": "Uma cama de palmeira extravagante.",
+				"display_name": "Cama de Palmeira Elegante",
+				"recipe_name": "Cama de Palmeira Elegante",
+				"flavor": "Uma cama exclusivamente trabalhada feita de madeira de palmeira."
+			},
+			"fancy_bed_pine": {
+				"description": "Uma cama de pinho chique.",
+				"display_name": "Cama de pinho extravagante",
+				"recipe_name": "Cama de pinho extravagante",
+				"flavor": "Uma cama exclusivamente trabalhada feita de madeira de pinho."
+			},
+			"fancy_chair_acacia": {
+				"description": "Uma elegante cadeira de acácia.",
+				"display_name": "Cadeira de Acácia Fantasia",
+				"recipe_name": "Cadeira de Acácia Fantasia",
+				"flavor": "Uma cadeira de design exclusivo feita de madeira de acácia."
+			},
+			"fancy_chair_cactus": {
+				"description": "Uma cadeira de cacto extravagante.",
+				"display_name": "Cadeira de cacto extravagante",
+				"recipe_name": "Cadeira de cacto extravagante",
+				"flavor": "Uma cadeira de design exclusivo feita de madeira de cacto."
+			},
+			"fancy_chair_juniper": {
+				"description": "Uma elegante cadeira de zimbro.",
+				"display_name": "Cadeira de zimbro extravagante",
+				"recipe_name": "Cadeira de zimbro extravagante",
+				"flavor": "Uma cadeira de design exclusivo feita de madeira de zimbro."
+			},
+			"fancy_chair_palm": {
+				"description": "Uma poltrona chique.",
+				"display_name": "Poltrona de Palmeira Fantasia",
+				"recipe_name": "Poltrona de Palmeira Fantasia",
+				"flavor": "Uma cadeira de design exclusivo feita de madeira de palmeira."
+			},
+			"fancy_chair_pine": {
+				"description": "Uma elegante cadeira de pinho.",
+				"display_name": "Cadeira de pinho extravagante",
+				"recipe_name": "Cadeira de pinho extravagante",
+				"flavor": "Uma cadeira de design exclusivo feita de madeira de pinho."
+			},
+			"fancy_table_acacia": {
+				"description": "Uma mesa de acácia sólida.",
+				"display_name": "Mesa Fantasia de Acácia",
+				"recipe_name": "Mesa Fantasia de Acácia",
+				"flavor": "Uma mesa distinta feita de madeira de acácia."
+			},
+			"fancy_table_cactus": {
+				"description": "Uma mesa de cacto sólida.",
+				"display_name": "Mesa de fantasia de cactos",
+				"recipe_name": "Mesa de fantasia de cactos",
+				"flavor": "Uma mesa distinta feita de madeira de cacto."
+			},
+			"fancy_table_juniper": {
+				"description": "Uma sólida mesa de zimbro.",
+				"display_name": "Mesa de fantasia de zimbro",
+				"recipe_name": "Mesa de fantasia de zimbro",
+				"flavor": "Uma mesa distinta feita de madeira de zimbro."
+			},
+			"fancy_table_palm": {
+				"description": "Uma mesa de palma sólida.",
+				"display_name": "Mesa Fantasia Palmeira",
+				"recipe_name": "Mesa Fantasia Palmeira",
+				"flavor": "Uma mesa distinta feita de madeira de palmeira."
+			},
+			"fancy_table_pine": {
+				"description": "Uma mesa de pinho maciço.",
+				"display_name": "Mesa Fantasia de Pinho",
+				"recipe_name": "Mesa Fantasia de Pinho",
+				"flavor": "Uma mesa distinta feita de madeira de pinho."
+			},
+			"park_bench_acacia": {
+				"description": "Um banco de parque de acácia pitoresco.",
+				"display_name": "Banco do Parque das Acácias",
+				"recipe_name": "Banco do Parque das Acácias",
+				"flavor": "Um banco de parque feito de madeira de acácia."
+			},
+			"park_bench_cactus": {
+				"description": "Um banco de parque de cactos pitoresco.",
+				"display_name": "Banco do Parque dos Cactos",
+				"recipe_name": "Banco do Parque dos Cactos",
+				"flavor": "Um banco de parque feito de madeira de cacto."
+			},
+			"park_bench_juniper": {
+				"description": "Um banco de parque de zimbro pitoresco.",
+				"display_name": "Banco de Parque Juniper",
+				"recipe_name": "Banco de Parque Juniper",
+				"flavor": "Um banco de parque feito de madeira de zimbro."
+			},
+			"park_bench_palm": {
+				"description": "Um banco de parque de palmeiras pitoresco.",
+				"display_name": "Banco de Palm Park",
+				"recipe_name": "Banco de Palm Park",
+				"flavor": "Um banco de parque feito de madeira de palmeira."
+			},
+			"park_bench_pine": {
+				"description": "Um banco de parque de pinho pitoresco.",
+				"display_name": "Banco de Parque Pine",
+				"recipe_name": "Banco de Parque Pine",
+				"flavor": "Um banco de parque feito de madeira de pinho."
+			},
+			"simple_acacia_chair": {
+				"description": "Uma cadeira de acácia bem trabalhada.",
+				"display_name": "Cadeira de Acácia Simples",
+				"recipe_name": "Cadeira de Acácia Simples",
+				"flavor": "Uma cadeira elegante e confortável.."
+			},
+			"simple_cactus_chair": {
+				"description": "Uma cadeira de cacto bem trabalhada.",
+				"display_name": "Cadeira Cacto Simples",
+				"recipe_name": "Cadeira Cacto Simples",
+				"flavor": "Uma cadeira elegante e confortável.."
+			},
+			"simple_juniper_chair": {
+				"description": "Uma cadeira de zimbro bem trabalhada.",
+				"display_name": "Cadeira Simples de Junípero",
+				"recipe_name": "Cadeira Simples de Junípero",
+				"flavor": "Uma cadeira elegante e confortável.."
+			},
+			"simple_palm_chair": {
+				"description": "Uma poltrona bem trabalhada.",
+				"display_name": "Poltrona Simples",
+				"recipe_name": "Poltrona Simples",
+				"flavor": "Uma cadeira elegante e confortável.."
+			},
+			"simple_pine_chair": {
+				"description": "Uma cadeira de pinho bem trabalhada.",
+				"display_name": "Cadeira de Pinho Simples",
+				"recipe_name": "Cadeira de Pinho Simples",
+				"flavor": "Uma cadeira elegante e confortável.."
+			},
+			"stone_bench_nice": {
+				"description": "Banco de pedra pesada de boa qualidade.",
+				"display_name": "Banco de pedra fina",
+				"recipe_name": "Banco de pedra fina",
+				"flavor": "Um bom elevador para duas pessoas."
+			},
+			"stone_chair_nice": {
+				"description": "Cadeira de pedra pesada de boa qualidade.",
+				"display_name": "Cadeira de pedra fina",
+				"recipe_name": "Cadeira de pedra fina",
+				"flavor": "Uma bela cadeira elevatória para duas pessoas."
+			},
+			"stone_table_nice": {
+				"description": "Mesa de pedra pesada de boa qualidade.",
+				"display_name": "Mesa de pedra fina",
+				"recipe_name": "Mesa de pedra fina",
+				"flavor": "Uma boa mesa elevatória para quatro pessoas, ou um He Mo."
+			},
+			"table_for_one_acacia": {
+				"description": "Uma pequena mesa de acácia.",
+				"display_name": "Mesa pequena de acácia",
+				"recipe_name": "Mesa pequena de acácia",
+				"flavor": "Uma pequena mesa de acácia."
+			},
+			"table_for_one_cactus": {
+				"description": "Uma pequena mesa de cactos.",
+				"display_name": "Mesa de cactos pequenos",
+				"recipe_name": "Mesa de cactos pequenos",
+				"flavor": "Uma pequena mesa de cactos."
+			},
+			"table_for_one_juniper": {
+				"description": "Uma pequena mesa de zimbro.",
+				"display_name": "Mesa pequena de zimbro",
+				"recipe_name": "Mesa pequena de zimbro",
+				"flavor": "Uma pequena mesa de zimbro."
+			},
+			"table_for_one_palm": {
+				"description": "Uma pequena mesa de palmeiras.",
+				"display_name": "Mesa de Palma Pequena",
+				"recipe_name": "Mesa de Palma Pequena",
+				"flavor": "Uma pequena mesa de palmeiras."
+			},
+			"table_for_one_pine": {
+				"description": "Uma pequena mesa de pinho.",
+				"display_name": "Mesa pequena de pinho",
+				"recipe_name": "Mesa pequena de pinho",
+				"flavor": "Uma pequena mesa de pinho."
+			},
+			"trophy_stand_oak": {
+				"description": "Um pequeno suporte para troféus de carvalho.",
+				"display_name": "Suporte de troféus de carvalho",
+				"recipe_name": "Suporte de troféus de carvalho",
+				"flavor": "Um lugar para exibir coisas bonitas."
+			},
+			"trophy_stand_oak_fine": {
+				"description": "Um pequeno suporte de troféus de carvalho bem trabalhado.",
+				"display_name": "Suporte para troféus de carvalho fino",
+				"recipe_name": "Suporte para troféus de carvalho fino",
+				"flavor": "Um lugar bem elaborado para exibir coisas mais agradáveis."
+			},
+			"trophy_stand_oak_wide": {
+				"description": "Uma ampla estante de troféus de carvalho.",
+				"display_name": "Suporte para troféus de carvalho largo",
+				"recipe_name": "Suporte para troféus de carvalho largo",
+				"flavor": "Mais espaço para exibir coisas legais."
+			},
+			"trophy_stand_oak_wide_fine": {
+				"description": "Um suporte de troféus de carvalho bem trabalhado.",
+				"display_name": "Suporte para troféus de carvalho fino e largo",
+				"recipe_name": "Suporte para troféus de carvalho fino e largo",
+				"flavor": "Mais espaço para exibir coisas melhores."
+			},
+			"writing_desk_acacia": {
+				"description": "Escrivaninha pesada de acácia.",
+				"display_name": "Escrivaninha de Acácia",
+				"recipe_name": "Escrivaninha de Acácia",
+				"flavor": "Uma escrivaninha de acácia."
+			},
+			"writing_desk_cactus": {
+				"description": "Escrivaninha pesada de cactos.",
+				"display_name": "Escrivaninha de cactos",
+				"recipe_name": "Escrivaninha de cactos",
+				"flavor": "Uma escrivaninha de cactos."
+			},
+			"writing_desk_juniper": {
+				"description": "Escrivaninha pesada de zimbro.",
+				"display_name": "Escrivaninha Juniper",
+				"recipe_name": "Escrivaninha Juniper",
+				"flavor": "Uma escrivaninha de zimbro."
+			},
+			"writing_desk_palm": {
+				"description": "Escrivaninha pesada de palma.",
+				"display_name": "Escrivaninha de palma",
+				"recipe_name": "Escrivaninha de palma",
+				"flavor": "Uma escrivaninha de palma."
+			},
+			"writing_desk_pine": {
+				"description": "Escrivaninha de pinho pesado.",
+				"display_name": "Escrivaninha de pinho",
+				"recipe_name": "Escrivaninha de pinho",
+				"flavor": "Uma escrivaninha de pinho."
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {},
+		"carpenter": {
+			"recipes": {
+				"storage_cabinet_name": "Armários de armazenamento",
+				"trophy_name": "Troféus",
+				"acacia_furniture_name": "Móveis de Acácia",
+				"cactus_furniture_name": "Móveis de cacto",
+				"juniper_furniture_name": "Móveis de zimbro",
+				"oak_furniture_name": "Móveis de Carvalho",
+				"palm_furniture_name": "Palm Móveis",
+				"pine_furniture_name": "Móveis de pinho"
+			}
+		},
+		"cook": {},
+		"engineer": {},
+		"herbalist": {},
+		"mason": {
+			"recipes": {
+				"landscaping_name": "Paisagismo"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"landscaping_name": "Paisagismo"
+			}
+		},
+		"weaver": {}
+	}
+}

@@ -1,0 +1,194 @@
+{
+	"data": {
+		"biome": {
+			"unicorn": {
+				"display_name": "O Trópico do Unicórnio",
+				"description": "Um reino de fantasia com altas falésias e árvores coloridas. Venha explorar este mundo misterioso.",
+				"random_location_names": {
+					"000": "Cataratas do Dragão",
+					"001": "Poleiro de Grifo",
+					"002": "Bosque do Unicórnio"
+				},
+				"seasons": {
+					"emerald": {
+						"display_name": "Esmeralda",
+						"description": "Esmeralda é uma estação de novo crescimento. Tudo fica verde enquanto se recupera do frio de Opala."
+					},
+					"amber": {
+						"display_name": "Âmbar",
+						"description": "Âmbar é uma época de sol e calor no Trópico de Unicórnio. Tudo reflete o sol dourado."
+					},
+					"ruby": {
+						"display_name": "Rubi",
+						"description": "Ruby sinaliza o fim do calor de Amber. As árvores e as gramíneas adquirem tons de vermelho e laranja à medida que os dias ficam mais frios e chuvosos."
+					},
+					"opal": {
+						"display_name": "Opala",
+						"description": "Opala está fria e nevada. As árvores aqui ficam curiosas tonalidades de azul e roxo durante esse período, e a neve é ​​abundante."
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"critters": {
+			"unicorn": {
+				"species": "cervo",
+				"description": "Isso é um...?",
+				"display_name": "Unicórnio"
+			}
+		},
+		"resources": {
+			"wood": {
+				"maple_log": {
+					"display_name": "Log de bordo",
+					"description": "Um log feito de bordo"
+				},
+				"willow_log": {
+					"display_name": "Tronco de Salgueiro",
+					"description": "Um tronco de salgueiro macio"
+				}
+			}
+		},
+		"trees": {
+			"palm_tree": {
+				"small_palm_tree": {
+					"display_name": "Palmeira Pequena",
+					"description": "Uma pequena árvore verde"
+				},
+				"medium_palm_tree": {
+					"display_name": "Palmeira Média",
+					"description": "Uma palmeira muito alta"
+				},
+				"large_palm_tree": {
+					"display_name": "Palmeira Grande",
+					"description": "Uma palmeira gloriosa"
+				},
+				"giant_palm_tree": {
+					"display_name": "Palmeira Gigante",
+					"description": "Qual será a altura?"
+				},
+				"seed": {
+					"tree_palm_seed": {
+						"display_name": "Uma semente de palmeira",
+						"description": "Plante para crescer uma palmeira"
+					},
+					"tree_palm_seed_ghost": {
+						"display_name": "Uma semente de palmeira",
+						"description": "Plante para crescer uma palmeira"
+					}
+				},
+				"bud": {
+					"tree_palm_plant_bud": {
+						"display_name": "Palmeira em Brotação",
+						"description": "Está ficando MUITO grande!!!"
+					}
+				},
+				"stem": {
+					"tree_palm_plant_stem": {
+						"display_name": "Uma palmeira em crescimento",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"tree_palm_sprout": {
+						"display_name": "Broto de Palmeira",
+						"description": "Está crescendo como uma erva daninha"
+					}
+				}
+			},
+			"willow_tree": {
+				"small_willow_tree": {
+					"display_name": "Salgueiro Pequeno",
+					"description": "Uma pequena árvore curvada"
+				},
+				"medium_willow_tree": {
+					"display_name": "Salgueiro Médio",
+					"description": "Um bom lugar para trocar"
+				},
+				"large_willow_tree": {
+					"display_name": "Salgueiro Gigante",
+					"description": "Cheio de chorar"
+				},
+				"seed": {
+					"tree_willow_seed": {
+						"display_name": "Um rebento de salgueiro",
+						"description": "Plante para crescer um salgueiro"
+					},
+					"tree_willow_seed_ghost": {
+						"display_name": "Um rebento de salgueiro",
+						"description": "Plante para crescer um salgueiro"
+					}
+				},
+				"bud": {
+					"tree_willow_bud": {
+						"display_name": "Salgueiro em brotamento",
+						"description": "Está crescendo tão rápido!!!"
+					},
+					"tree_willow_plant_bud": {
+						"display_name": "Broto de Salgueiro",
+						"description": "Quase um salgueiro"
+					}
+				},
+				"stem": {
+					"tree_willow_stem": {
+						"display_name": "Uma haste de salgueiro",
+						"description": "Um grande salgueiro crescerá aqui!"
+					}
+				},
+				"sprout": {
+					"tree_willow_sprout": {
+						"display_name": "Broto de Salgueiro",
+						"description": "Em breve terá suas folhas adultas."
+					}
+				}
+			},
+			"maple_tree": {
+				"small_maple_tree": {
+					"display_name": "Ácer Pequeno",
+					"description": "Uma pequena muda de bordo"
+				},
+				"medium_maple_tree": {
+					"display_name": "Maple Médio",
+					"description": "Fornece sombra decente"
+				},
+				"large_maple_tree": {
+					"display_name": "Árvore de bordo grande",
+					"description": "Uma árvore muito grande"
+				},
+				"seed": {
+					"tree_maple_seed": {
+						"display_name": "Uma semente de bordo",
+						"description": "Plante para crescer uma árvore de bordo"
+					},
+					"tree_maple_seed_ghost": {
+						"display_name": "Uma semente de bordo",
+						"description": "Plante para crescer uma árvore de bordo"
+					}
+				},
+				"bud": {
+					"tree_maple_bud": {
+						"display_name": "Árvore de bordo em brotamento",
+						"description": "Está crescendo tão rápido!!!"
+					},
+					"tree_maple_plant_bud": {
+						"display_name": "Maple Bud",
+						"description": "Quase uma árvore de bordo"
+					}
+				},
+				"stem": {
+					"tree_maple_plant_stem": {
+						"display_name": "Uma haste de bordo",
+						"description": "Uma grande árvore de bordo deve crescer aqui!"
+					}
+				},
+				"sprout": {
+					"tree_maple_sprout": {
+						"display_name": "Broto de Maple",
+						"description": "Em breve terá suas folhas adultas."
+					}
+				}
+			}
+		}
+	}
+}

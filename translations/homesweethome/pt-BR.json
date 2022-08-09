@@ -1,0 +1,576 @@
+{
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"bronze_wall_candle_recipe": {
+					"recipe_name": "Castiçal de Bronze",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Detalhes encantadores…"
+				},
+				"bronze_wall_double_candle_recipe": {
+					"recipe_name": "Castiçal Bronze-Gêmeos",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Detalhes encantadores…"
+				},
+				"gold_wall_candle_recipe": {
+					"recipe_name": "Castiçal Dourado",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Cuidado com os orcs!"
+				},
+				"gold_wall_double_candle_recipe": {
+					"recipe_name": "Suporte de vela Golden-Twins",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Cuidado com os orcs!"
+				},
+				"iron_brazier_recipe": {
+					"recipe_name": "Braseiro de Ferro",
+					"description": "Traz luz às noites escuras.",
+					"flavor": "Eu amo como o fogo está dançando!"
+				},
+				"iron_brazier_patrol-point_recipe": {
+					"recipe_name": "Braseiro de Ferro Patrulha",
+					"description": "Fonte de luz para soldados.",
+					"flavor": "Mantém o calor também nas noites frias"
+				},
+				"oil_lamp_height_rayya_recipe": {
+					"recipe_name": "Braseiro a óleo de altura",
+					"description": "Fonte de luz útil para noites escuras.",
+					"flavor": "Ficou lindo na minha sala"
+				},
+				"oil_lamp_height_patrol-point_rayya_recipe": {
+					"recipe_name": "Braseiro a óleo de patrulha",
+					"description": "Fonte de luz para soldados.",
+					"flavor": "Mantém o calor também nas noites frias"
+				},
+				"oil_lamp_large_rayya_recipe": {
+					"recipe_name": "Grande braseiro a óleo",
+					"description": "Fonte de luz útil para noites escuras.",
+					"flavor": "Uff este braseiro é muito pesado"
+				},
+				"silver_wall_candle_recipe": {
+					"recipe_name": "Castiçal de Prata",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Oh Deus! eu gosto do bling bling"
+				},
+				"silver_wall_double_candle_recipe": {
+					"recipe_name": "Castiçal Silver Twins",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Oh Deus! eu gosto do bling bling"
+				},
+				"utensils_recipe": {
+					"recipe_name": "Utensílios de Bronze",
+					"description": "Utensílios úteis para sua oficina.",
+					"flavor": "Ahhh eu amo essa colher!"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"storage_name": "Armazenar",
+				"furniture_name": "Mobiliário",
+				"corbel_cook_recipe": {
+					"recipe_name": "Corbel de especiarias",
+					"description": "A comida picante é mais deliciosa.",
+					"flavor": "Deixe-me adicionar um pouco de coentro…"
+				},
+				"barrels_berrie_recipe": {
+					"recipe_name": "Barris de Berries",
+					"description": "Servir suco fresco de frutas vermelhas deixa os Hearthlings mais felizes. Lugar para 92 itens.",
+					"flavor": "Beijo meus amigos!"
+				},
+				"barrels_pear_rayya_recipe": {
+					"recipe_name": "Barris de pêra",
+					"description": "Servir suco de figo fresco deixa os Hearthlings mais felizes. Lugar para 92 itens.",
+					"flavor": "Beijo meus amigos!"
+				},
+				"dishes-cabinet_recipe": {
+					"recipe_name": "Armário de pratos",
+					"description": "Bancada para decorar sua Taverna.",
+					"flavor": "Mais uma Decoração nesta parede por favor!"
+				},
+				"pantry_cook_recipe": {
+					"recipe_name": "Despensa de Ingredientes",
+					"description": "Armazenamento útil para 64 ingredientes de cozinha.",
+					"flavor": "Finalmente tenho lugar para isso!"
+				},
+				"shelf_cook_recipe": {
+					"recipe_name": "Prateleira de louça",
+					"description": "Prateleira decorativa para todas as suas receitas e louças.",
+					"flavor": "Você tem algumas placas muito bonitas."
+				},
+				"tavern_table_large_recipe": {
+					"recipe_name": "Mesa de Taverna Grande",
+					"description": "Uma mesa para grandes reuniões.",
+					"flavor": "Esta é uma mesa enorme."
+				},
+				"tavern_table_large_cloth_recipe": {
+					"recipe_name": "Mesa de Taverna Grande",
+					"description": "Uma grande mesa com uma toalha de mesa.",
+					"flavor": "Ahhh eu amo essa cor!"
+				},
+				"tavern_table_large_fiber_recipe": {
+					"recipe_name": "Mesa de Taverna Grande",
+					"description": "Uma grande mesa com uma toalha de fibra.",
+					"flavor": "Ahhh eu amo essa cor!"
+				},
+				"tavern_table_large_fur_recipe": {
+					"recipe_name": "Mesa de Taverna Grande",
+					"description": "Uma grande mesa com uma toalha de pele.",
+					"flavor": "Ahhh eu amo essa cor!"
+				},
+				"tavern_table_small_cloth_recipe": {
+					"recipe_name": "Mesa de Taberna Pequena",
+					"description": "Uma pequena mesa com uma toalha de mesa.",
+					"flavor": "Ahhh eu amo essa cor!"
+				},
+				"tavern_table_small_fiber_recipe": {
+					"recipe_name": "Mesa de Taberna Pequena",
+					"description": "Uma pequena mesa com uma toalha de fibra.",
+					"flavor": "Ahhh eu amo essa cor!"
+				},
+				"tavern_table_small_fur_recipe": {
+					"recipe_name": "Mesa de Taberna Pequena",
+					"description": "Uma pequena mesa com uma toalha de pele.",
+					"flavor": "Ahhh eu amo essa cor!"
+				},
+				"utensils_holder_cook_recipe": {
+					"recipe_name": "Suporte de utensílios",
+					"description": "Finalmente um bom lugar para seus utensílios.",
+					"flavor": "Bem arranjado…"
+				},
+				"wash_barrel_recipe": {
+					"recipe_name": "Tambor de lavagem",
+					"description": "Só um Prato limpo é uma boa Louça.",
+					"flavor": "Olha como brilha."
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"barrel_recipe": {
+					"recipe_name": "Barril de madeira",
+					"description": "Espaço seguro com este item. Contém até 32 materiais",
+					"flavor": "Eu amo o suco de Berrie!"
+				},
+				"case_small_recipe": {
+					"recipe_name": "Pequeno caso",
+					"description": "Colete alguns materiais. Contém até 10 itens.",
+					"flavor": "Pequeno mas bom!"
+				},
+				"case_large_recipe": {
+					"recipe_name": "Estojo Grande",
+					"description": "Colete uma grande quantidade de Materiais. Contém até 48 itens.",
+					"flavor": "Bem organizado!"
+				},
+				"pantry_recipe": {
+					"recipe_name": "Despensa de madeira",
+					"description": "Despensa de madeira vazia decorativa.",
+					"flavor": "Muitas novas possibilidades de armazenamento."
+				},
+				"shelf_carpenter_recipe": {
+					"recipe_name": "Prateleira de madeira",
+					"description": "Prateleira de madeira vazia decorativa.",
+					"flavor": "Excelente! Mais lugar para itens."
+				},
+				"table_recipe": {
+					"recipe_name": "Mesa de madeira",
+					"description": "Uma grande mesa de madeira para a sua Oficina.",
+					"flavor": "Quão útil! Uma bela mesa de madeira."
+				},
+				"wood_wall_candle_recipe": {
+					"recipe_name": "Castiçal de madeira",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Espero que a madeira não queime..."
+				},
+				"wood_wall_double_candle_recipe": {
+					"recipe_name": "Castiçal de Madeira-Gêmeos",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Espero que a madeira não queime..."
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"storage_name": "Armazenar",
+				"plants_name": "Plantas",
+				"gardener-bench_recipe": {
+					"recipe_name": "Banco de jardineiro",
+					"description": "As plantas não têm apenas atributos de cura.",
+					"flavor": "Útil e decorativo. Uma bela combinação."
+				},
+				"books_recipe": {
+					"recipe_name": "Livros",
+					"description": "Às vezes é útil anotar seu conhecimento.",
+					"flavor": "Espero não ter que ler todos esses livros."
+				},
+				"corbel_herbalist_recipe": {
+					"recipe_name": "mísula de ervas",
+					"description": "mísula decorativa para secar as ervas recolhidas.",
+					"flavor": "Eles cheiram tão sedutores."
+				},
+				"shelf_herbalist_library_recipe": {
+					"recipe_name": "Estante de Poções",
+					"description": "Prateleira decorativa para todos os seus livros de cura.",
+					"flavor": "Também um Herbalist às vezes precisa de alguma ajuda."
+				},
+				"table_herbalist_recipe": {
+					"recipe_name": "Mesa de Ervas",
+					"description": "Escrivaninha para Herbalists profissionais.",
+					"flavor": "Deixe-me escrever algumas receitas..."
+				},
+				"case_large_herbs_recipe": {
+					"recipe_name": "Estojo Grande de Ervas",
+					"description": "Colete uma grande quantidade de ervas frescas. Contém até 48 itens.",
+					"flavor": "Bem organizado!"
+				},
+				"jar_small_recipe": {
+					"recipe_name": "Jarra Pequena",
+					"description": "Recipiente pequeno, mas fino. Contém até 8 itens.",
+					"flavor": "Uh! Senti cheiro de biscoitos por dentro?"
+				},
+				"jar_large_recipe": {
+					"recipe_name": "Jarra Grande",
+					"description": "O lugar mais seguro para tônicos e ervas. Contém até 32 itens.",
+					"flavor": "É um armazenamento muito grande… Horrível!"
+				},
+				"planter-box_small_brightbell_recipe": {
+					"recipe_name": "Caixa Plantadora Brightbell",
+					"description": "Deixe crescer as ervas necessárias em sua Oficina.",
+					"flavor": "Tão incrível vê-los crescendo!"
+				},
+				"planter-box_small_frostsnap_recipe": {
+					"recipe_name": "Caixa Plantadora Frostsnap",
+					"description": "Deixe crescer as ervas necessárias em sua Oficina.",
+					"flavor": "Tão incrível vê-los crescendo!"
+				},
+				"planter-box_small_cactus_rayya_recipe": {
+					"recipe_name": "Caixa de plantador de flores de cacto",
+					"description": "Deixe crescer as ervas necessárias em sua Oficina.",
+					"flavor": "Tão incrível vê-los crescendo!"
+				},
+				"planter-box_large_recipe": {
+					"recipe_name": "Caixa Grande Plantadora",
+					"description": "Aumente a produção de ervas com uma caixa grande.",
+					"flavor": "Tão incrível vê-los crescendo!"
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"monument_name": "Estátuas e monumentos",
+				"fireplace_stone_large_recipe": {
+					"recipe_name": "Lareira de pedra",
+					"description": "Uma lareira rústica para o seu lar doce lar.",
+					"flavor": "Encaixou perfeitamente na minha sala."
+				},
+				"sculpture_hamnisu_recipe": {
+					"recipe_name": "Monumento a Hamnisu",
+					"description": "Um monumento decorativo dedicado a Hamnisu por sua ajuda essencial para a Atualização 2.2",
+					"flavor": "Ohh veja o bling bling !!"
+				},
+				"stone_wall_candle_recipe": {
+					"recipe_name": "Castiçal de pedra",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Queime bebê, queime..."
+				},
+				"stone_wall_double_candle_recipe": {
+					"recipe_name": "Castiçal Stone Twins",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Queime bebê, queime..."
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"decoration_name": "Decorações",
+				"monument_name": "Estátuas e monumentos",
+				"crockery_recipe": {
+					"recipe_name": "Louça",
+					"description": "Lindas louças de porcelana para eventos especiais.",
+					"flavor": "Adorável serviço de chá."
+				},
+				"clay_wall_candle_recipe": {
+					"recipe_name": "Castiçal de barro",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Detalhes encantadores…"
+				},
+				"clay_wall_double_candle_recipe": {
+					"recipe_name": "Castiçal Clay-Twins",
+					"description": "Uma pequena fonte de luz decorativa para os seus quartos.",
+					"flavor": "Detalhes encantadores…"
+				},
+				"pantry_rayya_recipe": {
+					"recipe_name": "Despensa de Barro",
+					"description": "Despensa decorativa de barro vazio.",
+					"flavor": "Muitas novas possibilidades de armazenamento."
+				},
+				"shelf_rayya_recipe": {
+					"recipe_name": "Prateleira de Barro",
+					"description": "Prateleira de barro vazia decorativa.",
+					"flavor": "Excelente! Mais lugar para itens."
+				},
+				"table_rayya_recipe": {
+					"recipe_name": "Mesa de Barro",
+					"description": "Uma grande mesa de barro para sua Oficina.",
+					"flavor": "Quão útil! Uma bela mesa de barro."
+				}
+			}
+		}
+	},
+	"entities": {
+		"workbenches": {
+			"dishes-cabinet_ghost": {
+				"display_name": "Armário de pratos",
+				"description": "Bancada para decorar sua Taverna."
+			},
+			"gardener-bench_ghost": {
+				"display_name": "Banco de jardineiro",
+				"description": "Útil e decorativo."
+			}
+		},
+		"containers": {
+			"barrel_ghost": {
+				"display_name": "Barril de madeira",
+				"description": "Colete mais de 32 itens."
+			},
+			"barrels_berrie_ghost": {
+				"display_name": "Barris de Berries",
+				"description": "Colete mais de 96 itens."
+			},
+			"barrels_pear_rayya_ghost": {
+				"display_name": "Barris de pêra",
+				"description": "Colete mais de 96 itens."
+			},
+			"case_small_ghost": {
+				"display_name": "Pequeno caso",
+				"description": "Colete mais de 10 itens."
+			},
+			"case_large_ghost": {
+				"display_name": "Estojo Grande",
+				"description": "Colete uma grande quantidade de 48 itens."
+			},
+			"case_large_herbs_ghost": {
+				"display_name": "Estojo Grande de Ervas",
+				"description": "Colete até 48 unidades de ervas frescas."
+			},
+			"jar_large_ghost": {
+				"display_name": "Jarra Grande",
+				"description": "O lugar mais seguro para tônicos e ervas."
+			},
+			"jar_small_ghost": {
+				"display_name": "Jarra Pequena",
+				"description": "Recipiente pequeno, mas fino."
+			},
+			"pantry_cook_ghost": {
+				"display_name": "Despensa de Ingredientes",
+				"description": "Armazenamento útil para 64 ingredientes de cozinha."
+			}
+		},
+		"food": {
+			"honey": {
+				"honey_basket": {
+					"display_name": "Pote de mel",
+					"description": "Um pequeno pote cheio de mel delicioso."
+				},
+				"honey_serving": {
+					"display_name": "Mel delicioso",
+					"description": "Doce. Mais doce. Querida. Seu povo vai adorar!"
+				}
+			}
+		},
+		"furniture": {
+			"fireplace_stone_large_ghost": {
+				"display_name": "Lareira de pedra",
+				"description": "Lareira rústica para sua casa."
+			},
+			"pantry_ghost": {
+				"display_name": "Despensa de madeira",
+				"description": "Um armazenamento vazio para novos itens."
+			},
+			"pantry_rayya_ghost": {
+				"display_name": "Despensa de Barro",
+				"description": "Um armazenamento vazio para novos itens."
+			},
+			"shelf_carpenter_ghost": {
+				"display_name": "Prateleira de madeira",
+				"description": "Talvez alguém precise de mais espaço de armazenamento…"
+			},
+			"shelf_rayya_ghost": {
+				"display_name": "Prateleira de Barro",
+				"description": "Talvez alguém precise de mais espaço de armazenamento…"
+			},
+			"shelf_cook_ghost": {
+				"display_name": "Prateleira de louça",
+				"description": "Prateleira para suas receitas e louças."
+			},
+			"shelf_herbalist_library_ghost": {
+				"display_name": "Estante de Poções",
+				"description": "Coleta todo o seu conhecimento de cura."
+			},
+			"table_ghost": {
+				"display_name": "Mesa de madeira",
+				"description": "Uma grande mesa de madeira para a sua Oficina."
+			},
+			"table_rayya_ghost": {
+				"display_name": "Mesa de Barro",
+				"description": "Uma grande mesa de barro para sua Oficina."
+			},
+			"table_herbalist_ghost": {
+				"display_name": "Mesa de Ervas",
+				"description": "Mais lugar para produzir itens de cura."
+			},
+			"tavern_table_large_ghost": {
+				"display_name": "Mesa de Taverna Grande",
+				"description": "Uma mesa para grandes reuniões."
+			},
+			"tavern_table_large_cloth_ghost": {
+				"display_name": "Mesa de Taverna Grande",
+				"description": "Uma grande mesa com uma toalha de mesa"
+			},
+			"tavern_table_large_fiber_ghost": {
+				"display_name": "Mesa de Taverna Grande",
+				"description": "Uma mesa grande com uma toalha de mesa de fibra"
+			},
+			"tavern_table_large_fur_ghost": {
+				"display_name": "Mesa de Taverna Grande",
+				"description": "Uma mesa grande com uma toalha de pele"
+			},
+			"tavern_table_small_cloth_ghost": {
+				"display_name": "Mesa de Taberna Pequena",
+				"description": "Uma pequena mesa com uma toalha de mesa."
+			},
+			"tavern_table_small_fiber_ghost": {
+				"display_name": "Mesa de Taberna Pequena",
+				"description": "Uma pequena mesa com uma toalha de fibra."
+			},
+			"tavern_table_small_fur_ghost": {
+				"display_name": "Mesa de Taberna Pequena",
+				"description": "Uma pequena mesa com uma toalha de pele."
+			}
+		},
+		"decoration": {
+			"books_ghost": {
+				"display_name": "Livros",
+				"description": "Decorativo e útil."
+			},
+			"bronze_wall_candle_ghost": {
+				"display_name": "Castiçal de Bronze",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"bronze_wall_double_candle_ghost": {
+				"display_name": "Castiçal Bronze-Gêmeos",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"clay_wall_candle_ghost": {
+				"display_name": "Castiçal de barro",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"clay_wall_double_candle_ghost": {
+				"display_name": "Castiçal Clay-Twins",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"corbel_cook_ghost": {
+				"display_name": "Corbel de especiarias",
+				"description": "A comida picante é mais deliciosa."
+			},
+			"corbel_herbalist_ghost": {
+				"display_name": "mísula de ervas",
+				"description": "Ideal para secar ervas coletadas."
+			},
+			"crockery_ghost": {
+				"display_name": "Louça",
+				"description": "Linda louça de porcelana."
+			},
+			"gold_wall_candle_ghost": {
+				"display_name": "Castiçal Dourado",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"gold_wall_double_candle_ghost": {
+				"display_name": "Suporte de vela Golden-Twins",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"iron_brazier_ghost": {
+				"display_name": "Braseiro de Ferro",
+				"description": "Traz luz às noites escuras."
+			},
+			"oil_lamp_height_rayya_ghost": {
+				"display_name": "Braseiro a óleo de altura",
+				"description": "Traz luz às noites escuras."
+			},
+			"oil_lamp_large_rayya_ghost": {
+				"display_name": "Grande braseiro a óleo",
+				"description": "Traz luz às noites escuras."
+			},
+			"sculpture_hamnisu_ghost": {
+				"display_name": "Monumento a Hamnisu",
+				"description": "Por sua ajuda na atualização 2.2"
+			},
+			"silver_wall_candle_ghost": {
+				"display_name": "Castiçal de Prata",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"silver_wall_double_candle_ghost": {
+				"display_name": "Castiçal Silver Twins",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"stone_wall_candle_ghost": {
+				"display_name": "Castiçal de pedra",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"stone_wall_double_candle_ghost": {
+				"display_name": "Castiçal Stone Twins",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"utensils_ghost": {
+				"display_name": "Utensílios de Bronze",
+				"description": "Utensílios úteis para sua oficina."
+			},
+			"utensils_holder_cook_ghost": {
+				"display_name": "Suporte de utensílios",
+				"description": "Seus utensílios, bem arrumados…"
+			},
+			"wash_barrel_ghost": {
+				"display_name": "Tambor de lavagem",
+				"description": "Deixe brilhar sua louça."
+			},
+			"wood_wall_candle_ghost": {
+				"display_name": "Castiçal de madeira",
+				"description": "Uma pequena fonte de luz decorativa."
+			},
+			"wood_wall_double_candle_ghost": {
+				"display_name": "Castiçal de Madeira-Gêmeos",
+				"description": "Uma pequena fonte de luz decorativa."
+			}
+		},
+		"plants": {
+			"grass_large_ghost": {
+				"display_name": "Grama",
+				"description": "Um grande tufo de grama."
+			},
+			"grass_medium_ghost": {
+				"display_name": "Grama",
+				"description": "Um tufo médio de grama."
+			},
+			"grass_small_ghost": {
+				"display_name": "Grama",
+				"description": "Um pequeno tufo de grama."
+			},
+			"planter-box_small_brightbell_ghost": {
+				"display_name": "Caixa Plantadora Brightbell",
+				"description": "Plante ervas em sua Oficina."
+			},
+			"planter-box_small_frostsnap_ghost": {
+				"display_name": "Caixa Plantadora Frostsnap",
+				"description": "Plante ervas em sua Oficina."
+			},
+			"planter-box_small_cactus_rayya_ghost": {
+				"display_name": "Caixa de plantador de flores de cacto",
+				"description": "Plante ervas em sua Oficina."
+			},
+			"planter-box_large_ghost": {
+				"display_name": "Caixa Grande Plantadora",
+				"description": "Aumentar a produção de ervas."
+			}
+		}
+	}
+}

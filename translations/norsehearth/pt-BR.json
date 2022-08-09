@@ -1,0 +1,589 @@
+{
+	"kingdom": {
+		"kingdom_name": "Norselings",
+		"quote": "Sombrio na batalha e alegre na celebração: todos os desafios são instruções do Pai de Todos.",
+		"long_description": "Os Norslingr do norte congelado são fortes, humildes e determinados, enfrentando cerveja e batalha com o mesmo entusiasmo imprudente",
+		"post_selection_description": ", uma sociedade de aventureiros robustos.",
+		"initial_town_name": "Caravana [str(town_number)]"
+	},
+	"entities": {
+		"construction": {
+			"palisade_wall": {
+				"palisade_wall_ghost": {
+					"display_name": "Faixa de acampamento",
+					"description": "Como você sabe que voltou para casa"
+				}
+			}
+		},
+		"monsters": {
+			"draugr": {
+				"draugr": {
+					"display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+					"description": "Barrow spawn"
+				},
+				"draugr_hut": {
+					"display_name": "Barraca de draugr",
+					"description": "Feito de tábuas de madeira picadas grosseiramente"
+				},
+				"draugr_large_totem": {
+					"display_name": "Totem grande"
+				},
+				"draugr_small_totem": {
+					"display_name": "totem pequeno"
+				},
+				"draugr_soldier": {
+					"display_name": "soldado draugr",
+					"description": "Engolir, engolir, engolir..."
+				},
+				"draugr_throne": {
+					"display_name": "draugr trono",
+					"description": "Feito de madeira, osso e ego"
+				}
+			}
+		},
+		"gizmos": {
+			"norseling_camp_standard": {
+				"norseling_camp_standard_ghost": {
+					"display_name": "Faixa de acampamento",
+					"description": "Como você sabe que voltou para casa"
+				}
+			}
+		},
+		"clothing": {
+			"fine_cloak": {
+				"display_name": "Um manto fino",
+				"description": "Um exemplo agradável da arte dos tecelões",
+				"fine_cloak_iconic": {
+					"display_name": "Um manto fino",
+					"description": "Um exemplo agradável da arte dos tecelões"
+				}
+			},
+			"basic_cloak": {
+				"display_name": "Um Manto Simples",
+				"description": "Uma cobertura funcional, nada mais",
+				"basic_cloak_iconic": {
+					"display_name": "Um Manto Simples",
+					"description": "Uma cobertura funcional, nada mais"
+				}
+			},
+			"stealthy_cloak": {
+				"display_name": "Um manto escuro",
+				"description": "Torne-se um com as sombras, quase",
+				"stealthy_cloak_iconic": {
+					"display_name": "Um manto escuro",
+					"description": "Torne-se um com as sombras, quase"
+				}
+			},
+			"tought_cloak": {
+				"display_name": "Um Manto de Viagem Robusto",
+				"description": "Como um segundo esconderijo",
+				"tought_cloak_iconic": {
+					"display_name": "Um Manto de Viagem Robusto",
+					"description": "Como um segundo esconderijo"
+				}
+			},
+			"warm_cloak": {
+				"display_name": "Um Manto Quente",
+				"description": "Aconchegante... ouso dizer aconchegante?",
+				"warm_cloak_iconic": {
+					"display_name": "Um Manto Quente",
+					"description": "Aconchegante... ouso dizer aconchegante?"
+				}
+			}
+		},
+		"armor": {
+			"basic_norseling_shield": {
+				"display_name": "Escudo Norueguês Básico",
+				"description": "Tabuleiro de batalha",
+				"flavor": "centavo de Odin",
+				"norseling_shield_iconic": {
+					"display_name": "Escudo Norueguês Básico",
+					"description": "A moeda de Odin."
+				}
+			},
+			"strong_norseling_shield": {
+				"display_name": "Escudo Norseling Forte",
+				"description": "Espada de controle",
+				"flavor": "Reforçado para levar uma surra",
+				"norseling_shield_iconic": {
+					"display_name": "Escudo Norseling Forte",
+					"description": "Reforçado para levar uma surra"
+				}
+			},
+			"fancy_norseling_shield": {
+				"display_name": "Escudo Norueguês Fantasia",
+				"description": "Tabuleiro de batalha",
+				"flavor": "Coberto de designs para inspirar e admirar",
+				"norseling_shield_iconic": {
+					"display_name": "Escudo Norueguês Fantasia",
+					"description": "Coberto de designs para inspirar e admirar"
+				}
+			},
+			"norseling_helmet": {
+				"display_name": "Capacete básico de norueguês",
+				"description": "Um chapéu de ferro",
+				"flavor": "turn-sword e head-house",
+				"norseling_helmet_iconic": {
+					"display_name": "Capacete básico de norueguês",
+					"description": "Um chapéu de ferro."
+				}
+			},
+			"fine_norseling_helmet": {
+				"display_name": "Capacete de nórdico fino",
+				"description": "Um chapéu de aço extravagante",
+				"flavor": "turn-sword e head-house",
+				"fine_norseling_helmet_iconic": {
+					"display_name": "Capacete básico de norueguês",
+					"description": "Um chapéu de ferro."
+				}
+			},
+			"full_norseling_helmet": {
+				"display_name": "Capacete completo norueguês",
+				"description": "A solução completa de proteção noggin",
+				"flavor": "Como usado por Harry Hard-head herói de hurdall",
+				"full_norseling_helmet_iconic": {
+					"display_name": "Capacete completo norueguês",
+					"description": "Como usado por Harry Hard-head herói de hurdall"
+				}
+			},
+			"leather_cap": {
+				"display_name": "Boné de couro",
+				"description": "Pode virar uma lâmina... talvez",
+				"flavor": "Deve ser usado em um ângulo libertino para um efeito ideal",
+				"leather_cap_iconic": {
+					"display_name": "Boné de couro",
+					"description": "Completa bem uma roupa de couro"
+				}
+			},
+			"barrow_shield": {
+				"display_name": "Escudo de Barrow",
+				"description": "Uma relíquia quebrada de uma era passada",
+				"barrow_shield_iconic": {
+					"display_name": "Escudo de Barrow",
+					"description": "Um abrigo de espadas maltratado"
+				}
+			}
+		},
+		"decoration": {
+			"norseling_wall_shield": {
+				"display_name": "Escudo para pendurar na parede",
+				"description": "Battle-board e check-sword",
+				"flavor": "centavo de Odin",
+				"norseling_wall_shield_iconic": {
+					"display_name": "Escudo Norueguês Básico",
+					"description": "A moeda de Odin."
+				},
+				"norseling_wall_shield_ghost": {
+					"display_name": "Empunhadura de Muralha Nórdica",
+					"description": "Aqueça a sala com memórias de glórias passadas."
+				}
+			},
+			"small_runestone": {
+				"display_name": "Pedra rúnica pequena",
+				"description": "Feitos heróicos esculpidos em pedra",
+				"small_runestone_iconic": {
+					"display_name": "Pedra Rúnica Pequena",
+					"description": "Feitos heróicos esculpidos em pedra"
+				},
+				"small_runestone_ghost": {
+					"display_name": "Pedra rúnica pequena",
+					"description": "Feitos heróicos esculpidos em pedra"
+				}
+			},
+			"roasting_pit": {
+				"display_name": "Fossa para assar",
+				"description": "presente de Muspelheim",
+				"roasting_pit_iconic": {
+					"display_name": "Assadeira",
+					"description": "presente de Muspelheim"
+				},
+				"roasting_pit_ghost": {
+					"display_name": "Assadeira",
+					"description": "presente de Muspelheim"
+				}
+			},
+			"large_runestone": {
+				"display_name": "Pedra rúnica grande",
+				"description": "Memórias desaparecendo em pedra",
+				"large_runestone_iconic": {
+					"display_name": "Pedra rúnica grande",
+					"description": "Memórias desaparecendo em pedra"
+				},
+				"large_runestone_ghost": {
+					"display_name": "Pedra rúnica grande",
+					"description": "Memórias desaparecendo em pedra"
+				}
+			}
+		},
+		"weapons": {
+			"basic_norseling_sword": {
+				"display_name": "Espada Norueguesa Básica",
+				"description": "A chave para Valhalla!",
+				"flavor": "A chave para Valhalla.",
+				"basic_norseling_sword_iconic": {
+					"display_name": "Espada Norueguesa Básica",
+					"description": "Lascado e gasto, mas eficaz."
+				}
+			},
+			"fine_norseling_sword": {
+				"display_name": "Espada Norueguesa Fina",
+				"description": "Uma lâmina digna de um jarl.",
+				"flavor": "Grandes espadas têm grandes nomes, nomeie a sua hoje!",
+				"fine_norseling_sword_iconic": {
+					"display_name": "Espada Norueguesa",
+					"description": "pontiagudo. Brilhante."
+				}
+			},
+			"hunting_spear": {
+				"display_name": "Lança de caça",
+				"description": "Promove um coração para Spearman",
+				"flavor": "Bengala e arma.",
+				"hunting_spear_iconic": {
+					"display_name": "Lança de caça",
+					"description": "Promove um coração para Spearman"
+				}
+			},
+			"barrow_sword": {
+				"display_name": "Espada Barrow",
+				"description": "Uma relíquia quebrada de uma era passada",
+				"barrow_sword_iconic": {
+					"display_name": "Espada Barrow",
+					"description": "pontiagudo. Brilhante."
+				}
+			}
+		},
+		"trees": {
+			"dark_pine": {
+				"small_dark_pine_tree": {
+					"display_name": "Pinheiro Pequeno",
+					"description": "Agora isso não vai desafiar Yggdrasil tão cedo.."
+				},
+				"medium_dark_pine_tree": {
+					"display_name": "Pinheiro Médio",
+					"description": "..É um pinheiro."
+				},
+				"large_dark_pine_tree": {
+					"display_name": "Pinheiro Grande",
+					"description": "Um pinheiro bem grande, eu diria."
+				},
+				"ancient_dark_pine_tree": {
+					"display_name": "Pinheiro antigo",
+					"description": "Este pinheiro parece antigo.. é um esquilo em seus galhos!"
+				}
+			}
+		},
+		"terrain": {
+			"cloud_maker": {
+				"display_name": "Rocha maçante",
+				"description": "Apenas uma pedra, nada para ver aqui!... Siga em frente!"
+			}
+		}
+	},
+	"jobs": {
+		"carpenter": {
+			"recipes": {
+				"basic_norseling_sword_recipe": {
+					"description": "Promove um Lanceiro a Guerreiro",
+					"recipe_name": "Espada Norueguesa Básica",
+					"flavor": "A chave para Valhalla."
+				},
+				"fine_norseling_sword_recipe": {
+					"description": "Uma espada digna de um Jarl",
+					"recipe_name": "Espada Norueguesa Fina",
+					"flavor": "Grandes espadas têm grandes nomes, nomeie a sua hoje!"
+				},
+				"basic_norseling_shield_recipe": {
+					"description": "Tabuleiro de batalha",
+					"recipe_name": "Escudo Norueguês Básico",
+					"flavor": "A vergonha das espadas e preservadora da fortuna!"
+				},
+				"strong_norseling_shield_recipe": {
+					"description": "Espada de controle",
+					"recipe_name": "Escudo Norseling Forte",
+					"flavor": "Reforçado para levar uma surra"
+				},
+				"fancy_norseling_shield_recipe": {
+					"description": "Battle-board e check-sword",
+					"recipe_name": "Escudo Norueguês Fantasia",
+					"flavor": "Coberto de designs para inspirar e admirar"
+				},
+				"norseling_wall_shield_recipe": {
+					"description": "A vergonha das espadas e preservadora da fortuna!",
+					"recipe_name": "Escudo para pendurar na parede",
+					"flavor": "Um marshall pendurado na parede. Para inspirar coragem imprudente."
+				},
+				"palisade_wall_recipe": {
+					"description": "Logs robustos proporcionam tranquilidade.",
+					"recipe_name": "Muro da Paliçada",
+					"flavor": "Um baluarte firme contra qualquer ataque."
+				},
+				"hunting_spear_recipe": {
+					"description": "Promove um coração para Spearman",
+					"recipe_name": "Lança de caça",
+					"flavor": "Bengala e arma."
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"norseling_helmet": {
+					"display_name": "Capacete básico de norueguês",
+					"description": "Um chapéu de ferro",
+					"flavor": "turn-sword e head-house",
+					"norseling_helmet_iconic": {
+						"display_name": "Capacete básico de norueguês",
+						"description": "Um chapéu de ferro."
+					}
+				},
+				"fine_norseling_helmet": {
+					"display_name": "Capacete de nórdico fino",
+					"description": "Um chapéu de aço extravagante",
+					"flavor": "turn-sword e head-house",
+					"fine_norseling_helmet_iconic": {
+						"display_name": "Capacete básico de norueguês",
+						"description": "Um chapéu de ferro."
+					}
+				},
+				"full_norseling_helmet": {
+					"display_name": "Capacete completo norueguês",
+					"description": "A solução completa de proteção noggin",
+					"flavor": "Como usado por Harry Hard-head herói de hurdall",
+					"full_norseling_helmet_iconic": {
+						"display_name": "Capacete completo norueguês",
+						"description": "Como usado por Harry Hard-head herói de hurdall"
+					}
+				}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"leather_cap_recipe": {
+					"description": "Um boné de couro atraente",
+					"recipe_name": "Boné de couro",
+					"flavor": "Completa bem uma roupa de couro"
+				}
+			}
+		},
+		"spearman": {
+			"spearman_description": {
+				"display_name": "Lanceiro",
+				"description": "O lanceiro é um lutador corpo a corpo. Uma boa escolha para a espinha dorsal da defesa da sua cidade.",
+				"requirements": "Feito por Carpinteiro",
+				"level_4_data": {
+					"perk_000_name": "Dano acima de 40%",
+					"perk_000_description": "O lanceiro agora é treinado para otimizar o efeito de cada golpe."
+				},
+				"level_1_data": {
+					"perk_000_name": "Aumento de dano de 20%",
+					"perk_000_description": "O lanceiro sabe que todos os combates podem ter consequências mortais e ataca com determinação renovada."
+				},
+				"level_3_data": {
+					"perk_000_name": "Pico de energia",
+					"perk_000_description": "Este poderoso golpe aéreo causa o dobro de dano."
+				},
+				"level_6_data": {
+					"perk_000_name": "Dano acima de 60%",
+					"perk_000_description": "Dano máximo!"
+				},
+				"level_2_data": {
+					"perk_000_name": "Primeiro Socorrista",
+					"perk_000_description": "O lanceiro avança para a batalha com velocidade"
+				},
+				"level_5_data": {
+					"perk_000_name": "Fenda",
+					"perk_000_description": "Um golpe cortante que causa dano a até 4 inimigos ao redor do alvo do lanceiro"
+				}
+			},
+			"spearman_buffs": {
+				"damage_1_buff": {
+					"description": "No Nível 1, o lanceiro ataca com maior ferocidade",
+					"display_name": "Dano +20%"
+				},
+				"damage_2_buff": {
+					"description": "O lanceiro ataca com maior ferocidade",
+					"display_name": "Dano +40%"
+				},
+				"damage_3_buff": {
+					"description": "No nível 6, os ataques do lanceiro são imparáveis!",
+					"display_name": "Dano +60%"
+				},
+				"speed_buff": {
+					"display_name": "Primeiro Socorrista",
+					"description": "O lanceiro se move mais rápido"
+				}
+			},
+			"spearman_outfit": {
+				"display_name": "Uniforme militar",
+				"description": "Equipamento de edição padrão para todos os soldados"
+			}
+		},
+		"warrior": {
+			"warrior_outfit": {
+				"display_name": "armadura do guerreiro",
+				"description": "Armadura de metal usada por um guerreiro"
+			},
+			"warrior_description": {
+				"display_name": "guerreiro",
+				"description": "Um combatente defensivo focado em proteger aliados de danos.",
+				"requirements": "Feito por ferreiro",
+				"level_1_data": {
+					"perk_000_name": "Fortalecer",
+					"perk_001_name": "Nível 1 de Redução de Dano",
+					"perk_000_description": "Aumenta Stamina, Courage e chama a atenção de monstros",
+					"perk_001_description": "O guerreiro ganha uma defesa adicional de 10% do equipamento"
+				},
+				"level_4_data": {
+					"perk_000_name": "Nível 2 de Redução de Dano",
+					"perk_000_description": "O guerreiro ganha 20% de armadura adicional do equipamento"
+				},
+				"level_3_data": {
+					"perk_000_name": "Fortificar (Nível 2)",
+					"perk_000_description": "Vigor e Coragem aumentaram muito"
+				},
+				"level_5_data": {
+					"perk_000_name": "Presença inspiradora",
+					"perk_000_description": "O guerreiro aumenta a coragem de todos ao seu redor"
+				},
+				"level_2_data": {
+					"perk_000_name": "Gritar",
+					"perk_000_description": "O guerreiro intimida o oponente, chamando a atenção dos inimigos próximos."
+				},
+				"level_6_data": {
+					"perk_000_name": "Chifre do Herói",
+					"perk_000_description": "O guerreiro soa uma buzina de combate, chamando a atenção dos inimigos próximos e distantes"
+				}
+			},
+			"warrior_buffs": {
+				"defense_1_buff": {
+					"display_name": "Defesa em 10%",
+					"description": "Defesa ganha de equipamento aumentada em 10%"
+				},
+				"defense_2_buff": {
+					"display_name": "Defesa em 20%",
+					"description": "Defesa ganha de equipamento aumentada em 20%"
+				},
+				"health_1_buff": {
+					"display_name": "Fortalecer",
+					"description": "O guerreiro se torna mais ameaçador para os inimigos, chamando sua atenção em combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
+				},
+				"health_2_buff": {
+					"display_name": "Fortificar (Nível 2)",
+					"description": "Mais rápido, mais furioso"
+				},
+				"courage_aura_buff": {
+					"display_name": "Presença inspiradora",
+					"description": "O guerreiro aumenta a coragem de todos ao seu redor"
+				},
+				"courage_aura_effect_buff": {
+					"display_name": "Inspirado",
+					"description": "A coragem aumentou com a presença de um guerreiro."
+				}
+			},
+			"warrior_helm": {
+				"display_name": "elmo do guerreiro",
+				"description": "Emissão padrão de capacete de ferro para todos os guerreiros"
+			}
+		},
+		"huscarl": {
+			"huscarl_outfit": {
+				"display_name": "armadura de huscarl",
+				"description": "Armadura de metal usada por um huscarl"
+			},
+			"huscarl_description": {
+				"display_name": "huscarl",
+				"description": "Um combatente defensivo focado em proteger aliados de danos.",
+				"requirements": "Feito por ferreiro",
+				"level_1_data": {
+					"perk_000_name": "Fortalecer",
+					"perk_001_name": "Nível 1 de Redução de Dano",
+					"perk_000_description": "Aumenta Stamina, Courage e chama a atenção de monstros",
+					"perk_001_description": "O huscarl ganha uma defesa adicional de 10% do equipamento"
+				},
+				"level_4_data": {
+					"perk_000_name": "Nível 2 de Redução de Dano",
+					"perk_000_description": "O huscarl ganha 20% de armadura adicional do equipamento"
+				},
+				"level_3_data": {
+					"perk_000_name": "Fortificar (Nível 2)",
+					"perk_000_description": "Vigor e Coragem aumentaram muito"
+				},
+				"level_5_data": {
+					"perk_000_name": "Presença inspiradora",
+					"perk_000_description": "O huscarl aumenta a coragem de todos ao seu redor"
+				},
+				"level_2_data": {
+					"perk_000_name": "Gritar",
+					"perk_000_description": "O huscarl intimida o oponente, chamando a atenção dos inimigos próximos."
+				},
+				"level_6_data": {
+					"perk_000_name": "Chifre do Herói",
+					"perk_000_description": "O huscarl soa uma buzina de combate, chamando a atenção dos inimigos próximos e distantes"
+				}
+			},
+			"huscarl_buffs": {
+				"defense_1_buff": {
+					"display_name": "Defesa em 10%",
+					"description": "Defesa ganha de equipamento aumentada em 10%"
+				},
+				"defense_2_buff": {
+					"display_name": "Defesa em 20%",
+					"description": "Defesa ganha de equipamento aumentada em 20%"
+				},
+				"health_1_buff": {
+					"display_name": "Fortalecer",
+					"description": "O huscarl torna-se mais ameaçador para os inimigos, chamando sua atenção em combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
+				},
+				"health_2_buff": {
+					"display_name": "Fortificar (Nível 2)",
+					"description": "Mais rápido, mais furioso"
+				},
+				"courage_aura_buff": {
+					"display_name": "Presença inspiradora",
+					"description": "O huscarl aumenta a coragem de todos ao redor"
+				},
+				"courage_aura_effect_buff": {
+					"display_name": "Inspirado",
+					"description": "A coragem aumentou com a presença de um huscarl."
+				}
+			},
+			"huscarl_helm": {
+				"display_name": "Elmo de Huscarl",
+				"description": "Emissão padrão do arnês de ferro para todos os huscarls"
+			}
+		}
+	},
+	"data": {
+		"norseling_population": {
+			"display_name": "Norselings"
+		},
+		"biome": {
+			"norsehearth": {
+				"display_name": "Taiga",
+				"description": "A névoa envolvia a floresta do norte.",
+				"random_location_names": {
+					"000": "Myrkmunr",
+					"001": "Hrimvang",
+					"002": "Vanlaus"
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"Norselings": {
+						"display_name": "Norselings",
+						"categories": {
+							"outpost": "Modelos de posto avançado",
+							"settlement": "Modelos de liquidação"
+						}
+					}
+				}
+			},
+			"building_templates": {
+				"small_norse_nut": {
+					"display_name": "Pequena cabana nórdica"
+				}
+			}
+		}
+	}
+}

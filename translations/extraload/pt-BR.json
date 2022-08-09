@@ -1,0 +1,53 @@
+{
+	"data": {
+		"loadouts": {
+			"load_shep": {
+				"display_name": "Companheiro animal",
+				"description": "Quem precisa de comida, quando você tem poyos? Este carregamento adiciona tudo o que você precisa para começar a criar animais. Alerta as pessoas comida não incluída.",
+				"tooltip": "Pastor, caçador e ração animal, tudo em um",
+				"animalfood": "Poyos",
+				"animalfood2": "Coelhos",
+				"animalfood3": "Ovelha"
+			},
+			"load_dwarf": {
+				"display_name": "Metalúrgicos",
+				"description": "Uma vez que você começa a cavar, por que olhar para cima novamente. A terra fornece tudo que você precisa para ficar forte e permanecer forte, exceto nutrientes e calor, basicamente você fica forte, mas pode morrer no processo",
+				"tooltip": "Para os futuros cavaleiros e lacaios",
+				"ore": "Cobre",
+				"ore2": "Lata",
+				"ore3": "Ferro"
+			},
+			"load_cleric": {
+				"display_name": "Prevenir e proteger",
+				"description": "Se você espera companhia, prepare-se ou limpe depois. Isso é ainda mais verdadeiro se você espera goblins. Esses itens são para aqueles que preferem o último, uma vez que a luta comece, cure e restaure todos e tudo.",
+				"tooltip": "Todas as coisas que são saudáveis, são amargas no final",
+				"herb": "Brightbell",
+				"herb2": "Flores",
+				"herb3": "Frostsnaps",
+				"herb4": "cactos"
+			},
+			"load_build": {
+				"display_name": "Caixa de ferramentas do arquiteto",
+				"description": "Quando você quiser construir maravilhas, precisará de ferramentas maravilhosas. Este loadout oferece tudo o que você precisa para construir a cidade que você sempre quis, independente do reino inicial.",
+				"tooltip": "Torne-se o mestre da rocha, madeira e argila",
+				"mat1": "Histórico",
+				"mat2": "Pedra",
+				"mat3": "Argila"
+			},
+			"load_des": {
+				"display_name": "Necessidades nômades",
+				"description": "Ferramentas requerem madeira, desertos não têm madeira, então para sobreviver traga suas próprias ferramentas. Este carregamento fornece as ferramentas necessárias para navegar no deserto e se defender desses goblins traquinas.",
+				"tooltip": "O melhor loadout se você gosta de torta ou outras sobremesas",
+				"shield": "Escudos"
+			},
+			"load_weaver": {
+				"display_name": "Boas vindas calorosas",
+				"description": "O que é melhor do que usar uma roupa bem tricotada? Forneça ao seu tecelão todos os recursos e plantas que ele poderia usar para começar a fazer roupas e tapetes.",
+				"tooltip": "Camisolas quentes para todos",
+				"seeds": "Seda",
+				"fibre": "Lã",
+				"pelts": "Peles"
+			}
+		}
+	}
+}

@@ -1,0 +1,587 @@
+{
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"asc_blue_archer": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura azul feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_green_archer": {
+					"display_name": "Prefira Armadura Verde",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura verde feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_purple_archer": {
+					"display_name": "Prefira Armadura Roxa",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura roxa feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_red_archer": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura vermelha feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_teal_archer": {
+					"display_name": "Prefira Armadura Teal",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura verde-azulada feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_yellow_archer": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura amarela feita pela Ascendência. Clique para mudar!"
+				},
+				"na_blue_archer": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura azul feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"na_yellow_archer": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura amarela feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_black_archer": {
+					"display_name": "Prefira Armadura Negra",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura preta feita pelos Filhos de Rayya. Clique para mudar!"
+				},
+				"rc_red_archer": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Arqueiro atualmente prefere usar uma armadura vermelha feita pelos Filhos de Rayya. Clique para mudar!"
+				},
+				"asc_blue_cleric": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este clérigo atualmente prefere usar armadura azul feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_green_cleric": {
+					"display_name": "Prefira Armadura Verde",
+					"description": "Este clérigo atualmente prefere usar uma armadura verde feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_purple_cleric": {
+					"display_name": "Prefira Armadura Roxa",
+					"description": "Este clérigo atualmente prefere usar armadura roxa feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_red_cleric": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este clérigo atualmente prefere usar uma armadura vermelha feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_teal_cleric": {
+					"display_name": "Prefira Armadura Teal",
+					"description": "Este clérigo atualmente prefere usar uma armadura verde-azulada feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_yellow_cleric": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este clérigo atualmente prefere usar uma armadura amarela feita pela Ascendência. Clique para mudar!"
+				},
+				"na_blue_cleric": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este clérigo atualmente prefere usar uma armadura azul feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"na_yellow_cleric": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este clérigo atualmente prefere usar uma armadura amarela feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_black_cleric": {
+					"display_name": "Prefira Armadura Negra",
+					"description": "Este Clérigo atualmente prefere usar uma armadura preta feita pelos Filhos de Rayya. Clique para mudar!"
+				},
+				"rc_red_cleric": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Clérigo atualmente prefere usar uma armadura vermelha feita pelos Filhos de Rayya. Clique para mudar!"
+				},
+				"asc_blue_footman": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este Footman atualmente prefere usar armadura azul feita pela Ascendancy. Clique para mudar!"
+				},
+				"asc_green_footman": {
+					"display_name": "Prefira Armadura Verde",
+					"description": "Este Footman atualmente prefere usar armadura verde feita pela Ascendancy. Clique para mudar!"
+				},
+				"asc_purple_footman": {
+					"display_name": "Prefira Armadura Roxa",
+					"description": "Este Footman atualmente prefere usar armadura roxa feita pela Ascendancy. Clique para mudar!"
+				},
+				"asc_red_footman": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Footman atualmente prefere usar uma armadura vermelha feita pela Ascendancy. Clique para mudar!"
+				},
+				"asc_teal_footman": {
+					"display_name": "Prefira Armadura Teal",
+					"description": "Este Lacaio atualmente prefere usar uma armadura verde-azulada feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_yellow_footman": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este Footman atualmente prefere usar armadura amarela feita pela Ascendancy. Clique para mudar!"
+				},
+				"na_blue_footman": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este Footman atualmente prefere usar armadura azul feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"na_yellow_footman": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este Footman atualmente prefere usar armadura amarela feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_black_footman": {
+					"display_name": "Prefira Armadura Negra",
+					"description": "Este Footman atualmente prefere usar armadura preta feita por Rayya's Children. Clique para mudar!"
+				},
+				"rc_red_footman": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Footman atualmente prefere usar armadura vermelha feita por Rayya's Children. Clique para mudar!"
+				},
+				"asc_blue_knight": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura azul feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_green_knight": {
+					"display_name": "Prefira Armadura Verde",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura verde feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_purple_knight": {
+					"display_name": "Prefira Armadura Roxa",
+					"description": "Este Cavaleiro atualmente prefere usar armadura roxa feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_red_knight": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura vermelha feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_teal_knight": {
+					"display_name": "Prefira Armadura Teal",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura verde-azulada feita pela Ascendência. Clique para mudar!"
+				},
+				"asc_yellow_knight": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura amarela feita pela Ascendência. Clique para mudar!"
+				},
+				"na_blue_knight": {
+					"display_name": "Prefira Armadura Azul",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura azul feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"na_yellow_knight": {
+					"display_name": "Prefira Armadura Amarela",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura amarela feita pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_black_knight": {
+					"display_name": "Prefira Armadura Negra",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura preta feita pelos Filhos de Rayya. Clique para mudar!"
+				},
+				"rc_red_knight": {
+					"display_name": "Prefira Armadura Vermelha",
+					"description": "Este Cavaleiro atualmente prefere usar uma armadura vermelha feita pelos Filhos de Rayya. Clique para mudar!"
+				}
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"green_cloth_padded_vest": {
+				"display_name": "Colete Verde Acolchoado"
+			},
+			"green_cloth_padded_helmet": {
+				"display_name": "Capacete acolchoado verde"
+			},
+			"green_leather_vest": {
+				"display_name": "Colete de couro grosso verde"
+			},
+			"green_leather_helmet": {
+				"display_name": "Boné de caveira de couro verde"
+			},
+			"green_bronze_breastplate": {
+				"display_name": "Peitoral de Bronze Verde"
+			},
+			"green_bronze_helm": {
+				"display_name": "Elmo de Bronze Verde"
+			},
+			"green_iron_mail": {
+				"display_name": "Correio Ferro Verde"
+			},
+			"green_iron_helm": {
+				"display_name": "Elmo de Ferro Verde"
+			},
+			"green_iron_platemail": {
+				"display_name": "Cota de ferro verde"
+			},
+			"green_iron_helmet": {
+				"display_name": "Capacete de Ferro Verde"
+			},
+			"green_steel_chainmail": {
+				"display_name": "Cota de Aço Verde"
+			},
+			"green_steel_mail": {
+				"display_name": "Platô Verde Completo"
+			},
+			"green_steel_helmet": {
+				"display_name": "Elmo Placa Verde"
+			},
+			"green_silver_mail": {
+				"display_name": "Correio Prata Verde"
+			},
+			"green_silver_helmet": {
+				"display_name": "Capacete de Prata Verde"
+			},
+			"purple_cloth_padded_vest": {
+				"display_name": "Colete Roxo Acolchoado"
+			},
+			"purple_cloth_padded_helmet": {
+				"display_name": "Capacete acolchoado roxo"
+			},
+			"purple_leather_vest": {
+				"display_name": "Colete Roxo de Couro Grosso"
+			},
+			"purple_leather_helmet": {
+				"display_name": "Boné de caveira de couro roxo"
+			},
+			"purple_bronze_breastplate": {
+				"display_name": "Peitoral de Bronze Roxo"
+			},
+			"purple_bronze_helm": {
+				"display_name": "Elmo de Bronze Roxo"
+			},
+			"purple_iron_mail": {
+				"display_name": "Correio de Ferro Roxo"
+			},
+			"purple_iron_helm": {
+				"display_name": "Elmo de Ferro Roxo"
+			},
+			"purple_iron_platemail": {
+				"display_name": "Cota de Ferro Roxo"
+			},
+			"purple_iron_helmet": {
+				"display_name": "Capacete de Ferro Roxo"
+			},
+			"purple_steel_chainmail": {
+				"display_name": "Cota de Aço Roxo"
+			},
+			"purple_steel_mail": {
+				"display_name": "Cota de Prata Completa Roxa"
+			},
+			"purple_steel_helmet": {
+				"display_name": "Elmo de Placa Roxa"
+			},
+			"purple_silver_mail": {
+				"display_name": "Correio Prata Roxo"
+			},
+			"purple_silver_helmet": {
+				"display_name": "Capacete de Prata Roxo"
+			},
+			"red_cloth_padded_vest": {
+				"display_name": "Colete acolchoado vermelho"
+			},
+			"red_cloth_padded_helmet": {
+				"display_name": "Capacete acolchoado vermelho"
+			},
+			"red_leather_vest": {
+				"display_name": "Colete de couro vermelho grosso"
+			},
+			"red_leather_helmet": {
+				"display_name": "Boné de caveira de couro vermelho"
+			},
+			"red_bronze_breastplate": {
+				"display_name": "Peitoral de Bronze Vermelho"
+			},
+			"red_bronze_helm": {
+				"display_name": "Elmo de Bronze Vermelho"
+			},
+			"red_iron_mail": {
+				"display_name": "Correio Ferro Vermelho"
+			},
+			"red_iron_helm": {
+				"display_name": "Elmo de Ferro Vermelho"
+			},
+			"blue_iron_platemail": {
+				"display_name": "Cota de chapa de ferro azul"
+			},
+			"blue_iron_helmet": {
+				"display_name": "Capacete de Ferro Azul"
+			},
+			"red_steel_chainmail": {
+				"display_name": "Cota de Aço Vermelho"
+			},
+			"blue_steel_mail": {
+				"display_name": "Platô Azul Completo"
+			},
+			"blue_steel_helmet": {
+				"display_name": "Elmo Placa Azul"
+			},
+			"blue_silver_mail": {
+				"display_name": "Correio Azul Prata"
+			},
+			"blue_silver_helmet": {
+				"display_name": "Capacete Azul Prata"
+			},
+			"na_horned_bronze_helm": {
+				"display_name": "Elmo Norte de Bronze com Chifres"
+			},
+			"na_horned_iron_helm": {
+				"display_name": "Elmo Norte de Ferro Chifrudo"
+			},
+			"na_horned_steel_helm": {
+				"display_name": "Elmo Norte de Aço com Chifres"
+			},
+			"leather_archer_vest": {
+				"display_name": "Colete de couro de arqueiro",
+				"description": "Acolchoamento extra para maior capacidade de sobrevivência."
+			},
+			"leather_archer_hood": {
+				"display_name": "Capuz de couro de arqueiro",
+				"description": "Dois capacetes é melhor que um!"
+			},
+			"rc_leather_archer_vest": {
+				"display_name": "Colete Arqueiro do Deserto"
+			},
+			"rc_leather_archer_hood": {
+				"display_name": "Chapéu do Deserto Arqueiro"
+			},
+			"na_leather_archer_vest": {
+				"display_name": "Colete de Esconderijo de Arqueiro"
+			},
+			"na_leather_archer_hood": {
+				"display_name": "Chapéu de couro de arqueiro"
+			},
+			"varanus_archer_vest": {
+				"display_name": "Colete de Pele Arqueiro Varanus",
+				"description": "Para o grande caçador."
+			},
+			"varanus_archer_hood": {
+				"display_name": "Capuz de Pele de Arqueiro Varanus",
+				"description": "99% garantido para assustar hearthlings não corajosos."
+			},
+			"zilla_archer_vest": {
+				"display_name": "Colete de Pele Arqueira Zilla",
+				"description": "A armadura mais premiada para caçadores de caça grossa."
+			},
+			"zilla_archer_hood": {
+				"display_name": "Capuz de Pele de Arqueiro Zilla",
+				"description": "Certamente causará medo em seus inimigos."
+			},
+			"rc_black_cloth_padded_vest": {
+				"display_name": "Colete de deserto acolchoado preto"
+			},
+			"rc_black_cloth_padded_helmet": {
+				"display_name": "Boné de deserto acolchoado preto"
+			},
+			"rc_black_leather_archer_vest": {
+				"display_name": "Colete do Deserto do Arqueiro Negro"
+			},
+			"rc_black_leather_archer_hood": {
+				"display_name": "Boné do Deserto Arqueiro Preto"
+			},
+			"rc_black_leather_vest": {
+				"display_name": "Colete de deserto de couro preto"
+			},
+			"rc_black_leather_helmet": {
+				"display_name": "Boné de couro preto para deserto"
+			},
+			"rc_black_bronze_breastplate": {
+				"display_name": "Armadura Lamelar de Bronze Negro"
+			},
+			"rc_black_bronze_cleric_breastplate": {
+				"display_name": "Armadura Lamelar do Clérigo de Bronze Negro"
+			},
+			"rc_black_bronze_helm": {
+				"display_name": "Elmo do Deserto de Bronze Negro"
+			},
+			"rc_black_bronze_circlet": {
+				"display_name": "Cocar Deserto Bronze Preto"
+			},
+			"rc_black_iron_cleric_mail": {
+				"display_name": "Armadura Lamelar do Clérigo de Ferro Negro"
+			},
+			"rc_black_iron_mail": {
+				"display_name": "Armadura Lamelar de Ferro Negro"
+			},
+			"rc_black_iron_helm": {
+				"display_name": "Elmo do Deserto de Ferro Negro"
+			},
+			"rc_black_iron_circlet": {
+				"display_name": "cocar deserto de ferro preto"
+			},
+			"rc_black_iron_platemail": {
+				"display_name": "Couraça Dourada de Ferro Negro"
+			},
+			"rc_black_iron_helmet": {
+				"display_name": "Capacete do deserto de ferro preto"
+			},
+			"rc_black_steel_chainmail": {
+				"display_name": "Armadura Lamelar de Aço Preto"
+			},
+			"rc_black_steel_cleric_chainmail": {
+				"display_name": "Armadura Lamelar do Clérigo de Aço Preto"
+			},
+			"rc_black_steel_helm": {
+				"display_name": "Elmo do Deserto de Aço Preto"
+			},
+			"rc_black_steel_circlet": {
+				"display_name": "Cocar Deserto de Aço Preto"
+			},
+			"rc_black_steel_mail": {
+				"display_name": "Couraça Dourada de Aço Preto"
+			},
+			"rc_black_steel_helmet": {
+				"display_name": "Capacete do deserto de aço preto"
+			},
+			"rc_black_silver_mail": {
+				"display_name": "Couraça Dourada Prata Preta"
+			},
+			"rc_black_silver_helmet": {
+				"display_name": "Capacete do deserto prateado preto"
+			},
+			"na_blue_cloth_padded_vest": {
+				"display_name": "Gambeson acolchoado azul"
+			},
+			"na_blue_cloth_padded_helmet": {
+				"display_name": "Boné Norte Acolchoado Azul"
+			},
+			"na_blue_leather_archer_vest": {
+				"display_name": "Colete de couro de arqueiro azul"
+			},
+			"na_blue_leather_vest": {
+				"display_name": "Colete de couro azul"
+			},
+			"na_blue_bronze_breastplate": {
+				"display_name": "Costela de Bronze Azul"
+			},
+			"na_blue_bronze_cleric_breastplate": {
+				"display_name": "Hauberk de clérigo de bronze azul"
+			},
+			"na_blue_iron_cleric_mail": {
+				"display_name": "Costela de clérigo de ferro azul"
+			},
+			"na_blue_iron_mail": {
+				"display_name": "Cota Azul de Ferro"
+			},
+			"na_blue_iron_platemail": {
+				"display_name": "Brigandine Azul Ferro"
+			},
+			"na_blue_iron_helmet": {
+				"display_name": "Capacete Norte de Ferro Azul"
+			},
+			"na_blue_steel_mail": {
+				"display_name": "brigadeiro de aço azul"
+			},
+			"na_blue_steel_helmet": {
+				"display_name": "Capacete Norte de Aço Azul"
+			},
+			"na_blue_steel_chainmail": {
+				"display_name": "Costela de Aço Azul"
+			},
+			"na_blue_steel_cleric_chainmail": {
+				"display_name": "Cota de clérigo de aço azul"
+			},
+			"na_blue_silver_mail": {
+				"display_name": "Brigandine Azul Prata"
+			},
+			"na_blue_silver_helmet": {
+				"display_name": "Capacete Norte Azul Prata"
+			},
+			"blue_leather_archer_vest": {
+				"display_name": "Colete de Couro Arqueiro Azul"
+			},
+			"blue_leather_archer_hood": {
+				"display_name": "Capuz de Couro Arqueiro Azul"
+			},
+			"green_leather_archer_vest": {
+				"display_name": "Colete de Couro Arqueiro Verde"
+			},
+			"green_leather_archer_hood": {
+				"display_name": "Capuz de Couro Arqueiro Verde"
+			},
+			"purple_leather_archer_vest": {
+				"display_name": "Colete de Couro Arqueiro Roxo"
+			},
+			"purple_leather_archer_hood": {
+				"display_name": "Capuz de Couro Arqueiro Roxo"
+			},
+			"red_leather_archer_vest": {
+				"display_name": "Colete de Couro Arqueiro Vermelho"
+			},
+			"red_leather_archer_hood": {
+				"display_name": "Capuz de Couro Arqueiro Vermelho"
+			},
+			"bronze_cleric_breastplate": {
+				"display_name": "Peitoral de Bronze do Clérigo",
+				"description": "Proteção menor para intervenção divina."
+			},
+			"iron_cleric_mail": {
+				"display_name": "Correio de Ferro Clérigo",
+				"description": "Proteção decente para a intervenção divina."
+			},
+			"steel_cleric_chainmail": {
+				"display_name": "Cota de Aço do Clérigo",
+				"description": "Proteção superior para intervenção divina."
+			},
+			"rc_bronze_cleric_breastplate": {
+				"display_name": "Armadura Lamelar de Bronze do Clérigo"
+			},
+			"rc_iron_cleric_mail": {
+				"display_name": "Armadura Lamelar de Ferro Clérigo"
+			},
+			"rc_steel_cleric_chainmail": {
+				"display_name": "Armadura Lamelar de Aço Clérigo"
+			},
+			"na_bronze_cleric_breastplate": {
+				"display_name": "Cota de Bronze do Clérigo"
+			},
+			"na_iron_cleric_mail": {
+				"display_name": "Cota de Ferro Clérigo"
+			},
+			"na_steel_cleric_chainmail": {
+				"display_name": "Cota de Aço Clérigo"
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"blue_weapons_name": "Equipamento de Combate Azul",
+				"green_weapons_name": "Equipamento de Combate Verde",
+				"purple_weapons_name": "Equipamento de Combate Roxo",
+				"red_weapons_name": "Equipamento de Combate Vermelho",
+				"black_weapons_name": "Equipamento de Combate Negro",
+				"white_weapons_name": "Equipamento de Combate Branco",
+				"leather_archer_vest_recipe": {
+					"description": "Fornece proteção adicional para seus arqueiros",
+					"flavor": "Lembre-me por que você precisa disso de novo?"
+				},
+				"leather_archer_hood_recipe": {
+					"description": "Um capacete de couro para acolchoar o capacete do seu arqueiro",
+					"flavor": "É como um capacete dentro de um capacete!"
+				},
+				"varanus_archer_vest_recipe": {
+					"description": "Um colete de pele Varanus para arqueiros experientes",
+					"flavor": "Garantido para explodir a mente dos cosplayers!"
+				},
+				"varanus_archer_hood_recipe": {
+					"description": "Um capuz feito de peles de Varanus para arqueiros",
+					"flavor": "A transformação está completa..."
+				},
+				"zilla_archer_vest_recipe": {
+					"description": "Um colete feito de peles Zilla, para seus arqueiros mais experientes",
+					"flavor": "Deve estar calor aí..."
+				},
+				"zilla_archer_hood_recipe": {
+					"description": "O auge da moda do capuz de arqueiro",
+					"flavor": "Quase permite que você invoque terremotos vulcânicos."
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"blue_armor_name": "Armadura Azul",
+				"green_armor_name": "Armadura Verde",
+				"purple_armor_name": "Armadura Roxa",
+				"red_armor_name": "Armadura Vermelha",
+				"black_armor_name": "Armadura Negra",
+				"white_armor_name": "Armadura Branca",
+				"na_horned_helm": {
+					"flavor": "Para quando você sentir vontade de divulgar seu(s) chifre(s)"
+				},
+				"bronze_cleric_breastplate_recipe": {
+					"description": "Fornece alguma proteção para seus aspirantes a Paladinos",
+					"flavor": "Não requer alinhamento legal e bom."
+				},
+				"iron_cleric_mail_recipe": {
+					"description": "Fornece proteção justa para seus aspirantes a Paladinos",
+					"flavor": "Requer o domínio Força para equipar."
+				},
+				"steel_cleric_chainmail": {
+					"description": "Fornece grande proteção para seus aspirantes a Paladinos",
+					"flavor": "Requer alinhamento legal e bom (A ser implementado)."
+				}
+			}
+		}
+	}
+}

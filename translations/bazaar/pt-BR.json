@@ -1,0 +1,295 @@
+{
+	"jobs": {
+		"carpenter": {
+			"recipes": {
+				"shop_name": "Decorações para oficinas",
+				"pantry_wood_recipe": {
+					"recipe_name": "Despensa de madeira",
+					"description": "Uma grande despensa para até 12 recursos.",
+					"flavor": "Apenas para workshops organizados."
+				},
+				"vitrine_small_box_wood_recipe": {
+					"recipe_name": "Pequena janela de loja de madeira com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_plate_wood_recipe": {
+					"recipe_name": "Pequena janela de loja de madeira com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_table_wood_recipe": {
+					"recipe_name": "Pequena vitrine de madeira com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_medium_box_wood_recipe": {
+					"recipe_name": "Vitrine de madeira média com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_plate_wood_recipe": {
+					"recipe_name": "Vitrine de madeira média com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_table_wood_recipe": {
+					"recipe_name": "Vitrine de madeira média com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_large_box_wood_recipe": {
+					"recipe_name": "Grande vitrine de madeira com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_plate_wood_recipe": {
+					"recipe_name": "Grande vitrine de madeira com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_table_wood_recipe": {
+					"recipe_name": "Grande vitrine de madeira com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"shop_name": "Decorações para oficinas",
+				"vitrine_small_box_stone_recipe": {
+					"recipe_name": "Janela de loja de pedra pequena com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_plate_stone_recipe": {
+					"recipe_name": "Janela de loja de pedra pequena com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_table_stone_recipe": {
+					"recipe_name": "Pequena vitrine de pedra com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_medium_box_stone_recipe": {
+					"recipe_name": "Vitrine de pedra média com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_plate_stone_recipe": {
+					"recipe_name": "Vitrine de pedra média com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_table_stone_recipe": {
+					"recipe_name": "Vitrine de pedra média com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_large_box_stone_recipe": {
+					"recipe_name": "Grande vitrine de pedra com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_plate_stone_recipe": {
+					"recipe_name": "Grande vitrine de pedra com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_table_stone_recipe": {
+					"recipe_name": "Grande vitrine de pedra com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"shop_name": "Decorações para oficinas",
+				"vitrine_small_box_clay_blue_recipe": {
+					"recipe_name": "Pequena janela de loja de barro azul com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_plate_clay_blue_recipe": {
+					"recipe_name": "Pequena janela de loja de barro azul com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_table_clay_blue_recipe": {
+					"recipe_name": "Pequena janela de loja de barro azul com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_medium_box_clay_blue_recipe": {
+					"recipe_name": "Vitrine de barro azul médio com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_plate_clay_blue_recipe": {
+					"recipe_name": "Vitrine de barro azul médio com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_table_clay_blue_recipe": {
+					"recipe_name": "Vitrine de barro azul médio com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_large_box_clay_blue_recipe": {
+					"recipe_name": "Grande vitrine de barro azul com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_plate_clay_blue_recipe": {
+					"recipe_name": "Grande vitrine de barro azul com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_table_clay_blue_recipe": {
+					"recipe_name": "Grande vitrine de barro azul com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_small_box_clay_green_recipe": {
+					"recipe_name": "Janela de loja de barro verde pequena com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_plate_clay_green_recipe": {
+					"recipe_name": "Pequena janela de loja de barro verde com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_table_clay_green_recipe": {
+					"recipe_name": "Pequena janela de loja de barro verde com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_medium_box_clay_green_recipe": {
+					"recipe_name": "Vitrine de barro verde médio com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_plate_clay_green_recipe": {
+					"recipe_name": "Vitrine de barro verde médio com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_table_clay_green_recipe": {
+					"recipe_name": "Vitrine de barro verde médio com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_large_box_clay_green_recipe": {
+					"recipe_name": "Grande vitrine de barro verde com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_plate_clay_green_recipe": {
+					"recipe_name": "Grande vitrine de barro verde com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_table_clay_green_recipe": {
+					"recipe_name": "Grande vitrine de barro verde com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_small_box_clay_red_recipe": {
+					"recipe_name": "Pequena janela de loja de barro vermelho com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_plate_clay_red_recipe": {
+					"recipe_name": "Pequena janela de loja de barro vermelho com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_small_table_clay_red_recipe": {
+					"recipe_name": "Pequena vitrine de barro vermelho com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 6 recursos.",
+					"flavor": "Bom para cada pequena loja."
+				},
+				"vitrine_medium_box_clay_red_recipe": {
+					"recipe_name": "Vitrine média de barro vermelho com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_plate_clay_red_recipe": {
+					"recipe_name": "Vitrine média de barro vermelho com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_medium_table_clay_red_recipe": {
+					"recipe_name": "Vitrine média de barro vermelho com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 12 recursos.",
+					"flavor": "Um bom artesão precisa de mais espaço."
+				},
+				"vitrine_large_box_clay_red_recipe": {
+					"recipe_name": "Grande vitrine de barro vermelho com caixa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_plate_clay_red_recipe": {
+					"recipe_name": "Grande vitrine de barro vermelho com placa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				},
+				"vitrine_large_table_clay_red_recipe": {
+					"recipe_name": "Grande vitrine de barro vermelho com mesa",
+					"description": "Uma janela de armazenamento decorativa para oficinas. Contém até 18 recursos.",
+					"flavor": "A elite sob as vitrines."
+				}
+			}
+		}
+	},
+	"entities": {
+		"containers": {
+			"pantry_wood_ghost": {
+				"display_name": "Despensa de madeira",
+				"description": "Armazena até 12 unidades."
+			}
+		},
+		"construction": {
+			"vitrine_small_box_ghost": {
+				"display_name": "Pequena janela com caixa",
+				"description": "Armazena até 6 unidades."
+			},
+			"vitrine_small_plate_ghost": {
+				"display_name": "Pequena janela com placa",
+				"description": "Armazena até 6 unidades."
+			},
+			"vitrine_small_table_ghost": {
+				"display_name": "Pequena janela com mesa",
+				"description": "Armazena até 6 unidades."
+			},
+			"vitrine_medium_box_ghost": {
+				"display_name": "Janela média com caixa",
+				"description": "Armazena até 12 unidades."
+			},
+			"vitrine_medium_plate_ghost": {
+				"display_name": "Janela média com placa",
+				"description": "Armazena até 12 unidades."
+			},
+			"vitrine_medium_table_ghost": {
+				"display_name": "Janela média com mesa",
+				"description": "Armazena até 12 unidades."
+			},
+			"vitrine_large_box_ghost": {
+				"display_name": "Grande janela com caixa",
+				"description": "Armazena até 18 unidades."
+			},
+			"vitrine_large_plate_ghost": {
+				"display_name": "Grande janela com placa",
+				"description": "Armazena até 18 unidades."
+			},
+			"vitrine_large_table_ghost": {
+				"display_name": "Grande janela com mesa",
+				"description": "Armazena até 18 unidades."
+			}
+		}
+	}
+}

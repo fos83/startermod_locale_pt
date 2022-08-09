@@ -1,0 +1,56 @@
+{
+	"data": {
+		"commands": {
+			"job_armor_variant": {
+				"asc_archer": {
+					"display_name": "Prefira Armadura de Ascendência",
+					"description": "Este Arqueiro atualmente prefere usar armaduras feitas pela Ascendência. Clique para mudar!"
+				},
+				"na_archer": {
+					"display_name": "Prefira a Armadura da Aliança do Norte",
+					"description": "Este Arqueiro atualmente prefere usar armaduras feitas pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_archer": {
+					"display_name": "Prefira a Armadura Infantil de Rayya",
+					"description": "Este Arqueiro atualmente prefere usar armaduras feitas pelos Filhos de Rayya. Clique para mudar!"
+				},
+				"asc_cleric": {
+					"display_name": "Prefira Armadura de Ascendência",
+					"description": "Este clérigo atualmente prefere usar armaduras feitas pela Ascendência. Clique para mudar!"
+				},
+				"na_cleric": {
+					"display_name": "Prefira a Armadura da Aliança do Norte",
+					"description": "Este clérigo atualmente prefere usar armaduras feitas pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_cleric": {
+					"display_name": "Prefira a Armadura Infantil de Rayya",
+					"description": "Este clérigo atualmente prefere usar armaduras feitas pelos filhos de Rayya. Clique para mudar!"
+				},
+				"asc_footman": {
+					"display_name": "Prefira Armadura de Ascendência",
+					"description": "Este Lacaio atualmente prefere usar armaduras feitas pela Ascendência. Clique para mudar!"
+				},
+				"na_footman": {
+					"display_name": "Prefira a Armadura da Aliança do Norte",
+					"description": "Este Footman atualmente prefere usar armaduras feitas pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_footman": {
+					"display_name": "Prefira a Armadura Infantil de Rayya",
+					"description": "Este Footman atualmente prefere usar armaduras feitas por Rayya's Children. Clique para mudar!"
+				},
+				"asc_knight": {
+					"display_name": "Prefira Armadura de Ascendência",
+					"description": "Este Cavaleiro atualmente prefere usar armaduras feitas pela Ascendência. Clique para mudar!"
+				},
+				"na_knight": {
+					"display_name": "Prefira a Armadura da Aliança do Norte",
+					"description": "Este Cavaleiro atualmente prefere usar armaduras feitas pela Aliança do Norte. Clique para mudar!"
+				},
+				"rc_knight": {
+					"display_name": "Prefira a Armadura Infantil de Rayya",
+					"description": "Este Cavaleiro atualmente prefere usar armaduras feitas pelos Filhos de Rayya. Clique para mudar!"
+				}
+			}
+		}
+	}
+}

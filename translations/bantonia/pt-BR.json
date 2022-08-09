@@ -1,0 +1,42 @@
+{
+	"entities": {
+		"construction": {
+			"tall_bantonian_window": {
+				"tall_bantonian_window_ghost": {
+					"display_name": "Janela Bantoniana Alta",
+					"description": "Vidro incluído"
+				}
+			},
+			"tall_bantonian_window_flowers": {
+				"tall_bantonian_window_flowers_ghost": {
+					"display_name": "Janela alta de flores bantonianas",
+					"description": "Vasos de flores incluídos!"
+				}
+			},
+			"small_bantonian_window": {
+				"small_bantonian_window_ghost": {
+					"display_name": "Pequena Janela Bantoniana",
+					"description": "Elegante pequena janela"
+				}
+			},
+			"bantonian_stone_window_frame_tall": {
+				"bantonian_stone_window_frame_tall_ghost": {
+					"display_name": "uma janela de pedra extravagante",
+					"description": "Vidro incluso!"
+				}
+			},
+			"bantonian_wide_window": {
+				"bantonian_wide_window_ghost": {
+					"display_name": "Ampla Janela Bantoniana",
+					"description": "O mundo parece... esticado?"
+				}
+			},
+			"small_wooden_bantonian_window": {
+				"small_wooden_bantonian_window_ghost": {
+					"display_name": "Pequena Janela Bantoniana Nórdica",
+					"description": "Elegante pequena janela"
+				}
+			}
+		}
+	}
+}

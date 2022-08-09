@@ -1,0 +1,36 @@
+{
+	"decoration": {
+		"standlicht": {
+			"display_name": "Farol",
+			"description": "Um Standlamp para uso interno e externo.",
+			"recipe": {
+				"description": "Um Standlamp para uso interno e externo.",
+				"flavor": "Traz a Luz Heartlings em sua vida!"
+			}
+		},
+		"feuerstelle": {
+			"display_name": "Lareira",
+			"description": "Uma Lareira para uso interno.",
+			"recipe": {
+				"description": "Uma Lareira para uso interno.",
+				"flavor": "Aquece os Heartlings e cria aconchego."
+			}
+		},
+		"schornstein1x1": {
+			"display_name": "Chaminé",
+			"description": "Uma chaminé fumegante.",
+			"recipe": {
+				"description": "Uma chaminé fumegante.",
+				"flavor": "Fume para uma vida melhor!"
+			}
+		},
+		"ablage": {
+			"display_name": "Armário de canto",
+			"description": "Um armário de canto elegante",
+			"recipe": {
+				"description": "Um armário de canto elegante",
+				"flavor": "Um belo armário de canto"
+			}
+		}
+	}
+}

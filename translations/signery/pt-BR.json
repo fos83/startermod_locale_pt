@@ -1,0 +1,813 @@
+{
+	"ui": {},
+	"entities": {
+		"decoration": {
+			"banner_blank": {
+				"description": "Uma bandeira em branco.",
+				"display_name": "Faixa em branco",
+				"recipe_name": "Faixa em branco",
+				"flavor": "Uma tela vazia na qual criar."
+			},
+			"banner_hanging_large_black": {
+				"description": "Uma grande bandeira preta.",
+				"display_name": "Grande Banner Suspenso Preto",
+				"recipe_name": "Grande Banner Suspenso Preto",
+				"flavor": "Uma grande bandeira preta pendurada."
+			},
+			"banner_hanging_large_blue": {
+				"description": "Uma grande bandeira azul.",
+				"display_name": "Grande Banner Azul Suspenso",
+				"recipe_name": "Grande Banner Azul Suspenso",
+				"flavor": "Uma grande bandeira azul pendurada."
+			},
+			"banner_hanging_large_green": {
+				"description": "Uma grande bandeira verde.",
+				"display_name": "Grande Banner Verde Suspenso",
+				"recipe_name": "Grande Banner Verde Suspenso",
+				"flavor": "Um grande banner verde pendurado."
+			},
+			"banner_hanging_large_red": {
+				"description": "Uma grande bandeira vermelha.",
+				"display_name": "Grande Banner Suspenso Vermelho",
+				"recipe_name": "Grande Banner Suspenso Vermelho",
+				"flavor": "Uma grande bandeira vermelha pendurada."
+			},
+			"banner_hanging_large_white": {
+				"description": "Uma grande bandeira branca.",
+				"display_name": "Grande Banner Suspenso Branco",
+				"recipe_name": "Grande Banner Suspenso Branco",
+				"flavor": "Uma grande bandeira branca pendurada."
+			},
+			"banner_hanging_large_yellow": {
+				"description": "Uma grande bandeira amarela.",
+				"display_name": "Grande Banner Amarelo Suspenso",
+				"recipe_name": "Grande Banner Amarelo Suspenso",
+				"flavor": "Uma grande bandeira amarela pendurada."
+			},
+			"banner_hanging_small_black": {
+				"description": "Uma pequena bandeira preta.",
+				"display_name": "Faixa Preta Pendurada Pequena",
+				"recipe_name": "Faixa Preta Pendurada Pequena",
+				"flavor": "Um pequeno banner preto pendurado."
+			},
+			"banner_hanging_small_blue": {
+				"description": "Uma pequena bandeira azul.",
+				"display_name": "Pequeno Banner Azul Suspenso",
+				"recipe_name": "Pequeno Banner Azul Suspenso",
+				"flavor": "Um pequeno banner azul pendurado."
+			},
+			"banner_hanging_small_green": {
+				"description": "Uma pequena bandeira verde.",
+				"display_name": "Pequeno Banner Verde Suspenso",
+				"recipe_name": "Pequeno Banner Verde Suspenso",
+				"flavor": "Um pequeno banner verde pendurado."
+			},
+			"banner_hanging_small_red": {
+				"description": "Uma pequena bandeira vermelha.",
+				"display_name": "Faixa Pendurada Vermelha Pequena",
+				"recipe_name": "Faixa Pendurada Vermelha Pequena",
+				"flavor": "Uma pequena bandeira vermelha pendurada."
+			},
+			"banner_hanging_small_white": {
+				"description": "Uma pequena bandeira branca.",
+				"display_name": "Pequeno Banner Branco Suspenso",
+				"recipe_name": "Pequeno Banner Branco Suspenso",
+				"flavor": "Uma pequena bandeira branca pendurada."
+			},
+			"banner_hanging_small_yellow": {
+				"description": "Uma pequena bandeira amarela.",
+				"display_name": "Banner pendurado amarelo pequeno",
+				"recipe_name": "Banner pendurado amarelo pequeno",
+				"flavor": "Um pequeno banner amarelo pendurado."
+			},
+			"banner_pennant_large_black": {
+				"description": "Uma grande flâmula preta.",
+				"display_name": "Galhardete Grande de Parede Preta",
+				"recipe_name": "Galhardete Grande de Parede Preta",
+				"flavor": "Uma grande flâmula de parede preta."
+			},
+			"banner_pennant_large_blue": {
+				"description": "Uma grande flâmula azul.",
+				"display_name": "Galhardete Grande de Parede Azul",
+				"recipe_name": "Galhardete Grande de Parede Azul",
+				"flavor": "Uma grande flâmula de parede azul."
+			},
+			"banner_pennant_large_green": {
+				"description": "Uma grande flâmula verde.",
+				"display_name": "Galhardete de parede verde grande",
+				"recipe_name": "Galhardete de parede verde grande",
+				"flavor": "Uma grande flâmula de parede verde."
+			},
+			"banner_pennant_large_red": {
+				"description": "Uma grande flâmula vermelha.",
+				"display_name": "Galhardete Grande de Parede Vermelha",
+				"recipe_name": "Galhardete Grande de Parede Vermelha",
+				"flavor": "Uma grande flâmula de parede vermelha."
+			},
+			"banner_pennant_large_white": {
+				"description": "Uma grande flâmula branca.",
+				"display_name": "Galhardete Grande de Parede Branca",
+				"recipe_name": "Galhardete Grande de Parede Branca",
+				"flavor": "Uma grande flâmula de parede branca."
+			},
+			"banner_pennant_large_yellow": {
+				"description": "Uma grande flâmula amarela.",
+				"display_name": "Galhardete de Parede Amarelo Grande",
+				"recipe_name": "Galhardete de Parede Amarelo Grande",
+				"flavor": "Uma grande flâmula de parede amarela."
+			},
+			"banner_pennant_small_black": {
+				"description": "Uma pequena flâmula preta.",
+				"display_name": "Galhardete de Parede Preto Pequeno",
+				"recipe_name": "Galhardete de Parede Preto Pequeno",
+				"flavor": "Uma pequena flâmula de parede preta."
+			},
+			"banner_pennant_small_blue": {
+				"description": "Uma pequena flâmula azul.",
+				"display_name": "Galhardete de Parede Azul Pequeno",
+				"recipe_name": "Galhardete de Parede Azul Pequeno",
+				"flavor": "Uma pequena flâmula de parede azul."
+			},
+			"banner_pennant_small_green": {
+				"description": "Uma pequena flâmula verde.",
+				"display_name": "Galhardete de Parede Verde Pequeno",
+				"recipe_name": "Galhardete de Parede Verde Pequeno",
+				"flavor": "Uma pequena flâmula de parede verde."
+			},
+			"banner_pennant_small_red": {
+				"description": "Uma pequena flâmula vermelha.",
+				"display_name": "Galhardete de Parede Vermelho Pequeno",
+				"recipe_name": "Galhardete de Parede Vermelho Pequeno",
+				"flavor": "Uma pequena flâmula de parede vermelha."
+			},
+			"banner_pennant_small_white": {
+				"description": "Uma pequena flâmula branca.",
+				"display_name": "Galhardete Pequeno de Parede Branca",
+				"recipe_name": "Galhardete Pequeno de Parede Branca",
+				"flavor": "Uma pequena flâmula de parede branca."
+			},
+			"banner_pennant_small_yellow": {
+				"description": "Uma pequena flâmula amarela.",
+				"display_name": "Galhardete de Parede Amarelo Pequeno",
+				"recipe_name": "Galhardete de Parede Amarelo Pequeno",
+				"flavor": "Uma pequena flâmula de parede amarela."
+			},
+			"banner_simple_blacksmith": {
+				"description": "Um simples estandarte de ferreiro.",
+				"display_name": "Banner Simples de Ferreiro",
+				"recipe_name": "Banner Simples de Ferreiro",
+				"flavor": "A bandeira de um ferreiro simples."
+			},
+			"banner_simple_carpenter": {
+				"description": "Um simples estandarte de carpinteiro.",
+				"display_name": "Bandeira Simples de Carpinteiro",
+				"recipe_name": "Bandeira Simples de Carpinteiro",
+				"flavor": "Um estandarte simples de carpinteiro."
+			},
+			"banner_simple_cook": {
+				"description": "A bandeira de um simples cozinheiro.",
+				"display_name": "Cozinhar Banner Simples",
+				"recipe_name": "Cozinhar Banner Simples",
+				"flavor": "A bandeira de um cozinheiro simples."
+			},
+			"banner_simple_engineer": {
+				"description": "A bandeira de um simples engenheiro.",
+				"display_name": "Banner Simples de Engenheiro",
+				"recipe_name": "Banner Simples de Engenheiro",
+				"flavor": "A bandeira de um engenheiro simples."
+			},
+			"banner_simple_herbalist": {
+				"description": "Um simples estandarte de herborista.",
+				"display_name": "Banner Simples Herbalista",
+				"recipe_name": "Banner Simples Herbalista",
+				"flavor": "A bandeira de um herbalista simples."
+			},
+			"banner_simple_mason": {
+				"description": "Um simples estandarte de pedreiro.",
+				"display_name": "Banner Simples Mason",
+				"recipe_name": "Banner Simples Mason",
+				"flavor": "Uma bandeira simples de pedreiro."
+			},
+			"banner_simple_potter": {
+				"description": "Um simples estandarte de oleiro.",
+				"display_name": "Banner Simples Potter",
+				"recipe_name": "Banner Simples Potter",
+				"flavor": "A bandeira de um oleiro simples."
+			},
+			"banner_simple_weaver": {
+				"description": "A bandeira de um tecelão simples.",
+				"display_name": "Banner Simples Weaver",
+				"recipe_name": "Banner Simples Weaver",
+				"flavor": "A bandeira de um tecelão simples."
+			},
+			"banner_wall_blacksmith": {
+				"description": "A bandeira de um ferreiro.",
+				"display_name": "Banner de parede de ferreiro",
+				"recipe_name": "Banner de parede de ferreiro",
+				"flavor": "Um magnífico estandarte de ferreiro."
+			},
+			"banner_wall_carpenter": {
+				"description": "A bandeira de um carpinteiro.",
+				"display_name": "Banner de parede de carpinteiro",
+				"recipe_name": "Banner de parede de carpinteiro",
+				"flavor": "Um magnífico estandarte de carpinteiro."
+			},
+			"banner_wall_cook": {
+				"description": "A bandeira de um cozinheiro.",
+				"display_name": "Cozinhar Banner de Parede",
+				"recipe_name": "Cozinhar Banner de Parede",
+				"flavor": "O estandarte de um magnífico cozinheiro."
+			},
+			"banner_wall_engineer": {
+				"description": "A bandeira de um engenheiro.",
+				"display_name": "Banner de parede do engenheiro",
+				"recipe_name": "Banner de parede do engenheiro",
+				"flavor": "A bandeira de um engenheiro magnífico."
+			},
+			"banner_wall_herbalist": {
+				"description": "A bandeira de um herbalista.",
+				"display_name": "Banner de parede de herbalista",
+				"recipe_name": "Banner de parede de herbalista",
+				"flavor": "Um magnífico estandarte de herborista."
+			},
+			"banner_wall_inn": {
+				"description": "A bandeira de uma pousada.",
+				"display_name": "Banner de parede da pousada",
+				"recipe_name": "Banner de parede da pousada",
+				"flavor": "A bandeira de uma pousada."
+			},
+			"banner_wall_large_black": {
+				"description": "Uma grande bandeira preta.",
+				"display_name": "Grande Banner de Parede Preto",
+				"recipe_name": "Grande Banner de Parede Preto",
+				"flavor": "Um grande banner de parede preta."
+			},
+			"banner_wall_large_green": {
+				"description": "Uma grande bandeira verde.",
+				"display_name": "Grande Banner de Parede Verde",
+				"recipe_name": "Grande Banner de Parede Verde",
+				"flavor": "Um grande banner de parede verde."
+			},
+			"banner_wall_large_red": {
+				"description": "Uma grande bandeira vermelha.",
+				"display_name": "Grande Banner de Parede Vermelho",
+				"recipe_name": "Grande Banner de Parede Vermelho",
+				"flavor": "Um grande banner de parede vermelha."
+			},
+			"banner_wall_large_white": {
+				"description": "Uma grande bandeira branca.",
+				"display_name": "Banner de parede branco grande",
+				"recipe_name": "Banner de parede branco grande",
+				"flavor": "Um grande banner de parede branca."
+			},
+			"banner_wall_large_yellow": {
+				"description": "Uma grande bandeira amarela.",
+				"display_name": "Grande Banner de Parede Amarelo",
+				"recipe_name": "Grande Banner de Parede Amarelo",
+				"flavor": "Um grande banner de parede amarelo."
+			},
+			"banner_wall_mason": {
+				"description": "A bandeira de um pedreiro.",
+				"display_name": "Banner de parede de pedreiro",
+				"recipe_name": "Banner de parede de pedreiro",
+				"flavor": "Um magnífico estandarte de pedreiro."
+			},
+			"banner_wall_potion": {
+				"description": "Um banner de poção.",
+				"display_name": "Banner de parede de poções",
+				"recipe_name": "Banner de parede de poções",
+				"flavor": "Um banner representando uma poção."
+			},
+			"banner_wall_potter": {
+				"description": "A bandeira de um oleiro.",
+				"display_name": "Banner de parede Potter",
+				"recipe_name": "Banner de parede Potter",
+				"flavor": "Um magnífico estandarte de oleiro."
+			},
+			"banner_wall_pub": {
+				"description": "A bandeira de um pub.",
+				"display_name": "Banner de parede do pub",
+				"recipe_name": "Banner de parede do pub",
+				"flavor": "Um banner representando uma cerveja."
+			},
+			"banner_wall_small_black": {
+				"description": "Uma pequena bandeira preta.",
+				"display_name": "Banner de parede preto pequeno",
+				"recipe_name": "Banner de parede preto pequeno",
+				"flavor": "Um pequeno banner de parede preta."
+			},
+			"banner_wall_small_green": {
+				"description": "Uma pequena bandeira verde.",
+				"display_name": "Banner de parede verde pequeno",
+				"recipe_name": "Banner de parede verde pequeno",
+				"flavor": "Um pequeno banner de parede verde."
+			},
+			"banner_wall_small_red": {
+				"description": "Uma pequena bandeira vermelha.",
+				"display_name": "Banner de parede vermelho pequeno",
+				"recipe_name": "Banner de parede vermelho pequeno",
+				"flavor": "Um pequeno banner de parede vermelha."
+			},
+			"banner_wall_small_white": {
+				"description": "Uma pequena bandeira branca.",
+				"display_name": "Banner de parede branco pequeno",
+				"recipe_name": "Banner de parede branco pequeno",
+				"flavor": "Um pequeno banner de parede branca."
+			},
+			"banner_wall_small_yellow": {
+				"description": "Uma pequena bandeira amarela.",
+				"display_name": "Banner de parede amarelo pequeno",
+				"recipe_name": "Banner de parede amarelo pequeno",
+				"flavor": "Um pequeno banner de parede amarelo."
+			},
+			"banner_wall_storage": {
+				"description": "A bandeira de um estoque.",
+				"display_name": "Estoque de banner de parede",
+				"recipe_name": "Estoque de banner de parede",
+				"flavor": "A bandeira de um estoque."
+			},
+			"banner_wall_weaver": {
+				"description": "A bandeira de um tecelão.",
+				"display_name": "Banner de parede de tecelão",
+				"recipe_name": "Banner de parede de tecelão",
+				"flavor": "A bandeira de um tecelão magnífico."
+			},
+			"sign_clay_blacksmith": {
+				"description": "Sinal de um ferreiro de barro.",
+				"display_name": "Sinal de barro de ferreiro",
+				"recipe_name": "Sinal de barro de ferreiro",
+				"flavor": "Um simples sinal de ferreiro feito de barro."
+			},
+			"sign_clay_blank": {
+				"description": "Um sinal de barro vazio.",
+				"display_name": "Sinal de barro em branco",
+				"recipe_name": "Sinal de barro em branco",
+				"flavor": "Um sinal de barro vazio pronto para enriquecer."
+			},
+			"sign_clay_carpenter": {
+				"description": "Sinal de um carpinteiro de barro.",
+				"display_name": "Sinal de barro do carpinteiro",
+				"recipe_name": "Sinal de barro do carpinteiro",
+				"flavor": "Um simples sinal de carpinteiro feito de barro."
+			},
+			"sign_clay_cook": {
+				"description": "Sinal de um cozinheiro de barro.",
+				"display_name": "Sinal de barro do cozinheiro",
+				"recipe_name": "Sinal de barro do cozinheiro",
+				"flavor": "Um simples cartaz de cozinheiro feito de barro."
+			},
+			"sign_clay_engineer": {
+				"description": "Sinal de um engenheiro de argila.",
+				"display_name": "Sinal de barro do engenheiro",
+				"recipe_name": "Sinal de barro do engenheiro",
+				"flavor": "Um simples sinal de engenheiro feito de barro."
+			},
+			"sign_clay_herbalist": {
+				"description": "Sinal de um herbalista de barro.",
+				"display_name": "Sinal de barro do herbalista",
+				"recipe_name": "Sinal de barro do herbalista",
+				"flavor": "Um simples letreiro de herborista feito de barro."
+			},
+			"sign_clay_inn": {
+				"description": "Uma placa de estalagem de barro.",
+				"display_name": "Placa de Estalagem de Barro",
+				"recipe_name": "Placa de Estalagem de Barro",
+				"flavor": "Uma simples placa de pousada feita de barro."
+			},
+			"sign_clay_mason": {
+				"description": "Sinal de um pedreiro de barro.",
+				"display_name": "Sinal de barro de pedreiro",
+				"recipe_name": "Sinal de barro de pedreiro",
+				"flavor": "Um simples sinal de pedreiro feito de barro."
+			},
+			"sign_clay_potter": {
+				"description": "Sinal de um oleiro de barro.",
+				"display_name": "Sinal de barro do oleiro",
+				"recipe_name": "Sinal de barro do oleiro",
+				"flavor": "Um simples sinal de oleiro feito de barro."
+			},
+			"sign_clay_pub": {
+				"description": "Placa de um bar de barro.",
+				"display_name": "Placa de barro do pub",
+				"recipe_name": "Placa de barro do pub",
+				"flavor": "Sinal de um pub simples feito de barro."
+			},
+			"sign_clay_storage": {
+				"description": "Sinal de um estoque de argila.",
+				"display_name": "Um sinal de estoque de argila",
+				"recipe_name": "Um sinal de estoque de argila",
+				"flavor": "Um sinal de estoque feito de barro."
+			},
+			"sign_clay_weaver": {
+				"description": "Sinal de um tecelão de barro.",
+				"display_name": "Sinal de barro do tecelão",
+				"recipe_name": "Sinal de barro do tecelão",
+				"flavor": "Um simples sinal de tecelão feito de barro."
+			},
+			"sign_fancy_clay_bed": {
+				"description": "Um sinal de cama de barro para decorar.",
+				"display_name": "Placa de Barro Fantasia com Cama",
+				"recipe_name": "Placa de Barro Fantasia com Cama",
+				"flavor": "Uma placa de barro extravagante mostrando uma cama."
+			},
+			"sign_fancy_clay_blacksmith": {
+				"description": "Um sinal de ferreiro de barro para decorar.",
+				"display_name": "Sinal de ferreiro de barro extravagante",
+				"recipe_name": "Sinal de ferreiro de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando uma espada."
+			},
+			"sign_fancy_clay_carpenter": {
+				"description": "Um sinal de carpinteiro de barro para decorar.",
+				"display_name": "Sinal de carpinteiro de barro extravagante",
+				"recipe_name": "Sinal de carpinteiro de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando uma serra."
+			},
+			"sign_fancy_clay_castle": {
+				"description": "Um sinal de decoração de castelo de barro.",
+				"display_name": "Sinal de barro extravagante com castelo",
+				"recipe_name": "Sinal de barro extravagante com castelo",
+				"flavor": "Uma placa de barro extravagante mostrando um castelo."
+			},
+			"sign_fancy_clay_cook": {
+				"description": "Sinal de um cozinheiro de barro decorado.",
+				"display_name": "Sinal de cozinheiro de barro extravagante",
+				"recipe_name": "Sinal de cozinheiro de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando uma abóbora."
+			},
+			"sign_fancy_clay_desert_inn": {
+				"description": "Um sinal de decoração de barro.",
+				"display_name": "Sinal de Barro Fantasia Pousada do Deserto",
+				"recipe_name": "Sinal de Barro Fantasia Pousada do Deserto",
+				"flavor": "Uma placa de barro extravagante mostrando uma lamparina a óleo."
+			},
+			"sign_fancy_clay_engineer": {
+				"description": "Sinal de um engenheiro de barro de decoração.",
+				"display_name": "Sinal de engenheiro de barro extravagante",
+				"recipe_name": "Sinal de engenheiro de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando algumas engrenagens."
+			},
+			"sign_fancy_clay_herbalist": {
+				"description": "Um sinal de herbalista de barro para decorar.",
+				"display_name": "Sinal de herbalista de argila extravagante",
+				"recipe_name": "Sinal de herbalista de argila extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando uma poção."
+			},
+			"sign_fancy_clay_inn": {
+				"description": "Um sinal de decoração de barro.",
+				"display_name": "Placa Fancy Clay Inn",
+				"recipe_name": "Placa Fancy Clay Inn",
+				"flavor": "Uma placa de barro extravagante mostrando uma vela."
+			},
+			"sign_fancy_clay_mason": {
+				"description": "Um sinal de decoração de pedreiro de barro.",
+				"display_name": "Sinal de pedreiro de barro extravagante",
+				"recipe_name": "Sinal de pedreiro de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando ferramentas de alvenaria."
+			},
+			"sign_fancy_clay_mason_bench": {
+				"description": "Um sinal de decoração de pedreiro de barro.",
+				"display_name": "Sinal de banco de barro extravagante do pedreiro",
+				"recipe_name": "Sinal de banco de barro extravagante do pedreiro",
+				"flavor": "Uma placa de barro extravagante mostrando um banco de pedreiro."
+			},
+			"sign_fancy_clay_ol_saw": {
+				"description": "Um sinal de carpinteiro de barro para decorar.",
+				"display_name": "Fancy Clay Ol' Carpenter's Sign",
+				"recipe_name": "Fancy Clay Ol' Carpenter's Sign",
+				"flavor": "Uma placa de barro extravagante mostrando uma velha serra."
+			},
+			"sign_fancy_clay_potter": {
+				"description": "Um sinal de oleiro de barro para decorar.",
+				"display_name": "Sinal de Potter de barro extravagante",
+				"recipe_name": "Sinal de Potter de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando um bule."
+			},
+			"sign_fancy_clay_pub": {
+				"description": "Um sinal de bar de barro decorado.",
+				"display_name": "Placa de Bar de Barro Fantasia",
+				"recipe_name": "Placa de Bar de Barro Fantasia",
+				"flavor": "Uma placa de barro extravagante mostrando uma cerveja...mmmmmm."
+			},
+			"sign_fancy_clay_storage": {
+				"description": "Um sinal de estoque de argila de decoração.",
+				"display_name": "Sinal de estoque de argila extravagante",
+				"recipe_name": "Sinal de estoque de argila extravagante",
+				"flavor": "Um sinal de estoque de argila extravagante."
+			},
+			"sign_fancy_clay_weaver": {
+				"description": "Sinal de um tecelão de barro de decoração.",
+				"display_name": "Sinal de tecelão de barro extravagante",
+				"recipe_name": "Sinal de tecelão de barro extravagante",
+				"flavor": "Uma placa de barro extravagante mostrando uma tesoura."
+			},
+			"sign_metal_blacksmith": {
+				"description": "Sinal de um ferreiro de metal.",
+				"display_name": "Sinal de ferreiro de metal",
+				"recipe_name": "Sinal de ferreiro de metal",
+				"flavor": "Um sinal de metal extravagante, para não mencionar pesado."
+			},
+			"sign_metal_blacksmith_hammer": {
+				"description": "Sinal de martelo de um ferreiro de metal.",
+				"display_name": "Sinal de martelo de metal",
+				"recipe_name": "Sinal de martelo de metal",
+				"flavor": "Em algum lugar, alguém está perdendo seu martelo."
+			},
+			"sign_metal_carpenter": {
+				"description": "Sinal de um carpinteiro de metal.",
+				"display_name": "Sinal de carpinteiro de metal",
+				"recipe_name": "Sinal de carpinteiro de metal",
+				"flavor": "Sinal de metal bobo."
+			},
+			"sign_metal_cook": {
+				"description": "Sinal de um cozinheiro de metal.",
+				"display_name": "Sinal de Cozinheiro de Metal",
+				"recipe_name": "Sinal de Cozinheiro de Metal",
+				"flavor": "Bem, você não pode comê-lo."
+			},
+			"sign_metal_engineer": {
+				"description": "Sinal de um engenheiro de metal.",
+				"display_name": "Sinal do engenheiro de metal",
+				"recipe_name": "Sinal do engenheiro de metal",
+				"flavor": "Eu posso fazer melhor - o Engenheiro."
+			},
+			"sign_metal_flowers": {
+				"description": "Um sinal de flor de metal.",
+				"display_name": "Sinal de flor de metal",
+				"recipe_name": "Sinal de flor de metal",
+				"flavor": "Onde está a Borboleta de Ferro?!"
+			},
+			"sign_metal_fork": {
+				"description": "Um sinal de talheres de metal.",
+				"display_name": "Placa de talheres de metal",
+				"recipe_name": "Placa de talheres de metal",
+				"flavor": "Com fome?"
+			},
+			"sign_metal_gear": {
+				"description": "Um sinal de engrenagem de metal.",
+				"display_name": "Sinal de Metal Gear",
+				"recipe_name": "Sinal de Metal Gear",
+				"flavor": "Desfazendo."
+			},
+			"sign_metal_goblin": {
+				"description": "Um sinal de goblin de metal.",
+				"display_name": "Sinal de Goblin de Metal",
+				"recipe_name": "Sinal de Goblin de Metal",
+				"flavor": "Tão realista."
+			},
+			"sign_metal_goblin_angry": {
+				"description": "Um sinal de goblin com raiva de metal.",
+				"display_name": "Sinal de Goblin Irritado de Metal",
+				"recipe_name": "Sinal de Goblin Irritado de Metal",
+				"flavor": "Ele está irritado com alguma coisa."
+			},
+			"sign_metal_herbalist": {
+				"description": "Sinal de um herbalista de metal.",
+				"display_name": "Sinal de Herbalista de Metal",
+				"recipe_name": "Sinal de Herbalista de Metal",
+				"flavor": "Nenhuma árvore foi prejudicada na confecção deste sinal."
+			},
+			"sign_metal_inn": {
+				"description": "Um sinal de pousada de metal.",
+				"display_name": "Placa Metal Inn",
+				"recipe_name": "Placa Metal Inn",
+				"flavor": "Cansado?."
+			},
+			"sign_metal_key": {
+				"description": "Um sinal de chave de metal.",
+				"display_name": "Sinal de chave de metal",
+				"recipe_name": "Sinal de chave de metal",
+				"flavor": "A chave está anexada. Permanentemente."
+			},
+			"sign_metal_mason": {
+				"description": "Sinal de um pedreiro de metal.",
+				"display_name": "Sinal de Metal Mason",
+				"recipe_name": "Sinal de Metal Mason",
+				"flavor": "Não pedra."
+			},
+			"sign_metal_mason_bench": {
+				"description": "Sinal de bancada de um pedreiro de metal.",
+				"display_name": "Placa de bancada de pedreiro de metal",
+				"recipe_name": "Placa de bancada de pedreiro de metal",
+				"flavor": "Pequena versão miniturizada da coisa real."
+			},
+			"sign_metal_pint": {
+				"description": "Um sinal de cerveja de metal.",
+				"display_name": "Placa de metal",
+				"recipe_name": "Placa de metal",
+				"flavor": "Mmmm... beeeeem."
+			},
+			"sign_metal_potion": {
+				"description": "Um sinal de poção de metal.",
+				"display_name": "Sinal de Poção de Metal",
+				"recipe_name": "Sinal de Poção de Metal",
+				"flavor": "NÃO para beber."
+			},
+			"sign_metal_potter": {
+				"description": "Sinal de um oleiro de metal.",
+				"display_name": "Sinal de Metal Potter",
+				"recipe_name": "Sinal de Metal Potter",
+				"flavor": "Na verdade, mais pesado do que um sinal de barro."
+			},
+			"sign_metal_saw": {
+				"description": "Um sinal de serra de metal.",
+				"display_name": "Placa de serra de metal",
+				"recipe_name": "Placa de serra de metal",
+				"flavor": "Você fez o que com a minha serra?! -o carpinteiro."
+			},
+			"sign_metal_scissors": {
+				"description": "Um sinal de tesoura de metal.",
+				"display_name": "Sinal de tesoura de metal",
+				"recipe_name": "Sinal de tesoura de metal",
+				"flavor": "Não corra com isso também!"
+			},
+			"sign_metal_storage": {
+				"description": "Um sinal de estoque de metal.",
+				"display_name": "Sinal de Estoque de Metal",
+				"recipe_name": "Sinal de Estoque de Metal",
+				"flavor": "Cheio de todos os tipos de guloseimas!"
+			},
+			"sign_metal_tower": {
+				"description": "Um sinal de torre de metal.",
+				"display_name": "Sinal de torre de metal",
+				"recipe_name": "Sinal de torre de metal",
+				"flavor": "Você quase pode imaginar pequenos hearthlings vivendo lá."
+			},
+			"sign_metal_vase": {
+				"description": "Um sinal de vaso de metal.",
+				"display_name": "Sinal de vaso de metal",
+				"recipe_name": "Sinal de vaso de metal",
+				"flavor": "Isso parece pesado."
+			},
+			"sign_metal_weaver": {
+				"description": "Sinal de um tecelão de metal.",
+				"display_name": "Sinal do Tecelão de Metal",
+				"recipe_name": "Sinal do Tecelão de Metal",
+				"flavor": "Não é necessário aparecer."
+			},
+			"signpost_marker_blacksmith": {
+				"description": "Marcador de placa de sinalização de um ferreiro.",
+				"display_name": "Marcador de placa de ferreiro",
+				"recipe_name": "Marcador de placa de ferreiro",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_carpenter": {
+				"description": "Marcador de placa de sinalização de um carpinteiro.",
+				"display_name": "Marcador de placa de carpinteiro",
+				"recipe_name": "Marcador de placa de carpinteiro",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_cook": {
+				"description": "Marcador de placa de sinalização de um cozinheiro.",
+				"display_name": "Marcador de placa de cozinha",
+				"recipe_name": "Marcador de placa de cozinha",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_engineer": {
+				"description": "Marcador de placa de sinalização de um engenheiro.",
+				"display_name": "Marcador de placa de sinalização do engenheiro",
+				"recipe_name": "Marcador de placa de sinalização do engenheiro",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_herbalist": {
+				"description": "Marcador de placa de sinalização de um herbalista.",
+				"display_name": "Marcador de placa de sinalização",
+				"recipe_name": "Marcador de placa de sinalização",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_inn": {
+				"description": "Marcador de placa de sinalização de uma pousada.",
+				"display_name": "Placa de sinalização da pousada",
+				"recipe_name": "Placa de sinalização da pousada",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_mason": {
+				"description": "Marcador de placa de sinalização de um pedreiro.",
+				"display_name": "Marcador de placa de pedreiro",
+				"recipe_name": "Marcador de placa de pedreiro",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_oak": {
+				"description": "Um marcador de sinalização de carvalho.",
+				"display_name": "Marcador de placa de carvalho",
+				"recipe_name": "Marcador de placa de carvalho",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_potter": {
+				"description": "Marcador de placa de oleiro.",
+				"display_name": "Marcador de Placa de Potter",
+				"recipe_name": "Marcador de Placa de Potter",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_pub": {
+				"description": "Marcador de placa de sinalização de um pub.",
+				"display_name": "Marcador de placa de pub",
+				"recipe_name": "Marcador de placa de pub",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_storage": {
+				"description": "Marcador de placa de armazenamento.",
+				"display_name": "Marcador de Sinalização de Armazenamento",
+				"recipe_name": "Marcador de Sinalização de Armazenamento",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_marker_weaver": {
+				"description": "Marcador de placa de sinalização de um tecelão.",
+				"display_name": "Marcador de Sinalização Weaver",
+				"recipe_name": "Marcador de Sinalização Weaver",
+				"flavor": "Ele aponta para esse lado!"
+			},
+			"signpost_oak": {
+				"description": "Uma placa de carvalho.",
+				"display_name": "Placa de carvalho",
+				"recipe_name": "Placa de carvalho",
+				"flavor": "Para postar sinais, é claro."
+			},
+			"signstand_brick": {
+				"description": "Um letreiro de monumento de tijolo.",
+				"display_name": "Placa de sinalização do monumento de tijolos",
+				"recipe_name": "Placa de sinalização do monumento de tijolos",
+				"flavor": "Um pouco mais permanente e bonito do que um post."
+			},
+			"signstand_brick_fancy": {
+				"description": "Uma placa de sinalização de monumento de tijolo extravagante.",
+				"display_name": "Placa de sinalização de monumento de tijolo extravagante",
+				"recipe_name": "Placa de sinalização de monumento de tijolo extravagante",
+				"flavor": "Ele só grita olhe para mim."
+			},
+			"signstand_oak": {
+				"description": "Um letreiro de monumento de carvalho.",
+				"display_name": "Placa de sinalização do Monumento do Carvalho",
+				"recipe_name": "Placa de sinalização do Monumento do Carvalho",
+				"flavor": "Um pouco mais permanente que um post."
+			},
+			"signstand_oak_fancy": {
+				"description": "Uma placa de sinalização de monumento de carvalho extravagante.",
+				"display_name": "Placa de sinalização do Monumento Fancy Oak",
+				"recipe_name": "Placa de sinalização do Monumento Fancy Oak",
+				"flavor": "Placa de sinalização de monumento de carvalho bem feita."
+			},
+			"signstand_stone": {
+				"description": "Um letreiro de monumento de pedra.",
+				"display_name": "Placa de sinalização do monumento de pedra",
+				"recipe_name": "Placa de sinalização do monumento de pedra",
+				"flavor": "Consideravelmente mais permanente do que um post."
+			},
+			"signstand_stone_fancy": {
+				"description": "Uma placa de sinalização de monumento de pedra extravagante.",
+				"display_name": "Placa de sinalização de monumento de pedra extravagante",
+				"recipe_name": "Placa de sinalização de monumento de pedra extravagante",
+				"flavor": "Aparado em ouro piscando."
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"cook": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"engineer": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"mason": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"banner_name": "Faixas",
+				"signs_name": "Sinais"
+			}
+		}
+	}
+}

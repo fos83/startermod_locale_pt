@@ -1,0 +1,27 @@
+{
+	"turrets": {
+		"balista_turret": {
+			"balista_turret": {
+				"display_name": "Torre Balista",
+				"description": "Uma Balista de longo alcance pesada e longa com tiros lentos, mas poderosos"
+			}
+		},
+		"consumable": {
+			"balista_bolt": {
+				"balista_bolt": {
+					"display_name": "Parafuso de Balista 3X",
+					"description": "Três parafusos Balista Pesados, usados ​​em Balistas",
+					"shot_description": "Aqui vem!",
+					"shot_name": "Parafuso Balista"
+				}
+			}
+		},
+		"recipes": {
+			"balista_turret": {
+				"balista_turret_recipe": {
+					"flavor_text": "Essa foi uma excelência Balista, seus braços fortalecidos com placas de bronze e amarrados com crina de cavalo"
+				}
+			}
+		}
+	}
+}

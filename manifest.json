@@ -50,14 +50,32 @@
 		"stonehearth_ace/locales/pt-BR_mixin.json": "file(translations/stonehearth_ace/pt-BR_mixin.json)",
 		"stonehearth_ace/locales/pt-PT.json": "file(translations/stonehearth_ace/pt-PT.json)",
 
+		"ace_armours/locales/pt-BR.json": "file(translations/ace_armours/pt-BR.json)",
+		"ace_armours/locales/pt-PT.json": "file(translations/ace_armours/pt-PT.json)",
+
+		"ace_armours_core/locales/pt-BR.json": "file(translations/ace_armours_core/pt-BR.json)",
+		"ace_armours_core/locales/pt-PT.json": "file(translations/ace_armours_core/pt-PT.json)",
+
+		"armis_maximus/locales/pt-BR.json": "file(translations/armis_maximus/pt-BR.json)",
+		"armis_maximus/locales/pt-PT.json": "file(translations/armis_maximus/pt-PT.json)",
+
 		"autogg/locales/pt-BR.json": "file(translations/autogg/pt-BR.json)",
 		"autogg/locales/pt-PT.json": "file(translations/autogg/pt-PT.json)",
 
 		"autoharvest_mod/locales/pt-BR.json": "file(translations/autoharvest_mod/pt-BR.json)",
 		"autoharvest_mod/locales/pt-PT.json": "file(translations/autoharvest_mod/pt-PT.json)",
 
+		"balista/locales/pt-BR.json": "file(translations/balista/pt-BR.json)",
+		"balista/locales/pt-PT.json": "file(translations/balista/pt-PT.json)",
+
+		"bantonia/locales/pt-BR.json": "file(translations/bantonia/pt-BR.json)",
+		"bantonia/locales/pt-PT.json": "file(translations/bantonia/pt-PT.json)",
+
 		"battle_break/locales/pt-BR.json": "file(translations/battle_break/pt-BR.json)",
 		"battle_break/locales/pt-PT.json": "file(translations/battle_break/pt-PT.json)",
+
+		"bazaar/locales/pt-BR.json": "file(translations/bazaar/pt-BR.json)",
+		"bazaar/locales/pt-PT.json": "file(translations/bazaar/pt-PT.json)",
 
 		"beast_pets/locales/pt-BR.json": "file(translations/beast_pets/pt-BR.json)",
 		"beast_pets/locales/pt-PT.json": "file(translations/beast_pets/pt-PT.json)",
@@ -77,14 +95,38 @@
 		"ethereal_storage/locales/pt-BR.json": "file(translations/ethereal_storage/pt-BR.json)",
 		"ethereal_storage/locales/pt-PT.json": "file(translations/ethereal_storage/pt-PT.json)",
 
+		"extraeasy_mode/locales/pt-BR.json": "file(translations/extraeasy_mode/pt-BR.json)",
+		"extraeasy_mode/locales/pt-PT.json": "file(translations/extraeasy_mode/pt-PT.json)",
+
+		"extraload/locales/pt-BR.json": "file(translations/extraload/pt-BR.json)",
+		"extraload/locales/pt-PT.json": "file(translations/extraload/pt-PT.json)",
+
+		"finery/locales/pt-BR.json": "file(translations/finery/pt-BR.json)",
+		"finery/locales/pt-PT.json": "file(translations/finery/pt-PT.json)",
+
 		"geomancer_transmute/locales/pt-BR.json": "file(translations/geomancer_transmute/pt-BR.json)",
 		"geomancer_transmute/locales/pt-PT.json": "file(translations/geomancer_transmute/pt-PT.json)",
+
+		"homesweethome/locales/pt-BR.json": "file(translations/homesweethome/pt-BR.json)",
+		"homesweethome/locales/pt-PT.json": "file(translations/homesweethome/pt-PT.json)",
+
+		"homf/locales/pt-BR.json": "file(translations/homf/pt-BR.json)",
+		"homf/locales/pt-PT.json": "file(translations/homf/pt-PT.json)",
 
 		"hunter/locales/pt-BR.json": "file(translations/hunter/pt-BR.json)",
 		"hunter/locales/pt-PT.json": "file(translations/hunter/pt-PT.json)",
 
 		"insertcraftorder/locales/pt-BR.json": "file(translations/insertcraftorder/pt-BR.json)",
 		"insertcraftorder/locales/pt-PT.json": "file(translations/insertcraftorder/pt-PT.json)",
+
+		"kmnky_traits/locales/pt-BR.json": "file(translations/kmnky_traits/pt-BR.json)",
+		"kmnky_traits/locales/pt-PT.json": "file(translations/kmnky_traits/pt-PT.json)",
+
+		"lorki_biome/locales/pt-BR.json": "file(translations/lorki_biome/pt-BR.json)",
+		"lorki_biome/locales/pt-PT.json": "file(translations/lorki_biome/pt-PT.json)",
+
+		"lorkiszeug/locales/pt-BR.json": "file(translations/lorkiszeug/pt-BR.json)",
+		"lorkiszeug/locales/pt-PT.json": "file(translations/lorkiszeug/pt-PT.json)",
 
 		"lostems/locales/pt-BR.json": "file(translations/lostems/pt-BR.json)",
 		"lostems/locales/pt-PT.json": "file(translations/lostems/pt-PT.json)",
@@ -98,6 +140,9 @@
 		"nordlingmod/locales/pt-BR.json": "file(translations/nordlingmod/pt-BR.json)",
 		"nordlingmod/locales/pt-PT.json": "file(translations/nordlingmod/pt-PT.json)",
 
+		"norsehearth/locales/pt-BR.json": "file(translations/norsehearth/pt-BR.json)",
+		"norsehearth/locales/pt-PT.json": "file(translations/norsehearth/pt-PT.json)",
+
 		"obligationtracker/locales/pt-BR.json": "file(translations/obligationtracker/pt-BR.json)",
 		"obligationtracker/locales/pt-PT.json": "file(translations/obligationtracker/pt-PT.json)",
 
@@ -107,14 +152,23 @@
 		"settlementdecor/locales/pt-BR.json": "file(translations/settlementdecor/pt-BR.json)",
 		"settlementdecor/locales/pt-PT.json": "file(translations/settlementdecor/pt-PT.json)",
 
+		"signery/locales/pt-BR.json": "file(translations/signery/pt-BR.json)",
+		"signery/locales/pt-PT.json": "file(translations/signery/pt-PT.json)",
+
 		"spacemagic/locales/pt-BR.json": "file(translations/spacemagic/pt-BR.json)",
 		"spacemagic/locales/pt-PT.json": "file(translations/spacemagic/pt-PT.json)",
 
 		"stonehearth_beam/locales/pt-BR.json": "file(translations/stonehearth_beam/pt-BR.json)",
 		"stonehearth_beam/locales/pt-PT.json": "file(translations/stonehearth_beam/pt-PT.json)",
 
+		"taiga_biome/locales/pt-BR.json": "file(translations/taiga_biome/pt-BR.json)",
+		"taiga_biome/locales/pt-PT.json": "file(translations/taiga_biome/pt-PT.json)",
+
 		"tower_defense/locales/pt-BR.json": "file(translations/tower_defense/pt-BR.json)",
 		"tower_defense/locales/pt-PT.json": "file(translations/tower_defense/pt-PT.json)",
+
+		"unicorn_biome/locales/pt-BR.json": "file(translations/unicorn_biome/pt-BR.json)",
+		"unicorn_biome/locales/pt-PT.json": "file(translations/unicorn_biome/pt-PT.json)",
 
 		"unitframeplus/locales/pt-BR.json": "file(translations/unitframeplus/pt-BR.json)",
 		"unitframeplus/locales/pt-PT.json": "file(translations/unitframeplus/pt-PT.json)",
@@ -124,6 +178,9 @@
 
 		"whats_stuck/locales/pt-BR.json": "file(translations/whats_stuck/pt-BR.json)",
 		"whats_stuck/locales/pt-PT.json": "file(translations/whats_stuck/pt-PT.json)",
+
+		"white_cliffs_biome/locales/pt-BR.json": "file(translations/white_cliffs_biome/pt-BR.json)",
+		"white_cliffs_biome/locales/pt-PT.json": "file(translations/white_cliffs_biome/pt-PT.json)",
 
 		"wizq/locales/pt-BR.json": "file(translations/wizq/pt-BR.json)",
 		"wizq/locales/pt-PT.json": "file(translations/wizq/pt-PT.json)"

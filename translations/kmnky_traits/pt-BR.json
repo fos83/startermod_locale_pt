@@ -1,0 +1,70 @@
+{
+	"traits": {
+		"scarred": {
+			"description": "Este pobre Hearthling sofreu um ferimento há muitas luas. Deixou [name(i18n_data.entity)] desfigurado, mas eles aprenderam muito com o incidente",
+			"display_name": "cicatrizado"
+		},
+		"goblin": {
+			"display_name": "Goblin",
+			"description": "[name(i18n_data.entity)] é um Goblin. Ou um Meio-Goblin, realmente depende de quem está perguntando. De qualquer forma, eles causam mais dano, mas ficam muito infelizes depois de lutar contra outros goblins"
+		},
+		"wizened": {
+			"display_name": "Enrugado",
+			"description": "O tempo deixou os cabelos de [name(i18n_data.entity)] grisalhos, diminuiu suas articulações e tirou a maior parte de sua visão, mas ensinou-lhes muitas lições valiosas. [name(i18n_data.entity)] anda muito devagar, mas aumentou a mente e o espírito"
+		},
+		"divine_soul": {
+			"display_name": "Alma Divina",
+			"description": "Desde a adolescência os poderes de cura de Cid fluem pelos dedos de [name(i18n_data.entity)]"
+		},
+		"noble": {
+			"display_name": "Linhagem Nobre",
+			"description": "[name(i18n_data.entity)] está um pouco estragado e ficará extremamente infeliz se seu trabalho estiver \"abaixo deles\". Seus companheiros de saúde aguentam isso devido ao grande investimento financeiro que fazem quando se juntam à cidade"
+		},
+		"jack_of_trades": {
+			"display_name": "Jack de todos os comércios",
+			"description": "[name(i18n_data.entity)] ganha níveis de jobs muito mais rápido do que seus pares... pelo menos no início. Além do nível 3, seu XP é ganho dolorosamente lentamente"
+		},
+		"martial_trained": {
+			"display_name": "Treinado Marcial",
+			"description": "Desde tenra idade [name(i18n_data.entity)] foi treinado com várias formas de armamento, permitindo-lhes usar qualquer arma, independentemente do seu trabalho ou nível"
+		},
+		"barbarian": {
+			"display_name": "bárbaro",
+			"description": "Vindo de terras selvagens, [name(i18n_data.entity)] se junta à cidade já treinado como lacaio. Seu estilo de luta feroz causa muito mais dano, mas deixa [name(i18n_data.entity)] incapaz de usar armaduras ou escudos"
+		},
+		"pacifist": {
+			"display_name": "Pacifista",
+			"description": "[name(i18n_data.entity)] acredita que a violência não é a resposta para os problemas da vida. Esta compaixão aumenta muito o seu espírito"
+		}
+	},
+	"buffs": {
+		"beginners_luck": {
+			"display_name": "Sorte de principiante",
+			"description": "Jack of all trades está dando × 5 XP"
+		},
+		"beginners_luck_run_dry": {
+			"display_name": "Sorte de principiante seca",
+			"description": "Jack of all trades está recebendo apenas 1/5 do XP"
+		},
+		"martial_archership": {
+			"display_name": "Arqueiro Marcial",
+			"description": "Enquanto empunhando um arco, este hearthling entrará em combate à distância"
+		}
+	},
+	"data": {
+		"thoughts": {
+			"hurt_by_goblin": {
+				"display_name": "Ferido por Goblin",
+				"tooltip": "Fui ferido por alguém da minha espécie, e me sinto terrível"
+			},
+			"disfigured": {
+				"display_name": "Desfigurado",
+				"tooltip": "Embora eu tenha orgulho da história por trás disso, tenho vergonha de como essa cicatriz me faz parecer"
+			},
+			"job_beneath_me": {
+				"display_name": "Este trabalho está abaixo de mim",
+				"tooltip": "Você pode ser capaz de me forçar a fazer este trabalho, mas eu não ficarei feliz com isso!"
+			}
+		}
+	}
+}

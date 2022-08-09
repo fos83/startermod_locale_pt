@@ -1,0 +1,16 @@
+{
+	"data": {
+		"biome": {
+			"white_cliffs": {
+				"display_name": "Os penhascos brancos",
+				"description": "As falésias brancas dominam este bioma. Há muito tempo, as geleiras rasgaram esta região e o vento constante continua a manter a vegetação dos altos planaltos planos.",
+				"random_location_names": {
+					"000": "Garganta Profunda",
+					"001": "Pico do vento",
+					"002": "a cicatriz verde",
+					"003": "Rocha plana"
+				}
+			}
+		}
+	}
+}

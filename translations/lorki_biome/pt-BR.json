@@ -1,0 +1,15 @@
+{
+	"data": {
+		"biome": {
+			"lorki": {
+				"display_name": "Lorkistão",
+				"description": "Primeiro Biometest de Lorkis.",
+				"random_location_names": {
+					"000": "Monte Happynes",
+					"001": "O conto das montanhas",
+					"002": "Beaty World"
+				}
+			}
+		}
+	}
+}

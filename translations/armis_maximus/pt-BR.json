@@ -1,0 +1,838 @@
+{
+	"ui": {},
+	"data": {
+		"buffs": {
+			"blessed": {
+				"description": "Arma abençoada aumentando a compaixão.",
+				"display_name": "Abençoado"
+			},
+			"clip": {
+				"description": "Retarda um inimigo.",
+				"display_name": "Grampo"
+			},
+			"consecrated": {
+				"description": "Armadura abençoada aumentando a compaixão.",
+				"display_name": "Consagrado"
+			},
+			"mighty": {
+				"description": "Armadura poderosa.",
+				"display_name": "Poderoso"
+			},
+			"veteran": {
+				"description": "A armadura de um veterano.",
+				"display_name": "Veterano"
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"archer_leather_hood_black": {
+				"description": "Capuz de arqueiro preto.",
+				"display_name": "Capuz de couro do arqueiro preto",
+				"recipe_name": "Capuz de couro preto do arqueiro",
+				"flavor": "Como a noite só mais escura."
+			},
+			"archer_leather_vest_black": {
+				"description": "Armadura do arqueiro preto.",
+				"display_name": "Armadura de Couro do Arqueiro Negro",
+				"recipe_name": "Conjunto de colete e capuz de couro preto do Archer",
+				"flavor": "Como a noite só mais escura."
+			},
+			"archer_leather_hood_blue": {
+				"description": "Capuz de arqueiro azul escuro.",
+				"display_name": "Capuz de Couro do Arqueiro Azul",
+				"recipe_name": "Capuz de couro azul do arqueiro",
+				"flavor": "Como a noite."
+			},
+			"archer_leather_vest_blue": {
+				"description": "Armadura de arqueiro azul escura.",
+				"display_name": "Armadura de Couro do Arqueiro Azul",
+				"recipe_name": "Conjunto de colete e capuz de couro azul do Archer",
+				"flavor": "Como a noite."
+			},
+			"archer_leather_hood_green": {
+				"description": "Capuz de arqueiro verde escuro.",
+				"display_name": "Capuz de Couro do Arqueiro Verde",
+				"recipe_name": "Capuz de couro verde do arqueiro",
+				"flavor": "Super amadeirado."
+			},
+			"archer_leather_vest_green": {
+				"description": "Armadura de arqueiro verde escura.",
+				"display_name": "Armadura de Couro do Arqueiro Verde",
+				"recipe_name": "Conjunto de colete e capuz de couro verde do arqueiro",
+				"flavor": "Super amadeirado."
+			},
+			"archer_leather_hood_red": {
+				"description": "Capuz de arqueiro vermelho escuro.",
+				"display_name": "Capuz de Couro do Arqueiro Vermelho",
+				"recipe_name": "Capuz de couro vermelho do arqueiro",
+				"flavor": "Provavelmente não tão furtivo, mas com uma aparência muito legal."
+			},
+			"archer_leather_vest_red": {
+				"description": "Armadura de arqueiro vermelha escura.",
+				"display_name": "Armadura de Couro do Arqueiro Vermelho",
+				"recipe_name": "Conjunto de colete e capuz de couro vermelho do Archer",
+				"flavor": "Provavelmente não tão furtivo, mas com uma aparência muito legal."
+			},
+			"archer_leather_hood_white": {
+				"description": "Capuz de arqueiro branco.",
+				"display_name": "Capuz de couro do arqueiro branco",
+				"recipe_name": "Capuz de couro branco do arqueiro",
+				"flavor": "Fresco sob o sol."
+			},
+			"archer_leather_vest_white": {
+				"description": "Armadura de arqueiro branca.",
+				"display_name": "Armadura de Couro do Arqueiro Branco",
+				"recipe_name": "Conjunto de colete e capuz de couro branco do Archer",
+				"flavor": "Fresco sob o sol."
+			},
+			"blade_offhand": {
+				"description": "A defesa improvisada da lâmina.",
+				"display_name": "Lâmina de improviso",
+				"recipe_name": "Conjunto de colete e capuz de couro branco do Archer",
+				"flavor": "Fresco sob o sol."
+			},
+			"blade_talisman": {
+				"description": "A defesa improvisada da lâmina.",
+				"display_name": "Talismã da Lâmina",
+				"recipe_name": "Usado para promover uma lâmina",
+				"flavor": "Apunhalar, esfaquear, esfaquear."
+			},
+			"bronze_breastplate_black": {
+				"description": "Peitoral de bronze preto.",
+				"display_name": "Peitoral de Bronze Preto",
+				"recipe_name": "Peitoral Preto Bronze",
+				"flavor": "Proteção robusta contra as provações da natureza."
+			},
+			"bronze_breastplate_green": {
+				"description": "Peitoral de bronze verde.",
+				"display_name": "Peitoral de Bronze Verde",
+				"recipe_name": "Peitoral Verde Bronze",
+				"flavor": "Proteção robusta contra as provações da natureza."
+			},
+			"bronze_breastplate_red": {
+				"description": "Peitoral de bronze vermelho.",
+				"display_name": "Peitoral de Bronze Vermelho",
+				"recipe_name": "Peitoral Vermelho Bronze",
+				"flavor": "Proteção robusta contra as provações da natureza."
+			},
+			"bronze_breastplate_white": {
+				"description": "Peitoral de bronze branco.",
+				"display_name": "Peitoral de Bronze Branco",
+				"recipe_name": "Peitoral Branco Bronze",
+				"flavor": "Proteção robusta contra as provações da natureza."
+			},
+			"bronze_helm_black": {
+				"description": "Capacete de bronze preto.",
+				"display_name": "Capacete de Bronze Preto",
+				"recipe_name": "Capacete Preto Bronze",
+				"flavor": "Proteção de cabeça robusta contra as provações da natureza."
+			},
+			"bronze_helm_green": {
+				"description": "Capacete de bronze verde.",
+				"display_name": "Capacete de Bronze Verde",
+				"recipe_name": "Capacete Bronze Verde",
+				"flavor": "Proteção de cabeça robusta contra as provações da natureza."
+			},
+			"bronze_helm_red": {
+				"description": "Capacete de bronze vermelho.",
+				"display_name": "Capacete de Bronze Vermelho",
+				"recipe_name": "Capacete Vermelho Bronze",
+				"flavor": "Proteção de cabeça robusta contra as provações da natureza."
+			},
+			"bronze_helm_white": {
+				"description": "Capacete de bronze branco.",
+				"display_name": "Capacete de Bronze Branco",
+				"recipe_name": "Capacete Branco Bronze",
+				"flavor": "Proteção de cabeça robusta contra as provações da natureza."
+			},
+			"cleric_outfit_black": {
+				"description": "Traje de clérigo negro.",
+				"display_name": "Traje de Clérigo Negro",
+				"recipe_name": "Traje de clérigo preto",
+				"flavor": "Cura!"
+			},
+			"cleric_outfit_blue": {
+				"description": "Traje de clérigo azul.",
+				"display_name": "Traje de clérigo azul",
+				"recipe_name": "Roupa de clérigo azul",
+				"flavor": "Cura!"
+			},
+			"cleric_outfit_green": {
+				"description": "Traje de clérigo verde.",
+				"display_name": "Traje Verde de Clérigo",
+				"recipe_name": "Roupa de clérigo verde",
+				"flavor": "Cura!"
+			},
+			"cleric_outfit_red": {
+				"description": "Traje de clérigo vermelho.",
+				"display_name": "Traje de Clérigo Vermelho",
+				"recipe_name": "Traje de clérigo vermelho",
+				"flavor": "Cura!"
+			},
+			"cleric_outfit_white": {
+				"description": "Traje de clérigo branco.",
+				"display_name": "Traje de clérigo branco",
+				"recipe_name": "Traje de clérigo branco",
+				"flavor": "Cura!"
+			},
+			"cleric_padded_vest_black": {
+				"description": "Um colete de clérigo acolchoado preto.",
+				"display_name": "Colete Preto Acolchoado",
+				"recipe_name": "Colete Preto Acolchoado do Clérigo",
+				"flavor": "Uma bênção em preto."
+			},
+			"cleric_padded_vest_blue": {
+				"description": "Um colete de clérigo acolchoado azul.",
+				"display_name": "Colete de clérigo acolchoado azul",
+				"recipe_name": "Colete Azul Acolchoado do Clérigo",
+				"flavor": "Uma bênção em azul."
+			},
+			"cleric_padded_vest_green": {
+				"description": "Um colete de clérigo acolchoado verde.",
+				"display_name": "Colete de clérigo acolchoado verde",
+				"recipe_name": "Colete Verde Acolchoado do Clérigo",
+				"flavor": "Uma bênção em verde."
+			},
+			"cleric_padded_vest_red": {
+				"description": "Um colete de clérigo acolchoado vermelho.",
+				"display_name": "Colete de clérigo acolchoado vermelho",
+				"recipe_name": "Colete Vermelho Acolchoado do Clérigo",
+				"flavor": "Uma bênção em vermelho."
+			},
+			"cleric_padded_vest_white": {
+				"description": "Um colete de clérigo acolchoado branco.",
+				"display_name": "Colete de clérigo acolchoado branco",
+				"recipe_name": "Colete Branco Acolchoado do Clérigo",
+				"flavor": "Uma bênção em branco."
+			},
+			"cloth_padded_helmet_black": {
+				"description": "Capacete acolchoado preto.",
+				"display_name": "Capacete acolchoado preto",
+				"recipe_name": "Capacete Preto Acolchoado",
+				"flavor": "Um pouco mais de proteção para a cabeça do que nada."
+			},
+			"cloth_padded_helmet_green": {
+				"description": "Capacete acolchoado verde.",
+				"display_name": "Capacete acolchoado verde",
+				"recipe_name": "Capacete Verde Acolchoado",
+				"flavor": "Um pouco mais de proteção para a cabeça do que nada."
+			},
+			"cloth_padded_helmet_red": {
+				"description": "Capacete acolchoado vermelho.",
+				"display_name": "Capacete acolchoado vermelho",
+				"recipe_name": "Capacete Vermelho Acolchoado",
+				"flavor": "Um pouco mais de proteção para a cabeça do que nada."
+			},
+			"cloth_padded_helmet_white": {
+				"description": "Capacete acolchoado branco.",
+				"display_name": "Capacete acolchoado branco",
+				"recipe_name": "Capacete Branco Acolchoado",
+				"flavor": "Um pouco mais de proteção para a cabeça do que nada."
+			},
+			"cloth_padded_vest_black": {
+				"description": "Colete acolchoado preto.",
+				"display_name": "Colete Preto Acolchoado",
+				"recipe_name": "Colete Preto Acolchoado",
+				"flavor": "Um pouco mais de proteção do que nada."
+			},
+			"cloth_padded_vest_green": {
+				"description": "Colete acolchoado verde.",
+				"display_name": "Colete Verde Acolchoado",
+				"recipe_name": "Colete Verde Acolchoado",
+				"flavor": "Um pouco mais de proteção do que nada."
+			},
+			"cloth_padded_vest_red": {
+				"description": "Colete acolchoado vermelho.",
+				"display_name": "Colete acolchoado vermelho",
+				"recipe_name": "Colete Vermelho Acolchoado",
+				"flavor": "Um pouco mais de proteção do que nada."
+			},
+			"cloth_padded_vest_white": {
+				"description": "Colete acolchoado branco.",
+				"display_name": "Colete Branco Acolchoado",
+				"recipe_name": "Colete Branco Acolchoado",
+				"flavor": "Um pouco mais de proteção do que nada."
+			},
+			"iron_helm_black": {
+				"description": "Capacete de ferro preto.",
+				"display_name": "Capacete de Ferro Negro",
+				"recipe_name": "Capacete Negro de Ferro",
+				"flavor": "Um capacete de ferro ou uma panela em circunstâncias terríveis."
+			},
+			"iron_helm_green": {
+				"description": "Capacete de ferro verde.",
+				"display_name": "Capacete de Ferro Verde",
+				"recipe_name": "Capacete Verde Ferro",
+				"flavor": "Um capacete de ferro ou uma panela em circunstâncias terríveis."
+			},
+			"iron_helm_red": {
+				"description": "Capacete de ferro vermelho.",
+				"display_name": "Capacete de Ferro Vermelho",
+				"recipe_name": "Capacete Vermelho de Ferro",
+				"flavor": "Um capacete de ferro ou uma panela em circunstâncias terríveis."
+			},
+			"iron_helm_white": {
+				"description": "Capacete de ferro branco.",
+				"display_name": "Capacete de Ferro Branco",
+				"recipe_name": "Capacete Branco de Ferro",
+				"flavor": "Um capacete de ferro ou uma panela em circunstâncias terríveis."
+			},
+			"iron_mail_black": {
+				"description": "Correio de ferro preto.",
+				"display_name": "Correio de Ferro Negro",
+				"recipe_name": "Correio Negro de Ferro",
+				"flavor": "Pesado e barulhento."
+			},
+			"iron_mail_black_fine": {
+				"description": "Cota fina de ferro preto.",
+				"display_name": "Correio de ferro preto fino",
+				"recipe_name": "Correio preto de ferro fino",
+				"flavor": "Pesado e barulhento."
+			},
+			"iron_mail_green": {
+				"description": "Correio de ferro verde.",
+				"display_name": "Correio Ferro Verde",
+				"recipe_name": "Correio Verde Ferro",
+				"flavor": "Pesado e barulhento."
+			},
+			"iron_mail_red": {
+				"description": "Correio de ferro vermelho.",
+				"display_name": "Correio Ferro Vermelho",
+				"recipe_name": "Correio Vermelho Ferro",
+				"flavor": "Pesado e barulhento."
+			},
+			"iron_mail_white": {
+				"description": "Correio de ferro branco.",
+				"display_name": "Correio de Ferro Branco",
+				"recipe_name": "Correio Branco de Ferro",
+				"flavor": "Pesado e barulhento."
+			},
+			"iron_mail_white_fine": {
+				"description": "Correio de ferro branco fino.",
+				"display_name": "Correio de ferro branco fino",
+				"recipe_name": "Correio Branco de Ferro Fino",
+				"flavor": "Pesado e barulhento."
+			},
+			"iron_shield_black": {
+				"description": "Escudo de ferro estampado preto.",
+				"display_name": "Escudo Negro de Ferro",
+				"recipe_name": "Escudo Negro de Ferro",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"iron_shield_blue": {
+				"description": "Escudo de ferro brasonado azul.",
+				"display_name": "Escudo Azul de Ferro",
+				"recipe_name": "Escudo Azul de Ferro",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"iron_shield_green": {
+				"description": "Escudo de ferro brasonado verde.",
+				"display_name": "Escudo Verde Ferro",
+				"recipe_name": "Escudo Verde Ferro",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"iron_shield_red": {
+				"description": "Escudo de ferro estampado vermelho.",
+				"display_name": "Escudo Vermelho Ferro",
+				"recipe_name": "Escudo Vermelho Ferro",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"iron_shield_white": {
+				"description": "Escudo de ferro brasonado branco.",
+				"display_name": "Escudo Branco de Ferro",
+				"recipe_name": "Escudo Branco de Ferro",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"leather_helmet_black": {
+				"description": "Capacete de couro preto.",
+				"display_name": "Capacete de couro preto",
+				"recipe_name": "Capacete de couro preto",
+				"flavor": "Tem cheiro de bota velha."
+			},
+			"leather_helmet_green": {
+				"description": "Capacete de couro verde.",
+				"display_name": "Capacete de Couro Verde",
+				"recipe_name": "Capacete de Couro Verde",
+				"flavor": "Tem cheiro de bota velha."
+			},
+			"leather_helmet_red": {
+				"description": "Capacete de couro vermelho.",
+				"display_name": "Capacete de Couro Vermelho",
+				"recipe_name": "Capacete de Couro Vermelho",
+				"flavor": "Tem cheiro de bota velha."
+			},
+			"leather_helmet_white": {
+				"description": "Capacete de couro branco.",
+				"display_name": "Capacete de Couro Branco",
+				"recipe_name": "Capacete de Couro Branco",
+				"flavor": "Tem cheiro de bota velha."
+			},
+			"leather_vest_black": {
+				"description": "Colete de couro preto.",
+				"display_name": "Colete de Couro Preto",
+				"recipe_name": "Colete de Couro Preto",
+				"flavor": "Enganosamente mais proteção do que nada."
+			},
+			"leather_vest_green": {
+				"description": "Colete de couro verde.",
+				"display_name": "Colete de Couro Verde",
+				"recipe_name": "Colete de Couro Verde",
+				"flavor": "Enganosamente mais proteção do que nada."
+			},
+			"leather_vest_red": {
+				"description": "Colete de couro vermelho.",
+				"display_name": "Colete de Couro Vermelho",
+				"recipe_name": "Colete de Couro Vermelho",
+				"flavor": "Enganosamente mais proteção do que nada."
+			},
+			"leather_vest_white": {
+				"description": "Colete de couro branco.",
+				"display_name": "Colete de Couro Branco",
+				"recipe_name": "Colete de Couro Branco",
+				"flavor": "Enganosamente mais proteção do que nada."
+			},
+			"main_gauche": {
+				"description": "Uma lâmina defensiva mais robusta.",
+				"display_name": "Main-Gauche",
+				"recipe_name": "Main-Gauche",
+				"flavor": "Literalmente melhor que a mão esquerda."
+			},
+			"silver_helmet_black": {
+				"description": "Capacete prata preto.",
+				"display_name": "Capacete Prata Preto",
+				"recipe_name": "Capacete Preto Prateado",
+				"flavor": "Elegante e fresco?"
+			},
+			"silver_helmet_blue": {
+				"description": "Capacete azul prateado.",
+				"display_name": "Capacete Azul Prata",
+				"recipe_name": "Capacete Azul Prata",
+				"flavor": "Espera é prata ou azul?"
+			},
+			"silver_helmet_green": {
+				"description": "Capacete prateado verde.",
+				"display_name": "Capacete de Prata Verde",
+				"recipe_name": "Capacete Verde Prata",
+				"flavor": "Espera é prata ou verde?"
+			},
+			"silver_helmet_white": {
+				"description": "Capacete branco prateado.",
+				"display_name": "Capacete de Prata Branco",
+				"recipe_name": "Capacete prateado",
+				"flavor": "Espera é prata ou branco?"
+			},
+			"silver_mail_black": {
+				"description": "Correio de prata preta.",
+				"display_name": "Correio Prata Preto",
+				"recipe_name": "Black Mail Prata",
+				"flavor": "Alguns dos melhores em trajes defensivos da moda. De preto."
+			},
+			"silver_mail_black_fine": {
+				"description": "Bela cota de malha de prata preta.",
+				"display_name": "Correio de prata preto fino",
+				"recipe_name": "Correio preto fino de prata",
+				"flavor": "O melhor em trajes defensivos da moda. De preto."
+			},
+			"silver_mail_blue": {
+				"description": "Correio de prata azul.",
+				"display_name": "Correio Azul Prata",
+				"recipe_name": "Correio Azul Prata",
+				"flavor": "Alguns dos melhores em trajes defensivos da moda. Em azul."
+			},
+			"silver_mail_green": {
+				"description": "Correio prateado verde.",
+				"display_name": "Correio Prata Verde",
+				"recipe_name": "Correio Verde Prata",
+				"flavor": "Alguns dos melhores em trajes defensivos da moda. Em verde."
+			},
+			"silver_mail_white": {
+				"description": "Correio prateado branco.",
+				"display_name": "Correio Prateado Branco",
+				"recipe_name": "Correio Branco Prata",
+				"flavor": "Alguns dos melhores em trajes defensivos da moda. Em branco."
+			},
+			"silver_mail_white_fine": {
+				"description": "Bela malha de prata branca.",
+				"display_name": "Correio de prata branco fino",
+				"recipe_name": "Correio Branco Prata Fino",
+				"flavor": "O melhor em trajes defensivos da moda. Em branco."
+			},
+			"steel_helmet_black": {
+				"description": "Capacete de aço preto.",
+				"display_name": "Capacete de Aço Preto",
+				"recipe_name": "Capacete Preto de Aço",
+				"flavor": "Capacete muito pesado e caro."
+			},
+			"steel_helmet_blue": {
+				"description": "Capacete de aço azul.",
+				"display_name": "Capacete de Aço Azul",
+				"recipe_name": "Capacete Azul Aço",
+				"flavor": "Capacete muito pesado e caro."
+			},
+			"steel_helmet_green": {
+				"description": "Capacete de aço verde.",
+				"display_name": "Capacete de Aço Verde",
+				"recipe_name": "Capacete Verde Aço",
+				"flavor": "Capacete muito pesado e caro."
+			},
+			"steel_helmet_white": {
+				"description": "Capacete de aço branco.",
+				"display_name": "Capacete de Aço Branco",
+				"recipe_name": "Capacete Branco de Aço",
+				"flavor": "Capacete muito pesado e caro."
+			},
+			"steel_mail_black": {
+				"description": "Correio de aço preto.",
+				"display_name": "Correio de Aço Negro",
+				"recipe_name": "Correio Negro de Aço",
+				"flavor": "Super durável e super pesado."
+			},
+			"steel_mail_blue": {
+				"description": "Correio de aço azul.",
+				"display_name": "Correio de Aço Azul",
+				"recipe_name": "Correio Azul Aço",
+				"flavor": "Super durável e super pesado."
+			},
+			"steel_mail_green": {
+				"description": "Correio de aço verde.",
+				"display_name": "Correio de Aço Verde",
+				"recipe_name": "Correio Verde Aço",
+				"flavor": "Super durável e super pesado."
+			},
+			"steel_mail_white": {
+				"description": "Correio de aço branco.",
+				"display_name": "Correio de Aço Branco",
+				"recipe_name": "Correio Branco de Aço",
+				"flavor": "Super durável e super pesado."
+			},
+			"steel_shield_black": {
+				"description": "Escudo de ferro estampado preto.",
+				"display_name": "Escudo Negro de Aço",
+				"recipe_name": "Escudo Negro de Aço",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"steel_shield_blue": {
+				"description": "Escudo de ferro brasonado azul.",
+				"display_name": "Escudo Azul Aço",
+				"recipe_name": "Escudo Azul Aço",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"steel_shield_green": {
+				"description": "Escudo de ferro brasonado verde.",
+				"display_name": "Escudo Verde Aço",
+				"recipe_name": "Escudo Verde Aço",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"steel_shield_red": {
+				"description": "Escudo de ferro estampado vermelho.",
+				"display_name": "Escudo Vermelho de Aço",
+				"recipe_name": "Escudo Vermelho de Aço",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"steel_shield_white": {
+				"description": "Escudo de ferro brasonado branco.",
+				"display_name": "Escudo Branco de Aço",
+				"recipe_name": "Escudo Branco de Aço",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"wooden_shield_black": {
+				"description": "Escudo de ferro estampado preto.",
+				"display_name": "Escudo Preto de Madeira",
+				"recipe_name": "Escudo Preto de Madeira",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"wooden_shield_blue": {
+				"description": "Escudo de ferro brasonado azul.",
+				"display_name": "Escudo Azul de Madeira",
+				"recipe_name": "Escudo Azul de Madeira",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"wooden_shield_green": {
+				"description": "Escudo de ferro brasonado verde.",
+				"display_name": "Escudo Verde de Madeira",
+				"recipe_name": "Escudo Verde de Madeira",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"wooden_shield_red": {
+				"description": "Escudo de ferro estampado vermelho.",
+				"display_name": "Escudo Vermelho de Madeira",
+				"recipe_name": "Escudo Vermelho de Madeira",
+				"flavor": "Um escudo de ferro brasonado."
+			},
+			"wooden_shield_white": {
+				"description": "Escudo de ferro brasonado branco.",
+				"display_name": "Escudo Branco de Madeira",
+				"recipe_name": "Escudo Branco de Madeira",
+				"flavor": "Um escudo de ferro brasonado."
+			}
+		},
+		"refined": {
+			"tonic_bonding": {
+				"description": "Um agente de ligação para argila.",
+				"display_name": "Tônico de Ligação",
+				"recipe_name": "Tônico de Ligação",
+				"flavor": "Bem, cheira horrível.",
+				"bulletin_title": ""
+			},
+			"tonic_hardening": {
+				"description": "Um agente de endurecimento para argila.",
+				"display_name": "Tônico de Endurecimento",
+				"recipe_name": "Tônico de Endurecimento",
+				"flavor": "Não tão rançoso, mas NÃO beba."
+			},
+			"tonic_imbuing": {
+				"description": "Um agente para imbuir argila com propriedades especiais.",
+				"display_name": "Tônico de Imersão",
+				"recipe_name": "Tônico de Imersão",
+				"flavor": "Estranhamente agradável de se ver."
+			}
+		},
+		"weapons": {
+			"ahlspiess": {
+				"description": "Tipo de lúcio Ahlspiess.",
+				"display_name": "Pique Ahlspiess",
+				"recipe_name": "Pique Ahlspiess",
+				"flavor": "Tão pontudo."
+			},
+			"bronze_axe": {
+				"description": "Um machado de bronze.",
+				"display_name": "Machado de Bronze",
+				"recipe_name": "Machado de Bronze",
+				"flavor": "Não para cortar madeira."
+			},
+			"ghameh": {
+				"description": "Espada curta Ghameh.",
+				"display_name": "Espada Curta Ghameh",
+				"recipe_name": "Espada Curta Ghameh",
+				"flavor": "Curto, reto e mortal."
+			},
+			"iron_axe": {
+				"description": "Um machado de ferro.",
+				"display_name": "Machado de Ferro",
+				"recipe_name": "Machado de Ferro",
+				"flavor": "Usado para derrubar inimigos."
+			},
+			"iron_hammer": {
+				"description": "Um martelo de ferro.",
+				"display_name": "Martelo de Ferro",
+				"recipe_name": "Martelo de Ferro",
+				"flavor": "Eu te mato."
+			},
+			"khopesh": {
+				"description": "Um khopesh de bronze.",
+				"display_name": "Bronze Khopesh",
+				"recipe_name": "Bronze Khopesh",
+				"flavor": "Assustador tanto para o trigo quanto para os inimigos."
+			},
+			"kilij": {
+				"description": "Uma espada longa curvada kilij.",
+				"display_name": "Kilij Espada Longa",
+				"recipe_name": "Kilij Espada Longa",
+				"flavor": "Como um bumerangue, mas não para arremessar."
+			},
+			"kriegsmesser": {
+				"description": "Um kriegsmesser de duas mãos.",
+				"display_name": "Espada de duas mãos Kriegsmesser",
+				"recipe_name": "Espada de duas mãos Kriegsmesser",
+				"flavor": "Assustador além de toda crença."
+			},
+			"kriegsmesser_fine": {
+				"description": "Um bom kriegsmesser de duas mãos.",
+				"display_name": "Espada fina de duas mãos Kriegsmesser",
+				"recipe_name": "Espada fina de duas mãos Kriegsmesser",
+				"flavor": "Ainda mais aterrorizante."
+			},
+			"macuahuitl": {
+				"description": "Clay macuahuitl clube.",
+				"display_name": "Clay Macuahuitl",
+				"recipe_name": "Clay Macuahuitl",
+				"flavor": "Arma de corte pesada feita de argila endurecida. Tem o potencial de retardar um inimigo."
+			},
+			"naue": {
+				"description": "Espada de bronze Naue.",
+				"display_name": "Nau de Bronze",
+				"recipe_name": "Nau de Bronze",
+				"flavor": "Arma curta e brilhante."
+			},
+			"prismatic_blade": {
+				"description": "Lâmina prismática de barro.",
+				"display_name": "Lâmina Prismática de Argila",
+				"recipe_name": "Lâmina Prismática de Argila",
+				"flavor": "Argila imbuída tão afiada quanto aço. Tem o potencial de retardar um inimigo."
+			},
+			"prismatic_claymore": {
+				"description": "Claymore prismático de argila.",
+				"display_name": "Clay Argila Prismática Claymore",
+				"recipe_name": "Clay Argila Prismática Claymore",
+				"flavor": "Mais argila impregnada, afiada como aço. Tem o potencial de retardar um inimigo."
+			},
+			"ringspatha": {
+				"description": "Espada longa do anel-spatha.",
+				"display_name": "Espada Longa Anel-Spatha",
+				"recipe_name": "Espada Longa Anel-Spatha",
+				"flavor": "Spatha com um anel... para prender as coisas."
+			},
+			"scimitar": {
+				"description": "Cimitarra de duas mãos.",
+				"display_name": "Espada de Duas Mãos Cimitarra",
+				"recipe_name": "Espada de Duas Mãos Cimitarra",
+				"flavor": "Linda e afiada."
+			},
+			"scimitar_fine": {
+				"description": "Cimitarra de duas mãos fina.",
+				"display_name": "Espada de duas mãos de cimitarra fina",
+				"recipe_name": "Espada de duas mãos de cimitarra fina",
+				"flavor": "Ainda mais bonito e tão afiado."
+			},
+			"seax": {
+				"description": "Espada curta Seax.",
+				"display_name": "Espada Curta Seax",
+				"recipe_name": "Espada Curta Seax",
+				"flavor": "Um cutelo como uma espada esfaqueada."
+			},
+			"sovnya": {
+				"description": "Pique Sovnya.",
+				"display_name": "Pique Sovnya",
+				"recipe_name": "Pique Sovnya",
+				"flavor": "Ótimo para manter goblins longe."
+			},
+			"steel_axe": {
+				"description": "Um machado de aço de duas mãos.",
+				"display_name": "Machado de Aço",
+				"recipe_name": "Machado de Aço",
+				"flavor": "Usado para cortar o que quiser."
+			},
+			"turk_bow": {
+				"display_name": "arco recurvo bronzeado",
+				"description": "Curvo para tiros mais rápidos e mais fortes",
+				"recipe_name": "Arco Recurvo Bronzeado",
+				"flavor": "Ótimo para manter goblins longe de uma distância."
+			},
+			"warclub": {
+				"description": "Clube de guerra de barro.",
+				"display_name": "Clay Warclub",
+				"recipe_name": "Clay Warclub",
+				"flavor": "Clube de guerra de barro colado. Tem o potencial de retardar um inimigo."
+			},
+			"warmace": {
+				"description": "Maça de guerra de barro.",
+				"display_name": "Maça de Guerra de Barro",
+				"recipe_name": "Maça de Guerra de Barro",
+				"flavor": "Maça de guerra de barro endurecido. Tem o potencial de retardar um inimigo."
+			},
+			"war_bow": {
+				"display_name": "arco recurvo cinza",
+				"description": "Curvo para tiros mais rápidos e mais fortes",
+				"recipe_name": "Arco Recurvo Cinza",
+				"flavor": "Ótimo para manter goblins longe de uma distância."
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"black_name": "Armadura Negra",
+				"blue_name": "Armadura Azul",
+				"green_name": "Armadura Verde",
+				"red_name": "Armadura Vermelha",
+				"white_name": "Armadura Branca",
+				"yellow_name": "Armadura Amarela"
+			}
+		},
+		"blade": {
+			"blade_outfit": {
+				"display_name": "Armadura da Lâmina",
+				"description": "Armadura endurecida usada por um especialista em lâminas."
+			},
+			"blade_description": {
+				"display_name": "Lâmina",
+				"description": "Um combatente defensivo focado em proteger aliados de danos com um par de lâminas.",
+				"requirements": "Feito por Potter",
+				"level_1_data": {
+					"perk_000_name": "Fortalecer",
+					"perk_001_name": "Nível 1 de Redução de Dano",
+					"perk_000_description": "Aumenta Stamina, Courage e chama a atenção dos monstros.",
+					"perk_001_description": "A lâmina ganha uma defesa adicional de 5% do equipamento."
+				},
+				"level_4_data": {
+					"perk_000_name": "Nível 2 de Redução de Dano",
+					"perk_000_description": "A lâmina ganha 10% de armadura adicional do equipamento."
+				},
+				"level_3_data": {
+					"perk_000_name": "Fortificar (Nível 2)",
+					"perk_000_description": "Vigor e Coragem aumentaram muito."
+				},
+				"level_5_data": {
+					"perk_000_name": "Presença inspiradora",
+					"perk_000_description": "A lâmina aumenta a coragem de todos ao redor."
+				},
+				"level_2_data": {
+					"perk_000_name": "Gritar",
+					"perk_000_description": "A lâmina intimida o oponente, chamando a atenção dos inimigos próximos.",
+					"perk_001_name": "Zeloso",
+					"perk_001_description": "A lâmina entra em batalha com velocidade."
+				},
+				"level_6_data": {
+					"perk_000_name": "Chifre do Herói",
+					"perk_000_description": "A lâmina soa uma buzina de combate, chamando a atenção dos inimigos próximos e distantes."
+				}
+			},
+			"blade_buffs": {
+				"defense_1_buff": {
+					"display_name": "Defesa em 5%",
+					"description": "Defesa ganha de equipamento aumentada em 5%."
+				},
+				"defense_2_buff": {
+					"display_name": "Defesa em 10%",
+					"description": "A defesa ganha do equipamento aumentou em 10%."
+				},
+				"health_1_buff": {
+					"display_name": "Fortalecer",
+					"description": "A lâmina torna-se mais ameaçadora para os inimigos, chamando sua atenção em combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
+				},
+				"health_2_buff": {
+					"display_name": "Fortificar (Nível 2)",
+					"description": "Mais rápido, mais furioso."
+				},
+				"courage_aura_buff": {
+					"display_name": "Presença inspiradora",
+					"description": "A lâmina aumenta a coragem de todos ao redor."
+				},
+				"courage_aura_effect_buff": {
+					"display_name": "Inspirado",
+					"description": "A coragem aumentou com a presença de uma lâmina."
+				}
+			},
+			"blade_helm": {
+				"display_name": "Elmo da Lâmina",
+				"description": "Problema padrão do arnês imbuído para todas as lâminas."
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"mixes_name": "Misturas"
+			}
+		},
+		"potter": {
+			"recipes": {
+				"weapons_name": "Armas",
+				"offhands_name": "Armas Secundárias",
+				"blade_offhand_recipe": {
+					"recipe_name": "Lâmina de improviso",
+					"description": "Necessário para promover um Hearthling em um Blade."
+				}
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"black_name": "Armadura Negra",
+				"blue_name": "Armadura Azul",
+				"green_name": "Armadura Verde",
+				"red_name": "Armadura Vermelha",
+				"white_name": "Armadura Branca",
+				"yellow_name": "Armadura Amarela"
+			}
+		}
+	}
+}
