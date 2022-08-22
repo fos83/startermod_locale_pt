@@ -80,6 +80,7 @@ ACE Armours Core
 Ballista Turret
 Bazaar
 Beam - Hearthling Stats Customization
+Box O' Vox
 Candledark
 Extra Easy Mode
 Glowy Windows
@@ -93,5 +94,6 @@ Miner Profession
 Norsehearth
 Settlement Decor
 Specialized Loadouts
+special_food(神奇的食物)
 Taiga Biome
 Tropic of Unicorn

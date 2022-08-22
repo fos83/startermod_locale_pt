@@ -1,0 +1,1491 @@
+{
+	"ui": {
+		"game": {
+			"zones_mode": {
+				"stockpile": {
+					"filters": {
+						"science": "Ciência",
+						"book": "Livro",
+						"technology_point": "Ponto de Tecnologia",
+						"mechanical_parts": "Partes mecânicas",
+						"essence": "Essência",
+						"magic": "Magia"
+					}
+				}
+			},
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"bounty_hunter": {
+							"display_name": "Caçador de Recompensa",
+							"description": "Receba um aviso de procurado e publique-o na cidade",
+							"required_job_text": "Precisa de um caçador de recompensas"
+						},
+						"book_holder": {
+							"display_name": "Titular do livro",
+							"description": "Integração, usando livros",
+							"required_job_text": "Precisa de um porta-livros"
+						}
+					}
+				}
+			}
+		},
+		"data": {
+			"constants": {
+				"powder": "Pó comestível",
+				"essence": "Qualquer Essência"
+			},
+			"gm": {
+				"campaigns": {
+					"encounters": {
+						"say_hello_to_mr_green_tea": {
+							"tea_intro": {
+								"dialog_tree_info": {
+									"dialog_nodes": {
+										"wake_up_tea": {
+											"title": "Acorde Sr. Chá Verde",
+											"dialog_title": "Acorde Sr. Chá Verde",
+											"text": "Volte quando encontrar alguns problemas insolúveis，E não perca o chá verde do Sr.!"
+										},
+										"msg1": {
+											"bulletin_title": "Da grama veio uma xícara de chá?",
+											"bulletin_message": {
+												"00": "Bom Dia a todos! Fui despertado do meu longo sono novamente!<br> Espere, quem é você? Um grupo de moradores primitivos de terrenos baldios marginais?<br>É realmente interessante que nós, artefatos, pudéssemos ver civis como você durante o próspero império. É realmente estranho! Por que, você não quer saber o que eu sou?"
+											},
+											"choice_001": "Império? Artefatos? O que você está falando?",
+											"choice_002": "Não se preocupe com o que você ouviu, feito pelo homem - Mr. Green Tea (pule a história)"
+										},
+										"story1": {
+											"bulletin_title": "Mr. Green Tea disse lentamente",
+											"bulletin_message": {
+												"00": "Eu sou o Sr. Chá Verde, uma ciência popular desenvolvida por grandes cientistas imperiais para a criação humana! Em suma, ele é um estudioso com sabedoria extraordinária! Se necessário, posso responder a todas as suas perguntas!<br>No entanto, parece que não há nenhum cientista inteligente em sua equipe. Parece que essa será uma tarefa difícil de popularização da ciência..."
+											},
+											"choice_001": "Então eu tenho algumas perguntas a dizer"
+										},
+										"story2": {
+											"bulletin_title": "Mr. Green Tea espera por perguntas",
+											"bulletin_message": {
+												"00": "<font size=2 color='#cccccc'> Sr. Chá verde está esperando sua pergunta"
+											},
+											"choice_001": "O que você está?",
+											"choice_002": "Como posso obter algumas máquinas importantes?"
+										},
+										"story3": {
+											"bulletin_title": "Mr. Green Tea disse lentamente",
+											"bulletin_message": {
+												"00": "Alguns moradores rurais querem essas máquinas preciosas e raras? Isso é realmente estranho, mas não é impossível!<br>Além de nossos artefatos científicos populares, existem alguns grandes homens responsáveis ​​por espalhar a tecnologia de fabricação andando neste continente. Se você quiser obter alguns componentes mecânicos preciosos, vá treinar uma boa mão no uso de mecanismos<br><font size=5>Esses grandalhões gostam de ouvir o som das engrenagens!"
+											},
+											"choice_001": "Então eu tenho algumas perguntas",
+											"choice_002": "por enquanto não tenho problema"
+										},
+										"story4": {
+											"bulletin_title": "Mr. Green Tea disse lentamente",
+											"bulletin_message": {
+												"00": "Eu sou o Sr. Chá Verde. O corpo artificial desenvolvido por grandes cientistas imperiais é um recipiente para armazenar sabedoria. Você pode pensar nisso como um livro falado<br>Grandes cientistas nos fizeram para transferir conhecimento valioso para todos no nível básico, para que todos possam desfrutar do poder da ciência e da tecnologia<br>Quando há um poderoso e cientista inteligente entre vocês, nossa missão terminará e continuará a cair em sono profundo até que todas as pessoas do mundo possam desfrutar do evangelho criado pelos cientistas."
+											}
+										},
+										"story5": {
+											"bulletin_title": "Mr. Green Tea se mexeu e parecia estar desligando",
+											"bulletin_message": {
+												"00": "Então, com o propósito de economizar energia, vou dormir novamente.<br>Não se preocupe, minha missão não terminará até que você guie este acampamento atrasado em uma magnífica cidade científica.<br>Eu ficarei em cidade o tempo todo e me acorde se houver algum problema."
+											},
+											"choice_001": "Obrigado, Sr. Chá Verde"
+										},
+										"story6": {
+											"bulletin_title": "Sr. Chá Verde reiniciado",
+											"bulletin_message": {
+												"00": "ah que sono confortável!<br>Qual ​​é o problema, meninos trabalhadores? Você tem alguma pergunta a fazer"
+											},
+											"choice_001": "Sim, eu tenho alguns problemas novamente"
+										}
+									}
+								}
+							}
+						},
+						"robot_visit": {
+							"robot_visit_intro": {
+								"dialog_tree_info": {
+									"dialog_nodes": {
+										"msg1": {
+											"bulletin_title": "Um velho robô apareceu lentamente",
+											"bulletin_message": {
+												"00": "'É o som das engrenagens... há muito tempo não ouvia um som tão bonito nesta terra <br> <br> (o robô olha para a lareira com seus olhos danificados) <br> qual organização você é os executores?'"
+											},
+											"choice_001": "'Executor'? O som das engrenagens? Que diabos você é?",
+											"choice_002": "Um grande pote de lata que pode falar!!!!"
+										},
+										"story1": {
+											"bulletin_title": "O robô disse lentamente",
+											"bulletin_message": {
+												"00": "Parece que você não entende o conceito de robô Então isso significa que os nobres do Império Fênix eliminaram todos os 'executores' que se opõem às suas políticas arbitrárias <br> então, por favor, permita-me me apresentar novamente. Meu nome é N1. Eu sou um dos membros da equipe de investigação científica subterrânea do Império Fênix e um dos produtos de suas muitas pesquisas científicas <br> quando os pesquisadores científicos finalmente me designaram para a borda do continente, eles me avisaram para manter suas pesquisas resultados para as gerações futuras, e agora eu te encontro"
+											},
+											"choice_001": "Parece bom"
+										},
+										"story2": {
+											"bulletin_title": "O globo ocular vermelho danificado do N1 brilhou de repente",
+											"bulletin_message": {
+												"00": "Estou enterrado neste continente há muito tempo e partirei em breve. Antes disso, deixe-me passar as conquistas importantes para você <br><br><br><font size=-6 color='#cccccc'> N1. Olhando para a lareira, peguei um grosso livro azul de trás"
+											},
+											"choice_001": "Ouça a hora da história!"
+										},
+										"story3": {
+											"bulletin_title": "N1 está lendo atentamente o conteúdo do livro",
+											"bulletin_message": {
+												"00": "N1 endireitou-se como um missionário devoto, abriu a capa do livro azul e começou a ler em voz alta <br> 'tecnologia - outra forma de expressão de todas as coisas independentes da magia através da transformação artificial, que é um poder novo e potencial'"
+											},
+											"choice_001": "..."
+										},
+										"story4": {
+											"bulletin_title": "N1 está lendo atentamente o conteúdo do livro",
+											"bulletin_message": {
+												"00": "infelizmente, o líder da Fênix rejeitou esse poder que poderia ameaçar seu status, então tivemos que ir para a clandestinidade para trabalhar <br> planejamos organizar forças subterrâneas para derrubar a igreja da Fênix, mas infelizmente nossos instrumentos detectaram que algumas coisas que até mesmo nossos a tecnologia não pode parar vai jorrar do solo em um futuro próximo <br> para garantir que o fogo da tecnologia possa ser preservado, enviamos N1 para a borda do mundo o mais longe possível da antiga capital, E espero que possa espalhar o fogo da ciência e da tecnologia para as gerações futuras. <br> este 《canto de ciência e tecnologia》 contém os projetos e métodos de uso de todas as máquinas. De resto, o N1 pode ajudá-lo. <br><br><font size=-2 color='#cccccc'> até agora - Mel Planck,"
+											},
+											"choice_001": "É chocante..."
+										},
+										"story5": {
+											"bulletin_title": "N1 fechou o livro",
+											"bulletin_message": {
+												"00": "N1 fecha o livro, você parece sentir sua tristeza <br> parece que eu sou o único membro que resta na organização, então devo seguir a tarefa e ensinar o poder da ciência e tecnologia <br> a propósito, deixe seu engenheiros pegam este livro, que um dia terá um papel importante<br><br> N1 se levantou e tirou alguns materiais espalhados do espaço de armazenamento atrás dele"
+											},
+											"choice_001": "Quem são esses?"
+										},
+										"story6": {
+											"bulletin_title": "N1 deu um tapinha na poeira em seu corpo",
+											"bulletin_message": {
+												"00": "Esses objetos podem permitir que seus engenheiros construam a máquina básica mais crítica - serraria, e eu não preciso ficar aqui. Agora não tenho forças para fazer nada <br> N1 entrou em colapso, e o cristal em seus olhos não emitia mais luz vermelha. Este robô forte e solitário finalmente completou sua missão"
+											},
+											"choice_001": "Boa noite, N1"
+										}
+									}
+								}
+							}
+						}
+					},
+					"robot_name": {
+						"persons": {
+							"robot_n1": {
+								"title": "N1, um velho robô muito danificado"
+							}
+						}
+					},
+					"mr_green_tea_name": {
+						"persons": {
+							"mr_green_tea": {
+								"title": "Sr.Greentea, deve ser apenas uma xícara de chá verde"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"book": {
+			"one_page_notes": {
+				"display_name": "Notas de uma página",
+				"description": "Notas do portador"
+			},
+			"percussion_skills": {
+				"display_name": "Habilidades de percussão",
+				"description": "Um livro selvagem e primitivo"
+			},
+			"legend_of_the_monkey": {
+				"display_name": "lenda do macaco",
+				"description": "Um cânone relacionado aos deuses lendários"
+			},
+			"three_little_stone_golem": {
+				"display_name": "Três Golem de Pedra Pequena",
+				"description": "Uma história popular conta que as pessoas podem evitar o perigo criando"
+			},
+			"agricultural_technology_point": {
+				"display_name": "Ponto de Tecnologia Agrícola",
+				"description": "Nossa experiência é sempre extraída da natureza e criada"
+			}
+		},
+		"plants": {
+			"bule_ring_seed": {
+				"display_name": "Semente de Anel Bule",
+				"description": "Uma semente forte que foi enterrada por incontáveis ​​anos e está pronta para romper o solo novamente"
+			}
+		},
+		"spoils": {
+			"stone_core": {
+				"display_name": "Núcleo de Pedra",
+				"description": "Emitindo ondas de energia desconfortáveis"
+			},
+			"police_badge": {
+				"display_name": "Emblema Mágico",
+				"description": "Feito de magia antiga, não parece envelhecer com o passar do tempo"
+			}
+		},
+		"armor": {
+			"outlaw_hat": {
+				"display_name": "chapéu de fora da lei",
+				"description": "A costura é muito apertada, o que é mais adequado para os métodos de ataque dos caçadores de recompensas"
+			},
+			"sheriff_hat": {
+				"display_name": "chapéu de xerife",
+				"description": "Apenas o caçador de recompensas mais poderoso pode combinar este chapéu com poder mágico"
+			}
+		},
+		"wanted_notice": {
+			"strange_stone": {
+				"display_name": "Procura-se o grupo Strange Stone",
+				"description": "Quando o aviso de procurado fica pendurado na cidade, o alvo procurado tem a possibilidade de ser encontrado"
+			},
+			"forest_counterattack": {
+				"display_name": "Contra-ataque na floresta",
+				"description": "Quando o aviso de procurado fica pendurado na cidade, o alvo procurado tem a possibilidade de ser encontrado"
+			}
+		},
+		"landmark": {
+			"summon_ancient_stone_block_rock": {
+				"summon_ancient_stone_block_rock_ghost": {
+					"display_name": "Pedra de Invocação de Pedregulho Ancestral",
+					"description": "Troque os materiais sedimentares adormecidos no antigo subsolo através da complexa magia da terra"
+				}
+			}
+		},
+		"critters": {
+			"marshmallow_sheep": {
+				"marshmallow_sheep": {
+					"display_name": "Ovelha Marshmallow",
+					"description": "Peludo, a lã também pode ser cortada em marshmallows"
+				},
+				"marshmallow_sheep_young": {
+					"display_name": "Ovelha Marshmallow",
+					"description": "Um pouco de sobremesa"
+				}
+			}
+		},
+		"refined": {
+			"gold_silk": {
+				"display_name": "Seda Dourada",
+				"description": "É incrivelmente luxuoso"
+			},
+			"refractory_bricks": {
+				"display_name": "Tijolo refratário",
+				"description": "É um material essencial para a fabricação de alto-forno"
+			},
+			"distillation_mana": {
+				"display_name": "Mana de Destilação",
+				"description": "O líquido mágico puro obtido após tratamento áspero pode atingir a mais alta pureza em teoria atualmente"
+			}
+		},
+		"tool": {
+			"kitchen_knife": {
+				"display_name": "Faca de Cozinha de Ferro",
+				"description": "Precisa de moagem cuidadosa e pode facilmente cortar ossos de animais"
+			},
+			"pan": {
+				"display_name": "Frigideira",
+				"description": "Pode ser usado para fritar alimentos ou bater nas pessoas"
+			}
+		},
+		"weapons": {
+			"bounty_hunter_gun": {
+				"display_name": "Revólver Antigo",
+				"description": "Não há ameaça fatal, mas também é muito doloroso atingir o corpo"
+			},
+			"plumb": {
+				"display_name": "Prumo",
+				"description": "Alguns fragmentos de metal podem ser usados ​​como munição"
+			},
+			"liberator1": {
+				"display_name": "Liberatorl I",
+				"description": "É poderoso e destrutivo, mas é muito pesado e é difícil para os humanos usá-lo normalmente"
+			},
+			"unyielding": {
+				"display_name": "Inflexível",
+				"description": "Uma arma especial para o dia do juízo final inventada por cientistas antigos. A chama feroz causada por ela tornará difícil para as criaturas apocalípticas confiarem em sua capacidade de regeneração para reparar seus corpos"
+			},
+			"spear_of_disaster": {
+				"display_name": "Lança do Desastre",
+				"description": "As facções mais radicais entre os cientistas usam o poder do juízo final para forjar. Somente quando o poder do fim do mundo é dominado com segurança, o poder desta arma pode ser usado normalmente"
+			},
+			"explosive_hammer": {
+				"display_name": "Martelo Explosivo",
+				"description": "Diz-se que a arma foi feita por um antigo ferreiro em combinação com magia. Cada acerto causará choque severo ao inimigo"
+			},
+			"evil_star": {
+				"display_name": "Estrela do Mal",
+				"description": "O 'executor' mais forte - a arma de Sheffield é uma espada retrátil gigante que pode ser usada para combate corpo a corpo e ataque de longo alcance. Somente pessoas com físico anormal podem usá-lo"
+			},
+			"book_holder_talisman": {
+				"display_name": "Caderno Simples",
+				"description": "Um caderno para registrar o conteúdo dos livros, que pode conter conhecimento ilimitado"
+			}
+		},
+		"monsters": {
+			"believer": {
+				"anger": {
+					"display_name": "Raiva",
+					"description": "A personificação direta do poder divino de Ares, é o crente mais fraco de Ares"
+				}
+			},
+			"boss": {
+				"strange_stone_boss": {
+					"display_name": "Golem de Pedra Antigo",
+					"description": "Dormindo no chão, acordando por causa das atividades humanas"
+				},
+				"forest_counterattack_boss": {
+					"display_name": "Entrada torcida",
+					"description": "Infectado pela magia vazada do subsolo"
+				}
+			}
+		},
+		"robot": {
+			"robot_n1_without_charge": {
+				"display_name": "Robô de Célula de DescarregadorN1",
+				"description": "Um dia você vai acordar (parceiro importante e adereços chave da trama, lembre-se de não perdê-los!)"
+			},
+			"mechanical_tiger": {
+				"display_name": "Tigre Mecânico",
+				"description": "Seus dentes afiados movidos por engrenagens podem esmagar a frágil defesa do inimigo"
+			},
+			"mechanical_tiger_ghost": {
+				"display_name": "Tigre Mecânico",
+				"description": "Coloque-o para baixo, pressione o botão e inicie-o"
+			},
+			"damaged_mechanical_tiger": {
+				"display_name": "Tigre Mecânico Danificado",
+				"description": "Pobre cara grande"
+			},
+			"mr_green_tea": {
+				"display_name": "Sr. Chá Verde",
+				"description": "Um artefato erudito também pode procurá-lo ao encontrar problemas complexos"
+			}
+		},
+		"resources": {
+			"straw_paper": {
+				"display_name": "Papel de palha",
+				"description": "Tecido com fibra, não é papel, mas pode ser usado para escrita simples"
+			},
+			"ink": {
+				"display_name": "Tinta",
+				"description": "Simples mas importante"
+			},
+			"bule_ring": {
+				"display_name": "Anel de Bule",
+				"description": "Um tipo de erva que só cresce no império Phoenix. Desapareceu depois do desastre"
+			},
+			"salt_rock": {
+				"display_name": "Rocha de Sal",
+				"description": "Materiais preciosos produzidos na área de mineração"
+			},
+			"furnace_core": {
+				"display_name": "Núcleo do Forno",
+				"description": "Caloroso."
+			},
+			"rough_board": {
+				"display_name": "Tábua Bruta",
+				"description": "O que isso pode fazer?"
+			},
+			"grinding_wheel": {
+				"display_name": "Rebolo",
+				"description": "Bordas e cantos lisos"
+			},
+			"simple_engine": {
+				"display_name": "Mecanismo simples",
+				"description": "Basta colocar o núcleo do forno de volta!"
+			},
+			"refined_wood_board": {
+				"display_name": "Quadro de madeira",
+				"description": "Após tratamento cuidadoso, tem linhas lindas"
+			},
+			"nail": {
+				"display_name": "Uma caixa de pregos",
+				"description": "O melhor objeto para os ferreiros praticarem"
+			},
+			"casing": {
+				"display_name": "Revestimento",
+				"description": "A estrutura precisa não pode ser reproduzida, exceto por um velho ferreiro e uma máquina"
+			},
+			"spare_parts": {
+				"display_name": "Uma caixa de peças",
+				"description": "O engenheiro jogou as coisas extras na caixa para que pudessem ser usadas às vezes"
+			},
+			"flame_gem": {
+				"display_name": "Gema Flamejante",
+				"description": "Escusado será dizer que a função desta gema é muito clara quando você olha para ela em sua mão e se escalda"
+			},
+			"hard_board": {
+				"display_name": "Placa Rígida",
+				"description": "Mais difícil que sua cabeça..."
+			},
+			"iron_wood": {
+				"display_name": "Madeira de Ferro",
+				"description": "Tão duro quanto o ferro"
+			},
+			"adhesive": {
+				"display_name": "Adesivo",
+				"description": "Um pouco de resina grossa"
+			},
+			"steel_plate": {
+				"display_name": "Chapa de aço",
+				"description": "Pode ser usado em muitos lugares! Provavelmente"
+			},
+			"mechanical_arm": {
+				"display_name": "Braço Mecânico",
+				"description": "Pode levantar a estrutura mecânica extremamente pesada e lidar com muitos detalhes ao mesmo tempo"
+			},
+			"wooden_parts": {
+				"display_name": "Peças de madeira",
+				"description": "Pequenas peças cuidadosamente feitas por carpinteiros e usadas em vários lugares"
+			},
+			"solid_petroleum": {
+				"display_name": "Petróleo de Solo",
+				"description": "É um mineral raro e escorregadio e um parceiro indispensável da indústria industrial"
+			},
+			"wooden_support": {
+				"display_name": "Suporte de madeira",
+				"description": "Estrutura de madeira um pouco complexa"
+			},
+			"synthetic_rubber": {
+				"display_name": "Borracha sintética",
+				"description": "Compostos complexos também são importantes produtos industriais"
+			},
+			"steel_support": {
+				"display_name": "Suporte de aço",
+				"description": "Estrutura complexa feita de aço"
+			},
+			"lead_ore": {
+				"display_name": "Minério de chumbo",
+				"description": "É um tipo de mineral com toxicidade. Tenha cuidado ao manuseá-lo"
+			},
+			"lead_ingot": {
+				"display_name": "Lingote de chumbo",
+				"description": "Um excelente material de proteção radioativa"
+			},
+			"gunpowder": {
+				"display_name": "Pólvora",
+				"description": "É uma ala do mal vinda do Leste. Ele vai explodir quando inflamado"
+			},
+			"soul_gem": {
+				"display_name": "Jóia da Alma",
+				"description": "Esta é uma força independente do mundo real, que é muito misteriosa"
+			},
+			"shell_case": {
+				"display_name": "Estojo",
+				"description": "Preencher algo pode transformá-los em armas terríveis sem precedentes"
+			},
+			"world_tree_ingot": {
+				"display_name": "Lingote da Árvore do Mundo",
+				"description": "Origina-se da raiz da lendária árvore gigante e tem dureza comparável à do metal"
+			},
+			"ancient_stone": {
+				"display_name": "Pedra Antiga",
+				"description": "Enterrado no subsolo onde as pessoas não querem pensar sobre isso"
+			},
+			"sweet_wool": {
+				"display_name": "Lã Doce",
+				"description": "Que incrível!"
+			},
+			"sand": {
+				"display_name": "Areia",
+				"description": "O principal componente é a sílica"
+			},
+			"chrome_ore": {
+				"display_name": "Minério de cromo",
+				"description": "O cromo é um excelente metal comumente usado na fabricação de ligas"
+			},
+			"pure_gem": {
+				"display_name": "Jóia Pura",
+				"description": "O dióxido de silício refinado por infinitas vezes é extremamente puro e possui a estrutura mais adequada para preenchimento de magia"
+			},
+			"toxic_essence": {
+				"display_name": "Essência Tóxica",
+				"description": "Substância de essência composta por elementos tóxicos"
+			},
+			"natural_essence": {
+				"display_name": "Essência Natural",
+				"description": "Substância da essência da magia natural"
+			},
+			"indigo_essence": {
+				"display_name": "Essência de índigo",
+				"description": "De volta aos tempos antigos, a essência do poder do mar"
+			},
+			"water_gem": {
+				"display_name": "Gema da Água",
+				"description": "Parece frio"
+			},
+			"pure_essence": {
+				"display_name": "Essência Pura",
+				"description": "Material mágico extraído de quartzo puro"
+			},
+			"anger_essence": {
+				"display_name": "Essência da Raiva",
+				"description": "A essência de poder ares mais primitiva e básica, que pode ser anexada a algumas armas especiais para fortalecer"
+			},
+			"indigo_fragment": {
+				"display_name": "Fragmento de índigo",
+				"description": "Um fragmento de equipamento de lacaio do antigo campo de batalha"
+			},
+			"indigo_ingot": {
+				"display_name": "Liga índigo",
+				"description": "Um metal mágico com a capacidade de absorver e liberar calor automaticamente"
+			}
+		},
+		"food": {
+			"bean_curd": {
+				"display_name": "Coalhada de Feijão",
+				"description": "Quebrado----"
+			},
+			"spicy_sauce": {
+				"display_name": "Molho Picante",
+				"description": "A felicidade de algumas pessoas e a dor de algumas pessoas"
+			},
+			"dumplings": {
+				"dumplings": {
+					"display_name": "dumplings",
+					"description": "Diz-se que a misteriosa cozinha do Oriente"
+				},
+				"dumplings_serving": {
+					"display_name": "Uma tigela de bolinhos",
+					"description": "bolinhos~bolinhos~está cozinhando~"
+				}
+			},
+			"roasted_tofu": {
+				"roasted_tofu": {
+					"display_name": "Tofu Assado",
+					"description": "Encharcado com molho de soja, o aroma é intenso"
+				},
+				"roasted_tofu_serving": {
+					"display_name": "Um Tofu Assado",
+					"description": "O molho de soja é bom!"
+				}
+			},
+			"soy_sauce": {
+				"display_name": "molho de soja",
+				"description": "Secagem por 179 dias"
+			},
+			"soybeans_basket": {
+				"soybeans_basket": {
+					"display_name": "Cesta de Soja",
+					"description": "Algumas sojas saíram por acidente"
+				},
+				"soybeans_basket_serving": {
+					"display_name": "Um prato de soja",
+					"description": "Comer soja crua não é tão saudável"
+				}
+			},
+			"spicy_fruit": {
+				"spicy_fruit": {
+					"display_name": "Fruta picante",
+					"description": "Dizem que é muito picante da área do deserto"
+				},
+				"spicy_fruit_serving": {
+					"display_name": "Prato de Frutas Picantes",
+					"description": "Tão picante!!!"
+				}
+			},
+			"rotten_soybeans_basket": {
+				"display_name": "Cesta de Soja Vencida",
+				"description": "Apodreceu Não Comestível"
+			},
+			"stewed_chicken": {
+				"stewed_chicken": {
+					"display_name": "Frango estufado",
+					"description": "A sopa está cheia de óleo"
+				},
+				"stewed_chicken_serving": {
+					"display_name": "uma tigela pequena de sopa de galinha",
+					"description": "Ah ha ha ha, canja de galinha está chegando"
+				}
+			},
+			"sweet_potato_powder": {
+				"display_name": "batata doce em pó",
+				"description": "Doce e delicioso pó de batata doce!"
+			},
+			"salt": {
+				"display_name": "Sal",
+				"description": "As cabras parecem gostar?"
+			},
+			"oversized_birthday_cake": {
+				"oversized_birthday_cake": {
+					"display_name": "Bolo de aniversário grande (sabor geléia)",
+					"description": "Feliz Aniversário!"
+				},
+				"oversized_birthday_cake_serving": {
+					"display_name": "Uma pequena porção de bolo de aniversário com geléia",
+					"description": "Eu sei que é egoísta, mas eu só quero experimentar os três sabores"
+				},
+				"crushed_spicy_fruit": {
+					"display_name": "Fruta Picante Triturada",
+					"description": "Frutas picantes picadas podem ser usadas para decorar pratos"
+				}
+			},
+			"spicy_chicken": {
+				"spicy_chicken": {
+					"display_name": "Frango apimentado",
+					"description": "Parece muito picante"
+				},
+				"spicy_chicken_serving": {
+					"display_name": "Uma porção pequena de frango picante",
+					"description": "Do Oriente... Quente!"
+				}
+			},
+			"sweet_potato_bread": {
+				"sweet_potato_bread": {
+					"display_name": "Pão de Batata Doce",
+					"description": "Doce!"
+				},
+				"sweet_potato_bread_serving": {
+					"display_name": "Um pedaço de pão de batata doce",
+					"description": "Bomba de carboidratos!"
+				}
+			},
+			"prank_bread": {
+				"prank_bread": {
+					"display_name": "Pão de Partida",
+					"description": "Feliz Dia da Mentira!!!"
+				},
+				"prank_bread_serving": {
+					"display_name": "Um Pão de Brincar",
+					"description": "Um hein?!!"
+				}
+			},
+			"rabbit_bread": {
+				"display_name": "Pão de Coelho",
+				"description": "Ha ha, um pão de coelho falante, a imaginação dos povos antigos é muito rica"
+			},
+			"meat_foam": {
+				"display_name": "Espuma de Carne",
+				"description": "Alguma carne picada pode ser usada para fritar alimentos"
+			},
+			"scallion": {
+				"display_name": "Scallion",
+				"description": "Um monte de plantas perfumadas!"
+			},
+			"coriander": {
+				"display_name": "Coentro",
+				"description": "Algumas pessoas gostam, outras..."
+			},
+			"spicy_fried_meat": {
+				"spicy_fried_meat": {
+					"display_name": "Carne frita picante",
+					"description": "Um delicioso acompanhamento. Seria melhor se você tivesse um pouco de arroz"
+				},
+				"spicy_fried_meat_serving": {
+					"display_name": "Uma Carne Frita Picante",
+					"description": "que? Você não vai mesmo com arroz?!!"
+				}
+			},
+			"chopped_scallion": {
+				"display_name": "Cebolinha picada",
+				"description": "Cebola picada pode ser melhor temperada"
+			},
+			"cotton_candy": {
+				"display_name": "Algodão doce",
+				"description": "Talvez outro assado seja perfeito"
+			},
+			"stone_feed": {
+				"display_name": "Alimentação de Pedra",
+				"description": "Nenhum animal gosta, mas pode ser usado para provocar inimigos que protegem a natureza"
+			}
+		},
+		"crops": {
+			"soybeans_crop": {
+				"display_name": "Soja",
+				"description": "Pode ser usado para culturas comuns feitas de vários alimentos e ingredientes",
+				"growth_stage": {
+					"001": {
+						"name": "Broto de feijão",
+						"description": "Será delicioso fritar, mas foi plantado."
+					},
+					"002": {
+						"name": "Muda de Soja",
+						"description": "Os ramos estão se espalhando lentamente"
+					},
+					"003": {
+						"name": "Flor de Soja",
+						"description": "Ele entrou no período de floração e será apreciado em breve"
+					},
+					"004": {
+						"name": "Uma planta de soja",
+						"description": "É hora de uma boa colheita!"
+					},
+					"012": {
+						"name": "Uma soja podre",
+						"description": "Perdeu o melhor momento"
+					}
+				}
+			},
+			"spicy_fruit_crop": {
+				"display_name": "Fruta picante",
+				"description": "uma fruta muito picante",
+				"growth_stage": {
+					"001": {
+						"name": "Semente de frutas picantes",
+						"description": "Do extremo sul até esta terra."
+					},
+					"002": {
+						"name": "cacto com frutas picantes",
+						"description": "Pequeno, um pouco fofo"
+					},
+					"003": {
+						"name": "Cacto de frutas picantes infrutíferas",
+						"description": "O cacto cresceu forte"
+					},
+					"004": {
+						"name": "cacto de frutas picantes",
+						"description": "Cuidado ao colher!"
+					},
+					"012": {
+						"name": "Cacto de frutas picantes podres",
+						"description": "Ninguém gosta de comer coisas podres"
+					}
+				}
+			},
+			"scallion_crop": {
+				"display_name": "Scallion",
+				"description": "Um condimento com um cheiro forte",
+				"growth_stage": {
+					"001": {
+						"name": "Segmento de Chalota",
+						"description": "Basta cortar, você pode plantar um pequeno pedaço de caule de cebola"
+					},
+					"002": {
+						"name": "Seção de Cebolinha",
+						"description": "Apenas começando a crescer"
+					},
+					"003": {
+						"name": "Seção de Cebolinha Longa",
+						"description": "Está quase pronto para colher"
+					},
+					"004": {
+						"name": "Scallion",
+						"description": "Você pode tirá-lo e fritá-lo"
+					},
+					"012": {
+						"name": "Cebolinha podre",
+						"description": "O cheiro estranho derivou em todos os lugares"
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"common": {
+			"recipes": {
+				"saw_name": "Mesa serrada de carpinteiro",
+				"material_science_name": "Ciência dos Materiais",
+				"blender_name": "Liquidificador",
+				"power_loom_name": "Tear Motor",
+				"simple_machine_tool_name": "Máquina-Ferramenta Simples",
+				"magic_pot_name": "Pote Mágico",
+				"mapping_gate_name": "Portão de Mapeamento (Troca de Itens)",
+				"material_denaturation_instrument_name": "material_denaturation_instrument",
+				"wanted_notice_eazy": "Procurado (Fácil)",
+				"book": "Livro",
+				"research": "Pesquisar"
+			}
+		},
+		"cook": {
+			"cook_workbench": {
+				"blender_ghost": {
+					"display_name": "liquidificador",
+					"description": "Boom Boom Boom--"
+				},
+				"worktop_ghost": {
+					"display_name": "Parada de trabalho",
+					"description": "Picar! Pique-o! Pique-o!"
+				},
+				"wok_ghost": {
+					"display_name": "Colher e fogão para fritar",
+					"description": "Ei, ei! Fritar!"
+				},
+				"magic_pot_ghost": {
+					"display_name": "Pote Mágico",
+					"description": "Pote mágico com função de cozimento automático"
+				}
+			},
+			"recipes": {
+				"bean_curd": {
+					"recipe_name": "Coalhada de Feijão",
+					"description": "Deixe o hearthling usar soja para fazer um pedaço de tofu",
+					"flavor": "Concentre-se, mantenha-se completo"
+				},
+				"dumplings": {
+					"recipe_name": "dumplings",
+					"description": "Cozinhe uma panela de bolinhos deliciosos",
+					"flavor": "Se devemos comer bolinhos ou bolinhos no solstício de inverno é uma questão."
+				},
+				"mutton": {
+					"recipe_name": "Carneiro Artificial",
+					"description": "Deixe o hearthling usar especiarias para fazer um carneiro artificial",
+					"flavor": "Ninguém pode acreditar que este plano foi concebido pela primeira vez por um líder de goblin."
+				},
+				"Pork": {
+					"recipe_name": "Carne de porco artificial",
+					"description": "Deixe o hearthling usar tempero para fazer um pedaço de carne de porco artificial",
+					"flavor": "Porco, porco, porco!!!"
+				},
+				"poultry_large": {
+					"recipe_name": "Aves artificiais grandes",
+					"description": "Deixe o hearthling usar tempero para fazer um pedaço de ave artificial grande",
+					"flavor": "Como lidar com os músculos musculosos das pernas das aves selvagens é sempre a maior dor de cabeça dos chefs"
+				},
+				"poyo_meat": {
+					"recipe_name": "Frango Artificial",
+					"description": "Deixe o hearthling usar tempero para fazer um pedaço de carne artificial de poyo",
+					"flavor": "O controle preciso dos temperos por chefs sofisticados pode tornar as pessoas incapazes de dizer o que estão engolindo."
+				},
+				"roasted_tofu": {
+					"recipe_name": "Tofu Assado",
+					"description": "Asse um delicioso tofu com molho de soja",
+					"flavor": "O problema é como o cozinheiro o completou?"
+				},
+				"soy_sauce": {
+					"recipe_name": "molho de soja",
+					"description": "Deixe Hearthling preparar o molho de soja da soja",
+					"flavor": "Salgado!"
+				},
+				"stewed_chicken": {
+					"recipe_name": "Frango estufado",
+					"description": "Deixe o cozinheiro cozinhar uma panela de sopa de galinha gordurosa",
+					"flavor": "É muito gorduroso, então por que você não considera trocar a água mais algumas vezes—— Um homem desconhecido que afirma ser um mestre cozinheiro"
+				},
+				"sweet_potato_powder": {
+					"recipe_name": "Batata-doce em pó",
+					"description": "Peça ao cozinheiro para fazer um saco de batata-doce em pó",
+					"flavor": "Doce, mas seco, muito seco."
+				},
+				"varanus_meat": {
+					"recipe_name": "Carne Artificial de Varano",
+					"description": "Deixe o hearthling usar o tempero para fazer um pedaço de carne artificial de varanus",
+					"flavor": "Agora finalmente sabemos onde gem conseguiu aquela carne fresca de varanus."
+				},
+				"venison": {
+					"recipe_name": "Veado Artificial",
+					"description": "Deixe o hearthling usar o tempero para fazer um pedaço de veado artificial",
+					"flavor": "Sem negócios, sem matar."
+				},
+				"salt": {
+					"recipe_name": "Sal (x3)",
+					"description": "Deixe o hearthling moer a pedra de sal para fazer três porções de sal para temperar",
+					"flavor": "Rocha de sal pode ser obtida pela mineração de minerais da montanha"
+				},
+				"spicy_sauce": {
+					"recipe_name": "Molho Picante",
+					"description": "Deixe o coração moer o suco de óleo de frutas picantes",
+					"flavor": "Que picante—— Xu Chen, um engenheiro encostado na mesa de serrar"
+				},
+				"flour": {
+					"recipe_name": "Farinha (x5)",
+					"description": "deixe o cozinheiro usar a máquina para bater bastante farinha com eficiência",
+					"flavor": "é muito conveniente e correto, mas você pode pará-lo com um barulho tão alto quanto um terremoto? -- Xu Wen, reparador mecânico de tigres"
+				},
+				"more_dough": {
+					"recipe_name": "Massa (x3)",
+					"description": "Peça ao chef para usar o liquidificador para fazer muita massa rapidamente",
+					"flavor": "Finalmente, minha periartrite escapuloumeral foi salva—— Chef He Xi"
+				},
+				"more_batter": {
+					"recipe_name": "Tigela de Massa (x5)",
+					"description": "Peça ao chef para usar o liquidificador para fazer muita massa rapidamente",
+					"flavor": "A potência da batedeira não é muito estável, então lembre-se de evitar que a manteiga voe"
+				},
+				"more_spicy_sauce": {
+					"recipe_name": "Molho picante (x3)",
+					"description": "Deixe o cozinheiro usar o liquidificador para fazer rapidamente muito molho picante",
+					"flavor": "É muito mais rápido do que apertá-lo lentamente com a mão!"
+				},
+				"adhesive": {
+					"recipe_name": "Adesivo",
+					"description": "Peça ao cozinheiro para usar um liquidificador para extrair algum adesivo",
+					"flavor": "Estas resinas são adequadas para atuar como adesivos"
+				},
+				"synthetic_rubber": {
+					"recipe_name": "Borracha sintética",
+					"description": "Peça ao cozinheiro para misturar a resina amassada com o óleo",
+					"flavor": "Minérios de petróleo preciosos podem ser escavados na área de mineração, mas a produção é muito rara"
+				},
+				"spicy_chicken": {
+					"recipe_name": "Frango apimentado",
+					"description": "Peça ao cozinheiro para fritar um delicioso frango picante",
+					"flavor": "Pode ser um pouco picante para você, acho que sim"
+				},
+				"worktop": {
+					"recipe_name": "Parada de trabalho",
+					"description": "Deixe o chef criar uma mesa de cozinha",
+					"flavor": "Ao cozinhar, se você tiver duas boas facas e uma boa tábua, obterá o dobro do resultado com metade do esforço!"
+				},
+				"crushed_spicy_fruit": {
+					"recipe_name": "Fruta Picante Triturada",
+					"description": "Peça ao chef para usar a mesa de cozimento para fazer um prato de chips de frutas picantes",
+					"flavor": "Parece entusiasmado"
+				},
+				"rabbit_bread": {
+					"recipe_name": "Pão de Coelho (x2)",
+					"description": "Peça ao chef para assar um pão com receitas de países antigos",
+					"flavor": "Nenhum coelho foi ferido durante a produção, eu juro"
+				},
+				"prank_bread": {
+					"recipe_name": "Pão de Partida",
+					"description": "Peça ao cozinheiro para fazer um pedaço de pão para travessuras",
+					"flavor": "A travessura é mesmo deliciosa"
+				},
+				"sweet_potato_bread": {
+					"recipe_name": "Pão de Batata Doce",
+					"description": "Peça ao cozinheiro para fazer um pão de batata-doce simples",
+					"flavor": "É uma massa rara para o norte"
+				},
+				"wok": {
+					"recipe_name": "Colher e fogão para fritar",
+					"description": "Deixe o chef criar um fogão que pode cozinhar legumes",
+					"flavor": "O chef precisa de um ferreiro habilidoso para fazer os utensílios de cozinha de precisão para fazer comida, então a relação entre os dois é muitas vezes muito harmoniosa"
+				},
+				"meat_foam": {
+					"recipe_name": "Espuma de Carne",
+					"description": "Peça ao cozinheiro que corte um pouco de carne",
+					"flavor": "Escolher ossos e músculos é um trabalho complicado"
+				},
+				"chopped_scallion": {
+					"recipe_name": "Cebolinha picada",
+					"description": "Pique algumas cebolas verdes para fritar",
+					"flavor": "Fica muito cheiroso"
+				},
+				"cotton_candy": {
+					"recipe_name": "Algodão Doce (x2)",
+					"description": "Peça ao cozinheiro para cortar um pedaço de fibra doce",
+					"flavor": "Tamanho moderado"
+				},
+				"spicy_fried_meat": {
+					"recipe_name": "Carne frita picante",
+					"description": "Frite a pimenta e a carne de porco picada e remova o cheiro de peixe com cebolinha picada",
+					"flavor": "Comida picante pode fazer as pessoas trabalharem com mais sobriedade"
+				},
+				"more_veggie_stew": {
+					"recipe_name": "Ensopado de Legumes Saboroso (x5)",
+					"description": "Massa de cozimento simples produzida de maneiras complexas",
+					"flavor": "'Seria muito monótono beber ensopado todos os dias?'——Magic Pot"
+				},
+				"more_meat_stew": {
+					"recipe_name": "Ensopado de Carne Salgado (x5)",
+					"description": "Massa de cozimento simples produzida de maneiras complexas",
+					"flavor": "'Cozinhar carne e legumes juntos Parece saudável'——Magic Pot"
+				},
+				"more_fish_stew": {
+					"recipe_name": "Ensopado de Peixe (x5)",
+					"description": "Massa de cozimento simples produzida de maneiras complexas",
+					"flavor": "“O cheiro de peixe é um pouco forte. Além disso, é perfeito'——Magic Pot"
+				},
+				"more_fish_cooked": {
+					"recipe_name": "Peixe Cozido (x5)",
+					"description": "Massa de cozimento simples produzida de maneiras complexas",
+					"flavor": "'Só tem peixe aqui?!'——Magic Pot"
+				},
+				"stone_feed": {
+					"recipe_name": "Alimentação de Pedra",
+					"description": "Peça ao chef para fazer uma ração de pedra",
+					"flavor": "Pedra mói pedra"
+				}
+			}
+		},
+		"carpenter": {
+			"carpenter_workbench": {
+				"carpenter_sawn_table_ghost": {
+					"display_name": "Mesa Serrada",
+					"description": "A estética da violência."
+				}
+			},
+			"recipes": {
+				"rough_board": {
+					"recipe_name": "Tábua Áspera (x3)",
+					"description": "Deixe o carpinteiro usar a mesa de serrar para fazer algumas tábuas ásperas",
+					"flavor": "Economize esforço. ——Velho lenhador, Zhong Xian"
+				},
+				"refined_wood_board": {
+					"recipe_name": "Quadro de madeira",
+					"description": "Faça algumas tábuas de madeira requintadas que foram processadas e moídas",
+					"flavor": "Pelo menos não tanto."
+				},
+				"more_firewood": {
+					"recipe_name": "Bundle_Of_Firewood(x5)",
+					"description": "Use a mesa serrada para fazer algumas partidas rapidamente",
+					"flavor": "Eficiência!"
+				},
+				"hard_board": {
+					"recipe_name": "Placa Rígida (x2)",
+					"description": "Madeira de lei feita de madeira de ferro é o material chave da máquina de primeira ordem",
+					"flavor": "A madeira de ferro pode ser obtida a partir de carvalhos de tamanho médio ou grande, mas a quantidade é muito rara. Talvez a tecnologia relacionada à magia da terra possa nos ajudar"
+				},
+				"wooden_parts": {
+					"recipe_name": "Peças de madeira",
+					"description": "Deixe o carpinteiro forjar uma caixa de peças de madeira",
+					"flavor": "Você pode usar isso aqui, você pode usar outro aqui"
+				},
+				"wooden_support": {
+					"recipe_name": "Suporte de madeira",
+					"description": "Deixe o carpinteiro fazer alguns suportes de madeira importantes",
+					"flavor": "Os adesivos podem ser obtidos de carvalho médio ou grande, e uma máquina mais simples pode simplificar o processo"
+				},
+				"more_refined_wood_board": {
+					"recipe_name": "Placa de Madeira (x2)",
+					"description": "Faça diretamente um grande número de placas",
+					"flavor": "Economize etapas redundantes, mas consuma mais materiais"
+				}
+			}
+		},
+		"weaver": {
+			"weaver_workbench": {
+				"power_loom_ghost": {
+					"display_name": "tear mecânico",
+					"description": "Três em um, rápido, conveniente e fácil."
+				}
+			},
+			"recipes": {
+				"more_thread": {
+					"recipe_name": "Carretel de Linha (x5)",
+					"description": "Deixe o tear mecânico girar um grande número de bobinas",
+					"flavor": "Os trabalhadores têxteis finalmente não precisam trabalhar dia e noite!"
+				},
+				"more_cloth_bolt": {
+					"recipe_name": "Parafuso de Tecido (x5)",
+					"description": "Deixe o tear elétrico girar muito pano",
+					"flavor": "Potência total ligada!!!"
+				},
+				"gold_silk": {
+					"recipe_name": "Seda Dourada",
+					"description": "Deixe o tear elétrico girar um pedaço de pano que só a realeza pode usar",
+					"flavor": "Diz-se que o vermelho brilhante e o amarelo são as cores usadas pelos orcs para descrever os deuses da guerra mais poderosos."
+				},
+				"outlaw_hat": {
+					"recipe_name": "Chapéu de fora da lei",
+					"description": "Deixe o tecelão fazer um excelente chapéu de couro",
+					"flavor": "Mais leve, mais forte"
+				}
+			}
+		},
+		"engineer": {
+			"engineer_workbench": {
+				"simple_machine_tool_ghost": {
+					"display_name": "Máquina-Ferramenta Simples",
+					"description": "Estrutura mecânica simples pode ser concluída neste"
+				}
+			},
+			"recipes": {
+				"carpenter_sawn_table": {
+					"recipe_name": "Mesa Serrada",
+					"description": "Deixe o engenheiro fazer uma mesa serrada com materiais complexos",
+					"flavor": "Esta é a primeira coisa que os cientistas pensaram. De acordo com a ideia daqueles velhos que brincam com serras na Câmara do Comércio, a máquina de força se transforma. Tudo o que as pessoas precisam fazer é passar a madeira devagar"
+				},
+				"spare_parts": {
+					"recipe_name": "Uma caixa de peças de reposição",
+					"description": "Deixe o engenheiro criar uma caixa de peças",
+					"flavor": "Junte objetos finos não utilizados Para um dia chuvoso"
+				},
+				"simple_engine": {
+					"recipe_name": "Mecanismo simples",
+					"description": "Deixe os engenheiros construírem um motor simples",
+					"flavor": "A ranhura especial pode fazer com que o núcleo do forno acione a máquina mais rápido e melhor"
+				},
+				"simple_machine_tool": {
+					"recipe_name": "Máquina-Ferramenta Simples",
+					"description": "Deixe o engenheiro criar um artesanato necessário",
+					"flavor": "O invólucro de precisão é produzido pela mão desta máquina pesada"
+				},
+				"mechanical_arm": {
+					"recipe_name": "Braço Mecânico",
+					"description": "Deixe os engenheiros fazerem um braço mecânico extremamente preciso",
+					"flavor": "Concentre-se, preste atenção, não deixe rastros"
+				},
+				"casing": {
+					"recipe_name": "Revestimento",
+					"description": "Deixe os engenheiros usarem máquinas-ferramentas simples para fazer uma casca",
+					"flavor": "É complicado, muito complicado"
+				},
+				"rough_furnace_core": {
+					"recipe_name": "Núcleo de Forno Bruto",
+					"description": "Deixe os engenheiros extrairem algumas substâncias energéticas importantes de substâncias naturais",
+					"flavor": "O livro diz que a energia simples vem de uma flor especial, mas não parece ser vista nas cidades"
+				},
+				"blender": {
+					"recipe_name": "liquidificador",
+					"description": "Deixe o engenheiro construir uma máquina importante",
+					"flavor": "O cozinheiro gosta mais da máquina do que do fabricante"
+				},
+				"steel_support": {
+					"recipe_name": "Suporte de aço",
+					"description": "Deixe o engenheiro criar um importante suporte de aço",
+					"flavor": "Garantia forte!"
+				},
+				"power_loom": {
+					"recipe_name": "Tear Motor",
+					"description": "Deixe os engenheiros construírem um tear elétrico complexo",
+					"flavor": "Foi essa máquina que quebrou a compreensão das pessoas sobre ciência e tecnologia e salvou nosso destino quando fomos revistados e presos de uma maneira geral—— 《Canto de ciência e tecnologia》"
+				},
+				"mechanical_tiger": {
+					"recipe_name": "Tigre Mecânico[WIP]",
+					"description": "Deixe os engenheiros usarem máquinas-ferramentas simples para criar um tigre mecânico que pode proteger a cidade",
+					"flavor": "Legal------"
+				},
+				"fix_tiger": {
+					"recipe_name": "Consertar Tigre",
+					"description": "Deixe os engenheiros repararem o tigre mecânico danificado pelo inimigo",
+					"flavor": "Hum... Sem danos às peças-chave. Pode ser reparado desde que as peças estejam conectadas"
+				},
+				"bounty_hunter_gun": {
+					"recipe_name": "Pistola do Caçador de Recompensas (WIP)",
+					"description": "Deixe o engenheiro fazer um revólver velho sofisticado",
+					"flavor": "Alguns caçadores de recompensas sofisticados sempre gostam de trazer bons companheiros com eles por muitos dias, mesmo que não seja bom para eles"
+				},
+				"material_denaturation_instrument": {
+					"recipe_name": "Instrumento de desnaturação de material",
+					"description": "Deixe o geomancer combinar o poderoso poder dos engenheiros para criar uma bancada de trabalho mais poderosa",
+					"flavor": "Esta é uma obra-prima humana baseada nos princípios duplos da magia e da ciência! - fabricante do desnaturador de materiais Mel Planck"
+				},
+				"magic_pot": {
+					"recipe_name": "Pote Mágico",
+					"description": "Deixe os engenheiros fazerem um grande pote de metal mágico do antigo subsolo",
+					"flavor": "Não há necessidade de qualquer combustível, poluição zero real!"
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"nail": {
+					"recipe_name": "Uma caixa de pregos",
+					"description": "Deixe o ferreiro forjar alguns pregos",
+					"flavor": "tenha cuidado! Não derrame!"
+				},
+				"grinding_wheel": {
+					"recipe_name": "Rebolo",
+					"description": "Deixe o ferreiro forjar um rebolo",
+					"flavor": "Originalmente destinado a polir a lâmina do cavaleiro, foi usado em todos os tipos de lugares estranhos depois de ser observado por cientistas"
+				},
+				"steel_plate": {
+					"recipe_name": "Chapa de aço",
+					"description": "Deixe o ferreiro forjar uma placa de aço útil",
+					"flavor": "Quando a chama está voando, sempre pode fazer o ferreiro se sentir descomprimido"
+				},
+				"synthetic_rubber": {
+					"recipe_name": "Borracha sintética",
+					"description": "Deixe o ferreiro derreter e forjar uma xícara de borracha artificial",
+					"flavor": "O alcatrão fundido é extremamente espesso e pode substituir temporariamente a posição da borracha"
+				},
+				"lead_ingot": {
+					"recipe_name": "Lingote de chumbo",
+					"description": "Deixe o ferreiro forjar um lingote de chumbo roxo",
+					"flavor": "É um metal útil quando os caçadores de recompensas ainda estão galopando no continente"
+				},
+				"kitchen_knife": {
+					"recipe_name": "Faca de Cozinha de Ferro",
+					"description": "Deixe o ferreiro forjar uma faca de cozinha de ferro afiada",
+					"flavor": "Tome cuidado! Esta também é uma arma muito eficaz para o combate"
+				},
+				"pan": {
+					"recipe_name": "Frigideira",
+					"description": "Deixe o ferreiro fazer uma boa panela",
+					"flavor": "Ferramentas necessárias para fritar alimentos"
+				},
+				"pure_gem": {
+					"recipe_name": "Jóia Pura",
+					"description": "Deixe o ferreiro extrair uma gema de cristal puro",
+					"flavor": "O processo é complexo e difícil, e a habilidade do ferreiro é altamente necessária"
+				},
+				"indigo_ingot": {
+					"recipe_name": "Liga índigo",
+					"description": "Deixe o ferreiro fundir um pedaço de metal mágico",
+					"flavor": "A questão é, não é um desperdício usarmos apenas um metal tão conveniente para fazer uma panela grande?"
+				}
+			}
+		},
+		"geomancer": {
+			"geomancer_workbench": {
+				"material_denaturation_instrument_ghost": {
+					"display_name": "Instrumento de desnaturação de material",
+					"description": "Um instrumento que adapta a estrutura da matéria por magia"
+				},
+				"mapping_gate_ghost": {
+					"display_name": "Portão de Mapeamento",
+					"description": "Seu princípio complexo pode torcer o material de entrada em um espaço complexo e cuspi-lo"
+				}
+			},
+			"recipes": {
+				"iron_wood": {
+					"recipe_name": "Madeira de Ferro",
+					"description": "Injete ferro no tronco com a magia da natureza",
+					"flavor": "na verdade... A madeira de ferro não contém realmente ferro, mas com a ajuda da magia, podemos alterar as propriedades das toras através de outras matérias-primas para torná-las produtos semelhantes à madeira de ferro - fabricante de material desnaturador Mel Planck"
+				},
+				"flame_gem": {
+					"recipe_name": "Gema Flamejante",
+					"description": "Deixe o geomante criar uma joia com o poder do fogo",
+					"flavor": "Está quente, então tenha cuidado ao segurá-lo"
+				},
+				"furnace_core": {
+					"recipe_name": "Núcleo do Forno",
+					"description": "Produziu alguma essência da terra processada.",
+					"flavor": "Materiais de energia que vêm das misteriosas profundezas da terra, penetram e são processados ​​e utilizados por cientistas"
+				},
+				"mapping_gate": {
+					"recipe_name": "Portão de Mapeamento",
+					"description": "Deixe o geomante abrir uma porta maravilhosa de acordo com a orientação da magia antiga",
+					"flavor": "O conceito de mapeamento é mencionado no canto da ciência e tecnologia. Diz-se que a outra extremidade da porta é um campo mágico fragmentado que as pessoas comuns serão dilaceradas quando entrarem."
+				},
+				"toxic_essence": {
+					"recipe_name": "Essência Tóxica (x2)",
+					"description": "Extraia alguma essência com instrumento de desnaturação de material",
+					"flavor": "Substância fonte extraída da essência tóxica"
+				},
+				"natural_essence": {
+					"recipe_name": "Essência Natural",
+					"description": "Extraia alguma essência com instrumento de desnaturação de material",
+					"flavor": "Material de origem extraído da essência natural"
+				},
+				"water_gem": {
+					"recipe_name": "Gema da Água",
+					"description": "Deixe o geomante criar uma gema contendo o poder da água corrente",
+					"flavor": "Lembre-se de não cair no chão, ou a torrente dentro vai jorrar"
+				},
+				"summon_ancient_stone_block_rock": {
+					"recipe_name": "Pedra de Invocação de Pedregulho Antigo",
+					"description": "Mude a forma da matéria mapeando",
+					"flavor": "Você quer dizer... Podemos trocar uma enorme pedra antiga mapeando a pedra comprimida para as profundezas da terra?"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"ink": {
+					"recipe_name": "Tinta",
+					"description": "Faça uma garrafa de tinta áspera",
+					"flavor": "A qualidade não é muito boa, mas pode se contentar com isso"
+				},
+				"straw_paper": {
+					"recipe_name": "Papiro",
+					"description": "Faça um papiro simples",
+					"flavor": "É usado para registrar as curiosidades da vida aproximadamente"
+				},
+				"old_book": {
+					"recipe_name": "Caderno simples",
+					"description": "Faça um caderno simples",
+					"flavor": "É hora de aprender!"
+				},
+				"distillation_mana": {
+					"recipe_name": "Mana de Destilação",
+					"description": "Deixe o herbalista fazer uma garrafa de pura essência mágica",
+					"flavor": "O começo de tudo, a base dos sonhos"
+				}
+			}
+		},
+		"bounty_hunter": {
+			"bounty_hunter_workbench": {
+				"bounty_hunter_table_ghost": {
+					"display_name": "Mesa do caçador de recompensas",
+					"description": "Uma tabela para coletar informações sobre criminosos procurados de cidades vizinhas. Um pouco confuso"
+				}
+			},
+			"recipes": {
+				"bounty_hunter_table": {
+					"recipe_name": "Mesa do caçador de recompensas",
+					"description": "Deixe o caçador de recompensas fazer uma bancada",
+					"flavor": "Uma tabela permite que os caçadores de recompensas resumam informações sobre seus alvos com mais eficiência"
+				},
+				"wanted_notice": {
+					"strange_stone": {
+						"recipe_name": "Grupo Pedra Estranha",
+						"description": "Deixe o caçador de recompensas fazer um aviso de procurado que pode ser publicado e atrair inimigos",
+						"flavor": "Diz-se que este grupo de monstros de pedra correu desenfreado nas principais áreas de mineração durante este período, fazendo com que todos os mineiros nas estranhas minas de pedra ficassem extremamente perturbados."
+					},
+					"forest_counterattack": {
+						"recipe_name": "Contra-ataque na floresta",
+						"description": "Deixe o caçador de recompensas fazer um aviso de procurado que pode ser publicado e atrair inimigos",
+						"flavor": "As forças criadas pelo núcleo de pedra destruído deram origem ao despertar de algumas forças nas profundezas da floresta"
+					}
+				}
+			},
+			"bounty_hunter_outfit": {
+				"display_name": "Protetor de couro do caçador de recompensas",
+				"description": "Dê um pouco de proteção",
+				"bounty_hunter_hat": {
+					"display_name": "Chapéu de couro do caçador de recompensas",
+					"description": "Bonito e cheio de dissuasão"
+				}
+			},
+			"bounty_hunter_description": {
+				"display_name": "Caçador de Recompensas (WIP)",
+				"description": "Use pistolas para ataques de longo alcance por causa de sua capacidade única de detectar inimigos especiais",
+				"requirements": "Feito pelo Engenheiro",
+				"level_1_data": {
+					"perk_000_name": "Prática de armas",
+					"perk_001_name": "Alerta de Caçador (Nível 1)",
+					"perk_000_description": "Caçadores de recompensas podem causar grandes danos aos inimigos com armas",
+					"perk_001_description": "Caçadores de recompensas alertas são mais rápidos e agressivos"
+				},
+				"level_2_data": {
+					"perk_000_name": "Notificação de procurado (WIP)",
+					"perk_001_name": "Narceja",
+					"perk_000_description": "Caçadores de recompensas de alto nível podem encontrar alvos procurados que são difíceis de encontrar em tempos normais e solicitar um ataque quando tentam passar pela cidade",
+					"perk_001_description": "Os caçadores de recompensas agora estão acostumados ao peso de suas armas, permitindo que eles ataquem inimigos de uma grande distância"
+				},
+				"level_3_data": {
+					"perk_000_name": "Alerta de Caçador (Nível 2)",
+					"perk_000_description": "Agora a vigilância dos caçadores pode dar alguns bônus aos seus companheiros"
+				},
+				"level_5_data": {
+					"perk_000_name": "Famoso(WIP)",
+					"perk_000_description": "O caçador notório agora pode aceitar a missão de recompensa mais severa! Tente romper esses objetos de recompensa extremamente perigosos!"
+				},
+				"level_4_data": {
+					"perk_000_name": "Mestre de tiro",
+					"perk_001_name": "Ser amplamente conhecido (WIP)",
+					"perk_000_description": "Agora, os caçadores de recompensas podem se equipar com mais tipos de munição, incluindo não padrão.",
+					"perk_001_description": "Os caçadores de recompensas de hoje ganharam mais fama, o que lhes permite aceitar desafios de recompensas mais avançados"
+				},
+				"level_6_data": {
+					"perk_000_name": "Rei da Recompensa",
+					"perk_000_description": "Caçador de recompensas tem o título de rei de recompensas! Isso pode fortalecer muito sua capacidade física e usar novas armas mais poderosas!"
+				}
+			},
+			"bounty_hunter_buffs": {
+				"damage_1_buff": {
+					"display_name": "Intuição do caçador de recompensas",
+					"description": "Caçadores de recompensas alertas são mais rápidos e agressivos"
+				},
+				"blasting_bullet": {
+					"display_name": "ESTRONDO!",
+					"description": "Afetado pela vibração do projétil de alto explosivo, não pode se mover normalmente em pouco tempo"
+				},
+				"soul_shot": {
+					"display_name": "Alma queimando",
+					"description": "oh A terrível chama da alma fará com que as pessoas percam gradualmente as forças e queimem seus corpos!"
+				},
+				"vigilance": {
+					"display_name": "A vigilância de caçadores de recompensas experientes",
+					"description": "Caçadores de recompensas experientes podem até transmitir sua vigilância para seus parceiros ao redor"
+				}
+			}
+		},
+		"book_holder": {
+			"book_holder_workbench": {
+				"book_holder_table_ghost": {
+					"display_name": "mesa do titular do livro",
+					"description": "Onde os livros são feitos e lidos"
+				}
+			},
+			"recipes": {
+				"book_holder_table": {
+					"recipe_name": "mesa do titular do livro",
+					"description": "Peça ao titular do livro para fazer uma mesa",
+					"flavor": "Gostaria de uma xícara de café?"
+				},
+				"note_research_planting": {
+					"recipe_name": "Notas de Pesquisa - plantas e plantio",
+					"description": "Faça uma nota favorável ao aprendizado",
+					"flavor": "Os seres humanos são bons em usar técnicas de plantio e cultivo para controlar plantas, o que é completamente diferente de outras raças -- 《canto da ciência e tecnologia》"
+				}
+			},
+			"book_holder_outfit": {
+				"display_name": "casaco do titular do livro",
+				"description": "leve"
+			},
+			"book_holder_description": {
+				"display_name": "Titular do livro",
+				"description": "Traduza, analise livros e crie adereços combinando livros coletados de diferentes lugares",
+				"requirements": "Feito por herbalista",
+				"level_1_data": {
+					"perk_000_name": "Notas de observação",
+					"perk_001_name": "principiante",
+					"perk_000_description": "O titular do livro agora pode escrever notas de observação observando os detalhes da vida diária",
+					"perk_001_description": "Iniciantes serão mais difíceis de entender o conteúdo no processo de pesquisa. Mais prática pode melhorar esta situação"
+				},
+				"level_2_data": {
+					"perk_000_name": "Ler",
+					"perk_001_name": "Insight colaborativo",
+					"perk_000_description": "Os titulares de livros com alguma experiência básica agora podem entender textos oficiais simples e ler alguns livros simples",
+					"perk_001_description": "O titular do livro agora é habilidoso o suficiente para usar materiais criados por outros artesãos."
+				},
+				"level_3_data": {
+					"perk_000_name": "Avance com o dia",
+					"perk_000_description": "Através de esforços incessantes, o titular do livro aumentou ligeiramente a velocidade de ganhar experiência, e esse hábito não desaparecerá com a transferência de trabalho"
+				},
+				"level_4_data": {
+					"perk_000_name": "Escrita",
+					"perk_001_name": "Leitura complexa",
+					"perk_000_description": "O titular do livro agora tem uma rica herança literária e pode escrever sozinho",
+					"perk_001_description": "Os titulares de livros agora podem ler todos os tipos de livros oficiais! Você pode até traduzir línguas estrangeiras!"
+				},
+				"level_5_data": {
+					"perk_000_name": "erudito",
+					"perk_000_description": "Através de esforços incessantes, o titular do livro aumentou muito a velocidade de ganhar experiência, e esse hábito não desaparecerá com a transferência de trabalho"
+				},
+				"level_6_data": {
+					"perk_000_name": "muito aprendido",
+					"perk_000_description": "Agora o titular do livro tem uma quantidade incrível de leitura, pode escrever as obras literárias mais perfeitas e pode traduzir livros antigos!!!"
+				}
+			},
+			"book_holder_buffs": {
+				"level_1_buff": {
+					"display_name": "principiante",
+					"description": "A quantidade de experiência adquirida diminuiu um pouco, mas pode ser melhorada através da prática árdua!"
+				},
+				"level_2_buff": {
+					"display_name": "Avance com o dia",
+					"description": "Ganho de experiência ligeiramente aumentado"
+				},
+				"level_3_buff": {
+					"display_name": "erudito",
+					"description": "A experiência adquirida aumentou muito"
+				}
+			}
+		}
+	},
+	"buffs": {
+		"have_difficulty_getting_about": {
+			"display_name": "Tem dificuldade para se locomover",
+			"description": "A pressão do tigre mecânico forçou o inimigo a ser cauteloso"
+		},
+		"hot": {
+			"display_name": "QUENTE!!!",
+			"description": "Comida apimentada pode animar os espíritos do coração, e todos os aspectos do trabalho físico serão melhorados"
+		},
+		"angry_flame": {
+			"display_name": "Chama Furiosa",
+			"description": "A chama divina derramada causará danos irreparáveis ​​aos corpos das pessoas comuns!"
+		},
+		"disturb": {
+			"display_name": "Perturbar",
+			"description": "A interferência rápida de pequenos inimigos reduzirá a velocidade das unidades de combate e reduzirá o dano de ataque"
+		},
+		"vigilance_effect_buff": {
+			"display_name": "vigilância",
+			"description": "Receba o bônus de alerta dos caçadores de recompensas, que podem aumentar a velocidade e a agressividade das unidades de combate"
+		},
+		"desperado": {
+			"display_name": "Desesperado",
+			"description": "O chapéu do fora da lei aumenta o dano do caçador de recompensas!"
+		},
+		"restless_fluctuation": {
+			"display_name": "Flutuação Inquieta",
+			"description": "Efeitos mágicos do inimigo reduziram bastante a coragem do coração"
+		},
+		"twist": {
+			"display_name": "Torção",
+			"description": "Hearthling infectado por magia terá uma velocidade bastante reduzida em um dia"
+		},
+		"severe_trauma": {
+			"display_name": "Traumas Graves!",
+			"description": "Este alvo está muito traumatizado! Se não for tratada a tempo, continuará a causar sérias perdas de sangue!"
+		},
+		"loss_blood": {
+			"display_name": "Perda de Sangue",
+			"description": "Reduza o HP e a velocidade deste alvo. Vai curar gradualmente ao longo do tempo"
+		},
+		"barbarism": {
+			"display_name": "Barbárie",
+			"description": "Influenciado por livros, atributos são fortalecidos"
+		}
+	},
+	"alert": {
+		"strange_stone": {
+			"dialog_title": "Uma onda de monstros de pedra está correndo em direção à cidade!!!",
+			"title": "Uma onda de monstros de pedra está correndo em direção à cidade!!!"
+		},
+		"forest_counterattack": {
+			"dialog_title": "Contra-ataque da Floresta!",
+			"title": "Contra-ataque da Floresta!"
+		}
+	}
+}

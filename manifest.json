@@ -80,6 +80,9 @@
 		"beast_pets/locales/pt-BR.json": "file(translations/beast_pets/pt-BR.json)",
 		"beast_pets/locales/pt-PT.json": "file(translations/beast_pets/pt-PT.json)",
 
+		"box_o_vox/locales/pt-BR.json": "file(translations/box_o_vox/pt-BR.json)",
+		"box_o_vox/locales/pt-PT.json": "file(translations/box_o_vox/pt-PT.json)",
+
 		"candledark/locales/pt-BR.json": "file(translations/candledark/pt-BR.json)",
 		"candledark/locales/pt-PT.json": "file(translations/candledark/pt-PT.json)",
 
@@ -157,6 +160,9 @@
 
 		"spacemagic/locales/pt-BR.json": "file(translations/spacemagic/pt-BR.json)",
 		"spacemagic/locales/pt-PT.json": "file(translations/spacemagic/pt-PT.json)",
+
+		"special_food/locales/pt-BR.json": "file(translations/special_food/pt-BR.json)",
+		"special_food/locales/pt-PT.json": "file(translations/special_food/pt-PT.json)",
 
 		"stonehearth_beam/locales/pt-BR.json": "file(translations/stonehearth_beam/pt-BR.json)",
 		"stonehearth_beam/locales/pt-PT.json": "file(translations/stonehearth_beam/pt-PT.json)",

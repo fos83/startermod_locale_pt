@@ -1,0 +1,1649 @@
+{
+	"ai": {
+		"actions": {
+			"status_text": {
+				"summoning": "Invocação",
+				"ranged_flame_skull": "Jogando um Crânio Flamejante"
+			}
+		}
+	},
+	"data": {
+		"loadouts": {
+			"path_of_the_necromancer": {
+				"display_name": "O especial de Boxling",
+				"description": "Tudo o que você precisa para começar sua jornada como um Boxling na esperança de se tornar um Necromante... e muito mais!",
+				"tooltip": "O loadout essencial para quem deseja se tornar um Necromancer o mais rápido possível."
+			},
+			"items": {
+				"gold": "Ouro",
+				"necro_bundle": "Pacote"
+			}
+		},
+		"buffs": {
+			"necromancy": {
+				"summon_buff": {
+					"display_name": "Convocar",
+					"description": "Convocar"
+				}
+			}
+		},
+		"commands": {
+			"necromancer_pages": {
+				"skeleton_summon": {
+					"display_name": "Invocar Esqueleto",
+					"description": "Esses ossos, esses ossos vão andar por aí"
+				},
+				"zombie_summon": {
+					"display_name": "Invocar Zumbi",
+					"description": "São os mortos-vivos!"
+				},
+				"golem_summon": {
+					"display_name": "Invocar Golem",
+					"description": "Agora que é uma cadela enorme!"
+				},
+				"necromancer_summon": {
+					"display_name": "Invocar Necromante",
+					"description": "Ei, olhe! É um mini-eu"
+				},
+				"bone_wolf_big_summon": {
+					"display_name": "Invocar Lobo Osso",
+					"description": "Os uivos estão ficando mais altos."
+				},
+				"zilla_summon": {
+					"display_name": "Invocar Zilla",
+					"description": "É Fleshzila!"
+				}
+			},
+			"promote_to_job": {
+				"display_name": "Mudar de emprego",
+				"description": "Mude este trabalho dos cidadãos."
+			}
+		},
+		"population": {
+			"boxling": {
+				"display_name": "Boxlings",
+				"quote": "Tempos divertidos!",
+				"description": "Uma raça misteriosa e mágica. Cidadãos dos Boxlings são um povo encantado, usando sua magia para fortalecer seus aliados e crescer a grandes alturas.",
+				"post_selection_description": ", uma raça orgulhosa e trabalhadora.",
+				"initial_town_name": "Jornada de Boxling [str(town_number)]"
+			}
+		},
+		"biome": {
+			"boxland": {
+				"display_name": "Boxland",
+				"description": "Longos rios cercados de árvores frutíferas correm entre grandes montanhas nesta terra outrora esquecida dos Boxlings, antigas montanhas deles ainda podem ser encontradas. A casa padrão dos Boxlings.",
+				"random_location_names": {
+					"000": "A Caixa O'Vox"
+				},
+				"seasons": {
+					"spring": {
+						"display_name": "Primavera",
+						"description": "A única hora bonita do toque, quando os pássaros cantam."
+					},
+					"summer": {
+						"display_name": "Verão",
+						"description": "Você pode aprender muitas coisas com as flores."
+					},
+					"autumn": {
+						"display_name": "Outono",
+						"description": "As folhas envelhecem, quão cheios de cor são os seus últimos dias."
+					},
+					"winter": {
+						"display_name": "Inverno",
+						"description": "Burrr, está frio aqui. Deve haver alguns Boxlings na atmosfera."
+					}
+				}
+			}
+		},
+		"saved_objects": {
+			"building_templates_index": {
+				"template_tabs": {
+					"box_o_vox": {
+						"display_name": "Boxling",
+						"categories": {
+							"camp": "Modelos de acampamento",
+							"town": "Modelos de cidade"
+						}
+					}
+				}
+			}
+		},
+		"gm": {
+			"campaigns": {
+				"town_progression": {
+					"hearth_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg4": {
+									"choice_000": "Pizza! Obrigado!",
+									"bulletin_title": "Darza acena com a cabeça e aponta para a lareira",
+									"dialog_title": "Darza acena com a cabeça e aponta para a lareira",
+									"bulletin_message": {
+										"00": "\"Tão GLORIOSA maravilha que seu povo foi capaz de alcançar em tão pouco tempo. O que você gostaria de passar para o resto do mundo? Que você é o melhor de todos os artesãos? Que mesmo nas condições mais adversas vocês podem construir um império? Que seu exército é o mais poderoso da terra, capaz de conquistar gigantes?\"<br><br>Ela inclina a cabeça. \"Estou ansioso por sua decisão. Enquanto isso... outro presente, para lembrá-lo de Vox.\" Ela coloca o que parece ser outra pizza ao lado do banner."
+									}
+								},
+								"msg1": {
+									"bulletin_title": "Darza retorna",
+									"dialog_title": "Darza retorna",
+									"bulletin_message": {
+										"00": "Darza aparece novamente na beira do acampamento. <br><br><p align='right'><font size=-6 color='#cccccc'>Há quanto tempo ela está ali, observando?</font></p>"
+									}
+								},
+								"msg2": {
+									"bulletin_title": "Darza se adianta",
+									"dialog_title": "Darza se adianta",
+									"bulletin_message": {
+										"00": "Darza gesticula para o acampamento, sorrindo com aprovação. \"Vim de novo para ouvir suas histórias\", ela indica. Ela se senta perto do fogo, pega o livro e a pena e espera."
+									}
+								},
+								"msg3": {
+									"bulletin_title": "Darza fica",
+									"dialog_title": "Darza fica",
+									"bulletin_message": {
+										"00": "Darza anota meticulosamente as aventuras de todos em runas nas páginas e novamente as fala para o céu. \"Yafr weirc ao duqmz uw qrasulq. Saal, hafr myirzm sudd vris azmyrw, vorv wapyvih, uz zaa sudd ky xe wzir ul zmy wch ikajy.\" novamente com a língua antiga que ninguém pode entender."
+									},
+									"choice_000": "Você está bem?"
+								}
+							}
+						}
+					},
+					"town_founding_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"open_letter": {
+									"bulletin_title": "Um rosto conhecido",
+									"dialog_title": "Um rosto conhecido",
+									"bulletin_message": {
+										"00": "Uma mulher se aproxima do acampamento. Ela usa as vestes roxas de um Boxling High. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu seguindo, mas ela deve ter sido por muito tempo.</font></ p>"
+									},
+									"choice_000": "Você parece familiar..."
+								},
+								"read_letter": {
+									"bulletin_title": "Darza, Boxing High",
+									"dialog_title": "Darza, Boxing High",
+									"bulletin_message": {
+										"00": "\"Olá. Vocês devem ser os aventureiros que nos deixaram há algum tempo, sim?\" ela nos questiona enquanto seus olhos disparam de cada um de nossos rostos. Ela gesticula para seu livro. \"Eu treino.\" Então ela bate o emblema em forma de caveira em suas vestes. \"Para o conhecimento de Vox!\" enquanto seus olhos olham para o céu."
+									}
+								},
+								"read_letter2": {
+									"bulletin_message": {
+										"00": "Ela fala tanto com as mãos e os olhos quanto com a voz: \"Estou feliz que você parou e está pronto para se estabelecer. Agora que sei que você está aqui, vou ficar de olho em você\". <p>Ela vai até o banner e toca seu centro em branco. \"Primeiro, porém, você deve escolher o seu símbolo que irá representá-lo em minhas anotações. Você deve construir esta área e torná-la um lugar que você pode chamar de lar. Eu sei que você pode fazer grandes coisas aqui.\"</p>"
+									}
+								},
+								"read_letter3": {
+									"bulletin_title": "Enquanto ela espera por sua escolha",
+									"dialog_title": "Enquanto ela espera por sua escolha",
+									"bulletin_message": {
+										"00": "De repente, ela começa a cantar e o volume de sua voz é incrível: \"Il zmy lipy ao vag sy tidd feal haf za siwm ajyr fw suzm idd hafr kdywwulqw\", que se traduz aproximadamente do antigo Boxling para \"Em nome de Vox, chamamos você para nos lavar com todas as suas bênçãos\", ela nos encara para tomar nossa decisão.</p>"
+									}
+								}
+							}
+						}
+					},
+					"town_founding_food_donation": {
+						"donation_dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"dialog_title": "Darza pega uma pequena bolsa.",
+									"bulletin_message": {
+										"00": "\"Obrigada\", Darza sussurra enquanto gesticula, \"por sua hospitalidade e presença.\" <p>Ela coloca uma pequena bolsa ao lado do banner. Em seu lado há um emblema de uma caveira. \"Eu não sou como a outra Boxling High\", diz ela. \"Para você ver, eu estou procurando por Andreal Vox. Ele nos deixou muito tempo atrás depois que alguns dos outros Boxling High se voltaram contra ele. Eu só sei que ele ainda está vivo... lá fora, em algum lugar.\" novamente ela olha para o céu. \"De qualquer forma, pegue isso. Ele irá ajudá-lo em seu caminho, caso você se encontre em busca de Vox também.</p><p>A bolsa contém:</p>",
+										"01": "Obrigado."
+									}
+								}
+							}
+						}
+					},
+					"bird_departs": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "Darza se prepara para partir",
+									"bulletin_message": {
+										"00": "Darza está agora à beira do fogo. Ela escreveu o nome da cidade e um breve relato de seus habitantes nas páginas em branco de seu livro. <p>\"[str(i18n_data.town_name)]\" ela murmura. \"Bh zmy suwvap ao vag vorv flvyr zmy siztmofd yhyw ao zmy wzirw ikajy, dyz uz ky clasl zmy bagdulqw vory myry.\" Boxling mais antigo.</p>"
+									}
+								},
+								"msg2": {
+									"choice_000": "Viaje sob o olhar atento das estrelas."
+								}
+							}
+						}
+					},
+					"hearth_choice_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"intro": {
+									"bulletin_title": "Darza retorna mais uma vez",
+									"bulletin_message": {
+										"00": "Darza aparece na beira do acampamento, sorrindo, os braços abertos para abranger tudo o que foi construído desde sua última visita. \"Bh vag'w qrity...\" ela sussurra para si mesma. \"Posso ouvir sobre o seu progresso.\""
+									}
+								},
+								"intro2": {
+									"bulletin_title": "Darza ouve atentamente",
+									"dialog_title": "Darza ouve atentamente",
+									"bulletin_message": {
+										"00": "Ela bate no crânio em seu manto. \"Vox ficaria feliz com a forma como você se saiu.\" Ela se curva e toca as pedras de sua lareira. \"Agora é a hora de escolher a lareira que representará o futuro de seu povo.\""
+									},
+									"choice_000": "Quais são as escolhas novamente?"
+								},
+								"intro3": {
+									"bulletin_title": "Darza explica",
+									"dialog_title": "Darza explica",
+									"bulletin_message": {
+										"00": "Sua voz assume uma cadência grave: \"Vox acreditava que nossos poderes vinham de dentro, que as lareiras seriam um farol de nossas forças e realizações.\" <br><br>Ela aguarda a resposta apropriada."
+									},
+									"choice_000": "Oh! Isso mesmo, \"Contra todas as probabilidades...\""
+								},
+								"cheer": {
+									"bulletin_message": {
+										"00": "\"Vox acreditou como você, que poderíamos viver por conta própria mesmo nas condições mais difíceis. A Lareira da Alegria reúne todos os que buscam a felicidade contra todas as probabilidades.\""
+									},
+									"bulletin_title": "Contra todas as probabilidades",
+									"dialog_title": "Contra todas as probabilidades",
+									"choice_000": "\"Para ser o melhor...\""
+								},
+								"makers": {
+									"bulletin_message": {
+										"00": "\"A Hearth of the Makers é para aqueles que acreditam que uma casa é um lugar de criação, e através dessas criações provamos ser os melhores.\""
+									},
+									"choice_000": "\"Os poderosos duram para sempre...\"",
+									"bulletin_title": "Para ser o melhor",
+									"dialog_title": "Para ser o melhor"
+								},
+								"glory": {
+									"choice_000": "\"Uma escolha...\"",
+									"bulletin_message": {
+										"00": "\"Finalmente, a Lareira da Glória nos lembra que sobrevivemos nos confins de Boxland e que devemos aprimorar nossos corpos e mentes ao máximo. Porque nós, Boxlings, somos poderosos, e os poderosos duram para sempre.\""
+									},
+									"dialog_title": "Os poderosos duram para sempre",
+									"bulletin_title": "Os poderosos duram para sempre"
+								},
+								"final": {
+									"bulletin_message": {
+										"00": "Darza conclui: \"Alegria, Criadores e Glória, a escolha do seu caminho ilumina o caminho para todos que o seguem. Na sabedoria de Vox e sob os auspícios de Firnn, Knut e Siv... As deidades dos nortistas, se você quiser.\""
+									}
+								}
+							}
+						}
+					},
+					"shrine_foreshadow_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "Darza retorna mais uma vez...",
+									"bulletin_message": {
+										"00": "Ela oferece um pequeno sorriso enquanto inclina a cabeça. \"Surpresa?\" ela diz brincando."
+									},
+									"dialog_title": "Darza retorna mais uma vez..."
+								},
+								"msg2": {
+									"bulletin_title": "Darza admira a cidade",
+									"dialog_title": "Darza admira a cidade",
+									"bulletin_message": {
+										"00": "Ela gesticula para as mais novas adições à cidade e acena com a cabeça em aprovação. \"A essa altura, estou bem ciente de que você foi visitado por Vox. Suponho que ele e eu nunca nos encontremos.\" <br><br>Ela se acomoda perto do fogo e pega seu livro e pena novamente. Com um aceno de cabeça, ela convida aqueles ao seu redor a contar suas aventuras recentes."
+									}
+								},
+								"msg3": {
+									"bulletin_title": "Darza escreve",
+									"dialog_title": "Darza escreve",
+									"bulletin_message": {
+										"00": "Enquanto Darza registra os contos e os conta para o céu, ela fica pensativa. No final, ela acena para si mesma e tira, de sua bolsa, três pedras lisas.<br><br>Cada uma delas tem uma marca familiar riscada: uma é a constelação de Firnn, o Cervo, muitas vezes associada à generosidade e ao verão. . Uma é a constelação de Siv, o Lobo, que garante que cada caçada contribua para o ciclo do mundo. A última são as minúsculas três estrelas de Knut, o Coelho, que gira a roda da fortuna."
+									}
+								},
+								"msg4": {
+									"bulletin_title": "Darza se ajoelha",
+									"dialog_title": "Darza se ajoelha"
+								}
+							}
+						}
+					},
+					"shrine_choice_explanation": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"intro": {
+									"bulletin_title": "Darza aparece mais uma vez",
+									"dialog_title": "Darza aparece mais uma vez",
+									"bulletin_message": {
+										"00": "Darza balança a cabeça com carinho. \"Você esperava que as estrelas viessem visitá-lo na terra? São espíritos, não bestas. São alegorias de Valin, comprometidas com os céus para não esquecermos seus ensinamentos. Ele era o favorito de Vox.\""
+									}
+								},
+								"intro2": {
+									"bulletin_title": "Darza olha para a lareira",
+									"dialog_title": "Darza olha para a lareira",
+									"bulletin_message": {
+										"00": "\"É hora de criar um monumento e pedir as bênçãos de seu espírito patrono. Então vou registrar seu assentamento como uma estrela na constelação da Aliança do Norte, e suas histórias estarão seguras em sua biblioteca. escolha?\""
+									}
+								},
+								"clergy": {
+									"bulletin_message": {
+										"00": "Darza mergulha novamente em uma cadência poética: \"Firn, o Cervo, de cujos cascos caem os favores do verão: abençoe esta cidade com prosperidade e sabedoria para viver em harmonia com os ciclos da terra\". <br><i>(Construir uma Fonte do Verão concederá a todos os seus habitantes um aumento de +1 nos atributos mente, corpo e espírito.)</i>"
+									}
+								},
+								"makers": {
+									"bulletin_message": {
+										"00": "Darza continua: \"Knut, o Veloz, que gira a roda da fortuna: abençoe esta cidade com um momento de grande prosperidade e a previsão de armazenar favores contra as reveses que virão. <br><i>(Construir uma Fonte da Fortuna conceder a capacidade de criar móveis e decorações de qualidade de obra-prima, que são consideravelmente melhores do que os de excelente qualidade.) </i>"
+									}
+								},
+								"military": {
+									"bulletin_message": {
+										"00": "Darza termina: \"E Siv, o Lobo, cuja respiração vaporiza o inverno gelado enquanto persegue uma presa fugaz: abençoe esta cidade com resiliência, para que possamos resistir ao frio em nosso tempo de força, e aceitar nosso retorno à terra quando esse tempo acabou.\"<br><i>(Construir uma Fonte de Fogo lhe dará força adicional em combate e +2 no atributo corpo.)</i>"
+									}
+								},
+								"summary": {
+									"bulletin_title": "Darza conclui:",
+									"dialog_title": "Darza conclui:"
+								}
+							}
+						}
+					},
+					"guild_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "Darza se ajoelha diante do coelho e coloca as mãos em concha para que ele possa pular nelas. Ela caminha lentamente em direção à celebração. As orelhas do coelho giram em todas as direções, absorvendo as festividades."
+									}
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "O coelho se vira para cheirar na direção do fogo, e entre as brasas surge uma visão: uma constelação de cidades estampadas em um mapa e dezenas, centenas, milhares de histórias coletadas de seus aprendizados. Visões de mercadorias finamente trabalhadas flutuam através da fumaça, criando afinidade entre aqueles que criaram e aqueles que aprenderão com seus avanços e criarão de novo. Então a criatura salta das mãos de Darza e cai na multidão."
+									}
+								}
+							}
+						}
+					},
+					"valor_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "Darza cai no agachamento de um caçador e mostra os dentes. O lobo mostra suas presas para trás. Então, como um, ambos levantam o queixo, expondo suas gargantas. A mão de Darza toca a gola do lobo, e ele fareja uma vez as cicatrizes em seu pescoço."
+									}
+								}
+							}
+						}
+					},
+					"deity_dialog_1": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg2": {
+									"bulletin_message": {
+										"00": "Darza se aproxima do veado com uma reverência baixa, tão baixa que seu cabelo raspa o chão, e aponta para a lareira. A música parece atraí-lo para mais perto."
+									}
+								}
+							}
+						}
+					},
+					"post_shrine_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "Darza faz para sair",
+									"dialog_title": "Darza, Boxing High",
+									"bulletin_message": {
+										"00": "Darza observa enquanto a festa se acalma. \"Isso foi bem feito\", ela sussurra. \"Seu município está oficialmente inscrito nos anais da Biblioteca, e os espíritos enfeitam seus passos.\""
+									}
+								},
+								"msg2": {
+									"bulletin_message": {
+										"00": "Darza considera a fonte. \"Que aprendizados você vai buscar a seguir? Os outros monumentos ficariam bem ao lado deste, embora não tenham o poder de chamar as constelações.\" Ela sorri. \"Sua cidade tem tudo o que precisa, não é?\"  "
+									}
+								},
+								"msg3": {
+									"bulletin_message": {
+										"00": "Darza toca seu peito. \"Você aquece meu coração.\" Ela dá um passo para trás e faz um gesto abrangente de despedida. Seus olhos brilham, um lembrete de que os Escoteiros de Valin viajam para sempre longe da civilização, para lugares ainda mais selvagens e perigosos do que estes.<br><br>\"Como Valin ensina, cada momento precioso deve ser valorizado contra a inevitável mudança de o clima.\""
+									},
+									"choice_000": "Adeus, Darza! Siga as estrelas!"
+								}
+							}
+						}
+					},
+					"reembark_dialog": {
+						"dialog_tree_info": {
+							"dialog_nodes": {
+								"msg1": {
+									"bulletin_title": "Darza, mais uma vez",
+									"bulletin_message": {
+										"00": "Quando Darza aparece pela última vez, é com uma bandeira roxa nas mãos. É um gêmeo daquele com o qual esta cidade embarcou, há tanto tempo. Ela inclina a cabeça com um sorriso e gesticula para o horizonte. Ela não precisa falar. A lareira está esperando. </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></ fonte></p>"
+									}
+								}
+							}
+						}
+					}
+				},
+				"encounters": {
+					"necromancer": {
+						"necromancer_intro": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_title": "Conhecimento Críptico",
+										"bulletin_message": {
+											"00": "\"Olá amigos! Já faz algum tempo desde que eu vi outra alma viva, haha. Eu gostaria de oferecer a vocês um presente precioso.\"<br><br>\"Eu gostaria de ensinar a vocês a arte enigmática conhecida como Necromancia.\"<br><br>\"Gostaria de ouvir sobre o meu conhecimento, o antigo poder de dominar os mortos-vivos?\""
+										},
+										"choice_001": "Por favor, diga-nos",
+										"choice_000": "[Pular história] Saiba tudo sobre isso"
+									},
+									"story1": {
+										"bulletin_message": {
+											"00": "<font size=-1>Vox sorri misteriosamente.<br></font>\"Este mundo é cheio de escuridão e maldade. Eu estava cansado de sempre vencer, então decidi fazer uma mudança.\"<br><br> \"Passei incontáveis ​​noites fundindo ossos imbuídos da minha própria essência de vida com pouco ou nenhum resultado. Depois que me deparei com um segredo bem guardado, finalmente consegui invocar meu primeiro lacaio morto-vivo. Um esqueleto que chamei de Steve.\""
+										},
+										"choice_000": "Um esqueleto, incrível!"
+									},
+									"story2": {
+										"bulletin_message": {
+											"00": "\"Eu usei meus novos poderes e abracei a escuridão e o mal que este mundo estava tão cheio. Eu fui com Steve e comecei a dizimar as terras ao redor de criaturas hostis.\"<br><br>\"Não demorou muito para eu percebi que Steve não era forte o suficiente para lutar contra alguns dos inimigos que comecei a encontrar. As coisas novamente precisavam mudar.\""
+										},
+										"choice_000": "Que tipo de mudança?"
+									},
+									"story3a": {
+										"bulletin_message": {
+											"00": "\"Era hora de mais uma vez usar minha própria essência de vida e criar algo mais forte. Em minhas viagens eu matei lobos, sim lobos. Eu sabia que essas bestas eram a escolha perfeita na minha progressão de poder.\"<br><br>\"Usando mais osso Eu fui capaz de invocar vida em um novo lacaio, Steve evoluiu. Não muito tempo depois disso eu percebi que se eu usasse a carne de meus inimigos junto com seus ossos eu poderia convocar lacaios ainda mais fortes. As possibilidades eram infinitas.\""
+										},
+										"choice_000": "O que veio da carne?"
+									},
+									"story3b": {
+										"bulletin_message": {
+											"00": "\"Comecei de onde eu tinha antes, um esqueleto. Desta vez, porém, apliquei carne a osso na esperança de algo mais forte. O zumbi que ele produziu foi melhor do que eu imaginava.\"<br><br>\"Depois disso, fui capaz de crescer em força e convocar uma fera ainda maior, um golem de carne e, eventualmente, carnezilla. Meus lacaios e eu conquistamos o mundo, tudo estava bem novamente, mas algo estava faltando.\"<br><br><font size=-1>Ele se levanta lá pensativamente</font>"
+										},
+										"choice_000": "O que estava faltando?"
+									},
+									"story4": {
+										"bulletin_message": {
+											"00": "\"Steve era poderoso, quase imparável. Eu era um mestre dos mortos-vivos, arremessando crânios flamejantes para a esquerda e para a direita. Embora algo estivesse faltando. Eu tive a ideia de me criar, por assim dizer. Usei todo o conhecimento que aprendi para convocar uma mini versão de mim mesmo. Eu o ensinei a jogar 2 caveiras flamejantes de uma só vez, um truque que comecei a usar depois.\"<br><br>\"Agora tudo o que me restava era encontrar uma pessoa, um aluno, para passar meu conhecimento. Acredito que essa pessoa seja você. Você é esse aluno?\"<br><br><font size=-1>Ele pergunta baixinho</font>"
+										},
+										"choice_000": "Aluna? Eu?"
+									},
+									"offer": {
+										"bulletin_message": {
+											"00": "\"De qualquer forma, o que você diz - você gostaria que um de seus estimados Clérigos aprendesse os caminhos da Necromancia? Vou deixar este livro aqui para você, talvez ele o guie para algo de grande poder.\""
+										},
+										"choice_000": "Obrigado! Faremos o nosso melhor.",
+										"choice_001": "Isso tudo soa um pouco assustador demais para mim."
+									},
+									"reject": {
+										"bulletin_message": {
+											"00": "\"Entendo. Você tem certeza? Como eu disse, esta pode ser sua única chance de obter tal conhecimento.\""
+										},
+										"choice_001": "[Voltar] Espere, mudei de ideia!",
+										"choice_000": "Tenho certeza, não, obrigado."
+									},
+									"accept": {
+										"bulletin_message": {
+											"00": "\"Glorioso! Leve todo o tempo que precisar para escolher, a seleção é realmente importante.\"<br><br>\"Como eu disse, eles ficarão fora por cerca de sete dias, então não envie ninguém que você não possa suportar ficar sem.\""
+										},
+										"choice_000": "Deixe-me decidir quem enviar..."
+									},
+									"reject2": {
+										"bulletin_message": {
+											"00": "\"Muito bem, suponho que coisas dessa natureza ficarão em segredo para sempre.\"<br><br>\"Vou me despedir. Desejo-lhe sucesso em seus empreendimentos. Adeus!\""
+										},
+										"choice_000": "Até a próxima!"
+									},
+									"msg2": {
+										"bulletin_title": "O caminho para a necromancia"
+									},
+									"necro_recipes_unlock": {
+										"bulletin_title": "Novos ofícios de Necromante foram adicionados ao Mason!"
+									}
+								}
+							}
+						}
+					},
+					"frostfeast": {
+						"frostfeast_intro": {
+							"dialog_tree_info": {
+								"dialog_nodes": {
+									"msg1": {
+										"bulletin_title": "Um Necromante Frostfeast",
+										"bulletin_message": {
+											"00": "Feliz Festa dos Amigos! Em homenagem ao espírito de doação, estou aqui para presentear você com meus poderes necromânticos. Sem condições! Aproveite por um tempo limitado amigos!"
+										},
+										"choice_000": "Me de me de!"
+									},
+									"msg2": {
+										"bulletin_title": "Poderes Necromânticos!"
+									},
+									"offer": {
+										"bulletin_message": {
+											"00": "Aqui Pegue O Livro Já!"
+										},
+										"choice_000": "Obrigado!"
+									}
+								}
+							}
+						}
+					}
+				},
+				"necromancer": {
+					"persons": {
+						"vox": {
+							"title": "Vox, o primeiro necromante"
+						}
+					}
+				},
+				"frostfeast": {
+					"persons": {
+						"vox": {
+							"title": "Um Necromante Frostfeast"
+						}
+					}
+				}
+			},
+			"encounters": {
+				"necromancer": {
+					"necromancer_quest": {
+						"text": "Selecione um clérigo para ser treinado como um Necromante por Vox."
+					},
+					"necromancer_outro": {
+						"dialog_info": {
+							"dialog_nodes": {
+								"simple_message": {
+									"choice_000": "Obrigado Vox! Que sua alma descanse sabendo que sua magia continuará viva.",
+									"bulletin_message": {
+										"00": "<font size=-1>O Clérigo que você enviou com Vox voltou... sozinho. Eles não dizem muito além de:</font>\"O clímax dele chegou.\"<br><font size=-1> Parece que Vox compartilhou seu conhecimento conosco bem a tempo.<br><br></ font>Prometemos nunca esquecê-lo e usar nossos novos poderes para livrar este mundo do mal mais uma vez!<br>Vá em frente e conquiste.<br>Vá em frente e morra!"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"necromancer": {
+			"necromancer_tome": {
+				"necromancer_tome_talisman": {
+					"display_name": "Necronomicon",
+					"description": "Necessário para promover um clérigo a um necromante"
+				},
+				"display_name": "Livro dos mortos",
+				"description": "Dentro estão os segredos para se tornar um Necromante"
+			},
+			"necromancer_description": {
+				"display_name": "Necromante",
+				"description": "Convoque os mortos-vivos para lutar por você",
+				"requirements": "Obtido de um Mestre Necromante",
+				"level_1_data": {
+					"perk_000_name": "Ataque de caveira flamejante",
+					"perk_000_description": "O Necromante é capaz de lançar uma caveira flamejante que inflige uma lentidão de queima nos inimigos.",
+					"perk_001_name": "Invocar Esqueletos",
+					"perk_001_description": "Convoque um exército de esqueletos de 4 para lutar suas batalhas por você.",
+					"perk_003_name": "Trabalhadores mortos-vivos (Máx. 3)",
+					"perk_003_description": "O Mason pode criar Undead Workers agora que o Necromancer está na cidade dando vida aos ossos."
+				},
+				"level_2_data": {
+					"perk_000_name": "Invocar Lobos de Ossos",
+					"perk_000_description": "Convoque um exército de lobos ósseos de 3 para lutar suas batalhas por você."
+				},
+				"level_3_data": {
+					"perk_000_name": "Invocar Zumbis",
+					"perk_000_description": "Convoque um exército de zumbis de 2 para lutar suas batalhas por você.",
+					"perk_001_name": "Trabalhadores mortos-vivos (Máx. 6)",
+					"perk_001_description": "Aumenta o máximo de Undead Workers que seu Necromancer pode dar vida."
+				},
+				"level_4_data": {
+					"perk_000_name": "Evocar um Golem de Carne",
+					"perk_000_description": "Convoque um golem de carne para lutar suas batalhas por você."
+				},
+				"level_5_data": {
+					"perk_000_name": "Invocar uma Zilla de Carne",
+					"perk_000_description": "Convoque uma zilla de carne para lutar suas batalhas por você."
+				},
+				"level_6_data": {
+					"title": "Mestre Necromante",
+					"perk_000_name": "Invocar Mini-Necromantes",
+					"perk_000_description": "Convoque 2 mini-necromantes para lutar suas batalhas por você.",
+					"perk_001_name": "Trabalhadores mortos-vivos (Máx. 10)",
+					"perk_001_description": "Aumenta o máximo de Undead Workers que seu Necromancer pode dar vida.",
+					"perk_002_description": "O Necromante agora lança 2 crânios flamejantes que infligem uma lentidão de queima nos inimigos.",
+					"perk_002_name": "Ataque duplo de caveira flamejante"
+				}
+			},
+			"necromancer_outfit": {
+				"display_name": "Vestes de Necromante",
+				"description": "O Traje de um Necromante"
+			},
+			"necromancer_debuffs": {
+				"flame_skull": {
+					"display_name": "Crânio Flamejante Queimando Lentamente",
+					"description": "Esta unidade é queimada a uma distância lenta."
+				}
+			},
+			"workers": {
+				"miner": {
+					"display_name": "Mineiro Zumbi",
+					"description": "Este Undead Work irá minerar zonas definidas."
+				},
+				"gatherer": {
+					"display_name": "Coletor de Esqueletos",
+					"description": "Este Undead Work coletará e reabastecerá itens."
+				}
+			},
+			"necromancer_mask_1": {
+				"display_name": "Capuz Necromante Aprendiz",
+				"description": "Um Necromante com uma quantidade razoável de treinamento pode equipar este capuz."
+			},
+			"necromancer_mask_2": {
+				"display_name": "Capuz Mestre Necromante",
+				"description": "Apenas o nível mais alto de Necromante pode usar este poderoso capuz."
+			}
+		},
+		"cleric": {
+			"recipes": {
+				"paladins_shield_recipe": {
+					"recipe_name": "Escudo do Paladino",
+					"description": "Necessário para promover um Hearthling a um paladino",
+					"flavor": "Com este escudo sagrado, um paladino surgirá."
+				}
+			}
+		},
+		"herbalist": {
+			"herbalist_description": {
+				"display_name": "Herbalista"
+			},
+			"recipes": {
+				"blueberry_bush_transmute_recipe": {
+					"recipe_name": "Sementes de Mirtilo (x2)"
+				},
+				"daisy_plant_transmute_recipe": {
+					"recipe_name": "Sementes de Matricária (x2)",
+					"description": "Uma erva medicinal tradicional que é comumente usada para prevenir enxaquecas e também é ocasionalmente cultivada para ornamento.",
+					"flavor": "Tanacetum parthenium, conhecido como matricária ou botões de solteiro, é uma planta da família das margaridas Asteraceae."
+				},
+				"small_healing_tonic_recipe": {
+					"recipe_name": "Poções de Cura (x2)"
+				},
+				"stamina_tonic_recipe": {
+					"recipe_name": "Poções de Vigor (x2)"
+				},
+				"strength_tonic_recipe": {
+					"recipe_name": "Poções de Força (x2)"
+				},
+				"courage_tonic_recipe": {
+					"recipe_name": "Poções de Coragem (x2)"
+				},
+				"energy_tonic_recipe": {
+					"recipe_name": "Poções de Energia (x2)"
+				},
+				"coarse_bandage_recipe": {
+					"recipe_name": "Bandagens Grossas (x2)"
+				},
+				"heavy_bandage_recipe": {
+					"recipe_name": "Bandagens Pesadas (x2)"
+				},
+				"light_bandage_recipe": {
+					"recipe_name": "Bandagens Leves (x2)"
+				},
+				"tree_seed_apple_recipe": {
+					"recipe_name": "Muda de macieira (x2)",
+					"description": "Selecione as melhores sementes da maçã",
+					"flavor": "Apenas uma mão habilidosa pode escolher as melhores sementes, mas o resto é destruído no processo."
+				},
+				"tree_seed_banana_recipe": {
+					"recipe_name": "Muda de bananeira (x2)",
+					"flavor": "Apenas uma mão habilidosa pode escolher as melhores sementes, mas o resto é destruído no processo.",
+					"description": "Selecione as melhores sementes da banana."
+				},
+				"tree_seed_lime_recipe": {
+					"recipe_name": "Muda de Limoeira (x2)",
+					"flavor": "Apenas uma mão habilidosa pode escolher as melhores sementes, mas o resto é destruído no processo.",
+					"description": "Selecione as melhores sementes do limão."
+				},
+				"tree_seed_orange_recipe": {
+					"recipe_name": "Muda de laranjeira (x2)",
+					"flavor": "Apenas uma mão habilidosa pode escolher as melhores sementes, mas o resto é destruído no processo.",
+					"description": "Selecione as melhores sementes da laranja."
+				}
+			}
+		},
+		"weaver": {
+			"weaver_description": {
+				"display_name": "Tecelão"
+			}
+		},
+		"paladin": {
+			"paladin_description": {
+				"display_name": "Paladino"
+			},
+			"armor": {
+				"paladin_shield": {
+					"display_name": "Escudo do Paladino",
+					"description": "Um escudo imbuído de poder de cura."
+				}
+			},
+			"buffs": {
+				"courage_aura": {
+					"display_name": "Presença inspiradora",
+					"description": "O paladino aumenta a coragem de todos ao seu redor"
+				},
+				"courage_aura_effect": {
+					"description": "A coragem aumentou com a presença de um paladino.",
+					"display_name": "Inspirado"
+				},
+				"defense_1": {
+					"display_name": "Nível 3 de Redução de Dano",
+					"description": "Defesa ganha de equipamento aumentada em 30%"
+				},
+				"defense_2": {
+					"display_name": "Nível de Redução de Dano 4",
+					"description": "Defesa ganha de equipamento aumentada em 40%"
+				},
+				"heal_aura": {
+					"display_name": "Aura de Cura",
+					"description": "O paladino cura todos ao seu redor"
+				},
+				"health_1": {
+					"display_name": "Fortificar (Nível 3)",
+					"description": "O paladino se torna mais ameaçador para os inimigos, chamando sua atenção em combate. Eles também recebem um bônus de saúde e resistência para acompanhar."
+				},
+				"health_2": {
+					"display_name": "Fortificar (Nível 4)",
+					"description": "Mais rápido, mais furioso"
+				}
+			},
+			"talisman": {
+				"paladin_shield": {
+					"description": "Necessário para promover um Hearthling a um paladino"
+				}
+			}
+		},
+		"cook": {
+			"recipes": {
+				"cream_recipe": {
+					"recipe_name": "Creme",
+					"description": "Podemos usar isso para PIE!"
+				},
+				"beef_rib_roast_recipe": {
+					"recipe_name": "Costela assada",
+					"description": "Você não encontrará nada com mais carne"
+				},
+				"roast_rack_of_pork_recipe": {
+					"recipe_name": "Assado de Porco",
+					"description": "Onde está o bacon?"
+				},
+				"apple_pie_recipe": {
+					"recipe_name": "Torta de maçã",
+					"description": "Isso com certeza deixará todos felizes"
+				},
+				"banana_cream_pie_recipe": {
+					"recipe_name": "Torta Creme de Banana",
+					"description": "Quem não gosta de um pouco de creme de banana na boca?"
+				},
+				"cow_feed_recipe": {
+					"recipe_name": "Alimentação da Vaca",
+					"description": "Um suplemento para uma dieta de vaca saudável"
+				},
+				"pig_feed_recipe": {
+					"recipe_name": "Alimentação de porco",
+					"description": "Um suplemento para uma dieta de porco saudável"
+				},
+				"dough_recipe": {
+					"recipe_name": "Massa",
+					"description": "Massa usada para assar"
+				},
+				"pepper_recipe": {
+					"recipe_name": "Pimenta",
+					"description": "Um shaker cheio de pimenta"
+				},
+				"pepperoni_recipe": {
+					"recipe_name": "Pepperoni",
+					"description": "Uma salsicha de pepperoni"
+				}
+			}
+		}
+	},
+	"entities": {
+		"weapons": {
+			"flame_skull": {
+				"display_name": "Crânio Flamejante",
+				"description": "Crânio Flamejante"
+			},
+			"holy_sword": {
+				"display_name": "Espada sagrada",
+				"description": "Abençoada por DEUS, esta cruz foi transformada em uma arma formidável."
+			},
+			"paladin_hammer": {
+				"display_name": "Martelo Sagrado",
+				"description": "Martelo Sagrado de um Paladino"
+			}
+		},
+		"construction": {
+			"stoned_tunnel_door": {
+				"stoned_tunnel_door_ghost": {
+					"display_name": "Porta do túnel indestrutível",
+					"description": "Uma porta de túnel indestrutível."
+				}
+			}
+		},
+		"containers": {
+			"box_o_vox_crate": {
+				"box_o_vox_crate_ghost": {
+					"display_name": "A Caixa O'Vox",
+					"description": "Esta caixa contém recursos infinitos"
+				}
+			},
+			"equipment_crate": {
+				"equipment_crate_ghost": {
+					"display_name": "Caixa de Equipamentos",
+					"description": "Uma caixa para equipamentos"
+				}
+			},
+			"food_crate": {
+				"food_crate_ghost": {
+					"display_name": "Caixa de comida",
+					"description": "Uma caixa para comida"
+				}
+			},
+			"furniture_crate": {
+				"furniture_crate_ghost": {
+					"display_name": "Caixa de móveis",
+					"description": "Uma caixa para móveis"
+				}
+			},
+			"resources_crate": {
+				"resources_crate_ghost": {
+					"display_name": "Caixa de Recursos",
+					"description": "Uma caixa para recursos"
+				}
+			},
+			"treasure_crate": {
+				"treasure_crate_ghost": {
+					"display_name": "Caixa do Tesouro",
+					"description": "Uma caixa para o tesouro"
+				}
+			},
+			"necro_bundle": {
+				"display_name": "Pacote Iniciante Necromante",
+				"description": "Saqueie isso por um punhado de itens para ajudar a acelerar seu caminho para se tornar um necromante."
+			}
+		},
+		"decoration": {
+			"boxling_statue": {
+				"boxling_statue_ghost": {
+					"display_name": "Estátua de Boxling",
+					"description": "Uma estátua aos Boxlings todo-poderosos, de onde tudo foi dado a nós, os DEUSES de Boxland."
+				},
+				"boxling_statue_2_ghost": {
+					"display_name": "Estátua de Boxling 2"
+				}
+			},
+			"craftsman_statue": {
+				"lamppost_blue": {
+					"lamppost_blue_ghost": {
+						"description": "Um poste de luz simples.",
+						"display_name": "Poste de luz azul"
+					}
+				},
+				"lamppost_green": {
+					"lamppost_green_ghost": {
+						"description": "Um poste de luz simples.",
+						"display_name": "Poste de luz verde"
+					}
+				},
+				"lamppost_purple": {
+					"lamppost_purple_ghost": {
+						"description": "Um poste de luz simples.",
+						"display_name": "Poste de luz roxo"
+					}
+				},
+				"lamppost_red": {
+					"lamppost_red_ghost": {
+						"description": "Um poste de luz simples.",
+						"display_name": "Poste de luz vermelho"
+					}
+				},
+				"wall_lamp_blue": {
+					"wall_lamp_blue_ghost": {
+						"description": "Uma luminária de parede suspensa.",
+						"display_name": "Lâmpada de parede azul"
+					}
+				},
+				"wall_lamp_green": {
+					"wall_lamp_green_ghost": {
+						"description": "Uma luminária de parede suspensa.",
+						"display_name": "Lâmpada de parede verde"
+					}
+				},
+				"wall_lamp_purple": {
+					"wall_lamp_purple_ghost": {
+						"description": "Uma luminária de parede suspensa.",
+						"display_name": "Lâmpada de parede roxa"
+					}
+				},
+				"wall_lamp_red": {
+					"wall_lamp_red_ghost": {
+						"description": "Uma luminária de parede suspensa.",
+						"display_name": "Lâmpada de parede vermelha"
+					}
+				},
+				"wall_lamp_white": {
+					"wall_lamp_white_ghost": {
+						"description": "Uma luminária de parede suspensa.",
+						"display_name": "Lâmpada de parede branca"
+					}
+				}
+			}
+		},
+		"furniture": {
+			"stone_comfy_chair": {
+				"display_name": "Cadeira de pedra confortável",
+				"description": "Para sentar.",
+				"flavor": "Para que mais você acha que foi?"
+			}
+		},
+		"crops": {
+			"potato_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "Muda de Batata",
+						"description": "Uma batata não realizada"
+					},
+					"001": {
+						"name": "broto de batata",
+						"description": "Ainda não comestível!"
+					},
+					"002": {
+						"name": "Batata bebê",
+						"description": "Pequena. Amargo."
+					},
+					"003": {
+						"name": "Batata Madura",
+						"description": "Delicioso!"
+					},
+					"011": {
+						"name": "Batata podre",
+						"description": "Mofado e nojento."
+					}
+				},
+				"display_name": "Batata",
+				"description": "Uma planta amilácea que é uma das culturas mais importantes"
+			},
+			"tomato_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "Muda de tomate",
+						"description": "Um tomate não realizado"
+					},
+					"001": {
+						"name": "broto de tomate",
+						"description": "Ainda não comestível!"
+					},
+					"002": {
+						"name": "talo de tomate",
+						"description": "Ainda falta muito para crescer."
+					},
+					"003": {
+						"name": "Tomate bebê",
+						"description": "Pequena. Amargo."
+					},
+					"004": {
+						"name": "Tomate bebê",
+						"description": "Pequena. Amargo."
+					},
+					"005": {
+						"name": "Tomate bebê",
+						"description": "Extremamente insatisfatório para comer."
+					},
+					"006": {
+						"name": "Tomate bebê",
+						"description": "Extremamente insatisfatório para comer."
+					},
+					"007": {
+						"name": "Tomate Maduro",
+						"description": "Coma-me! Coma-me!"
+					},
+					"019": {
+						"name": "Tomate podre",
+						"description": "Está morto."
+					}
+				},
+				"display_name": "Tomate",
+				"description": "Uma fruta comestível vermelha brilhante que normalmente é consumida como um vegetal"
+			},
+			"strawberry_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "Muda de morango",
+						"description": "Um morango não realizado"
+					},
+					"001": {
+						"name": "broto de morango",
+						"description": "Ainda não comestível!"
+					},
+					"002": {
+						"name": "Morango bebê",
+						"description": "Pequena. Amargo."
+					},
+					"003": {
+						"name": "morango maduro",
+						"description": "Delicioso!"
+					},
+					"011": {
+						"description": "Mofado e nojento.",
+						"name": "morango podre"
+					}
+				},
+				"display_name": "Morango",
+				"description": "Uma fruta vermelha doce e macia com uma superfície cravejada de sementes"
+			},
+			"daisy_crop": {
+				"growth_stage": {
+					"000": {
+						"name": "Mudas de Matricária"
+					},
+					"001": {
+						"name": "Broto de Matricária"
+					},
+					"002": {
+						"name": "Feverfew Bud"
+					},
+					"003": {
+						"name": "Matricária"
+					}
+				},
+				"display_name": "Flor de Matricária"
+			}
+		},
+		"plants": {
+			"potato": {
+				"potato_basket": {
+					"display_name": "Cesto de Batatas",
+					"description": "Uma cesta cheia de batatas"
+				},
+				"potato_serving": {
+					"display_name": "Porção de batata",
+					"description": "Uma batata resistente"
+				}
+			},
+			"tomato": {
+				"tomato_basket": {
+					"display_name": "Cesto de Tomate",
+					"description": "Uma cesta cheia de tomates"
+				},
+				"tomato_serving": {
+					"display_name": "Porção de tomate",
+					"description": "Um tomate suculento"
+				}
+			},
+			"apple_tree": {
+				"display_name": "Árvore de maçã",
+				"description": "Não confie em cobras"
+			},
+			"banana_tree": {
+				"description": "uau, olhe para todas essas bananas",
+				"display_name": "Bananeira"
+			},
+			"orange_tree": {
+				"description": "Obter algumas laranjas suculentas",
+				"display_name": "Laranjeira"
+			},
+			"strawberry": {
+				"strawberry_basket": {
+					"description": "Uma cesta cheia de morangos",
+					"display_name": "Cesta de morango"
+				},
+				"strawberry_serving": {
+					"display_name": "Porção de morango",
+					"description": "Um morango gostoso"
+				}
+			},
+			"peppercorn_bush": {
+				"unripe_description": "Ainda não está maduro para a colheita.",
+				"display_name": "Planta de Pimenta",
+				"description": "Uma planta de pimenta. Colher isso soltará grãos de pimenta para criar pimenta."
+			},
+			"daisy_plant": {
+				"unripe_description": "Esta planta foi colhida e ainda não cresceu.",
+				"description": "Uma erva medicinal tradicional que é comumente usada para prevenir enxaquecas e também é ocasionalmente cultivada para ornamento.",
+				"display_name": "Matricária Selvagem",
+				"stem": {
+					"daisy_plant_bud": {
+						"display_name": "Planta de brotamento de Matricária Selvagem"
+					},
+					"daisy_plant_stem": {
+						"display_name": "Planta de Tronco de Matricária Selvagem"
+					}
+				},
+				"seed": {
+					"daisy_plant_seed_ghost": {
+						"display_name": "Semente de Matricária Selvagem"
+					},
+					"daisy_plant_sprout": {
+						"display_name": "Brotando de Matricária Selvagem"
+					}
+				}
+			},
+			"blueberry_bush": {
+				"unripe_description": "Ainda não está maduro para a colheita.",
+				"description": "Colhível para um suprimento alimentar escasso.",
+				"display_name": "Arbusto de Mirtilo",
+				"bud": {
+					"blueberry_bush_plant_bud": {
+						"display_name": "Arbusto de mirtilo brotando"
+					}
+				},
+				"sprout": {
+					"blueberry_bush_plant_sprout": {
+						"display_name": "Brotos de mirtilo"
+					}
+				},
+				"seed": {
+					"blueberry_bush_plant_seed_ghost": {
+						"display_name": "Semente de Arbusto de Mirtilo"
+					}
+				},
+				"stem": {
+					"blueberry_bush_plant_stem": {
+						"display_name": "Derivando o arbusto de mirtilo"
+					}
+				}
+			}
+		},
+		"food": {
+			"banana": {
+				"display_name": "Banana",
+				"description": "Uma fruta longa e curvada que cresce em cachos"
+			},
+			"rotten_banana": {
+				"display_name": "Banana podre",
+				"description": "Tão podre que perdeu toda forma e função."
+			},
+			"rotten_potato_basket": {
+				"display_name": "Cesto de batata podre",
+				"description": "Tão podre que perdeu toda forma e função."
+			},
+			"rotten_tomato_basket": {
+				"display_name": "Cesta de tomate podre",
+				"description": "Tão podre que perdeu toda forma e função."
+			},
+			"apple": {
+				"display_name": "Maçã",
+				"description": "Uma fruta de pomo comestível redonda carnuda"
+			},
+			"orange": {
+				"display_name": "Laranja",
+				"description": "Uma fruta cítrica suculenta e redonda com uma casca dura"
+			},
+			"cow_feed": {
+				"display_name": "Alimentação da Vaca",
+				"description": "Dê às vacas para complementar o pastejo.",
+				"cow_feed_ground": {
+					"display_name": "Alimentação da Vaca",
+					"description": "Comida para vacas"
+				}
+			},
+			"pig_feed": {
+				"display_name": "Alimentação de porco",
+				"description": "Dê aos porcos para complementar o pastejo.",
+				"pig_feed_ground": {
+					"display_name": "Alimentação de porco",
+					"description": "Comida para porcos"
+				}
+			},
+			"beef": {
+				"display_name": "Carne",
+				"description": "Olha esse marmoreio!"
+			},
+			"pork": {
+				"display_name": "Carne de porco",
+				"description": "Gostaria de saber se podemos fazer bacon <3"
+			},
+			"milk": {
+				"display_name": "Leite",
+				"description": "Tenho leite?"
+			},
+			"beef_rib_roast": {
+				"beef_rib_roast": {
+					"display_name": "Costela assada",
+					"description": "Finalmente um bife"
+				},
+				"beef_rib_roast_serving": {
+					"display_name": "Servindo Costela Assada"
+				}
+			},
+			"roast_rack_of_pork": {
+				"roast_rack_of_pork": {
+					"display_name": "Assado de Porco",
+					"description": "Hummm bacon"
+				},
+				"roast_rack_of_pork_serving": {
+					"display_name": "Carne de porco assada servindo"
+				}
+			},
+			"apple_pie": {
+				"apple_pie": {
+					"display_name": "Torta de maçã",
+					"description": "Tem gosto de vovó"
+				},
+				"apple_pie_serving": {
+					"display_name": "Porção de torta de maçã",
+					"description": "Torta de maçã assada fresca"
+				}
+			},
+			"banana_cream_pie": {
+				"banana_cream_pie": {
+					"display_name": "Torta Creme de Banana",
+					"description": "Basta olhar para essa cobertura chicoteada"
+				},
+				"banana_cream_pie_serving": {
+					"display_name": "Porção de torta de creme de banana",
+					"description": "Deliciosa torta de creme de banana deliciosa"
+				}
+			},
+			"cream": {
+				"display_name": "Creme",
+				"description": "Talvez possamos fazer uma cobertura batida!?"
+			},
+			"fruit_salad": {
+				"fruit_salad": {
+					"display_name": "Salada de frutas",
+					"description": "Gostoso, gostoso"
+				},
+				"fruit_salad_serving": {
+					"display_name": "Servindo Salada de Frutas",
+					"description": "Vai ser um deleite de salada de frutas"
+				}
+			},
+			"rotten_apple": {
+				"display_name": "Maçã podre",
+				"description": "Tão podre que perdeu toda forma e função."
+			},
+			"rotten_orange": {
+				"description": "Tão podre que perdeu toda forma e função.",
+				"display_name": "Laranja podre"
+			},
+			"fruit_smoothie": {
+				"fruit_smoothie": {
+					"display_name": "Batido de frutas",
+					"description": "Um delicioso smoothie de frutas"
+				},
+				"fruit_smoothie_serving": {
+					"display_name": "Suco de Frutas",
+					"description": "Um delicioso smoothie de frutas"
+				}
+			},
+			"rotten_strawberry_basket": {
+				"description": "Tão podre que perdeu toda forma e função.",
+				"display_name": "Cesta de morango podre"
+			},
+			"mash_potatoes": {
+				"mash_potatoes": {
+					"display_name": "Purê de batatas",
+					"description": "Purê de batatas gostoso e amanteigado"
+				},
+				"mash_potatoes_serving": {
+					"display_name": "Purê de Batatas Servido",
+					"description": "Purê de batatas gostoso e amanteigado"
+				}
+			},
+			"dough": {
+				"display_name": "Massa",
+				"description": "Massa usada para assar"
+			},
+			"pepper": {
+				"display_name": "Pimenta",
+				"description": "Um shaker cheio de pimenta"
+			},
+			"peppercorn": {
+				"display_name": "Cesta de Pimenta",
+				"description": "Uma cesta de pimenta"
+			},
+			"pepperoni": {
+				"display_name": "Pepperoni",
+				"description": "Uma salsicha de pepperoni"
+			},
+			"lime": {
+				"display_name": "Lima",
+				"description": "Um limão maduro"
+			},
+			"salt": {
+				"description": "Uma coqueteleira cheia de sal",
+				"display_name": "Sal"
+			},
+			"blueberry": {
+				"blueberry_basket": {
+					"display_name": "Cesta de Mirtilo",
+					"description": "Uma cesta cheia de mirtilos"
+				},
+				"blueberry_serving": {
+					"description": "Um mirtilo comestível",
+					"display_name": "Porção de mirtilo"
+				}
+			},
+			"rotten_blueberry_basket": {
+				"description": "Tão podre que perdeu toda forma e função.",
+				"display_name": "Cesta de mirtilo podre"
+			},
+			"rotten_lime": {
+				"display_name": "Cal podre",
+				"description": "Tão podre que perdeu toda forma e função."
+			},
+			"pizza": {
+				"pizza": {
+					"display_name": "pizza",
+					"description": "A pizza de pepperoni é a única pizza. Os argumentos serão contestados até a morte."
+				},
+				"pizza_serving": {
+					"display_name": "Fatia de pizza",
+					"description": "Um pedaço de pizza."
+				}
+			},
+			"cheese": {
+				"display_name": "Queijo",
+				"description": "Este queijo parece delicioso."
+			},
+			"ground_beef": {
+				"ground_beef": {
+					"display_name": "Carne moída",
+					"description": "Carne moída cozida e pronta para comer."
+				},
+				"ground_beef_serving": {
+					"description": "Uma tigela de carne moída",
+					"display_name": "Carne moída"
+				}
+			},
+			"rotten_milk": {
+				"display_name": "Leite podre",
+				"description": "Está começando a coalhar."
+			}
+		},
+		"trees": {
+			"banana_tree": {
+				"banana_tree": {
+					"display_name": "Bananeira",
+					"description": "Uau! Olhe para todas aquelas bananas"
+				},
+				"small_banana_tree": {
+					"display_name": "Bananeira Pequena",
+					"description": "Uma pequena árvore"
+				},
+				"medium_banana_tree": {
+					"display_name": "Bananeira Média",
+					"description": "Uma árvore média"
+				},
+				"large_banana_tree": {
+					"display_name": "Bananeira Grande",
+					"description": "Uma grande árvore"
+				},
+				"sapling_banana_tree": {
+					"display_name": "Muda de bananeira",
+					"description": "Uma muda de banana",
+					"sapling_banana_tree_iconic": {
+						"description": "Uma muda de banana"
+					},
+					"sapling_banana_tree_ghost": {
+						"display_name": "Muda de bananeira",
+						"description": "Uma muda de banana"
+					}
+				}
+			},
+			"apple_tree": {
+				"apple_tree": {
+					"display_name": "Árvore de maçã",
+					"description": "Não confie em cobras"
+				},
+				"small_apple_tree": {
+					"display_name": "Pequena macieira",
+					"description": "Uma pequena árvore"
+				},
+				"medium_apple_tree": {
+					"description": "Uma árvore média",
+					"display_name": "Macieira média"
+				},
+				"large_apple_tree": {
+					"display_name": "Grande macieira",
+					"description": "Uma grande árvore"
+				},
+				"sapling_apple_tree": {
+					"description": "Uma muda de maçã",
+					"display_name": "Muda de macieira",
+					"sapling_apple_tree_iconic": {
+						"description": "Uma muda de maçã"
+					},
+					"sapling_apple_tree_ghost": {
+						"display_name": "Muda de macieira",
+						"description": "Uma muda de maçã"
+					}
+				}
+			},
+			"orange_tree": {
+				"orange_tree": {
+					"display_name": "Laranjeira",
+					"description": "Obter algumas laranjas suculentas"
+				},
+				"small_orange_tree": {
+					"display_name": "Pequena laranjeira",
+					"description": "Uma pequena árvore"
+				},
+				"medium_orange_tree": {
+					"display_name": "laranjeira média",
+					"description": "Uma árvore média"
+				},
+				"large_orange_tree": {
+					"display_name": "Laranja Grande",
+					"description": "Uma grande árvore"
+				},
+				"sapling_orange_tree": {
+					"description": "Uma muda de laranja",
+					"display_name": "Muda de laranjeira",
+					"sapling_orange_tree_iconic": {
+						"description": "Uma muda de laranja"
+					},
+					"sapling_orange_tree_ghost": {
+						"display_name": "Muda de laranjeira",
+						"description": "Uma muda de laranja"
+					}
+				}
+			},
+			"lime_tree": {
+				"lime_tree": {
+					"display_name": "Árvore da Lima",
+					"description": "Uma árvore que deixa cair limões."
+				},
+				"medium_lime_tree": {
+					"display_name": "Limoeira Média",
+					"description": "Uma tília média"
+				},
+				"large_lime_tree": {
+					"display_name": "Grande Limoeira",
+					"description": "Uma grande tília"
+				},
+				"sapling_lime_tree": {
+					"description": "Uma muda de lima",
+					"display_name": "Muda de Limoeira",
+					"sapling_lime_tree_iconic": {
+						"description": "Muda de Limoeira"
+					},
+					"sapling_lime_tree_ghost": {
+						"display_name": "Muda de Limoeira",
+						"description": "Uma muda de lima"
+					}
+				},
+				"small_lime_tree": {
+					"display_name": "Limoeira Pequena",
+					"description": "Uma pequena árvore"
+				}
+			}
+		},
+		"critters": {
+			"cow": {
+				"species": "Vaca",
+				"display_name": "Uma vaca",
+				"description": "Alguém parece pronto para uma ordenha",
+				"unripe_description": "Olhe para toda aquela bela carne... quero dizer animal",
+				"renewable_harvest_status_text": "Vaca leiteira",
+				"cow_young": {
+					"display_name": "Um bezerro",
+					"description": "aaah vaquinha"
+				}
+			},
+			"pig": {
+				"species": "Porco",
+				"display_name": "Um porco",
+				"description": "Este porquinho não foi ao mercado, este porquinho ficou em casa.",
+				"pig_young": {
+					"display_name": "Um porquinho",
+					"description": "Ow porquinho"
+				}
+			},
+			"wolf_fox": {
+				"species": "Lobo Raposa"
+			}
+		},
+		"resources": {
+			"herb": {
+				"daisy": {
+					"description": "Uma erva medicinal tradicional que é comumente usada para prevenir enxaquecas e também é ocasionalmente cultivada para ornamento.",
+					"display_name": "Flor de Matricária"
+				}
+			},
+			"salt_rock": {
+				"salt_rock": {
+					"description": "Pedra de sal que pode ser moída para fazer sal para cozinhar.",
+					"display_name": "Rocha de Sal"
+				}
+			},
+			"grass_bundle": {
+				"display_name": "Pacote de grama"
+			}
+		},
+		"tools": {
+			"boxling_sceptre": {
+				"display_name": "Cetro de Boxling",
+				"description": "A ferramenta encantada dos Boxlings."
+			}
+		},
+		"terrain": {
+			"ui": {
+				"salt_rock": {
+					"description": "Pedra de sal que pode ser moída para fazer sal para cozinhar.",
+					"display_name": "Rocha de Sal"
+				},
+				"clay_mound": {
+					"display_name": "Argila",
+					"description": "Argila que pode ser extraída para uso em cerâmica."
+				}
+			}
+		},
+		"boxling": {
+			"boxling_statue": {
+				"description": "Uma formação rochosa em forma de Boxlings todo-poderosos, de onde tudo foi dado a nós, os DEUSES de Boxland.",
+				"display_name": "Formação de Boxling"
+			}
+		},
+		"monsters": {
+			"forest": {
+				"wolf_fox": {
+					"display_name": "Lobo Raposa"
+				}
+			}
+		},
+		"armor": {
+			"paladin_helmet_1": {
+				"display_name": "Capacete de aprendiz de paladino",
+				"description": "Um Paladino de habilidade decente pode equipar este capacete forte."
+			},
+			"necromancer_mask_1": {
+				"display_name": "Capuz Necromante Aprendiz",
+				"description": "Um Necromante com uma quantidade razoável de treinamento pode equipar este capuz."
+			},
+			"necromancer_mask_2": {
+				"display_name": "Capuz Mestre Necromante",
+				"description": "Apenas o nível mais alto de Necromante pode usar este poderoso capuz."
+			},
+			"paladin_helmet_2": {
+				"description": "O nível mais alto de Paladinos pode equipar os capacetes mais poderosos.",
+				"display_name": "Capacete Mestre Paladino"
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"unit_frame": {
+				"placement_tags": {
+					"workers": "Trabalhadores mortos-vivos"
+				}
+			},
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"cleric": {
+							"display_name": "Menu de artesanato de clérigo",
+							"description": "Crie poções e una a carne para criar um Necronomicon",
+							"required_job_text": "Requer um clérigo"
+						},
+						"necromancer": {
+							"display_name": "Menu de Artesanato Necromante",
+							"description": "Trabalhadores mortos-vivos artesanais",
+							"required_job_text": "Requer um necromante"
+						}
+					}
+				}
+			},
+			"zones_mode": {
+				"pasture": {
+					"cow_pasture_name": "Pastagem de gado",
+					"cow_pasture_description": "As vacas produzem leite com bastante frequência. Abate-los produzirá carne crua",
+					"pig_pasture_name": "Porquinho",
+					"pig_pasture_description": "Os porcos são animais confusos, mas ainda podem ser bastante úteis. Abate de suínos permitirá a coleta de carne suína"
+				}
+			}
+		},
+		"data": {
+			"constants": {
+				"food_fruit_raw_name": "Fruta",
+				"resource_fuel_name": "Combustível"
+			}
+		},
+		"shell": {
+			"select_roster": {
+				"eye_color": "Cor dos olhos",
+				"head_accessory": "Acessórios"
+			},
+			"settings": {
+				"controls_tab": {
+					"key_binding_names": {
+						"craft_cleric": "Menu do Clérigo",
+						"craft_necromancer": "Menu Necromante"
+					}
+				}
+			}
+		}
+	},
+	"stonehearth_mixins": {
+		"food": {
+			"food_decay": {
+				"milk": {
+					"decay_1": {
+						"description": "Leite podre"
+					}
+				},
+				"cream": {
+					"decay_1": {
+						"description": "Molde Creme"
+					}
+				}
+			}
+		}
+	},
+	"resources": {
+		"fox_wolf_pelt": {
+			"display_name": "Pele de Lobo Raposa",
+			"description": "Parece que um animal de estimação morreu."
+		}
+	},
+	"server": {
+		"population": {
+			"data": {
+				"kingdoms": {
+					"boxling": "Boxling"
+				}
+			}
+		}
+	},
+	"kingdoms": {
+		"box_o_vox": "Boxling",
+		"boxling": "Boxling"
+	}
+}
