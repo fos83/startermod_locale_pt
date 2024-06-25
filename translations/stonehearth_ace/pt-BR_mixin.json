@@ -1,125 +1,199 @@
 {
 	"mixins": "/stonehearth_ace/locales/locales_mixin.json",
 	"ui": {
+		"game": {
+			"citizens": {
+				"workers_list_headers": {
+					"morale": "Humor"
+				}
+			}
+		},
 		"shell": {
 			"loading_screen": {
 				"loading_map_flavor_text": {
-					"034": "em conflito com ACE...",
+					"017": "reticuladores splining...",
+					"034": "cozinhando biscoitos...",
 					"035": "poyos girando...",
-					"036": "milking moo-moos...",
-					"037": "finishing fishes...",
+					"036": "ordenhando moo-moos...",
+					"037": "acabando com os peixes...",
 					"038": "espalhando fungos...",
 					"039": "contemplando o mármore...",
-					"040": "imaginando onde está a argila...",
-					"041": "esperando os anões...",
-					"042": "abraçando coelhos...",
-					"043": "encontrando bugs...",
-					"044": "contemplando títulos...",
-					"045": "atrasando atualizações de mod...",
-					"046": "adding ACE issues...",
-					"047": "postponing next ACE release...",
-					"048": "aparando a borda do mundo...",
+					"040": "em busca de carvão...",
+					"041": "ainda esperando anões...",
+					"042": "abraçando coelhinhos...",
+					"043": "encontrar erros...",
+					"044": "admirando títulos...",
+					"045": "irrigando campos...",
+					"046": "treinando goblins...",
+					"047": "cantando para as flores...",
+					"048": "cortando as fronteiras do mundo...",
 					"049": "quebrando alguma coisa...",
-					"050": "acordando hearthlings...",
-					"051": "herding wombats...",
-					"052": "limpando as bancadas...",
-					"053": "recharging moonbells...",
-					"054": "geadas arrepiantes...",
-					"055": "carregando muito devagar...",
+					"050": "acordando amiguinhos...",
+					"051": "pastoreio de vombates...",
+					"052": "limpeza de bancadas...",
+					"053": "recarregar sinos da lua...",
+					"054": "geleiras arrepiantes...",
+					"055": "carregando bem devagar...",
 					"056": "demorando muito...",
-					"057": "preparando aventura..."
+					"057": "aventura cervejeira...",
+					"058": "polindo pedregulhos...",
+					"059": "acrescentando ao caldo...",
+					"060": "configurar comerciantes...",
+					"061": "desenterrar ossos...",
+					"062": "alisando a seda...",
+					"063": "viajando para o extremo oriente..."
 				},
 				"tips": {
-					"004": "Você pode cultivar certas safras, como seda ou algodão, para obter um suprimento constante de fibras de fios.",
-					"008": "O tecelão pode criar roupas específicas para o clima ou novos uniformes que aumentam a eficácia de seus trabalhadores.",
-					"010": "Os pastores encontrarão automaticamente os primeiros dois animais para iniciar uma pastagem.",
-					"017": "Don't want your hearthlings to leave town? The Engineer can make locks for doors.",
-					"020": "Trappers can set traps anywhere, but wilder areas with vegetation and no signs of civilization will always be better.",
-					"022": "Mining dirt will occasionally yield clay, stone, and rarities like bones.",
-					"024": "Need a starting food source? Look for fruit bushes or edible fungi and move them closer to you!",
-					"029": "Pasture animals will always go for pasture beds when the weather is bad for them. Place these under a roof to protect them!",
-					"030": "With a feeding manger you can make sure your pasture animals always have enough fodder available to them.",
-					"031": "Pets will try to sleep on the pet bed that is closest to their owner's bed. Keep a food bowl nearby for even more comfort.",
-					"032": "Fodder is enough to keep an animal healthy but only specific foods will increase the quality of animal products.",
-					"033": "You can determine a desirable amount of animals to keep in a pasture. They will be automatically slaughtered beyond this number.",
-					"034": "You can rename animals in a pasture and shepherds will try to avoid automatically slaughtering named creatures.",
-					"035": "Farmer crops have different and specific needs. You can find out about them by hovering your mouse over all the icons on the Farm Plot window!",
-					"036": "Different weathers and different biomes have dynamic values for humidity and sunlight. Try to optimize your farms as much as you can!",
-					"037": "Sunlight is very important for most farmer crops. Buildings and obstacles that obstruct the sun on the east-west axis will also affect it!",
-					"038": "Humidity is very important for many farmer crops, although some of them can thrive with little or no water at all!",
-					"039": "Although uncommon, a farmer crop might require water in specific amounts or ways to grow. For example, Paddy requires the Farm Plot to be flooded.",
-					"040": "No water isn't optimal for farmer crops, but excessive water might not be good either. Make sure to always check the Farm Plot window!",
-					"041": "Fertilizers can be created by the Herbalist and are very efficient in increasing the quality of farmer crops.",
-					"042": "Utilizing high quality resources and materials will yield higher quality products that are worth more and are more appealing.",
-					"043": "New workers are equipped with a set of Bronze Tools that can be replaced for faster and more efficient Iron and Steel tools made by the Blacksmith.",
-					"044": "Chopping firewood is an easy and reliable source of fuel until you can produce charcoal or mine coal.",
-					"045": "Harvesting fungi will destroy the wild spawn, maintaining a steady production of fungi requires the expertise of a dwarven Grower...",
-					"046": "The Herbalist is able to produce Farmer Seeds of most plants and trees from the region you are settling on.",
-					"047": "Different cold weathers will have different levels of cold. Blizzards can be very dangerous but fires and specific clothing can ease the effects.",
-					"048": "Hearthlings that go into the water on chilly, cold or freezing days will be hurt by the freezing waters.",
-					"049": "Hearthlings that go into the water on hot days will be refreshed for a while. Bath time!",
-					"050": "Be wary of wild animal dens and caves when settling. Wild wolves or bears aren't really strong but can cause trouble early on.",
-					"051": "Always make sure to keep a varied and hearty diet for your hearthlings. Many of them can have specific food preferences, intolerances, or tastes.",
-					"052": "Mega Crops have varied and unique rewards from each kind of crop.",
-					"053": "Hearthlings will prefer to wear warm clothing over clothing that provides bonuses during the autumn and winter.",
-					"054": "Having a good fuel stockpile with different grades and types will allow your crafters to optimize your production lines.",
-					"055": "Firewood, Charcoal, and Coke are examples of crafted fuels that will turn a single unit of fuel into multiple units.",
-					"056": "An enhanced anvil or furnace can replace your older ones in all functions and will allow you to smelt metals more efficiently.",
-					"057": "Hard Coal can be found in coal veins. Mining and trading are the only ways to acquire it!",
-					"058": "Carpenters can carve beautiful furniture out of those pesky fallen logs lying around!",
-					"059": "Masons can sculpt awesome statues out of the otherwise boring marble boulders!",
-					"060": "Different weapons and armor have additional advantages and disadvantages beyond their damage and protection values. Read all the tooltips!",
-					"061": "Short Swords are often considered a knight's sidearm and will provide no benefits other than a free hand for a trustworthy shield.",
-					"062": "Maces and hammers are efficient knight's weapons that will crush the armor of their target, exposing enemies to more allied damage.",
-					"063": "Polearms, like spears and halberds, are usually used by knights and are really good at putting fear in the hearts of enemy crowds at the cost of less protection.",
-					"064": "Long swords are versatile slashing weapons and can be used by footmen to hinder the mobility of enemies.",
-					"065": "Axes and other lighter, hacking weapons can be utilized by footmen for increased armor penetration against enemies.",
-					"066": "Two-handed weapons are extremely strong and powerful pieces of equipment, possessing a higher base damage and inflicting wounds that hurt enemies over time.",
-					"067": "Bows and Crossbows are both efficient ranged weapons. Bows can be faster but crossbows are often stronger, especially against armor.",
-					"068": "Light and medium armor can be worn by footmen while heavy armor is usually restricted to knights. The more armored a hearthling is, the braver they will be!",
-					"069": "You can switch what kind of equipment a soldier will prefer by using the toggle button in their unit frame.",
-					"070": "Weapons can get titles and renown over time, depending on the feats of their users. A titled weapon can be freely renamed by the player.",
-					"071": "Hearthlings can gain different titles during the course of their lives, depending on what amazing feats they achieve!",
-					"072": "Muitos animais selvagens podem fornecer algum tipo de recurso ou benefício interessante para o jogador cauteloso que explora seus arredores.",
-					"073": "Às vezes, você pode encontrar minério durante a mineração de rocha comum, mas a fonte mais confiável de minério são os próprios veios de mineração.",
-					"074": "Algae have some culinary uses but can also be dried and used as an herb by the Herbalist.",
-					"075": "Wondering what something is? If an object or creature has an information icon next to their name, click it to learn more!",
-					"076": "Any lower-grade fuel can be used to light the hearth, including peat or brown coal.",
-					"077": "Thatching material can be easily found if you harvest grassy plants like shrubs, or simply dig the grass layer.",
-					"078": "Trapping zones for big game might, although rarely, attract bears and other larger wild animals.",
-					"079": "Firewood holders and sheds are very efficient ways of storing fuel.",
-					"080": "Ball Clay can be easily found in large mining deposits, or boulders, at the bottom of water bodies like lakes.",
-					"081": "Hot meals and beverages like tea, stews and soups will provide hearthlings with a bonus that protects them from cold weather for some time.",
-					"082": "Cold or refreshing meals and beverages like juices or yogurt will provide hearthlings with a bonus that protects them from hot weather for some time.",
-					"083": "The Herbalist is capable of creating Farmer Seeds of most of the crops known to your kingdom. Trade away!",
-					"084": "You can hold the SHIFT key when clicking the 'Craft!' button to send that recipe straight to the top of the queue!",
-					"085": "As bebidas podem impulsionar seus cidadãos com vários efeitos diferentes. Certifique-se de verificá-los!",
-					"086": "If you can't provide your hearthlings with prepared drinks yet, make sure to at least build them a water well.",
-					"087": "A sede não prejudicará seus cidadãos. Apenas seus sentimentos!",
-					"088": "Make sure to always offer alternatives to alcoholic drinks. No one wants all their citizens being excessively merry all day long!",
-					"089": "Hearthlings will always prefer a drink that is more appropriate to the current time of the day, except when they really love something else.",
-					"090": "Tea will greatly boost the qualities of all crafted products although it also makes crafting a bit slower. Balance requires patience!",
-					"091": "Poisons and Toxins? Poisons last a long time and will slowly chip health away; Toxins disappear quickly but have more immediate effects.",
-					"092": "Drinks like milk or juices are considered simple while more complex, flavorful brewings like spirits or beer are considered prepared.",
-					"093": "Chitin armor can be crafted by the Weaver and will protect a lower level Footman against simple poisons and toxins.",
-					"094": "Sleeping is important! Make sure to provide comfortable bedrooms and personally assigned beds for your hearthlings.",
-					"095": "Dreaming of sheep rave parties? Click on your hearthlings while they're sleeping to see if they're having good or bad dreams...",
-					"096": "Fruit and nut trees take a long time to mature but will bear their produce even when small. The longer they grow, the better their yield will be.",
-					"097": "If starting during the Autumn, look around. There might be some extra food sources like nut trees before the winter!",
-					"098": "You can temporarily pause a crafter queue by clicking the 'Open' sign on the top right of the crafting screen.",
-					"099": "Crafted Bee Skeps require Captive Bees before they can work. Cut some trees and you might find a nest or two lying around!"
+					"100": "Um caldeirão de Herbalista aprimorado pode substituir o antigo em todas as funções e permitirá que você crie itens de cura avançados ou tônicos aprimorados.",
+					"101": "Um forno de tijolos e uma panela podem substituir os antigos em todas as funções e permitirão que você crie os melhores pratos.",
+					"102": "Os poços são construídos mais rapidamente se forem colocados perto da água. Certifique-se de deixar espaço para as atualizações do poço e para a manivela a ser usada!",
+					"103": "Você pode segurar a tecla SHIFT ao clicar no botão \"Construir\" para garantir que todos os itens desse edifício sejam colocados no topo de suas filas!",
+					"104": "Lembre-se de criar e usar Exploration Gardens e Exploration Tubs para encontrar e desbloquear novos tipos de ervas para plantadores Herbalist.",
+					"105": "Ervas podem ser cultivadas em plantadores Herbalistas, feitos pelos próprios Herbalistas. Todos os reinos começam com algumas ervas desbloqueadas.",
+					"106": "Sempre comece a procurar por plantas \"nativas\" nos Herbalist Exploration Gardens. Depois de ter uma coleção básica de ervas, vá para as exóticas!",
+					"107": "Você pode clicar na fogueira no centro do acampamento goblin para ordenar que seus cidadãos removam o buraco no terreno. Apenas certifique-se de que os goblins se foram!",
+					"108": "As peles Varanus ou Zilla podem ser usadas como couro puro, sem refinamento!",
+					"109": "Você pode clicar no Potfire Pot (Pottage) para ver o estágio atual e qual ingrediente é necessário para o próximo estágio.",
+					"110": "Você pode expandir a lista de títulos de um hearthling clicando no ícone Informações ao lado de seu nome quando selecionado. Lá você também pode ver seu renome total!",
+					"111": "Desativar uma categoria de comerciante na Visão geral do comerciante impedirá completamente as visitas de comerciantes dessa categoria.",
+					"112": "Os comerciantes chegam pela manhã e saem no final do dia. Um patrimônio líquido alto e um histórico comercial positivo atrairão mais comerciantes!",
+					"113": "Usando um pedaço de pano, você pode transformar balcões em balcões de loja. Os itens exibidos neles podem ser comprados por viajantes ou outros jogadores no modo multijogador.",
+					"114": "Ter uma mesa de balcão aumentará o valor de todos os itens vendidos em uma dúzia de peças em +12%!",
+					"115": "Você pode dizer que tipo de comida está vendo apenas olhando para a cesta! Cada tipo de item tem uma forma de cesta única.",
+					"116": "Clicar com o botão direito no nome de um hearthling que você selecionou permitirá que você altere o título atual. Use o ícone de cadeado para manter essa seleção bloqueada!",
+					"117": "Existem dezenas de configurações úteis e interessantes que você pode personalizar no ACE. tente verificá-los no menu Configurações, em Jogabilidade!",
+					"118": "Noites com estrelas cadentes são um tanto raras, mas podem trazer recompensas incríveis... Mantenha seus olhos (e seus ouvidos!) atentos!",
+					"119": "Os Mercadores Exclusivos são comerciantes especiais que requerem uma certa estrutura para poder visitá-los. Tente procurar por todos eles; alguns vão oferecer coisas únicas!",
+					"120": "Dificuldades de jogo mais altas também terão requisitos mais altos para obter novos cidadãos e comerciantes. Da mesma forma, é muito mais fácil conseguir novos cidadãos e comerciantes na dificuldade \"Peaceful\"!",
+					"121": "Colha as ruínas das criptas para adquirir alguns recursos extras como pedra e madeira... se você conseguir derrotar seus protetores profanos!",
+					"122": "Todas as feridas têm uma categoria, cada uma com um tipo específico de item de cura com vários níveis. Qualquer nível pode ser usado, mas o medicamento de nível inferior exigirá mais de um tratamento!",
+					"123": "Sentindo falta de uma certa erva? Precisa de um pouco de grama seca extra? Talvez alguma comida de emergência? Não se esqueça da \"Ferramenta de Forrageamento\"! Basta arrastá-lo sobre uma área selvagem para tentar a sorte.",
+					"124": "Alguns produtos de panificação são feitos de massas que requerem fermentação antes de serem cozidas. Use uma \"mesa de partida\" para deixá-los crescer!",
+					"125": "A maioria dos alimentos preparados demora muito mais para estragar do que os alimentos crus, mas ainda pode estragar! Use caixas de resfriamento ou geladeiras do Engineer para evitar desperdício.",
+					"126": "Diferentes escolhas de armas infligirão diferentes tipos de penalidades aos seus inimigos. Tente ir para uma combinação de vários tipos de armas para uma festa invencível!",
+					"127": "Você pode usar o comando \"Guardar localização\" em arqueiros para posicioná-los em terrenos mais altos, como paredes e torres durante o combate. Apenas certifique-se de que eles tenham linha de visão!",
+					"128": "Você pode colher lírios e vitórias-régias arrastando a \"Ferramenta de Colheita\" no leito do lago abaixo deles.",
+					"129": "Nunca recuse um osso para Rattley. OSSOS!",
+					"130": "Muitos itens, como pequenos canteiros de pasto ou barris de fluido, podem ser colocados pendurados nas paredes para que possam ser usados ​​de maneira mais otimizada na construção de modelos.",
+					"131": "Vários contêineres podem ser alcançados de uma posição mais baixa, como barris e prateleiras de suprimentos, permitindo que você os empilhe mais alto nas paredes.",
+					"132": "O cozinheiro pode usar legumes ou frutas para fazer conservas como picles ou geléia. Esses ingredientes podem ser usados ​​em muitas receitas e duram muito tempo.",
+					"133": "Estranhos amigáveis ​​costumam visitar sua cidade com dicas e conselhos sobre diferentes mecânicas de jogo. Eles também deixarão presentes para você em \"Peaceful\" ou \"Gentle\".",
+					"134": "Fique de olho na previsão do tempo! A preparação é essencial e você achará muito útil saber sobre nevascas ou tempestades de areia com antecedência.",
+					"135": "Às vezes, o tempo pode melhorar no meio do dia... ou piorar. Leia sempre as informações meteorológicas atuais para estar bem preparado!",
+					"136": "Cleric Scepters são mais do que apenas uma arma contundente confiável: eles funcionam particularmente bem contra os mortos-vivos.",
+					"137": "Certas plantas - como beterraba ou alho - são um tanto comuns e, por isso, terão suas sementes de Fazendeiro disponíveis para serem trabalhadas por um Herbalista.",
+					"138": "Quanto mais itens da mesma categoria criados por alguém, mais proficiente em obter melhores qualidades nesses itens eles são.",
+					"000": "Os trabalhadores podem construir escadas automaticamente enquanto cavam! Existem configurações específicas do ACE para alternar a construção automática de escadas, habilitadas por padrão.",
+					"002": "Construa cercados em torno de seus pastos para garantir que os animais pastoreados fiquem parados e não se esqueça de abrigo e uma manjedoura para comida!",
+					"003": "Os estoques podem ser alterados para conter tipos específicos de itens, mas são muito ineficientes. Tente usar apenas caixotes, baús e outros recipientes assim que puder!",
+					"004": "Você pode cultivar certas culturas, como seda ou algodão, para obter um suprimento constante de fibra de linha.",
+					"005": "Uma cidade bem alimentada é uma cidade feliz. E se eles também tiverem bebidas de qualidade, vão ficar ainda mais felizes!",
+					"008": "A Weaver pode criar roupas específicas para o clima ou novos uniformes que aumentam a eficácia de seus trabalhadores.",
+					"010": "Os pastores encontrarão automaticamente os dois primeiros animais para iniciar um pasto.",
+					"011": "Se você quiser um patrimônio líquido maior, tente vender seus itens para um comerciante por ouro. Alguns comerciantes vão pagar mais por certas coisas, então fique sempre de olho!",
+					"017": "Não quer que seus amigos saiam da cidade? O Engineer pode fazer fechaduras para portas.",
+					"019": "Coloque os recipientes de suprimentos mais perto das áreas de trabalho para que seja mais fácil para seus lares acessar alimentos e recursos de construção, por exemplo.",
+					"020": "Os caçadores podem montar armadilhas em qualquer lugar, mas áreas mais selvagens com vegetação e sem sinais de civilização sempre serão melhores.",
+					"022": "Mineração de terra ocasionalmente produzirá argila, pedra e raridades como ossos.",
+					"024": "Precisa de uma fonte de alimento inicial? Procure arbustos de frutas ou fungos comestíveis e mova-os para mais perto de você!",
+					"029": "Os animais de pasto sempre vão para os canteiros de pasto quando o tempo está ruim para eles. Coloque-os sob um teto para protegê-los!",
+					"030": "Com uma manjedoura de alimentação, você pode garantir que seus animais de pasto sempre tenham forragem suficiente disponível para eles.",
+					"031": "Os animais de estimação tentarão dormir na cama do animal de estimação mais próxima da cama do dono. Mantenha uma tigela de comida por perto para ainda mais conforto.",
+					"032": "A forragem é suficiente para manter um animal saudável, mas apenas alimentos específicos irão aumentar a qualidade dos produtos de origem animal.",
+					"033": "Você pode escolher uma quantidade desejável de animais para manter em um pasto, além do qual eles serão automaticamente abatidos.",
+					"034": "Você pode renomear animais em um pasto e os pastores tentarão evitar o abate automático de criaturas nomeadas.",
+					"035": "As culturas dos agricultores têm necessidades diferentes e específicas. Você pode descobrir sobre eles passando o mouse sobre todos os ícones na janela Farm Plot!",
+					"036": "Diferentes climas e diferentes biomas têm valores dinâmicos para umidade e luz solar. Tente otimizar suas fazendas o máximo que puder!",
+					"037": "A luz solar é muito importante para a maioria das culturas agrícolas. Edifícios e obstáculos que obstruem o sol no eixo leste-oeste também o afetarão!",
+					"038": "A umidade é muito importante para muitas culturas de agricultores, embora algumas delas possam prosperar com pouca ou nenhuma água!",
+					"039": "Embora incomum, uma cultura de fazendeiro pode exigir água em quantidades ou formas específicas para crescer. Por exemplo, Paddy requer que o Farm Plot seja inundado.",
+					"040": "Não ter água não é ideal para as plantações dos agricultores, mas o excesso de água também pode não ser bom. Certifique-se de sempre verificar a janela Farm Plot!",
+					"041": "Fertilizantes podem ser criados pelo Herbalista e são muito eficientes em aumentar a qualidade das colheitas dos Fazendeiros.",
+					"042": "A utilização de recursos e materiais de alta qualidade produzirá produtos de maior qualidade que valem mais e são mais atraentes.",
+					"043": "Os novos trabalhadores são equipados com um conjunto de ferramentas de bronze que podem ser substituídas por ferramentas de ferro e aço mais rápidas e eficientes feitas pelo ferreiro.",
+					"044": "Cortar lenha é uma fonte fácil e confiável de combustível até que você possa produzir carvão ou extrair carvão.",
+					"045": "A colheita de fungos destruirá a desova selvagem; manter uma produção estável de fungos requer a perícia de um anão Grower...",
+					"046": "O Herbalist é capaz de produzir Farmer Seeds da maioria das plantas e árvores do bioma em que você se estabelece, bem como da maioria das culturas conhecidas em seu reino.",
+					"047": "Diferentes climas frios terão diferentes níveis de frio. As nevascas podem ser muito perigosas, mas incêndios e roupas específicas podem aliviar os efeitos.",
+					"048": "Hearthlings que entram na água em dias frios, frios ou congelantes serão feridos pelas águas geladas.",
+					"049": "Hearthlings que entram na água em dias quentes serão revigorados por um tempo. Hora do banho!",
+					"050": "Desconfie de tocas e cavernas de animais selvagens ao se estabelecer. Lobos ou ursos selvagens não são particularmente fortes, mas podem causar problemas desde o início.",
+					"051": "Certifique-se sempre de manter uma dieta variada e saudável para seus filhos. Muitos deles podem ter preferências alimentares, intolerâncias ou gostos específicos.",
+					"052": "As Mega Culturas têm recompensas variadas e exclusivas de cada tipo de cultura.",
+					"053": "Durante o outono e o inverno, os hearthlings preferem usar roupas quentes em vez de roupas que fornecem bônus.",
+					"054": "Ter um bom estoque de combustível com diferentes graus e tipos permitirá que seus artesãos otimizem suas linhas de produção.",
+					"055": "Lenha, Carvão e Coca-Cola são exemplos de combustíveis artesanais que aumentarão muito o número de usos de um item de combustível.",
+					"056": "Uma bigorna ou forno aprimorado pode substituir os antigos em todas as funções e permitirá que você funda metais com mais eficiência.",
+					"057": "Hard Coal pode ser encontrado em veios de carvão. Mineração e comércio são as únicas maneiras de adquiri-lo!",
+					"058": "Os carpinteiros podem esculpir lindos móveis com aqueles troncos caídos que estão por aí!",
+					"059": "Os pedreiros podem esculpir estátuas impressionantes nas pedras de mármore chatas!",
+					"060": "Diferentes armas e armaduras têm vantagens e desvantagens adicionais além de seus valores de dano e proteção. Leia todas as dicas!",
+					"061": "As Espadas Curtas são frequentemente consideradas a arma de um Cavaleiro e não fornecem nenhum benefício além de uma mão livre para um escudo confiável.",
+					"062": "Maças e martelos são armas eficientes de Knight que irão esmagar a armadura de seu alvo, expondo os inimigos a mais dano aliado.",
+					"063": "Armas de haste, como lanças e alabardas, geralmente são usadas por Cavaleiros e são muito boas em colocar medo nos corações das multidões inimigas ao custo de menos proteção.",
+					"064": "Espadas longas são armas cortantes versáteis e podem ser usadas por lacaios para impedir a mobilidade dos inimigos.",
+					"065": "Machados e outras armas de hacking mais leves podem ser utilizadas por lacaios para aumentar a penetração da armadura contra os inimigos.",
+					"066": "As armas de duas mãos são peças de equipamento extremamente fortes e poderosas, possuindo um dano base maior e infligindo ferimentos que machucam os inimigos ao longo do tempo.",
+					"067": "Arcos e bestas são armas de longo alcance eficientes. Os arcos podem ser mais rápidos, mas as bestas costumam ser mais fortes, especialmente contra armaduras.",
+					"068": "Armaduras leves e médias podem ser usadas por lacaios, enquanto armaduras pesadas geralmente são restritas a Cavaleiros. Quanto mais blindado for um hearthling, mais corajosos eles serão!",
+					"069": "Você pode mudar o tipo de equipamento que um soldado prefere usando o botão de alternância no quadro de sua unidade.",
+					"070": "As armas podem obter títulos e renome ao longo do tempo, dependendo dos feitos de seus usuários. Uma arma titulada pode ser renomeada livremente pelo jogador.",
+					"071": "Hearthlings podem ganhar títulos diferentes durante o curso de suas vidas, dependendo de quais feitos incríveis e nobres - ou ignóbeis - eles alcançam!",
+					"072": "Muitos animais selvagens podem fornecer algum tipo de recurso ou benefício interessante para o jogador observador que explora seus arredores.",
+					"073": "Às vezes, você pode encontrar minério durante a mineração de rocha comum, mas a fonte mais confiável de minério é a mineração de veios reais.",
+					"074": "As algas têm alguns usos culinários, mas também podem ser secas e usadas como uma erva robusta pelo Herbalista.",
+					"075": "Quer saber o que é alguma coisa? Se um objeto ou criatura tiver um ícone de informação ao lado de seu nome, clique nele para saber mais!",
+					"076": "Qualquer combustível de qualidade inferior pode ser usado para acender a lareira, incluindo turfa ou carvão marrom.",
+					"077": "Grama seca pode ser facilmente encontrada se você colher plantas gramíneas como arbustos ou simplesmente cavar a camada de grama.",
+					"078": "As zonas de armadilhas para grandes animais podem - embora raramente - atrair ursos e outros grandes animais selvagens.",
+					"079": "Porta-lenhas e galpões são formas muito eficientes de armazenar combustível.",
+					"080": "Ball Clay pode ser facilmente encontrado em grandes depósitos de mineração, em pedregulhos ou no fundo de corpos d'água como lagos.",
+					"081": "Refeições quentes e bebidas como chá, ensopados e sopas fornecem aos hearthlings um bônus que os protege do frio por algum tempo.",
+					"082": "Refeições e bebidas frias ou refrescantes, como sucos ou iogurte, darão aos hearthlings um bônus que os protegerá do calor por algum tempo.",
+					"083": "As árvores e outras plantas presentes no mundo quando você se estabelecer não crescerão mais.",
+					"084": "Você pode segurar a tecla SHIFT ao clicar no botão \"Craft!\" botão para enviar essa receita direto para o topo da fila!",
+					"085": "As bebidas podem impulsionar seus cidadãos com vários efeitos diferentes. Certifique-se de vê-los!",
+					"086": "Se você ainda não pode fornecer bebidas preparadas aos seus Hearthlings, certifique-se de pelo menos construir um poço de água para eles.",
+					"087": "A sede não fará mal aos seus cidadãos. Apenas seus sentimentos!",
+					"088": "Certifique-se de sempre oferecer alternativas às bebidas alcoólicas. Ninguém quer que todos os seus cidadãos fiquem excessivamente alegres o dia todo!",
+					"089": "Hearthlings sempre vão preferir uma bebida mais apropriada para a hora do dia, exceto quando eles realmente amam outra coisa.",
+					"090": "O chá aumentará muito as qualidades de todos os produtos artesanais, embora também torne a fabricação um pouco mais lenta. Equilíbrio requer paciência!",
+					"091": "Venenos e Toxinas? Os venenos duram muito tempo e lentamente destroem a saúde; As toxinas desaparecem rapidamente, mas têm efeitos mais imediatos.",
+					"092": "Bebidas como leites ou sucos são consideradas simples, enquanto cervejas mais complexas e saborosas, como destilados ou cerveja, são consideradas preparadas.",
+					"093": "A armadura de quitina pode ser criada pela Weaver e protegerá um lacaio de nível inferior contra venenos e toxinas simples.",
+					"094": "Dormir é importante! Certifique-se de fornecer quartos confortáveis ​​e camas designadas pessoalmente para seus filhos.",
+					"095": "Sonhando com festas rave de ovelhas? Clique nos seus hearthlings enquanto eles dormem para ver se eles estão tendo bons ou maus sonhos...",
+					"096": "As árvores frutíferas e nogueiras demoram muito para amadurecer, mas produzirão seus produtos mesmo quando pequenas. Quanto mais crescerem, melhor será o rendimento.",
+					"097": "Se começar durante o outono, olhe ao redor. Pode haver algumas fontes extras de alimentos, como nogueiras, antes do inverno!",
+					"098": "Você pode pausar temporariamente uma fila de crafter clicando no sinal \"Abrir\" no canto superior direito da tela de crafting.",
+					"099": "Skeps de abelhas artesanais requerem abelhas cativas antes de poderem trabalhar. Corte algumas árvores e você poderá encontrar um ou dois ninhos por aí!"
 				}
 			},
 			"select_roster": {
-				"reembark_button": "Reembark"
+				"reembark_button": "reembarcar"
 			}
 		}
 	},
 	"data": {
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"returning_collector_encounter": {
+						"waiting_text": "O explorador estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para fornecer a você <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você tem <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> pronto para eles!"
+					},
+					"returning_trader_encounter": {
+						"waiting_text": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você tem <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> pronto para ele!"
+					},
+					"returning_crop_trader_encounter": {
+						"waiting_text": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] se você tiver <strong>[str(i18n_data.want_number)] [str( i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]' /> pronto para ele!"
+					}
+				}
+			}
+		},
 		"hotkeys": {
 			"keys": {
 				"build_visdown": {
-					"display_name": "Building Vis Down"
+					"display_name": "Edifício Vis Down"
 				}
 			}
 		}
@@ -129,30 +203,35 @@
 			"carrot_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized carrot."
+						"description": "Uma cenoura não realizada."
 					}
 				}
 			},
 			"pumpkin_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized pumpkin."
+						"description": "Uma abóbora não realizada."
 					}
 				}
 			},
 			"watermelon_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized watermelon."
+						"description": "Uma melancia não realizada."
 					}
 				}
 			},
 			"turnip_crop": {
 				"growth_stage": {
 					"000": {
-						"description": "An unrealized turnip."
+						"description": "Um nabo não realizado."
 					}
 				}
+			}
+		},
+		"gizmos": {
+			"charging_pedestal": {
+				"charging_display_name": "[str(self.stonehearth:unit_info.custom_name)] [[str(self.stonehearth:unit_info.custom_data.percent_charge)]%]"
 			}
 		}
 	}

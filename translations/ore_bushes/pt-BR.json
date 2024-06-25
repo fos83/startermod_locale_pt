@@ -1,0 +1,326 @@
+{
+	"entities": {
+		"plants": {
+			"coal_bush": {
+				"coal_bush_ghost": {
+					"display_name": "Arbusto de Carvão Bruto",
+					"description": "Pode ser raspado para carvão bruto e mais sementes de carvão."
+				},
+				"stem": {
+					"coal_bush_stem": {
+						"display_name": "Arbusto de Carvão Descendente",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"coal_bush_sprout": {
+						"display_name": "Brotamento de Arbusto de Carvão",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"coal_bush_seed": {
+						"display_name": "Semente de Arbusto de Carvão",
+						"description": "Pode ser plantado para crescer um arbusto de carvão que pode ser raspado para carvão bruto."
+					},
+					"coal_bush_seed_ghost": {
+						"display_name": "Semente de Arbusto de Carvão",
+						"description": "Pode ser plantado para crescer um arbusto de carvão que pode ser raspado para carvão bruto."
+					}
+				},
+				"bud": {
+					"coal_bush_bud": {
+						"display_name": "Arbusto de Carvão em Brotamento",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			},
+			"copper_flower": {
+				"copper_flower_ghost": {
+					"display_name": "flor de cobre",
+					"description": "Colhível para minério de cobre concentrado e mais sementes de flores de cobre."
+				},
+				"stem": {
+					"copper_flower_stem": {
+						"display_name": "flor de cobre caule",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"copper_flower_sprout": {
+						"display_name": "Brotamento de Flor de Cobre",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"copper_flower_seed": {
+						"display_name": "semente de flor de cobre",
+						"description": "Pode ser plantada para cultivar uma flor de cobre que produz minério de cobre."
+					},
+					"copper_flower_seed_ghost": {
+						"display_name": "semente de flor de cobre",
+						"description": "Pode ser plantada para cultivar uma flor de cobre que produz minério de cobre."
+					}
+				},
+				"bud": {
+					"copper_flower_bud": {
+						"display_name": "flor de cobre brotando",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			},
+			"gold_bush": {
+				"gold_bush_ghost": {
+					"display_name": "arbusto de minério de ouro",
+					"description": "Pode ser raspado para minério de ouro concentrado e mais sementes de arbusto de minério de ouro."
+				},
+				"stem": {
+					"gold_bush_stem": {
+						"display_name": "Extraindo arbusto de minério de ouro",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"gold_bush_sprout": {
+						"display_name": "Brotamento de minério de ouro",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"gold_bush_seed": {
+						"display_name": "Semente de minério de ouro",
+						"description": "Cresce em um arbusto de minério de ouro que gera minério de ouro."
+					},
+					"gold_bush_seed_ghost": {
+						"display_name": "Semente de minério de ouro",
+						"description": "Cresce em um arbusto de minério de ouro que gera minério de ouro."
+					}
+				},
+				"bud": {
+					"gold_bush_bud": {
+						"display_name": "Arbusto de Minério de Ouro em Brotamento",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			},
+			"iron_bush": {
+				"iron_bush_ghost": {
+					"display_name": "Arbusto de Ferro",
+					"description": "Colhível para minério de ferro concentrado e mais sementes de arbusto de ferro."
+				},
+				"stem": {
+					"iron_bush_stem": {
+						"display_name": "Arbusto de Ferro",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"iron_bush_sprout": {
+						"display_name": "Brotamento de Arbusto de Ferro",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"iron_bush_seed": {
+						"display_name": "Semente de Arbusto de Ferro",
+						"description": "Pode ser plantado para crescer um arbusto de ferro que produz minério de ferro."
+					},
+					"iron_bush_seed_ghost": {
+						"display_name": "Semente de Arbusto de Ferro",
+						"description": "Pode ser plantado para crescer um arbusto de ferro que produz minério de ferro."
+					}
+				},
+				"bud": {
+					"iron_bush_bud": {
+						"display_name": "Arbusto de Ferro Brotando",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			},
+			"silver_bush": {
+				"silver_bush_ghost": {
+					"display_name": "arbusto de minério de prata",
+					"description": "Pode ser raspado para minério de prata concentrado e mais sementes de arbusto de prata."
+				},
+				"stem": {
+					"silver_bush_stem": {
+						"display_name": "Extraindo Arbusto de Minério de Prata",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"silver_bush_sprout": {
+						"display_name": "Brotamento de Arbusto de Minério de Prata",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"silver_bush_seed": {
+						"display_name": "Semente de Arbusto de Minério de Prata",
+						"description": "Cresce em um arbusto de minério de prata que gera minério de prata."
+					},
+					"silver_bush_seed_ghost": {
+						"display_name": "Semente de Arbusto de Minério de Prata",
+						"description": "Cresce em um arbusto de minério de prata que gera minério de prata."
+					}
+				},
+				"bud": {
+					"silver_bush_bud": {
+						"display_name": "Arbusto de Minério de Prata em Brotamento",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			},
+			"tin_flower": {
+				"tin_flower_ghost": {
+					"display_name": "flor de lata",
+					"description": "Colhível para minério de estanho concentrado e mais sementes de flores de estanho."
+				},
+				"stem": {
+					"tin_flower_stem": {
+						"display_name": "flor de lata",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"tin_flower_sprout": {
+						"display_name": "flor de estanho brotando",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"tin_flower_seed": {
+						"display_name": "semente de flor de estanho",
+						"description": "Pode ser plantada para cultivar uma flor de estanho que produz minério de estanho."
+					},
+					"tin_flower_seed_ghost": {
+						"display_name": "semente de flor de estanho",
+						"description": "Pode ser plantada para cultivar uma flor de estanho que produz minério de estanho."
+					}
+				},
+				"bud": {
+					"tin_flower_bud": {
+						"display_name": "flor de lata brotando",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			},
+			"natal_bell": {
+				"natal_bell_ghost": {
+					"display_name": "flor de sino natal",
+					"description": "Pode ser raspado para natallium concentrado, e as folhas podem ser colhidas para pedra bruta e mais sementes de flores de sino natal."
+				},
+				"stem": {
+					"natal_bell_stem": {
+						"display_name": "Flor de sino de Natal caulinar",
+						"description": "Ainda crescendo!"
+					}
+				},
+				"sprout": {
+					"natal_bell_sprout": {
+						"display_name": "Brotamento de flor de sino natal",
+						"description": "Só precisa de algum tempo e cuidado."
+					}
+				},
+				"seed": {
+					"natal_bell_seed": {
+						"display_name": "semente de flor sino natal",
+						"description": "Cresce em uma flor de sino natal que gera natallium."
+					},
+					"natal_bell_seed_ghost": {
+						"display_name": "semente de flor sino natal",
+						"description": "Cresce em uma flor de sino natal que gera natallium."
+					}
+				},
+				"bud": {
+					"natal_bell_bud": {
+						"display_name": "Flor de sino natal em botão",
+						"description": "Ainda apenas um broto saindo do chão. Aguente firme, amigo."
+					}
+				}
+			}
+		}
+	},
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"flower_transmute_name": "Flora derretendo",
+				"copper_ore": {
+					"recipe_name": "Minério de Cobre (x3)",
+					"description": "Derretendo uma Flor de Cobre completa em minério bruto.",
+					"flavor": "Primeiro você faz a flor, agora você a derrete? Se decidir..."
+				},
+				"tin_ore": {
+					"recipe_name": "Minério de estanho (x3)",
+					"description": "Derretendo uma Flor de Lata cheia em minério bruto.",
+					"flavor": "Primeiro você faz a flor, agora você a derrete? Se decidir..."
+				},
+				"raw_coal": {
+					"recipe_name": "Carvão Bruto (x2)",
+					"description": "Derretendo um arbusto de carvão em alguns pedaços.",
+					"flavor": "Cuidado para derretê-lo e não atiçar o fogo com ele..."
+				},
+				"iron_ore": {
+					"recipe_name": "Minério de Ferro (x2)",
+					"description": "Muito ferro neste arbusto para derreter em alguns minérios brutos.",
+					"flavor": "Primeiro você faz a flor, agora você a derrete? Se decidir..."
+				},
+				"silver_ore": {
+					"recipe_name": "Minério de prata",
+					"description": "Você obtém prata pura suficiente para um único minério.",
+					"flavor": "A proporção Bush-para-Minério parece um pouco fora aqui..."
+				},
+				"gold_ore": {
+					"recipe_name": "Minério de ouro",
+					"description": "A maior parte deste arbusto é impuro demais para obter uma grande quantidade de ouro ao derretê-lo.",
+					"flavor": "Liquidando ativos de uma maneira totalmente nova..."
+				},
+				"natallium": {
+					"recipe_name": "Natália Bruta",
+					"description": "Esta flor menor só contém natallium suficiente para fazer um caroço.",
+					"flavor": "Ainda bem que esse material não é usado para nada importante... é?"
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"metal_seeds_name": "Sementes Metálicas",
+				"coal_bush_seeds": {
+					"recipe_name": "Semente de Arbusto de Carvão",
+					"description": "Um arbusto crescendo carvão pronto para queimar.",
+					"flavor": "CUIDADO! Não plante perto de chamas nuas!"
+				},
+				"copper_flower_seeds": {
+					"recipe_name": "semente de flor de cobre",
+					"description": "Uma semente para cultivar sua própria planta de minério de cobre!",
+					"flavor": "Isso deveria ser possível...??"
+				},
+				"gold_bush_seeds": {
+					"recipe_name": "Semente de minério de ouro",
+					"description": "Basicamente crescendo seu próprio dinheiro...",
+					"flavor": "O que não tenho certeza se é legal..."
+				},
+				"iron_bush_seeds": {
+					"recipe_name": "Semente de Arbusto de Minério de Ferro",
+					"description": "O arbusto perfeito para cultivar aqueles grandes pedaços de ferro.",
+					"flavor": "Provavelmente é melhor não chutar..."
+				},
+				"silver_bush_seeds": {
+					"recipe_name": "Semente de Arbusto de Minério de Prata",
+					"description": "Um arbusto metálico que gera minério de prata.",
+					"flavor": "Uau, essa coisa deve valer uma pequena fortuna..."
+				},
+				"tin_flower_seeds": {
+					"recipe_name": "semente de flor de estanho",
+					"description": "Uma semente para cultivar sua própria fábrica de minério de estanho!",
+					"flavor": "Não vai demorar muito até você ter o suficiente para um novo telhado..."
+				},
+				"natal_bell_seeds": {
+					"recipe_name": "semente de flor sino natal",
+					"description": "Refinar este mineral em uma planta é um trabalho complicado!",
+					"flavor": "Talvez um pouco complicado demais... woops - Crystallium II ao tentar a primeira infusão."
+				}
+			}
+		}
+	}
+}

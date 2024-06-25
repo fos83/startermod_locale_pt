@@ -149,6 +149,9 @@
 		"obligationtracker/locales/pt-BR.json": "file(translations/obligationtracker/pt-BR.json)",
 		"obligationtracker/locales/pt-PT.json": "file(translations/obligationtracker/pt-PT.json)",
 
+		"ore_bushes/locales/pt-BR.json": "file(translations/ore_bushes/pt-BR.json)",
+		"ore_bushes/locales/pt-PT.json": "file(translations/ore_bushes/pt-PT.json)",
+
 		"serene_league/locales/pt-BR.json": "file(translations/serene_league/pt-BR.json)",
 		"serene_league/locales/pt-PT.json": "file(translations/serene_league/pt-PT.json)",
 

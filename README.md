@@ -92,6 +92,7 @@ Lorkis Biome
 Lorkis Objects
 Miner Profession
 Norsehearth
+Ore Plants and & Bushes!
 Settlement Decor
 Specialized Loadouts
 special_food(神奇的食物)
