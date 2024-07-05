@@ -9883,10 +9883,10 @@
 				}
 			},
 			"iron_mail": {
-				"display_name": "Correio de Ferro",
+				"display_name": "Armadura de de Ferro",
 				"description": "Uma armadura completa de ferro",
 				"iron_mail_iconic": {
-					"display_name": "Correio de Ferro",
+					"display_name": "Armadura de Ferro",
 					"description": "Uma armadura completa de ferro"
 				}
 			},
@@ -9951,10 +9951,10 @@
 				}
 			},
 			"steel_helmet": {
-				"display_name": "Elmo de Placa",
+				"display_name": "Pequeno Elmo de Placa",
 				"description": "Proteção para sua cabeça",
 				"steel_helmet_iconic": {
-					"display_name": "Capacete de Aço",
+					"display_name": "Pequeno Elmo de Aço",
 					"description": "Proteção para sua cabeça"
 				}
 			},
@@ -9991,26 +9991,26 @@
 				"description": "Cuidado com os cantos!"
 			},
 			"silver_mail": {
-				"display_name": "Correio de Prata",
+				"display_name": "Armadura de Prata",
 				"description": "A melhor armadura ... por enquanto.",
 				"silver_mail_iconic": {
-					"display_name": "Correio de Prata",
+					"display_name": "Armadura de Prata",
 					"description": "A melhor armadura ... por enquanto."
 				}
 			},
 			"silver_helmet": {
-				"display_name": "Capacete de Prata",
+				"display_name": "Pequeno Elmo de Prata",
 				"description": "Por excelência heróico",
 				"silver_helmet_iconic": {
-					"display_name": "Capacete de Prata",
+					"display_name": "Pequeno Elmo de Prata",
 					"description": "Por excelência heróico"
 				}
 			},
 			"cloth_padded_helmet": {
-				"display_name": "Capacete Acolchoado de Pano",
+				"display_name": "Pequeno Elmo Acolchoado de Pano",
 				"description": "Estofamento extra para o seu canguru",
 				"cloth_padded_helmet_iconic": {
-					"display_name": "Capacete Acolchoado de Pano",
+					"display_name": "Pequeno Elmo Acolchoado de Pano",
 					"description": "Estofamento extra para o seu canguru"
 				}
 			},
@@ -16349,7 +16349,7 @@
 					"flavor": "Cid amou a cor dos morangos"
 				},
 				"silver_helmet_recipe": {
-					"recipe_name": "Capacete de Prata",
+					"recipe_name": "Pequeno Elmo de Prata",
 					"description": "Por excelência heróico",
 					"flavor": "Inspirado pelas plumas da Phoenix"
 				},
@@ -18852,7 +18852,7 @@
 					"description": "Dá a um Arqueiro acesso a flechas de fogo, que causam dano ao longo do tempo"
 				},
 				"cloth_padded_helmet_recipe": {
-					"recipe_name": "Capacete Acolchoado de Pano",
+					"recipe_name": "Pequeno Elmo Acolchoado de Pano",
 					"description": "Acolchoamento extra para sua cabeça",
 					"flavor": "Eram asas de fênix ou asas de serpente?"
 				},

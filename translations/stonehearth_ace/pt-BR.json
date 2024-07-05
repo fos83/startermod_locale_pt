@@ -3784,7 +3784,7 @@
 				"description": "Hoje, tudo está um pouquinho melhor.<ul><li>☀️ Níveis normais de luz solar</li><li>💦 Umidade muito maior</li><li>🌬️ O vento é uma corrente boa</li><li>✨ Hearthlings encontram todas as suas doenças curadas, como por mágica </li><li>✨ Hearthlings têm um pouco mais de sorte em tudo que fazem</li><li>🌈 Às vezes aparece um misterioso arco-íris</li></ul>"
 			},
 			"foggy": {
-				"description": "Uma camada de névoa rasteja pela paisagem, escondendo mistérios incalculáveis.<ul><li>⚠️ Monstros mortos-vivos saem de seus esconderijos sob a cobertura da névoa</li><li>⛅ Níveis de luz solar reduzidos</li><li> 💦 Umidade altamente aumentada</li><li>🍃 O vento é uma brisa suave</li><li>👀 O raio de visão é bastante reduzido</li></ul>"
+				"description": "Uma camada de névoa rasteja pela paisagem, escondendo mistérios incalculáveis.<ul><li>⚠️ Monstros mortos-vivos saem de seus esconderijos sob a cobertura da névoa</li><li>⛅ Níveis de luz solar reduzidos</li><li> 💦 Umidade altamente aumentada</li><li>🍃 O vento é uma brisa suave</li><li>👀 O raio de visão é bastante reduzido</li><li>⛔ Os comerciantes não chegarão com este tempo</li></ul>"
 			},
 			"foggy_highlands": {
 				"description": "Uma camada de neblina se espalha pela paisagem, escondendo mistérios incalculáveis.<ul><li>⚠️ Monstros mortos-vivos saem de seus esconderijos sob a cobertura da neblina</li><li>⛅ Níveis reduzidos de luz solar</li><li> 💦 Umidade muito elevada</li><li>🌬️ O vento é uma corrente moderada</li><li>👀 O raio de visão é bastante reduzido</li><li>⛔ Os comerciantes não chegarão com este clima</li></ul>"
@@ -3794,7 +3794,7 @@
 				"description": "Uma camada de neblina se espalha pela paisagem, escondendo mistérios incalculáveis.<ul><li>⚠️ Monstros mortos-vivos saem de seus esconderijos sob a cobertura da neblina</li><li>⛅ Níveis reduzidos de luz solar</li><li> 💦 Umidade muito elevada</li><li>🍃 O vento é uma brisa suave</li><li>👀 O raio de visão é bastante reduzido</li><li>❄️ Hearthlings desabrigados são muito frios para trabalhar de forma tão eficaz</li><li>⛔ Os comerciantes não chegarão com este tempo</li></ul>"
 			},
 			"cloudy": {
-				"description": "Céu nublado, perfeito para descansar na varanda.<ul><li>⛅ Níveis de luz solar bastante reduzidos</li><li>💦 Umidade ligeiramente aumentada</li></ul>",
+				"description": "Céu nublado, perfeito para descansar na varanda.<ul><li>⛅ Níveis de luz solar bastante reduzidos</li><li>💦 Umidade ligeiramente aumentada</li><li>🌬️ O vento é uma corrente boa</li></ul>",
 				"cloudy_desert": {
 					"description": "Céu nublado, perfeito para relaxar na varanda.<ul><li>⛅ Níveis de luz solar bastante reduzidos</li><li>💦 Umidade ligeiramente aumentada</li><li>🍃 O vento é uma brisa suave</li></ul>"
 				},
