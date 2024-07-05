@@ -124,7 +124,7 @@
 								},
 								"open_letter": {
 									"bulletin_message": {
-										"00": "Uma mulher está à beira do acampamento. Ela usa o blues desgastado de viagem de um Scout of the Library. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas está claro que ela está observando há algum tempo.</font></ p>"
+										"00": "Uma mulher está à beira do acampamento. Ela usa o blues desgastado de viagem de um Scout of the Library. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu chegar, mas está claro que ela está observando há algum tempo.</font></p>"
 									},
 									"bulletin_title": "Uma figura aparece",
 									"dialog_title": "Um batedor estóico",
@@ -529,7 +529,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "Quando Ronia aparece pela última vez, é com um estandarte dourado nas mãos. É um gêmeo daquele com o qual esta cidade embarcou, há tanto tempo. Ela inclina a cabeça com um sorriso e gesticula para o horizonte. Ela não precisa falar. A lareira está esperando. </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></ fonte></p>"
+										"00": "Quando Ronia aparece pela última vez, é com um estandarte dourado nas mãos. É um gêmeo daquele com o qual esta cidade embarcou, há tanto tempo. Ela inclina a cabeça com um sorriso e gesticula para o horizonte. Ela não precisa falar. A lareira está esperando. </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></fonte></p>"
 									},
 									"bulletin_title": "Ronia, mais uma vez",
 									"dialog_title": "Uma última coisa",
@@ -651,7 +651,7 @@
 				"na_town_banner_guardian_ghost": {
 					"display_name": "Bandeira da astúcia",
 					"description": "Como você sabe que voltou para casa.",
-					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li >Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
+					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
 				},
 				"na_town_banner_guardian_token": {
 					"display_name": "Bandeira de Fragmento Astuto",
@@ -662,7 +662,7 @@
 				"na_town_banner_might_ghost": {
 					"display_name": "Bandeira da Força",
 					"description": "Como você sabe que voltou para casa",
-					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li> ></ul>"
+					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"na_town_banner_might_token": {
 					"display_name": "Bandeira de Fragmento de Força",
@@ -673,7 +673,7 @@
 				"na_town_banner_nature_ghost": {
 					"display_name": "Bandeira da Vitalidade",
 					"description": "Como você sabe que voltou para casa",
-					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Cultivos crescem 25% mais rápido</li><li >As plantas têm 2x seu apelo normal</li></ul>"
+					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Cultivos crescem 25% mais rápido</li><li>As plantas têm 2x seu apelo normal</li></ul>"
 				},
 				"na_town_banner_nature_token": {
 					"display_name": "Bandeira do Fragmento de Vitalidade",

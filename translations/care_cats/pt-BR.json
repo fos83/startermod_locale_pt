@@ -203,7 +203,7 @@
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "\"Cuide-se com um pouco de comida armazenada pelo estandarte.\"<p>Use suas habilidades em cavar para coletar recursos de argila ou pedra, ou junte algumas plantas e coloque-as nas proximidades, para começar a criar um belo jardim.</p >"
+										"00": "\"Cuide-se com um pouco de comida armazenada pelo estandarte.\"<p>Use suas habilidades em cavar para coletar recursos de argila ou pedra, ou junte algumas plantas e coloque-as nas proximidades, para começar a criar um belo jardim.</p>"
 									},
 									"bulletin_title": "Algumas orientações",
 									"dialog_title": "Algumas orientações",
@@ -225,7 +225,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Os Gatos veem que há um Baú do Tesouro no Poço. Ele pode ser aberto para que o conteúdo apareça.<p>Os gatos trarão de volta quaisquer tesouros e os colocarão em um estoque ou caixa de armazenamento.</p><p>Um Dragonborn certamente gostaria de um saco de<i ><span class='gminor'> flocos de ouro</span></i>, que emitem uma luz especial brilhante.</p>"
+										"00": "Os Gatos veem que há um Baú do Tesouro no Poço. Ele pode ser aberto para que o conteúdo apareça.<p>Os gatos trarão de volta quaisquer tesouros e os colocarão em um estoque ou caixa de armazenamento.</p><p>Um Dragonborn certamente gostaria de um saco de<i><span class='gminor'> flocos de ouro</span></i>, que emitem uma luz especial brilhante.</p>"
 									},
 									"bulletin_title": "Tesouro de um Dragonborn",
 									"dialog_title": "Tesouro de um Dragonborn",
@@ -259,7 +259,7 @@
 								},
 								"read_letter2": {
 									"bulletin_message": {
-										"00": "Coloque este<i><span class='gmajor'> Pedestal de Pedra Âmbar, </span></i>e cerque-o com plantas que você encontra na natureza. Ele precisa de pelo menos<i><span class='gmajor'> 8 plantas </span></i>nas proximidades para fazer um jardim natural atraente.<p>Procure arbustos de bagas, ervas ou plantas fibrosas.<br ><br>Como gatos, vocês são transportadores rápidos: retirem ou movam algumas plantas próximas e coloque-as ao redor do Pedestal de Amberstone.</p>"
+										"00": "Coloque este<i><span class='gmajor'> Pedestal de Pedra Âmbar, </span></i>e cerque-o com plantas que você encontra na natureza. Ele precisa de pelo menos<i><span class='gmajor'> 8 plantas </span></i>nas proximidades para fazer um jardim natural atraente.<p>Procure arbustos de bagas, ervas ou plantas fibrosas.<br><br>Como gatos, vocês são transportadores rápidos: retirem ou movam algumas plantas próximas e coloque-as ao redor do Pedestal de Amberstone.</p>"
 									},
 									"bulletin_title": "Jardinagem",
 									"dialog_title": "Crie um pequeno jardim",
@@ -306,7 +306,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Agora, vamos dar um nome à nossa nova vila e comemorar este dia!<p>Nossa experiência no mundo nos permite aprender rapidamente os empregos, e devemos<i><span class='gminor'> mudar de emprego </span ></i>sempre que precisarmos: para criar, cultivar ou combater.</p><p>Com o tempo, à medida que ganhamos mais recursos, mais gatos também vão querer vir morar aqui!"
+										"00": "Agora, vamos dar um nome à nossa nova vila e comemorar este dia!<p>Nossa experiência no mundo nos permite aprender rapidamente os empregos, e devemos<i><span class='gminor'> mudar de emprego </span></i>sempre que precisarmos: para criar, cultivar ou combater.</p><p>Com o tempo, à medida que ganhamos mais recursos, mais gatos também vão querer vir morar aqui!"
 									},
 									"bulletin_title": "Nosso novo mundo",
 									"dialog_title": "Nosso novo mundo",
@@ -373,7 +373,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Então, em homenagem ao Brave Cat, criamos uma Estátua.<p>Agora, precisamos construir uma área para alguns gatos dormirem confortavelmente perto da Estátua do Brave Cat: um Cat Den.</p><p>Qualquer tipo de área funcionará, mas um abrigo coberto será mais confortável.<br><br>Construa o modelo Cat Den depois de obter um Weaver, ou use um quarto em uma caverna, mas também precisará de alguns móveis exclusivos.</ p>"
+										"00": "Então, em homenagem ao Brave Cat, criamos uma Estátua.<p>Agora, precisamos construir uma área para alguns gatos dormirem confortavelmente perto da Estátua do Brave Cat: um Cat Den.</p><p>Qualquer tipo de área funcionará, mas um abrigo coberto será mais confortável.<br><br>Construa o modelo Cat Den depois de obter um Weaver, ou use um quarto em uma caverna, mas também precisará de alguns móveis exclusivos.</p>"
 									},
 									"bulletin_title": "Missão da Cidade: Toca dos Gatos",
 									"dialog_title": "Missão da Cidade: Toca dos Gatos",
@@ -393,7 +393,7 @@
 					"hearth_choice": {
 						"friends": {
 							"name": "Lareira da Amizade",
-							"description": "<i>Prova de que você tem cidadãos felizes, bem alimentados e bons lugares para eles viverem.</i><ul><li>Aumenta o patrimônio líquido da Atualização Diária com base no moral geral de seus cidadãos</li>< li>Cada dia traz um novo bônus aleatório para seus habitantes.</li></ul>"
+							"description": "<i>Prova de que você tem cidadãos felizes, bem alimentados e bons lugares para eles viverem.</i><ul><li>Aumenta o patrimônio líquido da Atualização Diária com base no moral geral de seus cidadãos</li><li>Cada dia traz um novo bônus aleatório para seus habitantes.</li></ul>"
 						}
 					},
 					"geo_runba_gift": {
@@ -465,7 +465,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Ótimo trabalho! Em homenagem a essa conquista, apresento a vocês o<span class='gmajor'> Santuário da Pata.</span><br>Basta colocá-lo em um local agradável e podemos prosseguir com a cerimônia de avanço.< p>Vou ensinar aos seus habitantes essas novas receitas que desenvolvi, incluindo uma receita de Geomante para cultivar mais plantas<span class='gminor'> Mega Hearthbud </span>, para aumentar a produção de Amberstone Cube!</p>"
+										"00": "Ótimo trabalho! Em homenagem a essa conquista, apresento a vocês o<span class='gmajor'> Santuário da Pata.</span><br>Basta colocá-lo em um local agradável e podemos prosseguir com a cerimônia de avanço.<p>Vou ensinar aos seus habitantes essas novas receitas que desenvolvi, incluindo uma receita de Geomante para cultivar mais plantas<span class='gminor'> Mega Hearthbud </span>, para aumentar a produção de Amberstone Cube!</p>"
 									},
 									"bulletin_title": "Santuário Especial",
 									"dialog_title": "Santuário Especial",
@@ -571,7 +571,7 @@
 								},
 								"read_letter": {
 									"bulletin_message": {
-										"00": "Agora, vamos dar um nome à nossa nova vila e comemorar este dia!<p>Nossa experiência no mundo nos permite aprender rapidamente os empregos, e devemos<i><span class='gminor'> mudar de emprego </span ></i>sempre que precisarmos: para criar, cultivar ou combater.</p><p>Gradualmente, mais Rabbitkin e Dragonborn virão para se juntar à Guarda da Lareira!"
+										"00": "Agora, vamos dar um nome à nossa nova vila e comemorar este dia!<p>Nossa experiência no mundo nos permite aprender rapidamente os empregos, e devemos<i><span class='gminor'> mudar de emprego </span></i>sempre que precisarmos: para criar, cultivar ou combater.</p><p>Gradualmente, mais Rabbitkin e Dragonborn virão para se juntar à Guarda da Lareira!"
 									},
 									"bulletin_title": "Nosso novo mundo",
 									"dialog_title": "Nosso novo mundo",

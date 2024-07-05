@@ -130,7 +130,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "Temos que escolher como manejar nossos poderes mágicos, pois eles podem ser usados ​​em atos de defesa, ou como uma força destrutiva.<br><br>O Mago nos mostrou como viver uma vida justa, mas um dia tudo acaba . Encontramos um velho livro de feitiços vermelho no chão com uma nota dentro.<br><i>\"Use este feitiço para alterar a magnitude de seus inimigos, isso os torna mais fracos! - Klaus\"</i><br><br > Cabe a nós agora encontrar o caminho a seguir. Nós recebemos:"
+										"00": "Temos que escolher como manejar nossos poderes mágicos, pois eles podem ser usados ​​em atos de defesa, ou como uma força destrutiva.<br><br>O Mago nos mostrou como viver uma vida justa, mas um dia tudo acaba . Encontramos um velho livro de feitiços vermelho no chão com uma nota dentro.<br><i>\"Use este feitiço para alterar a magnitude de seus inimigos, isso os torna mais fracos! - Klaus\"</i><br><br> Cabe a nós agora encontrar o caminho a seguir. Nós recebemos:"
 									},
 									"bulletin_title": "O conhecimento do feiticeiro",
 									"dialog_title": "O livro de feitiços de magnitude",

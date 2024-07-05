@@ -1325,7 +1325,7 @@
 									"bulletin_title": "Mensageiro da Capital!",
 									"dialog_title": "",
 									"bulletin_message": {
-										"00": "Em primeiro lugar, Sua Serenidade deseja expressar sua felicidade e gratidão. Na Capital, estamos todos muito felizes em ver uma equipe tão talentosa disposta a espalhar o Iluminismo para novas terras.<p>Servir a República é uma honra e guardar um legado centenário é nosso dever, especialmente em tempos instáveis ​​como estes.< /p><p><i>Rinaldo está tentando manter seu sorriso edificante, mas seus olhos dizem que ele está preocupado.</i></p>"
+										"00": "Em primeiro lugar, Sua Serenidade deseja expressar sua felicidade e gratidão. Na Capital, estamos todos muito felizes em ver uma equipe tão talentosa disposta a espalhar o Iluminismo para novas terras.<p>Servir a República é uma honra e guardar um legado centenário é nosso dever, especialmente em tempos instáveis ​​como estes.</p><p><i>Rinaldo está tentando manter seu sorriso edificante, mas seus olhos dizem que ele está preocupado.</i></p>"
 									},
 									"choice_001": "Que verdade.",
 									"choice_000": "Instável?"
@@ -1394,7 +1394,7 @@
 									"bulletin_title": "A História Continua",
 									"dialog_title": "A História Continua...",
 									"bulletin_message": {
-										"00": "<i>Rinaldo cora.</i><p>Perdoe-me, de volta à sua licença comercial! Para se tornar um comerciante oficialmente reconhecido pela República, você deve ser membro de uma das guildas comerciais. Devo dizer que você parece ser famoso, pois tenho cartas de líderes dos três mais proeminentes de toda a Liga comigo! Ninguém lê a correspondência de outra pessoa, então não tenho ideia do que exatamente eles escreveram, mas aposto que todos têm ótimas ofertas para você!</p><p><i>Rinaldo lhe entrega três pergaminhos selados de forma diferente.</i>< /p>"
+										"00": "<i>Rinaldo cora.</i><p>Perdoe-me, de volta à sua licença comercial! Para se tornar um comerciante oficialmente reconhecido pela República, você deve ser membro de uma das guildas comerciais. Devo dizer que você parece ser famoso, pois tenho cartas de líderes dos três mais proeminentes de toda a Liga comigo! Ninguém lê a correspondência de outra pessoa, então não tenho ideia do que exatamente eles escreveram, mas aposto que todos têm ótimas ofertas para você!</p><p><i>Rinaldo lhe entrega três pergaminhos selados de forma diferente.</i></p>"
 									},
 									"choice_000": "Deixe-me vê-los.",
 									"choice_001": "Espero que sim!"

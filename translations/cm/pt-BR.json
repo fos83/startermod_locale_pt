@@ -201,7 +201,7 @@
 							"dialog_nodes": {
 								"simple_message": {
 									"bulletin_message": {
-										"00": "Saudações a você, Clã Muramasa. Meu nome é Amaterasu.<br>Para cultivar nossa cultura básica, Arroz, existem requisitos únicos: um campo inundado em terra e luz solar para crescer adequadamente.<br><br>Primeiro, uma área pode ser escavada na terra para reter a água, e então a cultura do arroz pode ser plantada no solo submerso. Isso pode ser feito naturalmente perto de um lago ou rio, mas a água também pode ser colocada onde você escolher usando estes presentes:<br><p align='left'><font size=-1 color='#cccccc'>< i>\"A Pedra Molhada:\"</i> Uma área pode ser preenchida com água colocando esta pedra de convocação que emite líquido.<br><i>\"A Pedra Seca:\"</i> Uma pedra de convocação que pode secar umidade nas proximidades, se houver muita coisa no caminho.</font>"
+										"00": "Saudações a você, Clã Muramasa. Meu nome é Amaterasu.<br>Para cultivar nossa cultura básica, Arroz, existem requisitos únicos: um campo inundado em terra e luz solar para crescer adequadamente.<br><br>Primeiro, uma área pode ser escavada na terra para reter a água, e então a cultura do arroz pode ser plantada no solo submerso. Isso pode ser feito naturalmente perto de um lago ou rio, mas a água também pode ser colocada onde você escolher usando estes presentes:<br><p align='left'><font size=-1 color='#cccccc'><i>\"A Pedra Molhada:\"</i> Uma área pode ser preenchida com água colocando esta pedra de convocação que emite líquido.<br><i>\"A Pedra Seca:\"</i> Uma pedra de convocação que pode secar umidade nas proximidades, se houver muita coisa no caminho.</font>"
 									},
 									"bulletin_title": "Amaterasu Chega!",
 									"dialog_title": "Uma introdução à agricultura de arroz",
@@ -333,7 +333,7 @@
 								},
 								"msg4": {
 									"bulletin_message": {
-										"00": "Por outro lado, esperamos que você comece a considerar outro estágio de crescimento para seu posto avançado. Sua renomada proeza na produção de armas para resistir aos monstros é valiosa para o Império, assim como sua habilidade em extrair minerais abundantes e alimentos desta terra.<p>Fique seguro!<br>Shogun<br>Xogunato Imperial Oriental< /p><br><font size=-1>PS Um pequeno presente para você, para dar sorte <font size=+2>✨</font></font>"
+										"00": "Por outro lado, esperamos que você comece a considerar outro estágio de crescimento para seu posto avançado. Sua renomada proeza na produção de armas para resistir aos monstros é valiosa para o Império, assim como sua habilidade em extrair minerais abundantes e alimentos desta terra.<p>Fique seguro!<br>Shogun<br>Xogunato Imperial Oriental</p><br><font size=-1>PS Um pequeno presente para você, para dar sorte <font size=+2>✨</font></font>"
 									},
 									"bulletin_title": "Para ser considerado",
 									"dialog_title": "Para ser considerado",
@@ -466,7 +466,7 @@
 								},
 								"makers": {
 									"bulletin_message": {
-										"00": "Vem cá, gente! Eu sou Shokuzen, um Mestre Artesão da Guilda Za, e um admirador deste seu pequeno Assentamento. Tão eficiente! Tão promissor! <br>Os bens que você está negociando com os outros Clãs são muito úteis para o crescimento do nosso Império.<br><br><font size=-1><i>Shokuzen examina e admira os móveis e as pedras finamente trabalhadas.</ i></font>"
+										"00": "Vem cá, gente! Eu sou Shokuzen, um Mestre Artesão da Guilda Za, e um admirador deste seu pequeno Assentamento. Tão eficiente! Tão promissor! <br>Os bens que você está negociando com os outros Clãs são muito úteis para o crescimento do nosso Império.<br><br><font size=-1><i>Shokuzen examina e admira os móveis e as pedras finamente trabalhadas.</i></font>"
 									},
 									"bulletin_title": "O Artesão",
 									"dialog_title": "O Artesão",
@@ -474,7 +474,7 @@
 								},
 								"makers_cont": {
 									"bulletin_message": {
-										"00": "Como você sabe, a Guilda Za é uma importante agência de Crafters dentro do Império, então tenho certeza que você não está surpreso em me ver aqui. <br>Adoraríamos que você se juntasse à Guilda - acho que seu Assentamento pode produzir e exportar alguns dos melhores produtos que o Clã Muramasa tem a oferecer, com seus artesãos altamente qualificados.<br><br><font size=-1 ><i>Dedicar um Santuário Hinamatsuri concederá a capacidade de criar móveis e decorações com qualidade de obra-prima, que são consideravelmente melhores do que aqueles de excelente qualidade.</i></font>"
+										"00": "Como você sabe, a Guilda Za é uma importante agência de Crafters dentro do Império, então tenho certeza que você não está surpreso em me ver aqui. <br>Adoraríamos que você se juntasse à Guilda - acho que seu Assentamento pode produzir e exportar alguns dos melhores produtos que o Clã Muramasa tem a oferecer, com seus artesãos altamente qualificados.<br><br><font size=-1><i>Dedicar um Santuário Hinamatsuri concederá a capacidade de criar móveis e decorações com qualidade de obra-prima, que são consideravelmente melhores do que aqueles de excelente qualidade.</i></font>"
 									},
 									"bulletin_title": "Shokuzen!",
 									"dialog_title": "Shokuzen",
@@ -510,7 +510,7 @@
 					"shrine_choice": {
 						"guildmaster": {
 							"name": "Santuário Hinamatsuri",
-							"description": "<i>Este município será conhecido por sua produtividade, riqueza e habilidade.</i><ul><li>Permite criar itens de qualidade Obra-prima</li><li>Desbloqueia receitas caseiras de decoração</li></ul >"
+							"description": "<i>Este município será conhecido por sua produtividade, riqueza e habilidade.</i><ul><li>Permite criar itens de qualidade Obra-prima</li><li>Desbloqueia receitas caseiras de decoração</li></ul>"
 						},
 						"deity": {
 							"name": "Santuário Cleyera",
@@ -691,7 +691,7 @@
 								},
 								"msg3": {
 									"bulletin_message": {
-										"00": "<p align='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Tanuki, eu sei, é hora de ir.<br/>< br/>Eu adoraria ficar mais tempo, mas devo continuar na minha missão de unir os Clãs do Império.<br/><br/>Parabéns pelo seu sucesso, e obrigado por nunca ter feito muita papelada para mim."
+										"00": "<p align='right'><font color='#E3D0AF'>(Yap! Yap!)</font></p>Sim, sim, Tanuki, eu sei, é hora de ir.<br/><br/>Eu adoraria ficar mais tempo, mas devo continuar na minha missão de unir os Clãs do Império.<br/><br/>Parabéns pelo seu sucesso, e obrigado por nunca ter feito muita papelada para mim."
 									},
 									"bulletin_title": "Shogun continua",
 									"dialog_title": "O Shogun",
@@ -2223,7 +2223,7 @@
 				"banner_trading_ghost": {
 					"display_name": "Bandeira de Negociação",
 					"description": "Como você sabe que voltou para casa.",
-					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li >Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
+					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
 				},
 				"banner_trading_token_iconic": {
 					"display_name": "Bandeira do Fragmento de Negociação",
@@ -2234,7 +2234,7 @@
 				"banner_mining_ghost": {
 					"display_name": "Bandeira da Mineração",
 					"description": "Como você sabe que voltou para casa",
-					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li> ></ul>"
+					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"banner_mining_token_iconic": {
 					"display_name": "Bandeira de Fragmento de Mineração",
@@ -2245,7 +2245,7 @@
 				"banner_growing_ghost": {
 					"display_name": "Bandeira do crescimento",
 					"description": "Como você sabe que voltou para casa",
-					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Cultivos crescem 25% mais rápido</li><li >As plantas têm 2x seu apelo normal</li></ul>"
+					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Plantas e Cultivos crescem 25% mais rápido</li><li>As plantas têm 2x seu apelo normal</li></ul>"
 				},
 				"banner_growing_token_iconic": {
 					"display_name": "Bandeira do Fragmento Crescente",

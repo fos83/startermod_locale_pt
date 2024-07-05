@@ -154,7 +154,7 @@
 									"bulletin_title": "Um rosto conhecido",
 									"dialog_title": "Um rosto conhecido",
 									"bulletin_message": {
-										"00": "Uma mulher se aproxima do acampamento. Ela usa as vestes roxas de um Boxling High. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu seguindo, mas ela deve ter sido por muito tempo.</font></ p>"
+										"00": "Uma mulher se aproxima do acampamento. Ela usa as vestes roxas de um Boxling High. <br><br><p align='right'><font size=-6 color='#cccccc'>Ninguém a viu seguindo, mas ela deve ter sido por muito tempo.</font></p>"
 									},
 									"choice_000": "Você parece familiar..."
 								},
@@ -403,7 +403,7 @@
 								"msg1": {
 									"bulletin_title": "Darza, mais uma vez",
 									"bulletin_message": {
-										"00": "Quando Darza aparece pela última vez, é com uma bandeira roxa nas mãos. É um gêmeo daquele com o qual esta cidade embarcou, há tanto tempo. Ela inclina a cabeça com um sorriso e gesticula para o horizonte. Ela não precisa falar. A lareira está esperando. </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></ fonte></p>"
+										"00": "Quando Darza aparece pela última vez, é com uma bandeira roxa nas mãos. É um gêmeo daquele com o qual esta cidade embarcou, há tanto tempo. Ela inclina a cabeça com um sorriso e gesticula para o horizonte. Ela não precisa falar. A lareira está esperando. </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></fonte></p>"
 									}
 								}
 							}
@@ -540,7 +540,7 @@
 								"simple_message": {
 									"choice_000": "Obrigado Vox! Que sua alma descanse sabendo que sua magia continuará viva.",
 									"bulletin_message": {
-										"00": "<font size=-1>O Clérigo que você enviou com Vox voltou... sozinho. Eles não dizem muito além de:</font>\"O clímax dele chegou.\"<br><font size=-1> Parece que Vox compartilhou seu conhecimento conosco bem a tempo.<br><br></ font>Prometemos nunca esquecê-lo e usar nossos novos poderes para livrar este mundo do mal mais uma vez!<br>Vá em frente e conquiste.<br>Vá em frente e morra!"
+										"00": "<font size=-1>O Clérigo que você enviou com Vox voltou... sozinho. Eles não dizem muito além de:</font>\"O clímax dele chegou.\"<br><font size=-1> Parece que Vox compartilhou seu conhecimento conosco bem a tempo.<br><br></font>Prometemos nunca esquecê-lo e usar nossos novos poderes para livrar este mundo do mal mais uma vez!<br>Vá em frente e conquiste.<br>Vá em frente e morra!"
 									}
 								}
 							}

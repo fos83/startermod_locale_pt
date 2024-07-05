@@ -4579,7 +4579,7 @@
 											"dialog_nodes": {
 												"cheer": {
 													"bulletin_message": {
-														"00": "Por exemplo, uma <i>Lareira da Alegria</ i> é para aqueles que acreditam que o valor de uma cidade é encontrado em ser um lar feliz para seus cidadãos."
+														"00": "Por exemplo, uma <i>Lareira da Alegria</i> é para aqueles que acreditam que o valor de uma cidade é encontrado em ser um lar feliz para seus cidadãos."
 													},
 													"bulletin_title": "Uma escolha alegre",
 													"dialog_title": "Uma escolha alegre",
@@ -9776,7 +9776,7 @@
 			},
 			"lucky": {
 				"display_name": "Dia de Sorte",
-				"description": "Hoje, tudo é um pouquinho melhor. <ul> <li> Hearthlings encontram todas as suas doenças curadas, como que por mágica. </li> <li> Hearthlings têm um pouco de sorte em tudo o que fazem. </li> <li > Um arco-íris misterioso às vezes aparece. </li> </ul>",
+				"description": "Hoje, tudo é um pouquinho melhor. <ul> <li> Hearthlings encontram todas as suas doenças curadas, como que por mágica. </li> <li> Hearthlings têm um pouco de sorte em tudo o que fazem. </li> <li> Um arco-íris misterioso às vezes aparece. </li> </ul>",
 				"pot_of_gold": {
 					"display_name": "Pote de ouro",
 					"description": "Hoje é seu dia de sorte!"
@@ -9784,7 +9784,7 @@
 			},
 			"foggy": {
 				"display_name": "Nebuloso",
-				"description": "Um manto de neblina rasteja pela paisagem, escondendo mistérios não contados. <ul> <li> Monstros mortos-vivos saem do esconderijo sob a capa do nevoeiro. </li> <li> O alcance da visão é bastante reduzido. </li> < /ul>"
+				"description": "Um manto de neblina rasteja pela paisagem, escondendo mistérios não contados. <ul> <li> Monstros mortos-vivos saem do esconderijo sob a capa do nevoeiro. </li> <li> O alcance da visão é bastante reduzido. </li> </ul>"
 			},
 			"cloudy": {
 				"display_name": "Nublado",

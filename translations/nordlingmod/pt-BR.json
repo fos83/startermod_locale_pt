@@ -342,11 +342,11 @@
 					"shrine_choice": {
 						"valor": {
 							"name": "Santuário para Thor",
-							"description": "<i>Esta vila será dedicada ao exemplo valoroso de Thor para proteger todos os Nove Reinos.</i><ul><li>Desbloqueia receitas de armas lendárias</li><li>Desbloqueia receitas de decoração de castelo</li>< /ul>"
+							"description": "<i>Esta vila será dedicada ao exemplo valoroso de Thor para proteger todos os Nove Reinos.</i><ul><li>Desbloqueia receitas de armas lendárias</li><li>Desbloqueia receitas de decoração de castelo</li></ul>"
 						},
 						"guildmaster": {
 							"name": "Santuário para Odin",
-							"description": "<i>Este município será conhecido pela busca de seus artesãos por sabedoria e artesanato mágico.</i><ul><li>Permite criar itens de qualidade Obra-prima</li><li>Desbloqueia receitas de decoração com temas artesanais</li> ></ul>"
+							"description": "<i>Este município será conhecido pela busca de seus artesãos por sabedoria e artesanato mágico.</i><ul><li>Permite criar itens de qualidade Obra-prima</li><li>Desbloqueia receitas de decoração com temas artesanais</li></ul>"
 						},
 						"deity": {
 							"name": "Santuário para Freya",
@@ -511,7 +511,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_message": {
-										"00": "\"Nordlings, os deuses antigos os consideram dignos e lhes dão a oportunidade de se aventurar e começar outra cidade. Vocês podem escolher alguns cidadãos sábios e capazes, e alguns bens que obtiveram.\" </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></ fonte></p>"
+										"00": "\"Nordlings, os deuses antigos os consideram dignos e lhes dão a oportunidade de se aventurar e começar outra cidade. Vocês podem escolher alguns cidadãos sábios e capazes, e alguns bens que obtiveram.\" </p><p><font size=-1><i>Reembarcar permite que você carregue até 3 cidadãos, 10 itens e todas as suas receitas desbloqueadas ao iniciar uma nova cidade.</i></fonte></p>"
 									},
 									"bulletin_title": "A Stoic tem novidades!",
 									"dialog_title": "Uma nova saga",
@@ -1163,7 +1163,7 @@
 				"nordlings_town_banner_guardian_ghost": {
 					"display_name": "Bandeira da astúcia",
 					"description": "Como você sabe que voltou para casa.",
-					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li >Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
+					"town_bonus_description": "<i>Este assentamento será um movimentado centro de comércio.</i><ul><li>As estradas aumentam 3x a velocidade normal</li><li>Seus itens são vendidos por 50% a mais</li><li>Os comerciantes trarão 2x as mercadorias e ouro</li></ul>"
 				},
 				"town_banner_guardian_token_iconic": {
 					"display_name": "Bandeira de Fragmento Astuto",
@@ -1178,7 +1178,7 @@
 				"nordlings_town_banner_might_ghost": {
 					"display_name": "Bandeira da Força",
 					"description": "Como você sabe que voltou para casa",
-					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li> ></ul>"
+					"town_bonus_description": "<i>Este assentamento se fortalecerá através da terra e do aço.</i><ul><li>A mineração dá 50% a mais de minério, pedra e argila</li><li>Os Hearthlings não se importam mais com espaços apertados</li></ul>"
 				},
 				"nordlings_town_banner_might_token_iconic": {
 					"display_name": "Bandeira de Fragmento de Força",
@@ -1189,7 +1189,7 @@
 				"nordlings_town_banner_nature_ghost": {
 					"display_name": "Bandeira da Vitalidade",
 					"description": "Como você sabe que voltou para casa",
-					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Tanto as plantas quanto as plantações crescem 25% mais rápido</li><li >As plantas têm 2x seu apelo normal</li></ul>"
+					"town_bonus_description": "<i>Este assentamento deve estar em harmonia com o meio ambiente.</i><ul><li>Árvores produzem 25% mais Madeira</li><li>Tanto as plantas quanto as plantações crescem 25% mais rápido</li><li>As plantas têm 2x seu apelo normal</li></ul>"
 				},
 				"nordlings_town_banner_nature_token_iconic": {
 					"display_name": "Bandeira do Fragmento de Vitalidade",

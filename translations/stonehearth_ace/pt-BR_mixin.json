@@ -185,7 +185,7 @@
 						"waiting_text": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> se você tem <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> pronto para ele!"
 					},
 					"returning_crop_trader_encounter": {
-						"waiting_text": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] se você tiver <strong>[str(i18n_data.want_number)] [str( i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]' /> pronto para ele!"
+						"waiting_text": "O comerciante estará de volta em [str(i18n_data.hour_counter)] [str(i18n_data.period)] para lhe dar [str(i18n_data.reward_item)] se você tiver <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)] <span class='numCached'>([str(i18n_data.req_1.quantity)])</span></strong><img class='questItemsCached [str(i18n_data.req_1.items_cached_class)]'/> pronto para ele!"
 					}
 				}
 			}

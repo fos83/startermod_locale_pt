@@ -36,7 +36,8 @@
 	"mixintos": {
 		"tower_defense/data/compatible_mods.json": "file(data/compatible_mods.json)",
 		"stonehearth/locales/pt-BR.json": "stonehearth_ace/locales/pt-BR_mixin.json",
-		"stonehearth/locales/supported_languages.json": "file(added_languages.json)"
+		"stonehearth/locales/supported_languages.json": "file(added_languages.json)",
+		"stonehearth_ace/version.json": "file(translations/stonehearth_ace/version.json)"
 	},
 	"overrides": {
 		"stonehearth/locales/pt-BR.json": "file(translations/stonehearth/pt-BR.json)",
