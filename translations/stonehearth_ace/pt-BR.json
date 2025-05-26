@@ -347,7 +347,7 @@
 						"bulletin_title": "Receitas de Amberstone Cook & Brewer desbloqueadas!"
 					},
 					"21_residents_reward_c": {
-						"bulletin_title": "O pedeiro agora pode criar uma 'tenda do mercado Clan Amberstone'!"
+						"bulletin_title": "O pedreiro agora pode criar uma 'tenda do mercado Clan Amberstone'!"
 					},
 					"21_residents_reward_d": {
 						"bulletin_title": "A Tecelã agora pode fabricar 'Pedaço de Pano Trançado'!"
@@ -956,7 +956,7 @@
 								},
 								"persistence_mason": {
 									"shop_info": {
-										"name": "Bens de um pedeiro renomado",
+										"name": "Bens de um pedreiro renomado",
 										"title": "Um comerciante traz produtos de alvenaria de uma cidade próspera"
 									}
 								},
@@ -1549,7 +1549,7 @@
 						"recipe_unlock": "O Carpinteiro agora pode criar um 'Estande de Mercado da Guilda dos Herbalistas'!"
 					},
 					"ace_strength_unlock": {
-						"recipe_unlock": "O Pedeiro agora pode criar um 'Estande de Mercado da Guilda dos Mineiros'!"
+						"recipe_unlock": "O Pedreiro agora pode criar um 'Estande de Mercado da Guilda dos Mineiros'!"
 					},
 					"ace_cunning_unlock": {
 						"recipe_unlock": "O Oleiro agora pode criar um 'Gold Trader Market Stand'!"
@@ -1558,7 +1558,7 @@
 						"recipe_unlock": "O Carpinteiro agora pode criar uma 'Banca do Mercado da Guilda dos Fazendeiros'!"
 					},
 					"ace_makers_unlock": {
-						"recipe_unlock": "O Pedeiro agora pode criar uma 'Barraca do Mercado da Guilda dos Escultores'!"
+						"recipe_unlock": "O Pedreiro agora pode criar uma 'Barraca do Mercado da Guilda dos Escultores'!"
 					},
 					"ace_glory_unlock": {
 						"recipe_unlock": "O Ferreiro agora pode criar uma 'Banca do Mercado da Guilda dos Engenheiros'!"
@@ -1689,7 +1689,7 @@
 									"bulletin_title": "O viajante grisalho",
 									"dialog_title": "Thorulf parece chateado",
 									"bulletin_message": {
-										"00": "\"O que?\" ele troveja. \"Não, não a chame de animal de estimação! Ela é um duende - não um esquilo. Eles são pessoas também, sabia?\"<p>Ele tosse, acenando com a mão como um pedido de desculpas.<p>\"Peço desculpas. É apenas... Nós passamos por muita coisa, Rattley e eu.\" Ele olha na direção dela enquanto ela brinca com um pequeno taco de osso. \"Infelizmente, não há muitos lugares preparados para aceitar ou pelo menos tentar entender os goblins...\""
+										"00": "\"O que?\" ele troveja. \"Não, não a chame de animal de estimação! Ela é um goblin - não um esquilo. Eles são pessoas também, sabia?\"<p>Ele tosse, acenando com a mão como um pedido de desculpas.<p>\"Peço desculpas. É apenas... Nós passamos por muita coisa, Rattley e eu.\" Ele olha na direção dela enquanto ela brinca com um pequeno taco de osso. \"Infelizmente, não há muitos lugares preparados para aceitar ou pelo menos tentar entender os goblins...\""
 									},
 									"choice_000": "Eu vejo. Desculpas!"
 								},
@@ -1755,7 +1755,7 @@
 									"bulletin_title": "Thorulf & Rattley",
 									"dialog_title": "Thorulf & Rattley",
 									"bulletin_message": {
-										"00": "Thorulf olha em volta, coçando o bigode. \"Vocês das terras do sul não estão acostumados a esculpir ossos.\"<p>Ele ergue as sobrancelhas, claramente tendo uma ideia. \"Estou ensinando Rattley, mais um aprendiz não faria mal. Em breve iremos caçar e posso ensinar um pedeiro, se quiser.\" Ele sorri. \"Tudo o que peço são alguns suprimentos para os dias em que estaremos fora.\"<p>\"E OS OSSOS!\" Abraço Rattley."
+										"00": "Thorulf olha em volta, coçando o bigode. \"Vocês das terras do sul não estão acostumados a esculpir ossos.\"<p>Ele ergue as sobrancelhas, claramente tendo uma ideia. \"Estou ensinando Rattley, mais um aprendiz não faria mal. Em breve iremos caçar e posso ensinar um pedreiro, se quiser.\" Ele sorri. \"Tudo o que peço são alguns suprimentos para os dias em que estaremos fora.\"<p>\"E OS OSSOS!\" Abraço Rattley."
 									},
 									"choice_000": "Uma boa ideia!",
 									"choice_001": "Lamento mas não."
@@ -1810,8 +1810,8 @@
 					},
 					"mason_dispatch_quest": {
 						"text": "Selecione um pedreiro (nível 2+) para aprender escultura em ossos com Thorulf e Rattley!",
-						"title": "Selecione um pedeiro",
-						"dialog_title": "Selecione um pedeiro"
+						"title": "Selecione um pedreiro",
+						"dialog_title": "Selecione um pedreiro"
 					},
 					"trip_finished_dialogue": {
 						"dialog_tree_info": {
@@ -1845,7 +1845,7 @@
 									"bulletin_title": "Thorulf & Rattley voltaram!",
 									"dialog_title": "Eles andam até a cidade...",
 									"bulletin_message": {
-										"00": "\"Muitos cumprimentos! Parece que nossos caminhos se cruzaram novamente\", diz ele, sorrindo.<p>Rattley pula na frente dele. \"AMIGO DE OSSO!\"<p>Ela ri e Thorulf continua, \"Ela insistiu em vir. Temos uma proposta!\" Ele mostra algumas de suas próprias ferramentas esculpidas em osso enquanto elabora: \"Vamos fazer outra viagem de caça por perto e talvez um pedeiro esteja interessado em aprender escultura em osso?\""
+										"00": "\"Muitos cumprimentos! Parece que nossos caminhos se cruzaram novamente\", diz ele, sorrindo.<p>Rattley pula na frente dele. \"AMIGO DE OSSO!\"<p>Ela ri e Thorulf continua, \"Ela insistiu em vir. Temos uma proposta!\" Ele mostra algumas de suas próprias ferramentas esculpidas em osso enquanto elabora: \"Vamos fazer outra viagem de caça por perto e talvez um pedreiro esteja interessado em aprender escultura em osso?\""
 									},
 									"choice_000": "Me diga mais!",
 									"choice_001": "Desculpe, não temos interesse."
@@ -2532,7 +2532,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"bulletin_title": "❄️ Alguém se aproxima vestindo um casaco confortável e um boné bem comprido... ❄️",
-									"dialog_title": "É um duende!",
+									"dialog_title": "É um goblin!",
 									"bulletin_message": {
 										"00": "\"Oh! Oh, oh, oh! Tomtee vê alguém, finalmente!\" Ela parece particularmente feliz em encontrar sua cidade. \"Você deve ajudar Tomtee, ela precisa de alguém para... Não, espere. Talvez você não possa ajudar. Mas talvez você possa! Aqui, Tomtee precisa de algo rápido, ela... Uh...\"<br><br>Ela dá tapinhas em si mesma, procurando algo em seus muitos bolsos.<br><br><span class='smaller'>\"Onde Tomtee colocou?\"</span>"
 									},
@@ -4461,7 +4461,7 @@
 					"goblin_killer": {
 						"display_name": "👺 Matador de Goblins",
 						"description": "Obtido ao matar goblins.",
-						"5_display_name": "o matador de duendes",
+						"5_display_name": "o matador de goblins",
 						"5_description": "Eles mataram 5 goblins!",
 						"10_display_name": "o Esmagador de Goblins",
 						"10_description": "Eles mataram 10 goblins! Lá foram eles, matando de novo!",
@@ -5839,7 +5839,7 @@
 				},
 				"sculpt_block": {
 					"display_name": "bloco de cinzel",
-					"description": "Ordene a um Trabalhador que esculpa esta pedra em um belo e útil bloco para ser levado para casa e trabalhado por um Pedeiro!"
+					"description": "Ordene a um Trabalhador que esculpa esta pedra em um belo e útil bloco para ser levado para casa e trabalhado por um Pedreiro!"
 				},
 				"sculpt_statue": {
 					"display_name": "Fazer arte!",
@@ -9962,7 +9962,7 @@
 					"snowling_short_recipe": {
 						"recipe_name": "Snowling Frostfeast Curto",
 						"description": "Deixe seu artesão expressar sua criatividade em um pequeno snowling!",
-						"flavor": "É um duende? É uma criança? Espere!-- Crianças existem?"
+						"flavor": "É um goblin? É uma criança? Espere!-- Crianças existem?"
 					},
 					"snowling_recipe": {
 						"recipe_name": "Frostfeast Snowling",
@@ -10071,17 +10071,17 @@
 				"block_marble_small_recipe": {
 					"recipe_name": "Bloco de Mármore Pequeno",
 					"description": "Um pedaço de mármore perfeitamente polido.",
-					"flavor": "Colha-o para pedra de mármore ou deixe um pedeiro esculpi-lo"
+					"flavor": "Colha-o para pedra de mármore ou deixe um pedreiro esculpi-lo"
 				},
 				"block_marble_medium_recipe": {
 					"recipe_name": "Bloco de Mármore Médio",
 					"description": "Junte alguns pedaços de mármore em um bloco médio.",
-					"flavor": "Colha-o para pedra de mármore ou deixe um pedeiro esculpi-lo"
+					"flavor": "Colha-o para pedra de mármore ou deixe um pedreiro esculpi-lo"
 				},
 				"block_marble_large_recipe": {
 					"recipe_name": "Enorme Bloco de Mármore",
 					"description": "Mescle vários pedaços de mármore em um grande bloco polido.",
-					"flavor": "Colha-o para pedra de mármore ou deixe um pedeiro esculpi-lo"
+					"flavor": "Colha-o para pedra de mármore ou deixe um pedreiro esculpi-lo"
 				},
 				"golem_restocking_recipe": {
 					"flavor": "Enquanto realizam suas tarefas, você pode ouvir seus pequenos chamados fofos"
@@ -10121,10 +10121,10 @@
 				"marble_furniture_name": "Móveis e Decoração, Mármore",
 				"marble_building_parts_name": "Peças de Construção, Mármore",
 				"door_mason_recipe": {
-					"description": "Adequado para a oficina de um Mestre Pedeiro."
+					"description": "Adequado para a oficina de um Mestre Pedreiro."
 				},
 				"sign_mason_recipe": {
-					"description": "Um sinal de pedra pesada, para ser exibido fora da oficina de um pedeiro."
+					"description": "Um sinal de pedra pesada, para ser exibido fora da oficina de um pedreiro."
 				},
 				"na_weaver_spindle_recipe": {
 					"recipe_name": "Eixo de Osso do Tecelão",
@@ -10137,12 +10137,12 @@
 				},
 				"mason_workbench_bone_recipe": {
 					"recipe_name": "Estúdio de escultura em ossos",
-					"description": "Exigido pelo pedeiro para esculpir móveis e equipamentos de material ósseo.",
+					"description": "Exigido pelo pedreiro para esculpir móveis e equipamentos de material ósseo.",
 					"flavor": ""
 				},
 				"mason_pedestal_amberstone_recipe": {
 					"description": "Aprovado Pelos Pedreiros do Povo Coelho.",
-					"flavor": "A habilidade do pedeiro pode ser lida pela qualidade de sua mesa de trabalho"
+					"flavor": "A habilidade do pedreiro pode ser lida pela qualidade de sua mesa de trabalho"
 				},
 				"stone_animal_door_recipe": {
 					"recipe_name": "Porta Animal de Pedra",
@@ -10833,22 +10833,22 @@
 				}
 			},
 			"mason_chisel": {
-				"description": "Ferramentas do ofício para um pedeiro.",
+				"description": "Ferramentas do ofício para um pedreiro.",
 				"mason_chisel_talisman": {
-					"description": "Necessário para promover um hearthling a pedeiro."
+					"description": "Necessário para promover um hearthling a pedreiro."
 				}
 			},
 			"mason_hammer": {
-				"description": "Ferramentas do ofício para um pedeiro."
+				"description": "Ferramentas do ofício para um pedreiro."
 			},
 			"mason_workbench_bone": {
 				"display_name": "Estúdio de escultura em ossos",
-				"description": "Usado pelo pedeiro para criar com material ósseo."
+				"description": "Usado pelo pedreiro para criar com material ósseo."
 			},
 			"mason_description": {
 				"level_1_data": {
 					"transform_perk_name": "Escultura",
-					"transform_perk_description": "O pedeiro é capaz de usar seu talento e cinzel para esculpir blocos de pedra como mármore em estátuas."
+					"transform_perk_description": "O pedreiro é capaz de usar seu talento e cinzel para esculpir blocos de pedra como mármore em estátuas."
 				},
 				"level_2_data": {
 					"recipe_unlock_2_perk_name": "Rochas e ossos extravagantes",
@@ -10856,11 +10856,11 @@
 				},
 				"level_4_data": {
 					"ornate_perk_name": "Floco de Refinamento",
-					"ornate_perk_description": "O pedeiro tem habilidade suficiente para refinar minérios de ouro ou lingotes em belos e úteis flocos de ouro."
+					"ornate_perk_description": "O pedreiro tem habilidade suficiente para refinar minérios de ouro ou lingotes em belos e úteis flocos de ouro."
 				},
 				"level_6_data": {
 					"mastery_name": "cinzel de mármore",
-					"mastery_description": "O domínio do pedeiro em seu ofício permite que eles criem as obras de pedra mais atraentes que se possa imaginar, especialmente com mármore!"
+					"mastery_description": "O domínio do pedreiro em seu ofício permite que eles criem as obras de pedra mais atraentes que se possa imaginar, especialmente com mármore!"
 				},
 				"description": "O pedreiro é capaz de moldar a pedra em ferramentas diferentes e úteis, peças de construção e decorações. Eles também podem aprender a trabalhar com ossos."
 			}
@@ -20376,7 +20376,7 @@
 				"door_mason": {
 					"door_mason_ghost": {
 						"display_name": "porta de pedreiro",
-						"description": "Adequado para a oficina de um Mestre Pedeiro."
+						"description": "Adequado para a oficina de um Mestre Pedreiro."
 					}
 				},
 				"sign_blacksmith": {
@@ -20394,7 +20394,7 @@
 				"sign_mason": {
 					"sign_mason_ghost": {
 						"display_name": "Placa de loja de pedreiro",
-						"description": "Um sinal de pedra resistente, para ser exibido fora da oficina de um pedeiro."
+						"description": "Um sinal de pedra resistente, para ser exibido fora da oficina de um pedreiro."
 					}
 				},
 				"candelabra_iron": {
@@ -24243,11 +24243,11 @@
 				},
 				"medium": {
 					"display_name": "Pedregulho de Mármore Médio",
-					"description": "Colhível por alguma pedra de mármore usada por um pedeiro para móveis finos"
+					"description": "Colhível por alguma pedra de mármore usada por um pedreiro para móveis finos"
 				},
 				"small": {
 					"display_name": "Pedregulho de Mármore Pequeno",
-					"description": "Colhível por um pedaço de pedra de mármore usada por um pedeiro para móveis finos"
+					"description": "Colhível por um pedaço de pedra de mármore usada por um pedreiro para móveis finos"
 				}
 			},
 			"large_forest_boulder": {
@@ -24785,7 +24785,7 @@
 			},
 			"mason_chisel_iron": {
 				"display_name": "Cinzel de ferro de pedreiro",
-				"description": "Esta ferramenta aprimorada permitirá que o pedeiro seja mais rápido e melhor ao criar coisas."
+				"description": "Esta ferramenta aprimorada permitirá que o pedreiro seja mais rápido e melhor ao criar coisas."
 			},
 			"potter_cutter_iron": {
 				"display_name": "Cortador de Ferro de Potter",
@@ -26009,7 +26009,7 @@
 				"species": "Orc"
 			},
 			"goblin": {
-				"species": "Duende"
+				"species": "Goblin"
 			},
 			"kobold": {
 				"species": "Kobold"
@@ -26027,13 +26027,13 @@
 				"species": "Coelho Bípede"
 			},
 			"mummy": {
-				"species": "Mamãe"
+				"species": "Múmia"
 			},
 			"undead": {
 				"species": "Morto-vivo"
 			},
 			"elves": {
-				"species": "Duende"
+				"species": "Elfo"
 			},
 			"ghost": {
 				"species": "Fantasma"
@@ -26976,7 +26976,7 @@
 							"required_job_text": "Requer um Tecelão"
 						},
 						"mason": {
-							"required_job_text": "Requer um Pedeiro"
+							"required_job_text": "Requer um Pedreiro"
 						},
 						"blacksmith": {
 							"required_job_text": "Requer um Ferreiro"
